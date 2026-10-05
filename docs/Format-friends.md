@@ -171,6 +171,14 @@ Explication en quelques phrases, tableau d'exemples.
 (2 cartes qui réutilisent les mots complémentaires)
 ```
 
+**Carte de la série** : la fiche 01 de chaque série commence, juste après le titre et l'image, par une **carte Leaflet** qui montre où se passe l'action de la série (bloc `%:` du SMD, coordonnées approximatives à régler avec `tools/geomap-editor.html`) :
+
+```
+%: Košice : le parc, la fontaine, la gare
+% 48.7236, 21.2495 | {{Mestský park}} | z13
+% 48.7206, 21.2580 | {{Spievajúca fontána}}
+```
+
 La section `## Le dialogue` est composée uniquement de cartes avec avatar : le moteur la reconnaît donc comme une section de dialogue. Les micro-dialogues font **3 à 5 répliques au début du récit, jusqu'à 8 vers la fin**.
 
 ## 10. Fiches 05 et 06 : l'épisode

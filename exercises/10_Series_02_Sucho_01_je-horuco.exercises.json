@@ -1,0 +1,220 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-hor-co",
+      "type": "qcm",
+      "l1": "chaud",
+      "l2": "horúco",
+      "choices_l1": [
+        "sec",
+        "le soleil",
+        "la pluie"
+      ],
+      "choices_l2": [
+        "sucho",
+        "slnko",
+        "dážď"
+      ]
+    },
+    {
+      "id": "qcm-sucho",
+      "type": "qcm",
+      "l1": "sec",
+      "l2": "sucho",
+      "choices_l1": [
+        "chaud",
+        "le soleil",
+        "la pluie"
+      ],
+      "choices_l2": [
+        "horúco",
+        "slnko",
+        "dážď"
+      ]
+    },
+    {
+      "id": "qcm-d",
+      "type": "qcm",
+      "l1": "la pluie",
+      "l2": "dážď",
+      "choices_l1": [
+        "le soleil",
+        "chaud",
+        "l'eau"
+      ],
+      "choices_l2": [
+        "slnko",
+        "horúco",
+        "voda"
+      ]
+    },
+    {
+      "id": "qcm-dnes",
+      "type": "qcm",
+      "l1": "aujourd'hui",
+      "l2": "dnes",
+      "choices_l1": [
+        "le matin",
+        "longtemps",
+        "maintenant"
+      ],
+      "choices_l2": [
+        "ráno",
+        "dlho",
+        "teraz"
+      ]
+    },
+    {
+      "id": "qcm-u-nie-je",
+      "type": "qcm",
+      "l1": "il n'y a plus",
+      "l2": "už nie je",
+      "choices_l1": [
+        "il n'y a pas",
+        "il y a",
+        "il est"
+      ],
+      "choices_l2": [
+        "nie je",
+        "je",
+        "som"
+      ]
+    },
+    {
+      "id": "listen-ak-je-dnes-po-asie",
+      "type": "listen",
+      "l1": "Quel temps fait-il aujourd'hui ?",
+      "l2": "Aké je dnes počasie?",
+      "choices_l1": [
+        "Quel temps fera-t-il demain ?",
+        "Il fait chaud aujourd'hui ?",
+        "Quel temps faisait-il ce matin ?"
+      ]
+    },
+    {
+      "id": "listen-u-nie-je-d",
+      "type": "listen",
+      "l1": "Il n'y a plus de pluie ?",
+      "l2": "Už nie je dážď?",
+      "choices_l1": [
+        "Il n'y a pas de pluie ?",
+        "Il n'y a plus d'eau ?",
+        "Il y a de la pluie ?"
+      ]
+    },
+    {
+      "id": "listen-nie-u-dlho",
+      "type": "listen",
+      "l1": "Non. Depuis longtemps.",
+      "l2": "Nie. Už dlho.",
+      "choices_l1": [
+        "Oui. Depuis longtemps.",
+        "Non. Depuis hier.",
+        "Non. Pas longtemps."
+      ]
+    },
+    {
+      "id": "listen-voda-u-nie-je",
+      "type": "listen",
+      "l1": "Il n'y a plus d'eau.",
+      "l2": "Voda už nie je.",
+      "choices_l1": [
+        "Il n'y a pas d'eau.",
+        "Il n'y a plus de pluie.",
+        "Il y a de l'eau."
+      ]
+    },
+    {
+      "id": "match-hor-co",
+      "type": "match",
+      "l1": [
+        "chaud",
+        "sec",
+        "le soleil",
+        "la pluie"
+      ],
+      "l2": [
+        "horúco",
+        "sucho",
+        "slnko",
+        "dážď"
+      ]
+    },
+    {
+      "id": "blank-dnes-je-hor-co",
+      "type": "fill-blank",
+      "l1": "Aujourd'hui, il fait chaud.",
+      "l2": "Dnes je horúco.",
+      "missing_l1": "chaud",
+      "missing_l2": "horúco",
+      "blank_index_l1": 3,
+      "blank_index_l2": 2,
+      "choices_l1": [
+        "sec",
+        "froid",
+        "doux"
+      ],
+      "choices_l2": [
+        "sucho",
+        "zima",
+        "teplo"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-d-u-nie-je",
+      "type": "fill-blank",
+      "l1": "Il n'y a plus de pluie.",
+      "l2": "Dážď už nie je.",
+      "missing_l1": "plus",
+      "missing_l2": "už",
+      "blank_index_l1": 3,
+      "blank_index_l2": 1,
+      "choices_l1": [
+        "pas",
+        "bien",
+        "très"
+      ],
+      "choices_l2": [
+        "nie",
+        "dobre",
+        "veľmi"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-dnes-je-hor-co",
+      "type": "order",
+      "l1": "Aujourd'hui, il fait chaud.",
+      "l2": "Dnes je horúco.",
+      "tokens_l1": [
+        "Aujourd'hui,",
+        "il fait",
+        "chaud."
+      ],
+      "tokens_l2": [
+        "Dnes",
+        "je",
+        "horúco."
+      ]
+    },
+    {
+      "id": "order-voda-u-nie-je",
+      "type": "order",
+      "l1": "Il n'y a plus d'eau.",
+      "l2": "Voda už nie je.",
+      "tokens_l1": [
+        "Il n'y a",
+        "plus",
+        "d'eau."
+      ],
+      "tokens_l2": [
+        "Voda",
+        "už",
+        "nie je."
+      ]
+    }
+  ]
+}

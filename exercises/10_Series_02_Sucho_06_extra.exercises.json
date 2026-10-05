@@ -1,0 +1,207 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "listen-kde-je-vlak",
+      "type": "listen",
+      "l1": "Où est le train ?",
+      "l2": "Kde je vlak?",
+      "choices_l1": [
+        "Où est la gare ?",
+        "Où est le billet ?",
+        "Où vas-tu ?"
+      ]
+    },
+    {
+      "id": "listen-tam-je-vlak",
+      "type": "listen",
+      "l1": "Le train est là-bas.",
+      "l2": "Tam je vlak.",
+      "choices_l1": [
+        "Le train est ici.",
+        "Le tram est là-bas.",
+        "Le billet est là-bas."
+      ]
+    },
+    {
+      "id": "listen-ja-m-m-l-stok-a-ty",
+      "type": "listen",
+      "l1": "Moi, j'ai un billet. Et toi ?",
+      "l2": "Ja mám lístok. A ty?",
+      "choices_l1": [
+        "Moi, j'ai un train. Et toi ?",
+        "Toi, tu as un billet. Et moi ?",
+        "Moi, j'ai deux billets. Et toi ?"
+      ]
+    },
+    {
+      "id": "listen-dobr-de-kam-idete",
+      "type": "listen",
+      "l1": "Bonjour. Où allez-vous ?",
+      "l2": "Dobrý deň. Kam idete?",
+      "choices_l1": [
+        "Bonjour. Où vas-tu ?",
+        "Bonjour. Vous avez un billet ?",
+        "Salut. Où allez-vous ?"
+      ]
+    },
+    {
+      "id": "listen-akujem-po",
+      "type": "listen",
+      "l1": "Merci. Viens !",
+      "l2": "Ďakujem. Poď!",
+      "choices_l1": [
+        "Merci. Attends !",
+        "Merci. J'arrive !",
+        "Pardon. Viens !"
+      ]
+    },
+    {
+      "id": "listen-vlak-ide-na-z-pad",
+      "type": "listen",
+      "l1": "Le train va vers l'ouest.",
+      "l2": "Vlak ide na západ.",
+      "choices_l1": [
+        "Le train va vers l'est.",
+        "Le tram va vers l'ouest.",
+        "Le train est à l'ouest."
+      ]
+    },
+    {
+      "id": "match-d",
+      "type": "match",
+      "l1": [
+        "la pluie",
+        "le sac à dos",
+        "la fontaine",
+        "la route"
+      ],
+      "l2": [
+        "dážď",
+        "batoh",
+        "fontána",
+        "cesta"
+      ]
+    },
+    {
+      "id": "match-m-lo",
+      "type": "match",
+      "l1": [
+        "peu",
+        "assez",
+        "loin",
+        "nulle part"
+      ],
+      "l2": [
+        "málo",
+        "dosť",
+        "ďaleko",
+        "nikde"
+      ]
+    },
+    {
+      "id": "qcm-prame",
+      "type": "qcm",
+      "l1": "la source",
+      "l2": "prameň",
+      "choices_l1": [
+        "la goutte",
+        "le puits",
+        "la rivière"
+      ],
+      "choices_l2": [
+        "kvapka",
+        "studňa",
+        "rieka"
+      ]
+    },
+    {
+      "id": "qcm-uvid-me",
+      "type": "qcm",
+      "l1": "on verra",
+      "l2": "uvidíme",
+      "choices_l1": [
+        "allons-y",
+        "nous allons",
+        "nous avons"
+      ],
+      "choices_l2": [
+        "poďme",
+        "ideme",
+        "máme"
+      ]
+    },
+    {
+      "id": "qcm-ch-ba-mi",
+      "type": "qcm",
+      "l1": "il me manque",
+      "l2": "chýba mi",
+      "choices_l1": [
+        "il te manque",
+        "je bois",
+        "je cherche"
+      ],
+      "choices_l2": [
+        "chýba ti",
+        "pijem",
+        "hľadám"
+      ]
+    },
+    {
+      "id": "blank-kde-je-vlak",
+      "type": "fill-blank",
+      "l1": "Où est le train ?",
+      "l2": "Kde je vlak?",
+      "missing_l1": "train",
+      "missing_l2": "vlak",
+      "blank_index_l1": 3,
+      "blank_index_l2": 2,
+      "choices_l1": [
+        "billet",
+        "parc",
+        "puits"
+      ],
+      "choices_l2": [
+        "lístok",
+        "park",
+        "studňa"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-tam-je-vlak",
+      "type": "order",
+      "l1": "Le train est là-bas.",
+      "l2": "Tam je vlak.",
+      "tokens_l1": [
+        "Le train",
+        "est",
+        "là-bas."
+      ],
+      "tokens_l2": [
+        "Tam",
+        "je",
+        "vlak."
+      ]
+    },
+    {
+      "id": "order-ja-m-m-l-stok-a-ty",
+      "type": "order",
+      "l1": "Moi, j'ai un billet. Et toi ?",
+      "l2": "Ja mám lístok. A ty?",
+      "tokens_l1": [
+        "Moi,",
+        "j'ai",
+        "un billet.",
+        "Et toi ?"
+      ],
+      "tokens_l2": [
+        "Ja",
+        "mám",
+        "lístok.",
+        "A ty?"
+      ]
+    }
+  ]
+}

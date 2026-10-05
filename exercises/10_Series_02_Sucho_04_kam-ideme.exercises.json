@@ -1,0 +1,201 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-ideme",
+      "type": "qcm",
+      "l1": "nous allons",
+      "l2": "ideme",
+      "choices_l1": [
+        "nous avons",
+        "nous sommes",
+        "nous cherchons"
+      ],
+      "choices_l2": [
+        "máme",
+        "sme",
+        "hľadáme"
+      ]
+    },
+    {
+      "id": "qcm-m-me",
+      "type": "qcm",
+      "l1": "nous avons",
+      "l2": "máme",
+      "choices_l1": [
+        "nous allons",
+        "nous sommes",
+        "nous cherchons"
+      ],
+      "choices_l2": [
+        "ideme",
+        "sme",
+        "hľadáme"
+      ]
+    },
+    {
+      "id": "qcm-aleko",
+      "type": "qcm",
+      "l1": "loin",
+      "l2": "ďaleko",
+      "choices_l1": [
+        "près",
+        "demain",
+        "la route"
+      ],
+      "choices_l2": [
+        "blízko",
+        "zajtra",
+        "cesta"
+      ]
+    },
+    {
+      "id": "qcm-mapa",
+      "type": "qcm",
+      "l1": "la carte",
+      "l2": "mapa",
+      "choices_l1": [
+        "la route",
+        "le sac à dos",
+        "le parc"
+      ],
+      "choices_l2": [
+        "cesta",
+        "batoh",
+        "park"
+      ]
+    },
+    {
+      "id": "qcm-uvid-me",
+      "type": "qcm",
+      "l1": "on verra",
+      "l2": "uvidíme",
+      "choices_l1": [
+        "allons-y",
+        "nous allons",
+        "nous avons"
+      ],
+      "choices_l2": [
+        "poďme",
+        "ideme",
+        "máme"
+      ]
+    },
+    {
+      "id": "listen-kam-ideme",
+      "type": "listen",
+      "l1": "Où allons-nous ?",
+      "l2": "Kam ideme?",
+      "choices_l1": [
+        "Où es-tu ?",
+        "Où vas-tu ?",
+        "Où est la carte ?"
+      ]
+    },
+    {
+      "id": "listen-na-z-pad-aleko",
+      "type": "listen",
+      "l1": "Vers l'ouest. Loin.",
+      "l2": "Na západ. Ďaleko.",
+      "choices_l1": [
+        "À l'ouest. Loin.",
+        "Vers l'est. Loin.",
+        "Vers l'ouest. Près."
+      ]
+    },
+    {
+      "id": "listen-teraz-si-tu-uvid-me",
+      "type": "listen",
+      "l1": "Pour l'instant, tu es là. On verra.",
+      "l2": "Teraz si tu. Uvidíme.",
+      "choices_l1": [
+        "Pour l'instant, tu es là. On part.",
+        "Avant, tu étais là. On verra.",
+        "Pour l'instant, je suis là. On verra."
+      ]
+    },
+    {
+      "id": "listen-zajtra-ideme-pre",
+      "type": "listen",
+      "l1": "Demain, on part.",
+      "l2": "Zajtra ideme preč.",
+      "choices_l1": [
+        "Aujourd'hui, on part.",
+        "Demain, on arrive.",
+        "Demain, tu pars."
+      ]
+    },
+    {
+      "id": "match-ideme",
+      "type": "match",
+      "l1": [
+        "nous allons",
+        "nous avons",
+        "nous sommes",
+        "nous cherchons"
+      ],
+      "l2": [
+        "ideme",
+        "máme",
+        "sme",
+        "hľadáme"
+      ]
+    },
+    {
+      "id": "blank-na-z-pad-aleko",
+      "type": "fill-blank",
+      "l1": "Vers l'ouest. Loin.",
+      "l2": "Na západ. Ďaleko.",
+      "missing_l1": "Loin",
+      "missing_l2": "Ďaleko",
+      "blank_index_l1": 2,
+      "blank_index_l2": 2,
+      "choices_l1": [
+        "Près",
+        "Demain",
+        "Peu"
+      ],
+      "choices_l2": [
+        "Blízko",
+        "Zajtra",
+        "Málo"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-teraz-si-tu-uvid-me",
+      "type": "order",
+      "l1": "Pour l'instant, tu es là. On verra.",
+      "l2": "Teraz si tu. Uvidíme.",
+      "tokens_l1": [
+        "Pour l'instant,",
+        "tu es là.",
+        "On verra."
+      ],
+      "tokens_l2": [
+        "Teraz",
+        "si tu.",
+        "Uvidíme."
+      ]
+    },
+    {
+      "id": "order-m-m-batoh-a-mapu",
+      "type": "order",
+      "l1": "J'ai un sac à dos et une carte.",
+      "l2": "Mám batoh a mapu.",
+      "tokens_l1": [
+        "J'ai",
+        "un sac à dos",
+        "et",
+        "une carte."
+      ],
+      "tokens_l2": [
+        "Mám",
+        "batoh",
+        "a",
+        "mapu."
+      ]
+    }
+  ]
+}

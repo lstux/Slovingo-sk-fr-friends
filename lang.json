@@ -40,7 +40,8 @@
     "annex": "Annexes"
   },
   "subgroups": {
-    "kosice": "Košice"
+    "kosice": "Košice",
+    "sucho": "Sucho"
   },
   "ui": {
     "home": "Accueil",
@@ -198,6 +199,7 @@
     ]
   },
   "subgroup_themes": {
-    "kosice": "city"
+    "kosice": "city",
+    "sucho": "default"
   }
 }

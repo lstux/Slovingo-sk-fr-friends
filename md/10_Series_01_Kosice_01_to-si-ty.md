@@ -2,6 +2,10 @@
 
 @ TODO_img/kosice-elektricka.jpg | TODO : choisir une image (un tram dans une rue de Košice) sur Wikimedia Commons
 
+%: Košice
+% 48.7164, 21.2611 | {{Košice}} | z12
+% 48.7208, 21.2577 | {{Dóm svätej Alžbety}}
+
 {{fr:Quelques années ont passé depuis les Tatras. Tu as quinze ans, tu reviens en Slovaquie, et tu es dans un tram à Košice.}}
 
 {{fr:Dans le tram, il y a quelqu'un que tu crois reconnaître… Avant de lui parler, remettons en route ce que tu savais déjà.}}

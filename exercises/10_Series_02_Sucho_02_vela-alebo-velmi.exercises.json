@@ -1,0 +1,206 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-m-lo",
+      "type": "qcm",
+      "l1": "peu",
+      "l2": "málo",
+      "choices_l1": [
+        "beaucoup",
+        "assez",
+        "plus"
+      ],
+      "choices_l2": [
+        "veľa",
+        "dosť",
+        "viac"
+      ]
+    },
+    {
+      "id": "qcm-dos",
+      "type": "qcm",
+      "l1": "assez",
+      "l2": "dosť",
+      "choices_l1": [
+        "peu",
+        "beaucoup",
+        "moins"
+      ],
+      "choices_l2": [
+        "málo",
+        "veľa",
+        "menej"
+      ]
+    },
+    {
+      "id": "qcm-rozumiem",
+      "type": "qcm",
+      "l1": "je comprends",
+      "l2": "rozumiem",
+      "choices_l1": [
+        "je parle",
+        "je bois",
+        "je fais"
+      ],
+      "choices_l2": [
+        "hovorím",
+        "pijem",
+        "robím"
+      ]
+    },
+    {
+      "id": "qcm-neexistuje",
+      "type": "qcm",
+      "l1": "n'existe pas",
+      "l2": "neexistuje",
+      "choices_l1": [
+        "il n'y a pas",
+        "je n'ai pas",
+        "il n'y a plus"
+      ],
+      "choices_l2": [
+        "nie je",
+        "nemám",
+        "už nie je"
+      ]
+    },
+    {
+      "id": "listen-ty-ve-a-hovor",
+      "type": "listen",
+      "l1": "Tu parles beaucoup.",
+      "l2": "Ty veľa hovoríš.",
+      "choices_l1": [
+        "Je parle beaucoup.",
+        "Tu parles très bien.",
+        "Tu comprends beaucoup."
+      ]
+    },
+    {
+      "id": "listen-rozumiem-ale-spr-vne-je-ve-a-h",
+      "type": "listen",
+      "l1": "Je comprends. Mais le correct, c'est : je parle beaucoup.",
+      "l2": "Rozumiem. Ale správne je: veľa hovorím.",
+      "choices_l1": [
+        "Je comprends. Mais le correct, c'est : je parle très.",
+        "Je ne comprends pas. Mais le correct, c'est : je parle beaucoup.",
+        "Je comprends. Mais le correct, c'est : tu parles beaucoup."
+      ]
+    },
+    {
+      "id": "listen-a-l-kasky-neexistuje-si-l-ka",
+      "type": "listen",
+      "l1": "Et « líškasky » n'existe pas. Tu es un renard.",
+      "l2": "A líškasky neexistuje. Si líška.",
+      "choices_l1": [
+        "Et « líškasky » existe. Tu es un renard.",
+        "Et « líškasky » n'existe pas. Je suis un renard.",
+        "Et « líškasky » n'existe pas. Tu es une sœur."
+      ]
+    },
+    {
+      "id": "listen-m-m-trochu-vody",
+      "type": "listen",
+      "l1": "J'ai un peu d'eau.",
+      "l2": "Mám trochu vody.",
+      "choices_l1": [
+        "J'ai beaucoup d'eau.",
+        "J'ai peu d'eau.",
+        "Je veux un peu d'eau."
+      ]
+    },
+    {
+      "id": "match-m-lo",
+      "type": "match",
+      "l1": [
+        "peu",
+        "assez",
+        "je parle",
+        "je comprends"
+      ],
+      "l2": [
+        "málo",
+        "dosť",
+        "hovorím",
+        "rozumiem"
+      ]
+    },
+    {
+      "id": "blank-ve-a-hovor-m",
+      "type": "fill-blank",
+      "l1": "Je parle beaucoup.",
+      "l2": "Veľa hovorím.",
+      "missing_l1": "beaucoup",
+      "missing_l2": "Veľa",
+      "blank_index_l1": 2,
+      "blank_index_l2": 0,
+      "choices_l1": [
+        "très",
+        "peu",
+        "assez"
+      ],
+      "choices_l2": [
+        "Veľmi",
+        "Málo",
+        "Dosť"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-l-ka-je-ve-mi-mil",
+      "type": "fill-blank",
+      "l1": "Le renard est très gentil.",
+      "l2": "Líška je veľmi milá.",
+      "missing_l1": "très",
+      "missing_l2": "veľmi",
+      "blank_index_l1": 3,
+      "blank_index_l2": 2,
+      "choices_l1": [
+        "beaucoup",
+        "peu",
+        "assez"
+      ],
+      "choices_l2": [
+        "veľa",
+        "málo",
+        "dosť"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-l-ka-je-ve-mi-mil",
+      "type": "order",
+      "l1": "Le renard est très gentil.",
+      "l2": "Líška je veľmi milá.",
+      "tokens_l1": [
+        "Le renard",
+        "est",
+        "très gentil."
+      ],
+      "tokens_l2": [
+        "Líška",
+        "je",
+        "veľmi milá."
+      ]
+    },
+    {
+      "id": "order-rozumiem-ale-spr-vne-je-ve-a-h",
+      "type": "order",
+      "l1": "Je comprends. Mais le correct, c'est : je parle beaucoup.",
+      "l2": "Rozumiem. Ale správne je: veľa hovorím.",
+      "tokens_l1": [
+        "Je comprends.",
+        "Mais",
+        "le correct, c'est :",
+        "je parle beaucoup."
+      ],
+      "tokens_l2": [
+        "Rozumiem.",
+        "Ale",
+        "správne je:",
+        "veľa hovorím."
+      ]
+    }
+  ]
+}

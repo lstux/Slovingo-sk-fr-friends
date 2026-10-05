@@ -34,7 +34,7 @@ Le volume cible est de **12 séries, environ 9 000 à 10 000 mots slovaques** au
 
 ## Les séries
 
-Les noms courts (clé de sous-groupe, nom de fichier) sont **provisoires**, sauf la série 01 qui existe.
+Les noms courts (clé de sous-groupe, nom de fichier) sont **provisoires**, sauf les séries 01 et 02, qui existent.
 
 | N° | Nom | Lieu | Événement | Ce qu'on sait dire à la fin |
 |---|---|---|---|---|
@@ -155,6 +155,6 @@ On suppose les bases de Kids acquises (lettres à caron, accent sur la première
 2. ~~`lang.json` et structure du dépôt~~ (faits)
 3. ~~Chapitre 1 : Košice~~ (fiches et exercices écrits, à relire par un locuteur natif)
 4. Choisir les illustrations de la série 01 (Wikimedia Commons, avec crédits) : tous les `TODO_img/…` sont à remplacer
-5. Chapitres 2 à 4 (Sucho, Raj, Burka), puis relire l'ensemble
+5. ~~Chapitre 2 : Sucho~~ (écrit, à relire) ; chapitres 3 et 4 (Raj, Burka), puis relire l'ensemble
 6. Tester avec un ado, ajuster le ton, le rythme et le volume
 7. Chapitres 5 à 12, puis l'épilogue
