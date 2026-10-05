@@ -1,94 +1,30 @@
-# Slovingo Friends — Concept du cours « ados »
+# Zajka Friends — Concept du cours « ados »
 
-*Version 0.5, 5 octobre 2026. Reprise du brouillon d'Eric (v0.1), corrigée et complétée après lecture du cours [Slovingo-sk-fr-kids](https://github.com/lstux/Slovingo-sk-fr-kids) (repo `kids`, app **Zajka**) et de la documentation du moteur [Slovingo](https://github.com/lstux/Slovingo). La v0.5 intègre les décisions d'Eric du 5 octobre (section 0.0), dont l'histoire de Gab, le secret d'Andrea, la longueur du récit et l'épilogue-rêve.*
-
-**Comment lire ce document** : les sections 1 à 28 reprennent le brouillon, corrigé. La section 0 liste ce qui a changé et pourquoi. La section 29 rassemble ce qu'il reste à décider : chaque question a une **proposition** de ma part, il suffit d'écrire la réponse sous « Réponse : ». Les questions déjà tranchées sont marquées ✅.
+*Version 1.0, 5 octobre 2026. Document de référence du cours de slovaque pour francophones adolescents, suite de [Slovingo-sk-fr-kids](https://github.com/lstux/Slovingo-sk-fr-kids) (app **Zajka**), construit avec le moteur [Slovingo](https://github.com/lstux/Slovingo). Le slovaque cité dans ce document est un brouillon, à faire relire par un locuteur natif avant publication.*
 
 ---
 
-# 0. Ce qui a changé par rapport à la v0.1
+# En bref
 
-## 0.0 Décisions d'Eric (5 octobre 2026)
-
-1. **Une vraie histoire.** Le cours se lit comme un récit : la « somme des dialogues », **une série = un chapitre**.
-2. **Que des dialogues.** Plus de phrases isolées. Les fiches 01 à 04 posent le vocabulaire comme avant, mais avec des **micro-dialogues** qui placent le contexte et l'action. Les fiches **05 et 06** portent le vrai dialogue de l'épisode. La fiche extra (06) laisse de la place pour **développer** l'épisode.
-3. **Personnages principaux** : 🐰 **Andrea la hase** et 🦊 **Gab le renard**. Le renard est **toi**, un **garçon**. À terme, le moteur Slovingo pourra proposer de jouer le renard **ou** la hase : concrètement, choisir le prénom de l'un des deux.
-4. **Andrea** est l'**amie** de l'apprenant **et** la **cousine** de Katka et Maťo. Il n'y a pas de contradiction avec Kids (j'avais signalé à tort un désaccord entre le README et `Progression-enfants.md`).
-5. **Le renard est un Français de Lyon, il s'appelle Gab, et les Slovaques l'appellent Gabo.** C'est bien le renard de Kids : il était venu passer de **longues vacances** dans les Tatras, avec un slovaque minimal. Il a dû **rentrer à Lyon**, a perdu de vue ses amis slovaques, mais a gardé un souvenir merveilleux de ces vacances. **Quelques années plus tard (il a 15 ans)**, il revient voir la région, et tombe **par hasard sur Andrea à Košice** : c'est le point de départ de l'aventure. Il voyage seul : **on assume l'absurde**.
-6. **Gab se débrouille en slovaque** : si on ne pousse pas trop la conversation, on le croit slovaque (« passer inaperçu »). Source de gags : il dit quelque chose « à la française » et Andrea le reprend.
-7. **Le mystère d'Andrea.** Gab ne sait rien de ce qui lui est arrivé entre les vacances et les retrouvailles, et Andrea reste très mystérieuse là-dessus. Elle est devenue **méfiante envers les prédateurs**, les renards en particulier (« toi, ça va, elle te connaît maintenant »). Si le secret est révélé, c'est **à la fin** ; pas d'idée concrète pour l'instant (Q32).
-8. **Deux fils rouges** : (a) Gab sait qu'il est là **pour un temps limité** et devra retourner à Lyon ; plus l'histoire avance, plus il a peur de **perdre Andrea de vue** une seconde fois ; (b) Andrea est **pragmatique** : « pour l'instant t'es là, on verra bien, c'est la vie de toute façon ». Voir §26 bis.
-
-## 0.1 Corrections de fond (à relire en priorité)
-
-| # | Dans le brouillon | Ce que dit Kids | Correction |
-|---|---|---|---|
-| 1 | §9 : « les sources de Kids définissent Eric 👦, Andrea 👩, Ján 🧒, Babka Zuzana 👵, Katka 👧, Marek 👨 » | Cette liste vient du **cours adulte** (`Fiches-Serie.txt`). Kids n'a **ni Eric, ni Ján, ni Marek**. | §9 réécrit avec la vraie distribution de Kids (voir tableau en §9). Ján et Marek deviennent des **nouveaux personnages**. Eric disparaît (il appartient au cours adulte). |
-| 2 | §12 : Katka est « la petite sœur de Ján » | Katka (8 ans) est la **petite sœur de Maťo**, l'ours (9 ans). | Corrigé. **Maťo**, absent du brouillon, est ajouté. |
-| 3 | §12 : Katka en 🐿️ ou 🐭 « à définir » | Katka est une **marmotte 🐹**. | Fixé. Le 🐿️ est libéré (il peut aller à Ján). |
-| 4 | §11 : Babka Zuzana en 👵 / 🐻‍♀️ / « humaine ou animal ? » | C'est une **brebis 🐑** (déjà tranché dans Kids). | Fixé : brebis. |
-| 5 | §13 : Marek, « collègue d'Andrea » | Pas de monde du travail dans Kids (Andrea a 11 ans). | Marek est un nouveau personnage, sans lien hérité. |
-| 6 | §8 : « Andrea est un personnage slovaque récurrent » | Andrea est une **hase** (femelle du lièvre), 11 ans, « la grande de la bande », avatar 🐰. | Précisé en §8. |
-| 7 | §7 : le renard est « il » ; c'est un des deux héros | Dans Kids, 🦊 est **l'apprenant lui-même** : prénom saisi par l'élève (`[USER_NAME]`), genre jamais précisé, aucune forme genrée. Il a **10 ans** (« Mám desať rokov », Rodina 05). | ✅ **Tranché** (§0.0) : **Gab** (Gabo pour les Slovaques), garçon français de Lyon, c'est « toi ». Formes masculines en slovaque pour lui, féminines pour Andrea. |
-| 8 | §1, §2, §22, §28 : « dix ans plus tard » **et** ados de 12–16 ans | Âges dans Kids : Andrea 11, Maťo 9, Katka 8, renard 10. Dix ans plus tard : 18 à 21 ans. | **Incohérence** : ou bien 5 ans (ados), ou bien 10 ans (jeunes adultes). Le texte dit « quelques années » en attendant la réponse (Q1). |
-| 9 | §6 : les humains répondent normalement aux animaux | **Il n'y a aucun humain dans Kids** : tous les personnages sont des animaux (« façon Bisounours »). | Ce n'est pas un problème, mais c'est un **élément nouveau** de l'univers : à assumer explicitement (Q12). |
-| 10 | Tatras / Tatry mélangés | Décision Kids (relecture d'octobre 2026) : en français on écrit **« les Tatras »**, le mot slovaque `{{Tatry}}` n'est donné que quand on veut l'apprendre. | Appliqué dans tout le document. |
-| 11 | Trois noms : « cours ados », « Slovingo Teens », repo `friends` | | Q3. J'emploie « Friends » dans le titre, le nom du repo. |
-| 12 | §25 : lithium à **Banská Štiavnica** | | Banská Štiavnica est une ville de mines **d'argent et d'or**, pas de lithium. À ma connaissance, le projet de lithium dont on parle en Slovaquie est dans le **Gemer** (région de Rožňava) : *à vérifier*. En fiction on peut déplacer, mais mieux vaut le savoir (Q17). |
-
-## 0.2 Petites corrections
-
-- « Leur retrouvailles » → « **Leurs** retrouvailles » (§7).
-- §8 « Dans la version Kids, Andrea est un personnage slovaque récurrent » → hase de 11 ans.
-- §19 : les noms de lieux slovaques restent ceux du brouillon ; « Tatry » devient « les Tatras » en texte français.
-- §27 (questions ouvertes) : supprimé en tant que tel. Les questions dont la réponse est dans Kids sont répondues (§9, §27), les autres sont reprises en section 29.
-
-## 0.3 Ajouts
-
-- §9 : tableau de la **vraie distribution de Kids**, avec ce que devient chaque personnage ; ajout de Maťo, Pani Ježková et Pán Orol.
-- §4 : note sur la carte, qui existe déjà dans le moteur (branche `feat/map`).
-- §8, §21 : les **clins d'œil à Kids** (la hase qui avait peur du renard, les baies).
-- §21 : **test de traduction** de la scène de référence en slovaque (le problème du genre du renard apparaît tout de suite).
-- §18, §20 : règles de format héritées de Kids, et **proposition de grammaire par série**.
-- §29 : questions restantes, avec propositions.
-
-## 0.4 Mises à jour de la v0.3 (décisions du 5 octobre)
-
-**v0.5 (suite des décisions du 5 octobre) :**
-- §20 : les fiches 01–04 font aussi avancer l'histoire (contexte, culture, petites scènes) ; les fiches 05 et 06 sont du « pur dialogue » avec une **voix de narrateur en slovaque** entre les répliques ; nouveau paragraphe **volume cible**.
-- §26 bis : **gag modèle** « Veľmi hovorím, som líškasky, komplikovaný… » (mot inventé) : pique d'Andrea au chapitre 1, gag au chapitre 2, correction avec l'adjectif *líščí* ; escalade des piques ; Q33 ajustée.
-- §8, §26 bis, Q32 : secret d'Andrea précisé (un renard inconnu, un piège, **suggéré** ; pas de maman ; révélation par accumulation d'indices, la fin n'est qu'une confirmation ; ce renard n'est pas le but du château).
-- **§26 ter (nouveau)** : épilogue-rêve (Gab se réveille le lendemain des retrouvailles).
-- §29 : Q2 ✅ (Kids acquis, remise à niveau au début), Q23 ✅, Q28 ✅ (option A : chapitres qui grossissent, 12 séries, ≈ 9 000–10 000 mots), Q34 réglée pour l'épilogue (la fin au château reste ouverte), Q30 et Q18 ajustées ; **nouvelle question Q36** (voix du narrateur).
-
-**v0.4 (suite des décisions du 5 octobre) :**
-- §2, §7 : le renard s'appelle **Gab** (**Gabo** pour les Slovaques) ; c'est le renard de Kids, un Français de Lyon qui a appris un minimum de slovaque et revient à Košice à 15 ans, seul (l'absurde est assumé).
-- §7, §8 : « passer inaperçu » : il se débrouille en slovaque et passe pour un Slovaque si on ne pousse pas la conversation ; gags « à la française » corrigés par Andrea.
-- §8 : le mystère d'Andrea (ce qui s'est passé depuis les vacances ; sa méfiance envers les prédateurs, sauf Gab).
-- **§26 bis (nouveau)** : les deux fils rouges (le secret d'Andrea ; le temps limité de Gab et sa peur de la perdre).
-- §29 : Q1, Q6, Q13, Q14, Q15, Q27 réglées ; Q2 reformulée ; **nouvelles questions Q32 à Q35**.
-
-**v0.3 :**
-- §1, §20, §25 : le cours devient un **récit en chapitres** ; nouveau format de série (micro-dialogues en 01–04, épisode en 05 et 06).
-- §7, §9, §21 : le renard est garçon et « toi » ; le test de traduction est réglé côté genre.
-- §8, §12 : Andrea, amie de l'apprenant et cousine de Katka et Maťo.
-- §29 : Q4, Q5, Q6, Q10, Q22 sont réglées ; Q20 et Q26 ajustées ; **nouvelles questions Q27 à Q31** (nom du renard — réglée en v0.4 —, longueur d'un chapitre, mots nouveaux en 06, rappels entre chapitres, tâches moteur).
+- **Un récit, pas un recueil de fiches.** Le cours se lit comme une histoire : **une série = un chapitre**, la somme des dialogues forme le livre. Objectif : **12 chapitres, environ 9 000 à 10 000 mots slovaques**, l'équivalent d'un demi-roman de la Bibliothèque rose ou verte.
+- **Que des dialogues.** Fiches 01 à 04 : vocabulaire et grammaire avec des micro-dialogues et de petites scènes. Fiches 05 et 06 : l'épisode, en dialogue, avec un **narrateur** qui est lui-même un personnage du dialogue (icône de bulle de BD 💬).
+- **Les héros** : 🦊 **Gab**, le renard de Kids, Français de Lyon, 15 ans, « toi » ; et 🐰 **Andrea la hase**, 16 ans, son amie, qui cache quelque chose.
+- **L'histoire** : Gab revient dans la région de ses vacances d'enfance, retrouve Andrea à Košice dans un tram, et quand le seul point d'eau du coin disparaît, ils partent à travers la Slovaquie jusqu'à **Bratislava**, avec Maťo et Katka, pour **être entendus** : passer à la télévision nationale.
+- **Une fin en rêve** : en épilogue, Gab se réveille le lendemain des retrouvailles : toute l'aventure était un rêve.
+- **Niveau** : on suppose Kids fait (possiblement il y a longtemps). Remise en jambes au chapitre 1. Niveau visé à la fin : **un bon A2**.
+- **Ton** : adolescent, aventure, absurde, légèrement dystopique, très slovaque. Le monde part en vrille, mais on prend quand même le train.
 
 ---
 
 # 1. Vision générale
 
-Ce cours est une évolution directe de l'univers de **Slovingo Kids** (cours de slovaque pour enfants de 8 à 12 ans, app **Zajka**).
+Ce cours est l'évolution directe de l'univers de **Slovingo Kids** (cours de slovaque pour enfants de 8 à 12 ans, app **Zajka**).
 
-L'idée n'est pas de simplement reprendre le cours Kids avec des phrases plus difficiles. Le nouveau cours se déroule dans **le même univers, quelques années plus tard** (durée à fixer, voir Q1).
+L'idée n'est pas de reprendre Kids avec des phrases plus difficiles. Le nouveau cours se déroule dans **le même univers, environ cinq ans plus tard**. Les personnages ont grandi : ils ont 13 à 16 ans, ils sont toujours des animaux anthropomorphes avec leurs caractères, leurs amitiés et leurs souvenirs d'enfance, mais ils découvrent un monde beaucoup moins insouciant que celui qu'ils connaissaient.
 
-Les personnages ont grandi.
+Le **public cible** est de **12 à 16 ans**.
 
-Ils sont toujours des animaux anthropomorphes, avec leurs caractères, leurs amitiés et leurs souvenirs d'enfance. Mais ils sont maintenant adolescents, autour de **13–16 ans** (à confirmer, Q1), et découvrent un monde beaucoup moins insouciant que celui qu'ils connaissaient enfants.
-
-Le **public cible** du cours reste **12–16 ans**.
-
-**Un récit, pas un recueil de fiches.** Le cours se lit comme une vraie histoire : chaque série est un **chapitre**, et la suite des dialogues de toutes les séries forme le livre. Tout passe par des **dialogues** : même les fiches d'apprentissage (01 à 04) s'appuient sur des micro-dialogues qui posent le contexte et l'action (voir §20).
+**Un récit, pas un recueil de fiches.** Chaque série est un **chapitre**, et la suite des dialogues de toutes les séries forme le livre. Tout passe par des **dialogues** : même les fiches d'apprentissage s'appuient sur des micro-dialogues qui posent le contexte et l'action (voir §13).
 
 Le ton mélange :
 
@@ -110,31 +46,156 @@ Le monde n'est jamais totalement sombre. Les personnages restent des ados : ils 
 
 Quelques années auparavant, dans Slovingo Kids, le renard (**Gab**, un Français de Lyon) était venu passer de **longues vacances** dans les Tatras. Il s'y était fait des amis, dont **Andrea la hase**, avec un slovaque minimal.
 
-Puis il a dû **rentrer à Lyon**.
+Puis il a dû **rentrer à Lyon**. Il a perdu ses amis slovaques de vue, mais il a gardé de ces vacances un **souvenir merveilleux**.
 
-Il a perdu ses amis slovaques de vue, mais il a gardé de ces vacances un **souvenir merveilleux**.
+Quelques années plus tard, à 15 ans, il a envie de **retourner voir la région** où il a tous ces souvenirs. Il y va seul (on assume l'absurde : un ado de 15 ans qui voyage seul, personne ne s'en étonne). Entre-temps, son slovaque a fait des progrès : il se débrouille assez pour passer pour un Slovaque, tant qu'on ne pousse pas la conversation.
 
-Quelques années plus tard, à 15 ans, il a envie de **retourner voir la région** où il a tous ces souvenirs. Il y va seul (on assume l'absurde). Entre-temps, son slovaque a fait des progrès : il se débrouille assez pour passer pour un Slovaque, tant qu'on ne pousse pas la conversation.
+C'est à **Košice** qu'il tombe **par hasard** sur Andrea, **dans un tram**. C'est le point de départ de l'aventure.
 
-C'est à **Košice** qu'il tombe **par hasard** sur Andrea. C'est le point de départ de l'aventure.
-
-Andrea, elle, a vécu autre chose pendant ces années, que Gab ne connaît pas. Elle vit à Košice parce que sa région d'origine offrait de moins en moins de travail, et elle reste **très mystérieuse** sur ce qui s'est passé. Elle est devenue méfiante, surtout envers les prédateurs comme les renards : lui, elle le connaît, donc ça va. Les autres, moins.
+Andrea, elle, a vécu autre chose pendant ces années, que Gab ne connaît pas. Sa région d'origine offrait de moins en moins de travail, sa famille est partie, et elle vit à Košice depuis deux ans (le lycée). Elle reste **très mystérieuse** sur ce qui s'est passé. Elle est devenue méfiante, surtout envers les prédateurs comme les renards : lui, elle le connaît, donc ça va. Les autres, moins (§9).
 
 Le monde autour d'eux a changé, et ils le voient maintenant avec des yeux d'adolescents.
 
-Gab a gardé la nostalgie des montagnes, Andrea aussi, à sa manière. Et lorsqu'une nouvelle situation les oblige à reprendre la route, ils décident de traverser la Slovaquie pour rejoindre **Bratislava**.
+Quand le **seul point d'eau** près de chez eux disparaît (début du chapitre 2), ils doivent reprendre la route. Ils décident de traverser la Slovaquie jusqu'à **Bratislava**. En chemin, ils retrouvent **Maťo** et **Katka** qui se joignent à eux. Le voyage devient progressivement plus important qu'ils ne l'avaient imaginé.
 
-Le voyage devient progressivement plus important qu'ils ne l'avaient imaginé.
-
-> *Note : Gab est de passage. Contrairement à la version du brouillon (deux enfants de la même région qui se retrouvent), c'est un visiteur qui revient chercher un souvenir et trouve un pays qui a changé. Andrea est celle qui « habite » ici. Ça résout en grande partie les questions Q13 (pourquoi perdus de vue, pourquoi à Košice), Q14 (déclencheur) et Q15 (objectif initial) : voir section 29.*
+Gab est de passage : un visiteur qui revient chercher un souvenir et trouve un pays qui a changé. Andrea est celle qui « habite » ici. Et Gab sait que son séjour est limité : il devra rentrer à Lyon (§9).
 
 ---
 
-# 3. Le voyage à travers la Slovaquie
+# 3. Les personnages
 
-Le parcours pédagogique devient également un véritable voyage géographique.
+## 3.1 🦊 Gab le renard
 
-Trajet indicatif :
+Le renard est l'un des deux personnages centraux. Il est **un garçon**, c'est **toi** (l'apprenant incarne le renard), et c'est le renard de Kids : un **Français de Lyon**, **15 ans**, qui s'appelle **Gab** par défaut. Avec ce prénom, les Slovaques l'appellent **Gabo** (le diminutif slovaque de Gabriel). L'élève peut aussi saisir un autre prénom, par exemple le sien.
+
+Il avait appris un minimum de slovaque pendant ses longues vacances dans les Tatras, et il en a appris assez depuis pour **se débrouiller** : il passe pour un Slovaque tant qu'on ne pousse pas trop la conversation. Quand il se trahit en disant quelque chose « à la française » ou « à la renard », **Andrea le reprend** : bonne source de gags, et de corrections discrètes pour l'apprenant (§9).
+
+Il a grandi. Il garde quelque chose de son enthousiasme d'enfant, mais il est devenu plus ironique et parfois un peu désabusé. Il a tendance à observer les absurdités du monde et à les commenter :
+
+> « Jasné. Ďalšia skvelá myšlienka. »
+
+Il n'est pas forcément pessimiste. Il est plutôt dans le :
+
+> « Bon... évidemment que ça allait arriver. »
+
+Et il est capable de dire — réplique à conserver **texto** dans le cours :
+
+> « Je veux bien attendre la fin du monde avec toi ! »
+
+C'est probablement la réplique qui le résume le mieux : ironique, tendre, jamais cynique. La fin du monde est prise avec légèreté, mais partagée quand même. Il garde aussi un côté très attachant et spontané de son enfance.
+
+**Son fil rouge** : il sait qu'il est là **pour un temps limité** et qu'il devra retourner à Lyon. Plus l'histoire avance, plus il a **peur de perdre Andrea de vue** une seconde fois (§9).
+
+> *Dans Kids, le renard est l'apprenant lui-même : prénom saisi par l'élève, genre jamais précisé, aucune forme genrée. Il dit « Mám desať rokov », il a une sœur et un papa « grand et fort », il dit « Bývam v nore ». Dans Friends, il reste « toi » mais devient un personnage à personnalité marquée et à **genre fixé** (masculin), parce que le slovaque accorde le passé, le conditionnel et beaucoup d'adjectifs. Le prénom saisi par l'élève ne change donc jamais le genre du personnage.*
+
+## 3.2 🐰 Andrea la hase
+
+Dans Kids, Andrea est **une hase des Tatras** (la femelle du lièvre), **11 ans**, « la grande de la bande » : c'est elle qui accueille l'apprenant dans le Kit de Survie et lui apprend à se présenter. Dans Friends, elle a **16 ans**, sans changement de nature. Elle est l'**amie** de Gab **et** la **cousine** de Katka et Maťo (les deux sont compatibles).
+
+Elle est probablement un peu plus organisée que le renard, mais pas forcément plus optimiste. Elle ramène régulièrement le renard à la réalité :
+
+> « Oui, c'est absurde. Mais maintenant, qu'est-ce qu'on fait ? »
+
+Elle peut être plus sarcastique qu'elle ne l'était enfant, et garde une exaspération affectueuse envers les renards en général :
+
+> « Tu parles beaucoup, comme tous les renards ! Mais au moins tu manges des baies ! »
+
+> « Les renards ne me comprendront jamais, et je ne comprendrai jamais les renards ! Ils sont compliqués, des extraterrestres ! »
+
+**Lien avec Kids** : dans Kids, Andrea avait un peu peur du renard au début (*Bála som sa!*), parce que les autres renards qu'elle connaissait étaient beaucoup moins sympas ; et le renard, lui, mange des baies, pas des lièvres. Cette exaspération est la **suite directe** de ce gag : la peur est devenue de l'agacement, puis de la tendresse (et, on le comprendra, une méfiance qui a ses raisons).
+
+### Le mystère d'Andrea
+
+Entre les vacances de Gab et les retrouvailles à Košice, il s'est passé quelque chose dans la vie d'Andrea. **Elle n'en parle pas** : elle change de sujet, répond à côté, ou fait une blague.
+
+**Le secret** : elle a été **trahie par un renard inconnu**. Elle le prenait pour un ami, et il l'a entraînée dans un piège : elle devait finir « en lapin à la broche » avec ses autres amis renards. Cela reste **suggéré, jamais montré ni raconté frontalement** : ton léger, on le comprend entre les lignes. Elle était d'autant plus naïve qu'elle avait connu le gentil renard de Kids : elle avait oublié les recommandations de sa maman, ou les trouvait exagérées. D'où ses piques sur les renards (« ça parle beaucoup », « je comprendrai jamais les renards »), drôles tant qu'on ignore la cause.
+
+Règles d'écriture :
+
+- Le mystère reste **léger** : jamais traumatique à l'écran. C'est un fil, pas un drame.
+- Le renard coupable reste **vague et inconnu**. On ne le recroise pas nécessairement, et il n'est **pas le but du voyage**.
+- La maman d'Andrea n'apparaît pas dans le récit.
+- On **sème des indices** de plus en plus clairs. La vérité, à la fin, n'est qu'une **confirmation de ce qu'on avait compris** entre les lignes (§9).
+- Gab ne pose pas toutes les questions : c'est aussi une façon de respecter ce qu'elle ne veut pas dire.
+
+## 3.3 Le duo
+
+Le duo fonctionne comme deux anciens amis qui se retrouvent après plusieurs années. Ils étaient proches enfants dans les Tatras, puis se sont perdus de vue : leurs retrouvailles sont importantes, ils doivent réapprendre à se connaître. Ils ont des souvenirs communs que les autres ne comprennent pas, mais ont changé différemment. Gab ne sait **rien** de ce qu'Andrea a vécu entre-temps ; elle sait qu'il est rentré en France, et qu'il repartira.
+
+Ils se connaissent suffisamment pour se lancer des piques. Ils peuvent se disputer. Mais lorsqu'une situation devient sérieuse, ils se serrent les coudes.
+
+Un contraste de caractère structure le duo : **Gab s'inquiète** du temps qui passe (il doit repartir, il a peur de perdre Andrea de vue), et **Andrea est pragmatique** (« pour l'instant t'es là, on verra bien, c'est la vie de toute façon »).
+
+C'est une relation d'amitié avant d'être une relation pédagogique. Une scène de dialogue de référence pour ce duo est donnée en §10.
+
+## 3.4 La bande : 🐻 Maťo et 🐹 Katka
+
+Deux personnages de Kids rejoignent le duo sur la route.
+
+**🐻 Maťo** (ours, 9 ans dans Kids, **14 ans** aujourd'hui) est resté au village d'enfance. Calme, solide, il est le grand frère de Katka. On le retrouve **sur la route** (au village d'enfance, chapitre 5) et il rejoint la bande.
+
+**🐹 Katka** (marmotte, 8 ans dans Kids, **13 ans** aujourd'hui) est sa petite sœur, et vient aussi avec la bande. Elle n'est plus une petite fille, et c'est précisément ce qui est amusant : les autres continuent parfois à l'appeler « la petite Katka », et elle déteste ça. Elle est devenue très autonome, plus directe, très connectée, sarcastique, probablement beaucoup moins impressionnée par les adultes. Elle a aussi une relation particulière avec Andrea, sa cousine.
+
+## 3.5 🐑 Babka Zuzana
+
+Babka Zuzana est la **brebis**, grand-mère de Katka et Maťo, déjà dans Kids. Elle reste au village. Présence ponctuelle mais importante : elle porte le lien avec la culture et les générations précédentes (la mémoire, les traditions, les changements observés sur plusieurs décennies). Elle connaît réellement l'ancien monde des Tatras, et peut raconter aux adolescents :
+
+> « Keď som bola mladá... »
+
+et leur montrer que certains changements ne datent pas d'hier. Dans Kids, c'est elle qui est amusante avec la bryndza et les halušky (elle évite soigneusement le sujet, étant une brebis) : un clin d'œil possible.
+
+## 3.6 Les personnages rencontrés en chemin
+
+Ils ne rejoignent pas la bande : on les croise à l'occasion d'un épisode.
+
+**🐿️ Ján** (écureuil) apparaît dans l'épisode de la **mine** (chapitre 9). Il est vivant, très curieux, un peu grande gueule, capable de parler avec n'importe qui, parfois beaucoup trop sûr de lui. En tant qu'écureuil (les écureuils sont ceux qui doivent partir), il a un lien personnel avec la mine, sans en faire un porte-parole.
+
+**🦡 Marek** (blaireau, adulte) apparaît dans l'épisode du **datacenter** (chapitre 8) : il y travaille. Il représente le lien avec le monde du travail, l'entreprise, la ville et les décisions prises par les adultes. Il n'est pas un méchant : il est plutôt pris entre plusieurs contraintes. Il peut comprendre certains problèmes et travailler malgré tout pour une entreprise qui y contribue. Cela évite une opposition trop simple « gentils animaux contre méchants humains » : le monde doit être plus ambigu.
+
+**🦔 Pani Ježková** (hérisson, commerçante du village, **vouvoyée**) et **🦅 Pán Orol** (aigle, gardien du parc national, **vouvoyé**) viennent de Kids. Ils peuvent faire de **brèves apparitions** (par exemple le gardien du parc pendant la sécheresse) tant que ça ne tombe pas comme un cheveu sur la soupe. Ils sont de bons supports pour le *vy* et pour des clins d'œil.
+
+> *Ján et Marek n'existent pas dans Kids : ce sont des personnages nouveaux. Leurs prénoms existent dans le cours adulte, mais ce sont ici des personnages différents, sans lien à faire.*
+
+## 3.7 Les humains
+
+Il n'y a **aucun humain dans Kids**. Dans Friends, ils existaient « hors champ » depuis le début (le parc national, les chemins, les routes supposaient déjà leur présence). Ils apparaissent **à partir du chapitre 2**, avec un emoji humain.
+
+- Ils sont **tous adultes** : il n'y a pas d'enfants humains dans cette histoire, les enfants sont des animaux.
+- Ils sont **vouvoyés** par les ados (*vy*).
+- Seuls les animaux principaux ont un prénom : les humains sont désignés par leur **fonction** (*vodič*, *úradníčka*, *redaktorka*…).
+- Ils sont assez rares : on ne les croise que lorsque l'histoire le demande.
+
+Voir aussi la règle des animaux parlants (§4).
+
+## 3.8 Un groupe, pas une équipe de super-héros
+
+Les personnages ne doivent pas devenir une « bande de héros écologistes ». Ils voyagent ensemble parce qu'ils sont amis, parce qu'ils ont des raisons personnelles d'avancer, et parce que leurs chemins se recroisent. Ils peuvent être solidaires, parfois égoïstes, parfois lâches, parfois courageux, parfois complètement dépassés. Ils ne savent pas toujours quoi faire, ils apprennent en chemin, et c'est ce qui permet à l'apprenant de s'identifier à eux.
+
+---
+
+# 4. La règle absurde des animaux parlants
+
+Les personnages sont des animaux. Ils parlent parfaitement. Les humains leur répondent normalement. **Personne ne trouve cela étrange.**
+
+Cette règle n'est jamais expliquée. Un humain peut parfaitement demander à un renard :
+
+> « Kam idete? »
+
+Et le renard peut répondre :
+
+> « Do Bratislavy. »
+
+L'humain continue la conversation normalement. Cette absurdité fait partie de l'identité de la série : elle évite que chaque rencontre avec un humain devienne une histoire sur le fait que les personnages sont des animaux. Ils sont traités comme des personnes. Point.
+
+*Note de langue : « Kam idete? » est la forme polie ou plurielle (vy). Elle fonctionne ici dans les deux sens, puisque le renard et Andrea sont deux : c'est un bon exemple pour introduire le vy.*
+
+Règles de tutoiement héritées de Kids : entre enfants et avec Babka Zuzana, **tutoiement** ; **vouvoiement** pour les adultes inconnus. Friends l'étend naturellement aux humains, aux fonctionnaires, aux gardes, aux journalistes.
+
+---
+
+# 5. Le voyage à travers la Slovaquie
+
+Le parcours pédagogique est aussi un véritable voyage géographique, **d'est en ouest** :
 
 ```text
 Košice
@@ -145,104 +206,52 @@ Tatry (les Tatras)
    ↓
 Liptov
    ↓
-Banská Štiavnica
+région centrale
    ↓
-... autres étapes à définir ...
+Banská Štiavnica
    ↓
 Bratislava
    ↓
 🏰 Bratislavský hrad
 ```
 
-*Vérification : l'itinéraire est géographiquement cohérent, d'est en ouest (Košice, puis le Paradis slovaque, les Tatras, le Liptov, le centre du pays, Bratislava). Les « autres étapes » seront dans la région centrale (voir Q18).*
+Les personnages traversent le pays « à pied », ou comme ils peuvent (ce sont des animaux), et cela peut prendre du temps : **deux séries peuvent donc se dérouler au même endroit**.
 
-Chaque étape correspond à une série ou à un petit groupe de séries.
+La géographie n'est pas uniquement décorative : elle sert à faire découvrir progressivement la Slovaquie (paysages, villes, régions, histoire, traditions, gastronomie, architecture, transports, culture contemporaine, particularités linguistiques, vie quotidienne). L'apprenant découvre la langue **en voyageant réellement à travers le pays**.
 
-La géographie n'est donc pas uniquement décorative : elle sert à faire découvrir progressivement la Slovaquie.
+## Les 12 chapitres
 
-On pourra intégrer :
+L'objectif est de **12 séries**. La liste ci-dessous est la trame de départ : l'ordre et le contenu s'affinent en parallèle avec la progression linguistique.
 
-- paysages ;
-- villes ;
-- régions ;
-- histoire ;
-- traditions ;
-- gastronomie ;
-- architecture ;
-- transports ;
-- culture contemporaine ;
-- particularités linguistiques ;
-- vie quotidienne.
+| # | Lieu | Événement / thème |
+|---|---|---|
+| 01 | Košice | Retrouvailles dans le tram, remise en jambes, départ de la soirée (Gab s'endort : *Dobrú noc*) |
+| 02 | Košice / Est | Le point d'eau disparaît : sécheresse et manque d'eau, départ |
+| 03 | Slovenský raj | La recherche d'eau |
+| 04 | Les Tatras | Tempête |
+| 05 | Les Tatras | Retour au village d'enfance : Maťo et Katka rejoignent la bande |
+| 06 | Liptov | Inondations |
+| 07 | Liptov | Nouvelle route |
+| 08 | Région centrale | Datacenter et disparition de la zone humide (Marek) |
+| 09 | Banská Štiavnica | Mine de lithium (Ján) |
+| 10 | Centre de la Slovaquie | Conséquences, choix |
+| 11 | Bratislava | Arrivée dans la capitale, la télévision |
+| 12 | Bratislava | Le château et le journal du soir |
+| ép. | Košice | Épilogue : le réveil |
 
-L'apprenant découvre ainsi la langue **en voyageant réellement à travers le pays**.
+Remarques :
 
----
-
-# 4. La carte comme représentation du voyage
-
-La carte d'accueil de Slovingo devient la carte de ce voyage.
-
-Le renard part de Košice et progresse vers Bratislava.
-
-Mais la carte reste volontairement **symbolique**.
-
-Il ne s'agit pas d'un atlas géographique précis.
-
-On peut utiliser :
-
-- une illustration de fond ;
-- des montagnes ;
-- des forêts ;
-- des rivières ;
-- des chemins ;
-- des emojis ;
-- de petites illustrations ;
-- des éléments graphiques animés.
-
-Les étapes peuvent par exemple être représentées par :
-
-- 🏠
-- 💧
-- 🌲
-- ⛰️
-- 🌧️
-- 🏗️
-- ⛏️
-- 🏙️
-- 🏰
-
-Le renard 🦊 est l'élément principal qui donne vie à la carte.
-
-## Position du renard
-
-La position du renard ne représente pas la dernière validation.
-
-Elle représente **la dernière fiche ou série consultée**.
-
-Si l'utilisateur revient sur la page d'accueil :
-
-- s'il a déjà consulté quelque chose, le renard est à cet endroit ;
-- s'il n'a encore rien consulté, le renard est **hors de la carte, à côté de la première étape**.
-
-Lorsqu'il clique sur une destination, le renard se déplace vers celle-ci avant l'ouverture du contenu.
-
-La progression pédagogique et la position narrative sont donc deux notions différentes.
-
-## Note sur le moteur
-
-D'après mes notes de projet, la carte d'aventure est **déjà développée dans le moteur Slovingo** (branche `feat/map`, générique, utilisée pour tous les cours, avec Kids comme cours de test) : détection automatique des fichiers `Series_NN_…`, états visuels des étapes, renard qui se déplace, château final. Le concept Friends est donc d'abord une **configuration** (étapes, emojis, textes) plutôt qu'un développement. Deux points à vérifier quand on y sera : le comportement décrit ci-dessus (position = dernière fiche consultée) correspond-il à l'implémentation actuelle (qui parlait aussi de brouillard levé à la validation d'une série) ? Et les emojis des étapes sont-ils configurables par cours ? (Q24)
+- Chaque série est un **chapitre** : les titres de série peuvent être des titres de chapitre.
+- 12 séries de 6 fiches font **72 fiches** (Kids : 7 séries ; cours adulte : 9 séries). Comme les fiches 05 et 06 sont des épisodes, la quantité de dialogues à écrire est importante.
+- Les séries 03 (recherche d'eau) et 06 (inondations) forment un arc « sécheresse puis déluge » joli mais éloigné ; à revoir lors du séquençage.
+- Les séries 08 et 10 se situent en « région centrale » ; des étapes réelles existent (Zvolen, Banská Bystrica, Žiar nad Hronom…), à choisir à l'écriture.
+- Chaque série reçoit un **nom court** (clé de sous-groupe et nom de fichier), sur le modèle de Kids (*Rodina*, *Doma*, *Jedlo*…) : par exemple `Retrouvailles`, `Sucho`, `Raj`, `Burka`, puis `10_Series_01_Nom_01_titre.md`.
 
 ---
 
-# 5. Le monde quelques années plus tard
+# 6. Le monde quelques années plus tard
 
-Le contraste avec Kids est volontaire.
-
-Dans Kids, les personnages pouvaient découvrir le monde avec une certaine innocence.
-
-Quelques années plus tard, ils comprennent davantage ce qu'ils voient.
-
-Ils remarquent :
+Le contraste avec Kids est volontaire. Dans Kids, les personnages découvraient le monde avec une certaine innocence. Quelques années plus tard, ils comprennent davantage ce qu'ils voient :
 
 - les changements du paysage ;
 - les problèmes économiques ;
@@ -251,491 +260,53 @@ Ils remarquent :
 - les conséquences de certaines décisions humaines ;
 - les contradictions du monde adulte.
 
-Mais ils n'ont pas toutes les réponses.
+Mais ils n'ont pas toutes les réponses : ils restent adolescents. Ils peuvent être lucides sans être omniscients, sarcastiques sans être cyniques en permanence, engagés sans devenir des porte-paroles politiques.
 
-C'est important : ils restent adolescents.
-
-Ils peuvent être lucides sans être omniscients.
-
-Ils peuvent être sarcastiques sans être cyniques en permanence.
-
-Ils peuvent être engagés sans devenir des porte-paroles politiques.
+> **Slovingo Kids leur apprenait à découvrir le monde. Slovingo Friends leur apprend à comprendre le monde.**
 
 ---
 
-# 6. La règle absurde des animaux parlants
+# 7. Le monde étrange des catastrophes
 
-Les personnages sont toujours des animaux.
+Les séries sont construites autour de problèmes qui deviennent progressivement plus importants. Les catastrophes ne sont jamais simplement « catastrophe = méchants humains » : le monde est plus nuancé. Un projet peut créer des emplois, apporter une technologie utile, résoudre un problème, mais provoquer ailleurs une autre conséquence. Les personnages eux-mêmes peuvent être en désaccord, ce qui donne des dialogues plus intéressants et permet d'apprendre à exprimer son opinion, son doute, son accord ou son désaccord, une concession, une hypothèse, une proposition : précisément des compétences linguistiques adaptées à un public adolescent.
 
-Ils parlent parfaitement.
+## Sécheresse 💧
 
-Les humains leur répondent normalement.
+Le seul point d'eau d'une région disparaît progressivement. Les animaux qui en dépendent doivent partir. C'est le déclencheur du voyage (chapitre 2). Vocabulaire : eau, sécheresse, rivière, source, boire, manquer, chercher, chaleur, nature.
 
-**Personne ne trouve cela étrange.**
+## Inondations 🌧️🌊
 
-Cette règle n'est jamais expliquée.
+Après une période de sécheresse, des pluies extrêmement fortes provoquent des inondations. Vocabulaire : météo, danger, secours, déplacements, logement, entraide.
 
-Un humain peut parfaitement demander à un renard :
+## Tempête dans les Tatras 🌬️⛰️
 
-> « Kam idete? »
+Le groupe traverse les montagnes et se retrouve bloqué par une tempête. Série particulièrement riche en vocabulaire de montagne.
 
-Et le renard peut répondre :
+## La route 🛣️
 
-> « Do Bratislavy. »
+Une nouvelle route doit traverser une zone naturelle. Les personnages découvrent les travaux et doivent contourner, traverser, attendre, comprendre, discuter, protester, négocier.
 
-L'humain continue la conversation normalement.
+## Le datacenter 🏗️💻
 
-Cette absurdité fait partie de l'identité de la série.
+Un gigantesque datacenter est construit à l'endroit où se trouvait une zone humide, l'un des derniers endroits où il restait de l'eau. Les grenouilles ont disparu. Le problème permet de parler d'informatique, d'énergie, d'eau, de construction, d'entreprise, d'emplois, d'environnement, et surtout de montrer qu'une situation peut avoir **des avantages et des conséquences négatives simultanément**. C'est là qu'on rencontre Marek.
 
-Elle permet également d'éviter que chaque rencontre avec un humain devienne une histoire sur le fait que les personnages sont des animaux.
+## La mine de lithium ⛏️🔋
 
-Ils sont traités comme des personnes.
+Une mine ouvre dans une région où vivaient des écureuils. Ils doivent partir. Le sujet permet d'aborder industrie, ressources, batteries, énergie, travail, économie, territoire, conflit. Là encore, pas de méchant caricatural : le lithium est utile, la mine crée des emplois, mais elle transforme aussi le territoire. Les personnages apprennent à réfléchir à cette contradiction. C'est là qu'on rencontre Ján.
 
-Point.
+## Faits réels et fiction
 
-> *Note : dans Kids, il n'y a aucun humain à l'écran (seulement des animaux, dont Pani Ježková le hérisson et Pán Orol l'aigle, gardien du parc). Les humains sont donc une nouveauté de Friends. Ce n'est pas contradictoire (le parc national, par exemple, suppose déjà des humains), mais il faut décider s'ils existaient « hors champ » depuis le début (Q12).*
-
-> *Note de langue : « Kam idete? » est la forme polie ou plurielle (vy). Ici elle fonctionne dans les deux sens, puisque le renard et Andrea sont deux. C'est un bon exemple pour introduire le vy.*
-
----
-
-# 7. Les deux personnages principaux
-
-## 🦊 Gab le renard
-
-Le renard est l'un des deux personnages centraux. Il est **un garçon**, c'est **toi** (l'apprenant incarne le renard), et c'est le renard de Kids : un **Français de Lyon**, qui s'appelle **Gab**. Les Slovaques disent **Gabo** (le diminutif slovaque de Gabriel), et c'est comme ça qu'Andrea l'appelle.
-
-Il avait appris un minimum de slovaque pendant ses longues vacances dans les Tatras, et il en a appris assez depuis pour **se débrouiller** : il passe pour un Slovaque tant qu'on ne pousse pas trop la conversation. Quand il se trahit en disant quelque chose « à la française », **Andrea le reprend** : bonne source de gags, et de corrections discrètes pour l'apprenant.
-
-Il a grandi.
-
-Il est désormais adolescent.
-
-Il garde quelque chose de son enthousiasme d'enfant, mais il est devenu plus ironique et parfois un peu désabusé.
-
-Il a probablement davantage tendance à observer les absurdités du monde et à les commenter.
-
-Il peut avoir ce genre de réaction :
-
-> « Jasné. Ďalšia skvelá myšlienka. »
-
-Il n'est pas forcément pessimiste.
-
-Il est plutôt dans le :
-
-> « Bon... évidemment que ça allait arriver. »
-
-Et il est capable de dire — réplique à conserver **texto** dans le cours :
-
-> « Je veux bien attendre la fin du monde avec toi ! »
-
-C'est probablement la réplique qui le résume le mieux : ironique, tendre, jamais cynique. La fin du monde est prise avec légèreté — mais partagée quand même.
-
-Il peut également avoir gardé un côté très attachant et spontané de son enfance.
-
-**Son fil rouge** : il sait qu'il est là **pour un temps limité** et qu'il devra retourner à Lyon. Plus l'histoire avance, plus il a **peur de perdre Andrea de vue** une seconde fois. Voir §26 bis.
-
-> *Dans Kids, le renard est l'apprenant lui-même (prénom saisi par l'élève, genre jamais précisé ; il dit « Mám desať rokov », il a une sœur et un papa « grand et fort », il dit « Bývam v nore »). Dans Friends, il reste « toi » mais devient un personnage à personnalité marquée, **français de Lyon**, et à **genre fixé** (masculin), parce que le slovaque accorde le passé, le conditionnel et beaucoup d'adjectifs. Son prénom par défaut est **Gab** (c'est aussi le prénom par défaut de Kids dans `lang.json`) ; en slovaque, les gens disent **Gabo**. Il se présente peut-être lui-même comme Gabo pour passer pour un Slovaque (Q33).*
->
-> *Évolution prévue du moteur : permettre de jouer **le renard ou la hase**, en choisissant le prénom de l'un des deux (deux champs de prénom, chacun avec sa valeur par défaut : Gab et Andrea). Les formes grammaticales restent celles du personnage (masculin pour le renard, féminin pour Andrea), quel que soit le joueur. Voir Q31.*
->
-> *Pièges à connaître : (1) un prénom saisi par l'élève **ne se décline pas** : dans les dialogues, on ne l'emploie que pour appeler quelqu'un (*Ahoj, Gabo!*), jamais à l'accusatif ni au datif (*pre Gaba*, *Gabovi*…). (2) Si l'élève remplace « Gab » par son prénom, le jeu Gab / Gabo disparaît : prévoir un second marqueur pour la forme slovaque, ou accepter la perte (Q31).*
->
-> *Le nom **Matej**, proposé un moment, est abandonné : il est trop proche de **Maťo** (diminutif de Matej), l'ours de Kids.*
-
-### Relation avec Andrea
-
-Ils étaient proches enfants dans les Tatras.
-
-Puis ils se sont perdus de vue.
-
-Leurs retrouvailles à Košice sont donc importantes.
-
-Ils doivent réapprendre à se connaître.
-
-Gab ne sait **rien** de ce qu'Andrea a vécu entre les vacances et les retrouvailles. Elle, elle sait qu'il est rentré en France, et qu'il repartira.
-
-Ils ont les souvenirs de leur enfance en commun, mais ont changé différemment.
-
-Cela permet d'avoir une relation plus riche que celle de simples compagnons d'aventure.
+- Les **lieux** des étapes (villes, parcs) sont **réels**.
+- Les **sites et entreprises** liés aux catastrophes sont **fictifs** : pas de nom d'entreprise réelle, pas de projet réel nommé.
+- Les **faits** sont **vérifiés**. Si on peut faire coller une série à un cas réel et documenté, c'est encore mieux.
+- Une précision à garder en tête : Banská Štiavnica est une ville de mines **d'argent et d'or**, pas de lithium. À ma connaissance, le projet de lithium dont on parle en Slovaquie est dans la région du **Gemer** (Rožňava) : à vérifier avant d'écrire le chapitre 9. En fiction, on peut déplacer ou inventer un lieu plausible.
+- Pas de figure politique réelle dans les dialogues ; plusieurs points de vue sont présentés.
 
 ---
 
-# 8. 🐰 Andrea la hase
+# 8. Une aventure qui devient progressivement plus grande
 
-Andrea est l'autre personnage principal.
-
-Dans la version Kids, Andrea est **une hase des Tatras** (la femelle du lièvre), **11 ans**, « la grande de la bande » : c'est elle qui accueille l'apprenant dans le Kit de Survie et lui apprend à se présenter. Avatar 🐰.
-
-Dans cette nouvelle version, elle devient **Andrea la hase 🐰**, sans changement de nature : elle a juste grandi. Elle est l'**amie** de l'apprenant (le renard) et la **cousine** de Katka et Maťo.
-
-Elle a elle aussi grandi.
-
-Elle est probablement un peu plus organisée que le renard, mais pas forcément plus optimiste.
-
-Elle peut être celle qui ramène régulièrement le renard à la réalité.
-
-Elle a un côté :
-
-> « Oui, c'est absurde. Mais maintenant, qu'est-ce qu'on fait ? »
-
-Elle garde aussi une exaspération affectueuse permanente envers les renards en général :
-
-> « Tu parles beaucoup, comme tous les renards ! Mais au moins tu manges des baies ! »
-
-> « Les renards ne me comprendront jamais, et je ne comprendrai jamais les renards ! Ils sont compliqués, des extraterrestres ! »
-
-**Lien avec Kids** : dans Kids, Andrea avait un peu peur du renard au début (« Bála som sa! »), parce que les autres renards qu'elle connaissait étaient beaucoup moins sympas ; et le renard, lui, mange des baies, pas des lièvres. Cette exaspération affectueuse est la **suite directe du gag de Kids** : la peur est devenue de l'agacement, puis de la tendresse. Un clin d'œil à garder discret (§22).
-
-Elle peut également être plus sarcastique qu'elle ne l'était enfant.
-
-## Le mystère d'Andrea
-
-Entre les vacances de Gab et les retrouvailles à Košice, il s'est passé quelque chose dans la vie d'Andrea. **Elle n'en parle pas.** Elle change de sujet, répond à côté, ou fait une blague.
-
-Une chose est visible : elle est devenue **méfiante envers les prédateurs**, et notamment les renards. Gab est l'exception (« toi, ça va, je te connais »). C'est la suite du gag de Kids (« Bála som sa ! », les autres renards étaient « beaucoup moins sympas »), avec une couche en plus.
-
-Règles d'écriture :
-
-- Le mystère reste **léger** : jamais traumatique à l'écran (§21). C'est un fil, pas un drame.
-- **Secret retenu (5 oct.) : Andrea a été trahie par un renard inconnu** (voir §26 bis et Q32) : elle le prenait pour un ami, il l'a attirée dans un piège (elle devait finir à la broche avec ses autres amis renards, **suggéré** plutôt que raconté). Naïve parce qu'elle avait connu le gentil renard de Kids, elle avait oublié (ou jugé exagérées) les recommandations de sa maman. D'où sa méfiance, qui s'exprime en **piques récurrentes** (« les renards, ça parle beaucoup », « je ne comprendrai jamais les renards »…), qui font rire tant qu'on ne connaît pas la cause.
-- La révélation vient **à la fin** du récit ; on **plante des indices** dès les premiers chapitres (phrase coupée, réaction à un renard, sujet évité).
-- Gab ne pose pas toutes les questions : c'est aussi une façon de respecter ce qu'elle ne veut pas dire.
-
-## Leur dynamique
-
-Le duo doit fonctionner comme deux anciens amis qui se retrouvent après plusieurs années.
-
-Ils se connaissent suffisamment pour se lancer des piques.
-
-Ils ont des souvenirs communs que les autres ne comprennent pas.
-
-Ils peuvent parfois se disputer.
-
-Mais lorsqu'une situation devient sérieuse, ils se serrent les coudes.
-
-Un contraste de caractère structure le duo : **Gab s'inquiète** du temps qui passe (il doit repartir, il a peur de perdre Andrea de vue), et **Andrea est pragmatique** (« pour l'instant t'es là, on verra bien, c'est la vie de toute façon »).
-
-C'est une relation d'amitié avant d'être une relation pédagogique.
-
-Une scène de dialogue de référence pour ce duo est proposée dans la section 21.
-
----
-
-# 9. Les autres personnages hérités de Kids
-
-Distribution **réelle** de Kids (source : `README.md`, `docs/Format-enfants.md`, `docs/Progression-enfants.md`) :
-
-| Avatar | Personnage | Dans Kids | Dans Friends (proposition) |
-|---|---|---|---|
-| 🦊 | Le renard | L'apprenant (nom = `[USER_NAME]`), 10 ans, genre non précisé | **Gab** (Gabo), Français de Lyon, garçon, toujours « toi » (voir §7) |
-| 🐰 | Andrea | Hase, 11 ans, « la grande » | Personnage principal, amie du renard, cousine de Katka et Maťo (§8) |
-| 🐹 | Katka | Marmotte, 8 ans, phrases courtes et simples | Voir §12 |
-| 🐻 | Maťo | Ours, 9 ans, grand frère de Katka | Voir §12 bis |
-| 🐑 | Babka Zuzana | Brebis, grand-mère de Katka et Maťo, pâturages et traditions | Voir §11 |
-| 🦔 | Pani Ježková | Hérisson, commerçante du village, **vouvoyée** | Cameo possible (Q11) |
-| 🦅 | Pán Orol | Aigle, gardien du parc national, **vouvoyé** | Cameo possible (Q11) |
-
-**Nouveaux personnages** (absents de Kids) : Ján et Marek, repris du brouillon (§10 et §13). Leurs prénoms existent dans le cours adulte, mais ce sont ici des personnages différents. Pas de lien à faire, et pas besoin d'avoir lu le cours adulte.
-
-Règles de tutoiement héritées de Kids : entre enfants et avec Babka Zuzana, **tutoiement** ; le **vouvoiement** (*vy*) pour les adultes inconnus. Friends l'étend naturellement aux humains, aux fonctionnaires, aux gardes, etc. (Q12).
-
----
-
-# 10. Ján — le copain qu'on ne voulait pas perdre
-
-### 🐿️ Ján *(nouveau personnage, pas dans Kids)*
-
-> *Dans le brouillon, Ján était « proche du groupe » enfant. Comme il n'existe pas dans Kids, je propose : Ján est **rencontré à Košice**, pas hérité. Le titre « le copain qu'on ne voulait pas perdre » deviendrait « le copain qu'on rencontre et qu'on ne quitte plus ». Si tu préfères qu'il ait fait partie de la bande en Kids sans que ça se voie, il faudra l'ajouter après coup dans Kids. À décider (Q8).*
-
-Ján pourrait devenir l'un des personnages les plus intéressants du groupe.
-
-Adolescent, il est quelqu'un de très vivant.
-
-Il peut être :
-
-- plus débrouillard ;
-- très curieux ;
-- un peu grande gueule ;
-- capable de parler avec n'importe qui ;
-- parfois beaucoup trop sûr de lui.
-
-Il pourrait avoir une connaissance étonnamment large de la Slovaquie.
-
-C'est potentiellement celui qui connaît :
-
-> « quelqu'un qui connaît quelqu'un »
-
-dans chaque ville.
-
-Il permet aussi de faire entrer naturellement dans l'histoire des situations plus urbaines et sociales.
-
-*Idée : en écureuil (animal courant en Slovaquie), Ján pourrait avoir un lien personnel avec l'épisode de la mine (§15, les écureuils qui doivent partir), sans en faire un porte-parole.*
-
----
-
-# 11. Babka Zuzana
-
-### 🐑 Babka Zuzana *(brebis, grand-mère de Katka et Maťo, déjà dans Kids)*
-
-Babka Zuzana est un personnage particulièrement intéressant à conserver, car elle porte une partie du lien avec la culture et les générations précédentes.
-
-Elle peut être une présence ponctuelle mais importante.
-
-Elle représente :
-
-- la mémoire ;
-- les traditions ;
-- la génération précédente ;
-- les changements observés sur plusieurs décennies.
-
-Elle pourrait notamment être l'un des personnages qui connaît réellement l'ancien monde des Tatras.
-
-Elle peut raconter aux adolescents :
-
-> « Keď som bola mladá... »
-
-et leur montrer que certains changements ne datent pas d'hier.
-
-Dans Kids, c'est elle qui est amusante avec la bryndza et les halušky (elle évite soigneusement le sujet, étant une brebis) : un clin d'œil possible.
-
----
-
-# 12. Katka
-
-### 🐹 Katka *(marmotte, déjà dans Kids)*
-
-Katka était, dans Kids, la petite sœur de **Maťo** (et non de Ján), 8 ans.
-
-Quelques années plus tard, elle n'est plus une petite fille.
-
-C'est précisément ce qui peut être amusant.
-
-Les autres continuent parfois à la considérer comme « la petite Katka ».
-
-Elle, évidemment, déteste ça.
-
-Elle peut être devenue :
-
-- très autonome ;
-- plus directe ;
-- très connectée ;
-- sarcastique ;
-- probablement beaucoup moins impressionnée par les adultes.
-
-Elle peut également avoir une relation particulière avec Andrea, sa **cousine** (Andrea est aussi l'amie de l'apprenant : les deux sont compatibles, voir §0.0).
-
-> *Remarque : le gag de « la petite Katka » marche d'autant mieux qu'elle a 13 ans et non 18 (voir Q1).*
-
----
-
-# 12 bis. Maťo
-
-### 🐻 Maťo *(ours, grand frère de Katka, déjà dans Kids ; absent du brouillon)*
-
-Maťo avait 9 ans dans Kids : ours, calme, grand frère de Katka.
-
-Il est le grand oublié du brouillon. Plusieurs options :
-
-- il fait partie du groupe (un ours de 14 ans dans un train, ça donne des situations) ;
-- il reste dans les Tatras avec Babka Zuzana, et ne réapparaît que dans les épisodes consacrés au village d'enfance ;
-- il a changé de rôle (par exemple, c'est lui qui a quitté les Tatras pour travailler).
-
-À décider (Q7).
-
----
-
-# 13. Marek
-
-### 🦡 / 🐗 Marek *(nouveau personnage, pas dans Kids)*
-
-> *Dans le brouillon, Marek est le « collègue d'Andrea ». Cette relation vient du cours adulte et n'a pas de sens ici. Je propose de le garder comme **adulte** (ou jeune adulte) rencontré en chemin, ce qui permet la fonction visée ci-dessous sans retomber sur le piège « gentils animaux contre méchants humains ».*
-
-Marek peut représenter le lien avec :
-
-- le monde du travail ;
-- les entreprises ;
-- la ville ;
-- les infrastructures ;
-- les décisions prises par les adultes.
-
-Il n'est pas nécessaire d'en faire un méchant.
-
-Au contraire, il serait plus intéressant s'il était parfois lui-même pris entre plusieurs contraintes.
-
-Il peut comprendre certains problèmes mais travailler malgré tout pour une entreprise qui contribue à ces mêmes problèmes.
-
-Cela évite une opposition trop simple :
-
-```text
-gentils animaux
-      VS
-méchants humains
-```
-
-Le monde doit être plus ambigu.
-
-*Animal : blaireau 🦡 ou sanglier 🐗, les deux sont libres. Âge, lien avec le groupe : Q9.*
-
----
-
-# 14. Un groupe, pas une équipe de super-héros
-
-Les personnages ne doivent pas devenir une sorte de « bande de héros écologistes ».
-
-Ils voyagent ensemble parce qu'ils sont amis, parce qu'ils ont des raisons personnelles d'avancer, et parce que leurs chemins se recroisent.
-
-Ils peuvent être :
-
-- solidaires ;
-- parfois égoïstes ;
-- parfois lâches ;
-- parfois courageux ;
-- parfois complètement dépassés.
-
-Ils ne savent pas toujours quoi faire.
-
-Ils apprennent en chemin.
-
-C'est précisément ce qui permet à l'apprenant de s'identifier à eux.
-
----
-
-# 15. Le monde étrange des catastrophes
-
-Les séries peuvent être construites autour de problèmes qui deviennent progressivement plus importants.
-
-Quelques idées :
-
-## Sécheresse
-
-💧
-
-Le seul point d'eau d'une région disparaît progressivement.
-
-Les animaux qui en dépendent doivent partir.
-
-Vocabulaire :
-
-- eau ;
-- sécheresse ;
-- rivière ;
-- source ;
-- boire ;
-- manquer ;
-- chercher ;
-- chaleur ;
-- nature.
-
----
-
-## Inondations
-
-🌧️🌊
-
-Après une période de sécheresse, des pluies extrêmement fortes provoquent des inondations.
-
-Cela permet notamment :
-
-- météo ;
-- danger ;
-- secours ;
-- déplacements ;
-- logement ;
-- entraide.
-
----
-
-## Tempête dans les Tatras
-
-🌬️⛰️
-
-Le groupe traverse les montagnes et se retrouve bloqué par une tempête.
-
-Cette série peut être particulièrement riche en vocabulaire de montagne.
-
----
-
-## La route
-
-🛣️
-
-Une nouvelle route doit traverser une zone naturelle.
-
-Les personnages découvrent les travaux.
-
-Il faut :
-
-- contourner ;
-- traverser ;
-- attendre ;
-- comprendre ;
-- discuter ;
-- protester ;
-- négocier.
-
----
-
-## Le datacenter
-
-🏗️💻
-
-Un gigantesque datacenter est construit à l'endroit où se trouvait une zone humide.
-
-C'était l'un des derniers endroits où il restait de l'eau.
-
-Les grenouilles ont disparu.
-
-Le problème permet de parler de :
-
-- informatique ;
-- énergie ;
-- eau ;
-- construction ;
-- entreprise ;
-- emplois ;
-- environnement.
-
-Et surtout de montrer qu'une situation peut avoir **des avantages et des conséquences négatives simultanément**.
-
----
-
-## La mine de lithium
-
-⛏️🔋
-
-Une mine ouvre dans une région où vivaient les écureuils.
-
-Ils doivent partir.
-
-Le sujet permet d'aborder :
-
-- industrie ;
-- ressources ;
-- batteries ;
-- énergie ;
-- travail ;
-- économie ;
-- territoire ;
-- conflit.
-
-Là encore, pas de méchant caricatural.
-
-Le lithium est utile.
-
-La mine crée des emplois.
-
-Mais elle transforme aussi le territoire.
-
-Les personnages doivent apprendre à réfléchir à cette contradiction.
-
-> *Précautions pour les sujets réels : entreprises et projets **fictifs** (pas de nom d'entreprise réelle, pas de projet réel nommé) ; faits locaux vérifiés quand on s'appuie sur un lieu réel (voir la remarque sur Banská Štiavnica en §0.1 n° 12 et en Q17). Cohérent avec la ligne éditoriale du cours : pas de figures politiques en dialogue, plusieurs points de vue.*
-
----
-
-# 16. Une aventure qui devient progressivement plus grande
-
-Le début doit rester relativement personnel.
+Le début reste relativement personnel :
 
 ```text
 Košice
@@ -769,256 +340,134 @@ Et finalement :
 
 Le voyage vers Bratislava devient alors progressivement une quête.
 
----
+## Le final : être entendus
 
-# 17. Le château de Bratislava
+Les personnages veulent atteindre Bratislava parce qu'ils pensent que c'est là qu'ils pourront **être entendus**. Pas parce que le château contient un trésor, et pas parce qu'ils doivent sauver le monde avec une formule magique.
 
-🏰
+**Leur but : passer à la télévision nationale**, au journal du soir, pour raconter ce qu'ils ont vu sur la route (le point d'eau, les inondations, la zone humide, la mine).
 
-Le château est l'objectif final du parcours.
+Les noms sont **réels** (vérifiés en octobre 2026) :
 
-Pas nécessairement parce qu'il contient un trésor.
+- le diffuseur public est **STVR** (*Slovenská televízia a rozhlas*), qui a remplacé RTVS le 1er juillet 2024 ;
+- la chaîne est **Jednotka** (*:1*), qui s'est appelée STV1 jusqu'en 2004 ;
+- le journal du soir est **Správy STVR**, tous les soirs à **19 h** ;
+- la radio principale est **Rádio Slovensko**.
 
-Pas parce que les personnages doivent sauver le monde avec une formule magique.
+Pas de vrai journaliste ni de vraie personnalité dans les dialogues : les humains sont désignés par leur fonction (*redaktorka*, *kameraman*, *vrátnik*…), vouvoyés par les ados. Le gag : des animaux qui se présentent à la télévision nationale, et tout le monde les traite normalement (§4).
 
-Ils veulent atteindre Bratislava parce qu'ils pensent que c'est là qu'ils pourront **être entendus**.
+**Le château** (*Bratislavský hrad*) est le décor et le symbole : le centre du pouvoir et de la capitale, qu'on voit de partout dans la ville. Il sert de lieu du dernier chapitre.
 
-Le château devient ainsi un symbole :
+La façon exacte dont ils arrivent à passer à l'antenne, et ce qui s'ensuit, s'écrit au fil de l'histoire. Les personnages comprennent qu'ils ne vont probablement pas « sauver le monde ». Ils peuvent simplement réussir à faire entendre leur voix, aider quelques animaux, convaincre quelques personnes, changer une petite chose. Et cela se présente comme une vraie victoire.
 
-> arriver au centre du pouvoir / de la décision / de la capitale.
+## Les personnages évoluent en même temps que l'apprenant
 
-La signification exacte du final reste volontairement ouverte.
+Au début : « On ne sait pas vraiment ce qu'on va faire. » Au milieu : « On commence à comprendre le problème. » Vers la fin : « On doit décider ce qu'on veut défendre. » Mais sans transformer le cours en morale.
 
-Le « mega final exam » pédagogique pourra être construit séparément.
+## Épilogue : le rêve
 
----
+À la fin, Gab se réveille et se rend compte qu'il n'est encore qu'au **lendemain des retrouvailles avec Andrea**. Toute l'aventure était un **rêve**. Il retrouve Andrea et lui raconte qu'il a fait « un rêve bizarre ». L'histoire s'arrête là.
 
-# 18. Une progression pédagogique plus avancée
+Pourquoi ça marche :
 
-Le public cible est approximativement :
+- ça **explique l'absurde** (animaux qui parlent, ado de 15 ans seul en voyage, catastrophes) sans avoir à le justifier ;
+- le fil rouge du **temps limité** reste vrai au réveil : Gab a toujours peur de la perdre, Andrea répond toujours « pour l'instant t'es là, on verra bien ». Le rêve ne l'annule pas, il le reflète ;
+- la **carte** se boucle sur Košice, là où tout a commencé ;
+- **pédagogie** : raconter son rêve est un bon moment pour le **passé** (*Mal som čudný sen*, *Snívalo sa mi…*) et pour tout récapituler.
 
-**12–16 ans**
+À prévoir :
 
-Le cours doit donc monter nettement en difficulté par rapport à Kids.
-
-Mais il ne faut pas simplement ajouter plus de grammaire.
-
-Il faut surtout augmenter :
-
-- longueur des phrases ;
-- variété du vocabulaire ;
-- compréhension implicite ;
-- dialogues naturels ;
-- réemploi ;
-- expression d'opinions ;
-- description ;
-- argumentation ;
-- narration ;
-- compréhension culturelle.
-
-On pourra progressivement introduire :
-
-- davantage de temps verbaux ;
-- conditionnel ;
-- subordonnées ;
-- comparatifs ;
-- expressions idiomatiques ;
-- langage courant ;
-- nuances de registre ;
-- formulations pour exprimer l'accord et le désaccord.
-
-## Ce que Kids couvre déjà (point de départ possible)
-
-Kids s'arrête volontairement avant le passé, le futur, le conditionnel et les cas expliqués comme tels. Il couvre : *byť / mať*, les trois genres, *v / na / do* + lieu **en morceaux**, *chcem / jem / pijem*, *ísť*, *môžem* + infinitif, les adjectifs, le comparatif simple (*väčší ako*), le premier *vy*, les nombres jusqu'à 10 et un peu plus. Vocabulaire : environ 40 mots par série (7 essentiels + 2–3 complémentaires par fiche).
-
-Si Friends est une suite, c'est de là qu'il part. Si Friends doit aussi accueillir des débutants, il lui faut son propre Kit de Survie (Q2).
-
-## Proposition de grammaire par série *(à valider, Q19)*
-
-Liée aux 12 étapes de la section 25, et au programme de Kids (ce qui n'y est pas traité, Friends l'introduit).
-
-| # | Étape | Grammaire proposée |
-|---|---|---|
-| 01 | Košice, retrouvailles | Révision du présent ; premier passé (*bol som*, *stretli sme sa*) pour les retrouvailles ; tutoiement / vouvoiement |
-| 02 | Sécheresse | Quantités et génitif de quantité (*veľa vody*, *málo vody*) ; météo ; *chýba mi* ; locatif |
-| 03 | Slovenský raj | *ísť / chodiť*, prépositions de direction (*cez*, *po*, *popri*) ; impératif ; accusatif |
-| 04 | Tatry, tempête | Futur (*budem*) ; *musieť / môcť* ; conditionnel (*by*) ; comparatif / superlatif |
-| 05 | Retour au village d'enfance | Passé et souvenirs (*keď som bol malý*) ; datif ; expressions de temps |
-| 06 | Inondations | Aspect perfectif / imperfectif (en pratique, pas en théorie) ; secours, entraide |
-| 07 | Nouvelle route | Opinion, accord, désaccord (*podľa mňa*, *súhlasím*) ; *lebo / preto / pretože* |
-| 08 | Datacenter | Subordonnées (*že*, *ktorý*) ; pour et contre ; concession (*aj keď*, *hoci*) |
-| 09 | Mine | Hypothèse (*keby*) ; débat nuancé |
-| 10 | Conséquences, choix | *mal by som* ; discours rapporté ; décisions |
-| 11 | Bratislava, arrivée | Registres et *vy* ; transports, démarches |
-| 12 | Château | Argumentation orale ; synthèse |
+- **Planter le rêve dès le chapitre 1** : Gab s'endort à la fin du chapitre 1 (un simple *Dobrú noc*), sans le souligner.
+- **Éviter le « tout ça pour ça »** : on garde ce qui est vrai (l'amitié, la peur de se perdre), et on assume le clin d'œil.
+- **Le secret d'Andrea** se confirme ici : quand Gab raconte son rêve, Andrea devient silencieuse, car il a « rêvé » les indices sur sa trahison. Pas de grande explication, une simple confirmation.
 
 ---
 
-# 19. La culture devient une composante centrale
+# 9. Les fils rouges et les gags
 
-Chaque série devrait contenir un véritable **Coin slovaque**.
+## Fil rouge 1 : le mystère d'Andrea
 
-Le format Kids prévoit déjà un espace culturel dans les séries (« 🇸🇰 Coin slovaque », 2 courts paragraphes, faits **vérifiables**, mots-clés en `{{…}}`).
+Le secret est décrit en §3.2. Il se voit dans des **piques récurrentes** : *Líšky veľa rozprávajú.* (« Les renards, ça parle beaucoup. »), *Líšky nikdy nepochopím.* (« Je ne comprendrai jamais les renards. »). Gab encaisse en riant, et elle le « teste » de temps en temps.
 
-Dans la version ado, il peut devenir beaucoup plus riche.
+**Escalade des piques.** Au début, la pique est **gentille** (extraterrestres, compliqués). Avec les indices sur ce qui lui est arrivé, Andrea en balance de **plus violentes** au fil des chapitres : le public rit d'abord, puis comprend. Le ton reste léger.
 
-Exemples :
+**Indices semés** :
 
-### Košice
+- chapitres 1 à 4 : seulement les piques ;
+- milieu du récit : une phrase coupée, un rappel de sa maman (« maman disait… ») ;
+- fin : la confirmation, par le rêve (§8).
 
-- centre historique ;
-- cathédrale Sainte-Élisabeth ;
-- vie étudiante ;
-- dialectes / accents éventuels ;
-- rôle de la ville dans l'est de la Slovaquie.
+Le passé est un bon terrain pour ce fil (« Qu'est-ce que tu as fait ? »), une fois qu'il est introduit.
 
-### Slovenský raj
+## Fil rouge 2 : le temps limité de Gab
 
-- parc national ;
-- sentiers ;
-- échelles et passerelles ;
-- paysages ;
-- tourisme.
+- Gab sait qu'il n'est là que **pour un temps limité** : il devra rentrer à Lyon.
+- Au fil des chapitres, il a de plus en plus **peur de perdre Andrea de vue à nouveau**.
+- Andrea est **pragmatique** : « Pour l'instant t'es là, on verra bien, c'est la vie de toutes façons. »
+- Ce contraste (anxieux / pragmatique) donne de l'émotion sans drame : on peut le jouer en dialogue très simple (*Teraz si tu. Uvidíme.*), donc dès les premiers niveaux.
+- Il se joue **uniquement dans les dialogues**, pas sur la carte.
 
-### Les Tatras
+Ces deux fils se répondent : Gab a peur de la perdre, elle a peur d'être trahie à nouveau, donc se garde de s'attacher. Un renard (Gab) qui reste, c'est sa preuve.
 
-- montagne ;
-- refuges ;
-- tourisme ;
-- symbolique des Tatras ;
-- histoire de la région.
+## Gags « à la française »
 
-### Liptov
+Gab passe pour un Slovaque tant qu'on ne pousse pas la conversation. Quand il dit quelque chose « à la française » (calque du français, mauvaise prononciation, geste, faux-ami), Andrea le reprend. C'est un moyen naturel d'enseigner les pièges pour francophones, avec un gag par chapitre au maximum.
 
-- villages ;
-- montagne ;
-- thermalisme ;
-- gastronomie ;
-- traditions.
+### Gag modèle : « Je parle beaucoup, je suis… renardesque, compliqué… »
 
-### Banská Štiavnica
+**Placement** :
 
-- histoire minière ;
-- architecture ;
-- patrimoine ;
-- paysage culturel.
+- **Chapitre 1, dans un dialogue précédent** : Gab parle beaucoup (c'est voulu), et Andrea lui balance la pique : les renards parlent beaucoup, sont compliqués, des extraterrestres ! Une pique **gentille** à ce stade.
+- **Chapitre 2** : Gab s'en rend compte **en disant sa phrase**. Le gag ne tombe donc pas de nulle part, et on est assez tôt dans le cours pour que Gab fasse encore ce genre de fautes.
 
-### Bratislava
+Gab, beau joueur, la reprend à son compte pour rire de lui-même :
 
-- capitale ;
-- Danube ;
-- château ;
-- vie politique ;
-- architecture ;
-- mélange historique et moderne.
+- **Gab** : *Veľmi hovorím, som líškasky, komplikovaný…* 😂
+  (*líškasky* est un mot **inventé** à partir de *líška*, sur le modèle de *francúzsky* : il n'y a pas de référence à la France dans la phrase, juste au fait qu'il est un renard.)
+- **Andrea** comprend l'idée, mais **explique pourquoi sa phrase est fausse**, avec un petit rire.
 
----
+Les deux erreurs sont typiques d'un francophone :
 
-# 20. Structure pédagogique d'une série
+1. ***veľmi* ≠ *veľa*.** *Veľmi* = « très » (l'intensité : *veľmi pekne ďakujem*) ; *veľa* = « beaucoup » (la quantité : *veľa hovorím*). Le piège vient de « merci beaucoup », qui s'est appris avec *veľmi*. Andrea a dit *veľa* correctement dans sa pique : Gab la déforme donc en l'imitant.
+2. ***líškasky* n'existe pas.** Il a fabriqué un mot sur le modèle de *po francúzsky* / *po slovensky* (la terminaison *-sky* sert aux langues et aux nationalités). Pour dire ce qu'on est, il faut un **nom** : *Som líška.* (*komplikovaný* est correct : l'accord masculin va bien.)
 
-On peut conserver la structure générale de Kids tout en l'adaptant au nouveau ton.
+Exemple de principe :
 
-**Principe : une série = un chapitre.** On ne lit pas des fiches, on lit une histoire dont chaque série est un chapitre. Il n'y a **que des dialogues** : plus de phrases isolées. Le format de Kids peut donc évoluer.
+*Chapitre 1 :*
+- **Gab** parle beaucoup (plusieurs répliques).
+- **Andrea** : *Líšky veľa rozprávajú. A sú komplikované ako mimozemšťania!*
 
-## Fiches 01–04 : vocabulaire et grammaire, avec des micro-dialogues
+*Chapitre 2 :*
+- **Gab** : *Veľmi hovorím, som líškasky, komplikovaný…*
+- **Andrea** : *Rozumiem, čo chceš povedať. Ale hovorí sa: „Veľa hovorím.“ „Veľmi“ je „très“.*
+- **Andrea** : *A „líškasky“ neexistuje! Si líška.* (le mot *líška* garde le féminin, comme dans Kids, même pour Gab)
+- **Andrea** : *„Líščí“ je „de renard“ : líščí chvost.* (l'adjectif correct ; *Som líščí* serait étrange, donc elle s'en tient à *Si líška*)
 
-Apprentissage structuré, comme avant :
-
-- vocabulaire (tableau des nouveaux mots) ;
-- grammaire du jour ;
-- réemploi ;
-- culture (Coin slovaque).
-
-La différence : à la place des phrases isolées, ce sont des **micro-dialogues** (2 à 4 répliques) qui placent le **contexte** et l'**action** du chapitre. Les quatre fiches d'apprentissage font ainsi avancer l'histoire par petites touches, et préparent l'épisode des fiches 05 et 06.
-
-Ces fiches ne sont pas qu'un support de vocabulaire : elles **développent aussi l'histoire** et le **contexte culturel** (le lieu, la ville, une coutume, un détail du pays) à travers de petites scènes, avec parfois quelques lignes de narration (voir plus bas).
-
-> *Différence avec Kids (et avec le cours adulte) : leurs fiches 01 à 04 n'ont « pas de mise en scène, pas de personnages, pas d'histoire », et seule la fiche 05 raconte. C'est ici un choix volontaire (✅ Q22).*
-
-## Fiches 05 et 06 : l'épisode
-
-Le **vrai dialogue** du chapitre se trouve dans **deux fiches** :
-
-- **fiche 05** : première partie de l'épisode ;
-- **fiche 06 (« extra »)** : suite et fin de l'épisode. Elle laisse de la place pour **développer** l'histoire (scènes plus longues, rebondissements, personnages secondaires), au lieu de n'être qu'un récapitulatif.
-
-Les personnages interviennent. Le dialogue réutilise le vocabulaire et la grammaire de la série.
-
-C'est le moment où l'apprenant comprend :
-
-> « Ah, maintenant je comprends pourquoi j'ai appris tout ça. »
-
-Chaque chapitre doit pouvoir se lire d'un trait en enchaînant les micro-dialogues des fiches 01 à 04 puis les fiches 05 et 06.
-
-> *Dans Kids, la fiche 06 était un tableau de **tout** le vocabulaire (aucun mot nouveau), puis 3 ou 4 mini-dialogues pour recombiner, la base des exercices écrits à la main. Friends garde l'idée du tableau récapitulatif, mais la 06 devient aussi la suite de l'épisode. Reste à décider si elle peut introduire des mots nouveaux (Q29), et quelle longueur donner à un chapitre (Q28).*
-
-## La voix du narrateur
-
-Les fiches 05 et 06 sont du « pur dialogue », mais avec une **voix narrative en slovaque** : de courtes phrases en `{{ }}` entre les morceaux de dialogue, pour situer l'action (les personnages se mettent en route, qui parle, ce qui se passe) avant la réplique suivante. Exemple de principe : une ligne de narration du type *Andrea ide vpredu a hovorí:* (à faire relire), puis la réplique d'Andrea.
-
-Règles proposées (voir Q36) :
-- phrases **très courtes**, au **présent narratif** tant que le passé n'est pas introduit (voir §18) ;
-- le vocabulaire de la narration obéit aux mêmes règles que celui des dialogues (pas de mot nouveau non signalé, Q21) ;
-- la narration reste **brève** : l'essentiel de l'épisode est dans les répliques ;
-- elle peut aussi apparaître, en plus petit, dans les fiches 01 à 04.
-
-## Volume cible (décidé le 5 octobre : option A)
-
-- **12 séries** (= 12 chapitres), soit à la fin **environ 9 000 à 10 000 mots slovaques** de dialogues et de narration, l'équivalent d'un **demi-roman** de la Bibliothèque rose ou verte. Estimation : un *Club des Cinq* ou un *Six compagnons* fait à peu près 40 000 à 50 000 mots, dont la moitié de dialogues.
-- **Les chapitres grossissent avec l'apprenant** : environ **400 à 600 mots** pour les chapitres 1 à 4, **700 à 900** pour les chapitres 5 à 8, **900 à 1 100** pour les chapitres 9 à 12 (moyenne ≈ 800).
-- À titre de comparaison, dans Kids : environ 190 mots de dialogue par série (fiches 05 et 06 : 65 à 105 mots chacune).
-- Répartition indicative dans un chapitre : environ 40 % dans les fiches 01–04 (micro-dialogues, petites scènes), 60 % dans les fiches 05 et 06.
-- Les explications en français (grammaire, culture) ne comptent pas dans ce volume.
-
-## Conséquences à anticiper
-
-- **Lecture dans l'ordre.** Les chapitres se lisent à la suite. La règle de Kids « aucune référence à une autre série » ne peut plus s'appliquer telle quelle : on la remplace par des **rappels dans le dialogue** (une ou deux répliques), sans renvoi explicite à un chapitre (Q30).
-- **Exercices.** Ils se tirent des dialogues (des répliques entières, mot pour mot), comme dans Kids.
-- **Carte.** Elle représente le voyage : un chapitre = une étape (§4).
-
-## Règles de format héritées de Kids (à reprendre sauf avis contraire)
-
-- Format SMD, fichiers `md/10_Series_NN_Theme_XX_titre.md`, extra en `_06_extra`. Le thème donne la clé de `subgroups` dans `lang.json`, en minuscules et sans diacritiques.
-- Cartes audio : première ligne `>` = traduction naturelle, lignes `>` suivantes = décomposition **une ligne par élément**, jamais plusieurs éléments sur la même ligne ; `+` pour les remarques utiles ; dialogue avec l'avatar du locuteur **après** le `!` (`! 🐰 Ahoj!`).
-- Vocabulaire cumulatif dans la série ; aucun mot inconnu non signalé ; mots nouveaux d'un dialogue toujours marqués (`+ Mot nouveau signalé : …`).
-- Aucune référence à une autre série ni renvoi entre fiches.
-- Consignes importantes en `{{fr:…}}` (voix française) ; **pas de mot slovaque** dans un `{{fr:…}}` (sauf prénoms des personnages).
-- Prénom : dans Kids, `[ASK_USER_NAME]` / `[USER_NAME]` donnent le prénom de l'élève. Dans Friends, le renard s'appelle **Gab** par défaut ; il faut donc un champ de prénom avec valeur par défaut (voir Q31).
-- Dans Kids, les fiches d'apprentissage n'ont pas de dialogue suivi et la 06 n'a aucun mot nouveau : ces deux règles évoluent (voir plus haut et Q29).
-- Exercices écrits à la main dans `exercises/`, `"mode": "replace"`.
-- Slovaque à faire relire avec attention : la relecture de Kids a trouvé quelques calques fréquents (tableau des pièges dans `Format-enfants.md`).
+Pédagogie : le gag fait travailler *veľa* / *veľmi* et *som* + nom, et il est **drôle même sans connaître la règle**.
 
 ---
 
-# 21. Ton général
+# 10. Ton général
 
-Le ton recherché :
+Le ton recherché : **adolescent + aventure + absurde + légèrement dystopique + slovaque.**
 
-**adolescent + aventure + absurde + légèrement dystopique + slovaque.**
-
-Pas :
-
-- post-apocalyptique hardcore ;
-- survival horror ;
-- cours militant ;
-- humour pour adultes ;
-- sitcom pour enfants.
+Pas : post-apocalyptique hardcore, survival horror, cours militant, humour pour adultes, sitcom pour enfants.
 
 On vise plutôt :
 
 > **« Le monde part un peu en vrille, mais bon... on va quand même prendre le train. »**
 
-Les personnages peuvent être sarcastiques.
+Limites :
 
-Ils peuvent être parfois blasés.
+- **pas d'humour noir sur la mort** ;
+- une dystopie **douce** : le monde se dégrade sans que personne ne meure à l'écran ;
+- le réalisme de la vie quotidienne ;
+- un absurde **dosé** : la règle des animaux qui parlent suffit.
 
-Mais ils restent profondément solidaires.
+Les personnages peuvent être sarcastiques et parfois blasés, mais ils restent profondément solidaires.
 
-## Exemples de dialogue — la bible de ton
+## La scène de référence
 
 Les échanges ci-dessous servent de référence exacte pour le caractère des personnages et la mécanique des dialogues. Ils sont à conserver tels quels.
-
-### Scène de référence
 
 > 🐰 Andrea : Les renards sont vraiment compliqués.
 >
@@ -1074,469 +523,232 @@ Les échanges ci-dessous servent de référence exacte pour le caractère des pe
 
 ### Utilisation pédagogique
 
-Ces répliques sont courtes, naturelles et réutilisables presque telles quelles en slovaque. Elles sont parfaites pour la fiche 05 (épisode) — par exemple un moment calme juste avant la tempête dans les Tatras. Les jeux de mots (« hase » / « lapin », les rêves contre les réalités) devront être testés directement en slovaque : si un gag ne survit pas à la traduction, il faut l'écrire d'abord en slovaque, puis le retraduire en français.
+Ces répliques sont courtes, naturelles et réutilisables presque telles quelles en slovaque. Elles sont parfaites pour la fiche 05 (épisode), par exemple un moment calme juste avant la tempête dans les Tatras. Les jeux de mots (« hase » / « lapin », les rêves contre les réalités) doivent être testés directement en slovaque : si un gag ne survit pas à la traduction, on l'écrit d'abord en slovaque, puis on le retraduit en français.
 
-### Test de traduction en slovaque *(brouillon, à faire relire par un locuteur natif)*
+### Test de traduction en slovaque
 
-J'ai fait l'essai sur les répliques clés. Bonne nouvelle : **le gag hase / lapin survit**, parce que le slovaque distingue lui aussi *zajac* (lièvre) et *králik* (lapin). Mauvaise nouvelle : le **genre** s'invite dans presque toutes les répliques du renard, et dans celles d'Andrea qui s'adressent à lui.
+Bonne nouvelle : **le gag hase / lapin survit**, parce que le slovaque distingue lui aussi *zajac* (lièvre) et *králik* (lapin). Mais le **genre** s'invite dans presque toutes les répliques du renard, et dans celles d'Andrea qui s'adressent à lui. Gab étant un garçon, on retient les **formes masculines** pour lui et les **formes féminines** pour Andrea quand elle parle d'elle.
 
-| Français | Slovaque (brouillon) | Remarque |
-|---|---|---|
-| Les renards sont vraiment compliqués. | Líšky sú naozaj komplikované. | *líška* est féminin : « les renards » = *líšky*, sans souci. |
-| Je suis pourtant assez simple. | Ja som pritom celkom jednoduchý. / jednoduchá. | **Genre du renard obligatoire.** |
-| Je savais. | Vedel som to. / Vedela som to. | **Genre du renard obligatoire.** |
-| Pffff... t'es bête. | Ty si hlúpy. / hlúpa. | **Genre du renard** (dit par Andrea). |
-| Je veux bien attendre la fin du monde avec toi ! | S tebou by som na koniec sveta rád počkal. / rada počkala. | **Genre du renard** (réplique à conserver texto). |
-| Les renards ne comprennent jamais rien aux lapins. | Líšky nikdy nepochopia králikov. | OK |
-| Je suis une hase. | Ja som zajačica, nie králik. | Le « nie králik » est un ajout possible (la blague est dans le contraste). |
-| C'est encore plus compliqué. | To je ešte komplikovanejšie. | OK |
-| Moi non plus. | Ani ja. | OK |
+| Français | Slovaque |
+|---|---|
+| Les renards sont vraiment compliqués. | Líšky sú naozaj komplikované. |
+| Je suis pourtant assez simple. | Ja som pritom celkom jednoduchý. |
+| Je savais. | Vedel som to. |
+| Pffff... t'es bête. | Ty si hlúpy. |
+| Je veux bien attendre la fin du monde avec toi ! | S tebou by som na koniec sveta rád počkal. |
+| Les renards ne comprennent jamais rien aux lapins. | Líšky nikdy nepochopia králikov. |
+| Je suis une hase. | Ja som zajačica, nie králik. |
+| C'est encore plus compliqué. | To je ešte komplikovanejšie. |
+| Moi non plus. | Ani ja. |
 
-✅ **Réglé** : le renard est un garçon (Gab). On retient donc les **formes masculines** pour lui (*jednoduchý*, *Vedel som to*, *rád počkal*) et les formes **féminines** pour Andrea quand elle parle d'elle. Ses répliques envers le renard sont au masculin (*Ty si hlúpy*). Le test ci-dessus se lit donc avec la première forme de chaque ligne.
-
----
-
-# 22. Le contraste avec Kids
-
-Le lien avec Kids est important.
-
-Le nouveau cours doit parfois faire ressentir :
-
-> « Ils étaient vraiment mignons quand ils étaient petits. »
-
-Mais sans nécessiter d'avoir suivi Kids pour comprendre l'histoire.
-
-Quelques références peuvent être discrètes :
-
-- un ancien lieu ;
-- une vieille photo ;
-- un souvenir ;
-- une expression ;
-- un objet ;
-- une blague entre personnages.
-
-Pistes tirées de Kids : la peur d'Andrea devant le renard (*Bála som sa!*), les baies, les terriers et les nids de Doma, la bryndza que Babka Zuzana évite, la marmotte qui siffle pour prévenir, le village et sa commerçante, le parc et son gardien.
-
-L'ancien monde des personnages existe dans leur mémoire.
-
-Il n'a pas besoin d'être constamment expliqué à l'apprenant.
+*Le « nie králik » est un ajout possible : la blague est dans le contraste.*
 
 ---
 
-# 23. Direction artistique
+# 11. Le lien avec Kids
 
-La direction graphique peut reprendre les personnages de Kids mais les faire évoluer.
-
-Même identité visuelle de base :
-
-- 🦊 renard ;
-- 🐰 Andrea ;
-- autres personnages animaux ;
-- expressions faciales simples ;
-- illustrations lisibles.
-
-Mais :
-
-- silhouettes légèrement plus grandes ;
-- vêtements adolescents ;
-- accessoires ;
-- sacs à dos ;
-- téléphones ;
-- écouteurs ;
-- vêtements de randonnée ;
-- vêtements urbains ;
-- objets liés à leur quotidien.
-
-Le monde peut progressivement passer :
-
-```text
-🌲 enfance
-   ↓
-🏙️ adolescence
-   ↓
-🌍 monde compliqué
-```
-
-> *Point pratique : Kids n'a **aucune illustration de personnage**. Ses images sont des photos libres de Wikimedia Commons (animaux, paysages), choisies une à une, avec crédits dans `img/credits.md`, plus des images de « style » (bandeaux de thème). Une direction artistique avec des personnages dessinés qui grandissent suppose de **produire** ces illustrations (Q25).*
-
----
-
-# 24. Un principe narratif important
-
-Les catastrophes ne doivent jamais être simplement :
-
-> « catastrophe = méchants humains ».
-
-Le monde doit être plus nuancé.
-
-Un projet peut :
-
-- créer des emplois ;
-- apporter une technologie utile ;
-- résoudre un problème ;
-- mais provoquer ailleurs une autre conséquence.
-
-Les personnages eux-mêmes peuvent être en désaccord.
-
-Cela donne des dialogues beaucoup plus intéressants et permet d'apprendre à exprimer :
-
-- son opinion ;
-- son doute ;
-- son accord ;
-- son désaccord ;
-- une concession ;
-- une hypothèse ;
-- une proposition.
-
-Ce sont précisément des compétences linguistiques adaptées à un public adolescent.
-
----
-
-# 25. Premières séries possibles
-
-La liste reste indicative et sera affinée.
-
-| # | Lieu | Événement / thème |
-|---|---|---|
-| 01 | Košice | Retrouvailles et départ |
-| 02 | Košice / Est | Sécheresse et manque d'eau |
-| 03 | Slovenský raj | La recherche d'eau |
-| 04 | Les Tatras | Tempête |
-| 05 | Les Tatras | Retour vers le village d'enfance |
-| 06 | Liptov | Inondations |
-| 07 | Liptov | Nouvelle route |
-| 08 | Région centrale | Datacenter et disparition de la zone humide |
-| 09 | Banská Štiavnica | Mine de lithium |
-| 10 | Centre de la Slovaquie | Conséquences / choix |
-| 11 | Bratislava | Arrivée dans la capitale |
-| 12 | Bratislava | Château |
-
-Cette structure n'est **pas définitive**.
-
-Le nombre exact de séries, leur ordre et les événements doivent être construits en parallèle avec la progression linguistique.
-
-Remarques :
-
-- Chaque série est un **chapitre** du livre. Les titres de série peuvent donc être des titres de chapitre (« Chapitre 1 : retrouvailles »).
-- 12 séries de 6 fiches font **72 fiches**, soit plus que Kids (7 séries) ; le cours adulte en compte 9 séries (54 fiches). Comme chaque fiche 05 et 06 est un épisode, la quantité de dialogues à écrire est importante : à mettre en regard de la quantité de travail (Q18, Q28).
-- Les séries 03 (recherche d'eau) et 06 (inondations) pourraient se rapprocher dans l'ordre du récit ; l'arc « sécheresse puis déluge » est joli mais éloigne ses deux moitiés de quatre séries. À voir lors du séquençage.
-- Les séries 08 et 10 sont situées en « région centrale » sans lieu précis ; des étapes réelles existent (Zvolen, Banská Bystrica, Žiar nad Hronom…), à choisir (Q18).
-- Nom court (clé de sous-groupe et nom de fichier) à fixer pour chaque série, sur le modèle de Kids (*Rodina*, *Doma*, *Jedlo*…), par exemple `Retrouvailles`, `Sucho`, `Raj`, `Burka`…, puis `10_Series_01_Nom_01_titre.md`.
-
----
-
-# 26. Une évolution possible des personnages
-
-Une idée particulièrement intéressante serait de faire évoluer les personnages **en même temps que l'apprenant**.
-
-Au début :
-
-> « On ne sait pas vraiment ce qu'on va faire. »
-
-Au milieu :
-
-> « On commence à comprendre le problème. »
-
-Vers la fin :
-
-> « On doit décider ce qu'on veut défendre. »
-
-Mais sans transformer le cours en morale.
-
-Les personnages peuvent finir par comprendre qu'ils ne vont probablement pas « sauver le monde ».
-
-Ils peuvent simplement réussir à :
-
-- faire entendre leur voix ;
-- aider quelques animaux ;
-- convaincre quelques personnes ;
-- changer une petite chose.
-
-Et cela peut être présenté comme une vraie victoire.
-
----
-
-# 26 bis. Les fils rouges du récit
-
-Deux fils courent sur toute l'histoire. Ils se nourrissent des dialogues (pas de narration : tout passe par ce que disent les personnages).
-
-## Fil rouge 1 : le mystère d'Andrea
-
-- Gab ne sait rien de ce qu'Andrea a vécu entre les vacances de Kids et leurs retrouvailles à Košice. Elle reste évasive (« Longue histoire. », « Plus tard. »).
-- **Le secret (retenu le 5 octobre) : Andrea a été trahie par un renard inconnu**, qu'elle prenait pour un ami et qui l'a attirée dans un piège (suggéré, pas raconté). Il n'est pas forcément recroisé et n'est **pas le but du château**. Elle se méfie depuis des renards (et des prédateurs en général), sauf de Gab, qu'elle connaît d'avant.
-- Cela se voit dans des **piques récurrentes**, d'abord gentilles (extraterrestres, compliqués), puis plus violentes au fil des chapitres, drôles tant qu'on ignore la cause : *Líšky veľa rozprávajú.* (« Les renards, ça parle beaucoup. »), *Líšky nikdy nepochopím.* (« Je ne comprendrai jamais les renards. »). Gab encaisse en riant, et elle le « teste » de temps en temps.
-- **Indices semés** : chapitres 1 à 4 : seulement les piques ; milieu du récit : une phrase coupée, un rappel de sa maman (« maman disait… ») ; fin : la révélation (qui, quand, pourquoi). Le secret n'est révélé qu'à la fin, et seulement si on décide de le révéler.
-- Le contraste avec Gab donne de la profondeur : lui a peur de la perdre, elle a peur d'être trahie à nouveau, donc se garde de s'attacher. Un renard (Gab) qui reste, c'est sa preuve.
-- Pédagogie : le passé est un bon terrain pour ce fil (« Qu'est-ce que tu as fait ? »), une fois le passé introduit (voir §18).
-
-## Fil rouge 2 : le temps limité de Gab
-
-- Gab sait qu'il n'est là que **pour un temps limité** : il devra rentrer à Lyon.
-- Au fil des chapitres, il a de plus en plus **peur de perdre Andrea de vue à nouveau**.
-- Andrea est **pragmatique** : « Pour l'instant t'es là, on verra bien, c'est la vie de toutes façons. »
-- Ce contraste (anxieux / pragmatique) donne de l'émotion sans drame : on peut le jouer en dialogue très simple (*Teraz si tu. Uvidíme.*), donc dès les premiers niveaux.
-- La fin n'est pas décidée : Q34.
-
-## Gags « à la française »
-
-Gab passe pour un Slovaque tant qu'on ne pousse pas la conversation. Quand il dit quelque chose « à la française » (calque du français, mauvaise prononciation, geste, faux-ami), Andrea le reprend. C'est un moyen naturel d'enseigner les pièges pour francophones (Q33).
-
-### Gag modèle : « Je parle beaucoup, je suis… renardesque, compliqué… »
-
-**Placement (décidé le 5 oct.)** :
-- **Chapitre 1, dans un dialogue précédent** : Gab parle beaucoup (c'est voulu), et Andrea lui balance la pique : les renards parlent beaucoup, sont compliqués, des extraterrestres ! Une pique **gentille** à ce stade.
-- **Chapitre 2** : Gab s'en rend compte **en disant sa phrase**. Le gag ne tombe donc pas de nulle part, et on est assez tôt dans le cours pour que Gab fasse encore ce genre de fautes (remise à niveau, §20).
-
-Gab, beau joueur, la reprend à son compte pour rire de lui-même :
-
-- **Gab** : *Veľmi hovorím, som líškasky, komplikovaný…* 😂
-  (*líškasky* est un mot **inventé** à partir de *líška*, sur le modèle de *francúzsky* : il n'y a pas de référence à la France dans la phrase, juste au fait qu'il est un renard.)
-- **Andrea** comprend l'idée, mais **explique pourquoi sa phrase est fausse**, avec un petit rire.
-
-Les deux erreurs sont typiques d'un francophone :
-1. ***veľmi* ≠ *veľa*.** *Veľmi* = « très » (l'intensité : *veľmi pekne ďakujem*) ; *veľa* = « beaucoup » (la quantité : *veľa hovorím*). Le piège vient de « merci beaucoup », qui s'est appris avec *veľmi*. Andrea a dit *veľa* correctement dans sa pique : Gab la déforme donc en l'imitant.
-2. ***líškasky* n'existe pas.** Il a fabriqué un mot sur le modèle de *po francúzsky* / *po slovensky* (la terminaison *-sky* sert aux langues et aux nationalités). Pour dire ce qu'on est, il faut un **nom** : *Som líška.* (*komplikovaný* est correct : l'accord masculin va bien.)
-
-Exemple de principe (slovaque **à faire relire**) :
-
-*Chapitre 1 :*
-- **Gab** parle beaucoup (plusieurs répliques).
-- **Andrea** : *Líšky veľa rozprávajú. A sú komplikované ako mimozemšťania!*
-
-*Chapitre 2 :*
-- **Gab** : *Veľmi hovorím, som líškasky, komplikovaný…*
-- **Andrea** : *Rozumiem, čo chceš povedať. Ale hovorí sa: „Veľa hovorím.“ „Veľmi“ je „très“.*
-- **Andrea** : *A „líškasky“ neexistuje! Si líška.* (le mot *líška* garde le féminin, comme dans Kids, même pour Gab)
-- **Andrea** : *„Líščí“ je „de renard“ : líščí chvost.* (l'adjectif correct, **forme à vérifier** ; *Som líščí* serait étrange, donc elle s'en tient à *Si líška*)
-
-Pédagogie : le gag fait travailler *veľa* / *veľmi* et *som* + nom, et il est **drôle même sans connaître la règle**.
-
-**Escalade des piques.** Au début, la pique est **gentille** (extraterrestres, compliqués). Avec ses indices sur ce qui lui est arrivé (voir §8 et Q32), Andrea peut en balancer de **plus violentes** au fil des chapitres : le public rit d'abord, puis comprend. Le ton reste léger (§21).
-
-## Contraste Kids → Friends
+Le nouveau cours doit parfois faire ressentir : « Ils étaient vraiment mignons quand ils étaient petits. » Mais **sans nécessiter d'avoir suivi Kids** pour comprendre l'histoire : Kids est supposé acquis pour le **niveau de langue**, mais **aucune explication** n'est donnée sur Kids dans les dialogues. Une allusion doit se comprendre seule.
 
 Dans Kids, le renard est un enfant en vacances, nouveau venu de la montagne. Dans Friends, c'est un ado qui revient sur ses souvenirs, et qui n'est plus tout à fait un étranger.
 
----
+Quelques références peuvent être discrètes : un ancien lieu, une vieille photo, un souvenir, une expression, un objet, une blague entre personnages.
 
-# 26 ter. Épilogue : le rêve
+Pistes tirées de Kids : la peur d'Andrea devant le renard (*Bála som sa!*), les baies, les terriers et les nids de Doma, la bryndza que Babka Zuzana évite, la marmotte qui siffle pour prévenir, le village et sa commerçante, le parc et son gardien.
 
-**Idée (5 oct.)** : à la fin, Gab se réveille et se rend compte qu'il n'est encore qu'au **lendemain des retrouvailles avec Andrea**. Toute l'aventure était un **rêve**. Il retrouve Andrea et lui raconte qu'il a fait « un rêve bizarre ». L'histoire peut s'arrêter là.
-
-Pourquoi ça marche :
-- ça **explique l'absurde** (animaux qui parlent, ado de 15 ans seul en voyage, catastrophes) sans avoir à le justifier ;
-- le fil rouge du **temps limité** reste vrai au réveil : Gab a toujours peur de la perdre, Andrea répond toujours « pour l'instant t'es là, on verra bien ». Le rêve ne l'annule pas, il le reflète ;
-- la **carte** se boucle sur Košice, là où tout a commencé ;
-- **pédagogie** : raconter son rêve est un bon moment pour le **passé** (*Mal som čudný sen*, *Snívalo sa mi…*) et pour tout récapituler (à faire relire).
-
-À prévoir :
-- **Planter le rêve dès le chapitre 1** : il s'endort à la fin du chapitre 1 (un simple *Dobrú noc*), sans le souligner.
-- **Éviter le « tout ça pour ça »** : on garde ce qui est vrai (l'amitié, la peur de se perdre), et on assume le clin d'œil.
-- **Le secret d'Andrea** : il peut servir de confirmation dans l'épilogue (idée à discuter) : quand Gab raconte son rêve, Andrea devient silencieuse, car il a « rêvé » les indices sur sa trahison. Pas de grande explication, une simple confirmation (voir Q32).
-- Le **château** (la fin du voyage) reste à inventer (Q15, Q34) : le rêve ne dit pas ce qui s'y passe.
+L'ancien monde des personnages existe dans leur mémoire. Il n'a pas besoin d'être constamment expliqué à l'apprenant.
 
 ---
 
-# 27. Questions du brouillon qui trouvent leur réponse dans Kids
+# 12. Une progression pédagogique plus avancée
 
-Ces questions du §27 de la v0.1 sont **résolues** :
+Le public cible est approximativement **12–16 ans**. Le cours monte nettement en difficulté par rapport à Kids, mais il ne s'agit pas simplement d'ajouter plus de grammaire. Il faut surtout augmenter la longueur des phrases, la variété du vocabulaire, la compréhension implicite, le naturel des dialogues, le réemploi, l'expression d'opinions, la description, l'argumentation, la narration et la compréhension culturelle.
 
-| Question | Réponse (source : Kids) |
-|---|---|
-| Quel animal devient Katka ? | Une **marmotte 🐹** (déjà dans Kids). |
-| Babka Zuzana reste-t-elle humaine ou devient-elle un animal ? | C'est déjà une **brebis 🐑**. |
-| Quel animal devient Ján ? | N'existe pas dans Kids : à choisir (proposition 🐿️, Q8). |
-| Quel animal devient Marek ? | N'existe pas dans Kids : à choisir (🦡 ou 🐗, Q9). |
-| Tous les personnages de Kids doivent-ils réapparaître ? | Il y en a 7, pas 6 : 🦊, 🐰, 🐹, 🐻, 🐑, 🦔, 🦅. Non, pas forcément (Q7, Q11). |
-| Quel âge avaient-ils dans Kids ? | Andrea 11, Maťo 9, Katka 8, le renard 10. |
-| Où vivent-ils ? | Dans Kids : terriers, tanières et nids dans les Tatras (série Doma). |
+**Niveau visé à la fin de la série 12 : un bon A2.**
 
-Les autres questions sont reprises et complétées en section 29.
+On introduit progressivement : davantage de temps verbaux, le conditionnel, les subordonnées, les comparatifs, des expressions idiomatiques, le langage courant, des nuances de registre, des formulations pour l'accord et le désaccord.
 
----
+## Le point de départ : Kids
 
-# 28. Principe directeur
+Kids s'arrête volontairement avant le passé, le futur, le conditionnel et les cas expliqués comme tels. Il couvre : *byť / mať*, les trois genres, *v / na / do* + lieu **en morceaux**, *chcem / jem / pijem*, *ísť*, *môžem* + infinitif, les adjectifs, le comparatif simple (*väčší ako*), le premier *vy*, les nombres jusqu'à 10 et un peu plus. Vocabulaire : environ 40 mots par série.
 
-Le projet peut finalement se résumer ainsi :
+On suppose Kids fait, **mais peut-être il y a longtemps**. Le début du récit comporte donc un **condensé de remise en place et de rappels**, qui colle avec l'histoire : Gab parlait pas trop mal, mais en débarquant à Košice quelques années plus tard, il faut qu'il se remette en jambes. Cette remise à niveau est **intégrée au chapitre 1** : ses quatre fiches d'apprentissage reprennent l'essentiel de Kids (salutations, se présenter, la famille, les nombres…) dans le contexte des retrouvailles. Il n'y a pas de Kit de Survie séparé.
 
-> **Slovingo Kids leur apprenait à découvrir le monde.**
->
-> **Slovingo Friends leur apprend à comprendre le monde.**
+## Grammaire par série
 
-Mais ils restent les mêmes personnages au fond.
+Liée aux 12 étapes du §5, et au programme de Kids (ce qui n'y est pas traité, Friends l'introduit).
 
-Ils ont simplement grandi.
+| # | Étape | Grammaire |
+|---|---|---|
+| 01 | Košice, retrouvailles | Révision du présent ; premier passé (*bol som*, *stretli sme sa*) pour les retrouvailles ; tutoiement / vouvoiement |
+| 02 | Sécheresse | Quantités et génitif de quantité (*veľa vody*, *málo vody*) ; météo ; *chýba mi* ; locatif |
+| 03 | Slovenský raj | *ísť / chodiť*, prépositions de direction (*cez*, *po*, *popri*) ; impératif ; accusatif |
+| 04 | Tatry, tempête | Futur (*budem*) ; *musieť / môcť* ; conditionnel (*by*) ; comparatif / superlatif |
+| 05 | Retour au village d'enfance | Passé et souvenirs (*keď som bol malý*) ; datif ; expressions de temps |
+| 06 | Inondations | Aspect perfectif / imperfectif (en pratique, pas en théorie) ; secours, entraide |
+| 07 | Nouvelle route | Opinion, accord, désaccord (*podľa mňa*, *súhlasím*) ; *lebo / preto / pretože* |
+| 08 | Datacenter | Subordonnées (*že*, *ktorý*) ; pour et contre ; concession (*aj keď*, *hoci*) |
+| 09 | Mine | Hypothèse (*keby*) ; débat nuancé |
+| 10 | Conséquences, choix | *mal by som* ; discours rapporté ; décisions |
+| 11 | Bratislava, arrivée | Registres et *vy* ; transports, démarches |
+| 12 | Château | Argumentation orale ; synthèse |
 
-Et maintenant, ils traversent la Slovaquie ensemble.
+## Vocabulaire
 
-🦊🐰
+- **Fiches d'apprentissage (01 à 04)** : 9 à 10 mots essentiels et 3 mots complémentaires par fiche (Kids : 6–7 essentiels + 2–3 complémentaires).
+- **Fiches de dialogue** : au plus **5 mots nouveaux** par fiche, toujours signalés (Kids : 3 au maximum).
+- **Fiche 06** : elle peut introduire quelques mots (**3 au maximum**), toujours signalés (`+ Mot nouveau signalé : …`) et ajoutés au tableau récapitulatif de la fiche ; les exercices se limitent aux répliques sans mot nouveau.
 
-**Košice → les Tatras → Liptov → Banská Štiavnica → Bratislava → 🏰**
+## La culture
 
----
+Chaque série contient un véritable **Coin slovaque**. Le format Kids prévoit déjà un espace culturel (« 🇸🇰 Coin slovaque », 2 courts paragraphes, faits **vérifiables**, mots-clés en `{{…}}`) ; dans la version ado, il peut devenir beaucoup plus riche. Exemples :
 
-# 29. Questions restantes (à compléter par Eric)
-
-Chaque question a une **proposition** de ma part. Si elle te va, écris simplement « OK ». Les questions marquées 🔴 bloquent l'écriture de la première série.
-
-## A. Chronologie et public
-
-**Q1 ✅ (à confirmer) — Écart de temps et âges.** Réglée en gros (5 oct.) : le renard a **15 ans** (10 dans Kids), donc ≈ 5 ans d'écart ; en déduction Andrea 16, Maťo 14, Katka 13 (à confirmer). Texte d'origine : Le brouillon dit « dix ans plus tard » **et** « ados de 12–16 ans », ce qui est incompatible avec Kids (Andrea 11, renard 10, Maťo 9, Katka 8 : dix ans plus tard, ils ont 18 à 21 ans).
-*Proposition : environ **5 ans**. Andrea 16, renard 15, Maťo 14, Katka 13. Ça colle avec le public (l'enfant qui a fait Kids à 10 ans fait Friends à 14–15 ans), ça rend le gag de « la petite Katka » plus drôle, et ça permet d'avoir un décor de lycée ou d'internat à Košice plutôt qu'un marché de l'emploi.*
-Réponse : OK
-
-**Q2 ✅ — Débutants ou continuité ?** Réglée (5 oct.) : on **suppose Kids fait**, mais possiblement **il y a longtemps**. Le début du récit comporte donc un **condensé de remise en place et de rappels**, qui colle avec l'histoire : Gab parlait pas trop mal, mais en débarquant à Košice quelques années plus tard, il faut qu'il se remette en jambes.
-- Reste à voir : cette remise à niveau est-elle **intégrée au chapitre 1** (fiches 01 à 04 qui rappellent les bases de Kids : salutations, se présenter, la famille, les nombres…) ou fait-elle l'objet d'un **court chapitre 0** ?
-*Proposition : intégrée au chapitre 1, en quatre fiches qui reprennent l'essentiel de Kids dans le contexte des retrouvailles ; pas de Kit de Survie séparé.*
-Réponse : OK
-
-**Q3 — Nom du cours et de l'app.** « Cours ados » (titre), « Slovingo Teens » (§28 du brouillon), repo `Slovingo-sk-fr-friends`. Et l'app : Kids s'appelle Zajka, d'après le petit nom d'Andrea.
-*Proposition : « Slovingo Friends » partout dans la doc. Pour l'app, un nom slovaque, comme Zajka, qui évoque le renard ou le voyage. Et un `code de langue` (`sk-fr-friends`), `storage_prefix` et `url_path` dans `lang.json` sur le modèle de Kids.*
-Réponse : Zajka Friends pour le titre et l'app
-
-## B. Le renard
-
-**Q4 ✅ — Qui est le renard ?** Réglée (5 oct.) : le renard est **toi**, avec un nom par défaut : **Gab** (**Gabo** pour les Slovaques, voir §7). Il est aussi un personnage à part entière (ironique, tendre, avec ses répliques à garder texto). Le moteur permettra plus tard de jouer le renard ou la hase (Q31).
-
-**Q5 ✅ — Quel genre pour le renard ?** Réglée (5 oct.) : **garçon**. Formes masculines en slovaque pour lui, féminines pour Andrea. Le prénom que l'élève saisit ne change pas le genre du personnage.
-
-**Q6 ✅ — Âge du renard.** Réglée : 15 ans. Texte d'origine : Kids le fait dire « Mám desať rokov ». Si Q1 = 5 ans, il a 15 ans. À confirmer avec Q1.
-Réponse : oui 15 ans
-
-## C. Personnages
-
-**Q7 — Maťo.** Absent du brouillon, présent dans Kids (ours, frère de Katka, 9 ans). Dans le groupe, au village avec Babka Zuzana, ou autre ?
-*Proposition : il reste au village des Tatras avec Babka Zuzana et n'apparaît qu'aux épisodes du village d'enfance (série 05), avec un rôle qui lui est propre.*
-Réponse : On le prend dans la bande, lui était resté au village d'enfance, on le retrouve sur la route. Sa petite soeur Katka viendra aussi avec nous.
-
-**Q8 — Ján.** Nouveau personnage : rencontré à Košice, ou membre de la bande en Kids ? Animal : 🐿️ écureuil (libre)? Lien avec la mine (écureuils qui partent) ?
-*Proposition : rencontré à Košice, 🐿️ écureuil, la mine est pour lui une raison personnelle de voyager (sans qu'il devienne militant).*
-Réponse : on ne le garde pas en personnage principal, on le croise dans les épisodes concernant les mines
-
-**Q9 — Marek.** Garde-t-on Marek ? Si oui : adulte ou jeune adulte, animal (🦡 ou 🐗), comment rejoint-il le groupe, et quelle fonction (travail, entreprise, ville) ?
-*Proposition : oui, 🦡 blaireau, adulte, rencontré à partir de la série 07 ou 08, travaille pour l'entreprise du datacenter ou de la mine, tiraillé.*
-Réponse : Comme Jan, on le rencontre à l'occasion de la série sur le datacenter, il y travaille. Mais il ne rejoint pas la bande
-
-**Q10 ✅ — Andrea et Katka : lien de parenté.** Réglée (5 oct.) : Andrea est l'**amie** de l'apprenant et la **cousine** de Katka et Maťo. Rien à harmoniser.
-
-**Q11 — Pani Ježková (🦔) et Pán Orol (🦅).** Les deux sont vouvoyés dans Kids. Cameos ?
-*Proposition : oui, brièvement ; ils sont de bons supports pour le vy et pour des clins d'œil (le gardien du parc peut apparaître dans la série sécheresse).*
-Réponse : Cameos why not, si ça ne tombe pas comme un cheveu sur la soupe :D
-
-**Q12 — Les humains.** Aucun humain dans Kids. Existent-ils depuis toujours « hors champ » ? Comment les représente-t-on (emoji, pas de tête d'animal) ? Sont-ils tous vouvoyés ? Sont-ils nombreux ou rares ?
-*Proposition : ils existaient hors champ (parc national, chemins, routes), apparaissent à partir de la série 02 avec un emoji humain, sont vouvoyés par les ados s'ils sont adultes. Seuls les animaux principaux ont un prénom, les humains sont désignés par leur fonction (*vodič*, *úradníčka*…).*
-Réponse : OK, et les humais sont tous des adultes, il n'y a pas d'enfants humains dans notre histoire, les enfants sont des animaux
-
-## D. Récit
-
-**Q13 ✅ (en grande partie réglée par l'histoire de Gab, §2) — Pourquoi se sont-ils perdus de vue, et pourquoi sont-ils à Košice ?** (questions du §27 : « Pourquoi le renard et Andrea se sont-ils réellement perdus de vue ? », « Pourquoi sont-ils tous les deux à Košice ? », « Que faisaient-ils avant ? »)
-*Proposition (si Q1 = 5 ans) : leurs familles ont quitté les Tatras à des moments différents, faute de travail ; Andrea est à Košice depuis deux ans (lycée), le renard vient d'arriver. Ils se croisent dans un couloir ou un tram.*
-Réponse : OK, avec le tram
-
-**Q14 ✅ (en partie, §2) — Événement déclencheur du départ.** Quelle nouvelle situation les oblige à reprendre la route ?
-*Proposition : le seul point d'eau près de chez eux disparaît (le début de la série 02), ou le lycée ferme. À toi de voir ce qui est le plus fort.*
-Réponse : le point d'eau qui disparait
-
-**Q15 (en partie réglée, §2) — Objectif initial, et ce que cherchent-ils à obtenir au château ?** (§17 dit « être entendus », mais par qui, pour dire quoi ?)
-*Proposition : un objectif de départ très concret (porter une lettre, retrouver quelqu'un, rapporter de l'eau) qui s'agrandit en cours de route ; au château, une audience ou une pétition, qui aboutit à « un petit changement » (§26).*
-Réponse : Il me faut de l'aide sur cette réponse :D
-
-**Q16 — Ton : limites.** (« Jusqu'où aller dans l'humour noir ? dans la dystopie ? »)
-*Proposition (cohérente avec §21) : pas d'humour noir sur la mort, dystopie « douce » (le monde se dégrade sans que personne ne meure à l'écran), réalisme de la vie quotidienne, absurde dosé (la règle des animaux qui parlent suffit).*
-Réponse : ok
-
-**Q17 — Faits réels et fiction.** Lithium à Banská Štiavnica (voir §0.1 n° 12), zone humide et datacenter : on garde les lieux réels, on invente des noms de sites et d'entreprises ?
-*Proposition : lieux réels pour les étapes (villes, parcs), **sites et entreprises fictifs** pour les catastrophes, et pour le lithium, on déplace ou on invente un lieu plausible (ou on met la mine dans le Gemer).*
-Réponse : ok, et on vérifie les faits, si on peut faire coller à un cas réel documenté c'est encore mieux!
-
-**Q18 — Étapes et nombre de séries.** Étapes 08 et 10 (« région centrale ») : quels lieux ? Et 12 séries (72 fiches), est-ce l'objectif ou une borne haute ?
-*(Maj 5 oct. : le volume vise **12 séries**, voir §20 ; reste la liste des lieux.)*
-*Proposition : Zvolen ou Banská Bystrica pour la région centrale ; commencer par **les 4 premières séries** (Košice, sécheresse, Slovenský raj, Tatry) et écrire le reste ensuite, comme Kids l'a fait.*
-Réponse : Nombres de séries il me semble qu'on était à 12 comme objectif, mais une 2 séries peuvent se dérouler au même endroit. En même temps ils traversent complètement la Slovaquie "à pied" ou comme ils peuvent (ce sont des animaux :P) ça peut prendre du temps !
-
-## E. Pédagogie
-
-**Q19 — Grammaire par série.** Le tableau de la §18 te convient-il ? Niveau visé à la fin du cours (A2 ? B1 ?) ?
-*Proposition : valider le tableau comme point de départ, et viser **un bon A2** à la fin de la série 12.*
-Réponse : ok
-
-**Q20 — Volume de vocabulaire.** Mots par fiche (Kids : 6–7 essentiels + 2–3 complémentaires ; ≈ 40 mots par série). La longueur des dialogues et le rôle de la 06 sont maintenant traités par Q28 et Q29.
-*Proposition : 9–10 essentiels + 3 complémentaires par fiche d'apprentissage.*
-Réponse : ok
-
-**Q21 — Mots nouveaux dans un dialogue.** Kids : trois au maximum par dialogue. Ici, l'épisode se partage entre les fiches 05 et 06 (voir aussi Q29).
-*Proposition : 5 maximum par fiche de dialogue, toujours signalés.*
-Réponse : ok
-
-**Q22 ✅ — L'histoire dès les fiches 01–04 ?** Réglée (5 oct.) : oui, avec des **micro-dialogues** (2 à 4 répliques) qui placent le contexte et l'action ; le vrai dialogue est en fiches 05 et 06 (§20).
-
-**Q23 ✅ — Clins d'œil à Kids.** Réglée (5 oct.) : Kids est supposé acquis ; **aucune explication** sur Kids, une allusion doit se comprendre seule (comme la règle « aucune référence entre séries »).
-
-**Q24 — La carte.** Réutiliser la carte du moteur telle quelle ? Emojis par étape (liste du §4) : configurables dans `lang.json` ? Brouillard, validation, position du renard : le comportement du §4 (position = dernière fiche consultée) est-il celui voulu, ou celui de l'implémentation actuelle ?
-*Proposition : réutiliser la carte, et voir à l'usage ce qui manque.*
-Réponse : oui on réutilise la carte du moteur telle quelle
-
-**Q25 — Illustrations.** Photos libres Wikimedia comme Kids (choisies une par une, avec crédits), ou illustrations dessinées des personnages (§23) ? Dans ce second cas, qui les produit, dans quel style, et comment fait-on évoluer le style de Kids à Friends ?
-*Proposition : photos libres pour les fiches (paysages, villes, animaux), et **un petit jeu d'illustrations de personnages** (6–8 images) réservées aux épisodes (fiches 05). On voit plus tard.*
-Réponse : On voit plus tard, on prévoit juste une image Wikimedia comme dans kids pour l'instant
-
-**Q26 — Voix.** Maintenant que tout passe par des dialogues, les voix comptent plus. Un dialogue peut avoir une voix par personnage (réglage `character_headings`) ; le cours étant en français, l'en-tête de la liste des personnages est « Les personnages » (comme Kids). Voulez-vous des voix différentes pour Andrea, Gab, Ján… ? (Pour la voix du narrateur, voir Q36.)
-*Proposition : oui si le moteur le permet pour les voix slovaques disponibles (au moins une voix de garçon et une voix de fille) ; sinon une seule voix slovaque.*
-Réponse : OK, oui si possible surtout...
-
-## G. Nouvelles questions (suite aux décisions du 5 octobre)
-
-**Q27 ✅ — Le nom du renard.** Réglée (5 oct.) : le renard s'appelle **Gab**, que les Slovaques appellent **Gabo** (diminutif slovaque de Gabriel). *Matej* est abandonné (trop proche de *Maťo*).
-
-**Q28 ✅ — Longueur d'un chapitre.** Réglée (5 oct.) : **option A, des chapitres qui grossissent**, 12 séries, environ 9 000 à 10 000 mots au total (voir §20, « Volume cible » : 400–600 mots pour les chapitres 1 à 4, 700–900 pour 5 à 8, 900–1 100 pour 9 à 12). Les fiches 01 à 04 développent aussi l'histoire et la culture, les fiches 05 et 06 sont du pur dialogue avec voix de narrateur.
-- Reste à régler (au moment d'écrire `Format-friends.md`) : le nombre de répliques par fiche, avec comme repère Kids (17 à 22 répliques en 05).
-*Proposition : début de récit : micro-dialogues de 3 à 5 répliques en 01–04 et 15 à 20 répliques en 05 et 06 ; fin de récit : jusqu'à 8 répliques en 01–04 et 30 à 40 répliques en 05 et 06.*
-Réponse : ok
-
-**Q29 — Mots nouveaux en fiche 06.** Dans Kids, la 06 n'introduit aucun mot nouveau (c'est la base des exercices). Ici elle prolonge l'épisode : peut-elle introduire des mots, et comment ?
-*Proposition : oui, quelques mots (3 maximum), **toujours signalés** (`+ Mot nouveau signalé : …`) et ajoutés au tableau récapitulatif de la fiche ; les exercices se limitent aux répliques sans mot nouveau.*
-Réponse : ok
-
-**Q30 — Rappels entre chapitres.** *(Maj 5 oct. : la remise à niveau du chapitre 1, voir Q2, règle le démarrage ; la question vaut pour les chapitres suivants.)* Les chapitres se lisent à la suite, mais chacun doit rester compréhensible (le moteur ne force aucun ordre). Comment rappeler le chapitre précédent ?
-*Proposition : une ou deux répliques de rappel dans le premier micro-dialogue du chapitre (« Alors, on est où ? » / « Au bord du lac, comme hier. »), sans jamais écrire « chapitre précédent » ni renvoyer à une fiche.*
-Réponse : ok
-
-**Q32 ✅ — Le secret d'Andrea.** Réglée (5 oct.) : elle a été **trahie par un renard inconnu**, qu'elle prenait pour un ami, et qui l'a entraînée dans un piège (elle a échappé de peu à finir « en lapin à la broche » avec ses autres amis renards). **Suggéré, jamais montré** ni raconté frontalement : ton léger, on le comprend entre les lignes. Elle était d'autant plus naïve qu'elle avait connu le gentil renard de Kids : elle avait oublié les recommandations de sa maman, ou les trouvait exagérées. D'où ses piques (« les renards, ça parle beaucoup », « je comprendrai jamais les renards »).
-- Le renard reste **vague et inconnu** : on ne le recroise pas nécessairement, et il n'est **pas le but du château**.
-- Reste à voir (pas urgent) : à quel point la vérité est dite à la fin (une phrase d'Andrea suffit-elle ?), et la maman d'Andrea apparaît-elle un jour (§12 / personnages) ?
-Réponse : ok, pas de retour de la maman d'Andrea, comme on avait dit, la vérité à la fin n'est qu'une confirmation de ce qu'on avait un peu compris entre les lignes avec les indices semés par Andrea
-
-**Q33 — Gab / Gabo et les gags « à la française ».** Gab se présente-t-il comme *Gabo* dès le début, ou *Gab* et c'est Andrea qui le rebaptise ? Quels types de gags : prononciation, faux-amis, gestes, politesse (*tu/vy*) ? Fréquence souhaitée ?
-*Proposition : *Gab* d'abord, *Gabo* adopté au chapitre 1 par Andrea ; un gag par chapitre au maximum.*
-**Premier gag fourni par Eric (5 oct.)** : *Veľmi hovorím, som líškasky, komplikovaný…* puis correction d'Andrea (voir §26 bis) ✅. Le mot *líškasky* est volontairement **inventé** sur le modèle de *francúzsky*. Réglé le 5 oct. : la **pique est dans le dialogue précédent** (chapitre 1, Gab parle beaucoup), le **gag au chapitre 2**, et la correction mentionne **l'adjectif correct** (*líščí*, forme à vérifier).
-Réponse : Gab reste le nom par défaut, l'utilisateur peut avoir choisi un autre nom, comme le sien
-
-**Q34 — La fin du livre.** Réglée en partie (5 oct.) : l'**épilogue** est le **rêve** de Gab (voir §26 ter). Il reste à décider ce qui se passe **au château de Bratislava** (pas d'idée pour l'instant) et la façon exacte dont le secret d'Andrea est confirmé à la fin.
-*Proposition : garder le château ouvert tant que les chapitres 1 à 6 ne sont pas écrits ; le laisser émerger des indices déjà semés.*
-Réponse :
-
-**Q35 — Le temps limité sur la carte.** Faut-il montrer le temps qui passe (billet de retour, compte à rebours, jours restants) sur la carte du moteur, ou le garder uniquement dans les dialogues ?
-*Proposition : dans les dialogues seulement au début ; on voit pour la carte avec le moteur (voir §4).*
-Réponse : dialogues seulement
-
-**Q36 — La voix du narrateur.** Dans les fiches 05 et 06 (et un peu dans les fiches 01 à 04), une voix narrative en slovaque entre les répliques (§20). Comment la formater et la dire ?
-- **Format SMD** : une ligne en `{{ }}` avant chaque morceau de dialogue ? Avec ou sans traduction française ?
-- **Temps** : présent narratif tant que le passé n'est pas vu ?
-- **Voix** : une voix dédiée (différente des personnages), si le moteur le permet (voir Q26) ?
-- **Mots nouveaux** : la narration compte dans la limite de mots nouveaux (Q21).
-*Proposition : lignes `{{ }}` brèves, au présent, avec une traduction française discrète ; une voix dédiée si possible, sinon la voix neutre habituelle.*
-Réponse : Ah ou sinon intégrée dans le dialogue comme un personnage "spécial" qui a une icone de bulle de bd plutôt! Ca laisse la place pour la traduction/explications bien mieux que des {{}}
-
-**Q31 — Tâches moteur (Slovingo).** Pour pouvoir jouer le renard **ou** la hase, il faut au moins : (a) **deux champs de prénom** avec valeur par défaut (renard : Gab, avec le diminutif **Gabo** comme second marqueur, ou le prénom choisi ; hase : Andrea) à la place du seul `[USER_NAME]` ; (b) un **choix du personnage** joué ; (c) rien à faire sur les genres (fixés par personnage). Point d'attention : un prénom saisi ne se décline pas (voir §7).
-*Proposition : traiter ces tâches **après** l'écriture des 2 ou 3 premiers chapitres, en attendant on écrit avec les noms par défaut en dur et on remplace plus tard par des marqueurs.*
-Réponse : Pour l'instant Andrea reste fixe en dur, et Gab en [USER_NAME], cette version beta n'est que pour les garçons :D
+- **Košice** : centre historique ; cathédrale Sainte-Élisabeth ; vie étudiante ; dialectes et accents ; rôle de la ville dans l'est de la Slovaquie.
+- **Slovenský raj** : parc national ; sentiers ; échelles et passerelles ; paysages ; tourisme.
+- **Les Tatras** : montagne ; refuges ; tourisme ; symbolique des Tatras ; histoire de la région.
+- **Liptov** : villages ; montagne ; thermalisme ; gastronomie ; traditions.
+- **Banská Štiavnica** : histoire minière ; architecture ; patrimoine ; paysage culturel.
+- **Bratislava** : capitale ; Danube ; château ; vie politique ; architecture ; mélange historique et moderne ; le diffuseur public.
 
 ---
 
-## Prochaines étapes (à discuter après tes réponses)
+# 13. Structure d'une série
 
-1. Répondre aux questions restantes : surtout Q3 (nom du cours), Q12 (les humains), Q15 (le château), Q36 (voix du narrateur) ; les autres ont une « Proposition » à valider d'un mot.
-2. Mettre ce document à jour (v0.6) avec tes réponses.
-3. Écrire `docs/Format-friends.md` (reprise de `Format-enfants.md` avec les écarts de cette page : micro-dialogues, 06 = suite de l'épisode, prénom par défaut) et `docs/Progression-friends.md` (vocabulaire et grammaire par série).
-4. Créer `lang.json` du cours et la structure `md/`, `exercises/`, `img/`.
-5. Écrire le **chapitre 1** (série 01) en entier, relire, puis décider du rythme pour la suite.
+On conserve la structure générale de Kids en l'adaptant au nouveau ton.
+
+**Principe : une série = un chapitre.** On ne lit pas des fiches, on lit une histoire dont chaque série est un chapitre. Il n'y a **que des dialogues** : plus de phrases isolées. Chaque chapitre doit pouvoir se lire d'un trait en enchaînant les fiches 01 à 06.
+
+## Fiches 01 à 04 : vocabulaire et grammaire, avec des micro-dialogues
+
+Apprentissage structuré, comme avant :
+
+- vocabulaire (tableau des nouveaux mots) ;
+- grammaire du jour ;
+- réemploi ;
+- culture (Coin slovaque).
+
+La différence : à la place des phrases isolées, ce sont des **micro-dialogues** qui placent le **contexte** et l'**action** du chapitre. Les quatre fiches d'apprentissage font ainsi avancer l'histoire par petites touches, et préparent l'épisode des fiches 05 et 06. Elles **développent aussi l'histoire** et le **contexte culturel** (le lieu, la ville, une coutume, un détail du pays) à travers de petites scènes, avec parfois quelques lignes du narrateur.
+
+*Différence avec Kids (et avec le cours adulte) : leurs fiches 01 à 04 n'ont pas de mise en scène ni de personnages, et seule la fiche 05 raconte. C'est ici un choix volontaire.*
+
+## Fiches 05 et 06 : l'épisode
+
+Le **vrai dialogue** du chapitre se trouve dans **deux fiches** :
+
+- **fiche 05** : première partie de l'épisode ;
+- **fiche 06 (« extra »)** : suite et fin de l'épisode. Elle laisse de la place pour **développer** l'histoire (scènes plus longues, rebondissements, personnages secondaires), au lieu de n'être qu'un récapitulatif. Elle garde aussi le tableau récapitulatif de la série, base des exercices.
+
+Les personnages interviennent. Le dialogue réutilise le vocabulaire et la grammaire de la série. C'est le moment où l'apprenant comprend : « Ah, maintenant je comprends pourquoi j'ai appris tout ça. »
+
+## Le narrateur
+
+La voix qui situe l'action (les personnages se mettent en route, qui parle, ce qui se passe) est un **personnage « spécial »** : le **Narrateur**, avec une **icône de bulle de BD** (💬). Il est **intégré au dialogue** comme une réplique, et non écrit en `{{ }}` : cela laisse de la place pour la traduction et les explications, comme pour n'importe quelle autre réplique.
+
+Exemple de principe : le Narrateur dit *Andrea ide vpredu a hovorí:*, puis vient la réplique d'Andrea.
+
+Règles :
+
+- phrases **très courtes**, au **présent narratif** tant que le passé n'est pas introduit ;
+- le vocabulaire du Narrateur obéit aux mêmes règles que celui des dialogues (pas de mot nouveau non signalé) ;
+- il reste **bref** : l'essentiel de l'épisode est dans les répliques ;
+- il peut apparaître, en plus petit, dans les fiches 01 à 04 ;
+- il a, si le moteur le permet, une **voix dédiée**, différente de celle des personnages.
+
+## Volume cible
+
+- **12 séries**, soit à la fin **environ 9 000 à 10 000 mots slovaques** de dialogues et de narration, l'équivalent d'un **demi-roman** de la Bibliothèque rose ou verte. Estimation : un *Club des Cinq* ou un *Six compagnons* fait à peu près 40 000 à 50 000 mots, dont la moitié de dialogues.
+- **Les chapitres grossissent avec l'apprenant** : environ **400 à 600 mots** pour les chapitres 1 à 4, **700 à 900** pour les chapitres 5 à 8, **900 à 1 100** pour les chapitres 9 à 12 (moyenne ≈ 800).
+- À titre de comparaison, dans Kids : environ 190 mots de dialogue par série (fiches 05 et 06 : 65 à 105 mots chacune, 17 à 22 répliques).
+- Répartition indicative dans un chapitre : environ 40 % dans les fiches 01–04, 60 % dans les fiches 05 et 06.
+- **Répliques** : au début du récit, micro-dialogues de 3 à 5 répliques en 01–04, et 15 à 20 répliques en 05 et 06 ; à la fin, jusqu'à 8 répliques en 01–04 et 30 à 40 répliques en 05 et 06.
+- Les explications en français (grammaire, culture) ne comptent pas dans ce volume.
+
+## Lecture dans l'ordre
+
+Les chapitres se lisent à la suite. La règle de Kids « aucune référence à une autre série » ne s'applique donc plus telle quelle : on la remplace par des **rappels dans le dialogue**. Le premier micro-dialogue d'un chapitre contient une ou deux répliques de rappel (« Alors, on est où ? » / « Au bord du lac, comme hier. »), sans jamais écrire « chapitre précédent » ni renvoyer à une fiche.
+
+## Exercices
+
+Ils se tirent des dialogues (des répliques entières, mot pour mot), comme dans Kids.
+
+## Règles de format héritées de Kids
+
+- Format SMD, fichiers `md/10_Series_NN_Theme_XX_titre.md`, extra en `_06_extra`. Le thème donne la clé de `subgroups` dans `lang.json`, en minuscules et sans diacritiques.
+- Cartes audio : première ligne `>` = traduction naturelle, lignes `>` suivantes = décomposition **une ligne par élément**, jamais plusieurs éléments sur la même ligne ; `+` pour les remarques utiles ; dialogue avec l'avatar du locuteur **après** le `!` (`! 🐰 Ahoj!`).
+- Vocabulaire cumulatif dans la série ; aucun mot inconnu non signalé ; mots nouveaux d'un dialogue toujours marqués (`+ Mot nouveau signalé : …`).
+- Consignes importantes en `{{fr:…}}` (voix française) ; **pas de mot slovaque** dans un `{{fr:…}}` (sauf prénoms des personnages).
+- Exercices écrits à la main dans `exercises/`, `"mode": "replace"`.
+- En français, on écrit **« les Tatras »** ; le mot slovaque `{{Tatry}}` n'est donné que quand on veut l'apprendre.
+- Slovaque à faire relire avec attention : la relecture de Kids a trouvé quelques calques fréquents (tableau des pièges dans `Format-enfants.md`).
+
+---
+
+# 14. La carte comme représentation du voyage
+
+La carte d'accueil de Slovingo devient la carte de ce voyage. Le renard part de Košice et progresse vers Bratislava. La carte reste volontairement **symbolique** : ce n'est pas un atlas géographique précis. On peut utiliser une illustration de fond, des montagnes, des forêts, des rivières, des chemins, des emojis, de petites illustrations, des éléments graphiques animés.
+
+Les étapes peuvent par exemple être représentées par 🏠 💧 🌲 ⛰️ 🌧️ 🏗️ ⛏️ 🏙️ 🏰. Le renard 🦊 est l'élément principal qui donne vie à la carte.
+
+## Position du renard
+
+La position du renard ne représente pas la dernière validation. Elle représente **la dernière fiche ou série consultée**.
+
+- Si l'utilisateur revient sur la page d'accueil et a déjà consulté quelque chose, le renard est à cet endroit.
+- S'il n'a encore rien consulté, le renard est **hors de la carte, à côté de la première étape**.
+- Lorsqu'il clique sur une destination, le renard se déplace vers celle-ci avant l'ouverture du contenu.
+
+La progression pédagogique et la position narrative sont donc deux notions différentes.
+
+## Réutilisation du moteur
+
+On **réutilise la carte du moteur telle quelle**. D'après les notes de projet, elle est déjà développée dans le moteur Slovingo (branche `feat/map`, générique, utilisée pour tous les cours, avec Kids comme cours de test) : détection automatique des fichiers `Series_NN_…`, états visuels des étapes, renard qui se déplace, château final. Le concept Friends est donc d'abord une **configuration** (étapes, emojis, textes) plutôt qu'un développement. À vérifier à l'usage : que le comportement décrit ci-dessus (position = dernière fiche consultée) correspond à l'implémentation, et que les emojis des étapes sont configurables par cours.
+
+Le temps limité de Gab n'apparaît **pas** sur la carte : il reste dans les dialogues.
+
+---
+
+# 15. Direction artistique
+
+La direction graphique peut reprendre les personnages de Kids mais les faire évoluer. Même identité visuelle de base (🦊 renard, 🐰 Andrea, autres personnages animaux, expressions faciales simples, illustrations lisibles), mais avec des silhouettes légèrement plus grandes, des vêtements adolescents, des accessoires (sacs à dos, téléphones, écouteurs), des vêtements de randonnée ou urbains, des objets liés à leur quotidien.
+
+Le monde passe progressivement de l'enfance (🌲) à l'adolescence (🏙️) à un monde compliqué (🌍).
+
+**Pour l'instant**, comme dans Kids : **une image libre de Wikimedia Commons par fiche** (paysages, villes, animaux), choisie une à une, avec crédits dans `img/credits.md`. Kids n'a aucune illustration de personnage ; des personnages dessinés qui grandissent seront envisagés plus tard, car ils supposent de **produire** ces illustrations.
+
+---
+
+# 16. Prénoms, voix et moteur
+
+## Prénoms
+
+- Dans cette **version bêta**, le prénom de Gab est `[USER_NAME]` (valeur par défaut **Gab**, comme dans Kids) ; **Andrea** est **fixe, en dur**. La bêta est pensée pour les **garçons**.
+- Avec le prénom par défaut, les Slovaques l'appellent **Gabo**. Si l'élève saisit son propre prénom, on n'emploie que ce prénom.
+- Un prénom saisi **ne se décline pas** en slovaque : dans les dialogues, on ne l'emploie que pour appeler quelqu'un (*Ahoj, Gabo!*), jamais à l'accusatif ni au datif (*pre Gaba*, *Gabovi*…).
+- Plus tard, le moteur pourra proposer de jouer le renard **ou** la hase, en choisissant le prénom de l'un des deux. Les formes grammaticales restent celles du personnage (masculin pour le renard, féminin pour Andrea), quel que soit le joueur.
+
+## Voix
+
+Les dialogues utilisent une **voix par personnage** (réglage `character_headings`) : au moins une voix de garçon et une voix de fille, et une voix dédiée au Narrateur, **si les voix slovaques disponibles et le moteur le permettent** ; sinon une seule voix slovaque. L'en-tête de la liste des personnages est « Les personnages » (comme Kids).
+
+## Nom et configuration
+
+- Titre du cours et nom de l'app : **Zajka Friends**.
+- Dépôt : `Slovingo-sk-fr-friends`.
+- Dans `lang.json`, sur le modèle de Kids : un code de langue (`sk-fr-friends`), `storage_prefix` et `url_path`.
+
+---
+
+# 17. Prochaines étapes
+
+1. Écrire `docs/Format-friends.md` (reprise de `Format-enfants.md` avec les écarts décrits ici : micro-dialogues, narrateur, 06 = suite de l'épisode, prénom par défaut) et `docs/Progression-friends.md` (vocabulaire et grammaire par série).
+2. Créer `lang.json` du cours et la structure `md/`, `exercises/`, `img/`.
+3. Écrire le **chapitre 1** en entier (retrouvailles dans le tram, remise en jambes, la pique d'Andrea, Gab qui s'endort), relire, puis décider du rythme pour la suite.
+4. Commencer par les **4 premières séries** (Košice, sécheresse, Slovenský raj, Tatras) et écrire le reste ensuite, comme Kids l'a fait.
+
+## Ce qui reste à inventer (au fil de l'écriture)
+
+- La scène du **tram** à Košice.
+- Les **étapes** de la région centrale (chapitres 8 et 10).
+- Comment les personnages **passent à l'antenne** et ce qui s'ensuit (chapitres 11 et 12).
+- Les **indices** sur le secret d'Andrea, chapitre par chapitre.
+- Les **faits réels** à vérifier pour chaque catastrophe (en particulier le chapitre 9).
+- Les **noms courts** des séries.
