@@ -1,12 +1,20 @@
 # Slovingo Friends — Concept du cours « ados »
 
-*Version 0.2, 5 octobre 2026. Reprise du brouillon d'Eric (v0.1), corrigée et complétée après lecture du cours [Slovingo-sk-fr-kids](https://github.com/lstux/Slovingo-sk-fr-kids) (repo `kids`, app **Zajka**) et de la documentation du moteur [Slovingo](https://github.com/lstux/Slovingo).*
+*Version 0.3, 5 octobre 2026. Reprise du brouillon d'Eric (v0.1), corrigée et complétée après lecture du cours [Slovingo-sk-fr-kids](https://github.com/lstux/Slovingo-sk-fr-kids) (repo `kids`, app **Zajka**) et de la documentation du moteur [Slovingo](https://github.com/lstux/Slovingo). La v0.3 intègre les décisions d'Eric du 5 octobre (section 0.0).*
 
-**Comment lire ce document** : les sections 1 à 28 reprennent le brouillon, corrigé. La section 0 liste ce qui a changé et pourquoi. La section 29 rassemble ce qu'il reste à décider : chaque question a une **proposition** de ma part, il suffit d'écrire la réponse sous « Réponse : ».
+**Comment lire ce document** : les sections 1 à 28 reprennent le brouillon, corrigé. La section 0 liste ce qui a changé et pourquoi. La section 29 rassemble ce qu'il reste à décider : chaque question a une **proposition** de ma part, il suffit d'écrire la réponse sous « Réponse : ». Les questions déjà tranchées sont marquées ✅.
 
 ---
 
 # 0. Ce qui a changé par rapport à la v0.1
+
+## 0.0 Décisions d'Eric (5 octobre 2026)
+
+1. **Une vraie histoire.** Le cours se lit comme un récit : la « somme des dialogues », **une série = un chapitre**.
+2. **Que des dialogues.** Plus de phrases isolées. Les fiches 01 à 04 posent le vocabulaire comme avant, mais avec des **micro-dialogues** qui placent le contexte et l'action. Les fiches **05 et 06** portent le vrai dialogue de l'épisode. La fiche extra (06) laisse de la place pour **développer** l'épisode.
+3. **Personnages principaux** : 🐰 **Andrea la hase** et 🦊 **Matej le renard**. Le renard est **toi**, un **garçon**, avec un **nom slovaque par défaut**. À terme, le moteur Slovingo pourra proposer de jouer le renard **ou** la hase : concrètement, choisir le prénom de l'un des deux.
+4. **Andrea** est l'**amie** de l'apprenant **et** la **cousine** de Katka et Maťo. Il n'y a pas de contradiction avec Kids (j'avais signalé à tort un désaccord entre le README et `Progression-enfants.md`).
+5. **Prénom du renard : Matej** (provisoire : voir Q27, *Maťo* est le diminutif de *Matej*).
 
 ## 0.1 Corrections de fond (à relire en priorité)
 
@@ -18,7 +26,7 @@
 | 4 | §11 : Babka Zuzana en 👵 / 🐻‍♀️ / « humaine ou animal ? » | C'est une **brebis 🐑** (déjà tranché dans Kids). | Fixé : brebis. |
 | 5 | §13 : Marek, « collègue d'Andrea » | Pas de monde du travail dans Kids (Andrea a 11 ans). | Marek est un nouveau personnage, sans lien hérité. |
 | 6 | §8 : « Andrea est un personnage slovaque récurrent » | Andrea est une **hase** (femelle du lièvre), 11 ans, « la grande de la bande », avatar 🐰. | Précisé en §8. |
-| 7 | §7 : le renard est « il » ; c'est un des deux héros | Dans Kids, 🦊 est **l'apprenant lui-même** : prénom saisi par l'élève (`[USER_NAME]`), genre jamais précisé, aucune forme genrée. Il a **10 ans** (« Mám desať rokov », Rodina 05). | Contradiction à trancher (Q4, Q5). Le texte parle du renard comme d'un personnage en attendant. |
+| 7 | §7 : le renard est « il » ; c'est un des deux héros | Dans Kids, 🦊 est **l'apprenant lui-même** : prénom saisi par l'élève (`[USER_NAME]`), genre jamais précisé, aucune forme genrée. Il a **10 ans** (« Mám desať rokov », Rodina 05). | ✅ **Tranché** (§0.0) : **Matej**, garçon, c'est « toi », avec un nom par défaut. Formes masculines en slovaque pour lui, féminines pour Andrea. |
 | 8 | §1, §2, §22, §28 : « dix ans plus tard » **et** ados de 12–16 ans | Âges dans Kids : Andrea 11, Maťo 9, Katka 8, renard 10. Dix ans plus tard : 18 à 21 ans. | **Incohérence** : ou bien 5 ans (ados), ou bien 10 ans (jeunes adultes). Le texte dit « quelques années » en attendant la réponse (Q1). |
 | 9 | §6 : les humains répondent normalement aux animaux | **Il n'y a aucun humain dans Kids** : tous les personnages sont des animaux (« façon Bisounours »). | Ce n'est pas un problème, mais c'est un **élément nouveau** de l'univers : à assumer explicitement (Q12). |
 | 10 | Tatras / Tatry mélangés | Décision Kids (relecture d'octobre 2026) : en français on écrit **« les Tatras »**, le mot slovaque `{{Tatry}}` n'est donné que quand on veut l'apprendre. | Appliqué dans tout le document. |
@@ -41,6 +49,13 @@
 - §18, §20 : règles de format héritées de Kids, et **proposition de grammaire par série**.
 - §29 : questions restantes, avec propositions.
 
+## 0.4 Mises à jour de la v0.3 (décisions du 5 octobre)
+
+- §1, §20, §25 : le cours devient un **récit en chapitres** ; nouveau format de série (micro-dialogues en 01–04, épisode en 05 et 06).
+- §7, §9, §21 : le renard est **Matej**, garçon et « toi » ; le test de traduction est réglé côté genre.
+- §8, §12 : Andrea, amie de l'apprenant et cousine de Katka et Maťo.
+- §29 : Q4, Q5, Q6, Q10, Q22 sont réglées ; Q20 et Q26 ajustées ; **nouvelles questions Q27 à Q31** (nom du renard, longueur d'un chapitre, mots nouveaux en 06, rappels entre chapitres, tâches moteur).
+
 ---
 
 # 1. Vision générale
@@ -54,6 +69,8 @@ Les personnages ont grandi.
 Ils sont toujours des animaux anthropomorphes, avec leurs caractères, leurs amitiés et leurs souvenirs d'enfance. Mais ils sont maintenant adolescents, autour de **13–16 ans** (à confirmer, Q1), et découvrent un monde beaucoup moins insouciant que celui qu'ils connaissaient enfants.
 
 Le **public cible** du cours reste **12–16 ans**.
+
+**Un récit, pas un recueil de fiches.** Le cours se lit comme une vraie histoire : chaque série est un **chapitre**, et la suite des dialogues de toutes les séries forme le livre. Tout passe par des **dialogues** : même les fiches d'apprentissage (01 à 04) s'appuient sur des micro-dialogues qui posent le contexte et l'action (voir §20).
 
 Le ton mélange :
 
@@ -268,9 +285,9 @@ Point.
 
 # 7. Les deux personnages principaux
 
-## 🦊 Le renard
+## 🦊 Matej le renard
 
-Le renard est l'un des deux personnages centraux.
+Le renard est l'un des deux personnages centraux. Il est **un garçon**, il s'appelle **Matej** par défaut (nom provisoire, voir Q27), et c'est **toi** : l'apprenant incarne le renard.
 
 Il a grandi.
 
@@ -298,7 +315,11 @@ C'est probablement la réplique qui le résume le mieux : ironique, tendre, jama
 
 Il peut également avoir gardé un côté très attachant et spontané de son enfance.
 
-> *Dans Kids, le renard est l'apprenant lui-même (prénom saisi par l'élève, genre jamais précisé). Ici il devient un personnage avec une personnalité marquée, ce qui pose deux questions : est-il toujours « toi » (Q4) et de quel genre est-il, puisque le slovaque accorde le passé et le conditionnel (Q5) ?*
+> *Dans Kids, le renard est l'apprenant lui-même (prénom saisi par l'élève, genre jamais précisé). Dans Friends, il reste « toi » mais devient un personnage à personnalité marquée et à **genre fixé** (masculin), parce que le slovaque accorde le passé, le conditionnel et beaucoup d'adjectifs. Son prénom par défaut est Matej ; l'élève peut le remplacer par le sien, sans changer le genre du personnage.*
+>
+> *Évolution prévue du moteur : permettre de jouer **le renard ou la hase**, en choisissant le prénom de l'un des deux (deux champs de prénom, chacun avec sa valeur par défaut : Matej et Andrea). Les formes grammaticales restent celles du personnage (masculin pour le renard, féminin pour Andrea), quel que soit le joueur. Voir Q31.*
+>
+> *Piège à connaître : un prénom saisi par l'élève **ne se décline pas**. Dans les dialogues, on ne l'emploie que pour appeler quelqu'un (*Ahoj, Matej!*), jamais à l'accusatif ni au datif (*pre Mateja*, *Matejovi*…).*
 
 ### Relation avec Andrea
 
@@ -322,7 +343,7 @@ Andrea est l'autre personnage principal.
 
 Dans la version Kids, Andrea est **une hase des Tatras** (la femelle du lièvre), **11 ans**, « la grande de la bande » : c'est elle qui accueille l'apprenant dans le Kit de Survie et lui apprend à se présenter. Avatar 🐰.
 
-Dans cette nouvelle version, elle devient **Andrea la hase 🐰**, sans changement de nature : elle a juste grandi.
+Dans cette nouvelle version, elle devient **Andrea la hase 🐰**, sans changement de nature : elle a juste grandi. Elle est l'**amie** de l'apprenant (le renard) et la **cousine** de Katka et Maťo.
 
 Elle a elle aussi grandi.
 
@@ -368,8 +389,8 @@ Distribution **réelle** de Kids (source : `README.md`, `docs/Format-enfants.md`
 
 | Avatar | Personnage | Dans Kids | Dans Friends (proposition) |
 |---|---|---|---|
-| 🦊 | Le renard | L'apprenant (nom = `[USER_NAME]`), 10 ans, genre non précisé | Personnage principal (voir §7, Q4, Q5) |
-| 🐰 | Andrea | Hase, 11 ans, « la grande » | Personnage principal (§8) |
+| 🦊 | Le renard | L'apprenant (nom = `[USER_NAME]`), 10 ans, genre non précisé | **Matej**, garçon, toujours « toi » (voir §7) |
+| 🐰 | Andrea | Hase, 11 ans, « la grande » | Personnage principal, amie du renard, cousine de Katka et Maťo (§8) |
 | 🐹 | Katka | Marmotte, 8 ans, phrases courtes et simples | Voir §12 |
 | 🐻 | Maťo | Ours, 9 ans, grand frère de Katka | Voir §12 bis |
 | 🐑 | Babka Zuzana | Brebis, grand-mère de Katka et Maťo, pâturages et traditions | Voir §11 |
@@ -463,7 +484,7 @@ Elle peut être devenue :
 - sarcastique ;
 - probablement beaucoup moins impressionnée par les adultes.
 
-Elle peut également avoir une relation particulière avec Andrea. *(Dans Kids, Andrea est dite « cousine de Katka et Maťo » dans `Progression-enfants.md` et « ton amie » dans le README : à harmoniser, Q10.)*
+Elle peut également avoir une relation particulière avec Andrea, sa **cousine** (Andrea est aussi l'amie de l'apprenant : les deux sont compatibles, voir §0.0).
 
 > *Remarque : le gag de « la petite Katka » marche d'autant mieux qu'elle a 13 ans et non 18 (voir Q1).*
 
@@ -858,45 +879,43 @@ Exemples :
 
 On peut conserver la structure générale de Kids tout en l'adaptant au nouveau ton.
 
-## Fiches 01–04
+**Principe : une série = un chapitre.** On ne lit pas des fiches, on lit une histoire dont chaque série est un chapitre. Il n'y a **que des dialogues** : plus de phrases isolées. Le format de Kids peut donc évoluer.
 
-Apprentissage structuré :
+## Fiches 01–04 : vocabulaire et grammaire, avec des micro-dialogues
 
-- vocabulaire ;
-- grammaire ;
-- phrases ;
+Apprentissage structuré, comme avant :
+
+- vocabulaire (tableau des nouveaux mots) ;
+- grammaire du jour ;
 - réemploi ;
-- culture.
+- culture (Coin slovaque).
 
-Les phrases commencent cependant à appartenir au monde de l'histoire.
+La différence : à la place des phrases isolées, ce sont des **micro-dialogues** (2 à 4 répliques) qui placent le **contexte** et l'**action** du chapitre. Les quatre fiches d'apprentissage font ainsi avancer l'histoire par petites touches, et préparent l'épisode des fiches 05 et 06.
 
-> *Différence avec Kids : dans Kids (et dans le cours adulte), les fiches 01 à 04 n'ont « pas de mise en scène, pas de personnages, pas d'histoire », et seule la fiche 05 raconte. Ici, c'est un choix volontaire de faire entrer l'histoire dès les fiches d'apprentissage. À confirmer (Q22).*
+> *Différence avec Kids (et avec le cours adulte) : leurs fiches 01 à 04 n'ont « pas de mise en scène, pas de personnages, pas d'histoire », et seule la fiche 05 raconte. C'est ici un choix volontaire (✅ Q22).*
 
-## Fiche 05 — épisode
+## Fiches 05 et 06 : l'épisode
 
-La fiche 05 devient un véritable **épisode narratif**.
+Le **vrai dialogue** du chapitre se trouve dans **deux fiches** :
 
-Les personnages interviennent.
+- **fiche 05** : première partie de l'épisode ;
+- **fiche 06 (« extra »)** : suite et fin de l'épisode. Elle laisse de la place pour **développer** l'histoire (scènes plus longues, rebondissements, personnages secondaires), au lieu de n'être qu'un récapitulatif.
 
-Le dialogue réutilise le vocabulaire et la grammaire de la série.
+Les personnages interviennent. Le dialogue réutilise le vocabulaire et la grammaire de la série.
 
 C'est le moment où l'apprenant comprend :
 
 > « Ah, maintenant je comprends pourquoi j'ai appris tout ça. »
 
-## Fiche 06 — extra
+Chaque chapitre doit pouvoir se lire d'un trait en enchaînant les micro-dialogues des fiches 01 à 04 puis les fiches 05 et 06.
 
-Grande consolidation :
+> *Dans Kids, la fiche 06 était un tableau de **tout** le vocabulaire (aucun mot nouveau), puis 3 ou 4 mini-dialogues pour recombiner, la base des exercices écrits à la main. Friends garde l'idée du tableau récapitulatif, mais la 06 devient aussi la suite de l'épisode. Reste à décider si elle peut introduire des mots nouveaux (Q29), et quelle longueur donner à un chapitre (Q28).*
 
-- vocabulaire complet ;
-- nouvelles phrases ;
-- compréhension ;
-- exercices ;
-- réemploi.
+## Conséquences à anticiper
 
-La fiche 06 peut aussi préparer certains éléments de la série suivante.
-
-> *Dans Kids, la fiche 06 est : un tableau de **tout** le vocabulaire de la série (aucun mot nouveau), puis **3 ou 4 mini-dialogues** (3 à 6 répliques) qui recombinent le vocabulaire dans des situations nouvelles ; les exercices sont écrits à la main, jamais plus difficiles que ce qui a été vu. Reprendre ce format pour Friends est naturel (Q20).*
+- **Lecture dans l'ordre.** Les chapitres se lisent à la suite. La règle de Kids « aucune référence à une autre série » ne peut plus s'appliquer telle quelle : on la remplace par des **rappels dans le dialogue** (une ou deux répliques), sans renvoi explicite à un chapitre (Q30).
+- **Exercices.** Ils se tirent des dialogues (des répliques entières, mot pour mot), comme dans Kids.
+- **Carte.** Elle représente le voyage : un chapitre = une étape (§4).
 
 ## Règles de format héritées de Kids (à reprendre sauf avis contraire)
 
@@ -905,7 +924,8 @@ La fiche 06 peut aussi préparer certains éléments de la série suivante.
 - Vocabulaire cumulatif dans la série ; aucun mot inconnu non signalé ; mots nouveaux d'un dialogue toujours marqués (`+ Mot nouveau signalé : …`).
 - Aucune référence à une autre série ni renvoi entre fiches.
 - Consignes importantes en `{{fr:…}}` (voix française) ; **pas de mot slovaque** dans un `{{fr:…}}` (sauf prénoms des personnages).
-- Prénom : `[ASK_USER_NAME]` / `[USER_NAME]` (si le renard reste l'apprenant).
+- Prénom : dans Kids, `[ASK_USER_NAME]` / `[USER_NAME]` donnent le prénom de l'élève. Dans Friends, le renard s'appelle **Matej** par défaut ; il faut donc un champ de prénom avec valeur par défaut (voir Q31).
+- Dans Kids, les fiches d'apprentissage n'ont pas de dialogue suivi et la 06 n'a aucun mot nouveau : ces deux règles évoluent (voir plus haut et Q29).
 - Exercices écrits à la main dans `exercises/`, `"mode": "replace"`.
 - Slovaque à faire relire avec attention : la relecture de Kids a trouvé quelques calques fréquents (tableau des pièges dans `Format-enfants.md`).
 
@@ -1013,7 +1033,7 @@ J'ai fait l'essai sur les répliques clés. Bonne nouvelle : **le gag hase / lap
 | C'est encore plus compliqué. | To je ešte komplikovanejšie. | OK |
 | Moi non plus. | Ani ja. | OK |
 
-Conséquence : tant que le genre du renard n'est pas fixé, il est **impossible d'écrire le moindre dialogue** de Friends en slovaque. C'est la décision la plus bloquante (Q5).
+✅ **Réglé** : le renard est un garçon (Matej). On retient donc les **formes masculines** pour lui (*jednoduchý*, *Vedel som to*, *rád počkal*) et les formes **féminines** pour Andrea quand elle parle d'elle. Ses répliques envers le renard sont au masculin (*Ty si hlúpy*). Le test ci-dessus se lit donc avec la première forme de chaque ligne.
 
 ---
 
@@ -1138,7 +1158,8 @@ Le nombre exact de séries, leur ordre et les événements doivent être constru
 
 Remarques :
 
-- 12 séries de 6 fiches font **72 fiches**, soit plus que Kids (7 séries) ; le cours adulte en compte 9 séries (54 fiches). À mettre en regard de la quantité de travail (Q18).
+- Chaque série est un **chapitre** du livre. Les titres de série peuvent donc être des titres de chapitre (« Chapitre 1 : retrouvailles »).
+- 12 séries de 6 fiches font **72 fiches**, soit plus que Kids (7 séries) ; le cours adulte en compte 9 séries (54 fiches). Comme chaque fiche 05 et 06 est un épisode, la quantité de dialogues à écrire est importante : à mettre en regard de la quantité de travail (Q18, Q28).
 - Les séries 03 (recherche d'eau) et 06 (inondations) pourraient se rapprocher dans l'ordre du récit ; l'arc « sécheresse puis déluge » est joli mais éloigne ses deux moitiés de quatre séries. À voir lors du séquençage.
 - Les séries 08 et 10 sont situées en « région centrale » sans lieu précis ; des étapes réelles existent (Zvolen, Banská Bystrica, Žiar nad Hronom…), à choisir (Q18).
 - Nom court (clé de sous-groupe et nom de fichier) à fixer pour chaque série, sur le modèle de Kids (*Rodina*, *Doma*, *Jedlo*…), par exemple `Retrouvailles`, `Sucho`, `Raj`, `Burka`…, puis `10_Series_01_Nom_01_titre.md`.
@@ -1234,18 +1255,9 @@ Réponse :
 
 ## B. Le renard
 
-**Q4 🔴 — Qui est le renard ?** Dans Kids, 🦊 est **toi** : l'élève, avec son prénom (`[USER_NAME]`) et sans personnalité propre. Le brouillon en fait un personnage à part entière : ironique, tendre, avec des répliques à garder texto, et un passé avec Andrea. On ne peut pas avoir les deux : un personnage avec une personnalité qui s'appelle `[USER_NAME]`, c'est étrange.
-*Proposition : le renard devient un **personnage fixe avec un nom** (à choisir), et l'apprenant n'est plus « le renard » mais celui qui regarde, comme dans le cours adulte. Garde `[USER_NAME]` seulement pour les rares moments d'adresse directe (« [USER_NAME], on y va ? »). Alternative : garder le renard = apprenant, mais alors sa personnalité devient celle que l'élève lui prête, ce qui complique l'écriture.*
-Réponse :
+**Q4 ✅ — Qui est le renard ?** Réglée (5 oct.) : le renard est **toi**, avec un nom slovaque par défaut (**Matej**). Il est aussi un personnage à part entière (ironique, tendre, avec ses répliques à garder texto). Le moteur permettra plus tard de jouer le renard ou la hase (Q31).
 
-**Q5 🔴 — Quel genre pour le renard ?** Dans Kids, aucune forme genrée pour 🦊 (règle stricte). En slovaque, le passé, le conditionnel et beaucoup d'adjectifs sont genrés : la scène de référence est inécrivable sans choix (voir le test en §21), et les répliques **d'Andrea** envers lui sont aussi touchées (« Ty si hlúpy / hlúpa »). Options :
-- **A.** Renard garçon fixe.
-- **B.** Renard fille fixe.
-- **C.** Le genre est choisi par l'apprenant au début (comme le prénom) : le moteur a `[USER_NAME]` mais pas encore de texte conditionnel au genre, il faudrait le développer.
-- **D.** Rester neutre comme Kids : possible, mais très contraignant pour des ados qui doivent apprendre le passé.
-
-*Proposition : **A ou B** (fixer, simple, assumé : le cours adulte fait déjà ce choix pour son apprenante), et dire clairement que l'apprenant apprend « la forme d'un personnage », avec une remarque pour la forme de l'autre genre. **C** n'a de sens que si tu es prêt à investir dans le moteur.*
-Réponse :
+**Q5 ✅ — Quel genre pour le renard ?** Réglée (5 oct.) : **garçon**. Formes masculines en slovaque pour lui, féminines pour Andrea. Le prénom que l'élève saisit ne change pas le genre du personnage.
 
 **Q6 — Âge du renard.** Kids le fait dire « Mám desať rokov ». Si Q1 = 5 ans, il a 15 ans. À confirmer avec Q1.
 Réponse :
@@ -1264,9 +1276,7 @@ Réponse :
 *Proposition : oui, 🦡 blaireau, adulte, rencontré à partir de la série 07 ou 08, travaille pour l'entreprise du datacenter ou de la mine, tiraillé.*
 Réponse :
 
-**Q10 — Andrea et Katka : lien de parenté.** Le README de Kids dit « ton amie », `Progression-enfants.md` dit « cousine de Katka et Maťo ». À harmoniser dans Kids, mais je veux savoir ce qu'on retient pour Friends.
-*Proposition : cousine (ça explique pourquoi elles se connaissent depuis toujours, et la « relation particulière » du §12).*
-Réponse :
+**Q10 ✅ — Andrea et Katka : lien de parenté.** Réglée (5 oct.) : Andrea est l'**amie** de l'apprenant et la **cousine** de Katka et Maťo. Rien à harmoniser.
 
 **Q11 — Pani Ježková (🦔) et Pán Orol (🦅).** Les deux sont vouvoyés dans Kids. Cameos ?
 *Proposition : oui, brièvement ; ils sont de bons supports pour le vy et pour des clins d'œil (le gardien du parc peut apparaître dans la série sécheresse).*
@@ -1308,17 +1318,15 @@ Réponse :
 *Proposition : valider le tableau comme point de départ, et viser **un bon A2** à la fin de la série 12.*
 Réponse :
 
-**Q20 — Volume.** Mots par fiche (Kids : 6–7 essentiels + 2–3 complémentaires ; ≈ 40 mots par série), longueur des dialogues (Kids : 10–15 répliques ; la scène de référence en compte 24, très courtes), format de la fiche 06 (Kids : 3–4 mini-dialogues).
-*Proposition : 9–10 essentiels + 3 complémentaires par fiche ; dialogues de 15–25 répliques ; fiche 06 comme dans Kids (mini-dialogues), exercices écrits à la main.*
+**Q20 — Volume de vocabulaire.** Mots par fiche (Kids : 6–7 essentiels + 2–3 complémentaires ; ≈ 40 mots par série). La longueur des dialogues et le rôle de la 06 sont maintenant traités par Q28 et Q29.
+*Proposition : 9–10 essentiels + 3 complémentaires par fiche d'apprentissage.*
 Réponse :
 
-**Q21 — Aucun mot nouveau dans la 06, trois au maximum dans le dialogue.** Règles strictes de Kids : on garde ?
-*Proposition : oui pour la 06 ; 5 maximum pour un dialogue de 05.*
+**Q21 — Mots nouveaux dans un dialogue.** Kids : trois au maximum par dialogue. Ici, l'épisode se partage entre les fiches 05 et 06 (voir aussi Q29).
+*Proposition : 5 maximum par fiche de dialogue, toujours signalés.*
 Réponse :
 
-**Q22 — L'histoire dès les fiches 01–04 ?** Contrairement à Kids et au cours adulte, le brouillon veut que les phrases des fiches d'apprentissage appartiennent déjà à l'histoire (§20). Confirmé ?
-*Proposition : oui, mais sans dialogue suivi : seule la 05 raconte, les fiches 01–04 utilisent des **phrases autonomes** qui parlent des personnages et du décor.*
-Réponse :
+**Q22 ✅ — L'histoire dès les fiches 01–04 ?** Réglée (5 oct.) : oui, avec des **micro-dialogues** (2 à 4 répliques) qui placent le contexte et l'action ; le vrai dialogue est en fiches 05 et 06 (§20).
 
 **Q23 — Clins d'œil à Kids.** Combien d'explications données à l'apprenant qui n'a pas fait Kids ?
 *Proposition : aucune explication ; une allusion doit se comprendre seule (comme la règle « aucune référence entre séries »).*
@@ -1334,16 +1342,41 @@ Réponse :
 *Proposition : photos libres pour les fiches (paysages, villes, animaux), et **un petit jeu d'illustrations de personnages** (6–8 images) réservées aux épisodes (fiches 05). On voit plus tard.*
 Réponse :
 
-**Q26 — Voix.** Un dialogue peut avoir une voix par personnage (réglage `character_headings`). Le cours étant en français, l'en-tête de la liste des personnages est « Les personnages » (comme Kids). Voulez-vous des voix différentes pour Andrea, le renard, Ján… ?
-*Proposition : oui si le moteur le permet pour les voix slovaques disponibles ; sinon une seule voix slovaque.*
+**Q26 — Voix.** Maintenant que tout passe par des dialogues, les voix comptent plus. Un dialogue peut avoir une voix par personnage (réglage `character_headings`) ; le cours étant en français, l'en-tête de la liste des personnages est « Les personnages » (comme Kids). Voulez-vous des voix différentes pour Andrea, Matej, Ján… ?
+*Proposition : oui si le moteur le permet pour les voix slovaques disponibles (au moins une voix de garçon et une voix de fille) ; sinon une seule voix slovaque.*
+Réponse :
+
+## G. Nouvelles questions (suite aux décisions du 5 octobre)
+
+**Q27 🔴 — Le nom du renard : Matej et Maťo.** *Maťo* est le diminutif habituel de *Matej* (et de *Matúš*). Le renard (Matej) et l'ours (Maťo, frère de Katka) auraient donc presque le même prénom : confusion dans les dialogues, et à l'oral (le TTS lit presque pareil). Options :
+- **A.** On garde **Matej** pour le renard et on renomme l'ours dans Friends (mais Maťo existe déjà dans Kids, ce serait incohérent).
+- **B.** On garde Matej et Maťo, et on **en joue** (un gag : « Matej ? Maťo ? Non, l'autre. »), au risque de la confusion.
+- **C.** On change le prénom du renard : **Samo**, **Adam**, **Tomáš**, **Peter**, **Lukáš**, **Filip**…
+*Proposition : **C**, par exemple **Samo** (court, facile à prononcer pour un francophone, bien distinct de Maťo) ; et Matej reste possible comme prénom de l'élève s'il le choisit.*
+Réponse :
+
+**Q28 — Longueur d'un chapitre.** Combien de répliques pour les micro-dialogues (fiches 01 à 04) et pour l'épisode (fiches 05 et 06) ? Kids : 10–15 répliques en 05 ; la scène de référence en compte 24, très courtes.
+*Proposition : micro-dialogues de 2 à 4 répliques (3 ou 4 par fiche) ; épisode de 15–20 répliques en 05 et de 20–30 en 06 ; un chapitre complet fait ainsi environ 60 à 80 répliques.*
+Réponse :
+
+**Q29 — Mots nouveaux en fiche 06.** Dans Kids, la 06 n'introduit aucun mot nouveau (c'est la base des exercices). Ici elle prolonge l'épisode : peut-elle introduire des mots, et comment ?
+*Proposition : oui, quelques mots (3 maximum), **toujours signalés** (`+ Mot nouveau signalé : …`) et ajoutés au tableau récapitulatif de la fiche ; les exercices se limitent aux répliques sans mot nouveau.*
+Réponse :
+
+**Q30 — Rappels entre chapitres.** Les chapitres se lisent à la suite, mais chacun doit rester compréhensible (le moteur ne force aucun ordre). Comment rappeler le chapitre précédent ?
+*Proposition : une ou deux répliques de rappel dans le premier micro-dialogue du chapitre (« Alors, on est où ? » / « Au bord du lac, comme hier. »), sans jamais écrire « chapitre précédent » ni renvoyer à une fiche.*
+Réponse :
+
+**Q31 — Tâches moteur (Slovingo).** Pour pouvoir jouer le renard **ou** la hase, il faut au moins : (a) **deux champs de prénom** avec valeur par défaut (renard : Matej ou le prénom choisi en Q27, hase : Andrea) à la place du seul `[USER_NAME]` ; (b) un **choix du personnage** joué ; (c) rien à faire sur les genres (fixés par personnage). Point d'attention : un prénom saisi ne se décline pas (voir §7).
+*Proposition : traiter ces tâches **après** l'écriture des 2 ou 3 premiers chapitres, en attendant on écrit avec les noms par défaut en dur et on remplace plus tard par des marqueurs.*
 Réponse :
 
 ---
 
 ## Prochaines étapes (à discuter après tes réponses)
 
-1. Fixer Q1, Q2, Q4, Q5 (ce sont les décisions qui conditionnent tout le reste).
-2. Mettre ce document à jour (v0.3) avec tes réponses.
-3. Écrire `docs/Format-friends.md` (reprise de `Format-enfants.md` avec les écarts de cette page) et `docs/Progression-friends.md` (vocabulaire et grammaire par série).
+1. Répondre aux questions restantes : surtout Q1 (âges), Q2 (débutants ou suite de Kids), **Q27 (nom du renard)** et Q28 (longueur d'un chapitre).
+2. Mettre ce document à jour (v0.4) avec tes réponses.
+3. Écrire `docs/Format-friends.md` (reprise de `Format-enfants.md` avec les écarts de cette page : micro-dialogues, 06 = suite de l'épisode, prénom par défaut) et `docs/Progression-friends.md` (vocabulaire et grammaire par série).
 4. Créer `lang.json` du cours et la structure `md/`, `exercises/`, `img/`.
-5. Écrire la **série 01** en entier, relire, puis décider du rythme pour la suite.
+5. Écrire le **chapitre 1** (série 01) en entier, relire, puis décider du rythme pour la suite.
