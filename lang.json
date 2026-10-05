@@ -23,7 +23,7 @@
     "icon_style": "kids",
     "storage_prefix": "sk-fr-friends",
     "url_path": "/slovingo/sk-fr-friends/",
-    "user_name_default": "Gab",
+    "user_name_default": "Eric",
     "user_name_placeholder": "Ton prénom",
     "deploy_host": "www.lslinux.org",
     "deploy_path": "/var/www/lslinux.org/htdocs/slovingo/sk-fr-friends/",
