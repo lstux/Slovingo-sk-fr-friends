@@ -1,0 +1,273 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-ve-a",
+      "type": "qcm",
+      "l1": "beaucoup",
+      "l2": "veľa",
+      "choices_l1": [
+        "très",
+        "longtemps",
+        "tout"
+      ],
+      "choices_l2": [
+        "veľmi",
+        "dlho",
+        "všetko"
+      ]
+    },
+    {
+      "id": "qcm-jednoduch",
+      "type": "qcm",
+      "l1": "simple (dit d'un garçon)",
+      "l2": "jednoduchý",
+      "choices_l1": [
+        "grand",
+        "fort",
+        "gentille"
+      ],
+      "choices_l2": [
+        "veľký",
+        "silný",
+        "milá"
+      ]
+    },
+    {
+      "id": "qcm-mimozem-ania",
+      "type": "qcm",
+      "l1": "les extraterrestres",
+      "l2": "mimozemšťania",
+      "choices_l1": [
+        "les enfants",
+        "les renards",
+        "l'arrêt"
+      ],
+      "choices_l2": [
+        "deti",
+        "líšky",
+        "zastávka"
+      ]
+    },
+    {
+      "id": "qcm-rozpr-vaj",
+      "type": "qcm",
+      "l1": "ils parlent",
+      "l2": "rozprávajú",
+      "choices_l1": [
+        "tu fais",
+        "je voyage",
+        "j'habite"
+      ],
+      "choices_l2": [
+        "robíš",
+        "cestujem",
+        "bývam"
+      ]
+    },
+    {
+      "id": "listen-l-ky-ve-a-rozpr-vaj-a-s-kompli",
+      "type": "listen",
+      "l1": "Les renards parlent beaucoup. Et ils sont compliqués ! Des extraterrestres !",
+      "l2": "Líšky veľa rozprávajú. A sú komplikované! Mimozemšťania!",
+      "choices_l1": [
+        "Les renards sont très compliqués. Et ils parlent ! Des extraterrestres !",
+        "Les renards ne parlent pas beaucoup. Et ils sont simples ! Des enfants !",
+        "Les renards parlent beaucoup. Et ils sont gentils ! Des copains !"
+      ]
+    },
+    {
+      "id": "listen-no-ale-si-l-ka",
+      "type": "listen",
+      "l1": "Oui. Mais tu es un renard.",
+      "l2": "Áno. Ale si líška.",
+      "choices_l1": [
+        "Oui. Mais je suis un renard.",
+        "Non. Mais tu es un copain.",
+        "Oui. Mais tu es ma sœur."
+      ]
+    },
+    {
+      "id": "listen-pozri-to-je-d-m",
+      "type": "listen",
+      "l1": "Regarde ! C'est une cathédrale.",
+      "l2": "Pozri! To je dóm.",
+      "choices_l1": [
+        "Regarde ! C'est un tram.",
+        "Attends ! C'est une cathédrale.",
+        "Regarde ! C'est le lycée."
+      ]
+    },
+    {
+      "id": "listen-v-elektri-ke-s-user-name-a-and",
+      "type": "listen",
+      "l1": "Dans le tram, il y a [USER_NAME] et Andrea.",
+      "l2": "V električke sú [USER_NAME] a Andrea.",
+      "choices_l1": [
+        "Dans le tram, il y a [USER_NAME] et Katka.",
+        "Dans la ville, il y a [USER_NAME] et Andrea.",
+        "Dans le tram, il y a Andrea."
+      ]
+    },
+    {
+      "id": "listen-to-je-moja-zast-vka-po",
+      "type": "listen",
+      "l1": "C'est mon arrêt. Viens !",
+      "l2": "To je moja zastávka. Poď!",
+      "choices_l1": [
+        "C'est mon ticket. Viens !",
+        "C'est ton arrêt. Attends !",
+        "C'est mon arrêt. J'arrive !"
+      ]
+    },
+    {
+      "id": "match-ve-a",
+      "type": "match",
+      "l1": [
+        "beaucoup",
+        "ils parlent",
+        "les extraterrestres",
+        "simple (dit d'un garçon)"
+      ],
+      "l2": [
+        "veľa",
+        "rozprávajú",
+        "mimozemšťania",
+        "jednoduchý"
+      ]
+    },
+    {
+      "id": "blank-ale-ja-som-tvoj-kamar-t",
+      "type": "fill-blank",
+      "l1": "Mais je suis ton copain !",
+      "l2": "Ale ja som tvoj kamarát!",
+      "missing_l1": "copain",
+      "missing_l2": "kamarát",
+      "blank_index_l1": 4,
+      "blank_index_l2": 4,
+      "choices_l1": [
+        "ticket",
+        "cathédrale",
+        "frère"
+      ],
+      "choices_l2": [
+        "lístok",
+        "dóm",
+        "brat"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-no-ale-si-l-ka",
+      "type": "fill-blank",
+      "l1": "Oui. Mais tu es un renard.",
+      "l2": "Áno. Ale si líška.",
+      "missing_l1": "renard",
+      "missing_l2": "líška",
+      "blank_index_l1": 5,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "frère",
+        "grand-mère",
+        "tante"
+      ],
+      "choices_l2": [
+        "brat",
+        "babka",
+        "teta"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-no-chod-m-na-gymn-zium",
+      "type": "fill-blank",
+      "l1": "Oui. Je vais au lycée.",
+      "l2": "Áno. Chodím na gymnázium.",
+      "missing_l1": "lycée",
+      "missing_l2": "gymnázium",
+      "blank_index_l1": 4,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "cathédrale",
+        "ville",
+        "ticket"
+      ],
+      "choices_l2": [
+        "dóm",
+        "mesto",
+        "lístok"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-to-je-moja-zast-vka-po",
+      "type": "fill-blank",
+      "l1": "C'est mon arrêt. Viens !",
+      "l2": "To je moja zastávka. Poď!",
+      "missing_l1": "arrêt",
+      "missing_l2": "zastávka",
+      "blank_index_l1": 2,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "tram",
+        "copine",
+        "famille"
+      ],
+      "choices_l2": [
+        "električka",
+        "kamarátka",
+        "rodina"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-no-chod-m-na-gymn-zium",
+      "type": "order",
+      "l1": "Oui. Je vais au lycée.",
+      "l2": "Áno. Chodím na gymnázium.",
+      "tokens_l1": [
+        "Oui.",
+        "Je vais",
+        "au lycée."
+      ],
+      "tokens_l2": [
+        "Áno.",
+        "Chodím",
+        "na gymnázium."
+      ]
+    },
+    {
+      "id": "order-to-je-moja-zast-vka-po",
+      "type": "order",
+      "l1": "C'est mon arrêt. Viens !",
+      "l2": "To je moja zastávka. Poď!",
+      "tokens_l1": [
+        "C'est",
+        "mon arrêt.",
+        "Viens !"
+      ],
+      "tokens_l2": [
+        "To je",
+        "moja zastávka.",
+        "Poď!"
+      ]
+    },
+    {
+      "id": "order-je-ve-k-a-ty-b-va-tu",
+      "type": "order",
+      "l1": "Il est énorme ! Et toi ? Tu habites ici ?",
+      "l2": "Je veľký! A ty? Bývaš tu?",
+      "tokens_l1": [
+        "Il est énorme !",
+        "Et toi ?",
+        "Tu habites ici ?"
+      ],
+      "tokens_l2": [
+        "Je veľký!",
+        "A ty?",
+        "Bývaš tu?"
+      ]
+    }
+  ]
+}

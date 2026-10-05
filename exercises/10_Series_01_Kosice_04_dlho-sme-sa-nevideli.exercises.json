@@ -1,0 +1,229 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-p-tn-s",
+      "type": "qcm",
+      "l1": "quinze",
+      "l2": "pätnásť",
+      "choices_l1": [
+        "cinq",
+        "seize",
+        "treize"
+      ],
+      "choices_l2": [
+        "päť",
+        "šestnásť",
+        "trinásť"
+      ]
+    },
+    {
+      "id": "qcm-trin-s",
+      "type": "qcm",
+      "l1": "treize",
+      "l2": "trinásť",
+      "choices_l1": [
+        "quatorze",
+        "trois",
+        "quinze"
+      ],
+      "choices_l2": [
+        "štrnásť",
+        "tri",
+        "pätnásť"
+      ]
+    },
+    {
+      "id": "qcm-v-etko",
+      "type": "qcm",
+      "l1": "tout",
+      "l2": "všetko",
+      "choices_l1": [
+        "longtemps",
+        "aussi",
+        "vraiment"
+      ],
+      "choices_l2": [
+        "dlho",
+        "tiež",
+        "naozaj"
+      ]
+    },
+    {
+      "id": "qcm-pam-t-m-sa",
+      "type": "qcm",
+      "l1": "je me souviens",
+      "l2": "pamätám sa",
+      "choices_l1": [
+        "tu te souviens",
+        "j'habite",
+        "je fais"
+      ],
+      "choices_l2": [
+        "pamätáš sa",
+        "bývam",
+        "robím"
+      ]
+    },
+    {
+      "id": "qcm-d-m",
+      "type": "qcm",
+      "l1": "la cathédrale",
+      "l2": "dóm",
+      "choices_l1": [
+        "le lycée",
+        "la ville",
+        "l'arrêt"
+      ],
+      "choices_l2": [
+        "gymnázium",
+        "mesto",
+        "zastávka"
+      ]
+    },
+    {
+      "id": "listen-pam-t-sa-na-tatry",
+      "type": "listen",
+      "l1": "Tu te souviens des Tatras ?",
+      "l2": "Pamätáš sa na Tatry?",
+      "choices_l1": [
+        "Tu habites dans les Tatras ?",
+        "Tu te souviens de Katka ?",
+        "Je me souviens des Tatras !"
+      ]
+    },
+    {
+      "id": "listen-no-pam-t-m-sa-na-v-etko-je-to-",
+      "type": "listen",
+      "l1": "Oui, je me souviens de tout ! Ça fait cinq ans.",
+      "l2": "Áno, pamätám sa na všetko! Je to päť rokov.",
+      "choices_l1": [
+        "Oui, je me souviens de tout ! Ça fait quinze ans.",
+        "Non, je ne me souviens de rien ! Ça fait cinq ans.",
+        "Oui, tu te souviens de tout ! Ça fait cinq ans."
+      ]
+    },
+    {
+      "id": "listen-katka-m-trin-s-a-ma-o-trn-s",
+      "type": "listen",
+      "l1": "Katka a treize ans et Maťo quatorze.",
+      "l2": "Katka má trinásť a Maťo štrnásť.",
+      "choices_l1": [
+        "Katka a quatorze ans et Maťo treize.",
+        "Katka a treize ans et Andrea quatorze.",
+        "Katka a trois ans et Maťo quatre."
+      ]
+    },
+    {
+      "id": "listen-chod-m-na-gymn-zium",
+      "type": "listen",
+      "l1": "Je vais au lycée.",
+      "l2": "Chodím na gymnázium.",
+      "choices_l1": [
+        "Je vais à la cathédrale.",
+        "Je vais en ville.",
+        "J'habite au lycée."
+      ]
+    },
+    {
+      "id": "match-trin-s",
+      "type": "match",
+      "l1": [
+        "treize",
+        "quatorze",
+        "quinze",
+        "seize"
+      ],
+      "l2": [
+        "trinásť",
+        "štrnásť",
+        "pätnásť",
+        "šestnásť"
+      ]
+    },
+    {
+      "id": "blank-m-m-estn-s-rokov-a-ty",
+      "type": "fill-blank",
+      "l1": "J'ai seize ans. Et toi ?",
+      "l2": "Mám šestnásť rokov. A ty?",
+      "missing_l1": "seize",
+      "missing_l2": "šestnásť",
+      "blank_index_l1": 1,
+      "blank_index_l2": 1,
+      "choices_l1": [
+        "quinze",
+        "cinq",
+        "treize"
+      ],
+      "choices_l2": [
+        "pätnásť",
+        "päť",
+        "trinásť"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-m-m-p-tn-s-a-katka-a-ma-o",
+      "type": "fill-blank",
+      "l1": "J'ai quinze ans. Et Katka ? Et Maťo ?",
+      "l2": "Mám pätnásť. A Katka? A Maťo?",
+      "missing_l1": "quinze",
+      "missing_l2": "pätnásť",
+      "blank_index_l1": 1,
+      "blank_index_l2": 1,
+      "choices_l1": [
+        "cinq",
+        "seize",
+        "quatorze"
+      ],
+      "choices_l2": [
+        "päť",
+        "šestnásť",
+        "štrnásť"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-katka-m-trin-s-a-ma-o-trn-s",
+      "type": "fill-blank",
+      "l1": "Katka a treize ans et Maťo quatorze.",
+      "l2": "Katka má trinásť a Maťo štrnásť.",
+      "missing_l1": "quatorze",
+      "missing_l2": "štrnásť",
+      "blank_index_l1": 6,
+      "blank_index_l2": 5,
+      "choices_l1": [
+        "treize",
+        "quinze",
+        "cinq"
+      ],
+      "choices_l2": [
+        "trinásť",
+        "pätnásť",
+        "päť"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-no-pam-t-m-sa-na-v-etko-je-to-",
+      "type": "order",
+      "l1": "Oui, je me souviens de tout ! Ça fait cinq ans.",
+      "l2": "Áno, pamätám sa na všetko! Je to päť rokov.",
+      "tokens_l1": [
+        "Oui,",
+        "je me souviens",
+        "de tout !",
+        "Ça fait",
+        "cinq ans."
+      ],
+      "tokens_l2": [
+        "Áno,",
+        "pamätám sa",
+        "na všetko!",
+        "Je to",
+        "päť rokov."
+      ]
+    }
+  ]
+}

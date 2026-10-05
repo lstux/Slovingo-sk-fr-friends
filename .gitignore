@@ -1,0 +1,30 @@
+# Generated files
+*.html
+*.js
+*.css
+
+# Dependencies
+node_modules/
+*.egg-info/
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+build/
+dist/
+json/
+
+# Environment
+.env
+.env.local

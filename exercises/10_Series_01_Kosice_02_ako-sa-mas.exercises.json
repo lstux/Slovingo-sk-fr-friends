@@ -1,0 +1,195 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-r-d",
+      "type": "qcm",
+      "l1": "content (dit par un garçon)",
+      "l2": "rád",
+      "choices_l1": [
+        "contente (dit par une fille)",
+        "super",
+        "longtemps"
+      ],
+      "choices_l2": [
+        "rada",
+        "super",
+        "dlho"
+      ]
+    },
+    {
+      "id": "qcm-dlho",
+      "type": "qcm",
+      "l1": "longtemps",
+      "l2": "dlho",
+      "choices_l1": [
+        "très",
+        "aussi",
+        "super"
+      ],
+      "choices_l2": [
+        "veľmi",
+        "tiež",
+        "super"
+      ]
+    },
+    {
+      "id": "qcm-tie",
+      "type": "qcm",
+      "l1": "aussi",
+      "l2": "tiež",
+      "choices_l1": [
+        "longtemps",
+        "te",
+        "je vois"
+      ],
+      "choices_l2": [
+        "dlho",
+        "ťa",
+        "vidím"
+      ]
+    },
+    {
+      "id": "qcm-vid-m",
+      "type": "qcm",
+      "l1": "je vois",
+      "l2": "vidím",
+      "choices_l1": [
+        "j'ai",
+        "je suis",
+        "tu es"
+      ],
+      "choices_l2": [
+        "mám",
+        "som",
+        "si"
+      ]
+    },
+    {
+      "id": "listen-tie-sa-m-m-dobre-rada-a-vid-m",
+      "type": "listen",
+      "l1": "Moi aussi, ça va bien. Je suis contente de te voir !",
+      "l2": "Tiež sa mám dobre. Rada ťa vidím!",
+      "choices_l1": [
+        "Moi aussi, ça va bien. Je suis content de te voir !",
+        "Moi, ça va super. Je suis contente de te voir !",
+        "Moi aussi, ça va mal. Je suis contente de te voir !"
+      ]
+    },
+    {
+      "id": "listen-dlho-sme-sa-nevideli",
+      "type": "listen",
+      "l1": "On ne s'est pas vus depuis longtemps.",
+      "l2": "Dlho sme sa nevideli.",
+      "choices_l1": [
+        "On se voit tout de suite.",
+        "On ne s'est jamais vus.",
+        "On s'est vus hier."
+      ]
+    },
+    {
+      "id": "listen-ako-sa-m",
+      "type": "listen",
+      "l1": "Comment ça va ?",
+      "l2": "Ako sa máš?",
+      "choices_l1": [
+        "Où es-tu ?",
+        "Qui es-tu ?",
+        "Tu es content ?"
+      ]
+    },
+    {
+      "id": "match-tie",
+      "type": "match",
+      "l1": [
+        "aussi",
+        "content (dit par un garçon)",
+        "longtemps",
+        "je vois"
+      ],
+      "l2": [
+        "tiež",
+        "rád",
+        "dlho",
+        "vidím"
+      ]
+    },
+    {
+      "id": "blank-aj-ja-a-r-d-vid-m",
+      "type": "fill-blank",
+      "l1": "Moi aussi, je suis content de te voir !",
+      "l2": "Aj ja ťa rád vidím!",
+      "missing_l1": "content",
+      "missing_l2": "rád",
+      "blank_index_l1": 4,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "contente",
+        "longtemps",
+        "super"
+      ],
+      "choices_l2": [
+        "rada",
+        "dlho",
+        "super"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-tie-sa-m-m-dobre-rada-a-vid-m",
+      "type": "fill-blank",
+      "l1": "Moi aussi, ça va bien. Je suis contente de te voir !",
+      "l2": "Tiež sa mám dobre. Rada ťa vidím!",
+      "missing_l1": "aussi",
+      "missing_l2": "Tiež",
+      "blank_index_l1": 1,
+      "blank_index_l2": 0,
+      "choices_l1": [
+        "bien",
+        "longtemps",
+        "très"
+      ],
+      "choices_l2": [
+        "Super",
+        "Dlho",
+        "Veľmi"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-m-m-sa-super-a-ty",
+      "type": "order",
+      "l1": "Ça va super ! Et toi ?",
+      "l2": "Mám sa super! A ty?",
+      "tokens_l1": [
+        "Ça va",
+        "super !",
+        "Et toi ?"
+      ],
+      "tokens_l2": [
+        "Mám sa",
+        "super!",
+        "A ty?"
+      ]
+    },
+    {
+      "id": "order-aj-ja-a-r-d-vid-m",
+      "type": "order",
+      "l1": "Moi aussi, je suis content de te voir !",
+      "l2": "Aj ja ťa rád vidím!",
+      "tokens_l1": [
+        "Moi aussi,",
+        "je suis",
+        "content",
+        "de te voir !"
+      ],
+      "tokens_l2": [
+        "Aj ja",
+        "ťa",
+        "rád",
+        "vidím!"
+      ]
+    }
+  ]
+}

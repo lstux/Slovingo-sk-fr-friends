@@ -1,0 +1,195 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-elektri-ka",
+      "type": "qcm",
+      "l1": "le tram",
+      "l2": "električka",
+      "choices_l1": [
+        "maman",
+        "la grand-mère",
+        "papa"
+      ],
+      "choices_l2": [
+        "mama",
+        "babka",
+        "tato"
+      ]
+    },
+    {
+      "id": "qcm-si",
+      "type": "qcm",
+      "l1": "tu es",
+      "l2": "si",
+      "choices_l1": [
+        "je suis",
+        "il est",
+        "oui"
+      ],
+      "choices_l2": [
+        "som",
+        "je",
+        "áno"
+      ]
+    },
+    {
+      "id": "qcm-po-kaj",
+      "type": "qcm",
+      "l1": "attends",
+      "l2": "počkaj",
+      "choices_l1": [
+        "salut",
+        "oui",
+        "vraiment"
+      ],
+      "choices_l2": [
+        "ahoj",
+        "áno",
+        "naozaj"
+      ]
+    },
+    {
+      "id": "qcm-zast-vka",
+      "type": "qcm",
+      "l1": "l'arrêt",
+      "l2": "zastávka",
+      "choices_l1": [
+        "le ticket",
+        "la ville",
+        "le tram"
+      ],
+      "choices_l2": [
+        "lístok",
+        "mesto",
+        "električka"
+      ]
+    },
+    {
+      "id": "listen-ahoj-to-si-ty-andrea",
+      "type": "listen",
+      "l1": "Salut ! C'est toi, Andrea ?",
+      "l2": "Ahoj! To si ty, Andrea?",
+      "choices_l1": [
+        "Salut ! C'est moi, Andrea ?",
+        "Salut ! Tu es dans le tram, Andrea ?",
+        "Salut ! Où es-tu, Andrea ?"
+      ]
+    },
+    {
+      "id": "listen-no-to-som-ja",
+      "type": "listen",
+      "l1": "Oui, c'est moi !",
+      "l2": "Áno, to som ja!",
+      "choices_l1": [
+        "Oui, c'est toi !",
+        "Non, c'est moi !",
+        "Oui, je suis dans le tram !"
+      ]
+    },
+    {
+      "id": "listen-to-je-m-j-l-stok",
+      "type": "listen",
+      "l1": "C'est mon ticket.",
+      "l2": "To je môj lístok.",
+      "choices_l1": [
+        "C'est mon arrêt.",
+        "C'est ma ville.",
+        "Où est mon ticket ?"
+      ]
+    },
+    {
+      "id": "match-v-elektri-ke",
+      "type": "match",
+      "l1": [
+        "dans le tram",
+        "vraiment",
+        "attends",
+        "le tram"
+      ],
+      "l2": [
+        "v električke",
+        "naozaj",
+        "počkaj",
+        "električka"
+      ]
+    },
+    {
+      "id": "blank-no-to-som-ja",
+      "type": "fill-blank",
+      "l1": "Oui, c'est moi !",
+      "l2": "Áno, to som ja!",
+      "missing_l1": "moi",
+      "missing_l2": "ja",
+      "blank_index_l1": 2,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "toi",
+        "es",
+        "oui"
+      ],
+      "choices_l2": [
+        "ty",
+        "si",
+        "áno"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-to-je-m-j-l-stok",
+      "type": "fill-blank",
+      "l1": "C'est mon ticket.",
+      "l2": "To je môj lístok.",
+      "missing_l1": "ticket",
+      "missing_l2": "lístok",
+      "blank_index_l1": 2,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "arrêt",
+        "ville",
+        "copain"
+      ],
+      "choices_l2": [
+        "zastávka",
+        "mesto",
+        "kamarát"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-ahoj-to-si-ty-andrea",
+      "type": "order",
+      "l1": "Salut ! C'est toi, Andrea ?",
+      "l2": "Ahoj! To si ty, Andrea?",
+      "tokens_l1": [
+        "Salut !",
+        "C'est",
+        "toi,",
+        "Andrea ?"
+      ],
+      "tokens_l2": [
+        "Ahoj!",
+        "To si",
+        "ty,",
+        "Andrea?"
+      ]
+    },
+    {
+      "id": "order-kde-je-zast-vka-v-meste",
+      "type": "order",
+      "l1": "Où est l'arrêt, en ville ?",
+      "l2": "Kde je zastávka v meste?",
+      "tokens_l1": [
+        "Où est",
+        "l'arrêt,",
+        "en ville ?"
+      ],
+      "tokens_l2": [
+        "Kde je",
+        "zastávka",
+        "v meste?"
+      ]
+    }
+  ]
+}

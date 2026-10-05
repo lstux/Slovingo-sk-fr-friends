@@ -1,0 +1,240 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "listen-user-name-a-andrea-s-v-meste",
+      "type": "listen",
+      "l1": "[USER_NAME] et Andrea sont en ville.",
+      "l2": "[USER_NAME] a Andrea sú v meste.",
+      "choices_l1": [
+        "[USER_NAME] et Andrea sont dans le tram.",
+        "[USER_NAME] et Katka sont en ville.",
+        "Andrea est en ville."
+      ]
+    },
+    {
+      "id": "listen-moja-teta-b-va-tu",
+      "type": "listen",
+      "l1": "Ma tante habite ici.",
+      "l2": "Moja teta býva tu.",
+      "choices_l1": [
+        "Ma tante habite en ville.",
+        "Ma sœur habite ici.",
+        "Ma tante voyage en train."
+      ]
+    },
+    {
+      "id": "listen-teta-je-ve-k-a-siln",
+      "type": "listen",
+      "l1": "Ma tante est grande et forte.",
+      "l2": "Teta je veľká a silná.",
+      "choices_l1": [
+        "Ma tante est petite et forte.",
+        "Ma tante est grande et gentille.",
+        "Ma sœur est grande et forte."
+      ]
+    },
+    {
+      "id": "listen-nie-teta-je-mil-a-ty-si-mil-l-",
+      "type": "listen",
+      "l1": "Non. Ma tante est gentille. Et toi, tu es un gentil renard.",
+      "l2": "Nie. Teta je milá. A ty si milá líška.",
+      "choices_l1": [
+        "Non. Ma tante est gentille. Et moi, je suis un gentil renard.",
+        "Oui. Ma tante est gentille. Et toi, tu es un gentil renard.",
+        "Non. Ma tante est grande. Et toi, tu es un gentil renard."
+      ]
+    },
+    {
+      "id": "listen-akujem-ale-ja-som-tu-na-pr-zdn",
+      "type": "listen",
+      "l1": "Merci ! Mais je ne suis ici qu'en vacances.",
+      "l2": "Ďakujem! Ale ja som tu na prázdninách.",
+      "choices_l1": [
+        "Merci ! Mais je suis ici avec toi.",
+        "Salut ! Mais je ne suis ici qu'en vacances.",
+        "Merci ! Mais tu n'es ici qu'en vacances."
+      ]
+    },
+    {
+      "id": "listen-aj-ja-a-rada-vid-m",
+      "type": "listen",
+      "l1": "Moi aussi, je suis contente de te voir.",
+      "l2": "Aj ja ťa rada vidím.",
+      "choices_l1": [
+        "Moi aussi, je suis content de te voir.",
+        "Moi, je suis contente de te voir.",
+        "Moi aussi, je suis contente de te voir longtemps."
+      ]
+    },
+    {
+      "id": "match-elektri-ka",
+      "type": "match",
+      "l1": [
+        "le tram",
+        "vraiment",
+        "en vacances",
+        "tout"
+      ],
+      "l2": [
+        "električka",
+        "naozaj",
+        "na prázdninách",
+        "všetko"
+      ]
+    },
+    {
+      "id": "match-rozpr-vaj",
+      "type": "match",
+      "l1": [
+        "ils parlent",
+        "les extraterrestres",
+        "seize",
+        "treize"
+      ],
+      "l2": [
+        "rozprávajú",
+        "mimozemšťania",
+        "šestnásť",
+        "trinásť"
+      ]
+    },
+    {
+      "id": "blank-kde-b-va",
+      "type": "fill-blank",
+      "l1": "Où habites-tu ?",
+      "l2": "Kde bývaš?",
+      "missing_l1": "Où",
+      "missing_l2": "Kde",
+      "blank_index_l1": 0,
+      "blank_index_l2": 0,
+      "choices_l1": [
+        "Quoi",
+        "Comment",
+        "D'où"
+      ],
+      "choices_l2": [
+        "Čo",
+        "Ako",
+        "Odkiaľ"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-a-teta-je-mil",
+      "type": "fill-blank",
+      "l1": "Et ta tante ? Elle est gentille ?",
+      "l2": "A teta? Je milá?",
+      "missing_l1": "gentille",
+      "missing_l2": "milá",
+      "blank_index_l1": 6,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "grande",
+        "forte",
+        "petite"
+      ],
+      "choices_l2": [
+        "veľká",
+        "silná",
+        "malá"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-teta-je-ve-k-a-siln",
+      "type": "fill-blank",
+      "l1": "Ma tante est grande et forte.",
+      "l2": "Teta je veľká a silná.",
+      "missing_l1": "forte",
+      "missing_l2": "silná",
+      "blank_index_l1": 5,
+      "blank_index_l2": 4,
+      "choices_l1": [
+        "gentille",
+        "petite",
+        "joyeuse"
+      ],
+      "choices_l2": [
+        "milá",
+        "malá",
+        "veselá"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-r-d-a-vid-m-andrea",
+      "type": "fill-blank",
+      "l1": "Je suis content de te voir, Andrea.",
+      "l2": "Rád ťa vidím, Andrea.",
+      "missing_l1": "content",
+      "missing_l2": "Rád",
+      "blank_index_l1": 2,
+      "blank_index_l2": 0,
+      "choices_l1": [
+        "contente",
+        "longtemps",
+        "super"
+      ],
+      "choices_l2": [
+        "Rada",
+        "Dlho",
+        "Super"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-teta-je-ve-k-a-siln",
+      "type": "order",
+      "l1": "Ma tante est grande et forte.",
+      "l2": "Teta je veľká a silná.",
+      "tokens_l1": [
+        "Ma tante est",
+        "grande",
+        "et",
+        "forte."
+      ],
+      "tokens_l2": [
+        "Teta je",
+        "veľká",
+        "a",
+        "silná."
+      ]
+    },
+    {
+      "id": "order-moja-teta-b-va-tu",
+      "type": "order",
+      "l1": "Ma tante habite ici.",
+      "l2": "Moja teta býva tu.",
+      "tokens_l1": [
+        "Ma tante",
+        "habite",
+        "ici."
+      ],
+      "tokens_l2": [
+        "Moja teta",
+        "býva",
+        "tu."
+      ]
+    },
+    {
+      "id": "order-aj-ja-a-rada-vid-m",
+      "type": "order",
+      "l1": "Moi aussi, je suis contente de te voir.",
+      "l2": "Aj ja ťa rada vidím.",
+      "tokens_l1": [
+        "Moi aussi,",
+        "je suis",
+        "contente",
+        "de te voir."
+      ],
+      "tokens_l2": [
+        "Aj ja",
+        "ťa",
+        "rada",
+        "vidím."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-tu",
+      "type": "qcm",
+      "l1": "ici",
+      "l2": "tu",
+      "choices_l1": [
+        "oui",
+        "longtemps",
+        "super"
+      ],
+      "choices_l2": [
+        "áno",
+        "dlho",
+        "super"
+      ]
+    },
+    {
+      "id": "qcm-rob",
+      "type": "qcm",
+      "l1": "tu fais",
+      "l2": "robíš",
+      "choices_l1": [
+        "je fais",
+        "je vois",
+        "j'ai"
+      ],
+      "choices_l2": [
+        "robím",
+        "vidím",
+        "mám"
+      ]
+    },
+    {
+      "id": "qcm-odkia",
+      "type": "qcm",
+      "l1": "d'où",
+      "l2": "odkiaľ",
+      "choices_l1": [
+        "quoi",
+        "ici",
+        "où"
+      ],
+      "choices_l2": [
+        "čo",
+        "tu",
+        "kde"
+      ]
+    },
+    {
+      "id": "qcm-b-vam",
+      "type": "qcm",
+      "l1": "j'habite",
+      "l2": "bývam",
+      "choices_l1": [
+        "tu habites",
+        "je fais",
+        "j'ai"
+      ],
+      "choices_l2": [
+        "bývaš",
+        "robím",
+        "mám"
+      ]
+    },
+    {
+      "id": "qcm-vlak",
+      "type": "qcm",
+      "l1": "le train",
+      "l2": "vlak",
+      "choices_l1": [
+        "le tram",
+        "le ticket",
+        "la ville"
+      ],
+      "choices_l2": [
+        "električka",
+        "lístok",
+        "mesto"
+      ]
+    },
+    {
+      "id": "listen-o-tu-rob-b-va-tu",
+      "type": "listen",
+      "l1": "Qu'est-ce que tu fais ici ? Tu habites ici ?",
+      "l2": "Čo tu robíš? Bývaš tu?",
+      "choices_l1": [
+        "Qu'est-ce que tu fais ici ? Tu viens d'ici ?",
+        "Qu'est-ce que tu veux ? Tu habites ici ?",
+        "Qu'est-ce que je fais ici ? Tu habites ici ?"
+      ]
+    },
+    {
+      "id": "listen-nie-som-z-lyonu-som-tu-na-pr-z",
+      "type": "listen",
+      "l1": "Non. Je suis de Lyon. Je suis ici en vacances.",
+      "l2": "Nie. Som z Lyonu. Som tu na prázdninách.",
+      "choices_l1": [
+        "Oui. Je suis de Lyon. Je suis ici en vacances.",
+        "Non. Je suis de France. Je suis ici en vacances.",
+        "Non. Je suis de Lyon. J'habite ici."
+      ]
+    },
+    {
+      "id": "listen-elektri-ka-ide",
+      "type": "listen",
+      "l1": "Le tram roule.",
+      "l2": "Električka ide.",
+      "choices_l1": [
+        "Le tram est ici.",
+        "Le tram attend.",
+        "Je prends le tram."
+      ]
+    },
+    {
+      "id": "listen-cestujem-vlakom",
+      "type": "listen",
+      "l1": "Je voyage en train.",
+      "l2": "Cestujem vlakom.",
+      "choices_l1": [
+        "Je voyage en tram.",
+        "Je voyage seul.",
+        "Tu voyages en train ?"
+      ]
+    },
+    {
+      "id": "match-tu",
+      "type": "match",
+      "l1": [
+        "ici",
+        "tu fais",
+        "d'où",
+        "en vacances"
+      ],
+      "l2": [
+        "tu",
+        "robíš",
+        "odkiaľ",
+        "na prázdninách"
+      ]
+    },
+    {
+      "id": "blank-nie-som-z-lyonu-som-tu-na-pr-z",
+      "type": "fill-blank",
+      "l1": "Non. Je suis de Lyon. Je suis ici en vacances.",
+      "l2": "Nie. Som z Lyonu. Som tu na prázdninách.",
+      "missing_l1": "vacances",
+      "missing_l2": "prázdninách",
+      "blank_index_l1": 9,
+      "blank_index_l2": 7,
+      "choices_l1": [
+        "tram",
+        "Lyon",
+        "ville"
+      ],
+      "choices_l2": [
+        "električke",
+        "Lyonu",
+        "meste"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-o-tu-rob-b-va-tu",
+      "type": "fill-blank",
+      "l1": "Qu'est-ce que tu fais ici ? Tu habites ici ?",
+      "l2": "Čo tu robíš? Bývaš tu?",
+      "missing_l1": "fais",
+      "missing_l2": "robíš",
+      "blank_index_l1": 3,
+      "blank_index_l2": 2,
+      "choices_l1": [
+        "habites",
+        "vois",
+        "es"
+      ],
+      "choices_l2": [
+        "robím",
+        "bývam",
+        "vidím"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-nie-som-z-lyonu-som-tu-na-pr-z",
+      "type": "order",
+      "l1": "Non. Je suis de Lyon. Je suis ici en vacances.",
+      "l2": "Nie. Som z Lyonu. Som tu na prázdninách.",
+      "tokens_l1": [
+        "Non.",
+        "Je suis de Lyon.",
+        "Je suis ici",
+        "en vacances."
+      ],
+      "tokens_l2": [
+        "Nie.",
+        "Som z Lyonu.",
+        "Som tu",
+        "na prázdninách."
+      ]
+    },
+    {
+      "id": "order-o-tu-rob-b-va-tu",
+      "type": "order",
+      "l1": "Qu'est-ce que tu fais ici ? Tu habites ici ?",
+      "l2": "Čo tu robíš? Bývaš tu?",
+      "tokens_l1": [
+        "Qu'est-ce que tu fais ici ?",
+        "Tu habites",
+        "ici ?"
+      ],
+      "tokens_l2": [
+        "Čo tu robíš?",
+        "Bývaš",
+        "tu?"
+      ]
+    }
+  ]
+}
