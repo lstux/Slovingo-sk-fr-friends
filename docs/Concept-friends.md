@@ -1383,16 +1383,16 @@ Chaque question a une **proposition** de ma part. Si elle te va, écris simpleme
 
 **Q1 ✅ (à confirmer) — Écart de temps et âges.** Réglée en gros (5 oct.) : le renard a **15 ans** (10 dans Kids), donc ≈ 5 ans d'écart ; en déduction Andrea 16, Maťo 14, Katka 13 (à confirmer). Texte d'origine : Le brouillon dit « dix ans plus tard » **et** « ados de 12–16 ans », ce qui est incompatible avec Kids (Andrea 11, renard 10, Maťo 9, Katka 8 : dix ans plus tard, ils ont 18 à 21 ans).
 *Proposition : environ **5 ans**. Andrea 16, renard 15, Maťo 14, Katka 13. Ça colle avec le public (l'enfant qui a fait Kids à 10 ans fait Friends à 14–15 ans), ça rend le gag de « la petite Katka » plus drôle, et ça permet d'avoir un décor de lycée ou d'internat à Košice plutôt qu'un marché de l'emploi.*
-Réponse :
+Réponse : OK
 
 **Q2 ✅ — Débutants ou continuité ?** Réglée (5 oct.) : on **suppose Kids fait**, mais possiblement **il y a longtemps**. Le début du récit comporte donc un **condensé de remise en place et de rappels**, qui colle avec l'histoire : Gab parlait pas trop mal, mais en débarquant à Košice quelques années plus tard, il faut qu'il se remette en jambes.
 - Reste à voir : cette remise à niveau est-elle **intégrée au chapitre 1** (fiches 01 à 04 qui rappellent les bases de Kids : salutations, se présenter, la famille, les nombres…) ou fait-elle l'objet d'un **court chapitre 0** ?
 *Proposition : intégrée au chapitre 1, en quatre fiches qui reprennent l'essentiel de Kids dans le contexte des retrouvailles ; pas de Kit de Survie séparé.*
-Réponse :
+Réponse : OK
 
 **Q3 — Nom du cours et de l'app.** « Cours ados » (titre), « Slovingo Teens » (§28 du brouillon), repo `Slovingo-sk-fr-friends`. Et l'app : Kids s'appelle Zajka, d'après le petit nom d'Andrea.
 *Proposition : « Slovingo Friends » partout dans la doc. Pour l'app, un nom slovaque, comme Zajka, qui évoque le renard ou le voyage. Et un `code de langue` (`sk-fr-friends`), `storage_prefix` et `url_path` dans `lang.json` sur le modèle de Kids.*
-Réponse :
+Réponse : Zajka Friends pour le titre et l'app
 
 ## B. Le renard
 
@@ -1401,89 +1401,88 @@ Réponse :
 **Q5 ✅ — Quel genre pour le renard ?** Réglée (5 oct.) : **garçon**. Formes masculines en slovaque pour lui, féminines pour Andrea. Le prénom que l'élève saisit ne change pas le genre du personnage.
 
 **Q6 ✅ — Âge du renard.** Réglée : 15 ans. Texte d'origine : Kids le fait dire « Mám desať rokov ». Si Q1 = 5 ans, il a 15 ans. À confirmer avec Q1.
-Réponse :
+Réponse : oui 15 ans
 
 ## C. Personnages
 
 **Q7 — Maťo.** Absent du brouillon, présent dans Kids (ours, frère de Katka, 9 ans). Dans le groupe, au village avec Babka Zuzana, ou autre ?
 *Proposition : il reste au village des Tatras avec Babka Zuzana et n'apparaît qu'aux épisodes du village d'enfance (série 05), avec un rôle qui lui est propre.*
-Réponse :
+Réponse : On le prend dans la bande, lui était resté au village d'enfance, on le retrouve sur la route. Sa petite soeur Katka viendra aussi avec nous.
 
 **Q8 — Ján.** Nouveau personnage : rencontré à Košice, ou membre de la bande en Kids ? Animal : 🐿️ écureuil (libre)? Lien avec la mine (écureuils qui partent) ?
 *Proposition : rencontré à Košice, 🐿️ écureuil, la mine est pour lui une raison personnelle de voyager (sans qu'il devienne militant).*
-Réponse :
+Réponse : on ne le garde pas en personnage principal, on le croise dans les épisodes concernant les mines
 
 **Q9 — Marek.** Garde-t-on Marek ? Si oui : adulte ou jeune adulte, animal (🦡 ou 🐗), comment rejoint-il le groupe, et quelle fonction (travail, entreprise, ville) ?
 *Proposition : oui, 🦡 blaireau, adulte, rencontré à partir de la série 07 ou 08, travaille pour l'entreprise du datacenter ou de la mine, tiraillé.*
-Réponse :
+Réponse : Comme Jan, on le rencontre à l'occasion de la série sur le datacenter, il y travaille. Mais il ne rejoint pas la bande
 
 **Q10 ✅ — Andrea et Katka : lien de parenté.** Réglée (5 oct.) : Andrea est l'**amie** de l'apprenant et la **cousine** de Katka et Maťo. Rien à harmoniser.
 
 **Q11 — Pani Ježková (🦔) et Pán Orol (🦅).** Les deux sont vouvoyés dans Kids. Cameos ?
 *Proposition : oui, brièvement ; ils sont de bons supports pour le vy et pour des clins d'œil (le gardien du parc peut apparaître dans la série sécheresse).*
-Réponse :
+Réponse : Cameos why not, si ça ne tombe pas comme un cheveu sur la soupe :D
 
 **Q12 — Les humains.** Aucun humain dans Kids. Existent-ils depuis toujours « hors champ » ? Comment les représente-t-on (emoji, pas de tête d'animal) ? Sont-ils tous vouvoyés ? Sont-ils nombreux ou rares ?
 *Proposition : ils existaient hors champ (parc national, chemins, routes), apparaissent à partir de la série 02 avec un emoji humain, sont vouvoyés par les ados s'ils sont adultes. Seuls les animaux principaux ont un prénom, les humains sont désignés par leur fonction (*vodič*, *úradníčka*…).*
-Réponse :
+Réponse : OK, et les humais sont tous des adultes, il n'y a pas d'enfants humains dans notre histoire, les enfants sont des animaux
 
 ## D. Récit
 
 **Q13 ✅ (en grande partie réglée par l'histoire de Gab, §2) — Pourquoi se sont-ils perdus de vue, et pourquoi sont-ils à Košice ?** (questions du §27 : « Pourquoi le renard et Andrea se sont-ils réellement perdus de vue ? », « Pourquoi sont-ils tous les deux à Košice ? », « Que faisaient-ils avant ? »)
 *Proposition (si Q1 = 5 ans) : leurs familles ont quitté les Tatras à des moments différents, faute de travail ; Andrea est à Košice depuis deux ans (lycée), le renard vient d'arriver. Ils se croisent dans un couloir ou un tram.*
-Réponse :
+Réponse : OK, avec le tram
 
 **Q14 ✅ (en partie, §2) — Événement déclencheur du départ.** Quelle nouvelle situation les oblige à reprendre la route ?
 *Proposition : le seul point d'eau près de chez eux disparaît (le début de la série 02), ou le lycée ferme. À toi de voir ce qui est le plus fort.*
-Réponse :
+Réponse : le point d'eau qui disparait
 
 **Q15 (en partie réglée, §2) — Objectif initial, et ce que cherchent-ils à obtenir au château ?** (§17 dit « être entendus », mais par qui, pour dire quoi ?)
 *Proposition : un objectif de départ très concret (porter une lettre, retrouver quelqu'un, rapporter de l'eau) qui s'agrandit en cours de route ; au château, une audience ou une pétition, qui aboutit à « un petit changement » (§26).*
-Réponse :
+Réponse : Il me faut de l'aide sur cette réponse :D
 
 **Q16 — Ton : limites.** (« Jusqu'où aller dans l'humour noir ? dans la dystopie ? »)
 *Proposition (cohérente avec §21) : pas d'humour noir sur la mort, dystopie « douce » (le monde se dégrade sans que personne ne meure à l'écran), réalisme de la vie quotidienne, absurde dosé (la règle des animaux qui parlent suffit).*
-Réponse :
+Réponse : ok
 
 **Q17 — Faits réels et fiction.** Lithium à Banská Štiavnica (voir §0.1 n° 12), zone humide et datacenter : on garde les lieux réels, on invente des noms de sites et d'entreprises ?
 *Proposition : lieux réels pour les étapes (villes, parcs), **sites et entreprises fictifs** pour les catastrophes, et pour le lithium, on déplace ou on invente un lieu plausible (ou on met la mine dans le Gemer).*
-Réponse :
+Réponse : ok, et on vérifie les faits, si on peut faire coller à un cas réel documenté c'est encore mieux!
 
 **Q18 — Étapes et nombre de séries.** Étapes 08 et 10 (« région centrale ») : quels lieux ? Et 12 séries (72 fiches), est-ce l'objectif ou une borne haute ?
 *(Maj 5 oct. : le volume vise **12 séries**, voir §20 ; reste la liste des lieux.)*
 *Proposition : Zvolen ou Banská Bystrica pour la région centrale ; commencer par **les 4 premières séries** (Košice, sécheresse, Slovenský raj, Tatry) et écrire le reste ensuite, comme Kids l'a fait.*
-Réponse :
+Réponse : Nombres de séries il me semble qu'on était à 12 comme objectif, mais une 2 séries peuvent se dérouler au même endroit. En même temps ils traversent complètement la Slovaquie "à pied" ou comme ils peuvent (ce sont des animaux :P) ça peut prendre du temps !
 
 ## E. Pédagogie
 
 **Q19 — Grammaire par série.** Le tableau de la §18 te convient-il ? Niveau visé à la fin du cours (A2 ? B1 ?) ?
 *Proposition : valider le tableau comme point de départ, et viser **un bon A2** à la fin de la série 12.*
-Réponse :
+Réponse : ok
 
 **Q20 — Volume de vocabulaire.** Mots par fiche (Kids : 6–7 essentiels + 2–3 complémentaires ; ≈ 40 mots par série). La longueur des dialogues et le rôle de la 06 sont maintenant traités par Q28 et Q29.
 *Proposition : 9–10 essentiels + 3 complémentaires par fiche d'apprentissage.*
-Réponse :
+Réponse : ok
 
 **Q21 — Mots nouveaux dans un dialogue.** Kids : trois au maximum par dialogue. Ici, l'épisode se partage entre les fiches 05 et 06 (voir aussi Q29).
 *Proposition : 5 maximum par fiche de dialogue, toujours signalés.*
-Réponse :
+Réponse : ok
 
 **Q22 ✅ — L'histoire dès les fiches 01–04 ?** Réglée (5 oct.) : oui, avec des **micro-dialogues** (2 à 4 répliques) qui placent le contexte et l'action ; le vrai dialogue est en fiches 05 et 06 (§20).
 
 **Q23 ✅ — Clins d'œil à Kids.** Réglée (5 oct.) : Kids est supposé acquis ; **aucune explication** sur Kids, une allusion doit se comprendre seule (comme la règle « aucune référence entre séries »).
-Réponse :
 
 **Q24 — La carte.** Réutiliser la carte du moteur telle quelle ? Emojis par étape (liste du §4) : configurables dans `lang.json` ? Brouillard, validation, position du renard : le comportement du §4 (position = dernière fiche consultée) est-il celui voulu, ou celui de l'implémentation actuelle ?
 *Proposition : réutiliser la carte, et voir à l'usage ce qui manque.*
-Réponse :
+Réponse : oui on réutilise la carte du moteur telle quelle
 
 **Q25 — Illustrations.** Photos libres Wikimedia comme Kids (choisies une par une, avec crédits), ou illustrations dessinées des personnages (§23) ? Dans ce second cas, qui les produit, dans quel style, et comment fait-on évoluer le style de Kids à Friends ?
 *Proposition : photos libres pour les fiches (paysages, villes, animaux), et **un petit jeu d'illustrations de personnages** (6–8 images) réservées aux épisodes (fiches 05). On voit plus tard.*
-Réponse :
+Réponse : On voit plus tard, on prévoit juste une image Wikimedia comme dans kids pour l'instant
 
 **Q26 — Voix.** Maintenant que tout passe par des dialogues, les voix comptent plus. Un dialogue peut avoir une voix par personnage (réglage `character_headings`) ; le cours étant en français, l'en-tête de la liste des personnages est « Les personnages » (comme Kids). Voulez-vous des voix différentes pour Andrea, Gab, Ján… ? (Pour la voix du narrateur, voir Q36.)
 *Proposition : oui si le moteur le permet pour les voix slovaques disponibles (au moins une voix de garçon et une voix de fille) ; sinon une seule voix slovaque.*
-Réponse :
+Réponse : OK, oui si possible surtout...
 
 ## G. Nouvelles questions (suite aux décisions du 5 octobre)
 
@@ -1492,25 +1491,25 @@ Réponse :
 **Q28 ✅ — Longueur d'un chapitre.** Réglée (5 oct.) : **option A, des chapitres qui grossissent**, 12 séries, environ 9 000 à 10 000 mots au total (voir §20, « Volume cible » : 400–600 mots pour les chapitres 1 à 4, 700–900 pour 5 à 8, 900–1 100 pour 9 à 12). Les fiches 01 à 04 développent aussi l'histoire et la culture, les fiches 05 et 06 sont du pur dialogue avec voix de narrateur.
 - Reste à régler (au moment d'écrire `Format-friends.md`) : le nombre de répliques par fiche, avec comme repère Kids (17 à 22 répliques en 05).
 *Proposition : début de récit : micro-dialogues de 3 à 5 répliques en 01–04 et 15 à 20 répliques en 05 et 06 ; fin de récit : jusqu'à 8 répliques en 01–04 et 30 à 40 répliques en 05 et 06.*
-Réponse :
+Réponse : ok
 
 **Q29 — Mots nouveaux en fiche 06.** Dans Kids, la 06 n'introduit aucun mot nouveau (c'est la base des exercices). Ici elle prolonge l'épisode : peut-elle introduire des mots, et comment ?
 *Proposition : oui, quelques mots (3 maximum), **toujours signalés** (`+ Mot nouveau signalé : …`) et ajoutés au tableau récapitulatif de la fiche ; les exercices se limitent aux répliques sans mot nouveau.*
-Réponse :
+Réponse : ok
 
 **Q30 — Rappels entre chapitres.** *(Maj 5 oct. : la remise à niveau du chapitre 1, voir Q2, règle le démarrage ; la question vaut pour les chapitres suivants.)* Les chapitres se lisent à la suite, mais chacun doit rester compréhensible (le moteur ne force aucun ordre). Comment rappeler le chapitre précédent ?
 *Proposition : une ou deux répliques de rappel dans le premier micro-dialogue du chapitre (« Alors, on est où ? » / « Au bord du lac, comme hier. »), sans jamais écrire « chapitre précédent » ni renvoyer à une fiche.*
-Réponse :
+Réponse : ok
 
 **Q32 ✅ — Le secret d'Andrea.** Réglée (5 oct.) : elle a été **trahie par un renard inconnu**, qu'elle prenait pour un ami, et qui l'a entraînée dans un piège (elle a échappé de peu à finir « en lapin à la broche » avec ses autres amis renards). **Suggéré, jamais montré** ni raconté frontalement : ton léger, on le comprend entre les lignes. Elle était d'autant plus naïve qu'elle avait connu le gentil renard de Kids : elle avait oublié les recommandations de sa maman, ou les trouvait exagérées. D'où ses piques (« les renards, ça parle beaucoup », « je comprendrai jamais les renards »).
 - Le renard reste **vague et inconnu** : on ne le recroise pas nécessairement, et il n'est **pas le but du château**.
 - Reste à voir (pas urgent) : à quel point la vérité est dite à la fin (une phrase d'Andrea suffit-elle ?), et la maman d'Andrea apparaît-elle un jour (§12 / personnages) ?
-Réponse :
+Réponse : ok, pas de retour de la maman d'Andrea, comme on avait dit, la vérité à la fin n'est qu'une confirmation de ce qu'on avait un peu compris entre les lignes avec les indices semés par Andrea
 
 **Q33 — Gab / Gabo et les gags « à la française ».** Gab se présente-t-il comme *Gabo* dès le début, ou *Gab* et c'est Andrea qui le rebaptise ? Quels types de gags : prononciation, faux-amis, gestes, politesse (*tu/vy*) ? Fréquence souhaitée ?
 *Proposition : *Gab* d'abord, *Gabo* adopté au chapitre 1 par Andrea ; un gag par chapitre au maximum.*
 **Premier gag fourni par Eric (5 oct.)** : *Veľmi hovorím, som líškasky, komplikovaný…* puis correction d'Andrea (voir §26 bis) ✅. Le mot *líškasky* est volontairement **inventé** sur le modèle de *francúzsky*. Réglé le 5 oct. : la **pique est dans le dialogue précédent** (chapitre 1, Gab parle beaucoup), le **gag au chapitre 2**, et la correction mentionne **l'adjectif correct** (*líščí*, forme à vérifier).
-Réponse :
+Réponse : Gab reste le nom par défaut, l'utilisateur peut avoir choisi un autre nom, comme le sien
 
 **Q34 — La fin du livre.** Réglée en partie (5 oct.) : l'**épilogue** est le **rêve** de Gab (voir §26 ter). Il reste à décider ce qui se passe **au château de Bratislava** (pas d'idée pour l'instant) et la façon exacte dont le secret d'Andrea est confirmé à la fin.
 *Proposition : garder le château ouvert tant que les chapitres 1 à 6 ne sont pas écrits ; le laisser émerger des indices déjà semés.*
@@ -1518,7 +1517,7 @@ Réponse :
 
 **Q35 — Le temps limité sur la carte.** Faut-il montrer le temps qui passe (billet de retour, compte à rebours, jours restants) sur la carte du moteur, ou le garder uniquement dans les dialogues ?
 *Proposition : dans les dialogues seulement au début ; on voit pour la carte avec le moteur (voir §4).*
-Réponse :
+Réponse : dialogues seulement
 
 **Q36 — La voix du narrateur.** Dans les fiches 05 et 06 (et un peu dans les fiches 01 à 04), une voix narrative en slovaque entre les répliques (§20). Comment la formater et la dire ?
 - **Format SMD** : une ligne en `{{ }}` avant chaque morceau de dialogue ? Avec ou sans traduction française ?
@@ -1526,11 +1525,11 @@ Réponse :
 - **Voix** : une voix dédiée (différente des personnages), si le moteur le permet (voir Q26) ?
 - **Mots nouveaux** : la narration compte dans la limite de mots nouveaux (Q21).
 *Proposition : lignes `{{ }}` brèves, au présent, avec une traduction française discrète ; une voix dédiée si possible, sinon la voix neutre habituelle.*
-Réponse :
+Réponse : Ah ou sinon intégrée dans le dialogue comme un personnage "spécial" qui a une icone de bulle de bd plutôt! Ca laisse la place pour la traduction/explications bien mieux que des {{}}
 
 **Q31 — Tâches moteur (Slovingo).** Pour pouvoir jouer le renard **ou** la hase, il faut au moins : (a) **deux champs de prénom** avec valeur par défaut (renard : Gab, avec le diminutif **Gabo** comme second marqueur, ou le prénom choisi ; hase : Andrea) à la place du seul `[USER_NAME]` ; (b) un **choix du personnage** joué ; (c) rien à faire sur les genres (fixés par personnage). Point d'attention : un prénom saisi ne se décline pas (voir §7).
 *Proposition : traiter ces tâches **après** l'écriture des 2 ou 3 premiers chapitres, en attendant on écrit avec les noms par défaut en dur et on remplace plus tard par des marqueurs.*
-Réponse :
+Réponse : Pour l'instant Andrea reste fixe en dur, et Gab en [USER_NAME], cette version beta n'est que pour les garçons :D
 
 ---
 
