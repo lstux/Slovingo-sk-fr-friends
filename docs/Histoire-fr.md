@@ -973,7 +973,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 💬 Un moment plus tard, tout le monde est assis devant la soupe. Dehors, il pleut.
 
-🐹 Un mois de sécheresse. Et ensuite ça. Mais qu'est-ce qui arrive à ce monde ?
+🐹 Deux mois de sécheresse. Et ensuite ça. Mais qu'est-ce qui arrive à ce monde ?
 
 🐻 Je ne sais pas. Mais quelqu'un devrait le dire.
 
@@ -1155,7 +1155,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🦊 Mal ? Qu'est-ce qui est mal ?
 
-🐹 Ils disent « situation exceptionnelle ». Et ils ne disent pas qu'il y a un mois, c'était la sécheresse. Et que l'eau avait disparu.
+🐹 Ils disent « situation exceptionnelle ». Et ils ne disent pas qu'il n'a pas plu pendant deux mois. Et que l'eau avait disparu.
 
 🐰 Ils ne disent pas pourquoi.
 

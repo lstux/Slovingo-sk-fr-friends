@@ -987,7 +987,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 💬 Po chvíli sedia všetci pri polievke. Vonku prší.
 
-🐹 Mesiac sucho. A potom toto. Čo sa to s tým svetom deje?
+🐹 Dva mesiace sucho. A potom toto. Čo sa to s tým svetom deje?
 
 🐻 Neviem. Ale niekto by to mal povedať.
 
@@ -1169,7 +1169,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🦊 Zle? Čo je zle?
 
-🐹 Hovoria „mimoriadna situácia“. A nehovoria, že pred mesiacom bolo sucho. A že zmizla voda.
+🐹 Hovoria „mimoriadna situácia“. A nehovoria, že dva mesiace nepršalo. A že zmizla voda.
 
 🐰 Nehovoria, prečo.
 
