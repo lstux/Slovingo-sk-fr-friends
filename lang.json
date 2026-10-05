@@ -41,7 +41,18 @@
   },
   "subgroups": {
     "kosice": "Košice",
-    "sucho": "Sucho"
+    "sucho": "Sucho",
+    "raj": "Raj",
+    "burka": "Burka",
+    "domov": "Domov",
+    "povoden": "Povodeň",
+    "cesta": "Cesta",
+    "datacentrum": "Datacentrum",
+    "bana": "Bana",
+    "rozhodnutie": "Rozhodnutie",
+    "bratislava": "Bratislava",
+    "hrad": "Hrad",
+    "sen": "Sen"
   },
   "ui": {
     "home": "Accueil",
@@ -200,6 +211,34 @@
   },
   "subgroup_themes": {
     "kosice": "city",
-    "sucho": "default"
+    "sucho": "default",
+    "raj": "default",
+    "burka": "default",
+    "domov": "default",
+    "povoden": "default",
+    "cesta": "default",
+    "datacentrum": "default",
+    "bana": "default",
+    "rozhodnutie": "default",
+    "bratislava": "city",
+    "hrad": "city",
+    "sen": "default"
+  },
+  "map": {
+    "icons": {
+      "kosice": "🚋",
+      "sucho": "💧",
+      "raj": "🏞️",
+      "burka": "⛈️",
+      "domov": "🏡",
+      "povoden": "🌊",
+      "cesta": "🛣️",
+      "datacentrum": "🖥️",
+      "bana": "⛏️",
+      "rozhodnutie": "⚖️",
+      "bratislava": "🏙️",
+      "hrad": "📺",
+      "sen": "💤"
+    }
   }
 }
