@@ -1,6 +1,6 @@
 # Slovingo Friends — Concept du cours « ados »
 
-*Version 0.4, 5 octobre 2026. Reprise du brouillon d'Eric (v0.1), corrigée et complétée après lecture du cours [Slovingo-sk-fr-kids](https://github.com/lstux/Slovingo-sk-fr-kids) (repo `kids`, app **Zajka**) et de la documentation du moteur [Slovingo](https://github.com/lstux/Slovingo). La v0.4 intègre les décisions d'Eric du 5 octobre (section 0.0), dont l'histoire de Gab.*
+*Version 0.5, 5 octobre 2026. Reprise du brouillon d'Eric (v0.1), corrigée et complétée après lecture du cours [Slovingo-sk-fr-kids](https://github.com/lstux/Slovingo-sk-fr-kids) (repo `kids`, app **Zajka**) et de la documentation du moteur [Slovingo](https://github.com/lstux/Slovingo). La v0.5 intègre les décisions d'Eric du 5 octobre (section 0.0), dont l'histoire de Gab, le secret d'Andrea, la longueur du récit et l'épilogue-rêve.*
 
 **Comment lire ce document** : les sections 1 à 28 reprennent le brouillon, corrigé. La section 0 liste ce qui a changé et pourquoi. La section 29 rassemble ce qu'il reste à décider : chaque question a une **proposition** de ma part, il suffit d'écrire la réponse sous « Réponse : ». Les questions déjà tranchées sont marquées ✅.
 
@@ -53,6 +53,12 @@
 - §29 : questions restantes, avec propositions.
 
 ## 0.4 Mises à jour de la v0.3 (décisions du 5 octobre)
+
+**v0.5 (suite des décisions du 5 octobre) :**
+- §20 : les fiches 01–04 font aussi avancer l'histoire (contexte, culture, petites scènes) ; les fiches 05 et 06 sont du « pur dialogue » avec une **voix de narrateur en slovaque** entre les répliques ; nouveau paragraphe **volume cible**.
+- §8, §26 bis, Q32 : secret d'Andrea précisé (un renard inconnu, un piège, **suggéré** ; pas de maman ; révélation par accumulation d'indices, la fin n'est qu'une confirmation ; ce renard n'est pas le but du château).
+- **§26 ter (nouveau)** : épilogue-rêve (Gab se réveille le lendemain des retrouvailles).
+- §29 : Q2 ✅ (Kids acquis, remise à niveau au début), Q23 ✅, Q28 ✅ (option A : chapitres qui grossissent, 12 séries, ≈ 9 000–10 000 mots), Q34 réglée pour l'épilogue (la fin au château reste ouverte), Q30 et Q18 ajustées ; **nouvelle question Q36** (voix du narrateur).
 
 **v0.4 (suite des décisions du 5 octobre) :**
 - §2, §7 : le renard s'appelle **Gab** (**Gabo** pour les Slovaques) ; c'est le renard de Kids, un Français de Lyon qui a appris un minimum de slovaque et revient à Košice à 15 ans, seul (l'absurde est assumé).
@@ -924,6 +930,8 @@ Apprentissage structuré, comme avant :
 
 La différence : à la place des phrases isolées, ce sont des **micro-dialogues** (2 à 4 répliques) qui placent le **contexte** et l'**action** du chapitre. Les quatre fiches d'apprentissage font ainsi avancer l'histoire par petites touches, et préparent l'épisode des fiches 05 et 06.
 
+Ces fiches ne sont pas qu'un support de vocabulaire : elles **développent aussi l'histoire** et le **contexte culturel** (le lieu, la ville, une coutume, un détail du pays) à travers de petites scènes, avec parfois quelques lignes de narration (voir plus bas).
+
 > *Différence avec Kids (et avec le cours adulte) : leurs fiches 01 à 04 n'ont « pas de mise en scène, pas de personnages, pas d'histoire », et seule la fiche 05 raconte. C'est ici un choix volontaire (✅ Q22).*
 
 ## Fiches 05 et 06 : l'épisode
@@ -942,6 +950,24 @@ C'est le moment où l'apprenant comprend :
 Chaque chapitre doit pouvoir se lire d'un trait en enchaînant les micro-dialogues des fiches 01 à 04 puis les fiches 05 et 06.
 
 > *Dans Kids, la fiche 06 était un tableau de **tout** le vocabulaire (aucun mot nouveau), puis 3 ou 4 mini-dialogues pour recombiner, la base des exercices écrits à la main. Friends garde l'idée du tableau récapitulatif, mais la 06 devient aussi la suite de l'épisode. Reste à décider si elle peut introduire des mots nouveaux (Q29), et quelle longueur donner à un chapitre (Q28).*
+
+## La voix du narrateur
+
+Les fiches 05 et 06 sont du « pur dialogue », mais avec une **voix narrative en slovaque** : de courtes phrases en `{{ }}` entre les morceaux de dialogue, pour situer l'action (les personnages se mettent en route, qui parle, ce qui se passe) avant la réplique suivante. Exemple de principe : une ligne de narration du type *Andrea ide vpredu a hovorí:* (à faire relire), puis la réplique d'Andrea.
+
+Règles proposées (voir Q36) :
+- phrases **très courtes**, au **présent narratif** tant que le passé n'est pas introduit (voir §18) ;
+- le vocabulaire de la narration obéit aux mêmes règles que celui des dialogues (pas de mot nouveau non signalé, Q21) ;
+- la narration reste **brève** : l'essentiel de l'épisode est dans les répliques ;
+- elle peut aussi apparaître, en plus petit, dans les fiches 01 à 04.
+
+## Volume cible (décidé le 5 octobre : option A)
+
+- **12 séries** (= 12 chapitres), soit à la fin **environ 9 000 à 10 000 mots slovaques** de dialogues et de narration, l'équivalent d'un **demi-roman** de la Bibliothèque rose ou verte. Estimation : un *Club des Cinq* ou un *Six compagnons* fait à peu près 40 000 à 50 000 mots, dont la moitié de dialogues.
+- **Les chapitres grossissent avec l'apprenant** : environ **400 à 600 mots** pour les chapitres 1 à 4, **700 à 900** pour les chapitres 5 à 8, **900 à 1 100** pour les chapitres 9 à 12 (moyenne ≈ 800).
+- À titre de comparaison, dans Kids : environ 190 mots de dialogue par série (fiches 05 et 06 : 65 à 105 mots chacune).
+- Répartition indicative dans un chapitre : environ 40 % dans les fiches 01–04 (micro-dialogues, petites scènes), 60 % dans les fiches 05 et 06.
+- Les explications en français (grammaire, culture) ne comptent pas dans ce volume.
 
 ## Conséquences à anticiper
 
@@ -1260,6 +1286,24 @@ Dans Kids, le renard est un enfant en vacances, nouveau venu de la montagne. Dan
 
 ---
 
+# 26 ter. Épilogue : le rêve
+
+**Idée (5 oct.)** : à la fin, Gab se réveille et se rend compte qu'il n'est encore qu'au **lendemain des retrouvailles avec Andrea**. Toute l'aventure était un **rêve**. Il retrouve Andrea et lui raconte qu'il a fait « un rêve bizarre ». L'histoire peut s'arrêter là.
+
+Pourquoi ça marche :
+- ça **explique l'absurde** (animaux qui parlent, ado de 15 ans seul en voyage, catastrophes) sans avoir à le justifier ;
+- le fil rouge du **temps limité** reste vrai au réveil : Gab a toujours peur de la perdre, Andrea répond toujours « pour l'instant t'es là, on verra bien ». Le rêve ne l'annule pas, il le reflète ;
+- la **carte** se boucle sur Košice, là où tout a commencé ;
+- **pédagogie** : raconter son rêve est un bon moment pour le **passé** (*Mal som čudný sen*, *Snívalo sa mi…*) et pour tout récapituler (à faire relire).
+
+À prévoir :
+- **Planter le rêve dès le chapitre 1** : il s'endort à la fin du chapitre 1 (un simple *Dobrú noc*), sans le souligner.
+- **Éviter le « tout ça pour ça »** : on garde ce qui est vrai (l'amitié, la peur de se perdre), et on assume le clin d'œil.
+- **Le secret d'Andrea** : il peut servir de confirmation dans l'épilogue (idée à discuter) : quand Gab raconte son rêve, Andrea devient silencieuse, car il a « rêvé » les indices sur sa trahison. Pas de grande explication, une simple confirmation (voir Q32).
+- Le **château** (la fin du voyage) reste à inventer (Q15, Q34) : le rêve ne dit pas ce qui s'y passe.
+
+---
+
 # 27. Questions du brouillon qui trouvent leur réponse dans Kids
 
 Ces questions du §27 de la v0.1 sont **résolues** :
@@ -1308,8 +1352,9 @@ Chaque question a une **proposition** de ma part. Si elle te va, écris simpleme
 *Proposition : environ **5 ans**. Andrea 16, renard 15, Maťo 14, Katka 13. Ça colle avec le public (l'enfant qui a fait Kids à 10 ans fait Friends à 14–15 ans), ça rend le gag de « la petite Katka » plus drôle, et ça permet d'avoir un décor de lycée ou d'internat à Košice plutôt qu'un marché de l'emploi.*
 Réponse :
 
-**Q2 🔴 — Débutants ou continuité ?** *(Nouveau : Gab se débrouille déjà en slovaque ; Friends démarre donc au-dessus du débutant complet. Une courte remise à niveau au chapitre 1 est possible.)* Friends suppose-t-il Kids acquis (niveau A1 terminé) ou doit-il accueillir des ados qui n'ont jamais fait de slovaque ? « Sans avoir suivi Kids pour comprendre l'histoire » (§22) ne dit rien du niveau de langue.
-*Proposition : Friends **accueille des débutants**, avec un court Kit de Survie ado (3–4 fiches : salutations, politesse, se présenter, dire qu'on ne comprend pas) et une série 01 qui ne suppose rien. Les connaisseurs de Kids avancent plus vite, c'est tout.*
+**Q2 ✅ — Débutants ou continuité ?** Réglée (5 oct.) : on **suppose Kids fait**, mais possiblement **il y a longtemps**. Le début du récit comporte donc un **condensé de remise en place et de rappels**, qui colle avec l'histoire : Gab parlait pas trop mal, mais en débarquant à Košice quelques années plus tard, il faut qu'il se remette en jambes.
+- Reste à voir : cette remise à niveau est-elle **intégrée au chapitre 1** (fiches 01 à 04 qui rappellent les bases de Kids : salutations, se présenter, la famille, les nombres…) ou fait-elle l'objet d'un **court chapitre 0** ?
+*Proposition : intégrée au chapitre 1, en quatre fiches qui reprennent l'essentiel de Kids dans le contexte des retrouvailles ; pas de Kit de Survie séparé.*
 Réponse :
 
 **Q3 — Nom du cours et de l'app.** « Cours ados » (titre), « Slovingo Teens » (§28 du brouillon), repo `Slovingo-sk-fr-friends`. Et l'app : Kids s'appelle Zajka, d'après le petit nom d'Andrea.
@@ -1372,6 +1417,7 @@ Réponse :
 Réponse :
 
 **Q18 — Étapes et nombre de séries.** Étapes 08 et 10 (« région centrale ») : quels lieux ? Et 12 séries (72 fiches), est-ce l'objectif ou une borne haute ?
+*(Maj 5 oct. : le volume vise **12 séries**, voir §20 ; reste la liste des lieux.)*
 *Proposition : Zvolen ou Banská Bystrica pour la région centrale ; commencer par **les 4 premières séries** (Košice, sécheresse, Slovenský raj, Tatry) et écrire le reste ensuite, comme Kids l'a fait.*
 Réponse :
 
@@ -1391,11 +1437,8 @@ Réponse :
 
 **Q22 ✅ — L'histoire dès les fiches 01–04 ?** Réglée (5 oct.) : oui, avec des **micro-dialogues** (2 à 4 répliques) qui placent le contexte et l'action ; le vrai dialogue est en fiches 05 et 06 (§20).
 
-**Q23 — Clins d'œil à Kids.** Combien d'explications données à l'apprenant qui n'a pas fait Kids ?
-*Proposition : aucune explication ; une allusion doit se comprendre seule (comme la règle « aucune référence entre séries »).*
+**Q23 ✅ — Clins d'œil à Kids.** Réglée (5 oct.) : Kids est supposé acquis ; **aucune explication** sur Kids, une allusion doit se comprendre seule (comme la règle « aucune référence entre séries »).
 Réponse :
-
-## F. Technique et production
 
 **Q24 — La carte.** Réutiliser la carte du moteur telle quelle ? Emojis par étape (liste du §4) : configurables dans `lang.json` ? Brouillard, validation, position du renard : le comportement du §4 (position = dernière fiche consultée) est-il celui voulu, ou celui de l'implémentation actuelle ?
 *Proposition : réutiliser la carte, et voir à l'usage ce qui manque.*
@@ -1405,7 +1448,7 @@ Réponse :
 *Proposition : photos libres pour les fiches (paysages, villes, animaux), et **un petit jeu d'illustrations de personnages** (6–8 images) réservées aux épisodes (fiches 05). On voit plus tard.*
 Réponse :
 
-**Q26 — Voix.** Maintenant que tout passe par des dialogues, les voix comptent plus. Un dialogue peut avoir une voix par personnage (réglage `character_headings`) ; le cours étant en français, l'en-tête de la liste des personnages est « Les personnages » (comme Kids). Voulez-vous des voix différentes pour Andrea, Matej, Ján… ?
+**Q26 — Voix.** Maintenant que tout passe par des dialogues, les voix comptent plus. Un dialogue peut avoir une voix par personnage (réglage `character_headings`) ; le cours étant en français, l'en-tête de la liste des personnages est « Les personnages » (comme Kids). Voulez-vous des voix différentes pour Andrea, Gab, Ján… ? (Pour la voix du narrateur, voir Q36.)
 *Proposition : oui si le moteur le permet pour les voix slovaques disponibles (au moins une voix de garçon et une voix de fille) ; sinon une seule voix slovaque.*
 Réponse :
 
@@ -1413,15 +1456,16 @@ Réponse :
 
 **Q27 ✅ — Le nom du renard.** Réglée (5 oct.) : le renard s'appelle **Gab**, que les Slovaques appellent **Gabo** (diminutif slovaque de Gabriel). *Matej* est abandonné (trop proche de *Maťo*).
 
-**Q28 — Longueur d'un chapitre.** Combien de répliques pour les micro-dialogues (fiches 01 à 04) et pour l'épisode (fiches 05 et 06) ? Kids : 10–15 répliques en 05 ; la scène de référence en compte 24, très courtes.
-*Proposition : micro-dialogues de 2 à 4 répliques (3 ou 4 par fiche) ; épisode de 15–20 répliques en 05 et de 20–30 en 06 ; un chapitre complet fait ainsi environ 60 à 80 répliques.*
+**Q28 ✅ — Longueur d'un chapitre.** Réglée (5 oct.) : **option A, des chapitres qui grossissent**, 12 séries, environ 9 000 à 10 000 mots au total (voir §20, « Volume cible » : 400–600 mots pour les chapitres 1 à 4, 700–900 pour 5 à 8, 900–1 100 pour 9 à 12). Les fiches 01 à 04 développent aussi l'histoire et la culture, les fiches 05 et 06 sont du pur dialogue avec voix de narrateur.
+- Reste à régler (au moment d'écrire `Format-friends.md`) : le nombre de répliques par fiche, avec comme repère Kids (17 à 22 répliques en 05).
+*Proposition : début de récit : micro-dialogues de 3 à 5 répliques en 01–04 et 15 à 20 répliques en 05 et 06 ; fin de récit : jusqu'à 8 répliques en 01–04 et 30 à 40 répliques en 05 et 06.*
 Réponse :
 
 **Q29 — Mots nouveaux en fiche 06.** Dans Kids, la 06 n'introduit aucun mot nouveau (c'est la base des exercices). Ici elle prolonge l'épisode : peut-elle introduire des mots, et comment ?
 *Proposition : oui, quelques mots (3 maximum), **toujours signalés** (`+ Mot nouveau signalé : …`) et ajoutés au tableau récapitulatif de la fiche ; les exercices se limitent aux répliques sans mot nouveau.*
 Réponse :
 
-**Q30 — Rappels entre chapitres.** Les chapitres se lisent à la suite, mais chacun doit rester compréhensible (le moteur ne force aucun ordre). Comment rappeler le chapitre précédent ?
+**Q30 — Rappels entre chapitres.** *(Maj 5 oct. : la remise à niveau du chapitre 1, voir Q2, règle le démarrage ; la question vaut pour les chapitres suivants.)* Les chapitres se lisent à la suite, mais chacun doit rester compréhensible (le moteur ne force aucun ordre). Comment rappeler le chapitre précédent ?
 *Proposition : une ou deux répliques de rappel dans le premier micro-dialogue du chapitre (« Alors, on est où ? » / « Au bord du lac, comme hier. »), sans jamais écrire « chapitre précédent » ni renvoyer à une fiche.*
 Réponse :
 
@@ -1434,12 +1478,20 @@ Réponse :
 *Proposition : *Gab* d'abord, *Gabo* adopté au chapitre 1 par Andrea ; un gag par chapitre au maximum.*
 Réponse :
 
-**Q34 — La fin du livre.** Gab rentre-t-il à Lyon ? Reste-t-il ? Fin ouverte ? Et le secret d'Andrea y est-il révélé ?
-*Proposition : décider plus tard, mais garder le choix ouvert tant que les chapitres 1 à 6 ne sont pas écrits.*
+**Q34 — La fin du livre.** Réglée en partie (5 oct.) : l'**épilogue** est le **rêve** de Gab (voir §26 ter). Il reste à décider ce qui se passe **au château de Bratislava** (pas d'idée pour l'instant) et la façon exacte dont le secret d'Andrea est confirmé à la fin.
+*Proposition : garder le château ouvert tant que les chapitres 1 à 6 ne sont pas écrits ; le laisser émerger des indices déjà semés.*
 Réponse :
 
 **Q35 — Le temps limité sur la carte.** Faut-il montrer le temps qui passe (billet de retour, compte à rebours, jours restants) sur la carte du moteur, ou le garder uniquement dans les dialogues ?
 *Proposition : dans les dialogues seulement au début ; on voit pour la carte avec le moteur (voir §4).*
+Réponse :
+
+**Q36 — La voix du narrateur.** Dans les fiches 05 et 06 (et un peu dans les fiches 01 à 04), une voix narrative en slovaque entre les répliques (§20). Comment la formater et la dire ?
+- **Format SMD** : une ligne en `{{ }}` avant chaque morceau de dialogue ? Avec ou sans traduction française ?
+- **Temps** : présent narratif tant que le passé n'est pas vu ?
+- **Voix** : une voix dédiée (différente des personnages), si le moteur le permet (voir Q26) ?
+- **Mots nouveaux** : la narration compte dans la limite de mots nouveaux (Q21).
+*Proposition : lignes `{{ }}` brèves, au présent, avec une traduction française discrète ; une voix dédiée si possible, sinon la voix neutre habituelle.*
 Réponse :
 
 **Q31 — Tâches moteur (Slovingo).** Pour pouvoir jouer le renard **ou** la hase, il faut au moins : (a) **deux champs de prénom** avec valeur par défaut (renard : Gab, avec le diminutif **Gabo** comme second marqueur, ou le prénom choisi ; hase : Andrea) à la place du seul `[USER_NAME]` ; (b) un **choix du personnage** joué ; (c) rien à faire sur les genres (fixés par personnage). Point d'attention : un prénom saisi ne se décline pas (voir §7).
@@ -1450,8 +1502,8 @@ Réponse :
 
 ## Prochaines étapes (à discuter après tes réponses)
 
-1. Répondre aux questions restantes : surtout Q2 (niveau de départ, maintenant que Gab se débrouille déjà), Q28 (longueur d'un chapitre), Q32 (secret d'Andrea) et Q34 (fin du livre).
-2. Mettre ce document à jour (v0.5) avec tes réponses.
+1. Répondre aux questions restantes : surtout Q3 (nom du cours), Q12 (les humains), Q15 (le château), Q36 (voix du narrateur) ; les autres ont une « Proposition » à valider d'un mot.
+2. Mettre ce document à jour (v0.6) avec tes réponses.
 3. Écrire `docs/Format-friends.md` (reprise de `Format-enfants.md` avec les écarts de cette page : micro-dialogues, 06 = suite de l'épisode, prénom par défaut) et `docs/Progression-friends.md` (vocabulaire et grammaire par série).
 4. Créer `lang.json` du cours et la structure `md/`, `exercises/`, `img/`.
 5. Écrire le **chapitre 1** (série 01) en entier, relire, puis décider du rythme pour la suite.
