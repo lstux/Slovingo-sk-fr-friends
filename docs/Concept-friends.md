@@ -56,7 +56,7 @@
 
 **v0.5 (suite des décisions du 5 octobre) :**
 - §20 : les fiches 01–04 font aussi avancer l'histoire (contexte, culture, petites scènes) ; les fiches 05 et 06 sont du « pur dialogue » avec une **voix de narrateur en slovaque** entre les répliques ; nouveau paragraphe **volume cible**.
-- §26 bis : **gag modèle** « Veľmi hovorím, som francúzsky, komplikovaný… » et la correction d'Andrea (Q33 ajustée).
+- §26 bis : **gag modèle** « Veľmi hovorím, som líškasky, komplikovaný… » (mot inventé) et la correction d'Andrea ; escalade des piques ; Q33 ajustée.
 - §8, §26 bis, Q32 : secret d'Andrea précisé (un renard inconnu, un piège, **suggéré** ; pas de maman ; révélation par accumulation d'indices, la fin n'est qu'une confirmation ; ce renard n'est pas le but du château).
 - **§26 ter (nouveau)** : épilogue-rêve (Gab se réveille le lendemain des retrouvailles).
 - §29 : Q2 ✅ (Kids acquis, remise à niveau au début), Q23 ✅, Q28 ✅ (option A : chapitres qui grossissent, 12 séries, ≈ 9 000–10 000 mots), Q34 réglée pour l'épilogue (la fin au château reste ouverte), Q30 et Q18 ajustées ; **nouvelle question Q36** (voix du narrateur).
@@ -1264,7 +1264,7 @@ Deux fils courent sur toute l'histoire. Ils se nourrissent des dialogues (pas de
 
 - Gab ne sait rien de ce qu'Andrea a vécu entre les vacances de Kids et leurs retrouvailles à Košice. Elle reste évasive (« Longue histoire. », « Plus tard. »).
 - **Le secret (retenu le 5 octobre) : Andrea a été trahie par un renard inconnu**, qu'elle prenait pour un ami et qui l'a attirée dans un piège (suggéré, pas raconté). Il n'est pas forcément recroisé et n'est **pas le but du château**. Elle se méfie depuis des renards (et des prédateurs en général), sauf de Gab, qu'elle connaît d'avant.
-- Cela se voit dans des **piques récurrentes**, drôles tant qu'on ignore la cause : *Líšky veľa rozprávajú.* (« Les renards, ça parle beaucoup. »), *Líšky nikdy nepochopím.* (« Je ne comprendrai jamais les renards. »). Gab encaisse en riant, et elle le « teste » de temps en temps.
+- Cela se voit dans des **piques récurrentes**, d'abord gentilles (extraterrestres, compliqués), puis plus violentes au fil des chapitres, drôles tant qu'on ignore la cause : *Líšky veľa rozprávajú.* (« Les renards, ça parle beaucoup. »), *Líšky nikdy nepochopím.* (« Je ne comprendrai jamais les renards. »). Gab encaisse en riant, et elle le « teste » de temps en temps.
 - **Indices semés** : chapitres 1 à 4 : seulement les piques ; milieu du récit : une phrase coupée, un rappel de sa maman (« maman disait… ») ; fin : la révélation (qui, quand, pourquoi). Le secret n'est révélé qu'à la fin, et seulement si on décide de le révéler.
 - Le contraste avec Gab donne de la profondeur : lui a peur de la perdre, elle a peur d'être trahie à nouveau, donc se garde de s'attacher. Un renard (Gab) qui reste, c'est sa preuve.
 - Pédagogie : le passé est un bon terrain pour ce fil (« Qu'est-ce que tu as fait ? »), une fois le passé introduit (voir §18).
@@ -1281,25 +1281,30 @@ Deux fils courent sur toute l'histoire. Ils se nourrissent des dialogues (pas de
 
 Gab passe pour un Slovaque tant qu'on ne pousse pas la conversation. Quand il dit quelque chose « à la française » (calque du français, mauvaise prononciation, geste, faux-ami), Andrea le reprend. C'est un moyen naturel d'enseigner les pièges pour francophones (Q33).
 
-### Gag modèle : « Je parle beaucoup, je suis français, compliqué… »
+### Gag modèle : « Je parle beaucoup, je suis… renardesque, compliqué… »
 
-À placer **après** les piques d'Andrea (*Líšky veľa rozprávajú.* / *Líšky nikdy nepochopím.*). Gab, beau joueur, les reprend à son compte, pour rire de lui-même :
+À placer **tôt** (chapitre 1 ou 2, pendant la remise à niveau, §20), mais **après** la pique d'Andrea, qui doit donc être posée avant, dans le même dialogue ou juste avant : les renards parlent beaucoup, sont compliqués, des extraterrestres ! Une pique **gentille** à ce stade.
 
-- **Gab** : *Veľmi hovorím, som francúzsky, komplikovaný…* 😂 (version d'Eric ; la variante « renardsky » est à trancher, voir Q33)
+Gab, beau joueur, la reprend à son compte pour rire de lui-même :
+
+- **Gab** : *Veľmi hovorím, som líškasky, komplikovaný…* 😂
+  (*líškasky* est un mot **inventé** à partir de *líška*, sur le modèle de *francúzsky* : il n'y a pas de référence à la France dans la phrase, juste au fait qu'il est un renard.)
 - **Andrea** comprend l'idée, mais **explique pourquoi sa phrase est fausse**, avec un petit rire.
 
-Les deux erreurs sont des **erreurs typiques de francophones** :
-1. ***veľmi* ≠ *veľa*.** *Veľmi* = « très » (l'intensité : *veľmi pekne ďakujem*) ; *veľa* = « beaucoup » (la quantité : *veľa hovorím*). Le piège vient de « merci beaucoup », qui s'est appris avec *veľmi*. Andrea l'a **dit correctement** dans sa pique (*veľa rozprávajú*) : Gab la déforme donc en l'imitant.
-2. ***francúzsky* ≠ *Francúz*.** *francúzsky* est un adverbe ou un adjectif (*po francúzsky* = « en français ») ; pour dire qu'on **est** français, c'est le nom : *Som Francúz*. (Et *komplikovaný* est correct : l'accord masculin va bien.)
+Les deux erreurs sont typiques d'un francophone :
+1. ***veľmi* ≠ *veľa*.** *Veľmi* = « très » (l'intensité : *veľmi pekne ďakujem*) ; *veľa* = « beaucoup » (la quantité : *veľa hovorím*). Le piège vient de « merci beaucoup », qui s'est appris avec *veľmi*. Andrea a dit *veľa* correctement dans sa pique : Gab la déforme donc en l'imitant.
+2. ***líškasky* n'existe pas.** Il a fabriqué un mot sur le modèle de *po francúzsky* / *po slovensky* (la terminaison *-sky* sert aux langues et aux nationalités). Pour dire ce qu'on est, il faut un **nom** : *Som líška.* (*komplikovaný* est correct : l'accord masculin va bien.)
 
 Exemple de principe (slovaque **à faire relire**) :
 
-- **Andrea** : *Líšky veľa rozprávajú. A sú komplikované!*
-- **Gab** : *Veľmi hovorím, som francúzsky, komplikovaný…*
+- **Andrea** : *Líšky veľa rozprávajú. A sú komplikované ako mimozemšťania!*
+- **Gab** : *Veľmi hovorím, som líškasky, komplikovaný…*
 - **Andrea** : *Rozumiem, čo chceš povedať. Ale hovorí sa: „Veľa hovorím.“ „Veľmi“ je „très“.*
-- **Andrea** : *A „francúzsky“ nie je „Francúz“. Si Francúz. A líška!* (en plus, le mot *líška* garde le féminin, comme dans Kids, même pour Gab)
+- **Andrea** : *A „líškasky“ neexistuje! Si líška.* (le mot *líška* garde le féminin, comme dans Kids, même pour Gab)
 
-Pédagogie : ce gag fait travailler les deux points d'un coup, et il est **drôle même sans connaître la règle**. À placer tôt (chapitre 1 ou 2, pendant la remise à niveau, §20), puisque *Som Francúz*, *po francúzsky* et *veľmi* viennent de Kids.
+Pédagogie : le gag fait travailler *veľa* / *veľmi* et *som* + nom, et il est **drôle même sans connaître la règle**.
+
+**Escalade des piques.** Au début, la pique est **gentille** (extraterrestres, compliqués). Avec ses indices sur ce qui lui est arrivé (voir §8 et Q32), Andrea peut en balancer de **plus violentes** au fil des chapitres : le public rit d'abord, puis comprend. Le ton reste léger (§21).
 
 ## Contraste Kids → Friends
 
@@ -1497,10 +1502,10 @@ Réponse :
 
 **Q33 — Gab / Gabo et les gags « à la française ».** Gab se présente-t-il comme *Gabo* dès le début, ou *Gab* et c'est Andrea qui le rebaptise ? Quels types de gags : prononciation, faux-amis, gestes, politesse (*tu/vy*) ? Fréquence souhaitée ?
 *Proposition : *Gab* d'abord, *Gabo* adopté au chapitre 1 par Andrea ; un gag par chapitre au maximum.*
-**Premier gag fourni par Eric (5 oct.)** : *Veľmi hovorím, som francúzsky, komplikovaný…* puis correction d'Andrea (voir §26 bis). À trancher :
-- **« renardsky »** : Eric voulait « renardesque » plutôt que « français ». Gab dit-il un adjectif **correct** (*líščí*, forme à vérifier) ou un mot **inventé sur le modèle de *francúzsky*** (un « renardsky » que seul un Français inventerait) ? La 2e version est plus drôle, mais Andrea doit alors la corriger aussi.
-- **Orthographe** : le texte d'Eric disait *francúsky* (sans le *z*) : coquille, ou mauvaise prononciation voulue ? Dans le texte, j'ai mis *francúzsky*.
-- **Quand** : chapitre 1 ou 2 (remise à niveau) ?
+**Premier gag fourni par Eric (5 oct.)** : *Veľmi hovorím, som líškasky, komplikovaný…* puis correction d'Andrea (voir §26 bis) ✅. Le mot *líškasky* est volontairement **inventé** sur le modèle de *francúzsky*. À trancher :
+- **Où poser la pique** : dans le **même dialogue** que le gag (plus simple, la fiche reste autonome), ou dans la fiche précédente du chapitre ?
+- **Quelle correction** : faut-il aussi mentionner l'adjectif correct (*líščí*, forme à vérifier) ou seulement *Si líška* ?
+- **Quand** : chapitre 1 ou 2 ?
 Réponse :
 
 **Q34 — La fin du livre.** Réglée en partie (5 oct.) : l'**épilogue** est le **rêve** de Gab (voir §26 ter). Il reste à décider ce qui se passe **au château de Bratislava** (pas d'idée pour l'instant) et la façon exacte dont le secret d'Andrea est confirmé à la fin.
