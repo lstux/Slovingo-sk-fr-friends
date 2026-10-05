@@ -1,6 +1,6 @@
 # Slovingo Friends — Concept du cours « ados »
 
-*Version 0.3, 5 octobre 2026. Reprise du brouillon d'Eric (v0.1), corrigée et complétée après lecture du cours [Slovingo-sk-fr-kids](https://github.com/lstux/Slovingo-sk-fr-kids) (repo `kids`, app **Zajka**) et de la documentation du moteur [Slovingo](https://github.com/lstux/Slovingo). La v0.3 intègre les décisions d'Eric du 5 octobre (section 0.0).*
+*Version 0.4, 5 octobre 2026. Reprise du brouillon d'Eric (v0.1), corrigée et complétée après lecture du cours [Slovingo-sk-fr-kids](https://github.com/lstux/Slovingo-sk-fr-kids) (repo `kids`, app **Zajka**) et de la documentation du moteur [Slovingo](https://github.com/lstux/Slovingo). La v0.4 intègre les décisions d'Eric du 5 octobre (section 0.0), dont l'histoire de Gab.*
 
 **Comment lire ce document** : les sections 1 à 28 reprennent le brouillon, corrigé. La section 0 liste ce qui a changé et pourquoi. La section 29 rassemble ce qu'il reste à décider : chaque question a une **proposition** de ma part, il suffit d'écrire la réponse sous « Réponse : ». Les questions déjà tranchées sont marquées ✅.
 
@@ -12,9 +12,12 @@
 
 1. **Une vraie histoire.** Le cours se lit comme un récit : la « somme des dialogues », **une série = un chapitre**.
 2. **Que des dialogues.** Plus de phrases isolées. Les fiches 01 à 04 posent le vocabulaire comme avant, mais avec des **micro-dialogues** qui placent le contexte et l'action. Les fiches **05 et 06** portent le vrai dialogue de l'épisode. La fiche extra (06) laisse de la place pour **développer** l'épisode.
-3. **Personnages principaux** : 🐰 **Andrea la hase** et 🦊 **Matej le renard**. Le renard est **toi**, un **garçon**, avec un **nom slovaque par défaut**. À terme, le moteur Slovingo pourra proposer de jouer le renard **ou** la hase : concrètement, choisir le prénom de l'un des deux.
+3. **Personnages principaux** : 🐰 **Andrea la hase** et 🦊 **Gab le renard**. Le renard est **toi**, un **garçon**. À terme, le moteur Slovingo pourra proposer de jouer le renard **ou** la hase : concrètement, choisir le prénom de l'un des deux.
 4. **Andrea** est l'**amie** de l'apprenant **et** la **cousine** de Katka et Maťo. Il n'y a pas de contradiction avec Kids (j'avais signalé à tort un désaccord entre le README et `Progression-enfants.md`).
-5. **Prénom du renard : Matej** (provisoire : voir Q27, *Maťo* est le diminutif de *Matej*).
+5. **Le renard est un Français de Lyon, il s'appelle Gab, et les Slovaques l'appellent Gabo.** C'est bien le renard de Kids : il était venu passer de **longues vacances** dans les Tatras, avec un slovaque minimal. Il a dû **rentrer à Lyon**, a perdu de vue ses amis slovaques, mais a gardé un souvenir merveilleux de ces vacances. **Quelques années plus tard (il a 15 ans)**, il revient voir la région, et tombe **par hasard sur Andrea à Košice** : c'est le point de départ de l'aventure. Il voyage seul : **on assume l'absurde**.
+6. **Gab se débrouille en slovaque** : si on ne pousse pas trop la conversation, on le croit slovaque (« passer inaperçu »). Source de gags : il dit quelque chose « à la française » et Andrea le reprend.
+7. **Le mystère d'Andrea.** Gab ne sait rien de ce qui lui est arrivé entre les vacances et les retrouvailles, et Andrea reste très mystérieuse là-dessus. Elle est devenue **méfiante envers les prédateurs**, les renards en particulier (« toi, ça va, elle te connaît maintenant »). Si le secret est révélé, c'est **à la fin** ; pas d'idée concrète pour l'instant (Q32).
+8. **Deux fils rouges** : (a) Gab sait qu'il est là **pour un temps limité** et devra retourner à Lyon ; plus l'histoire avance, plus il a peur de **perdre Andrea de vue** une seconde fois ; (b) Andrea est **pragmatique** : « pour l'instant t'es là, on verra bien, c'est la vie de toute façon ». Voir §26 bis.
 
 ## 0.1 Corrections de fond (à relire en priorité)
 
@@ -26,7 +29,7 @@
 | 4 | §11 : Babka Zuzana en 👵 / 🐻‍♀️ / « humaine ou animal ? » | C'est une **brebis 🐑** (déjà tranché dans Kids). | Fixé : brebis. |
 | 5 | §13 : Marek, « collègue d'Andrea » | Pas de monde du travail dans Kids (Andrea a 11 ans). | Marek est un nouveau personnage, sans lien hérité. |
 | 6 | §8 : « Andrea est un personnage slovaque récurrent » | Andrea est une **hase** (femelle du lièvre), 11 ans, « la grande de la bande », avatar 🐰. | Précisé en §8. |
-| 7 | §7 : le renard est « il » ; c'est un des deux héros | Dans Kids, 🦊 est **l'apprenant lui-même** : prénom saisi par l'élève (`[USER_NAME]`), genre jamais précisé, aucune forme genrée. Il a **10 ans** (« Mám desať rokov », Rodina 05). | ✅ **Tranché** (§0.0) : **Matej**, garçon, c'est « toi », avec un nom par défaut. Formes masculines en slovaque pour lui, féminines pour Andrea. |
+| 7 | §7 : le renard est « il » ; c'est un des deux héros | Dans Kids, 🦊 est **l'apprenant lui-même** : prénom saisi par l'élève (`[USER_NAME]`), genre jamais précisé, aucune forme genrée. Il a **10 ans** (« Mám desať rokov », Rodina 05). | ✅ **Tranché** (§0.0) : **Gab** (Gabo pour les Slovaques), garçon français de Lyon, c'est « toi ». Formes masculines en slovaque pour lui, féminines pour Andrea. |
 | 8 | §1, §2, §22, §28 : « dix ans plus tard » **et** ados de 12–16 ans | Âges dans Kids : Andrea 11, Maťo 9, Katka 8, renard 10. Dix ans plus tard : 18 à 21 ans. | **Incohérence** : ou bien 5 ans (ados), ou bien 10 ans (jeunes adultes). Le texte dit « quelques années » en attendant la réponse (Q1). |
 | 9 | §6 : les humains répondent normalement aux animaux | **Il n'y a aucun humain dans Kids** : tous les personnages sont des animaux (« façon Bisounours »). | Ce n'est pas un problème, mais c'est un **élément nouveau** de l'univers : à assumer explicitement (Q12). |
 | 10 | Tatras / Tatry mélangés | Décision Kids (relecture d'octobre 2026) : en français on écrit **« les Tatras »**, le mot slovaque `{{Tatry}}` n'est donné que quand on veut l'apprendre. | Appliqué dans tout le document. |
@@ -51,10 +54,18 @@
 
 ## 0.4 Mises à jour de la v0.3 (décisions du 5 octobre)
 
+**v0.4 (suite des décisions du 5 octobre) :**
+- §2, §7 : le renard s'appelle **Gab** (**Gabo** pour les Slovaques) ; c'est le renard de Kids, un Français de Lyon qui a appris un minimum de slovaque et revient à Košice à 15 ans, seul (l'absurde est assumé).
+- §7, §8 : « passer inaperçu » : il se débrouille en slovaque et passe pour un Slovaque si on ne pousse pas la conversation ; gags « à la française » corrigés par Andrea.
+- §8 : le mystère d'Andrea (ce qui s'est passé depuis les vacances ; sa méfiance envers les prédateurs, sauf Gab).
+- **§26 bis (nouveau)** : les deux fils rouges (le secret d'Andrea ; le temps limité de Gab et sa peur de la perdre).
+- §29 : Q1, Q6, Q13, Q14, Q15, Q27 réglées ; Q2 reformulée ; **nouvelles questions Q32 à Q35**.
+
+**v0.3 :**
 - §1, §20, §25 : le cours devient un **récit en chapitres** ; nouveau format de série (micro-dialogues en 01–04, épisode en 05 et 06).
-- §7, §9, §21 : le renard est **Matej**, garçon et « toi » ; le test de traduction est réglé côté genre.
+- §7, §9, §21 : le renard est garçon et « toi » ; le test de traduction est réglé côté genre.
 - §8, §12 : Andrea, amie de l'apprenant et cousine de Katka et Maťo.
-- §29 : Q4, Q5, Q6, Q10, Q22 sont réglées ; Q20 et Q26 ajustées ; **nouvelles questions Q27 à Q31** (nom du renard, longueur d'un chapitre, mots nouveaux en 06, rappels entre chapitres, tâches moteur).
+- §29 : Q4, Q5, Q6, Q10, Q22 sont réglées ; Q20 et Q26 ajustées ; **nouvelles questions Q27 à Q31** (nom du renard — réglée en v0.4 —, longueur d'un chapitre, mots nouveaux en 06, rappels entre chapitres, tâches moteur).
 
 ---
 
@@ -90,27 +101,25 @@ Le monde n'est jamais totalement sombre. Les personnages restent des ados : ils 
 
 # 2. Le principe narratif
 
-Quelques années auparavant, les personnages de Slovingo Kids vivaient leurs aventures d'enfance dans les Tatras.
+Quelques années auparavant, dans Slovingo Kids, le renard (**Gab**, un Français de Lyon) était venu passer de **longues vacances** dans les Tatras. Il s'y était fait des amis, dont **Andrea la hase**, avec un slovaque minimal.
 
-Puis ils ont grandi.
+Puis il a dû **rentrer à Lyon**.
 
-La vie les a séparés.
+Il a perdu ses amis slovaques de vue, mais il a gardé de ces vacances un **souvenir merveilleux**.
 
-Certains sont partis étudier ou travailler ailleurs. D'autres sont restés dans leur région. Le monde autour d'eux a changé.
+Quelques années plus tard, à 15 ans, il a envie de **retourner voir la région** où il a tous ces souvenirs. Il y va seul (on assume l'absurde). Entre-temps, son slovaque a fait des progrès : il se débrouille assez pour passer pour un Slovaque, tant qu'on ne pousse pas la conversation.
 
-Le renard et Andrea, en particulier, se sont perdus de vue après leur enfance dans les Tatras.
+C'est à **Košice** qu'il tombe **par hasard** sur Andrea. C'est le point de départ de l'aventure.
 
-Ils se retrouvent finalement à **Košice**.
+Andrea, elle, a vécu autre chose pendant ces années, que Gab ne connaît pas. Elle vit à Košice parce que sa région d'origine offrait de moins en moins de travail, et elle reste **très mystérieuse** sur ce qui s'est passé. Elle est devenue méfiante, surtout envers les prédateurs comme les renards : lui, elle le connaît, donc ça va. Les autres, moins.
 
-Ils n'y sont pas forcément parce qu'ils rêvaient de vivre en ville : ils y sont arrivés parce que leur région d'origine offrait de moins en moins de travail.
+Le monde autour d'eux a changé, et ils le voient maintenant avec des yeux d'adolescents.
 
-> *Note : si les personnages ont 15 ans, c'est « leurs familles » que la région n'a plus pu faire vivre, et eux sont à Košice pour l'école (lycée, internat). Voir Q1 et Q13.*
-
-Ils ont grandi, mais gardent une nostalgie commune de leur enfance dans les montagnes.
-
-Et lorsqu'une nouvelle situation les oblige à reprendre la route, ils décident de traverser la Slovaquie pour rejoindre **Bratislava**.
+Gab a gardé la nostalgie des montagnes, Andrea aussi, à sa manière. Et lorsqu'une nouvelle situation les oblige à reprendre la route, ils décident de traverser la Slovaquie pour rejoindre **Bratislava**.
 
 Le voyage devient progressivement plus important qu'ils ne l'avaient imaginé.
+
+> *Note : Gab est de passage. Contrairement à la version du brouillon (deux enfants de la même région qui se retrouvent), c'est un visiteur qui revient chercher un souvenir et trouve un pays qui a changé. Andrea est celle qui « habite » ici. Ça résout en grande partie les questions Q13 (pourquoi perdus de vue, pourquoi à Košice), Q14 (déclencheur) et Q15 (objectif initial) : voir section 29.*
 
 ---
 
@@ -285,9 +294,11 @@ Point.
 
 # 7. Les deux personnages principaux
 
-## 🦊 Matej le renard
+## 🦊 Gab le renard
 
-Le renard est l'un des deux personnages centraux. Il est **un garçon**, il s'appelle **Matej** par défaut (nom provisoire, voir Q27), et c'est **toi** : l'apprenant incarne le renard.
+Le renard est l'un des deux personnages centraux. Il est **un garçon**, c'est **toi** (l'apprenant incarne le renard), et c'est le renard de Kids : un **Français de Lyon**, qui s'appelle **Gab**. Les Slovaques disent **Gabo** (le diminutif slovaque de Gabriel), et c'est comme ça qu'Andrea l'appelle.
+
+Il avait appris un minimum de slovaque pendant ses longues vacances dans les Tatras, et il en a appris assez depuis pour **se débrouiller** : il passe pour un Slovaque tant qu'on ne pousse pas trop la conversation. Quand il se trahit en disant quelque chose « à la française », **Andrea le reprend** : bonne source de gags, et de corrections discrètes pour l'apprenant.
 
 Il a grandi.
 
@@ -315,11 +326,15 @@ C'est probablement la réplique qui le résume le mieux : ironique, tendre, jama
 
 Il peut également avoir gardé un côté très attachant et spontané de son enfance.
 
-> *Dans Kids, le renard est l'apprenant lui-même (prénom saisi par l'élève, genre jamais précisé). Dans Friends, il reste « toi » mais devient un personnage à personnalité marquée et à **genre fixé** (masculin), parce que le slovaque accorde le passé, le conditionnel et beaucoup d'adjectifs. Son prénom par défaut est Matej ; l'élève peut le remplacer par le sien, sans changer le genre du personnage.*
+**Son fil rouge** : il sait qu'il est là **pour un temps limité** et qu'il devra retourner à Lyon. Plus l'histoire avance, plus il a **peur de perdre Andrea de vue** une seconde fois. Voir §26 bis.
+
+> *Dans Kids, le renard est l'apprenant lui-même (prénom saisi par l'élève, genre jamais précisé ; il dit « Mám desať rokov », il a une sœur et un papa « grand et fort », il dit « Bývam v nore »). Dans Friends, il reste « toi » mais devient un personnage à personnalité marquée, **français de Lyon**, et à **genre fixé** (masculin), parce que le slovaque accorde le passé, le conditionnel et beaucoup d'adjectifs. Son prénom par défaut est **Gab** (c'est aussi le prénom par défaut de Kids dans `lang.json`) ; en slovaque, les gens disent **Gabo**. Il se présente peut-être lui-même comme Gabo pour passer pour un Slovaque (Q33).*
 >
-> *Évolution prévue du moteur : permettre de jouer **le renard ou la hase**, en choisissant le prénom de l'un des deux (deux champs de prénom, chacun avec sa valeur par défaut : Matej et Andrea). Les formes grammaticales restent celles du personnage (masculin pour le renard, féminin pour Andrea), quel que soit le joueur. Voir Q31.*
+> *Évolution prévue du moteur : permettre de jouer **le renard ou la hase**, en choisissant le prénom de l'un des deux (deux champs de prénom, chacun avec sa valeur par défaut : Gab et Andrea). Les formes grammaticales restent celles du personnage (masculin pour le renard, féminin pour Andrea), quel que soit le joueur. Voir Q31.*
 >
-> *Piège à connaître : un prénom saisi par l'élève **ne se décline pas**. Dans les dialogues, on ne l'emploie que pour appeler quelqu'un (*Ahoj, Matej!*), jamais à l'accusatif ni au datif (*pre Mateja*, *Matejovi*…).*
+> *Pièges à connaître : (1) un prénom saisi par l'élève **ne se décline pas** : dans les dialogues, on ne l'emploie que pour appeler quelqu'un (*Ahoj, Gabo!*), jamais à l'accusatif ni au datif (*pre Gaba*, *Gabovi*…). (2) Si l'élève remplace « Gab » par son prénom, le jeu Gab / Gabo disparaît : prévoir un second marqueur pour la forme slovaque, ou accepter la perte (Q31).*
+>
+> *Le nom **Matej**, proposé un moment, est abandonné : il est trop proche de **Maťo** (diminutif de Matej), l'ours de Kids.*
 
 ### Relation avec Andrea
 
@@ -330,6 +345,8 @@ Puis ils se sont perdus de vue.
 Leurs retrouvailles à Košice sont donc importantes.
 
 Ils doivent réapprendre à se connaître.
+
+Gab ne sait **rien** de ce qu'Andrea a vécu entre les vacances et les retrouvailles. Elle, elle sait qu'il est rentré en France, et qu'il repartira.
 
 Ils ont les souvenirs de leur enfance en commun, mais ont changé différemment.
 
@@ -365,6 +382,18 @@ Elle garde aussi une exaspération affectueuse permanente envers les renards en 
 
 Elle peut également être plus sarcastique qu'elle ne l'était enfant.
 
+## Le mystère d'Andrea
+
+Entre les vacances de Gab et les retrouvailles à Košice, il s'est passé quelque chose dans la vie d'Andrea. **Elle n'en parle pas.** Elle change de sujet, répond à côté, ou fait une blague.
+
+Une chose est visible : elle est devenue **méfiante envers les prédateurs**, et notamment les renards. Gab est l'exception (« toi, ça va, je te connais »). C'est la suite du gag de Kids (« Bála som sa ! », les autres renards étaient « beaucoup moins sympas »), avec une couche en plus.
+
+Règles d'écriture :
+
+- Le mystère reste **léger** : jamais noir, jamais traumatique à l'écran (§21). C'est un fil, pas un drame.
+- S'il est révélé, ce sera **à la fin** du récit. Pas d'idée concrète pour l'instant (voir Q32), mais on **plante des indices** dès les premiers chapitres (une phrase coupée, un lieu évité, une réaction), compatibles avec plusieurs révélations possibles.
+- Gab ne pose pas toutes les questions : c'est aussi une façon de respecter ce qu'elle ne veut pas dire.
+
 ## Leur dynamique
 
 Le duo doit fonctionner comme deux anciens amis qui se retrouvent après plusieurs années.
@@ -376,6 +405,8 @@ Ils ont des souvenirs communs que les autres ne comprennent pas.
 Ils peuvent parfois se disputer.
 
 Mais lorsqu'une situation devient sérieuse, ils se serrent les coudes.
+
+Un contraste de caractère structure le duo : **Gab s'inquiète** du temps qui passe (il doit repartir, il a peur de perdre Andrea de vue), et **Andrea est pragmatique** (« pour l'instant t'es là, on verra bien, c'est la vie de toute façon »).
 
 C'est une relation d'amitié avant d'être une relation pédagogique.
 
@@ -389,7 +420,7 @@ Distribution **réelle** de Kids (source : `README.md`, `docs/Format-enfants.md`
 
 | Avatar | Personnage | Dans Kids | Dans Friends (proposition) |
 |---|---|---|---|
-| 🦊 | Le renard | L'apprenant (nom = `[USER_NAME]`), 10 ans, genre non précisé | **Matej**, garçon, toujours « toi » (voir §7) |
+| 🦊 | Le renard | L'apprenant (nom = `[USER_NAME]`), 10 ans, genre non précisé | **Gab** (Gabo), Français de Lyon, garçon, toujours « toi » (voir §7) |
 | 🐰 | Andrea | Hase, 11 ans, « la grande » | Personnage principal, amie du renard, cousine de Katka et Maťo (§8) |
 | 🐹 | Katka | Marmotte, 8 ans, phrases courtes et simples | Voir §12 |
 | 🐻 | Maťo | Ours, 9 ans, grand frère de Katka | Voir §12 bis |
@@ -924,7 +955,7 @@ Chaque chapitre doit pouvoir se lire d'un trait en enchaînant les micro-dialogu
 - Vocabulaire cumulatif dans la série ; aucun mot inconnu non signalé ; mots nouveaux d'un dialogue toujours marqués (`+ Mot nouveau signalé : …`).
 - Aucune référence à une autre série ni renvoi entre fiches.
 - Consignes importantes en `{{fr:…}}` (voix française) ; **pas de mot slovaque** dans un `{{fr:…}}` (sauf prénoms des personnages).
-- Prénom : dans Kids, `[ASK_USER_NAME]` / `[USER_NAME]` donnent le prénom de l'élève. Dans Friends, le renard s'appelle **Matej** par défaut ; il faut donc un champ de prénom avec valeur par défaut (voir Q31).
+- Prénom : dans Kids, `[ASK_USER_NAME]` / `[USER_NAME]` donnent le prénom de l'élève. Dans Friends, le renard s'appelle **Gab** par défaut ; il faut donc un champ de prénom avec valeur par défaut (voir Q31).
 - Dans Kids, les fiches d'apprentissage n'ont pas de dialogue suivi et la 06 n'a aucun mot nouveau : ces deux règles évoluent (voir plus haut et Q29).
 - Exercices écrits à la main dans `exercises/`, `"mode": "replace"`.
 - Slovaque à faire relire avec attention : la relecture de Kids a trouvé quelques calques fréquents (tableau des pièges dans `Format-enfants.md`).
@@ -1033,7 +1064,7 @@ J'ai fait l'essai sur les répliques clés. Bonne nouvelle : **le gag hase / lap
 | C'est encore plus compliqué. | To je ešte komplikovanejšie. | OK |
 | Moi non plus. | Ani ja. | OK |
 
-✅ **Réglé** : le renard est un garçon (Matej). On retient donc les **formes masculines** pour lui (*jednoduchý*, *Vedel som to*, *rád počkal*) et les formes **féminines** pour Andrea quand elle parle d'elle. Ses répliques envers le renard sont au masculin (*Ty si hlúpy*). Le test ci-dessus se lit donc avec la première forme de chaque ligne.
+✅ **Réglé** : le renard est un garçon (Gab). On retient donc les **formes masculines** pour lui (*jednoduchý*, *Vedel som to*, *rád počkal*) et les formes **féminines** pour Andrea quand elle parle d'elle. Ses répliques envers le renard sont au masculin (*Ty si hlúpy*). Le test ci-dessus se lit donc avec la première forme de chaque ligne.
 
 ---
 
@@ -1197,6 +1228,35 @@ Et cela peut être présenté comme une vraie victoire.
 
 ---
 
+# 26 bis. Les fils rouges du récit
+
+Deux fils courent sur toute l'histoire. Ils se nourrissent des dialogues (pas de narration : tout passe par ce que disent les personnages).
+
+## Fil rouge 1 : le mystère d'Andrea
+
+- Gab ne sait rien de ce qu'Andrea a vécu entre les vacances de Kids et leurs retrouvailles à Košice. Elle reste évasive (« Longue histoire. », « Plus tard. »).
+- Elle se méfie des prédateurs, **renards compris**. Gab fait exception, car elle le connaît. Petit gag possible : elle le « teste » encore de temps en temps.
+- Des indices sont semés **tôt et discrètement** (chapitres 1 à 4), précisés vers le milieu, et le secret n'est révélé **qu'à la fin, et seulement si on décide de le révéler** (Q32).
+- Pédagogie : le passé est un bon terrain pour ce fil (« Qu'est-ce que tu as fait ? »), une fois le passé introduit (voir §18).
+
+## Fil rouge 2 : le temps limité de Gab
+
+- Gab sait qu'il n'est là que **pour un temps limité** : il devra rentrer à Lyon.
+- Au fil des chapitres, il a de plus en plus **peur de perdre Andrea de vue à nouveau**.
+- Andrea est **pragmatique** : « Pour l'instant t'es là, on verra bien, c'est la vie de toutes façons. »
+- Ce contraste (anxieux / pragmatique) donne de l'émotion sans drame : on peut le jouer en dialogue très simple (*Teraz si tu. Uvidíme.*), donc dès les premiers niveaux.
+- La fin n'est pas décidée : Q34.
+
+## Gags « à la française »
+
+Gab passe pour un Slovaque tant qu'on ne pousse pas la conversation. Quand il dit quelque chose « à la française » (calque du français, mauvaise prononciation, geste, faux-ami), Andrea le reprend. C'est un moyen naturel d'enseigner les pièges pour francophones (Q33).
+
+## Contraste Kids → Friends
+
+Dans Kids, le renard est un enfant en vacances, nouveau venu de la montagne. Dans Friends, c'est un ado qui revient sur ses souvenirs, et qui n'est plus tout à fait un étranger.
+
+---
+
 # 27. Questions du brouillon qui trouvent leur réponse dans Kids
 
 Ces questions du §27 de la v0.1 sont **résolues** :
@@ -1241,11 +1301,11 @@ Chaque question a une **proposition** de ma part. Si elle te va, écris simpleme
 
 ## A. Chronologie et public
 
-**Q1 🔴 — Écart de temps et âges.** Le brouillon dit « dix ans plus tard » **et** « ados de 12–16 ans », ce qui est incompatible avec Kids (Andrea 11, renard 10, Maťo 9, Katka 8 : dix ans plus tard, ils ont 18 à 21 ans).
+**Q1 ✅ (à confirmer) — Écart de temps et âges.** Réglée en gros (5 oct.) : le renard a **15 ans** (10 dans Kids), donc ≈ 5 ans d'écart ; en déduction Andrea 16, Maťo 14, Katka 13 (à confirmer). Texte d'origine : Le brouillon dit « dix ans plus tard » **et** « ados de 12–16 ans », ce qui est incompatible avec Kids (Andrea 11, renard 10, Maťo 9, Katka 8 : dix ans plus tard, ils ont 18 à 21 ans).
 *Proposition : environ **5 ans**. Andrea 16, renard 15, Maťo 14, Katka 13. Ça colle avec le public (l'enfant qui a fait Kids à 10 ans fait Friends à 14–15 ans), ça rend le gag de « la petite Katka » plus drôle, et ça permet d'avoir un décor de lycée ou d'internat à Košice plutôt qu'un marché de l'emploi.*
 Réponse :
 
-**Q2 🔴 — Débutants ou continuité ?** Friends suppose-t-il Kids acquis (niveau A1 terminé) ou doit-il accueillir des ados qui n'ont jamais fait de slovaque ? « Sans avoir suivi Kids pour comprendre l'histoire » (§22) ne dit rien du niveau de langue.
+**Q2 🔴 — Débutants ou continuité ?** *(Nouveau : Gab se débrouille déjà en slovaque ; Friends démarre donc au-dessus du débutant complet. Une courte remise à niveau au chapitre 1 est possible.)* Friends suppose-t-il Kids acquis (niveau A1 terminé) ou doit-il accueillir des ados qui n'ont jamais fait de slovaque ? « Sans avoir suivi Kids pour comprendre l'histoire » (§22) ne dit rien du niveau de langue.
 *Proposition : Friends **accueille des débutants**, avec un court Kit de Survie ado (3–4 fiches : salutations, politesse, se présenter, dire qu'on ne comprend pas) et une série 01 qui ne suppose rien. Les connaisseurs de Kids avancent plus vite, c'est tout.*
 Réponse :
 
@@ -1255,11 +1315,11 @@ Réponse :
 
 ## B. Le renard
 
-**Q4 ✅ — Qui est le renard ?** Réglée (5 oct.) : le renard est **toi**, avec un nom slovaque par défaut (**Matej**). Il est aussi un personnage à part entière (ironique, tendre, avec ses répliques à garder texto). Le moteur permettra plus tard de jouer le renard ou la hase (Q31).
+**Q4 ✅ — Qui est le renard ?** Réglée (5 oct.) : le renard est **toi**, avec un nom par défaut : **Gab** (**Gabo** pour les Slovaques, voir §7). Il est aussi un personnage à part entière (ironique, tendre, avec ses répliques à garder texto). Le moteur permettra plus tard de jouer le renard ou la hase (Q31).
 
 **Q5 ✅ — Quel genre pour le renard ?** Réglée (5 oct.) : **garçon**. Formes masculines en slovaque pour lui, féminines pour Andrea. Le prénom que l'élève saisit ne change pas le genre du personnage.
 
-**Q6 — Âge du renard.** Kids le fait dire « Mám desať rokov ». Si Q1 = 5 ans, il a 15 ans. À confirmer avec Q1.
+**Q6 ✅ — Âge du renard.** Réglée : 15 ans. Texte d'origine : Kids le fait dire « Mám desať rokov ». Si Q1 = 5 ans, il a 15 ans. À confirmer avec Q1.
 Réponse :
 
 ## C. Personnages
@@ -1288,15 +1348,15 @@ Réponse :
 
 ## D. Récit
 
-**Q13 — Pourquoi se sont-ils perdus de vue, et pourquoi sont-ils à Košice ?** (questions du §27 : « Pourquoi le renard et Andrea se sont-ils réellement perdus de vue ? », « Pourquoi sont-ils tous les deux à Košice ? », « Que faisaient-ils avant ? »)
+**Q13 ✅ (en grande partie réglée par l'histoire de Gab, §2) — Pourquoi se sont-ils perdus de vue, et pourquoi sont-ils à Košice ?** (questions du §27 : « Pourquoi le renard et Andrea se sont-ils réellement perdus de vue ? », « Pourquoi sont-ils tous les deux à Košice ? », « Que faisaient-ils avant ? »)
 *Proposition (si Q1 = 5 ans) : leurs familles ont quitté les Tatras à des moments différents, faute de travail ; Andrea est à Košice depuis deux ans (lycée), le renard vient d'arriver. Ils se croisent dans un couloir ou un tram.*
 Réponse :
 
-**Q14 — Événement déclencheur du départ.** Quelle nouvelle situation les oblige à reprendre la route ?
+**Q14 ✅ (en partie, §2) — Événement déclencheur du départ.** Quelle nouvelle situation les oblige à reprendre la route ?
 *Proposition : le seul point d'eau près de chez eux disparaît (le début de la série 02), ou le lycée ferme. À toi de voir ce qui est le plus fort.*
 Réponse :
 
-**Q15 — Objectif initial, et ce que cherchent-ils à obtenir au château ?** (§17 dit « être entendus », mais par qui, pour dire quoi ?)
+**Q15 (en partie réglée, §2) — Objectif initial, et ce que cherchent-ils à obtenir au château ?** (§17 dit « être entendus », mais par qui, pour dire quoi ?)
 *Proposition : un objectif de départ très concret (porter une lettre, retrouver quelqu'un, rapporter de l'eau) qui s'agrandit en cours de route ; au château, une audience ou une pétition, qui aboutit à « un petit changement » (§26).*
 Réponse :
 
@@ -1348,12 +1408,7 @@ Réponse :
 
 ## G. Nouvelles questions (suite aux décisions du 5 octobre)
 
-**Q27 🔴 — Le nom du renard : Matej et Maťo.** *Maťo* est le diminutif habituel de *Matej* (et de *Matúš*). Le renard (Matej) et l'ours (Maťo, frère de Katka) auraient donc presque le même prénom : confusion dans les dialogues, et à l'oral (le TTS lit presque pareil). Options :
-- **A.** On garde **Matej** pour le renard et on renomme l'ours dans Friends (mais Maťo existe déjà dans Kids, ce serait incohérent).
-- **B.** On garde Matej et Maťo, et on **en joue** (un gag : « Matej ? Maťo ? Non, l'autre. »), au risque de la confusion.
-- **C.** On change le prénom du renard : **Samo**, **Adam**, **Tomáš**, **Peter**, **Lukáš**, **Filip**…
-*Proposition : **C**, par exemple **Samo** (court, facile à prononcer pour un francophone, bien distinct de Maťo) ; et Matej reste possible comme prénom de l'élève s'il le choisit.*
-Réponse :
+**Q27 ✅ — Le nom du renard.** Réglée (5 oct.) : le renard s'appelle **Gab**, que les Slovaques appellent **Gabo** (diminutif slovaque de Gabriel). *Matej* est abandonné (trop proche de *Maťo*).
 
 **Q28 — Longueur d'un chapitre.** Combien de répliques pour les micro-dialogues (fiches 01 à 04) et pour l'épisode (fiches 05 et 06) ? Kids : 10–15 répliques en 05 ; la scène de référence en compte 24, très courtes.
 *Proposition : micro-dialogues de 2 à 4 répliques (3 ou 4 par fiche) ; épisode de 15–20 répliques en 05 et de 20–30 en 06 ; un chapitre complet fait ainsi environ 60 à 80 répliques.*
@@ -1367,7 +1422,22 @@ Réponse :
 *Proposition : une ou deux répliques de rappel dans le premier micro-dialogue du chapitre (« Alors, on est où ? » / « Au bord du lac, comme hier. »), sans jamais écrire « chapitre précédent » ni renvoyer à une fiche.*
 Réponse :
 
-**Q31 — Tâches moteur (Slovingo).** Pour pouvoir jouer le renard **ou** la hase, il faut au moins : (a) **deux champs de prénom** avec valeur par défaut (renard : Matej ou le prénom choisi en Q27, hase : Andrea) à la place du seul `[USER_NAME]` ; (b) un **choix du personnage** joué ; (c) rien à faire sur les genres (fixés par personnage). Point d'attention : un prénom saisi ne se décline pas (voir §7).
+**Q32 — Le secret d'Andrea.** Qu'est-ce qui lui est arrivé depuis les vacances, et pourquoi se méfie-t-elle des prédateurs ? Pistes : (a) une mauvaise rencontre avec un prédateur ; (b) sa famille a dû partir (sécheresse, danger) ; (c) une raison personnelle de se rendre à Bratislava/au château ; (d) un secret **ordinaire**, presque anticlimactique, dont le suspense était le plus gros morceau. *Proposition : décider d'une piste **avant** le chapitre 3 pour semer des indices, quitte à la changer.*
+Réponse :
+
+**Q33 — Gab / Gabo et les gags « à la française ».** Gab se présente-t-il comme *Gabo* dès le début, ou *Gab* et c'est Andrea qui le rebaptise ? Quels types de gags : prononciation, faux-amis, gestes, politesse (*tu/vy*) ? Fréquence souhaitée ?
+*Proposition : *Gab* d'abord, *Gabo* adopté au chapitre 1 par Andrea ; un gag par chapitre au maximum.*
+Réponse :
+
+**Q34 — La fin du livre.** Gab rentre-t-il à Lyon ? Reste-t-il ? Fin ouverte ? Et le secret d'Andrea y est-il révélé ?
+*Proposition : décider plus tard, mais garder le choix ouvert tant que les chapitres 1 à 6 ne sont pas écrits.*
+Réponse :
+
+**Q35 — Le temps limité sur la carte.** Faut-il montrer le temps qui passe (billet de retour, compte à rebours, jours restants) sur la carte du moteur, ou le garder uniquement dans les dialogues ?
+*Proposition : dans les dialogues seulement au début ; on voit pour la carte avec le moteur (voir §4).*
+Réponse :
+
+**Q31 — Tâches moteur (Slovingo).** Pour pouvoir jouer le renard **ou** la hase, il faut au moins : (a) **deux champs de prénom** avec valeur par défaut (renard : Gab, avec le diminutif **Gabo** comme second marqueur, ou le prénom choisi ; hase : Andrea) à la place du seul `[USER_NAME]` ; (b) un **choix du personnage** joué ; (c) rien à faire sur les genres (fixés par personnage). Point d'attention : un prénom saisi ne se décline pas (voir §7).
 *Proposition : traiter ces tâches **après** l'écriture des 2 ou 3 premiers chapitres, en attendant on écrit avec les noms par défaut en dur et on remplace plus tard par des marqueurs.*
 Réponse :
 
@@ -1375,8 +1445,8 @@ Réponse :
 
 ## Prochaines étapes (à discuter après tes réponses)
 
-1. Répondre aux questions restantes : surtout Q1 (âges), Q2 (débutants ou suite de Kids), **Q27 (nom du renard)** et Q28 (longueur d'un chapitre).
-2. Mettre ce document à jour (v0.4) avec tes réponses.
+1. Répondre aux questions restantes : surtout Q2 (niveau de départ, maintenant que Gab se débrouille déjà), Q28 (longueur d'un chapitre), Q32 (secret d'Andrea) et Q34 (fin du livre).
+2. Mettre ce document à jour (v0.5) avec tes réponses.
 3. Écrire `docs/Format-friends.md` (reprise de `Format-enfants.md` avec les écarts de cette page : micro-dialogues, 06 = suite de l'épisode, prénom par défaut) et `docs/Progression-friends.md` (vocabulaire et grammaire par série).
 4. Créer `lang.json` du cours et la structure `md/`, `exercises/`, `img/`.
 5. Écrire le **chapitre 1** (série 01) en entier, relire, puis décider du rythme pour la suite.
