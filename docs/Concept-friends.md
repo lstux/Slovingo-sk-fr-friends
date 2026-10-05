@@ -56,6 +56,7 @@
 
 **v0.5 (suite des décisions du 5 octobre) :**
 - §20 : les fiches 01–04 font aussi avancer l'histoire (contexte, culture, petites scènes) ; les fiches 05 et 06 sont du « pur dialogue » avec une **voix de narrateur en slovaque** entre les répliques ; nouveau paragraphe **volume cible**.
+- §26 bis : **gag modèle** « Veľmi hovorím, som francúzsky, komplikovaný… » et la correction d'Andrea (Q33 ajustée).
 - §8, §26 bis, Q32 : secret d'Andrea précisé (un renard inconnu, un piège, **suggéré** ; pas de maman ; révélation par accumulation d'indices, la fin n'est qu'une confirmation ; ce renard n'est pas le but du château).
 - **§26 ter (nouveau)** : épilogue-rêve (Gab se réveille le lendemain des retrouvailles).
 - §29 : Q2 ✅ (Kids acquis, remise à niveau au début), Q23 ✅, Q28 ✅ (option A : chapitres qui grossissent, 12 séries, ≈ 9 000–10 000 mots), Q34 réglée pour l'épilogue (la fin au château reste ouverte), Q30 et Q18 ajustées ; **nouvelle question Q36** (voix du narrateur).
@@ -1280,6 +1281,26 @@ Deux fils courent sur toute l'histoire. Ils se nourrissent des dialogues (pas de
 
 Gab passe pour un Slovaque tant qu'on ne pousse pas la conversation. Quand il dit quelque chose « à la française » (calque du français, mauvaise prononciation, geste, faux-ami), Andrea le reprend. C'est un moyen naturel d'enseigner les pièges pour francophones (Q33).
 
+### Gag modèle : « Je parle beaucoup, je suis français, compliqué… »
+
+À placer **après** les piques d'Andrea (*Líšky veľa rozprávajú.* / *Líšky nikdy nepochopím.*). Gab, beau joueur, les reprend à son compte, pour rire de lui-même :
+
+- **Gab** : *Veľmi hovorím, som francúzsky, komplikovaný…* 😂 (version d'Eric ; la variante « renardsky » est à trancher, voir Q33)
+- **Andrea** comprend l'idée, mais **explique pourquoi sa phrase est fausse**, avec un petit rire.
+
+Les deux erreurs sont des **erreurs typiques de francophones** :
+1. ***veľmi* ≠ *veľa*.** *Veľmi* = « très » (l'intensité : *veľmi pekne ďakujem*) ; *veľa* = « beaucoup » (la quantité : *veľa hovorím*). Le piège vient de « merci beaucoup », qui s'est appris avec *veľmi*. Andrea l'a **dit correctement** dans sa pique (*veľa rozprávajú*) : Gab la déforme donc en l'imitant.
+2. ***francúzsky* ≠ *Francúz*.** *francúzsky* est un adverbe ou un adjectif (*po francúzsky* = « en français ») ; pour dire qu'on **est** français, c'est le nom : *Som Francúz*. (Et *komplikovaný* est correct : l'accord masculin va bien.)
+
+Exemple de principe (slovaque **à faire relire**) :
+
+- **Andrea** : *Líšky veľa rozprávajú. A sú komplikované!*
+- **Gab** : *Veľmi hovorím, som francúzsky, komplikovaný…*
+- **Andrea** : *Rozumiem, čo chceš povedať. Ale hovorí sa: „Veľa hovorím.“ „Veľmi“ je „très“.*
+- **Andrea** : *A „francúzsky“ nie je „Francúz“. Si Francúz. A líška!* (en plus, le mot *líška* garde le féminin, comme dans Kids, même pour Gab)
+
+Pédagogie : ce gag fait travailler les deux points d'un coup, et il est **drôle même sans connaître la règle**. À placer tôt (chapitre 1 ou 2, pendant la remise à niveau, §20), puisque *Som Francúz*, *po francúzsky* et *veľmi* viennent de Kids.
+
 ## Contraste Kids → Friends
 
 Dans Kids, le renard est un enfant en vacances, nouveau venu de la montagne. Dans Friends, c'est un ado qui revient sur ses souvenirs, et qui n'est plus tout à fait un étranger.
@@ -1476,6 +1497,10 @@ Réponse :
 
 **Q33 — Gab / Gabo et les gags « à la française ».** Gab se présente-t-il comme *Gabo* dès le début, ou *Gab* et c'est Andrea qui le rebaptise ? Quels types de gags : prononciation, faux-amis, gestes, politesse (*tu/vy*) ? Fréquence souhaitée ?
 *Proposition : *Gab* d'abord, *Gabo* adopté au chapitre 1 par Andrea ; un gag par chapitre au maximum.*
+**Premier gag fourni par Eric (5 oct.)** : *Veľmi hovorím, som francúzsky, komplikovaný…* puis correction d'Andrea (voir §26 bis). À trancher :
+- **« renardsky »** : Eric voulait « renardesque » plutôt que « français ». Gab dit-il un adjectif **correct** (*líščí*, forme à vérifier) ou un mot **inventé sur le modèle de *francúzsky*** (un « renardsky » que seul un Français inventerait) ? La 2e version est plus drôle, mais Andrea doit alors la corriger aussi.
+- **Orthographe** : le texte d'Eric disait *francúsky* (sans le *z*) : coquille, ou mauvaise prononciation voulue ? Dans le texte, j'ai mis *francúzsky*.
+- **Quand** : chapitre 1 ou 2 (remise à niveau) ?
 Réponse :
 
 **Q34 — La fin du livre.** Réglée en partie (5 oct.) : l'**épilogue** est le **rêve** de Gab (voir §26 ter). Il reste à décider ce qui se passe **au château de Bratislava** (pas d'idée pour l'instant) et la façon exacte dont le secret d'Andrea est confirmé à la fin.
