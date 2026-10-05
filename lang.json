@@ -28,8 +28,8 @@
     "deploy_host": "www.lslinux.org",
     "deploy_path": "/var/www/lslinux.org/htdocs/slovingo/sk-fr-friends/",
     "icon_companions": [
-      "🦊",
-      "🐰"
+      "🐰",
+      "🦊"
     ]
   },
   "categories": {
