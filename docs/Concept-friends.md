@@ -391,7 +391,7 @@ Une chose est visible : elle est devenue **méfiante envers les prédateurs**, e
 Règles d'écriture :
 
 - Le mystère reste **léger** : jamais traumatique à l'écran (§21). C'est un fil, pas un drame.
-- **Secret retenu (5 oct.) : Andrea a été trahie par un autre renard** (voir §26 bis et Q32). Elle lui faisait confiance, il l'a trahie. D'où sa méfiance, qui s'exprime en **piques récurrentes** (« les renards, ça parle beaucoup », « je ne comprendrai jamais les renards »…), qui font rire tant qu'on ne connaît pas la cause.
+- **Secret retenu (5 oct.) : Andrea a été trahie par un renard inconnu** (voir §26 bis et Q32) : elle le prenait pour un ami, il l'a attirée dans un piège (elle devait finir à la broche avec ses autres amis renards, **suggéré** plutôt que raconté). Naïve parce qu'elle avait connu le gentil renard de Kids, elle avait oublié (ou jugé exagérées) les recommandations de sa maman. D'où sa méfiance, qui s'exprime en **piques récurrentes** (« les renards, ça parle beaucoup », « je ne comprendrai jamais les renards »…), qui font rire tant qu'on ne connaît pas la cause.
 - La révélation vient **à la fin** du récit ; on **plante des indices** dès les premiers chapitres (phrase coupée, réaction à un renard, sujet évité).
 - Gab ne pose pas toutes les questions : c'est aussi une façon de respecter ce qu'elle ne veut pas dire.
 
@@ -1236,9 +1236,9 @@ Deux fils courent sur toute l'histoire. Ils se nourrissent des dialogues (pas de
 ## Fil rouge 1 : le mystère d'Andrea
 
 - Gab ne sait rien de ce qu'Andrea a vécu entre les vacances de Kids et leurs retrouvailles à Košice. Elle reste évasive (« Longue histoire. », « Plus tard. »).
-- **Le secret (retenu le 5 octobre) : Andrea a été trahie par un autre renard**, en qui elle avait confiance. Elle se méfie depuis des renards (et des prédateurs en général), sauf de Gab, qu'elle connaît d'avant.
+- **Le secret (retenu le 5 octobre) : Andrea a été trahie par un renard inconnu**, qu'elle prenait pour un ami et qui l'a attirée dans un piège (suggéré, pas raconté). Il n'est pas forcément recroisé et n'est **pas le but du château**. Elle se méfie depuis des renards (et des prédateurs en général), sauf de Gab, qu'elle connaît d'avant.
 - Cela se voit dans des **piques récurrentes**, drôles tant qu'on ignore la cause : *Líšky veľa rozprávajú.* (« Les renards, ça parle beaucoup. »), *Líšky nikdy nepochopím.* (« Je ne comprendrai jamais les renards. »). Gab encaisse en riant, et elle le « teste » de temps en temps.
-- **Indices semés** : chapitres 1 à 4 : seulement les piques ; milieu du récit : une phrase coupée, un renard croisé qu'elle évite ; fin : la révélation (qui, quand, pourquoi). Le secret n'est révélé qu'à la fin, et seulement si on décide de le révéler.
+- **Indices semés** : chapitres 1 à 4 : seulement les piques ; milieu du récit : une phrase coupée, un rappel de sa maman (« maman disait… ») ; fin : la révélation (qui, quand, pourquoi). Le secret n'est révélé qu'à la fin, et seulement si on décide de le révéler.
 - Le contraste avec Gab donne de la profondeur : lui a peur de la perdre, elle a peur d'être trahie à nouveau, donc se garde de s'attacher. Un renard (Gab) qui reste, c'est sa preuve.
 - Pédagogie : le passé est un bon terrain pour ce fil (« Qu'est-ce que tu as fait ? »), une fois le passé introduit (voir §18).
 
@@ -1425,11 +1425,9 @@ Réponse :
 *Proposition : une ou deux répliques de rappel dans le premier micro-dialogue du chapitre (« Alors, on est où ? » / « Au bord du lac, comme hier. »), sans jamais écrire « chapitre précédent » ni renvoyer à une fiche.*
 Réponse :
 
-**Q32 ✅ — Le secret d'Andrea.** Réglée (5 oct.) : elle a été **trahie par un autre renard**, ce qui explique ses piques (« les renards ça parle beaucoup », « je comprendrai jamais les renards »). Restent à définir (pas urgent, avant le chapitre 4 environ) :
-- **Qui est ce renard** : un inconnu, quelqu'un de sa famille d'accueil, un personnage qu'on recroise (méchant récurrent, ou raté) ?
-- **Ce qu'il a fait** : mensonge, vol, abandon, piège ? Gardé léger pour des ados.
-- **Le lien avec l'aventure** : est-il au château, ou est-ce juste un souvenir ? Est-ce lui qu'on croise à la fin ?
-*Proposition : un renard **qui parle beaucoup** (cohérent avec la pique), charmant et menteur, qu'Andrea a cru ; on peut le recroiser en fin de récit, et Gab devient la preuve qu'on peut se fier à un renard.*
+**Q32 ✅ — Le secret d'Andrea.** Réglée (5 oct.) : elle a été **trahie par un renard inconnu**, qu'elle prenait pour un ami, et qui l'a entraînée dans un piège (elle a échappé de peu à finir « en lapin à la broche » avec ses autres amis renards). **Suggéré, jamais montré** ni raconté frontalement : ton léger, on le comprend entre les lignes. Elle était d'autant plus naïve qu'elle avait connu le gentil renard de Kids : elle avait oublié les recommandations de sa maman, ou les trouvait exagérées. D'où ses piques (« les renards, ça parle beaucoup », « je comprendrai jamais les renards »).
+- Le renard reste **vague et inconnu** : on ne le recroise pas nécessairement, et il n'est **pas le but du château**.
+- Reste à voir (pas urgent) : à quel point la vérité est dite à la fin (une phrase d'Andrea suffit-elle ?), et la maman d'Andrea apparaît-elle un jour (§12 / personnages) ?
 Réponse :
 
 **Q33 — Gab / Gabo et les gags « à la française ».** Gab se présente-t-il comme *Gabo* dès le début, ou *Gab* et c'est Andrea qui le rebaptise ? Quels types de gags : prononciation, faux-amis, gestes, politesse (*tu/vy*) ? Fréquence souhaitée ?
