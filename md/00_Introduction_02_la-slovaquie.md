@@ -1,7 +1,5 @@
 # Introduction (2/3) — La Slovaquie, de l'est à l'ouest
 
-@ TODO_img/carte-slovaquie.jpg | TODO : choisir une carte de la Slovaquie (avec Košice et Bratislava) sur Wikimedia Commons
-
 {{fr:Avant de monter dans le tram, un coup d'œil à la carte. La Slovaquie est un petit pays au milieu de l'Europe : moins d'un dixième de la France, et un peu plus de cinq millions d'habitants.}}
 
 ---
@@ -22,6 +20,10 @@
 ---
 
 ## L'est et l'ouest
+
+%: Košice et Bratislava
+% 48.7164, 21.2611 | {{Košice}}
+% 48.1439, 17.1070 | {{Bratislava}}
 
 {{fr:Košice, où ton histoire commence, est tout à l'est, près de l'Ukraine. Bratislava, la capitale, est tout à l'ouest, collée à l'Autriche et à la Hongrie : une capitale au bord de deux frontières, c'est rare ! Entre les deux, il y a plus de 400 kilomètres par la route.}}
 
