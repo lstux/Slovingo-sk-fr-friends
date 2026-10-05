@@ -6,7 +6,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 ## Conventions
 
-- Une réplique par ligne : `🦊 Gab`, `🐰 Andrea`, `💬 Narrateur` (présent narratif, phrases courtes). Les autres avatars : `🐻` Maťo, `🐹` Katka, `🐑` Babka Zuzana, `🦡` Marek, `🐿️` Ján, `🧑` un humain adulte (vouvoyé, désigné par sa fonction dans le texte du Narrateur).
+- Une réplique par ligne : `🦊 Gab`, `🐰 Andrea`, `💬 Narrateur` (présent narratif, phrases courtes). Les autres avatars : `🐻` Maťo, `🐹` Katka, `🐑` Babka Zuzana, `🦔` pani Ježková (commerçante, vouvoyée), `📻` la radio, `🐥` un canard, `🦡` Marek, `🐿️` Ján, `🧑` un humain adulte (vouvoyé, désigné par sa fonction dans le texte du Narrateur).
 - **Gab** s'écrit « Gab » dans ce document. Dans les fiches, ce sera `[USER_NAME]`. Pas de « Gabo » en dur.
 - **Genre** : Gab est un garçon (*bol som*, *rád*), Andrea une fille (*bola som*, *rada*).
 - **Tutoiement** entre ados et avec Babka Zuzana, **vouvoiement** (*vy*) avec les adultes inconnus, humains compris.
@@ -588,3 +588,785 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🐰 Áno. Tam sme sa spoznali, Gab.
 
+
+---
+
+# Kapitola 5 — Domov
+
+*Résumé : le village d'enfance sous les Tatras. Pani Ježková (vouvoyée) ne reconnaît pas tout de suite Gab, puis Maťo (14 ans, calme, énorme), Katka (13 ans, téléphone, sarcasme : ne l'appelez pas « petite ») et Babka Zuzana (qui évite soigneusement la bryndza). Premiers souvenirs au passé (« Keď som bol malý… »), Babka raconte que le ruisseau rétrécit chaque année et que la tempête de la veille était un record. Maťo et Katka décident de venir. Indice sur Andrea : une phrase de sa mère, coupée net. Fil rouge du temps limité : « Uvidíme. »*
+
+## Scéna 1
+
+💬 Dedina pod Tatrami. Je poludnie. Pred obchodom stojí pani Ježková a zametá schody.
+
+🦊 Dobrý deň, pani Ježková.
+
+🦔 Dobrý deň... Počkajte. To ste vy? Tá líška z leta?
+
+🦊 Áno, to som ja. Gab.
+
+🦔 Ježiš! Veď ste vyrástli! Predtým ste boli taký malý.
+
+🦊 A vy ste sa vôbec nezmenili.
+
+🦔 To je milé. Ale klamete.
+
+🐰 Dobrý deň, pani Ježková. Nevidela ste Maťa?
+
+🦔 Je na lúke. Hľadá ovce. Alebo ovce hľadajú jeho. To nikdy neviem.
+
+## Scéna 2
+
+💬 Na lúke sedí veľký medveď. Okolo neho sa pasú ovce.
+
+🦊 Maťo!
+
+🐻 Gab? Andrea? To je prekvapenie!
+
+🦊 Päť rokov, Maťo! Ty si veľký ako dom!
+
+🐻 Ty si bol malý. Ja som bol už vtedy veľký.
+
+🐰 Ahoj, Maťo. Ako sa máš?
+
+🐻 Dobre. Ovce sú pokojné, babka je zdravá. Čo viac potrebujem?
+
+🦊 A ako sa majú ovce?
+
+🐻 Ovce sú stále ovce.
+
+🐻 Poďte. Babka sa poteší.
+
+## Scéna 3
+
+💬 Pri dome stojí Katka. Má v ruke telefón a nepozerá hore.
+
+🐻 Katka! Pozri, kto prišiel.
+
+🐹 Chvíľu. Dopíšem správu.
+
+💬 Katka píše ešte desať sekúnd. Potom zdvihne hlavu.
+
+🐹 Ahoj, Andrea. Ahoj, Gab. Pamätám si ťa. Mala som vtedy osem.
+
+🦊 Ahoj, malá Katka!
+
+🐹 Nie som malá. Mám trinásť.
+
+🐰 Gab...
+
+🦊 Prepáč. Veľká Katka.
+
+🐹 Katka. Jednoducho Katka.
+
+🦊 Rozumiem. Katka.
+
+🐹 Dobre. A ty si stále taký hlučný?
+
+🦊 Ja? Ja som tichý!
+
+🐰 Nie.
+
+## Scéna 4
+
+💬 V kuchyni vonia čaj. Pri sporáku stojí babka Zuzana a miešá niečo vo veľkom hrnci.
+
+🐑 Deti moje! Poďte ďalej! Sadnite si!
+
+🦊 Dobrý deň, babka. Ďakujem.
+
+🐑 Ty si Gabo, však? Ten z Francúzska. Si chudý. Budeš jesť.
+
+🦊 Ďakujem. Čo máme dnes?
+
+🐑 Kapustové halušky.
+
+🦊 S bryndzou?
+
+🐑 Bez bryndze.
+
+🦊 Prečo?
+
+🐑 Ja som ovca. O bryndzi nehovoríme.
+
+🐰 Babka, to hovoríš vždy.
+
+🐑 Lebo je to pravda.
+
+## Scéna 5
+
+💬 Po jedle sedia všetci pri stole. Vonku sa už stmieva. Babka rozpráva.
+
+🐑 Keď som bola mladá, v potoku bolo veľa vody. Celé leto.
+
+🐹 Babka, to hovoríš vždy.
+
+🐑 Lebo je to pravda, Katka. A v zime bolo veľa snehu. Sneh bol až po okná.
+
+🐻 Pamätám sa. Keď som bol malý, mal som sánky. Teraz ich mám v pivnici.
+
+🦊 Keď som bol malý, spadol som do potoka.
+
+🐰 Spadol si do potoka dvakrát.
+
+🦊 Trikrát. Ale prvýkrát bol najkrajší.
+
+🐑 Potok sa zmenšuje. Každý rok je menší. Môj starý otec hovoril: voda príde a voda odíde. Ale takto som to ešte nevidela.
+
+🐻 Tu bolo celé leto sucho. A včera v noci tak pršalo, že potok bol hnedý. Ovce nevedeli, čo robiť.
+
+🐰 Aj my sme boli v tej búrke. Hore pri jazere.
+
+🐹 Počkajte. V rádiu hovoria, že v Liptove stúpa rieka.
+
+🐰 Už?
+
+🐹 Mám to v telefóne. Prečítam: „Váh stúpa. Ľudia v dedinách pri rieke majú byť pripravení.“
+
+🦊 Takže najprv sucho a potom povodeň?
+
+🐹 Presne tak. Gratulujem. To je dnes svet.
+
+## Scéna 6
+
+💬 Je noc. Gab a Andrea sedia na lavičke pred domom. Maťo a Katka stoja vedľa nich.
+
+🐻 Babka povedala, že idete do Liptova.
+
+🐰 Ešte neviem. Idem tam, kde je voda. Alebo tam, kde nie je.
+
+🐹 Idem s vami.
+
+🐰 Ty? Ty si...
+
+🐹 Ak povieš „malá“, idem sama.
+
+🐰 ...moja sesternica. A ty vieš, kde je signál.
+
+🐹 Presne. Ja som najužitočnejšia.
+
+🐻 Ja idem tiež. Niekto musí niesť batohy.
+
+🦊 To je pravda.
+
+🐻 A niekto musí niesť Katku, keď bude unavená.
+
+🐹 Maťo!
+
+💬 Babka Zuzana otvára okno.
+
+🐑 Vezmite si bundy. A čapice. A ponožky. Ponožky sú dôležité.
+
+🐑 Keď som bola mladá, bola som raz v Bratislave. Bola tam veľká rieka a veľa áut. Už som tam nebola. Ale ak tam pôjdete, pozdravte ju.
+
+🐻 Koho?
+
+🐑 Bratislavu.
+
+💬 Okno sa zatvorí. Maťo s Katkou idú pripraviť batohy.
+
+🦊 Andrea? Ďakujem, že som mohol prísť s tebou.
+
+🐰 Neprišiel si so mnou. Prišiel si sám. A ja som tu bola.
+
+🦊 To je to isté.
+
+🐰 To nie je to isté. Ale dobre.
+
+🐰 Moja mama vždy hovorila, že mám byť opatrná. Najmä pri...
+
+💬 Andrea sa zastaví. Gab nič nehovorí. Pozerá na hviezdy.
+
+🐰 Nič. Zabudni.
+
+🦊 Na konci leta musím ísť domov, Andrea.
+
+🐰 Teraz si tu.
+
+🦊 A potom?
+
+🐰 Potom uvidíme.
+
+---
+
+# Kapitola 6 — Povodeň
+
+*Résumé : le Liptov. Il pleut depuis trois jours, le train s'arrête (voie inondée), le Váh déborde. Pour la première fois, les héros ne cherchent pas l'eau qui manque mais fuient celle qui monte. Un pompier (vouvoyé) leur demande un coup de main : déplacer les petits animaux d'un village vers l'école. Ils aident, mouillés comme des poissons ; Katka protège son téléphone avant tout (« je n'ai que deux mains, le téléphone est la troisième »). Soirée au gymnase : soupe, entraide, et une renarde bénévole qui sert le thé : Andrea ne le prend qu'après que Gab a bu. Idée qui germe : « il faut que quelqu'un le dise. »*
+
+## Scéna 1
+
+💬 Vlak ide pomaly. Za oknom už tretí deň prší.
+
+🐹 Tri dni. Tri dni pršalo a pred týždňom nepršalo vôbec.
+
+🐻 Počasie sa zbláznilo.
+
+🦊 Alebo sa nikdy nezbláznilo, ale my sme si to nevšimli.
+
+🐰 To bola veľmi múdra veta. Na líšku.
+
+🦊 Ďakujem. Mám dobrý deň.
+
+🐹 Kde vlastne sme?
+
+🐰 Ešte v Liptove. Ešte dve zastávky a sme pri Mare.
+
+🐹 Pri čom?
+
+🐰 Pri Liptovskej Mare. Je to veľké jazero. Voda je tam vždy.
+
+🐻 Alebo bola.
+
+💬 Vlak zrazu zastane. Dlho nič nejde.
+
+## Scéna 2
+
+💬 Rušeň zapíska. Z vlaku vystupuje rušňovodič. Hovorí s revízorkou.
+
+🧑 Ďalej nepôjdeme. Trať je pod vodou.
+
+🐰 Pod vodou? Celá?
+
+🧑 Dva kilometre. Ďalej sa nedá. Prepáčte, ale musíte vystúpiť.
+
+🦊 A kde sme?
+
+🧑 Pri Liptovskej Mare. Dedina je tam dole.
+
+🐹 Hotovo. Čo robíme?
+
+🐻 Ideme pešo.
+
+🐹 Pešo? V daždi?
+
+🐻 Máme bundy.
+
+🐹 Ale ja mám telefón.
+
+🐻 Telefón nemá nohy, Katka.
+
+🐹 Preto ho nosím ja.
+
+## Scéna 3
+
+💬 Dedina leží pri rieke. Rieka už nie je rieka. Je to široké hnedé jazero.
+
+🦊 Pozri! Voda je až pri domoch!
+
+🐰 A stúpa.
+
+🐹 Podľa aplikácie stúpne ešte o meter.
+
+🐻 O meter? To je veľa.
+
+🐹 Hej. Veľa vody. A veľa daždivých dní. A veľa mokrých ponožiek.
+
+💬 Po vode pláva niečo veľké. Je to búdka pre psa. Vo vnútri nikto nie je.
+
+🦊 Dúfam, že pes je v dome.
+
+🐰 Dúfam, že pes je v škole.
+
+🐻 Dúfam, že pes vie plávať.
+
+## Scéna 4
+
+💬 Pri ceste stojí hasič v žltej bunde. Má veľa práce a málo času.
+
+🧑 Dobrý deň. Ste odtiaľto?
+
+🐰 Nie, sme len na ceste. Môžeme vám pomôcť?
+
+🧑 Určite. Potrebujem každého. Pozrite, tam hore je škola. Stojí vyššie, voda tam nedôjde.
+
+🦊 A čo máme robiť?
+
+🧑 V domoch pri rieke sú malé zvieratá. Kačice, králiky, myši, veveričky. Musia ísť do školy. Veľké zvieratá sa zachránia samy, ale tie malé nie.
+
+🐻 My ich tam odnesieme.
+
+🧑 Presne tak. Ďakujem vám. A prosím, buďte opatrní. Voda je silná.
+
+🐹 Môžem nosiť len ľahké veci?
+
+🧑 Môžete. Kto nesie ľahké veci, pomáha tiež.
+
+🐹 Počuli ste to? Ja pomáham!
+
+## Scéna 5
+
+💬 Gab a Andrea chodia od domu k domu. Maťo nesie veľké koše. Katka drží telefón nad hlavou, aby bol suchý.
+
+🐹 Nikdy nepustím telefón. Nikdy!
+
+🐻 Katka, drž kôš!
+
+🐹 Mám dve ruky. Telefón je tretia.
+
+🦊 Ty nemáš tri ruky!
+
+🐹 Mám. Len neviditeľnú.
+
+💬 Z prvého domu vyjde stará kačica s dvoma malými kačiatkami.
+
+🐻 Dobrý deň. Ideme do školy. Poďte s nami.
+
+🐥 Ďakujem, pane medveď. Už sme si mysleli, že nás nikto nezachráni.
+
+🦊 Všetko bude dobré.
+
+🐰 Neslúb, čo nevieš.
+
+🦊 Tak aspoň teraz bude dobre.
+
+💬 Z druhého domu vyjde ježko. Nesie veľkú chladničku.
+
+🐰 Prečo nesieš chladničku?
+
+🦔 Je v nej všetko, čo mám.
+
+🐻 Chladničku nepotrebuješ. V škole je jedlo.
+
+🦔 Ale moja je lepšia.
+
+🐹 Nechajte ho. Každý zachraňuje, čo je mu najdrahšie.
+
+🦊 Ja by som zachránil telefón.
+
+🐹 Vidíš? Konečne sa učíš.
+
+💬 Tak chodia celé popoludnie. Za štyri hodiny sú v škole štyridsiati zachránení. Všetci sú mokrí ako ryby.
+
+## Scéna 6
+
+💬 Škola. V telocvični sú desiatky zvierat. Na zemi ležia matrace a deky. V rohu varí veľký hrniec polievky.
+
+🐻 Toľko zvierat na jednom mieste som ešte nevidel.
+
+🐹 A toľko mokrých.
+
+💬 K Gabovi a Andree príde mladá líška v zelenej veste. Nesie podnos s čajom.
+
+🦊 (dobrovoľníčka) Dobrý večer. Dáte si čaj? Je horúci.
+
+🦊 Ďakujem, to je od vás milé.
+
+💬 Gab si berie šálku. Andrea sa nepohne.
+
+🦊 Andrea? Nechceš?
+
+🐰 Počkaj. Najprv ty.
+
+💬 Gab sa napije. Chvíľu počká. Potom podá šálku Andree.
+
+🐰 Dobre. Ďakujem.
+
+💬 Maťo sa pozerá na Andreu, ale nič nehovorí.
+
+🐻 Andrea? Všetko v poriadku?
+
+🐰 Áno. Som len unavená.
+
+🐹 Hovoríš to už druhýkrát dnes.
+
+🐰 Lebo som unavená.
+
+💬 Riaditeľka školy prechádza medzi matracmi a každému poďakuje. Pri Maťovi sa zastaví.
+
+🧑 Dobrý večer. Hasiči mi povedali, že ste pomáhali. Veľmi vám ďakujem.
+
+🐻 To nie je za čo. Stále je tu miesto?
+
+🧑 Pre vás vždy. Sú tu deky aj polievka. Len spať musíte tichšie.
+
+🐹 Ja spím vždy ticho.
+
+🐻 Katka chrápe.
+
+🐹 Nechrápem!
+
+💬 Po chvíli sedia všetci pri polievke. Vonku prší.
+
+🐹 Mesiac sucho. A potom toto. Čo sa to s tým svetom deje?
+
+🐻 Neviem. Ale niekto by to mal povedať.
+
+🦊 Povedať? Komu?
+
+🐻 Niekomu, kto počúva.
+
+🐹 Ľudia v dedine hovoria, že nikto nepočúva. Že všetci sedia dole a rozhodujú.
+
+🐰 Dole?
+
+🐹 Dole v Bratislave.
+
+🦊 Tak môžeme ísť do Bratislavy.
+
+🐰 Ja som tam nebola nikdy.
+
+🦊 Ani ja. Takže to môžeme zistiť spolu.
+
+---
+
+# Kapitola 7 — Cesta
+
+*Résumé : en descendant du Liptov, ils tombent sur un chantier : une nouvelle route doit traverser la forêt. Le contremaître (vouvoyé) les laisse passer et propose de leur montrer le chemin. Premier vrai débat du groupe : Katka est pour (« on va plus vite »), Maťo contre, Gab hésite, Andrea veut les deux. Le contremaître donne son avis, lui aussi nuancé. Un camionneur les prend à bord ; à la radio, le journal du soir : Správy STVR, qui parle de « situation exceptionnelle » sans dire pourquoi. Idée de Katka : « Allons à la télévision. » Gab croit à une blague. Katka, non.*
+
+## Scéna 1
+
+💬 Ráno prestalo pršať. Voda v dedine pomaly klesá. Štyri zvieratá stoja na ceste so štyrmi batohmi a jedným telefónom.
+
+🐻 Dobre. Ideme.
+
+🐹 Kam?
+
+🐻 Smerom na juh. Cez les.
+
+🐰 Podľa mapy tam vedie cesta.
+
+🐹 Podľa mapy tam vedie cesta. Podľa mňa tam je les.
+
+🦊 Cesta cez les. To je dobrý začiatok.
+
+🐹 Je to dobrý začiatok. Ale koniec nepoznáme.
+
+🐰 Ako vždy.
+
+## Scéna 2
+
+💬 Najprv je v lese ticho. Potom začujú hluk motorov.
+
+🦊 Počujete to?
+
+🐻 Bager. Možno dva.
+
+🐹 Ja počujem aj kamión.
+
+🐰 To je zlé. Znamená to, že cesta je blízko.
+
+💬 Pred nimi stojí vysoký plot. Na plote visí veľká tabuľa.
+
+🐰 „Nová cesta. Vstup zakázaný.“
+
+🐹 Pre mňa to znamená: vstup možný.
+
+🐻 Katka!
+
+🐹 Žartujem. Ale len trochu.
+
+## Scéna 3
+
+💬 Za plotom je v lese široká rana. Je tam piesok, kamene a veľké stroje.
+
+🦊 Pozri, koľko stromov chýba.
+
+🐻 Tu bola jedna z mojich obľúbených ciest. Chodil som tadiaľto s babkou.
+
+🐰 A teraz je tu kameň.
+
+🐹 A zajtra asfalt.
+
+🦊 Bude sa ti páčiť asfalt?
+
+🐹 Asfalt je rovný. Je dobrý pre bicykel.
+
+🐻 Katka nemá bicykel.
+
+🐹 Ale mohla by mať.
+
+💬 K plotu príde muž v žltej prilbe.
+
+🧑 Dobrý deň. Čo tu robíte?
+
+## Scéna 4
+
+🦊 Dobrý deň. Chceme ísť cez les. Je to možné?
+
+🧑 Nie je to bezpečné. Ale ak chcete, ukážem vám cestu. Ja som stavbyvedúci.
+
+🐰 Ďakujem. A čo tu staviate?
+
+🧑 Novú cestu. Spojí východ so západom. Bude rýchla a bezpečná.
+
+🐹 Rýchla? Pre koho?
+
+🧑 Pre ľudí. Pre autá. Pre všetkých, ktorí sa ponáhľajú.
+
+🐻 A pre zvieratá?
+
+🧑 Pre zvieratá urobíme mosty. Dva alebo tri.
+
+🐻 Dva alebo tri?
+
+🧑 Možno štyri. Ešte sa rozhoduje.
+
+🐰 Kto rozhoduje?
+
+🧑 Ľudia v kanceláriách. Ja len staviam.
+
+## Scéna 5
+
+💬 Idú po novej ceste. Je tvrdá a horúca. Stavbyvedúci kráča pred nimi.
+
+🐹 Podľa mňa je to dobrý nápad. Auto pôjde z Košíc do Bratislavy za päť hodín. Teraz to trvá osem.
+
+🐻 Nesúhlasím. Rýchla cesta je zlá cesta. Zničí les, a les sa nevráti.
+
+🐹 Ale ľudia potrebujú cestu. Aj ty.
+
+🐻 Ja potrebujem les.
+
+🦊 Počkajte. Ja neviem, čo si mám myslieť.
+
+🐰 Môžeš myslieť dve veci naraz?
+
+🦊 Môžem. Ale nerád.
+
+🐰 Podľa mňa majú pravdu obaja. Cestu potrebujeme, lebo bez nej by sme boli pomalší. Les potrebujeme, pretože bez neho nie je voda. A voda je to, čo hľadáme.
+
+🧑 To si myslím aj ja.
+
+🐹 Naozaj?
+
+🧑 Postavil som päť ciest. Na každej mi bolo trochu ľúto stromov. Ale chcem, aby moje deti mali prácu. A cestu do školy.
+
+🐻 To je férová odpoveď.
+
+🧑 Ďakujem. Hľadajte svoje miesto. Ale držte sa pravej strany.
+
+🐹 Súhlasím s Maťom, že les je dôležitý. A súhlasím so stavbyvedúcim, že cesta je dôležitá. Takže súhlasím so všetkými.
+
+🦊 To je veľmi diplomatické.
+
+🐹 Ja viem. Môj plán je byť prezidentkou.
+
+## Scéna 6
+
+💬 Na konci cesty stojí kamión. Vodič pije kávu z termosky.
+
+🐰 Dobrý deň. Idete na západ?
+
+🧑 Idem až do Bratislavy. Prečo?
+
+🐹 Nás by to zaujímalo. Môžeme ísť s vami?
+
+🧑 Štyria? Zmestíte sa. Vzadu je miesto.
+
+💬 Kamión ide celú noc. V kabíne hrá rádio.
+
+📻 ...a teraz Správy STVR. Dobrý večer. Dnes sa v Liptove...
+
+🐹 Správy! Teraz!
+
+🧑 Počúvajte. Hovoria o povodni.
+
+📻 ...Rieka Váh dosiahla maximálnu úroveň. Obyvatelia dedín pri rieke sa presunuli do škôl. Vláda vyhlásila mimoriadnu situáciu...
+
+🐻 O nás nehovoria.
+
+🐹 O nás nehovoria. A hovoria to zle.
+
+🦊 Zle? Čo je zle?
+
+🐹 Hovoria „mimoriadna situácia“. A nehovoria, že pred mesiacom bolo sucho. A že zmizla voda.
+
+🐰 Nehovoria, prečo.
+
+🐹 Takže im to musíme povedať.
+
+🦊 Kto?
+
+🐹 My.
+
+🦊 A ako?
+
+🐹 Pôjdeme tam. Do televízie.
+
+🦊 Do televízie? To nemyslíš vážne.
+
+🐹 Myslím.
+
+🐻 A čo im povieme?
+
+🐹 Čo sme videli. Všetko.
+
+🦊 Katka, to je blázon...
+
+🐰 Počkaj. To nie je zlé.
+
+🦊 Naozaj? Zajac, líška, medveď a svišť v televízii?
+
+🐰 Zajačica.
+
+🦊 Zajačica, líška, medveď a svišť v televízii. Lepšie?
+
+🐰 Trochu.
+
+---
+
+# Kapitola 8 — Datacentrum
+
+*Résumé : le camion les dépose près d'un fleuve, en région centrale. Un énorme bâtiment gris ronronne là où il y avait une zone humide ; plus de grenouilles. Ils rencontrent Marek, blaireau, technicien du datacentre : il leur explique le refroidissement à l'eau, les 200 emplois, l'internet qui passe par là (le téléphone de Katka y vit peut-être). Premier vrai « pour et contre », sans méchant : Marek n'est pas fier, mais il a une famille. Andrea reste méfiante (« les gens qui sourient »), Gab fait écho au gag « veľa / veľmi ». Marek leur conseille la télé : les chefs regardent les infos de 19 h.*
+
+## Scéna 1
+
+💬 Ráno. Kamión zastane pri ceste. Pred nimi je široká rovina a rieka.
+
+🧑 Tu končím. Do Bratislavy idem zajtra ďalej.
+
+🐰 Ďakujeme za odvoz.
+
+🧑 Nie je za čo. A buďte opatrní. Tu sa veľa zmenilo.
+
+🦊 Ďakujeme. Dovidenia!
+
+🐹 Aspoň sme neprespali v daždi.
+
+🐻 Spali sme v kamióne.
+
+🐹 To je skoro hotel.
+
+## Scéna 2
+
+💬 Pri rieke stojí veľká budova. Je sivá a dlhá ako lietadlo. Z jej strechy ide para.
+
+🐻 Čo je to?
+
+🐹 Podľa mapy to má byť mokraď.
+
+🦊 Mokraď?
+
+🐹 Mokraď. Tam, kde žili žaby.
+
+🐰 Niečo tu chýba.
+
+🦊 Ticho. Žiadne žaby nekvákajú.
+
+🐻 V mokrade je v lete vždy hluk.
+
+🐰 Nepočujem nič. Len stroje.
+
+## Scéna 3
+
+💬 Pred bránou je veľký nápis: „Datacentrum Zelená vlna“. Z budovy vychádza jazvec v modrej veste.
+
+🦡 Dobrý deň. Hľadáte niekoho?
+
+🦊 Dobrý deň. Hľadáme vodu. A žaby.
+
+🦡 Aha. To je častá otázka. Volám sa Marek. Pracujem tu.
+
+🐹 Čo je to datacentrum?
+
+🦡 Veľa počítačov.
+
+🦊 Veľmi veľa?
+
+🐰 Veľa. Nie veľmi.
+
+🦊 Ďakujem, trénerka.
+
+🦡 Servery pracujú celý deň. Vo vnútri je horúco, preto ich musíme chladiť. Vodou.
+
+## Scéna 4
+
+🐹 Takže tá voda...
+
+🦡 Áno. Pochádza z rieky a z podzemia. A mokraď bola tam, kde stojíme.
+
+🐻 Kam sa podeli žaby?
+
+🦡 Neviem. Odišli niekam. Alebo...
+
+🐻 Alebo?
+
+🦡 Alebo sa im nepáčilo bývať vedľa serverov.
+
+💬 Marek sa pozerá na rieku. Nepozerá sa im do očí.
+
+🐰 Vy ste vedeli, že tu bola mokraď?
+
+🦡 Áno. Vedel som.
+
+🐰 A aj tak ste prišli pracovať.
+
+🦡 Aj tak.
+
+## Scéna 5
+
+💬 Marek ich vedie dovnútra. V hale je ticho a zima. Stoja tu tisíce skriniek s blikajúcimi svetlami.
+
+🦡 Tu žije internet.
+
+🐹 Môj telefón je niekde tu?
+
+🦡 Možno. Ak ste si odfotili raňajky, fotka je pravdepodobne v tejto hale.
+
+🐹 To je desivé.
+
+🐻 A zároveň užitočné.
+
+🦡 Aj to. Datacentrum má dve strany. Pracuje tu dvesto ľudí. Ľudia cez neho posielajú správy, platia, učia sa. Všetko to ide cez takéto miesta.
+
+🐰 Aj keď kvôli tomu zmizla mokraď.
+
+🦡 Aj keď. Viem, že to znie zle. Hoci neviem, či by bolo lepšie bez neho.
+
+🦊 Podľa mňa nie je „neviem“ dobrá odpoveď.
+
+🦡 Podľa mňa je to jediná čestná odpoveď. Mám štyri deti. Ak odídem, dostane moje miesto niekto iný. A mokraď sa aj tak nevráti.
+
+🐹 Takže je to jedno?
+
+🦡 Nie. Nie je to jedno. Ale nie je to ani jednoduché.
+
+🐻 Môžu žaby žiť niekde inde?
+
+🦡 Dúfam. Pri potoku, päť kilometrov odtiaľto, je malé jazierko. Možno sú tam.
+
+## Scéna 6
+
+💬 Je večer. Marek sedí s nimi pred budovou. Ponúka im čaj a sendviče.
+
+🦡 Viem, že sa vám nepáči, čo tu vidíte. Mne sa to nepáči tiež.
+
+🐰 Prečo nám to hovoríte?
+
+🦡 Lebo ste sa pýtali.
+
+🐰 Aj jedna líška sa raz pekne usmievala.
+
+🦊 Počkaj... Ja sa tiež pekne usmievam.
+
+🐰 Práve preto.
+
+🐻 Andrea.
+
+🐰 Žartovala som. Skoro.
+
+🦡 Rozumiem. Nemusíte mi veriť. Ale chcem vám dať jednu radu.
+
+🐹 Počúvame.
+
+🦡 Naši šéfovia pozerajú každý večer Správy o siedmej. Všetci. Ak chcete, aby vás niekto počul, choďte tam.
+
+🐻 Kde?
+
+🦡 Do Bratislavy. Do televízie.
+
+🐹 To sme už vymysleli.
+
+🦡 Naozaj? Vy ste múdri.
+
+🐹 Hej. Hovorí mi to každý.
+
+🐰 Marek... Ďakujeme.
+
+🦡 Nie je za čo. Ak vás uvidím v televízii, budem sa smiať. A možno aj plakať.
+
+🦊 A ak nás neuvidíte?
+
+🦡 Tak vám budem držať palce a pozerať niečo iné.
+
+💬 Večer sa ochladí. Pri rieke je opäť ticho. Ani jedna žaba.
