@@ -1,0 +1,135 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-na-v-chode",
+      "type": "qcm",
+      "l1": "à l'est",
+      "l2": "na východe",
+      "choices_l1": [
+        "à l'ouest",
+        "au nord",
+        "au sud"
+      ],
+      "choices_l2": [
+        "na západe",
+        "na severe",
+        "na juhu"
+      ]
+    },
+    {
+      "id": "qcm-rak-sko",
+      "type": "qcm",
+      "l1": "l'Autriche",
+      "l2": "Rakúsko",
+      "choices_l1": [
+        "la Pologne",
+        "la Hongrie",
+        "l'Ukraine"
+      ],
+      "choices_l2": [
+        "Poľsko",
+        "Maďarsko",
+        "Ukrajina"
+      ]
+    },
+    {
+      "id": "qcm-slovensko",
+      "type": "qcm",
+      "l1": "la Slovaquie",
+      "l2": "Slovensko",
+      "choices_l1": [
+        "la Pologne",
+        "la Tchéquie",
+        "l'Ukraine"
+      ],
+      "choices_l2": [
+        "Poľsko",
+        "Česko",
+        "Ukrajina"
+      ]
+    },
+    {
+      "id": "listen-bratislava-je-na-z-pade",
+      "type": "listen",
+      "l1": "Bratislava est à l'ouest.",
+      "l2": "Bratislava je na západe.",
+      "choices_l1": [
+        "Bratislava est à l'est.",
+        "Košice est à l'ouest.",
+        "Bratislava est au nord."
+      ]
+    },
+    {
+      "id": "listen-ko-ice-na-v-chode",
+      "type": "listen",
+      "l1": "Košice ? À l'est.",
+      "l2": "Košice? Na východe.",
+      "choices_l1": [
+        "Košice ? À l'ouest.",
+        "Bratislava ? À l'est.",
+        "Košice ? Au sud."
+      ]
+    },
+    {
+      "id": "listen-na-z-pade",
+      "type": "listen",
+      "l1": "à l'ouest",
+      "l2": "na západe",
+      "choices_l1": [
+        "à l'est",
+        "au nord",
+        "au sud"
+      ]
+    },
+    {
+      "id": "match-po-sko",
+      "type": "match",
+      "l1": [
+        "la Pologne",
+        "la Tchéquie",
+        "l'Autriche",
+        "la Hongrie"
+      ],
+      "l2": [
+        "Poľsko",
+        "Česko",
+        "Rakúsko",
+        "Maďarsko"
+      ]
+    },
+    {
+      "id": "match-na-v-chode",
+      "type": "match",
+      "l1": [
+        "à l'est",
+        "à l'ouest",
+        "au nord",
+        "au sud"
+      ],
+      "l2": [
+        "na východe",
+        "na západe",
+        "na severe",
+        "na juhu"
+      ]
+    },
+    {
+      "id": "order-bratislava-je-na-z-pade",
+      "type": "order",
+      "l1": "Bratislava est à l'ouest.",
+      "l2": "Bratislava je na západe.",
+      "tokens_l1": [
+        "Bratislava",
+        "est",
+        "à l'ouest."
+      ],
+      "tokens_l2": [
+        "Bratislava",
+        "je",
+        "na západe."
+      ]
+    }
+  ]
+}

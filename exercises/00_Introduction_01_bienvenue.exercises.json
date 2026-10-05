@@ -1,0 +1,28 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "listen-ahoj",
+      "type": "listen",
+      "l1": "Salut !",
+      "l2": "Ahoj!",
+      "choices_l1": [
+        "Merci !",
+        "Non !",
+        "Oui !"
+      ]
+    },
+    {
+      "id": "listen-ahoj-andrea",
+      "type": "listen",
+      "l1": "Salut, Andrea !",
+      "l2": "Ahoj, Andrea!",
+      "choices_l1": [
+        "Au revoir, Andrea !",
+        "Merci, Andrea !",
+        "Salut, Katka !"
+      ]
+    }
+  ]
+}

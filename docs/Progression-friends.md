@@ -15,6 +15,7 @@ Friends suppose Kids acquis, mais peut-être **il y a longtemps** : le chapitre 
 
 ## Structure générale
 
+- **Introduction** (3 fiches) : mode d'emploi, idée du cours, géographie de base, rappel de prononciation, *ty* / *vy*.
 - **Chapitre 1** : remise en jambes de Kids, dans l'histoire (retrouvailles à Košice).
 - **Chapitres 2 à 12** : un chapitre par étape du voyage, de Košice à Bratislava.
 - **Épilogue** : le rêve (Gab se réveille le lendemain des retrouvailles).

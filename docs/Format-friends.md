@@ -53,7 +53,7 @@ Chaque chapitre doit pouvoir se lire d'un trait en enchaînant les fiches 01 à 
 | 🧑 | Les humains | **adultes uniquement**, désignés par leur fonction (*vodič*, *redaktorka*…), vouvoyés |
 
 - Entre ados et avec Babka Zuzana : **tutoiement**. Le vouvoiement (*vy*) vaut pour tous les adultes inconnus, y compris les humains.
-- `[ASK_USER_NAME]` apparaît **une seule fois**, au début de la première fiche du cours (chapitre 1, fiche 01), en français et avant tout contenu slovaque. Ensuite on utilise `[USER_NAME]` dans les répliques et la narration. Le nom par défaut est `site.user_name_default` dans `lang.json` (*Gab*).
+- `[ASK_USER_NAME]` apparaît **une seule fois**, dans la première fiche de l'introduction (`00_Introduction_01_bienvenue`), en français et avant tout contenu slovaque. Ensuite on utilise `[USER_NAME]` dans les répliques et la narration. Le nom par défaut est `site.user_name_default` dans `lang.json` (*Gab*).
 - Dans la bêta, **Andrea est fixe, en dur**, et le cours est écrit pour des **garçons** (Gab). Pas de « Gabo » écrit en dur dans les dialogues : avec un prénom saisi par l'élève, il serait faux.
 - Un prénom saisi **ne se décline pas** : on l'emploie pour appeler quelqu'un ou comme sujet (*Ahoj, [USER_NAME]!*, *[USER_NAME] je v električke*), jamais à l'accusatif ni au datif (*pre Gaba*, *Gabovi*…).
 - Le marqueur de locuteur va **après** le `!` : `! 🐰 Ahoj!` (jamais `🐰 ! Ahoj`).
@@ -117,7 +117,7 @@ Exemple : `10_Series_01_Kosice_02_ako-sa-mas.md`.
 - **Titres** : `# Série Košice (2/5) — Ako sa máš?` ; extra : `# Košice (extra) — Večer` (comme Kids : les fiches 01 à 05 sont numérotées sur 5, l'extra n'a pas de numéro).
 - Le **thème** du nom de fichier donne la clé de `lang.json` → `subgroups` et `subgroup_themes`, en minuscules et **sans diacritiques** (`Košice` → `kosice`).
 - Les noms de fichiers n'ont pas d'accent ; les titres à l'intérieur, si.
-- Pas de phase d'introduction : Kids est supposé acquis, le cours démarre à la série 01.
+- **Introduction « Avant de commencer »** : 3 fiches `00_Introduction_NN_titre.md`, titres `# Introduction (n/3) — Titre` : 01 Bienvenue (prénom, idée du cours, mode d'emploi), 02 La Slovaquie (géographie, voisins, étapes du voyage), 03 Remise en route (prononciation, *ty* / *vy*). Ton plus sobre que dans Kids ; pas de mot de vocabulaire à apprendre, sauf les noms de lieux et les points cardinaux. Kids est supposé acquis : la série 01 démarre juste après.
 
 ## 8. Vocabulaire
 

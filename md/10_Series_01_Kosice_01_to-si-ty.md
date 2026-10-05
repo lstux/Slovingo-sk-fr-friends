@@ -2,13 +2,7 @@
 
 @ TODO_img/kosice-elektricka.jpg | TODO : choisir une image (un tram dans une rue de Košice) sur Wikimedia Commons
 
-## Salut ! Comment tu t'appelles ?
-
-{{fr:Quelques années ont passé depuis les Tatras. Tu as quinze ans, tu reviens en Slovaquie, et tu es dans un tram à Košice. Écris ton prénom ici.}}
-
-[ASK_USER_NAME]
-
----
+{{fr:Quelques années ont passé depuis les Tatras. Tu as quinze ans, tu reviens en Slovaquie, et tu es dans un tram à Košice.}}
 
 {{fr:Dans le tram, il y a quelqu'un que tu crois reconnaître… Avant de lui parler, remettons en route ce que tu savais déjà.}}
 

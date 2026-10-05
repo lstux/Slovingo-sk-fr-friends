@@ -1,0 +1,135 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-vy",
+      "type": "qcm",
+      "l1": "vous",
+      "l2": "vy",
+      "choices_l1": [
+        "tu",
+        "oui",
+        "non"
+      ],
+      "choices_l2": [
+        "ty",
+        "áno",
+        "nie"
+      ]
+    },
+    {
+      "id": "qcm-ty",
+      "type": "qcm",
+      "l1": "tu",
+      "l2": "ty",
+      "choices_l1": [
+        "vous",
+        "oui",
+        "non"
+      ],
+      "choices_l2": [
+        "vy",
+        "áno",
+        "nie"
+      ]
+    },
+    {
+      "id": "listen-akujem",
+      "type": "listen",
+      "l1": "Merci !",
+      "l2": "Ďakujem!",
+      "choices_l1": [
+        "Bonjour !",
+        "Au revoir !",
+        "Oui !"
+      ]
+    },
+    {
+      "id": "listen-dobr-de",
+      "type": "listen",
+      "l1": "Bonjour !",
+      "l2": "Dobrý deň!",
+      "choices_l1": [
+        "Merci !",
+        "Salut, Andrea !",
+        "Au revoir !"
+      ]
+    },
+    {
+      "id": "listen-chlieb-a-aj",
+      "type": "listen",
+      "l1": "Du pain et du thé",
+      "l2": "Chlieb a čaj",
+      "choices_l1": [
+        "Du thé et du pain",
+        "Du pain et du lait",
+        "Un pain et un thé"
+      ]
+    },
+    {
+      "id": "listen-no",
+      "type": "listen",
+      "l1": "Oui !",
+      "l2": "Áno!",
+      "choices_l1": [
+        "Non !",
+        "Merci !",
+        "Salut !"
+      ]
+    },
+    {
+      "id": "match-ahoj-andrea",
+      "type": "match",
+      "l1": [
+        "Salut, Andrea !",
+        "Bonjour !",
+        "Merci !",
+        "Oui !"
+      ],
+      "l2": [
+        "Ahoj, Andrea!",
+        "Dobrý deň!",
+        "Ďakujem!",
+        "Áno!"
+      ]
+    },
+    {
+      "id": "blank-chlieb-a-aj",
+      "type": "fill-blank",
+      "l1": "Du pain et du thé",
+      "l2": "Chlieb a čaj",
+      "missing_l1": "thé",
+      "missing_l2": "čaj",
+      "blank_index_l1": 4,
+      "blank_index_l2": 2,
+      "choices_l1": [
+        "pain",
+        "lait",
+        "jour"
+      ],
+      "choices_l2": [
+        "chlieb",
+        "mlieko",
+        "deň"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-chlieb-a-aj",
+      "type": "order",
+      "l1": "Du pain et du thé",
+      "l2": "Chlieb a čaj",
+      "tokens_l1": [
+        "Du pain",
+        "et",
+        "du thé"
+      ],
+      "tokens_l2": [
+        "Chlieb",
+        "a",
+        "čaj"
+      ]
+    }
+  ]
+}
