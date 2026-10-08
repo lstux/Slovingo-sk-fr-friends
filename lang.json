@@ -242,6 +242,68 @@
       "bratislava": "🏙️",
       "hrad": "📺",
       "sen": "💤"
+    },
+    "positions": {
+      "intro": [
+        72.3,
+        95.7
+      ],
+      "series-kosice": [
+        91.1,
+        77.3
+      ],
+      "series-sucho": [
+        58.4,
+        70.8
+      ],
+      "series-raj": [
+        55.4,
+        81.7
+      ],
+      "series-burka": [
+        14.2,
+        80.5
+      ],
+      "series-domov": [
+        54.2,
+        63
+      ],
+      "series-povoden": [
+        41.3,
+        54.9
+      ],
+      "series-cesta": [
+        74.4,
+        50.9
+      ],
+      "series-datacentrum": [
+        13.6,
+        49.5
+      ],
+      "series-bana": [
+        88.9,
+        37.6
+      ],
+      "series-rozhodnutie": [
+        21.8,
+        39.5
+      ],
+      "series-bratislava": [
+        17.7,
+        26
+      ],
+      "series-hrad": [
+        51.7,
+        12.7
+      ],
+      "series-sen": [
+        86,
+        6.7
+      ],
+      "final-exam": [
+        25.5,
+        2.3
+      ]
     }
   }
 }
