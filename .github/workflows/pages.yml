@@ -26,19 +26,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout contenu
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           path: content
 
       - name: Checkout moteur (Slovingo)
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: lstux/Slovingo
           ref: ${{ inputs.slovingo_ref || 'main' }}
           path: engine
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.x"
 
@@ -68,7 +68,7 @@ jobs:
           cd engine
           python3 src/build.py --lang-dir langs/sk-fr-friends --static-dir static
 
-      - uses: actions/configure-pages@v5
+      - uses: actions/configure-pages@v6
 
       - name: Préparer l'artefact Pages
         run: |
@@ -76,7 +76,7 @@ jobs:
           cp -r engine/langs/sk-fr-friends/dist/. _site/
           touch _site/.nojekyll
 
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: _site
 
