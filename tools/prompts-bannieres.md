@@ -21,69 +21,73 @@
 
 ### default (Intro)
 Image format 1200x280px, style films d'animation Zootopia version ado.
-Retrouvailles dans un tram de Košice : Gab le renard et Andrea la hase se reconnaissent après plusieurs années. 
-Gab souriant mais un peu maladroit, Andrea méfiante mais heureuse.
-À travers les vitres du tram : ville slovaque moderne, bâtiments, rue urbaine.
-Ambiance nostalgie, retrouvailles tendues/joyeuses, retour dans le passé, voyage qui commence.
-Couleurs urbaines, lumière douce, lien entre les deux personnages.
+Intérieur d'un tram de Košice : sièges, vitres. À travers les vitres, ville slovaque urbaine moderne, bâtiments, rue.
+**Pas de personnages au premier plan** — le tram vide ou avec des passants anonymes.
+Animaux sauvages du lieu visibles en arrière-plan urbain : aigle en vol, cerf observant, marmotte près d'un buisson.
+Ambiance : point de départ, voyage qui commence, atmosphère urbaine, retour à des racines.
+Couleurs urbaines, lumière douce (début de jour).
 
 ### basics (Remise en route)
 Image format 1200x280px, style Zootopia ado.
-Scène : Gab et Andrea marchent sur une route slovaque, regardant la carte, décidant de la direction.
-Route de campagne, collines douces des Tatras au loin, ciel dégagé.
-Gab pensif, Andrea pragmatique, pointing du doigt vers l'horizon.
-Autres animaux du groupe au loin : Maťo et Katka qui les suivent.
-Ambiance : traversée de la Slovaquie commence, déterminés, léger doute, aventure qui démarre.
+Scène : Route de campagne slovaque, collines douces des Tatras au loin, ciel dégagé.
+Carte posée sur le sol ou sur un rocher, route sinueuse visible.
+**Pas de personnages** — focus sur le paysage.
+Animaux du lieu : cerf noble broutant, marmotte assise attentivement, aigle lointain, lynx dans les arbres.
+Ambiance : traversée qui commence, clarté, détermination, nature généreuse.
+Couleurs chaudes et naturelles.
 
 ### sucho (Sécheresse)
 Image format 1200x280px, style Zootopia ado.
-Scène : Paysage desséché, fontaine asséchée au centre. Gab et Andrea devant, déçus.
-Herbe jaunie, ciel pâle, chaleur visible (effet de chaleur shimmer).
-Horizon sec, quelques arbres dépéris. 
-Ambiance urgence, problème environnemental, tension montent, réalité qui frappe.
-Couleurs chaudes et ternes, contraste avec les bannières précédentes.
+Scène : Paysage desséché, fontaine asséchée au centre, herbe jaunie, ciel pâle.
+**Pas de personnages** — focus sur le désastre environnemental.
+Animaux du lieu affectés : cerf cherchant de l'eau, oiseau assoiffé, marmotte se cachant, traces d'animaux dans la poussière.
+Ambiance urgence, problème environnemental, réalité qui frappe.
+Couleurs chaudes et ternes, contraste dramatique.
 
 ### burka (Orage)
 Image format 1200x280px, style Zootopia ado.
-Scène : Ciel sombre, nuages de tempête s'amassent. Gab et Andrea courant ou cherchant un abri.
-Vent, pluie commençant. Forêt dense autour, route glissante.
-Maťo et Katka au loin, groupe dispersé par l'urgence.
-Ambiance dramatique mais pas terrifiante — action, survie, dépassement.
+Scène : Ciel sombre, nuages de tempête s'amassant, vent visible, pluie commençant.
+Forêt dense, route sinueuse, terrain escarpé.
+**Pas de personnages** — focus sur l'orage.
+Animaux du lieu cherchant un abri : cerf se réfugiant, lynx en fuite, aigle surfant les rafales, marmotte dans son terrier.
+Ambiance dramatique, action, forces de la nature.
 Lumière contrastée (éclairs lointains), gris et noir.
 
 ### datacentrum (Monde adulte)
 Image format 1200x280px, style Zootopia ado.
-Scène : Bâtiment futuriste / datacenter, architecture moderne, beaucoup d'acier et de verre.
-Gab et Andrea regardant de l'extérieur, impressionnés et un peu intimidés.
-Marek le blaireau (adulte) visible à travers une vitrine, travaillant.
+Scène : Bâtiment futuriste datacenter, architecture moderne, acier, verre, lumière artificielle froide.
+**Pas de personnages au premier plan** — perspective extérieure.
+Animaux observant de loin : cerf intrigué, oiseau survolant, lynx vigilant, marmotte curieuse — le monde naturel regardant la technologie.
 Contraste : nature/forêt derrière le bâtiment vs. technologie froide.
-Ambiance : monde adulte, pouvoir corporatif, écart générationnel, réalité du travail.
-Couleurs froides, métalliques, lumière artificielle.
+Ambiance : monde adulte intimidant, écart générationnel, deux mondes en collision.
+Couleurs froides, métalliques.
 
 ### bana (Mine)
 Image format 1200x280px, style Zootopia ado.
-Scène : Entrée de mine, ou falaise rocheuse avec traces d'extraction.
-Ján l'écureuil (curieux, enthousiaste) pointant vers la mine, expliquant.
-Gab, Andrea, Maťo, Katka écoutant, sceptiques ou pensifs.
-Rochers, végétation clairsemée, profondeur/obscurité visible.
-Ambiance : écologie, extraction, danger, curiosité, confrontation aux réalités adultes.
-Couleurs terreuses, ombres profondes, texture minérale.
+Scène : Entrée de mine ou falaise rocheuse avec traces d'extraction, rochers, profondeur visible.
+**Pas de personnages** — focus sur le problème écologique.
+Animaux du lieu dérangés/observant : cerf fuyant, aigle survolant, lynx vigilant, marmotte déplacée.
+Végétation clairsemée, cicatrices minières visibles.
+Ambiance : écologie, extraction, danger silencieux, confrontation aux réalités adultes.
+Couleurs terreuses, ombres profondes.
 
 ### rozhodnutie (Décision)
 Image format 1200x280px, style Zootopia ado.
-Scène : Le groupe (Gab, Andrea, Maťo, Katka) assis ensemble, en cercle ou face à face, délibérant.
-Gab et Andrea se regardant, conversation sérieuse, Maťo écoutant, Katka intervenant.
-Paysage slovaque neutre en arrière-plan (montagne, forêt, route).
-Ambiance : choix difficile, amitié face à l'adversité, débat, croissance.
-Lumière douce (coucher/aube), intimité du groupe malgré les défis.
+Scène : Paysage slovaque neutre (montagne, forêt, route, clairière).
+**Pas de personnages** — focus sur le moment de réflexion du lieu lui-même.
+Animaux du lieu réunis ou en posture contemplative : cerf noble regardant l'horizon, aigle perché pensif, lynx assis, marmotte observante.
+Un moment de silence dans la nature avant une décision.
+Ambiance : choix, croissance, nature comme témoin.
+Lumière douce (coucher/aube).
 
 ### bratislava (Télévision)
 Image format 1200x280px, style Zootopia ado.
-Scène : Bratislava moderne, immeuble de TV, antenne visible. Gab et Andrea approchant du bâtiment, déterminés.
-Passants (humains en silhouette), ville urbaine, modernité.
-Sérieux sur les visages du renard et de la hase : ce n'est plus un jeu.
-Ambiance : arrivée à la capitale, point de non-retour, mission presque accomplie, réalité médiatique.
-Couleurs urbaines, lumière urbaine, architecture moderne slovaque.
+Scène : Bratislava moderne, immeuble de TV, antenne visible, architecture urbaine.
+**Pas de personnages au premier plan** — vue extérieure de la capitale.
+Animaux observant la ville : aigle survolant, cerf aux portes de la ville, lynx scrutant, marmotte intrigue.
+Passants humains en silhouette dans les rues.
+Ambiance : arrivée à la capitale, monde urbain complexe, point de non-retour.
+Couleurs urbaines, lumière urbaine.
 
 ---
 
