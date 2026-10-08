@@ -247,63 +247,63 @@
     "positions": {
       "intro": [
         72.3,
-        95.7
+        4.3
       ],
       "series-kosice": [
         91.1,
-        77.3
+        22.7
       ],
       "series-sucho": [
         58.4,
-        70.8
+        29.2
       ],
       "series-raj": [
         55.4,
-        81.7
+        18.3
       ],
       "series-burka": [
         14.2,
-        80.5
+        19.5
       ],
       "series-domov": [
         54.2,
-        63
+        37
       ],
       "series-povoden": [
         41.3,
-        54.9
+        45.1
       ],
       "series-cesta": [
         74.4,
-        50.9
+        49.1
       ],
       "series-datacentrum": [
         13.6,
-        49.5
+        50.5
       ],
       "series-bana": [
         88.9,
-        37.6
+        62.4
       ],
       "series-rozhodnutie": [
         21.8,
-        39.5
+        60.5
       ],
       "series-bratislava": [
         17.7,
-        26
+        74
       ],
       "series-hrad": [
         51.7,
-        12.7
+        87.3
       ],
       "series-sen": [
         86,
-        6.7
+        93.3
       ],
       "final-exam": [
         25.5,
-        2.3
+        97.7
       ]
     }
   }
