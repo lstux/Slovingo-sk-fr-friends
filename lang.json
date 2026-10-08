@@ -173,7 +173,10 @@
     "exercise_field_distractors_l1": "Distracteurs ({native_lang_code})",
     "exercise_field_distractors_l2": "Distracteurs ({target_lang_code})",
     "voice_native": "Voix ({lang})",
-    "celebration_effects": "Effets de fête avec le score final (confettis, feux d'artifice)"
+    "celebration_effects": "Effets de fête avec le score final (confettis, feux d'artifice)",
+    "backup_export": "📥 Exporter les réglages et la progression (JSON)",
+    "backup_import": "📤 Importer une sauvegarde (JSON)",
+    "map_final_reached": "Bravo ! Tu as terminé tout le parcours !"
   },
   "generator": {
     "target_headers": [
