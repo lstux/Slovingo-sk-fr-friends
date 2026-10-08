@@ -1,0 +1,134 @@
+name: GitHub Pages
+
+# Publie deux sites sur la même Page :
+#   - la racine (/) : la branche main
+#   - /ai/          : la branche feat/ai-illustrations (aperçu, storage_prefix distinct)
+# Déclenché par un push sur main ou sur la branche d'aperçu, ou manuellement.
+# Le site est toujours reconstruit entier (main + aperçu), donc un push sur
+# l'une ou l'autre branche republie les deux.
+# Si la branche d'aperçu n'existe plus (mergée et supprimée), seule la racine est publiée.
+
+on:
+  push:
+    branches: [main, feat/ai-illustrations]
+  workflow_dispatch:
+    inputs:
+      slovingo_ref:
+        description: "Branche/tag/commit du moteur Slovingo à utiliser"
+        required: false
+        default: "main"
+      preview_ref:
+        description: "Branche d'aperçu publiée sous /ai/"
+        required: false
+        default: "feat/ai-illustrations"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout contenu (main)
+        uses: actions/checkout@v5
+        with:
+          ref: main
+          path: content
+
+      - name: Checkout contenu (aperçu, facultatif)
+        id: preview
+        continue-on-error: true
+        uses: actions/checkout@v5
+        with:
+          ref: ${{ inputs.preview_ref || 'feat/ai-illustrations' }}
+          path: content-ai
+
+      - name: Checkout moteur (Slovingo)
+        uses: actions/checkout@v5
+        with:
+          repository: lstux/Slovingo
+          ref: ${{ inputs.slovingo_ref || 'main' }}
+          path: engine
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.x"
+
+      - name: Dépendances (Pillow, pour les icônes)
+        run: python3 -m pip install -r engine/requirements.txt
+
+      - name: Placer les contenus au format attendu par build.py
+        run: |
+          mkdir -p engine/langs/sk-fr-friends
+          tar --exclude=.git --exclude=.github --exclude=LICENSE --exclude='README*' \
+            -cf - -C content . | tar -xf - -C engine/langs/sk-fr-friends
+          if [ "${{ steps.preview.outcome }}" = "success" ]; then
+            mkdir -p engine/langs/sk-fr-friends-ai
+            tar --exclude=.git --exclude=.github --exclude=LICENSE --exclude='README*' \
+              -cf - -C content-ai . | tar -xf - -C engine/langs/sk-fr-friends-ai
+          else
+            echo "Pas de branche d'aperçu : seule la racine est publiée."
+          fi
+
+      - name: Adapter url_path et storage_prefix (sans toucher aux repos)
+        run: |
+          python3 - <<'PY'
+          import json, os, pathlib
+          repo = os.environ["GITHUB_REPOSITORY"].split("/", 1)[1]
+          targets = [("engine/langs/sk-fr-friends", f"/{repo}/", "")]
+          if os.path.isdir("engine/langs/sk-fr-friends-ai"):
+              targets.append(("engine/langs/sk-fr-friends-ai", f"/{repo}/ai/", "-ai"))
+          for d, path, suffix in targets:
+              p = pathlib.Path(d) / "lang.json"
+              cfg = json.loads(p.read_text(encoding="utf-8"))
+              cfg["site"]["url_path"] = path
+              if suffix:
+                  cfg["site"]["storage_prefix"] = cfg["site"]["storage_prefix"] + suffix
+              p.write_text(json.dumps(cfg, ensure_ascii=False, indent=2), encoding="utf-8")
+              print(d, "url_path =", path)
+          PY
+
+      - name: Build (racine et aperçu)
+        run: |
+          cd engine
+          python3 src/build.py --lang-dir langs/sk-fr-friends --static-dir static
+          if [ -d langs/sk-fr-friends-ai ]; then
+            python3 src/build.py --lang-dir langs/sk-fr-friends-ai --static-dir static
+          fi
+
+      - uses: actions/configure-pages@v6
+        with:
+          enablement: true
+
+      - name: Préparer l'artefact Pages
+        run: |
+          mkdir -p _site
+          cp -r engine/langs/sk-fr-friends/dist/. _site/
+          if [ -d engine/langs/sk-fr-friends-ai/dist ]; then
+            mkdir -p _site/ai
+            cp -r engine/langs/sk-fr-friends-ai/dist/. _site/ai/
+          fi
+          touch _site/.nojekyll
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5
