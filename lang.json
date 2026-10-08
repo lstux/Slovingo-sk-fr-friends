@@ -228,7 +228,6 @@
     "sen": "default"
   },
   "map": {
-    "direction": "up",
     "icons": {
       "kosice": "🚋",
       "sucho": "💧",
