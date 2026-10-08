@@ -19,3 +19,9 @@ Fichiers `img/style_<clé>.jpg`, repris de Slovingo-sk-fr-kids (même source, m�
 |---|---|---|---|
 | `default` (hors séries) | [On the way to Biele pleso - panoramio (2).jpg](https://commons.wikimedia.org/wiki/File:On_the_way_to_Biele_pleso_-_panoramio_(2).jpg) | à compléter | à compléter |
 | `city` (série Košice) | [Banská Štiavnica, 2018 (20).jpg](https://commons.wikimedia.org/wiki/File:Bansk%C3%A1_%C5%A0tiavnica,_2018_(20).jpg) (en attendant une photo de Košice) | à compléter | à compléter |
+
+## Images de fond de carte (accueil)
+
+| Fichier | Source | Auteur | Licence |
+|---------|--------|--------|---------|
+| `homepage-carte-slovaquie.jpg` | *Généré avec Google Gemini* | Google Gemini | Libre d'usage — généré pour ce projet (2026) |
