@@ -1,116 +1,107 @@
 # Prompts pour bannières de thème Slovingo-sk-fr-friends
 
-**Format** : 1200×280px  
-**Style** : Films d'animation (Zootopia) — version ado, plus mature  
-**Univers** : Slovaquie réelle, voyage de Košice à Bratislava, ados face aux défis réels  
+**Format** : 1200×280px (bannière panoramique)  
+**Style** : illustration style animation numérique, ton adolescent sérieux et réaliste  
+**Univers** : Slovaquie réelle, voyage de Košice à Bratislava  
 **Licence** : ChatGPT — généré pour ce projet, libre d'usage
 
----
-
-## Personnages récurrents
-
-- 🦊 **Gab** (renard) — 15 ans, Français de Lyon, "toi"
-- 🐰 **Andrea** (hase) — 16 ans, amie de Gab, mystérieuse
-- 🐻 **Maťo** (ours) — 14 ans, ami solide
-- 🐹 **Katka** (marmotte) — 13 ans, autonome, sarcastique
-- 🐑 **Babka Zuzana** (brebis) — grand-mère
+**Règles pour ces prompts** (retenues après les rejets ChatGPT) :
+- Pas de « style Zootopia » ni de référence à un film existant
+- Aucun nom de personnage (ni Gab, Andrea, Maťo, Katka, Babka Zuzana)
+- Décrire les animaux par leur espèce, le lieu, la lumière et l'ambiance
+- Les animaux représentés sont ceux qu'on trouve réellement en Slovaquie, pas les personnages de l'histoire
 
 ---
 
-## ✅ À GÉNÉRER
+## À GÉNÉRER
 
 ### default (Intro)
-Image format 1200x280px, style films d'animation Zootopia version ado.
-Intérieur d'un tram de Košice : sièges, vitres. À travers les vitres, ville slovaque urbaine moderne, bâtiments, rue.
-**Pas de personnages au premier plan** — le tram vide ou avec des passants anonymes.
-Animaux sauvages du lieu visibles en arrière-plan urbain : aigle en vol, cerf observant, marmotte près d'un buisson.
-Ambiance : point de départ, voyage qui commence, atmosphère urbaine, retour à des racines.
-Couleurs urbaines, lumière douce (début de jour).
+Image format 1200x280px, illustration style animation numérique, ton sérieux.
+Intérieur d'un tram urbain à Košice : sièges, vitres, ville moderne visible à travers les fenêtres.
+Pas de personnage au premier plan : passagers anonymes en arrière-plan.
+Animaux du lieu visibles au loin dans le paysage urbain : aigle en vol, cerf qui observe, marmotte près d'un buisson.
+Lumière douce, début de journée.
+Ambiance : point de départ, voyage qui commence, retour aux racines.
 
 ### basics (Remise en route)
-Image format 1200x280px, style Zootopia ado.
-Scène : Route de campagne slovaque, collines douces des Tatras au loin, ciel dégagé.
-Carte posée sur le sol ou sur un rocher, route sinueuse visible.
-**Pas de personnages** — focus sur le paysage.
-Animaux du lieu : cerf noble broutant, marmotte assise attentivement, aigle lointain, lynx dans les arbres.
-Ambiance : traversée qui commence, clarté, détermination, nature généreuse.
+Image format 1200x280px, illustration style animation numérique, ton sérieux.
+Route de campagne slovaque, collines douces des Tatras au loin, ciel dégagé.
+Carte posée sur un rocher, route sinueuse visible. Pas de personnage, focus sur le paysage.
+Animaux du lieu : cerf noble qui broute, marmotte assise, aigle lointain, lynx dans les arbres.
 Couleurs chaudes et naturelles.
+Ambiance : traversée qui commence, clarté, détermination, nature généreuse.
 
 ### sucho (Sécheresse)
-Image format 1200x280px, style Zootopia ado.
-Scène : Paysage desséché, fontaine asséchée au centre, herbe jaunie, ciel pâle.
-**Pas de personnages** — focus sur le désastre environnemental.
-Animaux du lieu affectés : cerf cherchant de l'eau, oiseau assoiffé, marmotte se cachant, traces d'animaux dans la poussière.
-Ambiance urgence, problème environnemental, réalité qui frappe.
+Image format 1200x280px, illustration style animation numérique, ton sérieux.
+Paysage desséché, fontaine asséchée au centre, herbe jaunie, ciel pâle.
+Pas de personnage, focus sur le paysage asséché.
+Animaux du lieu affectés : cerf cherchant de l'eau, oiseau assoiffé, marmotte cachée, traces d'animaux dans la poussière.
 Couleurs chaudes et ternes, contraste dramatique.
+Ambiance : urgence, problème environnemental, réalité qui frappe.
 
 ### burka (Orage)
-Image format 1200x280px, style Zootopia ado.
-Scène : Ciel sombre, nuages de tempête s'amassant, vent visible, pluie commençant.
-Forêt dense, route sinueuse, terrain escarpé.
-**Pas de personnages** — focus sur l'orage.
-Animaux du lieu cherchant un abri : cerf se réfugiant, lynx en fuite, aigle surfant les rafales, marmotte dans son terrier.
-Ambiance dramatique, action, forces de la nature.
-Lumière contrastée (éclairs lointains), gris et noir.
+Image format 1200x280px, illustration style animation numérique, ton dramatique.
+Ciel sombre, nuages de tempête qui s'amassent, vent visible, premières gouttes de pluie.
+Forêt dense, route sinueuse, terrain escarpé. Pas de personnage, focus sur l'orage.
+Animaux du lieu qui cherchent un abri : cerf qui se réfugie, lynx en fuite, aigle emporté par les rafales, marmotte dans son terrier.
+Lumière contrastée, éclairs lointains, gris et noir.
+Ambiance : danger direct, forces de la nature.
 
 ### datacentrum (Monde adulte)
-Image format 1200x280px, style Zootopia ado.
-Scène : Bâtiment futuriste datacenter, architecture moderne, acier, verre, lumière artificielle froide.
-**Pas de personnages au premier plan** — perspective extérieure.
-Animaux observant de loin : cerf intrigué, oiseau survolant, lynx vigilant, marmotte curieuse — le monde naturel regardant la technologie.
-Contraste : nature/forêt derrière le bâtiment vs. technologie froide.
-Ambiance : monde adulte intimidant, écart générationnel, deux mondes en collision.
+Image format 1200x280px, illustration style animation numérique, ton sérieux.
+Bâtiment moderne de datacenter : acier, verre, lumière artificielle froide.
+Pas de personnage au premier plan, vue extérieure.
+Animaux qui observent de loin : cerf intrigué, oiseau qui survole, lynx vigilant, marmotte curieuse.
+Contraste : forêt derrière le bâtiment, technologie froide devant.
 Couleurs froides, métalliques.
+Ambiance : monde adulte intimidant, deux mondes qui se croisent.
 
 ### bana (Mine)
-Image format 1200x280px, style Zootopia ado.
-Scène : Entrée de mine ou falaise rocheuse avec traces d'extraction, rochers, profondeur visible.
-**Pas de personnages** — focus sur le problème écologique.
-Animaux du lieu dérangés/observant : cerf fuyant, aigle survolant, lynx vigilant, marmotte déplacée.
+Image format 1200x280px, illustration style animation numérique, ton sérieux.
+Entrée de mine ou falaise rocheuse avec traces d'extraction, rochers, profondeur visible.
+Pas de personnage, focus sur le problème écologique.
+Animaux du lieu dérangés : cerf qui fuit, aigle qui survole, lynx vigilant, marmotte déplacée.
 Végétation clairsemée, cicatrices minières visibles.
-Ambiance : écologie, extraction, danger silencieux, confrontation aux réalités adultes.
 Couleurs terreuses, ombres profondes.
+Ambiance : écologie, extraction, danger silencieux.
 
 ### rozhodnutie (Décision)
-Image format 1200x280px, style Zootopia ado.
-Scène : Paysage slovaque neutre (montagne, forêt, route, clairière).
-**Pas de personnages** — focus sur le moment de réflexion du lieu lui-même.
-Animaux du lieu réunis ou en posture contemplative : cerf noble regardant l'horizon, aigle perché pensif, lynx assis, marmotte observante.
-Un moment de silence dans la nature avant une décision.
-Ambiance : choix, croissance, nature comme témoin.
-Lumière douce (coucher/aube).
+Image format 1200x280px, illustration style animation numérique, ton contemplatif.
+Paysage slovaque neutre : montagne, forêt, route, clairière. Pas de personnage.
+Animaux du lieu en posture contemplative : cerf noble qui regarde l'horizon, aigle perché, lynx assis, marmotte observante.
+Un moment de silence dans la nature.
+Lumière douce, coucher ou aube.
+Ambiance : choix, croissance, la nature comme témoin.
 
 ### bratislava (Télévision)
-Image format 1200x280px, style Zootopia ado.
-Scène : Bratislava moderne, immeuble de TV, antenne visible, architecture urbaine.
-**Pas de personnages au premier plan** — vue extérieure de la capitale.
-Animaux observant la ville : aigle survolant, cerf aux portes de la ville, lynx scrutant, marmotte intrigue.
-Passants humains en silhouette dans les rues.
+Image format 1200x280px, illustration style animation numérique, ton urbain sérieux.
+Bratislava moderne : tour de télévision et antenne visible, architecture urbaine. Vue extérieure de la capitale, pas de personnage au premier plan.
+Animaux qui observent la ville : aigle qui survole, cerf à la lisière, lynx qui scrute, marmotte intriguée.
+Passants anonymes en silhouette dans les rues.
+Couleurs urbaines, lumière de ville.
 Ambiance : arrivée à la capitale, monde urbain complexe, point de non-retour.
-Couleurs urbaines, lumière urbaine.
 
 ---
 
 ## Notes d'utilisation
 
 - **Format** : 1200×280px
-- **Style** : Zootopia (animation 3D) mais **version ado** — plus de tension, moins de candy colors, plus de réalisme
-- **Ton** : aventure sérieuse, ados face au monde réel, écologie, société
-- **Ambiance** : Slovaquie réelle, voyage qui transforme, amitiés testées, croissance personnelle
-- **Personnages** : toujours reconnaissables, évolution émotionnelle du groupe au fil des bannières
+- **Style** : illustration style animation numérique, plus de tension et moins de couleurs criardes qu'une version enfant
+- **Ton** : aventure sérieuse, écologie, société
+- **Personnages** : aucun nommé ; uniquement des animaux du lieu décrits par espèce
 
 ---
 
 ## Progression visuelle des bannières
 
-Les bannières doivent raconter une **progression narrative** :
-- **default** : retrouvailles, joie et nostalgie
+Les bannières racontent une progression narrative :
+- **default** : retrouvailles, nostalgie
 - **basics** : début du voyage, optimisme
-- **sucho** : premiers problèmes, tension émerge
+- **sucho** : premiers problèmes, tension
 - **burka** : danger direct
-- **datacentrum** : confrontation au système adulte
+- **datacentrum** : confrontation au monde adulte
 - **bana** : problèmes profonds (écologie)
-- **rozhodnutie** : groupe soudé face aux choix
-- **bratislava** : arrivée, mission finale, sérieux
+- **rozhodnutie** : moment de décision
+- **bratislava** : arrivée, sérieux
 
-Couleurs : progressivement plus ternes/froides au début du voyage, puis reprendre un peu de chaleur avec le groupe uni.
+Couleurs : plus ternes et froides au début du voyage, puis un peu plus chaudes quand le groupe se retrouve.

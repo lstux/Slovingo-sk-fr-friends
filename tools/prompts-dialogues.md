@@ -21,19 +21,18 @@
 ## INTRO
 
 ### intro-retrouvailles-tram
-Image format 16/9 paysage (1920x1080px), style Zootopia version ado.
+Image format 16/9 paysage (1920x1080px), illustration style animation numérique, public ados.
 
-Scène : Dans un tram de Košice. Gab le renard (15 ans, français) et Andrea la hase (16 ans) se reconnaissent après plusieurs années.
+Scène : Intérieur d'un tram urbain à Košice, ville slovaque moderne.
+Un jeune renard roux (15 ans) et une jeune hase grise (16 ans) se retrouvent après plusieurs années.
+Le renard sourit, un peu maladroit ; la hase, d'abord méfiante, se met à sourire en le revoir.
 
-Gab souriant mais maladroit, Andrea méfiante d'abord puis heureuse de le revoir.
+À travers les vitres du tram : rue animée, bâtiments urbains, lumière du matin.
 
-À travers les vitres du tram : ville slovaque moderne, Košice urbaine, bâtiments, rue animée.
+Ambiance : nostalgie, retrouvailles, point de départ d'une aventure, liens qui se reforment.
+Ton : adolescent, tendre, légère ironie, moment doux avant que le monde ne bascule.
 
-Ambiance : nostalgie, retrouvailles emotionnelles, point de départ d'une aventure, liens qui se reforment.
-
-Ton : adolescent, tendre, avec une légère ironie. C'est un moment doux dans un monde qui commence à basculer.
-
-**Pas de texte.**
+Pas de texte dans l'image.
 
 ---
 
