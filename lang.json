@@ -245,66 +245,21 @@
     },
     "direction": "down",
     "positions": {
-      "intro": [
-        72.3,
-        4.3
-      ],
-      "series-kosice": [
-        91.1,
-        22.7
-      ],
-      "series-sucho": [
-        58.4,
-        29.2
-      ],
-      "series-raj": [
-        55.4,
-        18.3
-      ],
-      "series-burka": [
-        14.2,
-        19.5
-      ],
-      "series-domov": [
-        54.2,
-        37
-      ],
-      "series-povoden": [
-        41.3,
-        45.1
-      ],
-      "series-cesta": [
-        74.4,
-        49.1
-      ],
-      "series-datacentrum": [
-        13.6,
-        50.5
-      ],
-      "series-bana": [
-        88.9,
-        62.4
-      ],
-      "series-rozhodnutie": [
-        21.8,
-        60.5
-      ],
-      "series-bratislava": [
-        17.7,
-        74
-      ],
-      "series-hrad": [
-        51.7,
-        87.3
-      ],
-      "series-sen": [
-        86,
-        93.3
-      ],
-      "final-exam": [
-        25.5,
-        97.7
-      ]
+      "intro": [71.5, 3.2],
+      "series-kosice": [87.6, 37.5],
+      "series-sucho": [57.4, 30],
+      "series-raj": [48.8, 16.5],
+      "series-burka": [14.2, 19.5],
+      "series-domov": [33.5, 40.3],
+      "series-povoden": [65.3, 47],
+      "series-cesta": [83.8, 58.2],
+      "series-datacentrum": [17.9, 53.8],
+      "series-bana": [77.9, 72],
+      "series-rozhodnutie": [22.6, 68.3],
+      "series-bratislava": [35.9, 80.8],
+      "series-hrad": [55, 90.3],
+      "series-sen": [86, 93.3],
+      "final-exam": [25.5, 97.7]
     }
   }
 }
