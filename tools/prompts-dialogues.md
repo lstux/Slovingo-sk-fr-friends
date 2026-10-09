@@ -24,13 +24,14 @@
 Image format 16/9 paysage (1920x1080px), illustration style animation numérique, public ados.
 
 Scène : Intérieur d'un tram urbain à Košice, ville slovaque moderne.
-Un jeune renard roux (15 ans) et une jeune hase grise (16 ans) se retrouvent après plusieurs années.
-Le renard sourit, un peu maladroit ; la hase, d'abord méfiante, se met à sourire en le revoir.
+Un jeune renard roux (15 ans) et une jeune hase grise (16 ans), deux anciens camarades, se retrouvent par hasard après plusieurs années.
+Ils se reconnaissent : la hase lève la main pour dire bonjour, le renard lui répond d'un signe amical, un peu surpris. Simple complicité d'anciens copains, pas de geste ni de regard appuyé.
+Ils se tiennent debout dans l'allée, sacs sur l'épaule, comme deux amis qui se croisent.
 
 À travers les vitres du tram : rue animée, bâtiments urbains, lumière du matin.
 
-Ambiance : nostalgie, retrouvailles, point de départ d'une aventure, liens qui se reforment.
-Ton : adolescent, tendre, légère ironie, moment doux avant que le monde ne bascule.
+Ambiance : retrouvailles amicales, décontractées, point de départ d'une aventure à deux.
+Ton : adolescent, relation d'amitié uniquement, ni romantique ni amoureuse.
 
 Pas de texte dans l'image.
 
