@@ -23,7 +23,7 @@
 ### intro-retrouvailles-tram
 Image format 16/9 paysage (1920x1080px), illustration style animation numérique, public ados.
 
-Scène : À l'intérieur d'un bus urbain, dans une ville slovaque moderne.
+Scène : À l'intérieur d'un tram urbain à Košice, ville slovaque moderne.
 Un jeune renard roux (15 ans) et une jeune hase grise (16 ans), anciens camarades, se retrouvent par hasard après plusieurs années.
 Surprise et grande joie : la hase écarquille les yeux et lève la main en souriant largement ; le renard éclate de rire, bras ouverts, ravi de la revoir.
 Ils sont debout dans l'allée, sacs sur l'épaule, visiblement enthousiastes.
