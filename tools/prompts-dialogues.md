@@ -23,15 +23,15 @@
 ### intro-retrouvailles-tram
 Image format 16/9 paysage (1920x1080px), illustration style animation numérique, public ados.
 
-Scène : Intérieur d'un tram urbain à Košice, ville slovaque moderne.
-Un jeune renard roux (15 ans) et une jeune hase grise (16 ans), deux anciens camarades, se retrouvent par hasard après plusieurs années.
-Ils se reconnaissent : la hase lève la main pour dire bonjour, le renard lui répond d'un signe amical, un peu surpris. Simple complicité d'anciens copains, pas de geste ni de regard appuyé.
-Ils se tiennent debout dans l'allée, sacs sur l'épaule, comme deux amis qui se croisent.
+Scène : À l'intérieur d'un bus urbain, dans une ville slovaque moderne.
+Un jeune renard roux (15 ans) et une jeune hase grise (16 ans), anciens camarades, se retrouvent par hasard après plusieurs années.
+Surprise et grande joie : la hase écarquille les yeux et lève la main en souriant largement ; le renard éclate de rire, bras ouverts, ravi de la revoir.
+Ils sont debout dans l'allée, sacs sur l'épaule, visiblement enthousiastes.
 
-À travers les vitres du tram : rue animée, bâtiments urbains, lumière du matin.
+À travers les vitres : rue animée, bâtiments urbains, lumière du matin.
 
-Ambiance : retrouvailles amicales, décontractées, point de départ d'une aventure à deux.
-Ton : adolescent, relation d'amitié uniquement, ni romantique ni amoureuse.
+Ambiance : retrouvailles joyeuses et spontanées, enthousiasme, complicité d'amis, point de départ d'une aventure à deux.
+Ton : adolescent, joyeux, amical.
 
 Pas de texte dans l'image.
 
