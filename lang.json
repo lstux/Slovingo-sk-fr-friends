@@ -178,6 +178,35 @@
     "backup_import": "📤 Importer une sauvegarde (JSON)",
     "map_final_reached": "Bravo ! Tu as terminé tout le parcours !"
   },
+  "cheers": {
+    "perfect": [
+      {"t": "Výborne!", "n": "Excellent !"},
+      {"t": "Úžasné!", "n": "Incroyable !"},
+      {"t": "Bomba!", "n": "Génial !"},
+      {"t": "Sto percent!", "n": "Cent pour cent !"},
+      {"t": "To je pre teba ľahké?!", "n": "C'est trop facile pour toi ?!"}
+    ],
+    "great": [
+      {"t": "Skvelé!", "n": "Super !"},
+      {"t": "Takmer dokonalé!", "n": "Presque parfait !"},
+      {"t": "Veľmi dobre!", "n": "Très bien !"}
+    ],
+    "good": [
+      {"t": "Dobrá práca!", "n": "Beau travail !"},
+      {"t": "Pekne!", "n": "Joli !"},
+      {"t": "Ide ti to!", "n": "Ça marche bien pour toi !"}
+    ],
+    "ok": [
+      {"t": "Nie je to zlé!", "n": "Pas mal !"},
+      {"t": "Pokračuj!", "n": "Continue !"},
+      {"t": "Zlepšuješ sa!", "n": "Tu progresses !"}
+    ],
+    "retry": [
+      {"t": "Skús znova!", "n": "Essaie encore !"},
+      {"t": "Nevzdávaj sa!", "n": "Ne lâche pas !"},
+      {"t": "Cvičenie robí majstra!", "n": "C'est en s'entraînant qu'on progresse !"}
+    ]
+  },
   "generator": {
     "target_headers": [
       "slovak",
