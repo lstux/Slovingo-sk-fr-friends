@@ -7,6 +7,12 @@ name: GitHub Pages
 # Le site est toujours reconstruit entier (main + aperçu), donc un push sur
 # l'une ou l'autre branche republie les deux.
 # Si la branche d'aperçu n'existe plus (mergée et supprimée), seule la racine est publiée.
+#
+# Chaque site publie aussi une petite API statique sous api/ (index.json,
+# sheets/<id>.json, exercises/<id>.json), générée par src/export_api.py du moteur,
+# pour les clients légers (app de la montre T-Watch, widgets...).
+# Tant que le moteur utilisé n'a pas ce script, l'étape est ignorée (avertissement)
+# et le reste du site est publié normalement.
 
 on:
   push:
@@ -99,6 +105,18 @@ jobs:
           python3 src/build.py --lang-dir langs/sk-fr-friends --static-dir static
           if [ -d langs/sk-fr-friends-ai ]; then
             python3 src/build.py --lang-dir langs/sk-fr-friends-ai --static-dir static
+          fi
+
+      - name: Export de l'API JSON légère (api/)
+        run: |
+          cd engine
+          if [ -f src/export_api.py ]; then
+            for d in langs/sk-fr-friends langs/sk-fr-friends-ai; do
+              [ -d "$d/dist" ] || continue
+              python3 src/export_api.py --lang-dir "$d" -o "$d/dist/api"
+            done
+          else
+            echo "::warning title=API non publiée::src/export_api.py absent du moteur ${{ inputs.slovingo_ref || 'main' }} (branche feat/t-watch pas encore fusionnée ?)"
           fi
 
       - uses: actions/configure-pages@v6
