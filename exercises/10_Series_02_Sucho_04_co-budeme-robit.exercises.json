@@ -1,0 +1,220 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-inde",
+      "type": "qcm",
+      "l1": "ailleurs",
+      "l2": "inde",
+      "choices_l1": [
+        "ici, là",
+        "loin",
+        "seulement"
+      ],
+      "choices_l2": [
+        "tu",
+        "ďaleko",
+        "len"
+      ]
+    },
+    {
+      "id": "qcm-aleko",
+      "type": "qcm",
+      "l1": "loin",
+      "l2": "ďaleko",
+      "choices_l1": [
+        "ailleurs",
+        "seulement",
+        "parti, loin d'ici"
+      ],
+      "choices_l2": [
+        "inde",
+        "len",
+        "preč"
+      ]
+    },
+    {
+      "id": "qcm-kola",
+      "type": "qcm",
+      "l1": "l'école",
+      "l2": "škola",
+      "choices_l1": [
+        "le lycée",
+        "la cathédrale",
+        "la ville"
+      ],
+      "choices_l2": [
+        "gymnázium",
+        "dóm",
+        "mesto"
+      ]
+    },
+    {
+      "id": "qcm-len",
+      "type": "qcm",
+      "l1": "seulement",
+      "l2": "len",
+      "choices_l1": [
+        "presque",
+        "au moins",
+        "encore"
+      ],
+      "choices_l2": [
+        "skoro",
+        "aspoň",
+        "ešte"
+      ]
+    },
+    {
+      "id": "qcm-budeme",
+      "type": "qcm",
+      "l1": "nous allons (faire)",
+      "l2": "budeme",
+      "choices_l1": [
+        "nous allons (quelque part)",
+        "il dort, elle dort",
+        "l'école"
+      ],
+      "choices_l2": [
+        "ideme",
+        "spí",
+        "škola"
+      ]
+    },
+    {
+      "id": "listen-o-budeme-robi",
+      "type": "listen",
+      "l1": "Qu'est-ce qu'on va faire ?",
+      "l2": "Čo budeme robiť?",
+      "choices_l1": [
+        "Qu'est-ce que tu fais ?",
+        "Où est-ce qu'on va ?",
+        "Qu'est-ce qu'on fait ici ?"
+      ]
+    },
+    {
+      "id": "listen-na-z-pade-je-slovensk-raj-tam-s-potoky",
+      "type": "listen",
+      "l1": "À l'ouest, il y a le Paradis slovaque. Là-bas, il y a des ruisseaux.",
+      "l2": "Na západe je Slovenský raj. Tam sú potoky.",
+      "choices_l1": [
+        "À l'est, il y a le Paradis slovaque. Là-bas, il y a des ruisseaux.",
+        "À l'ouest, il y a le Paradis slovaque. Là-bas, il y a des lacs.",
+        "À l'ouest, il y a Košice. Là-bas, il y a des ruisseaux."
+      ]
+    },
+    {
+      "id": "listen-s-pr-zdniny-a-teta-sp-do-desiatej",
+      "type": "listen",
+      "l1": "Ce sont les vacances. Et ma tante dort jusqu'à dix heures.",
+      "l2": "Sú prázdniny. A teta spí do desiatej.",
+      "choices_l1": [
+        "Ce sont les vacances. Et ma tante dort jusqu'à onze heures.",
+        "C'est l'école. Et ma tante dort jusqu'à dix heures.",
+        "Ce sont les vacances. Et ma tante est au lycée jusqu'à dix heures."
+      ]
+    },
+    {
+      "id": "listen-teraz-si-tu-uvid-me",
+      "type": "listen",
+      "l1": "Maintenant tu es là. On verra.",
+      "l2": "Teraz si tu. Uvidíme.",
+      "choices_l1": [
+        "Maintenant je suis là. On verra.",
+        "Maintenant tu es là. Allons-y.",
+        "Avant, tu étais là. On verra."
+      ]
+    },
+    {
+      "id": "match-inde-vocab",
+      "type": "match",
+      "l1": [
+        "ailleurs",
+        "à l'ouest",
+        "l'école",
+        "parti, loin d'ici"
+      ],
+      "l2": [
+        "inde",
+        "na západe",
+        "škola",
+        "preč"
+      ]
+    },
+    {
+      "id": "blank-slovensk-raj-to-je-aleko",
+      "type": "fill-blank",
+      "l1": "Le Paradis slovaque ? C'est loin !",
+      "l2": "Slovenský raj? To je ďaleko!",
+      "missing_l1": "loin",
+      "missing_l2": "ďaleko",
+      "blank_index_l1": 5,
+      "blank_index_l2": 4,
+      "choices_l1": [
+        "près",
+        "ailleurs",
+        "parti"
+      ],
+      "choices_l2": [
+        "blízko",
+        "inde",
+        "preč"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-m-m-batoh-a-mapu",
+      "type": "fill-blank",
+      "l1": "J'ai un sac à dos et une carte.",
+      "l2": "Mám batoh a mapu.",
+      "missing_l1": "carte",
+      "missing_l2": "mapu",
+      "blank_index_l1": 7,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "tante",
+        "goutte",
+        "queue"
+      ],
+      "choices_l2": [
+        "mapa",
+        "vodu",
+        "batoh"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-ja-som-tu-len-na-pr-zdnin-ch-a-u-ideme-pre",
+      "type": "order",
+      "l1": "Moi, je ne suis ici qu'en vacances... et on repart déjà ?",
+      "l2": "Ja som tu len na prázdninách... a už ideme preč?",
+      "tokens_l1": [
+        "Moi, je ne suis ici",
+        "qu'en vacances...",
+        "et on repart déjà ?"
+      ],
+      "tokens_l2": [
+        "Ja som tu len",
+        "na prázdninách...",
+        "a už ideme preč?"
+      ]
+    },
+    {
+      "id": "order-a-kola-a-tvoja-teta",
+      "type": "order",
+      "l1": "Et l'école ? Et ta tante ?",
+      "l2": "A škola? A tvoja teta?",
+      "tokens_l1": [
+        "Et l'école ?",
+        "Et ta",
+        "tante ?"
+      ],
+      "tokens_l2": [
+        "A škola?",
+        "A tvoja",
+        "teta?"
+      ]
+    }
+  ]
+}

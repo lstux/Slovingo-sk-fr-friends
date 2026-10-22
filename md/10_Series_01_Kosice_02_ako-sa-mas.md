@@ -1,8 +1,8 @@
 # Série Košice (2/5) — Ako sa máš?
 
-@ TODO_img/kosice-hlavna-ulica.jpg | TODO : choisir une image (deux ados qui discutent dans une rue de Košice, ou la rue principale) sur Wikimedia Commons
+@ TODO_img/kosice-hlavna-ulica.jpg | TODO : choisir une image (deux ados qui discutent, ou la rue principale de Košice) sur Wikimedia Commons
 
-{{fr:Ça fait un moment que vous ne vous êtes pas vus. Alors on prend des nouvelles, et on ne se contente pas d'un « ça va ».}}
+{{fr:Cinq ans sans se voir, ça fait long. Alors on prend des nouvelles, et on ne se contente pas d'un « ça va ».}}
 
 ---
 
@@ -13,13 +13,13 @@
 | Ako sa máš? | Comment vas-tu ? (rappel) |
 | Mám sa dobre. | Je vais bien. (rappel) |
 | super | super, génial |
-| tiež | aussi |
+| A ty? | Et toi ? |
+| aj ja | moi aussi |
 | rád | content (dit par un garçon) |
 | rada | contente (dit par une fille) |
 | ťa | te |
 | vidím | je vois |
 | dlho | longtemps |
-| A ty? | Et toi ? |
 
 ---
 
@@ -33,15 +33,30 @@
 |------------|----------|
 | Rád ťa vidím. | Je suis content de te voir. |
 | Rada ťa vidím. | Je suis contente de te voir. |
+| Aj ja ťa rád vidím. | Moi aussi, je suis content de te voir. |
+| Aj ja sa mám dobre. | Moi aussi, je vais bien. |
 
 ---
 
 ## Le dialogue
 
-! 🐰 Ako sa máš?
-> Comment ça va ?
-> Ako = comment
-> sa máš = tu te portes
+! 🐰 Dlho sme sa nevideli.
+> On ne s'est pas vus depuis longtemps.
+> Dlho = longtemps
+> sme sa nevideli = on ne s'est pas vus
++ À écouter : {{sme sa nevideli}} est du passé. Pour l'instant, retiens la phrase d'un bloc.
+
+! 🦊 Veľmi dlho. Päť rokov.
+> Très longtemps. Cinq ans.
+> Veľmi = très
+> dlho = longtemps
+> Päť rokov = cinq ans
++ {{veľmi}} = très, comme dans {{Ďakujem veľmi pekne}}. {{päť rokov}} = cinq ans : après {{päť}}, {{rok}} devient {{rokov}}.
+
+! 🐰 Päť rokov! Ako sa máš?
+> Cinq ans ! Comment ça va ?
+> Päť rokov = cinq ans
+> Ako sa máš = comment ça va
 
 ! 🦊 Mám sa super! A ty?
 > Ça va super ! Et toi ?
@@ -49,26 +64,20 @@
 > super = super
 > A ty = et toi
 
-! 🐰 Tiež sa mám dobre. Rada ťa vidím!
-> Moi aussi, ça va bien. Je suis contente de te voir !
-> Tiež = aussi
+! 🐰 Aj ja sa mám dobre. Rada ťa vidím.
+> Moi aussi, ça va bien. Je suis contente de te voir.
+> Aj ja = moi aussi
 > sa mám dobre = je vais bien
 > Rada = contente
 > ťa vidím = je te vois
-+ Andrea est une fille : elle dit {{rada}}. Toi, tu es un garçon : tu diras {{rád}}.
++ Andrea est une fille : elle dit {{rada}}. Toi, tu es un garçon : tu dis {{rád}}.
 
-! 🦊 Aj ja ťa rád vidím!
-> Moi aussi, je suis content de te voir !
+! 🦊 Aj ja ťa rád vidím.
+> Moi aussi, je suis content de te voir.
 > Aj ja = moi aussi
 > ťa = te
 > rád = content
 > vidím = je vois
-
-! 🐰 Dlho sme sa nevideli.
-> On ne s'est pas vus depuis longtemps.
-> Dlho = longtemps
-> sme sa nevideli = on ne s'est pas vus
-+ À écouter : {{sme sa nevideli}} est du passé. Pour l'instant, retiens la phrase d'un bloc.
 
 ---
 

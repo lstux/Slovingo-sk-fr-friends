@@ -8,14 +8,30 @@
       "l1": "la fontaine",
       "l2": "fontána",
       "choices_l1": [
-        "le parc",
-        "l'étang",
-        "le puits"
+        "le jardinier",
+        "à la radio",
+        "nulle part"
       ],
       "choices_l2": [
-        "park",
-        "jazierko",
-        "studňa"
+        "záhradník",
+        "v rádiu",
+        "nikde"
+      ]
+    },
+    {
+      "id": "qcm-pr-zdna",
+      "type": "qcm",
+      "l1": "vide (dit d'une fontaine)",
+      "l2": "prázdna",
+      "choices_l1": [
+        "nulle part",
+        "excusez-moi (à un adulte)",
+        "la fontaine"
+      ],
+      "choices_l2": [
+        "nikde",
+        "prepáčte",
+        "fontána"
       ]
     },
     {
@@ -24,14 +40,14 @@
       "l1": "nulle part",
       "l2": "nikde",
       "choices_l1": [
-        "ici",
-        "là-bas",
-        "loin"
+        "vide (dit d'une fontaine)",
+        "à la radio",
+        "vous cherchez"
       ],
       "choices_l2": [
-        "tu",
-        "tam",
-        "ďaleko"
+        "prázdna",
+        "v rádiu",
+        "hľadáte"
       ]
     },
     {
@@ -40,174 +56,175 @@
       "l1": "excusez-moi (à un adulte)",
       "l2": "prepáčte",
       "choices_l1": [
-        "au revoir",
-        "bonjour",
-        "merci"
+        "vous cherchez",
+        "Bonne chance !",
+        "nulle part"
       ],
       "choices_l2": [
-        "dovidenia",
-        "dobrý deň",
-        "ďakujem"
+        "hľadáte",
+        "Veľa šťastia!",
+        "nikde"
       ]
     },
     {
-      "id": "listen-pozri-tu-je-font-na",
-      "type": "listen",
-      "l1": "Regarde ! Voilà une fontaine !",
-      "l2": "Pozri! Tu je fontána!",
+      "id": "qcm-z-hradn-k",
+      "type": "qcm",
+      "l1": "le jardinier",
+      "l2": "záhradník",
       "choices_l1": [
-        "Regarde ! Voilà un étang !",
-        "Attends ! Voilà une fontaine !",
-        "Regarde ! Là-bas, une fontaine !"
-      ]
-    },
-    {
-      "id": "listen-dobr-de-h-ad-te-vodu",
-      "type": "listen",
-      "l1": "Bonjour. Vous cherchez de l'eau ?",
-      "l2": "Dobrý deň. Hľadáte vodu?",
-      "choices_l1": [
-        "Bonjour. Tu cherches de l'eau ?",
-        "Bonjour. Vous avez de l'eau ?",
-        "Salut. Vous cherchez de l'eau ?"
-      ]
-    },
-    {
-      "id": "listen-prep-te-voda-tu-u-nie-je",
-      "type": "listen",
-      "l1": "Excusez-moi. Il n'y a plus d'eau ici.",
-      "l2": "Prepáčte. Voda tu už nie je.",
-      "choices_l1": [
-        "Excusez-moi. Il n'y a pas d'eau ici.",
-        "Merci. Il n'y a plus d'eau ici.",
-        "Excusez-moi. Il y a de l'eau ici."
-      ]
-    },
-    {
-      "id": "listen-na-z-pade-je-slovensk-raj-tam-",
-      "type": "listen",
-      "l1": "À l'ouest, il y a le Paradis slovaque. Là-bas, il y a des ruisseaux.",
-      "l2": "Na západe je Slovenský raj. Tam sú potoky.",
-      "choices_l1": [
-        "À l'est, il y a le Paradis slovaque. Là-bas, il y a des ruisseaux.",
-        "À l'ouest, il y a le Paradis slovaque. Là-bas, il y a des étangs.",
-        "À l'ouest, il y a les Tatras. Là-bas, il y a des ruisseaux."
-      ]
-    },
-    {
-      "id": "listen-slovensk-raj-to-je-aleko",
-      "type": "listen",
-      "l1": "Le Paradis slovaque ! C'est loin.",
-      "l2": "Slovenský raj! To je ďaleko.",
-      "choices_l1": [
-        "Le Paradis slovaque ! C'est près.",
-        "Les Tatras ! C'est loin.",
-        "Le Paradis slovaque ! C'est très loin."
-      ]
-    },
-    {
-      "id": "listen-user-name-a-andrea-s-v-meste",
-      "type": "listen",
-      "l1": "[USER_NAME] et Andrea sont en ville.",
-      "l2": "[USER_NAME] a Andrea sú v meste.",
-      "choices_l1": [
-        "[USER_NAME] et Andrea sont dans le parc.",
-        "[USER_NAME] et Katka sont en ville.",
-        "Andrea est en ville."
-      ]
-    },
-    {
-      "id": "match-font-na",
-      "type": "match",
-      "l1": [
         "la fontaine",
-        "nulle part",
-        "excusez-moi (à un adulte)",
+        "à la radio",
         "vide (dit d'une fontaine)"
       ],
-      "l2": [
+      "choices_l2": [
         "fontána",
-        "nikde",
-        "prepáčte",
+        "v rádiu",
         "prázdna"
       ]
     },
     {
-      "id": "blank-pozri-tu-je-font-na",
+      "id": "listen-je-pr-zdna",
+      "type": "listen",
+      "l1": "Elle est vide.",
+      "l2": "Je prázdna.",
+      "choices_l1": [
+        "Elle est vraie.",
+        "Elle est forte.",
+        "Elle est là."
+      ]
+    },
+    {
+      "id": "listen-prep-te-tu-u-voda-nie-je-nikde-v-meste",
+      "type": "listen",
+      "l1": "Désolé. Ici, il n'y a plus d'eau. Nulle part en ville.",
+      "l2": "Prepáčte. Tu už voda nie je. Nikde v meste.",
+      "choices_l1": [
+        "Désolé. Ici, il y a encore de l'eau. Partout en ville.",
+        "Désolé. Ici, il n'y a plus d'eau. Seulement en ville.",
+        "Désolé. Ici, il n'y a plus de fontaine. Nulle part en ville."
+      ]
+    },
+    {
+      "id": "listen-a-inde",
+      "type": "listen",
+      "l1": "Et ailleurs ?",
+      "l2": "A inde?",
+      "choices_l1": [
+        "Et ici ?",
+        "Et maintenant ?",
+        "Et loin ?"
+      ]
+    },
+    {
+      "id": "listen-na-z-pade-v-slovenskom-raji-e-te-voda-je-hovorili-to-v-r-diu",
+      "type": "listen",
+      "l1": "À l'ouest, dans le Paradis slovaque, il y en a encore. Ils l'ont dit à la radio.",
+      "l2": "Na západe, v Slovenskom raji, ešte voda je. Hovorili to v rádiu.",
+      "choices_l1": [
+        "À l'ouest, dans le Paradis slovaque, il n'y en a plus. Ils l'ont dit à la radio.",
+        "À l'ouest, dans le Paradis slovaque, il y en a encore. Ils l'ont dit à la gare.",
+        "À l'est, dans les Tatras, il y en a encore. Ils l'ont dit à la radio."
+      ]
+    },
+    {
+      "id": "listen-ve-a-astia",
+      "type": "listen",
+      "l1": "Bonne chance.",
+      "l2": "Veľa šťastia.",
+      "choices_l1": [
+        "Bon voyage.",
+        "Bonne nuit.",
+        "Beaucoup d'eau."
+      ]
+    },
+    {
+      "id": "match-font-na-vocab",
+      "type": "match",
+      "l1": [
+        "la fontaine",
+        "le jardinier",
+        "nulle part",
+        "à la radio"
+      ],
+      "l2": [
+        "fontána",
+        "záhradník",
+        "nikde",
+        "v rádiu"
+      ]
+    },
+    {
+      "id": "blank-dobr-de-no-h-ad-me-vodu",
       "type": "fill-blank",
-      "l1": "Regarde ! Voilà une fontaine !",
-      "l2": "Pozri! Tu je fontána!",
-      "missing_l1": "fontaine",
-      "missing_l2": "fontána",
-      "blank_index_l1": 4,
+      "l1": "Bonjour. Oui, nous cherchons de l'eau.",
+      "l2": "Dobrý deň. Áno, hľadáme vodu.",
+      "missing_l1": "cherchons",
+      "missing_l2": "hľadáme",
+      "blank_index_l1": 3,
       "blank_index_l2": 3,
       "choices_l1": [
-        "étang",
-        "carte",
-        "route"
+        "allons",
+        "voyons",
+        "avons"
       ],
       "choices_l2": [
-        "jazierko",
-        "mapa",
-        "cesta"
+        "hľadám",
+        "hľadáte",
+        "budeme"
       ],
       "show_translation": true
     },
     {
-      "id": "blank-slovensk-raj-to-je-aleko",
+      "id": "blank-dobr-de-h-ad-te-vodu",
       "type": "fill-blank",
-      "l1": "Le Paradis slovaque ! C'est loin.",
-      "l2": "Slovenský raj! To je ďaleko.",
-      "missing_l1": "loin",
-      "missing_l2": "ďaleko",
-      "blank_index_l1": 5,
-      "blank_index_l2": 4,
+      "l1": "Bonjour. Vous cherchez de l'eau ?",
+      "l2": "Dobrý deň. Hľadáte vodu?",
+      "missing_l1": "cherchez",
+      "missing_l2": "Hľadáte",
+      "blank_index_l1": 2,
+      "blank_index_l2": 2,
       "choices_l1": [
-        "près",
-        "demain",
-        "peu"
+        "buvez",
+        "voyez",
+        "allez"
       ],
       "choices_l2": [
-        "blízko",
-        "zajtra",
-        "málo"
+        "Hľadáme",
+        "Hľadám",
+        "Pijete"
       ],
       "show_translation": true
+    },
+    {
+      "id": "order-prep-te-tu-u-voda-nie-je-nikde-v-meste",
+      "type": "order",
+      "l1": "Désolé. Ici, il n'y a plus d'eau. Nulle part en ville.",
+      "l2": "Prepáčte. Tu už voda nie je. Nikde v meste.",
+      "tokens_l1": [
+        "Désolé.",
+        "Ici, il n'y a plus d'eau.",
+        "Nulle part en ville."
+      ],
+      "tokens_l2": [
+        "Prepáčte.",
+        "Tu už voda nie je.",
+        "Nikde v meste."
+      ]
     },
     {
       "id": "order-dobr-de-no-h-ad-me-vodu",
       "type": "order",
-      "l1": "Bonjour ! Oui, nous cherchons de l'eau.",
-      "l2": "Dobrý deň! Áno, hľadáme vodu.",
+      "l1": "Bonjour. Oui, nous cherchons de l'eau.",
+      "l2": "Dobrý deň. Áno, hľadáme vodu.",
       "tokens_l1": [
-        "Bonjour !",
+        "Bonjour.",
         "Oui,",
-        "nous cherchons",
-        "de l'eau."
+        "nous cherchons de l'eau."
       ],
       "tokens_l2": [
-        "Dobrý deň!",
+        "Dobrý deň.",
         "Áno,",
-        "hľadáme",
-        "vodu."
-      ]
-    },
-    {
-      "id": "order-na-z-pade-je-slovensk-raj-tam-",
-      "type": "order",
-      "l1": "À l'ouest, il y a le Paradis slovaque. Là-bas, il y a des ruisseaux.",
-      "l2": "Na západe je Slovenský raj. Tam sú potoky.",
-      "tokens_l1": [
-        "À l'ouest, il y a",
-        "le Paradis slovaque.",
-        "Là-bas, il y a",
-        "des ruisseaux."
-      ],
-      "tokens_l2": [
-        "Na západe je",
-        "Slovenský raj.",
-        "Tam sú",
-        "potoky."
+        "hľadáme vodu."
       ]
     }
   ]

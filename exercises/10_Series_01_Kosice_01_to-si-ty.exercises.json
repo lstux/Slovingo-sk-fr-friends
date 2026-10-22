@@ -3,29 +3,13 @@
   "sync": "full",
   "exercises": [
     {
-      "id": "qcm-elektri-ka",
-      "type": "qcm",
-      "l1": "le tram",
-      "l2": "električka",
-      "choices_l1": [
-        "maman",
-        "la grand-mère",
-        "papa"
-      ],
-      "choices_l2": [
-        "mama",
-        "babka",
-        "tato"
-      ]
-    },
-    {
       "id": "qcm-si",
       "type": "qcm",
       "l1": "tu es",
       "l2": "si",
       "choices_l1": [
         "je suis",
-        "il est",
+        "il est, elle est",
         "oui"
       ],
       "choices_l2": [
@@ -35,19 +19,51 @@
       ]
     },
     {
+      "id": "qcm-naozaj",
+      "type": "qcm",
+      "l1": "vraiment",
+      "l2": "naozaj",
+      "choices_l1": [
+        "attends",
+        "ici, là",
+        "le tram"
+      ],
+      "choices_l2": [
+        "počkaj",
+        "tu",
+        "električka"
+      ]
+    },
+    {
       "id": "qcm-po-kaj",
       "type": "qcm",
       "l1": "attends",
       "l2": "počkaj",
       "choices_l1": [
-        "salut",
-        "oui",
-        "vraiment"
+        "vraiment",
+        "ici, là",
+        "tu es"
       ],
       "choices_l2": [
-        "ahoj",
-        "áno",
-        "naozaj"
+        "naozaj",
+        "tu",
+        "si"
+      ]
+    },
+    {
+      "id": "qcm-tu",
+      "type": "qcm",
+      "l1": "ici, là",
+      "l2": "tu",
+      "choices_l1": [
+        "toi, tu",
+        "moi, je",
+        "tu es"
+      ],
+      "choices_l2": [
+        "ty",
+        "ja",
+        "si"
       ]
     },
     {
@@ -67,72 +83,72 @@
       ]
     },
     {
-      "id": "listen-ahoj-to-si-ty-andrea",
+      "id": "listen-andrea-to-si-ty",
       "type": "listen",
-      "l1": "Salut ! C'est toi, Andrea ?",
-      "l2": "Ahoj! To si ty, Andrea?",
+      "l1": "Andrea ? C'est toi ?",
+      "l2": "Andrea? To si ty?",
       "choices_l1": [
-        "Salut ! C'est moi, Andrea ?",
-        "Salut ! Tu es dans le tram, Andrea ?",
-        "Salut ! Où es-tu, Andrea ?"
+        "Andrea ? C'est moi ?",
+        "Andrea ? Tu es là ?",
+        "Andrea ? C'est vraiment moi ?"
       ]
     },
     {
       "id": "listen-no-to-som-ja",
       "type": "listen",
-      "l1": "Oui, c'est moi !",
-      "l2": "Áno, to som ja!",
+      "l1": "Oui ! C'est moi !",
+      "l2": "Áno! To som ja!",
       "choices_l1": [
-        "Oui, c'est toi !",
-        "Non, c'est moi !",
-        "Oui, je suis dans le tram !"
+        "Oui ! C'est toi !",
+        "Attends ! C'est moi !",
+        "Oui ! C'est vraiment toi !"
       ]
     },
     {
-      "id": "listen-to-je-m-j-l-stok",
+      "id": "listen-ty-si-tu-v-ko-iciach-v-elektri-ke",
       "type": "listen",
-      "l1": "C'est mon ticket.",
-      "l2": "To je môj lístok.",
+      "l1": "Tu es là ? À Košice ? Dans le tram ?",
+      "l2": "Ty si tu? V Košiciach? V električke?",
       "choices_l1": [
-        "C'est mon arrêt.",
-        "C'est ma ville.",
-        "Où est mon ticket ?"
+        "Je suis là ? À Košice ? Dans le tram ?",
+        "Tu es là ? À Košice ? En ville ?",
+        "C'est toi ? À Košice ? Dans le tram ?"
       ]
     },
     {
-      "id": "match-v-elektri-ke",
+      "id": "match-ja-vocab",
       "type": "match",
       "l1": [
-        "dans le tram",
-        "vraiment",
-        "attends",
-        "le tram"
+        "moi, je",
+        "toi, tu",
+        "je suis",
+        "tu es"
       ],
       "l2": [
-        "v električke",
-        "naozaj",
-        "počkaj",
-        "električka"
+        "ja",
+        "ty",
+        "som",
+        "si"
       ]
     },
     {
       "id": "blank-no-to-som-ja",
       "type": "fill-blank",
-      "l1": "Oui, c'est moi !",
-      "l2": "Áno, to som ja!",
+      "l1": "Oui ! C'est moi !",
+      "l2": "Áno! To som ja!",
       "missing_l1": "moi",
       "missing_l2": "ja",
-      "blank_index_l1": 2,
+      "blank_index_l1": 3,
       "blank_index_l2": 3,
       "choices_l1": [
         "toi",
-        "es",
-        "oui"
+        "ici",
+        "vraiment"
       ],
       "choices_l2": [
         "ty",
-        "si",
-        "áno"
+        "tu",
+        "si"
       ],
       "show_translation": true
     },
@@ -147,48 +163,46 @@
       "blank_index_l2": 3,
       "choices_l1": [
         "arrêt",
-        "ville",
-        "copain"
+        "tram",
+        "ville"
       ],
       "choices_l2": [
         "zastávka",
-        "mesto",
-        "kamarát"
+        "električka",
+        "mesto"
       ],
       "show_translation": true
     },
     {
-      "id": "order-ahoj-to-si-ty-andrea",
+      "id": "order-po-kaj-to-nie-je-mo-n",
       "type": "order",
-      "l1": "Salut ! C'est toi, Andrea ?",
-      "l2": "Ahoj! To si ty, Andrea?",
+      "l1": "Attends... C'est pas possible.",
+      "l2": "Počkaj... To nie je možné.",
       "tokens_l1": [
-        "Salut !",
-        "C'est",
-        "toi,",
-        "Andrea ?"
+        "Attends...",
+        "C'est pas",
+        "possible."
       ],
       "tokens_l2": [
-        "Ahoj!",
-        "To si",
-        "ty,",
-        "Andrea?"
+        "Počkaj...",
+        "To nie je",
+        "možné."
       ]
     },
     {
-      "id": "order-kde-je-zast-vka-v-meste",
+      "id": "order-ty-si-tu-v-ko-iciach-v-elektri-ke",
       "type": "order",
-      "l1": "Où est l'arrêt, en ville ?",
-      "l2": "Kde je zastávka v meste?",
+      "l1": "Tu es là ? À Košice ? Dans le tram ?",
+      "l2": "Ty si tu? V Košiciach? V električke?",
       "tokens_l1": [
-        "Où est",
-        "l'arrêt,",
-        "en ville ?"
+        "Tu es là ?",
+        "À Košice ?",
+        "Dans le tram ?"
       ],
       "tokens_l2": [
-        "Kde je",
-        "zastávka",
-        "v meste?"
+        "Ty si tu?",
+        "V Košiciach?",
+        "V električke?"
       ]
     }
   ]

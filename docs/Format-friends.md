@@ -12,7 +12,7 @@ La base reste le **SMD (Slovingo Markdown)** : voir `Format-SMD.txt` dans le rep
 | Forme | fiches de phrases, un dialogue en 05 | **un récit** : une série = un chapitre, que des dialogues |
 | Fiches 01 à 04 | phrases isolées | vocabulaire + grammaire, avec des **micro-dialogues** qui font avancer l'histoire |
 | Fiche 05 | le dialogue de la série | **première partie de l'épisode** |
-| Fiche 06 | tableau du vocabulaire, aucun mot nouveau, mini-scènes | tableau du vocabulaire **et suite de l'épisode** ; 3 mots nouveaux au maximum |
+| Fiche 06 | tableau du vocabulaire, aucun mot nouveau, mini-scènes | tableau du vocabulaire **et suite de l'épisode** ; mots nouveaux signalés |
 | Narration | aucune | un personnage « Narrateur » 💬 dans les dialogues |
 | Le renard | l'enfant, genre non précisé | **Gab**, un garçon : formes masculines |
 | Humains | aucun | à partir du chapitre 2, tous adultes |
@@ -29,6 +29,8 @@ La base reste le **SMD (Slovingo Markdown)** : voir `Format-SMD.txt` dans le rep
 - Le slovaque est celui qu'un ado slovaque dirait, à faire relire avec attention (voir §11).
 
 ## 2. Une série = 6 fiches = un chapitre
+
+**Source des dialogues** : l'histoire complète est écrite dans `docs/Histoire.md` (traduction dans `docs/Histoire-fr.md`). Chaque chapitre a 6 scènes, et **la scène N devient la fiche N**. Les répliques sont reprises **telles quelles**, avec `[USER_NAME]` à la place de « Gab ». Si une fiche oblige à changer une réplique, on corrige aussi l'histoire.
 
 - **Fiches 01 à 04** : apprentissage (vocabulaire, un point de grammaire), avec des **micro-dialogues** et de petites scènes qui font avancer l'histoire et placent le contexte culturel.
 - **Fiche 05** : première partie de l'épisode (dialogue).
@@ -122,10 +124,10 @@ Exemple : `10_Series_01_Kosice_02_ako-sa-mas.md`.
 ## 8. Vocabulaire
 
 - **Fiche d'apprentissage** : 9 à 10 mots essentiels (« Les nouveaux mots ») + 3 mots complémentaires. Un mot déjà vu dans Kids ou plus haut est marqué « (rappel) ».
-- **Fiche de dialogue (05)** : au plus **5 mots nouveaux**, toujours signalés : `+ Mot nouveau signalé : {{…}} = …`.
-- **Fiche 06** : au plus **3 mots nouveaux**, toujours signalés et ajoutés au tableau récapitulatif.
-- Au plus **une** forme « à écouter » (forme grammaticale pas encore apprise) par fiche de dialogue, signalée par `+ À écouter : …`.
-- Aucun mot inconnu non signalé. Les mots nouveaux du Narrateur comptent comme ceux des répliques.
+- **Fiches 05 et 06** : pas de plafond, puisque le dialogue vient de l'histoire. Les mots à **apprendre** vont dans le tableau (`## Vocabulaire du dialogue` en 05, ajoutés au récapitulatif en 06 avec « (nouveau) ») et sont signalés dans la carte : `+ Mot nouveau signalé : {{…}} = …`.
+- **Mots de décor** (surtout ceux du Narrateur : *popoludnie*, *zajačica*, *hviezdy*…) : traduits dans la décomposition et signalés par `+ Pour comprendre : …`, **sans** être à apprendre ni servir d'exercice.
+- **Formes pas encore apprises** (un passé, un conditionnel…) : `+ À écouter : …`, à retenir d'un bloc. Pas de limite, mais une note par forme.
+- Aucun mot inconnu sans traduction : chaque mot est soit appris, soit décomposé dans la carte.
 - Les cas slovaques (accusatif, locatif, génitif) ne sont pas expliqués comme tels : on les donne en morceaux à retenir (*v električke*, *do mesta*, *u mojej tety*), avec la décomposition.
 
 ## 9. Fiche d'apprentissage (01 à 04)
@@ -179,20 +181,20 @@ Explication en quelques phrases, tableau d'exemples.
 % 48.7206, 21.2580 | {{Spievajúca fontána}}
 ```
 
-La section `## Le dialogue` est composée uniquement de cartes avec avatar : le moteur la reconnaît donc comme une section de dialogue. Les micro-dialogues font **3 à 5 répliques au début du récit, jusqu'à 8 vers la fin**.
+La section `## Le dialogue` est composée uniquement de cartes avec avatar : le moteur la reconnaît donc comme une section de dialogue. Le micro-dialogue est la scène de l'histoire qui porte le même numéro que la fiche (scènes 1 à 4), en entier.
 
 ## 10. Fiches 05 et 06 : l'épisode
 
 **Fiche 05** :
-- `## Vocabulaire du dialogue` (au plus 5 mots nouveaux) ;
+- `## Vocabulaire du dialogue` (les mots nouveaux à apprendre de la scène) ;
 - `## Les personnages` : liste avatar + nom, Narrateur compris ;
-- `## Le dialogue` : l'épisode, **15 à 20 répliques** au début du récit, jusqu'à 30–40 vers la fin, vocabulaire de la série et des séries précédentes ;
+- `## Le dialogue` : la scène 5 de l'histoire, en entier ;
 - Coin slovaque.
 
 **Fiche 06 (extra)** :
 - `## Tout le vocabulaire de la série` : le **tableau complet** (mots de toutes les fiches, mots signalés compris) ;
 - `## Les personnages` ;
-- `## La suite de l'épisode` : la suite et la fin de l'épisode, même longueur que la 05. **3 mots nouveaux au maximum**, signalés, ajoutés au tableau ; les exercices ne portent que sur les répliques sans mot nouveau ;
+- `## La suite de l'épisode` : la scène 6 de l'histoire, en entier. Mots nouveaux signalés et ajoutés au tableau avec « (nouveau) » ;
 - Coin slovaque.
 
 La 06 laisse de la place pour **développer** l'histoire (scènes plus longues, rebondissements, personnages secondaires), mais l'épisode doit pouvoir se lire d'un trait de la 05 à la 06.
@@ -251,20 +253,20 @@ Comme dans Kids, les exercices sont **écrits à la main** dans `exercises/<nom 
 - **Remettre en ordre** : au moins 3 étiquettes de chaque côté.
 - **Prénom** : `[USER_NAME]` n'est jamais un trou ni une réponse.
 - **Les 5 types** quand la fiche s'y prête (qcm, fill-blank, listen, order, match) ; l'écoute 🔊 est le plus utilisé.
-- Chaque exercice reprend **mot pour mot** une paire de la fiche ; en fiche 06, on ne prend que les répliques sans mot nouveau.
+- Chaque exercice reprend **mot pour mot** une paire de la fiche (mots du tableau ou répliques), jamais un mot de décor « Pour comprendre ».
 - Les répliques du Narrateur 💬 peuvent servir à l'écoute, mais ne servent ni de trou ni de réponse piège.
 
 ## 16. Vérifier avant de publier
 
 - [ ] Illustration choisie (ou TODO explicite)
-- [ ] 9-10 nouveaux mots + 3 complémentaires (apprentissage) ; 5 mots nouveaux au plus (05) ; 3 au plus (06)
+- [ ] 9-10 nouveaux mots + 3 complémentaires (apprentissage) ; en 05 et 06, mots nouveaux dans le tableau et signalés
 - [ ] Cartes décomposées morceau par morceau, une ligne par élément
 - [ ] Aucun mot inconnu non signalé (Narrateur compris)
-- [ ] Dialogues : syntaxe `! 🐰 …`, mots nouveaux signalés
+- [ ] Dialogues : repris de `Histoire.md`, syntaxe `! 🐰 …`, mots nouveaux signalés
 - [ ] Formes masculines pour Gab, féminines pour Andrea ; pas de « Gabo » en dur
 - [ ] Aucun renvoi explicite à un autre chapitre ; des rappels dans les dialogues
 - [ ] Coin slovaque : faits vérifiables
-- [ ] Fiche extra : tableau complet, suite de l'épisode, 3 mots nouveaux au plus
+- [ ] Fiche extra : tableau complet, scène 6 de l'histoire, mots nouveaux marqués « (nouveau) »
 - [ ] Nom de fichier et titre selon le schéma, sous-groupe déclaré dans `lang.json`
 - [ ] Slovaque relu par un locuteur natif
 - [ ] Ton : ironique, tendre, jamais cynique

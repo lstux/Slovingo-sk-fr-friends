@@ -3,51 +3,67 @@
   "sync": "full",
   "exercises": [
     {
-      "id": "qcm-jazierko",
+      "id": "qcm-ch-ba-mi",
       "type": "qcm",
-      "l1": "l'étang",
-      "l2": "jazierko",
+      "l1": "il me manque",
+      "l2": "chýba mi",
       "choices_l1": [
-        "le parc",
-        "la rivière",
-        "le ruisseau"
+        "il te manque",
+        "je cherche",
+        "au moins"
       ],
       "choices_l2": [
-        "park",
-        "rieka",
-        "potok"
+        "chýba ti",
+        "hľadám",
+        "aspoň"
       ]
     },
     {
-      "id": "qcm-rieka",
+      "id": "qcm-v-era",
       "type": "qcm",
-      "l1": "la rivière",
-      "l2": "rieka",
+      "l1": "hier",
+      "l2": "včera",
       "choices_l1": [
-        "l'étang",
-        "le ruisseau",
-        "le parc"
+        "encore",
+        "au moins",
+        "personne"
       ],
       "choices_l2": [
-        "jazierko",
-        "potok",
-        "park"
+        "ešte",
+        "aspoň",
+        "nikto"
       ]
     },
     {
-      "id": "qcm-pije",
+      "id": "qcm-nikto",
       "type": "qcm",
-      "l1": "tu bois",
-      "l2": "piješ",
+      "l1": "personne",
+      "l2": "nikto",
       "choices_l1": [
-        "je bois",
-        "tu fais",
-        "je cherche"
+        "les animaux",
+        "au moins",
+        "encore"
       ],
       "choices_l2": [
-        "pijem",
-        "robíš",
-        "hľadám"
+        "zvieratá",
+        "aspoň",
+        "ešte"
+      ]
+    },
+    {
+      "id": "qcm-zl",
+      "type": "qcm",
+      "l1": "mauvais",
+      "l2": "zlé",
+      "choices_l1": [
+        "hier",
+        "encore",
+        "personne"
+      ],
+      "choices_l2": [
+        "včera",
+        "ešte",
+        "nikto"
       ]
     },
     {
@@ -56,30 +72,25 @@
       "l1": "je cherche",
       "l2": "hľadám",
       "choices_l1": [
-        "je fais",
-        "je bois",
-        "j'habite"
+        "il me manque",
+        "il te manque",
+        "hier"
       ],
       "choices_l2": [
-        "robím",
-        "pijem",
-        "bývam"
+        "chýba mi",
+        "chýba ti",
+        "včera"
       ]
     },
     {
-      "id": "qcm-stud-a",
-      "type": "qcm",
-      "l1": "le puits",
-      "l2": "studňa",
+      "id": "listen-v-era-tu-e-te-bola-voda-aspo-trochu",
+      "type": "listen",
+      "l1": "Hier, il y avait encore de l'eau. Un peu, au moins.",
+      "l2": "Včera tu ešte bola voda. Aspoň trochu.",
       "choices_l1": [
-        "la source",
-        "la goutte",
-        "le parc"
-      ],
-      "choices_l2": [
-        "prameň",
-        "kvapka",
-        "park"
+        "Aujourd'hui, il y a encore de l'eau. Un peu, au moins.",
+        "Hier, il n'y avait plus d'eau. Pas du tout.",
+        "Hier, il y avait beaucoup d'eau. Beaucoup trop."
       ]
     },
     {
@@ -88,134 +99,121 @@
       "l1": "L'eau te manque ?",
       "l2": "Chýba ti voda?",
       "choices_l1": [
-        "L'eau me manque ?",
-        "Tu veux de l'eau ?",
-        "Il n'y a pas d'eau ?"
+        "L'eau me manque.",
+        "Tu as de l'eau ?",
+        "Tu bois de l'eau ?"
       ]
     },
     {
-      "id": "listen-ve-mi-mi-ch-ba",
+      "id": "listen-to-je-ve-mi-zl",
       "type": "listen",
-      "l1": "Elle me manque beaucoup.",
-      "l2": "Veľmi mi chýba.",
+      "l1": "C'est très mauvais.",
+      "l2": "To je veľmi zlé.",
       "choices_l1": [
-        "Elle te manque beaucoup.",
-        "Elle me manque un peu.",
-        "Je la cherche beaucoup."
+        "C'est très bien.",
+        "C'est mauvais.",
+        "C'est très loin."
       ]
     },
     {
-      "id": "listen-teraz-tu-u-nie-je-voda",
+      "id": "listen-jazero-je-ve-k-jazierko-je-mal",
       "type": "listen",
-      "l1": "Maintenant, il n'y a plus d'eau ici.",
-      "l2": "Teraz tu už nie je voda.",
+      "l1": "Un lac, c'est grand, un petit étang, c'est petit.",
+      "l2": "Jazero je veľké, jazierko je malé.",
       "choices_l1": [
-        "Maintenant, il y a de l'eau ici.",
-        "Avant, il n'y avait plus d'eau ici.",
-        "Maintenant, il n'y a plus de pluie ici."
+        "Un lac, c'est petit, un petit étang, c'est grand.",
+        "Un ruisseau, c'est grand, un petit étang, c'est petit.",
+        "Un lac, c'est grand, une goutte, c'est petit."
       ]
     },
     {
-      "id": "listen-v-parku-je-jazierko",
-      "type": "listen",
-      "l1": "Dans le parc, il y a un étang.",
-      "l2": "V parku je jazierko.",
-      "choices_l1": [
-        "Dans la ville, il y a un étang.",
-        "Dans le parc, il y a une rivière.",
-        "Dans le parc, il y a un puits."
-      ]
-    },
-    {
-      "id": "match-jazierko",
+      "id": "match-v-era-vocab",
       "type": "match",
       "l1": [
-        "l'étang",
-        "le parc",
-        "la rivière",
-        "le ruisseau"
+        "hier",
+        "encore",
+        "au moins",
+        "personne"
       ],
       "l2": [
-        "jazierko",
-        "park",
-        "rieka",
-        "potok"
+        "včera",
+        "ešte",
+        "aspoň",
+        "nikto"
       ]
     },
     {
-      "id": "blank-tu-pijem-vodu",
+      "id": "blank-ve-mi-mi-ch-ba",
       "type": "fill-blank",
-      "l1": "Ici, je bois de l'eau.",
-      "l2": "Tu pijem vodu.",
-      "missing_l1": "bois",
-      "missing_l2": "pijem",
-      "blank_index_l1": 2,
-      "blank_index_l2": 1,
+      "l1": "Elle me manque beaucoup.",
+      "l2": "Veľmi mi chýba.",
+      "missing_l1": "beaucoup",
+      "missing_l2": "Veľmi",
+      "blank_index_l1": 3,
+      "blank_index_l2": 0,
       "choices_l1": [
-        "cherche",
-        "fais",
-        "habite"
+        "peu",
+        "encore",
+        "aussi"
       ],
       "choices_l2": [
-        "hľadám",
-        "robím",
-        "bývam"
+        "Veľa",
+        "Málo",
+        "Trochu"
       ],
       "show_translation": true
     },
     {
-      "id": "blank-v-parku-je-jazierko",
+      "id": "blank-h-ad-m-potok-tu-je-kvapka-vody",
       "type": "fill-blank",
-      "l1": "Dans le parc, il y a un étang.",
-      "l2": "V parku je jazierko.",
-      "missing_l1": "étang",
-      "missing_l2": "jazierko",
-      "blank_index_l1": 7,
-      "blank_index_l2": 3,
+      "l1": "Je cherche un ruisseau. Voilà une goutte d'eau !",
+      "l2": "Hľadám potok. Tu je kvapka vody!",
+      "missing_l1": "goutte",
+      "missing_l2": "kvapka",
+      "blank_index_l1": 6,
+      "blank_index_l2": 4,
       "choices_l1": [
-        "puits",
-        "ruisseau",
-        "parc"
+        "ville",
+        "tante",
+        "queue"
       ],
       "choices_l2": [
-        "studňa",
-        "potok",
-        "park"
+        "jazero",
+        "záhrada",
+        "chvost"
       ],
       "show_translation": true
     },
     {
-      "id": "order-v-parku-je-jazierko",
+      "id": "order-ch-ba-ti-voda",
       "type": "order",
-      "l1": "Dans le parc, il y a un étang.",
-      "l2": "V parku je jazierko.",
+      "l1": "L'eau te manque ?",
+      "l2": "Chýba ti voda?",
       "tokens_l1": [
-        "Dans le parc,",
-        "il y a",
-        "un étang."
+        "L'eau",
+        "te",
+        "manque ?"
       ],
       "tokens_l2": [
-        "V parku",
-        "je",
-        "jazierko."
+        "Chýba",
+        "ti",
+        "voda?"
       ]
     },
     {
-      "id": "order-kde-je-stud-a-h-ad-m-vodu",
+      "id": "order-h-ad-m-potok-tu-je-kvapka-vody",
       "type": "order",
-      "l1": "Où est le puits ? Je cherche de l'eau.",
-      "l2": "Kde je studňa? Hľadám vodu.",
+      "l1": "Je cherche un ruisseau. Voilà une goutte d'eau !",
+      "l2": "Hľadám potok. Tu je kvapka vody!",
       "tokens_l1": [
-        "Où est",
-        "le puits ?",
-        "Je cherche",
-        "de l'eau."
+        "Je cherche un ruisseau.",
+        "Voilà",
+        "une goutte d'eau !"
       ],
       "tokens_l2": [
-        "Kde je",
-        "studňa?",
-        "Hľadám",
-        "vodu."
+        "Hľadám potok.",
+        "Tu je",
+        "kvapka vody!"
       ]
     }
   ]

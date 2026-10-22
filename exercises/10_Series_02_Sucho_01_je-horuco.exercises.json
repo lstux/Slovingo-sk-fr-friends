@@ -10,44 +10,12 @@
       "choices_l1": [
         "sec",
         "le soleil",
-        "la pluie"
+        "aujourd'hui"
       ],
       "choices_l2": [
         "sucho",
         "slnko",
-        "dážď"
-      ]
-    },
-    {
-      "id": "qcm-sucho",
-      "type": "qcm",
-      "l1": "sec",
-      "l2": "sucho",
-      "choices_l1": [
-        "chaud",
-        "le soleil",
-        "la pluie"
-      ],
-      "choices_l2": [
-        "horúco",
-        "slnko",
-        "dážď"
-      ]
-    },
-    {
-      "id": "qcm-d",
-      "type": "qcm",
-      "l1": "la pluie",
-      "l2": "dážď",
-      "choices_l1": [
-        "le soleil",
-        "chaud",
-        "l'eau"
-      ],
-      "choices_l2": [
-        "slnko",
-        "horúco",
-        "voda"
+        "dnes"
       ]
     },
     {
@@ -56,164 +24,198 @@
       "l1": "aujourd'hui",
       "l2": "dnes",
       "choices_l1": [
-        "le matin",
-        "longtemps",
-        "maintenant"
+        "tous les matins",
+        "deux mois",
+        "chaud"
       ],
       "choices_l2": [
-        "ráno",
-        "dlho",
-        "teraz"
+        "každé ráno",
+        "dva mesiace",
+        "horúco"
       ]
     },
     {
-      "id": "qcm-u-nie-je",
+      "id": "qcm-vst-vaj",
       "type": "qcm",
-      "l1": "il n'y a plus",
-      "l2": "už nie je",
+      "l1": "lève-toi, debout",
+      "l2": "vstávaj",
       "choices_l1": [
-        "il n'y a pas",
-        "il y a",
-        "il est"
+        "attends",
+        "sec",
+        "le soleil"
       ],
       "choices_l2": [
-        "nie je",
-        "je",
-        "som"
+        "počkaj",
+        "sucho",
+        "slnko"
       ]
     },
     {
-      "id": "listen-ak-je-dnes-po-asie",
-      "type": "listen",
-      "l1": "Quel temps fait-il aujourd'hui ?",
-      "l2": "Aké je dnes počasie?",
+      "id": "qcm-jazierko",
+      "type": "qcm",
+      "l1": "le petit étang",
+      "l2": "jazierko",
       "choices_l1": [
-        "Quel temps fera-t-il demain ?",
-        "Il fait chaud aujourd'hui ?",
-        "Quel temps faisait-il ce matin ?"
+        "le soleil",
+        "dans le parc",
+        "froid"
+      ],
+      "choices_l2": [
+        "slnko",
+        "v parku",
+        "zima"
       ]
     },
     {
-      "id": "listen-u-nie-je-d",
-      "type": "listen",
-      "l1": "Il n'y a plus de pluie ?",
-      "l2": "Už nie je dážď?",
+      "id": "qcm-slnko",
+      "type": "qcm",
+      "l1": "le soleil",
+      "l2": "slnko",
       "choices_l1": [
-        "Il n'y a pas de pluie ?",
-        "Il n'y a plus d'eau ?",
-        "Il y a de la pluie ?"
+        "le nuage",
+        "le petit étang",
+        "sec"
+      ],
+      "choices_l2": [
+        "oblak",
+        "jazierko",
+        "sucho"
       ]
     },
     {
-      "id": "listen-nie-u-dlho",
+      "id": "listen-hor-co-a-sucho-u-dva-mesiace-nepr-alo",
       "type": "listen",
-      "l1": "Non. Depuis longtemps.",
-      "l2": "Nie. Už dlho.",
+      "l1": "Chaud. Et sec. Il n'a pas plu depuis deux mois.",
+      "l2": "Horúco. A sucho. Už dva mesiace nepršalo.",
       "choices_l1": [
-        "Oui. Depuis longtemps.",
-        "Non. Depuis hier.",
-        "Non. Pas longtemps."
+        "Chaud. Et sec. Il n'a pas plu depuis deux jours.",
+        "Froid. Et sec. Il n'a pas plu depuis deux mois.",
+        "Chaud. Et sec. Il a plu pendant deux mois."
       ]
     },
     {
-      "id": "listen-voda-u-nie-je",
+      "id": "listen-akujem-ak-je-dnes-po-asie",
       "type": "listen",
-      "l1": "Il n'y a plus d'eau.",
-      "l2": "Voda už nie je.",
+      "l1": "Merci. Il fait quel temps aujourd'hui ?",
+      "l2": "Ďakujem. Aké je dnes počasie?",
       "choices_l1": [
-        "Il n'y a pas d'eau.",
-        "Il n'y a plus de pluie.",
-        "Il y a de l'eau."
+        "Merci. Il fait quel temps ce soir ?",
+        "Merci. Où est l'eau aujourd'hui ?",
+        "Merci. Il fait chaud aujourd'hui ?"
       ]
     },
     {
-      "id": "match-hor-co",
+      "id": "listen-v-parku-je-jazierko-chod-m-tam-ka-d-r-no",
+      "type": "listen",
+      "l1": "Il y a un petit étang dans le parc. J'y vais tous les matins.",
+      "l2": "V parku je jazierko. Chodím tam každé ráno.",
+      "choices_l1": [
+        "Il y a un petit étang dans le jardin. J'y vais tous les matins.",
+        "Il y a un petit étang dans le parc. J'y vais tous les soirs.",
+        "Il y a un grand lac dans le parc. J'y vais tous les matins."
+      ]
+    },
+    {
+      "id": "listen-tak-po-me",
+      "type": "listen",
+      "l1": "Alors allons-y.",
+      "l2": "Tak poďme.",
+      "choices_l1": [
+        "Alors viens.",
+        "Alors on verra.",
+        "Alors attends."
+      ]
+    },
+    {
+      "id": "match-ak-je-po-asie-vocab",
       "type": "match",
       "l1": [
-        "chaud",
+        "Quel temps fait-il ?",
+        "aujourd'hui",
         "sec",
-        "le soleil",
-        "la pluie"
+        "tous les matins"
       ],
       "l2": [
+        "Aké je počasie?",
+        "dnes",
+        "sucho",
+        "každé ráno"
+      ]
+    },
+    {
+      "id": "blank-dva-mesiace-a-kde-pijete-vodu",
+      "type": "fill-blank",
+      "l1": "Deux mois ? Et où est-ce que vous buvez ?",
+      "l2": "Dva mesiace? A kde pijete vodu?",
+      "missing_l1": "où",
+      "missing_l2": "kde",
+      "blank_index_l1": 4,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "quoi",
+        "comment",
+        "ici"
+      ],
+      "choices_l2": [
+        "čo",
+        "ako",
+        "tu"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-r-no-je-zima-ale-dnes-je-teplo",
+      "type": "fill-blank",
+      "l1": "Le matin, il fait froid, mais aujourd'hui, il fait doux.",
+      "l2": "Ráno je zima, ale dnes je teplo.",
+      "missing_l1": "doux",
+      "missing_l2": "teplo",
+      "blank_index_l1": 9,
+      "blank_index_l2": 6,
+      "choices_l1": [
+        "chaud",
+        "sec",
+        "longtemps"
+      ],
+      "choices_l2": [
         "horúco",
         "sucho",
-        "slnko",
-        "dážď"
-      ]
-    },
-    {
-      "id": "blank-dnes-je-hor-co",
-      "type": "fill-blank",
-      "l1": "Aujourd'hui, il fait chaud.",
-      "l2": "Dnes je horúco.",
-      "missing_l1": "chaud",
-      "missing_l2": "horúco",
-      "blank_index_l1": 3,
-      "blank_index_l2": 2,
-      "choices_l1": [
-        "sec",
-        "froid",
-        "doux"
-      ],
-      "choices_l2": [
-        "sucho",
-        "zima",
-        "teplo"
+        "dlho"
       ],
       "show_translation": true
     },
     {
-      "id": "blank-d-u-nie-je",
-      "type": "fill-blank",
-      "l1": "Il n'y a plus de pluie.",
-      "l2": "Dážď už nie je.",
-      "missing_l1": "plus",
-      "missing_l2": "už",
-      "blank_index_l1": 3,
-      "blank_index_l2": 1,
-      "choices_l1": [
-        "pas",
-        "bien",
-        "très"
-      ],
-      "choices_l2": [
-        "nie",
-        "dobre",
-        "veľmi"
-      ],
-      "show_translation": true
-    },
-    {
-      "id": "order-dnes-je-hor-co",
+      "id": "order-tu-m-vodu-len-trochu-viac-nem-m",
       "type": "order",
-      "l1": "Aujourd'hui, il fait chaud.",
-      "l2": "Dnes je horúco.",
+      "l1": "Tiens, de l'eau. Juste un peu. Je n'en ai pas plus.",
+      "l2": "Tu máš vodu. Len trochu. Viac nemám.",
       "tokens_l1": [
-        "Aujourd'hui,",
-        "il fait",
-        "chaud."
+        "Tiens, de l'eau.",
+        "Juste un peu.",
+        "Je n'en ai pas plus."
       ],
       "tokens_l2": [
-        "Dnes",
-        "je",
-        "horúco."
+        "Tu máš vodu.",
+        "Len trochu.",
+        "Viac nemám."
       ]
     },
     {
-      "id": "order-voda-u-nie-je",
+      "id": "order-o-kde-som-aha-v-z-hrade",
       "type": "order",
-      "l1": "Il n'y a plus d'eau.",
-      "l2": "Voda už nie je.",
+      "l1": "Quoi... Où je suis ? Ah. Dans le jardin.",
+      "l2": "Čo... Kde som? Aha. V záhrade.",
       "tokens_l1": [
-        "Il n'y a",
-        "plus",
-        "d'eau."
+        "Quoi...",
+        "Où je suis ?",
+        "Ah.",
+        "Dans le jardin."
       ],
       "tokens_l2": [
-        "Voda",
-        "už",
-        "nie je."
+        "Čo...",
+        "Kde som?",
+        "Aha.",
+        "V záhrade."
       ]
     }
   ]

@@ -1,0 +1,220 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-p-tn-s",
+      "type": "qcm",
+      "l1": "quinze",
+      "l2": "pätnásť",
+      "choices_l1": [
+        "seize",
+        "quatorze",
+        "treize"
+      ],
+      "choices_l2": [
+        "šestnásť",
+        "štrnásť",
+        "trinásť"
+      ]
+    },
+    {
+      "id": "qcm-trin-s",
+      "type": "qcm",
+      "l1": "treize",
+      "l2": "trinásť",
+      "choices_l1": [
+        "onze",
+        "quatorze",
+        "seize"
+      ],
+      "choices_l2": [
+        "jedenásť",
+        "štrnásť",
+        "šestnásť"
+      ]
+    },
+    {
+      "id": "qcm-pam-t-sa",
+      "type": "qcm",
+      "l1": "tu te souviens",
+      "l2": "pamätáš sa",
+      "choices_l1": [
+        "je me souviens",
+        "tout",
+        "maintenant"
+      ],
+      "choices_l2": [
+        "pamätám sa",
+        "všetko",
+        "teraz"
+      ]
+    },
+    {
+      "id": "qcm-v-etko",
+      "type": "qcm",
+      "l1": "tout",
+      "l2": "všetko",
+      "choices_l1": [
+        "maintenant",
+        "gentil (dit d'un garçon)",
+        "quinze"
+      ],
+      "choices_l2": [
+        "teraz",
+        "milý",
+        "pätnásť"
+      ]
+    },
+    {
+      "id": "qcm-teraz",
+      "type": "qcm",
+      "l1": "maintenant",
+      "l2": "teraz",
+      "choices_l1": [
+        "tout",
+        "gentil (dit d'un garçon)",
+        "onze"
+      ],
+      "choices_l2": [
+        "všetko",
+        "milý",
+        "jedenásť"
+      ]
+    },
+    {
+      "id": "listen-pam-t-sa-na-tatry",
+      "type": "listen",
+      "l1": "Tu te souviens des Tatras ?",
+      "l2": "Pamätáš sa na Tatry?",
+      "choices_l1": [
+        "Tu habites dans les Tatras ?",
+        "Je me souviens des Tatras.",
+        "Tu vas dans les Tatras ?"
+      ]
+    },
+    {
+      "id": "listen-dobre-katka-m-trin-s-a-ma-o-trn-s",
+      "type": "listen",
+      "l1": "Bien. Katka a treize ans et Maťo quatorze.",
+      "l2": "Dobre. Katka má trinásť a Maťo štrnásť.",
+      "choices_l1": [
+        "Bien. Katka a quatorze ans et Maťo treize.",
+        "Bien. Katka a trois ans et Maťo quatre.",
+        "Bien. Katka a seize ans et Maťo quinze."
+      ]
+    },
+    {
+      "id": "listen-vid-as-ide",
+      "type": "listen",
+      "l1": "Tu vois ? Le temps passe.",
+      "l2": "Vidíš? Čas ide.",
+      "choices_l1": [
+        "Tu vois ? Le tram passe.",
+        "Tu vois ? Il fait beau.",
+        "Tu sais ? Le temps passe."
+      ]
+    },
+    {
+      "id": "listen-ty-si-mal-desa-a-ja-som-mala-jeden-s-teraz-m-m-estn-s",
+      "type": "listen",
+      "l1": "Toi, tu en avais dix. Et moi, onze. Maintenant j'en ai seize.",
+      "l2": "Ty si mal desať. A ja som mala jedenásť. Teraz mám šestnásť.",
+      "choices_l1": [
+        "Toi, tu en avais onze. Et moi, dix. Maintenant j'en ai seize.",
+        "Toi, tu en avais dix. Et moi, onze. Maintenant j'en ai quinze.",
+        "Toi, tu en as dix. Et moi, onze. Maintenant j'en ai seize."
+      ]
+    },
+    {
+      "id": "match-jeden-s-vocab",
+      "type": "match",
+      "l1": [
+        "onze",
+        "treize",
+        "quatorze",
+        "seize"
+      ],
+      "l2": [
+        "jedenásť",
+        "trinásť",
+        "štrnásť",
+        "šestnásť"
+      ]
+    },
+    {
+      "id": "blank-a-ja-p-tn-s",
+      "type": "fill-blank",
+      "l1": "Et moi quinze.",
+      "l2": "A ja pätnásť.",
+      "missing_l1": "quinze",
+      "missing_l2": "pätnásť",
+      "blank_index_l1": 2,
+      "blank_index_l2": 2,
+      "choices_l1": [
+        "cinq",
+        "seize",
+        "quatorze"
+      ],
+      "choices_l2": [
+        "päť",
+        "šestnásť",
+        "štrnásť"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-ve-som-bol-mil",
+      "type": "fill-blank",
+      "l1": "Mais j'étais gentil !",
+      "l2": "Veď som bol milý!",
+      "missing_l1": "gentil",
+      "missing_l2": "milý",
+      "blank_index_l1": 2,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "seul",
+        "content",
+        "simple"
+      ],
+      "choices_l2": [
+        "sám",
+        "rád",
+        "jednoduchý"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-ty-si-mal-desa-a-ja-som-mala-jeden-s-teraz-m-m-estn-s",
+      "type": "order",
+      "l1": "Toi, tu en avais dix. Et moi, onze. Maintenant j'en ai seize.",
+      "l2": "Ty si mal desať. A ja som mala jedenásť. Teraz mám šestnásť.",
+      "tokens_l1": [
+        "Toi, tu en avais dix.",
+        "Et moi, onze.",
+        "Maintenant j'en ai seize."
+      ],
+      "tokens_l2": [
+        "Ty si mal desať.",
+        "A ja som mala jedenásť.",
+        "Teraz mám šestnásť."
+      ]
+    },
+    {
+      "id": "order-chod-m-na-gymn-zium",
+      "type": "order",
+      "l1": "Je vais au lycée.",
+      "l2": "Chodím na gymnázium.",
+      "tokens_l1": [
+        "Je vais",
+        "au",
+        "lycée."
+      ],
+      "tokens_l2": [
+        "Chodím",
+        "na",
+        "gymnázium."
+      ]
+    }
+  ]
+}

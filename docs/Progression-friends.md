@@ -61,8 +61,7 @@ Deux séries peuvent se dérouler au même endroit : les personnages traversent 
 ### Par fiche
 
 - **Fiche d'apprentissage** : 9 à 10 mots essentiels + 3 complémentaires. Un mot déjà vu est marqué « (rappel) ».
-- **Fiche de dialogue (05)** : au plus **5 mots nouveaux**, toujours signalés.
-- **Fiche 06** : au plus **3 mots nouveaux**, toujours signalés.
+- **Fiches 05 et 06** : les scènes de l'histoire telles quelles. Pas de plafond de mots nouveaux : ils sont signalés, et les mots de décor sont seulement traduits (voir `Format-friends.md`, §8).
 - Les mots transparents (*super*, *dóm*, *gymnázium*) coûtent moins cher.
 
 ### Apprentissage cumulatif

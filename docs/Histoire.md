@@ -132,8 +132,6 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🐰 Vidíš?
 
-## Scéna 6
-
 💬 Električka ide okolo veľkého dómu.
 
 🦊 Pozri! To je dóm!
@@ -157,6 +155,8 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 🐰 To je moja zastávka. Poď!
 
 🦊 Idem!
+
+## Scéna 6
 
 💬 Je večer. Pred domom je veľká záhrada.
 

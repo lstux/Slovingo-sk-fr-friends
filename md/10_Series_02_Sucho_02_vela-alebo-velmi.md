@@ -1,8 +1,8 @@
-# Série Sucho (2/5) — Veľa alebo veľmi ?
+# Série Sucho (2/5) — Veľa alebo veľmi?
 
-@ TODO_img/liska-chvost.jpg | TODO : choisir une image (un renard roux qui parle ou se frotte la queue) sur Wikimedia Commons
+@ TODO_img/liska-chvost.jpg | TODO : choisir une image (un renard roux avec une belle queue) sur Wikimedia Commons
 
-{{fr:Tu parles beaucoup, et Andrea te l'a fait remarquer. Aujourd'hui, on apprend à dire « beaucoup » sans se tromper : c'est un piège classique pour les francophones.}}
+{{fr:Hier, Andrea t'a dit que les renards parlent beaucoup. Tu essaies de le répéter… et tu te prends les pieds dans le tapis. Aujourd'hui, on apprend à dire « beaucoup » sans se tromper : c'est un piège classique pour les francophones.}}
 
 ---
 
@@ -13,13 +13,13 @@
 | veľa | beaucoup (rappel) |
 | veľmi | très (rappel) |
 | málo | peu |
-| dosť | assez |
 | hovorím | je parle |
 | rozumiem | je comprends |
 | správne | correct, juste |
 | neexistuje | n'existe pas |
-| veľa vody | beaucoup d'eau |
-| málo vody | peu d'eau |
+| líščí | de renard |
+| chvost | la queue |
+| presne | exactement |
 
 ---
 
@@ -27,21 +27,29 @@
 
 ### Veľa ou veľmi ?
 
-{{fr:En français, « beaucoup » sert à tout : « beaucoup d'eau », « merci beaucoup ». En slovaque, il y a deux mots.}} {{veľa}} {{fr:parle d'une quantité : beaucoup d'eau, beaucoup de paroles.}} {{veľmi}} {{fr:parle d'une intensité : très gentil, très loin.}}
+{{fr:En français, « beaucoup » sert à tout : « beaucoup d'eau », « merci beaucoup ». En slovaque, il y a deux mots.}} {{veľa}} {{fr:répond à « combien ? » : beaucoup d'eau, beaucoup de paroles.}} {{veľmi}} {{fr:répond à « comment ? » : très gentil, très loin.}}
 
-{{fr:Après}} {{veľa}}{{fr:,}} {{málo}} {{fr:ou}} {{dosť}}{{fr:, le mot change de fin :}} {{voda}} {{fr:devient}} {{vody}}{{fr:. On le retient d'un bloc.}}
+{{fr:Après}} {{veľa}} {{fr:ou}} {{málo}}{{fr:, le mot change de fin :}} {{voda}} {{fr:devient}} {{vody}}{{fr:. On le retient d'un bloc.}}
 
 | Slovenčina | Français |
 |------------|----------|
 | Veľa hovorím. | Je parle beaucoup. |
-| Líška je veľmi milá. | Le renard est très gentil. |
+| Veľmi milý. | Très gentil. |
+| Veľmi ďaleko. | Très loin. |
 | Veľa vody. | Beaucoup d'eau. |
 | Málo vody. | Peu d'eau. |
-| Dosť vody. | Assez d'eau. |
 
 ---
 
 ## Le dialogue
+
+! 💬 Idú do parku. [USER_NAME] rozpráva o všetkom: o jabloni, o tete, o Lyone, o električke, o počasí...
+> Ils vont au parc. [USER_NAME] parle de tout : du pommier, de la tante, de Lyon, du tram, du temps qu'il fait...
+> Idú do parku = ils vont au parc
+> rozpráva o všetkom = parle de tout
+> o jabloni = du pommier
+> o tete = de la tante
+> o počasí = du temps qu'il fait
 
 ! 🐰 Ty veľa hovoríš.
 > Tu parles beaucoup.
@@ -50,41 +58,78 @@
 > hovoríš = tu parles
 + {{hovorím}} (je parle) → {{hovoríš}} (tu parles), comme {{robím}} → {{robíš}}.
 
-! 🦊 Veľmi hovorím, som líškasky, komplikovaný…
-> Je parle très, je suis « renardesque », compliqué…
+! 🦊 Veľmi hovorím, som líškasky, komplikovaný...
+> Je parle très, je suis renardesque, compliqué...
 > Veľmi hovorím = je parle très
 > som líškasky = je suis « renardesque »
 > komplikovaný = compliqué
 + Cette phrase est fausse, exprès ! Andrea va expliquer pourquoi. Ne la retiens pas telle quelle.
 
-! 🐰 Rozumiem. Ale správne je: veľa hovorím.
-> Je comprends. Mais le correct, c'est : je parle beaucoup.
+! 🐰 Rozumiem, čo chceš povedať. Ale správne je: veľa hovorím.
+> Je comprends ce que tu veux dire. Mais ce qu'il faut dire, c'est : « je parle beaucoup ».
 > Rozumiem = je comprends
+> čo chceš povedať = ce que tu veux dire
 > Ale = mais
 > správne je = le correct, c'est
 > veľa hovorím = je parle beaucoup
-+ {{veľmi}} = très, {{veľa}} = beaucoup. Ce n'est pas du tout pareil !
 
-! 🐰 A líškasky neexistuje. Si líška.
+! 🦊 Veľa hovorím?
+> « Je parle beaucoup » ?
+> Veľa hovorím = je parle beaucoup
+
+! 🐰 „Veľmi“ je pre „aký“: veľmi milý, veľmi ďaleko. „Veľa“ je pre „koľko“: veľa vody, veľa hovorím.
+> « Veľmi », c'est pour « comment ? » : très gentil, très loin. « Veľa », c'est pour « combien ? » : beaucoup d'eau, je parle beaucoup.
+> Veľmi je pre aký = « veľmi » sert pour « comment »
+> veľmi milý = très gentil
+> veľmi ďaleko = très loin
+> Veľa je pre koľko = « veľa » sert pour « combien »
+> veľa vody = beaucoup d'eau
++ {{aký}} = quel, comment ; {{koľko}} = combien. Voilà toute la règle en une phrase.
+
+! 🐰 A „líškasky“ neexistuje. Si líška.
 > Et « líškasky » n'existe pas. Tu es un renard.
 > A = et
 > líškasky neexistuje = « líškasky » n'existe pas
 > Si líška = tu es un renard
-+ Pour dire ce qu'on est, il faut un nom : {{si líška}}. La terminaison {{-sky}} sert pour les langues, comme dans {{po slovensky}}.
++ La terminaison {{-sky}} sert pour les langues, comme dans {{po slovensky}}. Pour dire ce qu'on est, il faut un nom : {{si líška}}.
 
-! 🦊 Aha. Veľa hovorím. Som líška.
-> Ah. Je parle beaucoup. Je suis un renard.
-> Veľa hovorím = je parle beaucoup
+! 🦊 Aha. Som líška.
+> Ah. Je suis un renard.
+> Aha = ah
 > Som líška = je suis un renard
-+ Correct ! Andrea n'a pas dit bravo, mais elle l'a pensé très fort.
+
+! 🐰 Správne. A „líščí“ je to, čo patrí líške: líščí chvost.
+> Exact. Et « líščí », c'est ce qui appartient au renard : la queue de renard.
+> Správne = exact
+> líščí je to = « líščí », c'est ce
+> čo patrí líške = qui appartient au renard
+> líščí chvost = une queue de renard
+
+! 🦊 Takže môj chvost je líščí. A ja som líška.
+> Donc ma queue est « de renard ». Et moi, je suis un renard.
+> Takže = donc
+> môj chvost = ma queue
+> je líščí = est de renard
+> A ja som líška = et moi, je suis un renard
+
+! 🐰 Presne.
+> Voilà.
+> Presne = exactement
+
+! 🦊 Teraz to chápem. Skoro.
+> Maintenant, je comprends. Presque.
+> Teraz = maintenant
+> to chápem = je comprends
+> Skoro = presque
++ {{chápem}} = je comprends, je pige. C'est un cousin de {{rozumiem}}.
 
 ---
 
 ## 🇸🇰 Coin slovaque
 
-{{fr:L'adjectif « de renard » existe : c'est}} {{líščí}}{{fr:. Une queue de renard se dit}} {{líščí chvost}}{{fr:. Mais pour dire « je suis un renard », il faut le nom :}} {{som líška}}{{fr:.}}
-
 {{fr:Pour les langues, on met}} {{po}} {{fr:devant et}} {{-sky}} {{fr:à la fin :}} {{po slovensky}}{{fr:, « en slovaque », et}} {{po francúzsky}}{{fr:, « en français ». Une langue « renardesque » n'existe pas, même si ça arrangerait bien des choses.}}
+
+{{fr:Et pour « très beaucoup » ? Ça existe ! On dit}} {{veľmi veľa}}{{fr:, « vraiment beaucoup ». Les deux mots se combinent, à condition de les mettre dans cet ordre.}}
 
 ---
 

@@ -3,237 +3,212 @@
   "sync": "full",
   "exercises": [
     {
-      "id": "listen-user-name-a-andrea-s-v-meste",
+      "id": "listen-tu-b-va-moja-teta-je-mil-ale-ve-k-a-siln",
       "type": "listen",
-      "l1": "[USER_NAME] et Andrea sont en ville.",
-      "l2": "[USER_NAME] a Andrea sú v meste.",
+      "l1": "C'est là qu'habite ma tante. Elle est gentille. Mais grande et forte.",
+      "l2": "Tu býva moja teta. Je milá. Ale veľká a silná.",
       "choices_l1": [
-        "[USER_NAME] et Andrea sont dans le tram.",
-        "[USER_NAME] et Katka sont en ville.",
-        "Andrea est en ville."
+        "C'est là qu'habite ma tante. Elle est petite. Mais gentille et forte.",
+        "C'est là qu'habite ma maman. Elle est gentille. Mais grande et forte.",
+        "C'est là que j'habite. Je suis gentille. Mais grande et forte."
       ]
     },
     {
-      "id": "listen-moja-teta-b-va-tu",
+      "id": "listen-boj-m-sa",
       "type": "listen",
-      "l1": "Ma tante habite ici.",
-      "l2": "Moja teta býva tu.",
+      "l1": "J'ai peur.",
+      "l2": "Bojím sa.",
       "choices_l1": [
-        "Ma tante habite en ville.",
-        "Ma sœur habite ici.",
-        "Ma tante voyage en train."
+        "J'ai froid.",
+        "J'arrive.",
+        "Je dors."
       ]
     },
     {
-      "id": "listen-teta-je-ve-k-a-siln",
+      "id": "listen-bude-spa-v-z-hrade-pod-jablo-ou",
       "type": "listen",
-      "l1": "Ma tante est grande et forte.",
-      "l2": "Teta je veľká a silná.",
+      "l1": "Tu vas dormir dans le jardin. Sous le pommier.",
+      "l2": "Budeš spať v záhrade. Pod jabloňou.",
       "choices_l1": [
-        "Ma tante est petite et forte.",
-        "Ma tante est grande et gentille.",
-        "Ma sœur est grande et forte."
+        "Tu vas dormir dans le tram. Sous le pommier.",
+        "Tu vas dormir dans la maison. Avec ma tante.",
+        "Tu vas manger dans le jardin. Sous le pommier."
       ]
     },
     {
-      "id": "listen-nie-teta-je-mil-a-ty-si-mil-l-",
+      "id": "listen-aj-ja-teraz-si-tu-to-je-skvel",
       "type": "listen",
-      "l1": "Non. Ma tante est gentille. Et toi, tu es un gentil renard.",
-      "l2": "Nie. Teta je milá. A ty si milá líška.",
+      "l1": "Moi aussi. Maintenant tu es là. C'est super.",
+      "l2": "Aj ja. Teraz si tu. To je skvelé.",
       "choices_l1": [
-        "Non. Ma tante est gentille. Et moi, je suis un gentil renard.",
-        "Oui. Ma tante est gentille. Et toi, tu es un gentil renard.",
-        "Non. Ma tante est grande. Et toi, tu es un gentil renard."
+        "Moi aussi. Maintenant je suis là. C'est super.",
+        "Toi aussi. Maintenant tu es là. C'est bizarre.",
+        "Moi non. Maintenant tu es là. C'est super."
       ]
     },
     {
-      "id": "listen-akujem-ale-ja-som-tu-na-pr-zdn",
+      "id": "listen-ale-ja-som-tu-len-na-pr-zdnin-ch",
       "type": "listen",
-      "l1": "Merci ! Mais je ne suis ici qu'en vacances.",
-      "l2": "Ďakujem! Ale ja som tu na prázdninách.",
+      "l1": "Mais moi, je ne suis ici qu'en vacances...",
+      "l2": "Ale ja som tu len na prázdninách...",
       "choices_l1": [
-        "Merci ! Mais je suis ici avec toi.",
-        "Salut ! Mais je ne suis ici qu'en vacances.",
-        "Merci ! Mais tu n'es ici qu'en vacances."
+        "Mais moi, j'habite ici...",
+        "Mais moi, je suis ici avec maman...",
+        "Mais toi, tu n'es ici qu'en vacances..."
       ]
     },
     {
-      "id": "listen-aj-ja-a-rada-vid-m",
+      "id": "listen-je-ve-er-pred-domom-je-ve-k-z-hrada",
       "type": "listen",
-      "l1": "Moi aussi, je suis contente de te voir.",
-      "l2": "Aj ja ťa rada vidím.",
+      "l1": "C'est le soir. Devant la maison, il y a un grand jardin.",
+      "l2": "Je večer. Pred domom je veľká záhrada.",
       "choices_l1": [
-        "Moi aussi, je suis content de te voir.",
-        "Moi, je suis contente de te voir.",
-        "Moi aussi, je suis contente de te voir longtemps."
+        "C'est le matin. Devant la maison, il y a un grand jardin.",
+        "C'est le soir. Devant la maison, il y a une grande cathédrale.",
+        "C'est le soir. Dans la maison, il y a une grande tante."
       ]
     },
     {
-      "id": "match-elektri-ka",
+      "id": "match-pam-t-m-sa-vocab",
       "type": "match",
       "l1": [
-        "le tram",
-        "vraiment",
-        "en vacances",
-        "tout"
+        "je me souviens",
+        "tout",
+        "vrai, la vérité",
+        "presque"
       ],
       "l2": [
-        "električka",
-        "naozaj",
-        "na prázdninách",
-        "všetko"
+        "pamätám sa",
+        "všetko",
+        "pravda",
+        "skoro"
       ]
     },
     {
-      "id": "match-rozpr-vaj",
+      "id": "match-boj-m-sa-sentences",
       "type": "match",
       "l1": [
-        "ils parlent",
-        "les extraterrestres",
-        "seize",
-        "treize"
+        "J'ai peur.",
+        "Elle ne sait pas ?",
+        "Bonne nuit, Andrea.",
+        "Moi aussi. Maintenant tu es là. C'est super."
       ],
       "l2": [
-        "rozprávajú",
-        "mimozemšťania",
-        "šestnásť",
-        "trinásť"
+        "Bojím sa.",
+        "Nevie?",
+        "Dobrú noc, Andrea.",
+        "Aj ja. Teraz si tu. To je skvelé."
       ]
     },
     {
-      "id": "blank-kde-b-va",
+      "id": "blank-tu-b-va-moja-teta-je-mil-ale-ve-k-a-siln",
       "type": "fill-blank",
-      "l1": "Où habites-tu ?",
-      "l2": "Kde bývaš?",
-      "missing_l1": "Où",
-      "missing_l2": "Kde",
-      "blank_index_l1": 0,
-      "blank_index_l2": 0,
+      "l1": "C'est là qu'habite ma tante. Elle est gentille. Mais grande et forte.",
+      "l2": "Tu býva moja teta. Je milá. Ale veľká a silná.",
+      "missing_l1": "forte",
+      "missing_l2": "silná",
+      "blank_index_l1": 11,
+      "blank_index_l2": 9,
       "choices_l1": [
-        "Quoi",
-        "Comment",
-        "D'où"
-      ],
-      "choices_l2": [
-        "Čo",
-        "Ako",
-        "Odkiaľ"
-      ],
-      "show_translation": true
-    },
-    {
-      "id": "blank-a-teta-je-mil",
-      "type": "fill-blank",
-      "l1": "Et ta tante ? Elle est gentille ?",
-      "l2": "A teta? Je milá?",
-      "missing_l1": "gentille",
-      "missing_l2": "milá",
-      "blank_index_l1": 6,
-      "blank_index_l2": 3,
-      "choices_l1": [
-        "grande",
-        "forte",
+        "gentille",
+        "contente",
         "petite"
       ],
       "choices_l2": [
-        "veľká",
-        "silná",
+        "milá",
+        "rada",
         "malá"
       ],
       "show_translation": true
     },
     {
-      "id": "blank-teta-je-ve-k-a-siln",
+      "id": "blank-bude-spa-v-z-hrade-pod-jablo-ou",
       "type": "fill-blank",
-      "l1": "Ma tante est grande et forte.",
-      "l2": "Teta je veľká a silná.",
-      "missing_l1": "forte",
-      "missing_l2": "silná",
+      "l1": "Tu vas dormir dans le jardin. Sous le pommier.",
+      "l2": "Budeš spať v záhrade. Pod jabloňou.",
+      "missing_l1": "jardin",
+      "missing_l2": "záhrade",
       "blank_index_l1": 5,
-      "blank_index_l2": 4,
+      "blank_index_l2": 3,
       "choices_l1": [
-        "gentille",
-        "petite",
-        "joyeuse"
+        "tram",
+        "train",
+        "lycée"
       ],
       "choices_l2": [
-        "milá",
-        "malá",
-        "veselá"
+        "električke",
+        "meste",
+        "Lyone"
       ],
       "show_translation": true
     },
     {
-      "id": "blank-r-d-a-vid-m-andrea",
+      "id": "blank-dobr-noc-andrea",
       "type": "fill-blank",
-      "l1": "Je suis content de te voir, Andrea.",
-      "l2": "Rád ťa vidím, Andrea.",
-      "missing_l1": "content",
-      "missing_l2": "Rád",
-      "blank_index_l1": 2,
-      "blank_index_l2": 0,
+      "l1": "Bonne nuit, Andrea.",
+      "l2": "Dobrú noc, Andrea.",
+      "missing_l1": "nuit",
+      "missing_l2": "noc",
+      "blank_index_l1": 1,
+      "blank_index_l2": 1,
       "choices_l1": [
-        "contente",
-        "longtemps",
-        "super"
+        "journée",
+        "soirée",
+        "chance"
       ],
       "choices_l2": [
-        "Rada",
-        "Dlho",
-        "Super"
+        "deň",
+        "večer",
+        "cestu"
       ],
       "show_translation": true
     },
     {
-      "id": "order-teta-je-ve-k-a-siln",
+      "id": "order-akujem-andrea-som-r-d-e-a-vid-m",
       "type": "order",
-      "l1": "Ma tante est grande et forte.",
-      "l2": "Teta je veľká a silná.",
+      "l1": "Merci, Andrea. Je suis content de te voir.",
+      "l2": "Ďakujem, Andrea. Som rád, že ťa vidím.",
       "tokens_l1": [
-        "Ma tante est",
-        "grande",
-        "et",
-        "forte."
-      ],
-      "tokens_l2": [
-        "Teta je",
-        "veľká",
-        "a",
-        "silná."
-      ]
-    },
-    {
-      "id": "order-moja-teta-b-va-tu",
-      "type": "order",
-      "l1": "Ma tante habite ici.",
-      "l2": "Moja teta býva tu.",
-      "tokens_l1": [
-        "Ma tante",
-        "habite",
-        "ici."
-      ],
-      "tokens_l2": [
-        "Moja teta",
-        "býva",
-        "tu."
-      ]
-    },
-    {
-      "id": "order-aj-ja-a-rada-vid-m",
-      "type": "order",
-      "l1": "Moi aussi, je suis contente de te voir.",
-      "l2": "Aj ja ťa rada vidím.",
-      "tokens_l1": [
-        "Moi aussi,",
-        "je suis",
-        "contente",
+        "Merci, Andrea.",
+        "Je suis content",
         "de te voir."
       ],
       "tokens_l2": [
-        "Aj ja",
-        "ťa",
-        "rada",
-        "vidím."
+        "Ďakujem, Andrea.",
+        "Som rád,",
+        "že ťa vidím."
+      ]
+    },
+    {
+      "id": "order-aj-ja-teraz-si-tu-to-je-skvel",
+      "type": "order",
+      "l1": "Moi aussi. Maintenant tu es là. C'est super.",
+      "l2": "Aj ja. Teraz si tu. To je skvelé.",
+      "tokens_l1": [
+        "Moi aussi.",
+        "Maintenant tu es là.",
+        "C'est super."
+      ],
+      "tokens_l2": [
+        "Aj ja.",
+        "Teraz si tu.",
+        "To je skvelé."
+      ]
+    },
+    {
+      "id": "order-nemus-teta-o-tebe-nevie",
+      "type": "order",
+      "l1": "Tu n'as pas à avoir peur. Ma tante ne sait pas que tu es là.",
+      "l2": "Nemusíš. Teta o tebe nevie.",
+      "tokens_l1": [
+        "Tu n'as pas à avoir peur.",
+        "Ma tante ne sait pas",
+        "que tu es là."
+      ],
+      "tokens_l2": [
+        "Nemusíš.",
+        "Teta",
+        "o tebe nevie."
       ]
     }
   ]

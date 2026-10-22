@@ -8,30 +8,30 @@
       "l1": "peu",
       "l2": "málo",
       "choices_l1": [
-        "beaucoup",
-        "assez",
-        "plus"
+        "un peu",
+        "très",
+        "exactement"
       ],
       "choices_l2": [
-        "veľa",
-        "dosť",
-        "viac"
+        "trochu",
+        "veľmi",
+        "presne"
       ]
     },
     {
-      "id": "qcm-dos",
+      "id": "qcm-chvost",
       "type": "qcm",
-      "l1": "assez",
-      "l2": "dosť",
+      "l1": "la queue",
+      "l2": "chvost",
       "choices_l1": [
-        "peu",
-        "beaucoup",
-        "moins"
+        "de renard",
+        "je parle",
+        "exactement"
       ],
       "choices_l2": [
-        "málo",
-        "veľa",
-        "menej"
+        "líščí",
+        "hovorím",
+        "presne"
       ]
     },
     {
@@ -41,29 +41,45 @@
       "l2": "rozumiem",
       "choices_l1": [
         "je parle",
-        "je bois",
-        "je fais"
+        "n'existe pas",
+        "correct, juste"
       ],
       "choices_l2": [
         "hovorím",
-        "pijem",
-        "robím"
+        "neexistuje",
+        "správne"
       ]
     },
     {
-      "id": "qcm-neexistuje",
+      "id": "qcm-presne",
       "type": "qcm",
-      "l1": "n'existe pas",
-      "l2": "neexistuje",
+      "l1": "exactement",
+      "l2": "presne",
       "choices_l1": [
-        "il n'y a pas",
-        "je n'ai pas",
-        "il n'y a plus"
+        "correct, juste",
+        "peu",
+        "n'existe pas"
       ],
       "choices_l2": [
-        "nie je",
-        "nemám",
-        "už nie je"
+        "správne",
+        "málo",
+        "neexistuje"
+      ]
+    },
+    {
+      "id": "qcm-l",
+      "type": "qcm",
+      "l1": "de renard",
+      "l2": "líščí",
+      "choices_l1": [
+        "la queue",
+        "correct, juste",
+        "peu"
+      ],
+      "choices_l2": [
+        "chvost",
+        "správne",
+        "málo"
       ]
     },
     {
@@ -72,31 +88,31 @@
       "l1": "Tu parles beaucoup.",
       "l2": "Ty veľa hovoríš.",
       "choices_l1": [
-        "Je parle beaucoup.",
         "Tu parles très bien.",
-        "Tu comprends beaucoup."
+        "Tu parles peu.",
+        "Je parle beaucoup."
       ]
     },
     {
-      "id": "listen-rozumiem-ale-spr-vne-je-ve-a-h",
+      "id": "listen-tak-e-m-j-chvost-je-l-a-ja-som-l-ka",
       "type": "listen",
-      "l1": "Je comprends. Mais le correct, c'est : je parle beaucoup.",
-      "l2": "Rozumiem. Ale správne je: veľa hovorím.",
+      "l1": "Donc ma queue est « de renard ». Et moi, je suis un renard.",
+      "l2": "Takže môj chvost je líščí. A ja som líška.",
       "choices_l1": [
-        "Je comprends. Mais le correct, c'est : je parle très.",
-        "Je ne comprends pas. Mais le correct, c'est : je parle beaucoup.",
-        "Je comprends. Mais le correct, c'est : tu parles beaucoup."
+        "Donc ma queue est rousse. Et moi, je suis un renard.",
+        "Donc ta queue est « de renard ». Et toi, tu es un renard.",
+        "Donc ma queue est « de renard ». Et moi, je suis compliqué."
       ]
     },
     {
-      "id": "listen-a-l-kasky-neexistuje-si-l-ka",
+      "id": "listen-teraz-to-ch-pem-skoro",
       "type": "listen",
-      "l1": "Et « líškasky » n'existe pas. Tu es un renard.",
-      "l2": "A líškasky neexistuje. Si líška.",
+      "l1": "Maintenant, je comprends. Presque.",
+      "l2": "Teraz to chápem. Skoro.",
       "choices_l1": [
-        "Et « líškasky » existe. Tu es un renard.",
-        "Et « líškasky » n'existe pas. Je suis un renard.",
-        "Et « líškasky » n'existe pas. Tu es une sœur."
+        "Maintenant, je comprends. Exactement.",
+        "Maintenant, je ne comprends pas. Presque.",
+        "Maintenant, je me souviens. Presque."
       ]
     },
     {
@@ -107,98 +123,98 @@
       "choices_l1": [
         "J'ai beaucoup d'eau.",
         "J'ai peu d'eau.",
-        "Je veux un peu d'eau."
+        "Je cherche un peu d'eau."
       ]
     },
     {
-      "id": "match-m-lo",
+      "id": "match-hovor-m-vocab",
       "type": "match",
       "l1": [
-        "peu",
-        "assez",
         "je parle",
-        "je comprends"
+        "je comprends",
+        "n'existe pas",
+        "de renard"
       ],
       "l2": [
-        "málo",
-        "dosť",
         "hovorím",
-        "rozumiem"
+        "rozumiem",
+        "neexistuje",
+        "líščí"
       ]
     },
     {
-      "id": "blank-ve-a-hovor-m",
+      "id": "blank-ty-ve-a-hovor",
       "type": "fill-blank",
-      "l1": "Je parle beaucoup.",
-      "l2": "Veľa hovorím.",
+      "l1": "Tu parles beaucoup.",
+      "l2": "Ty veľa hovoríš.",
       "missing_l1": "beaucoup",
-      "missing_l2": "Veľa",
+      "missing_l2": "veľa",
       "blank_index_l1": 2,
-      "blank_index_l2": 0,
+      "blank_index_l2": 1,
       "choices_l1": [
         "très",
         "peu",
-        "assez"
+        "presque"
       ],
       "choices_l2": [
-        "Veľmi",
-        "Málo",
-        "Dosť"
-      ],
-      "show_translation": true
-    },
-    {
-      "id": "blank-l-ka-je-ve-mi-mil",
-      "type": "fill-blank",
-      "l1": "Le renard est très gentil.",
-      "l2": "Líška je veľmi milá.",
-      "missing_l1": "très",
-      "missing_l2": "veľmi",
-      "blank_index_l1": 3,
-      "blank_index_l2": 2,
-      "choices_l1": [
-        "beaucoup",
-        "peu",
-        "assez"
-      ],
-      "choices_l2": [
-        "veľa",
+        "veľmi",
         "málo",
-        "dosť"
+        "skoro"
       ],
       "show_translation": true
     },
     {
-      "id": "order-l-ka-je-ve-mi-mil",
+      "id": "blank-chcem-viac-vody-nie-menej",
+      "type": "fill-blank",
+      "l1": "Je veux plus d'eau, pas moins !",
+      "l2": "Chcem viac vody, nie menej!",
+      "missing_l1": "moins",
+      "missing_l2": "menej",
+      "blank_index_l1": 5,
+      "blank_index_l2": 4,
+      "choices_l1": [
+        "peu",
+        "beaucoup",
+        "presque"
+      ],
+      "choices_l2": [
+        "málo",
+        "veľa",
+        "skoro"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-aha-som-l-ka",
       "type": "order",
-      "l1": "Le renard est très gentil.",
-      "l2": "Líška je veľmi milá.",
+      "l1": "Ah. Je suis un renard.",
+      "l2": "Aha. Som líška.",
       "tokens_l1": [
-        "Le renard",
-        "est",
-        "très gentil."
+        "Ah.",
+        "Je suis",
+        "un renard."
       ],
       "tokens_l2": [
-        "Líška",
-        "je",
-        "veľmi milá."
+        "Aha.",
+        "Som",
+        "líška."
       ]
     },
     {
-      "id": "order-rozumiem-ale-spr-vne-je-ve-a-h",
+      "id": "order-rozumiem-o-chce-poveda-ale-spr-vne-je-ve-a-hovor-m",
       "type": "order",
-      "l1": "Je comprends. Mais le correct, c'est : je parle beaucoup.",
-      "l2": "Rozumiem. Ale správne je: veľa hovorím.",
+      "l1": "Je comprends ce que tu veux dire. Mais ce qu'il faut dire, c'est : « je parle beaucoup ».",
+      "l2": "Rozumiem, čo chceš povedať. Ale správne je: veľa hovorím.",
       "tokens_l1": [
-        "Je comprends.",
-        "Mais",
-        "le correct, c'est :",
-        "je parle beaucoup."
+        "Je comprends",
+        "ce que tu veux dire.",
+        "Mais ce qu'il faut dire, c'est :",
+        "« je parle beaucoup »."
       ],
       "tokens_l2": [
-        "Rozumiem.",
-        "Ale",
-        "správne je:",
+        "Rozumiem,",
+        "čo chceš povedať.",
+        "Ale správne je:",
         "veľa hovorím."
       ]
     }

@@ -2,7 +2,7 @@
 
 @ TODO_img/kosice-stanica.jpg | TODO : choisir une image (la gare de Košice) sur Wikimedia Commons
 
-{{fr:Le dernier arrêt avant de quitter Košice : la gare. Il faut un billet, et un vrai cette fois.}}
+{{fr:Le dernier arrêt avant de quitter Košice : la gare. Andrea doit laisser un mot à sa tante, et il faut des billets. De vrais billets, cette fois.}}
 
 ---
 
@@ -12,63 +12,73 @@
 |------------|----------|
 | Aké je počasie? | Quel temps fait-il ? |
 | dnes | aujourd'hui |
-| ráno | le matin |
 | horúco | chaud |
 | sucho | sec |
 | slnko | le soleil |
-| dážď | la pluie |
-| voda | l'eau |
-| nie je | il n'y a pas |
-| už nie je | il n'y a plus |
+| vstávaj | lève-toi, debout |
+| jazierko | le petit étang |
+| v parku | dans le parc |
+| dva mesiace | deux mois |
+| každé ráno | tous les matins |
 | teplo | doux, chaud |
 | zima | froid |
 | oblak | le nuage |
 | veľa | beaucoup |
 | veľmi | très |
 | málo | peu |
-| dosť | assez |
 | hovorím | je parle |
 | rozumiem | je comprends |
 | správne | correct, juste |
 | neexistuje | n'existe pas |
-| veľa vody | beaucoup d'eau |
-| málo vody | peu d'eau |
+| líščí | de renard |
+| chvost | la queue |
+| presne | exactement |
 | trochu | un peu |
 | viac | plus |
 | menej | moins |
 | chýba mi | il me manque |
 | chýba ti | il te manque |
 | pijem | je bois |
-| piješ | tu bois |
 | hľadám | je cherche |
-| jazierko | l'étang |
-| park | le parc |
-| v parku | dans le parc |
-| rieka | la rivière |
+| včera | hier |
+| ešte | encore |
+| aspoň | au moins |
+| zvieratá | les animaux |
+| nikto | personne |
+| zlé | mauvais |
 | potok | le ruisseau |
-| studňa | le puits |
-| prameň | la source |
+| jazero | le lac |
 | kvapka | la goutte |
-| kam | où (vers où) |
-| ideme | nous allons |
-| hľadáme | nous cherchons |
-| poďme | allons-y |
-| cesta | la route |
-| mapa | la carte |
-| ďaleko | loin |
-| blízko | près |
-| na západ | vers l'ouest |
+| budeme | nous allons (faire) |
+| ideme | nous allons (quelque part) |
 | uvidíme | on verra |
-| batoh | le sac à dos |
+| inde | ailleurs |
+| na západe | à l'ouest |
+| ďaleko | loin |
+| škola | l'école |
+| len | seulement |
 | preč | parti, loin d'ici |
+| spí | il dort, elle dort |
+| batoh | le sac à dos |
+| mapa | la carte |
 | zajtra | demain |
 | fontána | la fontaine |
 | prázdna | vide (dit d'une fontaine) |
+| záhradník | le jardinier |
+| hľadáte | vous cherchez |
 | prepáčte | excusez-moi (à un adulte) |
 | nikde | nulle part |
+| v rádiu | à la radio |
+| Veľa šťastia! | Bonne chance ! |
 | stanica | la gare (nouveau) |
+| na stanici | à la gare (nouveau) |
+| musím | je dois (nouveau) |
+| lístky | des billets (nouveau) |
+| Neboj sa! | Ne t'inquiète pas ! (nouveau) |
+| pani | la dame (nouveau) |
+| kam | où (vers où) (nouveau) |
 | na vlak | pour le train (nouveau) |
-| kúpim | j'achète, je vais acheter (nouveau) |
+| Šťastnú cestu! | Bon voyage ! (nouveau) |
 
 ---
 
@@ -83,92 +93,91 @@
 
 ## La suite de l'épisode
 
-! 💬 [USER_NAME] a Andrea sú na stanici.
-> [USER_NAME] et Andrea sont à la gare.
-> sú = ils sont
+! 💬 [USER_NAME] a Andrea sú na stanici. Je tam veľa ľudí a veľmi málo tieňa.
+> [USER_NAME] et Andrea sont à la gare. Il y a beaucoup de monde et très peu d'ombre.
+> [USER_NAME] a Andrea sú = [USER_NAME] et Andrea sont
 > na stanici = à la gare
-+ Mot nouveau signalé : {{stanica}} = la gare. {{na stanici}} = à la gare : le mot change un peu à la fin, comme {{v meste}}.
+> Je tam veľa ľudí = il y a beaucoup de monde
+> a veľmi málo tieňa = et très peu d'ombre
++ Mot nouveau signalé : {{na stanici}} = à la gare ({{stanica}} = la gare). Regarde bien : {{veľa}} ľudí (combien ?), mais {{veľmi}} málo (comment ?).
 
-! 🦊 Kde je vlak?
-> Où est le train ?
-> Kde je = où est
-> vlak = le train
+! 🐰 Počkaj. Musím napísať tete lístok.
+> Attends. Je dois écrire un mot à ma tante.
+> Počkaj = attends
+> Musím = je dois
+> napísať = écrire
+> tete = à ma tante
+> lístok = un petit mot
++ Mot nouveau signalé : {{musím}} = je dois. Et {{lístok}} veut aussi dire « petit mot », comme un petit billet en français !
 
-! 🐰 Tam je vlak.
-> Le train est là-bas.
-> Tam je = là-bas, il y a
-> vlak = le train
-
-! 🦊 Máme lístky?
-> On a des billets ?
-> Máme = nous avons
-> lístky = des billets
-+ À écouter : {{lístky}} = des billets. Quand ils sont plusieurs, {{lístok}} finit en {{-y}}, comme {{líšky}}.
-
-! 🐰 Ja mám lístok. A ty?
-> Moi, j'ai un billet. Et toi ?
+! 🦊 Ja mám lístok! Je super!
+> Moi, j'ai un billet ! Il est super !
 > Ja mám = moi, j'ai
-> lístok = un billet
-> A ty = et toi
-
-! 🦊 Ja mám môj lístok! Je super!
-> Moi, j'ai mon billet ! Il est super !
-> Ja mám = moi, j'ai
-> môj lístok = mon billet
+> lístok = un billet, un ticket
 > Je super = il est super
 
-! 🐰 To nie je lístok na vlak.
-> Ce n'est pas un billet pour le train.
+! 🐰 To nie je ten lístok. To je lístok z električky.
+> Ce n'est pas ce billet-là. Toi, tu as un ticket de tram.
 > To nie je = ce n'est pas
-> lístok = un billet
-> na vlak = pour le train
-+ Mot nouveau signalé : {{na vlak}} = pour le train.
+> ten lístok = ce billet-là
+> To je = c'est
+> lístok z električky = un ticket de tram
 
 ! 🦊 Aha.
 > Ah.
 > Aha = ah
 
-! 🐰 Počkaj. Kúpim lístky.
-> Attends. Je vais acheter des billets.
-> Počkaj = attends
-> Kúpim lístky = j'achète des billets
-+ Mot nouveau signalé : {{kúpim}} = j'achète, je vais acheter.
+! 💬 Andrea píše: „Teta, odišla som na pár dní. Neboj sa. Andrea.“
+> Andrea écrit : « Ma tante, je suis partie pour quelques jours. Ne t'inquiète pas. Andrea. »
+> Andrea píše = Andrea écrit
+> odišla som = je suis partie
+> na pár dní = pour quelques jours
+> Neboj sa = ne t'inquiète pas
++ {{bojím sa}} = j'ai peur ; {{Neboj sa!}} = n'aie pas peur, ne t'inquiète pas. À écouter : {{odišla som}} = je suis partie (dit par une fille).
+
+! 💬 Pri okienku stojí pani.
+> Devant le guichet, une dame est là.
+> Pri okienku = devant le guichet
+> stojí = se tient
+> pani = une dame
++ Pour comprendre : {{okienko}} = la petite fenêtre, le guichet. Encore un « petit » mot en {{-ko}}, comme {{jazierko}}.
+
+! 🐰 Dobrý deň. Dva lístky na vlak, prosím.
+> Bonjour. Deux billets de train, s'il vous plaît.
+> Dobrý deň = bonjour
+> Dva lístky = deux billets
+> na vlak = pour le train
+> prosím = s'il vous plaît
++ Mot nouveau signalé : {{lístky}} = des billets. Quand ils sont plusieurs, {{lístok}} perd son {{o}} et finit en {{-y}}.
 
 ! 🧑 Dobrý deň. Kam idete?
-> Bonjour. Où allez-vous ?
+> Bonjour. Vous allez où ?
 > Dobrý deň = bonjour
 > Kam idete = où allez-vous
-+ Avec une adulte inconnue, on vouvoie : {{ideš}} (tu vas) devient {{idete}} (vous allez).
++ {{kam}} = où (vers où). Avec un adulte inconnu, on vouvoie : {{ideš}} (tu vas) devient {{idete}} (vous allez).
 
-! 🐰 Dobrý deň. Na západ.
-> Bonjour. Vers l'ouest.
-> Dobrý deň = bonjour
-> Na západ = vers l'ouest
+! 🐰 Do Spišskej Novej Vsi.
+> À Spišská Nová Ves.
+> Do = à, vers
+> Spišskej Novej Vsi = Spišská Nová Ves
++ Après {{do}}, le nom de la ville change à la fin. Même les Slovaques réfléchissent deux secondes pour celui-là !
 
-! 🧑 Na západ? Dobre. Dva lístky.
-> Vers l'ouest ? Bien. Deux billets.
-> Na západ = vers l'ouest
-> Dobre = bien
+! 🧑 Dva lístky. Šťastnú cestu.
+> Deux billets. Bon voyage.
 > Dva lístky = deux billets
-
-! 🐰 Ďakujem. Poď!
-> Merci. Viens !
-> Ďakujem = merci
-> Poď = viens
-
-! 🦊 Idem!
-> J'arrive !
-> Idem = je viens
+> Šťastnú cestu = bon voyage
++ Mot nouveau signalé : {{Šťastnú cestu!}} = bon voyage ! Mot à mot : « heureuse route ».
 
 ! 💬 Vlak ide na západ.
-> Le train va vers l'ouest.
+> Le train part vers l'ouest.
 > Vlak ide = le train va
 > na západ = vers l'ouest
++ {{na západe}} = à l'ouest ; {{na západ}} = vers l'ouest.
 
 ---
 
 ## 🇸🇰 Coin slovaque
 
-{{fr:La compagnie des chemins de fer slovaques s'appelle}} {{ZSSK}}{{fr:, pour}} {{Železničná spoločnosť Slovensko}}{{fr:. Mot à mot : « la société ferroviaire de Slovaquie ».}}
+{{fr:Spišská Nová Ves est la porte d'entrée du Paradis slovaque : depuis Košice, on y va en train en à peu près une heure. La compagnie des trains slovaques s'appelle}} {{ZSSK}}{{fr:.}}
 
-{{fr:Le premier chapitre est derrière toi, le tram aussi. À l'ouest, il y a un parc national avec de l'eau, des gorges et des échelles. Pour la suite, il va falloir de bonnes chaussures.}}
+{{fr:Le deuxième chapitre est derrière toi, et Košice aussi. À l'ouest, il y a des gorges, des échelles et, peut-être, de l'eau. Pour la suite, il va falloir de bonnes chaussures.}}

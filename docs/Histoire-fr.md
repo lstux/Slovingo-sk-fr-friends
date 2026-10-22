@@ -111,8 +111,6 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🐰 Tu vois ?
 
-## Scène 6
-
 💬 Le tram passe devant une grande cathédrale.
 
 🦊 Regarde ! C'est la cathédrale !
@@ -136,6 +134,8 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 🐰 C'est mon arrêt. Viens !
 
 🦊 J'arrive !
+
+## Scène 6
 
 💬 C'est le soir. Devant la maison, il y a un grand jardin.
 

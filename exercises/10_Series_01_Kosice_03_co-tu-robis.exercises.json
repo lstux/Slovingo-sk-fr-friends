@@ -3,51 +3,19 @@
   "sync": "full",
   "exercises": [
     {
-      "id": "qcm-tu",
-      "type": "qcm",
-      "l1": "ici",
-      "l2": "tu",
-      "choices_l1": [
-        "oui",
-        "longtemps",
-        "super"
-      ],
-      "choices_l2": [
-        "áno",
-        "dlho",
-        "super"
-      ]
-    },
-    {
       "id": "qcm-rob",
       "type": "qcm",
       "l1": "tu fais",
       "l2": "robíš",
       "choices_l1": [
         "je fais",
-        "je vois",
-        "j'ai"
+        "tu habites",
+        "il sait, elle sait"
       ],
       "choices_l2": [
         "robím",
-        "vidím",
-        "mám"
-      ]
-    },
-    {
-      "id": "qcm-odkia",
-      "type": "qcm",
-      "l1": "d'où",
-      "l2": "odkiaľ",
-      "choices_l1": [
-        "quoi",
-        "ici",
-        "où"
-      ],
-      "choices_l2": [
-        "čo",
-        "tu",
-        "kde"
+        "bývaš",
+        "vie"
       ]
     },
     {
@@ -58,164 +26,185 @@
       "choices_l1": [
         "tu habites",
         "je fais",
-        "j'ai"
+        "je suis"
       ],
       "choices_l2": [
         "bývaš",
         "robím",
-        "mám"
+        "som"
       ]
     },
     {
-      "id": "qcm-vlak",
+      "id": "qcm-s-m",
       "type": "qcm",
-      "l1": "le train",
-      "l2": "vlak",
+      "l1": "seul (dit par un garçon)",
+      "l2": "sám",
       "choices_l1": [
-        "le tram",
-        "le ticket",
-        "la ville"
+        "peut-être, je crois",
+        "il sait, elle sait",
+        "content (dit par un garçon)"
       ],
       "choices_l2": [
-        "električka",
-        "lístok",
-        "mesto"
+        "asi",
+        "vie",
+        "rád"
       ]
     },
     {
-      "id": "listen-o-tu-rob-b-va-tu",
-      "type": "listen",
-      "l1": "Qu'est-ce que tu fais ici ? Tu habites ici ?",
-      "l2": "Čo tu robíš? Bývaš tu?",
+      "id": "qcm-na-pr-zdnin-ch",
+      "type": "qcm",
+      "l1": "en vacances",
+      "l2": "na prázdninách",
       "choices_l1": [
-        "Qu'est-ce que tu fais ici ? Tu viens d'ici ?",
-        "Qu'est-ce que tu veux ? Tu habites ici ?",
-        "Qu'est-ce que je fais ici ? Tu habites ici ?"
+        "à Lyon",
+        "dans le tram",
+        "en ville"
+      ],
+      "choices_l2": [
+        "v Lyone",
+        "v električke",
+        "v meste"
       ]
     },
     {
-      "id": "listen-nie-som-z-lyonu-som-tu-na-pr-z",
-      "type": "listen",
-      "l1": "Non. Je suis de Lyon. Je suis ici en vacances.",
-      "l2": "Nie. Som z Lyonu. Som tu na prázdninách.",
+      "id": "qcm-asi",
+      "type": "qcm",
+      "l1": "peut-être, je crois",
+      "l2": "asi",
       "choices_l1": [
-        "Oui. Je suis de Lyon. Je suis ici en vacances.",
-        "Non. Je suis de France. Je suis ici en vacances.",
-        "Non. Je suis de Lyon. J'habite ici."
+        "seul (dit par un garçon)",
+        "quoi, que",
+        "vraiment"
+      ],
+      "choices_l2": [
+        "sám",
+        "čo",
+        "naozaj"
       ]
     },
     {
-      "id": "listen-elektri-ka-ide",
+      "id": "listen-o-tu-rob-b-va-v-ko-iciach",
       "type": "listen",
-      "l1": "Le tram roule.",
-      "l2": "Električka ide.",
+      "l1": "Qu'est-ce que tu fais ici ? Tu habites à Košice ?",
+      "l2": "Čo tu robíš? Bývaš v Košiciach?",
       "choices_l1": [
-        "Le tram est ici.",
-        "Le tram attend.",
-        "Je prends le tram."
+        "Qu'est-ce que tu fais ici ? Tu habites à Lyon ?",
+        "Où es-tu ? Tu habites à Košice ?",
+        "Qu'est-ce que je fais ici ? J'habite à Košice ?"
       ]
     },
     {
-      "id": "listen-cestujem-vlakom",
+      "id": "listen-nie-b-vam-v-lyone-som-tu-na-pr-zdnin-ch",
       "type": "listen",
-      "l1": "Je voyage en train.",
-      "l2": "Cestujem vlakom.",
+      "l1": "Non, j'habite à Lyon. Je suis ici en vacances.",
+      "l2": "Nie, bývam v Lyone. Som tu na prázdninách.",
       "choices_l1": [
-        "Je voyage en tram.",
-        "Je voyage seul.",
-        "Tu voyages en train ?"
+        "Oui, j'habite à Lyon. Je suis ici en vacances.",
+        "Non, j'habite à Košice. Je suis ici en vacances.",
+        "Non, j'habite à Lyon. Je suis ici avec maman."
       ]
     },
     {
-      "id": "match-tu",
+      "id": "listen-a-tvoja-mama-o-tom-vie",
+      "type": "listen",
+      "l1": "Et ta maman est au courant ?",
+      "l2": "A tvoja mama o tom vie?",
+      "choices_l1": [
+        "Et ta maman est là ?",
+        "Et ta maman habite ici ?",
+        "Et ta maman va bien ?"
+      ]
+    },
+    {
+      "id": "match-o-vocab",
       "type": "match",
       "l1": [
-        "ici",
-        "tu fais",
-        "d'où",
-        "en vacances"
+        "quoi, que",
+        "je fais",
+        "j'habite",
+        "il sait, elle sait"
       ],
       "l2": [
-        "tu",
-        "robíš",
-        "odkiaľ",
-        "na prázdninách"
+        "čo",
+        "robím",
+        "bývam",
+        "vie"
       ]
     },
     {
-      "id": "blank-nie-som-z-lyonu-som-tu-na-pr-z",
+      "id": "blank-no-s-m",
       "type": "fill-blank",
-      "l1": "Non. Je suis de Lyon. Je suis ici en vacances.",
-      "l2": "Nie. Som z Lyonu. Som tu na prázdninách.",
-      "missing_l1": "vacances",
-      "missing_l2": "prázdninách",
-      "blank_index_l1": 9,
-      "blank_index_l2": 7,
+      "l1": "Oui, tout seul.",
+      "l2": "Áno, sám.",
+      "missing_l1": "seul",
+      "missing_l2": "sám",
+      "blank_index_l1": 2,
+      "blank_index_l2": 1,
+      "choices_l1": [
+        "content",
+        "ici",
+        "bien"
+      ],
+      "choices_l2": [
+        "asi",
+        "tu",
+        "rád"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-cestujem-vlakom",
+      "type": "fill-blank",
+      "l1": "Je voyage en train.",
+      "l2": "Cestujem vlakom.",
+      "missing_l1": "train",
+      "missing_l2": "vlakom",
+      "blank_index_l1": 3,
+      "blank_index_l2": 1,
       "choices_l1": [
         "tram",
-        "Lyon",
-        "ville"
+        "ville",
+        "ticket"
       ],
       "choices_l2": [
-        "električke",
-        "Lyonu",
-        "meste"
+        "vlak",
+        "mesto",
+        "lístok"
       ],
       "show_translation": true
     },
     {
-      "id": "blank-o-tu-rob-b-va-tu",
-      "type": "fill-blank",
-      "l1": "Qu'est-ce que tu fais ici ? Tu habites ici ?",
-      "l2": "Čo tu robíš? Bývaš tu?",
-      "missing_l1": "fais",
-      "missing_l2": "robíš",
-      "blank_index_l1": 3,
-      "blank_index_l2": 2,
-      "choices_l1": [
-        "habites",
-        "vois",
-        "es"
-      ],
-      "choices_l2": [
-        "robím",
-        "bývam",
-        "vidím"
-      ],
-      "show_translation": true
-    },
-    {
-      "id": "order-nie-som-z-lyonu-som-tu-na-pr-z",
+      "id": "order-nie-b-vam-v-lyone-som-tu-na-pr-zdnin-ch",
       "type": "order",
-      "l1": "Non. Je suis de Lyon. Je suis ici en vacances.",
-      "l2": "Nie. Som z Lyonu. Som tu na prázdninách.",
+      "l1": "Non, j'habite à Lyon. Je suis ici en vacances.",
+      "l2": "Nie, bývam v Lyone. Som tu na prázdninách.",
       "tokens_l1": [
-        "Non.",
-        "Je suis de Lyon.",
+        "Non,",
+        "j'habite à Lyon.",
         "Je suis ici",
         "en vacances."
       ],
       "tokens_l2": [
-        "Nie.",
-        "Som z Lyonu.",
+        "Nie,",
+        "bývam v Lyone.",
         "Som tu",
         "na prázdninách."
       ]
     },
     {
-      "id": "order-o-tu-rob-b-va-tu",
+      "id": "order-a-tvoja-mama-o-tom-vie",
       "type": "order",
-      "l1": "Qu'est-ce que tu fais ici ? Tu habites ici ?",
-      "l2": "Čo tu robíš? Bývaš tu?",
+      "l1": "Et ta maman est au courant ?",
+      "l2": "A tvoja mama o tom vie?",
       "tokens_l1": [
-        "Qu'est-ce que tu fais ici ?",
-        "Tu habites",
-        "ici ?"
+        "Et ta maman",
+        "est",
+        "au courant ?"
       ],
       "tokens_l2": [
-        "Čo tu robíš?",
-        "Bývaš",
-        "tu?"
+        "A tvoja mama",
+        "o tom",
+        "vie?"
       ]
     }
   ]

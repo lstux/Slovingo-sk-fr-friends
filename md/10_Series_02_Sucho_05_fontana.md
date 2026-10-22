@@ -12,8 +12,12 @@
 |------------|----------|
 | fontána | la fontaine |
 | prázdna | vide (dit d'une fontaine) |
+| záhradník | le jardinier |
+| hľadáte | vous cherchez |
 | prepáčte | excusez-moi (à un adulte) |
 | nikde | nulle part |
+| v rádiu | à la radio |
+| Veľa šťastia! | Bonne chance ! |
 
 ---
 
@@ -28,17 +32,18 @@
 
 ## Le dialogue
 
-! 💬 [USER_NAME] a Andrea sú v meste.
-> [USER_NAME] et Andrea sont en ville.
-> sú = ils sont
-> v meste = en ville
+! 💬 V centre mesta je fontána. Spievajúca fontána. Ale dnes nespieva.
+> Au centre-ville, il y a une fontaine. Une fontaine chantante. Mais aujourd'hui, elle ne chante pas.
+> V centre mesta = au centre-ville
+> je fontána = il y a une fontaine
+> Spievajúca fontána = une fontaine chantante
+> Ale dnes nespieva = mais aujourd'hui, elle ne chante pas
++ Mot nouveau signalé : {{fontána}} = la fontaine. Pour comprendre : {{spievať}} = chanter.
 
-! 🦊 Pozri! Tu je fontána!
-> Regarde ! Voilà une fontaine !
+! 🦊 Pozri! Fontána!
+> Regarde ! Une fontaine !
 > Pozri = regarde
-> Tu je = voilà
-> fontána = une fontaine
-+ Mot nouveau signalé : {{fontána}} = la fontaine.
+> Fontána = une fontaine
 
 ! 🐰 Je prázdna.
 > Elle est vide.
@@ -46,79 +51,61 @@
 > prázdna = vide
 + Mot nouveau signalé : {{prázdna}} = vide. On dit {{prázdna}} parce que {{fontána}} est un mot féminin.
 
-! 🦊 Aj tu nie je voda?
-> Il n'y a pas d'eau ici non plus ?
-> Aj tu = ici aussi
-> nie je = il n'y a pas
-> voda = d'eau
+! 💬 Pri fontáne stojí záhradník.
+> Près de la fontaine, un jardinier est là.
+> Pri fontáne = près de la fontaine
+> stojí = se tient
+> záhradník = un jardinier
++ Mot nouveau signalé : {{záhradník}} = le jardinier, celui qui s'occupe de la {{záhrada}}.
 
 ! 🧑 Dobrý deň. Hľadáte vodu?
 > Bonjour. Vous cherchez de l'eau ?
 > Dobrý deň = bonjour
 > Hľadáte vodu = vous cherchez de l'eau
-+ À écouter : {{hľadáte}} = vous cherchez. Avec un adulte qu'on ne connaît pas, on dit {{vy}} : le verbe finit en {{-te}}.
++ Mot nouveau signalé : {{hľadáte}} = vous cherchez. On est deux, et c'est un adulte : il dit {{vy}}, le verbe finit en {{-te}}.
 
-! 🦊 Dobrý deň! Áno, hľadáme vodu.
-> Bonjour ! Oui, nous cherchons de l'eau.
+! 🦊 Dobrý deň. Áno, hľadáme vodu.
+> Bonjour. Oui, nous cherchons de l'eau.
 > Dobrý deň = bonjour
 > Áno = oui
 > hľadáme vodu = nous cherchons de l'eau
++ Avec un adulte qu'on ne connaît pas, on commence par {{Dobrý deň}}, jamais par {{ahoj}}.
 
-! 🧑 Prepáčte. Voda tu už nie je.
-> Excusez-moi. Il n'y a plus d'eau ici.
-> Prepáčte = excusez-moi
-> Voda tu už nie je = il n'y a plus d'eau ici
-+ Mot nouveau signalé : {{prepáčte}} = excusez-moi. C'est {{prepáč}} (pardon) avec {{-te}} : on vouvoie.
-
-! 🐰 Nikde?
-> Nulle part ?
+! 🧑 Prepáčte. Tu už voda nie je. Nikde v meste.
+> Désolé. Ici, il n'y a plus d'eau. Nulle part en ville.
+> Prepáčte = désolé, excusez-moi
+> Tu už voda nie je = ici, il n'y a plus d'eau
 > Nikde = nulle part
-+ Mot nouveau signalé : {{nikde}} = nulle part.
+> v meste = en ville
++ Mots nouveaux signalés : {{prepáčte}} = excusez-moi (c'est {{prepáč}} avec {{-te}}), {{nikde}} = nulle part.
 
-! 🧑 Nie. Na východe tiež nie.
-> Non. À l'est non plus.
-> Nie = non
-> Na východe = à l'est
-> tiež nie = non plus
+! 🐰 A inde?
+> Et ailleurs ?
+> A inde = et ailleurs
 
-! 🦊 A na západe?
-> Et à l'ouest ?
-> A = et
-> na západe = à l'ouest
-
-! 🧑 Na západe je Slovenský raj. Tam sú potoky.
-> À l'ouest, il y a le Paradis slovaque. Là-bas, il y a des ruisseaux.
-> Na západe je = à l'ouest, il y a
-> Slovenský raj = le Paradis slovaque
-> Tam sú = là-bas, il y a
-> potoky = des ruisseaux
-
-! 🐰 Slovenský raj! To je ďaleko.
-> Le Paradis slovaque ! C'est loin.
-> Slovenský raj = le Paradis slovaque
-> To je ďaleko = c'est loin
-
-! 🧑 Veľmi ďaleko.
-> Très loin.
-> Veľmi = très
-> ďaleko = loin
+! 🧑 Na západe, v Slovenskom raji, ešte voda je. Hovorili to v rádiu.
+> À l'ouest, dans le Paradis slovaque, il y en a encore. Ils l'ont dit à la radio.
+> Na západe = à l'ouest
+> v Slovenskom raji = dans le Paradis slovaque
+> ešte voda je = il y a encore de l'eau
+> Hovorili to = ils l'ont dit
+> v rádiu = à la radio
++ Mot nouveau signalé : {{v rádiu}} = à la radio. À écouter : {{hovorili}} = ils ont dit.
 
 ! 🦊 Ďakujeme.
 > Merci.
 > Ďakujeme = merci (de notre part à tous les deux)
++ {{ďakujem}} = je remercie, {{ďakujeme}} = nous remercions. Encore le {{-me}} du « nous ».
 
-! 🧑 Dovidenia.
-> Au revoir.
-> Dovidenia = au revoir
-
-! 🐰 Poďme!
-> Allons-y !
-> Poďme = allons-y
+! 🧑 Veľa šťastia.
+> Bonne chance.
+> Veľa šťastia = bonne chance
++ Mot à mot : « beaucoup de bonheur ». Et c'est bien {{veľa}} : c'est une quantité de chance !
 
 ---
 
 ## 🇸🇰 Coin slovaque
 
-{{fr:Avec un adulte qu'on ne connaît pas, on dit}} {{vy}} {{fr:: on commence par}} {{Dobrý deň}} {{fr:et on termine par}} {{Dovidenia}}{{fr:. Entre ados, un simple}} {{ahoj}} {{fr:fait l'affaire.}}
+{{fr:La}} {{Spievajúca fontána}}{{fr:, la « fontaine chantante », est au milieu de la rue principale de Košice, entre la cathédrale et le théâtre. En été, ses jets d'eau dansent en musique. Quand il y a de l'eau, bien sûr…}}
 
-{{fr:Le Paradis slovaque, en slovaque}} {{Slovenský raj}}{{fr:, est un parc national à l'ouest de Košice : des gorges, des cascades et des ruisseaux, avec des échelles et des passerelles pour passer.}}
+{{fr:Avec un adulte qu'on ne connaît pas, on dit}} {{vy}} {{fr:: on commence par}} {{Dobrý deň}} {{fr:et on termine par}} {{Dovidenia}}{{fr:. Entre ados, un simple}} {{ahoj}} {{fr:fait l'affaire.}}

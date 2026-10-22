@@ -3,204 +3,177 @@
   "sync": "full",
   "exercises": [
     {
-      "id": "listen-kde-je-vlak",
+      "id": "listen-po-kaj-mus-m-nap-sa-tete-l-stok",
       "type": "listen",
-      "l1": "Où est le train ?",
-      "l2": "Kde je vlak?",
+      "l1": "Attends. Je dois écrire un mot à ma tante.",
+      "l2": "Počkaj. Musím napísať tete lístok.",
       "choices_l1": [
-        "Où est la gare ?",
-        "Où est le billet ?",
-        "Où vas-tu ?"
+        "Attends. Je dois acheter un billet pour ma tante.",
+        "Attends. Je dois écrire un mot à ma maman.",
+        "Attends. Je veux dormir chez ma tante."
       ]
     },
     {
-      "id": "listen-tam-je-vlak",
+      "id": "listen-to-nie-je-ten-l-stok-to-je-l-stok-z-elektri-ky",
       "type": "listen",
-      "l1": "Le train est là-bas.",
-      "l2": "Tam je vlak.",
+      "l1": "Ce n'est pas ce billet-là. Toi, tu as un ticket de tram.",
+      "l2": "To nie je ten lístok. To je lístok z električky.",
       "choices_l1": [
-        "Le train est ici.",
-        "Le tram est là-bas.",
-        "Le billet est là-bas."
+        "C'est ce billet-là. Toi, tu as un ticket de train.",
+        "Ce n'est pas ce billet-là. Toi, tu as un petit mot.",
+        "Ce n'est pas mon billet. Toi, tu as un ticket de tram."
       ]
     },
     {
-      "id": "listen-ja-m-m-l-stok-a-ty",
+      "id": "listen-dobr-de-dva-l-stky-na-vlak-pros-m",
       "type": "listen",
-      "l1": "Moi, j'ai un billet. Et toi ?",
-      "l2": "Ja mám lístok. A ty?",
+      "l1": "Bonjour. Deux billets de train, s'il vous plaît.",
+      "l2": "Dobrý deň. Dva lístky na vlak, prosím.",
       "choices_l1": [
-        "Moi, j'ai un train. Et toi ?",
-        "Toi, tu as un billet. Et moi ?",
-        "Moi, j'ai deux billets. Et toi ?"
+        "Bonjour. Deux tickets de tram, s'il vous plaît.",
+        "Bonjour. Un billet de train, s'il vous plaît.",
+        "Bonjour. Deux billets de train, merci."
       ]
     },
     {
       "id": "listen-dobr-de-kam-idete",
       "type": "listen",
-      "l1": "Bonjour. Où allez-vous ?",
+      "l1": "Bonjour. Vous allez où ?",
       "l2": "Dobrý deň. Kam idete?",
       "choices_l1": [
-        "Bonjour. Où vas-tu ?",
-        "Bonjour. Vous avez un billet ?",
-        "Salut. Où allez-vous ?"
+        "Bonjour. Tu vas où ?",
+        "Bonjour. Vous cherchez de l'eau ?",
+        "Bonjour. Vous êtes où ?"
       ]
     },
     {
-      "id": "listen-akujem-po",
+      "id": "listen-dva-l-stky-astn-cestu",
       "type": "listen",
-      "l1": "Merci. Viens !",
-      "l2": "Ďakujem. Poď!",
+      "l1": "Deux billets. Bon voyage.",
+      "l2": "Dva lístky. Šťastnú cestu.",
       "choices_l1": [
-        "Merci. Attends !",
-        "Merci. J'arrive !",
-        "Pardon. Viens !"
+        "Deux billets. Bonne chance.",
+        "Un billet. Bon voyage.",
+        "Deux billets. Bonne nuit."
       ]
     },
     {
-      "id": "listen-vlak-ide-na-z-pad",
+      "id": "listen-ja-m-m-l-stok-je-super",
       "type": "listen",
-      "l1": "Le train va vers l'ouest.",
-      "l2": "Vlak ide na západ.",
+      "l1": "Moi, j'ai un billet ! Il est super !",
+      "l2": "Ja mám lístok! Je super!",
       "choices_l1": [
-        "Le train va vers l'est.",
-        "Le tram va vers l'ouest.",
-        "Le train est à l'ouest."
+        "Moi, j'ai une carte ! Elle est super !",
+        "Toi, tu as un billet ! Il est super !",
+        "Moi, j'ai un billet ! Il est vide !"
       ]
     },
     {
-      "id": "match-d",
+      "id": "match-ve-a-vocab",
       "type": "match",
       "l1": [
-        "la pluie",
-        "le sac à dos",
-        "la fontaine",
-        "la route"
-      ],
-      "l2": [
-        "dážď",
-        "batoh",
-        "fontána",
-        "cesta"
-      ]
-    },
-    {
-      "id": "match-m-lo",
-      "type": "match",
-      "l1": [
+        "beaucoup",
+        "très",
         "peu",
-        "assez",
-        "loin",
-        "nulle part"
+        "un peu"
       ],
       "l2": [
+        "veľa",
+        "veľmi",
         "málo",
-        "dosť",
-        "ďaleko",
-        "nikde"
+        "trochu"
       ]
     },
     {
-      "id": "qcm-prame",
-      "type": "qcm",
-      "l1": "la source",
-      "l2": "prameň",
-      "choices_l1": [
-        "la goutte",
-        "le puits",
-        "la rivière"
+      "id": "match-aha-sentences",
+      "type": "match",
+      "l1": [
+        "Ah.",
+        "Deux billets. Bon voyage.",
+        "Bonjour. Vous allez où ?",
+        "Moi, j'ai un billet ! Il est super !"
       ],
-      "choices_l2": [
-        "kvapka",
-        "studňa",
-        "rieka"
+      "l2": [
+        "Aha.",
+        "Dva lístky. Šťastnú cestu.",
+        "Dobrý deň. Kam idete?",
+        "Ja mám lístok! Je super!"
       ]
     },
     {
-      "id": "qcm-uvid-me",
-      "type": "qcm",
-      "l1": "on verra",
-      "l2": "uvidíme",
-      "choices_l1": [
-        "allons-y",
-        "nous allons",
-        "nous avons"
-      ],
-      "choices_l2": [
-        "poďme",
-        "ideme",
-        "máme"
-      ]
-    },
-    {
-      "id": "qcm-ch-ba-mi",
-      "type": "qcm",
-      "l1": "il me manque",
-      "l2": "chýba mi",
-      "choices_l1": [
-        "il te manque",
-        "je bois",
-        "je cherche"
-      ],
-      "choices_l2": [
-        "chýba ti",
-        "pijem",
-        "hľadám"
-      ]
-    },
-    {
-      "id": "blank-kde-je-vlak",
+      "id": "blank-dobr-de-dva-l-stky-na-vlak-pros-m",
       "type": "fill-blank",
-      "l1": "Où est le train ?",
-      "l2": "Kde je vlak?",
-      "missing_l1": "train",
-      "missing_l2": "vlak",
-      "blank_index_l1": 3,
-      "blank_index_l2": 2,
+      "l1": "Bonjour. Deux billets de train, s'il vous plaît.",
+      "l2": "Dobrý deň. Dva lístky na vlak, prosím.",
+      "missing_l1": "billets",
+      "missing_l2": "lístky",
+      "blank_index_l1": 2,
+      "blank_index_l2": 3,
       "choices_l1": [
-        "billet",
-        "parc",
-        "puits"
+        "mois",
+        "ruisseaux",
+        "cartes"
       ],
       "choices_l2": [
         "lístok",
-        "park",
-        "studňa"
+        "mesiace",
+        "potoky"
       ],
       "show_translation": true
     },
     {
-      "id": "order-tam-je-vlak",
+      "id": "blank-dobr-de-kam-idete",
+      "type": "fill-blank",
+      "l1": "Bonjour. Vous allez où ?",
+      "l2": "Dobrý deň. Kam idete?",
+      "missing_l1": "où",
+      "missing_l2": "Kam",
+      "blank_index_l1": 3,
+      "blank_index_l2": 2,
+      "choices_l1": [
+        "bien",
+        "ici",
+        "loin"
+      ],
+      "choices_l2": [
+        "Kde",
+        "Čo",
+        "Ako"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-dobr-de-dva-l-stky-na-vlak-pros-m",
       "type": "order",
-      "l1": "Le train est là-bas.",
-      "l2": "Tam je vlak.",
+      "l1": "Bonjour. Deux billets de train, s'il vous plaît.",
+      "l2": "Dobrý deň. Dva lístky na vlak, prosím.",
       "tokens_l1": [
-        "Le train",
-        "est",
-        "là-bas."
+        "Bonjour.",
+        "Deux billets",
+        "de train,",
+        "s'il vous plaît."
       ],
       "tokens_l2": [
-        "Tam",
-        "je",
-        "vlak."
+        "Dobrý deň.",
+        "Dva lístky",
+        "na vlak,",
+        "prosím."
       ]
     },
     {
-      "id": "order-ja-m-m-l-stok-a-ty",
+      "id": "order-dva-l-stky-astn-cestu",
       "type": "order",
-      "l1": "Moi, j'ai un billet. Et toi ?",
-      "l2": "Ja mám lístok. A ty?",
+      "l1": "Deux billets. Bon voyage.",
+      "l2": "Dva lístky. Šťastnú cestu.",
       "tokens_l1": [
-        "Moi,",
-        "j'ai",
-        "un billet.",
-        "Et toi ?"
+        "Deux",
+        "billets.",
+        "Bon voyage."
       ],
       "tokens_l2": [
-        "Ja",
-        "mám",
-        "lístok.",
-        "A ty?"
+        "Dva",
+        "lístky.",
+        "Šťastnú cestu."
       ]
     }
   ]
