@@ -1,0 +1,178 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "listen-nikdy-som-nespal-pod-hviezdami",
+      "type": "listen",
+      "l1": "Je n'ai jamais dormi sous les étoiles.",
+      "l2": "Nikdy som nespal pod hviezdami.",
+      "choices_l1": [
+        "J'ai toujours dormi sous les étoiles.",
+        "Je n'ai jamais dormi sous un pommier.",
+        "Tu n'as jamais dormi sous les étoiles."
+      ]
+    },
+    {
+      "id": "listen-to-nie-s-hviezdy-to-s-jablk",
+      "type": "listen",
+      "l1": "Ce ne sont pas des étoiles. Ce sont des pommes.",
+      "l2": "To nie sú hviezdy. To sú jablká.",
+      "choices_l1": [
+        "Ce sont des étoiles. Ce ne sont pas des pommes.",
+        "Ce ne sont pas des pommes. Ce sont des étoiles.",
+        "Ce ne sont pas des oiseaux. Ce sont des pommes."
+      ]
+    },
+    {
+      "id": "listen-ty-nikdy-never-l-kam",
+      "type": "listen",
+      "l1": "Toi, tu ne fais jamais confiance aux renards ?",
+      "l2": "Ty nikdy neveríš líškam?",
+      "choices_l1": [
+        "Toi, tu fais toujours confiance aux renards ?",
+        "Toi, tu n'as jamais peur des renards ?",
+        "Toi, tu ne parles jamais aux renards ?"
+      ]
+    },
+    {
+      "id": "listen-nikdy-okrem-jednej",
+      "type": "listen",
+      "l1": "Jamais. Sauf à un.",
+      "l2": "Nikdy. Okrem jednej.",
+      "choices_l1": [
+        "Toujours. Sauf à un.",
+        "Jamais. Même pas à un.",
+        "Jamais. Sauf à deux."
+      ]
+    },
+    {
+      "id": "listen-ja-viem-e-som-to-ja",
+      "type": "listen",
+      "l1": "Je sais que c'est moi.",
+      "l2": "Ja viem, že som to ja.",
+      "choices_l1": [
+        "Je sais que c'est toi.",
+        "Je ne sais pas si c'est moi.",
+        "Tu sais que c'est moi."
+      ]
+    },
+    {
+      "id": "listen-ni-nevie-spi",
+      "type": "listen",
+      "l1": "Tu ne sais rien. Dors.",
+      "l2": "Nič nevieš. Spi.",
+      "choices_l1": [
+        "Tu sais tout. Dors.",
+        "Je ne sais rien. Dors.",
+        "Tu ne sais rien. Viens."
+      ]
+    },
+    {
+      "id": "match-pomaly-vocab",
+      "type": "match",
+      "l1": [
+        "lentement",
+        "vite",
+        "en haut",
+        "en bas"
+      ],
+      "l2": [
+        "pomaly",
+        "rýchlo",
+        "hore",
+        "dole"
+      ]
+    },
+    {
+      "id": "match-najprv-time",
+      "type": "match",
+      "l1": [
+        "d'abord",
+        "ensuite",
+        "l'an dernier",
+        "toujours"
+      ],
+      "l2": [
+        "najprv",
+        "potom",
+        "vlani",
+        "vždy"
+      ]
+    },
+    {
+      "id": "blank-nikdy-okrem-jednej",
+      "type": "fill-blank",
+      "l1": "Jamais. Sauf à un.",
+      "l2": "Nikdy. Okrem jednej.",
+      "missing_l1": "Jamais",
+      "missing_l2": "Nikdy",
+      "blank_index_l1": 0,
+      "blank_index_l2": 0,
+      "choices_l1": [
+        "Toujours",
+        "Ensuite",
+        "D'abord"
+      ],
+      "choices_l2": [
+        "Vždy",
+        "Potom",
+        "Najprv"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-to-nie-s-hviezdy-to-s-jablk",
+      "type": "fill-blank",
+      "l1": "Ce ne sont pas des étoiles. Ce sont des pommes.",
+      "l2": "To nie sú hviezdy. To sú jablká.",
+      "missing_l1": "pommes",
+      "missing_l2": "jablká",
+      "blank_index_l1": 9,
+      "blank_index_l2": 6,
+      "choices_l1": [
+        "questions",
+        "oiseaux",
+        "échelles"
+      ],
+      "choices_l2": [
+        "hviezdy",
+        "otázky",
+        "vtáky"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-to-nie-s-hviezdy-to-s-jablk",
+      "type": "order",
+      "l1": "Ce ne sont pas des étoiles. Ce sont des pommes.",
+      "l2": "To nie sú hviezdy. To sú jablká.",
+      "tokens_l1": [
+        "Ce ne sont pas",
+        "des étoiles.",
+        "Ce sont des pommes."
+      ],
+      "tokens_l2": [
+        "To nie sú",
+        "hviezdy.",
+        "To sú jablká."
+      ]
+    },
+    {
+      "id": "order-okrem-jednej-ktorej",
+      "type": "order",
+      "l1": "Sauf à un ? Lequel ?",
+      "l2": "Okrem jednej? Ktorej?",
+      "tokens_l1": [
+        "Sauf",
+        "à un ?",
+        "Lequel ?"
+      ],
+      "tokens_l2": [
+        "Okrem",
+        "jednej?",
+        "Ktorej?"
+      ]
+    }
+  ]
+}

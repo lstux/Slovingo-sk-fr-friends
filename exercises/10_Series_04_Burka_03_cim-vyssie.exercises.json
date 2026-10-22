@@ -1,0 +1,220 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-vonku",
+      "type": "qcm",
+      "l1": "dehors",
+      "l2": "vonku",
+      "choices_l1": [
+        "plus haut",
+        "humide",
+        "en hiver"
+      ],
+      "choices_l2": [
+        "vyššie",
+        "vlhko",
+        "v zime"
+      ]
+    },
+    {
+      "id": "qcm-vy-ie",
+      "type": "qcm",
+      "l1": "plus haut",
+      "l2": "vyššie",
+      "choices_l1": [
+        "plus chaud",
+        "plus frais, plus froid",
+        "dehors"
+      ],
+      "choices_l2": [
+        "teplejšie",
+        "chladnejšie",
+        "vonku"
+      ]
+    },
+    {
+      "id": "qcm-teplej-ie",
+      "type": "qcm",
+      "l1": "plus chaud",
+      "l2": "teplejšie",
+      "choices_l1": [
+        "plus frais, plus froid",
+        "plus haut",
+        "humide"
+      ],
+      "choices_l2": [
+        "chladnejšie",
+        "vyššie",
+        "vlhko"
+      ]
+    },
+    {
+      "id": "qcm-obloha",
+      "type": "qcm",
+      "l1": "le ciel",
+      "l2": "obloha",
+      "choices_l1": [
+        "le froid, l'hiver",
+        "dehors",
+        "le thé"
+      ],
+      "choices_l2": [
+        "zima",
+        "vonku",
+        "čaj"
+      ]
+    },
+    {
+      "id": "qcm-vlhko",
+      "type": "qcm",
+      "l1": "humide",
+      "l2": "vlhko",
+      "choices_l1": [
+        "noirs",
+        "dehors",
+        "plus chaud"
+      ],
+      "choices_l2": [
+        "čierne",
+        "vonku",
+        "teplejšie"
+      ]
+    },
+    {
+      "id": "listen-vonku-je-zima-ako-v-zime",
+      "type": "listen",
+      "l1": "Dehors, il fait froid comme en hiver.",
+      "l2": "Vonku je zima ako v zime.",
+      "choices_l1": [
+        "Dehors, il fait chaud comme en été.",
+        "Dedans, il fait froid comme en hiver.",
+        "Dehors, il fait froid comme la nuit."
+      ]
+    },
+    {
+      "id": "listen-sme-vy-ie-m-vy-ie-t-m-chladnej-ie",
+      "type": "listen",
+      "l1": "On est plus haut. Plus on monte, plus il fait froid.",
+      "l2": "Sme vyššie. Čím vyššie, tým chladnejšie.",
+      "choices_l1": [
+        "On est plus bas. Plus on descend, plus il fait chaud.",
+        "On est plus haut. Plus on monte, plus il fait chaud.",
+        "On est en haut. Il fait toujours froid."
+      ]
+    },
+    {
+      "id": "listen-dole-bolo-teplej-ie-a-sucho",
+      "type": "listen",
+      "l1": "En bas, il faisait plus chaud. Et sec.",
+      "l2": "Dole bolo teplejšie. A sucho.",
+      "choices_l1": [
+        "En bas, il faisait plus froid. Et sec.",
+        "En haut, il faisait plus chaud. Et humide.",
+        "En bas, il fait plus chaud. Et humide."
+      ]
+    },
+    {
+      "id": "listen-to-nevyzer-dobre",
+      "type": "listen",
+      "l1": "Ça n'a pas l'air bon.",
+      "l2": "To nevyzerá dobre.",
+      "choices_l1": [
+        "Ça a l'air bon.",
+        "Ce n'est pas loin.",
+        "Je ne vois pas bien."
+      ]
+    },
+    {
+      "id": "match-vonku-vocab",
+      "type": "match",
+      "l1": [
+        "dehors",
+        "plus haut",
+        "plus frais, plus froid",
+        "plus chaud"
+      ],
+      "l2": [
+        "vonku",
+        "vyššie",
+        "chladnejšie",
+        "teplejšie"
+      ]
+    },
+    {
+      "id": "blank-a-tu-je-vlhko-pozri-na-oblohu",
+      "type": "fill-blank",
+      "l1": "Et ici, c'est humide. Regarde le ciel.",
+      "l2": "A tu je vlhko. Pozri na oblohu.",
+      "missing_l1": "humide",
+      "missing_l2": "vlhko",
+      "blank_index_l1": 3,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "sec",
+        "chaud",
+        "froid"
+      ],
+      "choices_l2": [
+        "sucho",
+        "teplo",
+        "zima"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-voda-v-jazere-je-studen",
+      "type": "fill-blank",
+      "l1": "L'eau du lac est froide.",
+      "l2": "Voda v jazere je studená.",
+      "missing_l1": "froide",
+      "missing_l2": "studená",
+      "blank_index_l1": 4,
+      "blank_index_l2": 4,
+      "choices_l1": [
+        "chaude",
+        "pleine",
+        "inutile"
+      ],
+      "choices_l2": [
+        "teplá",
+        "plná",
+        "zbytočná"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-sme-vy-ie-m-vy-ie-t-m-chladnej-ie",
+      "type": "order",
+      "l1": "On est plus haut. Plus on monte, plus il fait froid.",
+      "l2": "Sme vyššie. Čím vyššie, tým chladnejšie.",
+      "tokens_l1": [
+        "On est plus haut.",
+        "Plus on monte,",
+        "plus il fait froid."
+      ],
+      "tokens_l2": [
+        "Sme vyššie.",
+        "Čím vyššie,",
+        "tým chladnejšie."
+      ]
+    },
+    {
+      "id": "order-a-tu-je-vlhko-pozri-na-oblohu",
+      "type": "order",
+      "l1": "Et ici, c'est humide. Regarde le ciel.",
+      "l2": "A tu je vlhko. Pozri na oblohu.",
+      "tokens_l1": [
+        "Et ici, c'est humide.",
+        "Regarde",
+        "le ciel."
+      ],
+      "tokens_l2": [
+        "A tu je vlhko.",
+        "Pozri",
+        "na oblohu."
+      ]
+    }
+  ]
+}

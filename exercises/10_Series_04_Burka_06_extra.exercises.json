@@ -1,0 +1,178 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "listen-pozri-voda-je-jej-ve-a",
+      "type": "listen",
+      "l1": "Regarde ! De l'eau ! Il y en a beaucoup !",
+      "l2": "Pozri! Voda! Je jej veľa!",
+      "choices_l1": [
+        "Regarde ! De l'eau ! Il y en a peu !",
+        "Écoute ! De l'eau ! Il y en a beaucoup !",
+        "Regarde ! Un lac ! Il est très grand !"
+      ]
+    },
+    {
+      "id": "listen-ve-a-a-v-ade",
+      "type": "listen",
+      "l1": "Beaucoup. Et partout.",
+      "l2": "Veľa. A všade.",
+      "choices_l1": [
+        "Peu. Et nulle part.",
+        "Beaucoup. Et ici.",
+        "Trop. Et partout."
+      ]
+    },
+    {
+      "id": "listen-pre-o-si-tak-smutn-ve-je-tu-voda",
+      "type": "listen",
+      "l1": "Pourquoi tu es si triste ? Il y a de l'eau !",
+      "l2": "Prečo si taká smutná? Veď je tu voda!",
+      "choices_l1": [
+        "Pourquoi tu es si contente ? Il y a de l'eau !",
+        "Pourquoi tu as si peur ? Il y a de l'eau !",
+        "Pourquoi tu es si triste ? Il n'y a pas d'eau !"
+      ]
+    },
+    {
+      "id": "listen-mo-no-sa-to-vr-ti-do-norm-lu",
+      "type": "listen",
+      "l1": "Peut-être que ça va redevenir normal.",
+      "l2": "Možno sa to vráti do normálu.",
+      "choices_l1": [
+        "Ce n'est pas normal.",
+        "Ça ne va jamais redevenir normal.",
+        "Peut-être qu'il va pleuvoir."
+      ]
+    },
+    {
+      "id": "listen-mo-no-po-ideme-do-dediny",
+      "type": "listen",
+      "l1": "Peut-être. Viens. On va au village.",
+      "l2": "Možno. Poď. Ideme do dediny.",
+      "choices_l1": [
+        "Peut-être. Viens. On va en ville.",
+        "Peut-être. Attends. On va au village.",
+        "Sûrement. Viens. On va au refuge."
+      ]
+    },
+    {
+      "id": "listen-do-tej-dediny",
+      "type": "listen",
+      "l1": "À ce village-là ?",
+      "l2": "Do tej dediny?",
+      "choices_l1": [
+        "Au refuge ?",
+        "En ville ?",
+        "Dans les Tatras ?"
+      ]
+    },
+    {
+      "id": "match-vy-ie-vocab",
+      "type": "match",
+      "l1": [
+        "plus haut",
+        "plus chaud",
+        "plus frais, plus froid",
+        "dehors"
+      ],
+      "l2": [
+        "vyššie",
+        "teplejšie",
+        "chladnejšie",
+        "vonku"
+      ]
+    },
+    {
+      "id": "match-mus-me-verbs",
+      "type": "match",
+      "l1": [
+        "nous devons",
+        "nous pouvons",
+        "il y aura, il sera",
+        "nous irons"
+      ],
+      "l2": [
+        "musíme",
+        "môžeme",
+        "bude",
+        "pôjdeme"
+      ]
+    },
+    {
+      "id": "blank-ve-a-a-v-ade",
+      "type": "fill-blank",
+      "l1": "Beaucoup. Et partout.",
+      "l2": "Veľa. A všade.",
+      "missing_l1": "partout",
+      "missing_l2": "všade",
+      "blank_index_l1": 2,
+      "blank_index_l2": 2,
+      "choices_l1": [
+        "tout",
+        "nulle part",
+        "quelque part"
+      ],
+      "choices_l2": [
+        "všetko",
+        "nikde",
+        "niekde"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-mo-no-po-ideme-do-dediny",
+      "type": "fill-blank",
+      "l1": "Peut-être. Viens. On va au village.",
+      "l2": "Možno. Poď. Ideme do dediny.",
+      "missing_l1": "village",
+      "missing_l2": "dediny",
+      "blank_index_l1": 5,
+      "blank_index_l2": 4,
+      "choices_l1": [
+        "refuge",
+        "lac",
+        "jardin"
+      ],
+      "choices_l2": [
+        "chaty",
+        "Tatier",
+        "kuchyni"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-dva-mesiace-nebola-ani-kvapka-a-teraz-je-jej-pr-li-ve-a-to-nie-je-norm-lne",
+      "type": "order",
+      "l1": "Pendant deux mois, il n'y avait pas une goutte. Et maintenant il y en a trop. Ce n'est pas normal.",
+      "l2": "Dva mesiace nebola ani kvapka. A teraz je jej príliš veľa. To nie je normálne.",
+      "tokens_l1": [
+        "Pendant deux mois, il n'y avait pas une goutte.",
+        "Et maintenant il y en a trop.",
+        "Ce n'est pas normal."
+      ],
+      "tokens_l2": [
+        "Dva mesiace nebola ani kvapka.",
+        "A teraz je jej príliš veľa.",
+        "To nie je normálne."
+      ]
+    },
+    {
+      "id": "order-pre-o-si-tak-smutn-ve-je-tu-voda",
+      "type": "order",
+      "l1": "Pourquoi tu es si triste ? Il y a de l'eau !",
+      "l2": "Prečo si taká smutná? Veď je tu voda!",
+      "tokens_l1": [
+        "Pourquoi tu es",
+        "si triste ?",
+        "Il y a de l'eau !"
+      ],
+      "tokens_l2": [
+        "Prečo si",
+        "taká smutná?",
+        "Veď je tu voda!"
+      ]
+    }
+  ]
+}

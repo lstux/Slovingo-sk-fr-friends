@@ -1,0 +1,231 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-vlani",
+      "type": "qcm",
+      "l1": "l'an dernier",
+      "l2": "vlani",
+      "choices_l1": [
+        "en été",
+        "il paraît que",
+        "prudemment"
+      ],
+      "choices_l2": [
+        "v lete",
+        "vraj",
+        "opatrne"
+      ]
+    },
+    {
+      "id": "qcm-vraj",
+      "type": "qcm",
+      "l1": "il paraît que",
+      "l2": "vraj",
+      "choices_l1": [
+        "l'an dernier",
+        "prudemment",
+        "moins que"
+      ],
+      "choices_l2": [
+        "vlani",
+        "opatrne",
+        "menej ako"
+      ]
+    },
+    {
+      "id": "qcm-opatrne",
+      "type": "qcm",
+      "l1": "prudemment",
+      "l2": "opatrne",
+      "choices_l1": [
+        "il paraît que",
+        "en montagne",
+        "l'an dernier"
+      ],
+      "choices_l2": [
+        "vraj",
+        "v horách",
+        "vlani"
+      ]
+    },
+    {
+      "id": "qcm-bunda",
+      "type": "qcm",
+      "l1": "la veste",
+      "l2": "bunda",
+      "choices_l1": [
+        "le garde du parc",
+        "en été",
+        "nous irons"
+      ],
+      "choices_l2": [
+        "strážca parku",
+        "v lete",
+        "pôjdeme"
+      ]
+    },
+    {
+      "id": "qcm-p-jdeme",
+      "type": "qcm",
+      "l1": "nous irons",
+      "l2": "pôjdeme",
+      "choices_l1": [
+        "prudemment",
+        "il paraît que",
+        "en montagne"
+      ],
+      "choices_l2": [
+        "opatrne",
+        "vraj",
+        "v horách"
+      ]
+    },
+    {
+      "id": "listen-aj-tu-je-vody-menej-ako-vlani-potoky-vysychaj",
+      "type": "listen",
+      "l1": "Ici aussi, il y a moins d'eau que l'an dernier. Les ruisseaux s'assèchent.",
+      "l2": "Aj tu je vody menej ako vlani. Potoky vysychajú.",
+      "choices_l1": [
+        "Ici aussi, il y a plus d'eau que l'an dernier. Les ruisseaux débordent.",
+        "Ici aussi, il y a moins d'eau qu'hier. Les ruisseaux s'assèchent.",
+        "Ici, il y a beaucoup d'eau. Les ruisseaux s'assèchent ailleurs."
+      ]
+    },
+    {
+      "id": "listen-menej-ako-vlani-o-sa-deje",
+      "type": "listen",
+      "l1": "Moins que l'an dernier ? Qu'est-ce qui se passe ?",
+      "l2": "Menej ako vlani? Čo sa deje?",
+      "choices_l1": [
+        "Plus que l'an dernier ? Qu'est-ce qui se passe ?",
+        "Moins que l'an dernier ? Qu'est-ce qu'on fait ?",
+        "Moins qu'hier ? Qu'est-ce qui se passe ?"
+      ]
+    },
+    {
+      "id": "listen-neviem-v-tatr-ch-vraj-pr-tu-nie",
+      "type": "listen",
+      "l1": "Je ne sais pas. Dans les Tatras, il paraît qu'il pleut. Ici, non.",
+      "l2": "Neviem. V Tatrách vraj prší. Tu nie.",
+      "choices_l1": [
+        "Je ne sais pas. Dans les Tatras, il paraît qu'il fait sec. Ici, non.",
+        "Je sais. Dans les Tatras, il pleut. Ici aussi.",
+        "Je ne sais pas. Ici, il paraît qu'il pleut. Dans les Tatras, non."
+      ]
+    },
+    {
+      "id": "listen-akujeme-p-jdeme-do-tatier",
+      "type": "listen",
+      "l1": "Merci. Nous irons dans les Tatras.",
+      "l2": "Ďakujeme. Pôjdeme do Tatier.",
+      "choices_l1": [
+        "Merci. Nous sommes dans les Tatras.",
+        "Merci. Nous irons au village.",
+        "Merci. Vous irez dans les Tatras."
+      ]
+    },
+    {
+      "id": "listen-bundu-v-lete",
+      "type": "listen",
+      "l1": "Une veste ? En plein été ?",
+      "l2": "Bundu? V lete?",
+      "choices_l1": [
+        "Une veste ? En hiver ?",
+        "Un sac à dos ? En plein été ?",
+        "Une bouteille ? En plein été ?"
+      ]
+    },
+    {
+      "id": "match-vlani-vocab",
+      "type": "match",
+      "l1": [
+        "l'an dernier",
+        "il paraît que",
+        "prudemment",
+        "la veste"
+      ],
+      "l2": [
+        "vlani",
+        "vraj",
+        "opatrne",
+        "bunda"
+      ]
+    },
+    {
+      "id": "blank-akujeme-p-jdeme-do-tatier",
+      "type": "fill-blank",
+      "l1": "Merci. Nous irons dans les Tatras.",
+      "l2": "Ďakujeme. Pôjdeme do Tatier.",
+      "missing_l1": "irons",
+      "missing_l2": "Pôjdeme",
+      "blank_index_l1": 2,
+      "blank_index_l2": 1,
+      "choices_l1": [
+        "sommes",
+        "devons",
+        "pouvons"
+      ],
+      "choices_l2": [
+        "Ideme",
+        "Budeme",
+        "Musíme"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-v-hor-ch-je-in-leto",
+      "type": "fill-blank",
+      "l1": "En montagne, l'été est différent.",
+      "l2": "V horách je iné leto.",
+      "missing_l1": "l'été",
+      "missing_l2": "leto",
+      "blank_index_l1": 2,
+      "blank_index_l2": 4,
+      "choices_l1": [
+        "l'hiver",
+        "l'eau",
+        "l'école"
+      ],
+      "choices_l2": [
+        "zima",
+        "voda",
+        "škola"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-opatrne-a-vezmite-si-bundu",
+      "type": "order",
+      "l1": "Soyez prudents. Et prenez une veste.",
+      "l2": "Opatrne. A vezmite si bundu.",
+      "tokens_l1": [
+        "Soyez prudents.",
+        "Et prenez",
+        "une veste."
+      ],
+      "tokens_l2": [
+        "Opatrne.",
+        "A vezmite si",
+        "bundu."
+      ]
+    },
+    {
+      "id": "order-neviem-v-tatr-ch-vraj-pr-tu-nie",
+      "type": "order",
+      "l1": "Je ne sais pas. Dans les Tatras, il paraît qu'il pleut. Ici, non.",
+      "l2": "Neviem. V Tatrách vraj prší. Tu nie.",
+      "tokens_l1": [
+        "Je ne sais pas.",
+        "Dans les Tatras, il paraît qu'il pleut.",
+        "Ici, non."
+      ],
+      "tokens_l2": [
+        "Neviem.",
+        "V Tatrách vraj prší.",
+        "Tu nie."
+      ]
+    }
+  ]
+}

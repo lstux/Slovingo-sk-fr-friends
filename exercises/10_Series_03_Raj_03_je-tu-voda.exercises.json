@@ -1,0 +1,220 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-dos",
+      "type": "qcm",
+      "l1": "assez",
+      "l2": "dosť",
+      "choices_l1": [
+        "encore, de nouveau",
+        "ensuite",
+        "d'abord"
+      ],
+      "choices_l2": [
+        "zase",
+        "potom",
+        "najprv"
+      ]
+    },
+    {
+      "id": "qcm-najprv",
+      "type": "qcm",
+      "l1": "d'abord",
+      "l2": "najprv",
+      "choices_l1": [
+        "ensuite",
+        "encore, de nouveau",
+        "donc"
+      ],
+      "choices_l2": [
+        "potom",
+        "zase",
+        "takže"
+      ]
+    },
+    {
+      "id": "qcm-potom",
+      "type": "qcm",
+      "l1": "ensuite",
+      "l2": "potom",
+      "choices_l1": [
+        "d'abord",
+        "assez",
+        "donc"
+      ],
+      "choices_l2": [
+        "najprv",
+        "dosť",
+        "takže"
+      ]
+    },
+    {
+      "id": "qcm-tak-e",
+      "type": "qcm",
+      "l1": "donc",
+      "l2": "takže",
+      "choices_l1": [
+        "encore, de nouveau",
+        "assez",
+        "ensuite"
+      ],
+      "choices_l2": [
+        "zase",
+        "dosť",
+        "potom"
+      ]
+    },
+    {
+      "id": "qcm-sm-d",
+      "type": "qcm",
+      "l1": "la soif",
+      "l2": "smäd",
+      "choices_l1": [
+        "la bouteille",
+        "le chef",
+        "le sac à dos"
+      ],
+      "choices_l2": [
+        "fľaša",
+        "šéf",
+        "batoh"
+      ]
+    },
+    {
+      "id": "listen-nie-je-tu-ve-a-je-tu-dos-pre-dvoch",
+      "type": "listen",
+      "l1": "Il n'y en a pas beaucoup. Il y en a assez. Pour deux.",
+      "l2": "Nie je tu veľa. Je tu dosť. Pre dvoch.",
+      "choices_l1": [
+        "Il y en a beaucoup. Il y en a trop. Pour deux.",
+        "Il n'y en a pas beaucoup. Il y en a assez. Pour moi.",
+        "Il n'y en a pas assez. Il y en a peu. Pour deux."
+      ]
+    },
+    {
+      "id": "listen-to-mi-sta",
+      "type": "listen",
+      "l1": "Ça me suffit.",
+      "l2": "To mi stačí.",
+      "choices_l1": [
+        "Ça me manque.",
+        "Ça te suffit.",
+        "Ça me plaît."
+      ]
+    },
+    {
+      "id": "listen-najprv-sa-napi-potom-rozpr-vaj",
+      "type": "listen",
+      "l1": "D'abord, bois. Ensuite, parle.",
+      "l2": "Najprv sa napi. Potom rozprávaj.",
+      "choices_l1": [
+        "D'abord, parle. Ensuite, bois.",
+        "D'abord, bois. Ensuite, dors.",
+        "Bois encore. Ensuite, parle."
+      ]
+    },
+    {
+      "id": "listen-to-je-nespravodliv",
+      "type": "listen",
+      "l1": "C'est injuste.",
+      "l2": "To je nespravodlivé.",
+      "choices_l1": [
+        "C'est juste.",
+        "C'est inutile.",
+        "C'est mauvais."
+      ]
+    },
+    {
+      "id": "match-dos-vocab",
+      "type": "match",
+      "l1": [
+        "assez",
+        "d'abord",
+        "ensuite",
+        "le chef"
+      ],
+      "l2": [
+        "dosť",
+        "najprv",
+        "potom",
+        "šéf"
+      ]
+    },
+    {
+      "id": "blank-ja-m-m-mapu-ty-m-batoh-tak-e-ja-som-f",
+      "type": "fill-blank",
+      "l1": "Moi, j'ai la carte. Toi, tu as le sac à dos. Donc c'est moi la cheffe.",
+      "l2": "Ja mám mapu. Ty máš batoh. Takže ja som šéf.",
+      "missing_l1": "carte",
+      "missing_l2": "mapu",
+      "blank_index_l1": 3,
+      "blank_index_l2": 2,
+      "choices_l1": [
+        "queue",
+        "soif",
+        "réponse"
+      ],
+      "choices_l2": [
+        "mapa",
+        "vodu",
+        "otázky"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-m-m-sm-d",
+      "type": "fill-blank",
+      "l1": "J'ai soif.",
+      "l2": "Mám smäd.",
+      "missing_l1": "soif",
+      "missing_l2": "smäd",
+      "blank_index_l1": 1,
+      "blank_index_l2": 1,
+      "choices_l1": [
+        "peur",
+        "froid",
+        "chaud"
+      ],
+      "choices_l2": [
+        "batoh",
+        "nápad",
+        "šéf"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-najprv-sa-napi-potom-rozpr-vaj",
+      "type": "order",
+      "l1": "D'abord, bois. Ensuite, parle.",
+      "l2": "Najprv sa napi. Potom rozprávaj.",
+      "tokens_l1": [
+        "D'abord,",
+        "bois.",
+        "Ensuite, parle."
+      ],
+      "tokens_l2": [
+        "Najprv",
+        "sa napi.",
+        "Potom rozprávaj."
+      ]
+    },
+    {
+      "id": "order-tu-je-f-a-a-vody-m-e-pi",
+      "type": "order",
+      "l1": "Voilà une bouteille d'eau. Tu peux boire.",
+      "l2": "Tu je fľaša vody. Môžeš piť.",
+      "tokens_l1": [
+        "Voilà",
+        "une bouteille d'eau.",
+        "Tu peux boire."
+      ],
+      "tokens_l2": [
+        "Tu je",
+        "fľaša vody.",
+        "Môžeš piť."
+      ]
+    }
+  ]
+}

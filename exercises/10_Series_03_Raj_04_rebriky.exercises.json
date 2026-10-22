@@ -1,0 +1,231 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-roklina",
+      "type": "qcm",
+      "l1": "la gorge (le ravin)",
+      "l2": "roklina",
+      "choices_l1": [
+        "l'échelle",
+        "l'idée",
+        "les yeux"
+      ],
+      "choices_l2": [
+        "rebrík",
+        "nápad",
+        "oči"
+      ]
+    },
+    {
+      "id": "qcm-rebr-k",
+      "type": "qcm",
+      "l1": "l'échelle",
+      "l2": "rebrík",
+      "choices_l1": [
+        "la gorge (le ravin)",
+        "le pont",
+        "la roche, le rocher"
+      ],
+      "choices_l2": [
+        "roklina",
+        "most",
+        "skala"
+      ]
+    },
+    {
+      "id": "qcm-n-pad",
+      "type": "qcm",
+      "l1": "l'idée",
+      "l2": "nápad",
+      "choices_l1": [
+        "les yeux",
+        "le pont",
+        "l'échelle"
+      ],
+      "choices_l2": [
+        "oči",
+        "most",
+        "rebrík"
+      ]
+    },
+    {
+      "id": "qcm-ak",
+      "type": "qcm",
+      "l1": "si",
+      "l2": "ak",
+      "choices_l1": [
+        "en bas",
+        "en haut",
+        "au-dessus de l'eau"
+      ],
+      "choices_l2": [
+        "dole",
+        "hore",
+        "nad vodou"
+      ]
+    },
+    {
+      "id": "qcm-dole",
+      "type": "qcm",
+      "l1": "en bas",
+      "l2": "dole",
+      "choices_l1": [
+        "en haut",
+        "au-dessus de l'eau",
+        "par les échelles"
+      ],
+      "choices_l2": [
+        "hore",
+        "nad vodou",
+        "po rebríkoch"
+      ]
+    },
+    {
+      "id": "listen-po-rebr-koch-ja-nem-m-r-d-v-ky",
+      "type": "listen",
+      "l1": "Par des échelles ? Moi, je n'aime pas les hauteurs !",
+      "l2": "Po rebríkoch? Ja nemám rád výšky!",
+      "choices_l1": [
+        "Par des échelles ? Moi, j'aime les hauteurs !",
+        "Par des ponts ? Moi, je n'aime pas l'eau !",
+        "Par des échelles ? Toi, tu n'aimes pas les hauteurs !"
+      ]
+    },
+    {
+      "id": "listen-nepozeraj-dole",
+      "type": "listen",
+      "l1": "Ne regarde pas en bas.",
+      "l2": "Nepozeraj dole.",
+      "choices_l1": [
+        "Regarde en bas.",
+        "Ne regarde pas en haut.",
+        "Ne descends pas."
+      ]
+    },
+    {
+      "id": "listen-v-etky-moje-n-pady-s-zl-je-to-m-j-t-l",
+      "type": "listen",
+      "l1": "Toutes mes idées sont mauvaises. C'est mon style.",
+      "l2": "Všetky moje nápady sú zlé. Je to môj štýl.",
+      "choices_l1": [
+        "Toutes mes idées sont bonnes. C'est mon style.",
+        "Toutes tes idées sont mauvaises. C'est ton style.",
+        "Toutes mes idées sont mauvaises. C'est ma faute."
+      ]
+    },
+    {
+      "id": "listen-po-ak-spadne-chyt-m-a",
+      "type": "listen",
+      "l1": "Viens. Si tu tombes, je te rattrape.",
+      "l2": "Poď. Ak spadneš, chytím ťa.",
+      "choices_l1": [
+        "Viens. Si tu tombes, je rigole.",
+        "Attends. Si tu tombes, je te rattrape.",
+        "Viens. Si je tombe, tu me rattrapes."
+      ]
+    },
+    {
+      "id": "listen-zaja-ica-a-siln",
+      "type": "listen",
+      "l1": "Une hase. Et forte.",
+      "l2": "Zajačica. A silná.",
+      "choices_l1": [
+        "Un lièvre. Et fort.",
+        "Une hase. Et gentille.",
+        "Une renarde. Et forte."
+      ]
+    },
+    {
+      "id": "match-roklina-vocab",
+      "type": "match",
+      "l1": [
+        "la gorge (le ravin)",
+        "l'échelle",
+        "les yeux",
+        "l'idée"
+      ],
+      "l2": [
+        "roklina",
+        "rebrík",
+        "oči",
+        "nápad"
+      ]
+    },
+    {
+      "id": "blank-ja-nepozer-m-ja-zatv-ram-o-i",
+      "type": "fill-blank",
+      "l1": "Je ne regarde pas. Je ferme les yeux.",
+      "l2": "Ja nepozerám. Ja zatváram oči.",
+      "missing_l1": "yeux",
+      "missing_l2": "oči",
+      "blank_index_l1": 7,
+      "blank_index_l2": 4,
+      "choices_l1": [
+        "questions",
+        "échelles",
+        "pommes"
+      ],
+      "choices_l2": [
+        "výšky",
+        "otázky",
+        "rebríky"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-skala-je-hore-voda-je-dole",
+      "type": "fill-blank",
+      "l1": "La roche est en haut, l'eau est en bas.",
+      "l2": "Skala je hore, voda je dole.",
+      "missing_l1": "bas",
+      "missing_l2": "dole",
+      "blank_index_l1": 8,
+      "blank_index_l2": 5,
+      "choices_l1": [
+        "haut",
+        "loin",
+        "dedans"
+      ],
+      "choices_l2": [
+        "hore",
+        "tu",
+        "ďaleko"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-mysl-m-idem-prv-ty-ide-za-mnou",
+      "type": "order",
+      "l1": "Si. Je passe la première. Toi, tu me suis.",
+      "l2": "Myslím. Idem prvá. Ty ideš za mnou.",
+      "tokens_l1": [
+        "Si.",
+        "Je passe la première.",
+        "Toi, tu me suis."
+      ],
+      "tokens_l2": [
+        "Myslím.",
+        "Idem prvá.",
+        "Ty ideš za mnou."
+      ]
+    },
+    {
+      "id": "order-po-ak-spadne-chyt-m-a",
+      "type": "order",
+      "l1": "Viens. Si tu tombes, je te rattrape.",
+      "l2": "Poď. Ak spadneš, chytím ťa.",
+      "tokens_l1": [
+        "Viens.",
+        "Si tu tombes,",
+        "je te rattrape."
+      ],
+      "tokens_l2": [
+        "Poď.",
+        "Ak spadneš,",
+        "chytím ťa."
+      ]
+    }
+  ]
+}

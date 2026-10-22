@@ -78,8 +78,8 @@ Deux séries peuvent se dérouler au même endroit : les personnages traversent 
 |---|---|
 | 01 Košice | *som / si / je* (rappel) ; le présent (*-m, -š, rien*) ; *rád / rada* ; les nombres 13 à 16 (*-násť*) ; premier passé en bloc (*dlho sme sa nevideli*, *cestoval som*) ; tutoiement / vouvoiement |
 | 02 Sucho | Quantités et génitif de quantité (*veľa vody*, *málo vody*) ; météo ; *chýba mi* ; locatif |
-| 03 Raj | *ísť / chodiť* ; prépositions de direction (*cez*, *po*, *popri*) ; impératif ; accusatif |
-| 04 Burka | Futur (*budem*) ; *musieť / môcť* ; conditionnel (*by*) ; comparatif / superlatif |
+| 03 Raj | Impératif entre amis (*poď*, *počkaj*, *nepozeraj*) ; *nič ne-* (double négation) ; accusatif (*mapa → mapu*) ; directions (*do*, *po*, *nad*, *za*) ; *mám rád* |
+| 04 Burka | *prečo / lebo* ; futur (*bude*) ; *musieť / môcť* ; comparatif (*-ejšie*, *čím… tým…*) ; impératif poli (*-te*) |
 | 05 Domov | Passé et souvenirs (*keď som bol malý*) ; datif ; expressions de temps |
 | 06 Povoden | Aspect perfectif / imperfectif (en pratique, pas en théorie) ; secours, entraide |
 | 07 Cesta | Opinion, accord, désaccord (*podľa mňa*, *súhlasím*) ; *lebo / preto / pretože* |

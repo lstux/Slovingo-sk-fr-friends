@@ -1,0 +1,220 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-po-uje",
+      "type": "qcm",
+      "l1": "tu entends",
+      "l2": "počuješ",
+      "choices_l1": [
+        "j'entends",
+        "coule",
+        "chante"
+      ],
+      "choices_l2": [
+        "počujem",
+        "tečie",
+        "spieva"
+      ]
+    },
+    {
+      "id": "qcm-ni",
+      "type": "qcm",
+      "l1": "rien",
+      "l2": "nič",
+      "choices_l1": [
+        "quelque part",
+        "le silence, chut",
+        "encore"
+      ],
+      "choices_l2": [
+        "niekde",
+        "ticho",
+        "ešte"
+      ]
+    },
+    {
+      "id": "qcm-niekde",
+      "type": "qcm",
+      "l1": "quelque part",
+      "l2": "niekde",
+      "choices_l1": [
+        "rien",
+        "près",
+        "encore"
+      ],
+      "choices_l2": [
+        "nič",
+        "blízko",
+        "ešte"
+      ]
+    },
+    {
+      "id": "qcm-vt-ky",
+      "type": "qcm",
+      "l1": "les oiseaux",
+      "l2": "vtáky",
+      "choices_l1": [
+        "coule",
+        "le silence, chut",
+        "bon, bien"
+      ],
+      "choices_l2": [
+        "tečie",
+        "ticho",
+        "dobré"
+      ]
+    },
+    {
+      "id": "qcm-te-ie",
+      "type": "qcm",
+      "l1": "coule",
+      "l2": "tečie",
+      "choices_l1": [
+        "chante",
+        "j'entends",
+        "fort (pour un son)"
+      ],
+      "choices_l2": [
+        "spieva",
+        "počujem",
+        "hlasno"
+      ]
+    },
+    {
+      "id": "listen-je-to-e-te-aleko",
+      "type": "listen",
+      "l1": "C'est encore loin ?",
+      "l2": "Je to ešte ďaleko?",
+      "choices_l1": [
+        "C'est encore près ?",
+        "C'est déjà loin ?",
+        "C'est où ?"
+      ]
+    },
+    {
+      "id": "listen-ni-nepo-ujem",
+      "type": "listen",
+      "l1": "Je n'entends rien.",
+      "l2": "Nič nepočujem.",
+      "choices_l1": [
+        "Je ne vois rien.",
+        "J'entends tout.",
+        "Tu n'entends rien."
+      ]
+    },
+    {
+      "id": "listen-presne-ticho-aj-vt-ky-ml-ia",
+      "type": "listen",
+      "l1": "Exactement. Le silence. Même les oiseaux se taisent.",
+      "l2": "Presne. Ticho. Aj vtáky mlčia.",
+      "choices_l1": [
+        "Exactement. Le silence. Même les oiseaux chantent.",
+        "Exactement. Le bruit. Même les oiseaux se taisent.",
+        "Presque. Le silence. Même les renards se taisent."
+      ]
+    },
+    {
+      "id": "listen-po-uje-vt-k-spieva",
+      "type": "listen",
+      "l1": "Tu entends ? Un oiseau chante.",
+      "l2": "Počuješ? Vták spieva.",
+      "choices_l1": [
+        "Tu entends ? Un oiseau se tait.",
+        "Tu vois ? Un oiseau chante.",
+        "Tu entends ? L'eau coule."
+      ]
+    },
+    {
+      "id": "match-po-ujem-vocab",
+      "type": "match",
+      "l1": [
+        "j'entends",
+        "le silence, chut",
+        "rien",
+        "quelque part"
+      ],
+      "l2": [
+        "počujem",
+        "ticho",
+        "nič",
+        "niekde"
+      ]
+    },
+    {
+      "id": "blank-ni-nepo-ujem",
+      "type": "fill-blank",
+      "l1": "Je n'entends rien.",
+      "l2": "Nič nepočujem.",
+      "missing_l1": "rien",
+      "missing_l2": "Nič",
+      "blank_index_l1": 2,
+      "blank_index_l2": 0,
+      "choices_l1": [
+        "encore",
+        "bien",
+        "ici"
+      ],
+      "choices_l2": [
+        "Niekde",
+        "Ticho",
+        "Ešte"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-spieva-ve-mi-hlasno",
+      "type": "fill-blank",
+      "l1": "Il chante très fort.",
+      "l2": "Spieva veľmi hlasno.",
+      "missing_l1": "fort",
+      "missing_l2": "hlasno",
+      "blank_index_l1": 3,
+      "blank_index_l2": 2,
+      "choices_l1": [
+        "lentement",
+        "vite",
+        "bien"
+      ],
+      "choices_l2": [
+        "pomaly",
+        "rýchlo",
+        "dobré"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-nie-ale-po-kaj-po-uje-to",
+      "type": "order",
+      "l1": "Non. Mais attends... Tu entends ça ?",
+      "l2": "Nie. Ale počkaj... Počuješ to?",
+      "tokens_l1": [
+        "Non.",
+        "Mais attends...",
+        "Tu entends ça ?"
+      ],
+      "tokens_l2": [
+        "Nie.",
+        "Ale počkaj...",
+        "Počuješ to?"
+      ]
+    },
+    {
+      "id": "order-nie-ale-ticho-po-uje",
+      "type": "order",
+      "l1": "Non. Mais chut. Tu entends ?",
+      "l2": "Nie. Ale ticho. Počuješ?",
+      "tokens_l1": [
+        "Non.",
+        "Mais chut.",
+        "Tu entends ?"
+      ],
+      "tokens_l2": [
+        "Nie.",
+        "Ale ticho.",
+        "Počuješ?"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-b-rka",
+      "type": "qcm",
+      "l1": "l'orage",
+      "l2": "búrka",
+      "choices_l1": [
+        "le refuge, le chalet",
+        "le genou",
+        "la radio"
+      ],
+      "choices_l2": [
+        "chata",
+        "koleno",
+        "rádio"
+      ]
+    },
+    {
+      "id": "qcm-mus-me",
+      "type": "qcm",
+      "l1": "nous devons",
+      "l2": "musíme",
+      "choices_l1": [
+        "nous pouvons",
+        "rester",
+        "il y aura, il sera"
+      ],
+      "choices_l2": [
+        "môžeme",
+        "zostať",
+        "bude"
+      ]
+    },
+    {
+      "id": "qcm-m-eme",
+      "type": "qcm",
+      "l1": "nous pouvons",
+      "l2": "môžeme",
+      "choices_l1": [
+        "nous devons",
+        "rester",
+        "il y aura, il sera"
+      ],
+      "choices_l2": [
+        "musíme",
+        "zostať",
+        "bude"
+      ]
+    },
+    {
+      "id": "qcm-koleno",
+      "type": "qcm",
+      "l1": "le genou",
+      "l2": "koleno",
+      "choices_l1": [
+        "l'orage",
+        "la place",
+        "la cuisine"
+      ],
+      "choices_l2": [
+        "búrka",
+        "miesto",
+        "kuchyňa"
+      ]
+    },
+    {
+      "id": "qcm-na-zemi",
+      "type": "qcm",
+      "l1": "par terre",
+      "l2": "na zemi",
+      "choices_l1": [
+        "en bas, vers le bas",
+        "pleine",
+        "la place"
+      ],
+      "choices_l2": [
+        "dolu",
+        "plná",
+        "miesto"
+      ]
+    },
+    {
+      "id": "listen-dobr-de-zajtra-bude-b-rka",
+      "type": "listen",
+      "l1": "Bonjour. Demain, il y aura un orage.",
+      "l2": "Dobrý deň. Zajtra bude búrka.",
+      "choices_l1": [
+        "Bonjour. Aujourd'hui, il y a un orage.",
+        "Bonjour. Demain, il fera beau.",
+        "Bonjour. Demain, il y aura du vent."
+      ]
+    },
+    {
+      "id": "listen-koleno-vie-viac-ako-r-dio",
+      "type": "listen",
+      "l1": "Mon genou en sait plus que la radio.",
+      "l2": "Koleno vie viac ako rádio.",
+      "choices_l1": [
+        "La radio en sait plus que mon genou.",
+        "Mon genou en sait moins que la radio.",
+        "Mon genou a mal à cause de la radio."
+      ]
+    },
+    {
+      "id": "listen-mus-me-s-dolu",
+      "type": "listen",
+      "l1": "On doit redescendre ?",
+      "l2": "Musíme ísť dolu?",
+      "choices_l1": [
+        "On peut redescendre ?",
+        "On doit monter ?",
+        "On doit rester ici ?"
+      ]
+    },
+    {
+      "id": "listen-chata-je-pln-ale-v-kuchyni-je-miesto-na-zemi",
+      "type": "listen",
+      "l1": "Le refuge est plein. Mais dans la cuisine, il y a de la place par terre.",
+      "l2": "Chata je plná. Ale v kuchyni je miesto na zemi.",
+      "choices_l1": [
+        "Le refuge est vide. Mais dans la cuisine, il y a de la place par terre.",
+        "Le refuge est plein. Mais dans le jardin, il y a de la place par terre.",
+        "Le refuge est plein. Et dans la cuisine, il n'y a pas de place."
+      ]
+    },
+    {
+      "id": "match-b-rka-vocab",
+      "type": "match",
+      "l1": [
+        "l'orage",
+        "le refuge, le chalet",
+        "le genou",
+        "rester"
+      ],
+      "l2": [
+        "búrka",
+        "chata",
+        "koleno",
+        "zostať"
+      ]
+    },
+    {
+      "id": "blank-m-eme-tu-zosta",
+      "type": "fill-blank",
+      "l1": "On peut rester ici ?",
+      "l2": "Môžeme tu zostať?",
+      "missing_l1": "peut",
+      "missing_l2": "Môžeme",
+      "blank_index_l1": 1,
+      "blank_index_l2": 0,
+      "choices_l1": [
+        "doit",
+        "va",
+        "veut"
+      ],
+      "choices_l2": [
+        "Musíme",
+        "Budeme",
+        "Ideme"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-v-kuchyni-je-miesto",
+      "type": "fill-blank",
+      "l1": "Dans la cuisine, il y a de la place.",
+      "l2": "V kuchyni je miesto.",
+      "missing_l1": "place",
+      "missing_l2": "miesto",
+      "blank_index_l1": 8,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "radio",
+        "pluie",
+        "neige"
+      ],
+      "choices_l2": [
+        "chata",
+        "búrka",
+        "rádio"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-nie-dolu-je-to-hor-ie-zosta-te-tu",
+      "type": "order",
+      "l1": "Non. En bas, c'est pire. Restez ici.",
+      "l2": "Nie. Dolu je to horšie. Zostaňte tu.",
+      "tokens_l1": [
+        "Non.",
+        "En bas, c'est pire.",
+        "Restez ici."
+      ],
+      "tokens_l2": [
+        "Nie.",
+        "Dolu je to horšie.",
+        "Zostaňte tu."
+      ]
+    },
+    {
+      "id": "order-v-r-diu-hovoria-e-bude-b-rka",
+      "type": "order",
+      "l1": "À la radio, ils disent qu'il y aura un orage.",
+      "l2": "V rádiu hovoria, že bude búrka.",
+      "tokens_l1": [
+        "À la radio,",
+        "ils disent",
+        "qu'il y aura un orage."
+      ],
+      "tokens_l2": [
+        "V rádiu",
+        "hovoria,",
+        "že bude búrka."
+      ]
+    }
+  ]
+}

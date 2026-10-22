@@ -1,0 +1,215 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-dedina",
+      "type": "qcm",
+      "l1": "le village",
+      "l2": "dedina",
+      "choices_l1": [
+        "les cousins",
+        "aussi",
+        "Tu dors ?"
+      ],
+      "choices_l2": [
+        "bratranci",
+        "tiež",
+        "Spíš?"
+      ]
+    },
+    {
+      "id": "qcm-bratranci",
+      "type": "qcm",
+      "l1": "les cousins",
+      "l2": "bratranci",
+      "choices_l1": [
+        "le village",
+        "au village",
+        "aussi"
+      ],
+      "choices_l2": [
+        "dedina",
+        "do dediny",
+        "tiež"
+      ]
+    },
+    {
+      "id": "qcm-tie",
+      "type": "qcm",
+      "l1": "aussi",
+      "l2": "tiež",
+      "choices_l1": [
+        "ça va finir",
+        "le village",
+        "les cousins"
+      ],
+      "choices_l2": [
+        "skončí",
+        "dedina",
+        "bratranci"
+      ]
+    },
+    {
+      "id": "qcm-skon",
+      "type": "qcm",
+      "l1": "ça va finir",
+      "l2": "skončí",
+      "choices_l1": [
+        "aussi",
+        "Tu dors ?",
+        "au village"
+      ],
+      "choices_l2": [
+        "tiež",
+        "Spíš?",
+        "do dediny"
+      ]
+    },
+    {
+      "id": "listen-andrea-sp",
+      "type": "listen",
+      "l1": "Andrea ? Tu dors ?",
+      "l2": "Andrea? Spíš?",
+      "choices_l1": [
+        "Andrea ? Tu es là ?",
+        "Andrea ? Tu as peur ?",
+        "Andrea ? Tu entends ?"
+      ]
+    },
+    {
+      "id": "listen-kam-p-jdeme-zajtra",
+      "type": "listen",
+      "l1": "On va où demain ?",
+      "l2": "Kam pôjdeme zajtra?",
+      "choices_l1": [
+        "On va où maintenant ?",
+        "On fait quoi demain ?",
+        "On part quand ?"
+      ]
+    },
+    {
+      "id": "listen-dolu-do-dediny-moji-bratranci-tam-b-vaj",
+      "type": "listen",
+      "l1": "En bas. Au village. Mes cousins y habitent.",
+      "l2": "Dolu. Do dediny. Moji bratranci tam bývajú.",
+      "choices_l1": [
+        "En haut. Au refuge. Mes cousins y habitent.",
+        "En bas. Au village. Ma tante y habite.",
+        "En bas. En ville. Mes cousins y habitent."
+      ]
+    },
+    {
+      "id": "listen-katka-m-trin-s-boj-m-sa-jej",
+      "type": "listen",
+      "l1": "Katka a treize ans. J'ai peur d'elle.",
+      "l2": "Katka má trinásť. Bojím sa jej.",
+      "choices_l1": [
+        "Katka a quatorze ans. J'ai peur d'elle.",
+        "Katka a treize ans. Elle a peur de moi.",
+        "Katka a treize ans. Je suis content de la voir."
+      ]
+    },
+    {
+      "id": "listen-to-ma-upokojuje",
+      "type": "listen",
+      "l1": "Ça me rassure.",
+      "l2": "To ma upokojuje.",
+      "choices_l1": [
+        "Ça me fait peur.",
+        "Ça me suffit.",
+        "Ça me manque."
+      ]
+    },
+    {
+      "id": "match-dedina-vocab",
+      "type": "match",
+      "l1": [
+        "le village",
+        "les cousins",
+        "aussi",
+        "ça va finir"
+      ],
+      "l2": [
+        "dedina",
+        "bratranci",
+        "tiež",
+        "skončí"
+      ]
+    },
+    {
+      "id": "blank-spr-vne-ja-sa-jej-boj-m-tie",
+      "type": "fill-blank",
+      "l1": "Tu as raison. Moi aussi, j'ai peur d'elle.",
+      "l2": "Správne. Ja sa jej bojím tiež.",
+      "missing_l1": "aussi",
+      "missing_l2": "tiež",
+      "blank_index_l1": 4,
+      "blank_index_l2": 5,
+      "choices_l1": [
+        "encore",
+        "toujours",
+        "maintenant"
+      ],
+      "choices_l2": [
+        "teraz",
+        "dole",
+        "vždy"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-spi-b-rka-skon",
+      "type": "fill-blank",
+      "l1": "Dors. L'orage va finir.",
+      "l2": "Spi. Búrka skončí.",
+      "missing_l1": "L'orage",
+      "missing_l2": "Búrka",
+      "blank_index_l1": 1,
+      "blank_index_l2": 1,
+      "choices_l1": [
+        "Le refuge",
+        "La nuit",
+        "Le genou"
+      ],
+      "choices_l2": [
+        "Chata",
+        "Kuchyňa",
+        "Hrom"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-dolu-do-dediny-moji-bratranci-tam-b-vaj",
+      "type": "order",
+      "l1": "En bas. Au village. Mes cousins y habitent.",
+      "l2": "Dolu. Do dediny. Moji bratranci tam bývajú.",
+      "tokens_l1": [
+        "En bas.",
+        "Au village.",
+        "Mes cousins y habitent."
+      ],
+      "tokens_l2": [
+        "Dolu.",
+        "Do dediny.",
+        "Moji bratranci tam bývajú."
+      ]
+    },
+    {
+      "id": "order-katka-m-trin-s-boj-m-sa-jej",
+      "type": "order",
+      "l1": "Katka a treize ans. J'ai peur d'elle.",
+      "l2": "Katka má trinásť. Bojím sa jej.",
+      "tokens_l1": [
+        "Katka a",
+        "treize ans.",
+        "J'ai peur d'elle."
+      ],
+      "tokens_l2": [
+        "Katka má",
+        "trinásť.",
+        "Bojím sa jej."
+      ]
+    }
+  ]
+}

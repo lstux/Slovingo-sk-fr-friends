@@ -1,0 +1,220 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-pre-o",
+      "type": "qcm",
+      "l1": "pourquoi",
+      "l2": "prečo",
+      "choices_l1": [
+        "parce que",
+        "si, tellement",
+        "complètement"
+      ],
+      "choices_l2": [
+        "lebo",
+        "také",
+        "úplne"
+      ]
+    },
+    {
+      "id": "qcm-lebo",
+      "type": "qcm",
+      "l1": "parce que",
+      "l2": "lebo",
+      "choices_l1": [
+        "pourquoi",
+        "complètement",
+        "si, tellement"
+      ],
+      "choices_l2": [
+        "prečo",
+        "úplne",
+        "také"
+      ]
+    },
+    {
+      "id": "qcm-odpove",
+      "type": "qcm",
+      "l1": "la réponse",
+      "l2": "odpoveď",
+      "choices_l1": [
+        "la question",
+        "les montagnes",
+        "le sommet, le pic"
+      ],
+      "choices_l2": [
+        "otázka",
+        "hory",
+        "štít"
+      ]
+    },
+    {
+      "id": "qcm-zbyto-n",
+      "type": "qcm",
+      "l1": "inutile",
+      "l2": "zbytočná",
+      "choices_l1": [
+        "hautes",
+        "complètement",
+        "si, tellement"
+      ],
+      "choices_l2": [
+        "vysoké",
+        "úplne",
+        "také"
+      ]
+    },
+    {
+      "id": "qcm-pleso",
+      "type": "qcm",
+      "l1": "le lac de montagne",
+      "l2": "pleso",
+      "choices_l1": [
+        "la colline",
+        "le sommet, le pic",
+        "les montagnes"
+      ],
+      "choices_l2": [
+        "kopec",
+        "štít",
+        "hory"
+      ]
+    },
+    {
+      "id": "listen-pre-o-s-tatry-tak-vysok",
+      "type": "listen",
+      "l1": "Pourquoi les Tatras sont si hautes ?",
+      "l2": "Prečo sú Tatry také vysoké?",
+      "choices_l1": [
+        "Pourquoi les Tatras sont si loin ?",
+        "Pourquoi on va dans les Tatras ?",
+        "Pourquoi les Tatras sont si froides ?"
+      ]
+    },
+    {
+      "id": "listen-lebo-s-to-hory",
+      "type": "listen",
+      "l1": "Parce que ce sont des montagnes.",
+      "l2": "Lebo sú to hory.",
+      "choices_l1": [
+        "Parce que ce sont des collines.",
+        "Parce que c'est l'été.",
+        "Pourquoi des montagnes ?"
+      ]
+    },
+    {
+      "id": "listen-to-je-plne-zbyto-n-odpove",
+      "type": "listen",
+      "l1": "C'est une réponse complètement inutile.",
+      "l2": "To je úplne zbytočná odpoveď.",
+      "choices_l1": [
+        "C'est une question complètement inutile.",
+        "C'est une réponse très intelligente.",
+        "C'est une bonne réponse."
+      ]
+    },
+    {
+      "id": "listen-pre-o-ideme-hore-lebo-tam-je-pleso",
+      "type": "listen",
+      "l1": "Pourquoi on monte ? Parce que là-haut, il y a un lac.",
+      "l2": "Prečo ideme hore? Lebo tam je pleso.",
+      "choices_l1": [
+        "Pourquoi on descend ? Parce qu'en bas, il y a un lac.",
+        "Pourquoi on monte ? Parce que là-haut, il y a un refuge.",
+        "On monte ? Oui, là-haut, il y a un lac."
+      ]
+    },
+    {
+      "id": "match-pre-o-vocab",
+      "type": "match",
+      "l1": [
+        "pourquoi",
+        "parce que",
+        "la question",
+        "la réponse"
+      ],
+      "l2": [
+        "prečo",
+        "lebo",
+        "otázka",
+        "odpoveď"
+      ]
+    },
+    {
+      "id": "blank-bola-to-plne-zbyto-n-ot-zka",
+      "type": "fill-blank",
+      "l1": "C'était une question complètement inutile.",
+      "l2": "Bola to úplne zbytočná otázka.",
+      "missing_l1": "question",
+      "missing_l2": "otázka",
+      "blank_index_l1": 2,
+      "blank_index_l2": 4,
+      "choices_l1": [
+        "réponse",
+        "carte",
+        "idée"
+      ],
+      "choices_l2": [
+        "odpoveď",
+        "hory",
+        "mapa"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-kopec-je-mal-t-t-je-vysok",
+      "type": "fill-blank",
+      "l1": "Une colline, c'est petit, un sommet, c'est haut.",
+      "l2": "Kopec je malý, štít je vysoký.",
+      "missing_l1": "haut",
+      "missing_l2": "vysoký",
+      "blank_index_l1": 7,
+      "blank_index_l2": 5,
+      "choices_l1": [
+        "petit",
+        "loin",
+        "inutile"
+      ],
+      "choices_l2": [
+        "vysoká",
+        "malá",
+        "zbytočná"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-to-je-plne-zbyto-n-odpove",
+      "type": "order",
+      "l1": "C'est une réponse complètement inutile.",
+      "l2": "To je úplne zbytočná odpoveď.",
+      "tokens_l1": [
+        "C'est une réponse",
+        "complètement",
+        "inutile."
+      ],
+      "tokens_l2": [
+        "To je",
+        "úplne zbytočná",
+        "odpoveď."
+      ]
+    },
+    {
+      "id": "order-pre-o-ideme-hore-lebo-tam-je-pleso",
+      "type": "order",
+      "l1": "Pourquoi on monte ? Parce que là-haut, il y a un lac.",
+      "l2": "Prečo ideme hore? Lebo tam je pleso.",
+      "tokens_l1": [
+        "Pourquoi on monte ?",
+        "Parce que",
+        "là-haut, il y a un lac."
+      ],
+      "tokens_l2": [
+        "Prečo ideme hore?",
+        "Lebo",
+        "tam je pleso."
+      ]
+    }
+  ]
+}

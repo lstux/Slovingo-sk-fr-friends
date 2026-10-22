@@ -1,0 +1,220 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-v-dy",
+      "type": "qcm",
+      "l1": "toujours",
+      "l2": "vždy",
+      "choices_l1": [
+        "alors",
+        "lentement",
+        "vite"
+      ],
+      "choices_l2": [
+        "tak",
+        "pomaly",
+        "rýchlo"
+      ]
+    },
+    {
+      "id": "qcm-pomaly",
+      "type": "qcm",
+      "l1": "lentement",
+      "l2": "pomaly",
+      "choices_l1": [
+        "vite",
+        "toujours",
+        "alors"
+      ],
+      "choices_l2": [
+        "rýchlo",
+        "vždy",
+        "tak"
+      ]
+    },
+    {
+      "id": "qcm-r-chlo",
+      "type": "qcm",
+      "l1": "vite",
+      "l2": "rýchlo",
+      "choices_l1": [
+        "lentement",
+        "toujours",
+        "des questions"
+      ],
+      "choices_l2": [
+        "pomaly",
+        "vždy",
+        "otázky"
+      ]
+    },
+    {
+      "id": "qcm-po-za-mnou",
+      "type": "qcm",
+      "l1": "Suis-moi !",
+      "l2": "Poď za mnou!",
+      "choices_l1": [
+        "On va où maintenant ?",
+        "Je sais.",
+        "alors"
+      ],
+      "choices_l2": [
+        "Kam teraz?",
+        "Ja viem.",
+        "tak"
+      ]
+    },
+    {
+      "id": "qcm-les",
+      "type": "qcm",
+      "l1": "la forêt",
+      "l2": "les",
+      "choices_l1": [
+        "l'ombre",
+        "à travers",
+        "des questions"
+      ],
+      "choices_l2": [
+        "tieň",
+        "cez",
+        "otázky"
+      ]
+    },
+    {
+      "id": "listen-po-za-mnou-m-m-mapu",
+      "type": "listen",
+      "l1": "Suis-moi. J'ai une carte.",
+      "l2": "Poď za mnou. Mám mapu.",
+      "choices_l1": [
+        "Suis-moi. J'ai une question.",
+        "Attends-moi. J'ai une carte.",
+        "Suis-moi. Tu as une carte."
+      ]
+    },
+    {
+      "id": "listen-a-ty-v-dy-m-ot-zky-po",
+      "type": "listen",
+      "l1": "Et toi, tu as toujours des questions. Viens.",
+      "l2": "A ty vždy máš otázky. Poď.",
+      "choices_l1": [
+        "Et toi, tu as toujours une carte. Viens.",
+        "Et toi, tu n'as jamais de questions. Viens.",
+        "Et toi, tu as toujours des questions. Attends."
+      ]
+    },
+    {
+      "id": "listen-po-kaj-idem-pomaly",
+      "type": "listen",
+      "l1": "Attends ! Je vais lentement !",
+      "l2": "Počkaj! Idem pomaly!",
+      "choices_l1": [
+        "Attends ! Je vais vite !",
+        "Viens ! Je vais lentement !",
+        "Attends ! Tu vas lentement !"
+      ]
+    },
+    {
+      "id": "listen-ja-viem-tak-po-r-chlo",
+      "type": "listen",
+      "l1": "Je sais. Alors viens vite.",
+      "l2": "Ja viem. Tak poď rýchlo.",
+      "choices_l1": [
+        "Je sais. Alors viens lentement.",
+        "Je ne sais pas. Alors viens vite.",
+        "Je sais. Alors attends ici."
+      ]
+    },
+    {
+      "id": "match-v-dy-vocab",
+      "type": "match",
+      "l1": [
+        "toujours",
+        "lentement",
+        "vite",
+        "alors"
+      ],
+      "l2": [
+        "vždy",
+        "pomaly",
+        "rýchlo",
+        "tak"
+      ]
+    },
+    {
+      "id": "blank-ty-v-dy-m-mapu",
+      "type": "fill-blank",
+      "l1": "Tu as toujours une carte.",
+      "l2": "Ty vždy máš mapu.",
+      "missing_l1": "toujours",
+      "missing_l2": "vždy",
+      "blank_index_l1": 2,
+      "blank_index_l2": 1,
+      "choices_l1": [
+        "alors",
+        "lentement",
+        "vite"
+      ],
+      "choices_l2": [
+        "tak",
+        "pomaly",
+        "rýchlo"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-ideme-cez-les",
+      "type": "fill-blank",
+      "l1": "On traverse la forêt.",
+      "l2": "Ideme cez les.",
+      "missing_l1": "forêt",
+      "missing_l2": "les",
+      "blank_index_l1": 3,
+      "blank_index_l2": 2,
+      "choices_l1": [
+        "ville",
+        "gare",
+        "cathédrale"
+      ],
+      "choices_l2": [
+        "tieň",
+        "mesto",
+        "park"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-ja-viem-tak-po-r-chlo",
+      "type": "order",
+      "l1": "Je sais. Alors viens vite.",
+      "l2": "Ja viem. Tak poď rýchlo.",
+      "tokens_l1": [
+        "Je sais.",
+        "Alors",
+        "viens vite."
+      ],
+      "tokens_l2": [
+        "Ja viem.",
+        "Tak",
+        "poď rýchlo."
+      ]
+    },
+    {
+      "id": "order-a-ty-v-dy-m-ot-zky-po",
+      "type": "order",
+      "l1": "Et toi, tu as toujours des questions. Viens.",
+      "l2": "A ty vždy máš otázky. Poď.",
+      "tokens_l1": [
+        "Et toi,",
+        "tu as toujours des questions.",
+        "Viens."
+      ],
+      "tokens_l2": [
+        "A ty",
+        "vždy máš otázky.",
+        "Poď."
+      ]
+    }
+  ]
+}

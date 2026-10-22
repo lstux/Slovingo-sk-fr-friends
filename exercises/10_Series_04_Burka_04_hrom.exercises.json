@@ -1,0 +1,231 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-hrom",
+      "type": "qcm",
+      "l1": "le tonnerre",
+      "l2": "hrom",
+      "choices_l1": [
+        "l'éclair",
+        "la bougie",
+        "la lumière"
+      ],
+      "choices_l2": [
+        "blesk",
+        "sviečka",
+        "svetlo"
+      ]
+    },
+    {
+      "id": "qcm-svie-ka",
+      "type": "qcm",
+      "l1": "la bougie",
+      "l2": "sviečka",
+      "choices_l1": [
+        "la lumière",
+        "le noir, l'obscurité",
+        "le tonnerre"
+      ],
+      "choices_l2": [
+        "svetlo",
+        "tma",
+        "hrom"
+      ]
+    },
+    {
+      "id": "qcm-to-ko",
+      "type": "qcm",
+      "l1": "tellement, autant",
+      "l2": "toľko",
+      "choices_l1": [
+        "seulement, juste",
+        "jusqu'au matin",
+        "fort (pour un bruit)"
+      ],
+      "choices_l2": [
+        "len",
+        "do rána",
+        "hlasný"
+      ]
+    },
+    {
+      "id": "qcm-nebojte-sa",
+      "type": "qcm",
+      "l1": "N'ayez pas peur !",
+      "l2": "Nebojte sa!",
+      "choices_l1": [
+        "Je n'y suis pour rien.",
+        "tremble",
+        "il pleut"
+      ],
+      "choices_l2": [
+        "Nemôžem za to.",
+        "trasie sa",
+        "prší"
+      ]
+    },
+    {
+      "id": "qcm-blesk",
+      "type": "qcm",
+      "l1": "l'éclair",
+      "l2": "blesk",
+      "choices_l1": [
+        "le tonnerre",
+        "le noir, l'obscurité",
+        "la bougie"
+      ],
+      "choices_l2": [
+        "hrom",
+        "tma",
+        "sviečka"
+      ]
+    },
+    {
+      "id": "listen-hrom-je-to-len-b-rka",
+      "type": "listen",
+      "l1": "Le tonnerre. C'est juste un orage.",
+      "l2": "Hrom. Je to len búrka.",
+      "choices_l1": [
+        "Le tonnerre. C'est un gros orage.",
+        "L'éclair. C'est juste un orage.",
+        "Le tonnerre. C'est juste la pluie."
+      ]
+    },
+    {
+      "id": "listen-len-b-rka-dva-mesiace-nepr-alo-a-teraz-to-ko-vody",
+      "type": "listen",
+      "l1": "Juste un orage ! Il n'a pas plu pendant deux mois, et maintenant, toute cette eau !",
+      "l2": "Len búrka! Dva mesiace nepršalo, a teraz toľko vody!",
+      "choices_l1": [
+        "Juste un orage ! Il a plu pendant deux mois, et maintenant, plus d'eau !",
+        "Juste un orage ! Il n'a pas plu pendant deux jours, et maintenant, toute cette eau !",
+        "Un gros orage ! Il n'a pas plu pendant deux mois, et maintenant, pas une goutte !"
+      ]
+    },
+    {
+      "id": "listen-koleno-sa-pom-lilo-o-jeden-de",
+      "type": "listen",
+      "l1": "Mon genou s'est trompé d'un jour.",
+      "l2": "Koleno sa pomýlilo o jeden deň.",
+      "choices_l1": [
+        "Mon genou s'est trompé d'une heure.",
+        "La radio s'est trompée d'un jour.",
+        "Mon genou ne s'est pas trompé."
+      ]
+    },
+    {
+      "id": "listen-ja-sa-neboj-m",
+      "type": "listen",
+      "l1": "Moi, je n'ai pas peur.",
+      "l2": "Ja sa nebojím.",
+      "choices_l1": [
+        "Moi, j'ai peur.",
+        "Toi, tu n'as pas peur.",
+        "Moi, je ne dors pas."
+      ]
+    },
+    {
+      "id": "listen-tvoj-chvost-sa-trasie",
+      "type": "listen",
+      "l1": "Ta queue tremble.",
+      "l2": "Tvoj chvost sa trasie.",
+      "choices_l1": [
+        "Ma queue tremble.",
+        "Ta queue est mouillée.",
+        "Ton genou tremble."
+      ]
+    },
+    {
+      "id": "match-hrom-vocab",
+      "type": "match",
+      "l1": [
+        "le tonnerre",
+        "l'éclair",
+        "le noir, l'obscurité",
+        "la lumière"
+      ],
+      "l2": [
+        "hrom",
+        "blesk",
+        "tma",
+        "svetlo"
+      ]
+    },
+    {
+      "id": "blank-tvoj-chvost-sa-trasie",
+      "type": "fill-blank",
+      "l1": "Ta queue tremble.",
+      "l2": "Tvoj chvost sa trasie.",
+      "missing_l1": "queue",
+      "missing_l2": "chvost",
+      "blank_index_l1": 1,
+      "blank_index_l2": 1,
+      "choices_l1": [
+        "genou",
+        "nez",
+        "sac"
+      ],
+      "choices_l2": [
+        "koleno",
+        "batoh",
+        "nápad"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-je-tma-kde-je-svetlo",
+      "type": "fill-blank",
+      "l1": "Il fait noir. Où est la lumière ?",
+      "l2": "Je tma. Kde je svetlo?",
+      "missing_l1": "lumière",
+      "missing_l2": "svetlo",
+      "blank_index_l1": 6,
+      "blank_index_l2": 4,
+      "choices_l1": [
+        "bougie",
+        "pluie",
+        "radio"
+      ],
+      "choices_l2": [
+        "sviečka",
+        "tma",
+        "blesk"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-m-j-chvost-sa-trasie-s-m-ja-za-to-nem-em",
+      "type": "order",
+      "l1": "Ma queue tremble toute seule. Je n'y suis pour rien.",
+      "l2": "Môj chvost sa trasie sám. Ja za to nemôžem.",
+      "tokens_l1": [
+        "Ma queue",
+        "tremble toute seule.",
+        "Je n'y suis pour rien."
+      ],
+      "tokens_l2": [
+        "Môj chvost",
+        "sa trasie sám.",
+        "Ja za to nemôžem."
+      ]
+    },
+    {
+      "id": "order-najprv-blesk-potom-hrom",
+      "type": "order",
+      "l1": "D'abord l'éclair, ensuite le tonnerre.",
+      "l2": "Najprv blesk, potom hrom.",
+      "tokens_l1": [
+        "D'abord",
+        "l'éclair,",
+        "ensuite le tonnerre."
+      ],
+      "tokens_l2": [
+        "Najprv",
+        "blesk,",
+        "potom hrom."
+      ]
+    }
+  ]
+}
