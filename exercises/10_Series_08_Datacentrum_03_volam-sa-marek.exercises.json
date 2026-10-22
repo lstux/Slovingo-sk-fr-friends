@@ -1,0 +1,233 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-jazvec",
+      "type": "qcm",
+      "l1": "le blaireau",
+      "l2": "jazvec",
+      "choices_l1": [
+        "la grille, le portail",
+        "l'enseigne, l'inscription",
+        "les ordinateurs"
+      ],
+      "choices_l2": [
+        "brána",
+        "nápis",
+        "počítače"
+      ]
+    },
+    {
+      "id": "qcm-br-na",
+      "type": "qcm",
+      "l1": "la grille, le portail",
+      "l2": "brána",
+      "choices_l1": [
+        "l'enseigne, l'inscription",
+        "le blaireau",
+        "le gilet"
+      ],
+      "choices_l2": [
+        "nápis",
+        "jazvec",
+        "vesta"
+      ]
+    },
+    {
+      "id": "qcm-pracujem",
+      "type": "qcm",
+      "l1": "je travaille",
+      "l2": "pracujem",
+      "choices_l1": [
+        "refroidir",
+        "Je m'appelle…",
+        "c'est pour ça"
+      ],
+      "choices_l2": [
+        "chladiť",
+        "Volám sa…",
+        "preto"
+      ]
+    },
+    {
+      "id": "qcm-chladi",
+      "type": "qcm",
+      "l1": "refroidir",
+      "l2": "chladiť",
+      "choices_l1": [
+        "je travaille",
+        "c'est pour ça",
+        "les ordinateurs"
+      ],
+      "choices_l2": [
+        "pracujem",
+        "preto",
+        "počítače"
+      ]
+    },
+    {
+      "id": "qcm-po-ta",
+      "type": "qcm",
+      "l1": "l'ordinateur",
+      "l2": "počítač",
+      "choices_l1": [
+        "Internet",
+        "le gilet",
+        "le blaireau"
+      ],
+      "choices_l2": [
+        "internet",
+        "vesta",
+        "jazvec"
+      ]
+    },
+    {
+      "id": "listen-dobr-de-h-ad-te-niekoho",
+      "type": "listen",
+      "l1": "Bonjour. Vous cherchez quelqu'un ?",
+      "l2": "Dobrý deň. Hľadáte niekoho?",
+      "choices_l1": [
+        "Bonjour. Vous cherchez quelque chose ?",
+        "Bonjour. Tu cherches quelqu'un ?",
+        "Bonjour. Vous attendez quelqu'un ?"
+      ]
+    },
+    {
+      "id": "listen-dobr-de-h-ad-me-vodu-a-aby",
+      "type": "listen",
+      "l1": "Bonjour. Nous cherchons de l'eau. Et des grenouilles.",
+      "l2": "Dobrý deň. Hľadáme vodu. A žaby.",
+      "choices_l1": [
+        "Bonjour. Nous cherchons de l'eau. Et des oiseaux.",
+        "Bonjour. Nous avons de l'eau. Et des grenouilles.",
+        "Bonjour. Nous cherchons un hôtel. Et des grenouilles."
+      ]
+    },
+    {
+      "id": "listen-aha-to-je-ast-ot-zka-vol-m-sa-marek-pracujem-tu",
+      "type": "listen",
+      "l1": "Ah. C'est une question fréquente. Je m'appelle Marek. Je travaille ici.",
+      "l2": "Aha. To je častá otázka. Volám sa Marek. Pracujem tu.",
+      "choices_l1": [
+        "Ah. C'est une question bizarre. Je m'appelle Marek. Je travaille ici.",
+        "Ah. C'est une question fréquente. Je m'appelle Ján. J'habite ici.",
+        "Ah. C'est une bonne réponse. Je m'appelle Marek. Je travaille ici."
+      ]
+    },
+    {
+      "id": "listen-ve-a-po-ta-ov-alebo-ve-mi-ve-a-ak-chce",
+      "type": "listen",
+      "l1": "Beaucoup d'ordinateurs. Ou vraiment beaucoup, si tu veux.",
+      "l2": "Veľa počítačov. Alebo veľmi veľa, ak chceš.",
+      "choices_l1": [
+        "Peu d'ordinateurs. Ou très peu, si tu veux.",
+        "Beaucoup d'ordinateurs. Ou un peu, si tu veux.",
+        "Beaucoup de serveurs. Ou vraiment beaucoup, si tu veux."
+      ]
+    },
+    {
+      "id": "listen-akujem-tr-nerka",
+      "type": "listen",
+      "l1": "Merci, coach.",
+      "l2": "Ďakujem, trénerka.",
+      "choices_l1": [
+        "Merci, madame.",
+        "Pardon, coach.",
+        "Merci, mamie."
+      ]
+    },
+    {
+      "id": "match-jazvec-vocab",
+      "type": "match",
+      "l1": [
+        "le blaireau",
+        "la grille, le portail",
+        "l'enseigne, l'inscription",
+        "l'ordinateur"
+      ],
+      "l2": [
+        "jazvec",
+        "brána",
+        "nápis",
+        "počítač"
+      ]
+    },
+    {
+      "id": "blank-m-j-po-ta-je-pomal",
+      "type": "fill-blank",
+      "l1": "Mon ordinateur est lent.",
+      "l2": "Môj počítač je pomalý.",
+      "missing_l1": "lent",
+      "missing_l2": "pomalý",
+      "blank_index_l1": 3,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "rapide",
+        "grand",
+        "petit"
+      ],
+      "choices_l2": [
+        "rýchly",
+        "veľký",
+        "malý"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-marek-m-modr-vestu",
+      "type": "fill-blank",
+      "l1": "Marek a un gilet bleu.",
+      "l2": "Marek má modrú vestu.",
+      "missing_l1": "gilet",
+      "missing_l2": "vestu",
+      "blank_index_l1": 3,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "casque",
+        "sac",
+        "bonnet"
+      ],
+      "choices_l2": [
+        "bundu",
+        "mapu",
+        "fľašu"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-aha-to-je-ast-ot-zka-vol-m-sa-marek-pracujem-tu",
+      "type": "order",
+      "l1": "Ah. C'est une question fréquente. Je m'appelle Marek. Je travaille ici.",
+      "l2": "Aha. To je častá otázka. Volám sa Marek. Pracujem tu.",
+      "tokens_l1": [
+        "Ah.",
+        "C'est une question fréquente.",
+        "Je m'appelle Marek.",
+        "Je travaille ici."
+      ],
+      "tokens_l2": [
+        "Aha.",
+        "To je častá otázka.",
+        "Volám sa Marek.",
+        "Pracujem tu."
+      ]
+    },
+    {
+      "id": "order-m-j-po-ta-je-pomal",
+      "type": "order",
+      "l1": "Mon ordinateur est lent.",
+      "l2": "Môj počítač je pomalý.",
+      "tokens_l1": [
+        "Mon",
+        "ordinateur",
+        "est lent."
+      ],
+      "tokens_l2": [
+        "Môj",
+        "počítač",
+        "je pomalý."
+      ]
+    }
+  ]
+}

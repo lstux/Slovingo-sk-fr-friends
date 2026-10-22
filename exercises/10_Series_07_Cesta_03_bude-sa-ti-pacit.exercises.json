@@ -1,0 +1,231 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-stromy",
+      "type": "qcm",
+      "l1": "les arbres",
+      "l2": "stromy",
+      "choices_l1": [
+        "la pierre",
+        "le bitume",
+        "le vélo"
+      ],
+      "choices_l2": [
+        "kameň",
+        "asfalt",
+        "bicykel"
+      ]
+    },
+    {
+      "id": "qcm-tadia-to",
+      "type": "qcm",
+      "l1": "par ici",
+      "l2": "tadiaľto",
+      "choices_l1": [
+        "préférée",
+        "plat, droit",
+        "elle pourrait"
+      ],
+      "choices_l2": [
+        "obľúbená",
+        "rovný",
+        "mohla by"
+      ]
+    },
+    {
+      "id": "qcm-p-i-sa",
+      "type": "qcm",
+      "l1": "plaire",
+      "l2": "páčiť sa",
+      "choices_l1": [
+        "elle pourrait",
+        "plat, droit",
+        "préférée"
+      ],
+      "choices_l2": [
+        "mohla by",
+        "rovný",
+        "obľúbená"
+      ]
+    },
+    {
+      "id": "qcm-rovn",
+      "type": "qcm",
+      "l1": "plat, droit",
+      "l2": "rovný",
+      "choices_l1": [
+        "préférée",
+        "plaire",
+        "par ici"
+      ],
+      "choices_l2": [
+        "obľúbená",
+        "páčiť sa",
+        "tadiaľto"
+      ]
+    },
+    {
+      "id": "qcm-bicykel",
+      "type": "qcm",
+      "l1": "le vélo",
+      "l2": "bicykel",
+      "choices_l1": [
+        "le bitume",
+        "la pierre",
+        "les arbres"
+      ],
+      "choices_l2": [
+        "asfalt",
+        "kameň",
+        "stromy"
+      ]
+    },
+    {
+      "id": "listen-pozri-ko-ko-stromov-ch-ba",
+      "type": "listen",
+      "l1": "Regarde combien d'arbres il manque.",
+      "l2": "Pozri, koľko stromov chýba.",
+      "choices_l1": [
+        "Regarde combien d'arbres il y a.",
+        "Regarde comme les arbres sont grands.",
+        "Regarde combien de pierres il manque."
+      ]
+    },
+    {
+      "id": "listen-tu-bola-jedna-z-mojich-ob-ben-ch-ciest-chodil-som-tadia-to-s-babkou",
+      "type": "listen",
+      "l1": "Ici, il y avait un de mes chemins préférés. J'y allais avec mamie.",
+      "l2": "Tu bola jedna z mojich obľúbených ciest. Chodil som tadiaľto s babkou.",
+      "choices_l1": [
+        "Ici, il y a un de mes chemins préférés. J'y vais avec mamie.",
+        "Ici, il y avait un de mes chemins préférés. J'y allais avec Katka.",
+        "Ici, il y avait une de mes rivières préférées. J'y allais avec mamie."
+      ]
+    },
+    {
+      "id": "listen-bude-sa-ti-p-i-asfalt",
+      "type": "listen",
+      "l1": "Tu aimeras le bitume ?",
+      "l2": "Bude sa ti páčiť asfalt?",
+      "choices_l1": [
+        "Tu aimes la forêt ?",
+        "Tu as aimé le bitume ?",
+        "Le bitume va te manquer ?"
+      ]
+    },
+    {
+      "id": "listen-asfalt-je-rovn-je-dobr-pre-bicykel",
+      "type": "listen",
+      "l1": "Le bitume, c'est plat. C'est bien pour le vélo.",
+      "l2": "Asfalt je rovný. Je dobrý pre bicykel.",
+      "choices_l1": [
+        "Le bitume, c'est chaud. C'est mauvais pour le vélo.",
+        "La pierre, c'est plat. C'est bien pour le vélo.",
+        "Le bitume, c'est plat. C'est bien pour la voiture."
+      ]
+    },
+    {
+      "id": "listen-ale-mohla-by-ma",
+      "type": "listen",
+      "l1": "Mais elle pourrait en avoir un.",
+      "l2": "Ale mohla by mať.",
+      "choices_l1": [
+        "Mais elle en a un.",
+        "Mais elle n'en veut pas.",
+        "Mais il pourrait en avoir un."
+      ]
+    },
+    {
+      "id": "match-stromy-vocab",
+      "type": "match",
+      "l1": [
+        "les arbres",
+        "la pierre",
+        "le bitume",
+        "le vélo"
+      ],
+      "l2": [
+        "stromy",
+        "kameň",
+        "asfalt",
+        "bicykel"
+      ]
+    },
+    {
+      "id": "blank-p-i-sa-mi-tento-strom",
+      "type": "fill-blank",
+      "l1": "J'aime cet arbre.",
+      "l2": "Páči sa mi tento strom.",
+      "missing_l1": "arbre",
+      "missing_l2": "strom",
+      "blank_index_l1": 2,
+      "blank_index_l2": 4,
+      "choices_l1": [
+        "vélo",
+        "panneau",
+        "camion"
+      ],
+      "choices_l2": [
+        "kameň",
+        "bicykel",
+        "plot"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-katka-nem-bicykel",
+      "type": "fill-blank",
+      "l1": "Katka n'a pas de vélo.",
+      "l2": "Katka nemá bicykel.",
+      "missing_l1": "vélo",
+      "missing_l2": "bicykel",
+      "blank_index_l1": 4,
+      "blank_index_l2": 2,
+      "choices_l1": [
+        "téléphone",
+        "sac",
+        "bitume"
+      ],
+      "choices_l2": [
+        "telefón",
+        "batoh",
+        "asfalt"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-asfalt-je-rovn-je-dobr-pre-bicykel",
+      "type": "order",
+      "l1": "Le bitume, c'est plat. C'est bien pour le vélo.",
+      "l2": "Asfalt je rovný. Je dobrý pre bicykel.",
+      "tokens_l1": [
+        "Le bitume, c'est plat.",
+        "C'est bien",
+        "pour le vélo."
+      ],
+      "tokens_l2": [
+        "Asfalt je rovný.",
+        "Je dobrý",
+        "pre bicykel."
+      ]
+    },
+    {
+      "id": "order-mu-je-v-lese",
+      "type": "order",
+      "l1": "L'homme est dans la forêt.",
+      "l2": "Muž je v lese.",
+      "tokens_l1": [
+        "L'homme",
+        "est",
+        "dans la forêt."
+      ],
+      "tokens_l2": [
+        "Muž",
+        "je",
+        "v lese."
+      ]
+    }
+  ]
+}

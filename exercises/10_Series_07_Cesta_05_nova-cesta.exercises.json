@@ -1,0 +1,231 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-s-hlas-m",
+      "type": "qcm",
+      "l1": "je suis d'accord",
+      "l2": "súhlasím",
+      "choices_l1": [
+        "je ne suis pas d'accord",
+        "détruira",
+        "à la fois"
+      ],
+      "choices_l2": [
+        "nesúhlasím",
+        "zničí",
+        "naraz"
+      ]
+    },
+    {
+      "id": "qcm-nes-hlas-m",
+      "type": "qcm",
+      "l1": "je ne suis pas d'accord",
+      "l2": "nesúhlasím",
+      "choices_l1": [
+        "je suis d'accord",
+        "tous les deux",
+        "parce que"
+      ],
+      "choices_l2": [
+        "súhlasím",
+        "obaja",
+        "pretože"
+      ]
+    },
+    {
+      "id": "qcm-obaja",
+      "type": "qcm",
+      "l1": "tous les deux",
+      "l2": "obaja",
+      "choices_l1": [
+        "à la fois",
+        "juste, honnête",
+        "sans elle"
+      ],
+      "choices_l2": [
+        "naraz",
+        "férová",
+        "bez nej"
+      ]
+    },
+    {
+      "id": "qcm-preto-e",
+      "type": "qcm",
+      "l1": "parce que",
+      "l2": "pretože",
+      "choices_l1": [
+        "à la fois",
+        "tous les deux",
+        "détruira"
+      ],
+      "choices_l2": [
+        "naraz",
+        "obaja",
+        "zničí"
+      ]
+    },
+    {
+      "id": "qcm-naraz",
+      "type": "qcm",
+      "l1": "à la fois",
+      "l2": "naraz",
+      "choices_l1": [
+        "tous les deux",
+        "parce que",
+        "dommage, de la peine"
+      ],
+      "choices_l2": [
+        "obaja",
+        "pretože",
+        "ľúto"
+      ]
+    },
+    {
+      "id": "listen-nes-hlas-m-r-chla-cesta-je-zl-cesta-zni-les-a-les-sa-nevr-ti",
+      "type": "listen",
+      "l1": "Je ne suis pas d'accord. Une route rapide est une mauvaise route. Elle détruira la forêt, et la forêt ne reviendra pas.",
+      "l2": "Nesúhlasím. Rýchla cesta je zlá cesta. Zničí les, a les sa nevráti.",
+      "choices_l1": [
+        "Je suis d'accord. Une route rapide est une bonne route. Elle sauvera la forêt.",
+        "Je ne suis pas d'accord. Une route lente est une mauvaise route. Elle détruira la forêt.",
+        "Je ne suis pas d'accord. Une route rapide est une mauvaise route. Elle détruira la ville, et la ville ne reviendra pas."
+      ]
+    },
+    {
+      "id": "listen-ja-potrebujem-les",
+      "type": "listen",
+      "l1": "Moi, j'ai besoin de la forêt.",
+      "l2": "Ja potrebujem les.",
+      "choices_l1": [
+        "Moi, j'ai besoin de la route.",
+        "Moi, j'aime la forêt.",
+        "Toi, tu as besoin de la forêt."
+      ]
+    },
+    {
+      "id": "listen-m-e-myslie-dve-veci-naraz",
+      "type": "listen",
+      "l1": "Tu peux penser deux choses à la fois ?",
+      "l2": "Môžeš myslieť dve veci naraz?",
+      "choices_l1": [
+        "Tu peux faire deux choses à la fois ?",
+        "Tu peux penser une chose à la fois ?",
+        "Tu veux penser deux choses à la fois ?"
+      ]
+    },
+    {
+      "id": "listen-to-je-f-rov-odpove",
+      "type": "listen",
+      "l1": "C'est une réponse honnête.",
+      "l2": "To je férová odpoveď.",
+      "choices_l1": [
+        "C'est une question honnête.",
+        "C'est une réponse inutile.",
+        "C'est une réponse rapide."
+      ]
+    },
+    {
+      "id": "listen-ja-viem-m-j-pl-n-je-by-prezidentkou",
+      "type": "listen",
+      "l1": "Je sais. Mon plan, c'est d'être présidente.",
+      "l2": "Ja viem. Môj plán je byť prezidentkou.",
+      "choices_l1": [
+        "Je sais. Mon plan, c'est d'être cheffe de chantier.",
+        "Je ne sais pas. Mon plan, c'est d'être présidente.",
+        "Je sais. Mon plan, c'est d'aller à Bratislava."
+      ]
+    },
+    {
+      "id": "match-s-hlas-m-vocab",
+      "type": "match",
+      "l1": [
+        "je suis d'accord",
+        "je ne suis pas d'accord",
+        "tous les deux",
+        "à la fois"
+      ],
+      "l2": [
+        "súhlasím",
+        "nesúhlasím",
+        "obaja",
+        "naraz"
+      ]
+    },
+    {
+      "id": "blank-ale-udia-potrebuj-cestu-aj-ty",
+      "type": "fill-blank",
+      "l1": "Mais les gens ont besoin d'une route. Toi aussi.",
+      "l2": "Ale ľudia potrebujú cestu. Aj ty.",
+      "missing_l1": "route",
+      "missing_l2": "cestu",
+      "blank_index_l1": 6,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "forêt",
+        "carte",
+        "maison"
+      ],
+      "choices_l2": [
+        "les",
+        "vodu",
+        "mapu"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-to-je-ve-mi-diplomatick",
+      "type": "fill-blank",
+      "l1": "C'est très diplomatique.",
+      "l2": "To je veľmi diplomatické.",
+      "missing_l1": "très",
+      "missing_l2": "veľmi",
+      "blank_index_l1": 1,
+      "blank_index_l2": 2,
+      "choices_l1": [
+        "beaucoup",
+        "peu",
+        "presque"
+      ],
+      "choices_l2": [
+        "veľa",
+        "málo",
+        "skoro"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-ale-udia-potrebuj-cestu-aj-ty",
+      "type": "order",
+      "l1": "Mais les gens ont besoin d'une route. Toi aussi.",
+      "l2": "Ale ľudia potrebujú cestu. Aj ty.",
+      "tokens_l1": [
+        "Mais les gens",
+        "ont besoin d'une route.",
+        "Toi aussi."
+      ],
+      "tokens_l2": [
+        "Ale ľudia",
+        "potrebujú cestu.",
+        "Aj ty."
+      ]
+    },
+    {
+      "id": "order-ja-viem-m-j-pl-n-je-by-prezidentkou",
+      "type": "order",
+      "l1": "Je sais. Mon plan, c'est d'être présidente.",
+      "l2": "Ja viem. Môj plán je byť prezidentkou.",
+      "tokens_l1": [
+        "Je sais.",
+        "Mon plan, c'est",
+        "d'être présidente."
+      ],
+      "tokens_l2": [
+        "Ja viem.",
+        "Môj plán je",
+        "byť prezidentkou."
+      ]
+    }
+  ]
+}

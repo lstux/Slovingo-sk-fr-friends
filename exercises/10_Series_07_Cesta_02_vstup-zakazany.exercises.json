@@ -1,0 +1,231 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-hluk",
+      "type": "qcm",
+      "l1": "le bruit",
+      "l2": "hluk",
+      "choices_l1": [
+        "la clôture",
+        "le panneau",
+        "la pelleteuse"
+      ],
+      "choices_l2": [
+        "plot",
+        "tabuľa",
+        "bager"
+      ]
+    },
+    {
+      "id": "qcm-plot",
+      "type": "qcm",
+      "l1": "la clôture",
+      "l2": "plot",
+      "choices_l1": [
+        "le panneau",
+        "le bruit",
+        "le camion"
+      ],
+      "choices_l2": [
+        "tabuľa",
+        "hluk",
+        "kamión"
+      ]
+    },
+    {
+      "id": "qcm-tabu-a",
+      "type": "qcm",
+      "l1": "le panneau",
+      "l2": "tabuľa",
+      "choices_l1": [
+        "la clôture",
+        "la pelleteuse",
+        "le bruit"
+      ],
+      "choices_l2": [
+        "plot",
+        "bager",
+        "hluk"
+      ]
+    },
+    {
+      "id": "qcm-znamen",
+      "type": "qcm",
+      "l1": "ça veut dire",
+      "l2": "znamená",
+      "choices_l1": [
+        "je plaisante",
+        "possible",
+        "Vous entendez ?"
+      ],
+      "choices_l2": [
+        "žartujem",
+        "možný",
+        "Počujete?"
+      ]
+    },
+    {
+      "id": "qcm-artujem",
+      "type": "qcm",
+      "l1": "je plaisante",
+      "l2": "žartujem",
+      "choices_l1": [
+        "ça veut dire",
+        "possible",
+        "le camion"
+      ],
+      "choices_l2": [
+        "znamená",
+        "možný",
+        "kamión"
+      ]
+    },
+    {
+      "id": "listen-po-ujete-to",
+      "type": "listen",
+      "l1": "Vous entendez ?",
+      "l2": "Počujete to?",
+      "choices_l1": [
+        "Vous voyez ?",
+        "Tu entends ?",
+        "Vous comprenez ?"
+      ]
+    },
+    {
+      "id": "listen-bager-mo-no-dva",
+      "type": "listen",
+      "l1": "Une pelleteuse. Peut-être deux.",
+      "l2": "Bager. Možno dva.",
+      "choices_l1": [
+        "Un camion. Peut-être deux.",
+        "Une pelleteuse. Sûrement trois.",
+        "Une voiture. Peut-être deux."
+      ]
+    },
+    {
+      "id": "listen-to-je-zl-znamen-to-e-cesta-je-bl-zko",
+      "type": "listen",
+      "l1": "C'est mauvais. Ça veut dire que la route est proche.",
+      "l2": "To je zlé. Znamená to, že cesta je blízko.",
+      "choices_l1": [
+        "C'est bien. Ça veut dire que la route est proche.",
+        "C'est mauvais. Ça veut dire que la route est loin.",
+        "C'est mauvais. Ça veut dire que la forêt est proche."
+      ]
+    },
+    {
+      "id": "listen-pre-m-a-to-znamen-vstup-mo-n",
+      "type": "listen",
+      "l1": "Pour moi, ça veut dire : entrée possible.",
+      "l2": "Pre mňa to znamená: vstup možný.",
+      "choices_l1": [
+        "Pour moi, ça veut dire : entrée interdite.",
+        "Pour toi, ça veut dire : entrée possible.",
+        "Pour moi, ça veut dire : sortie possible."
+      ]
+    },
+    {
+      "id": "listen-artujem-ale-len-trochu",
+      "type": "listen",
+      "l1": "Je plaisante. Mais seulement un peu.",
+      "l2": "Žartujem. Ale len trochu.",
+      "choices_l1": [
+        "Je ne plaisante pas. Pas du tout.",
+        "Je plaisante. Beaucoup.",
+        "Tu plaisantes. Mais seulement un peu."
+      ]
+    },
+    {
+      "id": "match-hluk-vocab",
+      "type": "match",
+      "l1": [
+        "le bruit",
+        "la clôture",
+        "le panneau",
+        "le camion"
+      ],
+      "l2": [
+        "hluk",
+        "plot",
+        "tabuľa",
+        "kamión"
+      ]
+    },
+    {
+      "id": "blank-ja-po-ujem-aj-kami-n",
+      "type": "fill-blank",
+      "l1": "Moi, j'entends aussi un camion.",
+      "l2": "Ja počujem aj kamión.",
+      "missing_l1": "camion",
+      "missing_l2": "kamión",
+      "blank_index_l1": 4,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "moteur",
+        "panneau",
+        "train"
+      ],
+      "choices_l2": [
+        "bager",
+        "plot",
+        "hluk"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-po-ujem-motor-to-je-auto",
+      "type": "fill-blank",
+      "l1": "J'entends un moteur. C'est une voiture ?",
+      "l2": "Počujem motor. To je auto?",
+      "missing_l1": "moteur",
+      "missing_l2": "motor",
+      "blank_index_l1": 2,
+      "blank_index_l2": 1,
+      "choices_l1": [
+        "camion",
+        "train",
+        "bruit"
+      ],
+      "choices_l2": [
+        "stroj",
+        "kamión",
+        "hluk"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-to-je-zl-znamen-to-e-cesta-je-bl-zko",
+      "type": "order",
+      "l1": "C'est mauvais. Ça veut dire que la route est proche.",
+      "l2": "To je zlé. Znamená to, že cesta je blízko.",
+      "tokens_l1": [
+        "C'est mauvais.",
+        "Ça veut dire",
+        "que la route est proche."
+      ],
+      "tokens_l2": [
+        "To je zlé.",
+        "Znamená to,",
+        "že cesta je blízko."
+      ]
+    },
+    {
+      "id": "order-nie-to-je-ve-k-stroj",
+      "type": "order",
+      "l1": "Non. C'est une grosse machine.",
+      "l2": "Nie. To je veľký stroj.",
+      "tokens_l1": [
+        "Non.",
+        "C'est",
+        "une grosse machine."
+      ],
+      "tokens_l2": [
+        "Nie.",
+        "To je",
+        "veľký stroj."
+      ]
+    }
+  ]
+}

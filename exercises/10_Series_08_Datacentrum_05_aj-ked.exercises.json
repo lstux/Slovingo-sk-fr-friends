@@ -1,0 +1,242 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-aj-ke",
+      "type": "qcm",
+      "l1": "même si",
+      "l2": "aj keď",
+      "choices_l1": [
+        "c'est pareil, ça ne change rien",
+        "deux côtés",
+        "à l'intérieur (on y entre)"
+      ],
+      "choices_l2": [
+        "je to jedno",
+        "dve strany",
+        "dovnútra"
+      ]
+    },
+    {
+      "id": "qcm-desiv",
+      "type": "qcm",
+      "l1": "effrayant",
+      "l2": "desivé",
+      "choices_l1": [
+        "utile",
+        "honnête",
+        "simple"
+      ],
+      "choices_l2": [
+        "užitočné",
+        "čestná",
+        "jednoduché"
+      ]
+    },
+    {
+      "id": "qcm-u-ito-n",
+      "type": "qcm",
+      "l1": "utile",
+      "l2": "užitočné",
+      "choices_l1": [
+        "effrayant",
+        "honnête",
+        "simple"
+      ],
+      "choices_l2": [
+        "desivé",
+        "čestná",
+        "jednoduché"
+      ]
+    },
+    {
+      "id": "qcm-tis-ce",
+      "type": "qcm",
+      "l1": "des milliers",
+      "l2": "tisíce",
+      "choices_l1": [
+        "deux côtés",
+        "la grande salle",
+        "la photo"
+      ],
+      "choices_l2": [
+        "dve strany",
+        "hala",
+        "fotka"
+      ]
+    },
+    {
+      "id": "qcm-estn",
+      "type": "qcm",
+      "l1": "honnête",
+      "l2": "čestná",
+      "choices_l1": [
+        "simple",
+        "effrayant",
+        "utile"
+      ],
+      "choices_l2": [
+        "jednoduché",
+        "desivé",
+        "užitočné"
+      ]
+    },
+    {
+      "id": "listen-tu-ije-internet",
+      "type": "listen",
+      "l1": "C'est ici que vit Internet.",
+      "l2": "Tu žije internet.",
+      "choices_l1": [
+        "C'est ici que travaille Marek.",
+        "C'est ici qu'Internet ne marche pas.",
+        "C'est ici que vivent les grenouilles."
+      ]
+    },
+    {
+      "id": "listen-m-j-telef-n-je-niekde-tu",
+      "type": "listen",
+      "l1": "Mon téléphone est quelque part ici ?",
+      "l2": "Môj telefón je niekde tu?",
+      "choices_l1": [
+        "Mon téléphone n'est nulle part ici ?",
+        "Ton téléphone est quelque part ici ?",
+        "Mon ordinateur est quelque part ici ?"
+      ]
+    },
+    {
+      "id": "listen-to-je-desiv",
+      "type": "listen",
+      "l1": "C'est effrayant.",
+      "l2": "To je desivé.",
+      "choices_l1": [
+        "C'est utile.",
+        "C'est génial.",
+        "C'est simple."
+      ]
+    },
+    {
+      "id": "listen-a-z-rove-u-ito-n",
+      "type": "listen",
+      "l1": "Et en même temps utile.",
+      "l2": "A zároveň užitočné.",
+      "choices_l1": [
+        "Et en même temps effrayant.",
+        "Et pas du tout utile.",
+        "Et en même temps simple."
+      ]
+    },
+    {
+      "id": "listen-tak-e-je-to-jedno",
+      "type": "listen",
+      "l1": "Donc ça revient au même ?",
+      "l2": "Takže je to jedno?",
+      "choices_l1": [
+        "Donc ce n'est pas pareil ?",
+        "Donc c'est simple ?",
+        "Donc c'est un seul ?"
+      ]
+    },
+    {
+      "id": "listen-nie-nie-je-to-jedno-ale-nie-je-to-ani-jednoduch",
+      "type": "listen",
+      "l1": "Non. Ça ne revient pas au même. Mais ce n'est pas simple non plus.",
+      "l2": "Nie. Nie je to jedno. Ale nie je to ani jednoduché.",
+      "choices_l1": [
+        "Oui. Ça revient au même. Et c'est simple.",
+        "Non. Ça ne revient pas au même. Et c'est très simple.",
+        "Non. Ce n'est pas utile. Mais ce n'est pas simple non plus."
+      ]
+    },
+    {
+      "id": "match-aj-ke-vocab",
+      "type": "match",
+      "l1": [
+        "même si",
+        "effrayant",
+        "utile",
+        "honnête"
+      ],
+      "l2": [
+        "aj keď",
+        "desivé",
+        "užitočné",
+        "čestná"
+      ]
+    },
+    {
+      "id": "blank-mo-no-ak-ste-si-odfotili-ra-ajky-fotka-je-pravdepodobne-v-tejto-hale",
+      "type": "fill-blank",
+      "l1": "Peut-être. Si vous avez pris votre petit-déjeuner en photo, la photo est sans doute dans cette salle.",
+      "l2": "Možno. Ak ste si odfotili raňajky, fotka je pravdepodobne v tejto hale.",
+      "missing_l1": "photo",
+      "missing_l2": "fotka",
+      "blank_index_l1": 8,
+      "blank_index_l2": 6,
+      "choices_l1": [
+        "carte",
+        "radio",
+        "lampe"
+      ],
+      "choices_l2": [
+        "správa",
+        "mapa",
+        "budova"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-d-fam-pri-potoku-p-kilometrov-odtia-to-je-mal-jazierko-mo-no-s-tam",
+      "type": "fill-blank",
+      "l1": "Je l'espère. Près du ruisseau, à cinq kilomètres d'ici, il y a un petit étang. Elles y sont peut-être.",
+      "l2": "Dúfam. Pri potoku, päť kilometrov odtiaľto, je malé jazierko. Možno sú tam.",
+      "missing_l1": "cinq",
+      "missing_l2": "päť",
+      "blank_index_l1": 6,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "quinze",
+        "deux",
+        "dix"
+      ],
+      "choices_l2": [
+        "pätnásť",
+        "dva",
+        "desať"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-aj-ke-kv-li-tomu-zmizla-mokra",
+      "type": "order",
+      "l1": "Même si à cause de lui, la zone humide a disparu.",
+      "l2": "Aj keď kvôli tomu zmizla mokraď.",
+      "tokens_l1": [
+        "Même si",
+        "à cause de lui,",
+        "la zone humide a disparu."
+      ],
+      "tokens_l2": [
+        "Aj keď",
+        "kvôli tomu",
+        "zmizla mokraď."
+      ]
+    },
+    {
+      "id": "order-nie-nie-je-to-jedno-ale-nie-je-to-ani-jednoduch",
+      "type": "order",
+      "l1": "Non. Ça ne revient pas au même. Mais ce n'est pas simple non plus.",
+      "l2": "Nie. Nie je to jedno. Ale nie je to ani jednoduché.",
+      "tokens_l1": [
+        "Non.",
+        "Ça ne revient pas au même.",
+        "Mais ce n'est pas simple non plus."
+      ],
+      "tokens_l2": [
+        "Nie.",
+        "Nie je to jedno.",
+        "Ale nie je to ani jednoduché."
+      ]
+    }
+  ]
+}

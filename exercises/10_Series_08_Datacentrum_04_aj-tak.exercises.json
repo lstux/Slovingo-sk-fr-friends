@@ -1,0 +1,231 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-podzemie",
+      "type": "qcm",
+      "l1": "le sous-sol",
+      "l2": "podzemie",
+      "choices_l1": [
+        "à côté de",
+        "dans les yeux",
+        "quand même"
+      ],
+      "choices_l2": [
+        "vedľa",
+        "do očí",
+        "aj tak"
+      ]
+    },
+    {
+      "id": "qcm-aj-tak",
+      "type": "qcm",
+      "l1": "quand même",
+      "l2": "aj tak",
+      "choices_l1": [
+        "quelque part (vers)",
+        "à côté de",
+        "ils sont partis"
+      ],
+      "choices_l2": [
+        "niekam",
+        "vedľa",
+        "odišli"
+      ]
+    },
+    {
+      "id": "qcm-odi-li",
+      "type": "qcm",
+      "l1": "ils sont partis",
+      "l2": "odišli",
+      "choices_l1": [
+        "vous saviez",
+        "vient de",
+        "quelque part (vers)"
+      ],
+      "choices_l2": [
+        "vedeli ste",
+        "pochádza z",
+        "niekam"
+      ]
+    },
+    {
+      "id": "qcm-ved-a",
+      "type": "qcm",
+      "l1": "à côté de",
+      "l2": "vedľa",
+      "choices_l1": [
+        "quelque part (vers)",
+        "dans les yeux",
+        "le sous-sol"
+      ],
+      "choices_l2": [
+        "niekam",
+        "do očí",
+        "podzemie"
+      ]
+    },
+    {
+      "id": "qcm-vedeli-ste",
+      "type": "qcm",
+      "l1": "vous saviez",
+      "l2": "vedeli ste",
+      "choices_l1": [
+        "ils sont partis",
+        "ça ne leur plaisait pas",
+        "quand même"
+      ],
+      "choices_l2": [
+        "odišli",
+        "nepáčilo sa im",
+        "aj tak"
+      ]
+    },
+    {
+      "id": "listen-kam-sa-podeli-aby",
+      "type": "listen",
+      "l1": "Où sont passées les grenouilles ?",
+      "l2": "Kam sa podeli žaby?",
+      "choices_l1": [
+        "Où sont les grenouilles ?",
+        "Où sont passés les oiseaux ?",
+        "Quand reviendront les grenouilles ?"
+      ]
+    },
+    {
+      "id": "listen-neviem-odi-li-niekam-alebo",
+      "type": "listen",
+      "l1": "Je ne sais pas. Elles sont parties quelque part. Ou alors...",
+      "l2": "Neviem. Odišli niekam. Alebo...",
+      "choices_l1": [
+        "Je sais. Elles sont parties au ruisseau.",
+        "Je ne sais pas. Elles sont là quelque part. Ou alors...",
+        "Je ne sais pas. Elles sont mortes. Ou alors..."
+      ]
+    },
+    {
+      "id": "listen-alebo-sa-im-nep-ilo-b-va-ved-a-serverov",
+      "type": "listen",
+      "l1": "Ou alors elles n'aimaient pas habiter à côté des serveurs.",
+      "l2": "Alebo sa im nepáčilo bývať vedľa serverov.",
+      "choices_l1": [
+        "Ou alors elles aimaient habiter à côté des serveurs.",
+        "Ou alors elles n'aimaient pas habiter près de la route.",
+        "Ou alors elles n'aimaient pas l'eau froide."
+      ]
+    },
+    {
+      "id": "listen-vy-ste-vedeli-e-tu-bola-mokra",
+      "type": "listen",
+      "l1": "Vous saviez qu'il y avait ici une zone humide ?",
+      "l2": "Vy ste vedeli, že tu bola mokraď?",
+      "choices_l1": [
+        "Vous saviez qu'il y avait ici une forêt ?",
+        "Vous savez qu'il y a ici une zone humide ?",
+        "Tu savais qu'il y avait ici une zone humide ?"
+      ]
+    },
+    {
+      "id": "listen-a-aj-tak-ste-pri-li-pracova",
+      "type": "listen",
+      "l1": "Et vous êtes quand même venu travailler.",
+      "l2": "A aj tak ste prišli pracovať.",
+      "choices_l1": [
+        "Et vous n'êtes pas venu travailler.",
+        "Et vous êtes venu travailler plus tard.",
+        "Et tu es quand même venu travailler."
+      ]
+    },
+    {
+      "id": "match-podzemie-vocab",
+      "type": "match",
+      "l1": [
+        "le sous-sol",
+        "à côté de",
+        "quand même",
+        "ils sont partis"
+      ],
+      "l2": [
+        "podzemie",
+        "vedľa",
+        "aj tak",
+        "odišli"
+      ]
+    },
+    {
+      "id": "blank-no-vedel-som",
+      "type": "fill-blank",
+      "l1": "Oui. Je le savais.",
+      "l2": "Áno. Vedel som.",
+      "missing_l1": "savais",
+      "missing_l2": "Vedel",
+      "blank_index_l1": 3,
+      "blank_index_l2": 1,
+      "choices_l1": [
+        "voyais",
+        "voulais",
+        "pouvais"
+      ],
+      "choices_l2": [
+        "Videl",
+        "Chcel",
+        "Mal"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-server-pracuje-cel-de",
+      "type": "fill-blank",
+      "l1": "Le serveur travaille toute la journée.",
+      "l2": "Server pracuje celý deň.",
+      "missing_l1": "journée",
+      "missing_l2": "deň",
+      "blank_index_l1": 5,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "semaine",
+        "nuit",
+        "année"
+      ],
+      "choices_l2": [
+        "týždeň",
+        "rok",
+        "večer"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-mysl-m-e-aby-s-pri-potoku",
+      "type": "order",
+      "l1": "Je pense que les grenouilles sont près du ruisseau.",
+      "l2": "Myslím, že žaby sú pri potoku.",
+      "tokens_l1": [
+        "Je pense",
+        "que les grenouilles",
+        "sont près du ruisseau."
+      ],
+      "tokens_l2": [
+        "Myslím,",
+        "že žaby",
+        "sú pri potoku."
+      ]
+    },
+    {
+      "id": "order-vy-ste-vedeli-e-tu-bola-mokra",
+      "type": "order",
+      "l1": "Vous saviez qu'il y avait ici une zone humide ?",
+      "l2": "Vy ste vedeli, že tu bola mokraď?",
+      "tokens_l1": [
+        "Vous saviez",
+        "qu'il y avait ici",
+        "une zone humide ?"
+      ],
+      "tokens_l2": [
+        "Vy ste vedeli,",
+        "že tu bola",
+        "mokraď?"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-rovina",
+      "type": "qcm",
+      "l1": "la plaine",
+      "l2": "rovina",
+      "choices_l1": [
+        "le trajet (en voiture)",
+        "l'hôtel",
+        "dans une autre direction"
+      ],
+      "choices_l2": [
+        "odvoz",
+        "hotel",
+        "iným smerom"
+      ]
+    },
+    {
+      "id": "qcm-odvoz",
+      "type": "qcm",
+      "l1": "le trajet (en voiture)",
+      "l2": "odvoz",
+      "choices_l1": [
+        "la plaine",
+        "l'hôtel",
+        "s'arrête"
+      ],
+      "choices_l2": [
+        "rovina",
+        "hotel",
+        "zastane"
+      ]
+    },
+    {
+      "id": "qcm-zastane",
+      "type": "qcm",
+      "l1": "s'arrête",
+      "l2": "zastane",
+      "choices_l1": [
+        "ça a changé",
+        "nous n'avons pas dormi",
+        "merci pour"
+      ],
+      "choices_l2": [
+        "zmenilo sa",
+        "neprespali sme",
+        "ďakujeme za"
+      ]
+    },
+    {
+      "id": "qcm-zmenilo-sa",
+      "type": "qcm",
+      "l1": "ça a changé",
+      "l2": "zmenilo sa",
+      "choices_l1": [
+        "s'arrête",
+        "Je m'arrête ici.",
+        "nous n'avons pas dormi"
+      ],
+      "choices_l2": [
+        "zastane",
+        "Tu končím.",
+        "neprespali sme"
+      ]
+    },
+    {
+      "id": "qcm-smer",
+      "type": "qcm",
+      "l1": "la direction",
+      "l2": "smer",
+      "choices_l1": [
+        "le chauffeur",
+        "la plaine",
+        "le trajet (en voiture)"
+      ],
+      "choices_l2": [
+        "vodič",
+        "rovina",
+        "odvoz"
+      ]
+    },
+    {
+      "id": "listen-tu-kon-m-alej-idem-in-m-smerom",
+      "type": "listen",
+      "l1": "Je m'arrête ici. Ensuite, je prends une autre direction.",
+      "l2": "Tu končím. Ďalej idem iným smerom.",
+      "choices_l1": [
+        "Je m'arrête ici. Ensuite, je vais à Bratislava.",
+        "Je continue. Ensuite, je prends une autre direction.",
+        "Je m'arrête ici. Ensuite, je rentre chez moi."
+      ]
+    },
+    {
+      "id": "listen-akujeme-za-odvoz",
+      "type": "listen",
+      "l1": "Merci de nous avoir amenés.",
+      "l2": "Ďakujeme za odvoz.",
+      "choices_l1": [
+        "Merci pour le thé.",
+        "Merci pour la carte.",
+        "Merci de nous avoir attendus."
+      ]
+    },
+    {
+      "id": "listen-nie-je-za-o-a-bu-te-opatrn-tu-sa-ve-a-zmenilo",
+      "type": "listen",
+      "l1": "Il n'y a pas de quoi. Et faites attention. Ici, beaucoup de choses ont changé.",
+      "l2": "Nie je za čo. A buďte opatrní. Tu sa veľa zmenilo.",
+      "choices_l1": [
+        "Il n'y a pas de quoi. Et faites attention. Ici, rien n'a changé.",
+        "Merci à vous. Et faites attention. Ici, beaucoup de choses ont changé.",
+        "Il n'y a pas de quoi. Et revenez vite. Ici, beaucoup de choses ont changé."
+      ]
+    },
+    {
+      "id": "listen-aspo-sme-neprespali-v-da-di",
+      "type": "listen",
+      "l1": "Au moins, on n'a pas dormi sous la pluie.",
+      "l2": "Aspoň sme neprespali v daždi.",
+      "choices_l1": [
+        "Au moins, on a dormi sous la pluie.",
+        "Au moins, on n'a pas marché sous la pluie.",
+        "Au moins, on n'a pas dormi dehors."
+      ]
+    },
+    {
+      "id": "listen-to-je-skoro-hotel",
+      "type": "listen",
+      "l1": "C'est presque un hôtel.",
+      "l2": "To je skoro hotel.",
+      "choices_l1": [
+        "C'est un vrai hôtel.",
+        "C'est presque une maison.",
+        "Ce n'est pas un hôtel."
+      ]
+    },
+    {
+      "id": "match-rovina-vocab",
+      "type": "match",
+      "l1": [
+        "la plaine",
+        "le trajet (en voiture)",
+        "l'hôtel",
+        "la direction"
+      ],
+      "l2": [
+        "rovina",
+        "odvoz",
+        "hotel",
+        "smer"
+      ]
+    },
+    {
+      "id": "blank-spali-sme-v-kami-ne",
+      "type": "fill-blank",
+      "l1": "On a dormi dans un camion.",
+      "l2": "Spali sme v kamióne.",
+      "missing_l1": "camion",
+      "missing_l2": "kamióne",
+      "blank_index_l1": 5,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "hôtel",
+        "train",
+        "refuge"
+      ],
+      "choices_l2": [
+        "hoteli",
+        "vlaku",
+        "dome"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-akujem-p-n-vodi-dovidenia",
+      "type": "fill-blank",
+      "l1": "Merci, monsieur le chauffeur. Au revoir !",
+      "l2": "Ďakujem, pán vodič. Dovidenia!",
+      "missing_l1": "chauffeur",
+      "missing_l2": "vodič",
+      "blank_index_l1": 3,
+      "blank_index_l2": 2,
+      "choices_l1": [
+        "pompier",
+        "chef",
+        "garde"
+      ],
+      "choices_l2": [
+        "hasič",
+        "šéf",
+        "medveď"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-tu-kon-m-alej-idem-in-m-smerom",
+      "type": "order",
+      "l1": "Je m'arrête ici. Ensuite, je prends une autre direction.",
+      "l2": "Tu končím. Ďalej idem iným smerom.",
+      "tokens_l1": [
+        "Je m'arrête ici.",
+        "Ensuite, je prends",
+        "une autre direction."
+      ],
+      "tokens_l2": [
+        "Tu končím.",
+        "Ďalej idem",
+        "iným smerom."
+      ]
+    },
+    {
+      "id": "order-ktor-m-smerom-ideme",
+      "type": "order",
+      "l1": "Dans quelle direction on va ?",
+      "l2": "Ktorým smerom ideme?",
+      "tokens_l1": [
+        "Dans quelle",
+        "direction",
+        "on va ?"
+      ],
+      "tokens_l2": [
+        "Ktorým",
+        "smerom",
+        "ideme?"
+      ]
+    }
+  ]
+}

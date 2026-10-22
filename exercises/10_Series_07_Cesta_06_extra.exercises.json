@@ -1,0 +1,180 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "listen-dobr-de-idete-na-z-pad",
+      "type": "listen",
+      "l1": "Bonjour. Vous allez vers l'ouest ?",
+      "l2": "Dobrý deň. Idete na západ?",
+      "choices_l1": [
+        "Bonjour. Vous allez vers l'est ?",
+        "Bonjour. Tu vas vers l'ouest ?",
+        "Bonjour. Vous venez de l'ouest ?"
+      ]
+    },
+    {
+      "id": "listen-idem-na-juh-na-zvolen-pre-o",
+      "type": "listen",
+      "l1": "Je vais vers le sud, à Zvolen. Pourquoi ?",
+      "l2": "Idem na juh, na Zvolen. Prečo?",
+      "choices_l1": [
+        "Je vais vers le nord, à Zvolen. Pourquoi ?",
+        "Je vais vers l'ouest, à Bratislava. Pourquoi ?",
+        "Je viens du sud, de Zvolen. Pourquoi ?"
+      ]
+    },
+    {
+      "id": "listen-po-vajte-hovoria-o-povodni",
+      "type": "listen",
+      "l1": "Écoutez. Ils parlent de l'inondation.",
+      "l2": "Počúvajte. Hovoria o povodni.",
+      "choices_l1": [
+        "Écoutez. Ils parlent de la sécheresse.",
+        "Regardez. Ils parlent de l'inondation.",
+        "Écoutez. Ils ne parlent pas de l'inondation."
+      ]
+    },
+    {
+      "id": "listen-o-n-s-nehovoria",
+      "type": "listen",
+      "l1": "Ils ne parlent pas de nous.",
+      "l2": "O nás nehovoria.",
+      "choices_l1": [
+        "Ils parlent de nous.",
+        "Ils ne parlent pas de vous.",
+        "Ils ne nous écoutent pas."
+      ]
+    },
+    {
+      "id": "listen-p-jdeme-tam-do-telev-zie",
+      "type": "listen",
+      "l1": "On va y aller. À la télévision.",
+      "l2": "Pôjdeme tam. Do televízie.",
+      "choices_l1": [
+        "On va y aller. À la radio.",
+        "On n'ira pas. À la télévision.",
+        "On va y aller. À Bratislava."
+      ]
+    },
+    {
+      "id": "listen-o-sme-videli-v-etko",
+      "type": "listen",
+      "l1": "Ce qu'on a vu. Tout.",
+      "l2": "Čo sme videli. Všetko.",
+      "choices_l1": [
+        "Ce qu'on va voir. Tout.",
+        "Ce qu'on a vu. Rien.",
+        "Ce qu'on a entendu. Tout."
+      ]
+    },
+    {
+      "id": "match-pod-a-m-a-vocab",
+      "type": "match",
+      "l1": [
+        "d'après moi",
+        "je suis d'accord",
+        "je ne suis pas d'accord",
+        "parce que"
+      ],
+      "l2": [
+        "podľa mňa",
+        "súhlasím",
+        "nesúhlasím",
+        "pretože"
+      ]
+    },
+    {
+      "id": "match-hluk-nouns",
+      "type": "match",
+      "l1": [
+        "le bruit",
+        "les arbres",
+        "le bureau",
+        "le vélo"
+      ],
+      "l2": [
+        "hluk",
+        "stromy",
+        "kancelária",
+        "bicykel"
+      ]
+    },
+    {
+      "id": "blank-tak-e-im-to-mus-me-poveda",
+      "type": "fill-blank",
+      "l1": "Donc il faut qu'on leur dise.",
+      "l2": "Takže im to musíme povedať.",
+      "missing_l1": "faut",
+      "missing_l2": "musíme",
+      "blank_index_l1": 2,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "peut",
+        "va",
+        "doit"
+      ],
+      "choices_l2": [
+        "môžeme",
+        "budeme",
+        "ideme"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-katka-to-je-ialen",
+      "type": "fill-blank",
+      "l1": "Katka, c'est de la folie...",
+      "l2": "Katka, to je šialené...",
+      "missing_l1": "folie",
+      "missing_l2": "šialené",
+      "blank_index_l1": 4,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "chance",
+        "honte",
+        "rigolade"
+      ],
+      "choices_l2": [
+        "zlé",
+        "dobré",
+        "jednoduché"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-lebo-my-ideme-do-bratislavy-juh-je-tie-dobr-za-iatok-m-eme-s-s-vami",
+      "type": "order",
+      "l1": "Parce que nous, on va à Bratislava. Le sud, c'est aussi un bon début. On peut venir avec vous ?",
+      "l2": "Lebo my ideme do Bratislavy. Juh je tiež dobrý začiatok. Môžeme ísť s vami?",
+      "tokens_l1": [
+        "Parce que nous, on va à Bratislava.",
+        "Le sud, c'est aussi un bon début.",
+        "On peut venir avec vous ?"
+      ],
+      "tokens_l2": [
+        "Lebo my ideme do Bratislavy.",
+        "Juh je tiež dobrý začiatok.",
+        "Môžeme ísť s vami?"
+      ]
+    },
+    {
+      "id": "order-zaja-ica-l-ka-medve-a-svi-v-telev-zii-lep-ie",
+      "type": "order",
+      "l1": "Une hase, un renard, un ours et une marmotte à la télévision. Mieux ?",
+      "l2": "Zajačica, líška, medveď a svišť v televízii. Lepšie?",
+      "tokens_l1": [
+        "Une hase, un renard,",
+        "un ours et une marmotte",
+        "à la télévision.",
+        "Mieux ?"
+      ],
+      "tokens_l2": [
+        "Zajačica, líška,",
+        "medveď a svišť",
+        "v televízii.",
+        "Lepšie?"
+      ]
+    }
+  ]
+}

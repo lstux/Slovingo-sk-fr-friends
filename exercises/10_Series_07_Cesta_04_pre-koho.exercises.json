@@ -1,0 +1,231 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-bezpe-n",
+      "type": "qcm",
+      "l1": "sûr, sans danger",
+      "l2": "bezpečné",
+      "choices_l1": [
+        "rapide",
+        "pour qui",
+        "reliera"
+      ],
+      "choices_l2": [
+        "rýchla",
+        "pre koho",
+        "spojí"
+      ]
+    },
+    {
+      "id": "qcm-r-chla",
+      "type": "qcm",
+      "l1": "rapide",
+      "l2": "rýchla",
+      "choices_l1": [
+        "sûr, sans danger",
+        "vous construisez",
+        "décide"
+      ],
+      "choices_l2": [
+        "bezpečné",
+        "staviate",
+        "rozhoduje"
+      ]
+    },
+    {
+      "id": "qcm-pre-koho",
+      "type": "qcm",
+      "l1": "pour qui",
+      "l2": "pre koho",
+      "choices_l1": [
+        "décide",
+        "reliera",
+        "sûr, sans danger"
+      ],
+      "choices_l2": [
+        "rozhoduje",
+        "spojí",
+        "bezpečné"
+      ]
+    },
+    {
+      "id": "qcm-kancel-ria",
+      "type": "qcm",
+      "l1": "le bureau",
+      "l2": "kancelária",
+      "choices_l1": [
+        "l'autoroute",
+        "le chef de chantier",
+        "les gens"
+      ],
+      "choices_l2": [
+        "diaľnica",
+        "stavbyvedúci",
+        "ľudia"
+      ]
+    },
+    {
+      "id": "qcm-rozhoduje",
+      "type": "qcm",
+      "l1": "décide",
+      "l2": "rozhoduje",
+      "choices_l1": [
+        "vous construisez",
+        "reliera",
+        "ils sont pressés"
+      ],
+      "choices_l2": [
+        "staviate",
+        "spojí",
+        "ponáhľajú sa"
+      ]
+    },
+    {
+      "id": "listen-dobr-de-chceme-s-cez-les-je-to-mo-n",
+      "type": "listen",
+      "l1": "Bonjour. Nous voulons traverser la forêt. C'est possible ?",
+      "l2": "Dobrý deň. Chceme ísť cez les. Je to možné?",
+      "choices_l1": [
+        "Bonjour. Nous voulons rester dans la forêt. C'est possible ?",
+        "Bonjour. Vous voulez traverser la forêt ? C'est possible.",
+        "Bonjour. Nous voulons traverser la route. C'est possible ?"
+      ]
+    },
+    {
+      "id": "listen-nov-cestu-spoj-v-chod-so-z-padom-bude-r-chla-a-bezpe-n",
+      "type": "listen",
+      "l1": "Une nouvelle route. Elle reliera l'est et l'ouest. Elle sera rapide et sûre.",
+      "l2": "Novú cestu. Spojí východ so západom. Bude rýchla a bezpečná.",
+      "choices_l1": [
+        "Une nouvelle route. Elle reliera le nord et le sud. Elle sera rapide et sûre.",
+        "Une vieille route. Elle reliera l'est et l'ouest. Elle sera lente et sûre.",
+        "Une nouvelle école. Elle sera grande et belle."
+      ]
+    },
+    {
+      "id": "listen-r-chla-pre-koho",
+      "type": "listen",
+      "l1": "Rapide ? Pour qui ?",
+      "l2": "Rýchla? Pre koho?",
+      "choices_l1": [
+        "Rapide ? Pourquoi ?",
+        "Lente ? Pour qui ?",
+        "Sûre ? Pour qui ?"
+      ]
+    },
+    {
+      "id": "listen-mo-no-tyri-e-te-sa-rozhoduje",
+      "type": "listen",
+      "l1": "Peut-être quatre. Ça se décide encore.",
+      "l2": "Možno štyri. Ešte sa rozhoduje.",
+      "choices_l1": [
+        "Sûrement quatre. C'est déjà décidé.",
+        "Peut-être deux. Ça se décide encore.",
+        "Peut-être quatre. Personne ne décide."
+      ]
+    },
+    {
+      "id": "listen-udia-v-kancel-ri-ch-ja-len-staviam",
+      "type": "listen",
+      "l1": "Les gens dans les bureaux. Moi, je construis seulement.",
+      "l2": "Ľudia v kanceláriách. Ja len staviam.",
+      "choices_l1": [
+        "Les gens dans les bureaux. Moi, je décide.",
+        "Les gens sur la route. Moi, je construis seulement.",
+        "Les animaux dans la forêt. Moi, je construis seulement."
+      ]
+    },
+    {
+      "id": "match-r-chla-vocab",
+      "type": "match",
+      "l1": [
+        "rapide",
+        "sûr, sans danger",
+        "pour qui",
+        "décide"
+      ],
+      "l2": [
+        "rýchla",
+        "bezpečné",
+        "pre koho",
+        "rozhoduje"
+      ]
+    },
+    {
+      "id": "blank-kto-rozhoduje",
+      "type": "fill-blank",
+      "l1": "Qui décide ?",
+      "l2": "Kto rozhoduje?",
+      "missing_l1": "Qui",
+      "missing_l2": "Kto",
+      "blank_index_l1": 0,
+      "blank_index_l2": 0,
+      "choices_l1": [
+        "Quoi",
+        "Où",
+        "Quand"
+      ],
+      "choices_l2": [
+        "Čo",
+        "Kde",
+        "Kam"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-staviam-dom-pre-zvierat",
+      "type": "fill-blank",
+      "l1": "Je construis une maison pour les animaux.",
+      "l2": "Staviam dom pre zvieratá.",
+      "missing_l1": "animaux",
+      "missing_l2": "zvieratá",
+      "blank_index_l1": 6,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "gens",
+        "voitures",
+        "enfants"
+      ],
+      "choices_l2": [
+        "ľudí",
+        "autá",
+        "deti"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-pre-ud-pre-aut-pre-v-etk-ch-ktor-sa-pon-h-aj",
+      "type": "order",
+      "l1": "Pour les gens. Pour les voitures. Pour tous ceux qui sont pressés.",
+      "l2": "Pre ľudí. Pre autá. Pre všetkých, ktorí sa ponáhľajú.",
+      "tokens_l1": [
+        "Pour les gens.",
+        "Pour les voitures.",
+        "Pour tous ceux qui sont pressés."
+      ],
+      "tokens_l2": [
+        "Pre ľudí.",
+        "Pre autá.",
+        "Pre všetkých, ktorí sa ponáhľajú."
+      ]
+    },
+    {
+      "id": "order-udia-potrebuj-dia-nicu",
+      "type": "order",
+      "l1": "Les gens ont besoin d'une autoroute.",
+      "l2": "Ľudia potrebujú diaľnicu.",
+      "tokens_l1": [
+        "Les gens",
+        "ont besoin",
+        "d'une autoroute."
+      ],
+      "tokens_l2": [
+        "Ľudia",
+        "potrebujú",
+        "diaľnicu."
+      ]
+    }
+  ]
+}

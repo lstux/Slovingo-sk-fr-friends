@@ -1,0 +1,220 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-pod-a-m-a",
+      "type": "qcm",
+      "l1": "d'après moi",
+      "l2": "podľa mňa",
+      "choices_l1": [
+        "d'après la carte",
+        "comme toujours",
+        "en direction du sud"
+      ],
+      "choices_l2": [
+        "podľa mapy",
+        "ako vždy",
+        "smerom na juh"
+      ]
+    },
+    {
+      "id": "qcm-za-iatok",
+      "type": "qcm",
+      "l1": "le début",
+      "l2": "začiatok",
+      "choices_l1": [
+        "la fin",
+        "mène",
+        "baisse, descend"
+      ],
+      "choices_l2": [
+        "koniec",
+        "vedie",
+        "klesá"
+      ]
+    },
+    {
+      "id": "qcm-koniec",
+      "type": "qcm",
+      "l1": "la fin",
+      "l2": "koniec",
+      "choices_l1": [
+        "le début",
+        "mène",
+        "nous ne connaissons pas"
+      ],
+      "choices_l2": [
+        "začiatok",
+        "vedie",
+        "nepoznáme"
+      ]
+    },
+    {
+      "id": "qcm-kles",
+      "type": "qcm",
+      "l1": "baisse, descend",
+      "l2": "klesá",
+      "choices_l1": [
+        "mène",
+        "nous ne connaissons pas",
+        "le début"
+      ],
+      "choices_l2": [
+        "vedie",
+        "nepoznáme",
+        "začiatok"
+      ]
+    },
+    {
+      "id": "qcm-juh",
+      "type": "qcm",
+      "l1": "le sud",
+      "l2": "juh",
+      "choices_l1": [
+        "le nord",
+        "l'est",
+        "la fin"
+      ],
+      "choices_l2": [
+        "sever",
+        "východ",
+        "koniec"
+      ]
+    },
+    {
+      "id": "listen-smerom-na-juh-cez-les",
+      "type": "listen",
+      "l1": "Vers le sud. À travers la forêt.",
+      "l2": "Smerom na juh. Cez les.",
+      "choices_l1": [
+        "Vers le nord. À travers la forêt.",
+        "Vers le sud. Par la route.",
+        "Vers l'ouest. À travers la ville."
+      ]
+    },
+    {
+      "id": "listen-pod-a-mapy-tam-vedie-cesta-pod-a-m-a-tam-je-les",
+      "type": "listen",
+      "l1": "D'après la carte, il y a un chemin. D'après moi, il y a une forêt.",
+      "l2": "Podľa mapy tam vedie cesta. Podľa mňa tam je les.",
+      "choices_l1": [
+        "D'après moi, il y a un chemin. D'après la carte, il y a une forêt.",
+        "D'après la carte, il y a une route. D'après moi, il y a une rivière.",
+        "D'après la carte, il n'y a rien. D'après moi, il y a une forêt."
+      ]
+    },
+    {
+      "id": "listen-je-to-dobr-za-iatok-ale-koniec-nepozn-me",
+      "type": "listen",
+      "l1": "C'est un bon début. Mais on ne connaît pas la fin.",
+      "l2": "Je to dobrý začiatok. Ale koniec nepoznáme.",
+      "choices_l1": [
+        "C'est une bonne fin. Mais on ne connaît pas le début.",
+        "C'est un mauvais début. Mais on connaît la fin.",
+        "C'est un bon début. Et on connaît la fin."
+      ]
+    },
+    {
+      "id": "listen-ako-v-dy",
+      "type": "listen",
+      "l1": "Comme toujours.",
+      "l2": "Ako vždy.",
+      "choices_l1": [
+        "Comme avant.",
+        "Pas toujours.",
+        "Comme ça."
+      ]
+    },
+    {
+      "id": "match-za-iatok-vocab",
+      "type": "match",
+      "l1": [
+        "le début",
+        "la fin",
+        "d'après moi",
+        "comme toujours"
+      ],
+      "l2": [
+        "začiatok",
+        "koniec",
+        "podľa mňa",
+        "ako vždy"
+      ]
+    },
+    {
+      "id": "blank-ko-ice-s-na-v-chode",
+      "type": "fill-blank",
+      "l1": "Košice est à l'est.",
+      "l2": "Košice sú na východe.",
+      "missing_l1": "l'est",
+      "missing_l2": "východe",
+      "blank_index_l1": 3,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "l'ouest",
+        "l'école",
+        "l'hôtel"
+      ],
+      "choices_l2": [
+        "západe",
+        "juhu",
+        "severe"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-cesta-cez-les-to-je-dobr-za-iatok",
+      "type": "fill-blank",
+      "l1": "Un chemin à travers la forêt. C'est un bon début.",
+      "l2": "Cesta cez les. To je dobrý začiatok.",
+      "missing_l1": "début",
+      "missing_l2": "začiatok",
+      "blank_index_l1": 9,
+      "blank_index_l2": 6,
+      "choices_l1": [
+        "fin",
+        "idée",
+        "chemin"
+      ],
+      "choices_l2": [
+        "koniec",
+        "nápad",
+        "kameň"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-pod-a-mapy-tam-vedie-cesta",
+      "type": "order",
+      "l1": "D'après la carte, il y a un chemin.",
+      "l2": "Podľa mapy tam vedie cesta.",
+      "tokens_l1": [
+        "D'après la carte,",
+        "il y a",
+        "un chemin."
+      ],
+      "tokens_l2": [
+        "Podľa mapy",
+        "tam vedie",
+        "cesta."
+      ]
+    },
+    {
+      "id": "order-je-to-dobr-za-iatok-ale-koniec-nepozn-me",
+      "type": "order",
+      "l1": "C'est un bon début. Mais on ne connaît pas la fin.",
+      "l2": "Je to dobrý začiatok. Ale koniec nepoznáme.",
+      "tokens_l1": [
+        "C'est un bon début.",
+        "Mais on ne connaît pas",
+        "la fin."
+      ],
+      "tokens_l2": [
+        "Je to dobrý začiatok.",
+        "Ale koniec",
+        "nepoznáme."
+      ]
+    }
+  ]
+}

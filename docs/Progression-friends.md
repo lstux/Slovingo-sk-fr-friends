@@ -82,8 +82,8 @@ Deux séries peuvent se dérouler au même endroit : les personnages traversent 
 | 04 Burka | *prečo / lebo* ; futur (*bude*) ; *musieť / môcť* ; comparatif (*-ejšie*, *čím… tým…*) ; impératif poli (*-te*) |
 | 05 Domov | Passé en *-l / -la / -li* et vouvoiement ; *vtedy / teraz / stále* ; adjectifs *-ý / -á* ; *s / bez* ; souvenirs (*keď som bol malý*) |
 | 06 Povoden | Compter les jours (*dni / dní*) ; maintenant ou d'habitude (*idem / chodím*) ; aspect en pratique (*stúpa / stúpne*) ; *pomôcť ti / vám* ; premier conditionnel (*by som*) |
-| 07 Cesta | Opinion, accord, désaccord (*podľa mňa*, *súhlasím*) ; *lebo / preto / pretože* |
-| 08 Datacentrum | Subordonnées (*že*, *ktorý*) ; pour et contre ; concession (*aj keď*, *hoci*) |
+| 07 Cesta | *podľa mňa* ; *znamená to, že* ; *páči sa mi* ; *pre koho* ; accord et désaccord (*súhlasím s…*), *lebo / pretože* |
+| 08 Datacentrum | *ďakujem za* ; *tam, kde* et *má byť* ; *preto* (conséquence) ; *vedel som, že…* ; concession (*aj keď*, *aj tak*), *neviem, či…* |
 | 09 Bana | Hypothèse (*keby*) ; débat nuancé |
 | 10 Rozhodnutie | *mal by som* ; discours rapporté ; décisions |
 | 11 Bratislava | Registres et *vy* ; transports, démarches |

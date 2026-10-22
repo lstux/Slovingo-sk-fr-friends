@@ -1,0 +1,231 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-budova",
+      "type": "qcm",
+      "l1": "le bâtiment",
+      "l2": "budova",
+      "choices_l1": [
+        "la zone humide, le marais",
+        "l'avion",
+        "la vapeur"
+      ],
+      "choices_l2": [
+        "mokraď",
+        "lietadlo",
+        "para"
+      ]
+    },
+    {
+      "id": "qcm-mokra",
+      "type": "qcm",
+      "l1": "la zone humide, le marais",
+      "l2": "mokraď",
+      "choices_l1": [
+        "le bâtiment",
+        "la vapeur",
+        "les grenouilles"
+      ],
+      "choices_l2": [
+        "budova",
+        "para",
+        "žaby"
+      ]
+    },
+    {
+      "id": "qcm-lietadlo",
+      "type": "qcm",
+      "l1": "l'avion",
+      "l2": "lietadlo",
+      "choices_l1": [
+        "le bâtiment",
+        "la vapeur",
+        "la zone humide, le marais"
+      ],
+      "choices_l2": [
+        "budova",
+        "para",
+        "mokraď"
+      ]
+    },
+    {
+      "id": "qcm-aby",
+      "type": "qcm",
+      "l1": "les grenouilles",
+      "l2": "žaby",
+      "choices_l1": [
+        "l'avion",
+        "la vapeur",
+        "grise"
+      ],
+      "choices_l2": [
+        "lietadlo",
+        "para",
+        "sivá"
+      ]
+    },
+    {
+      "id": "qcm-iadne",
+      "type": "qcm",
+      "l1": "aucun",
+      "l2": "žiadne",
+      "choices_l1": [
+        "est censé être",
+        "là où",
+        "longue"
+      ],
+      "choices_l2": [
+        "má byť",
+        "tam, kde",
+        "dlhá"
+      ]
+    },
+    {
+      "id": "listen-pod-a-mapy-to-m-by-mokra",
+      "type": "listen",
+      "l1": "D'après la carte, ça devrait être une zone humide.",
+      "l2": "Podľa mapy to má byť mokraď.",
+      "choices_l1": [
+        "D'après la carte, ça devrait être une forêt.",
+        "D'après moi, ça devrait être une zone humide.",
+        "D'après la carte, c'est un datacentre."
+      ]
+    },
+    {
+      "id": "listen-mokra-tam-kde-ili-aby",
+      "type": "listen",
+      "l1": "Une zone humide. Là où vivaient les grenouilles.",
+      "l2": "Mokraď. Tam, kde žili žaby.",
+      "choices_l1": [
+        "Une zone humide. Là où vivent les poissons.",
+        "Une forêt. Là où vivaient les grenouilles.",
+        "Une zone humide. Là où il n'y a jamais eu de grenouilles."
+      ]
+    },
+    {
+      "id": "listen-nie-o-tu-ch-ba",
+      "type": "listen",
+      "l1": "Il manque quelque chose ici.",
+      "l2": "Niečo tu chýba.",
+      "choices_l1": [
+        "Il ne manque rien ici.",
+        "Quelque chose est là.",
+        "Il manque quelqu'un ici."
+      ]
+    },
+    {
+      "id": "listen-ticho-iadne-aby-nekv-kaj",
+      "type": "listen",
+      "l1": "Le silence. Aucune grenouille ne coasse.",
+      "l2": "Ticho. Žiadne žaby nekvákajú.",
+      "choices_l1": [
+        "Le silence. Aucun oiseau ne chante.",
+        "Le bruit. Toutes les grenouilles coassent.",
+        "Le silence. Une grenouille coasse."
+      ]
+    },
+    {
+      "id": "listen-nepo-ujem-ni-len-stroje",
+      "type": "listen",
+      "l1": "Je n'entends rien. Seulement des machines.",
+      "l2": "Nepočujem nič. Len stroje.",
+      "choices_l1": [
+        "J'entends tout. Surtout des machines.",
+        "Je n'entends rien. Seulement des grenouilles.",
+        "Je ne vois rien. Seulement des machines."
+      ]
+    },
+    {
+      "id": "match-budova-vocab",
+      "type": "match",
+      "l1": [
+        "le bâtiment",
+        "l'avion",
+        "la vapeur",
+        "les grenouilles"
+      ],
+      "l2": [
+        "budova",
+        "lietadlo",
+        "para",
+        "žaby"
+      ]
+    },
+    {
+      "id": "blank-na-streche-je-aba",
+      "type": "fill-blank",
+      "l1": "Il y a une grenouille sur le toit.",
+      "l2": "Na streche je žaba.",
+      "missing_l1": "toit",
+      "missing_l2": "streche",
+      "blank_index_l1": 7,
+      "blank_index_l2": 1,
+      "choices_l1": [
+        "bâtiment",
+        "pont",
+        "chemin"
+      ],
+      "choices_l2": [
+        "budove",
+        "rieke",
+        "ceste"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-v-mokradi-je-v-lete-v-dy-hluk",
+      "type": "fill-blank",
+      "l1": "Dans une zone humide, l'été, il y a toujours du bruit.",
+      "l2": "V mokradi je v lete vždy hluk.",
+      "missing_l1": "bruit",
+      "missing_l2": "hluk",
+      "blank_index_l1": 10,
+      "blank_index_l2": 6,
+      "choices_l1": [
+        "silence",
+        "soleil",
+        "vent"
+      ],
+      "choices_l2": [
+        "ticho",
+        "voda",
+        "para"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-mokra-tam-kde-ili-aby",
+      "type": "order",
+      "l1": "Une zone humide. Là où vivaient les grenouilles.",
+      "l2": "Mokraď. Tam, kde žili žaby.",
+      "tokens_l1": [
+        "Une zone humide.",
+        "Là où",
+        "vivaient les grenouilles."
+      ],
+      "tokens_l2": [
+        "Mokraď.",
+        "Tam, kde",
+        "žili žaby."
+      ]
+    },
+    {
+      "id": "order-nepo-ujem-ni-len-stroje",
+      "type": "order",
+      "l1": "Je n'entends rien. Seulement des machines.",
+      "l2": "Nepočujem nič. Len stroje.",
+      "tokens_l1": [
+        "Je n'entends",
+        "rien.",
+        "Seulement des machines."
+      ],
+      "tokens_l2": [
+        "Nepočujem",
+        "nič.",
+        "Len stroje."
+      ]
+    }
+  ]
+}

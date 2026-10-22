@@ -79,7 +79,7 @@
 > Ty si = tu es
 > zase = encore
 > šéf = le chef
-+ En slovaque familier, on dit {{šéf}} même pour une fille. Gab ne va pas chipoter.
++ En slovaque familier, on dit {{šéf}} même pour une fille. Tu ne vas pas chipoter.
 
 ! 🐰 Ja mám mapu. Ty máš batoh. Takže ja som šéf.
 > Moi, j'ai la carte. Toi, tu as le sac à dos. Donc c'est moi la cheffe.

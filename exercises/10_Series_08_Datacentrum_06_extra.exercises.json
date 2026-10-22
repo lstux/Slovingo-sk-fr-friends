@@ -1,0 +1,193 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "listen-pre-o-n-m-to-hovor-te",
+      "type": "listen",
+      "l1": "Pourquoi nous le dites-vous ?",
+      "l2": "Prečo nám to hovoríte?",
+      "choices_l1": [
+        "Pourquoi vous ne nous le dites pas ?",
+        "Pourquoi tu nous le dis ?",
+        "Qu'est-ce que vous nous dites ?"
+      ]
+    },
+    {
+      "id": "listen-lebo-ste-sa-p-tali",
+      "type": "listen",
+      "l1": "Parce que vous avez posé la question.",
+      "l2": "Lebo ste sa pýtali.",
+      "choices_l1": [
+        "Parce que vous n'avez rien demandé.",
+        "Parce que j'ai posé la question.",
+        "Parce que vous avez répondu."
+      ]
+    },
+    {
+      "id": "listen-pr-ve-preto",
+      "type": "listen",
+      "l1": "C'est justement pour ça.",
+      "l2": "Práve preto.",
+      "choices_l1": [
+        "Ce n'est pas pour ça.",
+        "C'est justement maintenant.",
+        "C'est pour qui ?"
+      ]
+    },
+    {
+      "id": "listen-artovala-som-skoro",
+      "type": "listen",
+      "l1": "Je plaisantais. Presque.",
+      "l2": "Žartovala som. Skoro.",
+      "choices_l1": [
+        "Je ne plaisantais pas. Pas du tout.",
+        "Je plaisante. Toujours.",
+        "Tu plaisantais. Presque."
+      ]
+    },
+    {
+      "id": "listen-do-bratislavy-do-telev-zie",
+      "type": "listen",
+      "l1": "À Bratislava. À la télévision.",
+      "l2": "Do Bratislavy. Do televízie.",
+      "choices_l1": [
+        "À Bratislava. À la radio.",
+        "À Košice. À la télévision.",
+        "À Banská Štiavnica. Aux lacs."
+      ]
+    },
+    {
+      "id": "listen-naozaj-vy-ste-m-dri",
+      "type": "listen",
+      "l1": "Vraiment ? Vous êtes malins.",
+      "l2": "Naozaj? Vy ste múdri.",
+      "choices_l1": [
+        "Vraiment ? Vous êtes fous.",
+        "Vraiment ? Tu es malin.",
+        "Vraiment ? Vous êtes fatigués."
+      ]
+    },
+    {
+      "id": "listen-akujeme-marek",
+      "type": "listen",
+      "l1": "Merci, Marek.",
+      "l2": "Ďakujeme, Marek.",
+      "choices_l1": [
+        "Au revoir, Marek.",
+        "Pardon, Marek.",
+        "Bonsoir, Marek."
+      ]
+    },
+    {
+      "id": "match-aj-ke-vocab",
+      "type": "match",
+      "l1": [
+        "même si",
+        "c'est pour ça",
+        "là où",
+        "quand même"
+      ],
+      "l2": [
+        "aj keď",
+        "preto",
+        "tam, kde",
+        "aj tak"
+      ]
+    },
+    {
+      "id": "match-budova-nouns",
+      "type": "match",
+      "l1": [
+        "le bâtiment",
+        "la zone humide, le marais",
+        "les grenouilles",
+        "le blaireau"
+      ],
+      "l2": [
+        "budova",
+        "mokraď",
+        "žaby",
+        "jazvec"
+      ]
+    },
+    {
+      "id": "blank-rozumiem-nemus-te-mi-veri-ale-chcem-v-m-da-jednu-radu",
+      "type": "fill-blank",
+      "l1": "Je comprends. Vous n'avez pas à me croire. Mais je veux vous donner un conseil.",
+      "l2": "Rozumiem. Nemusíte mi veriť. Ale chcem vám dať jednu radu.",
+      "missing_l1": "conseil",
+      "missing_l2": "radu",
+      "blank_index_l1": 14,
+      "blank_index_l2": 9,
+      "choices_l1": [
+        "thé",
+        "billet",
+        "sandwich"
+      ],
+      "choices_l2": [
+        "mapu",
+        "vodu",
+        "správu"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-tak-v-m-budem-dr-a-palce-a-pozera-nie-o-in",
+      "type": "fill-blank",
+      "l1": "Alors je croiserai les doigts pour vous, et je regarderai autre chose.",
+      "l2": "Tak vám budem držať palce a pozerať niečo iné.",
+      "missing_l1": "doigts",
+      "missing_l2": "palce",
+      "blank_index_l1": 4,
+      "blank_index_l2": 4,
+      "choices_l1": [
+        "yeux",
+        "mains",
+        "pieds"
+      ],
+      "choices_l2": [
+        "oči",
+        "ruky",
+        "nohy"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-nie-je-za-o-ak-v-s-uvid-m-v-telev-zii-budem-sa-smia-a-mo-no-aj-plaka",
+      "type": "order",
+      "l1": "Il n'y a pas de quoi. Si je vous vois à la télévision, je rirai. Et peut-être que je pleurerai aussi.",
+      "l2": "Nie je za čo. Ak vás uvidím v televízii, budem sa smiať. A možno aj plakať.",
+      "tokens_l1": [
+        "Il n'y a pas de quoi.",
+        "Si je vous vois à la télévision,",
+        "je rirai.",
+        "Et peut-être que je pleurerai aussi."
+      ],
+      "tokens_l2": [
+        "Nie je za čo.",
+        "Ak vás uvidím v televízii,",
+        "budem sa smiať.",
+        "A možno aj plakať."
+      ]
+    },
+    {
+      "id": "order-a-e-te-nie-o-cestou-cho-te-cez-bansk-tiavnicu-s-tam-star-jazer-tam-e-te-voda-je",
+      "type": "order",
+      "l1": "Et encore une chose. En chemin, passez par Banská Štiavnica. Il y a de vieux lacs. Là-bas, il y a encore de l'eau.",
+      "l2": "A ešte niečo. Cestou choďte cez Banskú Štiavnicu. Sú tam staré jazerá. Tam ešte voda je.",
+      "tokens_l1": [
+        "Et encore une chose.",
+        "En chemin, passez par Banská Štiavnica.",
+        "Il y a de vieux lacs.",
+        "Là-bas, il y a encore de l'eau."
+      ],
+      "tokens_l2": [
+        "A ešte niečo.",
+        "Cestou choďte cez Banskú Štiavnicu.",
+        "Sú tam staré jazerá.",
+        "Tam ešte voda je."
+      ]
+    }
+  ]
+}
