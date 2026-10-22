@@ -6,7 +6,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 ## Conventions
 
-- `🦊` Gab, `🐰` Andrea, `🐻` Maťo, `🐹` Katka, `🐑` Babka Zuzana, `🦔` madame Ježková, `🦡` Marek, `🐿️` Ján, `🐥` un canard, `📻` la radio, `💬` le Narrateur, `🧑` un humain adulte (vouvoyé, avec la fonction entre parenthèses quand il y en a plusieurs).
+- `🦊` Gab, `🐰` Andrea, `🐻` Maťo, `🐹` Katka, `🐑` Babka Zuzana, `🦔` madame Ježková, `🦡` Marek, `🐿️` Ján, `🐥` un canard, `🐭` une souris (ch. 6), `🦅` pán Orol (aigle, garde du parc), `🐇` la tante d'Andrea, `📻` la radio, `💬` le Narrateur, `🧑` un humain adulte (vouvoyé, avec la fonction entre parenthèses quand il y en a plusieurs).
 - **Tutoiement / vouvoiement** : le slovaque distingue *ty* et *vy* comme le français *tu* et *vous*, j'ai gardé la même répartition (ados et Babka Zuzana : tu ; adultes inconnus et humains : vous).
 - **Genre** : Gab est un garçon, Andrea une fille. En français, ça se voit aux accords (« content », « contente »).
 - Les noms propres ne sont pas traduits (Košice, Bratislava, Maťo, Katka…). Les lieux connus en français le sont : le Paradis slovaque (*Slovenský raj*), les Tatras (*Tatry*), le Danube (*Dunaj*), la cathédrale Sainte-Élisabeth.
@@ -309,7 +309,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 # Chapitre 3 — Raj
 
-*Résumé : le Slovenský raj, ses forêts, ses ruisseaux et ses échelles dans les gorges. Il y a encore un peu d'eau, mais moins que d'habitude. Gab a le vertige. Un garde du parc leur apprend qu'il pleut dans les Tatras : ils iront là-bas. Andrea lâche une pique plus pointue : elle ne fait confiance à aucun renard, « sauf un ».*
+*Résumé : le Slovenský raj, ses forêts, ses ruisseaux et ses échelles dans les gorges. Il y a encore un peu d'eau, mais moins que d'habitude. Gab a le vertige. Pán Orol, l'aigle garde du parc (déjà dans Kids), leur apprend qu'il pleut dans les Tatras : ils iront là-bas. Andrea lâche une pique plus pointue : elle ne fait confiance à aucun renard, « sauf un ».*
 
 ## Scène 1
 
@@ -395,29 +395,29 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 ## Scène 5
 
-💬 Au bout de la gorge, un garde du parc est là.
+💬 Au bout de la gorge, un aigle est perché sur un rocher. C'est pán Orol, le garde du parc.
 
-🧑 Bonjour. Vous allez où ?
+🦅 Bonjour. Vous allez où ?
 
 🦊 Bonjour. Nous cherchons de l'eau.
 
-🧑 Ici aussi, il y a moins d'eau que l'an dernier. Les ruisseaux s'assèchent.
+🦅 Ici aussi, il y a moins d'eau que l'an dernier. Les ruisseaux s'assèchent.
 
 🐰 Moins que l'an dernier ? Qu'est-ce qui se passe ?
 
-🧑 Je ne sais pas. Dans les Tatras, il paraît qu'il pleut. Ici, non.
+🦅 Je ne sais pas. Dans les Tatras, il paraît qu'il pleut. Ici, non.
 
 🐰 Il pleut dans les Tatras ?
 
-🧑 Oui. En montagne, le temps est différent. Si vous voulez de l'eau, allez là-bas.
+🦅 Oui. En montagne, le temps est différent. Si vous voulez de l'eau, allez là-bas.
 
 🦊 Merci. Nous irons dans les Tatras.
 
-🧑 Soyez prudents. Et prenez une veste.
+🦅 Soyez prudents. Et prenez une veste.
 
 🦊 Une veste ? En plein été ?
 
-🧑 En montagne, l'été est différent.
+🦅 En montagne, l'été est différent.
 
 ## Scène 6
 
@@ -518,6 +518,10 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 🦊 Juste un orage ! Il n'a pas plu pendant deux mois, et maintenant, toute cette eau !
 
 💬 L'électricité est coupée. Le gardien allume une bougie.
+
+🦊 Vous aviez dit que l'orage, c'était pour demain !
+
+🧑 Mon genou s'est trompé d'un jour.
 
 🧑 N'ayez pas peur. Au matin, l'orage sera fini.
 
@@ -657,7 +661,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🦊 Bonjour, babka. Merci.
 
-🐑 Tu es Gabo, n'est-ce pas ? Celui de France. Tu es maigre. Tu vas manger.
+🐑 Tu es Gab, n'est-ce pas ? Celui de France. Tu es maigre. Tu vas manger.
 
 🦊 Merci. Qu'est-ce qu'on mange aujourd'hui ?
 
@@ -717,7 +721,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🐻 Babka dit que vous allez dans le Liptov.
 
-🐰 Je ne sais pas encore. J'y vais là où il y a de l'eau. Ou là où il n'y en a pas.
+🐰 Je ne sais pas encore. Je vais là où il y a de l'eau. Ou là où il n'y en a pas.
 
 🐹 Je viens avec vous.
 
@@ -789,7 +793,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🐰 C'était une phrase très intelligente. Pour un renard.
 
-🦊 Merci. J'ai une bonne journée.
+🦊 Merci. Je suis en forme aujourd'hui.
 
 🐹 On est où, au fait ?
 
@@ -903,23 +907,23 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🦊 Alors, au moins, ça ira bien maintenant.
 
-💬 De la deuxième maison sort un hérisson. Il porte un grand frigo.
+💬 De la deuxième maison sort une souris. Il porte un grand frigo.
 
 🐰 Pourquoi tu portes un frigo ?
 
-🦔 Tout ce que j'ai est dedans.
+🐭 Tout ce que j'ai est dedans.
 
 🐻 Tu n'as pas besoin de frigo. À l'école, il y a de la nourriture.
 
-🦔 Mais le mien est meilleur.
+🐭 Mais le mien est meilleur.
 
-🐹 Laissez-le. Chacun sauve ce qui lui est le plus cher.
+🐹 Laissez-la. Chacun sauve ce qui lui est le plus cher.
 
 🦊 Moi, je sauverais mon téléphone.
 
 🐹 Tu vois ? Tu apprends enfin.
 
-💬 Ils font ça tout l'après-midi. En quatre heures, quarante animaux sont sauvés à l'école. Tout le monde est trempé comme une soupe.
+💬 Ils font ça tout l'après-midi. En quatre heures, quarante animaux ont été mis à l'abri à l'école. Tout le monde est trempé comme une soupe.
 
 > *Note : « mokrí ako ryby » = littéralement « mouillés comme des poissons ». « Trempés comme des soupes » est l'équivalent français, mais « mouillés comme des poissons » restera peut-être plus drôle si tu préfères garder l'image.*
 
@@ -931,7 +935,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🐹 Ni autant de mouillés.
 
-💬 Une jeune renarde en gilet vert s'approche de Gab et d'Andrea. Elle porte un plateau avec du thé.
+💬 Une jeune renarde en gilet vert s'approche d'eux. Elle porte un plateau avec du thé.
 
 🦊 (bénévole) Bonsoir. Vous voulez du thé ? Il est chaud.
 
@@ -947,7 +951,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🐰 D'accord. Merci.
 
-💬 Maťo regarde Andrea, mais ne dit rien.
+💬 Maťo regarde Andrea un moment.
 
 🐻 Andrea ? Tout va bien ?
 
@@ -1095,7 +1099,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 💬 Ils marchent sur la nouvelle route. Elle est dure et chaude. Le chef de chantier marche devant eux.
 
-🐹 Pour moi, c'est une bonne idée. Une voiture ira de Košice à Bratislava en cinq heures. Maintenant, ça prend huit heures.
+🐹 Pour moi, c'est une bonne idée. Une voiture ira de Košice à Bratislava en quatre heures. Maintenant, ça en prend cinq.
 
 🐻 Je ne suis pas d'accord. Une route rapide est une mauvaise route. Elle détruira la forêt, et la forêt ne reviendra pas.
 
@@ -1133,13 +1137,13 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🐰 Bonjour. Vous allez vers l'ouest ?
 
-🧑 Je vais jusqu'à Bratislava. Pourquoi ?
+🧑 Je vais vers le sud, à Zvolen. Pourquoi ?
 
-🐹 Ça nous intéresserait. On peut venir avec vous ?
+🐹 Parce que nous, on va à Bratislava. Le sud, c'est aussi un bon début. On peut venir avec vous ?
 
-🧑 À quatre ? Vous tiendrez. Il y a de la place à l'arrière.
+🧑 À quatre ? Vous tiendrez. Il y a de la place dans la cabine.
 
-💬 Le camion roule toute la nuit. Dans la cabine, la radio joue.
+💬 Le camion roule tard dans la nuit. Dans la cabine, la radio joue.
 
 📻 ...et maintenant, le journal Správy STVR. Bonsoir. Aujourd'hui, dans le Liptov...
 
@@ -1199,7 +1203,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 💬 Le matin. Le camion s'arrête au bord de la route. Devant eux, une large plaine et une rivière.
 
-🧑 Je m'arrête ici. Demain, je continue vers Bratislava.
+🧑 Je m'arrête ici. Ensuite, je prends une autre direction.
 
 🐰 Merci de nous avoir amenés.
 
@@ -1247,15 +1251,15 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🦡 Beaucoup d'ordinateurs.
 
-🦊 Beaucoup beaucoup ?
+🦊 Très d'ordinateurs ?
 
-🐰 Beaucoup. Pas « très ».
+🐰 Beaucoup d'ordinateurs. Ou vraiment beaucoup, si tu veux.
 
 🦊 Merci, coach.
 
 🦡 Les serveurs travaillent toute la journée. À l'intérieur, il fait chaud, donc il faut les refroidir. Avec de l'eau.
 
-> *Note de traduction : « Veľmi veľa ? / Veľa. Nie veľmi. » est un rappel du chapitre 2. En français, ça ne marche pas tel quel : « très beaucoup » n'existe pas. J'ai mis « beaucoup beaucoup » et « Pas très ». À reprendre peut-être : le gag est bien de rappeler la leçon d'Andrea, pas de coller à la lettre.*
+> *Note de traduction : rappel du chapitre 2. Gab refait la faute (« Veľmi počítačov? », avec « veľmi » au lieu de « veľa »), et Andrea en profite pour montrer que les deux mots se combinent : « veľmi veľa » = « vraiment beaucoup ». « Très d'ordinateurs » imite la faute en français.*
 
 ## Scène 4
 
@@ -1299,7 +1303,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🐰 Même si à cause de lui, la zone humide a disparu.
 
-🦡 Même si. Je sais que ça sonne mal. Même si je ne sais pas si ce serait mieux sans lui.
+🦡 Même si. Je sais que ça sonne mal. Mais je ne sais pas si ce serait mieux sans lui.
 
 🦊 Pour moi, « je ne sais pas » n'est pas une bonne réponse.
 
@@ -1322,6 +1326,8 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 🐰 Pourquoi nous le dites-vous ?
 
 🦡 Parce que vous avez posé la question.
+
+💬 Marek sourit gentiment.
 
 🐰 Un renard aussi a souri joliment, un jour.
 
@@ -1355,7 +1361,11 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🦊 Et si on ne nous voit pas ?
 
-🦡 Alors je vous garderai les pouces et je regarderai autre chose.
+🦡 Alors je croiserai les doigts pour vous, et je regarderai autre chose.
+
+🦡 Et encore une chose. En chemin, passez par Banská Štiavnica. Il y a de vieux lacs. Là-bas, il y a encore de l'eau.
+
+🐻 Merci, Marek.
 
 💬 Le soir, il se met à faire frais. Près de la rivière, il fait de nouveau silence. Pas une seule grenouille.
 
@@ -1363,7 +1373,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 # Chapitre 9 — Baňa
 
-*Résumé : Banská Štiavnica, ville de pierre et de pentes (ville d'argent et d'or, classée à l'UNESCO, avec ses petits lacs-réservoirs, les **tajchy**, creusés au Moyen Âge pour les mines). La mine du récit est **fictive** : un nouveau projet de lithium dans les collines au-dessus de la ville. Ján, écureuil bavard et sûr de lui, leur sert de guide ; sa forêt doit être libérée avant la fin du mois. Premier débat « avec des si » (keby) : le lithium fait la batterie du téléphone de Katka. Un mineur (vouvoyé) leur explique que c'est son premier emploi depuis dix ans. Indice sur Andrea : « Keby som bola počúvala mamu… »*
+*Résumé : Banská Štiavnica, ville de pierre et de pentes (ville d'argent et d'or, classée à l'UNESCO, avec ses petits lacs-réservoirs, les **tajchy**, construits du XVIe au XVIIIe siècle pour les mines). La mine du récit est **fictive** : un nouveau projet de lithium dans les collines au-dessus de la ville. Ján, écureuil bavard et sûr de lui, leur sert de guide ; sa forêt doit être libérée avant la fin du mois. Premier débat « avec des si » (keby) : le lithium fait la batterie du téléphone de Katka. Un mineur (vouvoyé) leur explique que c'est son premier emploi depuis dix ans. Indice sur Andrea : « Keby som bola počúvala mamu… »*
 
 ## Scène 1
 
@@ -1405,13 +1415,13 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 💬 Ján les emmène en haut de la colline. Derrière la ville, dans la forêt, il y a de petits lacs.
 
-🐿️ Ce sont les tajchy. On les a construits il y a des siècles pour les mineurs. Dans la mine, il y avait de l'eau, mais là-haut, il en fallait aussi.
+🐿️ Ce sont les tajchy. On les a construits il y a des siècles pour les mines. Leur eau faisait tourner les machines qui pompaient l'eau hors des mines.
 
 🦊 Les tajchy ?
 
 🐿️ C'est comme ça qu'on appelle nos lacs. Ce sont des lacs artificiels. Les gens les ont faits, et ils sont restés là.
 
-🐹 De l'eau ! Vous dites qu'il y a de l'eau ici !
+🐹 De l'eau ! Tu dis qu'il y a de l'eau ici !
 
 🐿️ Il y en a. Assez pour tout ce que vous voulez.
 
@@ -1429,7 +1439,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🐿️ Notre arbre. Ou plutôt, nos arbres. Toute la forêt. On y vit depuis toujours.
 
-🐻 Vous y viviez. Tu dis que vous n'y vivez plus ?
+🐻 Vous y vivez encore ? Ou vous y viviez ?
 
 🐿️ Hier, on nous a dit qu'il fallait partir. D'ici la fin du mois.
 
@@ -1521,7 +1531,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🐿️ À Bratislava, ne parlez pas lentement. Parlez vite. Sinon on ne vous entend pas.
 
-🐻 Et si on ne se met pas à nous écouter ?
+🐻 Et s'ils ne nous écoutent toujours pas ?
 
 🐿️ Alors parlez encore plus vite.
 
@@ -1529,7 +1539,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 # Chapitre 10 — Rozhodnutie
 
-*Résumé : après la mine, la bande est fatiguée et se dispute dans les collines du centre du pays. Un message de la maman de Gab, lu à voix haute par Katka, apprend à tout le monde que son vol part dimanche : discours rapporté (« Mama napísala, že… »), « mal by som ísť domov ». Gab et Andrea parlent seuls près du feu : elle lâche enfin une phrase sur « une certaine renarde » et sur un dîner où elle faillit « être le menu », puis plaisante. Gab ne pose pas de questions. Au matin, la bande décide quoi dire à la télévision (« la vérité, pas un slogan ») et Gab décide d'appeler sa mère pour repousser son départ.*
+*Résumé : après la mine, la bande est fatiguée et se dispute dans les collines du centre du pays. Un message de la maman de Gab, lu à voix haute par Katka, apprend à tout le monde que son vol part dimanche : discours rapporté (« Mama napísala, že… »), « mal by som ísť domov ». Gab et Andrea parlent seuls près du feu : elle lâche enfin une phrase sur « un certain renard » et sur un dîner où elle faillit « être le menu », puis plaisante. Gab ne pose pas de questions. Au matin, la bande décide quoi dire à la télévision (« la vérité, pas un slogan ») et Gab décide d'appeler sa mère pour repousser son départ.*
 
 ## Scène 1
 
@@ -1543,17 +1553,17 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🐰 Demain, il pleuvra.
 
-🦊 Tu sais même pour demain ?
+🐹 Tu sais même pour demain ?
 
 🐰 J'ai une radio dans le genou.
 
-🐹 Ça vient du gardien de refuge des Tatras. Tu ne fais que le copier.
+🦊 Ça vient du gardien du refuge des Tatras ! Tu ne fais que répéter.
 
 🐰 J'ai seulement appris.
 
 ## Scène 2
 
-💬 Le téléphone de Gab bipe. C'est le premier message en trois jours. Katka regarde par-dessus son épaule.
+💬 Un téléphone bipe. Gab a un message, le premier en trois jours. Katka regarde par-dessus son épaule.
 
 🦊 Katka ! C'est à moi !
 
@@ -1623,15 +1633,15 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 💬 Le feu crépite. Andrea regarde les flammes.
 
-🐰 Un jour, je me suis laissé inviter à dîner. Par une renarde.
+🐰 Un jour, je me suis laissé inviter à dîner. Par un renard.
 
-🦊 Une renarde ?
+🦊 Un renard ?
 
-🐰 Je pensais que c'était une amie. Elle était gentille. Elle riait. Elle avait apporté des fraises.
+🐰 Je pensais que c'était un ami. Il était gentil. Il riait. Il avait apporté des fraises.
 
 🦊 Et ?
 
-🐰 Et puis j'ai vu la broche. Et j'ai compris que l'invité, ce n'était pas moi. C'était le plat principal.
+🐰 Et puis j'ai vu la broche. Et j'ai compris que je n'étais pas l'invitée, mais le plat principal.
 
 💬 Gab se tait. Il ne sait pas quoi dire.
 
@@ -1657,7 +1667,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🐰 C'est très sage de ta part.
 
-🦊 J'ai une bonne journée.
+🦊 Je suis en forme aujourd'hui.
 
 ## Scène 6
 
@@ -1667,7 +1677,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🐹 La vérité.
 
-🐰 Quelle vérité ? Il y en a plusieurs. Dire la sécheresse, l'inondation, la route, le datacentre et la mine ? C'est trop.
+🐰 Quelle vérité ? Il y en a plusieurs. On parle de la sécheresse, de l'inondation, de la route, du datacentre et de la mine ? C'est trop.
 
 🐹 Si on ne dit qu'une seule chose, ils diront qu'on ne parle que de ça.
 
@@ -1687,21 +1697,29 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🦊 J'ai encore une chose.
 
-💬 Gab ouvre ses contacts et appelle chez lui. Le téléphone sonne longtemps. Puis une voix de femme répond.
+💬 Gab appelle chez lui. Il parle en français, vite et longtemps. Les autres ne comprennent rien. Andrea ne comprend qu'un mot : « maman ».
 
-🦊 Maman ? Salut. Je vais bien... Oui, j'ai mangé... Non, je ne suis pas seul... Maman, je dois te dire quelque chose. J'arriverai un jour plus tard.
+🐹 Qu'est-ce qu'il dit ?
 
-💬 Après l'appel, il y a un silence. Puis Gab dit :
+🐰 Je ne sais pas. Mais ça ressemble à « s'il te plaît ».
 
-🦊 Elle a dit d'accord. Et qu'elle changerait mon billet pour lundi.
+💬 Gab raccroche.
 
-🐰 Comme ça ?
+🦊 J'arriverai un jour plus tard. Maman a dit d'accord. Et qu'elle changerait mon ticket pour lundi.
+
+🐰 Ton billet d'avion. Un ticket, c'est pour le train.
+
+🦊 Mon billet d'avion. Merci, coach.
+
+🐰 Et ta mère a dit d'accord ? Comme ça ?
 
 🦊 Elle a dit qu'elle aussi, elle aimait l'aventure quand elle était jeune.
 
 🐻 C'est une bonne maman.
 
 🐰 C'est une très bonne maman.
+
+> *Note de traduction : un billet d'avion se dit « letenka » ; « lístok », c'est pour le train ou le tram. Rappel du jeu de mots du chapitre 2, transposé avec billet / ticket.*
 
 ---
 
@@ -1713,15 +1731,15 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 💬 La gare centrale. Le train s'arrête doucement. Par la fenêtre, on voit beaucoup d'immeubles, beaucoup de voitures et beaucoup de monde.
 
-🐻 Il y a beaucoup de monde.
+🦊 Il y a très de monde !
 
-🐹 Beaucoup. Pas « très ».
+🐹 Beaucoup de monde. Pas « très ».
 
 🐻 Katka, ne commence pas.
 
 🐹 Je corrige, c'est tout. Et il y a du réseau. Un très bon réseau.
 
-🦊 Merci, coach.
+🦊 Maintenant, j'ai deux coachs.
 
 🐰 Je ne suis pas coach.
 
@@ -1761,7 +1779,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🐹 Pourquoi ?
 
-🧑 Regardez-le. Quatre tours et un toit plat. On dirait une table à l'envers.
+🧑 Regardez-le. Les quatre tours, ce sont les quatre pieds. On dirait une table à l'envers.
 
 🐻 On dirait une table.
 
@@ -1817,7 +1835,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🐹 Cinq minutes ? Tout de suite ?
 
-🧑 Non, ce soir. Nous émettons depuis le studio qui est au château. C'est une édition spéciale sur l'eau et la météo. Il y a quelques places libres pour des invités.
+🧑 Non, ce soir. Nous émettons depuis le studio qui est au château. C'est une édition spéciale sur l'eau et la météo. Il nous reste quelques places pour des invités.
 
 🦊 Au château ? À la télévision ?
 
@@ -1827,7 +1845,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🐰 Merci. Vraiment. Je ne sais pas quoi dire.
 
-🧑 Dites-moi la même chose qu'à moi. Seulement plus lentement.
+🧑 Dites-leur la même chose qu'à moi. Seulement plus lentement.
 
 ## Scène 6
 
@@ -1863,7 +1881,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 # Chapitre 12 — Hrad
 
-*Résumé : le studio improvisé sur une terrasse du château. Maquillage (« Nepúdrujte ma ! »), trac, la rédactrice qui compte à rebours. En direct, à 19 h, chacun dit une phrase : Maťo le ruisseau, Katka l'inondation, Gab le point d'eau de Košice, Andrea la zone humide et la mine. Ils ne sauvent pas le monde ; ils demandent à être entendus. La présentatrice répond : « Počujeme vás. » Après l'émission : un message de Marek, un autre de Ján, Babka au téléphone (« jedz, Gab »), la maman de Gab. Dernière scène sur la terrasse : Gab repartira lundi, Andrea : « Teraz si tu. »*
+*Résumé : le studio improvisé sur une terrasse du château. Maquillage (« Nepúdrujte ma ! »), trac, la rédactrice qui compte à rebours. En direct, à 19 h, chacun dit une phrase : Maťo le ruisseau, Katka l'inondation, Gab le point d'eau de Košice, Andrea la zone humide et la mine. Ils ne sauvent pas le monde ; ils demandent à être entendus. La présentatrice répond : « Počujeme vás. » Après l'émission : un message de Marek, un autre de Ján et Babka au téléphone (« jedz, Gab »). Dernière scène sur la terrasse : Gab repartira lundi, Andrea : « Teraz si tu. »*
 
 ## Scène 1
 
@@ -1875,7 +1893,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🧑 Vous pouvez. Mais la chaise est petite.
 
-🐻 Je sais. Elle est toujours petite.
+🐻 Je sais. Pour moi, toutes les chaises sont petites.
 
 ## Scène 2
 
@@ -1987,7 +2005,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 ## Scène 6
 
-💬 La caméra s'éteint. Dans le studio, il y a du silence. Puis tout le monde expire.
+💬 La caméra s'éteint. Le studio est silencieux. Puis tout le monde souffle.
 
 🐹 On a été bons ?
 
@@ -2019,7 +2037,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🐰 Je sais.
 
-🦊 Maman m'a changé mon billet d'un jour. Elle n'a pas pu faire plus.
+🦊 Maman a décalé mon billet d'un jour. Elle n'a pas pu faire plus.
 
 🐰 C'est une bonne maman.
 
@@ -2047,7 +2065,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 # Épilogue — Sen
 
-*Résumé : le lendemain des retrouvailles, à Košice. Gab se réveille sous le pommier. Andrea arrive avec de l'eau (il n'y a que trois gouttes). Il raconte son rêve (« Snívalo sa mi… »), passé composé, résumé de toute l'aventure en deux minutes : l'occasion de tout réviser. Il ajoute « un détail étrange » : une renarde, un dîner, une broche. Andrea devient silencieuse : confirmation, sans explication. Chaussettes mouillées (clin d'œil au chap. 6), la tante qui se réveille (« Andrea ? S kým hovoríš ? — S jabloňou. »). Même fil rouge : « Teraz si tu. — Uvidíme. »*
+*Résumé : le lendemain des retrouvailles, à Košice. Gab se réveille sous le pommier. Andrea arrive avec de l'eau (il n'y a que trois gouttes). Il raconte son rêve (« Snívalo sa mi… »), passé composé, résumé de toute l'aventure en deux minutes : l'occasion de tout réviser. Il ajoute « un détail étrange » : un renard, un dîner, une broche. Andrea devient silencieuse : confirmation, sans explication. Chaussettes mouillées (clin d'œil au chap. 6), la tante qui se réveille (« Andrea ? S kým hovoríš ? — S jabloňou. »). Même fil rouge : « Teraz si tu. — Uvidíme. »*
 
 ## Scène 1
 
@@ -2101,7 +2119,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🐰 Quoi ?
 
-🦊 Il n'y avait pas de sécheresse. Enfin si, mais ensuite on est partis loin. Au Paradis slovaque. Dans les Tatras. Dans le Liptov. À Bratislava.
+🦊 Il y avait la sécheresse. Et puis on est partis loin. Au Paradis slovaque. Dans les Tatras. Dans le Liptov. À Bratislava.
 
 🐰 À Bratislava ? Pourquoi ?
 
@@ -2123,7 +2141,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🐰 Ça aussi, c'est vrai.
 
-🦊 Et puis on a été à la télévision. On leur a dit qu'on y était.
+🦊 Et puis on est passés à la télévision. On leur a dit qu'on y était.
 
 🐰 On a été bons ?
 
@@ -2135,7 +2153,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 ## Scène 6
 
-🦊 Dans le rêve, tu m'as dit qu'un jour, tu avais fait confiance à une renarde. Qu'elle t'avait invitée à dîner. Et que tu avais vu la broche.
+🦊 Dans le rêve, tu m'as dit qu'un jour, tu avais fait confiance à un renard. Qu'il t'avait invitée à dîner. Et que tu avais vu la broche.
 
 💬 Andrea se tait. Pendant un moment, elle regarde le pommier.
 
@@ -2155,11 +2173,11 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 💬 Une voix retentit à la fenêtre.
 
-🧑 (tante) Andrea ? Avec qui tu parles ?
+🐇 (tante) Andrea ? Avec qui tu parles ?
 
 🐰 Avec le pommier, ma tante !
 
-🧑 (tante) Et qu'est-ce qu'il te répond ?
+🐇 (tante) Et qu'est-ce qu'il te répond ?
 
 🐰 Qu'il est content que ce soit l'été.
 

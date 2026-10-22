@@ -6,8 +6,8 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 ## Conventions
 
-- Une réplique par ligne : `🦊 Gab`, `🐰 Andrea`, `💬 Narrateur` (présent narratif, phrases courtes). Les autres avatars : `🐻` Maťo, `🐹` Katka, `🐑` Babka Zuzana, `🦔` pani Ježková (commerçante, vouvoyée), `📻` la radio, `🐥` un canard, `🦡` Marek, `🐿️` Ján, `🧑` un humain adulte (vouvoyé, désigné par sa fonction : le Narrateur le présente, et une parenthèse la rappelle quand il y en a plusieurs, ex. `🧑 (redaktorka)`).
-- **Gab** s'écrit « Gab » dans ce document. Dans les fiches, ce sera `[USER_NAME]`. Pas de « Gabo » en dur.
+- Une réplique par ligne : `🦊 Gab`, `🐰 Andrea`, `💬 Narrateur` (présent narratif, phrases courtes). Les autres avatars : `🐻` Maťo, `🐹` Katka, `🐑` Babka Zuzana, `🦔` pani Ježková (commerçante, vouvoyée), `📻` la radio, `🐥` un canard, `🐭` une souris (ch. 6), `🦅` pán Orol (aigle, garde du parc, vouvoyé), `🐇` la tante d'Andrea, `🦡` Marek, `🐿️` Ján, `🧑` un humain adulte (vouvoyé, désigné par sa fonction : le Narrateur le présente, et une parenthèse la rappelle quand il y en a plusieurs, ex. `🧑 (redaktorka)`).
+- **Gab** s'écrit « Gab » dans ce document. Dans les fiches, ce sera `[USER_NAME]`. Pas de « Gabo » en dur, et jamais de forme déclinée (*Gabovi*, *Gabov*…) : le prénom s'emploie seulement comme sujet ou pour interpeller.
 - **Genre** : Gab est un garçon (*bol som*, *rád*), Andrea une fille (*bola som*, *rada*).
 - **Tutoiement** entre ados et avec Babka Zuzana, **vouvoiement** (*vy*) avec les adultes inconnus, humains compris.
 - **Chaque chapitre = 6 scènes**, qui deviendront les 6 fiches de la série. Les scènes 1 à 4 sont plutôt courtes (micro-dialogues des fiches d'apprentissage), les scènes 5 et 6 plus longues (l'épisode). Les coupures sont placées là où l'histoire respire, pas pour caser du vocabulaire.
@@ -308,7 +308,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🦊 Aha.
 
-💬 Andrea píše: „Teto, odišla som na pár dní. Neboj sa. Andrea.“
+💬 Andrea píše: „Teta, odišla som na pár dní. Neboj sa. Andrea.“
 
 💬 Pri okienku stojí pani.
 
@@ -326,7 +326,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 # Kapitola 3 — Raj
 
-*Résumé : le Slovenský raj, ses forêts, ses ruisseaux et ses échelles dans les gorges. Il y a encore un peu d'eau, mais moins que d'habitude. Gab a le vertige. Un garde du parc leur apprend qu'il pleut dans les Tatras : ils iront là-bas. Andrea lâche une pique plus pointue : elle ne fait confiance à aucun renard, « sauf un ».*
+*Résumé : le Slovenský raj, ses forêts, ses ruisseaux et ses échelles dans les gorges. Il y a encore un peu d'eau, mais moins que d'habitude. Gab a le vertige. Pán Orol, l'aigle garde du parc (déjà dans Kids), leur apprend qu'il pleut dans les Tatras : ils iront là-bas. Andrea lâche une pique plus pointue : elle ne fait confiance à aucun renard, « sauf un ».*
 
 ## Scéna 1
 
@@ -412,29 +412,29 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 ## Scéna 5
 
-💬 Na konci rokliny stojí strážca parku.
+💬 Na konci rokliny sedí na skale orol. Je to pán Orol, strážca parku.
 
-🧑 Dobrý deň. Kam idete?
+🦅 Dobrý deň. Kam idete?
 
 🦊 Dobrý deň. Hľadáme vodu.
 
-🧑 Aj tu je vody menej ako vlani. Potoky vysychajú.
+🦅 Aj tu je vody menej ako vlani. Potoky vysychajú.
 
 🐰 Menej ako vlani? Čo sa deje?
 
-🧑 Neviem. V Tatrách vraj prší. Tu nie.
+🦅 Neviem. V Tatrách vraj prší. Tu nie.
 
 🐰 V Tatrách prší?
 
-🧑 Áno. V horách je počasie iné. Ak chcete vodu, choďte tam.
+🦅 Áno. V horách je počasie iné. Ak chcete vodu, choďte tam.
 
 🦊 Ďakujeme. Pôjdeme do Tatier.
 
-🧑 Opatrne. A vezmite si bundu.
+🦅 Opatrne. A vezmite si bundu.
 
 🦊 Bundu? V lete?
 
-🧑 V horách je iné leto.
+🦅 V horách je iné leto.
 
 ## Scéna 6
 
@@ -512,7 +512,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🦊 Vonku je zima ako v zime.
 
-🐰 Je to vyššie. Čím vyššie, tým chladnejšie.
+🐰 Sme vyššie. Čím vyššie, tým chladnejšie.
 
 🦊 Dole bolo teplejšie. A sucho.
 
@@ -535,6 +535,10 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 🦊 Len búrka! Dva mesiace nepršalo, a teraz toľko vody!
 
 💬 Elektrika nejde. Chatár zapaľuje sviečku.
+
+🦊 Vy ste hovorili, že búrka bude zajtra!
+
+🧑 Koleno sa pomýlilo o jeden deň.
 
 🧑 Nebojte sa. Do rána bude po búrke.
 
@@ -588,7 +592,6 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🐰 Áno. Tam sme sa spoznali, Gab.
 
-
 ---
 
 # Kapitola 5 — Domov
@@ -611,7 +614,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🦔 To je milé. Ale klamete.
 
-🐰 Dobrý deň, pani Ježková. Nevidela ste Maťa?
+🐰 Dobrý deň, pani Ježková. Nevideli ste Maťa?
 
 🦔 Je na lúke. Hľadá ovce. Alebo ovce hľadajú jeho. To nikdy neviem.
 
@@ -669,13 +672,13 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 ## Scéna 4
 
-💬 V kuchyni vonia čaj. Pri sporáku stojí babka Zuzana a miešá niečo vo veľkom hrnci.
+💬 V kuchyni vonia čaj. Pri sporáku stojí babka Zuzana a mieša niečo vo veľkom hrnci.
 
 🐑 Deti moje! Poďte ďalej! Sadnite si!
 
 🦊 Dobrý deň, babka. Ďakujem.
 
-🐑 Ty si Gabo, však? Ten z Francúzska. Si chudý. Budeš jesť.
+🐑 Ty si Gab, však? Ten z Francúzska. Si chudý. Budeš jesť.
 
 🦊 Ďakujem. Čo máme dnes?
 
@@ -877,7 +880,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🐰 Nie, sme len na ceste. Môžeme vám pomôcť?
 
-🧑 Určite. Potrebujem každého. Pozrite, tam hore je škola. Stojí vyššie, voda tam nedôjde.
+🧑 Určite. Potrebujem každého. Pozrite, tam hore je škola. Stojí vyššie, voda tam nedosiahne.
 
 🦊 A čo máme robiť?
 
@@ -911,7 +914,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🐻 Dobrý deň. Ideme do školy. Poďte s nami.
 
-🐥 Ďakujem, pane medveď. Už sme si mysleli, že nás nikto nezachráni.
+🐥 Ďakujem, pán medveď. Už sme si mysleli, že nás nikto nezachráni.
 
 🦊 Všetko bude dobré.
 
@@ -919,33 +922,33 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🦊 Tak aspoň teraz bude dobre.
 
-💬 Z druhého domu vyjde ježko. Nesie veľkú chladničku.
+💬 Z druhého domu vyjde myš. Nesie veľkú chladničku.
 
 🐰 Prečo nesieš chladničku?
 
-🦔 Je v nej všetko, čo mám.
+🐭 Je v nej všetko, čo mám.
 
 🐻 Chladničku nepotrebuješ. V škole je jedlo.
 
-🦔 Ale moja je lepšia.
+🐭 Ale moja je lepšia.
 
-🐹 Nechajte ho. Každý zachraňuje, čo je mu najdrahšie.
+🐹 Nechajte ju. Každý zachraňuje, čo je mu najdrahšie.
 
 🦊 Ja by som zachránil telefón.
 
 🐹 Vidíš? Konečne sa učíš.
 
-💬 Tak chodia celé popoludnie. Za štyri hodiny sú v škole štyridsiati zachránení. Všetci sú mokrí ako ryby.
+💬 Tak chodia celé popoludnie. Za štyri hodiny je v škole štyridsať zachránených zvierat. Všetci sú mokrí ako ryby.
 
 ## Scéna 6
 
-💬 Škola. V telocvični sú desiatky zvierat. Na zemi ležia matrace a deky. V rohu varí veľký hrniec polievky.
+💬 Škola. V telocvični sú desiatky zvierat. Na zemi ležia matrace a deky. V rohu sa vo veľkom hrnci varí polievka.
 
 🐻 Toľko zvierat na jednom mieste som ešte nevidel.
 
 🐹 A toľko mokrých.
 
-💬 K Gabovi a Andree príde mladá líška v zelenej veste. Nesie podnos s čajom.
+💬 Príde k nim mladá líška v zelenej veste. Nesie podnos s čajom.
 
 🦊 (dobrovoľníčka) Dobrý večer. Dáte si čaj? Je horúci.
 
@@ -961,7 +964,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🐰 Dobre. Ďakujem.
 
-💬 Maťo sa pozerá na Andreu, ale nič nehovorí.
+💬 Maťo sa chvíľu pozerá na Andreu.
 
 🐻 Andrea? Všetko v poriadku?
 
@@ -1109,7 +1112,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 💬 Idú po novej ceste. Je tvrdá a horúca. Stavbyvedúci kráča pred nimi.
 
-🐹 Podľa mňa je to dobrý nápad. Auto pôjde z Košíc do Bratislavy za päť hodín. Teraz to trvá osem.
+🐹 Podľa mňa je to dobrý nápad. Auto pôjde z Košíc do Bratislavy za štyri hodiny. Teraz to trvá päť.
 
 🐻 Nesúhlasím. Rýchla cesta je zlá cesta. Zničí les, a les sa nevráti.
 
@@ -1129,7 +1132,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🐹 Naozaj?
 
-🧑 Postavil som päť ciest. Na každej mi bolo trochu ľúto stromov. Ale chcem, aby moje deti mali prácu. A cestu do školy.
+🧑 Postavil som päť ciest. Pri každej mi bolo trochu ľúto stromov. Ale chcem, aby moje deti mali prácu. A cestu do školy.
 
 🐻 To je férová odpoveď.
 
@@ -1147,13 +1150,13 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🐰 Dobrý deň. Idete na západ?
 
-🧑 Idem až do Bratislavy. Prečo?
+🧑 Idem na juh, na Zvolen. Prečo?
 
-🐹 Nás by to zaujímalo. Môžeme ísť s vami?
+🐹 Lebo my ideme do Bratislavy. Juh je tiež dobrý začiatok. Môžeme ísť s vami?
 
-🧑 Štyria? Zmestíte sa. Vzadu je miesto.
+🧑 Štyria? Zmestíte sa. V kabíne je miesto.
 
-💬 Kamión ide celú noc. V kabíne hrá rádio.
+💬 Kamión ide dlho do noci. V kabíne hrá rádio.
 
 📻 ...a teraz Správy STVR. Dobrý večer. Dnes sa v Liptove...
 
@@ -1191,7 +1194,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🐹 Čo sme videli. Všetko.
 
-🦊 Katka, to je blázon...
+🦊 Katka, to je šialené...
 
 🐰 Počkaj. To nie je zlé.
 
@@ -1213,7 +1216,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 💬 Ráno. Kamión zastane pri ceste. Pred nimi je široká rovina a rieka.
 
-🧑 Tu končím. Do Bratislavy idem zajtra ďalej.
+🧑 Tu končím. Ďalej idem iným smerom.
 
 🐰 Ďakujeme za odvoz.
 
@@ -1243,7 +1246,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🦊 Ticho. Žiadne žaby nekvákajú.
 
-🐻 V mokrade je v lete vždy hluk.
+🐻 V mokradi je v lete vždy hluk.
 
 🐰 Nepočujem nič. Len stroje.
 
@@ -1261,9 +1264,9 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🦡 Veľa počítačov.
 
-🦊 Veľmi veľa?
+🦊 Veľmi počítačov?
 
-🐰 Veľa. Nie veľmi.
+🐰 Veľa počítačov. Alebo veľmi veľa, ak chceš.
 
 🦊 Ďakujem, trénerka.
 
@@ -1311,7 +1314,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🐰 Aj keď kvôli tomu zmizla mokraď.
 
-🦡 Aj keď. Viem, že to znie zle. Hoci neviem, či by bolo lepšie bez neho.
+🦡 Aj keď. Viem, že to znie zle. Ale neviem, či by bez neho bolo lepšie.
 
 🦊 Podľa mňa nie je „neviem“ dobrá odpoveď.
 
@@ -1334,6 +1337,8 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 🐰 Prečo nám to hovoríte?
 
 🦡 Lebo ste sa pýtali.
+
+💬 Marek sa pekne usmeje.
 
 🐰 Aj jedna líška sa raz pekne usmievala.
 
@@ -1369,13 +1374,17 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🦡 Tak vám budem držať palce a pozerať niečo iné.
 
+🦡 A ešte niečo. Cestou choďte cez Banskú Štiavnicu. Sú tam staré jazerá. Tam ešte voda je.
+
+🐻 Ďakujeme, Marek.
+
 💬 Večer sa ochladí. Pri rieke je opäť ticho. Ani jedna žaba.
 
 ---
 
 # Kapitola 9 — Baňa
 
-*Résumé : Banská Štiavnica, ville de pierre et de pentes (ville d'argent et d'or, classée à l'UNESCO, avec ses petits lacs-réservoirs, les **tajchy**, creusés au Moyen Âge pour les mines). La mine du récit est **fictive** : un nouveau projet de lithium dans les collines au-dessus de la ville. Ján, écureuil bavard et sûr de lui, leur sert de guide ; sa forêt doit être libérée avant la fin du mois. Premier débat « avec des si » (keby) : le lithium fait la batterie du téléphone de Katka. Un mineur (vouvoyé) leur explique que c'est son premier emploi depuis dix ans. Indice sur Andrea : « Keby som bola počúvala mamu… »*
+*Résumé : Banská Štiavnica, ville de pierre et de pentes (ville d'argent et d'or, classée à l'UNESCO, avec ses petits lacs-réservoirs, les **tajchy**, construits du XVIe au XVIIIe siècle pour les mines). La mine du récit est **fictive** : un nouveau projet de lithium dans les collines au-dessus de la ville. Ján, écureuil bavard et sûr de lui, leur sert de guide ; sa forêt doit être libérée avant la fin du mois. Premier débat « avec des si » (keby) : le lithium fait la batterie du téléphone de Katka. Un mineur (vouvoyé) leur explique que c'est son premier emploi depuis dix ans. Indice sur Andrea : « Keby som bola počúvala mamu… »*
 
 ## Scéna 1
 
@@ -1403,11 +1412,11 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🦊 Ahoj, Ján. Ja som Gab.
 
-🐿️ Gab! Skvelé meno! A to je kto? Zajačica? Medveď? A svišť? To je celé zviera!
+🐿️ Gab! Skvelé meno! A to je kto? Zajačica? Medveď? A svišť? To je celá zoo!
 
-🐹 Ja nie som zviera. Ja som Katka.
+🐹 Ja nie som zoo. Ja som Katka.
 
-🐿️ Katka! Tiež skvelé meno! Odkiaľ ste? Kam idete? Prečo idete? Máte jesť? Ja mám orechy.
+🐿️ Katka! Tiež skvelé meno! Odkiaľ ste? Kam idete? Prečo idete? Máte čo jesť? Ja mám orechy.
 
 🐰 Ján... dýchaj.
 
@@ -1417,13 +1426,13 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 💬 Ján ich vedie hore kopcom. Za mestom ležia v lese malé jazerá.
 
-🐿️ To sú tajchy. Postavili ich pred stáročiami pre baníkov. V bani bola voda, ale hore bola potrebná tiež.
+🐿️ To sú tajchy. Postavili ich pred stáročiami pre bane. Voda z nich poháňala stroje, ktoré čerpali vodu z baní.
 
 🦊 Tajchy?
 
 🐿️ Tak sa volajú naše jazerá. Sú to umelé jazerá. Ľudia ich urobili a zostali tu.
 
-🐹 Voda! Hovoríte, že je tu voda!
+🐹 Voda! Hovoríš, že je tu voda!
 
 🐿️ Je tu. Dosť na všetko, čo chcete.
 
@@ -1441,7 +1450,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🐿️ Náš strom. Alebo skôr naše stromy. Celý les. Žijeme tam odjakživa.
 
-🐻 Žili ste. Hovoríš, že už nežijete?
+🐻 Žijete tam ešte? Alebo ste tam žili?
 
 🐿️ Včera nám povedali, že musíme odísť. Do konca mesiaca.
 
@@ -1541,7 +1550,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 # Kapitola 10 — Rozhodnutie
 
-*Résumé : après la mine, la bande est fatiguée et se dispute dans les collines du centre du pays. Un message de la maman de Gab, lu à voix haute par Katka, apprend à tout le monde que son vol part dimanche : discours rapporté (« Mama napísala, že… »), « mal by som ísť domov ». Gab et Andrea parlent seuls près du feu : elle lâche enfin une phrase sur « une certaine renarde » et sur un dîner où elle faillit « être le menu », puis plaisante. Gab ne pose pas de questions. Au matin, la bande décide quoi dire à la télévision (« la vérité, pas un slogan ») et Gab décide d'appeler sa mère pour repousser son départ.*
+*Résumé : après la mine, la bande est fatiguée et se dispute dans les collines du centre du pays. Un message de la maman de Gab, lu à voix haute par Katka, apprend à tout le monde que son vol part dimanche : discours rapporté (« Mama napísala, že… »), « mal by som ísť domov ». Gab et Andrea parlent seuls près du feu : elle lâche enfin une phrase sur « un certain renard » et sur un dîner où elle faillit « être le menu », puis plaisante. Gab ne pose pas de questions. Au matin, la bande décide quoi dire à la télévision (« la vérité, pas un slogan ») et Gab décide d'appeler sa mère pour repousser son départ.*
 
 ## Scéna 1
 
@@ -1555,17 +1564,17 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🐰 Zajtra bude pršať.
 
-🦊 Ty vieš aj zajtra?
+🐹 Ty vieš aj zajtra?
 
 🐰 Mám v kolene rádio.
 
-🐹 To je od chatára z Tatier. Ty si to len kopíruješ.
+🦊 To je od chatára z Tatier! Ty to len opakuješ.
 
 🐰 Ja som sa len učila.
 
 ## Scéna 2
 
-💬 Gabov telefón zapípa. Je to prvá správa po troch dňoch. Katka mu pozrie cez rameno.
+💬 Zapípa telefón. Gab má správu, prvú po troch dňoch. Katka mu pozrie cez rameno.
 
 🦊 Katka! To je moje!
 
@@ -1573,7 +1582,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🦊 Počkaj. Čo ešte napísala?
 
-🐹 Že v nedeľu ti letí lietadlo z Viedne. Že lístok už má. A že ťa ľúbi.
+🐹 Že v nedeľu ti letí lietadlo z Viedne. Že letenku už má. A že ťa ľúbi.
 
 🐻 Napísala, že ťa ľúbi?
 
@@ -1635,15 +1644,15 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 💬 Oheň praská. Andrea sa pozerá do plameňov.
 
-🐰 Raz som sa nechala pozvať na večeru. Jednou líškou.
+🐰 Raz som sa nechala pozvať na večeru. Jedným lišiakom.
 
-🦊 Líškou?
+🦊 Lišiakom?
 
 🐰 Myslela som, že je to priateľ. Bol milý. Smial sa. Doniesol jahody.
 
 🦊 A?
 
-🐰 A potom som videla ražeň. A zistila som, že hosť nie som ja. Ale hlavné jedlo.
+🐰 A potom som videla ražeň. A zistila som, že nie som hosť, ale hlavné jedlo.
 
 💬 Gab mlčí. Nevie, čo povedať.
 
@@ -1679,9 +1688,9 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🐹 Pravdu.
 
-🐰 Akú pravdu? Je ich veľa. Povedať sucho, povodeň, cesta, datacentrum a baňa? To je príliš veľa.
+🐰 Akú pravdu? Je ich veľa. Máme hovoriť o suchu, povodni, ceste, datacentre aj bani? To je príliš veľa.
 
-🐹 Ak povieme len jednu vec, povedia, že sme len o jednej veci.
+🐹 Ak povieme len jednu vec, povedia, že nám ide len o jednu vec.
 
 🐻 Ak povieme päť vecí, nikto si nezapamätá nič.
 
@@ -1699,15 +1708,21 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🦊 Mám ešte jednu vec.
 
-💬 Gab otvorí kontakt a zavolá domov. Telefón zvoní dlho. Potom sa ozve ženský hlas.
+💬 Gab zavolá domov. Hovorí po francúzsky, rýchlo a dlho. Ostatní nerozumejú nič. Andrea rozumie len jedno slovo: „maman“.
 
-🦊 Mami? Ahoj. Ja som v poriadku... Áno, jedol som... Nie, nie som sám... Mami, chcem ti niečo povedať. Prídem o deň neskôr.
+🐹 Čo hovorí?
 
-💬 Po telefóne je ticho. Potom Gab povie:
+🐰 Neviem. Ale znie to ako „prosím“.
 
-🦊 Povedala, že dobre. A že mi zmení lístok na pondelok.
+💬 Gab položí telefón.
 
-🐰 Len tak?
+🦊 Prídem o deň neskôr. Mama povedala, že dobre. A že mi zmení lístok na pondelok.
+
+🐰 Letenku. Lístok je na vlak.
+
+🦊 Letenku. Ďakujem, trénerka.
+
+🐰 A mama povedala dobre? Len tak?
 
 🦊 Povedala, že aj ona mala rada dobrodružstvá, keď bola mladá.
 
@@ -1725,15 +1740,15 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 💬 Hlavná stanica. Vlak pomaly zastaví. Z okna vidno veľa budov, veľa áut a veľa ľudí.
 
-🐻 Je tu veľa ľudí.
+🦊 Je tu veľmi ľudí!
 
-🐹 Veľa. Nie veľmi.
+🐹 Veľa ľudí. Nie veľmi.
 
 🐻 Katka, nezačínaj.
 
 🐹 Ja len opravujem. Je tu aj signál. Veľmi dobrý signál.
 
-🦊 Ďakujem, trénerka.
+🦊 Teraz mám dve trénerky.
 
 🐰 Ja nie som trénerka.
 
@@ -1773,7 +1788,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🐹 Prečo?
 
-🧑 Pozrite sa na neho. Štyri veže a rovná strecha. Vyzerá ako stôl hore nohami.
+🧑 Pozrite sa na neho. Štyri veže sú ako štyri nohy. Vyzerá ako stôl hore nohami.
 
 🐻 Vyzerá ako stôl.
 
@@ -1823,13 +1838,13 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🧑 To je veľa.
 
-🐻 Chceme to povedať ľuďom. Nie sme experti. Nepoznáme čísla. Ale sme tam boli.
+🐻 Chceme to povedať ľuďom. Nie sme experti. Nepoznáme čísla. Ale boli sme tam.
 
 🧑 To je zaujímavé. Môžem vám dať päť minút. A nemám žiadnu záruku, že to niekto uvidí.
 
 🐹 Päť minút? Už teraz?
 
-🧑 Nie, dnes večer. Vysielame zo štúdia, ktoré je na hrade. Je to špeciálne vydanie o vode a počasí. Majú tam nejaké voľné miesta pre hostí.
+🧑 Nie, dnes večer. Vysielame zo štúdia, ktoré je na hrade. Je to špeciálne vydanie o vode a počasí. Máme ešte voľné miesta pre hostí.
 
 🦊 Na hrade? V televízii?
 
@@ -1875,7 +1890,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 # Kapitola 12 — Hrad
 
-*Résumé : le studio improvisé sur une terrasse du château. Maquillage (« Nepúdrujte ma ! »), trac, la rédactrice qui compte à rebours. En direct, à 19 h, chacun dit une phrase : Maťo le ruisseau, Katka l'inondation, Gab le point d'eau de Košice, Andrea la zone humide et la mine. Ils ne sauvent pas le monde ; ils demandent à être entendus. La présentatrice répond : « Počujeme vás. » Après l'émission : un message de Marek, un autre de Ján, Babka au téléphone (« jedz, Gab »), la maman de Gab. Dernière scène sur la terrasse : Gab repartira lundi, Andrea : « Teraz si tu. »*
+*Résumé : le studio improvisé sur une terrasse du château. Maquillage (« Nepúdrujte ma ! »), trac, la rédactrice qui compte à rebours. En direct, à 19 h, chacun dit une phrase : Maťo le ruisseau, Katka l'inondation, Gab le point d'eau de Košice, Andrea la zone humide et la mine. Ils ne sauvent pas le monde ; ils demandent à être entendus. La présentatrice répond : « Počujeme vás. » Après l'émission : un message de Marek, un autre de Ján et Babka au téléphone (« jedz, Gab »). Dernière scène sur la terrasse : Gab repartira lundi, Andrea : « Teraz si tu. »*
 
 ## Scéna 1
 
@@ -1887,7 +1902,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🧑 Môžete. Ale stolička je malá.
 
-🐻 Ja viem. Stále je malá.
+🐻 Ja viem. Pre mňa sú všetky stoličky malé.
 
 ## Scéna 2
 
@@ -1897,7 +1912,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🐹 Nepúdrujte ma!
 
-🧑 (vizážistka) Svetlá sú silné. Bez pudra budete lesknúť.
+🧑 (vizážistka) Svetlá sú silné. Bez pudra budete sa lesknúť.
 
 🐹 Ja sa nelesknem. Ja žiarim.
 
@@ -1965,7 +1980,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 💬 Hudba stíchne. Moderátorka sa pozrie do kamery.
 
-🧑 (moderátorka) Dobrý večer. Vitajte pri Správach STVR zo Bratislavského hradu. Dnes máme neobvyklých hostí. Prišli z východu na západ. Privítajme ich.
+🧑 (moderátorka) Dobrý večer. Vitajte pri Správach STVR z Bratislavského hradu. Dnes máme neobvyklých hostí. Prišli z východu na západ. Privítajme ich.
 
 🧑 (moderátorka) Povedzte nám, kto ste.
 
@@ -1981,7 +1996,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🐰 Cestu cez les. Datacentrum na mokradi, kde už nie sú žaby. A baňu na hore, z ktorej odišli veveričky.
 
-🦊 Nie sme experti. Nechceme povedať, kto má pravdu. Ale chceme, aby ste vedeli, že tam boli zvieratá. A boli tam ľudia. Všetci nejako tam žili.
+🦊 Nie sme experti. Nechceme povedať, kto má pravdu. Ale chceme, aby ste vedeli, že tam boli zvieratá. A boli tam ľudia. Všetci tam nejako žili.
 
 🐹 Bola voda. Potom nebola. Potom jej bolo príliš veľa.
 
@@ -2029,7 +2044,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🐰 Viem.
 
-🦊 Mama mi zmenila lístok o jeden deň. Viac nedokázala.
+🦊 Mama mi posunula letenku o jeden deň. Viac nedokázala.
 
 🐰 Je to dobrá mama.
 
@@ -2057,7 +2072,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 # Epilóg — Sen
 
-*Résumé : le lendemain des retrouvailles, à Košice. Gab se réveille sous le pommier. Andrea arrive avec de l'eau (il n'y a que trois gouttes). Il raconte son rêve (« Snívalo sa mi… »), passé composé, résumé de toute l'aventure en deux minutes : l'occasion de tout réviser. Il ajoute « un détail étrange » : une renarde, un dîner, une broche. Andrea devient silencieuse : confirmation, sans explication. Chaussettes mouillées (clin d'œil au chap. 6), la tante qui se réveille (« Andrea ? S kým hovoríš ? — S jabloňou. »). Même fil rouge : « Teraz si tu. — Uvidíme. »*
+*Résumé : le lendemain des retrouvailles, à Košice. Gab se réveille sous le pommier. Andrea arrive avec de l'eau (il n'y a que trois gouttes). Il raconte son rêve (« Snívalo sa mi… »), passé composé, résumé de toute l'aventure en deux minutes : l'occasion de tout réviser. Il ajoute « un détail étrange » : un renard, un dîner, une broche. Andrea devient silencieuse : confirmation, sans explication. Chaussettes mouillées (clin d'œil au chap. 6), la tante qui se réveille (« Andrea ? S kým hovoríš ? — S jabloňou. »). Même fil rouge : « Teraz si tu. — Uvidíme. »*
 
 ## Scéna 1
 
@@ -2111,7 +2126,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🐰 Čo?
 
-🦊 Nebolo tu sucho. Teda bolo, ale potom sme išli ďaleko. Do Raja. Do Tatier. Do Liptova. Do Bratislavy.
+🦊 Bolo tu sucho. A potom sme išli ďaleko. Do Raja. Do Tatier. Do Liptova. Do Bratislavy.
 
 🐰 Do Bratislavy? Prečo?
 
@@ -2145,7 +2160,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 ## Scéna 6
 
-🦊 Vo sne si mi povedala, že si raz uverila jednej líške. Že ťa pozvala na večeru. A že si videla ražeň.
+🦊 Vo sne si mi povedala, že si raz uverila jednému lišiakovi. Že ťa pozval na večeru. A že si videla ražeň.
 
 💬 Andrea mlčí. Chvíľu sa pozerá na jabloň.
 
@@ -2165,11 +2180,11 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 💬 Z okna zaznie hlas.
 
-🧑 (teta) Andrea? S kým rozprávaš?
+🐇 (teta) Andrea? S kým rozprávaš?
 
 🐰 S jabloňou, teta!
 
-🧑 (teta) A čo ti odpovedá?
+🐇 (teta) A čo ti odpovedá?
 
 🐰 Že je rada, že je leto.
 
