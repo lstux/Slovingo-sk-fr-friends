@@ -1,0 +1,242 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-k",
+      "type": "qcm",
+      "l1": "le panier",
+      "l2": "kôš",
+      "choices_l1": [
+        "le frigo",
+        "les mains",
+        "la nourriture"
+      ],
+      "choices_l2": [
+        "chladnička",
+        "ruky",
+        "jedlo"
+      ]
+    },
+    {
+      "id": "qcm-chladni-ka",
+      "type": "qcm",
+      "l1": "le frigo",
+      "l2": "chladnička",
+      "choices_l1": [
+        "le panier",
+        "les mains",
+        "la nourriture"
+      ],
+      "choices_l2": [
+        "kôš",
+        "ruky",
+        "jedlo"
+      ]
+    },
+    {
+      "id": "qcm-lep-ia",
+      "type": "qcm",
+      "l1": "meilleure",
+      "l2": "lepšia",
+      "choices_l1": [
+        "le plus cher, le plus précieux",
+        "invisible",
+        "enfin"
+      ],
+      "choices_l2": [
+        "najdrahšie",
+        "neviditeľná",
+        "konečne"
+      ]
+    },
+    {
+      "id": "qcm-kone-ne",
+      "type": "qcm",
+      "l1": "enfin",
+      "l2": "konečne",
+      "choices_l1": [
+        "meilleure",
+        "sauver",
+        "Ne promets pas !"
+      ],
+      "choices_l2": [
+        "lepšia",
+        "zachrániť",
+        "Neslúb!"
+      ]
+    },
+    {
+      "id": "qcm-zachr-ni",
+      "type": "qcm",
+      "l1": "sauver",
+      "l2": "zachrániť",
+      "choices_l1": [
+        "Ne promets pas !",
+        "enfin",
+        "le panier"
+      ],
+      "choices_l2": [
+        "Neslúb!",
+        "konečne",
+        "kôš"
+      ]
+    },
+    {
+      "id": "listen-nikdy-nepust-m-telef-n-nikdy",
+      "type": "listen",
+      "l1": "Je ne lâcherai jamais mon téléphone. Jamais !",
+      "l2": "Nikdy nepustím telefón. Nikdy!",
+      "choices_l1": [
+        "Je ne lâcherai jamais ton téléphone. Jamais !",
+        "Je lâche mon téléphone. Tout de suite !",
+        "Je ne lâcherai jamais le panier. Jamais !"
+      ]
+    },
+    {
+      "id": "listen-m-m-dve-ruky-telef-n-je-tretia",
+      "type": "listen",
+      "l1": "J'ai deux mains. Le téléphone, c'est la troisième.",
+      "l2": "Mám dve ruky. Telefón je tretia.",
+      "choices_l1": [
+        "J'ai trois mains. Le téléphone, c'est la quatrième.",
+        "J'ai deux mains. Le panier, c'est la troisième.",
+        "J'ai deux pieds. Le téléphone, c'est le troisième."
+      ]
+    },
+    {
+      "id": "listen-v-etko-bude-dobr",
+      "type": "listen",
+      "l1": "Tout ira bien.",
+      "l2": "Všetko bude dobré.",
+      "choices_l1": [
+        "Rien ne va.",
+        "Tout allait bien.",
+        "Tout ira mal."
+      ]
+    },
+    {
+      "id": "listen-nesl-b-o-nevie",
+      "type": "listen",
+      "l1": "Ne promets pas ce que tu ne sais pas.",
+      "l2": "Neslúb, čo nevieš.",
+      "choices_l1": [
+        "Ne dis pas ce que tu sais.",
+        "Promets ce que tu sais.",
+        "Ne promets rien à personne."
+      ]
+    },
+    {
+      "id": "listen-ja-by-som-zachr-nil-telef-n",
+      "type": "listen",
+      "l1": "Moi, je sauverais mon téléphone.",
+      "l2": "Ja by som zachránil telefón.",
+      "choices_l1": [
+        "Moi, j'ai sauvé mon téléphone.",
+        "Moi, je sauverais mon frigo.",
+        "Toi, tu sauverais ton téléphone."
+      ]
+    },
+    {
+      "id": "listen-vid-kone-ne-sa-u",
+      "type": "listen",
+      "l1": "Tu vois ? Tu apprends enfin.",
+      "l2": "Vidíš? Konečne sa učíš.",
+      "choices_l1": [
+        "Tu vois ? Tu n'apprends jamais.",
+        "Tu vois ? J'apprends enfin.",
+        "Tu entends ? Tu apprends enfin."
+      ]
+    },
+    {
+      "id": "match-k-vocab",
+      "type": "match",
+      "l1": [
+        "le panier",
+        "les mains",
+        "le frigo",
+        "enfin"
+      ],
+      "l2": [
+        "kôš",
+        "ruky",
+        "chladnička",
+        "konečne"
+      ]
+    },
+    {
+      "id": "blank-ale-moja-je-lep-ia",
+      "type": "fill-blank",
+      "l1": "Mais le mien est meilleur.",
+      "l2": "Ale moja je lepšia.",
+      "missing_l1": "meilleur",
+      "missing_l2": "lepšia",
+      "blank_index_l1": 4,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "pire",
+        "grand",
+        "petit"
+      ],
+      "choices_l2": [
+        "horšia",
+        "veľká",
+        "malá"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-chladni-ku-nepotrebuje-v-kole-je-jedlo",
+      "type": "fill-blank",
+      "l1": "Tu n'as pas besoin de frigo. À l'école, il y a de la nourriture.",
+      "l2": "Chladničku nepotrebuješ. V škole je jedlo.",
+      "missing_l1": "nourriture",
+      "missing_l2": "jedlo",
+      "blank_index_l1": 13,
+      "blank_index_l2": 5,
+      "choices_l1": [
+        "place",
+        "soupe",
+        "lumière"
+      ],
+      "choices_l2": [
+        "voda",
+        "polievka",
+        "čaj"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-nechajte-ju-ka-d-zachra-uje-o-je-mu-najdrah-ie",
+      "type": "order",
+      "l1": "Laissez-la. Chacun sauve ce qui lui est le plus cher.",
+      "l2": "Nechajte ju. Každý zachraňuje, čo je mu najdrahšie.",
+      "tokens_l1": [
+        "Laissez-la.",
+        "Chacun sauve",
+        "ce qui lui est le plus cher."
+      ],
+      "tokens_l2": [
+        "Nechajte ju.",
+        "Každý zachraňuje,",
+        "čo je mu najdrahšie."
+      ]
+    },
+    {
+      "id": "order-tak-aspo-teraz-bude-dobre",
+      "type": "order",
+      "l1": "Alors, au moins, ça ira bien maintenant.",
+      "l2": "Tak aspoň teraz bude dobre.",
+      "tokens_l1": [
+        "Alors, au moins,",
+        "ça ira bien",
+        "maintenant."
+      ],
+      "tokens_l2": [
+        "Tak",
+        "aspoň teraz",
+        "bude dobre."
+      ]
+    }
+  ]
+}

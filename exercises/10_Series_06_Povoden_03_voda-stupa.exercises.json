@@ -1,0 +1,231 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-irok",
+      "type": "qcm",
+      "l1": "large",
+      "l2": "široké",
+      "choices_l1": [
+        "marron",
+        "d'après, selon",
+        "flotte, nage"
+      ],
+      "choices_l2": [
+        "hnedé",
+        "podľa",
+        "pláva"
+      ]
+    },
+    {
+      "id": "qcm-hned",
+      "type": "qcm",
+      "l1": "marron",
+      "l2": "hnedé",
+      "choices_l1": [
+        "large",
+        "monte (en ce moment)",
+        "le chien"
+      ],
+      "choices_l2": [
+        "široké",
+        "stúpa",
+        "pes"
+      ]
+    },
+    {
+      "id": "qcm-pes",
+      "type": "qcm",
+      "l1": "le chien",
+      "l2": "pes",
+      "choices_l1": [
+        "flotte, nage",
+        "le mètre",
+        "ouais"
+      ],
+      "choices_l2": [
+        "pláva",
+        "meter",
+        "hej"
+      ]
+    },
+    {
+      "id": "qcm-st-pne",
+      "type": "qcm",
+      "l1": "va monter (une fois)",
+      "l2": "stúpne",
+      "choices_l1": [
+        "monte (en ce moment)",
+        "flotte, nage",
+        "j'espère que"
+      ],
+      "choices_l2": [
+        "stúpa",
+        "pláva",
+        "dúfam, že"
+      ]
+    },
+    {
+      "id": "qcm-d-fam-e",
+      "type": "qcm",
+      "l1": "j'espère que",
+      "l2": "dúfam, že",
+      "choices_l1": [
+        "d'après, selon",
+        "jusqu'aux maisons",
+        "ouais"
+      ],
+      "choices_l2": [
+        "podľa",
+        "až pri domoch",
+        "hej"
+      ]
+    },
+    {
+      "id": "listen-pozri-voda-je-a-pri-domoch",
+      "type": "listen",
+      "l1": "Regarde ! L'eau arrive jusqu'aux maisons !",
+      "l2": "Pozri! Voda je až pri domoch!",
+      "choices_l1": [
+        "Regarde ! L'eau arrive jusqu'à l'école !",
+        "Écoute ! L'eau arrive jusqu'aux maisons !",
+        "Regarde ! Il n'y a plus d'eau près des maisons !"
+      ]
+    },
+    {
+      "id": "listen-pod-a-aplik-cie-st-pne-e-te-o-meter",
+      "type": "listen",
+      "l1": "D'après l'appli, elle va encore monter d'un mètre.",
+      "l2": "Podľa aplikácie stúpne ešte o meter.",
+      "choices_l1": [
+        "D'après l'appli, elle va baisser d'un mètre.",
+        "D'après la radio, elle va encore monter d'un mètre.",
+        "D'après l'appli, elle va encore monter de deux mètres."
+      ]
+    },
+    {
+      "id": "listen-o-meter-to-je-ve-a",
+      "type": "listen",
+      "l1": "D'un mètre ? C'est beaucoup.",
+      "l2": "O meter? To je veľa.",
+      "choices_l1": [
+        "D'un mètre ? C'est peu.",
+        "De deux mètres ? C'est beaucoup.",
+        "D'un mètre ? C'est normal."
+      ]
+    },
+    {
+      "id": "listen-d-fam-e-pes-je-v-dome",
+      "type": "listen",
+      "l1": "J'espère que le chien est dans la maison.",
+      "l2": "Dúfam, že pes je v dome.",
+      "choices_l1": [
+        "J'espère que le chien est dans la niche.",
+        "Je sais que le chien est dans la maison.",
+        "J'espère que le chat est dans la maison."
+      ]
+    },
+    {
+      "id": "listen-d-fam-e-pes-vie-pl-va",
+      "type": "listen",
+      "l1": "J'espère que le chien sait nager.",
+      "l2": "Dúfam, že pes vie plávať.",
+      "choices_l1": [
+        "J'espère que le chien sait voler.",
+        "Je sais que le chien sait nager.",
+        "J'espère que le chien n'a pas peur."
+      ]
+    },
+    {
+      "id": "match-irok-vocab",
+      "type": "match",
+      "l1": [
+        "large",
+        "marron",
+        "le chien",
+        "ouais"
+      ],
+      "l2": [
+        "široké",
+        "hnedé",
+        "pes",
+        "hej"
+      ]
+    },
+    {
+      "id": "blank-vie-pl-va-hej",
+      "type": "fill-blank",
+      "l1": "Tu sais nager ? Ouais.",
+      "l2": "Vieš plávať? Hej.",
+      "missing_l1": "nager",
+      "missing_l2": "plávať",
+      "blank_index_l1": 2,
+      "blank_index_l2": 1,
+      "choices_l1": [
+        "dormir",
+        "boire",
+        "manger"
+      ],
+      "choices_l2": [
+        "spať",
+        "piť",
+        "jesť"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-voda-st-pla-o-meter",
+      "type": "fill-blank",
+      "l1": "L'eau est montée d'un mètre.",
+      "l2": "Voda stúpla o meter.",
+      "missing_l1": "mètre",
+      "missing_l2": "meter",
+      "blank_index_l1": 4,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "jour",
+        "an",
+        "mois"
+      ],
+      "choices_l2": [
+        "deň",
+        "rok",
+        "týždeň"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-pod-a-aplik-cie-st-pne-e-te-o-meter",
+      "type": "order",
+      "l1": "D'après l'appli, elle va encore monter d'un mètre.",
+      "l2": "Podľa aplikácie stúpne ešte o meter.",
+      "tokens_l1": [
+        "D'après l'appli,",
+        "elle va encore monter",
+        "d'un mètre."
+      ],
+      "tokens_l2": [
+        "Podľa aplikácie",
+        "stúpne ešte",
+        "o meter."
+      ]
+    },
+    {
+      "id": "order-d-fam-e-pes-vie-pl-va",
+      "type": "order",
+      "l1": "J'espère que le chien sait nager.",
+      "l2": "Dúfam, že pes vie plávať.",
+      "tokens_l1": [
+        "J'espère",
+        "que le chien",
+        "sait nager."
+      ],
+      "tokens_l2": [
+        "Dúfam,",
+        "že pes",
+        "vie plávať."
+      ]
+    }
+  ]
+}

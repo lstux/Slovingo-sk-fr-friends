@@ -1,0 +1,189 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "listen-to-ko-zvierat-na-jednom-mieste-som-e-te-nevidel",
+      "type": "listen",
+      "l1": "Je n'ai jamais vu autant d'animaux au même endroit.",
+      "l2": "Toľko zvierat na jednom mieste som ešte nevidel.",
+      "choices_l1": [
+        "Je n'ai jamais vu aussi peu d'animaux au même endroit.",
+        "J'ai déjà vu autant d'animaux au même endroit.",
+        "Je n'ai jamais vu autant d'eau au même endroit."
+      ]
+    },
+    {
+      "id": "listen-akujem-to-je-od-v-s-mil",
+      "type": "listen",
+      "l1": "Merci, c'est gentil à vous.",
+      "l2": "Ďakujem, to je od vás milé.",
+      "choices_l1": [
+        "Merci, c'est gentil à toi.",
+        "Non merci, je n'ai pas soif.",
+        "Merci, c'est très chaud."
+      ]
+    },
+    {
+      "id": "listen-po-kaj-najprv-ty",
+      "type": "listen",
+      "l1": "Attends. Toi d'abord.",
+      "l2": "Počkaj. Najprv ty.",
+      "choices_l1": [
+        "Attends. Moi d'abord.",
+        "Viens. Toi d'abord.",
+        "Attends. Toi ensuite."
+      ]
+    },
+    {
+      "id": "listen-no-som-len-unaven",
+      "type": "listen",
+      "l1": "Oui. Je suis juste fatiguée.",
+      "l2": "Áno. Som len unavená.",
+      "choices_l1": [
+        "Oui. Je suis juste contente.",
+        "Non. Je ne suis pas fatiguée.",
+        "Oui. Je suis juste mouillée."
+      ]
+    },
+    {
+      "id": "listen-to-nie-je-za-o-st-le-je-tu-miesto",
+      "type": "listen",
+      "l1": "Il n'y a pas de quoi. Il y a encore de la place ?",
+      "l2": "To nie je za čo. Stále je tu miesto?",
+      "choices_l1": [
+        "Il n'y a pas de quoi. Il y a encore de la soupe ?",
+        "Merci beaucoup. Il y a encore de la place ?",
+        "Il n'y a pas de quoi. Il n'y a plus de place ?"
+      ]
+    },
+    {
+      "id": "listen-neviem-ale-niekto-by-to-mal-poveda",
+      "type": "listen",
+      "l1": "Je ne sais pas. Mais quelqu'un devrait le dire.",
+      "l2": "Neviem. Ale niekto by to mal povedať.",
+      "choices_l1": [
+        "Je sais. Mais personne ne devrait le dire.",
+        "Je ne sais pas. Mais quelqu'un l'a dit.",
+        "Je ne sais pas. Mais quelqu'un devrait écouter."
+      ]
+    },
+    {
+      "id": "listen-ani-ja-tak-e-to-m-eme-zisti-spolu",
+      "type": "listen",
+      "l1": "Moi non plus. Donc on peut le découvrir ensemble.",
+      "l2": "Ani ja. Takže to môžeme zistiť spolu.",
+      "choices_l1": [
+        "Moi aussi. Donc on peut le découvrir ensemble.",
+        "Moi non plus. Donc on ne peut pas y aller.",
+        "Moi non plus. Donc tu peux y aller seule."
+      ]
+    },
+    {
+      "id": "match-st-pa-vocab",
+      "type": "match",
+      "l1": [
+        "monte (en ce moment)",
+        "va monter (une fois)",
+        "aider",
+        "sauver"
+      ],
+      "l2": [
+        "stúpa",
+        "stúpne",
+        "pomôcť",
+        "zachrániť"
+      ]
+    },
+    {
+      "id": "match-tra-nouns",
+      "type": "match",
+      "l1": [
+        "la voie ferrée",
+        "le pompier",
+        "le frigo",
+        "le panier"
+      ],
+      "l2": [
+        "trať",
+        "hasič",
+        "chladnička",
+        "kôš"
+      ]
+    },
+    {
+      "id": "blank-dobr-ve-er-hasi-i-mi-povedali-e-ste-pom-hali-ve-mi-v-m-akujem",
+      "type": "fill-blank",
+      "l1": "Bonsoir. Les pompiers m'ont dit que vous avez aidé. Merci beaucoup.",
+      "l2": "Dobrý večer. Hasiči mi povedali, že ste pomáhali. Veľmi vám ďakujem.",
+      "missing_l1": "pompiers",
+      "missing_l2": "Hasiči",
+      "blank_index_l1": 2,
+      "blank_index_l2": 2,
+      "choices_l1": [
+        "moutons",
+        "enfants",
+        "gens"
+      ],
+      "choices_l2": [
+        "Ovce",
+        "Deti",
+        "Ľudia"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-ja-som-tam-nebola-nikdy",
+      "type": "fill-blank",
+      "l1": "Je n'y suis jamais allée.",
+      "l2": "Ja som tam nebola nikdy.",
+      "missing_l1": "jamais",
+      "missing_l2": "nikdy",
+      "blank_index_l1": 3,
+      "blank_index_l2": 4,
+      "choices_l1": [
+        "toujours",
+        "encore",
+        "souvent"
+      ],
+      "choices_l2": [
+        "vždy",
+        "stále",
+        "zase"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-dva-mesiace-sucho-a-potom-toto-o-sa-to-s-t-m-svetom-deje",
+      "type": "order",
+      "l1": "Deux mois de sécheresse. Et ensuite ça. Mais qu'est-ce qui arrive à ce monde ?",
+      "l2": "Dva mesiace sucho. A potom toto. Čo sa to s tým svetom deje?",
+      "tokens_l1": [
+        "Deux mois de sécheresse.",
+        "Et ensuite ça.",
+        "Mais qu'est-ce qui arrive à ce monde ?"
+      ],
+      "tokens_l2": [
+        "Dva mesiace sucho.",
+        "A potom toto.",
+        "Čo sa to s tým svetom deje?"
+      ]
+    },
+    {
+      "id": "order-tak-m-eme-s-do-bratislavy",
+      "type": "order",
+      "l1": "Alors on peut aller à Bratislava.",
+      "l2": "Tak môžeme ísť do Bratislavy.",
+      "tokens_l1": [
+        "Alors",
+        "on peut aller",
+        "à Bratislava."
+      ],
+      "tokens_l2": [
+        "Tak",
+        "môžeme ísť",
+        "do Bratislavy."
+      ]
+    }
+  ]
+}

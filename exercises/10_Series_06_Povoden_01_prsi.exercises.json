@@ -1,0 +1,231 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-pred-t-d-om",
+      "type": "qcm",
+      "l1": "il y a une semaine",
+      "l2": "pred týždňom",
+      "choices_l1": [
+        "trois jours",
+        "le troisième jour",
+        "soudain"
+      ],
+      "choices_l2": [
+        "tri dni",
+        "tretí deň",
+        "zrazu"
+      ]
+    },
+    {
+      "id": "qcm-v-bec",
+      "type": "qcm",
+      "l1": "du tout",
+      "l2": "vôbec",
+      "choices_l1": [
+        "au fait, en fait",
+        "soudain",
+        "intelligente, sage"
+      ],
+      "choices_l2": [
+        "vlastne",
+        "zrazu",
+        "múdra"
+      ]
+    },
+    {
+      "id": "qcm-zrazu",
+      "type": "qcm",
+      "l1": "soudain",
+      "l2": "zrazu",
+      "choices_l1": [
+        "du tout",
+        "au fait, en fait",
+        "il y a une semaine"
+      ],
+      "choices_l2": [
+        "vôbec",
+        "vlastne",
+        "pred týždňom"
+      ]
+    },
+    {
+      "id": "qcm-vlastne",
+      "type": "qcm",
+      "l1": "au fait, en fait",
+      "l2": "vlastne",
+      "choices_l1": [
+        "soudain",
+        "du tout",
+        "intelligente, sage"
+      ],
+      "choices_l2": [
+        "zrazu",
+        "vôbec",
+        "múdra"
+      ]
+    },
+    {
+      "id": "qcm-t-de",
+      "type": "qcm",
+      "l1": "la semaine",
+      "l2": "týždeň",
+      "choices_l1": [
+        "le mois",
+        "l'année, l'an",
+        "le jour"
+      ],
+      "choices_l2": [
+        "mesiac",
+        "rok",
+        "deň"
+      ]
+    },
+    {
+      "id": "listen-tri-dni-tri-dni-pr-alo-a-pred-t-d-om-nepr-alo-v-bec",
+      "type": "listen",
+      "l1": "Trois jours. Trois jours de pluie, et il y a une semaine, pas une goutte.",
+      "l2": "Tri dni. Tri dni pršalo a pred týždňom nepršalo vôbec.",
+      "choices_l1": [
+        "Trois jours. Trois jours de soleil, et il y a une semaine, de la pluie.",
+        "Deux jours. Deux jours de pluie, et il y a un mois, pas une goutte.",
+        "Trois jours. Trois jours de pluie, et demain, encore de la pluie."
+      ]
+    },
+    {
+      "id": "listen-po-asie-sa-zbl-znilo",
+      "type": "listen",
+      "l1": "Le temps est devenu fou.",
+      "l2": "Počasie sa zbláznilo.",
+      "choices_l1": [
+        "Le temps est magnifique.",
+        "Le train est devenu fou.",
+        "Le temps va changer."
+      ]
+    },
+    {
+      "id": "listen-to-bola-ve-mi-m-dra-veta-na-l-ku",
+      "type": "listen",
+      "l1": "C'était une phrase très intelligente. Pour un renard.",
+      "l2": "To bola veľmi múdra veta. Na líšku.",
+      "choices_l1": [
+        "C'était une phrase très bête. Pour un renard.",
+        "C'était une question très intelligente. Pour un ours.",
+        "C'est une phrase très intelligente. Bravo."
+      ]
+    },
+    {
+      "id": "listen-pri-liptovskej-mare-je-to-ve-k-jazero-voda-je-tam-v-dy",
+      "type": "listen",
+      "l1": "À Liptovská Mara. C'est un grand lac. Il y a toujours de l'eau.",
+      "l2": "Pri Liptovskej Mare. Je to veľké jazero. Voda je tam vždy.",
+      "choices_l1": [
+        "À Liptovská Mara. C'est une petite rivière. Il y a toujours de l'eau.",
+        "À Liptovská Mara. C'est un grand lac. Il n'y a jamais d'eau.",
+        "À Košice. C'est un grand lac. Il y a toujours de l'eau."
+      ]
+    },
+    {
+      "id": "listen-alebo-bola",
+      "type": "listen",
+      "l1": "Ou il y en avait.",
+      "l2": "Alebo bola.",
+      "choices_l1": [
+        "Ou il y en aura.",
+        "Et il y en a.",
+        "Ou pas du tout."
+      ]
+    },
+    {
+      "id": "match-t-de-vocab",
+      "type": "match",
+      "l1": [
+        "la semaine",
+        "le mois",
+        "l'année, l'an",
+        "le jour"
+      ],
+      "l2": [
+        "týždeň",
+        "mesiac",
+        "rok",
+        "deň"
+      ]
+    },
+    {
+      "id": "blank-t-de-m-sedem-dn",
+      "type": "fill-blank",
+      "l1": "Une semaine a sept jours.",
+      "l2": "Týždeň má sedem dní.",
+      "missing_l1": "jours",
+      "missing_l2": "dní",
+      "blank_index_l1": 4,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "mois",
+        "ans",
+        "heures"
+      ],
+      "choices_l2": [
+        "dni",
+        "deň",
+        "rokov"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-kde-vlastne-sme",
+      "type": "fill-blank",
+      "l1": "On est où, au fait ?",
+      "l2": "Kde vlastne sme?",
+      "missing_l1": "fait",
+      "missing_l2": "vlastne",
+      "blank_index_l1": 4,
+      "blank_index_l2": 1,
+      "choices_l1": [
+        "moins",
+        "plus",
+        "vrai"
+      ],
+      "choices_l2": [
+        "zrazu",
+        "vôbec",
+        "ešte"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-e-te-v-liptove-e-te-dve-zast-vky-a-sme-pri-mare",
+      "type": "order",
+      "l1": "Encore dans le Liptov. Encore deux arrêts et on est à la Mara.",
+      "l2": "Ešte v Liptove. Ešte dve zastávky a sme pri Mare.",
+      "tokens_l1": [
+        "Encore dans le Liptov.",
+        "Encore deux arrêts",
+        "et on est à la Mara."
+      ],
+      "tokens_l2": [
+        "Ešte v Liptove.",
+        "Ešte dve zastávky",
+        "a sme pri Mare."
+      ]
+    },
+    {
+      "id": "order-rok-m-dvan-s-mesiacov",
+      "type": "order",
+      "l1": "Une année a douze mois.",
+      "l2": "Rok má dvanásť mesiacov.",
+      "tokens_l1": [
+        "Une année",
+        "a douze",
+        "mois."
+      ],
+      "tokens_l2": [
+        "Rok",
+        "má dvanásť",
+        "mesiacov."
+      ]
+    }
+  ]
+}

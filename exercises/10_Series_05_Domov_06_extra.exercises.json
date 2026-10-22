@@ -1,0 +1,178 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "listen-idem-s-vami",
+      "type": "listen",
+      "l1": "Je viens avec vous.",
+      "l2": "Idem s vami.",
+      "choices_l1": [
+        "Je viens avec toi.",
+        "Je reste ici.",
+        "Venez avec moi."
+      ]
+    },
+    {
+      "id": "listen-ak-povie-mal-idem-sama",
+      "type": "listen",
+      "l1": "Si tu dis « petite », j'y vais toute seule.",
+      "l2": "Ak povieš „malá“, idem sama.",
+      "choices_l1": [
+        "Si tu dis « petite », je reste ici.",
+        "Si tu dis « grande », j'y vais toute seule.",
+        "Si tu dis « petite », je pleure."
+      ]
+    },
+    {
+      "id": "listen-ja-idem-tie-niekto-mus-nies-batohy",
+      "type": "listen",
+      "l1": "Moi aussi, je viens. Il faut bien que quelqu'un porte les sacs.",
+      "l2": "Ja idem tiež. Niekto musí niesť batohy.",
+      "choices_l1": [
+        "Moi, je ne viens pas. Il faut bien que quelqu'un reste ici.",
+        "Moi aussi, je viens. Il faut bien que quelqu'un porte Katka.",
+        "Moi aussi, je viens. Personne ne porte les sacs."
+      ]
+    },
+    {
+      "id": "listen-vezmite-si-bundy-a-apice-a-pono-ky-pono-ky-s-d-le-it",
+      "type": "listen",
+      "l1": "Prenez des vestes. Et des bonnets. Et des chaussettes. Les chaussettes, c'est important.",
+      "l2": "Vezmite si bundy. A čapice. A ponožky. Ponožky sú dôležité.",
+      "choices_l1": [
+        "Prenez des vestes. Et des bonnets. Et des bouteilles. Les bouteilles, c'est important.",
+        "Prenez des sacs. Et des cartes. Et des chaussettes. Les chaussettes, c'est important.",
+        "Prenez des vestes. Et des bonnets. Et des chaussettes. Le thé, c'est important."
+      ]
+    },
+    {
+      "id": "listen-nepri-iel-si-so-mnou-pri-iel-si-s-m-a-ja-som-tu-bola",
+      "type": "listen",
+      "l1": "Tu n'es pas venu avec moi. Tu es venu tout seul. Et moi, j'étais là.",
+      "l2": "Neprišiel si so mnou. Prišiel si sám. A ja som tu bola.",
+      "choices_l1": [
+        "Tu es venu avec moi. Tu n'es pas venu seul. Et moi, j'étais là.",
+        "Tu n'es pas venu avec moi. Tu es venu avec Maťo. Et moi, j'étais là.",
+        "Tu n'es pas venu avec moi. Tu es venu tout seul. Et moi, je n'étais pas là."
+      ]
+    },
+    {
+      "id": "listen-ni-zabudni",
+      "type": "listen",
+      "l1": "Rien. Oublie.",
+      "l2": "Nič. Zabudni.",
+      "choices_l1": [
+        "Rien. Dors.",
+        "Tout. Écoute.",
+        "Rien. Attends."
+      ]
+    },
+    {
+      "id": "match-vtedy-vocab",
+      "type": "match",
+      "l1": [
+        "à l'époque, alors",
+        "avant",
+        "quand",
+        "toujours, encore"
+      ],
+      "l2": [
+        "vtedy",
+        "predtým",
+        "keď",
+        "stále"
+      ]
+    },
+    {
+      "id": "match-s-words",
+      "type": "match",
+      "l1": [
+        "avec",
+        "sans",
+        "petite",
+        "grande"
+      ],
+      "l2": [
+        "s",
+        "bez",
+        "malá",
+        "veľká"
+      ]
+    },
+    {
+      "id": "blank-idem-s-vami",
+      "type": "fill-blank",
+      "l1": "Je viens avec vous.",
+      "l2": "Idem s vami.",
+      "missing_l1": "vous",
+      "missing_l2": "vami",
+      "blank_index_l1": 3,
+      "blank_index_l2": 2,
+      "choices_l1": [
+        "toi",
+        "moi",
+        "nous"
+      ],
+      "choices_l2": [
+        "tebou",
+        "mnou",
+        "nami"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-to-nie-je-to-ist-ale-dobre",
+      "type": "fill-blank",
+      "l1": "Ce n'est pas pareil. Mais d'accord.",
+      "l2": "To nie je to isté. Ale dobre.",
+      "missing_l1": "d'accord",
+      "missing_l2": "dobre",
+      "blank_index_l1": 5,
+      "blank_index_l2": 6,
+      "choices_l1": [
+        "pareil",
+        "aussi",
+        "vrai"
+      ],
+      "choices_l2": [
+        "zle",
+        "ďalej",
+        "tiež"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-nepri-iel-si-so-mnou-pri-iel-si-s-m-a-ja-som-tu-bola",
+      "type": "order",
+      "l1": "Tu n'es pas venu avec moi. Tu es venu tout seul. Et moi, j'étais là.",
+      "l2": "Neprišiel si so mnou. Prišiel si sám. A ja som tu bola.",
+      "tokens_l1": [
+        "Tu n'es pas venu avec moi.",
+        "Tu es venu tout seul.",
+        "Et moi, j'étais là."
+      ],
+      "tokens_l2": [
+        "Neprišiel si so mnou.",
+        "Prišiel si sám.",
+        "A ja som tu bola."
+      ]
+    },
+    {
+      "id": "order-na-konci-leta-mus-m-s-domov-andrea",
+      "type": "order",
+      "l1": "À la fin de l'été, je dois rentrer chez moi, Andrea.",
+      "l2": "Na konci leta musím ísť domov, Andrea.",
+      "tokens_l1": [
+        "À la fin de l'été,",
+        "je dois rentrer chez moi,",
+        "Andrea."
+      ],
+      "tokens_l2": [
+        "Na konci leta",
+        "musím ísť domov,",
+        "Andrea."
+      ]
+    }
+  ]
+}

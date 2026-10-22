@@ -59,6 +59,7 @@ Chaque chapitre doit pouvoir se lire d'un trait en enchaînant les fiches 01 à 
 - Dans la bêta, **Andrea est fixe, en dur**, et le cours est écrit pour des **garçons** (Gab). Pas de « Gabo » écrit en dur dans les dialogues : avec un prénom saisi par l'élève, il serait faux.
 - Un prénom saisi **ne se décline pas** : on l'emploie pour appeler quelqu'un ou comme sujet (*Ahoj, [USER_NAME]!*, *[USER_NAME] je v električke*), jamais à l'accusatif ni au datif (*pre Gaba*, *Gabovi*…).
 - Le marqueur de locuteur va **après** le `!` : `! 🐰 Ahoj!` (jamais `🐰 ! Ahoj`).
+- Le marqueur est **un seul bloc d'émojis, sans lettre** : le moteur lit à voix haute tout ce qui suit. Pas de « (fonction) » après l'émoji dans une fiche : quand deux personnages partagent un animal, on colle un deuxième émoji (`🦊🦺` la renarde bénévole), et le Narrateur présente le personnage.
 
 ## 4. Genre
 

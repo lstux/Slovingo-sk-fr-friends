@@ -1,0 +1,220 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-prekvapenie",
+      "type": "qcm",
+      "l1": "la surprise",
+      "l2": "prekvapenie",
+      "choices_l1": [
+        "à l'époque, alors",
+        "toujours, encore",
+        "tranquilles"
+      ],
+      "choices_l2": [
+        "vtedy",
+        "stále",
+        "pokojné"
+      ]
+    },
+    {
+      "id": "qcm-vtedy",
+      "type": "qcm",
+      "l1": "à l'époque, alors",
+      "l2": "vtedy",
+      "choices_l1": [
+        "toujours, encore",
+        "déjà",
+        "j'ai besoin"
+      ],
+      "choices_l2": [
+        "stále",
+        "už",
+        "potrebujem"
+      ]
+    },
+    {
+      "id": "qcm-st-le",
+      "type": "qcm",
+      "l1": "toujours, encore",
+      "l2": "stále",
+      "choices_l1": [
+        "à l'époque, alors",
+        "déjà",
+        "tranquilles"
+      ],
+      "choices_l2": [
+        "vtedy",
+        "už",
+        "pokojné"
+      ]
+    },
+    {
+      "id": "qcm-potrebujem",
+      "type": "qcm",
+      "l1": "j'ai besoin",
+      "l2": "potrebujem",
+      "choices_l1": [
+        "elle sera contente",
+        "Venez !",
+        "en bonne santé (dit d'une fille)"
+      ],
+      "choices_l2": [
+        "poteší sa",
+        "Poďte!",
+        "zdravá"
+      ]
+    },
+    {
+      "id": "qcm-medve",
+      "type": "qcm",
+      "l1": "l'ours",
+      "l2": "medveď",
+      "choices_l1": [
+        "la brebis, le mouton",
+        "la maison",
+        "la surprise"
+      ],
+      "choices_l2": [
+        "ovca",
+        "dom",
+        "prekvapenie"
+      ]
+    },
+    {
+      "id": "listen-p-rokov-ma-o-ty-si-ve-k-ako-dom",
+      "type": "listen",
+      "l1": "Cinq ans, Maťo ! Tu es grand comme une maison !",
+      "l2": "Päť rokov, Maťo! Ty si veľký ako dom!",
+      "choices_l1": [
+        "Cinq ans, Maťo ! Tu es petit comme une souris !",
+        "Quinze ans, Maťo ! Tu es grand comme une maison !",
+        "Cinq ans, Maťo ! Tu es grand comme un ours !"
+      ]
+    },
+    {
+      "id": "listen-ty-si-bol-mal-ja-som-bol-u-vtedy-ve-k",
+      "type": "listen",
+      "l1": "Toi, tu étais petit. Moi, j'étais déjà grand à l'époque.",
+      "l2": "Ty si bol malý. Ja som bol už vtedy veľký.",
+      "choices_l1": [
+        "Toi, tu étais grand. Moi, j'étais petit à l'époque.",
+        "Toi, tu es petit. Moi, je suis déjà grand.",
+        "Toi, tu étais petit. Moi aussi, à l'époque."
+      ]
+    },
+    {
+      "id": "listen-dobre-ovce-s-pokojn-babka-je-zdrav-o-viac-potrebujem",
+      "type": "listen",
+      "l1": "Bien. Les moutons sont tranquilles, mamie va bien. Que demander de plus ?",
+      "l2": "Dobre. Ovce sú pokojné, babka je zdravá. Čo viac potrebujem?",
+      "choices_l1": [
+        "Bien. Les moutons sont fatigués, mamie va bien. Que demander de plus ?",
+        "Bien. Les moutons sont tranquilles, mamie est malade. Que faire ?",
+        "Bien. Les moutons sont tranquilles, maman va bien. Que demander de plus ?"
+      ]
+    },
+    {
+      "id": "listen-ovce-s-st-le-ovce",
+      "type": "listen",
+      "l1": "Les moutons sont toujours des moutons.",
+      "l2": "Ovce sú stále ovce.",
+      "choices_l1": [
+        "Les moutons sont toujours là.",
+        "Les moutons ne sont plus des moutons.",
+        "Les moutons sont tranquilles."
+      ]
+    },
+    {
+      "id": "match-prekvapenie-vocab",
+      "type": "match",
+      "l1": [
+        "la surprise",
+        "à l'époque, alors",
+        "toujours, encore",
+        "j'ai besoin"
+      ],
+      "l2": [
+        "prekvapenie",
+        "vtedy",
+        "stále",
+        "potrebujem"
+      ]
+    },
+    {
+      "id": "blank-po-te-babka-sa-pote",
+      "type": "fill-blank",
+      "l1": "Venez. Mamie sera ravie.",
+      "l2": "Poďte. Babka sa poteší.",
+      "missing_l1": "Venez",
+      "missing_l2": "Poďte",
+      "blank_index_l1": 0,
+      "blank_index_l2": 0,
+      "choices_l1": [
+        "Attendez",
+        "Regardez",
+        "Restez"
+      ],
+      "choices_l2": [
+        "Poď",
+        "Počkaj",
+        "Pozri"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-ovca-je-na-l-ke",
+      "type": "fill-blank",
+      "l1": "La brebis est dans le pré.",
+      "l2": "Ovca je na lúke.",
+      "missing_l1": "brebis",
+      "missing_l2": "Ovca",
+      "blank_index_l1": 1,
+      "blank_index_l2": 0,
+      "choices_l1": [
+        "tante",
+        "souris",
+        "renarde"
+      ],
+      "choices_l2": [
+        "Medveď",
+        "Teta",
+        "Kačica"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-ty-si-bol-mal-ja-som-bol-u-vtedy-ve-k",
+      "type": "order",
+      "l1": "Toi, tu étais petit. Moi, j'étais déjà grand à l'époque.",
+      "l2": "Ty si bol malý. Ja som bol už vtedy veľký.",
+      "tokens_l1": [
+        "Toi, tu étais petit.",
+        "Moi, j'étais",
+        "déjà grand à l'époque."
+      ],
+      "tokens_l2": [
+        "Ty si bol malý.",
+        "Ja som bol",
+        "už vtedy veľký."
+      ]
+    },
+    {
+      "id": "order-medve-je-ve-k-ako-dom",
+      "type": "order",
+      "l1": "L'ours est grand comme une maison.",
+      "l2": "Medveď je veľký ako dom.",
+      "tokens_l1": [
+        "L'ours",
+        "est grand",
+        "comme une maison."
+      ],
+      "tokens_l2": [
+        "Medveď",
+        "je veľký",
+        "ako dom."
+      ]
+    }
+  ]
+}

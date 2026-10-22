@@ -1,0 +1,222 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-obchod",
+      "type": "qcm",
+      "l1": "le magasin",
+      "l2": "obchod",
+      "choices_l1": [
+        "le pré",
+        "les moutons, les brebis",
+        "avant"
+      ],
+      "choices_l2": [
+        "lúka",
+        "ovce",
+        "predtým"
+      ]
+    },
+    {
+      "id": "qcm-predt-m",
+      "type": "qcm",
+      "l1": "avant",
+      "l2": "predtým",
+      "choices_l1": [
+        "vous mentez",
+        "il cherche, elle cherche",
+        "petit (dit d'un garçon)"
+      ],
+      "choices_l2": [
+        "klamete",
+        "hľadá",
+        "malý"
+      ]
+    },
+    {
+      "id": "qcm-klamete",
+      "type": "qcm",
+      "l1": "vous mentez",
+      "l2": "klamete",
+      "choices_l1": [
+        "vous avez grandi",
+        "vous n'avez pas changé",
+        "il cherche, elle cherche"
+      ],
+      "choices_l2": [
+        "vyrástli ste",
+        "nezmenili ste sa",
+        "hľadá"
+      ]
+    },
+    {
+      "id": "qcm-l-ka",
+      "type": "qcm",
+      "l1": "le pré",
+      "l2": "lúka",
+      "choices_l1": [
+        "le magasin",
+        "les moutons, les brebis",
+        "l'été"
+      ],
+      "choices_l2": [
+        "obchod",
+        "ovce",
+        "leto"
+      ]
+    },
+    {
+      "id": "qcm-vyr-stli-ste",
+      "type": "qcm",
+      "l1": "vous avez grandi",
+      "l2": "vyrástli ste",
+      "choices_l1": [
+        "vous n'avez pas changé",
+        "vous mentez",
+        "avant"
+      ],
+      "choices_l2": [
+        "nezmenili ste sa",
+        "klamete",
+        "predtým"
+      ]
+    },
+    {
+      "id": "listen-je-i-ve-ste-vyr-stli-predt-m-ste-boli-tak-mal",
+      "type": "listen",
+      "l1": "Mon Dieu ! Mais vous avez grandi ! Avant, vous étiez si petit.",
+      "l2": "Ježiš! Veď ste vyrástli! Predtým ste boli taký malý.",
+      "choices_l1": [
+        "Mon Dieu ! Mais vous n'avez pas changé ! Avant, vous étiez si petit.",
+        "Mon Dieu ! Mais tu as grandi ! Avant, tu étais si grand.",
+        "Mon Dieu ! Mais vous avez grandi ! Maintenant, vous êtes si grand."
+      ]
+    },
+    {
+      "id": "listen-a-vy-ste-sa-v-bec-nezmenili",
+      "type": "listen",
+      "l1": "Et vous, vous n'avez pas changé du tout.",
+      "l2": "A vy ste sa vôbec nezmenili.",
+      "choices_l1": [
+        "Et vous, vous avez beaucoup changé.",
+        "Et toi, tu n'as pas changé du tout.",
+        "Et vous, vous n'avez pas grandi du tout."
+      ]
+    },
+    {
+      "id": "listen-to-je-mil-ale-klamete",
+      "type": "listen",
+      "l1": "C'est gentil. Mais vous mentez.",
+      "l2": "To je milé. Ale klamete.",
+      "choices_l1": [
+        "C'est gentil. Merci beaucoup.",
+        "C'est vrai. Mais vous mentez.",
+        "C'est gentil. Mais tu mens."
+      ]
+    },
+    {
+      "id": "listen-dobr-de-pani-je-kov-nevideli-ste-ma-a",
+      "type": "listen",
+      "l1": "Bonjour, madame Ježková. Vous n'auriez pas vu Maťo ?",
+      "l2": "Dobrý deň, pani Ježková. Nevideli ste Maťa?",
+      "choices_l1": [
+        "Bonjour, madame Ježková. Vous n'auriez pas vu Katka ?",
+        "Bonjour, madame Ježková. Vous cherchez Maťo ?",
+        "Bonsoir, madame Ježková. Vous n'auriez pas vu Maťo ?"
+      ]
+    },
+    {
+      "id": "match-obchod-vocab",
+      "type": "match",
+      "l1": [
+        "le magasin",
+        "avant",
+        "le pré",
+        "les moutons, les brebis"
+      ],
+      "l2": [
+        "obchod",
+        "predtým",
+        "lúka",
+        "ovce"
+      ]
+    },
+    {
+      "id": "blank-je-na-l-ke-h-ad-ovce-alebo-ovce-h-adaj-jeho-to-nikdy-neviem",
+      "type": "fill-blank",
+      "l1": "Il est dans le pré. Il cherche les moutons. Ou ce sont les moutons qui le cherchent. Je ne sais jamais.",
+      "l2": "Je na lúke. Hľadá ovce. Alebo ovce hľadajú jeho. To nikdy neviem.",
+      "missing_l1": "pré",
+      "missing_l2": "lúke",
+      "blank_index_l1": 4,
+      "blank_index_l2": 2,
+      "choices_l1": [
+        "magasin",
+        "refuge",
+        "lac"
+      ],
+      "choices_l2": [
+        "obchode",
+        "Tatrách",
+        "Lyone"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-leto-je-kr-sne",
+      "type": "fill-blank",
+      "l1": "L'été est magnifique.",
+      "l2": "Leto je krásne.",
+      "missing_l1": "L'été",
+      "missing_l2": "Leto",
+      "blank_index_l1": 0,
+      "blank_index_l2": 0,
+      "choices_l1": [
+        "L'hiver",
+        "La ville",
+        "Le matin"
+      ],
+      "choices_l2": [
+        "Zima",
+        "Mesto",
+        "Ráno"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-je-i-ve-ste-vyr-stli-predt-m-ste-boli-tak-mal",
+      "type": "order",
+      "l1": "Mon Dieu ! Mais vous avez grandi ! Avant, vous étiez si petit.",
+      "l2": "Ježiš! Veď ste vyrástli! Predtým ste boli taký malý.",
+      "tokens_l1": [
+        "Mon Dieu !",
+        "Mais vous avez grandi !",
+        "Avant, vous étiez",
+        "si petit."
+      ],
+      "tokens_l2": [
+        "Ježiš!",
+        "Veď ste vyrástli!",
+        "Predtým ste boli",
+        "taký malý."
+      ]
+    },
+    {
+      "id": "order-dobr-de-po-kajte-to-ste-vy-t-l-ka-z-leta",
+      "type": "order",
+      "l1": "Bonjour... Attendez. C'est vous ? Ce renard de l'été ?",
+      "l2": "Dobrý deň... Počkajte. To ste vy? Tá líška z leta?",
+      "tokens_l1": [
+        "Bonjour... Attendez.",
+        "C'est vous ?",
+        "Ce renard de l'été ?"
+      ],
+      "tokens_l2": [
+        "Dobrý deň... Počkajte.",
+        "To ste vy?",
+        "Tá líška z leta?"
+      ]
+    }
+  ]
+}

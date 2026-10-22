@@ -1,0 +1,233 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-tra",
+      "type": "qcm",
+      "l1": "la voie ferrée",
+      "l2": "trať",
+      "choices_l1": [
+        "à pied",
+        "les jambes, les pieds",
+        "plus loin"
+      ],
+      "choices_l2": [
+        "pešo",
+        "nohy",
+        "ďalej"
+      ]
+    },
+    {
+      "id": "qcm-pe-o",
+      "type": "qcm",
+      "l1": "à pied",
+      "l2": "pešo",
+      "choices_l1": [
+        "plus loin",
+        "sous la pluie",
+        "c'est pour ça"
+      ],
+      "choices_l2": [
+        "ďalej",
+        "v daždi",
+        "preto"
+      ]
+    },
+    {
+      "id": "qcm-alej",
+      "type": "qcm",
+      "l1": "plus loin",
+      "l2": "ďalej",
+      "choices_l1": [
+        "à pied",
+        "c'est pour ça",
+        "sous l'eau"
+      ],
+      "choices_l2": [
+        "pešo",
+        "preto",
+        "pod vodou"
+      ]
+    },
+    {
+      "id": "qcm-preto",
+      "type": "qcm",
+      "l1": "c'est pour ça",
+      "l2": "preto",
+      "choices_l1": [
+        "plus loin",
+        "à pied",
+        "Ce n'est pas possible."
+      ],
+      "choices_l2": [
+        "ďalej",
+        "pešo",
+        "Nedá sa."
+      ]
+    },
+    {
+      "id": "qcm-d-dnik",
+      "type": "qcm",
+      "l1": "le parapluie",
+      "l2": "dáždnik",
+      "choices_l1": [
+        "la pluie",
+        "mouillé (dit d'un garçon)",
+        "la voie ferrée"
+      ],
+      "choices_l2": [
+        "dážď",
+        "mokrý",
+        "trať"
+      ]
+    },
+    {
+      "id": "listen-alej-nep-jdeme-tra-je-pod-vodou",
+      "type": "listen",
+      "l1": "Nous n'irons pas plus loin. La voie est sous l'eau.",
+      "l2": "Ďalej nepôjdeme. Trať je pod vodou.",
+      "choices_l1": [
+        "Nous irons plus loin. La voie est sèche.",
+        "Nous n'irons pas plus loin. Le village est sous l'eau.",
+        "Nous n'irons pas à pied. La voie est sous l'eau."
+      ]
+    },
+    {
+      "id": "listen-pe-o-v-da-di",
+      "type": "listen",
+      "l1": "À pied ? Sous la pluie ?",
+      "l2": "Pešo? V daždi?",
+      "choices_l1": [
+        "À pied ? Sous le soleil ?",
+        "En train ? Sous la pluie ?",
+        "À pied ? Dans la neige ?"
+      ]
+    },
+    {
+      "id": "listen-ale-ja-m-m-telef-n",
+      "type": "listen",
+      "l1": "Mais moi, j'ai un téléphone.",
+      "l2": "Ale ja mám telefón.",
+      "choices_l1": [
+        "Mais moi, je n'ai pas de téléphone.",
+        "Mais toi, tu as un téléphone.",
+        "Mais moi, j'ai une veste."
+      ]
+    },
+    {
+      "id": "listen-telef-n-nem-nohy-katka",
+      "type": "listen",
+      "l1": "Un téléphone n'a pas de jambes, Katka.",
+      "l2": "Telefón nemá nohy, Katka.",
+      "choices_l1": [
+        "Un téléphone n'a pas de batterie, Katka.",
+        "Un sac n'a pas de jambes, Katka.",
+        "Un téléphone a des jambes, Katka."
+      ]
+    },
+    {
+      "id": "listen-preto-ho-nos-m-ja",
+      "type": "listen",
+      "l1": "C'est pour ça que c'est moi qui le porte.",
+      "l2": "Preto ho nosím ja.",
+      "choices_l1": [
+        "C'est pour ça que c'est toi qui le portes.",
+        "C'est pour ça que je le laisse ici.",
+        "C'est pour ça que je ne le porte pas."
+      ]
+    },
+    {
+      "id": "match-tra-vocab",
+      "type": "match",
+      "l1": [
+        "la voie ferrée",
+        "à pied",
+        "sous la pluie",
+        "les jambes, les pieds"
+      ],
+      "l2": [
+        "trať",
+        "pešo",
+        "v daždi",
+        "nohy"
+      ]
+    },
+    {
+      "id": "blank-m-me-bundy",
+      "type": "fill-blank",
+      "l1": "On a des vestes.",
+      "l2": "Máme bundy.",
+      "missing_l1": "vestes",
+      "missing_l2": "bundy",
+      "blank_index_l1": 3,
+      "blank_index_l2": 1,
+      "choices_l1": [
+        "chaussettes",
+        "jambes",
+        "cartes"
+      ],
+      "choices_l2": [
+        "batohy",
+        "nohy",
+        "ponožky"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-nie-som-mokr",
+      "type": "fill-blank",
+      "l1": "Non. Je suis mouillé.",
+      "l2": "Nie. Som mokrý.",
+      "missing_l1": "mouillé",
+      "missing_l2": "mokrý",
+      "blank_index_l1": 3,
+      "blank_index_l2": 2,
+      "choices_l1": [
+        "maigre",
+        "petit",
+        "silencieux"
+      ],
+      "choices_l2": [
+        "chudý",
+        "malý",
+        "tichý"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-dva-kilometre-alej-sa-ned-prep-te-ale-mus-te-vyst-pi",
+      "type": "order",
+      "l1": "Deux kilomètres. On ne peut pas aller plus loin. Excusez-moi, mais vous devez descendre.",
+      "l2": "Dva kilometre. Ďalej sa nedá. Prepáčte, ale musíte vystúpiť.",
+      "tokens_l1": [
+        "Deux kilomètres.",
+        "On ne peut pas aller plus loin.",
+        "Excusez-moi,",
+        "mais vous devez descendre."
+      ],
+      "tokens_l2": [
+        "Dva kilometre.",
+        "Ďalej sa nedá.",
+        "Prepáčte,",
+        "ale musíte vystúpiť."
+      ]
+    },
+    {
+      "id": "order-preto-ho-nos-m-ja",
+      "type": "order",
+      "l1": "C'est pour ça que c'est moi qui le porte.",
+      "l2": "Preto ho nosím ja.",
+      "tokens_l1": [
+        "C'est pour ça",
+        "que c'est moi",
+        "qui le porte."
+      ],
+      "tokens_l2": [
+        "Preto",
+        "ho nosím",
+        "ja."
+      ]
+    }
+  ]
+}

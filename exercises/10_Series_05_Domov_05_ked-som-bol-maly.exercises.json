@@ -1,0 +1,231 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-ke",
+      "type": "qcm",
+      "l1": "quand",
+      "l2": "keď",
+      "choices_l1": [
+        "deux fois",
+        "trois fois",
+        "la neige"
+      ],
+      "choices_l2": [
+        "dvakrát",
+        "trikrát",
+        "sneh"
+      ]
+    },
+    {
+      "id": "qcm-sneh",
+      "type": "qcm",
+      "l1": "la neige",
+      "l2": "sneh",
+      "choices_l1": [
+        "la luge",
+        "la rivière",
+        "l'inondation"
+      ],
+      "choices_l2": [
+        "sánky",
+        "rieka",
+        "povodeň"
+      ]
+    },
+    {
+      "id": "qcm-dvakr-t",
+      "type": "qcm",
+      "l1": "deux fois",
+      "l2": "dvakrát",
+      "choices_l1": [
+        "trois fois",
+        "quand",
+        "monte"
+      ],
+      "choices_l2": [
+        "trikrát",
+        "keď",
+        "stúpa"
+      ]
+    },
+    {
+      "id": "qcm-star-otec",
+      "type": "qcm",
+      "l1": "le grand-père",
+      "l2": "starý otec",
+      "choices_l1": [
+        "la luge",
+        "la rivière",
+        "jeune (dite d'une fille)"
+      ],
+      "choices_l2": [
+        "sánky",
+        "rieka",
+        "mladá"
+      ]
+    },
+    {
+      "id": "qcm-povode",
+      "type": "qcm",
+      "l1": "l'inondation",
+      "l2": "povodeň",
+      "choices_l1": [
+        "la neige",
+        "la rivière",
+        "la luge"
+      ],
+      "choices_l2": [
+        "sneh",
+        "rieka",
+        "sánky"
+      ]
+    },
+    {
+      "id": "listen-ke-som-bola-mlad-v-potoku-bolo-ve-a-vody-cel-leto",
+      "type": "listen",
+      "l1": "Quand j'étais jeune, il y avait beaucoup d'eau dans le ruisseau. Tout l'été.",
+      "l2": "Keď som bola mladá, v potoku bolo veľa vody. Celé leto.",
+      "choices_l1": [
+        "Quand j'étais petite, il y avait peu d'eau dans le ruisseau. Tout l'été.",
+        "Quand j'étais jeune, il y avait beaucoup de neige dans le ruisseau. Tout l'hiver.",
+        "Maintenant, il y a beaucoup d'eau dans le ruisseau. Tout l'été."
+      ]
+    },
+    {
+      "id": "listen-pam-t-m-sa-ke-som-bol-mal-mal-som-s-nky-teraz-ich-m-m-v-pivnici",
+      "type": "listen",
+      "l1": "Je m'en souviens. Quand j'étais petit, j'avais une luge. Maintenant, elle est à la cave.",
+      "l2": "Pamätám sa. Keď som bol malý, mal som sánky. Teraz ich mám v pivnici.",
+      "choices_l1": [
+        "Je m'en souviens. Quand j'étais petit, j'avais un vélo. Maintenant, il est à la cave.",
+        "Je m'en souviens. Quand j'étais grand, j'avais une luge. Maintenant, elle est dans la cuisine.",
+        "Je ne m'en souviens pas. Quand j'étais petit, j'avais une luge."
+      ]
+    },
+    {
+      "id": "listen-trikr-t-ale-prv-kr-t-bol-najkraj",
+      "type": "listen",
+      "l1": "Trois. Mais la première fois était la plus belle.",
+      "l2": "Trikrát. Ale prvýkrát bol najkrajší.",
+      "choices_l1": [
+        "Deux. Mais la première fois était la plus belle.",
+        "Trois. Mais la dernière fois était la plus belle.",
+        "Trois. Et la première fois était la pire."
+      ]
+    },
+    {
+      "id": "listen-tak-e-najprv-sucho-a-potom-povode",
+      "type": "listen",
+      "l1": "Donc d'abord la sécheresse, et ensuite l'inondation ?",
+      "l2": "Takže najprv sucho a potom povodeň?",
+      "choices_l1": [
+        "Donc d'abord l'inondation, et ensuite la sécheresse ?",
+        "Donc d'abord la neige, et ensuite l'inondation ?",
+        "Donc d'abord la sécheresse, et ensuite l'orage ?"
+      ]
+    },
+    {
+      "id": "listen-presne-tak-gratulujem-to-je-dnes-svet",
+      "type": "listen",
+      "l1": "Exactement. Félicitations. C'est le monde d'aujourd'hui.",
+      "l2": "Presne tak. Gratulujem. To je dnes svet.",
+      "choices_l1": [
+        "Exactement. Merci. C'est le monde d'avant.",
+        "Pas du tout. Félicitations. C'est le monde d'aujourd'hui.",
+        "Exactement. Félicitations. C'est la météo d'aujourd'hui."
+      ]
+    },
+    {
+      "id": "match-ke-vocab",
+      "type": "match",
+      "l1": [
+        "quand",
+        "la neige",
+        "le grand-père",
+        "l'inondation"
+      ],
+      "l2": [
+        "keď",
+        "sneh",
+        "starý otec",
+        "povodeň"
+      ]
+    },
+    {
+      "id": "blank-spadol-si-do-potoka-dvakr-t",
+      "type": "fill-blank",
+      "l1": "Tu es tombé dans le ruisseau deux fois.",
+      "l2": "Spadol si do potoka dvakrát.",
+      "missing_l1": "deux",
+      "missing_l2": "dvakrát",
+      "blank_index_l1": 6,
+      "blank_index_l2": 4,
+      "choices_l1": [
+        "trois",
+        "quatre",
+        "cinq"
+      ],
+      "choices_l2": [
+        "trikrát",
+        "vždy",
+        "nikdy"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-ke-som-bol-mal-spadol-som-do-potoka",
+      "type": "fill-blank",
+      "l1": "Quand j'étais petit, je suis tombé dans le ruisseau.",
+      "l2": "Keď som bol malý, spadol som do potoka.",
+      "missing_l1": "petit",
+      "missing_l2": "malý",
+      "blank_index_l1": 2,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "grand",
+        "jeune",
+        "maigre"
+      ],
+      "choices_l2": [
+        "veľký",
+        "mladá",
+        "chudý"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-ke-som-bol-mal-spadol-som-do-potoka",
+      "type": "order",
+      "l1": "Quand j'étais petit, je suis tombé dans le ruisseau.",
+      "l2": "Keď som bol malý, spadol som do potoka.",
+      "tokens_l1": [
+        "Quand j'étais petit,",
+        "je suis tombé",
+        "dans le ruisseau."
+      ],
+      "tokens_l2": [
+        "Keď som bol malý,",
+        "spadol som",
+        "do potoka."
+      ]
+    },
+    {
+      "id": "order-tak-e-najprv-sucho-a-potom-povode",
+      "type": "order",
+      "l1": "Donc d'abord la sécheresse, et ensuite l'inondation ?",
+      "l2": "Takže najprv sucho a potom povodeň?",
+      "tokens_l1": [
+        "Donc",
+        "d'abord la sécheresse,",
+        "et ensuite l'inondation ?"
+      ],
+      "tokens_l2": [
+        "Takže",
+        "najprv sucho",
+        "a potom povodeň?"
+      ]
+    }
+  ]
+}

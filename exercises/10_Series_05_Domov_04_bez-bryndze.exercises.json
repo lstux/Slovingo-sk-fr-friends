@@ -1,0 +1,220 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-chud",
+      "type": "qcm",
+      "l1": "maigre (dit d'un garçon)",
+      "l2": "chudý",
+      "choices_l1": [
+        "silencieux, calme (dit d'un garçon)",
+        "bruyant (dit d'un garçon)",
+        "petit (dit d'un garçon)"
+      ],
+      "choices_l2": [
+        "tichý",
+        "hlučný",
+        "malý"
+      ]
+    },
+    {
+      "id": "qcm-s",
+      "type": "qcm",
+      "l1": "avec",
+      "l2": "s",
+      "choices_l1": [
+        "sans",
+        "les enfants",
+        "le chou"
+      ],
+      "choices_l2": [
+        "bez",
+        "deti",
+        "kapusta"
+      ]
+    },
+    {
+      "id": "qcm-bez",
+      "type": "qcm",
+      "l1": "sans",
+      "l2": "bez",
+      "choices_l1": [
+        "avec",
+        "les enfants",
+        "le chou"
+      ],
+      "choices_l2": [
+        "s",
+        "deti",
+        "kapusta"
+      ]
+    },
+    {
+      "id": "qcm-sadnite-si",
+      "type": "qcm",
+      "l1": "Asseyez-vous !",
+      "l2": "Sadnite si!",
+      "choices_l1": [
+        "Entrez !",
+        "tu vas manger",
+        "les enfants"
+      ],
+      "choices_l2": [
+        "Poďte ďalej!",
+        "budeš jesť",
+        "deti"
+      ]
+    },
+    {
+      "id": "qcm-kapusta",
+      "type": "qcm",
+      "l1": "le chou",
+      "l2": "kapusta",
+      "choices_l1": [
+        "la bryndza (fromage de brebis)",
+        "le repas, la nourriture",
+        "la marmite"
+      ],
+      "choices_l2": [
+        "bryndza",
+        "jedlo",
+        "hrniec"
+      ]
+    },
+    {
+      "id": "listen-deti-moje-po-te-alej-sadnite-si",
+      "type": "listen",
+      "l1": "Mes enfants ! Entrez ! Asseyez-vous !",
+      "l2": "Deti moje! Poďte ďalej! Sadnite si!",
+      "choices_l1": [
+        "Mes enfants ! Sortez ! Asseyez-vous !",
+        "Mes enfants ! Entrez ! Mangez !",
+        "Les enfants ! Venez ! Dormez !"
+      ]
+    },
+    {
+      "id": "listen-akujem-o-m-me-dnes",
+      "type": "listen",
+      "l1": "Merci. Qu'est-ce qu'on mange aujourd'hui ?",
+      "l2": "Ďakujem. Čo máme dnes?",
+      "choices_l1": [
+        "Merci. Qu'est-ce qu'on mange demain ?",
+        "Merci. Qu'est-ce qu'on fait aujourd'hui ?",
+        "Merci. Où est-ce qu'on mange ?"
+      ]
+    },
+    {
+      "id": "listen-ja-som-ovca-o-bryndzi-nehovor-me",
+      "type": "listen",
+      "l1": "Je suis une brebis. On ne parle pas de bryndza.",
+      "l2": "Ja som ovca. O bryndzi nehovoríme.",
+      "choices_l1": [
+        "Je suis une brebis. On mange de la bryndza.",
+        "Je suis une ourse. On ne parle pas de bryndza.",
+        "Je suis une brebis. On ne parle pas du chou."
+      ]
+    },
+    {
+      "id": "listen-babka-to-hovor-v-dy",
+      "type": "listen",
+      "l1": "Babka, tu dis toujours ça.",
+      "l2": "Babka, to hovoríš vždy.",
+      "choices_l1": [
+        "Babka, tu ne dis jamais ça.",
+        "Babka, tu fais toujours ça.",
+        "Maman, tu dis toujours ça."
+      ]
+    },
+    {
+      "id": "match-s-vocab",
+      "type": "match",
+      "l1": [
+        "avec",
+        "sans",
+        "les enfants",
+        "le chou"
+      ],
+      "l2": [
+        "s",
+        "bez",
+        "deti",
+        "kapusta"
+      ]
+    },
+    {
+      "id": "blank-s-bryndzou",
+      "type": "fill-blank",
+      "l1": "À la bryndza ?",
+      "l2": "S bryndzou?",
+      "missing_l1": "À",
+      "missing_l2": "S",
+      "blank_index_l1": 0,
+      "blank_index_l2": 0,
+      "choices_l1": [
+        "Sans",
+        "Pour",
+        "Chez"
+      ],
+      "choices_l2": [
+        "Bez",
+        "Do",
+        "Pri"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-aj-bez-cukru-pros-m",
+      "type": "fill-blank",
+      "l1": "Un thé sans sucre, s'il vous plaît.",
+      "l2": "Čaj bez cukru, prosím.",
+      "missing_l1": "sans",
+      "missing_l2": "bez",
+      "blank_index_l1": 2,
+      "blank_index_l2": 1,
+      "choices_l1": [
+        "avec",
+        "pour",
+        "dans"
+      ],
+      "choices_l2": [
+        "s",
+        "do",
+        "pri"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-dobr-de-babka-akujem",
+      "type": "order",
+      "l1": "Bonjour, babka. Merci.",
+      "l2": "Dobrý deň, babka. Ďakujem.",
+      "tokens_l1": [
+        "Bonjour,",
+        "babka.",
+        "Merci."
+      ],
+      "tokens_l2": [
+        "Dobrý deň,",
+        "babka.",
+        "Ďakujem."
+      ]
+    },
+    {
+      "id": "order-ja-som-ovca-o-bryndzi-nehovor-me",
+      "type": "order",
+      "l1": "Je suis une brebis. On ne parle pas de bryndza.",
+      "l2": "Ja som ovca. O bryndzi nehovoríme.",
+      "tokens_l1": [
+        "Je suis une brebis.",
+        "On ne parle pas",
+        "de bryndza."
+      ],
+      "tokens_l2": [
+        "Ja som ovca.",
+        "O bryndzi",
+        "nehovoríme."
+      ]
+    }
+  ]
+}

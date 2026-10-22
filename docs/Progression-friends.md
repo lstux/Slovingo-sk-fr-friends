@@ -80,8 +80,8 @@ Deux séries peuvent se dérouler au même endroit : les personnages traversent 
 | 02 Sucho | Quantités et génitif de quantité (*veľa vody*, *málo vody*) ; météo ; *chýba mi* ; locatif |
 | 03 Raj | Impératif entre amis (*poď*, *počkaj*, *nepozeraj*) ; *nič ne-* (double négation) ; accusatif (*mapa → mapu*) ; directions (*do*, *po*, *nad*, *za*) ; *mám rád* |
 | 04 Burka | *prečo / lebo* ; futur (*bude*) ; *musieť / môcť* ; comparatif (*-ejšie*, *čím… tým…*) ; impératif poli (*-te*) |
-| 05 Domov | Passé et souvenirs (*keď som bol malý*) ; datif ; expressions de temps |
-| 06 Povoden | Aspect perfectif / imperfectif (en pratique, pas en théorie) ; secours, entraide |
+| 05 Domov | Passé en *-l / -la / -li* et vouvoiement ; *vtedy / teraz / stále* ; adjectifs *-ý / -á* ; *s / bez* ; souvenirs (*keď som bol malý*) |
+| 06 Povoden | Compter les jours (*dni / dní*) ; maintenant ou d'habitude (*idem / chodím*) ; aspect en pratique (*stúpa / stúpne*) ; *pomôcť ti / vám* ; premier conditionnel (*by som*) |
 | 07 Cesta | Opinion, accord, désaccord (*podľa mňa*, *súhlasím*) ; *lebo / preto / pretože* |
 | 08 Datacentrum | Subordonnées (*že*, *ktorý*) ; pour et contre ; concession (*aj keď*, *hoci*) |
 | 09 Bana | Hypothèse (*keby*) ; débat nuancé |

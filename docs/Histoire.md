@@ -6,7 +6,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 ## Conventions
 
-- Une réplique par ligne : `🦊 Gab`, `🐰 Andrea`, `💬 Narrateur` (présent narratif, phrases courtes). Les autres avatars : `🐻` Maťo, `🐹` Katka, `🐑` Babka Zuzana, `🦔` pani Ježková (commerçante, vouvoyée), `📻` la radio, `🐥` un canard, `🐭` une souris (ch. 6), `🦅` pán Orol (aigle, garde du parc, vouvoyé), `🐇` la tante d'Andrea, `🦡` Marek, `🐿️` Ján, `🧑` un humain adulte (vouvoyé, désigné par sa fonction : le Narrateur le présente, et une parenthèse la rappelle quand il y en a plusieurs, ex. `🧑 (redaktorka)`).
+- Une réplique par ligne : `🦊 Gab`, `🐰 Andrea`, `💬 Narrateur` (présent narratif, phrases courtes). Les autres avatars : `🐻` Maťo, `🐹` Katka, `🐑` Babka Zuzana, `🦔` pani Ježková (commerçante, vouvoyée), `📻` la radio, `🐥` un canard, `🐭` une souris (ch. 6), `🦅` pán Orol (aigle, garde du parc, vouvoyé), `🐇` la tante d'Andrea, `🦊🦺` la renarde bénévole (ch. 6), `🦡` Marek, `🐿️` Ján, `🧑` un humain adulte (vouvoyé, désigné par sa fonction : le Narrateur le présente, et une parenthèse la rappelle quand il y en a plusieurs, ex. `🧑 (redaktorka)`).
 - **Gab** s'écrit « Gab » dans ce document. Dans les fiches, ce sera `[USER_NAME]`. Pas de « Gabo » en dur, et jamais de forme déclinée (*Gabovi*, *Gabov*…) : le prénom s'emploie seulement comme sujet ou pour interpeller.
 - **Genre** : Gab est un garçon (*bol som*, *rád*), Andrea une fille (*bola som*, *rada*).
 - **Tutoiement** entre ados et avec Babka Zuzana, **vouvoiement** (*vy*) avec les adultes inconnus, humains compris.
@@ -950,7 +950,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 💬 Príde k nim mladá líška v zelenej veste. Nesie podnos s čajom.
 
-🦊 (dobrovoľníčka) Dobrý večer. Dáte si čaj? Je horúci.
+🦊🦺 Dobrý večer. Dáte si čaj? Je horúci.
 
 🦊 Ďakujem, to je od vás milé.
 

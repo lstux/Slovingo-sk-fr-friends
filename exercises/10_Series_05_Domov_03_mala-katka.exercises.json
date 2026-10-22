@@ -1,0 +1,220 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-spr-va",
+      "type": "qcm",
+      "l1": "le message",
+      "l2": "správa",
+      "choices_l1": [
+        "le téléphone",
+        "la tête",
+        "la main"
+      ],
+      "choices_l2": [
+        "telefón",
+        "hlava",
+        "ruka"
+      ]
+    },
+    {
+      "id": "qcm-mal",
+      "type": "qcm",
+      "l1": "petite",
+      "l2": "malá",
+      "choices_l1": [
+        "grande",
+        "silencieux, calme (dit d'un garçon)",
+        "bruyant (dit d'un garçon)"
+      ],
+      "choices_l2": [
+        "veľká",
+        "tichý",
+        "hlučný"
+      ]
+    },
+    {
+      "id": "qcm-hlu-n",
+      "type": "qcm",
+      "l1": "bruyant (dit d'un garçon)",
+      "l2": "hlučný",
+      "choices_l1": [
+        "silencieux, calme (dit d'un garçon)",
+        "petite",
+        "grande"
+      ],
+      "choices_l2": [
+        "tichý",
+        "malá",
+        "veľká"
+      ]
+    },
+    {
+      "id": "qcm-jednoducho",
+      "type": "qcm",
+      "l1": "tout simplement",
+      "l2": "jednoducho",
+      "choices_l1": [
+        "Une seconde.",
+        "Pardon.",
+        "petite"
+      ],
+      "choices_l2": [
+        "Chvíľu.",
+        "Prepáč.",
+        "malá"
+      ]
+    },
+    {
+      "id": "qcm-prep",
+      "type": "qcm",
+      "l1": "Pardon.",
+      "l2": "Prepáč.",
+      "choices_l1": [
+        "Une seconde.",
+        "Je me souviens de toi.",
+        "tout simplement"
+      ],
+      "choices_l2": [
+        "Chvíľu.",
+        "Pamätám si ťa.",
+        "jednoducho"
+      ]
+    },
+    {
+      "id": "listen-chv-u-dop-em-spr-vu",
+      "type": "listen",
+      "l1": "Une seconde. Je finis un message.",
+      "l2": "Chvíľu. Dopíšem správu.",
+      "choices_l1": [
+        "Une seconde. Je lis un message.",
+        "Attends. Je finis mon thé.",
+        "Une seconde. Je t'envoie un message."
+      ]
+    },
+    {
+      "id": "listen-nie-som-mal-m-m-trin-s",
+      "type": "listen",
+      "l1": "Je ne suis pas petite. J'ai treize ans.",
+      "l2": "Nie som malá. Mám trinásť.",
+      "choices_l1": [
+        "Je suis petite. J'ai treize ans.",
+        "Je ne suis pas petite. J'ai quatorze ans.",
+        "Je ne suis pas grande. J'ai treize ans."
+      ]
+    },
+    {
+      "id": "listen-katka-jednoducho-katka",
+      "type": "listen",
+      "l1": "Katka. Tout simplement Katka.",
+      "l2": "Katka. Jednoducho Katka.",
+      "choices_l1": [
+        "Katka. Petite Katka.",
+        "Katka. Grande Katka.",
+        "Katka. Seulement Maťo."
+      ]
+    },
+    {
+      "id": "listen-dobre-a-ty-si-st-le-tak-hlu-n",
+      "type": "listen",
+      "l1": "Bien. Et toi, tu es toujours aussi bruyant ?",
+      "l2": "Dobre. A ty si stále taký hlučný?",
+      "choices_l1": [
+        "Bien. Et toi, tu es toujours aussi silencieux ?",
+        "Bien. Et toi, tu es toujours aussi petit ?",
+        "Bien. Et toi, tu étais bruyant ?"
+      ]
+    },
+    {
+      "id": "match-mal-vocab",
+      "type": "match",
+      "l1": [
+        "petite",
+        "grande",
+        "bruyant (dit d'un garçon)",
+        "silencieux, calme (dit d'un garçon)"
+      ],
+      "l2": [
+        "malá",
+        "veľká",
+        "hlučný",
+        "tichý"
+      ]
+    },
+    {
+      "id": "blank-ja-ja-som-tich",
+      "type": "fill-blank",
+      "l1": "Moi ? Je suis silencieux !",
+      "l2": "Ja? Ja som tichý!",
+      "missing_l1": "silencieux",
+      "missing_l2": "tichý",
+      "blank_index_l1": 4,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "bruyant",
+        "petit",
+        "maigre"
+      ],
+      "choices_l2": [
+        "hlučný",
+        "malý",
+        "chudý"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-m-m-telef-n-v-ruke",
+      "type": "fill-blank",
+      "l1": "J'ai le téléphone à la main.",
+      "l2": "Mám telefón v ruke.",
+      "missing_l1": "main",
+      "missing_l2": "ruke",
+      "blank_index_l1": 5,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "tête",
+        "cuisine",
+        "poche"
+      ],
+      "choices_l2": [
+        "hlave",
+        "kuchyni",
+        "škole"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-prep-ve-k-katka",
+      "type": "order",
+      "l1": "Pardon. Grande Katka.",
+      "l2": "Prepáč. Veľká Katka.",
+      "tokens_l1": [
+        "Pardon.",
+        "Grande",
+        "Katka."
+      ],
+      "tokens_l2": [
+        "Prepáč.",
+        "Veľká",
+        "Katka."
+      ]
+    },
+    {
+      "id": "order-nie-som-mal-m-m-trin-s",
+      "type": "order",
+      "l1": "Je ne suis pas petite. J'ai treize ans.",
+      "l2": "Nie som malá. Mám trinásť.",
+      "tokens_l1": [
+        "Je ne suis pas",
+        "petite.",
+        "J'ai treize ans."
+      ],
+      "tokens_l2": [
+        "Nie som",
+        "malá.",
+        "Mám trinásť."
+      ]
+    }
+  ]
+}

@@ -6,7 +6,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 ## Conventions
 
-- `🦊` Gab, `🐰` Andrea, `🐻` Maťo, `🐹` Katka, `🐑` Babka Zuzana, `🦔` madame Ježková, `🦡` Marek, `🐿️` Ján, `🐥` un canard, `🐭` une souris (ch. 6), `🦅` pán Orol (aigle, garde du parc), `🐇` la tante d'Andrea, `📻` la radio, `💬` le Narrateur, `🧑` un humain adulte (vouvoyé, avec la fonction entre parenthèses quand il y en a plusieurs).
+- `🦊` Gab, `🐰` Andrea, `🐻` Maťo, `🐹` Katka, `🐑` Babka Zuzana, `🦔` madame Ježková, `🦡` Marek, `🐿️` Ján, `🐥` un canard, `🐭` une souris (ch. 6), `🦅` pán Orol (aigle, garde du parc), `🐇` la tante d'Andrea, `🦊🦺` la renarde bénévole (ch. 6), `📻` la radio, `💬` le Narrateur, `🧑` un humain adulte (vouvoyé, avec la fonction entre parenthèses quand il y en a plusieurs).
 - **Tutoiement / vouvoiement** : le slovaque distingue *ty* et *vy* comme le français *tu* et *vous*, j'ai gardé la même répartition (ados et Babka Zuzana : tu ; adultes inconnus et humains : vous).
 - **Genre** : Gab est un garçon, Andrea une fille. En français, ça se voit aux accords (« content », « contente »).
 - Les noms propres ne sont pas traduits (Košice, Bratislava, Maťo, Katka…). Les lieux connus en français le sont : le Paradis slovaque (*Slovenský raj*), les Tatras (*Tatry*), le Danube (*Dunaj*), la cathédrale Sainte-Élisabeth.
@@ -907,7 +907,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🦊 Alors, au moins, ça ira bien maintenant.
 
-💬 De la deuxième maison sort une souris. Il porte un grand frigo.
+💬 De la deuxième maison sort une souris. Elle porte un grand frigo.
 
 🐰 Pourquoi tu portes un frigo ?
 
@@ -937,7 +937,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 💬 Une jeune renarde en gilet vert s'approche d'eux. Elle porte un plateau avec du thé.
 
-🦊 (bénévole) Bonsoir. Vous voulez du thé ? Il est chaud.
+🦊🦺 Bonsoir. Vous voulez du thé ? Il est chaud.
 
 🦊 Merci, c'est gentil à vous.
 

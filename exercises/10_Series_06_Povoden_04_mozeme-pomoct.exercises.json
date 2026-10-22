@@ -1,0 +1,233 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-hasi",
+      "type": "qcm",
+      "l1": "le pompier",
+      "l2": "hasič",
+      "choices_l1": [
+        "l'aide, au secours",
+        "le travail",
+        "le temps (qui passe)"
+      ],
+      "choices_l2": [
+        "pomoc",
+        "práca",
+        "čas"
+      ]
+    },
+    {
+      "id": "qcm-pom-c",
+      "type": "qcm",
+      "l1": "aider",
+      "l2": "pomôcť",
+      "choices_l1": [
+        "nous emporterons",
+        "ils se sauveront",
+        "tout le monde, chacun"
+      ],
+      "choices_l2": [
+        "odnesieme",
+        "zachránia sa",
+        "každého"
+      ]
+    },
+    {
+      "id": "qcm-v-m",
+      "type": "qcm",
+      "l1": "vous, à vous",
+      "l2": "vám",
+      "choices_l1": [
+        "toi, à toi",
+        "tout le monde, chacun",
+        "d'ici"
+      ],
+      "choices_l2": [
+        "ti",
+        "každého",
+        "odtiaľto"
+      ]
+    },
+    {
+      "id": "qcm-odtia-to",
+      "type": "qcm",
+      "l1": "d'ici",
+      "l2": "odtiaľto",
+      "choices_l1": [
+        "tout le monde, chacun",
+        "vous, à vous",
+        "aider"
+      ],
+      "choices_l2": [
+        "každého",
+        "vám",
+        "pomôcť"
+      ]
+    },
+    {
+      "id": "qcm-ahk-veci",
+      "type": "qcm",
+      "l1": "des choses légères",
+      "l2": "ľahké veci",
+      "choices_l1": [
+        "tout le monde, chacun",
+        "Soyez prudents !",
+        "nous emporterons"
+      ],
+      "choices_l2": [
+        "každého",
+        "Buďte opatrní!",
+        "odnesieme"
+      ]
+    },
+    {
+      "id": "listen-dobr-de-ste-odtia-to",
+      "type": "listen",
+      "l1": "Bonjour. Vous êtes d'ici ?",
+      "l2": "Dobrý deň. Ste odtiaľto?",
+      "choices_l1": [
+        "Bonjour. Vous êtes pompier ?",
+        "Bonjour. Tu es d'ici ?",
+        "Bonjour. Vous allez où ?"
+      ]
+    },
+    {
+      "id": "listen-nie-sme-len-na-ceste-m-eme-v-m-pom-c",
+      "type": "listen",
+      "l1": "Non, nous sommes juste de passage. Est-ce que nous pouvons vous aider ?",
+      "l2": "Nie, sme len na ceste. Môžeme vám pomôcť?",
+      "choices_l1": [
+        "Oui, nous habitons ici. Est-ce que nous pouvons vous aider ?",
+        "Non, nous sommes juste de passage. Est-ce que vous pouvez nous aider ?",
+        "Non, nous sommes perdus. Est-ce que nous pouvons rester ?"
+      ]
+    },
+    {
+      "id": "listen-my-ich-tam-odnesieme",
+      "type": "listen",
+      "l1": "Nous les y amènerons.",
+      "l2": "My ich tam odnesieme.",
+      "choices_l1": [
+        "Nous les laisserons ici.",
+        "Vous les y amènerez.",
+        "Nous y irons seuls."
+      ]
+    },
+    {
+      "id": "listen-m-em-nosi-len-ahk-veci",
+      "type": "listen",
+      "l1": "Je peux ne porter que des choses légères ?",
+      "l2": "Môžem nosiť len ľahké veci?",
+      "choices_l1": [
+        "Je peux porter des choses lourdes ?",
+        "Tu peux ne porter que des choses légères ?",
+        "Je dois porter le frigo ?"
+      ]
+    },
+    {
+      "id": "listen-po-uli-ste-to-ja-pom-ham",
+      "type": "listen",
+      "l1": "Vous avez entendu ? Moi, j'aide !",
+      "l2": "Počuli ste to? Ja pomáham!",
+      "choices_l1": [
+        "Vous avez vu ? Moi, j'aide !",
+        "Vous avez entendu ? Moi, je dors !",
+        "Tu as entendu ? Toi, tu aides !"
+      ]
+    },
+    {
+      "id": "match-hasi-vocab",
+      "type": "match",
+      "l1": [
+        "le pompier",
+        "aider",
+        "d'ici",
+        "tout le monde, chacun"
+      ],
+      "l2": [
+        "hasič",
+        "pomôcť",
+        "odtiaľto",
+        "každého"
+      ]
+    },
+    {
+      "id": "blank-m-m-ve-a-pr-ce-a-m-lo-asu",
+      "type": "fill-blank",
+      "l1": "J'ai beaucoup de travail et peu de temps.",
+      "l2": "Mám veľa práce a málo času.",
+      "missing_l1": "temps",
+      "missing_l2": "času",
+      "blank_index_l1": 7,
+      "blank_index_l2": 5,
+      "choices_l1": [
+        "neige",
+        "pluie",
+        "chance"
+      ],
+      "choices_l2": [
+        "vody",
+        "práce",
+        "snehu"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-pomoc-voda-st-pa",
+      "type": "fill-blank",
+      "l1": "Au secours ! L'eau monte !",
+      "l2": "Pomoc! Voda stúpa!",
+      "missing_l1": "monte",
+      "missing_l2": "stúpa",
+      "blank_index_l1": 4,
+      "blank_index_l2": 2,
+      "choices_l1": [
+        "coule",
+        "flotte",
+        "tombe"
+      ],
+      "choices_l2": [
+        "pláva",
+        "tečie",
+        "prší"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-nie-sme-len-na-ceste-m-eme-v-m-pom-c",
+      "type": "order",
+      "l1": "Non, nous sommes juste de passage. Est-ce que nous pouvons vous aider ?",
+      "l2": "Nie, sme len na ceste. Môžeme vám pomôcť?",
+      "tokens_l1": [
+        "Non,",
+        "nous sommes juste de passage.",
+        "Est-ce que nous pouvons vous aider ?"
+      ],
+      "tokens_l2": [
+        "Nie,",
+        "sme len na ceste.",
+        "Môžeme vám pomôcť?"
+      ]
+    },
+    {
+      "id": "order-presne-tak-akujem-v-m-a-pros-m-bu-te-opatrn-voda-je-siln",
+      "type": "order",
+      "l1": "Exactement. Merci à vous. Et faites attention, s'il vous plaît. L'eau est forte.",
+      "l2": "Presne tak. Ďakujem vám. A prosím, buďte opatrní. Voda je silná.",
+      "tokens_l1": [
+        "Exactement.",
+        "Merci à vous.",
+        "Et faites attention, s'il vous plaît.",
+        "L'eau est forte."
+      ],
+      "tokens_l2": [
+        "Presne tak.",
+        "Ďakujem vám.",
+        "A prosím, buďte opatrní.",
+        "Voda je silná."
+      ]
+    }
+  ]
+}
