@@ -1,6 +1,6 @@
 # Série Bratislava (1/5) — Hlavná stanica
 
-@ TODO_img/bratislava-hlavna-stanica.jpg | TODO : choisir une image (la gare centrale de Bratislava) sur Wikimedia Commons
+@ TODO_img/bratislava-hlavna-stanica.jpg | TODO : choisir une image (la gare centrale de Bratislava)
 
 %: Bratislava
 % 48.1580, 17.1066 | {{Hlavná stanica}} | z12

@@ -1,6 +1,6 @@
 # Série Povodeň (1/5) — Prší!
 
-@ TODO_img/vlak-dazd-okno.jpg | TODO : choisir une image (une fenêtre de train sous la pluie) sur Wikimedia Commons
+@ TODO_img/vlak-dazd-okno.jpg | TODO : choisir une image (une fenêtre de train sous la pluie)
 
 %: Le Liptov
 % 49.0837, 19.6116 | {{Liptovský Mikuláš}} | z10

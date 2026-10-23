@@ -1,6 +1,6 @@
 # Série Rozhodnutie (5/5) — Ražeň
 
-@ TODO_img/taborak-noc.jpg | TODO : choisir une image (des flammes d'un feu de camp, la nuit) sur Wikimedia Commons
+@ TODO_img/taborak-noc.jpg | TODO : choisir une image (des flammes d'un feu de camp, la nuit)
 
 {{fr:Le feu crépite. Andrea regarde les flammes, et elle se met à raconter quelque chose qu'elle n'a jamais dit. Pas tout. Juste assez. Toi, tu choisis de ne pas poser de questions.}}
 

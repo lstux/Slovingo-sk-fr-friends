@@ -1,6 +1,6 @@
 # Série Bratislava (3/5) — Prevrátený stôl
 
-@ TODO_img/bratislavsky-hrad.jpg | TODO : choisir une image (le château de Bratislava, blanc avec ses quatre tours) sur Wikimedia Commons
+@ TODO_img/bratislavsky-hrad.jpg | TODO : choisir une image (le château de Bratislava, blanc avec ses quatre tours)
 
 {{fr:Une dame vous indique le chemin de la télévision. Et au passage, elle vous montre le château, là-haut. Les gens d'ici lui ont trouvé un surnom. On apprend à dire comment on se déplace.}}
 

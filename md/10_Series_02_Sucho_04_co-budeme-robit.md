@@ -1,6 +1,6 @@
 # Série Sucho (4/5) — Čo budeme robiť?
 
-@ TODO_img/mapa-cesta.jpg | TODO : choisir une image (une carte routière ou une route qui s'éloigne) sur Wikimedia Commons
+@ TODO_img/mapa-cesta.jpg | TODO : choisir une image (une carte routière ou une route qui s'éloigne)
 
 {{fr:L'étang est presque vide. Andrea a déjà une idée : on ne reste pas. On apprend à dire « nous », et à parler de ce qu'on va faire.}}
 

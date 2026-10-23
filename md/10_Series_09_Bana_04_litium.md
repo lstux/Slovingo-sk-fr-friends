@@ -1,6 +1,6 @@
 # Série Baňa (4/5) — Lítium
 
-@ TODO_img/les-kopec-stiavnica.jpg | TODO : choisir une image (une colline boisée des monts de Štiavnica) sur Wikimedia Commons
+@ TODO_img/les-kopec-stiavnica.jpg | TODO : choisir une image (une colline boisée des monts de Štiavnica)
 
 {{fr:Sur la montagne au-dessus des lacs, il y a la forêt de Ján. Pour l'instant. Hier, quelqu'un est venu avec un papier et un sourire. On apprend à dire « à cause de » et « pour quoi faire ».}}
 

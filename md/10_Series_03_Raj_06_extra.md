@@ -1,6 +1,6 @@
 # Raj (extra) — Pri potoku
 
-@ TODO_img/noc-hviezdy-les.jpg | TODO : choisir une image (un ciel étoilé au-dessus d'une forêt) sur Wikimedia Commons
+@ TODO_img/noc-hviezdy-les.jpg | TODO : choisir une image (un ciel étoilé au-dessus d'une forêt)
 
 {{fr:Demain, direction les Tatras. Ce soir, on dort à la belle étoile, près du ruisseau. Et Andrea lâche une phrase qu'elle ne finit pas d'expliquer.}}
 

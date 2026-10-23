@@ -1,6 +1,6 @@
 # Série Cesta (1/5) — Podľa mňa
 
-@ TODO_img/cesta-les-hory.jpg | TODO : choisir une image (un chemin forestier dans les Basses Tatras) sur Wikimedia Commons
+@ TODO_img/cesta-les-hory.jpg | TODO : choisir une image (un chemin forestier dans les Basses Tatras)
 
 %~ Vers le sud, à travers les Basses Tatras
 % 49.0746, 19.3053 | {{Ružomberok}} | z9

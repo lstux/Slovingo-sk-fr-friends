@@ -1,6 +1,6 @@
 # Série Datacentrum (4/5) — Aj tak
 
-@ TODO_img/mokrad-rieka.jpg | TODO : choisir une image (une zone humide au bord d'une rivière) sur Wikimedia Commons
+@ TODO_img/mokrad-rieka.jpg | TODO : choisir une image (une zone humide au bord d'une rivière)
 
 {{fr:L'eau pour refroidir les serveurs vient de la rivière. Et la zone humide était exactement là où vous êtes. Marek le savait. Il est venu quand même. On apprend à rapporter ce qu'on sait, avec « que ».}}
 

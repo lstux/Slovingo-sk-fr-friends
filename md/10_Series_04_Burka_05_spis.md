@@ -1,6 +1,6 @@
 # Série Burka (5/5) — Spíš?
 
-@ TODO_img/chata-noc.jpg | TODO : choisir une image (la fenêtre éclairée d'un refuge de montagne, la nuit) sur Wikimedia Commons
+@ TODO_img/chata-noc.jpg | TODO : choisir une image (la fenêtre éclairée d'un refuge de montagne, la nuit)
 
 {{fr:L'orage gronde encore. Dans le noir de la cuisine, impossible de dormir. Alors on parle de demain… et de deux personnes que tu as hâte de revoir. Ou pas.}}
 

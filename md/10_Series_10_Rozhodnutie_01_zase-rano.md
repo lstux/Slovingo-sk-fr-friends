@@ -1,6 +1,6 @@
 # Série Rozhodnutie (1/5) — Zase ráno
 
-@ TODO_img/vyhasnuty-ohen-rano.jpg | TODO : choisir une image (un feu de camp éteint, le matin, dans les collines) sur Wikimedia Commons
+@ TODO_img/vyhasnuty-ohen-rano.jpg | TODO : choisir une image (un feu de camp éteint, le matin, dans les collines)
 
 %: Vers l'ouest (emplacement indicatif)
 % 48.3069, 18.0864 | {{Nitra}} | z10

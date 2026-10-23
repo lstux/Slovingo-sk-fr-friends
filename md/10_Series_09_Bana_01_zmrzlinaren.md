@@ -1,6 +1,6 @@
 # Série Baňa (1/5) — Zmrzlináreň
 
-@ TODO_img/banska-stiavnica-panorama.jpg | TODO : choisir une image (Banská Štiavnica, ville en pente avec ses églises) sur Wikimedia Commons
+@ TODO_img/banska-stiavnica-panorama.jpg | TODO : choisir une image (Banská Štiavnica, ville en pente avec ses églises)
 
 %: Banská Štiavnica
 % 48.4586, 18.8931 | {{Banská Štiavnica}} | z12

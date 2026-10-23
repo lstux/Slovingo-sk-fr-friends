@@ -1,6 +1,6 @@
 # Povodeň (extra) — V telocvični
 
-@ TODO_img/telocvicna-matrace.jpg | TODO : choisir une image (un gymnase avec des matelas et des couvertures, centre d'accueil) sur Wikimedia Commons
+@ TODO_img/telocvicna-matrace.jpg | TODO : choisir une image (un gymnase avec des matelas et des couvertures, centre d'accueil)
 
 {{fr:Le soir, au gymnase de l'école. Des dizaines d'animaux mouillés, une soupe qui chauffe, une renarde qui sert le thé. Andrea est bizarre avec ce thé. Et Maťo a une idée qui va tout changer.}}
 

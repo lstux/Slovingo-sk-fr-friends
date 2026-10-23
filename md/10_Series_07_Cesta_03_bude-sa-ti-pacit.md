@@ -1,6 +1,6 @@
 # Série Cesta (3/5) — Bude sa ti páčiť?
 
-@ TODO_img/vyrub-lesa-cesta.jpg | TODO : choisir une image (une saignée dans une forêt, chantier de route) sur Wikimedia Commons
+@ TODO_img/vyrub-lesa-cesta.jpg | TODO : choisir une image (une saignée dans une forêt, chantier de route)
 
 {{fr:Derrière la clôture, la forêt a une grande blessure. Maťo reconnaît un de ses chemins préférés. Katka, elle, pense déjà au bitume. On apprend à dire ce qui nous plaît.}}
 

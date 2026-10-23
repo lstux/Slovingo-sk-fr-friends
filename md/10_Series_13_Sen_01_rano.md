@@ -1,6 +1,6 @@
 # Série Sen (1/5) — Ráno
 
-@ TODO_img/jablon-rano.jpg | TODO : choisir une image (un pommier au soleil du matin, avec des pommes vertes) sur Wikimedia Commons
+@ TODO_img/jablon-rano.jpg | TODO : choisir une image (un pommier au soleil du matin, avec des pommes vertes)
 
 %: Košice
 % 48.7164, 21.2611 | {{Košice}} | z12

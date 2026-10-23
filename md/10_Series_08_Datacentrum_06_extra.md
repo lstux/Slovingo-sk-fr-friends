@@ -1,6 +1,6 @@
 # Datacentrum (extra) — Rada od Mareka
 
-@ TODO_img/vecer-rieka-ticho.jpg | TODO : choisir une image (une rivière calme au crépuscule) sur Wikimedia Commons
+@ TODO_img/vecer-rieka-ticho.jpg | TODO : choisir une image (une rivière calme au crépuscule)
 
 {{fr:Le soir, devant le bâtiment. Marek vous offre du thé et des sandwichs, et un conseil. Andrea, elle, se méfie des gens qui sourient trop. Surtout des renards.}}
 

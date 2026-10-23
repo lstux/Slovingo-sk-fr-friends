@@ -1,6 +1,6 @@
 # Série Domov (4/5) — Bez bryndze
 
-@ TODO_img/halusky.jpg | TODO : choisir une image (une assiette de halušky slovaques) sur Wikimedia Commons
+@ TODO_img/halusky.jpg | TODO : choisir une image (une assiette de halušky slovaques)
 
 {{fr:Dans la cuisine de Babka Zuzana, ça sent le thé et quelque chose qui mijote. Tu vas manger, que tu le veuilles ou non. On apprend à dire « avec » et « sans ».}}
 

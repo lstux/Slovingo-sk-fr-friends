@@ -1,6 +1,6 @@
 # Sen (extra) — Teraz si tu
 
-@ TODO_img/jablon-okno.jpg | TODO : choisir une image (un pommier devant la fenêtre d'une maison) sur Wikimedia Commons
+@ TODO_img/jablon-okno.jpg | TODO : choisir une image (un pommier devant la fenêtre d'une maison)
 
 {{fr:Il reste un détail. Dans ton rêve, Andrea t'a raconté un secret, près du feu. Mais ce n'était qu'un rêve… n'est-ce pas ? Une fenêtre s'ouvre. La tante d'Andrea est réveillée.}}
 

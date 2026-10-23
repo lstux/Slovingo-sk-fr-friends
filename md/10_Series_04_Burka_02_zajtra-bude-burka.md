@@ -1,6 +1,6 @@
 # Série Burka (2/5) — Zajtra bude búrka
 
-@ TODO_img/tatry-chata-pleso.jpg | TODO : choisir une image (un refuge de montagne au bord d'un lac des Tatras) sur Wikimedia Commons
+@ TODO_img/tatry-chata-pleso.jpg | TODO : choisir une image (un refuge de montagne au bord d'un lac des Tatras)
 
 {{fr:Au bord d'un lac, il y a un refuge, et devant le refuge, un gardien qui a des prévisions météo très personnelles. On apprend à parler de demain, et de ce qu'on doit ou peut faire.}}
 

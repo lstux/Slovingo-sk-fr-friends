@@ -1,6 +1,6 @@
 # Série Burka (3/5) — Čím vyššie, tým chladnejšie
 
-@ TODO_img/tatry-ciernne-oblaky.jpg | TODO : choisir une image (des nuages noirs au-dessus d'un lac de montagne) sur Wikimedia Commons
+@ TODO_img/tatry-ciernne-oblaky.jpg | TODO : choisir une image (des nuages noirs au-dessus d'un lac de montagne)
 
 {{fr:Dans la cuisine du refuge, il fait chaud. Dehors, il fait froid, et le ciel se fâche. On apprend à comparer : plus chaud, plus froid, plus haut.}}
 

@@ -1,6 +1,6 @@
 # Série Datacentrum (5/5) — Aj keď
 
-@ TODO_img/serverovna.jpg | TODO : choisir une image (une salle de serveurs avec des voyants lumineux) sur Wikimedia Commons
+@ TODO_img/serverovna.jpg | TODO : choisir une image (une salle de serveurs avec des voyants lumineux)
 
 {{fr:Marek vous fait entrer. Dans la grande salle, il fait froid et des milliers de petites lumières clignotent. C'est ici que vit Internet. Marek ne vous cache rien, ni le bon, ni le mauvais. On apprend à dire « même si ».}}
 

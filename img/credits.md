@@ -1,15 +1,15 @@
 # Crédits des images
 
-Toutes les images viennent de [Wikimedia Commons](https://commons.wikimedia.org/).
-Tant qu'une image n'est pas choisie, la fiche contient une ligne `@ TODO_img/…` : à remplacer par un fichier Commons (adresse `Special:FilePath`), puis à ajouter dans le tableau ci-dessous.
+Les images viennent de sources libres et gratuites, utilisables pour un projet non commercial : Wikimedia Commons, Flickr (licences Creative Commons), Unsplash, Pexels, Pixabay, ou des illustrations générées. La liste des images à trouver, avec les sources conseillées, est dans `docs/Images-a-trouver.md`.
+Tant qu'une image n'est pas choisie, la fiche contient une ligne `@ TODO_img/…`. On la remplace par l'adresse `Special:FilePath` d'un fichier Commons, ou par `@ img/<nom>.jpg` pour un fichier téléchargé dans `img/`. Puis on l'ajoute dans le tableau ci-dessous.
 
-**À compléter pour chaque image : auteur et licence**, tels qu'ils sont écrits sur la page Commons. Les licences CC BY et CC BY-SA demandent de citer l'auteur (CC BY-SA : la même licence pour les versions modifiées).
+**À compléter pour chaque image : source, auteur et licence**, tels qu'ils sont écrits sur la page d'origine. Une licence « NC » (non commerciale) devra être remplacée si le cours devient un jour payant. Les licences CC BY et CC BY-SA demandent de citer l'auteur (CC BY-SA : la même licence pour les versions modifiées).
 
 ## Images utilisées
 
-| Fiche | Fichier Commons | Auteur | Licence |
-|---|---|---|---|
-| *(aucune pour l'instant : les fiches de la série 01 ont toutes un `TODO_img`)* | | | |
+| Fiche | Fichier (lien) | Source | Auteur | Licence |
+|---|---|---|---|---|
+| *(aucune pour l'instant : voir `docs/Images-a-trouver.md`)* | | | | |
 
 ## Images de style (bandeaux de thème)
 

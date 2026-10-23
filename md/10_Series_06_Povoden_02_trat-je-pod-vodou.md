@@ -1,6 +1,6 @@
 # Série Povodeň (2/5) — Trať je pod vodou
 
-@ TODO_img/zatopena-trat.jpg | TODO : choisir une image (une voie ferrée inondée) sur Wikimedia Commons
+@ TODO_img/zatopena-trat.jpg | TODO : choisir une image (une voie ferrée inondée)
 
 {{fr:Le train ne va pas plus loin : la voie est sous l'eau. Il va falloir marcher, sous la pluie. Katka a une priorité : son téléphone. On apprend à dire « aller » et « porter », maintenant ou d'habitude.}}
 

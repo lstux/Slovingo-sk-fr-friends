@@ -136,7 +136,7 @@ Exemple : `10_Series_01_Kosice_02_ako-sa-mas.md`.
 ```markdown
 # Série Košice (2/5) — Ako sa máš?
 
-@ TODO_img/nom.jpg | TODO : choisir une image (…) sur Wikimedia Commons
+@ TODO_img/nom.jpg | TODO : choisir une image (…)
 
 {{fr:Courte intro (1 à 2 phrases), qui replace l'histoire.}}
 
@@ -221,7 +221,7 @@ La 06 laisse de la place pour **développer** l'histoire (scènes plus longues, 
 @ img/nom-du-theme.jpg | Légende : sujet. Source : Wikimedia Commons
 ```
 
-- Une image libre de Wikimedia Commons par fiche, choisie une à une, avec légende, source et licence ; ~600-800 px de large.
+- Une image libre et gratuite par fiche (Commons, Flickr CC, Unsplash, Pexels, Pixabay ou illustration générée, voir `docs/Images-a-trouver.md`), choisie une à une, avec légende, source et licence ; ~600-800 px de large.
 - Tant que l'image n'est pas choisie : `@ TODO_img/choisir-image.jpg | TODO : choisir une image (…)`.
 - Chaque image a sa ligne dans `img/credits.md`.
 - Pas d'illustrations de personnages pour l'instant : on verra plus tard.

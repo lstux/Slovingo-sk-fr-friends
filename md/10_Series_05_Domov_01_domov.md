@@ -1,6 +1,6 @@
 # Série Domov (1/5) — Dobrý deň, pani Ježková
 
-@ TODO_img/zdiar-dreveny-dom.jpg | TODO : choisir une image (une maison en bois peinte d'un village sous les Tatras) sur Wikimedia Commons
+@ TODO_img/zdiar-dreveny-dom.jpg | TODO : choisir une image (une maison en bois peinte d'un village sous les Tatras)
 
 %: Le village d'enfance (emplacement indicatif)
 % 49.2692, 20.2656 | {{Ždiar}} | z11 | topo

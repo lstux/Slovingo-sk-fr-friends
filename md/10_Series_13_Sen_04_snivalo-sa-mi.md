@@ -1,6 +1,6 @@
 # Série Sen (4/5) — Snívalo sa mi
 
-@ TODO_img/mapa-slovenska.jpg | TODO : choisir une image (une carte de la Slovaquie, de Košice à Bratislava) sur Wikimedia Commons
+@ TODO_img/mapa-slovenska.jpg | TODO : choisir une image (une carte de la Slovaquie, de Košice à Bratislava)
 
 {{fr:Tu as fait un drôle de rêve. Il y avait la sécheresse, puis un très long voyage, jusqu'à Bratislava. Et même la télévision. On apprend à raconter un rêve, et à dire « pour ».}}
 

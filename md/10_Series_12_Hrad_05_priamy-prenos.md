@@ -1,6 +1,6 @@
 # Série Hrad (5/5) — Priamy prenos
 
-@ TODO_img/stvr-studio-kamera.jpg | TODO : choisir une image (une caméra de télévision sur un plateau éclairé) sur Wikimedia Commons
+@ TODO_img/stvr-studio-kamera.jpg | TODO : choisir une image (une caméra de télévision sur un plateau éclairé)
 
 {{fr:Sept heures. La lumière rouge s'allume sur la caméra. Vous êtes en direct, devant tout le pays. Chacun raconte ce qu'il a vu. Et la présentatrice pose une dernière question.}}
 

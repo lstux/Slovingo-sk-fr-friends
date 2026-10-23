@@ -1,6 +1,6 @@
 # Hrad (extra) — Potom uvidíme
 
-@ TODO_img/bratislava-noc-dunaj.jpg | TODO : choisir une image (Bratislava et le Danube la nuit, vus du château) sur Wikimedia Commons
+@ TODO_img/bratislava-noc-dunaj.jpg | TODO : choisir une image (Bratislava et le Danube la nuit, vus du château)
 
 {{fr:La caméra s'éteint. Tout le monde souffle. Le téléphone de Katka se recharge, et les messages tombent. Plus tard, sur la terrasse, il ne reste que toi et Andrea. Et une question difficile.}}
 
