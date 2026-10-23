@@ -1,6 +1,6 @@
 # Série Košice (2/5) — Ako sa máš?
 
-@ TODO_img/kosice-hlavna-ulica.jpg | TODO : choisir une image (deux ados qui discutent, ou la rue principale de Košice)
+@ img/kosice-hlavna-ulica.jpg | Deux ados qui discutent, ou la rue principale de Košice. Source : Wikimedia Commons
 
 {{fr:Cinq ans sans se voir, ça fait long. Alors on prend des nouvelles, et on ne se contente pas d'un « ça va ».}}
 

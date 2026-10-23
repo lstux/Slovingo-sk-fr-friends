@@ -1,6 +1,6 @@
 # Bratislava (extra) — Pred hradom
 
-@ TODO_img/bratislava-vyhlad-hrad-dunaj.jpg | TODO : choisir une image (la vue sur le Danube depuis le château de Bratislava)
+@ img/bratislava-vyhlad-hrad-dunaj.jpg | La vue sur le Danube depuis le château de Bratislava. Source : Wikimedia Commons
 
 {{fr:Fin d'après-midi, devant la porte du château. La vue sur le Danube est magnifique. Le téléphone de Katka est vide. Et Maťo sort un papier de sa poche.}}
 

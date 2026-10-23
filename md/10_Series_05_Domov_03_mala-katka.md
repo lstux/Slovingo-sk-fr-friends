@@ -1,6 +1,6 @@
 # Série Domov (3/5) — Malá Katka
 
-@ TODO_img/svist-tatry.jpg | TODO : choisir une image (une marmotte des Tatras sur un rocher)
+@ img/svist-tatry.jpg | Une marmotte des Tatras sur un rocher. Source : Wikimedia Commons
 
 {{fr:Devant la maison, Katka ne lève pas les yeux de son téléphone. Elle a treize ans, et un conseil : ne l'appelle surtout pas « petite ». On apprend les adjectifs qui changent selon qu'on parle d'un garçon ou d'une fille.}}
 

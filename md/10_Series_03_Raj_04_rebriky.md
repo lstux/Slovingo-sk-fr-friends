@@ -1,6 +1,6 @@
 # Série Raj (4/5) — Rebríky
 
-@ TODO_img/slovensky-raj-rebriky.jpg | TODO : choisir une image (des échelles métalliques le long d'une cascade, dans une gorge du Paradis slovaque)
+@ img/slovensky-raj-rebriky.jpg | Des échelles métalliques le long d'une cascade, dans une gorge du Paradis slovaque. Source : Wikimedia Commons
 
 {{fr:Le chemin entre dans une gorge. Pour avancer, il faut grimper des échelles au-dessus de l'eau. Toi, tu as le vertige. On apprend à dire où on va : en haut, en bas, derrière, au-dessus.}}
 

@@ -1,6 +1,6 @@
 # Rozhodnutie (extra) — My sme tam boli
 
-@ TODO_img/ranajky-vonku.jpg | TODO : choisir une image (un petit-déjeuner en plein air, dans les collines, le matin)
+@ img/ranajky-vonku.jpg | Un petit-déjeuner en plein air, dans les collines, le matin. Source : Wikimedia Commons
 
 {{fr:Le matin, au petit-déjeuner. Il faut décider quoi dire à la télévision. Tout le monde a un avis. Et toi, tu as un coup de fil à passer.}}
 

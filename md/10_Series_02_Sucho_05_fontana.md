@@ -1,6 +1,6 @@
 # Série Sucho (5/5) — Fontána
 
-@ TODO_img/spievajuca-fontana.jpg | TODO : choisir une image (la fontaine chantante de Košice)
+@ img/spievajuca-fontana.jpg | La fontaine chantante de Košice. Source : Wikimedia Commons
 
 {{fr:Dernière chance en ville : la fontaine de la rue principale. Tu vas rencontrer ton premier adulte humain, et ça se corse : il faut le vouvoyer.}}
 

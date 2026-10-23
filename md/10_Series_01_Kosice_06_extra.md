@@ -1,6 +1,6 @@
 # Košice (extra) — Dobrú noc
 
-@ TODO_img/kosice-zahrada-vecer.jpg | TODO : choisir une image (un jardin avec un pommier, le soir)
+@ img/kosice-zahrada-vecer.jpg | Un jardin avec un pommier, le soir. Source : Wikimedia Commons
 
 {{fr:Le soir tombe sur Košice. Andrea t'emmène chez sa tante… enfin, pas vraiment chez elle : dans son jardin.}}
 

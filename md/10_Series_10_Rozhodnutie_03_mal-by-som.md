@@ -1,6 +1,6 @@
 # Série Rozhodnutie (3/5) — Mal by som
 
-@ TODO_img/kalendar-nedela.jpg | TODO : choisir une image (un calendrier ou un agenda avec un dimanche entouré)
+@ img/kalendar-nedela.jpg | Un calendrier ou un agenda avec un dimanche entouré. Source : Wikimedia Commons
 
 {{fr:Dimanche, c'est dans quatre jours. Tu sais ce que tu devrais faire. Tu sais aussi ce que tu veux faire. Ce n'est pas la même chose. On apprend à dire « je devrais ».}}
 

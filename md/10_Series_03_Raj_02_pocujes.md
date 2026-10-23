@@ -1,6 +1,6 @@
 # Série Raj (2/5) — Počuješ?
 
-@ TODO_img/slovensky-raj-potok.jpg | TODO : choisir une image (un petit ruisseau dans une forêt)
+@ img/slovensky-raj-potok.jpg | Un petit ruisseau dans une forêt. Source : Wikimedia Commons
 
 {{fr:Dans la forêt, il fait plus frais, mais toujours pas d'eau. Et il y a un drôle de silence. On apprend à dire ce qu'on entend… et ce qu'on n'entend pas.}}
 

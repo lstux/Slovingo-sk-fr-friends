@@ -1,6 +1,6 @@
 # Série Datacentrum (1/5) — Ďakujeme za odvoz
 
-@ TODO_img/rovina-rieka-rano.jpg | TODO : choisir une image (une large plaine avec une rivière, le matin, en Slovaquie centrale)
+@ img/rovina-rieka-rano.jpg | Une large plaine avec une rivière, le matin, en Slovaquie centrale. Source : Wikimedia Commons
 
 %: La région centrale (emplacement indicatif)
 % 48.7363, 19.1462 | {{Banská Bystrica}} | z9

@@ -1,6 +1,6 @@
 # Série Hrad (4/5) — Správy o siedmej
 
-@ TODO_img/hodinky.jpg | TODO : choisir une image (une montre ou une horloge qui indique sept heures)
+@ img/hodinky.jpg | Une montre ou une horloge qui indique sept heures. Source : Wikimedia Commons
 
 {{fr:Deux minutes avant le direct. La rédactrice donne ses dernières consignes, et contredit Ján au passage. Katka s'entraîne au compte à rebours. On apprend à dire l'heure.}}
 

@@ -1,6 +1,6 @@
 # Série Košice (5/5) — V električke
 
-@ TODO_img/kosice-elektricka-dom.jpg | TODO : choisir une image (un tram qui passe devant la cathédrale de Košice)
+@ img/kosice-elektricka-dom.jpg | Un tram qui passe devant la cathédrale de Košice. Source : Wikimedia Commons
 
 {{fr:Le tram traverse Košice. Tu es tellement content d'être là que tu parles, tu parles… et Andrea a une théorie sur les renards.}}
 

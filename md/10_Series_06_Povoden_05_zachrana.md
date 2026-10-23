@@ -1,6 +1,6 @@
 # Série Povodeň (5/5) — Záchrana
 
-@ TODO_img/kacica-kacatka.jpg | TODO : choisir une image (une cane avec ses canetons)
+@ img/kacica-kacatka.jpg | Une cane avec ses canetons. Source : Wikimedia Commons
 
 {{fr:De maison en maison, vous emmenez les petits animaux à l'école. Maťo porte les paniers. Katka porte son téléphone. Et chacun sauve ce qu'il a de plus cher.}}
 

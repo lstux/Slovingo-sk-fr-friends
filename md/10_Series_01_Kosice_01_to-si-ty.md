@@ -1,6 +1,6 @@
 # Série Košice (1/5) — To si ty?
 
-@ TODO_img/kosice-elektricka.jpg | TODO : choisir une image (un tram dans une rue de Košice)
+@ img/kosice-elektricka.jpg | Un tram dans une rue de Košice. Source : Wikimedia Commons
 
 %: Košice
 % 48.7164, 21.2611 | {{Košice}} | z12

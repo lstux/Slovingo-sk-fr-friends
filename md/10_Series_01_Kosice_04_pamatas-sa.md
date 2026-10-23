@@ -1,6 +1,6 @@
 # Série Košice (4/5) — Pamätáš sa na Tatry?
 
-@ TODO_img/vysoke-tatry-leto.jpg | TODO : choisir une image (les Hautes Tatras en été)
+@ img/vysoke-tatry-leto.jpg | Les Hautes Tatras en été. Source : Wikimedia Commons
 
 {{fr:Les Tatras, c'était il y a cinq ans. Andrea s'en souvient très bien, toi aussi. Mais tout le monde a grandi, y compris Katka et Maťo.}}
 

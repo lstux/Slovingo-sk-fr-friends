@@ -1,6 +1,6 @@
 # Série Baňa (3/5) — Tajchy
 
-@ TODO_img/tajch-stiavnica.jpg | TODO : choisir une image (un tajch, petit lac artificiel en forêt près de Banská Štiavnica)
+@ img/tajch-stiavnica.jpg | Un tajch, petit lac artificiel en forêt près de Banská Štiavnica. Source : Wikimedia Commons
 
 {{fr:Ján vous emmène au-dessus de la ville. Dans la forêt, il y a de petits lacs construits il y a des siècles. Et il y a de l'eau, enfin. On apprend à dire « le meilleur », « le plus beau ».}}
 

@@ -1,6 +1,6 @@
 # Série Burka (1/5) — Prečo?
 
-@ TODO_img/vysoke-tatry-chodnik.jpg | TODO : choisir une image (un sentier qui monte dans les Hautes Tatras)
+@ img/vysoke-tatry-chodnik.jpg | Un sentier qui monte dans les Hautes Tatras. Source : Wikimedia Commons
 
 %: Les Hautes Tatras
 % 49.1186, 20.0586 | {{Štrbské Pleso}} | z10 | topo

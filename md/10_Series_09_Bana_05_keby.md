@@ -1,6 +1,6 @@
 # Série Baňa (5/5) — Keby…
 
-@ TODO_img/banik-brana.jpg | TODO : choisir une image (l'entrée d'un site minier avec une grille)
+@ img/banik-brana.jpg | L'entrée d'un site minier avec une grille. Source : Wikimedia Commons
 
 {{fr:À la grille de la future mine, un mineur garde l'entrée. Il connaît Ján. Il a enfin un travail. Et tout le monde se met à parler avec des « si ». On apprend à imaginer : « si j'avais… ».}}
 

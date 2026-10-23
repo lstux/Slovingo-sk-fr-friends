@@ -1,6 +1,6 @@
 # Série Hrad (1/5) — Sadnite si
 
-@ TODO_img/hrad-terasa-vecer.jpg | TODO : choisir une image (la terrasse du château de Bratislava, le soir)
+@ img/hrad-terasa-vecer.jpg | La terrasse du château de Bratislava, le soir. Source : Wikimedia Commons
 
 %: Le château de Bratislava
 % 48.1421, 17.1000 | {{Bratislavský hrad}} | z15

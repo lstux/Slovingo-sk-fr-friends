@@ -1,6 +1,6 @@
 # Série Sen (2/5) — Mám pocit
 
-@ TODO_img/flasa-voda.jpg | TODO : choisir une image (une bouteille avec un fond d'eau)
+@ img/flasa-voda.jpg | Une bouteille avec un fond d'eau. Source : Wikimedia Commons
 
 {{fr:Andrea t'apporte un peu d'eau. Pas beaucoup : il n'y en a pas plus. Toi, tu as une drôle d'impression. Celle d'avoir été très loin. On apprend à dire « j'ai l'impression que ».}}
 

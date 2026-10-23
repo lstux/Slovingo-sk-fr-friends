@@ -1,6 +1,6 @@
 # Série Baňa (2/5) — Odkiaľ ste?
 
-@ TODO_img/veverica.jpg | TODO : choisir une image (un écureuil roux sur un toit ou une clôture)
+@ img/veverica.jpg | Un écureuil roux sur un toit ou une clôture. Source : Wikimedia Commons
 
 {{fr:Un écureuil saute d'un toit. Il s'appelle Ján, il parle très vite et il pose dix questions à la seconde. On apprend tous les mots pour poser des questions.}}
 

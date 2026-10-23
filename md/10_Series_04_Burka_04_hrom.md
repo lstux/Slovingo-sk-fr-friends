@@ -1,6 +1,6 @@
 # Série Burka (4/5) — Hrom
 
-@ TODO_img/blesk-hory.jpg | TODO : choisir une image (un éclair au-dessus des montagnes, la nuit)
+@ img/blesk-hory.jpg | Un éclair au-dessus des montagnes, la nuit. Source : Wikimedia Commons
 
 {{fr:L'orage arrive, en pleine nuit. Avec un jour d'avance sur le genou du gardien. On apprend à rassurer quelqu'un… et à le vouvoyer en même temps.}}
 

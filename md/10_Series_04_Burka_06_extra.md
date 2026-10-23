@@ -1,6 +1,6 @@
 # Burka (extra) — Ráno po búrke
 
-@ TODO_img/tatry-pleso-rano.jpg | TODO : choisir une image (un lac de montagne au soleil du matin, après la pluie)
+@ img/tatry-pleso-rano.jpg | Un lac de montagne au soleil du matin, après la pluie. Source : Wikimedia Commons
 
 {{fr:Le matin, l'orage est parti. Il y a de l'eau partout. Tu es content. Andrea, beaucoup moins.}}
 

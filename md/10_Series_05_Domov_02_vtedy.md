@@ -1,6 +1,6 @@
 # Série Domov (2/5) — Vtedy a teraz
 
-@ TODO_img/medved-luka-ovce.jpg | TODO : choisir une image (un pré de montagne avec des moutons)
+@ img/medved-luka-ovce.jpg | Un pré de montagne avec des moutons. Source : Wikimedia Commons
 
 {{fr:Dans le pré, un ours énorme garde les moutons. C'est Maťo. Il a quatorze ans, et il était déjà grand il y a cinq ans. On apprend à comparer avant et maintenant.}}
 

@@ -1,6 +1,6 @@
 # Série Sucho (2/5) — Veľa alebo veľmi?
 
-@ TODO_img/liska-chvost.jpg | TODO : choisir une image (un renard roux avec une belle queue)
+@ img/liska-chvost.jpg | Un renard roux avec une belle queue. Source : Wikimedia Commons
 
 {{fr:Hier, Andrea t'a dit que les renards parlent beaucoup. Tu essaies de le répéter… et tu te prends les pieds dans le tapis. Aujourd'hui, on apprend à dire « beaucoup » sans se tromper : c'est un piège classique pour les francophones.}}
 

@@ -1,6 +1,6 @@
 # Série Datacentrum (3/5) — Volám sa Marek
 
-@ TODO_img/jazvec.jpg | TODO : choisir une image (un blaireau européen)
+@ img/jazvec.jpg | Un blaireau européen. Source : Wikimedia Commons
 
 {{fr:Un blaireau en gilet bleu sort du bâtiment. Il s'appelle Marek, il travaille ici, et on lui pose souvent la question des grenouilles. Toi, tu refais une vieille faute. On apprend à dire « c'est pour ça que ».}}
 

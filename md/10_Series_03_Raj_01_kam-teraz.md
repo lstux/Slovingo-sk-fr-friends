@@ -1,6 +1,6 @@
 # Série Raj (1/5) — Kam teraz?
 
-@ TODO_img/slovensky-raj-les.jpg | TODO : choisir une image (un chemin dans la forêt du Paradis slovaque)
+@ img/slovensky-raj-les.jpg | Un chemin dans la forêt du Paradis slovaque. Source : Wikimedia Commons
 
 %: Slovenský raj
 % 48.9449, 20.5664 | {{Spišská Nová Ves}} | z10 | topo

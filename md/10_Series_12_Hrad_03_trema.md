@@ -1,6 +1,6 @@
 # Série Hrad (3/5) — Tréma
 
-@ TODO_img/motyl.jpg | TODO : choisir une image (un papillon)
+@ img/motyl.jpg | Un papillon. Source : Wikimedia Commons
 
 {{fr:Plus que quelques minutes. Tu as le trac, et le ventre plein de papillons. Andrea, elle, a une technique. On apprend les expressions avec « avoir ».}}
 

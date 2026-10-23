@@ -1,6 +1,6 @@
 # Série Raj (5/5) — Na konci rokliny
 
-@ TODO_img/orol-skalny.jpg | TODO : choisir une image (un aigle royal posé sur un rocher)
+@ img/orol-skalny.jpg | Un aigle royal posé sur un rocher. Source : Wikimedia Commons
 
 {{fr:Tu as survécu aux échelles. Au bout de la gorge, quelqu'un vous attend : une vieille connaissance des Tatras, qu'il faut vouvoyer.}}
 

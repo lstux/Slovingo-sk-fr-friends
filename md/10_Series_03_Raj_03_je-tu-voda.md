@@ -1,6 +1,6 @@
 # Série Raj (3/5) — Je tu voda!
 
-@ TODO_img/slovensky-raj-voda.jpg | TODO : choisir une image (un petit ruisseau clair entre des pierres)
+@ img/slovensky-raj-voda.jpg | Un petit ruisseau clair entre des pierres. Source : Wikimedia Commons
 
 {{fr:Enfin de l'eau ! Pas beaucoup, mais assez. Et Andrea en profite pour rappeler qui commande. On apprend à dire « assez », « d'abord » et « ensuite ».}}
 

@@ -1,6 +1,6 @@
 # Série Bratislava (4/5) — Vrátnik
 
-@ TODO_img/stvr-mlynska-dolina.jpg | TODO : choisir une image (le bâtiment de la télévision slovaque à Mlynská dolina)
+@ img/stvr-mlynska-dolina.jpg | Le bâtiment de la télévision slovaque à Mlynská dolina. Source : Wikimedia Commons
 
 {{fr:Devant le grand bâtiment gris, il y a une petite guérite, et dans la guérite, un portier fatigué. Il pose des questions de portier. Vous n'avez aucune des bonnes réponses. On apprend à parler à l'administration.}}
 
