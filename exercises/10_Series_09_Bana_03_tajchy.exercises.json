@@ -1,0 +1,220 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-st-ro-ia",
+      "type": "qcm",
+      "l1": "les siècles",
+      "l2": "stáročia",
+      "choices_l1": [
+        "les mines",
+        "le bord, la rive",
+        "le moment"
+      ],
+      "choices_l2": [
+        "bane",
+        "breh",
+        "moment"
+      ]
+    },
+    {
+      "id": "qcm-umel",
+      "type": "qcm",
+      "l1": "artificiels",
+      "l2": "umelé",
+      "choices_l1": [
+        "le meilleur",
+        "froide",
+        "ils sont restés"
+      ],
+      "choices_l2": [
+        "najlepší",
+        "studená",
+        "zostali"
+      ]
+    },
+    {
+      "id": "qcm-breh",
+      "type": "qcm",
+      "l1": "le bord, la rive",
+      "l2": "breh",
+      "choices_l1": [
+        "le tajch (lac de mine)",
+        "les mines",
+        "le moment"
+      ],
+      "choices_l2": [
+        "tajch",
+        "bane",
+        "moment"
+      ]
+    },
+    {
+      "id": "qcm-najlep",
+      "type": "qcm",
+      "l1": "le meilleur",
+      "l2": "najlepší",
+      "choices_l1": [
+        "le plus beau",
+        "artificiels",
+        "froide"
+      ],
+      "choices_l2": [
+        "najkrajší",
+        "umelé",
+        "studená"
+      ]
+    },
+    {
+      "id": "qcm-k-pa-sa",
+      "type": "qcm",
+      "l1": "se baigner",
+      "l2": "kúpať sa",
+      "choices_l1": [
+        "la montagne",
+        "le plus beau",
+        "le bord, la rive"
+      ],
+      "choices_l2": [
+        "hora",
+        "najkrajší",
+        "breh"
+      ]
+    },
+    {
+      "id": "listen-tak-sa-volaj-na-e-jazer-s-to-umel-jazer-udia-ich-urobili-a-zostali-tu",
+      "type": "listen",
+      "l1": "C'est comme ça qu'on appelle nos lacs. Ce sont des lacs artificiels. Les gens les ont faits, et ils sont restés là.",
+      "l2": "Tak sa volajú naše jazerá. Sú to umelé jazerá. Ľudia ich urobili a zostali tu.",
+      "choices_l1": [
+        "C'est comme ça qu'on appelle nos forêts. Ce sont des forêts naturelles.",
+        "C'est comme ça qu'on appelle nos lacs. Ce sont des lacs naturels. Ils ont toujours été là.",
+        "C'est comme ça qu'on appelle nos mines. Les gens les ont creusées, et ils sont partis."
+      ]
+    },
+    {
+      "id": "listen-voda-hovor-e-je-tu-voda",
+      "type": "listen",
+      "l1": "De l'eau ! Tu dis qu'il y a de l'eau ici !",
+      "l2": "Voda! Hovoríš, že je tu voda!",
+      "choices_l1": [
+        "De l'eau ! Tu dis qu'il n'y a pas d'eau ici !",
+        "De l'eau ! Je dis qu'il y a de l'eau ici !",
+        "Un lac ! Tu dis qu'il y a un lac ici !"
+      ]
+    },
+    {
+      "id": "listen-kone-ne",
+      "type": "listen",
+      "l1": "Enfin.",
+      "l2": "Konečne.",
+      "choices_l1": [
+        "Encore.",
+        "Jamais.",
+        "Peut-être."
+      ]
+    },
+    {
+      "id": "listen-to-je-najlep-moment-tohto-leta",
+      "type": "listen",
+      "l1": "C'est le meilleur moment de cet été.",
+      "l2": "To je najlepší moment tohto leta.",
+      "choices_l1": [
+        "C'est le pire moment de cet été.",
+        "C'est le meilleur moment de l'année.",
+        "C'est le meilleur endroit de cet été."
+      ]
+    },
+    {
+      "id": "match-tajch-vocab",
+      "type": "match",
+      "l1": [
+        "le tajch (lac de mine)",
+        "les siècles",
+        "les mines",
+        "le bord, la rive"
+      ],
+      "l2": [
+        "tajch",
+        "stáročia",
+        "bane",
+        "breh"
+      ]
+    },
+    {
+      "id": "blank-je-tu-dos-na-v-etko-o-chcete",
+      "type": "fill-blank",
+      "l1": "Il y en a. Assez pour tout ce que vous voulez.",
+      "l2": "Je tu. Dosť na všetko, čo chcete.",
+      "missing_l1": "Assez",
+      "missing_l2": "Dosť",
+      "blank_index_l1": 4,
+      "blank_index_l2": 2,
+      "choices_l1": [
+        "Peu",
+        "Trop",
+        "Rien"
+      ],
+      "choices_l2": [
+        "Málo",
+        "Veľa",
+        "Trochu"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-t-to-hora-je-najkraj-ia",
+      "type": "fill-blank",
+      "l1": "Cette montagne est la plus belle.",
+      "l2": "Táto hora je najkrajšia.",
+      "missing_l1": "belle",
+      "missing_l2": "najkrajšia",
+      "blank_index_l1": 5,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "grande",
+        "haute",
+        "froide"
+      ],
+      "choices_l2": [
+        "najlepšia",
+        "najväčšia",
+        "studená"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-to-je-najlep-moment-tohto-leta",
+      "type": "order",
+      "l1": "C'est le meilleur moment de cet été.",
+      "l2": "To je najlepší moment tohto leta.",
+      "tokens_l1": [
+        "C'est",
+        "le meilleur moment",
+        "de cet été."
+      ],
+      "tokens_l2": [
+        "To je",
+        "najlepší moment",
+        "tohto leta."
+      ]
+    },
+    {
+      "id": "order-ideme-sa-k-pa-do-tajchu",
+      "type": "order",
+      "l1": "On va se baigner dans le tajch.",
+      "l2": "Ideme sa kúpať do tajchu.",
+      "tokens_l1": [
+        "On va",
+        "se baigner",
+        "dans le tajch."
+      ],
+      "tokens_l2": [
+        "Ideme",
+        "sa kúpať",
+        "do tajchu."
+      ]
+    }
+  ]
+}

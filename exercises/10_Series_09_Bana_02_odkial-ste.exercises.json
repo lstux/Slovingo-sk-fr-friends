@@ -1,0 +1,220 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-veveri-ka",
+      "type": "qcm",
+      "l1": "l'écureuil",
+      "l2": "veverička",
+      "choices_l1": [
+        "les noix",
+        "le prénom, le nom",
+        "le zoo"
+      ],
+      "choices_l2": [
+        "orechy",
+        "meno",
+        "zoo"
+      ]
+    },
+    {
+      "id": "qcm-odkia",
+      "type": "qcm",
+      "l1": "d'où",
+      "l2": "odkiaľ",
+      "choices_l1": [
+        "quand",
+        "Ça dépend.",
+        "nouveaux"
+      ],
+      "choices_l2": [
+        "kedy",
+        "Záleží.",
+        "noví"
+      ]
+    },
+    {
+      "id": "qcm-z-le",
+      "type": "qcm",
+      "l1": "Ça dépend.",
+      "l2": "Záleží.",
+      "choices_l1": [
+        "respire",
+        "le problème",
+        "nouveaux"
+      ],
+      "choices_l2": [
+        "dýchaj",
+        "problém",
+        "noví"
+      ]
+    },
+    {
+      "id": "qcm-kedy",
+      "type": "qcm",
+      "l1": "quand",
+      "l2": "kedy",
+      "choices_l1": [
+        "d'où",
+        "la noix",
+        "l'ami"
+      ],
+      "choices_l2": [
+        "odkiaľ",
+        "orech",
+        "priateľ"
+      ]
+    },
+    {
+      "id": "qcm-orechy",
+      "type": "qcm",
+      "l1": "les noix",
+      "l2": "orechy",
+      "choices_l1": [
+        "l'écureuil",
+        "le prénom, le nom",
+        "le problème"
+      ],
+      "choices_l2": [
+        "veverička",
+        "meno",
+        "problém"
+      ]
+    },
+    {
+      "id": "listen-ahoj-vy-ste-nov-ja-som-j-n-b-vam-tu-alebo-som-b-val-alebo-e-te-b-vam-z-le-koho-sa-p-tate",
+      "type": "listen",
+      "l1": "Salut ! Vous êtes nouveaux ? Moi, c'est Ján. J'habite ici. Ou plutôt, j'habitais. Ou j'habite encore. Ça dépend à qui vous demandez.",
+      "l2": "Ahoj! Vy ste noví? Ja som Ján. Bývam tu. Alebo som býval. Alebo ešte bývam. Záleží, koho sa pýtate.",
+      "choices_l1": [
+        "Salut ! Vous êtes perdus ? Moi, c'est Ján. J'habite ici. Depuis toujours.",
+        "Salut ! Vous êtes nouveaux ? Moi, c'est Marek. Je travaille ici.",
+        "Salut ! Vous êtes nouveaux ? Moi, c'est Ján. Je n'habite pas ici. Je suis en vacances."
+      ]
+    },
+    {
+      "id": "listen-ja-nie-som-zoo-ja-som-katka",
+      "type": "listen",
+      "l1": "Je ne suis pas un animal de zoo. Je suis Katka.",
+      "l2": "Ja nie som zoo. Ja som Katka.",
+      "choices_l1": [
+        "Je suis un animal de zoo. Je suis Katka.",
+        "Je ne suis pas petite. Je suis Katka.",
+        "Je ne suis pas un ours. Je suis Maťo."
+      ]
+    },
+    {
+      "id": "listen-j-n-d-chaj",
+      "type": "listen",
+      "l1": "Ján... respire.",
+      "l2": "Ján... dýchaj.",
+      "choices_l1": [
+        "Ján... attends.",
+        "Ján... dors.",
+        "Ján... parle."
+      ]
+    },
+    {
+      "id": "listen-ja-d-cham-st-le-to-je-m-j-probl-m",
+      "type": "listen",
+      "l1": "Je respire tout le temps. C'est mon problème.",
+      "l2": "Ja dýcham stále. To je môj problém.",
+      "choices_l1": [
+        "Je ne respire jamais. C'est mon problème.",
+        "Je parle tout le temps. C'est mon problème.",
+        "Je respire tout le temps. Ce n'est pas un problème."
+      ]
+    },
+    {
+      "id": "match-odkia-vocab",
+      "type": "match",
+      "l1": [
+        "d'où",
+        "quand",
+        "l'écureuil",
+        "les noix"
+      ],
+      "l2": [
+        "odkiaľ",
+        "kedy",
+        "veverička",
+        "orechy"
+      ]
+    },
+    {
+      "id": "blank-kedy-ideme",
+      "type": "fill-blank",
+      "l1": "On part quand ?",
+      "l2": "Kedy ideme?",
+      "missing_l1": "quand",
+      "missing_l2": "Kedy",
+      "blank_index_l1": 2,
+      "blank_index_l2": 0,
+      "choices_l1": [
+        "où",
+        "comment",
+        "pourquoi"
+      ],
+      "choices_l2": [
+        "Kde",
+        "Kam",
+        "Odkiaľ"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-j-n-je-m-j-priate-m-orechy",
+      "type": "fill-blank",
+      "l1": "Ján est mon ami. Il a des noix.",
+      "l2": "Ján je môj priateľ. Má orechy.",
+      "missing_l1": "noix",
+      "missing_l2": "orechy",
+      "blank_index_l1": 7,
+      "blank_index_l2": 5,
+      "choices_l1": [
+        "pommes",
+        "fraises",
+        "baies"
+      ],
+      "choices_l2": [
+        "jablká",
+        "jahody",
+        "bobule"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-ja-d-cham-st-le-to-je-m-j-probl-m",
+      "type": "order",
+      "l1": "Je respire tout le temps. C'est mon problème.",
+      "l2": "Ja dýcham stále. To je môj problém.",
+      "tokens_l1": [
+        "Je respire",
+        "tout le temps.",
+        "C'est mon problème."
+      ],
+      "tokens_l2": [
+        "Ja dýcham",
+        "stále.",
+        "To je môj problém."
+      ]
+    },
+    {
+      "id": "order-j-n-je-m-j-priate-m-orechy",
+      "type": "order",
+      "l1": "Ján est mon ami. Il a des noix.",
+      "l2": "Ján je môj priateľ. Má orechy.",
+      "tokens_l1": [
+        "Ján est",
+        "mon ami.",
+        "Il a des noix."
+      ],
+      "tokens_l2": [
+        "Ján je",
+        "môj priateľ.",
+        "Má orechy."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-ra-e",
+      "type": "qcm",
+      "l1": "la broche",
+      "l2": "ražeň",
+      "choices_l1": [
+        "les fraises",
+        "les baies",
+        "les flammes"
+      ],
+      "choices_l2": [
+        "jahody",
+        "bobule",
+        "plamene"
+      ]
+    },
+    {
+      "id": "qcm-hos",
+      "type": "qcm",
+      "l1": "l'invité",
+      "l2": "hosť",
+      "choices_l1": [
+        "le chasseur",
+        "le renard (le mâle)",
+        "l'ami"
+      ],
+      "choices_l2": [
+        "lovec",
+        "lišiak",
+        "priateľ"
+      ]
+    },
+    {
+      "id": "qcm-lovec",
+      "type": "qcm",
+      "l1": "le chasseur",
+      "l2": "lovec",
+      "choices_l1": [
+        "l'invité",
+        "l'ami",
+        "le renard (le mâle)"
+      ],
+      "choices_l2": [
+        "hosť",
+        "priateľ",
+        "lišiak"
+      ]
+    },
+    {
+      "id": "qcm-jahody",
+      "type": "qcm",
+      "l1": "les fraises",
+      "l2": "jahody",
+      "choices_l1": [
+        "les baies",
+        "les flammes",
+        "la broche"
+      ],
+      "choices_l2": [
+        "bobule",
+        "plamene",
+        "ražeň"
+      ]
+    },
+    {
+      "id": "qcm-astie",
+      "type": "qcm",
+      "l1": "la chance",
+      "l2": "šťastie",
+      "choices_l1": [
+        "le plat principal",
+        "inviter à dîner",
+        "l'invité"
+      ],
+      "choices_l2": [
+        "hlavné jedlo",
+        "pozvať na večeru",
+        "hosť"
+      ]
+    },
+    {
+      "id": "listen-myslela-som-e-je-to-priate-bol-mil-smial-sa-doniesol-jahody",
+      "type": "listen",
+      "l1": "Je pensais que c'était un ami. Il était gentil. Il riait. Il avait apporté des fraises.",
+      "l2": "Myslela som, že je to priateľ. Bol milý. Smial sa. Doniesol jahody.",
+      "choices_l1": [
+        "Je savais que c'était un chasseur. Il était méchant.",
+        "Je pensais que c'était un ami. Il était gentil. Il pleurait. Il avait apporté des baies.",
+        "Je pensais que c'était une amie. Elle était gentille. Elle riait."
+      ]
+    },
+    {
+      "id": "listen-a-potom-som-videla-ra-e-a-zistila-som-e-nie-som-hos-ale-hlavn-jedlo",
+      "type": "listen",
+      "l1": "Et puis j'ai vu la broche. Et j'ai compris que je n'étais pas l'invitée, mais le plat principal.",
+      "l2": "A potom som videla ražeň. A zistila som, že nie som hosť, ale hlavné jedlo.",
+      "choices_l1": [
+        "Et puis j'ai vu le dessert. Et j'ai compris que j'étais l'invitée.",
+        "Et puis j'ai vu la broche. Et j'ai compris que j'étais l'invitée d'honneur.",
+        "Et puis j'ai vu le feu. Et j'ai compris que je devais partir."
+      ]
+    },
+    {
+      "id": "listen-lovec-ml-ty-nikdy",
+      "type": "listen",
+      "l1": "Un chasseur se tait. Toi, jamais.",
+      "l2": "Lovec mlčí. Ty nikdy.",
+      "choices_l1": [
+        "Un chasseur parle. Toi, jamais.",
+        "Un chasseur se tait. Toi aussi.",
+        "Un renard se tait. Toi, jamais."
+      ]
+    },
+    {
+      "id": "listen-dobre-tak-v-tomto-pr-pade-m-m-astie",
+      "type": "listen",
+      "l1": "D'accord. Alors, dans ce cas, j'ai de la chance.",
+      "l2": "Dobre. Tak v tomto prípade mám šťastie.",
+      "choices_l1": [
+        "D'accord. Alors, dans ce cas, je n'ai pas de chance.",
+        "D'accord. Alors, dans ce cas, j'ai peur.",
+        "Non. Dans ce cas, j'ai de la chance."
+      ]
+    },
+    {
+      "id": "listen-nechcem-ak-bude-chcie-povie-mi-to-sama",
+      "type": "listen",
+      "l1": "Je ne veux pas. Si tu en as envie, tu me le diras toi-même.",
+      "l2": "Nechcem. Ak budeš chcieť, povieš mi to sama.",
+      "choices_l1": [
+        "Je veux savoir. Dis-le-moi tout de suite.",
+        "Je ne veux pas. Si tu en as envie, Katka me le dira.",
+        "Je ne veux pas. Tu ne me le diras jamais."
+      ]
+    },
+    {
+      "id": "match-ra-e-vocab",
+      "type": "match",
+      "l1": [
+        "la broche",
+        "l'invité",
+        "le chasseur",
+        "les baies"
+      ],
+      "l2": [
+        "ražeň",
+        "hosť",
+        "lovec",
+        "bobule"
+      ]
+    },
+    {
+      "id": "blank-lovec-sa-nechov-takto",
+      "type": "fill-blank",
+      "l1": "Un chasseur ne se comporte pas comme ça ?",
+      "l2": "Lovec sa nechová takto?",
+      "missing_l1": "chasseur",
+      "missing_l2": "Lovec",
+      "blank_index_l1": 1,
+      "blank_index_l2": 0,
+      "choices_l1": [
+        "invité",
+        "ami",
+        "renard"
+      ],
+      "choices_l2": [
+        "Hosť",
+        "Priateľ",
+        "Lišiak"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-to-je-od-teba-ve-mi-m-dre",
+      "type": "fill-blank",
+      "l1": "C'est très sage de ta part.",
+      "l2": "To je od teba veľmi múdre.",
+      "missing_l1": "sage",
+      "missing_l2": "múdre",
+      "blank_index_l1": 2,
+      "blank_index_l2": 5,
+      "choices_l1": [
+        "méchant",
+        "gentil",
+        "fou"
+      ],
+      "choices_l2": [
+        "zlé",
+        "milé",
+        "šialené"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-viem-v-dy-si-jedol-len-bobule-a-hovoril-si-pr-li-ve-a-takto-sa-lovec-nechov",
+      "type": "order",
+      "l1": "Je sais. Tu n'as toujours mangé que des baies. Et tu parlais beaucoup trop. Un chasseur ne se comporte pas comme ça.",
+      "l2": "Viem. Vždy si jedol len bobule. A hovoril si príliš veľa. Takto sa lovec nechová.",
+      "tokens_l1": [
+        "Je sais.",
+        "Tu n'as toujours mangé que des baies.",
+        "Et tu parlais beaucoup trop.",
+        "Un chasseur ne se comporte pas comme ça."
+      ],
+      "tokens_l2": [
+        "Viem.",
+        "Vždy si jedol len bobule.",
+        "A hovoril si príliš veľa.",
+        "Takto sa lovec nechová."
+      ]
+    },
+    {
+      "id": "order-raz-som-sa-nechala-pozva-na-ve-eru-jedn-m-li-iakom",
+      "type": "order",
+      "l1": "Un jour, je me suis laissé inviter à dîner. Par un renard.",
+      "l2": "Raz som sa nechala pozvať na večeru. Jedným lišiakom.",
+      "tokens_l1": [
+        "Un jour, je me suis laissé",
+        "inviter à dîner.",
+        "Par un renard."
+      ],
+      "tokens_l2": [
+        "Raz som sa nechala",
+        "pozvať na večeru.",
+        "Jedným lišiakom."
+      ]
+    }
+  ]
+}

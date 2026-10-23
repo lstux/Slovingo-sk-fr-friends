@@ -1,0 +1,231 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-listy",
+      "type": "qcm",
+      "l1": "les lettres",
+      "l2": "listy",
+      "choices_l1": [
+        "le bois",
+        "le compliment",
+        "l'observation"
+      ],
+      "choices_l2": [
+        "drevo",
+        "pochvala",
+        "pozorovanie"
+      ]
+    },
+    {
+      "id": "qcm-in",
+      "type": "qcm",
+      "l1": "différente",
+      "l2": "iná",
+      "choices_l1": [
+        "pareil, le même",
+        "seuls (à plusieurs)",
+        "ils ramassent"
+      ],
+      "choices_l2": [
+        "rovnaký",
+        "sami",
+        "zbierajú"
+      ]
+    },
+    {
+      "id": "qcm-rovnak",
+      "type": "qcm",
+      "l1": "pareil, le même",
+      "l2": "rovnaký",
+      "choices_l1": [
+        "différente",
+        "seuls (à plusieurs)",
+        "les lettres"
+      ],
+      "choices_l2": [
+        "iná",
+        "sami",
+        "listy"
+      ]
+    },
+    {
+      "id": "qcm-pochvala",
+      "type": "qcm",
+      "l1": "le compliment",
+      "l2": "pochvala",
+      "choices_l1": [
+        "l'observation",
+        "les lettres",
+        "le bois"
+      ],
+      "choices_l2": [
+        "pozorovanie",
+        "listy",
+        "drevo"
+      ]
+    },
+    {
+      "id": "qcm-po-ta",
+      "type": "qcm",
+      "l1": "la poste",
+      "l2": "pošta",
+      "choices_l1": [
+        "la lettre, la feuille",
+        "envoyer",
+        "le bois"
+      ],
+      "choices_l2": [
+        "list",
+        "poslať",
+        "drevo"
+      ]
+    },
+    {
+      "id": "listen-pre-o-si-mi-nenap-sala-p-rokov",
+      "type": "listen",
+      "l1": "Pourquoi tu ne m'as pas écrit ? Cinq ans.",
+      "l2": "Prečo si mi nenapísala? Päť rokov.",
+      "choices_l1": [
+        "Pourquoi tu m'as écrit ? Cinq fois.",
+        "Pourquoi tu ne m'as pas appelé ? Cinq ans.",
+        "Pourquoi tu ne m'as pas écrit ? Quinze ans."
+      ]
+    },
+    {
+      "id": "listen-nap-sala-som-ti-es-listov",
+      "type": "listen",
+      "l1": "Je t'ai écrit six lettres.",
+      "l2": "Napísala som ti šesť listov.",
+      "choices_l1": [
+        "Je t'ai écrit sept lettres.",
+        "Tu m'as écrit six lettres.",
+        "Je t'ai envoyé six lettres."
+      ]
+    },
+    {
+      "id": "listen-nikdy-som-ich-neposlala",
+      "type": "listen",
+      "l1": "Je ne les ai jamais envoyées.",
+      "l2": "Nikdy som ich neposlala.",
+      "choices_l1": [
+        "Je les ai toutes envoyées.",
+        "Je ne les ai jamais écrites.",
+        "Tu ne les as jamais envoyées."
+      ]
+    },
+    {
+      "id": "listen-ja-som-rovnak",
+      "type": "listen",
+      "l1": "Moi, je suis pareil.",
+      "l2": "Ja som rovnaký.",
+      "choices_l1": [
+        "Moi, je suis différent.",
+        "Toi, tu es pareil.",
+        "Moi, je suis fatigué."
+      ]
+    },
+    {
+      "id": "listen-to-je-pochvala",
+      "type": "listen",
+      "l1": "C'est un compliment ?",
+      "l2": "To je pochvala?",
+      "choices_l1": [
+        "C'est une observation ?",
+        "C'est une question ?",
+        "C'est une blague ?"
+      ]
+    },
+    {
+      "id": "match-listy-vocab",
+      "type": "match",
+      "l1": [
+        "les lettres",
+        "différente",
+        "pareil, le même",
+        "le compliment"
+      ],
+      "l2": [
+        "listy",
+        "iná",
+        "rovnaký",
+        "pochvala"
+      ]
+    },
+    {
+      "id": "blank-ni-som-nedostal",
+      "type": "fill-blank",
+      "l1": "Je n'ai rien reçu.",
+      "l2": "Nič som nedostal.",
+      "missing_l1": "reçu",
+      "missing_l2": "nedostal",
+      "blank_index_l1": 3,
+      "blank_index_l2": 2,
+      "choices_l1": [
+        "envoyé",
+        "écrit",
+        "vu"
+      ],
+      "choices_l2": [
+        "neposlal",
+        "nenapísal",
+        "nevidel"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-idem-na-po-tu-mus-m-posla-list",
+      "type": "fill-blank",
+      "l1": "Je vais à la poste. Je dois envoyer une lettre.",
+      "l2": "Idem na poštu. Musím poslať list.",
+      "missing_l1": "lettre",
+      "missing_l2": "list",
+      "blank_index_l1": 9,
+      "blank_index_l2": 5,
+      "choices_l1": [
+        "carte",
+        "photo",
+        "fleur"
+      ],
+      "choices_l2": [
+        "lístok",
+        "balík",
+        "mapu"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-nie-predt-m-si-bol-mal-a-hlu-n-teraz-si-ve-k-a-hlu-n",
+      "type": "order",
+      "l1": "Non. Avant, tu étais petit et bruyant. Maintenant, tu es grand et bruyant.",
+      "l2": "Nie. Predtým si bol malý a hlučný. Teraz si veľký a hlučný.",
+      "tokens_l1": [
+        "Non.",
+        "Avant, tu étais petit et bruyant.",
+        "Maintenant, tu es grand et bruyant."
+      ],
+      "tokens_l2": [
+        "Nie.",
+        "Predtým si bol malý a hlučný.",
+        "Teraz si veľký a hlučný."
+      ]
+    },
+    {
+      "id": "order-nevedela-som-o-ti-nap-sa-bola-som-in-teraz-som-tie-in",
+      "type": "order",
+      "l1": "Je ne savais pas quoi t'écrire. J'étais différente. Maintenant aussi, je suis différente.",
+      "l2": "Nevedela som, čo ti napísať. Bola som iná. Teraz som tiež iná.",
+      "tokens_l1": [
+        "Je ne savais pas quoi t'écrire.",
+        "J'étais différente.",
+        "Maintenant aussi, je suis différente."
+      ],
+      "tokens_l2": [
+        "Nevedela som, čo ti napísať.",
+        "Bola som iná.",
+        "Teraz som tiež iná."
+      ]
+    }
+  ]
+}

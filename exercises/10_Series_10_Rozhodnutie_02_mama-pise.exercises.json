@@ -1,0 +1,231 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-nahlas",
+      "type": "qcm",
+      "l1": "à voix haute",
+      "l2": "nahlas",
+      "choices_l1": [
+        "en français",
+        "dimanche",
+        "bipe"
+      ],
+      "choices_l2": [
+        "po francúzsky",
+        "v nedeľu",
+        "zapípa"
+      ]
+    },
+    {
+      "id": "qcm-prelo",
+      "type": "qcm",
+      "l1": "Traduis !",
+      "l2": "Prelož!",
+      "choices_l1": [
+        "Appelle !",
+        "à voix haute",
+        "elle écrit, il écrit"
+      ],
+      "choices_l2": [
+        "Zavolaj!",
+        "nahlas",
+        "píše"
+      ]
+    },
+    {
+      "id": "qcm-zavolaj",
+      "type": "qcm",
+      "l1": "Appelle !",
+      "l2": "Zavolaj!",
+      "choices_l1": [
+        "Traduis !",
+        "tu ne décroches pas",
+        "tu oublies"
+      ],
+      "choices_l2": [
+        "Prelož!",
+        "nezdvíhaš",
+        "zabúdaš"
+      ]
+    },
+    {
+      "id": "qcm-v-nede-u",
+      "type": "qcm",
+      "l1": "dimanche",
+      "l2": "v nedeľu",
+      "choices_l1": [
+        "à voix haute",
+        "en français",
+        "aime (d'amour, en famille)"
+      ],
+      "choices_l2": [
+        "nahlas",
+        "po francúzsky",
+        "ľúbi"
+      ]
+    },
+    {
+      "id": "qcm-letenka",
+      "type": "qcm",
+      "l1": "le billet d'avion",
+      "l2": "letenka",
+      "choices_l1": [
+        "l'avion",
+        "Je t'aime.",
+        "Traduis !"
+      ],
+      "choices_l2": [
+        "lietadlo",
+        "Ľúbim ťa.",
+        "Prelož!"
+      ]
+    },
+    {
+      "id": "listen-katka-to-je-moje",
+      "type": "listen",
+      "l1": "Katka ! C'est à moi !",
+      "l2": "Katka! To je moje!",
+      "choices_l1": [
+        "Katka ! C'est à toi !",
+        "Katka ! Rends-le-moi !",
+        "Maťo ! C'est à moi !"
+      ]
+    },
+    {
+      "id": "listen-je-to-po-franc-zsky-nerozumiem-ani-slovo-prelo",
+      "type": "listen",
+      "l1": "C'est en français. Je ne comprends pas un mot. Traduis !",
+      "l2": "Je to po francúzsky. Nerozumiem ani slovo. Prelož!",
+      "choices_l1": [
+        "C'est en slovaque. Je comprends tout. Lis !",
+        "C'est en français. Je comprends un peu. Traduis !",
+        "C'est en anglais. Je ne comprends pas un mot. Traduis !"
+      ]
+    },
+    {
+      "id": "listen-mama-p-e-kde-si-pre-o-nezdv-ha-zavolaj",
+      "type": "listen",
+      "l1": "Maman écrit : « Où es-tu ? Pourquoi tu ne réponds pas ? Appelle ! »",
+      "l2": "Mama píše: „Kde si? Prečo nezdvíhaš? Zavolaj!“",
+      "choices_l1": [
+        "Maman écrit : « Où es-tu ? Tout va bien ? Écris-moi ! »",
+        "Maman écrit : « Quand rentres-tu ? Pourquoi tu ne réponds pas ? Appelle ! »",
+        "Papa écrit : « Où es-tu ? Pourquoi tu ne réponds pas ? Appelle ! »"
+      ]
+    },
+    {
+      "id": "listen-mama-to-p-e-v-dy",
+      "type": "listen",
+      "l1": "Maman l'écrit toujours.",
+      "l2": "Mama to píše vždy.",
+      "choices_l1": [
+        "Maman ne l'écrit jamais.",
+        "Maman le dit toujours.",
+        "Maman l'écrit parfois."
+      ]
+    },
+    {
+      "id": "listen-a-ty-jej-to-v-dy-zab-da-poveda",
+      "type": "listen",
+      "l1": "Et toi, tu oublies toujours de le lui dire.",
+      "l2": "A ty jej to vždy zabúdaš povedať.",
+      "choices_l1": [
+        "Et toi, tu le lui dis toujours.",
+        "Et toi, tu oublies toujours de l'appeler.",
+        "Et elle, elle oublie toujours de te le dire."
+      ]
+    },
+    {
+      "id": "match-nahlas-vocab",
+      "type": "match",
+      "l1": [
+        "à voix haute",
+        "Traduis !",
+        "Appelle !",
+        "dimanche"
+      ],
+      "l2": [
+        "nahlas",
+        "Prelož!",
+        "Zavolaj!",
+        "v nedeľu"
+      ]
+    },
+    {
+      "id": "blank-m-m-letenku-do-lyonu",
+      "type": "fill-blank",
+      "l1": "J'ai un billet d'avion pour Lyon.",
+      "l2": "Mám letenku do Lyonu.",
+      "missing_l1": "Lyon",
+      "missing_l2": "Lyonu",
+      "blank_index_l1": 5,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "Vienne",
+        "Košice",
+        "Bratislava"
+      ],
+      "choices_l2": [
+        "Viedne",
+        "Košíc",
+        "Bratislavy"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-bim-a-mami",
+      "type": "fill-blank",
+      "l1": "Je t'aime, maman.",
+      "l2": "Ľúbim ťa, mami.",
+      "missing_l1": "maman",
+      "missing_l2": "mami",
+      "blank_index_l1": 2,
+      "blank_index_l2": 2,
+      "choices_l1": [
+        "mamie",
+        "tante",
+        "papa"
+      ],
+      "choices_l2": [
+        "babka",
+        "teta",
+        "Katka"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-e-v-nede-u-mi-let-lietadlo-z-viedne-e-l-stok-u-m-a-e-ma-bi",
+      "type": "order",
+      "l1": "Que dimanche, mon avion part de Vienne. Qu'elle a déjà le ticket. Et qu'elle m'aime.",
+      "l2": "Že v nedeľu mi letí lietadlo z Viedne. Že lístok už má. A že ma ľúbi.",
+      "tokens_l1": [
+        "Que dimanche, mon avion part de Vienne.",
+        "Qu'elle a déjà le ticket.",
+        "Et qu'elle m'aime."
+      ],
+      "tokens_l2": [
+        "Že v nedeľu mi letí lietadlo z Viedne.",
+        "Že lístok už má.",
+        "A že ma ľúbi."
+      ]
+    },
+    {
+      "id": "order-nap-sala-e-a-bi",
+      "type": "order",
+      "l1": "Elle a écrit qu'elle t'aime ?",
+      "l2": "Napísala, že ťa ľúbi?",
+      "tokens_l1": [
+        "Elle a écrit",
+        "qu'elle",
+        "t'aime ?"
+      ],
+      "tokens_l2": [
+        "Napísala,",
+        "že ťa",
+        "ľúbi?"
+      ]
+    }
+  ]
+}

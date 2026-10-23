@@ -1539,7 +1539,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 # Chapitre 10 — Rozhodnutie
 
-*Résumé : après la mine, la bande est fatiguée et se dispute dans les collines du centre du pays. Un message de la maman de Gab, lu à voix haute par Katka, apprend à tout le monde que son vol part dimanche : discours rapporté (« Mama napísala, že… »), « mal by som ísť domov ». Gab et Andrea parlent seuls près du feu : elle lâche enfin une phrase sur « un certain renard » et sur un dîner où elle faillit « être le menu », puis plaisante. Gab ne pose pas de questions. Au matin, la bande décide quoi dire à la télévision (« la vérité, pas un slogan ») et Gab décide d'appeler sa mère pour repousser son départ.*
+*Résumé : après la mine, la bande est fatiguée et se dispute dans les collines du centre du pays. Un message de la maman de Gab, que Katka oblige Gab à traduire, apprend à tout le monde que son vol part dimanche : discours rapporté (« Mama napísala, že… »), « mal by som ísť domov ». Gab et Andrea parlent seuls près du feu : elle lâche enfin une phrase sur « un certain renard » et sur un dîner où elle faillit « être le menu », puis plaisante. Gab ne pose pas de questions. Au matin, la bande décide quoi dire à la télévision (« la vérité, pas un slogan ») et Gab décide d'appeler sa mère pour repousser son départ.*
 
 ## Scène 1
 
@@ -1567,11 +1567,13 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🦊 Katka ! C'est à moi !
 
-🐹 Je lis à voix haute. C'est plus rapide. Ta mère t'a écrit : « Où es-tu ? Pourquoi tu ne réponds pas ? Appelle ! »
+🐹 C'est en français. Je ne comprends pas un mot. Traduis !
 
-🦊 Attends. Qu'est-ce qu'elle a écrit d'autre ?
+🦊 Maman écrit : « Où es-tu ? Pourquoi tu ne réponds pas ? Appelle ! »
 
-🐹 Que dimanche, ton avion part de Vienne. Qu'elle a déjà le billet. Et qu'elle t'aime.
+🐹 Et ensuite ?
+
+🦊 Que dimanche, mon avion part de Vienne. Qu'elle a déjà le ticket. Et qu'elle m'aime.
 
 🐻 Elle a écrit qu'elle t'aime ?
 

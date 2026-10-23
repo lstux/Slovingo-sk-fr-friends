@@ -84,8 +84,8 @@ Deux séries peuvent se dérouler au même endroit : les personnages traversent 
 | 06 Povoden | Compter les jours (*dni / dní*) ; maintenant ou d'habitude (*idem / chodím*) ; aspect en pratique (*stúpa / stúpne*) ; *pomôcť ti / vám* ; premier conditionnel (*by som*) |
 | 07 Cesta | *podľa mňa* ; *znamená to, že* ; *páči sa mi* ; *pre koho* ; accord et désaccord (*súhlasím s…*), *lebo / pretože* |
 | 08 Datacentrum | *ďakujem za* ; *tam, kde* et *má byť* ; *preto* (conséquence) ; *vedel som, že…* ; concession (*aj keď*, *aj tak*), *neviem, či…* |
-| 09 Bana | Hypothèse (*keby*) ; débat nuancé |
-| 10 Rozhodnutie | *mal by som* ; discours rapporté ; décisions |
+| 09 Bana | Les boutiques en *-áreň* ; les mots des questions ; superlatif *naj-* ; *kvôli / na* ; hypothèse (*keby…, … by…*) |
+| 10 Rozhodnutie | Adjectifs au pluriel (*unavení*) ; discours rapporté (*píše, že…*) ; *mal by som* ; passé négatif (*nenapísala som*) |
 | 11 Bratislava | Registres et *vy* ; transports, démarches |
 | 12 Hrad | Argumentation orale ; synthèse |
 | ép. Sen | Le passé pour raconter (*mal som sen*, *snívalo sa mi*) |

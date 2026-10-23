@@ -1,0 +1,180 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "listen-zostane-tam",
+      "type": "listen",
+      "l1": "Tu vas y rester ?",
+      "l2": "Zostaneš tam?",
+      "choices_l1": [
+        "Tu vas y aller ?",
+        "Tu vas partir ?",
+        "Tu es déjà là-bas ?"
+      ]
+    },
+    {
+      "id": "listen-l-ky-aj-zost-vaj",
+      "type": "listen",
+      "l1": "Les renards restent, parfois.",
+      "l2": "Líšky aj zostávajú.",
+      "choices_l1": [
+        "Les renards partent toujours.",
+        "Les écureuils restent, parfois.",
+        "Les renards ne restent jamais."
+      ]
+    },
+    {
+      "id": "listen-ni-zabudni",
+      "type": "listen",
+      "l1": "Rien. Oublie.",
+      "l2": "Nič. Zabudni.",
+      "choices_l1": [
+        "Rien. Dors.",
+        "Tout. Écoute.",
+        "Rien. Viens."
+      ]
+    },
+    {
+      "id": "listen-ty-si-ve-mi-tajomn-zaja-ica",
+      "type": "listen",
+      "l1": "Tu es une hase très mystérieuse.",
+      "l2": "Ty si veľmi tajomná zajačica.",
+      "choices_l1": [
+        "Tu es une hase très bavarde.",
+        "Tu es un écureuil très mystérieux.",
+        "Tu es une hase très normale."
+      ]
+    },
+    {
+      "id": "listen-ja-som-plne-norm-lna",
+      "type": "listen",
+      "l1": "Je suis tout à fait normale.",
+      "l2": "Ja som úplne normálna.",
+      "choices_l1": [
+        "Je suis très mystérieuse.",
+        "Je ne suis pas normale.",
+        "Tu es tout à fait normale."
+      ]
+    },
+    {
+      "id": "listen-tak-hovorte-e-te-r-chlej-ie",
+      "type": "listen",
+      "l1": "Alors parlez encore plus vite.",
+      "l2": "Tak hovorte ešte rýchlejšie.",
+      "choices_l1": [
+        "Alors parlez plus lentement.",
+        "Alors ne dites rien.",
+        "Alors parlez encore plus fort."
+      ]
+    },
+    {
+      "id": "match-keby-vocab",
+      "type": "match",
+      "l1": [
+        "si (+ conditionnel)",
+        "à cause de",
+        "d'où",
+        "le meilleur"
+      ],
+      "l2": [
+        "keby",
+        "kvôli",
+        "odkiaľ",
+        "najlepší"
+      ]
+    },
+    {
+      "id": "match-veveri-ka-nouns",
+      "type": "match",
+      "l1": [
+        "l'écureuil",
+        "le mineur",
+        "le fonctionnaire",
+        "la famille"
+      ],
+      "l2": [
+        "veverička",
+        "baník",
+        "úradník",
+        "rodina"
+      ]
+    },
+    {
+      "id": "blank-zajtra-idem-k-sesternici-do-zvolena-m-tam-byt-je-mal-ale-m-dve-poschodia",
+      "type": "fill-blank",
+      "l1": "Demain, je vais chez ma cousine à Zvolen. Elle a un appartement. Il est petit, mais il a deux étages.",
+      "l2": "Zajtra idem k sesternici do Zvolena. Má tam byt. Je malý, ale má dve poschodia.",
+      "missing_l1": "appartement",
+      "missing_l2": "byt",
+      "blank_index_l1": 11,
+      "blank_index_l2": 8,
+      "choices_l1": [
+        "refuge",
+        "lac",
+        "village"
+      ],
+      "choices_l2": [
+        "dom",
+        "les",
+        "tajch"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-v-bratislave-nehovorte-pomaly-hovorte-r-chlo-inak-v-s-nepo-uj",
+      "type": "fill-blank",
+      "l1": "À Bratislava, ne parlez pas lentement. Parlez vite. Sinon on ne vous entend pas.",
+      "l2": "V Bratislave nehovorte pomaly. Hovorte rýchlo. Inak vás nepočujú.",
+      "missing_l1": "vite",
+      "missing_l2": "rýchlo",
+      "blank_index_l1": 7,
+      "blank_index_l2": 5,
+      "choices_l1": [
+        "fort",
+        "bas",
+        "peu"
+      ],
+      "choices_l2": [
+        "pomaly",
+        "ticho",
+        "dlho"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-keby-som-bola-po-vala-mamu-nebola-by-som-tu",
+      "type": "order",
+      "l1": "Si j'avais écouté ma mère, je ne serais pas ici.",
+      "l2": "Keby som bola počúvala mamu, nebola by som tu.",
+      "tokens_l1": [
+        "Si j'avais",
+        "écouté ma mère,",
+        "je ne serais pas ici."
+      ],
+      "tokens_l2": [
+        "Keby som bola",
+        "počúvala mamu,",
+        "nebola by som tu."
+      ]
+    },
+    {
+      "id": "order-neviem-mo-no-nie-veveri-ky-s-ako-l-ky-nikdy-nezostaneme-dlho-na-jednom-mieste",
+      "type": "order",
+      "l1": "Je ne sais pas. Peut-être pas. Les écureuils sont comme les renards. On ne reste jamais longtemps au même endroit.",
+      "l2": "Neviem. Možno nie. Veveričky sú ako líšky. Nikdy nezostaneme dlho na jednom mieste.",
+      "tokens_l1": [
+        "Je ne sais pas. Peut-être pas.",
+        "Les écureuils sont comme les renards.",
+        "On ne reste jamais longtemps",
+        "au même endroit."
+      ],
+      "tokens_l2": [
+        "Neviem. Možno nie.",
+        "Veveričky sú ako líšky.",
+        "Nikdy nezostaneme dlho",
+        "na jednom mieste."
+      ]
+    }
+  ]
+}

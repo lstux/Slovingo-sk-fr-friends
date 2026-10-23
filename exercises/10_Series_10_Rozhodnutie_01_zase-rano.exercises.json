@@ -1,0 +1,233 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-ohe",
+      "type": "qcm",
+      "l1": "le feu",
+      "l2": "oheň",
+      "choices_l1": [
+        "le bois",
+        "dans le genou",
+        "éteint"
+      ],
+      "choices_l2": [
+        "drevo",
+        "v kolene",
+        "vyhaslý"
+      ]
+    },
+    {
+      "id": "qcm-vyhasl",
+      "type": "qcm",
+      "l1": "éteint",
+      "l2": "vyhaslý",
+      "choices_l1": [
+        "fatigués",
+        "sales",
+        "tu répètes"
+      ],
+      "choices_l2": [
+        "unavení",
+        "špinaví",
+        "opakuješ"
+      ]
+    },
+    {
+      "id": "qcm-unaven",
+      "type": "qcm",
+      "l1": "fatigués",
+      "l2": "unavení",
+      "choices_l1": [
+        "sales",
+        "éteint",
+        "j'ai appris"
+      ],
+      "choices_l2": [
+        "špinaví",
+        "vyhaslý",
+        "učila som sa"
+      ]
+    },
+    {
+      "id": "qcm-pinav",
+      "type": "qcm",
+      "l1": "sales",
+      "l2": "špinaví",
+      "choices_l1": [
+        "fatigués",
+        "éteint",
+        "le feu"
+      ],
+      "choices_l2": [
+        "unavení",
+        "vyhaslý",
+        "oheň"
+      ]
+    },
+    {
+      "id": "qcm-opakuje",
+      "type": "qcm",
+      "l1": "tu répètes",
+      "l2": "opakuješ",
+      "choices_l1": [
+        "j'ai appris",
+        "dans le genou",
+        "le feu"
+      ],
+      "choices_l2": [
+        "učila som sa",
+        "v kolene",
+        "oheň"
+      ]
+    },
+    {
+      "id": "listen-zase-r-no-ale-aspo-je-sucho",
+      "type": "listen",
+      "l1": "Encore le matin. Mais au moins, il fait sec.",
+      "l2": "Zase ráno. Ale aspoň je sucho.",
+      "choices_l1": [
+        "Encore le soir. Mais au moins, il fait sec.",
+        "Encore le matin. Et en plus, il pleut.",
+        "Enfin le matin. Mais au moins, il fait chaud."
+      ]
+    },
+    {
+      "id": "listen-zajtra-bude-pr-a",
+      "type": "listen",
+      "l1": "Demain, il pleuvra.",
+      "l2": "Zajtra bude pršať.",
+      "choices_l1": [
+        "Aujourd'hui, il pleut.",
+        "Demain, il fera beau.",
+        "Hier, il a plu."
+      ]
+    },
+    {
+      "id": "listen-ty-vie-aj-zajtra",
+      "type": "listen",
+      "l1": "Tu sais même pour demain ?",
+      "l2": "Ty vieš aj zajtra?",
+      "choices_l1": [
+        "Tu sais pour aujourd'hui ?",
+        "Tu viens demain ?",
+        "Tu ne sais pas pour demain ?"
+      ]
+    },
+    {
+      "id": "listen-m-m-v-kolene-r-dio",
+      "type": "listen",
+      "l1": "J'ai une radio dans le genou.",
+      "l2": "Mám v kolene rádio.",
+      "choices_l1": [
+        "J'ai une radio dans le sac.",
+        "J'ai mal au genou.",
+        "J'ai un téléphone dans le genou."
+      ]
+    },
+    {
+      "id": "listen-ja-som-sa-len-u-ila",
+      "type": "listen",
+      "l1": "J'ai seulement appris.",
+      "l2": "Ja som sa len učila.",
+      "choices_l1": [
+        "J'ai seulement répété.",
+        "Je n'ai rien appris.",
+        "J'ai seulement dormi."
+      ]
+    },
+    {
+      "id": "match-ohe-vocab",
+      "type": "match",
+      "l1": [
+        "le feu",
+        "éteint",
+        "fatigués",
+        "sales"
+      ],
+      "l2": [
+        "oheň",
+        "vyhaslý",
+        "unavení",
+        "špinaví"
+      ]
+    },
+    {
+      "id": "blank-som-unaven-kde-je-drevo-na-ohe",
+      "type": "fill-blank",
+      "l1": "Je suis fatigué. Où est le bois pour le feu ?",
+      "l2": "Som unavený. Kde je drevo na oheň?",
+      "missing_l1": "bois",
+      "missing_l2": "drevo",
+      "blank_index_l1": 6,
+      "blank_index_l2": 4,
+      "choices_l1": [
+        "thé",
+        "panier",
+        "sac"
+      ],
+      "choices_l2": [
+        "voda",
+        "čaj",
+        "kôš"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-u-m-sa-po-slovensky",
+      "type": "fill-blank",
+      "l1": "J'apprends le slovaque.",
+      "l2": "Učím sa po slovensky.",
+      "missing_l1": "slovaque",
+      "missing_l2": "slovensky",
+      "blank_index_l1": 2,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "français",
+        "anglais",
+        "allemand"
+      ],
+      "choices_l2": [
+        "francúzsky",
+        "anglicky",
+        "nemecky"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-r-no-tyri-zvierat-sedia-okolo-vyhasl-ho-oh-a-nikto-nehovor-v-etci-s-unaven-a-pinav",
+      "type": "order",
+      "l1": "Le matin. Quatre animaux sont assis autour d'un feu éteint. Personne ne parle. Tous sont fatigués et sales.",
+      "l2": "Ráno. Štyri zvieratá sedia okolo vyhaslého ohňa. Nikto nehovorí. Všetci sú unavení a špinaví.",
+      "tokens_l1": [
+        "Le matin.",
+        "Quatre animaux sont assis autour d'un feu éteint.",
+        "Personne ne parle.",
+        "Tous sont fatigués et sales."
+      ],
+      "tokens_l2": [
+        "Ráno.",
+        "Štyri zvieratá sedia okolo vyhaslého ohňa.",
+        "Nikto nehovorí.",
+        "Všetci sú unavení a špinaví."
+      ]
+    },
+    {
+      "id": "order-to-je-od-chat-ra-z-tatier-ty-to-len-opakuje",
+      "type": "order",
+      "l1": "Ça vient du gardien du refuge des Tatras ! Tu ne fais que répéter.",
+      "l2": "To je od chatára z Tatier! Ty to len opakuješ.",
+      "tokens_l1": [
+        "Ça vient du gardien du refuge",
+        "des Tatras !",
+        "Tu ne fais que répéter."
+      ],
+      "tokens_l2": [
+        "To je od chatára",
+        "z Tatier!",
+        "Ty to len opakuješ."
+      ]
+    }
+  ]
+}

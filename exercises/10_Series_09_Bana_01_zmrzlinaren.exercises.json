@@ -1,0 +1,220 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-zmrzlin-re",
+      "type": "qcm",
+      "l1": "le glacier (la boutique)",
+      "l2": "zmrzlináreň",
+      "choices_l1": [
+        "le bus",
+        "les escaliers, les marches",
+        "l'excuse"
+      ],
+      "choices_l2": [
+        "autobus",
+        "schody",
+        "výhovorka"
+      ]
+    },
+    {
+      "id": "qcm-schody",
+      "type": "qcm",
+      "l1": "les escaliers, les marches",
+      "l2": "schody",
+      "choices_l1": [
+        "le bus",
+        "le glacier (la boutique)",
+        "faible"
+      ],
+      "choices_l2": [
+        "autobus",
+        "zmrzlináreň",
+        "slabý"
+      ]
+    },
+    {
+      "id": "qcm-v-hovorka",
+      "type": "qcm",
+      "l1": "l'excuse",
+      "l2": "výhovorka",
+      "choices_l1": [
+        "les escaliers, les marches",
+        "s'arrêter",
+        "faible"
+      ],
+      "choices_l2": [
+        "schody",
+        "zastaviť sa",
+        "slabý"
+      ]
+    },
+    {
+      "id": "qcm-slab",
+      "type": "qcm",
+      "l1": "faible",
+      "l2": "slabý",
+      "choices_l1": [
+        "Je n'en peux plus.",
+        "l'excuse",
+        "le bus"
+      ],
+      "choices_l2": [
+        "Už nemôžem.",
+        "výhovorka",
+        "autobus"
+      ]
+    },
+    {
+      "id": "qcm-kaviare",
+      "type": "qcm",
+      "l1": "le café (lieu)",
+      "l2": "kaviareň",
+      "choices_l1": [
+        "la glace (à manger)",
+        "la minute",
+        "le glacier (la boutique)"
+      ],
+      "choices_l2": [
+        "zmrzlina",
+        "minúta",
+        "zmrzlináreň"
+      ]
+    },
+    {
+      "id": "listen-to-ko-schodov-som-e-te-nikdy-nevidel",
+      "type": "listen",
+      "l1": "Je n'ai jamais vu autant d'escaliers.",
+      "l2": "Toľko schodov som ešte nikdy nevidel.",
+      "choices_l1": [
+        "Je n'ai jamais vu autant de collines.",
+        "J'ai déjà vu beaucoup d'escaliers.",
+        "Je n'ai jamais monté autant d'escaliers."
+      ]
+    },
+    {
+      "id": "listen-ja-u-nem-em-po-me-sa-na-chv-u-zastavi",
+      "type": "listen",
+      "l1": "Je n'en peux plus. Arrêtons-nous un moment.",
+      "l2": "Ja už nemôžem. Poďme sa na chvíľu zastaviť.",
+      "choices_l1": [
+        "Je n'en peux plus. Continuons encore un moment.",
+        "Je peux encore. Arrêtons-nous un moment.",
+        "Je n'en peux plus. Allons manger une glace."
+      ]
+    },
+    {
+      "id": "listen-sme-tu-p-min-t",
+      "type": "listen",
+      "l1": "On est là depuis cinq minutes.",
+      "l2": "Sme tu päť minút.",
+      "choices_l1": [
+        "On est là depuis quinze minutes.",
+        "On part dans cinq minutes.",
+        "On est là depuis cinq heures."
+      ]
+    },
+    {
+      "id": "listen-to-je-ve-mi-zl-v-hovorka",
+      "type": "listen",
+      "l1": "C'est une très mauvaise excuse.",
+      "l2": "To je veľmi zlá výhovorka.",
+      "choices_l1": [
+        "C'est une très bonne excuse.",
+        "C'est une très mauvaise idée.",
+        "Ce n'est pas une excuse."
+      ]
+    },
+    {
+      "id": "match-zmrzlin-re-vocab",
+      "type": "match",
+      "l1": [
+        "le glacier (la boutique)",
+        "les escaliers, les marches",
+        "l'excuse",
+        "faible"
+      ],
+      "l2": [
+        "zmrzlináreň",
+        "schody",
+        "výhovorka",
+        "slabý"
+      ]
+    },
+    {
+      "id": "blank-to-je-ve-mi-dobr-v-hovorka-a-zmrzlin-re-je-tam",
+      "type": "fill-blank",
+      "l1": "C'est une très bonne excuse. Et le glacier est là-bas.",
+      "l2": "To je veľmi dobrá výhovorka. A zmrzlináreň je tam.",
+      "missing_l1": "glacier",
+      "missing_l2": "zmrzlináreň",
+      "blank_index_l1": 7,
+      "blank_index_l2": 6,
+      "choices_l1": [
+        "café",
+        "bus",
+        "lycée"
+      ],
+      "choices_l2": [
+        "kaviareň",
+        "škola",
+        "kostol"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-d-si-zmrzlinu",
+      "type": "fill-blank",
+      "l1": "Tu prends une glace ?",
+      "l2": "Dáš si zmrzlinu?",
+      "missing_l1": "glace",
+      "missing_l2": "zmrzlinu",
+      "blank_index_l1": 3,
+      "blank_index_l2": 2,
+      "choices_l1": [
+        "soupe",
+        "pomme",
+        "fraise"
+      ],
+      "choices_l2": [
+        "vodu",
+        "kávu",
+        "polievku"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-ani-ja-ale-vid-m-aj-sign-l-slab-ale-je",
+      "type": "order",
+      "l1": "Moi non plus. Mais je vois aussi du réseau. Faible, mais il y en a.",
+      "l2": "Ani ja. Ale vidím aj signál. Slabý, ale je.",
+      "tokens_l1": [
+        "Moi non plus.",
+        "Mais je vois aussi du réseau.",
+        "Faible, mais il y en a."
+      ],
+      "tokens_l2": [
+        "Ani ja.",
+        "Ale vidím aj signál.",
+        "Slabý, ale je."
+      ]
+    },
+    {
+      "id": "order-aj-p-min-t-sta-ke-je-kopec-dos-vysok",
+      "type": "order",
+      "l1": "Même cinq minutes suffisent quand la colline est assez haute.",
+      "l2": "Aj päť minút stačí, keď je kopec dosť vysoký.",
+      "tokens_l1": [
+        "Même cinq minutes suffisent",
+        "quand la colline",
+        "est assez haute."
+      ],
+      "tokens_l2": [
+        "Aj päť minút stačí,",
+        "keď je kopec",
+        "dosť vysoký."
+      ]
+    }
+  ]
+}

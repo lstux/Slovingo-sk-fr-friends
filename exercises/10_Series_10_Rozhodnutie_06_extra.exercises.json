@@ -1,0 +1,189 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "listen-o-im-povieme-v-telev-zii",
+      "type": "listen",
+      "l1": "Qu'est-ce qu'on leur dira à la télévision ?",
+      "l2": "Čo im povieme v televízii?",
+      "choices_l1": [
+        "Qu'est-ce qu'on leur dira à la radio ?",
+        "Qu'est-ce qu'ils nous diront à la télévision ?",
+        "Quand est-ce qu'on ira à la télévision ?"
+      ]
+    },
+    {
+      "id": "listen-ak-povieme-p-vec-nikto-si-nezapam-t-ni",
+      "type": "listen",
+      "l1": "Si on en dit cinq, personne n'en retiendra aucune.",
+      "l2": "Ak povieme päť vecí, nikto si nezapamätá nič.",
+      "choices_l1": [
+        "Si on en dit une, personne n'en retiendra aucune.",
+        "Si on en dit cinq, tout le monde les retiendra.",
+        "Si on en dit cinq, personne ne nous écoutera."
+      ]
+    },
+    {
+      "id": "listen-povedzme-to-o-sme-videli",
+      "type": "listen",
+      "l1": "Disons ce qu'on a vu.",
+      "l2": "Povedzme to, čo sme videli.",
+      "choices_l1": [
+        "Disons ce qu'on pense.",
+        "Montrons ce qu'on a vu.",
+        "Disons ce qu'ils ont vu."
+      ]
+    },
+    {
+      "id": "listen-dobre-to-si-zap-em",
+      "type": "listen",
+      "l1": "D'accord. Je le note.",
+      "l2": "Dobre. To si zapíšem.",
+      "choices_l1": [
+        "D'accord. Je l'oublie.",
+        "Non. Je ne le note pas.",
+        "D'accord. Je le dis."
+      ]
+    },
+    {
+      "id": "listen-neviem-ale-znie-to-ako-pros-m",
+      "type": "listen",
+      "l1": "Je ne sais pas. Mais ça ressemble à « s'il te plaît ».",
+      "l2": "Neviem. Ale znie to ako „prosím“.",
+      "choices_l1": [
+        "Je ne sais pas. Mais ça ressemble à « merci ».",
+        "Je sais. Il dit « s'il te plaît ».",
+        "Je ne sais pas. Mais ça ressemble à « au revoir »."
+      ]
+    },
+    {
+      "id": "listen-letenku-l-stok-je-na-vlak",
+      "type": "listen",
+      "l1": "Ton billet d'avion. Un ticket, c'est pour le train.",
+      "l2": "Letenku. Lístok je na vlak.",
+      "choices_l1": [
+        "Ton billet de train. Un ticket, c'est pour le tram.",
+        "Ton ticket. Un billet d'avion, c'est pour le train.",
+        "Ton billet d'avion. Un ticket, c'est pour le bus."
+      ]
+    },
+    {
+      "id": "listen-to-je-ve-mi-dobr-mama",
+      "type": "listen",
+      "l1": "C'est une très bonne maman.",
+      "l2": "To je veľmi dobrá mama.",
+      "choices_l1": [
+        "C'est une très bonne idée.",
+        "C'est une très bonne mamie.",
+        "C'est une maman très sévère."
+      ]
+    },
+    {
+      "id": "match-mal-by-som-vocab",
+      "type": "match",
+      "l1": [
+        "je devrais",
+        "dimanche",
+        "les lettres",
+        "la broche"
+      ],
+      "l2": [
+        "mal by som",
+        "nedeľa",
+        "listy",
+        "ražeň"
+      ]
+    },
+    {
+      "id": "match-prelo-words",
+      "type": "match",
+      "l1": [
+        "Traduis !",
+        "Appelle !",
+        "à voix haute",
+        "la différence"
+      ],
+      "l2": [
+        "Prelož!",
+        "Zavolaj!",
+        "nahlas",
+        "rozdiel"
+      ]
+    },
+    {
+      "id": "blank-ja-by-som-to-povedala-jednoduch-ie-my-sme-tam-boli",
+      "type": "fill-blank",
+      "l1": "Moi, je le dirais plus simplement : « Nous, on était là. »",
+      "l2": "Ja by som to povedala jednoduchšie: „My sme tam boli.“",
+      "missing_l1": "simplement",
+      "missing_l2": "jednoduchšie",
+      "blank_index_l1": 5,
+      "blank_index_l2": 5,
+      "choices_l1": [
+        "vite",
+        "fort",
+        "doucement"
+      ],
+      "choices_l2": [
+        "rýchlejšie",
+        "teplejšie",
+        "vyššie"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-pr-dem-o-de-nesk-r-mama-povedala-e-dobre-a-e-mi-zmen-l-stok-na-pondelok",
+      "type": "fill-blank",
+      "l1": "J'arriverai un jour plus tard. Maman a dit d'accord. Et qu'elle changerait mon ticket pour lundi.",
+      "l2": "Prídem o deň neskôr. Mama povedala, že dobre. A že mi zmení lístok na pondelok.",
+      "missing_l1": "lundi",
+      "missing_l2": "pondelok",
+      "blank_index_l1": 15,
+      "blank_index_l2": 14,
+      "choices_l1": [
+        "dimanche",
+        "samedi",
+        "demain"
+      ],
+      "choices_l2": [
+        "nedeľu",
+        "sobotu",
+        "zajtra"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-ak-povieme-len-jednu-vec-povedia-e-n-m-ide-len-o-jednu-vec",
+      "type": "order",
+      "l1": "Si on ne dit qu'une seule chose, ils diront qu'on ne parle que de ça.",
+      "l2": "Ak povieme len jednu vec, povedia, že nám ide len o jednu vec.",
+      "tokens_l1": [
+        "Si on ne dit qu'une seule chose,",
+        "ils diront",
+        "qu'on ne parle que de ça."
+      ],
+      "tokens_l2": [
+        "Ak povieme len jednu vec,",
+        "povedia,",
+        "že nám ide len o jednu vec."
+      ]
+    },
+    {
+      "id": "order-povedala-e-aj-ona-mala-rada-dobrodru-stv-ke-bola-mlad",
+      "type": "order",
+      "l1": "Elle a dit qu'elle aussi, elle aimait l'aventure quand elle était jeune.",
+      "l2": "Povedala, že aj ona mala rada dobrodružstvá, keď bola mladá.",
+      "tokens_l1": [
+        "Elle a dit qu'elle aussi,",
+        "elle aimait l'aventure",
+        "quand elle était jeune."
+      ],
+      "tokens_l2": [
+        "Povedala, že",
+        "aj ona mala rada dobrodružstvá,",
+        "keď bola mladá."
+      ]
+    }
+  ]
+}

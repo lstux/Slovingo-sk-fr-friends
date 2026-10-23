@@ -1550,7 +1550,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 # Kapitola 10 — Rozhodnutie
 
-*Résumé : après la mine, la bande est fatiguée et se dispute dans les collines du centre du pays. Un message de la maman de Gab, lu à voix haute par Katka, apprend à tout le monde que son vol part dimanche : discours rapporté (« Mama napísala, že… »), « mal by som ísť domov ». Gab et Andrea parlent seuls près du feu : elle lâche enfin une phrase sur « un certain renard » et sur un dîner où elle faillit « être le menu », puis plaisante. Gab ne pose pas de questions. Au matin, la bande décide quoi dire à la télévision (« la vérité, pas un slogan ») et Gab décide d'appeler sa mère pour repousser son départ.*
+*Résumé : après la mine, la bande est fatiguée et se dispute dans les collines du centre du pays. Un message de la maman de Gab, que Katka oblige Gab à traduire, apprend à tout le monde que son vol part dimanche : discours rapporté (« Mama napísala, že… »), « mal by som ísť domov ». Gab et Andrea parlent seuls près du feu : elle lâche enfin une phrase sur « un certain renard » et sur un dîner où elle faillit « être le menu », puis plaisante. Gab ne pose pas de questions. Au matin, la bande décide quoi dire à la télévision (« la vérité, pas un slogan ») et Gab décide d'appeler sa mère pour repousser son départ.*
 
 ## Scéna 1
 
@@ -1578,11 +1578,13 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🦊 Katka! To je moje!
 
-🐹 Čítam nahlas. Je to rýchlejšie. Mama ti napísala: „Kde si? Prečo nezdvíhaš? Zavolaj!“
+🐹 Je to po francúzsky. Nerozumiem ani slovo. Prelož!
 
-🦊 Počkaj. Čo ešte napísala?
+🦊 Mama píše: „Kde si? Prečo nezdvíhaš? Zavolaj!“
 
-🐹 Že v nedeľu ti letí lietadlo z Viedne. Že letenku už má. A že ťa ľúbi.
+🐹 A ďalej?
+
+🦊 Že v nedeľu mi letí lietadlo z Viedne. Že lístok už má. A že ma ľúbi.
 
 🐻 Napísala, že ťa ľúbi?
 

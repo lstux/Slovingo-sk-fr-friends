@@ -1,0 +1,231 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-nede-a",
+      "type": "qcm",
+      "l1": "dimanche",
+      "l2": "nedeľa",
+      "choices_l1": [
+        "lundi",
+        "samedi",
+        "la différence"
+      ],
+      "choices_l2": [
+        "pondelok",
+        "sobota",
+        "rozdiel"
+      ]
+    },
+    {
+      "id": "qcm-mal-by-som",
+      "type": "qcm",
+      "l1": "je devrais",
+      "l2": "mal by som",
+      "choices_l1": [
+        "tu devrais",
+        "je ne veux pas",
+        "attend"
+      ],
+      "choices_l2": [
+        "mal by si",
+        "nechcem",
+        "čaká"
+      ]
+    },
+    {
+      "id": "qcm-rozdiel",
+      "type": "qcm",
+      "l1": "la différence",
+      "l2": "rozdiel",
+      "choices_l1": [
+        "dimanche",
+        "attend",
+        "je ne veux pas"
+      ],
+      "choices_l2": [
+        "nedeľa",
+        "čaká",
+        "nechcem"
+      ]
+    },
+    {
+      "id": "qcm-nechcem",
+      "type": "qcm",
+      "l1": "je ne veux pas",
+      "l2": "nechcem",
+      "choices_l1": [
+        "je devrais",
+        "Laissez-le !",
+        "attend"
+      ],
+      "choices_l2": [
+        "mal by som",
+        "Nechajte ho!",
+        "čaká"
+      ]
+    },
+    {
+      "id": "qcm-pondelok",
+      "type": "qcm",
+      "l1": "lundi",
+      "l2": "pondelok",
+      "choices_l1": [
+        "samedi",
+        "dimanche",
+        "la semaine"
+      ],
+      "choices_l2": [
+        "sobota",
+        "nedeľa",
+        "týždeň"
+      ]
+    },
+    {
+      "id": "listen-nede-a-to-s-tyri-dni",
+      "type": "listen",
+      "l1": "Dimanche. Ça fait quatre jours.",
+      "l2": "Nedeľa. To sú štyri dni.",
+      "choices_l1": [
+        "Lundi. Ça fait quatre jours.",
+        "Dimanche. Ça fait trois jours.",
+        "Samedi. Ça fait deux jours."
+      ]
+    },
+    {
+      "id": "listen-mal-by-som-s-domov",
+      "type": "listen",
+      "l1": "Je devrais rentrer chez moi.",
+      "l2": "Mal by som ísť domov.",
+      "choices_l1": [
+        "Je veux rentrer chez moi.",
+        "Tu devrais rentrer chez toi.",
+        "Je devrais rester ici."
+      ]
+    },
+    {
+      "id": "listen-ale-nechcem",
+      "type": "listen",
+      "l1": "Mais je n'en ai pas envie.",
+      "l2": "Ale nechcem.",
+      "choices_l1": [
+        "Mais je dois.",
+        "Mais je veux bien.",
+        "Mais je ne peux pas."
+      ]
+    },
+    {
+      "id": "listen-to-je-rozdiel-o-by-si-mal-robi-a-o-chce-robi",
+      "type": "listen",
+      "l1": "C'est la différence. Ce que tu devrais faire et ce que tu veux faire.",
+      "l2": "To je rozdiel. Čo by si mal robiť a čo chceš robiť.",
+      "choices_l1": [
+        "C'est pareil. Ce que tu devrais faire et ce que tu veux faire.",
+        "C'est la différence. Ce que tu as fait et ce que tu vas faire.",
+        "C'est la différence. Ce que je devrais faire et ce que je veux faire."
+      ]
+    },
+    {
+      "id": "listen-ja-neviem-neviem-o-m-m-poveda",
+      "type": "listen",
+      "l1": "Je ne sais pas. Je ne sais pas ce que je dois dire.",
+      "l2": "Ja neviem. Neviem, čo mám povedať.",
+      "choices_l1": [
+        "Je sais. Je sais ce que je dois dire.",
+        "Je ne sais pas. Je ne sais pas ce que je dois faire.",
+        "Je ne veux pas. Je ne veux rien dire."
+      ]
+    },
+    {
+      "id": "match-nede-a-vocab",
+      "type": "match",
+      "l1": [
+        "dimanche",
+        "lundi",
+        "samedi",
+        "la différence"
+      ],
+      "l2": [
+        "nedeľa",
+        "pondelok",
+        "sobota",
+        "rozdiel"
+      ]
+    },
+    {
+      "id": "blank-mal-by-si",
+      "type": "fill-blank",
+      "l1": "Tu devrais.",
+      "l2": "Mal by si.",
+      "missing_l1": "Tu",
+      "missing_l2": "si",
+      "blank_index_l1": 0,
+      "blank_index_l2": 2,
+      "choices_l1": [
+        "Je",
+        "Nous",
+        "Vous"
+      ],
+      "choices_l2": [
+        "som",
+        "sme",
+        "ste"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-v-sobotu-idem-do-kina",
+      "type": "fill-blank",
+      "l1": "Samedi, je vais au cinéma.",
+      "l2": "V sobotu idem do kina.",
+      "missing_l1": "Samedi",
+      "missing_l2": "sobotu",
+      "blank_index_l1": 0,
+      "blank_index_l2": 1,
+      "choices_l1": [
+        "Dimanche",
+        "Lundi",
+        "Vendredi"
+      ],
+      "choices_l2": [
+        "nedeľu",
+        "pondelok",
+        "piatok"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-povedala-e-na-m-a-ak-a-e-sa-o-m-a-boj",
+      "type": "order",
+      "l1": "Elle a dit qu'elle m'attendait. Et qu'elle s'inquiétait pour moi.",
+      "l2": "Povedala, že na mňa čaká. A že sa o mňa bojí.",
+      "tokens_l1": [
+        "Elle a dit",
+        "qu'elle m'attendait.",
+        "Et qu'elle s'inquiétait pour moi."
+      ],
+      "tokens_l2": [
+        "Povedala,",
+        "že na mňa čaká.",
+        "A že sa o mňa bojí."
+      ]
+    },
+    {
+      "id": "order-ona-sa-o-teba-boj-to-je-pravda-m-pravdu",
+      "type": "order",
+      "l1": "Elle s'inquiète pour toi. C'est vrai. Elle a raison.",
+      "l2": "Ona sa o teba bojí. To je pravda. Má pravdu.",
+      "tokens_l1": [
+        "Elle s'inquiète pour toi.",
+        "C'est vrai.",
+        "Elle a raison."
+      ],
+      "tokens_l2": [
+        "Ona sa o teba bojí.",
+        "To je pravda.",
+        "Má pravdu."
+      ]
+    }
+  ]
+}

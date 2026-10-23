@@ -1,0 +1,231 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-ban-k",
+      "type": "qcm",
+      "l1": "le mineur",
+      "l2": "baník",
+      "choices_l1": [
+        "les amis",
+        "la famille",
+        "le dilemme"
+      ],
+      "choices_l2": [
+        "priatelia",
+        "rodina",
+        "dilema"
+      ]
+    },
+    {
+      "id": "qcm-keby",
+      "type": "qcm",
+      "l1": "si (+ conditionnel)",
+      "l2": "keby",
+      "choices_l1": [
+        "sûrement, bien sûr",
+        "pour la première fois",
+        "les possibilités, les options"
+      ],
+      "choices_l2": [
+        "určite",
+        "prvýkrát",
+        "možnosti"
+      ]
+    },
+    {
+      "id": "qcm-rodina",
+      "type": "qcm",
+      "l1": "la famille",
+      "l2": "rodina",
+      "choices_l1": [
+        "l'université",
+        "le mineur",
+        "le dilemme"
+      ],
+      "choices_l2": [
+        "vysoká škola",
+        "baník",
+        "dilema"
+      ]
+    },
+    {
+      "id": "qcm-prv-kr-t",
+      "type": "qcm",
+      "l1": "pour la première fois",
+      "l2": "prvýkrát",
+      "choices_l1": [
+        "sûrement, bien sûr",
+        "si (+ conditionnel)",
+        "Vous n'avez pas le droit d'être ici."
+      ],
+      "choices_l2": [
+        "určite",
+        "keby",
+        "Tu nesmiete."
+      ]
+    },
+    {
+      "id": "qcm-mo-nosti",
+      "type": "qcm",
+      "l1": "les possibilités, les options",
+      "l2": "možnosti",
+      "choices_l1": [
+        "les amis",
+        "la famille",
+        "le dilemme"
+      ],
+      "choices_l2": [
+        "priatelia",
+        "rodina",
+        "dilema"
+      ]
+    },
+    {
+      "id": "listen-dobr-de-tu-nesmiete",
+      "type": "listen",
+      "l1": "Bonjour. Vous n'avez pas le droit d'être ici.",
+      "l2": "Dobrý deň. Tu nesmiete.",
+      "choices_l1": [
+        "Bonjour. Vous pouvez entrer.",
+        "Bonjour. Tu n'as pas le droit d'être ici.",
+        "Bonjour. Vous cherchez quelqu'un ?"
+      ]
+    },
+    {
+      "id": "listen-ni-e-te-neurob-me-e-te-nie-ale-urob-me",
+      "type": "listen",
+      "l1": "Nous n'avons encore rien fait. Pas encore. Mais nous le ferons.",
+      "l2": "Nič ešte neurobíme. Ešte nie. Ale urobíme.",
+      "choices_l1": [
+        "Nous avons déjà tout fait. C'est fini.",
+        "Nous ne ferons rien. Jamais.",
+        "Nous n'avons encore rien fait. Et nous ne le ferons pas."
+      ]
+    },
+    {
+      "id": "listen-keby-sme-nemali-l-tium-nemali-by-sme-telef-ny",
+      "type": "listen",
+      "l1": "S'il n'y avait pas de lithium, nous n'aurions pas de téléphones.",
+      "l2": "Keby sme nemali lítium, nemali by sme telefóny.",
+      "choices_l1": [
+        "S'il y avait du lithium, nous aurions des téléphones.",
+        "S'il n'y avait pas de lithium, nous n'aurions pas de voitures.",
+        "S'il n'y avait pas de téléphones, nous n'aurions pas de lithium."
+      ]
+    },
+    {
+      "id": "listen-keby-som-mal-druh-domov-nehneval-by-som-sa",
+      "type": "listen",
+      "l1": "Si j'avais une deuxième maison, je ne serais pas en colère.",
+      "l2": "Keby som mal druhý domov, nehneval by som sa.",
+      "choices_l1": [
+        "Si j'avais une deuxième maison, je serais en colère.",
+        "Si j'avais une deuxième forêt, je ne serais pas triste.",
+        "J'ai une deuxième maison, je ne suis pas en colère."
+      ]
+    },
+    {
+      "id": "listen-a-ja-m-m-ko-ko",
+      "type": "listen",
+      "l1": "Et moi, j'en ai combien ?",
+      "l2": "A ja mám koľko?",
+      "choices_l1": [
+        "Et toi, tu en as combien ?",
+        "Et moi, j'en ai deux ?",
+        "Et moi, j'ai quel âge ?"
+      ]
+    },
+    {
+      "id": "match-ban-k-vocab",
+      "type": "match",
+      "l1": [
+        "le mineur",
+        "la famille",
+        "le dilemme",
+        "les possibilités, les options"
+      ],
+      "l2": [
+        "baník",
+        "rodina",
+        "dilema",
+        "možnosti"
+      ]
+    },
+    {
+      "id": "blank-h-adal-by-som-ale-nena-iel-by-som-ju",
+      "type": "fill-blank",
+      "l1": "Je le chercherais. Mais je n'en trouverais pas.",
+      "l2": "Hľadal by som. Ale nenašiel by som ju.",
+      "missing_l1": "chercherais",
+      "missing_l2": "Hľadal",
+      "blank_index_l1": 2,
+      "blank_index_l2": 0,
+      "choices_l1": [
+        "cherche",
+        "cherchais",
+        "trouverai"
+      ],
+      "choices_l2": [
+        "Hľadám",
+        "Hľadali",
+        "Mal"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-neviem-ale-ur-ite-viac-ako-dve",
+      "type": "fill-blank",
+      "l1": "Je ne sais pas. Mais sûrement plus de deux.",
+      "l2": "Neviem. Ale určite viac ako dve.",
+      "missing_l1": "sûrement",
+      "missing_l2": "určite",
+      "blank_index_l1": 5,
+      "blank_index_l2": 2,
+      "choices_l1": [
+        "peut-être",
+        "presque",
+        "encore"
+      ],
+      "choices_l2": [
+        "možno",
+        "skoro",
+        "zase"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-keby-ste-nemali-t-to-pr-cu-h-adali-by-ste-in",
+      "type": "order",
+      "l1": "Si vous n'aviez pas ce travail, vous en chercheriez un autre ?",
+      "l2": "Keby ste nemali túto prácu, hľadali by ste inú?",
+      "tokens_l1": [
+        "Si vous n'aviez pas",
+        "ce travail,",
+        "vous en chercheriez un autre ?"
+      ],
+      "tokens_l2": [
+        "Keby ste nemali",
+        "túto prácu,",
+        "hľadali by ste inú?"
+      ]
+    },
+    {
+      "id": "order-neviem-zrejme-by-som-sa-hneval-ale-chodil-by-som-do-pr-ce",
+      "type": "order",
+      "l1": "Je ne sais pas. Sans doute que je serais en colère, mais j'irais travailler.",
+      "l2": "Neviem. Zrejme by som sa hneval, ale chodil by som do práce.",
+      "tokens_l1": [
+        "Je ne sais pas.",
+        "Sans doute que je serais en colère,",
+        "mais j'irais travailler."
+      ],
+      "tokens_l2": [
+        "Neviem.",
+        "Zrejme by som sa hneval,",
+        "ale chodil by som do práce."
+      ]
+    }
+  ]
+}

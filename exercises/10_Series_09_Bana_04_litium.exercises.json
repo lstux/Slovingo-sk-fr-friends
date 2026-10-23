@@ -1,0 +1,231 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-odjak-iva",
+      "type": "qcm",
+      "l1": "depuis toujours",
+      "l2": "odjakživa",
+      "choices_l1": [
+        "d'ici la fin du mois",
+        "à cause de",
+        "partir"
+      ],
+      "choices_l2": [
+        "do konca mesiaca",
+        "kvôli",
+        "odísť"
+      ]
+    },
+    {
+      "id": "qcm-radn-k",
+      "type": "qcm",
+      "l1": "le fonctionnaire",
+      "l2": "úradník",
+      "choices_l1": [
+        "le sourire",
+        "le papier",
+        "le métal"
+      ],
+      "choices_l2": [
+        "úsmev",
+        "papier",
+        "kov"
+      ]
+    },
+    {
+      "id": "qcm-smev",
+      "type": "qcm",
+      "l1": "le sourire",
+      "l2": "úsmev",
+      "choices_l1": [
+        "le fonctionnaire",
+        "le papier",
+        "les batteries"
+      ],
+      "choices_l2": [
+        "úradník",
+        "papier",
+        "batérie"
+      ]
+    },
+    {
+      "id": "qcm-kv-li",
+      "type": "qcm",
+      "l1": "à cause de",
+      "l2": "kvôli",
+      "choices_l1": [
+        "depuis toujours",
+        "creuser",
+        "partir"
+      ],
+      "choices_l2": [
+        "odjakživa",
+        "kopať",
+        "odísť"
+      ]
+    },
+    {
+      "id": "qcm-kopa",
+      "type": "qcm",
+      "l1": "creuser",
+      "l2": "kopať",
+      "choices_l1": [
+        "partir",
+        "à cause de",
+        "le métal"
+      ],
+      "choices_l2": [
+        "odísť",
+        "kvôli",
+        "kov"
+      ]
+    },
+    {
+      "id": "listen-n-strom-alebo-sk-r-na-e-stromy-cel-les-ijeme-tam-odjak-iva",
+      "type": "listen",
+      "l1": "Notre arbre. Ou plutôt, nos arbres. Toute la forêt. On y vit depuis toujours.",
+      "l2": "Náš strom. Alebo skôr naše stromy. Celý les. Žijeme tam odjakživa.",
+      "choices_l1": [
+        "Notre arbre. Ou plutôt, notre maison. On y vit depuis hier.",
+        "Notre lac. Ou plutôt, nos lacs. On y vit depuis toujours.",
+        "Notre arbre. Ou plutôt, nos arbres. Toute la forêt. On n'y vit plus."
+      ]
+    },
+    {
+      "id": "listen-v-era-n-m-povedali-e-mus-me-od-s-do-konca-mesiaca",
+      "type": "listen",
+      "l1": "Hier, on nous a dit qu'il fallait partir. D'ici la fin du mois.",
+      "l2": "Včera nám povedali, že musíme odísť. Do konca mesiaca.",
+      "choices_l1": [
+        "Hier, on nous a dit qu'on pouvait rester. Jusqu'à la fin du mois.",
+        "Aujourd'hui, on nous a dit qu'il fallait partir. D'ici la fin de la semaine.",
+        "Hier, on nous a dit qu'il fallait partir. Demain."
+      ]
+    },
+    {
+      "id": "listen-kto-v-m-to-povedal",
+      "type": "listen",
+      "l1": "Qui vous l'a dit ?",
+      "l2": "Kto vám to povedal?",
+      "choices_l1": [
+        "Qui te l'a dit ?",
+        "Qu'est-ce qu'il vous a dit ?",
+        "Qui vous l'a écrit ?"
+      ]
+    },
+    {
+      "id": "listen-v-telef-noch-aj-v-mojom",
+      "type": "listen",
+      "l1": "Dans les téléphones ? Même dans le mien ?",
+      "l2": "V telefónoch? Aj v mojom?",
+      "choices_l1": [
+        "Dans les voitures ? Même dans la mienne ?",
+        "Dans les téléphones ? Même dans le tien ?",
+        "Dans les batteries ? Pas dans le mien ?"
+      ]
+    },
+    {
+      "id": "listen-samozrejme-aj-v-tvojom",
+      "type": "listen",
+      "l1": "Évidemment. Même dans le tien.",
+      "l2": "Samozrejme. Aj v tvojom.",
+      "choices_l1": [
+        "Évidemment. Pas dans le tien.",
+        "Peut-être. Même dans le tien.",
+        "Évidemment. Même dans le mien."
+      ]
+    },
+    {
+      "id": "match-radn-k-vocab",
+      "type": "match",
+      "l1": [
+        "le fonctionnaire",
+        "le sourire",
+        "le métal",
+        "les batteries"
+      ],
+      "l2": [
+        "úradník",
+        "úsmev",
+        "kov",
+        "batérie"
+      ]
+    },
+    {
+      "id": "blank-kopa-pre-o",
+      "type": "fill-blank",
+      "l1": "Creuser ? Pourquoi ?",
+      "l2": "Kopať? Prečo?",
+      "missing_l1": "Pourquoi",
+      "missing_l2": "Prečo",
+      "blank_index_l1": 2,
+      "blank_index_l2": 1,
+      "choices_l1": [
+        "Quand",
+        "Où",
+        "Qui"
+      ],
+      "choices_l2": [
+        "Kedy",
+        "Kde",
+        "Kto"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-idem-na-rad-kv-li-papierom",
+      "type": "fill-blank",
+      "l1": "Je vais à l'administration. À cause des papiers.",
+      "l2": "Idem na úrad. Kvôli papierom.",
+      "missing_l1": "cause",
+      "missing_l2": "Kvôli",
+      "blank_index_l1": 5,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "place",
+        "suite",
+        "faute"
+      ],
+      "choices_l2": [
+        "Pre",
+        "Bez",
+        "Na"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-v-era-n-m-povedali-e-mus-me-od-s-do-konca-mesiaca",
+      "type": "order",
+      "l1": "Hier, on nous a dit qu'il fallait partir. D'ici la fin du mois.",
+      "l2": "Včera nám povedali, že musíme odísť. Do konca mesiaca.",
+      "tokens_l1": [
+        "Hier, on nous a dit",
+        "qu'il fallait partir.",
+        "D'ici la fin du mois."
+      ],
+      "tokens_l2": [
+        "Včera nám povedali,",
+        "že musíme odísť.",
+        "Do konca mesiaca."
+      ]
+    },
+    {
+      "id": "order-radn-k-s-papierom-a-s-pekn-m-smevom-povedal-e-hora-sa-bude-kopa",
+      "type": "order",
+      "l1": "Un fonctionnaire. Avec un papier et un joli sourire. Il a dit qu'on allait creuser la montagne.",
+      "l2": "Úradník. S papierom a s pekným úsmevom. Povedal, že hora sa bude kopať.",
+      "tokens_l1": [
+        "Un fonctionnaire.",
+        "Avec un papier et un joli sourire.",
+        "Il a dit qu'on allait creuser la montagne."
+      ],
+      "tokens_l2": [
+        "Úradník.",
+        "S papierom a s pekným úsmevom.",
+        "Povedal, že hora sa bude kopať."
+      ]
+    }
+  ]
+}
