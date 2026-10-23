@@ -1,0 +1,231 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-f-a-a",
+      "type": "qcm",
+      "l1": "la bouteille",
+      "l2": "fľaša",
+      "choices_l1": [
+        "l'impression, le sentiment",
+        "une nuit",
+        "le rêve"
+      ],
+      "choices_l2": [
+        "pocit",
+        "jednu noc",
+        "sen"
+      ]
+    },
+    {
+      "id": "qcm-divn",
+      "type": "qcm",
+      "l1": "bizarre",
+      "l2": "divný",
+      "choices_l1": [
+        "étrange",
+        "ça a duré",
+        "elle tient"
+      ],
+      "choices_l2": [
+        "čudný",
+        "trvalo",
+        "drží"
+      ]
+    },
+    {
+      "id": "qcm-pocit",
+      "type": "qcm",
+      "l1": "l'impression, le sentiment",
+      "l2": "pocit",
+      "choices_l1": [
+        "la bouteille",
+        "le rêve",
+        "la nuit"
+      ],
+      "choices_l2": [
+        "fľaša",
+        "sen",
+        "noc"
+      ]
+    },
+    {
+      "id": "qcm-trvalo",
+      "type": "qcm",
+      "l1": "ça a duré",
+      "l2": "trvalo",
+      "choices_l1": [
+        "elle tient",
+        "Je n'en ai pas plus.",
+        "bizarre"
+      ],
+      "choices_l2": [
+        "drží",
+        "Viac nemám.",
+        "divný"
+      ]
+    },
+    {
+      "id": "qcm-sen",
+      "type": "qcm",
+      "l1": "le rêve",
+      "l2": "sen",
+      "choices_l1": [
+        "la nuit",
+        "l'impression, le sentiment",
+        "la bouteille"
+      ],
+      "choices_l2": [
+        "noc",
+        "pocit",
+        "fľaša"
+      ]
+    },
+    {
+      "id": "listen-tu-m-len-trochu-viac-nem-m",
+      "type": "listen",
+      "l1": "Tiens. Juste un peu. Je n'en ai pas plus.",
+      "l2": "Tu máš. Len trochu. Viac nemám.",
+      "choices_l1": [
+        "Tiens. Prends tout. J'en ai beaucoup.",
+        "Tiens. Juste un peu. J'en ai encore.",
+        "Merci. Juste un peu. Je n'en veux pas plus."
+      ]
+    },
+    {
+      "id": "listen-akujem-ale-m-m-divn-pocit",
+      "type": "listen",
+      "l1": "Merci. Mais j'ai une drôle d'impression.",
+      "l2": "Ďakujem. Ale mám divný pocit.",
+      "choices_l1": [
+        "Merci. Mais j'ai très soif.",
+        "Merci. Et j'ai une bonne impression.",
+        "Pardon. Mais j'ai une drôle d'impression."
+      ]
+    },
+    {
+      "id": "listen-m-m-pocit-e-som-bol-ve-mi-aleko-a-e-to-trvalo-ve-mi-dlho",
+      "type": "listen",
+      "l1": "J'ai l'impression d'avoir été très loin. Et que ça a duré très longtemps.",
+      "l2": "Mám pocit, že som bol veľmi ďaleko. A že to trvalo veľmi dlho.",
+      "choices_l1": [
+        "J'ai l'impression d'avoir été très près. Et que ça a duré très peu.",
+        "J'ai l'impression d'avoir été très loin. Et que ça a été très court.",
+        "Tu as l'impression d'avoir été très loin. Et que ça a duré très longtemps."
+      ]
+    },
+    {
+      "id": "listen-spal-si-jednu-noc",
+      "type": "listen",
+      "l1": "Tu as dormi une nuit.",
+      "l2": "Spal si jednu noc.",
+      "choices_l1": [
+        "Tu as dormi une semaine.",
+        "J'ai dormi une nuit.",
+        "Tu n'as pas dormi de la nuit."
+      ]
+    },
+    {
+      "id": "listen-m-m-pocit-e-to-bol-sen",
+      "type": "listen",
+      "l1": "J'ai l'impression que c'était un rêve.",
+      "l2": "Mám pocit, že to bol sen.",
+      "choices_l1": [
+        "J'ai l'impression que c'était vrai.",
+        "Je sais que c'était un rêve.",
+        "Tu as l'impression que c'était un rêve."
+      ]
+    },
+    {
+      "id": "match-f-a-a-vocab",
+      "type": "match",
+      "l1": [
+        "la bouteille",
+        "bizarre",
+        "la nuit",
+        "le rêve"
+      ],
+      "l2": [
+        "fľaša",
+        "divný",
+        "noc",
+        "sen"
+      ]
+    },
+    {
+      "id": "blank-andrea-dr-v-ruke-f-a-u-je-v-nej-trochu-vody",
+      "type": "fill-blank",
+      "l1": "Andrea tient une bouteille dans la main. Il y a un peu d'eau dedans.",
+      "l2": "Andrea drží v ruke fľašu. Je v nej trochu vody.",
+      "missing_l1": "bouteille",
+      "missing_l2": "fľašu",
+      "blank_index_l1": 3,
+      "blank_index_l2": 4,
+      "choices_l1": [
+        "pomme",
+        "lettre",
+        "tasse"
+      ],
+      "choices_l2": [
+        "tašku",
+        "knihu",
+        "jablko"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-bola-to-dlh-noc",
+      "type": "fill-blank",
+      "l1": "C'était une longue nuit.",
+      "l2": "Bola to dlhá noc.",
+      "missing_l1": "nuit",
+      "missing_l2": "noc",
+      "blank_index_l1": 3,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "route",
+        "heure",
+        "journée"
+      ],
+      "choices_l2": [
+        "cesta",
+        "zima",
+        "hodina"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-m-m-pocit-e-som-bol-ve-mi-aleko-a-e-to-trvalo-ve-mi-dlho",
+      "type": "order",
+      "l1": "J'ai l'impression d'avoir été très loin. Et que ça a duré très longtemps.",
+      "l2": "Mám pocit, že som bol veľmi ďaleko. A že to trvalo veľmi dlho.",
+      "tokens_l1": [
+        "J'ai l'impression d'avoir été",
+        "très loin.",
+        "Et que ça a duré très longtemps."
+      ],
+      "tokens_l2": [
+        "Mám pocit, že som bol",
+        "veľmi ďaleko.",
+        "A že to trvalo veľmi dlho."
+      ]
+    },
+    {
+      "id": "order-tu-m-len-trochu-viac-nem-m",
+      "type": "order",
+      "l1": "Tiens. Juste un peu. Je n'en ai pas plus.",
+      "l2": "Tu máš. Len trochu. Viac nemám.",
+      "tokens_l1": [
+        "Tiens.",
+        "Juste un peu.",
+        "Je n'en ai pas plus."
+      ],
+      "tokens_l2": [
+        "Tu máš.",
+        "Len trochu.",
+        "Viac nemám."
+      ]
+    }
+  ]
+}

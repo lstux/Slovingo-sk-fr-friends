@@ -1,0 +1,231 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-redaktorka",
+      "type": "qcm",
+      "l1": "la journaliste, la rédactrice",
+      "l2": "redaktorka",
+      "choices_l1": [
+        "le pays",
+        "les experts",
+        "le studio"
+      ],
+      "choices_l2": [
+        "krajina",
+        "experti",
+        "štúdio"
+      ]
+    },
+    {
+      "id": "qcm-krajina",
+      "type": "qcm",
+      "l1": "le pays",
+      "l2": "krajina",
+      "choices_l1": [
+        "les chiffres",
+        "la garantie",
+        "le studio"
+      ],
+      "choices_l2": [
+        "čísla",
+        "záruka",
+        "štúdio"
+      ]
+    },
+    {
+      "id": "qcm-sla",
+      "type": "qcm",
+      "l1": "les chiffres",
+      "l2": "čísla",
+      "choices_l1": [
+        "les experts",
+        "le pays",
+        "la garantie"
+      ],
+      "choices_l2": [
+        "experti",
+        "krajina",
+        "záruka"
+      ]
+    },
+    {
+      "id": "qcm-z-ruka",
+      "type": "qcm",
+      "l1": "la garantie",
+      "l2": "záruka",
+      "choices_l1": [
+        "les chiffres",
+        "la journaliste, la rédactrice",
+        "la porte vitrée"
+      ],
+      "choices_l2": [
+        "čísla",
+        "redaktorka",
+        "sklenené dvere"
+      ]
+    },
+    {
+      "id": "qcm-dohodn-sa",
+      "type": "qcm",
+      "l1": "se mettre d'accord",
+      "l2": "dohodnúť sa",
+      "choices_l1": [
+        "nous diffusons",
+        "écoutera",
+        "Qu'avez-vous sur le cœur ?"
+      ],
+      "choices_l2": [
+        "vysielame",
+        "vypočuje",
+        "Čo máte na srdci?"
+      ]
+    },
+    {
+      "id": "listen-dobr-de-po-ula-som-e-h-ad-te-spr-vy",
+      "type": "listen",
+      "l1": "Bonjour. J'ai entendu dire que vous cherchiez les infos.",
+      "l2": "Dobrý deň. Počula som, že hľadáte Správy.",
+      "choices_l1": [
+        "Bonjour. J'ai entendu dire que vous cherchiez le château.",
+        "Bonjour. J'ai vu que vous regardiez les infos.",
+        "Bonsoir. Vous cherchez les infos ?"
+      ]
+    },
+    {
+      "id": "listen-ja-som-redaktorka-o-m-te-na-srdci",
+      "type": "listen",
+      "l1": "Je suis rédactrice. Qu'avez-vous sur le cœur ?",
+      "l2": "Ja som redaktorka. Čo máte na srdci?",
+      "choices_l1": [
+        "Je suis présentatrice. Qu'avez-vous à dire ?",
+        "Je suis rédactrice. Qu'avez-vous dans le sac ?",
+        "Je ne suis pas rédactrice. Qu'avez-vous sur le cœur ?"
+      ]
+    },
+    {
+      "id": "listen-p-min-t-u-teraz",
+      "type": "listen",
+      "l1": "Cinq minutes ? Tout de suite ?",
+      "l2": "Päť minút? Už teraz?",
+      "choices_l1": [
+        "Deux minutes ? Tout de suite ?",
+        "Cinq minutes ? Ce soir ?",
+        "Cinq heures ? Tout de suite ?"
+      ]
+    },
+    {
+      "id": "listen-dohodneme-sa",
+      "type": "listen",
+      "l1": "On se mettra d'accord.",
+      "l2": "Dohodneme sa.",
+      "choices_l1": [
+        "On ne se mettra pas d'accord.",
+        "On s'est mis d'accord.",
+        "On se reverra."
+      ]
+    },
+    {
+      "id": "listen-povedzte-to-ist-o-mne-len-pomal-ie",
+      "type": "listen",
+      "l1": "Dites-leur la même chose qu'à moi. Seulement plus lentement.",
+      "l2": "Povedzte to isté, čo mne. Len pomalšie.",
+      "choices_l1": [
+        "Dites-leur la même chose qu'à moi. Seulement plus vite.",
+        "Dites-leur autre chose. Seulement plus lentement.",
+        "Dites-moi la même chose. Seulement plus fort."
+      ]
+    },
+    {
+      "id": "match-redaktorka-vocab",
+      "type": "match",
+      "l1": [
+        "la journaliste, la rédactrice",
+        "le pays",
+        "la garantie",
+        "le studio"
+      ],
+      "l2": [
+        "redaktorka",
+        "krajina",
+        "záruka",
+        "štúdio"
+      ]
+    },
+    {
+      "id": "blank-chceme-to-poveda-u-om-nie-sme-experti-nepozn-me-sla-ale-boli-sme-tam",
+      "type": "fill-blank",
+      "l1": "Nous voulons le dire aux gens. Nous ne sommes pas des experts. Nous ne connaissons pas les chiffres. Mais nous y étions.",
+      "l2": "Chceme to povedať ľuďom. Nie sme experti. Nepoznáme čísla. Ale boli sme tam.",
+      "missing_l1": "experts",
+      "missing_l2": "experti",
+      "blank_index_l1": 11,
+      "blank_index_l2": 6,
+      "choices_l1": [
+        "enfants",
+        "gens",
+        "invités"
+      ],
+      "choices_l2": [
+        "deti",
+        "ľudia",
+        "hostia"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-to-je-zauj-mav-m-em-v-m-da-p-min-t-a-nem-m-iadnu-z-ruku-e-to-niekto-uvid",
+      "type": "fill-blank",
+      "l1": "C'est intéressant. Je peux vous donner cinq minutes. Et je n'ai aucune garantie que quelqu'un le verra.",
+      "l2": "To je zaujímavé. Môžem vám dať päť minút. A nemám žiadnu záruku, že to niekto uvidí.",
+      "missing_l1": "cinq",
+      "missing_l2": "päť",
+      "blank_index_l1": 6,
+      "blank_index_l2": 6,
+      "choices_l1": [
+        "deux",
+        "trois",
+        "dix"
+      ],
+      "choices_l2": [
+        "dve",
+        "tri",
+        "desať"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-presne-tak-ak-sa-dohodnete-kto-bude-hovori-dostanete-p-min-t-ak-sa-nedohodnete-dostanete-jednu",
+      "type": "order",
+      "l1": "Exactement. Si vous vous mettez d'accord sur qui parle, vous aurez cinq minutes. Si vous ne vous mettez pas d'accord, vous en aurez une.",
+      "l2": "Presne tak. Ak sa dohodnete, kto bude hovoriť, dostanete päť minút. Ak sa nedohodnete, dostanete jednu.",
+      "tokens_l1": [
+        "Exactement.",
+        "Si vous vous mettez d'accord sur qui parle, vous aurez cinq minutes.",
+        "Si vous ne vous mettez pas d'accord, vous en aurez une."
+      ],
+      "tokens_l2": [
+        "Presne tak.",
+        "Ak sa dohodnete, kto bude hovoriť, dostanete päť minút.",
+        "Ak sa nedohodnete, dostanete jednu."
+      ]
+    },
+    {
+      "id": "order-akujeme-v-ne-neviem-o-poveda",
+      "type": "order",
+      "l1": "Merci. Vraiment. Je ne sais pas quoi dire.",
+      "l2": "Ďakujeme. Vážne. Neviem, čo povedať.",
+      "tokens_l1": [
+        "Merci.",
+        "Vraiment.",
+        "Je ne sais pas quoi dire."
+      ],
+      "tokens_l2": [
+        "Ďakujeme.",
+        "Vážne.",
+        "Neviem, čo povedať."
+      ]
+    }
+  ]
+}

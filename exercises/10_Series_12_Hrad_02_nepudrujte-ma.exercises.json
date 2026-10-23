@@ -1,0 +1,231 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-viz-istka",
+      "type": "qcm",
+      "l1": "la maquilleuse",
+      "l2": "vizážistka",
+      "choices_l1": [
+        "le pinceau",
+        "la poudre",
+        "le nez"
+      ],
+      "choices_l2": [
+        "štetka",
+        "púder",
+        "nos"
+      ]
+    },
+    {
+      "id": "qcm-tetka",
+      "type": "qcm",
+      "l1": "le pinceau",
+      "l2": "štetka",
+      "choices_l1": [
+        "la poudre",
+        "la maquilleuse",
+        "les lumières"
+      ],
+      "choices_l2": [
+        "púder",
+        "vizážistka",
+        "svetlá"
+      ]
+    },
+    {
+      "id": "qcm-p-der",
+      "type": "qcm",
+      "l1": "la poudre",
+      "l2": "púder",
+      "choices_l1": [
+        "le pinceau",
+        "le nez",
+        "les lumières"
+      ],
+      "choices_l2": [
+        "štetka",
+        "nos",
+        "svetlá"
+      ]
+    },
+    {
+      "id": "qcm-iari",
+      "type": "qcm",
+      "l1": "rayonner",
+      "l2": "žiariť",
+      "choices_l1": [
+        "briller (luire)",
+        "joli",
+        "il est à moi"
+      ],
+      "choices_l2": [
+        "lesknúť sa",
+        "pekný",
+        "je môj"
+      ]
+    },
+    {
+      "id": "qcm-nos",
+      "type": "qcm",
+      "l1": "le nez",
+      "l2": "nos",
+      "choices_l1": [
+        "le visage",
+        "la poudre",
+        "le pinceau"
+      ],
+      "choices_l2": [
+        "tvár",
+        "púder",
+        "štetka"
+      ]
+    },
+    {
+      "id": "listen-dobr-ve-er-na-min-tku-trochu-pudru",
+      "type": "listen",
+      "l1": "Bonsoir. Une minute. Un peu de poudre.",
+      "l2": "Dobrý večer. Na minútku. Trochu pudru.",
+      "choices_l1": [
+        "Bonsoir. Une heure. Beaucoup de poudre.",
+        "Bonjour. Une minute. Un peu d'eau.",
+        "Bonsoir. Pas maintenant. Pas de poudre."
+      ]
+    },
+    {
+      "id": "listen-nep-drujte-ma",
+      "type": "listen",
+      "l1": "Ne me poudrez pas !",
+      "l2": "Nepúdrujte ma!",
+      "choices_l1": [
+        "Poudrez-moi !",
+        "Ne me regardez pas !",
+        "Ne le poudrez pas !"
+      ]
+    },
+    {
+      "id": "listen-ja-sa-nelesknem-ja-iarim",
+      "type": "listen",
+      "l1": "Je ne brille pas. Je rayonne.",
+      "l2": "Ja sa nelesknem. Ja žiarim.",
+      "choices_l1": [
+        "Je brille. Je ne rayonne pas.",
+        "Tu ne brilles pas. Tu rayonnes.",
+        "Je ne brille pas. Je dors."
+      ]
+    },
+    {
+      "id": "listen-samozrejme-m-te-ve-mi-pekn-nos",
+      "type": "listen",
+      "l1": "Bien sûr. Vous avez un très joli nez.",
+      "l2": "Samozrejme. Máte veľmi pekný nos.",
+      "choices_l1": [
+        "Bien sûr. Vous avez un très grand nez.",
+        "Non. Vous avez un très joli nez.",
+        "Bien sûr. Vous avez un très joli visage."
+      ]
+    },
+    {
+      "id": "listen-akujem-je-m-j",
+      "type": "listen",
+      "l1": "Merci. Il est à moi.",
+      "l2": "Ďakujem. Je môj.",
+      "choices_l1": [
+        "Merci. Il est à toi.",
+        "Merci. Il est à elle.",
+        "Pardon. Il est à moi."
+      ]
+    },
+    {
+      "id": "match-viz-istka-vocab",
+      "type": "match",
+      "l1": [
+        "la maquilleuse",
+        "le pinceau",
+        "la poudre",
+        "le nez"
+      ],
+      "l2": [
+        "vizážistka",
+        "štetka",
+        "púder",
+        "nos"
+      ]
+    },
+    {
+      "id": "blank-svetl-s-siln-bez-pudra-budete-sa-leskn",
+      "type": "fill-blank",
+      "l1": "Les lumières sont fortes. Sans poudre, vous brillerez.",
+      "l2": "Svetlá sú silné. Bez pudra budete sa lesknúť.",
+      "missing_l1": "fortes",
+      "missing_l2": "silné",
+      "blank_index_l1": 3,
+      "blank_index_l2": 2,
+      "choices_l1": [
+        "faibles",
+        "petites",
+        "jolies"
+      ],
+      "choices_l2": [
+        "slabé",
+        "malé",
+        "pekné"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-m-pekn-tv-r",
+      "type": "fill-blank",
+      "l1": "Tu as un joli visage.",
+      "l2": "Máš peknú tvár.",
+      "missing_l1": "visage",
+      "missing_l2": "tvár",
+      "blank_index_l1": 4,
+      "blank_index_l2": 2,
+      "choices_l1": [
+        "nez",
+        "tête",
+        "main"
+      ],
+      "choices_l2": [
+        "nos",
+        "hlavu",
+        "ruku"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-to-sa-mi-p-i-ale-p-der-aj-tak",
+      "type": "order",
+      "l1": "Ça me plaît. Mais de la poudre quand même.",
+      "l2": "To sa mi páči. Ale púder aj tak.",
+      "tokens_l1": [
+        "Ça me plaît.",
+        "Mais de la poudre",
+        "quand même."
+      ],
+      "tokens_l2": [
+        "To sa mi páči.",
+        "Ale púder",
+        "aj tak."
+      ]
+    },
+    {
+      "id": "order-z-ved-aj-ej-miestnosti-vyjde-viz-istka-s-ve-kou-tetkou",
+      "type": "order",
+      "l1": "De la pièce voisine sort une maquilleuse avec un grand pinceau.",
+      "l2": "Z vedľajšej miestnosti vyjde vizážistka s veľkou štetkou.",
+      "tokens_l1": [
+        "De la pièce voisine",
+        "sort une maquilleuse",
+        "avec un grand pinceau."
+      ],
+      "tokens_l2": [
+        "Z vedľajšej miestnosti",
+        "vyjde vizážistka",
+        "s veľkou štetkou."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "listen-je-tu-n-dhern-v-h-ad",
+      "type": "listen",
+      "l1": "La vue est magnifique.",
+      "l2": "Je tu nádherný výhľad.",
+      "choices_l1": [
+        "La vue est horrible.",
+        "La ville est magnifique.",
+        "Il n'y a pas de vue."
+      ]
+    },
+    {
+      "id": "listen-pozri-sa-o-ami",
+      "type": "listen",
+      "l1": "Regarde avec tes yeux.",
+      "l2": "Pozri sa očami.",
+      "choices_l1": [
+        "Écoute avec tes oreilles.",
+        "Regarde avec ton téléphone.",
+        "Ferme les yeux."
+      ]
+    },
+    {
+      "id": "listen-o-ami-sa-foti-ned",
+      "type": "listen",
+      "l1": "On ne peut pas prendre de photo avec les yeux.",
+      "l2": "Očami sa fotiť nedá.",
+      "choices_l1": [
+        "On peut prendre une photo avec les yeux.",
+        "On ne peut pas voir avec les yeux.",
+        "On ne peut pas prendre de photo avec ce téléphone."
+      ]
+    },
+    {
+      "id": "listen-zap-sal-som-si-to-je-to-kr-tke-pod-a-m-a-to-sta",
+      "type": "listen",
+      "l1": "Je l'ai noté. C'est court. Pour moi, ça suffit.",
+      "l2": "Zapísal som si to. Je to krátke. Podľa mňa to stačí.",
+      "choices_l1": [
+        "Je l'ai oublié. C'est long. Pour moi, ça ne suffit pas.",
+        "Je l'ai noté. C'est long. Pour moi, ça suffit.",
+        "Je l'ai lu. C'est court. Pour moi, c'est trop."
+      ]
+    },
+    {
+      "id": "listen-mne-sa-to-p-i",
+      "type": "listen",
+      "l1": "Ça me plaît.",
+      "l2": "Mne sa to páči.",
+      "choices_l1": [
+        "Ça ne me plaît pas.",
+        "Ça te plaît.",
+        "Ça lui plaît."
+      ]
+    },
+    {
+      "id": "listen-mne-tie-a-o-ak-sa-zasekneme",
+      "type": "listen",
+      "l1": "À moi aussi. Et si on se bloque ?",
+      "l2": "Mne tiež. A čo ak sa zasekneme?",
+      "choices_l1": [
+        "À moi non plus. Et si on se bloque ?",
+        "À moi aussi. Et si on se perd ?",
+        "À moi aussi. Et si on arrive en retard ?"
+      ]
+    },
+    {
+      "id": "listen-potom-povie-nie-o-vtipn-to-rob-najlep-ie",
+      "type": "listen",
+      "l1": "Alors tu diras quelque chose de drôle. C'est ce que tu fais le mieux.",
+      "l2": "Potom povieš niečo vtipné. To robíš najlepšie.",
+      "choices_l1": [
+        "Alors tu diras quelque chose de sérieux. C'est ce que tu fais le mieux.",
+        "Alors tu ne diras rien. C'est ce que tu fais le mieux.",
+        "Alors je dirai quelque chose de drôle. C'est ce que je fais le mieux."
+      ]
+    },
+    {
+      "id": "match-hlavn-stanica-vocab",
+      "type": "match",
+      "l1": [
+        "la gare centrale",
+        "le château",
+        "le portier",
+        "la journaliste, la rédactrice"
+      ],
+      "l2": [
+        "hlavná stanica",
+        "hrad",
+        "vrátnik",
+        "redaktorka"
+      ]
+    },
+    {
+      "id": "match-pozv-nka-words",
+      "type": "match",
+      "l1": [
+        "l'invitation",
+        "en tram",
+        "le pays",
+        "le Danube"
+      ],
+      "l2": [
+        "pozvánka",
+        "električkou",
+        "krajina",
+        "Dunaj"
+      ]
+    },
+    {
+      "id": "blank-a-na-cel-mesto-koda-e-m-m-vybit-telef-n-nafotila-by-som-to",
+      "type": "fill-blank",
+      "l1": "Et sur toute la ville. Dommage que mon téléphone soit vide. Je l'aurais pris en photo.",
+      "l2": "A na celé mesto. Škoda, že mám vybitý telefón. Nafotila by som to.",
+      "missing_l1": "ville",
+      "missing_l2": "mesto",
+      "blank_index_l1": 4,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "mer",
+        "champ",
+        "ciel"
+      ],
+      "choices_l2": [
+        "more",
+        "pole",
+        "nebo"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-je-podve-er-tyri-zvierat-stoja-pred-br-nou-hradu-hore-s-schody-a-irok-terasa",
+      "type": "fill-blank",
+      "l1": "C'est la fin d'après-midi. Quatre animaux sont devant la porte du château. En haut, il y a des escaliers et une large terrasse.",
+      "l2": "Je podvečer. Štyri zvieratá stoja pred bránou hradu. Hore sú schody a široká terasa.",
+      "missing_l1": "Quatre",
+      "missing_l2": "Štyri",
+      "blank_index_l1": 4,
+      "blank_index_l2": 2,
+      "choices_l1": [
+        "Trois",
+        "Deux",
+        "Cinq"
+      ],
+      "choices_l2": [
+        "Tri",
+        "Dve",
+        "Päť"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-bola-voda-potom-nebola-potom-jej-bolo-pr-li-ve-a-a-my-sme-tam-boli",
+      "type": "order",
+      "l1": "« Il y avait de l'eau. Puis il n'y en avait plus. Puis il y en a eu trop. Et nous, nous étions là. »",
+      "l2": "„Bola voda. Potom nebola. Potom jej bolo príliš veľa. A my sme tam boli.“",
+      "tokens_l1": [
+        "« Il y avait de l'eau.",
+        "Puis il n'y en avait plus.",
+        "Puis il y en a eu trop.",
+        "Et nous, nous étions là. »"
+      ],
+      "tokens_l2": [
+        "„Bola voda.",
+        "Potom nebola.",
+        "Potom jej bolo príliš veľa.",
+        "A my sme tam boli.“"
+      ]
+    },
+    {
+      "id": "order-akujem-to-je-najkraj-kompliment-dne-n-ho-d-a",
+      "type": "order",
+      "l1": "Merci. C'est le plus beau compliment d'aujourd'hui.",
+      "l2": "Ďakujem. To je najkrajší kompliment dnešného dňa.",
+      "tokens_l1": [
+        "Merci.",
+        "C'est le plus beau compliment",
+        "d'aujourd'hui."
+      ],
+      "tokens_l2": [
+        "Ďakujem.",
+        "To je najkrajší kompliment",
+        "dnešného dňa."
+      ]
+    }
+  ]
+}

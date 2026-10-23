@@ -1,0 +1,231 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-elektri-kou",
+      "type": "qcm",
+      "l1": "en tram",
+      "l2": "električkou",
+      "choices_l1": [
+        "en bus",
+        "à l'envers",
+        "Allez ! (on vous dit)"
+      ],
+      "choices_l2": [
+        "autobusom",
+        "hore nohami",
+        "Choďte!"
+      ]
+    },
+    {
+      "id": "qcm-autobusom",
+      "type": "qcm",
+      "l1": "en bus",
+      "l2": "autobusom",
+      "choices_l1": [
+        "en tram",
+        "grise",
+        "renversé"
+      ],
+      "choices_l2": [
+        "električkou",
+        "šedá",
+        "prevrátený"
+      ]
+    },
+    {
+      "id": "qcm-hrad",
+      "type": "qcm",
+      "l1": "le château",
+      "l2": "hrad",
+      "choices_l1": [
+        "la table",
+        "les tours",
+        "le parlement"
+      ],
+      "choices_l2": [
+        "stôl",
+        "veže",
+        "parlament"
+      ]
+    },
+    {
+      "id": "qcm-prevr-ten",
+      "type": "qcm",
+      "l1": "renversé",
+      "l2": "prevrátený",
+      "choices_l1": [
+        "grise",
+        "blanche",
+        "à l'envers"
+      ],
+      "choices_l2": [
+        "šedá",
+        "biela",
+        "hore nohami"
+      ]
+    },
+    {
+      "id": "qcm-hore-nohami",
+      "type": "qcm",
+      "l1": "à l'envers",
+      "l2": "hore nohami",
+      "choices_l1": [
+        "renversé",
+        "montre le chemin",
+        "en tram"
+      ],
+      "choices_l2": [
+        "prevrátený",
+        "ukazuje cestu",
+        "električkou"
+      ]
+    },
+    {
+      "id": "listen-akujeme-prep-te-e-te-jedna-ot-zka-kde-je-hrad",
+      "type": "listen",
+      "l1": "Merci. Excusez-moi, encore une question. Où est le château ?",
+      "l2": "Ďakujeme. Prepáčte, ešte jedna otázka. Kde je hrad?",
+      "choices_l1": [
+        "Merci. Excusez-moi, encore une question. Où est la gare ?",
+        "Bonjour. Excusez-moi, une question. Où est le château ?",
+        "Merci. Pas d'autre question. Voilà le château."
+      ]
+    },
+    {
+      "id": "listen-hrad-pozrite-sa-hore",
+      "type": "listen",
+      "l1": "Le château ? Regardez en haut.",
+      "l2": "Hrad? Pozrite sa hore.",
+      "choices_l1": [
+        "Le château ? Regardez en bas.",
+        "La tour ? Regardez en haut.",
+        "Le château ? Allez tout droit."
+      ]
+    },
+    {
+      "id": "listen-no-hovoria-mu-prevr-ten-st-l",
+      "type": "listen",
+      "l1": "Oui. On l'appelle « la table renversée ».",
+      "l2": "Áno. Hovoria mu „prevrátený stôl“.",
+      "choices_l1": [
+        "Oui. On l'appelle « la grande table ».",
+        "Non. On l'appelle « la table renversée ».",
+        "Oui. On l'appelle « la chaise renversée »."
+      ]
+    },
+    {
+      "id": "listen-vyzer-ako-st-l",
+      "type": "listen",
+      "l1": "On dirait une table.",
+      "l2": "Vyzerá ako stôl.",
+      "choices_l1": [
+        "On dirait une chaise.",
+        "On dirait une tour.",
+        "Ça ne ressemble pas à une table."
+      ]
+    },
+    {
+      "id": "listen-hrad-m-tyri-ve-e",
+      "type": "listen",
+      "l1": "Le château a quatre tours.",
+      "l2": "Hrad má štyri veže.",
+      "choices_l1": [
+        "Le château a trois tours.",
+        "Le château n'a pas de tours.",
+        "La ville a quatre tours."
+      ]
+    },
+    {
+      "id": "match-elektri-kou-vocab",
+      "type": "match",
+      "l1": [
+        "en tram",
+        "en bus",
+        "le château",
+        "la table"
+      ],
+      "l2": [
+        "električkou",
+        "autobusom",
+        "hrad",
+        "stôl"
+      ]
+    },
+    {
+      "id": "blank-idem-do-mesta-elektri-kou",
+      "type": "fill-blank",
+      "l1": "Je vais en ville en tram.",
+      "l2": "Idem do mesta električkou.",
+      "missing_l1": "tram",
+      "missing_l2": "električkou",
+      "blank_index_l1": 5,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "bus",
+        "train",
+        "voiture"
+      ],
+      "choices_l2": [
+        "autobusom",
+        "vlakom",
+        "autom"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-do-telev-zie-cho-te-elektri-kou-potom-autobusom-mlynsk-dolina-je-to-ve-k-ed-budova",
+      "type": "fill-blank",
+      "l1": "À la télévision ? Prenez le tram, puis le bus. Mlynská dolina. C'est un grand bâtiment gris.",
+      "l2": "Do televízie? Choďte električkou, potom autobusom. Mlynská dolina. Je to veľká šedá budova.",
+      "missing_l1": "gris",
+      "missing_l2": "šedá",
+      "blank_index_l1": 16,
+      "blank_index_l2": 11,
+      "choices_l1": [
+        "blanc",
+        "petit",
+        "nouveau"
+      ],
+      "choices_l2": [
+        "biela",
+        "malá",
+        "nová"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-pozrite-sa-na-neho-tyri-ve-e-s-ako-tyri-nohy-vyzer-ako-st-l-hore-nohami",
+      "type": "order",
+      "l1": "Regardez-le. Les quatre tours, ce sont les quatre pieds. On dirait une table à l'envers.",
+      "l2": "Pozrite sa na neho. Štyri veže sú ako štyri nohy. Vyzerá ako stôl hore nohami.",
+      "tokens_l1": [
+        "Regardez-le.",
+        "Les quatre tours, ce sont les quatre pieds.",
+        "On dirait une table à l'envers."
+      ],
+      "tokens_l2": [
+        "Pozrite sa na neho.",
+        "Štyri veže sú ako štyri nohy.",
+        "Vyzerá ako stôl hore nohami."
+      ]
+    },
+    {
+      "id": "order-obrovsk-st-l-na-ktorom-sa-rozhoduj-d-le-it-veci",
+      "type": "order",
+      "l1": "Une énorme table sur laquelle on décide des choses importantes.",
+      "l2": "Obrovský stôl, na ktorom sa rozhodujú dôležité veci.",
+      "tokens_l1": [
+        "Une énorme table",
+        "sur laquelle on décide",
+        "des choses importantes."
+      ],
+      "tokens_l2": [
+        "Obrovský stôl,",
+        "na ktorom sa rozhodujú",
+        "dôležité veci."
+      ]
+    }
+  ]
+}

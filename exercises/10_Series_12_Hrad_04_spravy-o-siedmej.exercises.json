@@ -1,0 +1,233 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-hodinky",
+      "type": "qcm",
+      "l1": "la montre",
+      "l2": "hodinky",
+      "choices_l1": [
+        "l'heure",
+        "zéro",
+        "deux minutes"
+      ],
+      "choices_l2": [
+        "hodina",
+        "nula",
+        "dve minúty"
+      ]
+    },
+    {
+      "id": "qcm-cvi-m",
+      "type": "qcm",
+      "l1": "je m'entraîne",
+      "l2": "cvičím",
+      "choices_l1": [
+        "nous commencerons",
+        "s'éteint",
+        "quand je dirai"
+      ],
+      "choices_l2": [
+        "začneme",
+        "zhasne",
+        "keď poviem"
+      ]
+    },
+    {
+      "id": "qcm-za-neme",
+      "type": "qcm",
+      "l1": "nous commencerons",
+      "l2": "začneme",
+      "choices_l1": [
+        "je m'entraîne",
+        "s'éteint",
+        "à zéro"
+      ],
+      "choices_l2": [
+        "cvičím",
+        "zhasne",
+        "pri nule"
+      ]
+    },
+    {
+      "id": "qcm-zhasne",
+      "type": "qcm",
+      "l1": "s'éteint",
+      "l2": "zhasne",
+      "choices_l1": [
+        "nous commencerons",
+        "je m'entraîne",
+        "la montre"
+      ],
+      "choices_l2": [
+        "začneme",
+        "cvičím",
+        "hodinky"
+      ]
+    },
+    {
+      "id": "qcm-hodina",
+      "type": "qcm",
+      "l1": "l'heure",
+      "l2": "hodina",
+      "choices_l1": [
+        "la montre",
+        "zéro",
+        "sept heures"
+      ],
+      "choices_l2": [
+        "hodinky",
+        "nula",
+        "siedma hodina"
+      ]
+    },
+    {
+      "id": "listen-j-n-nevie-o-hovor",
+      "type": "listen",
+      "l1": "Ján ne sait pas ce qu'il dit.",
+      "l2": "Ján nevie, čo hovorí.",
+      "choices_l1": [
+        "Ján sait ce qu'il dit.",
+        "Ján ne sait pas ce qu'il fait.",
+        "Marek ne sait pas ce qu'il dit."
+      ]
+    },
+    {
+      "id": "listen-p-tyri-tri",
+      "type": "listen",
+      "l1": "Cinq, quatre, trois.",
+      "l2": "Päť, štyri, tri.",
+      "choices_l1": [
+        "Trois, deux, un.",
+        "Cinq, six, sept.",
+        "Quatre, trois, deux."
+      ]
+    },
+    {
+      "id": "listen-katka-e-te-nie",
+      "type": "listen",
+      "l1": "Katka, pas encore.",
+      "l2": "Katka, ešte nie.",
+      "choices_l1": [
+        "Katka, maintenant.",
+        "Katka, déjà ?",
+        "Maťo, pas encore."
+      ]
+    },
+    {
+      "id": "listen-cvi-m",
+      "type": "listen",
+      "l1": "Je m'entraîne.",
+      "l2": "Cvičím.",
+      "choices_l1": [
+        "Je commence.",
+        "Je compte.",
+        "Je m'arrête."
+      ]
+    },
+    {
+      "id": "listen-ko-ko-je-hod-n-je-sedem-hod-n",
+      "type": "listen",
+      "l1": "Quelle heure est-il ? Il est sept heures.",
+      "l2": "Koľko je hodín? Je sedem hodín.",
+      "choices_l1": [
+        "Quelle heure est-il ? Il est six heures.",
+        "Quel jour sommes-nous ? C'est le sept.",
+        "Quelle heure est-il ? Il est huit heures."
+      ]
+    },
+    {
+      "id": "match-hodinky-vocab",
+      "type": "match",
+      "l1": [
+        "la montre",
+        "l'heure",
+        "zéro",
+        "je m'entraîne"
+      ],
+      "l2": [
+        "hodinky",
+        "hodina",
+        "nula",
+        "cvičím"
+      ]
+    },
+    {
+      "id": "blank-spr-vy-za-naj-o-siedmej",
+      "type": "fill-blank",
+      "l1": "Les infos commencent à sept heures.",
+      "l2": "Správy začínajú o siedmej.",
+      "missing_l1": "sept",
+      "missing_l2": "siedmej",
+      "blank_index_l1": 4,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "huit",
+        "six",
+        "neuf"
+      ],
+      "choices_l2": [
+        "ôsmej",
+        "šiestej",
+        "deviatej"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-dobre-j-n-povedal-e-m-me-hovori-r-chlo",
+      "type": "fill-blank",
+      "l1": "D'accord. Ján a dit qu'il fallait parler vite.",
+      "l2": "Dobre. Ján povedal, že máme hovoriť rýchlo.",
+      "missing_l1": "vite",
+      "missing_l2": "rýchlo",
+      "blank_index_l1": 7,
+      "blank_index_l2": 6,
+      "choices_l1": [
+        "lentement",
+        "doucement",
+        "fort"
+      ],
+      "choices_l2": [
+        "pomaly",
+        "potichu",
+        "nahlas"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-ke-poviem-p-tyri-tri-nehovorte-ni-pri-nule-za-neme",
+      "type": "order",
+      "l1": "Quand je dirai « cinq, quatre, trois », ne dites rien. À zéro, on commence.",
+      "l2": "Keď poviem: „päť, štyri, tri“, nehovorte nič. Pri nule začneme.",
+      "tokens_l1": [
+        "Quand je dirai « cinq, quatre, trois »,",
+        "ne dites rien.",
+        "À zéro, on commence."
+      ],
+      "tokens_l2": [
+        "Keď poviem: „päť, štyri, tri“,",
+        "nehovorte nič.",
+        "Pri nule začneme."
+      ]
+    },
+    {
+      "id": "order-m-me-dve-min-ty-sed-te-dobre-nehovorte-r-chlo-pozerajte-sa-na-m-a-nie-do-kamery",
+      "type": "order",
+      "l1": "Il nous reste deux minutes. Vous êtes assis ? Bien. Ne parlez pas vite. Regardez-moi, pas la caméra.",
+      "l2": "Máme dve minúty. Sedíte? Dobre. Nehovorte rýchlo. Pozerajte sa na mňa, nie do kamery.",
+      "tokens_l1": [
+        "Il nous reste deux minutes.",
+        "Vous êtes assis ? Bien.",
+        "Ne parlez pas vite.",
+        "Regardez-moi, pas la caméra."
+      ],
+      "tokens_l2": [
+        "Máme dve minúty.",
+        "Sedíte? Dobre.",
+        "Nehovorte rýchlo.",
+        "Pozerajte sa na mňa, nie do kamery."
+      ]
+    }
+  ]
+}

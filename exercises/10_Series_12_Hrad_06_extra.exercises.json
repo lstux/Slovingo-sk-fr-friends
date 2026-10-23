@@ -1,0 +1,200 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "listen-boli-sme-dobr",
+      "type": "listen",
+      "l1": "On a été bons ?",
+      "l2": "Boli sme dobrí?",
+      "choices_l1": [
+        "On a été mauvais ?",
+        "On est prêts ?",
+        "Vous avez été bons ?"
+      ]
+    },
+    {
+      "id": "listen-boli-ste-v-born",
+      "type": "listen",
+      "l1": "Vous avez été excellents.",
+      "l2": "Boli ste výborní.",
+      "choices_l1": [
+        "Vous avez été nuls.",
+        "Vous serez excellents.",
+        "Nous avons été excellents."
+      ]
+    },
+    {
+      "id": "listen-spr-vy-p-desiat-spr-v",
+      "type": "listen",
+      "l1": "Les messages ! Cinquante messages !",
+      "l2": "Správy! Päťdesiat správ!",
+      "choices_l1": [
+        "Les messages ! Quinze messages !",
+        "Les infos ! Cinquante minutes !",
+        "Pas de messages ! Aucun message !"
+      ]
+    },
+    {
+      "id": "listen-e-te-nie-ale-u-sa-na-m-a-pozer",
+      "type": "listen",
+      "l1": "Pas encore. Mais elle me regarde déjà.",
+      "l2": "Ešte nie. Ale už sa na mňa pozerá.",
+      "choices_l1": [
+        "Pas encore. Mais elle m'attend déjà.",
+        "Oui, déjà. Elle me regarde.",
+        "Pas encore. Et elle ne me regarde pas."
+      ]
+    },
+    {
+      "id": "listen-v-pondelok-idem-domov",
+      "type": "listen",
+      "l1": "Lundi, je rentre chez moi.",
+      "l2": "V pondelok idem domov.",
+      "choices_l1": [
+        "Dimanche, je rentre chez moi.",
+        "Lundi, je reste ici.",
+        "Lundi, je vais à l'école."
+      ]
+    },
+    {
+      "id": "listen-chce-aby-som-zostal",
+      "type": "listen",
+      "l1": "Tu veux que je reste ?",
+      "l2": "Chceš, aby som zostal?",
+      "choices_l1": [
+        "Tu veux que je parte ?",
+        "Tu veux rester ?",
+        "Tu veux que je revienne ?"
+      ]
+    },
+    {
+      "id": "listen-nesl-b-o-nevie",
+      "type": "listen",
+      "l1": "Ne promets pas ce que tu ne sais pas.",
+      "l2": "Neslúb, čo nevieš.",
+      "choices_l1": [
+        "Promets ce que tu sais.",
+        "Ne dis pas ce que tu ne sais pas.",
+        "Ne promets rien."
+      ]
+    },
+    {
+      "id": "listen-potom-uvid-me",
+      "type": "listen",
+      "l1": "Après, on verra.",
+      "l2": "Potom uvidíme.",
+      "choices_l1": [
+        "Après, on partira.",
+        "Maintenant, on voit.",
+        "Avant, on a vu."
+      ]
+    },
+    {
+      "id": "match-kamera-vocab",
+      "type": "match",
+      "l1": [
+        "la caméra",
+        "la maquilleuse",
+        "le trac",
+        "la montre"
+      ],
+      "l2": [
+        "kamera",
+        "vizážistka",
+        "tréma",
+        "hodinky"
+      ]
+    },
+    {
+      "id": "match-moder-torka-words",
+      "type": "match",
+      "l1": [
+        "la présentatrice",
+        "les invités",
+        "la poudre",
+        "les papillons"
+      ],
+      "l2": [
+        "moderátorka",
+        "hostia",
+        "púder",
+        "motýle"
+      ]
+    },
+    {
+      "id": "blank-mama-mi-posunula-letenku-o-jeden-de-viac-nedok-zala",
+      "type": "fill-blank",
+      "l1": "Maman a décalé mon billet d'un jour. Elle n'a pas pu faire plus.",
+      "l2": "Mama mi posunula letenku o jeden deň. Viac nedokázala.",
+      "missing_l1": "jour",
+      "missing_l2": "deň",
+      "blank_index_l1": 6,
+      "blank_index_l2": 6,
+      "choices_l1": [
+        "mois",
+        "an",
+        "semaine"
+      ],
+      "choices_l2": [
+        "týždeň",
+        "mesiac",
+        "rok"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-pr-dem-s-ubujem",
+      "type": "fill-blank",
+      "l1": "Je reviendrai. Je te le promets.",
+      "l2": "Prídem. Sľubujem.",
+      "missing_l1": "promets",
+      "missing_l2": "Sľubujem",
+      "blank_index_l1": 5,
+      "blank_index_l2": 1,
+      "choices_l1": [
+        "sais",
+        "remercie",
+        "attends"
+      ],
+      "choices_l2": [
+        "Neviem",
+        "Ďakujem",
+        "Čakám"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-marek-videl-som-v-s-moje-deti-tlieskali-j-n-moja-sesternica-kri-na-cel-ulicu-a-tu-je-babka",
+      "type": "order",
+      "l1": "Marek : « Je vous ai vus. Mes enfants ont applaudi. » Ján : « Ma cousine crie dans toute la rue. » Et voilà... mamie.",
+      "l2": "Marek: „Videl som vás. Moje deti tlieskali.“ Ján: „Moja sesternica kričí na celú ulicu.“ A tu je... babka.",
+      "tokens_l1": [
+        "Marek : « Je vous ai vus. Mes enfants ont applaudi. »",
+        "Ján : « Ma cousine crie dans toute la rue. »",
+        "Et voilà... mamie."
+      ],
+      "tokens_l2": [
+        "Marek: „Videl som vás. Moje deti tlieskali.“",
+        "Ján: „Moja sesternica kričí na celú ulicu.“",
+        "A tu je... babka."
+      ]
+    },
+    {
+      "id": "order-prv-kr-t-som-po-ula-ako-sa-tyri-zvierat-zhodn-na-jednej-veci",
+      "type": "order",
+      "l1": "C'est la première fois que j'entends quatre animaux s'accorder sur une seule chose.",
+      "l2": "Prvýkrát som počula, ako sa štyri zvieratá zhodnú na jednej veci.",
+      "tokens_l1": [
+        "C'est la première fois que j'entends",
+        "quatre animaux s'accorder",
+        "sur une seule chose."
+      ],
+      "tokens_l2": [
+        "Prvýkrát som počula,",
+        "ako sa štyri zvieratá zhodnú",
+        "na jednej veci."
+      ]
+    }
+  ]
+}

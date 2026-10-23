@@ -1,0 +1,231 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-kamera",
+      "type": "qcm",
+      "l1": "la caméra",
+      "l2": "kamera",
+      "choices_l1": [
+        "le micro",
+        "les projecteurs",
+        "les câbles, les fils"
+      ],
+      "choices_l2": [
+        "mikrofón",
+        "reflektory",
+        "drôty"
+      ]
+    },
+    {
+      "id": "qcm-mikrof-n",
+      "type": "qcm",
+      "l1": "le micro",
+      "l2": "mikrofón",
+      "choices_l1": [
+        "la caméra",
+        "les chaises",
+        "les projecteurs"
+      ],
+      "choices_l2": [
+        "kamera",
+        "stoličky",
+        "reflektory"
+      ]
+    },
+    {
+      "id": "qcm-reflektory",
+      "type": "qcm",
+      "l1": "les projecteurs",
+      "l2": "reflektory",
+      "choices_l1": [
+        "les câbles, les fils",
+        "les chaises",
+        "la caméra"
+      ],
+      "choices_l2": [
+        "drôty",
+        "stoličky",
+        "kamera"
+      ]
+    },
+    {
+      "id": "qcm-tam",
+      "type": "qcm",
+      "l1": "là-bas",
+      "l2": "tam",
+      "choices_l1": [
+        "ici (on y vient)",
+        "toutes",
+        "s'asseoir"
+      ],
+      "choices_l2": [
+        "sem",
+        "všetky",
+        "sadnúť si"
+      ]
+    },
+    {
+      "id": "qcm-sem",
+      "type": "qcm",
+      "l1": "ici (on y vient)",
+      "l2": "sem",
+      "choices_l1": [
+        "là-bas",
+        "toutes",
+        "Asseyez-vous !"
+      ],
+      "choices_l2": [
+        "tam",
+        "všetky",
+        "Sadnite si!"
+      ]
+    },
+    {
+      "id": "listen-dobr-ve-er-pros-m-sadnite-si-nie-tam-sem",
+      "type": "listen",
+      "l1": "Bonsoir. Asseyez-vous, s'il vous plaît. Pas là. Ici.",
+      "l2": "Dobrý večer. Prosím, sadnite si. Nie tam. Sem.",
+      "choices_l1": [
+        "Bonjour. Levez-vous, s'il vous plaît. Pas ici. Là.",
+        "Bonsoir. Asseyez-vous, s'il vous plaît. Ici. Pas là.",
+        "Bonsoir. Entrez, s'il vous plaît. Pas là. Ici."
+      ]
+    },
+    {
+      "id": "listen-m-em-si-sadn",
+      "type": "listen",
+      "l1": "Je peux m'asseoir ?",
+      "l2": "Môžem si sadnúť?",
+      "choices_l1": [
+        "Je peux entrer ?",
+        "Tu peux t'asseoir ?",
+        "Je dois m'asseoir ?"
+      ]
+    },
+    {
+      "id": "listen-m-ete-ale-stoli-ka-je-mal",
+      "type": "listen",
+      "l1": "Vous pouvez. Mais la chaise est petite.",
+      "l2": "Môžete. Ale stolička je malá.",
+      "choices_l1": [
+        "Vous pouvez. Mais la chaise est grande.",
+        "Vous ne pouvez pas. La chaise est petite.",
+        "Vous pouvez. Mais la table est petite."
+      ]
+    },
+    {
+      "id": "listen-ja-viem-pre-m-a-s-v-etky-stoli-ky-mal",
+      "type": "listen",
+      "l1": "Je sais. Pour moi, toutes les chaises sont petites.",
+      "l2": "Ja viem. Pre mňa sú všetky stoličky malé.",
+      "choices_l1": [
+        "Je sais. Pour moi, toutes les chaises sont grandes.",
+        "Je ne sais pas. Pour moi, cette chaise est petite.",
+        "Je sais. Pour toi, toutes les chaises sont petites."
+      ]
+    },
+    {
+      "id": "listen-po-uje-hudbu",
+      "type": "listen",
+      "l1": "Tu entends la musique ?",
+      "l2": "Počuješ hudbu?",
+      "choices_l1": [
+        "Tu aimes la musique ?",
+        "Tu entends la radio ?",
+        "Vous entendez la musique ?"
+      ]
+    },
+    {
+      "id": "match-kamera-vocab",
+      "type": "match",
+      "l1": [
+        "la caméra",
+        "le micro",
+        "les projecteurs",
+        "la chaise"
+      ],
+      "l2": [
+        "kamera",
+        "mikrofón",
+        "reflektory",
+        "stolička"
+      ]
+    },
+    {
+      "id": "blank-ja-viem-pre-m-a-s-v-etky-stoli-ky-mal",
+      "type": "fill-blank",
+      "l1": "Je sais. Pour moi, toutes les chaises sont petites.",
+      "l2": "Ja viem. Pre mňa sú všetky stoličky malé.",
+      "missing_l1": "chaises",
+      "missing_l2": "stoličky",
+      "blank_index_l1": 6,
+      "blank_index_l2": 6,
+      "choices_l1": [
+        "caméras",
+        "tours",
+        "maisons"
+      ],
+      "choices_l2": [
+        "kamery",
+        "veže",
+        "budovy"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-po-sem-tu-je-stoli-ka",
+      "type": "fill-blank",
+      "l1": "Viens ici ! Il y a une chaise.",
+      "l2": "Poď sem! Tu je stolička.",
+      "missing_l1": "ici",
+      "missing_l2": "sem",
+      "blank_index_l1": 1,
+      "blank_index_l2": 1,
+      "choices_l1": [
+        "là-bas",
+        "dehors",
+        "chez moi"
+      ],
+      "choices_l2": [
+        "tam",
+        "domov",
+        "von"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-terasa-na-hrade-je-tu-kamera-mikrof-n-tyri-stoli-ky-a-tri-reflektory-okolo-behaj-udia-s-dr-tmi",
+      "type": "order",
+      "l1": "La terrasse du château. Il y a une caméra, un micro, quatre chaises et trois projecteurs. Autour, des gens courent avec des câbles.",
+      "l2": "Terasa na hrade. Je tu kamera, mikrofón, štyri stoličky a tri reflektory. Okolo behajú ľudia s drôtmi.",
+      "tokens_l1": [
+        "La terrasse du château.",
+        "Il y a une caméra, un micro, quatre chaises et trois projecteurs.",
+        "Autour, des gens courent avec des câbles."
+      ],
+      "tokens_l2": [
+        "Terasa na hrade.",
+        "Je tu kamera, mikrofón, štyri stoličky a tri reflektory.",
+        "Okolo behajú ľudia s drôtmi."
+      ]
+    },
+    {
+      "id": "order-ja-viem-pre-m-a-s-v-etky-stoli-ky-mal",
+      "type": "order",
+      "l1": "Je sais. Pour moi, toutes les chaises sont petites.",
+      "l2": "Ja viem. Pre mňa sú všetky stoličky malé.",
+      "tokens_l1": [
+        "Je sais.",
+        "Pour moi,",
+        "toutes les chaises sont petites."
+      ],
+      "tokens_l2": [
+        "Ja viem.",
+        "Pre mňa",
+        "sú všetky stoličky malé."
+      ]
+    }
+  ]
+}

@@ -86,9 +86,9 @@ Deux séries peuvent se dérouler au même endroit : les personnages traversent 
 | 08 Datacentrum | *ďakujem za* ; *tam, kde* et *má byť* ; *preto* (conséquence) ; *vedel som, že…* ; concession (*aj keď*, *aj tak*), *neviem, či…* |
 | 09 Bana | Les boutiques en *-áreň* ; les mots des questions ; superlatif *naj-* ; *kvôli / na* ; hypothèse (*keby…, … by…*) |
 | 10 Rozhodnutie | Adjectifs au pluriel (*unavení*) ; discours rapporté (*píše, že…*) ; *mal by som* ; passé négatif (*nenapísala som*) |
-| 11 Bratislava | Registres et *vy* ; transports, démarches |
-| 12 Hrad | Argumentation orale ; synthèse |
-| ép. Sen | Le passé pour raconter (*mal som sen*, *snívalo sa mi*) |
+| 11 Bratislava | *dva / dve* ; *ťa / vás* ; transport en *-ou / -om* (*električkou, autobusom*) ; *Máte…? Nemáme…*, *vchod / východ* |
+| 12 Hrad | *tu / sem / tam* ; impératif négatif avec *vy* (*Nepúdrujte ma!*) ; expressions avec *mať* (*trému, pravdu, šťastie*) ; l'heure (*Je sedem hodín, o siedmej*) ; *chcieť, aby* |
+| ép. Sen | Révision du passé (*spal si*) ; *Mám pocit, že…* ; météo au passé (*Pršalo? Nepršalo.*) ; *snívalo sa mi* et *aby* ; *o + locatif* pour raconter |
 
 **Pas encore abordés** (jamais ou après la série 12) : tous les cas expliqués comme tels, les formes rares du passé, le conditionnel passé.
 

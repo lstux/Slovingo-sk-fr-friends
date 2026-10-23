@@ -1,0 +1,231 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-vyst-pia",
+      "type": "qcm",
+      "l1": "ils descendent",
+      "l2": "vystúpia",
+      "choices_l1": [
+        "elle a répondu",
+        "saluer",
+        "au milieu de"
+      ],
+      "choices_l2": [
+        "odpovedala",
+        "pozdraviť",
+        "uprostred"
+      ]
+    },
+    {
+      "id": "qcm-uprostred",
+      "type": "qcm",
+      "l1": "au milieu de",
+      "l2": "uprostred",
+      "choices_l1": [
+        "ils descendent",
+        "Pas encore.",
+        "grande (dit d'une ville)"
+      ],
+      "choices_l2": [
+        "vystúpia",
+        "Ešte nie.",
+        "veľké"
+      ]
+    },
+    {
+      "id": "qcm-pozdravi",
+      "type": "qcm",
+      "l1": "saluer",
+      "l2": "pozdraviť",
+      "choices_l1": [
+        "elle a répondu",
+        "ils descendent",
+        "elle a besoin de temps"
+      ],
+      "choices_l2": [
+        "odpovedala",
+        "vystúpia",
+        "potrebuje čas"
+      ]
+    },
+    {
+      "id": "qcm-odpovedala",
+      "type": "qcm",
+      "l1": "elle a répondu",
+      "l2": "odpovedala",
+      "choices_l1": [
+        "j'ai salué",
+        "ils descendent",
+        "saluer"
+      ],
+      "choices_l2": [
+        "pozdravila som",
+        "vystúpia",
+        "pozdraviť"
+      ]
+    },
+    {
+      "id": "qcm-potrebuje-as",
+      "type": "qcm",
+      "l1": "elle a besoin de temps",
+      "l2": "potrebuje čas",
+      "choices_l1": [
+        "Pas encore.",
+        "au milieu de",
+        "vous salue"
+      ],
+      "choices_l2": [
+        "Ešte nie.",
+        "uprostred",
+        "pozdravuje vás"
+      ]
+    },
+    {
+      "id": "listen-babka-zuzana-v-s-pozdravuje-bratislava",
+      "type": "listen",
+      "l1": "Babka Zuzana vous salue, Bratislava.",
+      "l2": "Babka Zuzana vás pozdravuje, Bratislava.",
+      "choices_l1": [
+        "Babka Zuzana vous attend, Bratislava.",
+        "Bratislava salue babka Zuzana.",
+        "Babka Zuzana vous salue, Košice."
+      ]
+    },
+    {
+      "id": "listen-naozaj-to-povedala",
+      "type": "listen",
+      "l1": "Elle l'a vraiment dit ?",
+      "l2": "Naozaj to povedala?",
+      "choices_l1": [
+        "Elle l'a vraiment fait ?",
+        "Il l'a vraiment dit ?",
+        "Elle ne l'a pas dit ?"
+      ]
+    },
+    {
+      "id": "listen-povedala-e-m-me-pozdravi-pozdravila-som",
+      "type": "listen",
+      "l1": "Elle a dit qu'il fallait la saluer. J'ai salué.",
+      "l2": "Povedala, že máme pozdraviť. Pozdravila som.",
+      "choices_l1": [
+        "Elle a dit qu'il fallait partir. Je suis partie.",
+        "Elle a dit qu'il fallait la saluer. Je n'ai pas salué.",
+        "Il a dit qu'il fallait la saluer. Il a salué."
+      ]
+    },
+    {
+      "id": "listen-e-te-nie-ale-mesto-je-ve-k-potrebuje-as",
+      "type": "listen",
+      "l1": "Pas encore. Mais la ville est grande. Elle a besoin de temps.",
+      "l2": "Ešte nie. Ale mesto je veľké. Potrebuje čas.",
+      "choices_l1": [
+        "Pas encore. Mais la ville est petite. Elle a besoin de temps.",
+        "Oui, déjà. La ville est grande. Elle n'a pas besoin de temps.",
+        "Pas encore. Mais la ville dort. Elle a besoin de calme."
+      ]
+    },
+    {
+      "id": "listen-pozdravuj-babku",
+      "type": "listen",
+      "l1": "Salue mamie de ma part !",
+      "l2": "Pozdravuj babku!",
+      "choices_l1": [
+        "Appelle mamie !",
+        "Salue maman de ma part !",
+        "Mamie te salue !"
+      ]
+    },
+    {
+      "id": "match-vyst-pia-vocab",
+      "type": "match",
+      "l1": [
+        "ils descendent",
+        "au milieu de",
+        "elle a répondu",
+        "le Danube"
+      ],
+      "l2": [
+        "vystúpia",
+        "uprostred",
+        "odpovedala",
+        "Dunaj"
+      ]
+    },
+    {
+      "id": "blank-dunaj-je-ve-k-rieka",
+      "type": "fill-blank",
+      "l1": "Le Danube est un grand fleuve.",
+      "l2": "Dunaj je veľká rieka.",
+      "missing_l1": "Danube",
+      "missing_l2": "Dunaj",
+      "blank_index_l1": 1,
+      "blank_index_l2": 0,
+      "choices_l1": [
+        "Rhône",
+        "Rhin",
+        "Doubs"
+      ],
+      "choices_l2": [
+        "Hron",
+        "Váh",
+        "Hornád"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-vyst-pia-z-vlaku-katka-sa-zastav-uprostred-n-stupi-a",
+      "type": "fill-blank",
+      "l1": "Ils descendent du train. Katka s'arrête au milieu du quai.",
+      "l2": "Vystúpia z vlaku. Katka sa zastaví uprostred nástupišťa.",
+      "missing_l1": "train",
+      "missing_l2": "vlaku",
+      "blank_index_l1": 3,
+      "blank_index_l2": 2,
+      "choices_l1": [
+        "bus",
+        "voiture",
+        "bateau"
+      ],
+      "choices_l2": [
+        "autobusu",
+        "auta",
+        "lode"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-vyst-pia-z-vlaku-katka-sa-zastav-uprostred-n-stupi-a",
+      "type": "order",
+      "l1": "Ils descendent du train. Katka s'arrête au milieu du quai.",
+      "l2": "Vystúpia z vlaku. Katka sa zastaví uprostred nástupišťa.",
+      "tokens_l1": [
+        "Ils descendent du train.",
+        "Katka s'arrête",
+        "au milieu du quai."
+      ],
+      "tokens_l2": [
+        "Vystúpia z vlaku.",
+        "Katka sa zastaví",
+        "uprostred nástupišťa."
+      ]
+    },
+    {
+      "id": "order-e-te-nie-ale-mesto-je-ve-k-potrebuje-as",
+      "type": "order",
+      "l1": "Pas encore. Mais la ville est grande. Elle a besoin de temps.",
+      "l2": "Ešte nie. Ale mesto je veľké. Potrebuje čas.",
+      "tokens_l1": [
+        "Pas encore.",
+        "Mais la ville est grande.",
+        "Elle a besoin de temps."
+      ],
+      "tokens_l2": [
+        "Ešte nie.",
+        "Ale mesto je veľké.",
+        "Potrebuje čas."
+      ]
+    }
+  ]
+}

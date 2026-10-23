@@ -6,7 +6,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 ## Conventions
 
-- `🦊` Gab, `🐰` Andrea, `🐻` Maťo, `🐹` Katka, `🐑` Babka Zuzana, `🦔` madame Ježková, `🦡` Marek, `🐿️` Ján, `🐥` un canard, `🐭` une souris (ch. 6), `🦅` pán Orol (aigle, garde du parc), `🐇` la tante d'Andrea, `🦊🦺` la renarde bénévole (ch. 6), `📻` la radio, `💬` le Narrateur, `🧑` un humain adulte (vouvoyé, avec la fonction entre parenthèses quand il y en a plusieurs).
+- `🦊` Gab, `🐰` Andrea, `🐻` Maťo, `🐹` Katka, `🐑` Babka Zuzana, `🦔` madame Ježková, `🦡` Marek, `🐿️` Ján, `🐥` un canard, `🐭` une souris (ch. 6), `🦅` pán Orol (aigle, garde du parc), `🐇` la tante d'Andrea, `🦊🦺` la renarde bénévole (ch. 6), et pour l'équipe de la télévision : `📝` la rédactrice, `🎥` le cameraman, `💄` la maquilleuse, `🎙️` la présentatrice ; `🐑📱` Babka au téléphone. Le moteur lit tout ce qui suit l'émoji : jamais de « (fonction) » après l'avatar, `📻` la radio, `💬` le Narrateur, `🧑` un humain adulte (vouvoyé, désigné par sa fonction).
 - **Tutoiement / vouvoiement** : le slovaque distingue *ty* et *vy* comme le français *tu* et *vous*, j'ai gardé la même répartition (ados et Babka Zuzana : tu ; adultes inconnus et humains : vous).
 - **Genre** : Gab est un garçon, Andrea une fille. En français, ça se voit aux accords (« content », « contente »).
 - Les noms propres ne sont pas traduits (Košice, Bratislava, Maťo, Katka…). Les lieux connus en français le sont : le Paradis slovaque (*Slovenský raj*), les Tatras (*Tatry*), le Danube (*Dunaj*), la cathédrale Sainte-Élisabeth.
@@ -1821,33 +1821,33 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 💬 Par la porte vitrée, une jeune femme sort avec un ordinateur sous le bras. Elle s'arrête et regarde les quatre animaux.
 
-🧑 Bonjour. J'ai entendu dire que vous cherchiez les infos.
+📝 Bonjour. J'ai entendu dire que vous cherchiez les infos.
 
 🦊 Bonjour. Oui. Nous cherchons... quelqu'un qui nous écoute.
 
-🧑 Je suis rédactrice. Qu'avez-vous sur le cœur ?
+📝 Je suis rédactrice. Qu'avez-vous sur le cœur ?
 
 🐰 Beaucoup de choses. Nous avons traversé tout le pays. Nous avons vu la sécheresse, l'inondation, une route à travers la forêt, un datacentre sur une zone humide et une mine dans la forêt.
 
-🧑 C'est beaucoup.
+📝 C'est beaucoup.
 
 🐻 Nous voulons le dire aux gens. Nous ne sommes pas des experts. Nous ne connaissons pas les chiffres. Mais nous y étions.
 
-🧑 C'est intéressant. Je peux vous donner cinq minutes. Et je n'ai aucune garantie que quelqu'un le verra.
+📝 C'est intéressant. Je peux vous donner cinq minutes. Et je n'ai aucune garantie que quelqu'un le verra.
 
 🐹 Cinq minutes ? Tout de suite ?
 
-🧑 Non, ce soir. Nous émettons depuis le studio qui est au château. C'est une édition spéciale sur l'eau et la météo. Il nous reste quelques places pour des invités.
+📝 Non, ce soir. Nous émettons depuis le studio qui est au château. C'est une édition spéciale sur l'eau et la météo. Il nous reste quelques places pour des invités.
 
 🦊 Au château ? À la télévision ?
 
-🧑 Exactement. Si vous vous mettez d'accord sur qui parle, vous aurez cinq minutes. Si vous ne vous mettez pas d'accord, vous en aurez une.
+📝 Exactement. Si vous vous mettez d'accord sur qui parle, vous aurez cinq minutes. Si vous ne vous mettez pas d'accord, vous en aurez une.
 
 🐻 On se mettra d'accord.
 
 🐰 Merci. Vraiment. Je ne sais pas quoi dire.
 
-🧑 Dites-leur la même chose qu'à moi. Seulement plus lentement.
+📝 Dites-leur la même chose qu'à moi. Seulement plus lentement.
 
 ## Scène 6
 
@@ -1889,11 +1889,11 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 💬 La terrasse du château. Il y a une caméra, un micro, quatre chaises et trois projecteurs. Autour, des gens courent avec des câbles.
 
-🧑 (cameraman) Bonsoir. Asseyez-vous, s'il vous plaît. Pas là. Ici.
+🎥 Bonsoir. Asseyez-vous, s'il vous plaît. Pas là. Ici.
 
 🐻 Je peux m'asseoir ?
 
-🧑 Vous pouvez. Mais la chaise est petite.
+🎥 Vous pouvez. Mais la chaise est petite.
 
 🐻 Je sais. Pour moi, toutes les chaises sont petites.
 
@@ -1901,19 +1901,19 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 💬 De la pièce voisine sort une maquilleuse avec un grand pinceau.
 
-🧑 (maquilleuse) Bonsoir. Une minute. Un peu de poudre.
+💄 Bonsoir. Une minute. Un peu de poudre.
 
 🐹 Ne me poudrez pas !
 
-🧑 (maquilleuse) Les lumières sont fortes. Sans poudre, vous brillerez.
+💄 Les lumières sont fortes. Sans poudre, vous brillerez.
 
 🐹 Je ne brille pas. Je rayonne.
 
-🧑 (maquilleuse) Ça me plaît. Mais de la poudre quand même.
+💄 Ça me plaît. Mais de la poudre quand même.
 
 🦊 Moi aussi, je peux ?
 
-🧑 (maquilleuse) Bien sûr. Vous avez un très joli nez.
+💄 Bien sûr. Vous avez un très joli nez.
 
 🦊 Merci. Il est à moi.
 
@@ -1955,17 +1955,17 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 💬 La rédactrice est près de la caméra et regarde sa montre.
 
-🧑 (rédactrice) Il nous reste deux minutes. Vous êtes assis ? Bien. Ne parlez pas vite. Regardez-moi, pas la caméra.
+📝 Il nous reste deux minutes. Vous êtes assis ? Bien. Ne parlez pas vite. Regardez-moi, pas la caméra.
 
 🐻 D'accord. Ján a dit qu'il fallait parler vite.
 
-🧑 (rédactrice) Ján ne sait pas ce qu'il dit.
+📝 Ján ne sait pas ce qu'il dit.
 
-🧑 (rédactrice) Quand je dirai « cinq, quatre, trois », ne dites rien. À zéro, on commence.
+📝 Quand je dirai « cinq, quatre, trois », ne dites rien. À zéro, on commence.
 
 🐹 Cinq, quatre, trois.
 
-🧑 (rédactrice) Katka, pas encore.
+📝 Katka, pas encore.
 
 🐹 Je m'entraîne.
 
@@ -1975,9 +1975,9 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 💬 La musique s'arrête. La présentatrice regarde la caméra.
 
-🧑 (présentatrice) Bonsoir. Bienvenue au journal Správy STVR depuis le château de Bratislava. Aujourd'hui, nous avons des invités inhabituels. Ils sont venus de l'est vers l'ouest. Accueillons-les.
+🎙️ Bonsoir. Bienvenue au journal Správy STVR depuis le château de Bratislava. Aujourd'hui, nous avons des invités inhabituels. Ils sont venus de l'est vers l'ouest. Accueillons-les.
 
-🧑 (présentatrice) Dites-nous qui vous êtes.
+🎙️ Dites-nous qui vous êtes.
 
 🦊 Bonsoir. Je m'appelle Gab. Je suis venu de Lyon et j'étais à Košice. Là-bas, nous avons constaté qu'il n'y avait plus d'eau dans la ville.
 
@@ -1987,7 +1987,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🐻 Je m'appelle Maťo. Mon ruisseau est chaque année plus petit. Et puis arrive un orage qui emporte tout.
 
-🧑 (présentatrice) Et qu'avez-vous vu en chemin ?
+🎙️ Et qu'avez-vous vu en chemin ?
 
 🐰 Une route à travers la forêt. Un datacentre sur une zone humide où il n'y a plus de grenouilles. Et une mine sur une montagne que les écureuils ont dû quitter.
 
@@ -1999,11 +1999,11 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 💬 Un court silence s'installe. La présentatrice regarde droit la caméra.
 
-🧑 (présentatrice) Vous ne voulez pas sauver le monde ?
+🎙️ Vous ne voulez pas sauver le monde ?
 
 🐰 Non. Nous voulons qu'on nous entende.
 
-🧑 (présentatrice) Nous vous entendons.
+🎙️ Nous vous entendons.
 
 ## Scène 6
 
@@ -2011,11 +2011,11 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🐹 On a été bons ?
 
-🧑 (rédactrice) Vous avez été excellents.
+📝 Vous avez été excellents.
 
 🐻 Vraiment ?
 
-🧑 (rédactrice) C'est la première fois que j'entends quatre animaux s'accorder sur une seule chose.
+📝 C'est la première fois que j'entends quatre animaux s'accorder sur une seule chose.
 
 💬 Le téléphone de Katka bipe. Il est chargé grâce au chargeur du studio.
 
@@ -2025,11 +2025,11 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🐹 Marek : « Je vous ai vus. Mes enfants ont applaudi. » Ján : « Ma cousine crie dans toute la rue. » Et voilà... mamie.
 
-🐑 (au téléphone) Katka ! Je vous ai vus à la télévision ! Tu es si jolie. Toi aussi, Maťo. Gab, tu es si maigre. Mange !
+🐑📱 Katka ! Je vous ai vus à la télévision ! Tu es si jolie. Toi aussi, Maťo. Gab, tu es si maigre. Mange !
 
 🦊 Merci, babka !
 
-🐑 (au téléphone) Et Bratislava t'a saluée ?
+🐑📱 Et Bratislava t'a saluée ?
 
 🐹 Pas encore. Mais elle me regarde déjà.
 
@@ -2175,11 +2175,11 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 💬 Une voix retentit à la fenêtre.
 
-🐇 (tante) Andrea ? Avec qui tu parles ?
+🐇 Andrea ? Avec qui tu parles ?
 
 🐰 Avec le pommier, ma tante !
 
-🐇 (tante) Et qu'est-ce qu'il te répond ?
+🐇 Et qu'est-ce qu'il te répond ?
 
 🐰 Qu'il est content que ce soit l'été.
 

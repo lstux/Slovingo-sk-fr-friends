@@ -1,0 +1,233 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-sn-valo-sa-mi",
+      "type": "qcm",
+      "l1": "j'ai rêvé",
+      "l2": "snívalo sa mi",
+      "choices_l1": [
+        "nous sommes allés",
+        "quelque chose d'étrange",
+        "nous deux"
+      ],
+      "choices_l2": [
+        "išli sme",
+        "niečo čudné",
+        "my dvaja"
+      ]
+    },
+    {
+      "id": "qcm-nie-o-udn",
+      "type": "qcm",
+      "l1": "quelque chose d'étrange",
+      "l2": "niečo čudné",
+      "choices_l1": [
+        "j'ai rêvé",
+        "à la télévision",
+        "nous deux"
+      ],
+      "choices_l2": [
+        "snívalo sa mi",
+        "v televízii",
+        "my dvaja"
+      ]
+    },
+    {
+      "id": "qcm-i-li-sme",
+      "type": "qcm",
+      "l1": "nous sommes allés",
+      "l2": "išli sme",
+      "choices_l1": [
+        "pour que nous soyons",
+        "j'ai rêvé",
+        "au Paradis slovaque"
+      ],
+      "choices_l2": [
+        "aby sme boli",
+        "snívalo sa mi",
+        "do Raja"
+      ]
+    },
+    {
+      "id": "qcm-my-dvaja",
+      "type": "qcm",
+      "l1": "nous deux",
+      "l2": "my dvaja",
+      "choices_l1": [
+        "pour que nous soyons",
+        "dans les Tatras",
+        "nous sommes allés"
+      ],
+      "choices_l2": [
+        "aby sme boli",
+        "do Tatier",
+        "išli sme"
+      ]
+    },
+    {
+      "id": "qcm-more",
+      "type": "qcm",
+      "l1": "la mer",
+      "l2": "more",
+      "choices_l1": [
+        "les montagnes",
+        "rêver",
+        "dans le Liptov"
+      ],
+      "choices_l2": [
+        "hory",
+        "snívať",
+        "do Liptova"
+      ]
+    },
+    {
+      "id": "listen-andrea-sn-valo-sa-mi-nie-o-udn",
+      "type": "listen",
+      "l1": "Andrea, j'ai fait un drôle de rêve.",
+      "l2": "Andrea, snívalo sa mi niečo čudné.",
+      "choices_l1": [
+        "Andrea, j'ai fait un beau rêve.",
+        "Andrea, tu as fait un drôle de rêve ?",
+        "Andrea, j'ai vu quelque chose d'étrange."
+      ]
+    },
+    {
+      "id": "listen-do-bratislavy-pre-o",
+      "type": "listen",
+      "l1": "À Bratislava ? Pourquoi ?",
+      "l2": "Do Bratislavy? Prečo?",
+      "choices_l1": [
+        "À Košice ? Pourquoi ?",
+        "À Bratislava ? Quand ?",
+        "De Bratislava ? Pourquoi ?"
+      ]
+    },
+    {
+      "id": "listen-aby-sme-boli-v-telev-zii",
+      "type": "listen",
+      "l1": "Pour passer à la télévision.",
+      "l2": "Aby sme boli v televízii.",
+      "choices_l1": [
+        "Pour passer à la radio.",
+        "Pour regarder la télévision.",
+        "Pour voir le château."
+      ]
+    },
+    {
+      "id": "listen-v-telev-zii-my-dvaja",
+      "type": "listen",
+      "l1": "À la télévision. Nous deux ?",
+      "l2": "V televízii. My dvaja?",
+      "choices_l1": [
+        "À la télévision. Vous deux ?",
+        "À la radio. Nous deux ?",
+        "À la télévision. Nous quatre ?"
+      ]
+    },
+    {
+      "id": "listen-nie-ty-ja-ma-o-a-katka",
+      "type": "listen",
+      "l1": "Non. Toi, moi, Maťo et Katka.",
+      "l2": "Nie. Ty, ja, Maťo a Katka.",
+      "choices_l1": [
+        "Oui. Toi et moi.",
+        "Non. Toi, Maťo et Katka.",
+        "Non. Moi, Maťo et babka."
+      ]
+    },
+    {
+      "id": "match-sn-valo-sa-mi-vocab",
+      "type": "match",
+      "l1": [
+        "j'ai rêvé",
+        "nous deux",
+        "la mer",
+        "les montagnes"
+      ],
+      "l2": [
+        "snívalo sa mi",
+        "my dvaja",
+        "more",
+        "hory"
+      ]
+    },
+    {
+      "id": "blank-sn-valo-sa-mi-o-mori",
+      "type": "fill-blank",
+      "l1": "J'ai rêvé de la mer.",
+      "l2": "Snívalo sa mi o mori.",
+      "missing_l1": "mer",
+      "missing_l2": "mori",
+      "blank_index_l1": 4,
+      "blank_index_l2": 4,
+      "choices_l1": [
+        "forêt",
+        "ville",
+        "montagne"
+      ],
+      "choices_l2": [
+        "lese",
+        "meste",
+        "hrade"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-nie-ty-ja-ma-o-a-katka",
+      "type": "fill-blank",
+      "l1": "Non. Toi, moi, Maťo et Katka.",
+      "l2": "Nie. Ty, ja, Maťo a Katka.",
+      "missing_l1": "Katka",
+      "missing_l2": "Katka",
+      "blank_index_l1": 5,
+      "blank_index_l2": 5,
+      "choices_l1": [
+        "mamie",
+        "tante",
+        "maman"
+      ],
+      "choices_l2": [
+        "babka",
+        "teta",
+        "mama"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-bolo-tu-sucho-a-potom-sme-i-li-aleko-do-raja-do-tatier-do-liptova-do-bratislavy",
+      "type": "order",
+      "l1": "Il y avait la sécheresse. Et puis on est partis loin. Au Paradis slovaque. Dans les Tatras. Dans le Liptov. À Bratislava.",
+      "l2": "Bolo tu sucho. A potom sme išli ďaleko. Do Raja. Do Tatier. Do Liptova. Do Bratislavy.",
+      "tokens_l1": [
+        "Il y avait la sécheresse.",
+        "Et puis on est partis loin.",
+        "Au Paradis slovaque. Dans les Tatras.",
+        "Dans le Liptov. À Bratislava."
+      ],
+      "tokens_l2": [
+        "Bolo tu sucho.",
+        "A potom sme išli ďaleko.",
+        "Do Raja. Do Tatier.",
+        "Do Liptova. Do Bratislavy."
+      ]
+    },
+    {
+      "id": "order-i-li-sme-do-h-r",
+      "type": "order",
+      "l1": "Nous sommes allés à la montagne.",
+      "l2": "Išli sme do hôr.",
+      "tokens_l1": [
+        "Nous sommes allés",
+        "à la",
+        "montagne."
+      ],
+      "tokens_l2": [
+        "Išli",
+        "sme",
+        "do hôr."
+      ]
+    }
+  ]
+}

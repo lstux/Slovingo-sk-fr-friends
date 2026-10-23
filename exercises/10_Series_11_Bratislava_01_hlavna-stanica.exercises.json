@@ -1,0 +1,231 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-hlavn-stanica",
+      "type": "qcm",
+      "l1": "la gare centrale",
+      "l2": "hlavná stanica",
+      "choices_l1": [
+        "la capitale",
+        "le quai",
+        "la fenêtre"
+      ],
+      "choices_l2": [
+        "hlavné mesto",
+        "nástupište",
+        "okno"
+      ]
+    },
+    {
+      "id": "qcm-aut",
+      "type": "qcm",
+      "l1": "les voitures",
+      "l2": "autá",
+      "choices_l1": [
+        "les immeubles, les bâtiments",
+        "l'entraîneuse, la coach",
+        "une fois"
+      ],
+      "choices_l2": [
+        "budovy",
+        "trénerka",
+        "raz"
+      ]
+    },
+    {
+      "id": "qcm-neza-naj",
+      "type": "qcm",
+      "l1": "Ne commence pas !",
+      "l2": "Nezačínaj!",
+      "choices_l1": [
+        "je corrige",
+        "une fois",
+        "deux (féminin et neutre)"
+      ],
+      "choices_l2": [
+        "opravujem",
+        "raz",
+        "dve"
+      ]
+    },
+    {
+      "id": "qcm-opravujem",
+      "type": "qcm",
+      "l1": "je corrige",
+      "l2": "opravujem",
+      "choices_l1": [
+        "Ne commence pas !",
+        "les voitures",
+        "l'entraîneuse, la coach"
+      ],
+      "choices_l2": [
+        "Nezačínaj!",
+        "autá",
+        "trénerka"
+      ]
+    },
+    {
+      "id": "qcm-hlavn-mesto",
+      "type": "qcm",
+      "l1": "la capitale",
+      "l2": "hlavné mesto",
+      "choices_l1": [
+        "la gare centrale",
+        "la fenêtre",
+        "les immeubles, les bâtiments"
+      ],
+      "choices_l2": [
+        "hlavná stanica",
+        "okno",
+        "budovy"
+      ]
+    },
+    {
+      "id": "listen-ve-a-ud-nie-ve-mi",
+      "type": "listen",
+      "l1": "Beaucoup de monde. Pas « très ».",
+      "l2": "Veľa ľudí. Nie veľmi.",
+      "choices_l1": [
+        "Peu de monde. Pas « beaucoup ».",
+        "Beaucoup de voitures. Pas « très ».",
+        "Très peu de monde. Pas « beaucoup »."
+      ]
+    },
+    {
+      "id": "listen-katka-neza-naj",
+      "type": "listen",
+      "l1": "Katka, ne commence pas.",
+      "l2": "Katka, nezačínaj.",
+      "choices_l1": [
+        "Katka, commence.",
+        "Katka, ne t'arrête pas.",
+        "Maťo, ne commence pas."
+      ]
+    },
+    {
+      "id": "listen-teraz-m-m-dve-tr-nerky",
+      "type": "listen",
+      "l1": "Maintenant, j'ai deux coachs.",
+      "l2": "Teraz mám dve trénerky.",
+      "choices_l1": [
+        "Maintenant, j'ai trois coachs.",
+        "Avant, j'avais deux coachs.",
+        "Maintenant, je n'ai pas de coach."
+      ]
+    },
+    {
+      "id": "listen-ja-nie-som-tr-nerka",
+      "type": "listen",
+      "l1": "Je ne suis pas coach.",
+      "l2": "Ja nie som trénerka.",
+      "choices_l1": [
+        "Je suis coach.",
+        "Tu n'es pas coach.",
+        "Je ne suis pas journaliste."
+      ]
+    },
+    {
+      "id": "listen-ja-ale-len-raz",
+      "type": "listen",
+      "l1": "Moi. Mais une seule fois.",
+      "l2": "Ja. Ale len raz.",
+      "choices_l1": [
+        "Moi. Mais deux fois.",
+        "Toi. Mais une seule fois.",
+        "Moi. Et plusieurs fois."
+      ]
+    },
+    {
+      "id": "match-hlavn-stanica-vocab",
+      "type": "match",
+      "l1": [
+        "la gare centrale",
+        "les voitures",
+        "l'entraîneuse, la coach",
+        "la fenêtre"
+      ],
+      "l2": [
+        "hlavná stanica",
+        "autá",
+        "trénerka",
+        "okno"
+      ]
+    },
+    {
+      "id": "blank-bratislava-je-hlavn-mesto",
+      "type": "fill-blank",
+      "l1": "Bratislava est la capitale.",
+      "l2": "Bratislava je hlavné mesto.",
+      "missing_l1": "Bratislava",
+      "missing_l2": "Bratislava",
+      "blank_index_l1": 0,
+      "blank_index_l2": 0,
+      "choices_l1": [
+        "Košice",
+        "Žilina",
+        "Poprad"
+      ],
+      "choices_l2": [
+        "Košice",
+        "Žilina",
+        "Poprad"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-pozer-m-sa-z-okna",
+      "type": "fill-blank",
+      "l1": "Je regarde par la fenêtre.",
+      "l2": "Pozerám sa z okna.",
+      "missing_l1": "fenêtre",
+      "missing_l2": "okna",
+      "blank_index_l1": 4,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "train",
+        "voiture",
+        "maison"
+      ],
+      "choices_l2": [
+        "vlaku",
+        "auta",
+        "domu"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-ja-len-opravujem-je-tu-aj-sign-l-ve-mi-dobr-sign-l",
+      "type": "order",
+      "l1": "Je corrige, c'est tout. Et il y a du réseau. Un très bon réseau.",
+      "l2": "Ja len opravujem. Je tu aj signál. Veľmi dobrý signál.",
+      "tokens_l1": [
+        "Je corrige, c'est tout.",
+        "Et il y a du réseau.",
+        "Un très bon réseau."
+      ],
+      "tokens_l2": [
+        "Ja len opravujem.",
+        "Je tu aj signál.",
+        "Veľmi dobrý signál."
+      ]
+    },
+    {
+      "id": "order-hlavn-stanica-vlak-pomaly-zastav-z-okna-vidno-ve-a-budov-ve-a-ut-a-ve-a-ud",
+      "type": "order",
+      "l1": "La gare centrale. Le train s'arrête doucement. Par la fenêtre, on voit beaucoup d'immeubles, beaucoup de voitures et beaucoup de monde.",
+      "l2": "Hlavná stanica. Vlak pomaly zastaví. Z okna vidno veľa budov, veľa áut a veľa ľudí.",
+      "tokens_l1": [
+        "La gare centrale.",
+        "Le train s'arrête doucement.",
+        "Par la fenêtre, on voit beaucoup d'immeubles, beaucoup de voitures et beaucoup de monde."
+      ],
+      "tokens_l2": [
+        "Hlavná stanica.",
+        "Vlak pomaly zastaví.",
+        "Z okna vidno veľa budov, veľa áut a veľa ľudí."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-jazvec",
+      "type": "qcm",
+      "l1": "le blaireau",
+      "l2": "jazvec",
+      "choices_l1": [
+        "l'écureuil",
+        "bruyant",
+        "de la mine"
+      ],
+      "choices_l2": [
+        "veverička",
+        "hlučný",
+        "o bani"
+      ]
+    },
+    {
+      "id": "qcm-veveri-ka",
+      "type": "qcm",
+      "l1": "l'écureuil",
+      "l2": "veverička",
+      "choices_l1": [
+        "le blaireau",
+        "elle préparait (à manger)",
+        "il raconte"
+      ],
+      "choices_l2": [
+        "jazvec",
+        "varila",
+        "rozpráva"
+      ]
+    },
+    {
+      "id": "qcm-hlu-n",
+      "type": "qcm",
+      "l1": "bruyant",
+      "l2": "hlučný",
+      "choices_l1": [
+        "un beau rêve",
+        "le blaireau",
+        "elle préparait (à manger)"
+      ],
+      "choices_l2": [
+        "dobrý sen",
+        "jazvec",
+        "varila"
+      ]
+    },
+    {
+      "id": "qcm-rozpr-va",
+      "type": "qcm",
+      "l1": "il raconte",
+      "l2": "rozpráva",
+      "choices_l1": [
+        "elle préparait (à manger)",
+        "bruyant",
+        "encore une chose"
+      ],
+      "choices_l2": [
+        "varila",
+        "hlučný",
+        "ešte jedna vec"
+      ]
+    },
+    {
+      "id": "qcm-o-b-rke",
+      "type": "qcm",
+      "l1": "de l'orage",
+      "l2": "o búrke",
+      "choices_l1": [
+        "de la sécheresse",
+        "de l'inondation",
+        "de la mine"
+      ],
+      "choices_l2": [
+        "o suchu",
+        "o povodni",
+        "o bani"
+      ]
+    },
+    {
+      "id": "listen-to-je-pravda-babka-tak-rob-v-dy",
+      "type": "listen",
+      "l1": "C'est vrai. Babka fait toujours ça.",
+      "l2": "To je pravda. Babka tak robí vždy.",
+      "choices_l1": [
+        "Ce n'est pas vrai. Babka ne fait jamais ça.",
+        "C'est vrai. Maman fait toujours ça.",
+        "C'est vrai. Babka le fait parfois."
+      ]
+    },
+    {
+      "id": "listen-a-katka-nosila-telef-n-nad-hlavou-aby-sa-nenamo-il",
+      "type": "listen",
+      "l1": "Et Katka portait son téléphone au-dessus de sa tête pour ne pas le mouiller.",
+      "l2": "A Katka nosila telefón nad hlavou, aby sa nenamočil.",
+      "choices_l1": [
+        "Et Katka portait son sac au-dessus de sa tête pour ne pas le mouiller.",
+        "Et Katka mettait son téléphone dans l'eau.",
+        "Et Maťo portait son téléphone au-dessus de sa tête pour ne pas le mouiller."
+      ]
+    },
+    {
+      "id": "listen-bol-som-ve-mi-hlu-n-ale-v-etci-n-s-po-uli",
+      "type": "listen",
+      "l1": "J'étais très bruyant. Mais tout le monde nous a entendus.",
+      "l2": "Bol som veľmi hlučný. Ale všetci nás počuli.",
+      "choices_l1": [
+        "J'étais très calme. Mais tout le monde nous a entendus.",
+        "J'étais très bruyant. Et personne ne nous a entendus.",
+        "Tu étais très bruyant. Mais tout le monde nous a vus."
+      ]
+    },
+    {
+      "id": "listen-to-je-dobr-sen",
+      "type": "listen",
+      "l1": "C'est un beau rêve.",
+      "l2": "To je dobrý sen.",
+      "choices_l1": [
+        "C'est un mauvais rêve.",
+        "C'est une belle histoire.",
+        "Ce n'est pas un rêve."
+      ]
+    },
+    {
+      "id": "listen-je-e-te-jedna-vec",
+      "type": "listen",
+      "l1": "Il y a encore une chose.",
+      "l2": "Je ešte jedna vec.",
+      "choices_l1": [
+        "Il n'y a plus rien.",
+        "Il y a encore deux choses.",
+        "C'est la dernière fois."
+      ]
+    },
+    {
+      "id": "match-jazvec-vocab",
+      "type": "match",
+      "l1": [
+        "le blaireau",
+        "l'écureuil",
+        "bruyant",
+        "de l'orage"
+      ],
+      "l2": [
+        "jazvec",
+        "veverička",
+        "hlučný",
+        "o búrke"
+      ]
+    },
+    {
+      "id": "blank-a-bol-tam-jazvec-marek-a-veveri-ka-j-n-a-babka-zuzana-varila-halu-ky-bez-bryndze",
+      "type": "fill-blank",
+      "l1": "Et il y avait Marek, un blaireau. Et Ján, un écureuil. Et babka Zuzana qui préparait des halušky sans bryndza.",
+      "l2": "A bol tam jazvec Marek. A veverička Ján. A babka Zuzana varila halušky bez bryndze.",
+      "missing_l1": "blaireau",
+      "missing_l2": "jazvec",
+      "blank_index_l1": 6,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "ours",
+        "lièvre",
+        "renard"
+      ],
+      "choices_l2": [
+        "medveď",
+        "zajac",
+        "lišiak"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-bol-som-ve-mi-hlu-n-ale-v-etci-n-s-po-uli",
+      "type": "fill-blank",
+      "l1": "J'étais très bruyant. Mais tout le monde nous a entendus.",
+      "l2": "Bol som veľmi hlučný. Ale všetci nás počuli.",
+      "missing_l1": "bruyant",
+      "missing_l2": "hlučný",
+      "blank_index_l1": 2,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "calme",
+        "petit",
+        "triste"
+      ],
+      "choices_l2": [
+        "tichý",
+        "malý",
+        "smutný"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-a-potom-sme-boli-v-telev-zii-povedali-sme-im-e-sme-tam-boli",
+      "type": "order",
+      "l1": "Et puis on est passés à la télévision. On leur a dit qu'on y était.",
+      "l2": "A potom sme boli v televízii. Povedali sme im, že sme tam boli.",
+      "tokens_l1": [
+        "Et puis on est passés à la télévision.",
+        "On leur a dit",
+        "qu'on y était."
+      ],
+      "tokens_l2": [
+        "A potom sme boli v televízii.",
+        "Povedali sme im,",
+        "že sme tam boli."
+      ]
+    },
+    {
+      "id": "order-a-katka-nosila-telef-n-nad-hlavou-aby-sa-nenamo-il",
+      "type": "order",
+      "l1": "Et Katka portait son téléphone au-dessus de sa tête pour ne pas le mouiller.",
+      "l2": "A Katka nosila telefón nad hlavou, aby sa nenamočil.",
+      "tokens_l1": [
+        "Et Katka portait son téléphone",
+        "au-dessus de sa tête",
+        "pour ne pas le mouiller."
+      ],
+      "tokens_l2": [
+        "A Katka nosila telefón",
+        "nad hlavou,",
+        "aby sa nenamočil."
+      ]
+    }
+  ]
+}

@@ -6,7 +6,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 ## Conventions
 
-- Une réplique par ligne : `🦊 Gab`, `🐰 Andrea`, `💬 Narrateur` (présent narratif, phrases courtes). Les autres avatars : `🐻` Maťo, `🐹` Katka, `🐑` Babka Zuzana, `🦔` pani Ježková (commerçante, vouvoyée), `📻` la radio, `🐥` un canard, `🐭` une souris (ch. 6), `🦅` pán Orol (aigle, garde du parc, vouvoyé), `🐇` la tante d'Andrea, `🦊🦺` la renarde bénévole (ch. 6), `🦡` Marek, `🐿️` Ján, `🧑` un humain adulte (vouvoyé, désigné par sa fonction : le Narrateur le présente, et une parenthèse la rappelle quand il y en a plusieurs, ex. `🧑 (redaktorka)`).
+- Une réplique par ligne : `🦊 Gab`, `🐰 Andrea`, `💬 Narrateur` (présent narratif, phrases courtes). Les autres avatars : `🐻` Maťo, `🐹` Katka, `🐑` Babka Zuzana, `🦔` pani Ježková (commerçante, vouvoyée), `📻` la radio, `🐥` un canard, `🐭` une souris (ch. 6), `🦅` pán Orol (aigle, garde du parc, vouvoyé), `🐇` la tante d'Andrea, `🦊🦺` la renarde bénévole (ch. 6), et pour l'équipe de la télévision : `📝` la rédactrice, `🎥` le cameraman, `💄` la maquilleuse, `🎙️` la présentatrice ; `🐑📱` Babka au téléphone. Le moteur lit tout ce qui suit l'émoji : jamais de « (fonction) » après l'avatar, `🦡` Marek, `🐿️` Ján, `🧑` un humain adulte (vouvoyé, désigné par sa fonction : le Narrateur le présente).
 - **Gab** s'écrit « Gab » dans ce document. Dans les fiches, ce sera `[USER_NAME]`. Pas de « Gabo » en dur, et jamais de forme déclinée (*Gabovi*, *Gabov*…) : le prénom s'emploie seulement comme sujet ou pour interpeller.
 - **Genre** : Gab est un garçon (*bol som*, *rád*), Andrea une fille (*bola som*, *rada*).
 - **Tutoiement** entre ados et avec Babka Zuzana, **vouvoiement** (*vy*) avec les adultes inconnus, humains compris.
@@ -1830,33 +1830,33 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 💬 Cez sklenené dvere vyjde mladá žena s notebookom pod pazuchou. Zastaví sa a pozrie na štyri zvieratá.
 
-🧑 Dobrý deň. Počula som, že hľadáte Správy.
+📝 Dobrý deň. Počula som, že hľadáte Správy.
 
 🦊 Dobrý deň. Áno. Hľadáme... niekoho, kto nás vypočuje.
 
-🧑 Ja som redaktorka. Čo máte na srdci?
+📝 Ja som redaktorka. Čo máte na srdci?
 
 🐰 Máme veľa. Prešli sme celú krajinu. Videli sme sucho, povodeň, cestu cez les, datacentrum na mokradi a baňu v lese.
 
-🧑 To je veľa.
+📝 To je veľa.
 
 🐻 Chceme to povedať ľuďom. Nie sme experti. Nepoznáme čísla. Ale boli sme tam.
 
-🧑 To je zaujímavé. Môžem vám dať päť minút. A nemám žiadnu záruku, že to niekto uvidí.
+📝 To je zaujímavé. Môžem vám dať päť minút. A nemám žiadnu záruku, že to niekto uvidí.
 
 🐹 Päť minút? Už teraz?
 
-🧑 Nie, dnes večer. Vysielame zo štúdia, ktoré je na hrade. Je to špeciálne vydanie o vode a počasí. Máme ešte voľné miesta pre hostí.
+📝 Nie, dnes večer. Vysielame zo štúdia, ktoré je na hrade. Je to špeciálne vydanie o vode a počasí. Máme ešte voľné miesta pre hostí.
 
 🦊 Na hrade? V televízii?
 
-🧑 Presne tak. Ak sa dohodnete, kto bude hovoriť, dostanete päť minút. Ak sa nedohodnete, dostanete jednu.
+📝 Presne tak. Ak sa dohodnete, kto bude hovoriť, dostanete päť minút. Ak sa nedohodnete, dostanete jednu.
 
 🐻 Dohodneme sa.
 
 🐰 Ďakujeme. Vážne. Neviem, čo povedať.
 
-🧑 Povedzte to isté, čo mne. Len pomalšie.
+📝 Povedzte to isté, čo mne. Len pomalšie.
 
 ## Scéna 6
 
@@ -1898,11 +1898,11 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 💬 Terasa na hrade. Je tu kamera, mikrofón, štyri stoličky a tri reflektory. Okolo behajú ľudia s drôtmi.
 
-🧑 (kameraman) Dobrý večer. Prosím, sadnite si. Nie tam. Sem.
+🎥 Dobrý večer. Prosím, sadnite si. Nie tam. Sem.
 
 🐻 Môžem si sadnúť?
 
-🧑 Môžete. Ale stolička je malá.
+🎥 Môžete. Ale stolička je malá.
 
 🐻 Ja viem. Pre mňa sú všetky stoličky malé.
 
@@ -1910,19 +1910,19 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 💬 Z vedľajšej miestnosti vyjde vizážistka s veľkou štetkou.
 
-🧑 (vizážistka) Dobrý večer. Na minútku. Trochu pudru.
+💄 Dobrý večer. Na minútku. Trochu pudru.
 
 🐹 Nepúdrujte ma!
 
-🧑 (vizážistka) Svetlá sú silné. Bez pudra budete sa lesknúť.
+💄 Svetlá sú silné. Bez pudra budete sa lesknúť.
 
 🐹 Ja sa nelesknem. Ja žiarim.
 
-🧑 (vizážistka) To sa mi páči. Ale púder aj tak.
+💄 To sa mi páči. Ale púder aj tak.
 
 🦊 Môžem tiež?
 
-🧑 (vizážistka) Samozrejme. Máte veľmi pekný nos.
+💄 Samozrejme. Máte veľmi pekný nos.
 
 🦊 Ďakujem. Je môj.
 
@@ -1962,17 +1962,17 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 💬 Redaktorka stojí pri kamere a pozerá na hodinky.
 
-🧑 (redaktorka) Máme dve minúty. Sedíte? Dobre. Nehovorte rýchlo. Pozerajte sa na mňa, nie do kamery.
+📝 Máme dve minúty. Sedíte? Dobre. Nehovorte rýchlo. Pozerajte sa na mňa, nie do kamery.
 
 🐻 Dobre. Ján povedal, že máme hovoriť rýchlo.
 
-🧑 (redaktorka) Ján nevie, čo hovorí.
+📝 Ján nevie, čo hovorí.
 
-🧑 (redaktorka) Keď poviem: „päť, štyri, tri“, nehovorte nič. Pri nule začneme.
+📝 Keď poviem: „päť, štyri, tri“, nehovorte nič. Pri nule začneme.
 
 🐹 Päť, štyri, tri.
 
-🧑 (redaktorka) Katka, ešte nie.
+📝 Katka, ešte nie.
 
 🐹 Cvičím.
 
@@ -1982,9 +1982,9 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 💬 Hudba stíchne. Moderátorka sa pozrie do kamery.
 
-🧑 (moderátorka) Dobrý večer. Vitajte pri Správach STVR z Bratislavského hradu. Dnes máme neobvyklých hostí. Prišli z východu na západ. Privítajme ich.
+🎙️ Dobrý večer. Vitajte pri Správach STVR z Bratislavského hradu. Dnes máme neobvyklých hostí. Prišli z východu na západ. Privítajme ich.
 
-🧑 (moderátorka) Povedzte nám, kto ste.
+🎙️ Povedzte nám, kto ste.
 
 🦊 Dobrý večer. Som Gab. Prišiel som z Lyonu a bol som v Košiciach. Tam sme zistili, že v meste nie je voda.
 
@@ -1994,7 +1994,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🐻 Ja som Maťo. Môj potok je každý rok menší. A potom príde jedna búrka a odnesie všetko.
 
-🧑 (moderátorka) A čo ste videli na ceste?
+🎙️ A čo ste videli na ceste?
 
 🐰 Cestu cez les. Datacentrum na mokradi, kde už nie sú žaby. A baňu na hore, z ktorej odišli veveričky.
 
@@ -2006,11 +2006,11 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 💬 Nastane krátke ticho. Moderátorka sa zahľadí do kamery.
 
-🧑 (moderátorka) Nechcete zachrániť svet?
+🎙️ Nechcete zachrániť svet?
 
 🐰 Nie. Chceme, aby nás počuli.
 
-🧑 (moderátorka) Počujeme vás.
+🎙️ Počujeme vás.
 
 ## Scéna 6
 
@@ -2018,11 +2018,11 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🐹 Boli sme dobrí?
 
-🧑 (redaktorka) Boli ste výborní.
+📝 Boli ste výborní.
 
 🐻 Naozaj?
 
-🧑 (redaktorka) Prvýkrát som počula, ako sa štyri zvieratá zhodnú na jednej veci.
+📝 Prvýkrát som počula, ako sa štyri zvieratá zhodnú na jednej veci.
 
 💬 Katkin telefón zapípa. Je nabitý z nabíjačky v štúdiu.
 
@@ -2032,11 +2032,11 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🐹 Marek: „Videl som vás. Moje deti tlieskali.“ Ján: „Moja sesternica kričí na celú ulicu.“ A tu je... babka.
 
-🐑 (z telefónu) Katka! Videla som vás v televízii! Si taká pekná. Aj ty, Maťo. Gab, ty si taký chudý. Jedz!
+🐑📱 Katka! Videla som vás v televízii! Si taká pekná. Aj ty, Maťo. Gab, ty si taký chudý. Jedz!
 
 🦊 Ďakujem, babka!
 
-🐑 (z telefónu) A pozdravila ťa Bratislava?
+🐑📱 A pozdravila ťa Bratislava?
 
 🐹 Ešte nie. Ale už sa na mňa pozerá.
 
@@ -2182,11 +2182,11 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 💬 Z okna zaznie hlas.
 
-🐇 (teta) Andrea? S kým rozprávaš?
+🐇 Andrea? S kým rozprávaš?
 
 🐰 S jabloňou, teta!
 
-🐇 (teta) A čo ti odpovedá?
+🐇 A čo ti odpovedá?
 
 🐰 Že je rada, že je leto.
 

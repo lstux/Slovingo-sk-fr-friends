@@ -1,0 +1,231 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-tr-ma",
+      "type": "qcm",
+      "l1": "le trac",
+      "l2": "tréma",
+      "choices_l1": [
+        "la triche",
+        "le talent, l'habileté",
+        "l'estomac, le ventre"
+      ],
+      "choices_l2": [
+        "podvod",
+        "zručnosť",
+        "žalúdok"
+      ]
+    },
+    {
+      "id": "qcm-podvod",
+      "type": "qcm",
+      "l1": "la triche",
+      "l2": "podvod",
+      "choices_l1": [
+        "le talent, l'habileté",
+        "le trac",
+        "le coin"
+      ],
+      "choices_l2": [
+        "zručnosť",
+        "tréma",
+        "kút"
+      ]
+    },
+    {
+      "id": "qcm-zru-nos",
+      "type": "qcm",
+      "l1": "le talent, l'habileté",
+      "l2": "zručnosť",
+      "choices_l1": [
+        "la triche",
+        "le trac",
+        "les papillons"
+      ],
+      "choices_l2": [
+        "podvod",
+        "tréma",
+        "motýle"
+      ]
+    },
+    {
+      "id": "qcm-bled",
+      "type": "qcm",
+      "l1": "pâle",
+      "l2": "bledý",
+      "choices_l1": [
+        "le coin",
+        "il a mangé (tout)",
+        "je ne montre pas"
+      ],
+      "choices_l2": [
+        "kút",
+        "zjedol",
+        "neukazujem"
+      ]
+    },
+    {
+      "id": "qcm-mot-le",
+      "type": "qcm",
+      "l1": "les papillons",
+      "l2": "motýle",
+      "choices_l1": [
+        "l'estomac, le ventre",
+        "le coin",
+        "le ventre"
+      ],
+      "choices_l2": [
+        "žalúdok",
+        "kút",
+        "brucho"
+      ]
+    },
+    {
+      "id": "listen-m-m-v-al-dku-mot-le",
+      "type": "listen",
+      "l1": "J'ai des papillons dans le ventre.",
+      "l2": "Mám v žalúdku motýle.",
+      "choices_l1": [
+        "J'ai mal au ventre.",
+        "J'ai des papillons dans la tête.",
+        "Il a des papillons dans le ventre."
+      ]
+    },
+    {
+      "id": "listen-pre-o-si-ich-zjedol",
+      "type": "listen",
+      "l1": "Pourquoi tu les as mangés ?",
+      "l2": "Prečo si ich zjedol?",
+      "choices_l1": [
+        "Pourquoi tu les as attrapés ?",
+        "Quand les as-tu mangés ?",
+        "Pourquoi il les a mangés ?"
+      ]
+    },
+    {
+      "id": "listen-nie-d-chaj-pomaly-raz-dva-tri",
+      "type": "listen",
+      "l1": "Non. Respire lentement. Un. Deux. Trois.",
+      "l2": "Nie. Dýchaj pomaly. Raz. Dva. Tri.",
+      "choices_l1": [
+        "Non. Respire vite. Un. Deux. Trois.",
+        "Oui. Respire lentement. Un. Deux.",
+        "Non. Parle lentement. Un. Deux. Trois."
+      ]
+    },
+    {
+      "id": "listen-akujem-ty-nem-tr-mu",
+      "type": "listen",
+      "l1": "Merci. Toi, tu n'as pas le trac ?",
+      "l2": "Ďakujem. Ty nemáš trému?",
+      "choices_l1": [
+        "Merci. Toi, tu as le trac ?",
+        "Merci. Toi, tu n'as pas faim ?",
+        "Merci. Lui, il n'a pas le trac ?"
+      ]
+    },
+    {
+      "id": "listen-m-m-len-ju-neukazujem",
+      "type": "listen",
+      "l1": "Si. Je ne le montre pas, c'est tout.",
+      "l2": "Mám. Len ju neukazujem.",
+      "choices_l1": [
+        "Non. Je n'en ai pas du tout.",
+        "Si. Je le montre, c'est tout.",
+        "Si. Je ne le dis pas, c'est tout."
+      ]
+    },
+    {
+      "id": "match-tr-ma-vocab",
+      "type": "match",
+      "l1": [
+        "le trac",
+        "la triche",
+        "les papillons",
+        "le coin"
+      ],
+      "l2": [
+        "tréma",
+        "podvod",
+        "motýle",
+        "kút"
+      ]
+    },
+    {
+      "id": "blank-to-je-zru-nos-po-budeme-tam-spolu",
+      "type": "fill-blank",
+      "l1": "C'est un talent. Viens. On y sera ensemble.",
+      "l2": "To je zručnosť. Poď. Budeme tam spolu.",
+      "missing_l1": "talent",
+      "missing_l2": "zručnosť",
+      "blank_index_l1": 2,
+      "blank_index_l2": 2,
+      "choices_l1": [
+        "mensonge",
+        "hasard",
+        "problème"
+      ],
+      "choices_l2": [
+        "podvod",
+        "tréma",
+        "náhoda"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-m-m-tr-mu-zlom-v-z",
+      "type": "fill-blank",
+      "l1": "J'ai le trac. — Bonne chance !",
+      "l2": "Mám trému. — Zlom väz!",
+      "missing_l1": "trac",
+      "missing_l2": "trému",
+      "blank_index_l1": 2,
+      "blank_index_l2": 1,
+      "choices_l1": [
+        "soif",
+        "faim",
+        "temps"
+      ],
+      "choices_l2": [
+        "smäd",
+        "hlad",
+        "čas"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-to-je-zru-nos-po-budeme-tam-spolu",
+      "type": "order",
+      "l1": "C'est un talent. Viens. On y sera ensemble.",
+      "l2": "To je zručnosť. Poď. Budeme tam spolu.",
+      "tokens_l1": [
+        "C'est un talent.",
+        "Viens.",
+        "On y sera ensemble."
+      ],
+      "tokens_l2": [
+        "To je zručnosť.",
+        "Poď.",
+        "Budeme tam spolu."
+      ]
+    },
+    {
+      "id": "order-nezjedol-som-ich-boli-tam",
+      "type": "order",
+      "l1": "Je ne les ai pas mangés. Ils étaient là.",
+      "l2": "Nezjedol som ich. Boli tam.",
+      "tokens_l1": [
+        "Je ne les ai",
+        "pas mangés.",
+        "Ils étaient là."
+      ],
+      "tokens_l2": [
+        "Nezjedol",
+        "som ich.",
+        "Boli tam."
+      ]
+    }
+  ]
+}

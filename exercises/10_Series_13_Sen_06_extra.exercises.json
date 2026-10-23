@@ -1,0 +1,200 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "listen-kto-ti-to-povedal",
+      "type": "listen",
+      "l1": "Qui te l'a dit ?",
+      "l2": "Kto ti to povedal?",
+      "choices_l1": [
+        "Qui me l'a dit ?",
+        "Quand te l'a-t-on dit ?",
+        "Qui te l'a donné ?"
+      ]
+    },
+    {
+      "id": "listen-nikto-povedala-si-to-sama-pri-ohni",
+      "type": "listen",
+      "l1": "Personne. C'est toi qui me l'as dit. Près du feu.",
+      "l2": "Nikto. Povedala si to sama. Pri ohni.",
+      "choices_l1": [
+        "Personne. C'est moi qui te l'ai dit. Près du feu.",
+        "Ta tante. Près du feu.",
+        "Personne. C'est toi qui me l'as dit. Dans le train."
+      ]
+    },
+    {
+      "id": "listen-po-na-ra-ajky-teta-sp-do-desiatej-mo-no-e-te-sp",
+      "type": "listen",
+      "l1": "Viens prendre le petit-déjeuner. Ma tante dort jusqu'à dix heures. Peut-être qu'elle dort encore.",
+      "l2": "Poď na raňajky. Teta spí do desiatej. Možno ešte spí.",
+      "choices_l1": [
+        "Viens dîner. Ma tante dort jusqu'à dix heures. Peut-être qu'elle dort encore.",
+        "Viens prendre le petit-déjeuner. Ma tante se lève à six heures.",
+        "Viens prendre le petit-déjeuner. Ma tante dort jusqu'à midi."
+      ]
+    },
+    {
+      "id": "listen-po-niektor-sny-s-len-sny-a-niektor-nie-s-len-sny",
+      "type": "listen",
+      "l1": "Viens. Certains rêves ne sont que des rêves. Et d'autres ne sont pas que des rêves.",
+      "l2": "Poď. Niektoré sny sú len sny. A niektoré nie sú len sny.",
+      "choices_l1": [
+        "Viens. Tous les rêves ne sont que des rêves.",
+        "Viens. Certains rêves sont vrais. Et d'autres sont faux.",
+        "Viens. Aucun rêve n'est vrai."
+      ]
+    },
+    {
+      "id": "listen-s-jablo-ou-teta",
+      "type": "listen",
+      "l1": "Avec le pommier, ma tante !",
+      "l2": "S jabloňou, teta!",
+      "choices_l1": [
+        "Avec le jardin, ma tante !",
+        "Avec mamie, ma tante !",
+        "Avec le pommier, maman !"
+      ]
+    },
+    {
+      "id": "listen-e-je-rada-e-je-leto",
+      "type": "listen",
+      "l1": "Qu'il est content que ce soit l'été.",
+      "l2": "Že je rada, že je leto.",
+      "choices_l1": [
+        "Qu'il est triste que ce soit l'été.",
+        "Qu'il est content que ce soit l'hiver.",
+        "Qu'il a soif."
+      ]
+    },
+    {
+      "id": "listen-na-konci-leta-mus-m-s-domov",
+      "type": "listen",
+      "l1": "À la fin de l'été, je dois rentrer chez moi.",
+      "l2": "Na konci leta musím ísť domov.",
+      "choices_l1": [
+        "Au début de l'été, je dois rentrer chez moi.",
+        "À la fin de l'été, je reste ici.",
+        "À la fin de la semaine, je dois rentrer chez moi."
+      ]
+    },
+    {
+      "id": "listen-teraz-si-tu",
+      "type": "listen",
+      "l1": "Maintenant, tu es là.",
+      "l2": "Teraz si tu.",
+      "choices_l1": [
+        "Maintenant, je suis là.",
+        "Demain, tu seras là.",
+        "Maintenant, tu pars."
+      ]
+    },
+    {
+      "id": "match-jablo-vocab",
+      "type": "match",
+      "l1": [
+        "le pommier",
+        "les chaussettes",
+        "la rosée",
+        "la bouteille"
+      ],
+      "l2": [
+        "jabloň",
+        "ponožky",
+        "rosa",
+        "fľaša"
+      ]
+    },
+    {
+      "id": "match-jazvec-words",
+      "type": "match",
+      "l1": [
+        "le blaireau",
+        "l'écureuil",
+        "le jardin",
+        "le rêve"
+      ],
+      "l2": [
+        "jazvec",
+        "veverička",
+        "záhrada",
+        "sen"
+      ]
+    },
+    {
+      "id": "blank-a-ty-si-tu-dlho",
+      "type": "fill-blank",
+      "l1": "Et toi ? Tu es là pour longtemps ?",
+      "l2": "A ty? Si tu dlho?",
+      "missing_l1": "longtemps",
+      "missing_l2": "dlho",
+      "blank_index_l1": 7,
+      "blank_index_l2": 4,
+      "choices_l1": [
+        "seul",
+        "content",
+        "encore"
+      ],
+      "choices_l2": [
+        "sám",
+        "rád",
+        "znova"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-akujem-andrea",
+      "type": "fill-blank",
+      "l1": "Merci, Andrea.",
+      "l2": "Ďakujem, Andrea.",
+      "missing_l1": "Merci",
+      "missing_l2": "Ďakujem",
+      "blank_index_l1": 0,
+      "blank_index_l2": 0,
+      "choices_l1": [
+        "Pardon",
+        "Salut",
+        "Bonjour"
+      ],
+      "choices_l2": [
+        "Prepáč",
+        "Ahoj",
+        "Prosím"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-vo-sne-si-mi-povedala-e-si-raz-uverila-jedn-mu-li-iakovi-e-a-pozval-na-ve-eru-a-e-si-videla-ra-e",
+      "type": "order",
+      "l1": "Dans le rêve, tu m'as dit qu'un jour, tu avais fait confiance à un renard. Qu'il t'avait invitée à dîner. Et que tu avais vu la broche.",
+      "l2": "Vo sne si mi povedala, že si raz uverila jednému lišiakovi. Že ťa pozval na večeru. A že si videla ražeň.",
+      "tokens_l1": [
+        "Dans le rêve, tu m'as dit qu'un jour, tu avais fait confiance à un renard.",
+        "Qu'il t'avait invitée à dîner.",
+        "Et que tu avais vu la broche."
+      ],
+      "tokens_l2": [
+        "Vo sne si mi povedala, že si raz uverila jednému lišiakovi.",
+        "Že ťa pozval na večeru.",
+        "A že si videla ražeň."
+      ]
+    },
+    {
+      "id": "order-andrea-ml-chv-u-sa-pozer-na-jablo",
+      "type": "order",
+      "l1": "Andrea se tait. Pendant un moment, elle regarde le pommier.",
+      "l2": "Andrea mlčí. Chvíľu sa pozerá na jabloň.",
+      "tokens_l1": [
+        "Andrea se tait.",
+        "Pendant un moment,",
+        "elle regarde le pommier."
+      ],
+      "tokens_l2": [
+        "Andrea mlčí.",
+        "Chvíľu sa pozerá",
+        "na jabloň."
+      ]
+    }
+  ]
+}

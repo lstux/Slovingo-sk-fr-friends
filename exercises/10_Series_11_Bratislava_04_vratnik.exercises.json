@@ -1,0 +1,231 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-vr-tnik",
+      "type": "qcm",
+      "l1": "le portier",
+      "l2": "vrátnik",
+      "choices_l1": [
+        "la guérite, la cabine",
+        "l'invitation",
+        "le hasard"
+      ],
+      "choices_l2": [
+        "búdka",
+        "pozvánka",
+        "náhoda"
+      ]
+    },
+    {
+      "id": "qcm-pozv-nka",
+      "type": "qcm",
+      "l1": "l'invitation",
+      "l2": "pozvánka",
+      "choices_l1": [
+        "l'accréditation",
+        "un rendez-vous",
+        "les informations"
+      ],
+      "choices_l2": [
+        "akreditácia",
+        "dohodnutý termín",
+        "informácie"
+      ]
+    },
+    {
+      "id": "qcm-dohodnut-term-n",
+      "type": "qcm",
+      "l1": "un rendez-vous",
+      "l2": "dohodnutý termín",
+      "choices_l1": [
+        "l'invitation",
+        "comme ça",
+        "ni l'un ni l'autre"
+      ],
+      "choices_l2": [
+        "pozvánka",
+        "len tak",
+        "ani jedno"
+      ]
+    },
+    {
+      "id": "qcm-ani-jedno",
+      "type": "qcm",
+      "l1": "ni l'un ni l'autre",
+      "l2": "ani jedno",
+      "choices_l1": [
+        "comme ça",
+        "le hasard",
+        "fatigué (l'air)"
+      ],
+      "choices_l2": [
+        "len tak",
+        "náhoda",
+        "unavene"
+      ]
+    },
+    {
+      "id": "qcm-n-hoda",
+      "type": "qcm",
+      "l1": "le hasard",
+      "l2": "náhoda",
+      "choices_l1": [
+        "l'entrée",
+        "les informations",
+        "la guérite, la cabine"
+      ],
+      "choices_l2": [
+        "vchod",
+        "informácie",
+        "búdka"
+      ]
+    },
+    {
+      "id": "listen-dobr-de-chceme-s-do-spr-v",
+      "type": "listen",
+      "l1": "Bonjour. Nous voulons aller aux infos.",
+      "l2": "Dobrý deň. Chceme ísť do Správ.",
+      "choices_l1": [
+        "Bonjour. Nous voulons aller au château.",
+        "Bonsoir. Nous voulons regarder les infos.",
+        "Bonjour. Nous ne voulons pas aller aux infos."
+      ]
+    },
+    {
+      "id": "listen-dobr-de-m-te-dohodnut-term-n",
+      "type": "listen",
+      "l1": "Bonjour. Vous avez rendez-vous ?",
+      "l2": "Dobrý deň. Máte dohodnutý termín?",
+      "choices_l1": [
+        "Bonjour. Vous avez une invitation ?",
+        "Bonjour. Vous avez l'heure ?",
+        "Bonjour. Vous êtes en retard ?"
+      ]
+    },
+    {
+      "id": "listen-nem-me-ani-jedno",
+      "type": "listen",
+      "l1": "Nous n'avons ni l'un ni l'autre.",
+      "l2": "Nemáme ani jedno.",
+      "choices_l1": [
+        "Nous avons les deux.",
+        "Nous n'en avons qu'un.",
+        "Ils n'ont ni l'un ni l'autre."
+      ]
+    },
+    {
+      "id": "listen-m-me-ve-a-inform-ci",
+      "type": "listen",
+      "l1": "Nous avons beaucoup d'informations.",
+      "l2": "Máme veľa informácií.",
+      "choices_l1": [
+        "Nous avons peu d'informations.",
+        "Nous cherchons des informations.",
+        "Vous avez beaucoup d'informations."
+      ]
+    },
+    {
+      "id": "listen-okrem-toho-n-m-zomrel-telef-n",
+      "type": "listen",
+      "l1": "En plus, notre téléphone est mort.",
+      "l2": "Okrem toho nám zomrel telefón.",
+      "choices_l1": [
+        "En plus, notre téléphone est chargé.",
+        "En plus, nous avons perdu le téléphone.",
+        "Sans ça, notre téléphone est mort."
+      ]
+    },
+    {
+      "id": "match-vr-tnik-vocab",
+      "type": "match",
+      "l1": [
+        "le portier",
+        "l'invitation",
+        "le hasard",
+        "l'entrée"
+      ],
+      "l2": [
+        "vrátnik",
+        "pozvánka",
+        "náhoda",
+        "vchod"
+      ]
+    },
+    {
+      "id": "blank-kde-je-vchod",
+      "type": "fill-blank",
+      "l1": "Où est l'entrée ?",
+      "l2": "Kde je vchod?",
+      "missing_l1": "l'entrée",
+      "missing_l2": "vchod",
+      "blank_index_l1": 2,
+      "blank_index_l2": 2,
+      "choices_l1": [
+        "la sortie",
+        "le château",
+        "la gare"
+      ],
+      "choices_l2": [
+        "východ",
+        "hrad",
+        "stanica"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-dobr-de-vol-m-sa-andrea-te-ma",
+      "type": "fill-blank",
+      "l1": "Bonjour, je m'appelle Andrea. Enchantée !",
+      "l2": "Dobrý deň, volám sa Andrea. Teší ma!",
+      "missing_l1": "Andrea",
+      "missing_l2": "Andrea",
+      "blank_index_l1": 3,
+      "blank_index_l2": 4,
+      "choices_l1": [
+        "Katka",
+        "Zuzana",
+        "Maman"
+      ],
+      "choices_l2": [
+        "Katka",
+        "Zuzana",
+        "Mama"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-my-nie-sme-len-tak-pre-li-sme-cel-slovensko",
+      "type": "order",
+      "l1": "Nous, on n'est pas « comme ça ». On a traversé toute la Slovaquie.",
+      "l2": "My nie sme len tak. Prešli sme celé Slovensko.",
+      "tokens_l1": [
+        "Nous, on n'est pas « comme ça ».",
+        "On a traversé",
+        "toute la Slovaquie."
+      ],
+      "tokens_l2": [
+        "My nie sme len tak.",
+        "Prešli sme",
+        "celé Slovensko."
+      ]
+    },
+    {
+      "id": "order-to-ma-te-ale-do-spr-v-sa-ned-len-tak-pr-s",
+      "type": "order",
+      "l1": "Cela me fait plaisir. Mais on ne vient pas aux infos comme ça.",
+      "l2": "To ma teší. Ale do Správ sa nedá len tak prísť.",
+      "tokens_l1": [
+        "Cela me fait plaisir.",
+        "Mais on ne vient pas aux infos",
+        "comme ça."
+      ],
+      "tokens_l2": [
+        "To ma teší.",
+        "Ale do Správ sa nedá",
+        "len tak prísť."
+      ]
+    }
+  ]
+}

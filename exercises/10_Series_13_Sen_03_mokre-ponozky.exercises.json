@@ -1,0 +1,231 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-pono-ky",
+      "type": "qcm",
+      "l1": "les chaussettes",
+      "l2": "ponožky",
+      "choices_l1": [
+        "les chaussures",
+        "les pieds, les jambes",
+        "la rosée"
+      ],
+      "choices_l2": [
+        "topánky",
+        "nohy",
+        "rosa"
+      ]
+    },
+    {
+      "id": "qcm-mokr",
+      "type": "qcm",
+      "l1": "mouillées",
+      "l2": "mokré",
+      "choices_l1": [
+        "sec",
+        "Il a plu ?",
+        "il n'a pas plu"
+      ],
+      "choices_l2": [
+        "suchý",
+        "Pršalo?",
+        "nepršalo"
+      ]
+    },
+    {
+      "id": "qcm-rosa",
+      "type": "qcm",
+      "l1": "la rosée",
+      "l2": "rosa",
+      "choices_l1": [
+        "l'herbe",
+        "les chaussettes",
+        "à cause de la rosée"
+      ],
+      "choices_l2": [
+        "tráva",
+        "ponožky",
+        "od rosy"
+      ]
+    },
+    {
+      "id": "qcm-nepr-alo",
+      "type": "qcm",
+      "l1": "il n'a pas plu",
+      "l2": "nepršalo",
+      "choices_l1": [
+        "Il a plu ?",
+        "il boit un coup",
+        "mouillées"
+      ],
+      "choices_l2": [
+        "Pršalo?",
+        "napije sa",
+        "mokré"
+      ]
+    },
+    {
+      "id": "qcm-tr-va",
+      "type": "qcm",
+      "l1": "l'herbe",
+      "l2": "tráva",
+      "choices_l1": [
+        "la rosée",
+        "les chaussures",
+        "les pieds, les jambes"
+      ],
+      "choices_l2": [
+        "rosa",
+        "topánky",
+        "nohy"
+      ]
+    },
+    {
+      "id": "listen-pr-alo",
+      "type": "listen",
+      "l1": "Il a plu ?",
+      "l2": "Pršalo?",
+      "choices_l1": [
+        "Il pleut ?",
+        "Il va pleuvoir ?",
+        "Il a neigé ?"
+      ]
+    },
+    {
+      "id": "listen-nie-u-dva-mesiace-nepr-alo",
+      "type": "listen",
+      "l1": "Non. Il n'a pas plu depuis deux mois.",
+      "l2": "Nie. Už dva mesiace nepršalo.",
+      "choices_l1": [
+        "Non. Il n'a pas plu depuis deux jours.",
+        "Oui. Il a plu pendant deux mois.",
+        "Non. Il ne pleut jamais ici."
+      ]
+    },
+    {
+      "id": "listen-m-m-mokr-pono-ky",
+      "type": "listen",
+      "l1": "J'ai les chaussettes mouillées.",
+      "l2": "Mám mokré ponožky.",
+      "choices_l1": [
+        "J'ai les chaussettes sèches.",
+        "J'ai les chaussures mouillées.",
+        "Tu as les chaussettes mouillées."
+      ]
+    },
+    {
+      "id": "listen-to-je-od-rosy",
+      "type": "listen",
+      "l1": "C'est la rosée.",
+      "l2": "To je od rosy.",
+      "choices_l1": [
+        "C'est la pluie.",
+        "C'est la rivière.",
+        "C'est la sueur."
+      ]
+    },
+    {
+      "id": "listen-od-rosy-to-znie-logicky",
+      "type": "listen",
+      "l1": "La rosée ! Ça paraît logique.",
+      "l2": "Od rosy! To znie logicky.",
+      "choices_l1": [
+        "La rosée ! Ça paraît bizarre.",
+        "La pluie ! Ça paraît logique.",
+        "La rosée ? Ça n'a aucun sens."
+      ]
+    },
+    {
+      "id": "match-pono-ky-vocab",
+      "type": "match",
+      "l1": [
+        "les chaussettes",
+        "les chaussures",
+        "la rosée",
+        "l'herbe"
+      ],
+      "l2": [
+        "ponožky",
+        "topánky",
+        "rosa",
+        "tráva"
+      ]
+    },
+    {
+      "id": "blank-tr-va-je-mokr-pr-alo",
+      "type": "fill-blank",
+      "l1": "L'herbe est mouillée. Il a plu.",
+      "l2": "Tráva je mokrá. Pršalo.",
+      "missing_l1": "mouillée",
+      "missing_l2": "mokrá",
+      "blank_index_l1": 2,
+      "blank_index_l2": 2,
+      "choices_l1": [
+        "sèche",
+        "verte",
+        "haute"
+      ],
+      "choices_l2": [
+        "suchá",
+        "zelená",
+        "vysoká"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-moje-top-nky-s-such",
+      "type": "fill-blank",
+      "l1": "Mes chaussures sont sèches.",
+      "l2": "Moje topánky sú suché.",
+      "missing_l1": "chaussures",
+      "missing_l2": "topánky",
+      "blank_index_l1": 1,
+      "blank_index_l2": 1,
+      "choices_l1": [
+        "chaussettes",
+        "jambes",
+        "mains"
+      ],
+      "choices_l2": [
+        "ponožky",
+        "nohy",
+        "ruky"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-nie-u-dva-mesiace-nepr-alo",
+      "type": "order",
+      "l1": "Non. Il n'a pas plu depuis deux mois.",
+      "l2": "Nie. Už dva mesiace nepršalo.",
+      "tokens_l1": [
+        "Non.",
+        "Il n'a pas plu",
+        "depuis deux mois."
+      ],
+      "tokens_l2": [
+        "Nie.",
+        "Už dva mesiace",
+        "nepršalo."
+      ]
+    },
+    {
+      "id": "order-od-rosy-to-znie-logicky",
+      "type": "order",
+      "l1": "La rosée ! Ça paraît logique.",
+      "l2": "Od rosy! To znie logicky.",
+      "tokens_l1": [
+        "La rosée !",
+        "Ça paraît",
+        "logique."
+      ],
+      "tokens_l2": [
+        "Od rosy!",
+        "To znie",
+        "logicky."
+      ]
+    }
+  ]
+}
