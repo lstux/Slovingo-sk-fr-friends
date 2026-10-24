@@ -94,3 +94,9 @@ Fichiers `img/style_<clé>.jpg`, repris de Slovingo-sk-fr-kids (même source, m�
 | `10_Series_06_Povoden_03_voda-stupa.md` | [House flooded in village Herwad.jpg](https://commons.wikimedia.org/wiki/File:House_flooded_in_village_Herwad.jpg) | Wikimedia Commons | वर्षा देशपांडे | CC BY-SA 4.0 |
 | `10_Series_06_Povoden_02_trat-je-pod-vodou.md` | [Flooded railway line at Kirkstall - geograph.org.uk - 4740238.jpg](https://commons.wikimedia.org/wiki/File:Flooded_railway_line_at_Kirkstall_-_geograph.org.uk_-_4740238.jpg) | Wikimedia Commons | Stephen Craven | CC BY-SA 2.0 |
 | `10_Series_05_Domov_01_domov.md` | [Ždiar another wooden house.JPG](https://commons.wikimedia.org/wiki/File:%C5%BDdiar_another_wooden_house.JPG) | Wikimedia Commons | Robzle | Public domain |
+
+## Image de fond de la carte (accueil)
+
+| Fichier | Source | Auteur | Licence |
+|---------|--------|--------|---------|
+| `map_background.jpg` | *Généré avec Google Gemini* | Google Gemini | Libre d'usage — généré pour ce projet (2026) |
