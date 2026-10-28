@@ -28,3 +28,9 @@ json/
 # Environment
 .env
 .env.local
+
+# ... sauf les jeux web (web-games/ : ce sont des sources, pas des fichiers generes)
+!web-games/
+!web-games/**/*.html
+!web-games/**/*.js
+!web-games/**/*.css

@@ -4,6 +4,16 @@
 
 Apprendre le slovaque en voyageant de Košice à Bratislava — un récit en dialogues, pour les ados (12-16 ans).
 
+## 🎮 Jeux Zajka
+
+Deux petits jeux dans l'univers du cours, qui reprennent ses dialogues :
+
+- **Zajka Run** (plateformes) et **Zajka Quest** (aventure, chapitres Košice et Sucho), à jouer dans
+  le navigateur : **[lstux.github.io/Slovingo-sk-fr-friends/games/](https://lstux.github.io/Slovingo-sk-fr-friends/games/)**
+  (sources dans [`web-games/`](./web-games/)).
+- Les mêmes jeux en firmware pour l'**ODROID-GO** (ESP32) : [`esp32/zajka-run`](./esp32/zajka-run/) et
+  [`esp32/zajka-quest`](./esp32/zajka-quest/).
+
 ## 🌐 Déploiement (GitHub Pages)
 
 À chaque push sur `main`, le workflow `.github/workflows/pages.yml` construit le site avec le moteur [Slovingo](https://github.com/lstux/Slovingo) et le publie sur **https://lstux.github.io/Slovingo-sk-fr-friends/**. L'`url_path` est adapté au moment du build (sans modifier `lang.json` dans le repo). L'activation de Pages est faite automatiquement au premier déploiement.
