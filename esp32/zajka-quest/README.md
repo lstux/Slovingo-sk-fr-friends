@@ -164,12 +164,11 @@ relâchée avant de repartir.
 
 ## Le contenu du cours
 
-Les répliques, le vocabulaire et les exercices viennent du dépôt
-[Slovingo-sk-fr-friends](https://github.com/lstux/Slovingo-sk-fr-friends), converti par
+Les répliques, le vocabulaire et les exercices viennent du cours de ce dépôt (Slovingo-sk-fr-friends :
+`md/` et `exercises/` à la racine), convertis par
 `tools/build_course.py` en `src/game/gen/course_data.inc` (commité, comme les images) :
 
 ```sh
-python3 src/langs.py sk-fr-friends            # à la racine du dépôt : le cours dans langs/
 python3 tools/build_course.py --dump          # voir ce qui est lu
 python3 tools/build_course.py                 # régénérer après un changement du cours
 ```

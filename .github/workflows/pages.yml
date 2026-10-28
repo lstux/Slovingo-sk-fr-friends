@@ -3,6 +3,8 @@ name: GitHub Pages
 # Publie deux sites sur la même Page :
 #   - la racine (/) : la branche main
 #   - /ai/          : la branche feat/ai-illustrations (aperçu, storage_prefix distinct)
+#   - /games/       : les jeux Zajka Run et Zajka Quest en HTML/JS (dossier web-games/ de main),
+#                     fichiers statiques copiés tels quels
 # Déclenché par un push sur main ou sur la branche d'aperçu, ou manuellement.
 # Le site est toujours reconstruit entier (main + aperçu), donc un push sur
 # l'une ou l'autre branche republie les deux.
@@ -72,10 +74,12 @@ jobs:
         run: |
           mkdir -p engine/langs/sk-fr-friends
           tar --exclude=.git --exclude=.github --exclude=LICENSE --exclude='README*' \
+            --exclude=./esp32 --exclude=./web-games \
             -cf - -C content . | tar -xf - -C engine/langs/sk-fr-friends
           if [ "${{ steps.preview.outcome }}" = "success" ]; then
             mkdir -p engine/langs/sk-fr-friends-ai
             tar --exclude=.git --exclude=.github --exclude=LICENSE --exclude='README*' \
+              --exclude=./esp32 --exclude=./web-games \
               -cf - -C content-ai . | tar -xf - -C engine/langs/sk-fr-friends-ai
           else
             echo "Pas de branche d'aperçu : seule la racine est publiée."
@@ -130,6 +134,12 @@ jobs:
           if [ -d engine/langs/sk-fr-friends-ai/dist ]; then
             mkdir -p _site/ai
             cp -r engine/langs/sk-fr-friends-ai/dist/. _site/ai/
+          fi
+          # les jeux web (pages et donnees, sans les outils ni les tests)
+          if [ -d content/web-games ]; then
+            mkdir -p _site/games
+            cp -r content/web-games/index.html content/web-games/common content/web-games/zajka-run \
+              content/web-games/zajka-quest _site/games/
           fi
           touch _site/.nojekyll
 

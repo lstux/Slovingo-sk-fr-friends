@@ -3,7 +3,7 @@
 
     python3 src/langs.py sk-fr-friends               # a la racine du depot : recupere le cours
     python3 tools/build_course.py                     # episodes par defaut (EPISODES ci-dessous)
-    python3 tools/build_course.py --course ~/Slovingo-sk-fr-friends 10_Series_01_Kosice_01_to-si-ty
+    python3 tools/build_course.py --course ~/Slovingo-sk-fr-friends 10_Series_01_Kosice_01_to-si-ty   # un autre dossier de cours
     python3 tools/build_course.py --dump              # affiche ce qui a ete lu, sans rien ecrire
 
 Ce qui est repris de chaque fiche (format : docs/Format-friends.md du cours) :
@@ -37,7 +37,8 @@ ROOT = os.path.dirname(HERE)
 GEN = os.path.join(ROOT, "src", "game", "gen")
 BONUS = os.path.join(ROOT, "story", "bonus.txt")
 LINES = os.path.join(ROOT, "story", "lines.txt")
-DEFAULT_COURSE = os.path.normpath(os.path.join(ROOT, "..", "..", "langs", "sk-fr-friends"))
+# le cours est ce repo (esp32/zajka-quest/ -> racine, qui contient md/ et exercises/)
+DEFAULT_COURSE = os.path.normpath(os.path.join(ROOT, "..", ".."))
 
 sys.path.insert(0, HERE)
 from build_assets import CHARSET  # noqa: E402  (les caracteres que les polices savent dessiner)
