@@ -15,7 +15,7 @@
     const go = () => { start.classList.add('hidden'); platform.out.start(); canvas.focus(); };
     start.addEventListener('pointerdown', go);
     root.addEventListener('keydown', () => start.classList.add('hidden'), { once: true });
-    $('fs').addEventListener('click', () => C.toggleFullscreen($('app')));
+    $('fs').addEventListener('click', () => C.toggleFullscreen(document.documentElement));
     $('helpbtn').addEventListener('click', () => $('help').classList.toggle('hidden'));
     platform.start();
     root.__platform = platform;   // pratique pour la console
