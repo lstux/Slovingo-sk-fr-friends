@@ -13,11 +13,11 @@
   const IDLE_ROW = 0, IDLE_FRAMES = 4, FOX_ANCHOR = 27;
   const FADE_HALF = 14;
   const BANNER_TIME = 150;
-  const NUM_CHAPTERS = 2;
+  const NUM_CHAPTERS = 3;
 
   const S_TITLE = 0, S_CHAPTER = 1, S_WORLD = 2, S_FADE = 3, S_DIALOG = 4, S_END = 5, S_NOTE = 6, S_MENU = 7;
   const AFTER_NOTHING = 0, AFTER_EPISODE = 1, AFTER_SLEEP = 2, AFTER_EVENT = 3;
-  const SAVE_MAGIC = 0x3153515A, SAVE_VERSION = 3, SAVE_EPISODES = 16, SAVE_ITEMS = 16, SAVE_BITS = 8, SAVE_SIZE = 68;
+  const SAVE_MAGIC = 0x3153515A, SAVE_VERSION = 4, SAVE_EPISODES = 24, SAVE_ITEMS = 16, SAVE_BITS = 8, SAVE_SIZE = 76;
   const DIR_DOWN = Q.DIR_DOWN, DIR_UP = Q.DIR_UP, DIR_RIGHT = Q.DIR_RIGHT;
 
   // ---------------------------------------------------------------- sauvegarde (save.h)
@@ -28,24 +28,24 @@
   }
 
   const SaveData = {
-    // d : { map, tx, ty, dir, chapter, stage, flags, items, picked, words, bonus }  ->  Uint8Array(68)
+    // d : { map, tx, ty, dir, chapter, stage, flags, items, picked, words, bonus }  ->  Uint8Array(76)
     encode(d) {
       const u = new Uint8Array(SAVE_SIZE), v = new DataView(u.buffer);
       v.setUint32(0, SAVE_MAGIC, true);
       u[4] = SAVE_VERSION; u[5] = d.map; u[6] = d.tx; u[7] = d.ty; v.setInt8(8, d.dir); u[9] = d.chapter; u[10] = d.stage;
       v.setUint16(12, d.flags, true);
       u.set(d.items, 16); u.set(d.picked, 32); u.set(d.words, 40); u.set(d.bonus, 48);
-      v.setUint32(64, fnv(u, 64), true);
+      v.setUint32(72, fnv(u, 72), true);
       return u;
     },
     // null si le bloc n'est pas valide
     decode(u) {
       if (!u || u.length !== SAVE_SIZE) return null;
       const v = new DataView(u.buffer, u.byteOffset, u.byteLength);
-      if (v.getUint32(0, true) !== SAVE_MAGIC || u[4] !== SAVE_VERSION || v.getUint32(64, true) !== fnv(u, 64)) return null;
+      if (v.getUint32(0, true) !== SAVE_MAGIC || u[4] !== SAVE_VERSION || v.getUint32(72, true) !== fnv(u, 72)) return null;
       return {
         map: u[5], tx: u[6], ty: u[7], dir: v.getInt8(8), chapter: u[9], stage: u[10], flags: v.getUint16(12, true),
-        items: u.slice(16, 32), picked: u.slice(32, 40), words: u.slice(40, 48), bonus: u.slice(48, 64),
+        items: u.slice(16, 32), picked: u.slice(32, 40), words: u.slice(40, 48), bonus: u.slice(48, 72),
       };
     },
   };
@@ -83,8 +83,11 @@
   const EV2_STATION = 1, EV2_NOTE = 2, EV2_NOTE_READ = 3, EV2_DROPS = 4, EV2_TICKETS = 5, EV2_BOARD = 6;
   const EP2_FIRST = 6, DROPS_NEEDED = 5;
   const S6_NOTE = 5, S6_DESK = 6, S6_TRAIN = 11;
+  const F3_INTRO = 1 << 0, F3_LES1 = 1 << 1, F3_ASKED = 1 << 2, F3_DRANK = 1 << 3, F3_ALONE = 1 << 4, F3_JOINED = 1 << 5, F3_CAMP = 1 << 6;
+  const EV3_LES1 = 1, EV3_ASKED = 2, EV3_DRANK = 3, EV3_FALL = 4, EV3_JOIN = 5;
+  const EP3_FIRST = 12, S2_SPLIT = 7, S3_SPLIT = 5, ENTRY_X = 7, ENTRY_Y = 8;
 
-  const CHAPTER_PLACES = [['Košice', 'To si ty?'], ['Sucho', 'Je horúco']];
+  const CHAPTER_PLACES = [['Košice', 'To si ty?'], ['Sucho', 'Je horúco'], ['Slovenský raj', 'Kam teraz?']];
 
   class Game {
     constructor(A) {
@@ -100,6 +103,7 @@
       this.menu_ = 0; this.confirm_ = false; this.savedShow_ = 0;
       this.menuTab_ = 0; this.menuScroll_ = 0;
       this.noteTitle_ = ''; this.noteSk_ = ''; this.noteFr_ = ''; this.noteIcon_ = -1; this.noteFr_on_ = false;
+      this.plankX_ = -1; this.plankY_ = -1; this.listen_ = 0; this.idle_ = 0; this.idleGoal_ = -1;
       this.chapter_ = 0; this.stage_ = 0; this.flags_ = 0;
       this.items_ = new Uint8Array(SAVE_ITEMS); this.picked_ = new Uint8Array(SAVE_BITS);
       this.words_ = new Uint8Array(SAVE_BITS); this.bonus_ = new Array(SAVE_EPISODES).fill(0);
@@ -133,7 +137,7 @@
       for (let i = 0; i < this.A.signWords.length; i++) if (this.words_[i >> 3] & (1 << (i & 7))) n++;
       return n;
     }
-    goal() { return this.chapter_ === 0 ? this.ch1Goal() : this.ch2Goal(); }
+    goal() { return this.chapter_ === 0 ? this.ch1Goal() : this.chapter_ === 1 ? this.ch2Goal() : this.ch3Goal(); }
 
     flag(f) { return (this.flags_ & f) !== 0; }
     setFlag(f) { this.flags_ = (this.flags_ | f) & 0xFFFF; }
@@ -296,6 +300,8 @@
             default:
               break;
           }
+          if (this.state_ === S_WORLD && world.stepped()) this.storyStep(world.player().tx, world.player().ty);
+          if (this.state_ === S_WORLD) this.idleHint();
           break;
         case S_FADE:
           if (this.stateTime_ === FADE_HALF && this.warp_) {
@@ -339,7 +345,20 @@
       }
     }
 
-    chapterStartMap() { return this.chapter_ === 0 ? this.K.MAP_KOSICE_HLAVNA : this.K.MAP_SUCHO_ZAHRADA; }
+    // Le joueur tourne en rond : apres IDLE_HINT images sans que l'objectif change, on le lui rappelle
+    // (le meme texte que « Cieľ » dans le menu START), puis de nouveau un peu plus tard.
+    idleHint() {
+      const IDLE_HINT = 75 * 60, IDLE_AGAIN = 150 * 60;
+      const g = this.goal();
+      if (g !== this.idleGoal_) { this.idleGoal_ = g; this.idle_ = 0; return; }
+      if (++this.idle_ < IDLE_HINT) return;
+      this.idle_ = IDLE_HINT - IDLE_AGAIN;
+      const l = this.A.course.scripts[g][0];
+      this.audio_.play(Q.SFX_PAUSE);
+      this.note('Cieľ', l.sk, l.fr);
+    }
+
+    chapterStartMap() { return this.chapter_ === 0 ? this.K.MAP_KOSICE_HLAVNA : this.chapter_ === 1 ? this.K.MAP_SUCHO_ZAHRADA : this.K.MAP_RAJ_STANICA; }
 
     // ---------------------------------------------------------------- petit message
     note(title, sk, fr, icon) {
@@ -448,7 +467,11 @@
       switch (this.state_) {
         case S_TITLE: this.drawBackdrop(b); this.drawTitle(b); break;
         case S_CHAPTER: this.drawBackdrop(b); this.drawChapter(b); break;
-        case S_WORLD: this.world_.render(b); break;
+        case S_WORLD:
+          this.world_.render(b);
+          if (this.chapter_ === 1) this.ch2Hud(b);
+          if (this.chapter_ === 2) this.ch3Hud(b);
+          break;
         case S_DIALOG: this.world_.render(b); this.dialog_.render(b); break;
         case S_NOTE: this.world_.render(b); this.drawNote(b); break;
         case S_MENU: this.world_.render(b); this.drawMenu(b); break;
@@ -558,8 +581,8 @@
 
     drawEnd(b) {
       const small = this.A.fonts.font_small, title = this.A.fonts.font_title;
-      const PLACES = ['KOŠICE', 'SUCHO'];
-      const NEXT = ['Ďalšia kapitola : Sucho', 'Ďalšia kapitola : Slovenský raj'];
+      const PLACES = ['KOŠICE', 'SUCHO', 'SLOVENSKÝ RAJ'];
+      const NEXT = ['Ďalšia kapitola : Sucho', 'Ďalšia kapitola : Slovenský raj', 'Pokračovanie nabudúce : Tatry'];
       b.fill(0x0841);
       b.fillRect(0, 50, SCREEN_W, 2, 0xFB00);
       b.fillRect(0, 188, SCREEN_W, 2, 0xFB00);
@@ -643,24 +666,25 @@
       this.give(m.item);
     }
 
-    storyEnteredMap() { if (this.chapter_ === 0) this.ch1EnteredMap(); else this.ch2EnteredMap(); }
+    storyEnteredMap() { if (this.chapter_ === 0) this.ch1EnteredMap(); else if (this.chapter_ === 1) this.ch2EnteredMap(); else this.ch3EnteredMap(); }
     storyTalk(npc) {
       const w = this.world_.npc(npc);
-      if (this.chapter_ === 0) this.ch1Talk(w); else this.ch2Talk(w);
+      if (this.chapter_ === 0) this.ch1Talk(w); else if (this.chapter_ === 1) this.ch2Talk(w); else this.ch3Talk(w);
     }
-    storyInspect(tx, ty) { if (this.chapter_ === 0) this.ch1Inspect(tx, ty); else this.ch2Inspect(tx, ty); }
-    storyZone(m) { if (this.chapter_ === 0) this.ch1Zone(m); else this.ch2Zone(m); }
-    storyWarp(m) { return this.chapter_ === 0 ? this.ch1Warp(m) : this.ch2Warp(m); }
-    storyRefresh() { if (this.chapter_ === 0) this.ch1Refresh(); else this.ch2Refresh(); }
+    storyInspect(tx, ty) { if (this.chapter_ === 0) this.ch1Inspect(tx, ty); else if (this.chapter_ === 1) this.ch2Inspect(tx, ty); else this.ch3Inspect(tx, ty); }
+    storyZone(m) { if (this.chapter_ === 0) this.ch1Zone(m); else if (this.chapter_ === 1) this.ch2Zone(m); else this.ch3Zone(m); }
+    storyWarp(m) { return this.chapter_ === 0 ? this.ch1Warp(m) : this.chapter_ === 1 ? this.ch2Warp(m) : this.ch3Warp(m); }
+    storyStep(tx, ty) { if (this.chapter_ === 2) this.ch3Step(tx, ty); }
+    storyRefresh() { if (this.chapter_ === 0) this.ch1Refresh(); else if (this.chapter_ === 1) this.ch2Refresh(); else this.ch3Refresh(); }
 
     storyDialogDone() {
       const a = this.after_;
       this.after_ = AFTER_NOTHING;
       if (a === AFTER_EPISODE) {
         this.stage_++;
-        if (this.chapter_ === 0) this.ch1EpisodeDone(); else this.ch2EpisodeDone();
+        if (this.chapter_ === 0) this.ch1EpisodeDone(); else if (this.chapter_ === 1) this.ch2EpisodeDone(); else this.ch3EpisodeDone();
       } else if (a === AFTER_EVENT) {
-        if (this.chapter_ === 0) this.ch1Event(this.afterEvent_); else this.ch2Event(this.afterEvent_);
+        if (this.chapter_ === 0) this.ch1Event(this.afterEvent_); else if (this.chapter_ === 1) this.ch2Event(this.afterEvent_); else this.ch3Event(this.afterEvent_);
       } else if (a === AFTER_SLEEP) {
         this.endChapter();
       }
@@ -932,6 +956,208 @@
         // « Mam batoh a mapu. » (Andrea part avec, le renard les porte)
         this.give(K.ITEM_MAPA, 1, false);
         this.give(K.ITEM_BATOH);
+      }
+    }
+
+    // Pendant la recherche : les gouttes deja trouvees, en bas a gauche (« Kvapky 3/5 »).
+    ch2Hud(b) {
+      if (this.stage_ !== 3 || this.flag(F2_GIVEN)) return;
+      const x0 = 8, y0 = SCREEN_H - 30;
+      if (b.y0 + b.h <= y0 - 4) return;
+      const n = this.itemCount(this.K.ITEM_KVAPKA);
+      const txt = `Kvapky ${n > DROPS_NEEDED ? DROPS_NEEDED : n}/${DROPS_NEEDED}`;
+      const small = this.A.fonts.font_small;
+      const w = C.textWidth(small, txt) + 12;
+      b.fillRect(x0 - 4, y0 - 4, w, 22, DARKBLUE);
+      b.text(small, x0 + 2, y0 - 1, txt, n >= DROPS_NEEDED ? 0x4D7F : WHITE, -1);
+    }
+
+    // ---------------------------------------------------------------- chapitre 3 : Slovensky raj (chapter3.cpp)
+    ep3(i) { return this.A.course.episodes[EP3_FIRST + i]; }
+
+    // 0 (silence) a 5 (le ruisseau est tout pres) : distance a la zone « potok »
+    listenLevel() {
+      const K = this.K, w = this.world_, m = w.map();
+      for (let i = 0; i < m.nMarks; i++) {
+        const k = m.marks[i];
+        if (k.type !== Q.M_ZONE || k.tag !== K.TAG_POTOK) continue;
+        const d = Math.abs(w.player().tx - k.x) + Math.abs(w.player().ty - k.y);
+        return d <= 3 ? 5 : d <= 7 ? 4 : d <= 12 ? 3 : d <= 18 ? 2 : d <= 26 ? 1 : 0;
+      }
+      return 0;
+    }
+
+    ch3Goal() {
+      const K = this.K, m = this.world_.mapIndex();
+      if (this.flag(F3_CAMP)) return K.SC_CIEL_HOTOVO;
+      switch (this.stage_) {
+        case 0: case 1:
+          if (m === K.MAP_RAJ_STANICA || !this.flag(F3_LES1)) return m === K.MAP_RAJ_STANICA ? K.SC_CIEL_LES : K.SC_CIEL_POTOK;
+          return K.SC_CIEL_POTOK;
+        case 2: return this.flag(F3_DRANK) ? K.SC_CIEL_ANDREA : K.SC_CIEL_NAPI;
+        case 3: return K.SC_CIEL_ROKLINA;
+        case 4:
+          if (m === K.MAP_RAJ_OROL) return K.SC_CIEL_OROL;
+          if (!this.flag(F3_JOINED)) return this.flag(F3_ALONE) && m === K.MAP_RAJ_ROKLINA ? K.SC_CIEL_DOSKY : K.SC_CIEL_ROKLINA;
+          return K.SC_CIEL_OROL;
+        case 5: return K.SC_CIEL_TABOR;
+        default: return K.SC_CIEL_HOTOVO;
+      }
+    }
+
+    ch3Refresh() {
+      const K = this.K, m = this.world_.mapIndex();
+      const follows = this.stage_ >= 1 && !this.flag(F3_ALONE);
+      if (follows && !this.world_.hasFollower()) this.world_.setFollower(K.SPK_ANDREA);
+      if (!follows && this.world_.hasFollower()) this.world_.setFollower(K.SPK_NONE);
+      if (m === K.MAP_RAJ_ROKLINA) this.world_.setNpcHidden(K.TAG_ANDREA_ROKLINA, !this.flag(F3_ALONE) || this.flag(F3_JOINED));
+    }
+
+    ch3EnteredMap() {
+      const K = this.K, m = this.world_.mapIndex();
+      this.plankX_ = this.plankY_ = -1;
+      this.listen_ = (m === K.MAP_RAJ_LES && this.stage_ === 1 && this.flag(F3_LES1)) ? this.listenLevel() : 0;
+      if (m === K.MAP_RAJ_STANICA && this.stage_ === 0 && !this.flag(F3_INTRO)) {
+        this.setFlag(F3_INTRO);
+        this.playEpisode(EP3_FIRST, 0, this.ep3(0).dialog.length, AFTER_EPISODE, true);
+      } else if (m === K.MAP_RAJ_LES && this.stage_ === 2 && !this.flag(F3_ASKED)) {   // partie reprise au ruisseau
+        this.playEpisode(EP3_FIRST + 2, 0, S3_SPLIT, AFTER_EVENT, true, EV3_ASKED);
+      } else if (m === K.MAP_RAJ_TABORISKO && this.stage_ === 5 && !this.flag(F3_CAMP)) {
+        this.setFlag(F3_CAMP);
+        this.playEpisode(EP3_FIRST + 5, 0, this.ep3(5).dialog.length, AFTER_SLEEP, true);
+      }
+    }
+
+    ch3Warp(m) {
+      const K = this.K, cur = this.world_.mapIndex();
+      if (cur === K.MAP_RAJ_STANICA && this.stage_ < 1) return false;
+      if (cur === K.MAP_RAJ_LES && m.target === K.MAP_RAJ_ROKLINA && this.stage_ < 3) {
+        this.sayScript(this.stage_ < 2 ? K.SC_ANDREA_NAJPRV_POTOK : K.SC_ANDREA_NAJPRV_PIT);
+        return false;
+      }
+      if (cur === K.MAP_RAJ_ROKLINA && m.target === K.MAP_RAJ_OROL && !this.flag(F3_JOINED)) {
+        this.sayScript(this.flag(F3_ALONE) ? K.SC_ANDREA_POD_SEM : K.SC_ANDREA_DOSKY);
+        return false;
+      }
+      if (cur === K.MAP_RAJ_OROL && m.target === K.MAP_RAJ_TABORISKO && this.stage_ < 5) {
+        this.sayScript(K.SC_ANDREA_NAJPRV_OROL);
+        return false;
+      }
+      return true;
+    }
+
+    ch3Zone(m) {
+      const K = this.K, st = this.stage_;
+      if (m.tag === K.TAG_LES1 && st === 1 && !this.flag(F3_LES1)) {
+        this.playEpisode(EP3_FIRST + 1, 0, S2_SPLIT, AFTER_EVENT, true, EV3_LES1);
+      } else if (m.tag === K.TAG_POTOK && st === 1 && this.flag(F3_LES1)) {
+        this.playEpisode(EP3_FIRST + 1, S2_SPLIT, this.ep3(1).dialog.length, AFTER_EPISODE, false);
+      } else if (m.tag === K.TAG_ROKLINA && st === 3) {
+        this.playEpisode(EP3_FIRST + 3, 0, this.ep3(3).dialog.length, AFTER_EPISODE, true);
+      } else if (m.tag === K.TAG_OROL && st === 4) {
+        this.playEpisode(EP3_FIRST + 4, 0, this.ep3(4).dialog.length, AFTER_EPISODE, true);
+      }
+    }
+
+    ch3Talk(w) {
+      const K = this.K, m = this.world_.mapIndex(), st = this.stage_;
+      if (w.who === K.SPK_ANDREA) {
+        if (st === 2) {
+          if (this.flag(F3_DRANK)) this.playEpisode(EP3_FIRST + 2, S3_SPLIT, this.ep3(2).dialog.length, AFTER_EPISODE, false);
+          else this.sayScript(K.SC_ANDREA_NAJPRV_PIT);
+        } else if (st === 1 && m !== K.MAP_RAJ_STANICA) {
+          this.sayScript(K.SC_ANDREA_NAJPRV_POTOK);
+        } else if (m === K.MAP_RAJ_ROKLINA && this.flag(F3_ALONE) && !this.flag(F3_JOINED)) {
+          const d = this.ep3(3).dialog;
+          let l = null;
+          for (let i = d.length - 1; i >= 0; i--) if (d[i].s === K.SPK_ANDREA) { l = d[i]; break; }   // « Zajacica. A silna. »
+          if (l) this.say([l], -1, AFTER_EVENT, EV3_JOIN);
+        } else {
+          this.sayLast(EP3_FIRST + (st > 0 ? (st > 6 ? 5 : st - 1) : 0), K.SPK_ANDREA);
+        }
+        return;
+      }
+      if (w.who === K.SPK_OROL) {
+        if (st === 4) this.playEpisode(EP3_FIRST + 4, 0, this.ep3(4).dialog.length, AFTER_EPISODE, true);
+        else this.sayLast(EP3_FIRST + 4, K.SPK_OROL);
+        return;
+      }
+      if (w.who === K.SPK_BIRD) {
+        if (st < 2) this.sayScript(K.SC_VTAK_TICHO);
+        else this.passerby(w);
+        return;
+      }
+      this.passerby(w);
+    }
+
+    ch3Inspect(tx, ty) {
+      const K = this.K;
+      if (this.world_.mapIndex() === K.MAP_RAJ_LES && this.world_.tileAt(tx, ty) === K.TL_RUISSEAU && this.stage_ === 2 &&
+          this.flag(F3_ASKED) && !this.flag(F3_DRANK)) this.sayScript(K.SC_NAPIL_SI_SA, AFTER_EVENT, EV3_DRANK);
+    }
+
+    ch3Event(event) {
+      const K = this.K;
+      switch (event) {
+        case EV3_LES1: this.setFlag(F3_LES1); this.listen_ = this.listenLevel(); break;
+        case EV3_ASKED: this.setFlag(F3_ASKED); break;
+        case EV3_DRANK: this.setFlag(F3_DRANK); this.give(K.ITEM_FLASA); break;
+        case EV3_FALL: this.goTo(K.MAP_RAJ_ROKLINA, ENTRY_X, ENTRY_Y, DIR_RIGHT); break;   // dans l'eau : on recommence devant les planches
+        case EV3_JOIN: this.setFlag(F3_JOINED); break;
+      }
+    }
+
+    ch3EpisodeDone() {
+      const K = this.K;
+      if (this.stage_ === 2) {
+        // le ruisseau : « Potok je maly... Najprv sa napi. »
+        this.playEpisode(EP3_FIRST + 2, 0, S3_SPLIT, AFTER_EVENT, true, EV3_ASKED);
+      } else if (this.stage_ === 4 && this.world_.mapIndex() === K.MAP_RAJ_ROKLINA) {
+        // « Dobre. Idem. » : Andrea passe devant, le renard traversera seul
+        this.setFlag(F3_ALONE);
+        this.sayScript(K.SC_ANDREA_DOSKY);
+      } else if (this.stage_ === 5) {
+        this.give(K.ITEM_BUNDA);   // « A vezmite si bundu. »
+      }
+    }
+
+    // Le renard vient d'arriver sur la case (tx, ty).
+    ch3Step(tx, ty) {
+      const K = this.K, m = this.world_.mapIndex();
+      if (m === K.MAP_RAJ_LES && this.stage_ === 1 && this.flag(F3_LES1)) {
+        const lvl = this.listenLevel();
+        if (lvl > this.listen_) this.audio_.play(Q.SFX_COIN);
+        this.listen_ = lvl;
+        return;
+      }
+      if (m !== K.MAP_RAJ_ROKLINA) return;
+      // une planche cede des que le renard la quitte
+      if (this.plankX_ >= 0 && (this.plankX_ !== tx || this.plankY_ !== ty)) {
+        this.world_.setTile(this.plankX_, this.plankY_, K.TL_EAU_GORGE);
+        this.audio_.play(Q.SFX_BUMP);
+        this.plankX_ = this.plankY_ = -1;
+      }
+      const t = this.world_.tileAt(tx, ty);
+      if (t === K.TL_PLANCHE) {
+        this.plankX_ = tx; this.plankY_ = ty;
+      } else if (t === K.TL_EAU_GORGE) {
+        this.audio_.play(Q.SFX_HURT);
+        this.sayScript(K.SC_ANDREA_TOMBA, AFTER_EVENT, EV3_FALL);
+      }
+    }
+
+    // L'oreille de la foret : cinq barres, de plus en plus hautes quand on approche du ruisseau.
+    ch3Hud(b) {
+      const K = this.K;
+      if (this.world_.mapIndex() !== K.MAP_RAJ_LES || this.stage_ !== 1 || !this.flag(F3_LES1)) return;
+      const lvl = this.listenLevel();
+      const x0 = 8, y0 = SCREEN_H - 30;
+      if (b.y0 + b.h <= y0 - 4) return;
+      b.fillRect(x0 - 4, y0 - 4, 84, 26, DARKBLUE);
+      b.text(this.A.fonts.font_small, x0, y0 - 2, 'Počuješ?', WHITE, -1);
+      for (let i = 0; i < 5; i++) {
+        const h = 3 + i * 2;
+        b.fillRect(x0 + 48 + i * 6, y0 + 15 - h, 4, h, i < lvl ? WHITE : BLACK);
       }
     }
   }

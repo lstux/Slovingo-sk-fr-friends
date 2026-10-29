@@ -5,7 +5,7 @@ Les deux jeux de la console ESP32 / Odroid-Go, jouables dans un navigateur :
 | jeu | page |
 |---|---|
 | **Zajka Run** (plateformes) | `zajka-run/index.html` |
-| **Zajka Quest** (aventure et cours de slovaque, chapitres 1 et 2) | `zajka-quest/index.html` |
+| **Zajka Quest** (aventure et cours de slovaque, chapitres 1 à 3) | `zajka-quest/index.html` |
 
 Fichiers statiques, sans serveur ni compilation : ouvrir `index.html` (le lanceur), ou publier le
 dossier tel quel (GitHub Pages...). Les scripts sont classiques (pas de modules), ça marche aussi
@@ -46,7 +46,7 @@ et le son (WAV) octet par octet :
 
 ```sh
 web-games/tests/compare_run.sh      # Zajka Run : 4 niveaux, robot, Andrea, trajectoires image par image
-web-games/tests/compare_quest.sh    # Zajka Quest : chapitres 1 et 2, choix, menus, sauvegarde, reprise
+web-games/tests/compare_quest.sh    # Zajka Quest : chapitres 1 à 3 (dont la chute dans la gorge et le rappel d'objectif), choix, menus, sauvegarde, reprise
 node web-games/tests/browser_page.js zajka-quest /tmp/captures   # la vraie page dans Chromium (Playwright)
 ```
 

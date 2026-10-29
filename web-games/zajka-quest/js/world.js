@@ -58,6 +58,8 @@
         case K.SPK_ANDREA: return this.A.walk_andrea;
         case K.SPK_MOUSE: return this.A.walk_mouse;
         case K.SPK_CHICK: return this.A.walk_chick;
+        case K.SPK_BIRD: return this.A.walk_bird;
+        case K.SPK_OROL: return this.A.walk_orol;
         default: return this.A.walk_human;
       }
     }
@@ -79,6 +81,8 @@
         n.sheet = this.sheetFor(m.npc); n.mark = m;
         this.npc_[this.nnpc_++] = n;
       }
+      this.ovr_ = [];   // tuiles changees par l'histoire (une planche qui cede) ; effacees au chargement d'une carte
+      this.stepped_ = false;
       this.turn_ = this.bumpWait_ = 0;
       this.waitRelease_ = true;   // sinon, la croix encore tenue ramenerait le renard dans la porte
       this.warp_ = this.event_ = null;
@@ -147,15 +151,27 @@
     walkable(tx, ty) {
       const m = this.map_;
       if (tx < 0 || ty < 0 || tx >= m.w || ty >= m.h) return false;
-      if (m.tiles.kinds[m.base[ty * m.w + tx]] === TK_SOLID) return false;
+      if (m.tiles.kinds[this.tileAt(tx, ty)] === TK_SOLID) return false;
       return this.npcAt(tx, ty, false) < 0;   // on passe a travers celui qui nous suit
     }
 
     tileAt(tx, ty) {
       const m = this.map_;
       if (tx < 0 || ty < 0 || tx >= m.w || ty >= m.h) return 0;
+      for (let i = this.ovr_.length - 1; i >= 0; i--) if (this.ovr_[i][0] === tx && this.ovr_[i][1] === ty) return this.ovr_[i][2];
       return m.base[ty * m.w + tx];
     }
+
+    // l'histoire change une tuile de la carte (une planche qui cede)
+    setTile(tx, ty, tile) {
+      const m = this.map_;
+      if (tx < 0 || ty < 0 || tx >= m.w || ty >= m.h) return;
+      for (const o of this.ovr_) if (o[0] === tx && o[1] === ty) { o[2] = tile; return; }
+      if (this.ovr_.length >= 48) return;
+      this.ovr_.push([tx, ty, tile]);
+    }
+
+    stepped() { return this.stepped_; }   // le renard vient d'arriver sur une case
 
     npcAt(tx, ty, withFollower) {
       for (let i = 0; i < this.nnpc_; i++) {
@@ -182,6 +198,7 @@
       this.warp_ = this.event_ = null;
       this.talk_ = -1;
       this.inspectX_ = this.inspectY_ = -1;
+      this.stepped_ = false;
       this.frame_ = (this.frame_ + 1) >>> 0;
       if (this.bumpWait_ > 0) this.bumpWait_--;
       const speed = inp.down(BTN_B) ? RUN_SPEED : WALK_SPEED;
@@ -189,6 +206,7 @@
       if (p.left > 0) {
         this.moveWalker(p, speed);
         if (p.left === 0) {
+          this.stepped_ = true;
           // arrive sur une case : une porte, un objet, une zone ?
           for (let i = 0; i < map.nMarks; i++) {
             const m = map.marks[i];
@@ -283,14 +301,14 @@
       }
     }
 
-    drawTiles(b, layer, skipEmpty) {
+    drawTiles(b, layer, skipEmpty, isBase) {
       const map = this.map_, img = map.tiles.img, cols = (img.w / TILE) | 0;
       const ty0 = (this.camY_ + b.y0) >> 4, ty1 = (this.camY_ + b.y0 + b.h - 1) >> 4;
       const tx0 = this.camX_ >> 4, tx1 = (this.camX_ + SCREEN_W - 1) >> 4;
       for (let ty = ty0; ty <= ty1; ty++) {
         for (let tx = tx0; tx <= tx1; tx++) {
           let t = 0;
-          if (tx >= 0 && ty >= 0 && tx < map.w && ty < map.h) t = layer[ty * map.w + tx];
+          if (tx >= 0 && ty >= 0 && tx < map.w && ty < map.h) t = isBase ? this.tileAt(tx, ty) : layer[ty * map.w + tx];
           if (t === 0 && skipEmpty) continue;
           const dx = tx * TILE - this.camX_, dy = ty * TILE - this.camY_;
           if (t === 0) b.fillRect(dx, dy, TILE, TILE, 0x0000);
@@ -308,7 +326,7 @@
 
     render(b) {
       const map = this.map_;
-      this.drawTiles(b, map.base, false);
+      this.drawTiles(b, map.base, false, true);
       // objets a ramasser : poses sur leur case, ils sautillent un peu
       for (let i = 0; i < map.nMarks; i++) {
         const m = map.marks[i];

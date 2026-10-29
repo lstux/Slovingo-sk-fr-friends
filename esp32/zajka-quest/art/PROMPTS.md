@@ -14,6 +14,10 @@ ci-dessous sont **complets** : un bloc = un copier-coller. Même méthode que po
 | `tiles/kosice.png` maison de la tante | provisoire | prompt « Maison et jardin » |
 | `tiles/kosice.png` kiosque, composteur, panneau | provisoire | prompt « Ticket et panneaux » |
 | `tiles/kosice.png` parc à sec, fontaine vide, gare | provisoire | prompt « Sucho » |
+| `tiles/kosice.png` forêt, ruisseau, gorge, dalle (chapitre 3) | provisoire | prompt « Slovenský raj : forêt et gorge » |
+| `tiles/kosice.png` planche, échelle, pont, feu de camp (chapitre 3) | provisoire | prompt « Slovenský raj : planches, échelle, pont, feu » |
+| `walk/orol_16x24.png`, `bird_16x24.png` | provisoire | prompt « Pán Orol et l'oiseau » |
+| `portraits/orol_48x48.png` | absent (pas de portrait pour l'instant) | prompt « Portrait de pán Orol » |
 | `items/*.png` objets du sac | provisoire | prompt « Objets du sac » |
 | `walk/mouse_16x24.png`, `walk/chick_16x24.png` | provisoire | prompt « Animaux du parc » |
 | `walk/fox_16x24.png` renard qui marche | provisoire | prompt « Renard qui marche » |
@@ -138,7 +142,7 @@ Three small objects, each one centred in its own square cell of a grid of 1 row 
 
 ```
 16-bit pixel art for a top-down RPG in the style of Pokémon Gold and Zelda: A Link to the Past (Super Nintendo), seen from above at a slight 3/4 angle. Crisp chunky pixels, hard edges, no anti-aliasing, no blur, limited palette (about 32 colours), hot dry summer light. No text, no labels, no numbers, no watermark.
-A tileset for a town in Slovakia during a drought: a grid of 2 rows x 4 columns of SQUARE tiles separated by thin black lines, each one must read clearly at 16x16 pixels. In reading order:
+A tileset for a town in Slovakia during a drought: a grid of 2 rows x 4 columns of SQUARE tiles separated by thin black lines, each one must read clearly at 16x16 pixels. Every tile fills its whole square, edge to edge. In reading order:
 1. an empty square stone fountain basin, its bottom dry and cracked, on grey cobblestones;
 2. shallow blue pond water (seamless);
 3. dry cracked mud at the bottom of a dried-out pond (seamless);
@@ -151,15 +155,66 @@ A tileset for a town in Slovakia during a drought: a grid of 2 rows x 4 columns 
 
 `python3 tools/import_ai.py tileset art/sources/sucho.png --grid 2x4 --names "fontaine_vide eau boue guichet sol_gare train porte_train -"`
 
+### Slovenský raj : forêt et gorge (7 tuiles)
+
+```
+16-bit pixel art for a top-down RPG in the style of Pokémon Gold and Zelda: A Link to the Past (Super Nintendo), seen from above at a slight 3/4 angle. Crisp chunky pixels, hard edges, no anti-aliasing, no blur, limited palette (about 32 colours), cool green forest light. No text, no labels, no numbers, no watermark.
+A tileset for a Slovak national park (forest and rocky gorge): a grid of 2 rows x 4 columns of SQUARE tiles separated by thin black lines, each one must read clearly at 16x16 pixels. Every tile fills its whole square, edge to edge. In reading order:
+1. one dark green spruce tree seen from above, its round conical crown filling the square, on a plain green grass background;
+2. a brown dirt forest path with a few small pebbles (seamless);
+3. one grey boulder with a lighter top, on a plain green grass background;
+4. a shallow forest stream: clear blue water with white ripples and a few pebbles (seamless);
+5. a grey limestone cliff face with vertical cracks and moss (seamless);
+6. deep dark blue-green water at the bottom of a gorge (seamless);
+7. a flat light-grey stone ledge slab with a few cracks (seamless);
+8. leave this last cell empty (plain grey).
+```
+
+`python3 tools/import_ai.py tileset art/sources/raj_foret.png --grid 2x4 --names "sapin@herbe sentier rocher@herbe ruisseau falaise eau_gorge dalle -"`
+
+### Slovenský raj : planches, échelle, pont, feu (4 tuiles)
+
+La planche est **fragile** (elle cède quand le renard la quitte) : elle doit paraître vieille et
+disjointe, bien différente du pont qui, lui, est solide.
+
+```
+16-bit pixel art for a top-down RPG in the style of Pokémon Gold and Zelda: A Link to the Past (Super Nintendo), seen from above at a slight 3/4 angle. Crisp chunky pixels, hard edges, no anti-aliasing, no blur, limited palette (about 32 colours). No text, no labels, no numbers, no watermark.
+A tileset for a rocky gorge: a grid of 2 rows x 2 columns of SQUARE tiles separated by thin black lines, each one must read clearly at 16x16 pixels. Every tile fills its whole square, edge to edge. In reading order:
+1. an old fragile wooden walkway tile: three loose weathered brown planks lying side by side, with thin dark gaps showing dark blue water between them and a crack in one plank;
+2. a wooden ladder fixed against a grey cliff wall, seen from the front: two vertical wooden rails and horizontal rungs, on grey rock;
+3. a solid wooden footbridge seen from above: neat brown planks laid across, with a thin rope handrail along the top and the bottom edges, over dark water (repeats horizontally);
+4. a small campfire with crossed logs and orange-yellow flames, on a plain green grass background.
+```
+
+`python3 tools/import_ai.py tileset art/sources/raj_planches.png --grid 2x2 --names "planche rebrik most ohnisko@herbe"`
+
+### Pán Orol et l'oiseau (sans référence)
+
+Pán Orol est le garde du parc (chapitre 3), assis sur son rocher. L'oiseau est un figurant de la
+forêt (il se tait tant qu'on n'a pas trouvé le ruisseau).
+
+```
+16-bit pixel art in the style of Pokémon Gold (Super Nintendo era). Crisp chunky pixels, hard edges, no anti-aliasing, a dark outline, limited palette (about 16 colours). No text, no labels, no grid lines, no watermark.
+Two characters, side by side, each centred in its own square cell of a grid of EXACTLY 1 row x 2 columns (no more, no fewer), thick bold shapes, filling at least 80% of the height of its cell: a proud golden eagle park ranger sitting upright, wearing a small green ranger hat, seen from the front; and a small blue-and-orange songbird perched, seen from the front. Each must read clearly at 16x14 pixels. No ground, no shadow. Flat solid magenta #FF00FF background everywhere.
+```
+
+`python3 tools/import_ai.py animals art/sources/raj_animaux.png --grid 1x2 --no-rules --height-px 14 --names "orol bird"`
+
 ## Objets du sac (16 × 16)
 
 Ils s'affichent dans le sac (menu START), dans le message « Do batohu » et, pour les gouttes d'eau,
-posés par terre. Importer chaque case avec `import_ai.py tileset` n'a pas de sens ici : découper à
-la main ou redessiner sur les icônes de `art/items/` (16 × 16, fond transparent).
+posés par terre. Import : `python3 tools/import_ai.py icons art/sources/sac.png --grid 2x3 --no-rules --names "listok voda kvapka batoh mapa listky"`
+(icônes 16 × 16, fond transparent, dans `art/items/`).
 
 ```
-16-bit pixel art icons for an RPG inventory, in the style of Pokémon Gold (Super Nintendo era). Crisp chunky pixels, hard edges, no anti-aliasing, a dark outline, limited palette. No text, no labels, no numbers, no watermark.
-Six small icons, each centred in its own square cell of a grid of 2 rows x 3 columns, on a flat solid magenta #FF00FF background, no shadow, no grid lines; each must read clearly at 16x16 pixels. In reading order: a yellow tram ticket; a small plastic bottle of water; a single blue water drop; a yellow-orange backpack; a folded paper map with a red route; two green train tickets.
+16-bit pixel art icons for an RPG inventory, in the style of Pokémon Gold (Super Nintendo era). Crisp chunky pixels, hard edges, no anti-aliasing, thick dark outlines, limited palette (about 24 colours). No text, no labels, no numbers, no watermark.
+Six chunky, exaggerated icons, each one centred in its own square cell of a grid of EXACTLY 2 rows x 3 columns (no more, no fewer), on a flat solid magenta #FF00FF background: no ground, no shadow, no grid lines. Each icon fills at least 80% of its cell and must read clearly at 16x16 pixels. In reading order:
+1. a yellow tram ticket;
+2. a small plastic bottle of water;
+3. a single blue water drop;
+4. a yellow-orange backpack;
+5. a folded paper map with a red route;
+6. two green train tickets.
 ```
 
 ## Les personnages qui marchent (16 × 24)
@@ -211,11 +266,12 @@ dessin suffit, le jeu le réutilise dans les quatre sens.
 
 ```
 16-bit pixel art in the style of Pokémon Gold (Super Nintendo era). Crisp chunky pixels, hard edges, no anti-aliasing, a dark outline, limited palette (about 16 colours). No text, no labels, no grid lines, no watermark.
-Two tiny cute animals of a town park, side by side, each centred in its own square cell of a grid of 1 row x 2 columns: a small grey mouse with pink ears sitting up, and a fluffy yellow chick. Both seen from the front, looking a little thirsty and sad. Each must read clearly at 16x12 pixels. Flat solid magenta #FF00FF background everywhere, no ground, no shadow.
+Two tiny cute animals of a town park, side by side, each centred in its own square cell of a grid of EXACTLY 1 row x 2 columns (no more, no fewer), thick bold shapes, filling at least 80% of the height of its cell: a small grey mouse with pink ears sitting up, and a fluffy yellow chick. Both seen from the front, looking a little thirsty and sad. Each must read clearly at 16x12 pixels. No ground, no shadow. Flat solid magenta #FF00FF background everywhere, no ground, no shadow.
 ```
 
-Pour l'instant, à découper à la main dans `art/walk/mouse_16x24.png` et `chick_16x24.png`
-(dessin en bas de la case, 16 × 12).
+`python3 tools/import_ai.py animals art/sources/animaux.png --grid 1x2 --no-rules --names "mouse chick"`
+(dessin 16 × 12 en bas de chaque case, répété dans `art/walk/mouse_16x24.png` et `chick_16x24.png`).
+Si Gemini rend 2 × 2 images (deux fois chaque animal), rogner la ligne du haut avant l'import.
 
 ## Portraits de la boîte de dialogue (48 × 48)
 
@@ -241,6 +297,16 @@ A square portrait for a dialogue box: head and shoulders only, facing slightly t
 ```
 
 `python3 tools/import_ai.py portrait andrea art/sources/andrea_portrait.png`
+
+### Portrait de pán Orol (sans référence)
+
+```
+16-bit pixel art in the style of the character portraits of Super Nintendo RPGs. Crisp chunky pixels, hard edges, no anti-aliasing, no blur, limited palette (about 32 colours). No text, no labels, no frame, no border, no watermark.
+Pán Orol, an ANTHROPOMORPHIC golden eagle park ranger: brown and golden feathers, white head, a strong yellow beak, sharp but kind amber eyes, a green ranger hat with a small badge.
+A square portrait for a dialogue box: head and shoulders only, facing slightly to the right, a calm and serious expression, the whole hat inside the picture. It must read clearly at 48x48 pixels. Flat solid magenta #FF00FF background everywhere.
+```
+
+`python3 tools/import_ai.py portrait orol art/sources/orol_portrait.png`
 
 ## Chapitres suivants
 

@@ -37,6 +37,7 @@ ROOT = os.path.dirname(HERE)
 GEN = os.path.join(ROOT, "src", "game", "gen")
 BONUS = os.path.join(ROOT, "story", "bonus.txt")
 LINES = os.path.join(ROOT, "story", "lines.txt")
+CHOICES = os.path.join(ROOT, "story", "choices.txt")
 # le cours est ce repo (esp32/zajka-quest/ -> racine, qui contient md/ et exercises/)
 DEFAULT_COURSE = os.path.normpath(os.path.join(ROOT, "..", ".."))
 
@@ -57,6 +58,12 @@ EPISODES = [
     "10_Series_02_Sucho_04_co-budeme-robit",
     "10_Series_02_Sucho_05_fontana",
     "10_Series_02_Sucho_06_extra",
+    "10_Series_03_Raj_01_kam-teraz",
+    "10_Series_03_Raj_02_pocujes",
+    "10_Series_03_Raj_03_je-tu-voda",
+    "10_Series_03_Raj_04_rebriky",
+    "10_Series_03_Raj_05_roklina",
+    "10_Series_03_Raj_06_extra",
 ]
 
 # emoji du cours -> constante Speaker de src/game/course.h, nom affiche dans la boite de dialogue
@@ -75,6 +82,7 @@ SPEAKERS = [
     ("🦡", "SPK_MAREK", "Marek"),
     ("🐭", "SPK_MOUSE", ""),
     ("🐥", "SPK_CHICK", ""),
+    ("🐦", "SPK_BIRD", ""),
 ]
 EXERCISE_TYPES = {"qcm": "EX_QCM", "listen": "EX_LISTEN", "order": "EX_ORDER"}
 FONT_CHARS = set(CHARSET)
@@ -230,11 +238,33 @@ def norm(s):
     return re.sub(r"\s+", " ", s).strip().lower()
 
 
+_FIXED = None
+
+
+def fixed_choices():
+    """story/choices.txt : « bonne || fausse || fausse », pour remplacer un choix mal tire des exercices."""
+    global _FIXED
+    if _FIXED is None:
+        _FIXED = {}
+        if os.path.exists(CHOICES):
+            for line in open(CHOICES, encoding="utf-8"):
+                line = line.strip()
+                if not line or line.startswith("#"):
+                    continue
+                opts = [o.strip() for o in line.split("||")]
+                _FIXED[norm(opts[0])] = opts
+    return _FIXED
+
+
 def add_choices(ep, warn):
-    """Repliques du renard -> choix tires des exercices order, puis qcm."""
+    """Repliques du renard -> choix de story/choices.txt, sinon tires des exercices order, puis qcm."""
     for c in ep["dialog"]:
         c["choice"] = None
         if c["speaker"] != "SPK_FOX":
+            continue
+        fx = fixed_choices().get(norm(c["sk"]))
+        if fx:
+            c["choice"] = ("CH_PICK", "fix", [c["sk"]] + [clean(o, warn) for o in fx[1:3]])
             continue
         for e in ep["exercises"]:
             if e["type"] == "EX_ORDER" and norm(e["sk"]) == norm(c["sk"]) and len(e["tokensSk"]) >= 2:

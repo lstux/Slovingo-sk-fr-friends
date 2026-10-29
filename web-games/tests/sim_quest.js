@@ -53,15 +53,38 @@ function parseButtons(s) {
 }
 
 const segs = [];
+// script « go » : le renard marche case par case (voir parseGo dans sim.cpp)
+//   R7 L2 U3 D1 marcher ; tU tourner sans avancer ; A presser A ; W30 attendre 30 images ; P capture
+const goCmds = [];
+const DIR_INDEX = { L: 0, R: 1, U: 2, D: 3 };
+function parseGo(line) {
+  let i = 0;
+  while (i < line.length) {
+    while (i < line.length && /\s/.test(line[i])) i++;
+    if (i >= line.length) break;
+    const c = line[i++];
+    const g = { kind: '', dir: 0, n: 1 };
+    const num = () => { let n = 0; while (i < line.length && /[0-9]/.test(line[i])) n = n * 10 + (line.charCodeAt(i++) - 48); return n; };
+    if (c === 't' && i < line.length) { g.kind = 'T'; g.dir = DIR_INDEX[line[i++]]; }
+    else if (c in DIR_INDEX) { g.kind = 'M'; g.dir = DIR_INDEX[c]; g.n = num() || 1; }
+    else if (c === 'A' || c === 'P') g.kind = c;
+    else if (c === 'W') { g.kind = 'W'; g.n = num(); }
+    else { console.error(`script go : commande inconnue « ${c} »`); continue; }
+    goCmds.push(g);
+  }
+}
 if (opt.script) {
   for (const line of fs.readFileSync(opt.script, 'utf8').split('\n')) {
     if (line.startsWith('#')) continue;
+    if (line.startsWith('go ')) { parseGo(line.slice(3)); continue; }
     let m = line.match(/^shot\s+(\d+)/);
     if (m) { opt.shots.push(+m[1]); continue; }
     m = line.match(/^\s*(\d+)\s+(\d+)\s+(\S+)/);
     if (m) segs.push({ from: +m[1], to: +m[2], btn: parseButtons(m[3]) });
   }
 }
+const goMode = goCmds.length > 0;
+if (goMode) opt.frames = 1 << 28;   // le script va jusqu'au bout de ses commandes
 if (opt.frames === 0) {
   for (const s of opt.shots) opt.frames = Math.max(opt.frames, s);
   for (const s of segs) opt.frames = Math.max(opt.frames, s.to);
@@ -116,11 +139,56 @@ let last = game.state();
 const seen = [stateName(last)];
 let lastMap = null, lastTalks = 0, lastWords = 0, lastTx = -1, lastTy = -1;
 const lastItems = new Array(16).fill(0);
+const DIR_BTN = [C.BTN_LEFT, C.BTN_RIGHT, C.BTN_UP, C.BTN_DOWN];
+let gi = 0, gcount = -1, gstall = 0, gx = 0, gy = 0, gpause = 0, goEnd = 0, gmap = null, gfail = false;
 let t = 0, guard = 0, wasChoosing = false, peeked = false, erred = false, choiceLine = null;
-for (let f = 1; t < opt.frames && guard < opt.frames * 20; f++, guard++) {
+for (let f = 1; t < opt.frames && guard < (goMode ? 4000000 : opt.frames * 20); f++, guard++) {
   let raw = 0;
   const talking = opt.auto && (game.state() === Q.S_DIALOG || game.state() === Q.S_NOTE);
-  if (!talking) {
+  if (!talking && goMode) {
+    // le script « go » : une commande a la fois, rien tant que le monde n'est pas libre
+    t++;
+    if (gi >= goCmds.length) {
+      if (++goEnd > 40) break;
+    } else if (game.state() === Q.S_CHAPTER) {
+      if (f % 10 === 0 && input.held === 0) raw = C.BTN_A;   // la carte du chapitre : on part
+    } else if (game.state() === Q.S_WORLD) {
+      const g = goCmds[gi], w = game.world();
+      if (gpause > 0) {
+        gpause--;
+      } else if (g.kind === 'M') {
+        if (gcount < 0) { gcount = 0; gstall = 0; gmap = w.map().id; gx = w.player().tx; gy = w.player().ty; }
+        if (w.map().id !== gmap) {   // une porte : la commande est finie
+          gi++; gcount = -1; gpause = 6;
+        } else {
+          if (w.player().tx !== gx || w.player().ty !== gy) {
+            gx = w.player().tx; gy = w.player().ty; gcount++; gstall = 0;
+          } else if (++gstall > 90) {
+            log(`image ${pad(f, 5)} : script go bloque (commande ${gi + 1} : ${'LRUD'[g.dir]}${g.n}, ${gcount} case(s) faite(s)) en (${gx}, ${gy})`);
+            gfail = true; gi++; gcount = -1; gpause = 6;
+          }
+          if (gcount >= g.n) {   // la derniere case est entamee : on lache la croix, le pas s'acheve
+            if (w.player().left === 0) { gi++; gcount = -1; gpause = 6; }
+          } else {
+            raw = DIR_BTN[g.dir];
+          }
+        }
+      } else if (g.kind === 'T') {
+        if (gcount < 0) gcount = 0;
+        if (gcount < 4) raw = DIR_BTN[g.dir];
+        if (++gcount > 12) { gi++; gcount = -1; gpause = 4; }
+      } else if (g.kind === 'A') {
+        if (gcount < 0) gcount = 0;
+        if (gcount < 3) raw = C.BTN_A;
+        if (++gcount > 6) { gi++; gcount = -1; gpause = 4; }
+      } else if (g.kind === 'W') {
+        if (gcount < 0) gcount = 0;
+        if (++gcount > g.n) { gi++; gcount = -1; }
+      } else if (g.kind === 'P') {
+        opt.shots.push(t); gi++; gcount = -1;
+      }
+    }
+  } else if (!talking) {
     t++;
     for (const s of segs) if (t >= s.from && t <= s.to) raw |= s.btn;
   } else if (game.state() === Q.S_NOTE) {
@@ -208,7 +276,8 @@ for (let f = 1; t < opt.frames && guard < opt.frames * 20; f++, guard++) {
   }
 }
 if (opt.wav) saveWav(path.join(opt.out, 'audio.wav'), Int16Array.from(pcm));
-log(`${opt.frames} images, etat final : ${stateName(game.state())}, ${storage.writes()} sauvegarde(s)`);
+log(`${goMode ? t : opt.frames} images, etat final : ${stateName(game.state())}, ${storage.writes()} sauvegarde(s)`);
+if (gfail) { log('ECHEC : le script go est reste bloque'); process.exit(1); }
 if (opt.expect.length) {
   let k = 0;
   for (const s of seen) if (k < opt.expect.length && s === opt.expect[k]) k++;
