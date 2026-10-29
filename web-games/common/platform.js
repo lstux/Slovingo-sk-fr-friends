@@ -114,6 +114,14 @@
         }
         return names[el.dataset.btn] || 0;
       };
+      // allume les fleches de la croix selon le masque de directions
+      const light = (el, m) => {
+        if (el.dataset.dpad === undefined) return;
+        el.classList.toggle('d-up', !!(m & C.BTN_UP));
+        el.classList.toggle('d-down', !!(m & C.BTN_DOWN));
+        el.classList.toggle('d-left', !!(m & C.BTN_LEFT));
+        el.classList.toggle('d-right', !!(m & C.BTN_RIGHT));
+      };
       const on = (ev) => {
         const el = ev.target.closest('[data-btn],[data-dpad]');
         if (!el || !pad.contains(el)) return;
@@ -121,18 +129,19 @@
         try { el.setPointerCapture(ev.pointerId); } catch (e) { /* ignore */ }
         held.set(ev.pointerId, maskFor(el, ev));
         el.classList.add('on');
+        light(el, held.get(ev.pointerId));
         apply();
       };
       const move = (ev) => {
         if (!held.has(ev.pointerId)) return;
         const el = ev.target.closest('[data-btn],[data-dpad]');
-        if (el && el.dataset.dpad !== undefined) { held.set(ev.pointerId, maskFor(el, ev)); apply(); }
+        if (el && el.dataset.dpad !== undefined) { held.set(ev.pointerId, maskFor(el, ev)); light(el, held.get(ev.pointerId)); apply(); }
       };
       const off = (ev) => {
         if (!held.has(ev.pointerId)) return;
         held.delete(ev.pointerId);
         const el = ev.target.closest('[data-btn],[data-dpad]');
-        if (el) el.classList.remove('on');
+        if (el) { el.classList.remove('on'); light(el, 0); }
         apply();
       };
       pad.addEventListener('pointerdown', on);

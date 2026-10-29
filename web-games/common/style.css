@@ -1,31 +1,74 @@
-:root { color-scheme: dark; --bg:#14141f; --panel:#1e1e2e; --ink:#f2ecd8; --dim:#9a96a8; --accent:#f0a830; --btn:#2c2c42; --btnon:#f0a830; }
+:root { color-scheme: dark; --bg:#14141f; --panel:#1e1e2e; --ink:#f2ecd8; --dim:#9a96a8; --accent:#f0a830; --btn:#2c2c42; --btn-hi:#3d3d5c; --btnon:#f0a830; --line:#3a3a55; }
 * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
 html, body { margin: 0; height: 100%; background: var(--bg); color: var(--ink); font: 15px/1.4 system-ui, sans-serif; overflow: hidden; }
-body { display: flex; flex-direction: column; }
-header { display: flex; align-items: center; gap: 12px; padding: 6px 12px; background: var(--panel); font-size: 13px; }
-header a, header button { color: var(--ink); background: none; border: 1px solid #3a3a55; border-radius: 6px; padding: 3px 10px; font: inherit; text-decoration: none; cursor: pointer; }
+body { height: 100dvh; display: flex; flex-direction: column; padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left); }
+header { display: flex; align-items: center; gap: 10px; padding: 6px 12px; background: var(--panel); font-size: 13px; }
+header a, header button { color: var(--ink); background: none; border: 1px solid var(--line); border-radius: 6px; padding: 3px 10px; font: inherit; text-decoration: none; cursor: pointer; white-space: nowrap; }
 header .title { font-weight: 700; margin-right: auto; }
-main { flex: 1; min-height: 0; display: flex; align-items: center; justify-content: center; position: relative; }
+main { flex: 1; min-height: 0; min-width: 0; display: flex; align-items: center; justify-content: center; position: relative; }
 #screen { image-rendering: pixelated; image-rendering: crisp-edges; background: #000; touch-action: none; outline: none; }
 #start { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: rgba(10,10,20,.82); font-size: 20px; cursor: pointer; text-align: center; padding: 20px; }
 #start.hidden { display: none; }
-#help { position: absolute; right: 12px; top: 8px; max-width: 360px; background: var(--panel); border: 1px solid #3a3a55; border-radius: 8px; padding: 10px 14px; font-size: 13px; z-index: 5; }
+#help { position: absolute; right: 12px; top: 8px; max-width: 360px; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 10px 14px; font-size: 13px; z-index: 5; }
 #help.hidden { display: none; }
 #help table { border-collapse: collapse; width: 100%; }
 #help td { padding: 2px 6px; }
 #help td:first-child { color: var(--accent); white-space: nowrap; }
 kbd { background: var(--btn); border-radius: 4px; padding: 0 5px; }
-/* boutons tactiles : visibles seulement sur ecrans tactiles */
-#pad { display: none; justify-content: space-between; align-items: center; padding: 8px 14px 14px; user-select: none; -webkit-user-select: none; touch-action: none; }
+
+/* ---- boutons tactiles : visibles seulement sur ecrans tactiles ---- */
+#pad { display: none; justify-content: space-between; align-items: center; padding: 8px 18px 14px; user-select: none; -webkit-user-select: none; touch-action: none; }
 @media (pointer: coarse) { #pad { display: flex; } header .hide-touch { display: none; } }
 #pad.always { display: flex; }
-#pad [data-dpad] { flex: none; width: 150px; height: 150px; border-radius: 50%; background: var(--btn); position: relative; touch-action: none; }
-#pad [data-dpad]::before { content: "✥"; position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-size: 56px; color: var(--dim); }
-#pad [data-dpad].on { background: #3a3a5c; }
+#pad .right { display: contents; }
 #pad .mid { display: flex; flex-direction: column; gap: 10px; }
-#pad .mid button { width: 78px; height: 34px; font-size: 12px; }
 #pad .acts { display: flex; gap: 16px; align-items: flex-end; }
-#pad button { flex: none; background: var(--btn); color: var(--ink); border: 0; border-radius: 50%; width: 76px; height: 76px; font: 700 20px system-ui; touch-action: none; }
-#pad .mid button { border-radius: 17px; }
-#pad button.on { background: var(--btnon); color: #111; }
-#pad .acts button[data-btn=A] { margin-bottom: 36px; }
+
+/* croix : deux branches arrondies, une fleche par direction qui s'allume quand on appuie */
+#pad [data-dpad] { flex: none; position: relative; width: 148px; height: 148px; touch-action: none; filter: drop-shadow(0 3px 4px rgba(0,0,0,.55)); }
+#pad [data-dpad]::before, #pad [data-dpad]::after { content: ""; position: absolute; background: linear-gradient(160deg, var(--btn-hi), var(--btn)); border: 1px solid #4a4a6e; }
+#pad [data-dpad]::before { left: 0; right: 0; top: 36%; bottom: 36%; border-radius: 14px; }
+#pad [data-dpad]::after { top: 0; bottom: 0; left: 36%; right: 36%; border-radius: 14px; }
+#pad [data-dpad] i { position: absolute; z-index: 1; width: 0; height: 0; pointer-events: none; border: 9px solid transparent; opacity: .55; transition: opacity .06s, transform .06s; }
+#pad [data-dpad] .u { left: calc(50% - 9px); top: 9px; border-bottom: 13px solid var(--ink); border-top-width: 0; }
+#pad [data-dpad] .d { left: calc(50% - 9px); bottom: 9px; border-top: 13px solid var(--ink); border-bottom-width: 0; }
+#pad [data-dpad] .l { top: calc(50% - 9px); left: 9px; border-right: 13px solid var(--ink); border-left-width: 0; }
+#pad [data-dpad] .r { top: calc(50% - 9px); right: 9px; border-left: 13px solid var(--ink); border-right-width: 0; }
+#pad [data-dpad].d-up .u, #pad [data-dpad].d-down .d, #pad [data-dpad].d-left .l, #pad [data-dpad].d-right .r { opacity: 1; border-color: transparent; transform: scale(1.15); }
+#pad [data-dpad].d-up .u { border-bottom-color: var(--btnon); }
+#pad [data-dpad].d-down .d { border-top-color: var(--btnon); }
+#pad [data-dpad].d-left .l { border-right-color: var(--btnon); }
+#pad [data-dpad].d-right .r { border-left-color: var(--btnon); }
+
+/* boutons ronds A / B et pastilles Select / Start / Vol */
+#pad button { flex: none; color: var(--ink); border: 1px solid #4a4a6e; font: 700 20px system-ui; touch-action: none; cursor: pointer;
+  background: radial-gradient(circle at 35% 30%, var(--btn-hi), var(--btn) 70%); box-shadow: 0 3px 4px rgba(0,0,0,.55), inset 0 1px 0 rgba(255,255,255,.12); transition: transform .06s; }
+#pad .acts button { width: 70px; height: 70px; border-radius: 50%; }
+#pad .acts button[data-btn=A] { margin-bottom: 34px; }
+#pad .mid button { width: 78px; height: 30px; border-radius: 15px; font-size: 11px; letter-spacing: .06em; }
+#pad button.on { background: radial-gradient(circle at 35% 30%, #ffd27a, var(--btnon) 70%); color: #1b1608; transform: translateY(2px); box-shadow: 0 1px 2px rgba(0,0,0,.6); }
+
+/* ---- telephone en paysage : croix a gauche, boutons a droite, le jeu au milieu ---- */
+@media (pointer: coarse) and (orientation: landscape) {
+  body { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; grid-template-rows: auto minmax(0, 1fr); grid-template-areas: "head head head" "left stage right"; }
+  header { grid-area: head; padding: 3px 10px; gap: 8px; font-size: 12px; }
+  header a, header button { padding: 1px 8px; }
+  main { grid-area: stage; }
+  #pad { display: contents; }
+  #pad [data-dpad] { grid-area: left; align-self: center; margin: 0 6px 0 14px; width: 128px; height: 128px; }
+  #pad .right { grid-area: right; align-self: center; display: flex; flex-direction: column; align-items: center; gap: 12px; margin: 0 14px 0 6px; }
+  #pad .right .mid { flex-direction: row; gap: 6px; order: 2; }
+  #pad .mid button { width: 64px; height: 26px; }
+  #pad .acts button { width: 62px; height: 62px; }
+  #pad .acts button[data-btn=A] { margin-bottom: 26px; }
+}
+
+/* petits ecrans en portrait : tout doit tenir en largeur */
+@media (pointer: coarse) and (orientation: portrait) and (max-width: 440px) {
+  #pad { padding: 8px 12px 14px; gap: 8px; }
+  #pad [data-dpad] { width: 128px; height: 128px; }
+  #pad .acts { gap: 10px; }
+  #pad .acts button { width: 60px; height: 60px; }
+  #pad .acts button[data-btn=A] { margin-bottom: 30px; }
+  #pad .mid button { width: 70px; }
+}
