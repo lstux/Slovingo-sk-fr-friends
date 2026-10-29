@@ -138,7 +138,7 @@ jobs:
           # les jeux web (pages et donnees, sans les outils ni les tests)
           if [ -d content/web-games ]; then
             mkdir -p _site/games
-            cp -r content/web-games/index.html content/web-games/common content/web-games/zajka-run \
+            cp -r content/web-games/index.html content/web-games/common content/web-games/img content/web-games/zajka-run \
               content/web-games/zajka-quest _site/games/
           fi
           touch _site/.nojekyll

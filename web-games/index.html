@@ -5,18 +5,55 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Zajka — jeux web</title>
 <style>
-  body { margin:0; min-height:100vh; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:24px; background:#14141f; color:#f2ecd8; font:16px system-ui,sans-serif; padding:20px; }
-  .back { width:auto; padding:8px 16px; border-radius:20px; }
-  h1 { margin:0; } .row { display:flex; gap:20px; flex-wrap:wrap; justify-content:center; }
-  a { display:block; width:260px; padding:22px; border-radius:12px; background:#1e1e2e; color:inherit; text-decoration:none; border:1px solid #3a3a55; }
-  a:hover { border-color:#f0a830; } b { font-size:20px; } small { color:#9a96a8; }
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100vh; min-height: 100dvh; display: flex; flex-direction: column; align-items: center; gap: 28px; padding: 28px 16px 24px; color: #f2ecd8; font: 16px/1.4 system-ui, sans-serif;
+    background: radial-gradient(ellipse at 50% 0%, #2c2c52 0%, #14141f 60%) fixed; }
+  h1 { margin: 0; font: 900 34px/1 system-ui, sans-serif; letter-spacing: .12em; text-transform: uppercase; color: #f0a830; text-shadow: 0 3px 0 #7a3d12, 0 6px 14px rgba(0,0,0,.6); }
+  .sub { margin: -16px 0 0; color: #9a96a8; font-size: 14px; text-align: center; }
+  .shelf { display: flex; flex-wrap: wrap; justify-content: center; gap: 36px 44px; padding: 8px 8px 26px; border-bottom: 10px solid #3a2a1c; border-radius: 0 0 6px 6px;
+    background: linear-gradient(#0000 calc(100% - 10px), #0006 100%); }
+
+  /* boite de cartouche 16 bits : plastique epais, bandeau de titre, fenetre d'illustration */
+  .box { --c1: #f0a830; --c2: #c2411b; position: relative; display: flex; flex-direction: column; width: 270px; padding: 10px; border-radius: 10px 10px 6px 6px; color: #fff; text-decoration: none;
+    background: linear-gradient(160deg, var(--c1), var(--c2)); border: 3px solid #0b0b12; outline: 2px solid rgba(255,255,255,.18); outline-offset: -8px;
+    box-shadow: 0 2px 0 #0b0b12, 0 12px 0 -2px #00000066, 0 18px 24px rgba(0,0,0,.65), inset 0 2px 0 rgba(255,255,255,.35), inset 6px 0 0 rgba(255,255,255,.12), inset -6px 0 0 rgba(0,0,0,.18);
+    transition: transform .15s, box-shadow .15s; }
+  .box.quest { --c1: #6a4ad8; --c2: #1b3f9a; }
+  .box::after { content: ""; position: absolute; inset: 0; border-radius: inherit; pointer-events: none; background: linear-gradient(115deg, rgba(255,255,255,.22) 0, rgba(255,255,255,0) 32%); }
+  .box:hover, .box:focus-visible { transform: translateY(-8px) rotate(-1deg); box-shadow: 0 2px 0 #0b0b12, 0 20px 0 -2px #00000044, 0 30px 34px rgba(0,0,0,.6), inset 0 2px 0 rgba(255,255,255,.35); outline-color: #fff; }
+  .box:active { transform: translateY(-2px); }
+  .tag { display: flex; justify-content: space-between; align-items: center; font: 700 10px/1 system-ui; letter-spacing: .16em; text-transform: uppercase; padding: 2px 4px 8px; opacity: .92; }
+  .tag span:last-child { border: 1px solid #fff9; border-radius: 3px; padding: 3px 5px; }
+  .title { margin: 0; padding: 8px 6px 7px; text-align: center; font: 900 27px/1 system-ui; letter-spacing: .06em; text-transform: uppercase; background: #0b0b12; border-radius: 4px; color: #ffe08a; text-shadow: 0 2px 0 #7a3d12; }
+  .quest .title { color: #c8f0ff; text-shadow: 0 2px 0 #1b2e78; }
+  .shot { margin: 10px 0; border: 4px solid #0b0b12; border-radius: 3px; background: #000; box-shadow: 0 0 0 2px #fff6; line-height: 0; }
+  .shot img { width: 100%; height: auto; image-rendering: pixelated; }
+  .foot { min-height: 44px; display: flex; justify-content: space-between; align-items: center; gap: 8px; font: 700 12px/1.25 system-ui; padding: 0 2px 4px; text-transform: uppercase; letter-spacing: .05em; }
+  .foot .play { flex: none; background: #fff; color: #14141f; border-radius: 4px; padding: 6px 10px; font-weight: 900; box-shadow: 0 3px 0 #0006; }
+  .box:hover .play, .box:focus-visible .play { background: #ffe08a; }
+  .back { color: #f2ecd8; text-decoration: none; border: 1px solid #3a3a55; border-radius: 20px; padding: 8px 16px; background: #1e1e2e; }
+  .back:hover { border-color: #f0a830; }
+  small { color: #9a96a8; text-align: center; }
+  @media (prefers-reduced-motion: reduce) { .box { transition: none; } }
 </style>
 </head>
 <body>
 <h1>Zajka</h1>
-<div class="row">
-  <a href="zajka-run/index.html"><b>Zajka Run</b><br><small>Jeu de plateformes — Košice, Raj, Súcho, Tatry</small></a>
-  <a href="zajka-quest/index.html"><b>Zajka Quest</b><br><small>Aventure et cours de slovaque</small></a>
+<p class="sub">Choisis ta cartouche</p>
+<div class="shelf">
+  <a class="box run" href="zajka-run/index.html" aria-label="Jouer à Zajka Run">
+    <div class="tag"><span>Slovingo · 16 bit</span><span>1 joueur</span></div>
+    <h2 class="title">Zajka Run</h2>
+    <div class="shot"><img src="img/run.png" width="320" height="240" alt="Le renard court dans les rues de Košice"></div>
+    <div class="foot"><span>Plateformes<br>Košice → Tatry</span><span class="play">▶ Jouer</span></div>
+  </a>
+  <a class="box quest" href="zajka-quest/index.html" aria-label="Jouer à Zajka Quest">
+    <div class="tag"><span>Slovingo · 16 bit</span><span>1 joueur</span></div>
+    <h2 class="title">Zajka Quest</h2>
+    <div class="shot"><img src="img/quest.png" width="320" height="240" alt="Le renard explore une place de ville"></div>
+    <div class="foot"><span>Aventure &amp;<br>cours de slovaque</span><span class="play">▶ Jouer</span></div>
+  </a>
 </div>
 <a class="back" href="../">← Retour au cours</a>
 <small>Versions web des jeux ESP32 / Odroid-Go (dossier <code>esp32/</code>)</small>
