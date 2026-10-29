@@ -72,3 +72,6 @@ kbd { background: var(--btn); border-radius: 4px; padding: 0 5px; }
   #pad .acts button[data-btn=A] { margin-bottom: 30px; }
   #pad .mid button { width: 70px; }
 }
+
+/* plein ecran : la page entiere est en plein ecran, la grille paysage reste valable */
+:fullscreen body, html:fullscreen body { height: 100vh; height: 100dvh; }
