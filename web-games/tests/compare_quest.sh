@@ -35,6 +35,10 @@ run chapitre1 --script "$S/chapter.txt" --auto --every 150 --wav
 run chapitre1_peek --script "$S/chapter.txt" --auto-peek --every 400
 run chapitre1_wrong --script "$S/chapter.txt" --auto-wrong --every 400
 run chapitre2 --chapter 2 --script "$S/chapter2.txt" --auto --every 150 --wav
+run chapitre3 --chapter 3 --script "$HERE/chapter3_shots.txt" --auto   # sans --wav : le script go tourne jusqu au garde-fou apres la fin
+run chapitre3_chute --chapter 3 --script "$HERE/chapter3_extra.txt" --auto
+run chapitre3_peek --chapter 3 --script "$HERE/chapter3_shots.txt" --auto-peek
+run chapitre3_wrong --chapter 3 --script "$HERE/chapter3_shots.txt" --auto-wrong
 # reprise d'une partie : le chapitre 1 enregistre sa partie, puis resume.txt la reprend (chapitre 2, Andrea derriere)
 run chapitre1_save --script "$S/chapter.txt" --auto --every 1000 --save {SAVE}
 cp "$W/chapitre1_save/c.sav" "$W/resume_c.sav"; cp "$W/chapitre1_save/j.sav" "$W/resume_j.sav"

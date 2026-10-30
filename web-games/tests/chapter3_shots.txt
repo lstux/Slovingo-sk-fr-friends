@@ -1,0 +1,10 @@
+# Copie de esp32/zajka-quest/sim/chapter3.txt avec des captures (P) entre les commandes, et sans la
+# derniere attente (W200), qui ne servirait a rien apres l ecran de fin.
+go W10 U4 P R20 P P
+go R1 P R7 P U4 P R10 P D7 P R10 P U4 P R5 P W20 P
+go R7 P A W20 tL A W20 P
+go L4 P U6 P W20 P
+go R1 P W20 R5 P P
+go R1 P U2 P R5 P D1 P R2 P D3 P R1 P W10 P
+go R2 P U7 P R12 P A W20 R5 P P
+go R16 P W20 R12

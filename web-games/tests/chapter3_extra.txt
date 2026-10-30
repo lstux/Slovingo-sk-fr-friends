@@ -1,0 +1,9 @@
+# Chapitre 3 : une planche qui cede puis l'eau (le renard recommence devant les planches),
+# puis 80 s sans rien faire : le rappel de l'objectif (idleHint). Memes captures que chapter3_shots.txt.
+go W10 U4 P R20 P P
+go R1 P R7 P U4 P R10 P D7 P R10 P U4 P R5 P W20 P
+go R7 P A W20 tL A W20 P
+go L4 P U6 P W20 P
+go R1 P W20 R5 P P
+go R1 P R9 P W60 P R1 P W120 P
+go W5000 P W60 P
