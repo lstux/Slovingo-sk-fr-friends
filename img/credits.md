@@ -19,6 +19,7 @@ Faites d'après `docs/Prompts-illustrations.md`, avec les planches de personnage
 | `00_Introduction_01_bienvenue.md` | `illus_00_couverture.jpg` | aucune | générée pour ce projet (2026) |
 | `10_Series_01_Kosice_05_v-elektricke.md` | `illus_01_kosice.jpg` | [Košice - Hlavná… Ringhoffer tram… (June 2006) 01.jpg](https://commons.wikimedia.org/wiki/File:Ko%C5%A1ice_-_Hlavn%C3%A1_(Main_street)_-_Historic_Ringhoffer_tram,_green_livery_and_Zlat%C3%BD_ba%C5%BEant_sponsor_livery,_at_the_Lower_Gate,_Old_Town,_Ko%C5%A1ice_(June_2006)_01.jpg), ZemplinTemplar | CC BY-SA 4.0 (œuvre dérivée) |
 | `10_Series_02_Sucho_05_fontana.md` | `illus_02_sucho.jpg` | [Spievajúca fontána, Košice, 2026 (5).jpg](https://commons.wikimedia.org/wiki/File:Spievaj%C3%BAca_font%C3%A1na,_Ko%C5%A1ice,_2026_(5).jpg), Antimuonium | CC BY-SA 4.0 (œuvre dérivée) |
+| `10_Series_03_Raj_05_roklina.md` | `illus_03_raj.jpg` | [Slovensky raj, Sucha Bela, 03.jpg](https://commons.wikimedia.org/wiki/File:Slovensky_raj,_Sucha_Bela,_03.jpg), dariusz wozniak | CC BY-SA 3.0 (œuvre dérivée) |
 
 ## Images de style (bandeaux de thème)
 
@@ -70,7 +71,6 @@ Fichiers `img/style_<clé>.jpg`, repris de Slovingo-sk-fr-kids (même source, m�
 | `10_Series_12_Hrad_03_trema.md` | [Peacock butterfly (Aglais io) 2.jpg](https://commons.wikimedia.org/wiki/File:Peacock_butterfly_(Aglais_io)_2.jpg) | Wikimedia Commons | Charles J. Sharp | CC BY-SA 3.0 |
 | `10_Series_03_Raj_06_extra.md` | [Bladen Lake Forest - Milky Way - Meteor.jpg](https://commons.wikimedia.org/wiki/File:Bladen_Lake_Forest_-_Milky_Way_-_Meteor.jpg) | Wikimedia Commons | Dennis Snipes | CC BY-SA 3.0 |
 | `10_Series_07_Cesta_05_nova-cesta.md` | [Road through the New Forest, Hale Purlieu - geograph.org.uk - 5830085.jpg](https://commons.wikimedia.org/wiki/File:Road_through_the_New_Forest,_Hale_Purlieu_-_geograph.org.uk_-_5830085.jpg) | Wikimedia Commons | David Howard | CC BY-SA 2.0 |
-| `10_Series_03_Raj_05_roklina.md` | [A golden eagle, feathers ruffled against the falling snow, perches on a rocky outcropping atop a mountain (dec951c4-0379-4814-9783-83bd17521806).jpg](https://commons.wikimedia.org/wiki/File:A_golden_eagle,_feathers_ruffled_against_the_falling_snow,_perches_on_a_rocky_outcropping_atop_a_mountain_(dec951c4-0379-4814-9783-83bd17521806).jpg) | Wikimedia Commons | Jacob W. Frank | Public domain |
 | `10_Series_07_Cesta_02_vstup-zakazany.md` | [Kew Gdns Union Tpke td (2023-06-26) 04 - IND.jpg](https://commons.wikimedia.org/wiki/File:Kew_Gdns_Union_Tpke_td_(2023-06-26)_04_-_IND.jpg) | Wikimedia Commons | Tdorante10 | CC BY-SA 4.0 |
 | `10_Series_10_Rozhodnutie_06_extra.md` | [Campfire breakfast at Allegany State Park, New York - 20211110.jpg](https://commons.wikimedia.org/wiki/File:Campfire_breakfast_at_Allegany_State_Park,_New_York_-_20211110.jpg) | Wikimedia Commons | Andre Carrotflower | CC BY-SA 4.0 |
 | `10_Series_13_Sen_03_mokre-ponozky.md` | [Dew Drops on Grass in shahkot, Punjab, Pakistan.jpg](https://commons.wikimedia.org/wiki/File:Dew_Drops_on_Grass_in_shahkot,_Punjab,_Pakistan.jpg) | Wikimedia Commons | Salman Munir | CC BY-SA 4.0 |

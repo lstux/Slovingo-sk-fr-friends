@@ -1,6 +1,6 @@
 # Série Raj (5/5) — Na konci rokliny
 
-@ img/orol-skalny.jpg | Un aigle royal posé sur un rocher. Source : Wikimedia Commons
+@ img/illus_03_raj.jpg | Au bout de la gorge, tu as survécu aux échelles. Et quelqu'un vous attend. Source : illustration générée avec ChatGPT, d'après une photo de dariusz wozniak (Wikimedia Commons, CC BY-SA 3.0)
 
 {{fr:Tu as survécu aux échelles. Au bout de la gorge, quelqu'un vous attend : une vieille connaissance des Tatras, qu'il faut vouvoyer.}}
 
