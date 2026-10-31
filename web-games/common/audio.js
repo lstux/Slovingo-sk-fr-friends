@@ -1,4 +1,4 @@
-// Synthe chiptune : port de esp32/zajka-*/src/game/audio.{h,cpp}.
+// Synthe chiptune : port de esp32/zajko-*/src/game/audio.{h,cpp}.
 // 4 voix de musique (2 carres, triangle, bruit) + 2 voix d'effets, 22050 Hz mono, calcul en entiers
 // comme sur la console. Les tables (effets, morceaux) viennent du jeu (audio_data.js) ; ce fichier
 // contient le moteur, commun a Run et a Quest, et la sortie Web Audio.
@@ -235,6 +235,6 @@
     }
   }
 
-  const ns = root.ZajkaCommon = root.ZajkaCommon || {};
+  const ns = root.ZajkoCommon = root.ZajkoCommon || {};
   Object.assign(ns, { AUDIO_RATE, Audio, WebAudioOut });
 })(globalThis);

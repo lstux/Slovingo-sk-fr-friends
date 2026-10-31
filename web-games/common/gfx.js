@@ -1,4 +1,4 @@
-// Rendu 320x240 en RGB565 : port de esp32/zajka-*/src/game/gfx.{h,cpp}.
+// Rendu 320x240 en RGB565 : port de esp32/zajko-*/src/game/gfx.{h,cpp}.
 // Meme principe que le firmware : images 8 bits indexees (palette[0] = transparent), polices
 // bitmap 1 bit, composition dans un tampon RGB565. La plateforme convertit ensuite en RGBA.
 (function (root) {
@@ -189,7 +189,7 @@
     return lut;
   }
 
-  const ns = root.ZajkaCommon = root.ZajkaCommon || {};
+  const ns = root.ZajkoCommon = root.ZajkoCommon || {};
   Object.assign(ns, {
     SCREEN_W, SCREEN_H, BAND_H, rgb, decodeB64, unpackBits, unpackB64,
     makeImage8, makeSheet, makeFont, textWidth, Band, makePaletteLUT,

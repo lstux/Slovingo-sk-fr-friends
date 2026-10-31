@@ -1,4 +1,4 @@
-# Progression pédagogique de Zajka Friends
+# Progression pédagogique de Zajko Friends
 
 ## Philosophie
 

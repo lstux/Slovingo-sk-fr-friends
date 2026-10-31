@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Exporte les tables sonores (effets, morceaux) d'un jeu ESP32 pour la version web.
 
-    python3 web-games/tools/export_audio.py run     # esp32/zajka-run/src/game/audio.cpp
-    python3 web-games/tools/export_audio.py quest   # esp32/zajka-quest/src/game/audio.cpp
+    python3 web-games/tools/export_audio.py run     # esp32/zajko-run/src/game/audio.cpp
+    python3 web-games/tools/export_audio.py quest   # esp32/zajko-quest/src/game/audio.cpp
 
 Le moteur de synthese est porte une fois pour toutes dans web-games/common/audio.js ; ici on ne
 lit que les donnees : tables d'effets (Step), melodies (Note), accords (Chord) et morceaux (Song).
@@ -17,7 +17,7 @@ import cdata  # noqa: E402
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(os.path.dirname(HERE))
-GAMES = {"run": ("zajka-run", "ZR_AUDIO"), "quest": ("zajka-quest", "ZQ_AUDIO")}
+GAMES = {"run": ("zajko-run", "ZR_AUDIO"), "quest": ("zajko-quest", "ZQ_AUDIO")}
 
 
 def main(game):

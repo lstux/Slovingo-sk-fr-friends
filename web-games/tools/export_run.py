@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Exporte les donnees de Zajka Run (images, polices, niveaux) pour la version web.
+"""Exporte les donnees de Zajko Run (images, polices, niveaux) pour la version web.
 
     python3 web-games/tools/export_run.py
 
-Lit esp32/zajka-run/src/game/gen/assets_data.inc (ce que le firmware embarque, genere par
-esp32/zajka-run/tools/build_assets.py) et ecrit web-games/zajka-run/data/assets.js.
+Lit esp32/zajko-run/src/game/gen/assets_data.inc (ce que le firmware embarque, genere par
+esp32/zajko-run/tools/build_assets.py) et ecrit web-games/zajko-run/data/assets.js.
 A relancer apres chaque regeneration des assets cote ESP32.
 """
 import json
@@ -16,8 +16,8 @@ import cdata  # noqa: E402
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(os.path.dirname(HERE))
-SRC = os.path.join(REPO, "esp32", "zajka-run", "src", "game", "gen", "assets_data.inc")
-OUT = os.path.join(REPO, "web-games", "zajka-run", "data", "assets.js")
+SRC = os.path.join(REPO, "esp32", "zajko-run", "src", "game", "gen", "assets_data.inc")
+OUT = os.path.join(REPO, "web-games", "zajko-run", "data", "assets.js")
 
 
 def ref(s):
@@ -55,7 +55,7 @@ def main():
     data = {"images": images, "sheets": sheets, "themes": themes, "fonts": fonts, "levels": levels}
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, "w", encoding="utf-8") as f:
-        f.write("// Genere par web-games/tools/export_run.py a partir de esp32/zajka-run : ne pas modifier a la main.\n")
+        f.write("// Genere par web-games/tools/export_run.py a partir de esp32/zajko-run : ne pas modifier a la main.\n")
         f.write("globalThis.ZR_DATA = " + json.dumps(data, ensure_ascii=False, separators=(",", ":")) + ";\n")
     print(f"{os.path.relpath(OUT, REPO)} : {len(images)} images, {len(sheets)} planches, "
           f"{len(themes)} themes, {len(fonts)} polices, {len(levels)} niveaux, {os.path.getsize(OUT) // 1024} Ko")

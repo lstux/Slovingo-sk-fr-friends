@@ -1,4 +1,4 @@
-// Boutons de la console (esp32/zajka-*/src/game/input.h) et sources d'entree du navigateur :
+// Boutons de la console (esp32/zajko-*/src/game/input.h) et sources d'entree du navigateur :
 // clavier, manette (API Gamepad) et boutons tactiles a l'ecran.
 (function (root) {
   'use strict';
@@ -95,7 +95,7 @@
     }
   }
 
-  const ns = root.ZajkaCommon = root.ZajkaCommon || {};
+  const ns = root.ZajkoCommon = root.ZajkoCommon || {};
   Object.assign(ns, {
     BTN_UP, BTN_DOWN, BTN_LEFT, BTN_RIGHT, BTN_A, BTN_B, BTN_START, BTN_SELECT, BTN_MENU, BTN_VOLUME,
     Input, InputSources, KEYS,

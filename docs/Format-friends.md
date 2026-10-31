@@ -1,4 +1,4 @@
-# Format Zajka Friends
+# Format Zajko Friends
 
 Ce document décrit comment le contenu est écrit pour des adolescents de **12 à 16 ans** qui ont fait (ou font) le cours [Slovingo-sk-fr-kids](https://github.com/lstux/Slovingo-sk-fr-kids). Il reprend le format de Kids (`docs/Format-enfants.md` dans ce dépôt de référence) et indique ce qui change. L'histoire, les personnages et le ton sont dans `Concept-friends.md`.
 

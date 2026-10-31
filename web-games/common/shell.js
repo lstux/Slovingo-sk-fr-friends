@@ -1,7 +1,7 @@
 // Habillage commun des pages de jeu : canvas ajuste, plein ecran, aide, "toucher pour jouer".
 (function (root) {
   'use strict';
-  const C = root.ZajkaCommon;
+  const C = root.ZajkoCommon;
 
   // opts : { game, audio, storageKey, volumeKey }
   function boot(opts) {

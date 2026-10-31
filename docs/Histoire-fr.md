@@ -1,4 +1,4 @@
-# Histoire de Zajka Friends — traduction française
+# Histoire de Zajko Friends — traduction française
 
 Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et en scènes, même ordre des répliques, mêmes avatars), pour que tu puisses annoter en face du slovaque. Les titres de chapitres restent en slovaque (ce sont les noms des séries).
 

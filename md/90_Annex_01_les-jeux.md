@@ -6,8 +6,8 @@ Le renard et Andrea ont aussi deux petits jeux. Ils se jouent directement dans l
 
 | Jeu | Ce qu'on y fait |
 |-----|-----------------|
-| [Zajka Run](https://lstux.github.io/Slovingo-sk-fr-friends/games/zajka-run/) | un jeu de plateformes : on court et on saute de Košice jusqu'aux Tatras, en ramassant des *medovníky* (pains d'épices) |
-| [Zajka Quest](https://lstux.github.io/Slovingo-sk-fr-friends/games/zajka-quest/) | une aventure à la Zelda : on se promène à Košice et à Sucho, on parle aux gens, on lit les panneaux, et les dialogues du cours se jouent avec Andrea |
+| [Zajko Run](https://lstux.github.io/Slovingo-sk-fr-friends/games/zajko-run/) | un jeu de plateformes : on court et on saute de Košice jusqu'aux Tatras, en ramassant des *medovníky* (pains d'épices) |
+| [Zajko Quest](https://lstux.github.io/Slovingo-sk-fr-friends/games/zajko-quest/) | une aventure à la Zelda : on se promène à Košice et à Sucho, on parle aux gens, on lit les panneaux, et les dialogues du cours se jouent avec Andrea |
 
 Tu peux aussi ouvrir la [page des deux jeux](https://lstux.github.io/Slovingo-sk-fr-friends/games/).
 
@@ -15,7 +15,7 @@ Tu peux aussi ouvrir la [page des deux jeux](https://lstux.github.io/Slovingo-sk
 
 ## Pour s'entraîner en jouant
 
-Dans Zajka Quest, les dialogues sont ceux des fiches : chaque réplique s'écrit en slovaque, et le bouton Select (la touche Tab du clavier) l'affiche en français. Quand le renard doit répondre, tu choisis la bonne phrase ou tu remets les morceaux dans l'ordre, sans pénalité. Un choix réussi du premier coup, sans regarder la traduction, fait gagner une réplique secrète.
+Dans Zajko Quest, les dialogues sont ceux des fiches : chaque réplique s'écrit en slovaque, et le bouton Select (la touche Tab du clavier) l'affiche en français. Quand le renard doit répondre, tu choisis la bonne phrase ou tu remets les morceaux dans l'ordre, sans pénalité. Un choix réussi du premier coup, sans regarder la traduction, fait gagner une réplique secrète.
 
 Les mots lus sur les panneaux se rangent dans le Slovník, le carnet de mots : touche Entrée pour ouvrir le menu.
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-// Simulateur en ligne de commande de la version web de Zajka Run : meme interface que
-// esp32/zajka-run/sim/sim.cpp (scripts d'entrees, robot, captures PPM, son WAV), pour comparer les
+// Simulateur en ligne de commande de la version web de Zajko Run : meme interface que
+// esp32/zajko-run/sim/sim.cpp (scripts d'entrees, robot, captures PPM, son WAV), pour comparer les
 // deux versions image par image.
 //
 //   node web-games/tests/sim_run.js --bot --level 2 --shots 300,900 --out /tmp/zr_js
@@ -13,12 +13,12 @@ const ROOT = path.join(__dirname, '..');
 function load(...files) {
   for (const f of files) vm.runInThisContext(fs.readFileSync(path.join(ROOT, f), 'utf8'), { filename: f });
 }
-load('common/gfx.js', 'common/audio.js', 'common/input.js', 'common/platform.js', 'zajka-run/data/assets.js', 'zajka-run/data/audio_data.js',
-  'zajka-run/js/level.js', 'zajka-run/js/assets.js', 'zajka-run/js/game.js');
-const C = globalThis.ZajkaCommon, R = globalThis.ZajkaRun;
+load('common/gfx.js', 'common/audio.js', 'common/input.js', 'common/platform.js', 'zajko-run/data/assets.js', 'zajko-run/data/audio_data.js',
+  'zajko-run/js/level.js', 'zajko-run/js/assets.js', 'zajko-run/js/game.js');
+const C = globalThis.ZajkoCommon, R = globalThis.ZajkoRun;
 
 const args = process.argv.slice(2);
-const opt = { out: '/tmp/zajka_js', script: '', bot: false, frames: 0, every: 0, wav: false, startX: -1, startY: -1,
+const opt = { out: '/tmp/zajko_js', script: '', bot: false, frames: 0, every: 0, wav: false, startX: -1, startY: -1,
   level: 0, afterEnd: 0, andrea: false, shots: [], volume: 2, save: '' };
 for (let i = 0; i < args.length; i++) {
   const a = args[i];

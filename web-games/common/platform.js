@@ -3,7 +3,7 @@
 (function (root) {
   'use strict';
 
-  const C = root.ZajkaCommon;
+  const C = root.ZajkoCommon;
   const { SCREEN_W, SCREEN_H, Band, makePaletteLUT, Input, InputSources } = C;
   const STEP_MS = 1000 / 60;
 
@@ -54,7 +54,7 @@
       this.sources = new InputSources();
       this.screen = new Screen();
       this.out = new C.WebAudioOut(opts.audio);
-      this.volumeKey = opts.volumeKey || 'zajka.volume';
+      this.volumeKey = opts.volumeKey || 'zajko.volume';
       this.ctx = this.canvas.getContext('2d', { alpha: false });
       this.image = this.ctx.createImageData(SCREEN_W, SCREEN_H);
       this.image32 = new Uint32Array(this.image.data.buffer);

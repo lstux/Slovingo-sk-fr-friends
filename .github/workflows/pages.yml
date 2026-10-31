@@ -2,7 +2,7 @@ name: GitHub Pages
 
 # Publie sur la même Page :
 #   - la racine (/) : la branche main
-#   - /games/       : les jeux Zajka Run et Zajka Quest en HTML/JS (dossier web-games/ de main),
+#   - /games/       : les jeux Zajko Run et Zajko Quest en HTML/JS (dossier web-games/ de main),
 #                     fichiers statiques copiés tels quels
 # Déclenché par un push sur main, ou manuellement.
 #
@@ -98,8 +98,8 @@ jobs:
           # les jeux web (pages et donnees, sans les outils ni les tests)
           if [ -d content/web-games ]; then
             mkdir -p _site/games
-            cp -r content/web-games/index.html content/web-games/common content/web-games/img content/web-games/zajka-run \
-              content/web-games/zajka-quest _site/games/
+            cp -r content/web-games/index.html content/web-games/common content/web-games/img content/web-games/zajko-run \
+              content/web-games/zajko-quest _site/games/
           fi
           touch _site/.nojekyll
 

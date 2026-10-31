@@ -1,17 +1,17 @@
 #!/bin/bash
-# Compare la version web de Zajka Run au simulateur C++ du firmware (meme robot, memes entrees) :
+# Compare la version web de Zajko Run au simulateur C++ du firmware (meme robot, memes entrees) :
 # etat du joueur a chaque image, captures d'ecran et son. Usage : compare_run.sh [dossier de travail]
 #
 # Le simulateur C++ est compile ici avec un volume non nul (sinon son WAV est muet).
 set -e
 HERE="$(cd "$(dirname "$0")" && pwd)"
 REPO="$(cd "$HERE/../.." && pwd)"
-W="${1:-/tmp/zajka_compare_run}"
+W="${1:-/tmp/zajko_compare_run}"
 mkdir -p "$W"
-sed -e "s#\"../src/game/game.h\"#\"$REPO/esp32/zajka-run/src/game/game.h\"#" \
+sed -e "s#\"../src/game/game.h\"#\"$REPO/esp32/zajko-run/src/game/game.h\"#" \
     -e 's#static Game game;#static Game game; audio.setVolume(2);#' \
-    "$REPO/esp32/zajka-run/sim/sim.cpp" > "$W/sim_patched.cpp"
-g++ -std=c++17 -O1 -ffp-contract=off -o "$W/sim_c" "$W/sim_patched.cpp" "$REPO"/esp32/zajka-run/src/game/*.cpp
+    "$REPO/esp32/zajko-run/sim/sim.cpp" > "$W/sim_patched.cpp"
+g++ -std=c++17 -O1 -ffp-contract=off -o "$W/sim_c" "$W/sim_patched.cpp" "$REPO"/esp32/zajko-run/src/game/*.cpp
 status=0
 run() {   # nom, options...
   local name="$1"; shift

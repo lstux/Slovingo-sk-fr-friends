@@ -1,4 +1,4 @@
-# Images à trouver — Zajka Friends
+# Images à trouver — Zajko Friends
 
 77 images à trouver pour 78 fiches (la photo de halušky sert deux fois). Les deux images de l'introduction (le renard, la hase) sont déjà en place.
 

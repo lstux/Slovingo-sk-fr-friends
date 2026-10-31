@@ -1,18 +1,18 @@
-# Zajka Friends 🇸🇰 🇫🇷
+# Zajko Friends 🇸🇰 🇫🇷
 
 🌐 **Le cours en ligne : [lstux.github.io/Slovingo-sk-fr-friends](https://lstux.github.io/Slovingo-sk-fr-friends/)**
 
 Apprendre le slovaque en voyageant de Košice à Bratislava — un récit en dialogues, pour les ados (12-16 ans).
 
-## 🎮 Jeux Zajka
+## 🎮 Jeux Zajko
 
 Deux petits jeux dans l'univers du cours, qui reprennent ses dialogues :
 
-- **Zajka Run** (plateformes) et **Zajka Quest** (aventure, chapitres Košice et Sucho), à jouer dans
+- **Zajko Run** (plateformes) et **Zajko Quest** (aventure, chapitres Košice et Sucho), à jouer dans
   le navigateur : **[lstux.github.io/Slovingo-sk-fr-friends/games/](https://lstux.github.io/Slovingo-sk-fr-friends/games/)**
   (sources dans [`web-games/`](./web-games/)).
-- Les mêmes jeux en firmware pour l'**ODROID-GO** (ESP32) : [`esp32/zajka-run`](./esp32/zajka-run/) et
-  [`esp32/zajka-quest`](./esp32/zajka-quest/).
+- Les mêmes jeux en firmware pour l'**ODROID-GO** (ESP32) : [`esp32/zajko-run`](./esp32/zajko-run/) et
+  [`esp32/zajko-quest`](./esp32/zajko-quest/).
 
 ## 🌐 Déploiement (GitHub Pages)
 

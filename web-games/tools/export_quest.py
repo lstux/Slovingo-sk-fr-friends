@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Exporte les donnees de Zajka Quest (images, polices, cartes, cours, scenes) pour la version web.
+"""Exporte les donnees de Zajko Quest (images, polices, cartes, cours, scenes) pour la version web.
 
     python3 web-games/tools/export_quest.py
 
-Lit esp32/zajka-quest/src/game/gen/ (assets_data.inc, course_data.inc, assets.h, scripts.h : ce que
-le firmware embarque) et ecrit web-games/zajka-quest/data/assets.js et course.js.
+Lit esp32/zajko-quest/src/game/gen/ (assets_data.inc, course_data.inc, assets.h, scripts.h : ce que
+le firmware embarque) et ecrit web-games/zajko-quest/data/assets.js et course.js.
 A relancer apres chaque regeneration des assets ou du cours cote ESP32 (build_assets.py, build_course.py).
 """
 import json
@@ -17,9 +17,9 @@ import cdata  # noqa: E402
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(os.path.dirname(HERE))
-GAME = os.path.join(REPO, "esp32", "zajka-quest", "src", "game")
+GAME = os.path.join(REPO, "esp32", "zajko-quest", "src", "game")
 GEN = os.path.join(GAME, "gen")
-OUT = os.path.join(REPO, "web-games", "zajka-quest", "data")
+OUT = os.path.join(REPO, "web-games", "zajko-quest", "data")
 
 
 def read(path):
@@ -112,7 +112,7 @@ def main():
 
     os.makedirs(OUT, exist_ok=True)
     with open(os.path.join(OUT, "assets.js"), "w", encoding="utf-8") as f:
-        f.write("// Genere par web-games/tools/export_quest.py a partir de esp32/zajka-quest : ne pas modifier a la main.\n")
+        f.write("// Genere par web-games/tools/export_quest.py a partir de esp32/zajko-quest : ne pas modifier a la main.\n")
         f.write("globalThis.ZQ_DATA = " + json.dumps(assets, ensure_ascii=False, separators=(",", ":")) + ";\n")
 
     # ---------------------------------------------------------------- cours et scenes
@@ -149,10 +149,10 @@ def main():
     course = {"episodes": episodes, "vocab": vocab, "scripts": scripts, "defaultName": default_name,
               "speakerNames": c["SPEAKER_NAMES"][1]}
     with open(os.path.join(OUT, "course.js"), "w", encoding="utf-8") as f:
-        f.write("// Genere par web-games/tools/export_quest.py a partir de esp32/zajka-quest : ne pas modifier a la main.\n")
+        f.write("// Genere par web-games/tools/export_quest.py a partir de esp32/zajko-quest : ne pas modifier a la main.\n")
         f.write("globalThis.ZQ_COURSE = " + json.dumps(course, ensure_ascii=False, separators=(",", ":")) + ";\n")
     size = sum(os.path.getsize(os.path.join(OUT, n)) for n in ("assets.js", "course.js"))
-    print(f"web-games/zajka-quest/data : {len(images)} images, {len(maps)} cartes, {len(episodes)} episodes, "
+    print(f"web-games/zajko-quest/data : {len(images)} images, {len(maps)} cartes, {len(episodes)} episodes, "
           f"{len(scripts)} scenes, {len(vocab)} mots, {size // 1024} Ko")
 
 

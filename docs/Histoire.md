@@ -1,4 +1,4 @@
-# Histoire de Zajka Friends (version slovaque, brouillon)
+# Histoire de Zajko Friends (version slovaque, brouillon)
 
 Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet avant de la découper en fiches. Il remplace, pour l'instant, les fiches des chapitres 1 et 2 : elles seront réécrites à partir d'ici.
 

@@ -1,8 +1,8 @@
 #!/usr/bin/env node
-// Simulateur en ligne de commande de la version web de Zajka Quest : meme interface et memes sorties
-// que esp32/zajka-quest/sim/sim.cpp (scripts d'entrees, robot de dialogue, captures PPM, son WAV).
+// Simulateur en ligne de commande de la version web de Zajko Quest : meme interface et memes sorties
+// que esp32/zajko-quest/sim/sim.cpp (scripts d'entrees, robot de dialogue, captures PPM, son WAV).
 //
-//   node web-games/tests/sim_quest.js --script esp32/zajka-quest/sim/chapter.txt --auto --out /tmp/zq_js
+//   node web-games/tests/sim_quest.js --script esp32/zajko-quest/sim/chapter.txt --auto --out /tmp/zq_js
 'use strict';
 const fs = require('fs');
 const path = require('path');
@@ -13,12 +13,12 @@ function load(...files) {
   for (const f of files) vm.runInThisContext(fs.readFileSync(path.join(ROOT, f), 'utf8'), { filename: f });
 }
 load('common/gfx.js', 'common/audio.js', 'common/input.js', 'common/platform.js',
-  'zajka-quest/data/assets.js', 'zajka-quest/data/course.js', 'zajka-quest/data/audio_data.js',
-  'zajka-quest/js/assets.js', 'zajka-quest/js/world.js', 'zajka-quest/js/dialog.js', 'zajka-quest/js/game.js');
-const C = globalThis.ZajkaCommon, Q = globalThis.ZajkaQuest;
+  'zajko-quest/data/assets.js', 'zajko-quest/data/course.js', 'zajko-quest/data/audio_data.js',
+  'zajko-quest/js/assets.js', 'zajko-quest/js/world.js', 'zajko-quest/js/dialog.js', 'zajko-quest/js/game.js');
+const C = globalThis.ZajkoCommon, Q = globalThis.ZajkoQuest;
 
 const args = process.argv.slice(2);
-const opt = { out: '/tmp/zajka-quest-js', script: '', frames: 0, every: 0, wav: false, auto: false, peek: false, wrong: false,
+const opt = { out: '/tmp/zajko-quest-js', script: '', frames: 0, every: 0, wav: false, auto: false, peek: false, wrong: false,
   save: '', chapter: 0, shots: [], expect: [], volume: 2 };
 for (let i = 0; i < args.length; i++) {
   const a = args[i];

@@ -1,10 +1,10 @@
 // Ouvre une page de jeu dans Chromium (file://), joue un peu au clavier, verifie l'absence d'erreurs et prend des captures.
-//   node web-games/tests/browser_page.js zajka-run|zajka-quest [dossier de captures]
+//   node web-games/tests/browser_page.js zajko-run|zajko-quest [dossier de captures]
 const { chromium } = require('playwright');
 const path = require('path');
 (async () => {
-  const page_ = process.argv[2] || 'zajka-run';
-  const out = process.argv[3] || '/tmp/zajka_browser';
+  const page_ = process.argv[2] || 'zajko-run';
+  const out = process.argv[3] || '/tmp/zajko_browser';
   require('fs').mkdirSync(out, { recursive: true });
   const b = await chromium.launch();
   const pg = await b.newPage({ viewport: { width: 960, height: 720 } });

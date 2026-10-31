@@ -1,6 +1,6 @@
-# Zajka Friends — Concept du cours « ados »
+# Zajko Friends — Concept du cours « ados »
 
-*Version 1.0, 5 octobre 2026. Document de référence du cours de slovaque pour francophones adolescents, suite de [Slovingo-sk-fr-kids](https://github.com/lstux/Slovingo-sk-fr-kids) (app **Zajka**), construit avec le moteur [Slovingo](https://github.com/lstux/Slovingo). Le slovaque cité dans ce document est un brouillon, à faire relire par un locuteur natif avant publication.*
+*Version 1.0, 5 octobre 2026. Document de référence du cours de slovaque pour francophones adolescents, suite de [Slovingo-sk-fr-kids](https://github.com/lstux/Slovingo-sk-fr-kids) (app **Zajko**), construit avec le moteur [Slovingo](https://github.com/lstux/Slovingo). Le slovaque cité dans ce document est un brouillon, à faire relire par un locuteur natif avant publication.*
 
 ---
 
@@ -18,7 +18,7 @@
 
 # 1. Vision générale
 
-Ce cours est l'évolution directe de l'univers de **Slovingo Kids** (cours de slovaque pour enfants de 8 à 12 ans, app **Zajka**).
+Ce cours est l'évolution directe de l'univers de **Slovingo Kids** (cours de slovaque pour enfants de 8 à 12 ans, app **Zajko**).
 
 L'idée n'est pas de reprendre Kids avec des phrases plus difficiles. Le nouveau cours se déroule dans **le même univers, environ cinq ans plus tard**. Les personnages ont grandi : ils ont 13 à 16 ans, ils sont toujours des animaux anthropomorphes avec leurs caractères, leurs amitiés et leurs souvenirs d'enfance, mais ils découvrent un monde beaucoup moins insouciant que celui qu'ils connaissaient.
 
@@ -731,7 +731,7 @@ Les dialogues utilisent une **voix par personnage** (réglage `character_heading
 
 ## Nom et configuration
 
-- Titre du cours et nom de l'app : **Zajka Friends**.
+- Titre du cours et nom de l'app : **Zajko Friends**.
 - Dépôt : `Slovingo-sk-fr-friends`.
 - Dans `lang.json`, sur le modèle de Kids : un code de langue (`sk-fr-friends`), `storage_prefix` et `url_path`.
 

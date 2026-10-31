@@ -1,5 +1,5 @@
 # Ecran titre, chapitre, un panneau lu (Slovnik), le menu START (trois onglets, defilement), le volume.
-# Meme format que les scripts de esp32/zajka-quest/sim/ (debut fin boutons ; shot N).
+# Meme format que les scripts de esp32/zajko-quest/sim/ (debut fin boutons ; shot N).
 shot 5
 10 12 S
 shot 40

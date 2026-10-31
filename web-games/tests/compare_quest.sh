@@ -1,12 +1,12 @@
 #!/bin/bash
-# Compare la version web de Zajka Quest au simulateur C++ du firmware (memes scripts, memes entrees) :
+# Compare la version web de Zajko Quest au simulateur C++ du firmware (memes scripts, memes entrees) :
 # journal des evenements (cartes, dialogues, objets, mots...), captures d'ecran (PPM) et son (WAV).
 # Usage : compare_quest.sh [dossier de travail]
 set -e
 HERE="$(cd "$(dirname "$0")" && pwd)"
 REPO="$(cd "$HERE/../.." && pwd)"
-Q="$REPO/esp32/zajka-quest"
-W="${1:-/tmp/zajka_compare_quest}"
+Q="$REPO/esp32/zajko-quest"
+W="${1:-/tmp/zajko_compare_quest}"
 mkdir -p "$W"
 g++ -std=c++17 -O1 -ffp-contract=off -o "$W/sim_c" "$Q/sim/sim.cpp" "$Q"/src/game/*.cpp
 status=0
