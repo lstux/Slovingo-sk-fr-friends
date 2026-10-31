@@ -16,6 +16,15 @@ Puis le seul point d'eau du coin disparaît. Et là, on ne peut plus juste regar
 
 Sécheresse, orage dans les Tatras, inondation, une drôle de route en construction, un datacenter, une mine… Le monde part un peu en vrille. Mais bon, on prend quand même le train, et on se dispute quand même pour le dernier morceau de gâteau. :D
 
+## Aperçu
+
+<p align="center">
+  <img src="docs/screenshots/1_carte.jpg" width="200" alt="La carte d'accueil">
+  <img src="docs/screenshots/2_episode.jpg" width="200" alt="Une fiche épisode et son illustration">
+  <img src="docs/screenshots/3_dialogue.jpg" width="200" alt="Un dialogue, traduction et détail ouverts">
+  <img src="docs/screenshots/4_exercice.jpg" width="200" alt="Un exercice">
+</p>
+
 ## Comment ça marche
 
 - **Une série = un chapitre.** Mis bout à bout, les dialogues font un vrai petit roman : 12 chapitres et un épilogue, de Košice à Bratislava.
