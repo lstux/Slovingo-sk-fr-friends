@@ -6,7 +6,7 @@ Une illustration par série, pour la **fiche 05** (le moment fort de l'épisode)
 
 ## Méthode
 
-1. **Planche de personnages** : dans ChatGPT, joindre `esp32/zajko-quest/art/characters/fox-reference.png` puis `esp32/zajko-quest/art/characters/andrea-reference.png`, coller le prompt « Planche des héros ». Garder la meilleure dans `docs/illustrations/planche-heros.jpg`. Puis la même chose avec le prompt « Planche des seconds rôles » (sans image jointe) → `docs/illustrations/planche-seconds-roles.jpg`.
+1. **Planche de personnages** : dans ChatGPT, joindre `esp32/zajko-quest/art/characters/fox-reference.png` puis `esp32/zajko-quest/art/characters/andrea-reference.png`, coller le prompt « Planche des héros ». ✅ Faite le 31 octobre : `docs/illustrations/planche-heros.jpg` (prompt ci-dessous, puis la correction « Andrea en vraie hase, Katka en marmotte »). Puis la même chose avec le prompt « Planche des seconds rôles » (sans image jointe) → `docs/illustrations/planche-seconds-roles.jpg`.
 2. **Chaque scène** : nouvelle conversation, joindre **la planche des héros** (et celle des seconds rôles si la scène en contient un) + **la photo de référence** du lieu (lien Commons donné : télécharger l'image depuis la page), coller le prompt de la scène. Chaque prompt est complet : rien d'autre à ajouter.
 3. Si un personnage dérive (couleurs, vêtements, taille), le redemander dans la même conversation : « Keep the characters exactly as in the attached model sheet. »
 4. **Format** : demander le paysage (déjà écrit dans chaque prompt). ChatGPT sort du 3:2 (1536×1024) ; je recadre si besoin. Déposer l'image dans `img/illus_<NN>_<lieu>.jpg` (le nom est donné pour chaque scène). Je l'intègre ensuite dans la fiche 05, avec le crédit.
@@ -19,9 +19,9 @@ Une illustration par série, pour la **fiche 05** (le moment fort de l'épisode)
 | | Personnage | Description à garder |
 |---|---|---|
 | 🦊 | Le renard (toi, « Gab ») | renard roux, 15 ans, garçon ; sweat à capuche bleu roi, sac à dos aux bretelles jaunes, jean bleu marine, baskets blanches |
-| 🐰 | Andrea | hase grise, 16 ans ; bande blanche du front au museau, les deux oreilles dressées (intérieur rose) ; T-shirt vert menthe, sacoche jaune en bandoulière, short en jean, baskets rouges |
+| 🐰 | Andrea | hase (un vrai lièvre, pas une lapine), 16 ans ; pelage gris-brun moucheté, fine bande claire du front au museau, très longues oreilles dressées à pointe noire, longues pattes fines ; T-shirt vert menthe, sacoche jaune en bandoulière, short en jean, baskets rouges |
 | 🐻 | Maťo | ours brun, 14 ans, très grand et massif, doux ; chemise à carreaux vert et brun ouverte sur un T-shirt gris, short cargo |
-| 🐹 | Katka | marmotte des Alpes, 13 ans, petite ; sweat violet, écouteurs autour du cou, téléphone toujours à la main |
+| 🐹 | Katka | marmotte des Alpes, 13 ans, petite (à l'épaule du renard) ; pelage gris-brun, petites oreilles rondes, incisives visibles, queue courte et touffue ; sweat violet, écouteurs autour du cou, téléphone toujours à la main |
 | 🐑 | Babka Zuzana | brebis âgée, laine blanche ; foulard à fleurs, tablier, gilet brodé traditionnel |
 | 🦡 | Marek | blaireau adulte ; gilet de travail bleu marine avec un badge, chemise claire |
 | 🐿️ | Ján | écureuil roux, ado, très vif ; T-shirt orange, casquette à l'envers |
@@ -40,13 +40,19 @@ Le renard n'a pas de prénom écrit dans les prompts : dans le cours, c'est « t
 Character model sheet for a friendly animated film, on a plain light background. Four teenage animal characters standing side by side at the same scale, each shown front view and three-quarter view, full body, with a few facial expressions (smiling, surprised, annoyed). They are a group of friends on a road trip across Slovakia.
 
 1. A 15-year-old red fox boy (bright orange fur, black ear tips, white muzzle and chest, white tail tip, curious lively eyes), wearing a royal-blue hoodie, a backpack with yellow straps, navy jeans and white sneakers. Use the first attached image as the design reference, drawn in the style below.
-2. Andrea, a 16-year-old grey hare girl (grey fur, a white blaze from forehead to muzzle, long upright ears with pink insides, calm and slightly ironic look), wearing a mint-green T-shirt, a yellow cross-body bag, denim shorts and red sneakers. Use the second attached image as the design reference, drawn in the style below.
+2. Andrea, a 16-year-old hare girl — a real hare, not a rabbit (speckled grey-brown fur, a thin light blaze from forehead to muzzle, very long upright ears with pink insides and black tips, long slender hind legs, a slightly angular face, calm and slightly ironic look), wearing a mint-green T-shirt, a yellow cross-body bag, denim shorts and red sneakers. Use the second attached image as the design reference, drawn in the style below.
 3. Maťo, a 14-year-old brown bear boy, much taller and broader than the others, gentle and calm, wearing an open green-and-brown checked shirt over a grey T-shirt and cargo shorts.
-4. Katka, a 13-year-old alpine marmot girl, small and quick, with a direct, unimpressed look, wearing a purple hoodie with earbuds around her neck, always holding a smartphone.
+4. Katka, a 13-year-old alpine marmot girl, small and quick (small round ears close to the head, grey-brown fur, visible front teeth, a short bushy tail), with a direct, unimpressed look, wearing a purple hoodie with earbuds around her neck, always holding a smartphone.
 
 Height: the hare's ears aside, the fox and the hare are about the same height; Maťo is a head taller than them; Katka reaches the fox's shoulder.
 
 Style: Classic 2D hand-drawn animated-film style (not 3D, not pixel art): clean ink outlines, flat colours with soft cel shading, expressive faces. Warm, natural light. Anthropomorphic animals walk upright, wear clothes and live among ordinary humans, who are drawn in the same 2D style and find this normal. No text, no letters, no speech bubbles, no logos, no watermark.
+```
+
+Correction utilisée dans la même conversation (la première version faisait d'Andrea une lapine trop proche d'un personnage de film connu, et de Katka un castor) :
+
+```
+Great, keep everything but make these changes: Andrea is a hare, not a rabbit — longer ears with black tips, longer hind legs, slightly speckled grey-brown fur on the back, a more angular face, so she looks less like a cartoon rabbit. Katka is an alpine marmot — small round ears close to the head, grey-brown fur, a short bushy tail, visible front teeth — and smaller: she reaches the fox's shoulder.
 ```
 
 ## Planche des seconds rôles
