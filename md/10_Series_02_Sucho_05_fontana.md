@@ -1,6 +1,6 @@
 # Série Sucho (5/5) — Fontána
 
-@ img/spievajuca-fontana.jpg | La fontaine chantante de Košice. Source : Wikimedia Commons
+@ img/illus_02_sucho.jpg | La fontaine chantante, devant le théâtre de Košice… qui ne chante plus. Source : illustration générée avec ChatGPT, d'après une photo d'Antimuonium (Wikimedia Commons, CC BY-SA 4.0)
 
 {{fr:Dernière chance en ville : la fontaine de la rue principale. Tu vas rencontrer ton premier adulte humain, et ça se corse : il faut le vouvoyer.}}
 

@@ -18,6 +18,7 @@ Faites d'après `docs/Prompts-illustrations.md`, avec les planches de personnage
 |---|---|---|---|
 | `00_Introduction_01_bienvenue.md` | `illus_00_couverture.jpg` | aucune | générée pour ce projet (2026) |
 | `10_Series_01_Kosice_05_v-elektricke.md` | `illus_01_kosice.jpg` | [Košice - Hlavná… Ringhoffer tram… (June 2006) 01.jpg](https://commons.wikimedia.org/wiki/File:Ko%C5%A1ice_-_Hlavn%C3%A1_(Main_street)_-_Historic_Ringhoffer_tram,_green_livery_and_Zlat%C3%BD_ba%C5%BEant_sponsor_livery,_at_the_Lower_Gate,_Old_Town,_Ko%C5%A1ice_(June_2006)_01.jpg), ZemplinTemplar | CC BY-SA 4.0 (œuvre dérivée) |
+| `10_Series_02_Sucho_05_fontana.md` | `illus_02_sucho.jpg` | [Spievajúca fontána, Košice, 2026 (5).jpg](https://commons.wikimedia.org/wiki/File:Spievaj%C3%BAca_font%C3%A1na,_Ko%C5%A1ice,_2026_(5).jpg), Antimuonium | CC BY-SA 4.0 (œuvre dérivée) |
 
 ## Images de style (bandeaux de thème)
 
@@ -80,7 +81,6 @@ Fichiers `img/style_<clé>.jpg`, repris de Slovingo-sk-fr-kids (même source, m�
 | `10_Series_03_Raj_02_pocujes.md` | [Hornad in Slovak Paradise.jpg](https://commons.wikimedia.org/wiki/File:Hornad_in_Slovak_Paradise.jpg) | Wikimedia Commons | Marek K. Misztal | CC BY-SA 3.0 |
 | `10_Series_03_Raj_04_rebriky.md` | [Slovensky raj, Sucha Bela, 03.jpg](https://commons.wikimedia.org/wiki/File:Slovensky_raj,_Sucha_Bela,_03.jpg) | Wikimedia Commons | dariusz wozniak | CC BY-SA 3.0 |
 | `10_Series_03_Raj_03_je-tu-voda.md` | [Misové vodopády, Suchá Belá, Slovenský ráj, 2012, 02.JPG](https://commons.wikimedia.org/wiki/File:Misov%C3%A9_vodop%C3%A1dy,_Such%C3%A1_Bel%C3%A1,_Slovensk%C3%BD_r%C3%A1j,_2012,_02.JPG) | Wikimedia Commons | Michal Klajban | CC BY-SA 3.0 |
-| `10_Series_02_Sucho_05_fontana.md` | [Spievajúca fontána, Košice, 2026 (5).jpg](https://commons.wikimedia.org/wiki/File:Spievaj%C3%BAca_font%C3%A1na,_Ko%C5%A1ice,_2026_(5).jpg) | Wikimedia Commons | Antimuonium | CC BY-SA 4.0 |
 | `10_Series_07_Cesta_04_pre-koho.md` | [HK Shatin Tai Chung Kiu Road construction site n Ravana Garden Sept-2012.JPG](https://commons.wikimedia.org/wiki/File:HK_Shatin_Tai_Chung_Kiu_Road_construction_site_n_Ravana_Garden_Sept-2012.JPG) | Wikimedia Commons | Nicsmrakelo | CC BY-SA 3.0 |
 | `10_Series_11_Bratislava_04_vratnik.md` | [Radio and Television Slovakia (Rozhlas a televízia Slovenska), Bratislava.JPG](https://commons.wikimedia.org/wiki/File:Radio_and_Television_Slovakia_(Rozhlas_a_telev%C3%ADzia_Slovenska),_Bratislava.JPG) | Wikimedia Commons | Kiwiev | CC0 |
 | `10_Series_12_Hrad_05_priamy-prenos.md` | [QTQ9 Sony studio camera with Canon lense 20110815.jpg](https://commons.wikimedia.org/wiki/File:QTQ9_Sony_studio_camera_with_Canon_lense_20110815.jpg) | Wikimedia Commons | NJM2010 | CC BY-SA 3.0 |
