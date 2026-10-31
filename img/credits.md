@@ -10,6 +10,14 @@ Tant qu'une image n'est pas choisie, la fiche contient une ligne `@ TODO_img/…
 | Fiche | Fichier (lien) | Source | Auteur | Licence |
 |---|---|---|---|---|
 
+## Illustrations générées (ChatGPT)
+
+Faites d'après `docs/Prompts-illustrations.md`, avec les planches de personnages de `docs/illustrations/`. Quand une scène a été faite d'après une photo Commons, le photographe et la licence de la photo sont indiqués : l'illustration en est une œuvre dérivée.
+
+| Fiche | Fichier | Photo de référence | Licence |
+|---|---|---|---|
+| `00_Introduction_01_bienvenue.md` | `illus_00_couverture.jpg` | aucune | générée pour ce projet (2026) |
+
 ## Images de style (bandeaux de thème)
 
 Fichiers `img/style_<clé>.jpg`, repris de Slovingo-sk-fr-kids (même source, mêmes crédits). Dans l'application, ces images sont de plus **passées en demi-gris et teintées** aux couleurs du thème, et rognées en bandeau : ce sont des versions modifiées des photos d'origine (à indiquer pour les licences CC BY-SA).

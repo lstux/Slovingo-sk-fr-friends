@@ -1,6 +1,6 @@
 # Introduction (1/3) — Bienvenue
 
-@ https://commons.wikimedia.org/wiki/Special:FilePath/European_red_fox_(Vulpes_vulpes).jpg | Le renard roux : c'est toi, dans cette histoire
+@ img/illus_00_couverture.jpg | La bande sur la route, des Tatras jusqu'à Bratislava. Le renard, c'est toi. Source : illustration générée avec ChatGPT
 
 ## Salut ! Comment tu t'appelles ?
 
