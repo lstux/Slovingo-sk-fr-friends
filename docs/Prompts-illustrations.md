@@ -10,7 +10,8 @@ Une illustration par série, pour la **fiche 05** (le moment fort de l'épisode)
 2. **Chaque scène** : nouvelle conversation, joindre **la planche des héros** (et celle des seconds rôles si la scène en contient un) + **la photo de référence** du lieu (lien Commons donné : télécharger l'image depuis la page), coller le prompt de la scène. Chaque prompt est complet : rien d'autre à ajouter.
 3. Si un personnage dérive (couleurs, vêtements, taille), le redemander dans la même conversation : « Keep the characters exactly as in the attached model sheet. »
 4. **Format** : demander le paysage (déjà écrit dans chaque prompt). ChatGPT sort du 3:2 (1536×1024) ; je recadre si besoin. Déposer l'image dans `img/illus_<NN>_<lieu>.jpg` (le nom est donné pour chaque scène). Je l'intègre ensuite dans la fiche 05, avec le crédit.
-5. **Si ChatGPT refuse** : ne pas insister avec le même texte. Nouvelle conversation, et enlever la phrase qui coince (en général une précision sur l'âge ou une émotion forte). Ne jamais citer de film, de studio ou de personnage connu : c'est la cause de refus la plus fréquente.
+5. **Les défauts à surveiller** (vus sur la scène 01) : un objet qui ne tient à rien (une barre qui s'arrête dans le vide), des humains plus réalistes que les animaux, des yeux réduits à de gros points noirs. Pour les deux premiers, demander la correction dans la même conversation. Les yeux, je peux les retoucher moi-même (petit reflet blanc).
+6. **Si ChatGPT refuse** : ne pas insister avec le même texte. Nouvelle conversation, et enlever la phrase qui coince (en général une précision sur l'âge ou une émotion forte). Ne jamais citer de film, de studio ou de personnage connu : c'est la cause de refus la plus fréquente.
 
 **Crédits** : « Illustration générée avec ChatGPT, d'après une photo de <auteur> (Wikimedia Commons, <licence>) ». Une image faite d'après une photo CC BY ou CC BY-SA en est une œuvre dérivée : elle garde le nom du photographe, et sous CC BY-SA elle reste sous CC BY-SA (voir `img/credits.md`). Je m'en occupe à l'intégration.
 
@@ -83,7 +84,7 @@ Use the attached model sheet for the characters (keep them exactly as designed).
 
 Scene: Opening image of an animated road movie across Slovakia, wide landscape format. The four friends walk side by side along a country road on a summer morning, seen from the front, slightly from below: the fox in the middle looking around with excitement, Andrea next to him holding a folded paper map, Maťo carrying a big backpack, Katka slightly ahead, looking at her phone. Behind them on the right, far away, the jagged peaks of the High Tatras; on the left, on the horizon, a white square castle with four corner towers and red roofs on a hill above a wide river (Bratislava Castle above the Danube). Between them: fields, forests, a village with a church spire, a small train crossing a bridge. Leave the upper third of the image fairly calm (sky with a few clouds), as a title may be added later.
 
-Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading, painted realistic background. Landscape format. No text, no letters, no logos, no watermark.
+Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. Any humans are drawn in the same simple cartoon style as the animals: simplified shapes, flat colours, few details on faces and hair, no realistic or semi-realistic faces. Soft, painterly background with few small details, so the characters stand out, but the place stays recognisable. Landscape format. No text, no letters, no logos, no watermark.
 ```
 
 ---
@@ -99,7 +100,7 @@ Use the attached model sheet for the characters (keep them exactly as designed).
 
 Scene: Inside a modern city tram in Košice, Slovakia, on a sunny morning, wide landscape format. The fox and Andrea stand in the aisle holding the handrail. The fox is talking enthusiastically, gesturing with his free hand; Andrea listens with an amused, slightly ironic smile, one eyebrow raised. Through the large tram windows: the pastel-coloured historic buildings of the main street and, ahead, the tall Gothic cathedral with its dark roof. A few ordinary human passengers sit around them, reading or looking out, not surprised at all.
 
-Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading, painted realistic background. Landscape format. No text, no letters, no logos, no watermark.
+Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. Any humans are drawn in the same simple cartoon style as the animals: simplified shapes, flat colours, few details on faces and hair, no realistic or semi-realistic faces. Soft, painterly background with few small details, so the characters stand out, but the place stays recognisable. Landscape format. No text, no letters, no logos, no watermark.
 ```
 
 ## 02 Sucho — La fontaine qui ne chante plus
@@ -113,7 +114,7 @@ Use the attached model sheet for the characters (keep them exactly as designed).
 
 Scene: The large fountain in the main street of Košice, completely dry under a hot white summer sky, wide landscape format. The fox and Andrea, thirsty and tired, stand at the edge of the empty basin. Next to them, a middle-aged human city gardener in green work clothes leans on a rake and explains something with a resigned shrug. The flower beds around are yellowed, people in the background walk in the shade of the buildings. Heat haze, harsh light.
 
-Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading, painted realistic background. Landscape format. No text, no letters, no logos, no watermark.
+Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. Any humans are drawn in the same simple cartoon style as the animals: simplified shapes, flat colours, few details on faces and hair, no realistic or semi-realistic faces. Soft, painterly background with few small details, so the characters stand out, but the place stays recognisable. Landscape format. No text, no letters, no logos, no watermark.
 ```
 
 ## 03 Raj — Au bout de la gorge
@@ -128,7 +129,7 @@ Use the attached model sheets for the characters (keep them exactly as designed)
 
 Scene: The end of a narrow rocky gorge in the Slovak Paradise national park, wide landscape format. Wooden ladders and log steps behind them, a thin stream running between mossy rocks. The fox, exhausted, is sitting on the last step, clinging to it with relief; Andrea stands next to him, perfectly fine. On a big rock above them, a golden eagle park ranger with a ranger hat looks down at them, stern but curious. Green forest light filtering from above.
 
-Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading, painted realistic background. Landscape format. No text, no letters, no logos, no watermark.
+Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. Any humans are drawn in the same simple cartoon style as the animals: simplified shapes, flat colours, few details on faces and hair, no realistic or semi-realistic faces. Soft, painterly background with few small details, so the characters stand out, but the place stays recognisable. Landscape format. No text, no letters, no logos, no watermark.
 ```
 
 ## 04 Burka — L'orage au refuge
@@ -142,7 +143,7 @@ Use the attached model sheet for the characters (keep them exactly as designed).
 
 Scene: Night, inside the dark wooden kitchen of a mountain hut high in the Tatras, during a thunderstorm, wide landscape format. The fox and Andrea lie on mattresses on the floor under thick blankets, side by side but a little apart, both wide awake, looking at the ceiling and talking quietly. Through the small window, a flash of lightning lights up the rocky peaks and the rain; the light makes long blue shadows in the room. Wooden walls, a stove, mugs on a shelf. Calm, cosy, a bit of tension in the air.
 
-Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading, painted realistic background. Landscape format. No text, no letters, no logos, no watermark.
+Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. Any humans are drawn in the same simple cartoon style as the animals: simplified shapes, flat colours, few details on faces and hair, no realistic or semi-realistic faces. Soft, painterly background with few small details, so the characters stand out, but the place stays recognisable. Landscape format. No text, no letters, no logos, no watermark.
 ```
 
 ## 05 Domov — Babka raconte
@@ -157,7 +158,7 @@ Use the attached model sheets for the characters (keep them exactly as designed)
 
 Scene: Evening in an old wooden village house below the Tatras, wide landscape format. Everyone sits around a wooden table after dinner, with empty plates and a teapot. Babka Zuzana, the old ewe, tells a story with her hands, eyes shining; the fox and Andrea listen, Maťo rests his big chin on his paws, smiling. Katka sits at the end of the bench, looking at her phone, but one ear turned towards the story. Through the small window, the sky is turning dark blue. Warm lamp light, embroidered tablecloth, painted wooden chest.
 
-Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading, painted realistic background. Landscape format. No text, no letters, no logos, no watermark.
+Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. Any humans are drawn in the same simple cartoon style as the animals: simplified shapes, flat colours, few details on faces and hair, no realistic or semi-realistic faces. Soft, painterly background with few small details, so the characters stand out, but the place stays recognisable. Landscape format. No text, no letters, no logos, no watermark.
 ```
 
 ## 06 Povodeň — Le sauvetage
@@ -171,7 +172,7 @@ Use the attached model sheet for the characters (keep them exactly as designed).
 
 Scene: A flooded street in a small Slovak village in the Liptov valley, in heavy rain, wide landscape format. Brown water up to the knees, houses with steep roofs and wooden fences, mountains hidden by grey clouds. The friends wade from house to house: Maťo carries two big wicker baskets full of small animals (ducklings, a hedgehog, rabbits); the fox helps an old duck with two ducklings out of a doorway; Andrea points to the school on higher ground; Katka holds her phone high above her head to keep it dry. In the background, a small mouse stubbornly carries a fridge on its back. Determined, a little funny, never scary.
 
-Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading, painted realistic background. Landscape format. No text, no letters, no logos, no watermark.
+Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. Any humans are drawn in the same simple cartoon style as the animals: simplified shapes, flat colours, few details on faces and hair, no realistic or semi-realistic faces. Soft, painterly background with few small details, so the characters stand out, but the place stays recognisable. Landscape format. No text, no letters, no logos, no watermark.
 ```
 
 ## 07 Cesta — La route neuve
@@ -185,7 +186,7 @@ Use the attached model sheet for the characters (keep them exactly as designed).
 
 Scene: A brand-new black asphalt road cut through a hilly spruce forest in central Slovakia, on a hot afternoon, wide landscape format. Freshly cut tree stumps on both sides, a parked yellow excavator further away. A human construction foreman in a yellow helmet and orange vest walks ahead. The four friends follow him and argue: Katka happily walks on the smooth asphalt; Maťo, sad, looks back at the forest; Andrea gestures as if to say "both are true"; the fox, in the middle, scratches his head, undecided.
 
-Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading, painted realistic background. Landscape format. No text, no letters, no logos, no watermark.
+Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. Any humans are drawn in the same simple cartoon style as the animals: simplified shapes, flat colours, few details on faces and hair, no realistic or semi-realistic faces. Soft, painterly background with few small details, so the characters stand out, but the place stays recognisable. Landscape format. No text, no letters, no logos, no watermark.
 ```
 
 ## 08 Datacentrum — La salle des serveurs
@@ -200,7 +201,7 @@ Use the attached model sheets for the characters (keep them exactly as designed)
 
 Scene: Inside a huge, cold data centre hall, wide landscape format. Long rows of black server cabinets with thousands of tiny blinking blue and green lights disappear into the distance; cold white light from the ceiling, cables above. Marek, the badger in his navy work vest, walks them through and explains calmly, open-handed. The fox and Andrea look around, impressed; Maťo rubs his arms because of the cold; Katka holds up her phone to film the lights, delighted. Quiet, a bit unreal.
 
-Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading, painted realistic background. Landscape format. No text, no letters, no logos, no watermark.
+Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. Any humans are drawn in the same simple cartoon style as the animals: simplified shapes, flat colours, few details on faces and hair, no realistic or semi-realistic faces. Soft, painterly background with few small details, so the characters stand out, but the place stays recognisable. Landscape format. No text, no letters, no logos, no watermark.
 ```
 
 ## 09 Baňa — À la grille de la mine
@@ -215,7 +216,7 @@ Use the attached model sheets for the characters (keep them exactly as designed)
 
 Scene: The gate of a new mine on a forested hill above the old mining town of Banská Štiavnica, late afternoon, wide landscape format. Behind a tall wire gate: bulldozers, a cleared slope, a few spruces still standing. At the gate, a middle-aged human miner in an orange vest and helmet sits on a folding chair with a thermos, friendly. Ján, the red squirrel, talks to him very fast with both hands; the fox, Andrea, Maťo and Katka stand a little behind, listening. Far below in the valley: the old town with its church towers and red roofs. Mixed feelings: nobody is a villain.
 
-Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading, painted realistic background. Landscape format. No text, no letters, no logos, no watermark.
+Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. Any humans are drawn in the same simple cartoon style as the animals: simplified shapes, flat colours, few details on faces and hair, no realistic or semi-realistic faces. Soft, painterly background with few small details, so the characters stand out, but the place stays recognisable. Landscape format. No text, no letters, no logos, no watermark.
 ```
 
 ## 10 Rozhodnutie — Près du feu
@@ -229,7 +230,7 @@ Use the attached model sheet for the characters (keep them exactly as designed).
 
 Scene: Night in a meadow in the Slovak hills, wide landscape format. A small campfire crackles. Andrea sits on a log, knees pulled up, looking into the flames, thoughtful and a little sad. The fox sits next to her, quiet, listening, careful not to interrupt. Two old friends, a respectful distance between them. Far away at the edge of the forest, the silhouettes of Maťo and Katka gathering firewood. Starry sky, warm orange light on their faces, deep blue shadows around.
 
-Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading, painted realistic background. Landscape format. No text, no letters, no logos, no watermark.
+Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. Any humans are drawn in the same simple cartoon style as the animals: simplified shapes, flat colours, few details on faces and hair, no realistic or semi-realistic faces. Soft, painterly background with few small details, so the characters stand out, but the place stays recognisable. Landscape format. No text, no letters, no logos, no watermark.
 ```
 
 ## 11 Bratislava — Devant la télévision
@@ -243,7 +244,7 @@ Use the attached model sheet for the characters (keep them exactly as designed).
 
 Scene: In front of a striking inverted-pyramid building in Bratislava, a sunny late morning, wide landscape format. A young human journalist with a laptop under her arm has just come out of the glass door; she has stopped and looks at the four animals with sudden interest, as if she has an idea. The four friends, dusty and tired from the journey, look back at her: the fox hopeful, Andrea cautious, Maťo surprised, Katka already holding up her phone. A small guard booth on the side with a bored guard.
 
-Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading, painted realistic background. Landscape format. No text, no letters, no logos, no watermark.
+Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. Any humans are drawn in the same simple cartoon style as the animals: simplified shapes, flat colours, few details on faces and hair, no realistic or semi-realistic faces. Soft, painterly background with few small details, so the characters stand out, but the place stays recognisable. Landscape format. No text, no letters, no logos, no watermark.
 ```
 
 ## 12 Hrad — En direct
@@ -257,7 +258,7 @@ Use the attached model sheet for the characters (keep them exactly as designed).
 
 Scene: A live TV news set on the terrace of Bratislava Castle at dusk, wide landscape format. Behind them, the white castle walls with red roofs, and below the terrace the Danube and the city lights coming on. A professional TV camera with a small red light on, two lights on stands, cables on the ground. A human news presenter sits on the left with a microphone; facing her, the four friends sit on chairs: Maťo on a chair clearly too small for him, Katka sitting very straight, the fox nervous but brave, speaking, Andrea calm, looking straight at the camera. Serious and touching moment, warm evening light.
 
-Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading, painted realistic background. Landscape format. No text, no letters, no logos, no channel logo, no watermark.
+Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. Any humans are drawn in the same simple cartoon style as the animals: simplified shapes, flat colours, few details on faces and hair, no realistic or semi-realistic faces. Soft, painterly background with few small details, so the characters stand out, but the place stays recognisable. Landscape format. No text, no letters, no logos, no channel logo, no watermark.
 ```
 
 ## 13 Sen — Sous le pommier
@@ -271,5 +272,5 @@ Use the attached model sheet for the characters (keep them exactly as designed).
 
 Scene: Early morning in a small garden at the edge of Košice, wide landscape format. The fox sits in the grass under an apple tree full of small green apples, still a little sleepy, telling a long story with big gestures. Andrea sits facing him, holding a nearly empty water bottle, listening; her smile is slowly fading, as if some details of his "dream" were strangely true. Dry yellow grass, soft golden morning light, a few apartment blocks far behind the garden fence.
 
-Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading, painted realistic background. Landscape format. No text, no letters, no logos, no watermark.
+Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. Any humans are drawn in the same simple cartoon style as the animals: simplified shapes, flat colours, few details on faces and hair, no realistic or semi-realistic faces. Soft, painterly background with few small details, so the characters stand out, but the place stays recognisable. Landscape format. No text, no letters, no logos, no watermark.
 ```

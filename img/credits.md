@@ -17,6 +17,7 @@ Faites d'après `docs/Prompts-illustrations.md`, avec les planches de personnage
 | Fiche | Fichier | Photo de référence | Licence |
 |---|---|---|---|
 | `00_Introduction_01_bienvenue.md` | `illus_00_couverture.jpg` | aucune | générée pour ce projet (2026) |
+| `10_Series_01_Kosice_05_v-elektricke.md` | `illus_01_kosice.jpg` | [Košice - Hlavná… Ringhoffer tram… (June 2006) 01.jpg](https://commons.wikimedia.org/wiki/File:Ko%C5%A1ice_-_Hlavn%C3%A1_(Main_street)_-_Historic_Ringhoffer_tram,_green_livery_and_Zlat%C3%BD_ba%C5%BEant_sponsor_livery,_at_the_Lower_Gate,_Old_Town,_Ko%C5%A1ice_(June_2006)_01.jpg), ZemplinTemplar | CC BY-SA 4.0 (œuvre dérivée) |
 
 ## Images de style (bandeaux de thème)
 
@@ -51,7 +52,6 @@ Fichiers `img/style_<clé>.jpg`, repris de Slovingo-sk-fr-kids (même source, m�
 | `10_Series_10_Rozhodnutie_03_mal-by-som.md` | [WallCalendar.jpg](https://commons.wikimedia.org/wiki/File:WallCalendar.jpg) | Wikimedia Commons | Claudio Elias | Public domain |
 | `10_Series_07_Cesta_06_extra.md` | [Night-time road resurfacing works during Chatham Waterfront Bus Station safety improvement project showing Tarmac tipper truck, excavator, and road closure barriers on Globe Lane, Chatham, Kent, England.jpg](https://commons.wikimedia.org/wiki/File:Night-time_road_resurfacing_works_during_Chatham_Waterfront_Bus_Station_safety_improvement_project_showing_Tarmac_tipper_truck,_excavator,_and_road_closure_barriers_on_Globe_Lane,_Chatham,_Kent,_England.jpg) | Wikimedia Commons | OathOn | CC BY-SA 4.0 |
 | `10_Series_01_Kosice_01_to-si-ty.md` | [Košice - Hlavná (Main street) - Historic Ringhoffer tram, green livery and Zlatý bažant sponsor livery, at the Lower Gate, Old Town, Košice (June 2006) 01.jpg](https://commons.wikimedia.org/wiki/File:Ko%C5%A1ice_-_Hlavn%C3%A1_(Main_street)_-_Historic_Ringhoffer_tram,_green_livery_and_Zlat%C3%BD_ba%C5%BEant_sponsor_livery,_at_the_Lower_Gate,_Old_Town,_Ko%C5%A1ice_(June_2006)_01.jpg) | Wikimedia Commons | ZemplinTemplar | CC BY-SA 4.0 |
-| `10_Series_01_Kosice_05_v-elektricke.md` | [Szent Erzsébet-főszékesegyház (Dóm). Fortepan 6189.jpg](https://commons.wikimedia.org/wiki/File:Szent_Erzs%C3%A9bet-f%C5%91sz%C3%A9kesegyh%C3%A1z_(D%C3%B3m)._Fortepan_6189.jpg) | Wikimedia Commons | FOTO:Fortepan — ID 6189: Adományozó/Donor: Gyöngyi. | CC BY-SA 3.0 |
 | `10_Series_01_Kosice_02_ako-sa-mas.md` | [Košice - Hlavná ulica -a.jpg](https://commons.wikimedia.org/wiki/File:Ko%C5%A1ice_-_Hlavn%C3%A1_ulica_-a.jpg) | Wikimedia Commons | Ladislav Luppa | CC BY-SA 4.0 |
 | `10_Series_01_Kosice_03_co-tu-robis.md` | [Košice 2026, view of the Old Town.jpg](https://commons.wikimedia.org/wiki/File:Ko%C5%A1ice_2026,_view_of_the_Old_Town.jpg) | Wikimedia Commons | Benche.ix | CC0 |
 | `10_Series_02_Sucho_01_je-horuco.md` | [CSIRO ScienceImage 607 Effects of Drought on the Soil.jpg](https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_607_Effects_of_Drought_on_the_Soil.jpg) | Wikimedia Commons | Atmospheric Research, CSIRO | CC BY 3.0 |

@@ -1,6 +1,6 @@
 # Série Košice (5/5) — V električke
 
-@ img/kosice-elektricka-dom.jpg | Un tram qui passe devant la cathédrale de Košice. Source : Wikimedia Commons
+@ img/illus_01_kosice.jpg | Dans le tram, devant la cathédrale : tu parles, tu parles… Source : illustration générée avec ChatGPT, d'après une photo de ZemplinTemplar (Wikimedia Commons, CC BY-SA 4.0)
 
 {{fr:Le tram traverse Košice. Tu es tellement content d'être là que tu parles, tu parles… et Andrea a une théorie sur les renards.}}
 
