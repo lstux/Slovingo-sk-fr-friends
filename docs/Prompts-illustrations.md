@@ -6,7 +6,7 @@ Une illustration par série, pour la **fiche 05** (le moment fort de l'épisode)
 
 ## Méthode
 
-1. **Planche de personnages** : dans ChatGPT, joindre `esp32/zajko-quest/art/characters/fox-reference.png` puis `esp32/zajko-quest/art/characters/andrea-reference.png`, coller le prompt « Planche des héros ». ✅ Faite le 31 octobre : `docs/illustrations/planche-heros.jpg` (prompt ci-dessous, puis la correction « Andrea en vraie hase, Katka en marmotte »). Puis la même chose avec le prompt « Planche des seconds rôles » (sans image jointe) → `docs/illustrations/planche-seconds-roles.jpg`.
+1. **Planche de personnages** : dans ChatGPT, joindre `esp32/zajko-quest/art/characters/fox-reference.png` puis `esp32/zajko-quest/art/characters/andrea-reference.png`, coller le prompt « Planche des héros ». ✅ Faite le 31 octobre : `docs/illustrations/planche-heros.jpg` (prompt ci-dessous, puis la correction « Andrea en vraie hase, Katka en marmotte »). Puis la même chose avec le prompt « Planche des seconds rôles » (sans image jointe). ✅ Faite le 31 octobre : `docs/illustrations/planche-seconds-roles.jpg`.
 2. **Chaque scène** : nouvelle conversation, joindre **la planche des héros** (et celle des seconds rôles si la scène en contient un) + **la photo de référence** du lieu (lien Commons donné : télécharger l'image depuis la page), coller le prompt de la scène. Chaque prompt est complet : rien d'autre à ajouter.
 3. Si un personnage dérive (couleurs, vêtements, taille), le redemander dans la même conversation : « Keep the characters exactly as in the attached model sheet. »
 4. **Format** : demander le paysage (déjà écrit dans chaque prompt). ChatGPT sort du 3:2 (1536×1024) ; je recadre si besoin. Déposer l'image dans `img/illus_<NN>_<lieu>.jpg` (le nom est donné pour chaque scène). Je l'intègre ensuite dans la fiche 05, avec le crédit.
@@ -22,10 +22,10 @@ Une illustration par série, pour la **fiche 05** (le moment fort de l'épisode)
 | 🐰 | Andrea | hase (un vrai lièvre, pas une lapine), 16 ans ; pelage gris-brun moucheté, fine bande claire du front au museau, très longues oreilles dressées à pointe noire, longues pattes fines ; T-shirt vert menthe, sacoche jaune en bandoulière, short en jean, baskets rouges |
 | 🐻 | Maťo | ours brun, 14 ans, très grand et massif, doux ; chemise à carreaux vert et brun ouverte sur un T-shirt gris, short cargo |
 | 🐹 | Katka | marmotte des Alpes, 13 ans, petite (à l'épaule du renard) ; pelage gris-brun, petites oreilles rondes, incisives visibles, queue courte et touffue ; sweat violet, écouteurs autour du cou, téléphone toujours à la main |
-| 🐑 | Babka Zuzana | brebis âgée, laine blanche ; foulard à fleurs, tablier, gilet brodé traditionnel |
+| 🐑 | Babka Zuzana | brebis âgée, laine blanche, petites lunettes rondes ; costume traditionnel : foulard rouge à fleurs, gilet noir brodé, chemise blanche brodée, tablier blanc, jupe rouge |
 | 🦡 | Marek | blaireau adulte ; gilet de travail bleu marine avec un badge, chemise claire |
-| 🐿️ | Ján | écureuil roux, ado, très vif ; T-shirt orange, casquette à l'envers |
-| 🦅 | Pán Orol | aigle royal, garde du parc ; chapeau et insigne de garde forestier |
+| 🐿️ | Ján | écureuil roux, ado, très vif, parle avec les mains ; T-shirt orange, casquette bleue à l'envers |
+| 🦅 | Pán Orol | aigle royal, garde du parc ; chapeau de garde forestier, gilet vert kaki avec un insigne en forme de sapin |
 | 🧑 | Les humains | adultes ordinaires, même style 2D, désignés par leur fonction (jardinier, chef de chantier, mineur, journaliste…) |
 
 Le renard n'a pas de prénom écrit dans les prompts : dans le cours, c'est « toi ».
