@@ -1,6 +1,6 @@
 # Série Burka (5/5) — Spíš?
 
-@ img/chata-noc.jpg | La fenêtre éclairée d'un refuge de montagne, la nuit. Source : Wikimedia Commons
+@ img/illus_04_burka.jpg | L'orage gronde sur les Tatras, et dans la cuisine du refuge, impossible de dormir. Source : illustration générée avec ChatGPT, d'après une photo de Kristo (Wikimedia Commons, CC BY-SA 3.0)
 
 {{fr:L'orage gronde encore. Dans le noir de la cuisine, impossible de dormir. Alors on parle de demain… et de deux personnes que tu as hâte de revoir. Ou pas.}}
 

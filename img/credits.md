@@ -20,6 +20,7 @@ Faites d'après `docs/Prompts-illustrations.md`, avec les planches de personnage
 | `10_Series_01_Kosice_05_v-elektricke.md` | `illus_01_kosice.jpg` | [Košice - Hlavná… Ringhoffer tram… (June 2006) 01.jpg](https://commons.wikimedia.org/wiki/File:Ko%C5%A1ice_-_Hlavn%C3%A1_(Main_street)_-_Historic_Ringhoffer_tram,_green_livery_and_Zlat%C3%BD_ba%C5%BEant_sponsor_livery,_at_the_Lower_Gate,_Old_Town,_Ko%C5%A1ice_(June_2006)_01.jpg), ZemplinTemplar | CC BY-SA 4.0 (œuvre dérivée) |
 | `10_Series_02_Sucho_05_fontana.md` | `illus_02_sucho.jpg` | [Spievajúca fontána, Košice, 2026 (5).jpg](https://commons.wikimedia.org/wiki/File:Spievaj%C3%BAca_font%C3%A1na,_Ko%C5%A1ice,_2026_(5).jpg), Antimuonium | CC BY-SA 4.0 (œuvre dérivée) |
 | `10_Series_03_Raj_05_roklina.md` | `illus_03_raj.jpg` | [Slovensky raj, Sucha Bela, 03.jpg](https://commons.wikimedia.org/wiki/File:Slovensky_raj,_Sucha_Bela,_03.jpg), dariusz wozniak | CC BY-SA 3.0 (œuvre dérivée) |
+| `10_Series_04_Burka_05_spis.md` | `illus_04_burka.jpg` | [Teryho chata I.jpg](https://commons.wikimedia.org/wiki/File:Teryho_chata_I.jpg), Kristo | CC BY-SA 3.0 (œuvre dérivée) |
 
 ## Images de style (bandeaux de thème)
 
@@ -38,7 +39,6 @@ Fichiers `img/style_<clé>.jpg`, repris de Slovingo-sk-fr-kids (même source, m�
 | `10_Series_11_Bratislava_06_extra.md` | [View of Bratislava from Nový most, 20210727 1012 0262.jpg](https://commons.wikimedia.org/wiki/File:View_of_Bratislava_from_Nov%C3%BD_most,_20210727_1012_0262.jpg) | Wikimedia Commons | Jakub Hałun | CC BY-SA 4.0 |
 | `10_Series_11_Bratislava_03_prevrateny-stol.md` | [Bratislava Castle, 20210727 1004 0250.jpg](https://commons.wikimedia.org/wiki/File:Bratislava_Castle,_20210727_1004_0250.jpg) | Wikimedia Commons | Jakub Hałun | CC BY-SA 4.0 |
 | `10_Series_07_Cesta_01_podla-mna.md` | [Low Tatras creek.jpg](https://commons.wikimedia.org/wiki/File:Low_Tatras_creek.jpg) | Wikimedia Commons | Radosław Botev | CC BY-SA 4.0 |
-| `10_Series_04_Burka_05_spis.md` | [Bomber Hut. Talkeetna Mountains, Alaska (36683408066).jpg](https://commons.wikimedia.org/wiki/File:Bomber_Hut._Talkeetna_Mountains,_Alaska_(36683408066).jpg) | Wikimedia Commons | Paxson Woelber | CC BY 2.0 |
 | `10_Series_08_Datacentrum_02_velka-budova.md` | [Data center roof.jpg](https://commons.wikimedia.org/wiki/File:Data_center_roof.jpg) | Wikimedia Commons | Rsparks3 | CC0 |
 | `10_Series_05_Domov_05_ked-som-bol-maly.md` | [Museum of Orava village 01.jpg](https://commons.wikimedia.org/wiki/File:Museum_of_Orava_village_01.jpg) | Wikimedia Commons | 10ricardo | CC BY-SA 4.0 |
 | `10_Series_13_Sen_02_mam-pocit.md` | [La chaleur à Paris, fillette prenant de l'eau à une borne-fontaine, 1921 - Gallica.jpg](https://commons.wikimedia.org/wiki/File:La_chaleur_%C3%A0_Paris,_fillette_prenant_de_l'eau_%C3%A0_une_borne-fontaine,_1921_-_Gallica.jpg) | Wikimedia Commons | Agence Rol | Public domain |
