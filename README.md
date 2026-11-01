@@ -2,6 +2,8 @@
 
 🌐 **Le cours en ligne : [lstux.github.io/Slovingo-sk-fr-friends](https://lstux.github.io/Slovingo-sk-fr-friends/)**
 
+📖 **L'histoire complète, à lire d'une traite et à écouter : [histoire.html](https://lstux.github.io/Slovingo-sk-fr-friends/histoire.html)** (tout le récit en slovaque, sans les explications, traductions à la demande).
+
 Un cours de slovaque pour les 12-16 ans… qui se lit comme une histoire ! :)
 
 ![La bande sur la route, des Tatras jusqu'à Bratislava](img/illus_00_couverture.jpg)
