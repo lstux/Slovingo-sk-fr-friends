@@ -22,12 +22,12 @@ globalThis.ZA_DATA = {
       scale: { y0: 590, s0: 0.86, y1: 700, s1: 1.06 },
       // la ville qui defile derriere les vitres
       layers: [
-        { img: 'art/scenery.svg', clip: [[407, 157], [753, 157], [753, 393], [407, 393]], speed: 220 },
-        { img: 'art/scenery.svg', clip: [[827, 157], [1173, 157], [1173, 393], [827, 393]], speed: 220 },
+        { img: 'art/scenery.svg', clip: [[407, 157], [753, 157], [753, 393], [407, 393]], speed: 220, mirror: true },
+        { img: 'art/scenery.svg', clip: [[827, 157], [1173, 157], [1173, 393], [827, 393]], speed: 220, mirror: true },
       ],
       sprites: [
-        { id: 'andrea', img: 'art/andrea.svg', x: 960, y: 655, h: 330, face: -1 },
-        { id: 'fox', img: 'art/fox.svg', x: 380, y: 655, h: 330, speed: 320 },
+        { id: 'andrea', img: 'art/andrea.png', x: 960, y: 655, h: 330, face: -1 },
+        { id: 'fox', img: 'art/fox.png', x: 380, y: 655, h: 325, speed: 320 },
       ],
       extraSprites: { revizor: { img: 'art/revizor.svg', x: 1250, y: 655, h: 345, hidden: true, speed: 240 } },
       hotspots: [

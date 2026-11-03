@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Dessine les images PROVISOIRES du point-and-click (SVG) : decor du tram, personnages, objets.
+"""Dessine les images PROVISOIRES du point-and-click (SVG) : decor du tram, ville, controleur, objets.
+(Le renard, Andrea et les autres sont decoupes des planches du cours par tools/cut_sprites.py.)
 
     python3 web-games/aventure/tools/make_placeholder_art.py
 
@@ -88,13 +89,6 @@ def person(body, head, extra, ears="", tail=""):
 """
 
 
-fox_ears = '<polygon points="56,70 62,10 98,52" fill="#e8742a"/><polygon points="144,70 138,10 102,52" fill="#e8742a"/><polygon points="62,10 66,30 78,24" fill="#444"/><polygon points="138,10 134,30 122,24" fill="#444"/>'
-fox_face = '<ellipse cx="112" cy="116" rx="36" ry="24" fill="#f6e8cf"/><circle cx="82" cy="92" r="6" fill="#222"/><circle cx="122" cy="92" r="6" fill="#222"/><ellipse cx="136" cy="108" rx="9" ry="7" fill="#222"/>'
-write("fox.svg", person("#2f56b8", "#e8742a", {"legs": "#2a3550", "shoes": "#f0f0f0", "face": fox_face}, fox_ears,
-                        '<path d="M52 250 q-60 20 -40 90 q30 -20 54 -60z" fill="#e8742a"/><path d="M14 330 q10 -14 26 -20 l-8 24z" fill="#f6e8cf"/>'))
-rab_ears = '<rect x="64" y="-20" width="26" height="100" rx="13" fill="#8c8f98"/><rect x="110" y="-20" width="26" height="100" rx="13" fill="#8c8f98"/><rect x="72" y="-6" width="10" height="70" rx="5" fill="#f2a9b8"/><rect x="118" y="-6" width="10" height="70" rx="5" fill="#f2a9b8"/>'
-rab_face = '<ellipse cx="112" cy="116" rx="34" ry="22" fill="#f1f1f1"/><circle cx="82" cy="94" r="6" fill="#222"/><circle cx="122" cy="94" r="6" fill="#222"/><path d="M130 106 l8 4 l-8 4z" fill="#d9607a"/>'
-write("andrea.svg", person("#9fe0c0", "#8c8f98", {"legs": "#3a63a8", "shoes": "#d23a3a", "face": rab_face}, rab_ears))
 insp_face = '<circle cx="82" cy="96" r="5" fill="#222"/><circle cx="120" cy="96" r="5" fill="#222"/><path d="M84 122 q16 10 34 0" stroke="#7a4030" stroke-width="4" fill="none"/>'
 insp_cap = '<rect x="52" y="36" width="96" height="24" rx="10" fill="#1d2f5a"/><rect x="48" y="54" width="104" height="10" rx="4" fill="#12204a"/>'
 write("revizor.svg", person("#1d2f5a", "#e9bf9c", {"legs": "#1a2444", "shoes": "#222", "face": insp_face + insp_cap}))
