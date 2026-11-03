@@ -6,6 +6,7 @@ Les deux jeux de la console ESP32 / Odroid-Go, jouables dans un navigateur :
 |---|---|
 | **Zajko Run** (plateformes) | `zajko-run/index.html` |
 | **Zajko Quest** (aventure et cours de slovaque, chapitres 1 à 3) | `zajko-quest/index.html` |
+| **Zajko — point-and-click** (aperçu : le tram de Košice, décors peints, énigmes de slovaque) | `aventure/index.html` |
 
 Fichiers statiques, sans serveur ni compilation : ouvrir `index.html` (le lanceur), ou publier le
 dossier tel quel (GitHub Pages...). Les scripts sont classiques (pas de modules), ça marche aussi
