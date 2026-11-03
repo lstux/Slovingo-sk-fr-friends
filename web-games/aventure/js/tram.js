@@ -1,6 +1,7 @@
 // Scene 1 : « V električke » (le tram de Košice). Textes et geometrie sont des donnees : on peut tout changer ici.
 // Images : voir art/PROMPTS.md. Zones : tools/editor.html dessine les polygones sur l'image et les exporte.
 // Les lignes SK/FR sont une premiere ecriture a relire (elles s'inspirent de la serie « Košice » du cours).
+const SCENERY = ['art/scenery.webp', 'art/scenery_2.webp', 'art/scenery_3.webp', 'art/scenery_4.webp', 'art/scenery_5.webp'];
 globalThis.ZA_DATA = {
   title: 'Zajko — V električke',
   start: 'tram',
@@ -21,16 +22,22 @@ globalThis.ZA_DATA = {
       floor: [[20, 590], [1260, 590], [1280, 712], [0, 712]],
       scale: { y0: 590, s0: 0.86, y1: 712, s1: 1.08 },
       // la ville qui defile derriere les vitres (la vitre de gauche a une barre : deux morceaux, meme defilement)
+      // plusieurs troncons de ville (art/scenery*.webp, ceux qui manquent sont ignores), fondu enchaine entre eux
       layers: [
-        { img: 'art/scenery.webp', box: [392, 100, 834, 356], clip: [[392, 100], [834, 100], [834, 157], [392, 157]], speed: 160, mirror: true },
-        { img: 'art/scenery.webp', box: [392, 100, 834, 356], clip: [[392, 170], [834, 170], [834, 356], [392, 356]], speed: 160, mirror: true },
-        { img: 'art/scenery.webp', box: [898, 100, 1240, 356], clip: [[898, 100], [1240, 100], [1240, 356], [898, 356]], speed: 160, mirror: true },
+        { imgs: SCENERY, box: [392, 100, 834, 356], clip: [[392, 100], [834, 100], [834, 157], [392, 157]], speed: 110, mirror: true },
+        { imgs: SCENERY, box: [392, 100, 834, 356], clip: [[392, 170], [834, 170], [834, 356], [392, 356]], speed: 110, mirror: true },
+        { imgs: SCENERY, box: [898, 100, 1240, 356], clip: [[898, 100], [1240, 100], [1240, 356], [898, 356]], speed: 110, mirror: true },
+        // les vitres des portes : plus pres, donc plus vite (la barre jaune reste visible)
+        { imgs: SCENERY, box: [17, 121, 272, 505], clip: [[17, 121], [119, 121], [119, 358], [17, 358]], speed: 170, mirror: true },
+        { imgs: SCENERY, box: [17, 121, 272, 505], clip: [[17, 369], [119, 369], [119, 505], [17, 505]], speed: 170, mirror: true },
+        { imgs: SCENERY, box: [17, 121, 272, 505], clip: [[168, 121], [272, 121], [272, 358], [168, 358]], speed: 170, mirror: true },
+        { imgs: SCENERY, box: [17, 121, 272, 505], clip: [[168, 369], [272, 369], [272, 505], [168, 505]], speed: 170, mirror: true },
       ],
       sprites: [
-        { id: 'andrea', img: 'art/andrea.png', x: 980, y: 660, h: 330, face: -1 },
-        { id: 'fox', img: 'art/fox.png', x: 470, y: 660, h: 325, speed: 320 },
+        { id: 'andrea', img: 'art/andrea.png', x: 1000, y: 662, h: 445, face: -1, walkSheet: { img: 'art/andrea_walk.png', frames: 8, fps: 10, h: 445 } },
+        { id: 'fox', img: 'art/fox.png', x: 470, y: 662, h: 440, speed: 320, walkSheet: { img: 'art/fox_walk.png', frames: 8, fps: 10, h: 440 } },
       ],
-      extraSprites: { revizor: { img: 'art/revizor.png', x: 1260, y: 660, h: 345, hidden: true, speed: 240 } },
+      extraSprites: { revizor: { img: 'art/revizor.png', x: 1260, y: 662, h: 470, walkSheet: { img: 'art/revizor_walk.png', frames: 8, fps: 10, h: 470 }, hidden: true, speed: 240 } },
       hotspots: [
         { id: 'door', name: { sk: 'dvere', fr: 'les portes' }, poly: [[0, 90], [290, 90], [290, 560], [0, 560]], walk: [160, 650],
           async onUse(g) {
@@ -77,9 +84,9 @@ globalThis.ZA_DATA = {
 
 // le controleur : il entre, demande les tickets, repart
 async function inspect(g) {
-  const r = g.spawn('revizor', 1260, 660);
+  const r = g.spawn('revizor', 1260, 662);
   g.face('revizor', -1);
-  await g.walk('revizor', 760, 660);
+  await g.walk('revizor', 735, 662);
   await g.say('revizor', 'Dobrý deň. Lístky na kontrolu, prosím.', 'Bonjour. Contrôle des tickets, s\'il vous plaît.', [['kontrola', 'le contrôle']]);
   for (;;) {
     const i = await g.choice([
@@ -92,7 +99,7 @@ async function inspect(g) {
   }
   await g.say('fox', 'Tu je môj lístok.', 'Voici mon ticket.');
   await g.say('revizor', 'Je v poriadku. Ďakujem.', 'C\'est en ordre. Merci.', [['v poriadku', 'en ordre']]);
-  await g.walk('revizor', 1260, 660);
+  await g.walk('revizor', 1260, 662);
   g.hide('revizor');
   g.setFlag('checked');
   await g.say('narrator', 'Električka zastavuje.', 'Le tram s\'arrête.');
@@ -102,9 +109,9 @@ async function inspect(g) {
 
 // pas de ticket valide : une amende, et on recommence
 async function fine(g) {
-  g.spawn('revizor', 1260, 660);
+  g.spawn('revizor', 1260, 662);
   g.face('revizor', -1);
-  await g.walk('revizor', 760, 660);
+  await g.walk('revizor', 735, 662);
   await g.say('revizor', 'Dobrý deň. Lístky na kontrolu, prosím.', 'Bonjour. Contrôle des tickets, s\'il vous plaît.');
   await g.say('revizor', 'Váš lístok nie je označený. To je pokuta!', 'Votre ticket n\'est pas validé. C\'est une amende !', [['pokuta', 'l\'amende']]);
   await g.say('andrea', 'Ach nie! Skús to znova.', 'Oh non ! Essaie encore.');

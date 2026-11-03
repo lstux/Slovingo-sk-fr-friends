@@ -99,3 +99,31 @@ One single full-body image of the red fox boy (the first character of the sheet)
 ```
 
 Remplacer « the red fox boy (the first character of the sheet) » par « Andrea, the hare girl (the second character) », « Maťo, the bear (the third) », etc.
+
+## 5. Cycles de marche (3 grilles) — `fox_walk.png`, `andrea_walk.png`, `revizor_walk.png`
+
+**À joindre** : `docs/illustrations/planche-heros.jpg` pour le renard et Andrea ; l'image du contrôleur
+(`art/sources/revizor_src.jpg`) pour le contrôleur. Un personnage par conversation.
+
+```
+Use the attached image as the exact character design (same face, fur, clothes, proportions, colours).
+
+Make a walk cycle: ONE image containing a grid of 8 equal cells (2 rows x 4 columns, read left to right then top to bottom), each cell showing the same full character seen exactly from the SIDE (profile) facing right, in the 8 successive poses of a smooth looping walk (contact, down, passing, up, contact with the other leg, down, passing, up). Same size in every cell, feet on the same baseline in every cell, whole body and tail visible with margin, nothing crossing the cell borders. Flat solid magenta #FF00FF background everywhere, no ground, no shadow, no grid lines, no frames. Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. No text, no letters, no watermark.
+```
+
+Déposer l'image dans `art/sources/` (ex. `fox_walk_src.png`) puis :
+`python3 web-games/aventure/tools/cut_walk.py art/sources/fox_walk_src.png art/fox_walk.png --grid 2x4`
+(idem `andrea_walk.png`, `revizor_walk.png`). Le jeu les utilise dès qu'ils existent ; sinon les
+personnages « marchent » par un petit balancement.
+
+## 6. Tronçons de ville supplémentaires — `scenery_2..5.webp`
+
+**À joindre** : `art/sources/scenery_src.jpg` (le tronçon actuel) pour garder le style.
+
+```
+Use the attached image as the style and lighting reference. Create a NEW panoramic street view, same width and proportions as the attached image, a continuation of the same Košice street further along the tram line: different buildings, a small square with trees, a bridge or park edge, shops, a tram stop. Slight differences in building colours. The cathedral must NOT appear. The left and right edges must be calm (no building cut in a way that stands out) so the strip can blend with its neighbours. Same eye level (seen from a tram window), same sunny sky. Classic 2D hand-drawn animated-film style (not 3D), painted background. No text, no letters, no logos, no watermark.
+```
+
+Faire 3 ou 4 variantes, les déposer sous `art/sources/scenery_2_src.jpg`, `scenery_3_src.jpg`… puis lancer
+`python3 web-games/aventure/tools/prepare_art.py`. Elles défilent bout à bout en fondu, le tronçon 1
+(avec la cathédrale) revient donc beaucoup moins souvent. Les vitres des portes utilisent les mêmes images.

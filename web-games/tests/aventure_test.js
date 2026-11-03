@@ -16,7 +16,7 @@ const srv = http.createServer((q, r) => {
   async function open() {
     const pg = await b.newPage({ viewport: { width: 1100, height: 700 } });
     const errs = [];
-    pg.on('pageerror', (e) => errs.push(e.message)); pg.on('console', (m) => { if (m.type() === 'error') errs.push(m.text()); });
+    pg.on('pageerror', (e) => errs.push(e.message)); pg.on('console', (m) => { if (m.type() === 'error' && !/404/.test(m.text())) errs.push(m.text()); });
     await pg.goto(`http://localhost:${port}/aventure/index.html`);
     await pg.waitForFunction(() => window.__zajka && window.__zajka.scene);
     pg.errs = errs;
