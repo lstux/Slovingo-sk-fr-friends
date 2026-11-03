@@ -316,7 +316,7 @@
     drawLayer(l) {
       const im = this.img(l.img);
       if (!im || !im.naturalWidth) return;
-      const [x0, y0, x1, y1] = bbox(l.clip), bw = x1 - x0, bh = y1 - y0, sc = bh / im.naturalHeight * (l.zoom || 1);
+      const [x0, y0, x1, y1] = l.box || bbox(l.clip), bw = x1 - x0, bh = y1 - y0, sc = bh / im.naturalHeight * (l.zoom || 1);
       const sw = im.naturalWidth * sc;
       const scroll = this.t * (l.speed || 60), i0 = Math.floor(scroll / sw), off = scroll - i0 * sw, ih = im.naturalHeight * sc, iy = y1 - ih;
       const c = this.ctx;

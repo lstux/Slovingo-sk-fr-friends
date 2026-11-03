@@ -1,19 +1,23 @@
 # Images de « Zajko — V električke » (point-and-click) : prompts ChatGPT
 
-Même méthode que `docs/Prompts-illustrations.md` : nouvelle conversation par image, on **joint les
+Même méthode que `docs/Prompts-illustrations.md` (ChatGPT ou Gemini) : nouvelle conversation par image, on **joint les
 images indiquées**, on colle le prompt (complet, rien d'autre à ajouter), on dépose le résultat dans
-ce dossier. Le style est celui du cours (dessin animé 2D, contours à l'encre, aplats avec ombrage
+`sources/`. Le style est celui du cours (dessin animé 2D, contours à l'encre, aplats avec ombrage
 cel, décors peints) : les décors du jeu et les illustrations du cours se ressemblent.
 
 ## Ce qu'il faut générer (et ce qu'on a déjà)
 
-| fichier à déposer | contenu | images à joindre | état |
+| fichier du jeu | contenu | images à joindre | état |
 | --- | --- | --- | --- |
-| `tram.webp` (remplace `tram.svg`) | décor : le tram vide, vue de côté | `img/illus_01_kosice.jpg` | **à générer** |
-| `scenery.webp` (remplace `scenery.svg`) | la ville qui défile derrière les vitres | `img/illus_01_kosice.jpg` | **à générer** |
-| `revizor.png` (remplace `revizor.svg`) | le contrôleur, humain, détouré | `docs/illustrations/planche-heros.jpg` + `img/illus_01_kosice.jpg` | **à générer** |
-| `item_listok.png`, `item_listok_ok.png` | ticket, ticket validé | aucune | **à générer** |
+| `tram.webp` | décor : le tram vide, vue de côté | `img/illus_01_kosice.jpg` | **fait** (source `sources/tram_src.png`) |
+| `scenery.webp` | la ville qui défile derrière les vitres | `img/illus_01_kosice.jpg` | **fait** (`sources/scenery_src.jpg`) |
+| `revizor.png` | le contrôleur, humain, détouré | `docs/illustrations/planche-heros.jpg` + `img/illus_01_kosice.jpg` | **fait** (`sources/revizor_src.jpg`) |
+| `item_listok.png`, `item_listok_ok.png` | ticket, ticket validé | aucune | **fait** (`sources/items_src.jpg`) |
 | `fox.png`, `andrea.png`, `mato.png`, `katka.png`, `zuzana.png`, `marek.png`, `jan.png`, `orol.png` | personnages (vue de trois quarts) | — | **fait** : découpés des planches du cours par `tools/cut_sprites.py` |
+
+Les images ont été générées avec Gemini (le quota ChatGPT s'épuise vite) : les prompts ci-dessous
+marchent pour les deux. Chaque image générée se dépose dans `sources/` et `tools/prepare_art.py`
+fabrique les fichiers du jeu (WebP, détourage du fond magenta).
 
 Les personnages n'ont donc **rien à générer** pour l'instant : le renard, Andrea et les autres sortent
 directement des planches `docs/illustrations/planche-heros.jpg` et `planche-seconds-roles.jpg`. Les

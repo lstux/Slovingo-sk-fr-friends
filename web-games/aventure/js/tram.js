@@ -11,33 +11,34 @@ globalThis.ZA_DATA = {
     revizor: { name: 'Revízor', icon: '🎫', color: '#4a6ac0' },
   },
   items: {
-    listok: { sk: 'lístok', fr: 'ticket', icon: 'art/item_listok.svg' },
-    listok_ok: { sk: 'označený lístok', fr: 'ticket validé', icon: 'art/item_listok_ok.svg' },
+    listok: { sk: 'lístok', fr: 'ticket', icon: 'art/item_listok.png' },
+    listok_ok: { sk: 'označený lístok', fr: 'ticket validé', icon: 'art/item_listok_ok.png' },
   },
   scenes: {
     tram: {
-      bg: 'art/tram.svg',
+      bg: 'art/tram.webp',
       player: 'fox',
-      floor: [[30, 590], [1250, 590], [1270, 700], [10, 700]],
-      scale: { y0: 590, s0: 0.86, y1: 700, s1: 1.06 },
-      // la ville qui defile derriere les vitres
+      floor: [[20, 590], [1260, 590], [1280, 712], [0, 712]],
+      scale: { y0: 590, s0: 0.86, y1: 712, s1: 1.08 },
+      // la ville qui defile derriere les vitres (la vitre de gauche a une barre : deux morceaux, meme defilement)
       layers: [
-        { img: 'art/scenery.svg', clip: [[407, 157], [753, 157], [753, 393], [407, 393]], speed: 220, mirror: true },
-        { img: 'art/scenery.svg', clip: [[827, 157], [1173, 157], [1173, 393], [827, 393]], speed: 220, mirror: true },
+        { img: 'art/scenery.webp', box: [392, 100, 834, 356], clip: [[392, 100], [834, 100], [834, 157], [392, 157]], speed: 160, mirror: true },
+        { img: 'art/scenery.webp', box: [392, 100, 834, 356], clip: [[392, 170], [834, 170], [834, 356], [392, 356]], speed: 160, mirror: true },
+        { img: 'art/scenery.webp', box: [898, 100, 1240, 356], clip: [[898, 100], [1240, 100], [1240, 356], [898, 356]], speed: 160, mirror: true },
       ],
       sprites: [
-        { id: 'andrea', img: 'art/andrea.png', x: 960, y: 655, h: 330, face: -1 },
-        { id: 'fox', img: 'art/fox.png', x: 380, y: 655, h: 325, speed: 320 },
+        { id: 'andrea', img: 'art/andrea.png', x: 980, y: 660, h: 330, face: -1 },
+        { id: 'fox', img: 'art/fox.png', x: 470, y: 660, h: 325, speed: 320 },
       ],
-      extraSprites: { revizor: { img: 'art/revizor.svg', x: 1250, y: 655, h: 345, hidden: true, speed: 240 } },
+      extraSprites: { revizor: { img: 'art/revizor.png', x: 1260, y: 660, h: 345, hidden: true, speed: 240 } },
       hotspots: [
-        { id: 'door', name: { sk: 'dvere', fr: 'les portes' }, poly: [[30, 130], [210, 130], [210, 560], [30, 560]], walk: [130, 650],
+        { id: 'door', name: { sk: 'dvere', fr: 'les portes' }, poly: [[0, 90], [290, 90], [290, 560], [0, 560]], walk: [160, 650],
           async onUse(g) {
             if (!g.flag('checked')) { await g.say('fox', 'Ešte nie. Električka ide.', 'Pas encore. Le tram roule.', [['dvere', 'les portes']]); return; }
             await g.say('fox', 'Vystupujeme!', 'On descend !');
             g.end('Koniec ukážky', 'Fin de l\'aperçu');
           } },
-        { id: 'validator', name: { sk: 'označovač', fr: 'le composteur' }, poly: [[240, 395], [330, 395], [330, 505], [240, 505]], walk: [285, 650],
+        { id: 'validator', name: { sk: 'označovač', fr: 'le composteur' }, poly: [[318, 240], [392, 240], [392, 336], [318, 336]], walk: [355, 650],
           look: { sk: 'Označovač lístkov. Tu označím lístok.', fr: 'Le composteur de tickets. C\'est ici que je valide mon ticket.', words: [['označovač', 'le composteur']] },
           onItem: {
             async listok(g) {
@@ -46,13 +47,13 @@ globalThis.ZA_DATA = {
               await inspect(g);
             },
           } },
-        { id: 'display', name: { sk: 'displej', fr: 'l\'afficheur' }, poly: [[560, 40], [800, 40], [800, 105], [560, 105]], walk: [680, 650],
+        { id: 'display', name: { sk: 'displej', fr: 'l\'afficheur' }, poly: [[547, 30], [747, 30], [747, 70], [547, 70]], walk: [650, 650],
           look: { who: 'narrator', sk: 'Ďalšia zastávka: Staničné námestie.', fr: 'Prochain arrêt : Staničné námestie.', words: [['ďalšia zastávka', 'le prochain arrêt']] } },
-        { id: 'windows', name: { sk: 'okno', fr: 'la fenêtre' }, poly: [[400, 150], [760, 150], [760, 400], [400, 400]], walk: [580, 640],
+        { id: 'windows', name: { sk: 'okno', fr: 'la fenêtre' }, poly: [[392, 100], [834, 100], [834, 356], [392, 356]], walk: [610, 650],
           look: { sk: 'Košice sú super!', fr: 'Košice, c\'est super !', words: [['okno', 'la fenêtre']] } },
-        { id: 'windows2', name: { sk: 'okno', fr: 'la fenêtre' }, poly: [[820, 150], [1180, 150], [1180, 400], [820, 400]], walk: [1000, 640],
+        { id: 'windows2', name: { sk: 'okno', fr: 'la fenêtre' }, poly: [[898, 100], [1240, 100], [1240, 356], [898, 356]], walk: [1060, 650],
           look: { sk: 'Pozri, mesto ide okolo!', fr: 'Regarde, la ville défile !' } },
-        { id: 'andrea', sprite: 'andrea', name: { sk: 'Andrea', fr: 'Andrea' }, walk: [850, 660],
+        { id: 'andrea', sprite: 'andrea', name: { sk: 'Andrea', fr: 'Andrea' }, walk: [880, 665],
           async onUse(g) {
             if (!g.flag('stamped')) await g.say('andrea', 'Označ si lístok! Označovač je pri dverách.', 'Valide ton ticket ! Le composteur est près des portes.', [['pri dverách', 'près des portes']]);
             else if (g.flag('checked')) await g.say('andrea', 'Vystupujeme na ďalšej zastávke.', 'On descend au prochain arrêt.');
@@ -76,9 +77,9 @@ globalThis.ZA_DATA = {
 
 // le controleur : il entre, demande les tickets, repart
 async function inspect(g) {
-  const r = g.spawn('revizor', 1250, 655);
+  const r = g.spawn('revizor', 1260, 660);
   g.face('revizor', -1);
-  await g.walk('revizor', 900, 655);
+  await g.walk('revizor', 760, 660);
   await g.say('revizor', 'Dobrý deň. Lístky na kontrolu, prosím.', 'Bonjour. Contrôle des tickets, s\'il vous plaît.', [['kontrola', 'le contrôle']]);
   for (;;) {
     const i = await g.choice([
@@ -91,7 +92,7 @@ async function inspect(g) {
   }
   await g.say('fox', 'Tu je môj lístok.', 'Voici mon ticket.');
   await g.say('revizor', 'Je v poriadku. Ďakujem.', 'C\'est en ordre. Merci.', [['v poriadku', 'en ordre']]);
-  await g.walk('revizor', 1250, 655);
+  await g.walk('revizor', 1260, 660);
   g.hide('revizor');
   g.setFlag('checked');
   await g.say('narrator', 'Električka zastavuje.', 'Le tram s\'arrête.');
@@ -101,9 +102,9 @@ async function inspect(g) {
 
 // pas de ticket valide : une amende, et on recommence
 async function fine(g) {
-  g.spawn('revizor', 1250, 655);
+  g.spawn('revizor', 1260, 660);
   g.face('revizor', -1);
-  await g.walk('revizor', 900, 655);
+  await g.walk('revizor', 760, 660);
   await g.say('revizor', 'Dobrý deň. Lístky na kontrolu, prosím.', 'Bonjour. Contrôle des tickets, s\'il vous plaît.');
   await g.say('revizor', 'Váš lístok nie je označený. To je pokuta!', 'Votre ticket n\'est pas validé. C\'est une amende !', [['pokuta', 'l\'amende']]);
   await g.say('andrea', 'Ach nie! Skús to znova.', 'Oh non ! Essaie encore.');
