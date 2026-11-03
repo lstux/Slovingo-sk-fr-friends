@@ -37,7 +37,7 @@ const srv = http.createServer((q, r) => {
   let pg = await open();
   await pg.until((s) => !s.busy && s.flags.intro, 'intro');
   await pg.click_(1232, 46);                       // choisir le ticket
-  await pg.click_(285, 450);                       // sur le composteur
+  await pg.click_(355, 290);                       // sur le composteur
   await pg.until((s) => s.ch, 'choix du controleur');
   await pg.click_(600, 135 + 70 * 0 + 190);        // mauvaise reponse (« Dobru noc »)
   await pg.until((s) => s.ch, 'la question revient');

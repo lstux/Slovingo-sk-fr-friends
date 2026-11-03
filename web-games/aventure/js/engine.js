@@ -316,16 +316,21 @@
     drawLayer(l) {
       const im = this.img(l.img);
       if (!im || !im.naturalWidth) return;
-      const [x0, y0, x1, y1] = bbox(l.clip), bw = x1 - x0, bh = y1 - y0, sc = bh / im.naturalHeight * (l.zoom || 1);
+      const [x0, y0, x1, y1] = l.box || bbox(l.clip), bw = x1 - x0, bh = y1 - y0, sc = bh / im.naturalHeight * (l.zoom || 1);
       const sw = im.naturalWidth * sc;
-      const off = ((this.t * (l.speed || 60)) % sw + sw) % sw;
+      const scroll = this.t * (l.speed || 60), i0 = Math.floor(scroll / sw), off = scroll - i0 * sw, ih = im.naturalHeight * sc, iy = y1 - ih;
       const c = this.ctx;
       c.save();
       c.beginPath();
       l.clip.forEach(([x, y], i) => (i ? c.lineTo(x, y) : c.moveTo(x, y)));
       c.closePath();
       c.clip();
-      for (let x = x0 - off; x < x1; x += sw) c.drawImage(im, x, y1 - im.naturalHeight * sc, sw, im.naturalHeight * sc);
+      // l'image se repete ; avec « mirror », une image sur deux est retournee : les bords se raccordent toujours
+      for (let j = 0, x = x0 - off; x < x1; j++, x += sw) {
+        if (l.mirror && (i0 + j) % 2 !== 0) {
+          c.save(); c.translate(x + sw, 0); c.scale(-1, 1); c.drawImage(im, 0, iy, sw, ih); c.restore();
+        } else c.drawImage(im, x, iy, sw, ih);
+      }
       const g = c.createLinearGradient(x0, y0, x1, y1);
       g.addColorStop(0, 'rgba(255,255,255,.18)'); g.addColorStop(0.45, 'rgba(255,255,255,0)'); g.addColorStop(1, 'rgba(255,255,255,.08)');
       c.fillStyle = g; c.fillRect(x0, y0, bw, bh);
