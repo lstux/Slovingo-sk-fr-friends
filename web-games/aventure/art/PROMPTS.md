@@ -127,3 +127,7 @@ Use the attached image as the style and lighting reference. Create a NEW panoram
 Faire 3 ou 4 variantes, les déposer sous `art/sources/scenery_2_src.jpg`, `scenery_3_src.jpg`… puis lancer
 `python3 web-games/aventure/tools/prepare_art.py`. Elles défilent bout à bout en fondu, le tronçon 1
 (avec la cathédrale) revient donc beaucoup moins souvent. Les vitres des portes utilisent les mêmes images.
+
+> Intégré : tronçons `scenery_2..5` (rue commerçante, pont, place, arrêt) et marche du contrôleur
+> (`revizor_walk.png`, 4 images : la grille générée répète deux fois les mêmes 4 poses, donc
+> `cut_walk.py ... --grid 2x4 --first 4`). Restent : `fox_walk.png` et `andrea_walk.png`.
