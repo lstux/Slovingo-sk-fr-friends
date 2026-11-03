@@ -11,7 +11,7 @@ Aperçu : la scène du tram de Košice (valider son ticket, passer le contrôle,
 - **Zones** : `tools/editor.html` dessine les polygones sur l'illustration et exporte le code.
 - **Images** : `art/PROMPTS.md` (prompts, images à joindre, règles). Décor, ville et objets : images
   générées (Gemini) déposées dans `art/sources/`, préparées par `tools/prepare_art.py` ; personnages
-  découpés des planches du cours (`tools/cut_sprites.py`). Remplacer une image : refaire tourner l'outil.
+  découpés des planches du cours (`tools/cut_sprites.py`). Remplacer une image : refaire tourner l'outil. Marche : `tools/cut_walk.py` ; ville : `scenery_2..5`.
 - **Test** : `node web-games/tests/aventure_test.js` joue la scène dans Chromium (Playwright).
 
 Les lignes slovaques et françaises sont une première écriture, à relire.

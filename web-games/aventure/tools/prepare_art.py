@@ -52,6 +52,13 @@ def main():
     sc = Image.open(os.path.join(SRC, "scenery_src.jpg")).convert("RGB")
     sc.save(os.path.join(ART, "scenery.webp"), quality=84, method=6)
 
+    for i in range(2, 6):   # troncons de ville supplementaires (facultatifs) : scenery_2_src.jpg ... -> scenery_2.webp
+        for ext in ("jpg", "png", "webp"):
+            q = os.path.join(SRC, f"scenery_{i}_src.{ext}")
+            if os.path.exists(q):
+                Image.open(q).convert("RGB").save(os.path.join(ART, f"scenery_{i}.webp"), quality=84, method=6)
+                break
+
     rv = crop_alpha(key_magenta(Image.open(os.path.join(SRC, "revizor_src.jpg"))))
     rv.save(os.path.join(ART, "revizor.png"), optimize=True)
 

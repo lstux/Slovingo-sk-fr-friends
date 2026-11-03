@@ -61,9 +61,8 @@
       const srcs = new Set();
       for (const s of Object.values(this.data.scenes)) {
         srcs.add(s.bg);
-        for (const l of s.layers || []) srcs.add(l.img);
-        for (const sp of s.sprites || []) srcs.add(sp.img);
-        for (const sp of Object.values(s.extraSprites || {})) srcs.add(sp.img);
+        for (const l of s.layers || []) { srcs.add(l.img); for (const q of l.imgs || []) srcs.add(q); }
+        for (const sp of (s.sprites || []).concat(Object.values(s.extraSprites || {}))) { srcs.add(sp.img); if (sp.walkSheet) srcs.add(sp.walkSheet.img); }
       }
       for (const it of Object.values(this.data.items)) srcs.add(it.icon);
       return Promise.all([...srcs].filter(Boolean).map((s) => new Promise((res) => {
@@ -105,7 +104,7 @@
     enter(id) {
       const def = this.data.scenes[id];
       this.scene = Object.assign({ id }, def);
-      this.sprites = (def.sprites || []).map((s) => Object.assign({ tx: null, ty: null, face: 1, walk: 0, hidden: false }, s));
+      this.sprites = (def.sprites || []).map((s) => Object.assign({ tx: null, ty: null, face: 1, wt: 0, hidden: false }, s));
       this.timers = []; this.dialog = null; this.choices = null; this.selected = null;
       this.sceneTime = 0;
       this.save();
@@ -120,7 +119,7 @@
         sprite: (id) => g.sprites.find((s) => s.id === id),
         spawn: (id, x, y) => {
           const ex = g.scene.extraSprites && g.scene.extraSprites[id];
-          const s = g.sprites.find((q) => q.id === id) || (ex && g.sprites[g.sprites.push(Object.assign({ id, tx: null, ty: null, face: 1, walk: 0 }, ex)) - 1]);
+          const s = g.sprites.find((q) => q.id === id) || (ex && g.sprites[g.sprites.push(Object.assign({ id, tx: null, ty: null, face: 1, wt: 0 }, ex)) - 1]);
           if (s) { s.hidden = false; if (x !== undefined) { s.x = x; s.y = y; } }
           return s;
         },
@@ -273,7 +272,7 @@
       if (this.flash > 0) this.flash -= dt;
       if (this.dialog && this.dialog.shown < this.dialog.sk.length) this.dialog.shown = Math.min(this.dialog.sk.length, this.dialog.shown + dt * 55);
       for (const s of this.sprites) {
-        if (s.tx === null) { s.walk = 0; continue; }
+        if (s.tx === null) { s.wt = 0; continue; }
         const dx = s.tx - s.x, dy = s.ty - s.y, d = Math.hypot(dx, dy), step = (s.speed || 300) * dt;
         if (d <= step) {
           s.x = s.tx; s.y = s.ty; s.tx = s.ty = null;
@@ -282,7 +281,7 @@
         } else {
           s.x += (dx / d) * step; s.y += (dy / d) * step;
           if (Math.abs(dx) > 4) s.face = dx > 0 ? 1 : -1;
-          s.walk += dt;
+          s.wt += dt;
         }
       }
       if (!this.busy && !this.dialog && !this.choices && this.timers.length) {
@@ -313,23 +312,58 @@
       if (this.panel === 'words') this.drawWords();
       if (this.endCard) this.drawEnd();
     }
+    // une image qui s'estompe sur sa gauche (pour la raccorder a la precedente)
+    fadedImage(im, w, h, fade) {
+      const key = im.src + '|' + Math.round(w) + 'x' + Math.round(h) + '|' + fade;
+      this._fade = this._fade || {};
+      if (!this._fade[key]) {
+        const cv = document.createElement('canvas');
+        cv.width = Math.round(w); cv.height = Math.round(h);
+        const g = cv.getContext('2d');
+        g.drawImage(im, 0, 0, cv.width, cv.height);
+        const gr = g.createLinearGradient(0, 0, fade, 0);
+        gr.addColorStop(0, 'rgba(0,0,0,0)'); gr.addColorStop(1, 'rgba(0,0,0,1)');
+        g.globalCompositeOperation = 'destination-in';
+        g.fillStyle = gr; g.fillRect(0, 0, fade, cv.height);
+        g.fillStyle = '#000'; g.fillRect(fade, 0, cv.width, cv.height);
+        this._fade[key] = cv;
+      }
+      return this._fade[key];
+    }
     drawLayer(l) {
-      const im = this.img(l.img);
-      if (!im || !im.naturalWidth) return;
-      const [x0, y0, x1, y1] = l.box || bbox(l.clip), bw = x1 - x0, bh = y1 - y0, sc = bh / im.naturalHeight * (l.zoom || 1);
-      const sw = im.naturalWidth * sc;
-      const scroll = this.t * (l.speed || 60), i0 = Math.floor(scroll / sw), off = scroll - i0 * sw, ih = im.naturalHeight * sc, iy = y1 - ih;
       const c = this.ctx;
+      const list = (l.imgs || [l.img]).map((q) => this.img(q)).filter((im) => im && im.naturalWidth);
+      if (!list.length) return;
+      const [x0, y0, x1, y1] = l.box || bbox(l.clip), bw = x1 - x0, bh = y1 - y0, zoom = l.zoom || 1;
+      const scroll = this.t * (l.speed || 60);
       c.save();
       c.beginPath();
       l.clip.forEach(([x, y], i) => (i ? c.lineTo(x, y) : c.moveTo(x, y)));
       c.closePath();
       c.clip();
-      // l'image se repete ; avec « mirror », une image sur deux est retournee : les bords se raccordent toujours
-      for (let j = 0, x = x0 - off; x < x1; j++, x += sw) {
-        if (l.mirror && (i0 + j) % 2 !== 0) {
-          c.save(); c.translate(x + sw, 0); c.scale(-1, 1); c.drawImage(im, 0, iy, sw, ih); c.restore();
-        } else c.drawImage(im, x, iy, sw, ih);
+      if (list.length === 1) {
+        // une seule image : elle se repete, retournee une fois sur deux pour que les bords se raccordent
+        const im = list[0], sc = (bh / im.naturalHeight) * zoom, sw = im.naturalWidth * sc, ih = im.naturalHeight * sc, iy = y1 - ih;
+        const i0 = Math.floor(scroll / sw), off = scroll - i0 * sw;
+        for (let j = 0, x = x0 - off; x < x1; j++, x += sw) {
+          if (l.mirror && (i0 + j) % 2 !== 0) { c.save(); c.translate(x + sw, 0); c.scale(-1, 1); c.drawImage(im, 0, iy, sw, ih); c.restore(); }
+          else c.drawImage(im, x, iy, sw, ih);
+        }
+      } else {
+        // plusieurs images mises bout a bout, fondu enchaine sur « fade » pixels, boucle sur toute la suite
+        const fade = l.fade || 160, ih = bh * zoom, iy = y1 - ih;
+        const ws = list.map((im) => (im.naturalWidth / im.naturalHeight) * ih);
+        const period = ws.reduce((a, w) => a + w - fade, 0);
+        const pos = []; let acc = 0;
+        for (const w of ws) { pos.push(acc); acc += w - fade; }
+        const base = ((scroll % period) + period) % period;
+        for (let cyc = -1; cyc <= 1; cyc++) {
+          for (let i = 0; i < list.length; i++) {
+            const x = x0 + pos[i] + cyc * period - base;
+            if (x > x1 || x + ws[i] < x0) continue;
+            c.drawImage(this.fadedImage(list[i], ws[i], ih, fade), x, iy);
+          }
+        }
       }
       const g = c.createLinearGradient(x0, y0, x1, y1);
       g.addColorStop(0, 'rgba(255,255,255,.18)'); g.addColorStop(0.45, 'rgba(255,255,255,0)'); g.addColorStop(1, 'rgba(255,255,255,.08)');
@@ -339,14 +373,22 @@
     drawSprite(s) {
       const im = this.img(s.img);
       if (!im || !im.naturalWidth) return;
-      const r = this.spriteRect(s), c = this.ctx;
-      const moving = s.tx !== null;
-      const bob = moving ? Math.abs(Math.sin(s.walk * 9)) * 8 : Math.sin(this.t * 1.6 + (s.x % 7)) * 1.2;   // marche / respiration
-      const sq = moving ? 1 : 1 + Math.sin(this.t * 1.6 + (s.x % 7)) * 0.006;
+      const c = this.ctx, moving = s.tx !== null, ws = s.walkSheet, wim = ws && this.img(ws.img);
       c.save();
       c.translate(s.x, s.y);
       c.scale(s.face * (s.flip ? -1 : 1), 1);
-      c.drawImage(im, -r.w / 2, -r.h - bob, r.w, r.h * sq);
+      if (moving && wim && wim.naturalWidth) {
+        // cycle de marche : une bande d'images de meme taille, pieds en bas
+        const n = ws.frames, fw = wim.naturalWidth / n, k = this.scaleAt(s.y), h = (ws.h || s.h) * k, w = (fw / wim.naturalHeight) * h;
+        const f = Math.floor(s.wt * (ws.fps || 10)) % n;
+        c.drawImage(wim, f * fw, 0, fw, wim.naturalHeight, -w / 2, -h, w, h);
+      } else {
+        const r = this.spriteRect(s);
+        const ph = s.wt * 9, bob = moving ? Math.abs(Math.sin(ph)) * 8 : Math.sin(this.t * 1.6 + (s.x % 7)) * 1.2;   // faux pas / respiration
+        const sq = moving ? 1 : 1 + Math.sin(this.t * 1.6 + (s.x % 7)) * 0.006;
+        if (moving) c.rotate(Math.sin(ph) * 0.025);
+        c.drawImage(im, -r.w / 2, -r.h - bob, r.w, r.h * sq);
+      }
       c.restore();
     }
     roundRect(x, y, w, h, r) {
