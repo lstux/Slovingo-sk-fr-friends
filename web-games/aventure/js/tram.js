@@ -34,10 +34,10 @@ globalThis.ZA_DATA = {
         { imgs: SCENERY, box: [17, 121, 272, 505], clip: [[168, 369], [272, 369], [272, 505], [168, 505]], speed: 170, mirror: true },
       ],
       sprites: [
-        { id: 'andrea', img: 'art/andrea.png', x: 1000, y: 662, h: 445, face: -1, walkSheet: { img: 'art/andrea_walk.png', frames: 8, fps: 10, h: 445 } },
-        { id: 'fox', img: 'art/fox.png', x: 470, y: 662, h: 440, speed: 320, walkSheet: { img: 'art/fox_walk.png', frames: 8, fps: 10, h: 440 } },
+        { id: 'andrea', img: 'art/andrea.png', x: 1000, y: 662, h: 445, face: -1, walkSheet: { img: 'art/andrea_walk.png', frames: 4, fps: 7, h: 425 } },
+        { id: 'fox', img: 'art/fox.png', x: 470, y: 662, h: 440, speed: 320, walkSheet: { img: 'art/fox_walk.png', frames: 4, fps: 7, h: 410 } },
       ],
-      extraSprites: { revizor: { img: 'art/revizor.png', x: 1260, y: 662, h: 470, walkSheet: { img: 'art/revizor_walk.png', frames: 8, fps: 10, h: 470 }, hidden: true, speed: 240 } },
+      extraSprites: { revizor: { img: 'art/revizor.png', x: 1260, y: 662, h: 470, walkSheet: { img: 'art/revizor_walk.png', frames: 4, fps: 7, h: 470 }, hidden: true, speed: 240 } },
       hotspots: [
         { id: 'door', name: { sk: 'dvere', fr: 'les portes' }, poly: [[0, 90], [290, 90], [290, 560], [0, 560]], walk: [160, 650],
           async onUse(g) {

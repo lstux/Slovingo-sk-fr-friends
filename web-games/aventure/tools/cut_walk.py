@@ -23,6 +23,8 @@ def main():
     ap.add_argument("src")
     ap.add_argument("out")
     ap.add_argument("--grid", default="2x4", help="lignes x colonnes (defaut 2x4)")
+    ap.add_argument("--margin", type=int, default=8, help="pixels ignores au bord de chaque cellule (traits de grille)")
+    ap.add_argument("--first", type=int, default=0, help="ne garder que les N premieres images (si la grille repete les poses)")
     ap.add_argument("--height", type=int, default=600, help="hauteur d'une image de la bande, en pixels")
     a = ap.parse_args()
     rows, cols = (int(v) for v in a.grid.lower().split("x"))
@@ -31,8 +33,11 @@ def main():
     frames = []
     for r in range(rows):
         for c in range(cols):
-            cell = im.crop((round(c * cw), round(r * ch), round((c + 1) * cw), round((r + 1) * ch)))
+            m = a.margin
+            cell = im.crop((round(c * cw) + m, round(r * ch) + m, round((c + 1) * cw) - m, round((r + 1) * ch) - m))
             frames.append(crop_alpha(key_magenta(cell), pad=0))
+    if a.first:
+        frames = frames[:a.first]
     W = max(f.width for f in frames)
     H = max(f.height for f in frames)
     sheet = Image.new("RGBA", (W * len(frames), H), (0, 0, 0, 0))
