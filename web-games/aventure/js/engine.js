@@ -322,10 +322,9 @@
         const g = cv.getContext('2d');
         g.drawImage(im, 0, 0, cv.width, cv.height);
         const gr = g.createLinearGradient(0, 0, fade, 0);
-        gr.addColorStop(0, 'rgba(0,0,0,0)'); gr.addColorStop(1, 'rgba(0,0,0,1)');
-        g.globalCompositeOperation = 'destination-in';
+        gr.addColorStop(0, 'rgba(0,0,0,1)'); gr.addColorStop(1, 'rgba(0,0,0,0)');
+        g.globalCompositeOperation = 'destination-out';   // on efface progressivement le bord gauche
         g.fillStyle = gr; g.fillRect(0, 0, fade, cv.height);
-        g.fillStyle = '#000'; g.fillRect(fade, 0, cv.width, cv.height);
         this._fade[key] = cv;
       }
       return this._fade[key];
@@ -351,7 +350,7 @@
         }
       } else {
         // plusieurs images mises bout a bout, fondu enchaine sur « fade » pixels, boucle sur toute la suite
-        const fade = l.fade || 160, ih = bh * zoom, iy = y1 - ih;
+        const fade = l.fade || 70, ih = bh * zoom, iy = y1 - ih;
         const ws = list.map((im) => (im.naturalWidth / im.naturalHeight) * ih);
         const period = ws.reduce((a, w) => a + w - fade, 0);
         const pos = []; let acc = 0;
