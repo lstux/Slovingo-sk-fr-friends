@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+<title>Zajko — V električke</title>
+<link rel="stylesheet" href="../common/style.css?v=20261103">
+<style>
+  header { flex-wrap: wrap; row-gap: 4px; }
+  main { background: #0b0b12; }
+  #stage { touch-action: none; }
+  #rot { display: none; text-align: center; color: #9a96a8; padding: 8px 16px; }
+  @media (orientation: portrait) and (pointer: coarse) { #rot { display: block; } main { flex: none; } }
+  canvas { background: #000; border-radius: 4px; touch-action: none; }
+</style>
+</head>
+<body>
+<header>
+  <span class="title">Zajko — V električke <small style="color:#9a96a8;font-weight:400">(aperçu)</small></span>
+  <button id="zones" title="Montrer ce qui est cliquable (touche Espace)">Zones</button>
+  <button id="words">Slovník</button>
+  <button id="fr">Traduction : oui</button>
+  <button id="newgame">Nouvelle partie</button>
+  <button id="fs">Plein écran</button>
+  <a href="../index.html">Jeux</a>
+  <a href="../../">Cours</a>
+</header>
+<main id="stage"><canvas id="screen" width="1280" height="720"></canvas></main>
+<p id="rot">📱 Tourne ton téléphone en paysage : le décor sera plus grand.</p>
+<script src="js/engine.js?v=20261103"></script>
+<script src="js/tram.js?v=20261103"></script>
+<script>
+(function () {
+  const cv = document.getElementById('screen'), stage = document.getElementById('stage');
+  const g = new ZajkaAventure.Engine(cv, ZA_DATA);
+  function fit() {
+    const w = stage.clientWidth, h = stage.clientHeight, s = Math.min(w / 1280, h / 720);
+    cv.style.width = Math.floor(1280 * s) + 'px'; cv.style.height = Math.floor(720 * s) + 'px';
+  }
+  fit();
+  addEventListener('resize', fit);
+  if (window.ResizeObserver) new ResizeObserver(fit).observe(stage);
+  const $ = (id) => document.getElementById(id);
+  const label = () => { $('fr').textContent = 'Traduction : ' + (g.showFr ? 'oui' : 'non'); };
+  label();
+  $('fr').onclick = () => { g.setShowFr(!g.showFr); label(); };
+  $('zones').onclick = () => g.flashZones();
+  $('words').onclick = () => { g.panel = g.panel ? null : 'words'; };
+  $('newgame').onclick = () => { if (confirm('Recommencer depuis le début ?')) g.newGame(); };
+  $('fs').onclick = () => {
+    const el = document.documentElement;
+    if (document.fullscreenElement) document.exitFullscreen();
+    else if (el.requestFullscreen) el.requestFullscreen().catch(() => {});
+    else if (el.webkitRequestFullscreen) el.webkitRequestFullscreen();
+  };
+  g.start();
+  window.__zajka = g;   // pour les tests
+})();
+</script>
+</body>
+</html>

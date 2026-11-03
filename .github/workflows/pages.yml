@@ -101,7 +101,7 @@ jobs:
           if [ -d content/web-games ]; then
             mkdir -p _site/games
             cp -r content/web-games/index.html content/web-games/common content/web-games/img content/web-games/zajko-run \
-              content/web-games/zajko-quest _site/games/
+              content/web-games/zajko-quest content/web-games/aventure _site/games/
           fi
           touch _site/.nojekyll
 

@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Éditeur de zones</title>
+<style>
+  body { margin: 0; font: 14px system-ui, sans-serif; background: #14141f; color: #f2ecd8; display: flex; height: 100vh; }
+  #side { width: 300px; padding: 10px; overflow: auto; background: #1e1e2e; }
+  #wrap { flex: 1; position: relative; overflow: auto; }
+  canvas { display: block; cursor: crosshair; }
+  button, input, select { font: inherit; margin: 2px 0; }
+  button { background: #2c2c42; color: #f2ecd8; border: 1px solid #3a3a55; border-radius: 6px; padding: 4px 10px; cursor: pointer; }
+  textarea { width: 100%; height: 200px; background: #0b0b12; color: #cfe; border: 1px solid #3a3a55; font: 12px monospace; }
+  li { cursor: pointer; } li.sel { color: #ffe08a; }
+</style>
+</head>
+<body>
+<div id="side">
+  <b>Éditeur de zones</b>
+  <p>1. Charge l'illustration (16:9).<br>2. Clique pour poser les points d'une zone.<br>3. Entrée ou « Fermer » termine la zone.<br>4. Copie le JSON dans <code>js/tram.js</code>.</p>
+  <input type="file" id="file" accept="image/*"><br>
+  <label>Nom : <input id="name" placeholder="id de la zone" size="14"></label>
+  <label>Type : <select id="kind"><option value="hotspot">zone</option><option value="floor">sol (marche)</option><option value="clip">vitre (ville qui défile)</option></select></label><br>
+  <button id="close">Fermer la zone</button> <button id="undo">Annuler un point</button> <button id="del">Supprimer</button>
+  <ul id="list"></ul>
+  <textarea id="out" readonly></textarea>
+  <div id="pos"></div>
+</div>
+<div id="wrap"><canvas id="cv" width="1280" height="720"></canvas></div>
+<script>
+const cv = document.getElementById('cv'), c = cv.getContext('2d'), $ = (i) => document.getElementById(i);
+let img = null, zones = [], cur = [], sel = -1;
+$('file').onchange = (e) => { const f = e.target.files[0]; if (!f) return; img = new Image(); img.onload = draw; img.src = URL.createObjectURL(f); };
+const pos = (e) => { const r = cv.getBoundingClientRect(); return [Math.round((e.clientX - r.left) * 1280 / r.width), Math.round((e.clientY - r.top) * 720 / r.height)]; };
+cv.onmousemove = (e) => { $('pos').textContent = pos(e).join(', '); };
+cv.onclick = (e) => { cur.push(pos(e)); draw(); };
+function close() {
+  if (cur.length < 3) return;
+  zones.push({ id: $('name').value || ('zone' + (zones.length + 1)), kind: $('kind').value, poly: cur });
+  cur = []; $('name').value = ''; sel = zones.length - 1; refresh();
+}
+$('close').onclick = close;
+$('undo').onclick = () => { cur.pop(); draw(); };
+$('del').onclick = () => { if (sel >= 0) { zones.splice(sel, 1); sel = -1; refresh(); } };
+addEventListener('keydown', (e) => { if (e.key === 'Enter' && document.activeElement.tagName !== 'INPUT') close(); });
+function poly(p, col, fill) {
+  if (!p.length) return;
+  c.beginPath(); p.forEach(([x, y], i) => (i ? c.lineTo(x, y) : c.moveTo(x, y)));
+  if (fill) { c.closePath(); c.fillStyle = fill; c.fill(); }
+  c.strokeStyle = col; c.lineWidth = 3; c.stroke();
+  p.forEach(([x, y]) => { c.fillStyle = col; c.fillRect(x - 4, y - 4, 8, 8); });
+}
+function draw() {
+  c.clearRect(0, 0, 1280, 720);
+  if (img) c.drawImage(img, 0, 0, 1280, 720); else { c.fillStyle = '#222'; c.fillRect(0, 0, 1280, 720); }
+  zones.forEach((z, i) => poly(z.poly, z.kind === 'floor' ? '#4cf' : z.kind === 'clip' ? '#6f6' : '#fd5', i === sel ? 'rgba(255,224,138,.3)' : 'rgba(255,224,138,.12)'));
+  poly(cur, '#f66');
+}
+function refresh() {
+  $('list').innerHTML = '';
+  zones.forEach((z, i) => { const li = document.createElement('li'); li.textContent = `${z.kind} : ${z.id}`; li.className = i === sel ? 'sel' : ''; li.onclick = () => { sel = i; refresh(); }; $('list').appendChild(li); });
+  const fmt = (p) => '[' + p.map((q) => '[' + q.join(', ') + ']').join(', ') + ']';
+  $('out').value = zones.map((z) => z.kind === 'floor' ? `floor: ${fmt(z.poly)},` : z.kind === 'clip' ? `{ img: 'art/scenery.svg', clip: ${fmt(z.poly)}, speed: 220 },` : `{ id: '${z.id}', name: { sk: '', fr: '' }, poly: ${fmt(z.poly)}, walk: [0, 650], look: { sk: '', fr: '' } },`).join('\n');
+  draw();
+}
+draw();
+</script>
+</body>
+</html>
