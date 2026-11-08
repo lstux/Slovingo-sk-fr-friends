@@ -1,6 +1,6 @@
 # Série Cesta (2/5) — Vstup zakázaný
 
-@ https://commons.wikimedia.org/wiki/Special:FilePath/L%C3%A1nsk%C3%A1_obora-z%C3%A1kaz_vstupu.jpg?width=800 | Deux panneaux sur la grille de la réserve forestière de Lány, en Tchéquie : « Nepovolaným vstup zakázán » et « Nevstupovat! ». Source : Wikimedia Commons, auteur à vérifier, licence à vérifier
+@ https://commons.wikimedia.org/wiki/Special:FilePath/L%C3%A1nsk%C3%A1_obora-z%C3%A1kaz_vstupu.jpg?width=800 | Deux panneaux sur la grille de la réserve forestière de Lány, en Tchéquie : « Nepovolaným vstup zakázán » et « Nevstupovat! ». Source : Wikimedia Commons, ŠJů, CC BY-SA 3.0
 
 {{fr:Dans la forêt, il y a du bruit. Des moteurs. Puis une clôture, avec un panneau très clair. Enfin, clair pour tout le monde sauf Katka. On apprend à dire ce que quelque chose veut dire.}}
 

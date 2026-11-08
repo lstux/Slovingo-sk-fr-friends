@@ -1,6 +1,6 @@
 # Série Cesta (4/5) — Pre koho?
 
-@ https://commons.wikimedia.org/wiki/Special:FilePath/Tunel_%C4%8Cebra%C5%A5_ZP_august_2023.jpg?width=800 | Le chantier du tunnel Čebrať, sur l'autoroute D1 dans le Liptov, en août 2023. Source : Wikimedia Commons, rempo, licence à vérifier
+@ https://commons.wikimedia.org/wiki/Special:FilePath/Tunel_%C4%8Cebra%C5%A5_ZP_august_2023.jpg?width=800 | Le chantier du tunnel Čebrať, sur l'autoroute D1 dans le Liptov, en août 2023. Source : Wikimedia Commons, rempo (infrastruktura.sk), CC0 1.0
 
 {{fr:L'homme au casque jaune est le chef du chantier. Il veut bien vous montrer le chemin. Il veut aussi bien répondre à vos questions. Enfin, presque toutes. On apprend à demander « pour qui ».}}
 

@@ -1,6 +1,6 @@
 # Série Povodeň (3/5) — Voda stúpa
 
-@ https://commons.wikimedia.org/wiki/Special:FilePath/Ostrava,_Svinov,_povode%C5%88,_15.9.2024_-_Brat%C5%99%C3%AD_Sedl%C3%A1%C4%8Dk%C5%AF.jpg?width=800 | Une rue inondée à Ostrava, en Tchéquie, pendant les crues de septembre 2024. Source : Wikimedia Commons, Kamil Czaiński, licence à vérifier
+@ https://commons.wikimedia.org/wiki/Special:FilePath/Ostrava,_Svinov,_povode%C5%88,_15.9.2024_-_Brat%C5%99%C3%AD_Sedl%C3%A1%C4%8Dk%C5%AF.jpg?width=800 | Une rue inondée à Ostrava, en Tchéquie, pendant les crues de septembre 2024. Source : Wikimedia Commons, Kamil Czaiński (Gaj777), CC BY-SA 4.0
 
 {{fr:Le village est au bord de la rivière. Enfin, de ce qui était une rivière. L'eau monte, et une niche flotte, vide. On apprend la différence entre « monte » et « va monter ».}}
 
