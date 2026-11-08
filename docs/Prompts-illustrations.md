@@ -163,6 +163,8 @@ Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, f
 
 ## 06 Povodeň — Le sauvetage ✅ faite le 8 novembre (ChatGPT, planche des héros, sans photo)
 
+> **À revoir à la fin (retouche éventuelle)** : hormis Andrea et Katka, les personnages sourient trop pour la situation (inondation). Demander des visages concentrés et inquiets mais déterminés.
+
 Fiche `10_Series_06_Povoden_05_zachrana.md` → `img/illus_06_povoden.jpg`
 
 **Photo de référence** : [maison inondée](https://commons.wikimedia.org/wiki/File:House_flooded_in_village_Herwad.jpg) (वर्षा देशपांडे, CC BY-SA 4.0) : seulement pour l'eau dans les rues, le village doit rester slovaque.
