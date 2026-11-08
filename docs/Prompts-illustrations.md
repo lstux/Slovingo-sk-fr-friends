@@ -161,7 +161,7 @@ Scene: Evening in an old wooden village house below the Tatras, wide landscape f
 Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. Any humans are drawn in the same simple cartoon style as the animals: simplified shapes, flat colours, few details on faces and hair, no realistic or semi-realistic faces. Soft, painterly background with few small details, so the characters stand out, but the place stays recognisable. Landscape format. No text, no letters, no logos, no watermark.
 ```
 
-## 06 Povodeň — Le sauvetage
+## 06 Povodeň — Le sauvetage ✅ faite le 8 novembre (ChatGPT, planche des héros, sans photo)
 
 Fiche `10_Series_06_Povoden_05_zachrana.md` → `img/illus_06_povoden.jpg`
 

@@ -1,6 +1,6 @@
 # Série Povodeň (5/5) — Záchrana
 
-@ img/kacica-kacatka.jpg | Une cane avec ses canetons. Source : Wikimedia Commons
+@ img/illus_06_povoden.jpg | De maison en maison, dans l'eau jusqu'aux genoux, on emmène les petits animaux à l'école. Source : illustration générée avec ChatGPT
 
 {{fr:De maison en maison, vous emmenez les petits animaux à l'école. Maťo porte les paniers. Katka porte son téléphone. Et chacun sauve ce qu'il a de plus cher.}}
 
