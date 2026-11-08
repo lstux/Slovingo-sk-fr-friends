@@ -1,6 +1,14 @@
 # Une intrigue pour le jeu (et pour l'histoire) — proposition
 
-*Branche `feat/intrigue-jeu`. Rien n'est encore changé dans `Histoire.md` ni dans les fiches : ce document propose, tu choisis.*
+*Branche `feat/intrigue-jeu`. Décisions prises le 9 novembre (voir §0) : l'histoire (`Histoire.md` et `Histoire-fr.md`) est réécrite en conséquence, les fiches pas encore.*
+
+## 0. Décisions
+
+- **Le carnet de la loutre** : oui. Doktorka Vydrová, loutre hydrologue.
+- **Épilogue** : la loutre à la fontaine, et les six lettres qu'Andrea donne à Gab (« dans le train, pas avant »).
+- **Le monsieur au sourire** : oui, comme petit « méchant » léger : porte-parole du groupe Zelená vlna (route, datacentre, mine), il veut le carnet avant la loutre.
+- **Pourquoi Gab parle autant** : il rattrape cinq ans sans parler slovaque, de peur d'oublier.
+- **Méthode** : histoire d'abord (slovaque + traduction à annoter), fiches après relecture.
 
 Objectif : que l'histoire de Zajko Friends puisse porter un point-and-click à la *Chevaliers de Baphomet* (le prototype du tram est dans `web-games/aventure/`), sans casser ce qui marche dans le cours : le road-movie, le ton, le duo Gab / Andrea, et la règle « pas de méchant ».
 

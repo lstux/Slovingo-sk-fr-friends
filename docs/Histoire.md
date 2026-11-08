@@ -6,7 +6,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 ## Conventions
 
-- Une réplique par ligne : `🦊 Gab`, `🐰 Andrea`, `💬 Narrateur` (présent narratif, phrases courtes). Les autres avatars : `🐻` Maťo, `🐹` Katka, `🐑` Babka Zuzana, `🦔` pani Ježková (commerçante, vouvoyée), `📻` la radio, `🐥` un canard, `🐭` une souris (ch. 6), `🦅` pán Orol (aigle, garde du parc, vouvoyé), `🐇` la tante d'Andrea, `🦊🦺` la renarde bénévole (ch. 6), et pour l'équipe de la télévision : `📝` la rédactrice, `🎥` le cameraman, `💄` la maquilleuse, `🎙️` la présentatrice ; `🐑📱` Babka au téléphone. Le moteur lit tout ce qui suit l'émoji : jamais de « (fonction) » après l'avatar, `🦡` Marek, `🐿️` Ján, `🧑` un humain adulte (vouvoyé, désigné par sa fonction : le Narrateur le présente).
+- Une réplique par ligne : `🦊 Gab`, `🐰 Andrea`, `💬 Narrateur` (présent narratif, phrases courtes). Les autres avatars : `🐻` Maťo, `🐹` Katka, `🐑` Babka Zuzana, `🦔` pani Ježková (commerçante, vouvoyée), `📻` la radio, `🐥` un canard, `🐭` une souris (ch. 6), `🦅` pán Orol (aigle, garde du parc, vouvoyé), `🐇` la tante d'Andrea, `🦊🦺` la renarde bénévole (ch. 6), et pour l'équipe de la télévision : `📝` la rédactrice, `🎥` le cameraman, `💄` la maquilleuse, `🎙️` la présentatrice ; `🐑📱` Babka au téléphone. Le moteur lit tout ce qui suit l'émoji : jamais de « (fonction) » après l'avatar, `🦡` Marek, `🐿️` Ján, `🧑` un humain adulte (vouvoyé, désigné par sa fonction : le Narrateur le présente), `🦦` doktorka Vydrová (loutre hydrologue, vouvoyée), `🕴️` le monsieur au sourire (humain, porte-parole de Zelená vlna, vouvoyé).
 - **Gab** s'écrit « Gab » dans ce document. Dans les fiches, ce sera `[USER_NAME]`. Pas de « Gabo » en dur, et jamais de forme déclinée (*Gabovi*, *Gabov*…) : le prénom s'emploie seulement comme sujet ou pour interpeller.
 - **Genre** : Gab est un garçon (*bol som*, *rád*), Andrea une fille (*bola som*, *rada*).
 - **Tutoiement** entre ados et avec Babka Zuzana, **vouvoiement** (*vy*) avec les adultes inconnus, humains compris.
@@ -36,7 +36,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 # Kapitola 1 — Košice
 
-*Résumé : un tram à Košice. Gab, 15 ans, retrouve par hasard Andrea, 16 ans, cinq ans après les Tatras. Elle le taquine sur les renards, il passe la nuit dans le jardin de sa tante (qui n'est pas au courant) et s'endort. Gags : « les renards parlent beaucoup, ils sont compliqués comme des extraterrestres » ; première note du fil rouge « temps limité » ; le rêve est planté sans insister.*
+*Résumé : un tram à Košice. Gab, 15 ans, retrouve par hasard Andrea, 16 ans, cinq ans après les Tatras. Elle le taquine sur les renards, il passe la nuit dans le jardin de sa tante (qui n'est pas au courant) et s'endort. Gags : « les renards parlent beaucoup, ils sont compliqués comme des extraterrestres » ; première note du fil rouge « temps limité » ; le rêve est planté sans insister. Gab parle autant parce qu'il n'a parlé slovaque avec personne depuis cinq ans : il rattrape, de peur d'oublier.*
 
 ## Scéna 1
 
@@ -112,7 +112,13 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 ## Scéna 5
 
-💬 Gab začne rozprávať. Rozpráva o Lyone, o vlaku, o Košiciach, o električke a o svojom lístku.
+💬 Gab chvíľu mlčí. Potom začne rozprávať. A už neprestane.
+
+🦊 Päť rokov som nehovoril po slovensky. S nikým.
+
+🦊 Musím hovoriť. Inak zabudnem.
+
+💬 Rozpráva o Lyone, o vlaku, o Košiciach, o električke a o svojom lístku.
 
 🦊 Košice sú super! Električka je super! A môj lístok je super!
 
@@ -186,7 +192,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 # Kapitola 2 — Sucho
 
-*Résumé : le lendemain, il fait très chaud et il n'a pas plu depuis deux mois. Le seul point d'eau d'Andrea, l'étang du parc, est presque à sec. Gab fait son gag (« Veľmi hovorím, som líškasky, komplikovaný… ») et Andrea le corrige. Un jardinier confirme qu'il n'y a plus d'eau dans la ville, la radio parle du Slovenský raj : ils partent en train. Andrea laisse un mot à sa tante (jeu de mots sur « lístok » : ticket / petit mot). Fil rouge : « Teraz si tu. Uvidíme. »*
+*Résumé : le lendemain, il fait très chaud et il n'a pas plu depuis deux mois. Le seul point d'eau d'Andrea, l'étang du parc, est presque à sec. Gab fait son gag (« Veľmi hovorím, som líškasky, komplikovaný… ») et Andrea le corrige. Un jardinier confirme qu'il n'y a plus d'eau dans la ville, la radio parle du Slovenský raj : ils partent en train. Andrea laisse un mot à sa tante (jeu de mots sur « lístok » : ticket / petit mot). Fil rouge : « Teraz si tu. Uvidíme. » Dans la fontaine à sec, Gab trouve le carnet de doktorka Vydrová, une loutre hydrologue, avec la prochaine étape : le Paradis slovaque. Premier passage du monsieur au sourire, qui dit que le carnet est à lui ; Andrea ment pour le garder.*
 
 ## Scéna 1
 
@@ -210,11 +216,13 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 ## Scéna 2
 
-💬 Idú do parku. Gab rozpráva o všetkom: o jabloni, o tete, o Lyone, o električke, o počasí...
+💬 Idú do parku. Gab hovorí nahlas všetko, čo vidí: jabloň, strom, lavička, pes, oblak... Cvičí.
+
+🦊 Pes. Veľký pes. Veľmi veľký pes. Lavička. Prázdna lavička...
 
 🐰 Ty veľa hovoríš.
 
-🦊 Veľmi hovorím, som líškasky, komplikovaný...
+🦊 Cvičím. Veľmi hovorím, som líškasky, komplikovaný...
 
 🐰 Rozumiem, čo chceš povedať. Ale správne je: veľa hovorím.
 
@@ -280,21 +288,51 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🐰 Je prázdna.
 
+💬 Na dne fontány leží niečo malé a modré. Gab skočí dnu.
+
+🦊 Pozri, čo som našiel! Zápisník.
+
+🐰 Čo je v ňom?
+
+🦊 Čísla. Dátumy. A kresby fontány. „Meranie vody. Košice.“ A podpis: Dr. V.
+
+🐰 Niekto meria vodu. Prečo?
+
 💬 Pri fontáne stojí záhradník.
 
-🧑 Dobrý deň. Hľadáte vodu?
+🧑 Dobrý deň. Ten zápisník poznám. Je to zápisník pani doktorky Vydrovej. Je to vydra. Predvčerom tu merala fontánu.
 
-🦊 Dobrý deň. Áno, hľadáme vodu.
+🦊 Dobrý deň. A kde je teraz?
 
-🧑 Prepáčte. Tu už voda nie je. Nikde v meste.
+🧑 Neviem. Odišla na západ. Hľadá vodu. Ako vy.
 
-🐰 A inde?
+🐰 Pozri, posledná strana: „Ďalšie meranie: Slovenský raj, Suchá Belá.“
 
-🧑 Na západe, v Slovenskom raji, ešte voda je. Hovorili to v rádiu.
+🦊 Slovenský raj! Tam ideme aj my!
 
-🦊 Ďakujeme.
+💬 Pri fontáne zastaví čierne auto. Vystúpi pán v obleku. Usmieva sa.
 
-🧑 Veľa šťastia.
+🕴️ Dobrý deň. Nenašli ste tu modrý zápisník? Je môj.
+
+🧑 Váš? Myslel som, že je pani doktorky.
+
+🕴️ Je mojej kolegyne. To je to isté.
+
+💬 Gab rýchlo strčí zápisník do batoha.
+
+🐰 Nie. Nič sme nenašli. Dovidenia.
+
+🕴️ Škoda. Pekný deň, deti.
+
+💬 Auto odíde.
+
+🦊 Andrea! Ty klameš!
+
+🐰 Áno. Ten pán sa veľmi usmieva. To sa mi nepáči.
+
+🦊 Prečo?
+
+🐰 Lebo.
 
 ## Scéna 6
 
@@ -326,7 +364,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 # Kapitola 3 — Raj
 
-*Résumé : le Slovenský raj, ses forêts, ses ruisseaux et ses échelles dans les gorges. Il y a encore un peu d'eau, mais moins que d'habitude. Gab a le vertige. Pán Orol, l'aigle garde du parc (déjà dans Kids), leur apprend qu'il pleut dans les Tatras : ils iront là-bas. Andrea lâche une pique plus pointue : elle ne fait confiance à aucun renard, « sauf un ».*
+*Résumé : le Slovenský raj, ses forêts, ses ruisseaux et ses échelles dans les gorges. Il y a encore un peu d'eau, mais moins que d'habitude. Gab a le vertige. Pán Orol, l'aigle garde du parc (déjà dans Kids), leur apprend qu'il pleut dans les Tatras : ils iront là-bas. Andrea lâche une pique plus pointue : elle ne fait confiance à aucun renard, « sauf un ». pán Orol leur remet une page laissée « pour la personne qui a trouvé le carnet » : la loutre est partie mesurer dans les Tatras. Le monsieur au sourire est déjà passé.*
 
 ## Scéna 1
 
@@ -416,17 +454,27 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🦅 Dobrý deň. Kam idete?
 
-🦊 Dobrý deň. Hľadáme vodu.
+🦊 Dobrý deň. Hľadáme vodu. A jednu vydru.
 
-🦅 Aj tu je vody menej ako vlani. Potoky vysychajú.
+🦅 Doktorku Vydrovú? Bola tu včera. Merala potok.
+
+🐰 A čo zistila?
+
+🦅 Že aj tu je vody menej ako vlani. Potoky vysychajú.
 
 🐰 Menej ako vlani? Čo sa deje?
 
-🦅 Neviem. V Tatrách vraj prší. Tu nie.
+🦅 Neviem. Ale ona to chce zistiť. Nechala tu niečo. Pre toho, kto nájde jej zápisník.
 
-🐰 V Tatrách prší?
+💬 Pán Orol im podá papier. Je to strana zo zápisníka.
 
-🦅 Áno. V horách je počasie iné. Ak chcete vodu, choďte tam.
+🦊 „Pre nálezcu. Ďakujem! V Tatrách prší. Idem merať k Téryho chate. Dr. V.“
+
+🦅 Ešte niečo. Včera sa na ňu pýtal jeden pán v obleku. Veľmi sa usmieval.
+
+🐰 Zase on!
+
+🦅 Orly nemajú rady také úsmevy. Nič som mu nepovedal.
 
 🦊 Ďakujeme. Pôjdeme do Tatier.
 
@@ -468,7 +516,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 # Kapitola 4 — Burka
 
-*Résumé : l'ascension dans les Hautes Tatras. Un gardien de refuge (humain) annonce un orage pour le lendemain ; le refuge est plein, ils dorment par terre dans la cuisine. L'orage éclate de nuit, pendant que Gab tremble de la queue. Le matin, le lac déborde d'eau : après deux mois de sécheresse, c'est « trop ». Andrea parle de ses cousins, au village en bas : Maťo et Katka. Comparatifs et futur : plus haut, plus froid, demain.*
+*Résumé : l'ascension dans les Hautes Tatras. Un gardien de refuge (humain) annonce un orage pour le lendemain ; le refuge est plein, ils dorment par terre dans la cuisine. L'orage éclate de nuit, pendant que Gab tremble de la queue. Le matin, le lac déborde d'eau : après deux mois de sécheresse, c'est « trop ». Andrea parle de ses cousins, au village en bas : Maťo et Katka. Comparatifs et futur : plus haut, plus froid, demain. Le gardien a vu la loutre ; le carnet indique la prochaine mesure : le ruisseau du village d'Andrea.*
 
 ## Scéna 1
 
@@ -495,6 +543,10 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 🦊 Z kolena?
 
 🧑 Koleno vie viac ako rádio.
+
+🐰 Bola tu doktorka Vydrová? Vydra so zápisníkom?
+
+🧑 Predvčerom. Merala jazero. Aj ona sa pýtala môjho kolena.
 
 🐰 Musíme ísť dolu?
 
@@ -586,7 +638,13 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🦊 Možno sa to vráti do normálu.
 
-🐰 Možno. Poď. Ideme do dediny.
+🐰 Možno.
+
+💬 Gab otvorí zápisník. Na ďalšej strane je malá mapa: potok, most, obchod a lúka.
+
+🦊 Pozri. Ďalšie meranie: „Potok pod Tatrami.“ Poznáš to?
+
+🐰 Poznám. To je naša dedina.
 
 🦊 Do tej dediny?
 
@@ -596,7 +654,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 # Kapitola 5 — Domov
 
-*Résumé : le village d'enfance sous les Tatras. Pani Ježková (vouvoyée) ne reconnaît pas tout de suite Gab, puis Maťo (14 ans, calme, énorme), Katka (13 ans, téléphone, sarcasme : ne l'appelez pas « petite ») et Babka Zuzana (qui évite soigneusement la bryndza). Premiers souvenirs au passé (« Keď som bol malý… »), Babka raconte que le ruisseau rétrécit chaque année et que la tempête de la veille était un record. Maťo et Katka décident de venir. Indice sur Andrea : une phrase de sa mère, coupée net. Fil rouge du temps limité : « Uvidíme. »*
+*Résumé : le village d'enfance sous les Tatras. Pani Ježková (vouvoyée) ne reconnaît pas tout de suite Gab, puis Maťo (14 ans, calme, énorme), Katka (13 ans, téléphone, sarcasme : ne l'appelez pas « petite ») et Babka Zuzana (qui évite soigneusement la bryndza). Premiers souvenirs au passé (« Keď som bol malý… »), Babka raconte que le ruisseau rétrécit chaque année et que la tempête de la veille était un record. Maťo et Katka décident de venir. Indice sur Andrea : une phrase de sa mère, coupée net. Fil rouge du temps limité : « Uvidíme. » Babka remet une enveloppe de la loutre (le ruisseau perd dix centimètres par an ; prochaine mesure : le Váh). Le monsieur au sourire est passé la veille ; Babka ne lui a rien donné (ses chaussures).*
 
 ## Scéna 1
 
@@ -716,6 +774,22 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🐑 Potok sa zmenšuje. Každý rok je menší. Môj starý otec hovoril: voda príde a voda odíde. Ale takto som to ešte nevidela.
 
+🐑 Aj vydra to hovorila. Doktorka Vydrová. Bola tu pred tromi dňami. Merala potok a zjedla dva taniere halušiek.
+
+🦊 Bez bryndze?
+
+🐑 Bez bryndze. Nechala tu obálku. Povedala, že príde líška s jej zápisníkom. Myslela som, že žartuje.
+
+💬 Babka vytiahne z kredenca obálku. Gab ju otvorí.
+
+🦊 Ďalšia strana! „Potok: každý rok o desať centimetrov menej. Ďalšie meranie: Váh, Liptov.“
+
+🐑 A ešte niečo. Včera tu bol jeden pán v obleku. Veľmi milý. Veľmi sa usmieval. Chcel tú obálku.
+
+🐰 A?
+
+🐑 Nedala som mu ju. Nepáčili sa mi jeho topánky.
+
 🐻 Tu bolo celé leto sucho. A včera v noci tak pršalo, že potok bol hnedý. Ovce nevedeli, čo robiť.
 
 🐰 Aj my sme boli v tej búrke. Hore pri jazere.
@@ -736,7 +810,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🐻 Babka povedala, že idete do Liptova.
 
-🐰 Ešte neviem. Idem tam, kde je voda. Alebo tam, kde nie je.
+🐰 Zápisník hovorí, že áno. Ideme za vodou. Alebo za vydrou.
 
 🐹 Idem s vami.
 
@@ -794,7 +868,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 # Kapitola 6 — Povodeň
 
-*Résumé : le Liptov. Il pleut depuis trois jours, le train s'arrête (voie inondée), le Váh déborde. Pour la première fois, les héros ne cherchent pas l'eau qui manque mais fuient celle qui monte. Un pompier (vouvoyé) leur demande un coup de main : déplacer les petits animaux d'un village vers l'école. Ils aident, mouillés comme des poissons ; Katka protège son téléphone avant tout (« je n'ai que deux mains, le téléphone est la troisième »). Soirée au gymnase : soupe, entraide, et une renarde bénévole qui sert le thé : Andrea ne le prend qu'après que Gab a bu. Idée qui germe : « il faut que quelqu'un le dise. »*
+*Résumé : le Liptov. Il pleut depuis trois jours, le train s'arrête (voie inondée), le Váh déborde. Pour la première fois, les héros ne cherchent pas l'eau qui manque mais fuient celle qui monte. Un pompier (vouvoyé) leur demande un coup de main : déplacer les petits animaux d'un village vers l'école. Ils aident, mouillés comme des poissons ; Katka protège son téléphone avant tout (« je n'ai que deux mains, le téléphone est la troisième »). Soirée au gymnase : soupe, entraide, et une renarde bénévole qui sert le thé : Andrea ne le prend qu'après que Gab a bu. Idée qui germe : « il faut que quelqu'un le dise. » Le pompier : la loutre avait prévenu de la crue, personne ne l'a crue. À la télé du gymnase, le monsieur au sourire : « la situation est sous contrôle » ; il est porte-parole du groupe Zelená vlna.*
 
 ## Scéna 1
 
@@ -889,6 +963,10 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 🐻 My ich tam odnesieme.
 
 🧑 Presne tak. Ďakujem vám. A prosím, buďte opatrní. Voda je silná.
+
+🐰 Nevideli ste tu vydru? Doktorku Vydrovú?
+
+🧑 Videl. Pred dvoma dňami nás varovala, že príde povodeň. Nikto jej neveril. Ani ja.
 
 🐹 Môžem nosiť len ľahké veci?
 
@@ -990,6 +1068,18 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 💬 Po chvíli sedia všetci pri polievke. Vonku prší.
 
+💬 Na stene telocvične visí televízor. V správach hovorí pán v obleku. Usmieva sa.
+
+🕴️ Situácia je pod kontrolou. Nie je dôvod na paniku.
+
+🐰 To je on. Pán s úsmevom.
+
+🐹 Pod ním je napísané: „hovorca skupiny Zelená vlna“.
+
+🦊 Pod kontrolou? Tak prečo sme takí mokrí?
+
+🐹 Zelená vlna. Neviem, čo to je. Ale zistím to.
+
 🐹 Dva mesiace sucho. A potom toto. Čo sa to s tým svetom deje?
 
 🐻 Neviem. Ale niekto by to mal povedať.
@@ -1014,7 +1104,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 # Kapitola 7 — Cesta
 
-*Résumé : en descendant du Liptov, ils tombent sur un chantier : une nouvelle route doit traverser la forêt. Le contremaître (vouvoyé) les laisse passer et propose de leur montrer le chemin. Premier vrai débat du groupe : Katka est pour (« on va plus vite »), Maťo contre, Gab hésite, Andrea veut les deux. Le contremaître donne son avis, lui aussi nuancé. Un camionneur les prend à bord ; à la radio, le journal du soir : Správy STVR, qui parle de « situation exceptionnelle » sans dire pourquoi. Idée de Katka : « Allons à la télévision. » Gab croit à une blague. Katka, non.*
+*Résumé : en descendant du Liptov, ils tombent sur un chantier : une nouvelle route doit traverser la forêt. Le contremaître (vouvoyé) les laisse passer et propose de leur montrer le chemin. Premier vrai débat du groupe : Katka est pour (« on va plus vite »), Maťo contre, Gab hésite, Andrea veut les deux. Le contremaître donne son avis, lui aussi nuancé. Un camionneur les prend à bord ; à la radio, le journal du soir : Správy STVR, qui parle de « situation exceptionnelle » sans dire pourquoi. Idée de Katka : « Allons à la télévision. » Gab croit à une blague. Katka, non. Le chef de chantier : la route est payée par Zelená vlna. À la radio, le porte-parole répète qu'il n'y a « aucune raison de paniquer ».*
 
 ## Scéna 1
 
@@ -1108,6 +1198,12 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🧑 Ľudia v kanceláriách. Ja len staviam.
 
+🐹 A kto platí?
+
+🧑 Skupina Zelená vlna. Stavajú cesty, budovy, všetko.
+
+🐹 Zelená vlna! Tá z televízie!
+
 ## Scéna 5
 
 💬 Idú po novej ceste. Je tvrdá a horúca. Stavbyvedúci kráča pred nimi.
@@ -1166,6 +1262,10 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 📻 ...Rieka Váh dosiahla maximálnu úroveň. Obyvatelia dedín pri rieke sa presunuli do škôl. Vláda vyhlásila mimoriadnu situáciu...
 
+📻 ...Hovorca skupiny Zelená vlna povedal, že nie je dôvod na paniku...
+
+🐰 Zase on.
+
 🐻 O nás nehovoria.
 
 🐹 O nás nehovoria. A hovoria to zle.
@@ -1210,7 +1310,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 # Kapitola 8 — Datacentrum
 
-*Résumé : le camion les dépose près d'un fleuve, en région centrale. Un énorme bâtiment gris ronronne là où il y avait une zone humide ; plus de grenouilles. Ils rencontrent Marek, blaireau, technicien du datacentre : il leur explique le refroidissement à l'eau, les 200 emplois, l'internet qui passe par là (le téléphone de Katka y vit peut-être). Premier vrai « pour et contre », sans méchant : Marek n'est pas fier, mais il a une famille. Andrea reste méfiante (« les gens qui sourient »), Gab fait écho au gag « veľa / veľmi ». Marek leur conseille la télé : les chefs regardent les infos de 19 h.*
+*Résumé : le camion les dépose près d'un fleuve, en région centrale. Un énorme bâtiment gris ronronne là où il y avait une zone humide ; plus de grenouilles. Ils rencontrent Marek, blaireau, technicien du datacentre : il leur explique le refroidissement à l'eau, les 200 emplois, l'internet qui passe par là (le téléphone de Katka y vit peut-être). Premier vrai « pour et contre », sans méchant : Marek n'est pas fier, mais il a une famille. Andrea reste méfiante (« les gens qui sourient »), Gab fait écho au gag « veľa / veľmi ». Marek leur conseille la télé : les chefs regardent les infos de 19 h. Le datacentre est aussi à Zelená vlna. Cachés derrière les serveurs, ils entendent le porte-parole : il veut trouver le carnet avant la loutre. Marek leur donne les chiffres de l'eau.*
 
 ## Scéna 1
 
@@ -1252,7 +1352,11 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 ## Scéna 3
 
-💬 Pred bránou je veľký nápis: „Datacentrum Zelená vlna“. Z budovy vychádza jazvec v modrej veste.
+💬 Pred bránou je veľký nápis: „Datacentrum Zelená vlna“.
+
+🐹 Zelená vlna. Zase oni.
+
+💬 Z budovy vychádza jazvec v modrej veste.
 
 🦡 Dobrý deň. Hľadáte niekoho?
 
@@ -1296,6 +1400,10 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🦡 Aj tak.
 
+🐰 Bola tu aj vydra? Doktorka Vydrová?
+
+🦡 Bola. Chcela vedieť, koľko vody berieme z rieky. Nedali sme jej čísla. Šéf povedal nie.
+
 ## Scéna 5
 
 💬 Marek ich vedie dovnútra. V hale je ticho a zima. Stoja tu tisíce skriniek s blikajúcimi svetlami.
@@ -1327,6 +1435,26 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 🐻 Môžu žaby žiť niekde inde?
 
 🦡 Dúfam. Pri potoku, päť kilometrov odtiaľto, je malé jazierko. Možno sú tam.
+
+💬 Zrazu sa otvoria dvere. Do haly vojde riaditeľ. A s ním pán v obleku.
+
+🦡 Rýchlo! Za skrinky!
+
+💬 Všetci sa skryjú. Maťo sa skrýva najhoršie.
+
+🕴️ Tá vydra má zápisník s číslami. Ak s ním príde do televízie, bude panika.
+
+🧑 Ten zápisník stratila. V Košiciach.
+
+🕴️ Tak ho musíme nájsť my. Skôr ako ona.
+
+💬 Pán v obleku sa usmeje a odíde. Gab drží batoh pevne.
+
+🐹 Oni hľadajú náš zápisník.
+
+🐻 Jej zápisník.
+
+🐹 Teraz je náš.
 
 ## Scéna 6
 
@@ -1374,7 +1502,17 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🦡 Tak vám budem držať palce a pozerať niečo iné.
 
-🦡 A ešte niečo. Cestou choďte cez Banskú Štiavnicu. Sú tam staré jazerá. Tam ešte voda je.
+🦡 A ešte toto.
+
+💬 Marek im podá papier. Sú na ňom čísla.
+
+🦡 Koľko vody berieme z rieky. Každý deň. Pre zápisník doktorky Vydrovej.
+
+🐰 Prečo nám to dávate?
+
+🦡 Lebo mám štyri deti. A chcem, aby raz videli žaby.
+
+🦡 A cestou choďte cez Banskú Štiavnicu. Sú tam staré jazerá. Tam ešte voda je. A vydra tam chcela merať.
 
 🐻 Ďakujeme, Marek.
 
@@ -1384,7 +1522,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 # Kapitola 9 — Baňa
 
-*Résumé : Banská Štiavnica, ville de pierre et de pentes (ville d'argent et d'or, classée à l'UNESCO, avec ses petits lacs-réservoirs, les **tajchy**, construits du XVIe au XVIIIe siècle pour les mines). La mine du récit est **fictive** : un nouveau projet de lithium dans les collines au-dessus de la ville. Ján, écureuil bavard et sûr de lui, leur sert de guide ; sa forêt doit être libérée avant la fin du mois. Premier débat « avec des si » (keby) : le lithium fait la batterie du téléphone de Katka. Un mineur (vouvoyé) leur explique que c'est son premier emploi depuis dix ans. Indice sur Andrea : « Keby som bola počúvala mamu… »*
+*Résumé : Banská Štiavnica, ville de pierre et de pentes (ville d'argent et d'or, classée à l'UNESCO, avec ses petits lacs-réservoirs, les **tajchy**, construits du XVIe au XVIIIe siècle pour les mines). La mine du récit est **fictive** : un nouveau projet de lithium dans les collines au-dessus de la ville. Ján, écureuil bavard et sûr de lui, leur sert de guide ; sa forêt doit être libérée avant la fin du mois. Premier débat « avec des si » (keby) : le lithium fait la batterie du téléphone de Katka. Un mineur (vouvoyé) leur explique que c'est son premier emploi depuis dix ans. Indice sur Andrea : « Keby som bola počúvala mamu… » La lettre de la loutre aux tajchy a été prise par le porte-parole ; Ján la récupère dans sa voiture : « Tous mes chiffres disent une seule chose. »*
 
 ## Scéna 1
 
@@ -1458,6 +1596,12 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🐿️ Úradník. S papierom a s pekným úsmevom. Povedal, že hora sa bude kopať.
 
+🐰 S pekným úsmevom? V obleku?
+
+🐿️ Áno! Poznáte ho?
+
+🐹 Hovorca Zelenej vlny. Stretávame ho všade.
+
 🦊 Kopať? Prečo?
 
 🐿️ Kvôli lítiu. Je to kov. Je v batériách. Potrebujú ho na autá, na telefóny, na všetko.
@@ -1506,6 +1650,16 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🐰 Neviem. Ale určite viac ako dve.
 
+🧑 Ešte niečo. Včera tu bola jedna vydra. Merala tajchy. Nechala tu list. Pre „nálezcu zápisníka“.
+
+🦊 To sme my!
+
+🧑 Neskoro. Ráno si ho vzal pán v obleku. Je v jeho aute.
+
+🐿️ V tom čiernom aute? Pri bráne?
+
+🧑 Ja som nič nepovedal.
+
 ## Scéna 6
 
 💬 Večer sedia pri tajchu. Ján má v rukách veľký ruksak. Okolo neho balia ostatné veveričky.
@@ -1538,7 +1692,15 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🐿️ Ďakujem. To je to najkrajšie, čo mi povedal svišť.
 
-💬 Ján vstane a podá im lístok s adresou.
+💬 Ján vstane a podá im papier. Je trochu pokrčený.
+
+🐿️ Z čierneho auta. Okno bolo otvorené. Veveričky vedia brať veci.
+
+🐻 Ján! To je krádež!
+
+🐿️ Nie. To je vrátenie. Ten list je pre vás.
+
+🦊 „Pre nálezcu. Všetky moje čísla hovoria jednu vec. Prečítajte ich spolu. Dr. V.“
 
 🐿️ V Bratislave nehovorte pomaly. Hovorte rýchlo. Inak vás nepočujú.
 
@@ -1550,7 +1712,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 # Kapitola 10 — Rozhodnutie
 
-*Résumé : après la mine, la bande est fatiguée et se dispute dans les collines du centre du pays. Un message de la maman de Gab, que Katka oblige Gab à traduire, apprend à tout le monde que son vol part dimanche : discours rapporté (« Mama napísala, že… »), « mal by som ísť domov ». Gab et Andrea parlent seuls près du feu : elle lâche enfin une phrase sur « un certain renard » et sur un dîner où elle faillit « être le menu », puis plaisante. Gab ne pose pas de questions. Au matin, la bande décide quoi dire à la télévision (« la vérité, pas un slogan ») et Gab décide d'appeler sa mère pour repousser son départ.*
+*Résumé : après la mine, la bande est fatiguée et se dispute dans les collines du centre du pays. Un message de la maman de Gab, que Katka oblige Gab à traduire, apprend à tout le monde que son vol part dimanche : discours rapporté (« Mama napísala, že… »), « mal by som ísť domov ». Gab et Andrea parlent seuls près du feu : elle lâche enfin une phrase sur « un certain renard » et sur un dîner où elle faillit « être le menu », puis plaisante. Gab ne pose pas de questions. Au matin, la bande décide quoi dire à la télévision (« la vérité, pas un slogan ») et Gab décide d'appeler sa mère pour repousser son départ. Les pages du carnet mises bout à bout : les forêts et les zones humides retiennent l'eau comme une éponge. Le « pourquoi » que la radio ne disait pas.*
 
 ## Scéna 1
 
@@ -1684,7 +1846,21 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 ## Scéna 6
 
-💬 Ráno. Všetci sedia pri raňajkách. Gab drží telefón v ruke.
+💬 Ráno. Všetci sedia pri raňajkách. Na deke ležia všetky strany zo zápisníka. Katka ich ukladá vedľa seba.
+
+🐹 Košice: fontána, prázdna. Raj: potok, menej ako vlani. Tatry: búrka. Dedina: potok, každý rok menší. Liptov: povodeň. Datacentrum: voda z rieky. Štiavnica: tajchy.
+
+🐻 A čo z toho?
+
+🐹 Vzadu je jedna veta. Prečítam: „Les a mokrade držia vodu ako špongia. Keď ich nie je, voda nezostane. Najprv príde sucho, potom povodeň.“
+
+🦊 To je to „prečo“. To, čo nehovorili v rádiu.
+
+🐰 Nikto nie je zlý. Len každý zoberie kúsok špongie.
+
+🐻 A potom už nie je špongia.
+
+💬 Gab drží telefón v ruke.
 
 🐻 Čo im povieme v televízii?
 
@@ -1707,6 +1883,10 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 🐰 Ja by som to povedala jednoduchšie: „My sme tam boli.“
 
 🐹 Dobre. To si zapíšem.
+
+🐰 A zápisník?
+
+🐹 Ten nie je náš. Musíme nájsť doktorku Vydrovú.
 
 🦊 Mám ešte jednu vec.
 
@@ -1736,7 +1916,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 # Kapitola 11 — Bratislava
 
-*Résumé : arrivée en train à Bratislava. Une grande ville, du bruit, beaucoup d'humains, du wifi. Katka salue la ville de la part de Babka. Découverte du château vu d'en bas (« une table renversée », le surnom populaire du Bratislavský hrad). Devant le siège du diffuseur public (fictionnalisé), le portier (vouvoyé) leur demande s'ils ont rendez-vous : non. Le téléphone de Katka meurt (le lithium, encore). Une rédactrice les écoute et leur propose une chose inattendue : un des journaux de la semaine est tourné depuis le château et il reste une place pour cinq minutes. Ils répètent le soir, nerveux.*
+*Résumé : arrivée en train à Bratislava. Une grande ville, du bruit, beaucoup d'humains, du wifi. Katka salue la ville de la part de Babka. Découverte du château vu d'en bas (« une table renversée », le surnom populaire du Bratislavský hrad). Devant le siège du diffuseur public (fictionnalisé), le portier (vouvoyé) leur demande s'ils ont rendez-vous : non. Le téléphone de Katka meurt (le lithium, encore). Une rédactrice les écoute et leur propose une chose inattendue : un des journaux de la semaine est tourné depuis le château et il reste une place pour cinq minutes. Ils répètent le soir, nerveux. Le porte-parole entre sans problème ; la rédactrice annonce les invités du soir : lui, et doktorka Vydrová, qui a perdu son carnet à Košice.*
 
 ## Scéna 1
 
@@ -1820,6 +2000,20 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🧑 Celé Slovensko. To je pekné.
 
+💬 Okolo búdky prejde pán v obleku. Vrátnik mu otvorí bez otázky.
+
+🕴️ Dobrý večer, deti. Pekný výlet?
+
+🐰 To je on.
+
+🦊 Prečo on môže ísť dnu?
+
+🧑 Pán hovorca má akreditáciu.
+
+🐹 My máme zápisník.
+
+🧑 Zápisník nie je akreditácia.
+
 🐹 Okrem toho nám zomrel telefón.
 
 🐻 Katka, to už teraz nie je dôležité.
@@ -1858,6 +2052,16 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 📝 Povedzte to isté, čo mne. Len pomalšie.
 
+📝 A ešte jedna vec. Dnes máme aj iných hostí. Hovorcu skupiny Zelená vlna. A doktorku Vydrovú, hydrologičku. Chudera, v Košiciach stratila zápisník.
+
+💬 Gab pomaly otvorí batoh.
+
+🦊 Modrý zápisník?
+
+📝 Ako to viete?
+
+🦊 Lebo je tu.
+
 ## Scéna 6
 
 💬 Je podvečer. Štyri zvieratá stoja pred bránou hradu. Hore sú schody a široká terasa.
@@ -1892,7 +2096,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 # Kapitola 12 — Hrad
 
-*Résumé : le studio improvisé sur une terrasse du château. Maquillage (« Nepúdrujte ma ! »), trac, la rédactrice qui compte à rebours. En direct, à 19 h, chacun dit une phrase : Maťo le ruisseau, Katka l'inondation, Gab le point d'eau de Košice, Andrea la zone humide et la mine. Ils ne sauvent pas le monde ; ils demandent à être entendus. La présentatrice répond : « Počujeme vás. » Après l'émission : un message de Marek, un autre de Ján et Babka au téléphone (« jedz, Gab »). Dernière scène sur la terrasse : Gab repartira lundi, Andrea : « Teraz si tu. »*
+*Résumé : le studio improvisé sur une terrasse du château. Maquillage (« Nepúdrujte ma ! »), trac, la rédactrice qui compte à rebours. En direct, à 19 h, chacun dit une phrase : Maťo le ruisseau, Katka l'inondation, Gab le point d'eau de Košice, Andrea la zone humide et la mine. Ils ne sauvent pas le monde ; ils demandent à être entendus. La présentatrice répond : « Počujeme vás. » Après l'émission : un message de Marek, un autre de Ján et Babka au téléphone (« jedz, Gab »). Dernière scène sur la terrasse : Gab repartira lundi, Andrea : « Teraz si tu. » Dans la loge, la loutre retrouve son carnet : elle a les chiffres, eux sont les témoins. En direct, le porte-parole répète « sous contrôle », la loutre répond par l'éponge. Il repart sans sourire.*
 
 ## Scéna 1
 
@@ -1929,6 +2133,28 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 🐰 Je trochu veľký.
 
 🦊 Je líščí.
+
+💬 Do miestnosti vbehne vydra v gumených čižmách.
+
+🦦 Prepáčte! Kde je tá líška so zápisníkom?
+
+🦊 Tu. Ja. Dobrý večer.
+
+💬 Gab jej podá zápisník. Vydra ho chvíľu drží v rukách. Ako niečo vzácne.
+
+🦦 Hľadala som ho tri dni. Kde bol?
+
+🦊 Vo fontáne. V Košiciach.
+
+🦦 A moje listy? Tie ste našli tiež?
+
+🐹 Všetky. Jeden nám vrátila veverička.
+
+🦦 Ďakujem vám. Mám čísla. Ale nemám svedkov. Nikto nevidel to, čo ukazujú čísla.
+
+🐻 My sme to videli.
+
+🦦 Tak to povieme spolu.
 
 ## Scéna 3
 
@@ -2004,6 +2230,14 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🐻 A my sme tam boli.
 
+🎙️ Pán hovorca, čo na to poviete?
+
+🕴️ Situácia je pod kontrolou. Nie je dôvod na paniku.
+
+🦦 Nie je dôvod na paniku. Ale je dôvod na pravdu. Les a mokrade držia vodu ako špongia. Moje čísla to ukazujú. A títo štyria to videli.
+
+💬 Pán hovorca sa stále usmieva. Ale už nie tak veľmi.
+
 💬 Nastane krátke ticho. Moderátorka sa zahľadí do kamery.
 
 🎙️ Nechcete zachrániť svet?
@@ -2023,6 +2257,12 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 🐻 Naozaj?
 
 📝 Prvýkrát som počula, ako sa štyri zvieratá zhodnú na jednej veci.
+
+🐹 A kde je pán hovorca?
+
+📝 Odišiel hneď po vysielaní. Bez úsmevu.
+
+🐰 Konečne.
 
 💬 Katkin telefón zapípa. Je nabitý z nabíjačky v štúdiu.
 
@@ -2074,7 +2314,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 # Epilóg — Sen
 
-*Résumé : le lendemain des retrouvailles, à Košice. Gab se réveille sous le pommier. Andrea arrive avec de l'eau (il n'y a que trois gouttes). Il raconte son rêve (« Snívalo sa mi… »), passé composé, résumé de toute l'aventure en deux minutes : l'occasion de tout réviser. Il ajoute « un détail étrange » : un renard, un dîner, une broche. Andrea devient silencieuse : confirmation, sans explication. Chaussettes mouillées (clin d'œil au chap. 6), la tante qui se réveille (« Andrea ? S kým hovoríš ? — S jabloňou. »). Même fil rouge : « Teraz si tu. — Uvidíme. »*
+*Résumé : le lendemain des retrouvailles, à Košice. Gab se réveille sous le pommier. Andrea arrive avec de l'eau (il n'y a que trois gouttes). Il raconte son rêve (« Snívalo sa mi… »), passé composé, résumé de toute l'aventure en deux minutes : l'occasion de tout réviser. Il ajoute « un détail étrange » : un renard, un dîner, une broche. Andrea devient silencieuse : confirmation, sans explication. Chaussettes mouillées (clin d'œil au chap. 6), la tante qui se réveille (« Andrea ? S kým hovoríš ? — S jabloňou. »). Même fil rouge : « Teraz si tu. — Uvidíme. » Andrea donne à Gab les six lettres jamais envoyées (« dans le train, pas avant ») et raconte qu'une loutre en bottes cherchait un carnet bleu à la fontaine ce matin.*
 
 ## Scéna 1
 
@@ -2179,6 +2419,18 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 🦊 Andrea...
 
 🐰 Poď. Niektoré sny sú len sny. A niektoré nie sú len sny.
+
+💬 Andrea vytiahne z vrecka šesť obálok. Sú staré a trochu pokrčené.
+
+🐰 Tu máš. Šesť listov. Nikdy som ich neposlala.
+
+🦊 Šesť? Ako vo sne!
+
+🐰 Prečítaš si ich vo vlaku. Nie skôr.
+
+🐰 A ešte niečo. Ráno pri fontáne bola jedna vydra. V gumených čižmách. Hľadala modrý zápisník.
+
+💬 Gab sa pozrie na svoje mokré ponožky. Potom na jabloň. Nič nepovie.
 
 💬 Z okna zaznie hlas.
 
