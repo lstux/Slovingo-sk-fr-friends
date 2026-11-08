@@ -1,6 +1,6 @@
 # Série Sucho (1/5) — Je horúco
 
-@ img/kosice-slnko.jpg | Un ciel de plein soleil au-dessus de Košice, ou une terre sèche. Source : Wikimedia Commons
+@ img/kosice-slnko.jpg | Une terre sèche et craquelée. Source : Wikimedia Commons, Atmospheric Research, CSIRO, CC BY 3.0
 
 %: Košice : le parc, la fontaine, la gare
 % 48.7236, 21.2495 | {{Mestský park}} | z13

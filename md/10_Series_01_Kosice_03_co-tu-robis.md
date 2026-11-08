@@ -1,6 +1,6 @@
 # Série Košice (3/5) — Čo tu robíš?
 
-@ img/kosice-panorama.jpg | Vue de Košice, par exemple la rue principale. Source : Wikimedia Commons
+@ img/kosice-panorama.jpg | La rue principale de Košice un matin de brume, la cathédrale au loin. Source : Wikimedia Commons, Benche.ix, CC0
 
 {{fr:Andrea n'en revient pas : qu'est-ce que tu fais là ? Tu n'habitais pas en France ? Voyons comment on dit ce qu'on fait et où on habite.}}
 

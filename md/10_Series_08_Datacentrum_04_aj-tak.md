@@ -1,6 +1,6 @@
 # Série Datacentrum (4/5) — Aj tak
 
-@ img/mokrad-rieka.jpg | Une zone humide au bord d'une rivière. Source : Wikimedia Commons
+@ img/mokrad-rieka.jpg | Une prairie humide au bord de l'eau. Source : Wikimedia Commons, Moppet65535, CC BY-SA 3.0
 
 {{fr:L'eau pour refroidir les serveurs vient de la rivière. Et la zone humide était exactement là où vous êtes. Marek le savait. Il est venu quand même. On apprend à rapporter ce qu'on sait, avec « que ».}}
 

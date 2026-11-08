@@ -1,6 +1,6 @@
 # Série Rozhodnutie (2/5) — Mama píše
 
-@ img/telefon-sprava.jpg | Un téléphone posé dans l'herbe avec un message à l'écran. Source : Wikimedia Commons
+@ img/telefon-sprava.jpg | Un téléphone tenu au-dessus de l'herbe, une appli ouverte. Source : Wikimedia Commons, Santeri Viinamäki (both photo and screenshot), CC BY-SA 4.0
 
 {{fr:Ton téléphone bipe : un message de ta mère, le premier depuis trois jours. Katka lit par-dessus ton épaule, mais c'est en français. Alors tu traduis. On apprend à rapporter ce que quelqu'un a écrit.}}
 

@@ -1,6 +1,6 @@
 # Série Domov (1/5) — Dobrý deň, pani Ježková
 
-@ img/zdiar-dreveny-dom.jpg | Une maison en bois peinte d'un village sous les Tatras. Source : Wikimedia Commons
+@ img/zdiar-dreveny-dom.jpg | Une maison en bois du village de Ždiar, sous les Tatras. Source : Wikimedia Commons, Robzle, Public domain
 
 %: Le village d'enfance (emplacement indicatif)
 % 49.2692, 20.2656 | {{Ždiar}} | z11 | topo

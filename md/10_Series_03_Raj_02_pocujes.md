@@ -1,6 +1,6 @@
 # Série Raj (2/5) — Počuješ?
 
-@ img/slovensky-raj-potok.jpg | Un petit ruisseau dans une forêt. Source : Wikimedia Commons
+@ img/slovensky-raj-potok.jpg | Le Hornád au pied des rochers, au Paradis slovaque. Source : Wikimedia Commons, Marek K. Misztal, CC BY-SA 3.0
 
 {{fr:Dans la forêt, il fait plus frais, mais toujours pas d'eau. Et il y a un drôle de silence. On apprend à dire ce qu'on entend… et ce qu'on n'entend pas.}}
 

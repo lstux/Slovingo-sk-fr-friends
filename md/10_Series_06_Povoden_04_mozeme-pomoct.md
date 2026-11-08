@@ -1,6 +1,6 @@
 # Série Povodeň (4/5) — Môžeme pomôcť?
 
-@ img/hasic-povoden.jpg | Un pompier en veste jaune pendant une inondation. Source : Wikimedia Commons
+@ img/hasic-povoden.jpg | Des secouristes en barque dans un quartier inondé. Source : Wikimedia Commons, Leo 'Jace' Anderson, Public domain
 
 {{fr:Au bord de la route, un pompier a beaucoup de travail et peu de temps. Vous proposez votre aide. Il accepte tout de suite. On apprend à proposer son aide, à quelqu'un qu'on tutoie ou qu'on vouvoie.}}
 

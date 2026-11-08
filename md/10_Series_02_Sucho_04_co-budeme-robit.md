@@ -1,6 +1,6 @@
 # Série Sucho (4/5) — Čo budeme robiť?
 
-@ img/mapa-cesta.jpg | Une carte routière ou une route qui s'éloigne. Source : Wikimedia Commons
+@ img/mapa-cesta.jpg | Une petite route qui part dans la campagne, près de Prešov. Source : Wikimedia Commons, Ing.Mgr.Jozef Kotulič, CC BY-SA 4.0
 
 {{fr:L'étang est presque vide. Andrea a déjà une idée : on ne reste pas. On apprend à dire « nous », et à parler de ce qu'on va faire.}}
 

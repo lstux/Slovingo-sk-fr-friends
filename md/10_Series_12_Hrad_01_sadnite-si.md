@@ -1,6 +1,6 @@
 # Série Hrad (1/5) — Sadnite si
 
-@ img/hrad-terasa-vecer.jpg | La terrasse du château de Bratislava, le soir. Source : Wikimedia Commons
+@ img/hrad-terasa-vecer.jpg | Le Danube au crépuscule, avec le château de Bratislava au loin. Source : Wikimedia Commons, Rios, CC BY-SA 4.0
 
 %: Le château de Bratislava
 % 48.1421, 17.1000 | {{Bratislavský hrad}} | z15

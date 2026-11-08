@@ -1,6 +1,6 @@
 # Série Hrad (3/5) — Tréma
 
-@ img/motyl.jpg | Un papillon. Source : Wikimedia Commons
+@ img/motyl.jpg | Un paon-du-jour, un papillon. Source : Wikimedia Commons, Charles J. Sharp, CC BY-SA 3.0
 
 {{fr:Plus que quelques minutes. Tu as le trac, et le ventre plein de papillons. Andrea, elle, a une technique. On apprend les expressions avec « avoir ».}}
 

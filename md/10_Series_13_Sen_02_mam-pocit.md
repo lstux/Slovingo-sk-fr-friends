@@ -1,6 +1,6 @@
 # Série Sen (2/5) — Mám pocit
 
-@ img/flasa-voda.jpg | Une bouteille avec un fond d'eau. Source : Wikimedia Commons
+@ img/flasa-voda.jpg | Une petite fille boit à une fontaine de rue, à Paris, pendant la canicule de 1921. Source : Wikimedia Commons, Agence Rol, Public domain
 
 {{fr:Andrea t'apporte un peu d'eau. Pas beaucoup : il n'y en a pas plus. Toi, tu as une drôle d'impression. Celle d'avoir été très loin. On apprend à dire « j'ai l'impression que ».}}
 

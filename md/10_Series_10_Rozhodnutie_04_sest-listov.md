@@ -1,6 +1,6 @@
 # Série Rozhodnutie (4/5) — Šesť listov
 
-@ img/listy-obalky.jpg | Une pile de lettres jamais envoyées, sans timbres. Source : Wikimedia Commons
+@ img/listy-obalky.jpg | Une pile d'enveloppes. Source : Wikimedia Commons, Martin Vorel, Public Domain
 
 {{fr:Le soir, Maťo et Katka ramassent du bois. Tu restes seul près du feu avec Andrea. Et tu poses enfin la question : pourquoi elle ne t'a jamais écrit ? On apprend à dire ce qu'on n'a pas fait.}}
 

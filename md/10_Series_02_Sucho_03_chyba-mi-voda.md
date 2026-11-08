@@ -1,6 +1,6 @@
 # Série Sucho (3/5) — Chýba mi voda
 
-@ img/jazierko-vyschnute.jpg | Un étang à moitié asséché dans un parc. Source : Wikimedia Commons
+@ img/jazierko-vyschnute.jpg | Un ancien étang, complètement à sec. Source : Wikimedia Commons, Robert Murray, CC BY-SA 2.0
 
 {{fr:Direction le parc. L'étang où Andrea venait boire est là, mais l'eau, elle, n'y est presque plus. On apprend à dire ce qui nous manque.}}
 

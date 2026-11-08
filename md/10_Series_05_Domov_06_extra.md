@@ -1,6 +1,6 @@
 # Domov (extra) — Pred domom
 
-@ img/lavicka-pred-domom-noc.jpg | Un banc devant une maison de village, la nuit. Source : Wikimedia Commons
+@ img/chata-noc.jpg | Une maison isolée, la nuit, les fenêtres allumées. Source : Wikimedia Commons, Paxson Woelber, CC BY 2.0
 
 {{fr:La nuit tombe sur le village. Maťo et Katka ont décidé de venir. Babka a des conseils, et Andrea commence une phrase qu'elle ne finit pas.}}
 

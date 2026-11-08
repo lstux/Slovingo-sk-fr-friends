@@ -1,4 +1,4 @@
-# Introduction (2/3) — La Slovaquie, de l'est à l'ouest
+# Introduction (2/4) — La Slovaquie, de l'est à l'ouest
 
 {{fr:Avant de monter dans le tram, un coup d'œil à la carte. La Slovaquie est un petit pays au milieu de l'Europe : moins d'un dixième de la France, et un peu plus de cinq millions d'habitants.}}
 

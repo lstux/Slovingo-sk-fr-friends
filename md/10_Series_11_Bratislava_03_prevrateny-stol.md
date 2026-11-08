@@ -1,6 +1,6 @@
 # Série Bratislava (3/5) — Prevrátený stôl
 
-@ img/bratislavsky-hrad.jpg | Le château de Bratislava, blanc avec ses quatre tours. Source : Wikimedia Commons
+@ img/bratislavsky-hrad.jpg | Le château de Bratislava, blanc avec ses quatre tours. Source : Wikimedia Commons, Jakub Hałun, CC BY-SA 4.0
 
 {{fr:Une dame vous indique le chemin de la télévision. Et au passage, elle vous montre le château, là-haut. Les gens d'ici lui ont trouvé un surnom. On apprend à dire comment on se déplace.}}
 

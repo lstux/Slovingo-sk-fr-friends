@@ -1,6 +1,6 @@
 # Série Povodeň (3/5) — Voda stúpa
 
-@ img/zaplavena-dedina.jpg | Un village inondé, de l'eau marron jusqu'aux maisons. Source : Wikimedia Commons
+@ img/zaplavena-dedina.jpg | Une maison inondée jusqu'au toit. Source : Wikimedia Commons, वर्षा देशपांडे, CC BY-SA 4.0
 
 {{fr:Le village est au bord de la rivière. Enfin, de ce qui était une rivière. L'eau monte, et une niche flotte, vide. On apprend la différence entre « monte » et « va monter ».}}
 

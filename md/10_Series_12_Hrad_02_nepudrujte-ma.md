@@ -1,6 +1,6 @@
 # Série Hrad (2/5) — Nepúdrujte ma!
 
-@ img/licenie-stetec.jpg | Un pinceau de maquillage et une boîte de poudre. Source : Wikimedia Commons
+@ img/licenie-stetec.jpg | Un pinceau de maquillage plein de poudre. Source : Wikimedia Commons, Evi Michailidou, CC BY-SA 3.0
 
 {{fr:Une maquilleuse arrive avec un grand pinceau. Katka refuse. Toi, tu te portes volontaire. Et ton nez reçoit un compliment. On apprend à dire « ne faites pas ».}}
 

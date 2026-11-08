@@ -1,6 +1,6 @@
 # Série Raj (3/5) — Je tu voda!
 
-@ img/slovensky-raj-voda.jpg | Un petit ruisseau clair entre des pierres. Source : Wikimedia Commons
+@ img/slovensky-raj-voda.jpg | Une petite cascade entre les rochers et les troncs, dans la gorge de Suchá Belá. Source : Wikimedia Commons, Michal Klajban, CC BY-SA 3.0
 
 {{fr:Enfin de l'eau ! Pas beaucoup, mais assez. Et Andrea en profite pour rappeler qui commande. On apprend à dire « assez », « d'abord » et « ensuite ».}}
 

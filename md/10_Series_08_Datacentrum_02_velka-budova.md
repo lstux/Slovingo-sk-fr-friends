@@ -1,6 +1,6 @@
 # Série Datacentrum (2/5) — Veľká budova
 
-@ img/datacentrum-budova.jpg | Un grand bâtiment gris et long, de type entrepôt ou datacenter. Source : Wikimedia Commons
+@ img/datacentrum-budova.jpg | Le toit d'un datacenter, vu d'en haut. Source : Wikimedia Commons, Rsparks3, CC0
 
 {{fr:Au bord de la rivière, un bâtiment gris, long comme un avion. Sur la carte de Katka, il y a une zone humide. Sur le terrain, il y a… un bâtiment. Et un silence bizarre. On apprend à dire « là où ».}}
 

@@ -1,6 +1,6 @@
 # Série Sen (3/5) — Mokré ponožky
 
-@ img/rosa-trava.jpg | Des gouttes de rosée sur l'herbe le matin. Source : Wikimedia Commons
+@ img/rosa-trava.jpg | De la rosée sur l'herbe haute, le matin. Source : Wikimedia Commons, Salman Munir, CC BY-SA 4.0
 
 {{fr:Tu bois un peu d'eau et tu regardes tes pieds. Tes chaussettes sont mouillées. Pourtant, il ne pleut plus depuis deux mois. Andrea a une explication très logique. On apprend la météo au passé.}}
 

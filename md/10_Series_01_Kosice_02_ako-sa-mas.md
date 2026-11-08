@@ -1,6 +1,6 @@
 # Série Košice (2/5) — Ako sa máš?
 
-@ img/kosice-hlavna-ulica.jpg | Deux ados qui discutent, ou la rue principale de Košice. Source : Wikimedia Commons
+@ img/kosice-hlavna-ulica.jpg | La rue principale de Košice, avec le théâtre au bout. Source : Wikimedia Commons, Ladislav Luppa, CC BY-SA 4.0
 
 {{fr:Cinq ans sans se voir, ça fait long. Alors on prend des nouvelles, et on ne se contente pas d'un « ça va ».}}
 
@@ -11,7 +11,7 @@
 | Slovenčina | Français |
 |------------|----------|
 | Ako sa máš? | Comment vas-tu ? (rappel) |
-| Mám sa dobre. | Je vais bien. (rappel) |
+| Mám sa dobre. | Je vais bien. |
 | super | super, génial |
 | A ty? | Et toi ? |
 | aj ja | moi aussi |
@@ -51,7 +51,7 @@
 > Veľmi = très
 > dlho = longtemps
 > Päť rokov = cinq ans
-+ {{veľmi}} = très, comme dans {{Ďakujem veľmi pekne}}. {{päť rokov}} = cinq ans : après {{päť}}, {{rok}} devient {{rokov}}.
++ {{veľmi}} = très : {{veľmi dlho}} = très longtemps. {{päť rokov}} = cinq ans : après {{päť}}, {{rok}} devient {{rokov}}.
 
 ! 🐰 Päť rokov! Ako sa máš?
 > Cinq ans ! Comment ça va ?

@@ -1,6 +1,6 @@
 # Datacentrum (extra) — Rada od Mareka
 
-@ img/vecer-rieka-ticho.jpg | Une rivière calme au crépuscule. Source : Wikimedia Commons
+@ img/vecer-rieka-ticho.jpg | Un lac calme au crépuscule. Source : Wikimedia Commons, Aslam Karachiwala, CC BY-SA 3.0
 
 {{fr:Le soir, devant le bâtiment. Marek vous offre du thé et des sandwichs, et un conseil. Andrea, elle, se méfie des gens qui sourient trop. Surtout des renards.}}
 

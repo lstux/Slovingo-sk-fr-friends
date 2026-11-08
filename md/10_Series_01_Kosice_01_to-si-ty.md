@@ -1,6 +1,6 @@
 # Série Košice (1/5) — To si ty?
 
-@ img/kosice-elektricka.jpg | Un tram dans une rue de Košice. Source : Wikimedia Commons
+@ img/kosice-elektricka.jpg | Un ancien tram exposé dans la rue principale de Košice. Source : Wikimedia Commons, ZemplinTemplar, CC BY-SA 4.0
 
 %: Košice
 % 48.7164, 21.2611 | {{Košice}} | z12

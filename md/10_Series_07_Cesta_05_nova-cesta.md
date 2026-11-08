@@ -1,6 +1,6 @@
 # Série Cesta (5/5) — Nová cesta
 
-@ img/nova-cesta-asfalt.jpg | Une route neuve qui traverse une forêt. Source : Wikimedia Commons
+@ img/nova-cesta-asfalt.jpg | Une route qui traverse une forêt. Source : Wikimedia Commons, David Howard, CC BY-SA 2.0
 
 {{fr:Vous marchez sur la route toute neuve, derrière le chef de chantier. Katka est pour. Maťo est contre. Toi, tu ne sais pas. Et Andrea veut les deux. Premier vrai débat de la bande.}}
 

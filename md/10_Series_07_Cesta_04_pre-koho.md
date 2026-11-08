@@ -1,6 +1,6 @@
 # Série Cesta (4/5) — Pre koho?
 
-@ img/stavbyveduci-prilba.jpg | Un chantier de route avec des engins. Source : Wikimedia Commons
+@ img/stavbyveduci-prilba.jpg | Un chantier avec une pelleteuse. Source : Wikimedia Commons, Nicsmrakelo, CC BY-SA 3.0
 
 {{fr:L'homme au casque jaune est le chef du chantier. Il veut bien vous montrer le chemin. Il veut aussi bien répondre à vos questions. Enfin, presque toutes. On apprend à demander « pour qui ».}}
 

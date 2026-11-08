@@ -1,6 +1,6 @@
 # Série Baňa (3/5) — Tajchy
 
-@ img/tajch-stiavnica.jpg | Un tajch, petit lac artificiel en forêt près de Banská Štiavnica. Source : Wikimedia Commons
+@ img/tajch-stiavnica.jpg | Le tajch Veľká Vindšachta, un lac artificiel près de Banská Štiavnica. Source : Wikimedia Commons, Mineralysk, CC BY-SA 4.0
 
 {{fr:Ján vous emmène au-dessus de la ville. Dans la forêt, il y a de petits lacs construits il y a des siècles. Et il y a de l'eau, enfin. On apprend à dire « le meilleur », « le plus beau ».}}
 

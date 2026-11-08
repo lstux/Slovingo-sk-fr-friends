@@ -1,6 +1,6 @@
 # Série Burka (3/5) — Čím vyššie, tým chladnejšie
 
-@ img/tatry-ciernne-oblaky.jpg | Des nuages noirs au-dessus d'un lac de montagne. Source : Wikimedia Commons
+@ img/tatry-ciernne-oblaky.jpg | Des nuages sombres au-dessus des crêtes des Tatras. Source : Wikimedia Commons, Sława Pietrzyk, CC BY 3.0
 
 {{fr:Dans la cuisine du refuge, il fait chaud. Dehors, il fait froid, et le ciel se fâche. On apprend à comparer : plus chaud, plus froid, plus haut.}}
 

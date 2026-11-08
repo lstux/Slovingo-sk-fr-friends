@@ -1,6 +1,6 @@
 # Košice (extra) — Dobrú noc
 
-@ img/kosice-zahrada-vecer.jpg | Un jardin avec un pommier, le soir. Source : Wikimedia Commons
+@ img/kosice-zahrada-vecer.jpg | Un pré avec des arbres fruitiers et une petite cabane, au coucher du soleil. Source : Wikimedia Commons, Jean-Michel Priaux from Alsace, France, CC BY 2.0
 
 {{fr:Le soir tombe sur Košice. Andrea t'emmène chez sa tante… enfin, pas vraiment chez elle : dans son jardin.}}
 
@@ -50,6 +50,7 @@
 | vlak | le train |
 | vlakom | en train |
 | jedenásť | onze |
+| dvanásť | douze |
 | trinásť | treize |
 | štrnásť | quatorze |
 | pätnásť | quinze |

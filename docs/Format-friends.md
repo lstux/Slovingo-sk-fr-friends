@@ -120,7 +120,7 @@ Exemple : `10_Series_01_Kosice_02_ako-sa-mas.md`.
 - **Titres** : `# Série Košice (2/5) — Ako sa máš?` ; extra : `# Košice (extra) — Večer` (comme Kids : les fiches 01 à 05 sont numérotées sur 5, l'extra n'a pas de numéro).
 - Le **thème** du nom de fichier donne la clé de `lang.json` → `subgroups` et `subgroup_themes`, en minuscules et **sans diacritiques** (`Košice` → `kosice`).
 - Les noms de fichiers n'ont pas d'accent ; les titres à l'intérieur, si.
-- **Introduction « Avant de commencer »** : 3 fiches `00_Introduction_NN_titre.md`, titres `# Introduction (n/3) — Titre` : 01 Bienvenue (prénom, idée du cours, mode d'emploi), 02 La Slovaquie (géographie, voisins, étapes du voyage), 03 Remise en route (prononciation, *ty* / *vy*). Ton plus sobre que dans Kids ; pas de mot de vocabulaire à apprendre, sauf les noms de lieux et les points cardinaux. Kids est supposé acquis : la série 01 démarre juste après.
+- **Introduction « Avant de commencer »** : 4 fiches `00_Introduction_NN_titre.md`, titres `# Introduction (n/4) — Titre` : 01 Bienvenue (prénom, idée du cours, mode d'emploi), 02 La Slovaquie (géographie, voisins, étapes du voyage), 03 Remise en route (prononciation, *ty* / *vy*), 04 Les bases en accéléré (la bande de Kids, saluer, petits mots, *to je*, *môj / moja*, *mám / máš / má*, nombres de 1 à 10). Ton plus sobre que dans Kids. Les fiches 01 à 03 n'ont pas de vocabulaire à apprendre, sauf les noms de lieux et les points cardinaux ; la fiche 04 donne le minimum de Kids que la série 01 suppose connu, pour ceux qui n'ont pas fait Kids ou l'ont oublié.
 
 ## 8. Vocabulaire
 

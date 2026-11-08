@@ -1,6 +1,6 @@
 # Bratislava (extra) — Pred hradom
 
-@ img/bratislava-vyhlad-hrad-dunaj.jpg | La vue sur le Danube depuis le château de Bratislava. Source : Wikimedia Commons
+@ img/bratislava-vyhlad-hrad-dunaj.jpg | Bratislava vue du Nový most, avec le château et le Danube. Source : Wikimedia Commons, Jakub Hałun, CC BY-SA 4.0
 
 {{fr:Fin d'après-midi, devant la porte du château. La vue sur le Danube est magnifique. Le téléphone de Katka est vide. Et Maťo sort un papier de sa poche.}}
 

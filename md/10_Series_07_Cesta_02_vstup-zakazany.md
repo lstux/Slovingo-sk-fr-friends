@@ -1,6 +1,6 @@
 # Série Cesta (2/5) — Vstup zakázaný
 
-@ img/plot-stavenisko.jpg | Une clôture de chantier avec un panneau, en forêt. Source : Wikimedia Commons
+@ img/plot-stavenisko.jpg | Un panneau d'accès interdit sur une palissade de travaux. Source : Wikimedia Commons, Tdorante10, CC BY-SA 4.0
 
 {{fr:Dans la forêt, il y a du bruit. Des moteurs. Puis une clôture, avec un panneau très clair. Enfin, clair pour tout le monde sauf Katka. On apprend à dire ce que quelque chose veut dire.}}
 

@@ -1,6 +1,6 @@
 # Série Domov (4/5) — Bez bryndze
 
-@ img/halusky.jpg | Une assiette de halušky. Source : Wikimedia Commons
+@ img/halusky.jpg | Une assiette de bryndzové halušky. Source : Wikimedia Commons, Gregory finster, CC0
 
 {{fr:Dans la cuisine de Babka Zuzana, ça sent le thé et quelque chose qui mijote. Tu vas manger, que tu le veuilles ou non. On apprend à dire « avec » et « sans ».}}
 

@@ -1,6 +1,6 @@
 # Série Bratislava (5/5) — Redaktorka
 
-@ img/sklenene-dvere-budova.jpg | L'entrée vitrée d'un grand bâtiment de bureaux. Source : Wikimedia Commons
+@ img/sklenene-dvere-budova.jpg | L'entrée vitrée d'un grand bâtiment de bureaux. Source : Wikimedia Commons, Solomon203, CC BY-SA 4.0
 
 {{fr:Une jeune femme sort par la porte vitrée. Elle a tout entendu. Elle travaille aux infos, et elle a une proposition à vous faire. Une proposition très inattendue.}}
 

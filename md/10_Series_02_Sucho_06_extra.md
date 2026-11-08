@@ -1,6 +1,6 @@
 # Sucho (extra) — Na stanici
 
-@ img/kosice-stanica.jpg | La gare de Košice. Source : Wikimedia Commons
+@ img/kosice-stanica.jpg | La gare de Košice. Source : Wikimedia Commons, RickRichards, CC BY-SA 4.0
 
 {{fr:Le dernier arrêt avant de quitter Košice : la gare. Andrea doit laisser un mot à sa tante, et il faut des billets. De vrais billets, cette fois.}}
 

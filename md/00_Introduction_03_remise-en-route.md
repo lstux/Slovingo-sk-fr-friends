@@ -1,4 +1,4 @@
-# Introduction (3/3) — Remise en route
+# Introduction (3/4) — Remise en route
 
 @ https://commons.wikimedia.org/wiki/Special:FilePath/European_Hare(js)02.jpg | Andrea, qui corrigera ta prononciation. Sans pitié.
 
@@ -62,6 +62,19 @@
 | áno | « aano » | oui |
 | päť | « pèty » | cinq |
 | môj | « mouoï » | mon |
+
+---
+
+## 5. Le h, le y et les sons doubles
+
+{{fr:Le}} {{h}} {{fr:se prononce toujours, comme un souffle : jamais muet comme en français. Le}} {{y}} {{fr:se dit comme un}} {{i}}{{fr:. Et quand deux voyelles se suivent, comme dans}} {{ie}}{{fr:,}} {{ia}} {{fr:ou}} {{iu}}{{fr:, on les dit d'un seul coup, en glissant.}}
+
+| Slovenčina | Ça se dit | Français |
+|------------|-----------|----------|
+| hora | « ho-ra », avec un h soufflé, comme « hello » en anglais | la montagne |
+| my | « mi » | nous |
+| mlieko | « mlyé-ko » | le lait |
+| v Košiciach | « v ko-chi-tsiakh » | à Košice |
 
 ---
 

@@ -1,6 +1,6 @@
 # Cesta (extra) — V kamióne
 
-@ img/kamion-noc.jpg | La cabine d'un camion sur une route de nuit. Source : Wikimedia Commons
+@ img/kamion-noc.jpg | Des travaux de route, la nuit, avec un camion et des barrières. Source : Wikimedia Commons, OathOn, CC BY-SA 4.0
 
 {{fr:Au bout de la route, un camion. Le chauffeur va au sud, et le sud, c'est un bon début. Dans la cabine, la radio annonce les infos. Et Katka a une idée complètement folle.}}
 

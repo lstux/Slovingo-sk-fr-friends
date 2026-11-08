@@ -1,4 +1,4 @@
-# Introduction (1/3) — Bienvenue
+# Introduction (1/4) — Bienvenue
 
 @ img/illus_00_couverture.jpg | La bande sur la route, des Tatras jusqu'à Bratislava. Le renard, c'est toi. Source : illustration générée avec ChatGPT
 
@@ -12,7 +12,7 @@
 
 ## L'idée du cours
 
-{{fr:Si tu as fait le cours des enfants dans les Tatras, tu te souviens du renard. C'est toi, quelques années plus tard : tu as quinze ans et tu reviens en Slovaquie. Si tu ne l'as pas fait, pas de panique : on remet tout en route dès le début, et tout se comprend.}}
+{{fr:Si tu as fait le cours des enfants dans les Tatras, tu te souviens du renard. C'est toi, quelques années plus tard : tu as quinze ans et tu reviens en Slovaquie. Si tu ne l'as pas fait, pas de panique : la fiche « Les bases, en accéléré », juste avant le chapitre 1, te donne tout ce qu'il faut.}}
 
 {{fr:Le cours est un petit roman en dialogues. Chaque série est un chapitre : tu apprends les mots dont tu as besoin, puis tu écoutes l'épisode avec tes amis. À la fin, tu auras traversé tout un pays, et tu comprendras ce que les personnages se disent. On rigole, mais on apprend vraiment.}}
 

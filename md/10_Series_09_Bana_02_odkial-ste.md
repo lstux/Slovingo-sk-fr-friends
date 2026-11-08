@@ -1,6 +1,6 @@
 # Série Baňa (2/5) — Odkiaľ ste?
 
-@ img/veverica.jpg | Un écureuil roux sur un toit ou une clôture. Source : Wikimedia Commons
+@ img/veverica.jpg | Un écureuil roux. Source : Wikimedia Commons, Peter Trimming from Croydon, England, CC BY 2.0
 
 {{fr:Un écureuil saute d'un toit. Il s'appelle Ján, il parle très vite et il pose dix questions à la seconde. On apprend tous les mots pour poser des questions.}}
 

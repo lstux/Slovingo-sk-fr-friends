@@ -1,6 +1,6 @@
 # Série Datacentrum (1/5) — Ďakujeme za odvoz
 
-@ img/rovina-rieka-rano.jpg | Une large plaine avec une rivière, le matin, en Slovaquie centrale. Source : Wikimedia Commons
+@ img/rovina-rieka-rano.jpg | Le Hron dans la forêt, le matin. Source : Wikimedia Commons, Jacquesverlaeken, CC BY-SA 3.0
 
 %: La région centrale (emplacement indicatif)
 % 48.7363, 19.1462 | {{Banská Bystrica}} | z9

@@ -1,6 +1,6 @@
 # Série Sen (5/5) — Dobrý sen
 
-@ img/halusky.jpg | Une assiette de halušky. Source : Wikimedia Commons
+@ img/halusky.jpg | Une assiette de bryndzové halušky. Source : Wikimedia Commons, Gregory finster, CC0
 
 {{fr:Tu racontes tout. La sécheresse, l'orage, l'inondation, la route, le datacentre, la mine. Andrea écoute. Et bizarrement, beaucoup de détails sont… vrais.}}
 

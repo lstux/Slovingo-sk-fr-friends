@@ -1,0 +1,21 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {"id": "qcm-dakujem", "type": "qcm", "l1": "merci", "l2": "ďakujem", "choices_l1": ["pardon", "bonjour", "s'il te plaît"], "choices_l2": ["prepáč", "dobrý deň", "prosím"]},
+    {"id": "qcm-prepac", "type": "qcm", "l1": "pardon", "l2": "prepáč", "choices_l1": ["merci", "salut", "au revoir"], "choices_l2": ["ďakujem", "ahoj", "dovidenia"]},
+    {"id": "qcm-dovidenia", "type": "qcm", "l1": "au revoir (à un adulte)", "l2": "dovidenia", "choices_l1": ["bonjour (à un adulte)", "salut", "merci"], "choices_l2": ["dobrý deň", "čau", "ďakujem"]},
+    {"id": "qcm-mas", "type": "qcm", "l1": "tu as", "l2": "máš", "choices_l1": ["j'ai", "il a", "tu es"], "choices_l2": ["mám", "má", "si"]},
+    {"id": "qcm-moja", "type": "qcm", "l1": "ma copine", "l2": "moja kamarátka", "choices_l1": ["mon copain", "ta copine", "ton copain"], "choices_l2": ["môj kamarát", "tvoja kamarátka", "tvoj kamarát"]},
+    {"id": "qcm-osem", "type": "qcm", "l1": "huit", "l2": "osem", "choices_l1": ["sept", "neuf", "six"], "choices_l2": ["sedem", "deväť", "šesť"]},
+    {"id": "qcm-styri", "type": "qcm", "l1": "quatre", "l2": "štyri", "choices_l1": ["trois", "cinq", "deux"], "choices_l2": ["tri", "päť", "dva"]},
+    {"id": "listen-ahoj-ako-sa-mas", "type": "listen", "l1": "Salut ! Comment ça va ?", "l2": "Ahoj! Ako sa máš?", "choices_l1": ["Bonjour ! Comment tu t'appelles ?", "Salut ! Merci beaucoup !", "Au revoir ! À demain !"]},
+    {"id": "listen-dobre-dakujem", "type": "listen", "l1": "Bien, merci !", "l2": "Dobre, ďakujem!", "choices_l1": ["Oui, s'il te plaît !", "Pardon, merci !", "Non, merci !"]},
+    {"id": "listen-mam-desat-rokov", "type": "listen", "l1": "J'ai dix ans.", "l2": "Mám desať rokov.", "choices_l1": ["J'ai deux ans.", "Tu as dix ans.", "J'ai sept ans."]},
+    {"id": "match-zaklady", "type": "match", "l1": ["oui", "non", "merci", "pardon"], "l2": ["áno", "nie", "ďakujem", "prepáč"]},
+    {"id": "match-cisla", "type": "match", "l1": ["deux", "cinq", "sept", "dix"], "l2": ["dva", "päť", "sedem", "desať"]},
+    {"id": "blank-to-je-moj-kamarat", "type": "fill-blank", "l1": "C'est mon copain.", "l2": "To je môj kamarát.", "missing_l1": "mon", "missing_l2": "môj", "blank_index_l1": 1, "blank_index_l2": 2, "choices_l1": ["ma", "ton", "ta"], "choices_l2": ["moja", "tvoj", "tvoja"], "show_translation": true},
+    {"id": "order-to-je-moj-kamarat", "type": "order", "l1": "C'est mon copain.", "l2": "To je môj kamarát.", "tokens_l1": ["C'est", "mon", "copain."], "tokens_l2": ["To", "je", "môj", "kamarát."]},
+    {"id": "order-mam-desat-rokov", "type": "order", "l1": "J'ai dix ans.", "l2": "Mám desať rokov.", "tokens_l1": ["J'ai", "dix", "ans."], "tokens_l2": ["Mám", "desať", "rokov."]}
+  ]
+}

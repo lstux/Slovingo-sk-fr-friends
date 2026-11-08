@@ -1,6 +1,6 @@
 # Série Baňa (4/5) — Lítium
 
-@ img/les-kopec-stiavnica.jpg | Une colline boisée des monts de Štiavnica. Source : Wikimedia Commons
+@ img/les-kopec-stiavnica.jpg | Les collines des monts de Štiavnica, au printemps. Source : Wikimedia Commons, Punteador, CC BY-SA 4.0
 
 {{fr:Sur la montagne au-dessus des lacs, il y a la forêt de Ján. Pour l'instant. Hier, quelqu'un est venu avec un papier et un sourire. On apprend à dire « à cause de » et « pour quoi faire ».}}
 

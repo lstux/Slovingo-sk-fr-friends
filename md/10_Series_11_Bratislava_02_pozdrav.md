@@ -1,6 +1,6 @@
 # Série Bratislava (2/5) — Pozdrav od babky
 
-@ img/bratislava-nastupiste.jpg | Un quai de gare avec un train. Source : Wikimedia Commons
+@ img/bratislava-nastupiste.jpg | Un quai de la gare de Bratislava, avec des trains. Source : Wikimedia Commons, Miropiro, CC BY-SA 3.0
 
 {{fr:Babka Zuzana avait demandé de saluer Bratislava. Katka prend la mission très au sérieux, au milieu du quai. On apprend à dire « te » et « vous ».}}
 

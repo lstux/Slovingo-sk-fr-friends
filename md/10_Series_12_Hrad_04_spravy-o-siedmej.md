@@ -1,6 +1,6 @@
 # Série Hrad (4/5) — Správy o siedmej
 
-@ img/hodinky.jpg | Une montre ou une horloge qui indique sept heures. Source : Wikimedia Commons
+@ img/hodinky.jpg | Une vieille montre-bracelet. Source : Wikimedia Commons, auteur inconnu, CC BY 4.0
 
 {{fr:Deux minutes avant le direct. La rédactrice donne ses dernières consignes, et contredit Ján au passage. Katka s'entraîne au compte à rebours. On apprend à dire l'heure.}}
 

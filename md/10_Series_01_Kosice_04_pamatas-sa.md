@@ -1,6 +1,6 @@
 # Série Košice (4/5) — Pamätáš sa na Tatry?
 
-@ img/vysoke-tatry-leto.jpg | Les Hautes Tatras en été. Source : Wikimedia Commons
+@ img/vysoke-tatry-leto.jpg | Les Hautes Tatras en été. Source : Wikimedia Commons, Janka Puterová, CC BY-SA 3.0
 
 {{fr:Les Tatras, c'était il y a cinq ans. Andrea s'en souvient très bien, toi aussi. Mais tout le monde a grandi, y compris Katka et Maťo.}}
 
@@ -11,6 +11,7 @@
 | Slovenčina | Français |
 |------------|----------|
 | jedenásť | onze |
+| dvanásť | douze |
 | trinásť | treize |
 | štrnásť | quatorze |
 | pätnásť | quinze |
@@ -29,6 +30,8 @@
 
 {{fr:De 11 à 19, on prend le chiffre et on ajoute}} {{-násť}}{{fr:. Tu connais}} {{päť}}{{fr:, tu ajoutes}} {{-násť}}{{fr:, et ça donne}} {{pätnásť}}{{fr:.}}
 
+{{fr:Trois nombres trichent un peu :}} {{štyri}} {{fr:donne}} {{štrnásť}}{{fr:,}} {{šesť}} {{fr:donne}} {{šestnásť}}{{fr:, et le}} {{ť}} {{fr:de}} {{päť}} {{fr:devient un simple}} {{t}} {{fr:dans}} {{pätnásť}}{{fr:. Les autres suivent la règle.}}
+
 {{fr:Attention à l'oreille : cinq et quinze se ressemblent beaucoup, écoute bien la fin du mot.}}
 
 | Slovenčina | Français |
@@ -37,6 +40,12 @@
 | pätnásť | quinze |
 | jeden | un |
 | jedenásť | onze |
+| dva | deux |
+| dvanásť | douze |
+| štyri | quatre |
+| štrnásť | quatorze |
+| šesť | six |
+| šestnásť | seize |
 | Mám pätnásť rokov. | J'ai quinze ans. |
 | Mám šestnásť. | J'ai seize ans. |
 

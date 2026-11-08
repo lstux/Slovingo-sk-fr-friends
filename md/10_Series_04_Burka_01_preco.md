@@ -1,6 +1,6 @@
 # Série Burka (1/5) — Prečo?
 
-@ img/vysoke-tatry-chodnik.jpg | Un sentier qui monte dans les Hautes Tatras. Source : Wikimedia Commons
+@ img/vysoke-tatry-chodnik.jpg | Un poteau indicateur de randonnée dans les Hautes Tatras. Source : Wikimedia Commons, Scharla (Wikivoyage), Public domain
 
 %: Les Hautes Tatras
 % 49.1186, 20.0586 | {{Štrbské Pleso}} | z10 | topo

@@ -1,6 +1,6 @@
 # Rozhodnutie (extra) — My sme tam boli
 
-@ img/ranajky-vonku.jpg | Un petit-déjeuner en plein air, dans les collines, le matin. Source : Wikimedia Commons
+@ img/ranajky-vonku.jpg | Un feu de camp qui fume encore, le matin. Source : Wikimedia Commons, Andre Carrotflower, CC BY-SA 4.0
 
 {{fr:Le matin, au petit-déjeuner. Il faut décider quoi dire à la télévision. Tout le monde a un avis. Et toi, tu as un coup de fil à passer.}}
 

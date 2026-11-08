@@ -1,6 +1,6 @@
 # Burka (extra) — Ráno po búrke
 
-@ img/tatry-pleso-rano.jpg | Un lac de montagne au soleil du matin, après la pluie. Source : Wikimedia Commons
+@ img/tatry-pleso-rano.jpg | Les Tatras au loin, dans la lumière du petit matin. Source : Wikimedia Commons, Jakub Hałun, CC BY-SA 4.0
 
 {{fr:Le matin, l'orage est parti. Il y a de l'eau partout. Tu es content. Andrea, beaucoup moins.}}
 

@@ -1,6 +1,6 @@
 # Baňa (extra) — Pri tajchu
 
-@ img/tajch-vecer.jpg | Un lac de forêt au coucher du soleil. Source : Wikimedia Commons
+@ img/tajch-vecer.jpg | Un petit lac au milieu de la forêt, vu d'en haut. Source : Wikimedia Commons, Robertgomez87, CC BY-SA 4.0
 
 {{fr:Le soir, au bord du lac. Les écureuils font leurs bagages. Ján part demain. Il a encore beaucoup de choses à dire, et un conseil pour Bratislava. Andrea, elle, laisse échapper une phrase sur sa mère.}}
 
