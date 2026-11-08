@@ -1,6 +1,6 @@
 # Série Rozhodnutie (1/5) — Zase ráno
 
-@ img/vyhasnuty-ohen-rano.jpg | Un feu de camp éteint, le matin, dans les collines. Source : Wikimedia Commons, Joshua Tree National Park, Public domain
+@ https://commons.wikimedia.org/wiki/Special:FilePath/Campfire_scar_08319.JPG?width=800 | La trace d'un feu de camp éteint sur le sol de la forêt. Source : Wikimedia Commons, Walter Siegmund, CC BY-SA 3.0
 
 %: Vers l'ouest (emplacement indicatif)
 % 48.3069, 18.0864 | {{Nitra}} | z10

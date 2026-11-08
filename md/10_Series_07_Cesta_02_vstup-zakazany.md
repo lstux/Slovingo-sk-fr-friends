@@ -1,6 +1,6 @@
 # Série Cesta (2/5) — Vstup zakázaný
 
-@ img/plot-stavenisko.jpg | Un panneau d'accès interdit sur une palissade de travaux. Source : Wikimedia Commons, Tdorante10, CC BY-SA 4.0
+@ https://commons.wikimedia.org/wiki/Special:FilePath/L%C3%A1nsk%C3%A1_obora-z%C3%A1kaz_vstupu.jpg?width=800 | Un panneau « zákaz vstupu » à l'entrée de la réserve forestière de Lány, en Tchéquie. Source : Wikimedia Commons, auteur à vérifier, licence à vérifier
 
 {{fr:Dans la forêt, il y a du bruit. Des moteurs. Puis une clôture, avec un panneau très clair. Enfin, clair pour tout le monde sauf Katka. On apprend à dire ce que quelque chose veut dire.}}
 
@@ -104,6 +104,8 @@
 ## 🇸🇰 Coin slovaque
 
 {{fr:Sur les chantiers slovaques, le panneau}} {{Vstup zakázaný}} {{fr:est partout, souvent avec}} {{Nepovolaným vstup zakázaný}}{{fr:, « Entrée interdite aux personnes non autorisées ». Un mot très long pour dire « non ».}}
+
+{{fr:La photo de la fiche vient de Tchéquie, et le panneau parle tchèque. Les deux langues se comprennent sans peine, mais elles ne l'écrivent pas tout à fait pareil. « Interdiction d'entrer » se dit}} {{zákaz vstupu}} {{fr:dans les deux. Pour « entrée interdite », le slovaque dit}} {{vstup zakázaný}}{{fr:, et le tchèque « vstup zakázán », avec une forme courte que le slovaque n'utilise plus.}}
 
 {{fr:Le mot}} {{bager}} {{fr:vient de l'allemand « Bagger ». Beaucoup de mots de chantier slovaques viennent de l'allemand.}}
 

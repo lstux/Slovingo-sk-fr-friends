@@ -1,6 +1,6 @@
 # Série Povodeň (3/5) — Voda stúpa
 
-@ img/zaplavena-dedina.jpg | Une maison inondée jusqu'au toit. Source : Wikimedia Commons, वर्षा देशपांडे, CC BY-SA 4.0
+@ https://commons.wikimedia.org/wiki/Special:FilePath/Ostrava,_Svinov,_povode%C5%88,_15.9.2024_-_Brat%C5%99%C3%AD_Sedl%C3%A1%C4%8Dk%C5%AF.jpg?width=800 | Une rue inondée à Ostrava, en Tchéquie, pendant les crues de septembre 2024. Source : Wikimedia Commons, Kamil Czaiński, licence à vérifier
 
 {{fr:Le village est au bord de la rivière. Enfin, de ce qui était une rivière. L'eau monte, et une niche flotte, vide. On apprend la différence entre « monte » et « va monter ».}}
 
