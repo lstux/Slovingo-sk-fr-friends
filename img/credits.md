@@ -21,6 +21,7 @@ Faites d'après `docs/Prompts-illustrations.md`, avec les planches de personnage
 | `10_Series_02_Sucho_05_fontana.md` | `illus_02_sucho.jpg` | [Spievajúca fontána, Košice, 2026 (5).jpg](https://commons.wikimedia.org/wiki/File:Spievaj%C3%BAca_font%C3%A1na,_Ko%C5%A1ice,_2026_(5).jpg), Antimuonium | CC BY-SA 4.0 (œuvre dérivée) |
 | `10_Series_03_Raj_05_roklina.md` | `illus_03_raj.jpg` | [Slovensky raj, Sucha Bela, 03.jpg](https://commons.wikimedia.org/wiki/File:Slovensky_raj,_Sucha_Bela,_03.jpg), dariusz wozniak | CC BY-SA 3.0 (œuvre dérivée) |
 | `10_Series_04_Burka_05_spis.md` | `illus_04_burka.jpg` | [Teryho chata I.jpg](https://commons.wikimedia.org/wiki/File:Teryho_chata_I.jpg), Kristo | CC BY-SA 3.0 (œuvre dérivée) |
+| `10_Series_05_Domov_05_ked-som-bol-maly.md` | `illus_05_domov.jpg` | Illustration générée avec ChatGPT, sans photo de référence | Image générée (pas de photo source) |
 
 ## Images de style (bandeaux de thème)
 

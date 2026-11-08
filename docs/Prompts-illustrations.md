@@ -22,7 +22,7 @@ Une illustration par série, pour la **fiche 05** (le moment fort de l'épisode)
 | 🦊 | Le renard (toi, « Gab ») | renard roux, 15 ans, garçon ; sweat à capuche bleu roi, sac à dos aux bretelles jaunes, jean bleu marine, baskets blanches |
 | 🐰 | Andrea | hase (un vrai lièvre, pas une lapine), 16 ans ; pelage gris-brun moucheté, fine bande claire du front au museau, très longues oreilles dressées à pointe noire, longues pattes fines ; T-shirt vert menthe, sacoche jaune en bandoulière, short en jean, baskets rouges |
 | 🐻 | Maťo | ours brun, 14 ans, très grand et massif, doux ; chemise à carreaux vert et brun ouverte sur un T-shirt gris, short cargo |
-| 🐹 | Katka | marmotte des Alpes, 13 ans, petite (à l'épaule du renard) ; pelage gris-brun, petites oreilles rondes, incisives visibles, queue courte et touffue ; sweat violet, écouteurs autour du cou, téléphone toujours à la main |
+| 🐹 | Katka | marmotte des Alpes, 13 ans, petite (à l'épaule du renard) ; pelage gris-brun, petites oreilles rondes, incisives visibles, queue courte et touffue ; sweat violet, écouteurs autour du cou, téléphone souvent à la main, ou posé près d'elle (sur la table, sur le banc) |
 | 🐑 | Babka Zuzana | brebis âgée, laine blanche, petites lunettes rondes ; costume traditionnel : foulard rouge à fleurs, gilet noir brodé, chemise blanche brodée, tablier blanc, jupe rouge |
 | 🦡 | Marek | blaireau adulte ; gilet de travail bleu marine avec un badge, chemise claire |
 | 🐿️ | Ján | écureuil roux, ado, très vif, parle avec les mains ; T-shirt orange, casquette bleue à l'envers |
@@ -146,7 +146,7 @@ Scene: Night, inside the dark wooden kitchen of a mountain hut high in the Tatra
 Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. Any humans are drawn in the same simple cartoon style as the animals: simplified shapes, flat colours, few details on faces and hair, no realistic or semi-realistic faces. Soft, painterly background with few small details, so the characters stand out, but the place stays recognisable. Landscape format. No text, no letters, no logos, no watermark.
 ```
 
-## 05 Domov — Babka raconte
+## 05 Domov — Babka raconte ✅ faite le 8 novembre (ChatGPT, avec les deux planches, sans photo)
 
 Fiche `10_Series_05_Domov_05_ked-som-bol-maly.md` → `img/illus_05_domov.jpg`
 

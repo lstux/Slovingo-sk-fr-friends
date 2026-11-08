@@ -1,6 +1,6 @@
 # Série Domov (5/5) — Keď som bol malý
 
-@ img/drevenica-vecer.jpg | Une cuisine de maison de village, le soir, avec une table. Source : Wikimedia Commons
+@ img/illus_05_domov.jpg | Après le repas, Babka raconte comment c'était avant, et chacun écoute à sa façon. Source : illustration générée avec ChatGPT
 
 {{fr:Après le repas, Babka raconte. Comment c'était avant, quand il y avait de l'eau tout l'été et de la neige jusqu'aux fenêtres. Chacun a ses souvenirs. Et Katka, elle, a son téléphone.}}
 
