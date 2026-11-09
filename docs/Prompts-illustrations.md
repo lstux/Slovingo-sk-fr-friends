@@ -196,7 +196,7 @@ Scene: A flooded street in a small Slovak village in the Liptov valley, in heavy
 Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. Any humans are drawn in the same simple cartoon style as the animals: simplified shapes, flat colours, few details on faces and hair, no realistic or semi-realistic faces. Soft, painterly background with few small details, so the characters stand out, but the place stays recognisable. Landscape format. No text, no letters, no logos, no watermark.
 ```
 
-## 07 Cesta — La route neuve
+## 07 Cesta — La route neuve ✅ faite le 9 novembre (ChatGPT, planche des héros + photo, visage de Maťo et sac à dos retouchés)
 
 Fiche `10_Series_07_Cesta_05_nova-cesta.md` → `img/illus_07_cesta.jpg`
 
