@@ -9,7 +9,8 @@
 3. **Les énigmes sont des exercices déguisés** : la grammaire de la série sert à avancer (négation, nombres, impératif, comparatifs…).
 4. **Se tromper est drôle, pas puni** : l'amende du contrôleur renvoie au début de la scène, avec une réplique drôle.
 5. **Un indice, jamais un blocage définitif.** Chapitres 1 à 4 : Andrea souffle (3 indices par chapitre : coup de pouce, direction, solution). À partir du chapitre 5 : le téléphone de Katka (batterie limitée). Au chapitre 11, la batterie meurt : plus d'indices, jusqu'à ce qu'on la recharge (énigme de l'histoire).
-6. **Un chapitre** = 2 ou 3 décors, un objectif, un dialogue à réussir, une énigme d'objets, un objet qui sert plus tard. 10 à 15 minutes.
+6. **Règle des décors** : chaque décor a au moins un objet à trouver, une énigme ou un dialogue qui débloque quelque chose. Pas de scène où l'on ne fait que regarder.
+7. **Un chapitre** = 2 ou 3 décors, un objectif, un dialogue à réussir, une énigme d'objets, un objet qui sert plus tard. 10 à 15 minutes.
 
 ## 2. Verbes et interface
 
@@ -37,7 +38,7 @@
 ## 4. Chapitre 1 : Košice
 
 **Grammaire** : *som / si*, *rád / rada*, nombres (les âges).
-**Mots** : *električka, označovač, revízor, lístok, katedrála, rok (cinq ans), kamarát, záhrada, jabloň*.
+**Mots** : *električka, označovač, revízor, lístok, katedrála, rok (cinq ans), kamarát, kľúč, kvetináč, pod, bránka, záhrada, jabloň*.
 
 ### Décor 1 : le tram (déjà fait)
 - Valider le ticket au composteur, puis le contrôle (prototype existant : 3 choix de répliques).
@@ -45,7 +46,9 @@
 - **Nouveau** : par la fenêtre, la cathédrale Sainte-Élisabeth (zone cliquable, mot *katedrála*).
 
 ### Décor 2 : la rue, devant l'arrêt
-- **Quête** : retrouver le chemin de la maison de la tante en parlant avec Andrea. Sujets disponibles selon les mots appris : *Tatry, Katka, Maťo, škola, teta*.
+- **Quête** : entrer dans le jardin de la tante sans passer par la porte. Sujets disponibles selon les mots appris : *Tatry, Katka, Maťo, škola, teta*.
+- **Énigme d'objets** : Andrea dit *Kľúč je pod kvetináčom* (la clé est sous le pot de fleurs). Plusieurs pots devant la maison : Gab doit comprendre *pod* (sous), regarder sous le bon pot et ramasser la **clé du portillon**, qui ouvre le jardin. Un mauvais pot : une réplique drôle (un escargot, un chat).
+- **Mots** : *kľúč, kvetináč, pod, portillon (bránka)*.
 - **Énigme de dialogue** : « Tu te souviens ? » Andrea teste Gab sur les âges (Katka 13, Maťo 14, Andrea 16, Gab 15). Mauvaises réponses : réactions drôles. Bonne réponse : elle sourit.
 - **Gag de renard** : Gab bavarde sans s'arrêter. Une jauge discrète d'Andrea (« les renards, ça parle ») ; si on laisse tout dire, un pop-up comique, sans pénalité.
 
@@ -53,23 +56,29 @@
 - **Objectif** : arriver sous le pommier sans réveiller la tante.
 - **Énigme d'objets** : la fenêtre de la tante est éclairée. Andrea chuchote *Pssst... zostaň tu* (reste ici) ; Gab doit attendre que la lumière s'éteigne (clic sur la lampe du jardin, ou lancer un caillou sur la lampe, au choix). Objets à ramasser : un vieux sac, une couverture au séchoir.
 - **Fin du chapitre** : Gab s'allonge sous le pommier. Dialogue *Dobrú noc* (choix : bonne nuit / bonjour). Il regarde les étoiles. Le pommier revient à la fin du jeu (épilogue).
-- **Objet gardé pour plus tard** : la **couverture** (sert au chapitre 4, cuisine du refuge).
+- **Objets** : la clé du portillon (ouvre le jardin à l'arrivée, rangée ensuite) ; la **couverture**, gardée pour plus tard (chapitre 4, cuisine du refuge).
 
 **Changement d'histoire proposé** : aucun. Les trois décors collent aux scènes 1 à 6.
 
 ## 5. Chapitre 2 : Sucho
 
 **Grammaire** : *veľa / veľmi*, *chýba mi*.
-**Mots** : *voda, sucho, fontána, záhradník, zápisník, merať, lístok (billet / mot), pokladňa (guichet), rozpis (tableau des départs)*.
+**Mots** : *voda, sucho, smädný, dať, kačka, vydra, fontána, záhradník, zápisník, merať, lístok (billet / mot), pokladňa (guichet), rozpis (tableau des départs)*.
 
 ### Décor 1 : le jardin, le matin
 - Gab se réveille. Andrea donne un peu d'eau (**objet : la gourde**, presque vide). Le soleil est haut : indice du temps.
 - **Dialogue** : Andrea corrige *veľmi* / *veľa* si Gab se trompe (« je parle très beaucoup »). Pas une énigme mais le gag de la série, joué en choix de réponse.
+- **Objet** : la gourde (utile à l'étang).
 
-### Décor 2 : l'étang du parc
-- L'étang presque à sec. Les animaux silencieux. On peut les regarder (mots *nič, ticho, mokrý, suchý*).
-- **Énigme** : qui a pris l'eau ? Il n'y a pas de coupable, mais on collecte trois indices (traces d'un niveau d'eau, plantes jaunies, un chien qui halète). Ça fait avancer l'enquête et prépare le carnet.
+### Décor 2 : l'étang du parc (une vraie petite quête)
+- L'étang est presque à sec. Les animaux sont silencieux (mots *ticho, suchý, mokrý, smädný*).
+- **Quête** : un canard assoiffé est près de la vase. Il ne parle pas. Andrea a donné à Gab sa gourde presque vide (décor 1) : Gab peut **la lui donner** (*Pre teba, kačička* : l'objet sur le canard).
+- **Choix** : donner l'eau coûte la gourde. On ne peut plus boire, mais le canard parle : il a vu passer « une loutre avec des bottes jaunes » qui mesurait l'eau de l'étang, et elle est partie vers la fontaine du centre. Premier indice sur le carnet, avant de le trouver.
+- **Mots** : *dať (donner), kačka, vydra, merať, čižmy (bottes)*.
+- **Si on refuse de donner l'eau** : Andrea fait remarquer, sans pénalité, qu'on peut revenir (le canard attend).
 - Sortie vers le centre-ville.
+
+**Changement d'histoire** : une courte réplique en plus à l'étang (le canard et la loutre). Le reste du chapitre est inchangé.
 
 ### Décor 3 : la fontaine chantante (sèche)
 - Le jardinier (vouvoyé) : sujets *voda, Raj, rádio*.
@@ -82,7 +91,7 @@
 - **Guichet** : la dame demande la destination. Le joueur lit le tableau des départs (*rozpis*) pour trouver Spišská Nová Ves, puis choisit la phrase pour acheter deux billets.
 - **Objet** : le billet de train (sert au chapitre 3).
 
-**Changement d'histoire proposé** : ajouter la scène de l'étang (un indice, quelques répliques) pour donner une vraie quête au parc. Les dialogues des scènes 2 et 3 sont déjà dans le texte.
+**Changement d'histoire** : la courte réplique du canard à l'étang (voir décor 2). Les dialogues des scènes 2 et 3 sont déjà dans le texte.
 
 ## 6. Esquisse des chapitres 3 à 12 (à détailler après relecture)
 
@@ -115,12 +124,23 @@
 |---|---|---|
 | Décor | hall de la gare de Košice avec distributeur | prologue |
 | Décor | tram vide | **fait** |
-| Décor | rue devant l'arrêt (cathédrale au loin) | chapitre 1 |
+| Décor | rue devant l'arrêt, maison avec plusieurs pots de fleurs, portillon (cathédrale au loin) | chapitre 1 |
 | Décor | jardin de la tante, soir (lampe, fenêtre éclairée) | chapitre 1 ; variante « matin » pour le chapitre 2 |
-| Décor | étang du parc presque à sec | chapitre 2 |
+| Décor | étang du parc presque à sec, avec un canard assoiffé | chapitre 2 |
 | Décor | fontaine chantante à sec (sans personnages) | chapitre 2 |
 | Décor | gare, guichet, tableau des départs | chapitre 2 |
-| Personnages | le jardinier, le monsieur au sourire, la dame du guichet, la tante (silhouette ou dos), la voiture noire | pour le chapitre 2 (après la planche des nouveaux rôles pour le monsieur) |
-| Objets | lístok, lístok validé (faits), gourde, carnet, stylo et papier, billet de train, couverture | une planche d'objets |
+| Personnages | le canard assoiffé, le jardinier, le monsieur au sourire, la dame du guichet, la tante (silhouette ou dos), la voiture noire | pour le chapitre 2 (après la planche des nouveaux rôles pour le monsieur) |
+| Objets | lístok, lístok validé (faits), gourde, clé du portillon, carnet, stylo et papier, billet de train, couverture | une planche d'objets |
 
-Total : 6 décors à générer (+ 1 variante), 4 personnages, une planche d'objets : ~25 à 30 générations.
+Total : 6 décors à générer (+ 1 variante), 5 personnages, une planche d'objets : ~25 à 35 générations.
+
+## 9. Mots appris par chapitre (intro, 1 et 2)
+
+| Chapitre | Mots | Où ils servent |
+|---|---|---|
+| Intro | *lístok, električka, zastávka, prosím, jeden* | acheter le ticket au distributeur |
+| 1 Košice | *označovač, revízor, katedrála, rok, kamarát, kľúč, kvetináč, pod, bránka, záhrada, jabloň* | validation, quiz des âges, clé sous le pot, jardin |
+| 2 Sucho | *voda, sucho, smädný, dať, kačka, vydra, merať, čižmy, fontána, záhradník, zápisník, pokladňa, rozpis* | gourde au canard, carnet, mot et billets |
+
+*Ces mots sont aussi les sujets de conversation débloqués : on ne parle de la loutre qu'après avoir appris* vydra.
+
