@@ -25,6 +25,7 @@
 | ticho | le silence |
 | zachrániť svet | sauver le monde |
 | aby nás počuli | qu'on nous entende |
+| čítať | lire |
 
 ---
 
@@ -151,6 +152,29 @@
 > ako špongia = comme une éponge
 > Moje čísla to ukazujú = mes chiffres le montrent
 > A títo štyria to videli = et ces quatre-là l'ont vu
+
+! 🎙️ Pán hovorca, čítali ste tie čísla?
+> Monsieur le porte-parole, avez-vous lu ces chiffres ?
+> Pán hovorca = monsieur le porte-parole
+> čítali ste = avez-vous lu
+> tie čísla = ces chiffres
++ Mot nouveau signalé : {{čítať}} = lire. {{čítali ste}} = vous avez lu.
+
+! 🕴️ Nie. Mne povedali, že je to v poriadku.
+> Non. On m'a dit que c'était en ordre.
+> Nie = non
+> Mne povedali = on m'a dit
+> že je to v poriadku = que c'est en ordre
+
+! 🦦 A vy ste sa nepýtali?
+> Et vous n'avez pas demandé ?
+> A vy = et vous
+> ste sa nepýtali = vous n'avez pas demandé
+
+! 🕴️ ... Nie.
+> ... Non.
+> Nie = non
++ À écouter : un long silence avant le « non ». C'est le moment où il ne sourit plus.
 
 ! 💬 Pán hovorca sa stále usmieva. Ale už nie tak veľmi.
 > Le porte-parole sourit toujours. Mais beaucoup moins.

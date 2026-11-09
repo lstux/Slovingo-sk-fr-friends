@@ -79,6 +79,8 @@
 | dobrodružstvo | l'aventure (nouveau) |
 | špongia | l'éponge (nouveau) |
 | držia | ils retiennent (nouveau) |
+| za to môže | c'est de sa faute |
+| celkom | tout à fait |
 
 ---
 
@@ -149,6 +151,20 @@
 > Et après, il n'y a plus d'éponge.
 > A potom = et après
 > už nie je špongia = il n'y a plus d'éponge
+
+! 🐹 Takže kto za to môže?
+> Alors, à qui la faute ?
+> Takže = alors
+> kto = qui
+> za to môže = est responsable de ça (c'est sa faute)
++ Mot nouveau signalé : {{za to môže}} = c'est de sa faute. {{Kto za to môže?}} = À qui la faute ?
+
+! 🐰 Každý trochu. Preto nikto celkom.
+> À chacun un peu. Donc à personne tout à fait.
+> Každý trochu = chacun un peu
+> Preto = c'est pour ça, donc
+> nikto celkom = personne tout à fait
++ Mot nouveau signalé : {{celkom}} = tout à fait, entièrement. À écouter : la réponse est courte et un peu glaçante.
 
 ! 🐻 Čo im povieme v televízii?
 > Qu'est-ce qu'on leur dira à la télévision ?

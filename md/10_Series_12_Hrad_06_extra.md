@@ -86,6 +86,7 @@
 | posunúť | décaler (nouveau) |
 | znova | de nouveau (nouveau) |
 | sľubovať | promettre (nouveau) |
+| čítať | lire |
 
 ---
 

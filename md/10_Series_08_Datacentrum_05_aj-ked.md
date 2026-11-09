@@ -23,6 +23,10 @@
 | jednoduché | simple |
 | skryť sa | se cacher |
 | stratila | elle a perdu |
+| mať pravdu | avoir raison |
+| kolegovia | les collègues |
+| inžinier | l'ingénieur |
+| iný | autre |
 
 ---
 
@@ -187,6 +191,33 @@
 > my = nous
 > Skôr ako ona = avant elle
 
+! 🧑 A ak má tá vydra pravdu?
+> Et si la loutre avait raison ?
+> A ak = et si
+> má tá vydra pravdu = la loutre a raison
++ Mot nouveau signalé : {{mať pravdu}} = avoir raison.
+
+! 🕴️ Mne povedali, že je všetko v poriadku.
+> On m'a dit que tout allait bien.
+> Mne povedali = on m'a dit
+> že je všetko v poriadku = que tout est en ordre
++ Pour comprendre : {{mne}} = à moi. Le monsieur se défausse : « on m'a dit ».
+
+! 🧑 Kto vám to povedal?
+> Qui vous l'a dit ?
+> Kto = qui
+> vám to povedal = vous l'a dit
++ Pour comprendre : {{vám}} = à vous.
+
+! 🕴️ Kolegovia. Tí to počuli od inžinierov. Ja sa nepýtam. Ja len hovorím.
+> Des collègues. Eux l'ont entendu des ingénieurs. Moi, je ne demande pas. Je parle, c'est tout.
+> Kolegovia = des collègues
+> Tí to počuli = eux l'ont entendu
+> od inžinierov = des ingénieurs
+> Ja sa nepýtam = moi, je ne demande pas
+> Ja len hovorím = moi, je parle seulement
++ Mot nouveau signalé : {{kolegovia}} = des collègues, {{inžinier}} = un ingénieur. À écouter : il répète « ja », il se lave les mains.
+
 ! 💬 Pán v obleku sa usmeje a odíde. [USER_NAME] drží batoh pevne.
 > Le monsieur en costume sourit et s'en va. [USER_NAME] serre son sac à dos.
 > Pán v obleku sa usmeje = le monsieur en costume sourit
@@ -207,6 +238,14 @@
 > Maintenant, c'est le nôtre.
 > Teraz = maintenant
 > je náš = c'est le nôtre
+
+! 🐰 Počuli ste? Každý to počul od niekoho iného. A nikto sa nepýtal.
+> Vous avez entendu ? Chacun l'a entendu de quelqu'un d'autre. Et personne n'a posé la question.
+> Počuli ste = vous avez entendu
+> Každý to počul = chacun l'a entendu
+> od niekoho iného = de quelqu'un d'autre
+> A nikto sa nepýtal = et personne n'a demandé
++ Mot nouveau signalé : {{iný}} = autre. C'est la phrase clé de l'épisode : personne ne vérifie.
 
 ---
 

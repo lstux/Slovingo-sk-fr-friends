@@ -80,6 +80,10 @@
 | skryť sa | se cacher |
 | stratila | elle a perdu |
 | chcem, aby | je veux que (nouveau) |
+| mať pravdu | avoir raison |
+| kolegovia | les collègues |
+| inžinier | l'ingénieur |
+| iný | autre |
 
 ---
 
