@@ -91,13 +91,11 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 ## Scène 5
 
-💬 Gab se tait un moment. Puis il se met à parler. Et il ne s'arrête plus.
+💬 Gab se met à parler. Il parle de Lyon, du train, de Košice, du tram et de son ticket.
 
 🦊 Ça fait cinq ans que je n'ai parlé slovaque avec personne.
 
 🦊 Il faut que je parle. Sinon, j'oublie.
-
-💬 Il parle de Lyon, du train, de Košice, du tram et de son ticket.
 
 🦊 Košice, c'est super ! Le tram, c'est super ! Et mon ticket, c'est super !
 
@@ -195,13 +193,15 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 ## Scène 2
 
-💬 Ils vont au parc. Gab dit à voix haute tout ce qu'il voit : pommier, arbre, banc, chien, nuage... Il s'entraîne.
+💬 Ils vont au parc. Gab parle de tout : du pommier, de la tante, de Lyon, du tram, du temps qu'il fait...
 
-🦊 Un chien. Un grand chien. Un très grand chien. Un banc. Un banc vide...
+🦊 Un pommier. Un arbre. Un banc. Un chien. Un grand chien. Un très grand chien...
 
 🐰 Tu parles beaucoup.
 
-🦊 Je m'entraîne. Je parle très, je suis renardesque, compliqué...
+🦊 Je m'entraîne.
+
+🦊 Je parle très, je suis renardesque, compliqué...
 
 🐰 Je comprends ce que tu veux dire. Mais ce qu'il faut dire, c'est : « je parle beaucoup ».
 
@@ -269,6 +269,22 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🐰 Elle est vide.
 
+💬 Près de la fontaine, un jardinier est là.
+
+🧑 Bonjour. Vous cherchez de l'eau ?
+
+🦊 Bonjour. Oui, nous cherchons de l'eau.
+
+🧑 Désolé. Ici, il n'y a plus d'eau. Nulle part en ville.
+
+🐰 Et ailleurs ?
+
+🧑 À l'ouest, dans le Paradis slovaque, il y en a encore. Ils l'ont dit à la radio.
+
+🦊 Merci.
+
+🧑 Bonne chance.
+
 💬 Au fond de la fontaine, il y a quelque chose de petit et de bleu. Gab saute dedans.
 
 🦊 Regarde ce que j'ai trouvé ! Un carnet.
@@ -277,17 +293,13 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🦊 Des chiffres. Des dates. Et des dessins de la fontaine. « Mesure de l'eau. Košice. » Et une signature : Dr. V.
 
-🐰 Quelqu'un mesure l'eau. Pourquoi ?
+🧑 Ce carnet, je le connais. Il est à madame la docteure Vydrová. C'est une loutre. Avant-hier, elle a mesuré la fontaine.
 
-💬 Près de la fontaine, un jardinier est là.
+🦊 Et où est-elle maintenant ?
 
-🧑 Bonjour. Ce carnet, je le connais. C'est celui de madame la docteure Vydrová. C'est une loutre. Avant-hier, elle a mesuré la fontaine.
+🧑 Elle est partie vers l'ouest. Elle cherche de l'eau. Comme vous.
 
-🦊 Bonjour. Et où est-elle maintenant ?
-
-🧑 Je ne sais pas. Elle est partie vers l'ouest. Elle cherche de l'eau. Comme vous.
-
-🐰 Regarde, la dernière page : « Prochaine mesure : Paradis slovaque, Suchá Belá. »
+🐰 Regarde, la dernière page : « Prochaine mesure : Paradis slovaque. »
 
 🦊 Le Paradis slovaque ! C'est là qu'on va, nous aussi !
 
@@ -437,21 +449,25 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🦅 Bonjour. Vous allez où ?
 
-🦊 Bonjour. Nous cherchons de l'eau. Et une loutre.
+🦊 Bonjour. Nous cherchons de l'eau.
 
-🦅 Madame la docteure Vydrová ? Elle était là hier. Elle a mesuré le ruisseau.
-
-🐰 Et qu'est-ce qu'elle a trouvé ?
-
-🦅 Qu'ici aussi, il y a moins d'eau que l'an dernier. Les ruisseaux s'assèchent.
+🦅 Ici aussi, il y a moins d'eau que l'an dernier. Les ruisseaux s'assèchent.
 
 🐰 Moins que l'an dernier ? Qu'est-ce qui se passe ?
 
-🦅 Je ne sais pas. Mais elle, elle veut le savoir. Elle a laissé quelque chose. Pour celui qui trouverait son carnet.
+🦅 Je ne sais pas. Dans les Tatras, il paraît qu'il pleut. Ici, non.
+
+🐰 Il pleut dans les Tatras ?
+
+🦅 Oui. En montagne, le temps est différent. Si vous voulez de l'eau, allez là-bas.
+
+🦊 Et vous n'avez pas vu une loutre ? Avec un carnet ?
+
+🦅 Madame la docteure Vydrová ? Elle était là hier. Elle a mesuré le ruisseau. Elle a laissé quelque chose. Pour celui qui trouverait son carnet.
 
 💬 Pán Orol leur tend un papier. C'est une page du carnet.
 
-🦊 « Pour la personne qui l'a trouvé. Merci ! Dans les Tatras, il pleut. Je vais mesurer près du refuge Téry. Dr. V. »
+🦊 « Pour la personne qui l'a trouvé. Merci ! Je vais mesurer dans les Tatras, près du refuge Téry. Dr. V. »
 
 🦅 Autre chose. Hier, un monsieur en costume m'a posé des questions sur elle. Il souriait beaucoup.
 
@@ -621,17 +637,17 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🦊 Peut-être que ça va redevenir normal.
 
-🐰 Peut-être.
+🐰 Peut-être. Viens. On va au village.
+
+🦊 À ce village-là ?
+
+🐰 Oui. C'est là qu'on s'est connus, Gab.
 
 💬 Gab ouvre le carnet. Sur la page suivante, il y a une petite carte : un ruisseau, un pont, un magasin et un pré.
 
-🦊 Regarde. Prochaine mesure : « Le ruisseau sous les Tatras. » Tu connais ?
+🦊 Regarde. Prochaine mesure : « Le ruisseau sous les Tatras. »
 
-🐰 Oui. C'est notre village.
-
-🦊 Ce village-là ?
-
-🐰 Oui. C'est là qu'on s'est connus, Gab.
+🐰 Notre ruisseau. Tu vois ? On va dans la bonne direction.
 
 ---
 
@@ -795,7 +811,9 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🐻 Babka dit que vous allez dans le Liptov.
 
-🐰 Le carnet dit que oui. On suit l'eau. Ou la loutre.
+🐰 Je ne sais pas encore. Je vais là où il y a de l'eau. Ou là où il n'y en a pas.
+
+🐹 Le carnet, lui, sait. Le carnet dit : le Liptov.
 
 🐹 Je viens avec vous.
 
@@ -1339,11 +1357,9 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 ## Scène 3
 
-💬 Devant la grille, il y a une grande enseigne : « Datacentre Zelená vlna ».
+💬 Devant la grille, il y a une grande enseigne : « Datacentre Zelená vlna ». Du bâtiment sort un blaireau en gilet bleu.
 
 🐹 Zelená vlna. Encore eux.
-
-💬 Du bâtiment sort un blaireau en gilet bleu.
 
 🦡 Bonjour. Vous cherchez quelqu'un ?
 
@@ -1491,7 +1507,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🦡 Alors je croiserai les doigts pour vous, et je regarderai autre chose.
 
-🦡 Et encore ceci.
+🦡 Attendez. J'ai quelque chose pour vous.
 
 💬 Marek leur tend un papier. Il y a des chiffres dessus.
 
@@ -1501,7 +1517,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🦡 Parce que j'ai quatre enfants. Et je veux qu'un jour, ils voient des grenouilles.
 
-🦡 Et en chemin, passez par Banská Štiavnica. Il y a de vieux lacs. Là-bas, il y a encore de l'eau. Et la loutre voulait y faire des mesures.
+🦡 Et encore une chose. En chemin, passez par Banská Štiavnica. Il y a de vieux lacs. Là-bas, il y a encore de l'eau.
 
 🐻 Merci, Marek.
 
@@ -1681,7 +1697,11 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🐿️ Merci. C'est la plus belle chose qu'une marmotte m'ait jamais dite.
 
-💬 Ján se lève et leur tend un papier. Il est un peu froissé.
+💬 Ján se lève et leur tend un petit papier avec une adresse.
+
+🐿️ Et aussi ça.
+
+💬 Ján sort un papier de son sac à dos. Il est un peu froissé.
 
 🐿️ De la voiture noire. La fenêtre était ouverte. Les écureuils savent prendre des choses.
 
@@ -1835,7 +1855,9 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 ## Scène 6
 
-💬 Le matin. Tout le monde est assis devant le petit-déjeuner. Sur la couverture, il y a toutes les pages du carnet. Katka les pose les unes à côté des autres.
+💬 Le matin. Tout le monde est assis devant le petit-déjeuner. Gab tient son téléphone à la main.
+
+💬 Sur la couverture, il y a toutes les pages du carnet. Katka les pose les unes à côté des autres.
 
 🐹 Košice : la fontaine, vide. Le Paradis : le ruisseau, moins que l'an dernier. Les Tatras : l'orage. Le village : le ruisseau, chaque année plus petit. Le Liptov : l'inondation. Le datacentre : l'eau de la rivière. Štiavnica : les tajchy.
 
@@ -1848,8 +1870,6 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 🐰 Personne n'est méchant. Chacun prend juste un morceau de l'éponge.
 
 🐻 Et après, il n'y a plus d'éponge.
-
-💬 Gab tient son téléphone à la main.
 
 🐻 Qu'est-ce qu'on leur dira à la télévision ?
 

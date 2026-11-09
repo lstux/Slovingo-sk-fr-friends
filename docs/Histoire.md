@@ -112,13 +112,11 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 ## Scéna 5
 
-💬 Gab chvíľu mlčí. Potom začne rozprávať. A už neprestane.
+💬 Gab začne rozprávať. Rozpráva o Lyone, o vlaku, o Košiciach, o električke a o svojom lístku.
 
 🦊 Päť rokov som nehovoril po slovensky. S nikým.
 
 🦊 Musím hovoriť. Inak zabudnem.
-
-💬 Rozpráva o Lyone, o vlaku, o Košiciach, o električke a o svojom lístku.
 
 🦊 Košice sú super! Električka je super! A môj lístok je super!
 
@@ -216,13 +214,15 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 ## Scéna 2
 
-💬 Idú do parku. Gab hovorí nahlas všetko, čo vidí: jabloň, strom, lavička, pes, oblak... Cvičí.
+💬 Idú do parku. Gab rozpráva o všetkom: o jabloni, o tete, o Lyone, o električke, o počasí...
 
-🦊 Pes. Veľký pes. Veľmi veľký pes. Lavička. Prázdna lavička...
+🦊 Jabloň. Strom. Lavička. Pes. Veľký pes. Veľmi veľký pes...
 
 🐰 Ty veľa hovoríš.
 
-🦊 Cvičím. Veľmi hovorím, som líškasky, komplikovaný...
+🦊 Cvičím.
+
+🦊 Veľmi hovorím, som líškasky, komplikovaný...
 
 🐰 Rozumiem, čo chceš povedať. Ale správne je: veľa hovorím.
 
@@ -288,6 +288,22 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🐰 Je prázdna.
 
+💬 Pri fontáne stojí záhradník.
+
+🧑 Dobrý deň. Hľadáte vodu?
+
+🦊 Dobrý deň. Áno, hľadáme vodu.
+
+🧑 Prepáčte. Tu už voda nie je. Nikde v meste.
+
+🐰 A inde?
+
+🧑 Na západe, v Slovenskom raji, ešte voda je. Hovorili to v rádiu.
+
+🦊 Ďakujeme.
+
+🧑 Veľa šťastia.
+
 💬 Na dne fontány leží niečo malé a modré. Gab skočí dnu.
 
 🦊 Pozri, čo som našiel! Zápisník.
@@ -296,17 +312,13 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🦊 Čísla. Dátumy. A kresby fontány. „Meranie vody. Košice.“ A podpis: Dr. V.
 
-🐰 Niekto meria vodu. Prečo?
+🧑 Ten zápisník poznám. Je pani doktorky Vydrovej. Je to vydra. Predvčerom tu merala fontánu.
 
-💬 Pri fontáne stojí záhradník.
+🦊 A kde je teraz?
 
-🧑 Dobrý deň. Ten zápisník poznám. Je to zápisník pani doktorky Vydrovej. Je to vydra. Predvčerom tu merala fontánu.
+🧑 Odišla na západ. Hľadá vodu. Ako vy.
 
-🦊 Dobrý deň. A kde je teraz?
-
-🧑 Neviem. Odišla na západ. Hľadá vodu. Ako vy.
-
-🐰 Pozri, posledná strana: „Ďalšie meranie: Slovenský raj, Suchá Belá.“
+🐰 Pozri, posledná strana: „Ďalšie meranie: Slovenský raj.“
 
 🦊 Slovenský raj! Tam ideme aj my!
 
@@ -454,21 +466,25 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🦅 Dobrý deň. Kam idete?
 
-🦊 Dobrý deň. Hľadáme vodu. A jednu vydru.
+🦊 Dobrý deň. Hľadáme vodu.
 
-🦅 Doktorku Vydrovú? Bola tu včera. Merala potok.
-
-🐰 A čo zistila?
-
-🦅 Že aj tu je vody menej ako vlani. Potoky vysychajú.
+🦅 Aj tu je vody menej ako vlani. Potoky vysychajú.
 
 🐰 Menej ako vlani? Čo sa deje?
 
-🦅 Neviem. Ale ona to chce zistiť. Nechala tu niečo. Pre toho, kto nájde jej zápisník.
+🦅 Neviem. V Tatrách vraj prší. Tu nie.
+
+🐰 V Tatrách prší?
+
+🦅 Áno. V horách je počasie iné. Ak chcete vodu, choďte tam.
+
+🦊 A nevideli ste tu jednu vydru? So zápisníkom?
+
+🦅 Doktorku Vydrovú? Bola tu včera. Merala potok. Nechala tu niečo. Pre toho, kto nájde jej zápisník.
 
 💬 Pán Orol im podá papier. Je to strana zo zápisníka.
 
-🦊 „Pre nálezcu. Ďakujem! V Tatrách prší. Idem merať k Téryho chate. Dr. V.“
+🦊 „Pre nálezcu. Ďakujem! Idem merať do Tatier, k Téryho chate. Dr. V.“
 
 🦅 Ešte niečo. Včera sa na ňu pýtal jeden pán v obleku. Veľmi sa usmieval.
 
@@ -638,17 +654,17 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🦊 Možno sa to vráti do normálu.
 
-🐰 Možno.
-
-💬 Gab otvorí zápisník. Na ďalšej strane je malá mapa: potok, most, obchod a lúka.
-
-🦊 Pozri. Ďalšie meranie: „Potok pod Tatrami.“ Poznáš to?
-
-🐰 Poznám. To je naša dedina.
+🐰 Možno. Poď. Ideme do dediny.
 
 🦊 Do tej dediny?
 
 🐰 Áno. Tam sme sa spoznali, Gab.
+
+💬 Gab otvorí zápisník. Na ďalšej strane je malá mapa: potok, most, obchod a lúka.
+
+🦊 Pozri. Ďalšie meranie: „Potok pod Tatrami.“
+
+🐰 Náš potok. Tak vidíš. Ideme správne.
 
 ---
 
@@ -810,7 +826,9 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🐻 Babka povedala, že idete do Liptova.
 
-🐰 Zápisník hovorí, že áno. Ideme za vodou. Alebo za vydrou.
+🐰 Ešte neviem. Idem tam, kde je voda. Alebo tam, kde nie je.
+
+🐹 Zápisník vie. Zápisník hovorí: Liptov.
 
 🐹 Idem s vami.
 
@@ -1352,11 +1370,9 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 ## Scéna 3
 
-💬 Pred bránou je veľký nápis: „Datacentrum Zelená vlna“.
+💬 Pred bránou je veľký nápis: „Datacentrum Zelená vlna“. Z budovy vychádza jazvec v modrej veste.
 
 🐹 Zelená vlna. Zase oni.
-
-💬 Z budovy vychádza jazvec v modrej veste.
 
 🦡 Dobrý deň. Hľadáte niekoho?
 
@@ -1502,7 +1518,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🦡 Tak vám budem držať palce a pozerať niečo iné.
 
-🦡 A ešte toto.
+🦡 Počkajte. Mám pre vás niečo.
 
 💬 Marek im podá papier. Sú na ňom čísla.
 
@@ -1512,7 +1528,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🦡 Lebo mám štyri deti. A chcem, aby raz videli žaby.
 
-🦡 A cestou choďte cez Banskú Štiavnicu. Sú tam staré jazerá. Tam ešte voda je. A vydra tam chcela merať.
+🦡 A ešte niečo. Cestou choďte cez Banskú Štiavnicu. Sú tam staré jazerá. Tam ešte voda je.
 
 🐻 Ďakujeme, Marek.
 
@@ -1692,7 +1708,11 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🐿️ Ďakujem. To je to najkrajšie, čo mi povedal svišť.
 
-💬 Ján vstane a podá im papier. Je trochu pokrčený.
+💬 Ján vstane a podá im lístok s adresou.
+
+🐿️ A ešte toto.
+
+💬 Ján vytiahne z ruksaku papier. Je trochu pokrčený.
 
 🐿️ Z čierneho auta. Okno bolo otvorené. Veveričky vedia brať veci.
 
@@ -1846,7 +1866,9 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 ## Scéna 6
 
-💬 Ráno. Všetci sedia pri raňajkách. Na deke ležia všetky strany zo zápisníka. Katka ich ukladá vedľa seba.
+💬 Ráno. Všetci sedia pri raňajkách. Gab drží telefón v ruke.
+
+💬 Na deke ležia všetky strany zo zápisníka. Katka ich ukladá vedľa seba.
 
 🐹 Košice: fontána, prázdna. Raj: potok, menej ako vlani. Tatry: búrka. Dedina: potok, každý rok menší. Liptov: povodeň. Datacentrum: voda z rieky. Štiavnica: tajchy.
 
@@ -1859,8 +1881,6 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 🐰 Nikto nie je zlý. Len každý zoberie kúsok špongie.
 
 🐻 A potom už nie je špongia.
-
-💬 Gab drží telefón v ruke.
 
 🐻 Čo im povieme v televízii?
 
