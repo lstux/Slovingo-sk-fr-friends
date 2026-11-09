@@ -19,6 +19,8 @@
 | skoro | presque |
 | u mojej tety | chez ma tante |
 | pravda | vrai, la vérité |
+| zabudnem | j'oublie |
+| s nikým | avec personne |
 
 ---
 
@@ -40,6 +42,21 @@
 > o vlaku = du train
 > o svojom lístku = de son ticket
 + Pour comprendre : {{rozprávať}} = parler, raconter. Après {{o}} (« de, au sujet de »), les noms changent un peu à la fin, comme après {{v}}.
+
+! 🦊 Päť rokov som nehovoril po slovensky. S nikým.
+> Ça fait cinq ans que je n'ai parlé slovaque avec personne.
+> Päť rokov = cinq ans
+> som nehovoril = je n'ai pas parlé
+> po slovensky = en slovaque
+> S nikým = avec personne
++ À écouter : {{som nehovoril}} = je n'ai pas parlé (un garçon). Mot nouveau signalé : {{s nikým}} = avec personne.
+
+! 🦊 Musím hovoriť. Inak zabudnem.
+> Il faut que je parle. Sinon, j'oublie.
+> Musím hovoriť = je dois parler
+> Inak = sinon
+> zabudnem = j'oublie
++ Mot nouveau signalé : {{zabudnem}} = j'oublie. Pour comprendre : {{musím}} = je dois.
 
 ! 🦊 Košice sú super! Električka je super! A môj lístok je super!
 > Košice, c'est super ! Le tram, c'est super ! Et mon ticket, c'est super !

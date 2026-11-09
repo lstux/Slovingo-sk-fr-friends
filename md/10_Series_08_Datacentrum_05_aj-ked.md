@@ -21,6 +21,12 @@
 | čestná | honnête |
 | je to jedno | c'est pareil, ça ne change rien |
 | jednoduché | simple |
+| skryť sa | se cacher |
+| stratila | elle a perdu |
+| mať pravdu | avoir raison |
+| kolegovia | les collègues |
+| inžinier | l'ingénieur |
+| iný | autre |
 
 ---
 
@@ -32,6 +38,8 @@
 - 🐻 Maťo, un ours de quatorze ans, le cousin d'Andrea
 - 🐹 Katka, une marmotte de treize ans, la sœur de Maťo
 - 🦡 Marek, un blaireau, technicien du datacentre : on le vouvoie
+- 🕴️ Le monsieur au sourire, porte-parole de Zelená vlna : on le vouvoie
+- 🧑 Le directeur du datacentre
 
 ---
 
@@ -140,6 +148,104 @@
 > päť kilometrov odtiaľto = à cinq kilomètres d'ici
 > je malé jazierko = il y a un petit étang
 > Možno sú tam = elles y sont peut-être
+
+! 💬 Zrazu sa otvoria dvere. Do haly vojde riaditeľ. A s ním pán v obleku.
+> Soudain, la porte s'ouvre. Le directeur entre dans la salle. Et avec lui, le monsieur en costume.
+> Zrazu = soudain
+> sa otvoria dvere = la porte s'ouvre
+> Do haly vojde riaditeľ = le directeur entre dans la salle
+> A s ním = et avec lui
+> pán v obleku = le monsieur en costume
++ Pour comprendre : {{zrazu}} = soudain, {{riaditeľ}} = le directeur.
+
+! 🦡 Rýchlo! Za skrinky!
+> Vite ! Derrière les armoires !
+> Rýchlo = vite
+> Za skrinky = derrière les armoires
+
+! 💬 Všetci sa skryjú. Maťo sa skrýva najhoršie.
+> Tout le monde se cache. Maťo est celui qui se cache le plus mal.
+> Všetci sa skryjú = tout le monde se cache
+> Maťo sa skrýva = Maťo se cache
+> najhoršie = le plus mal
++ Mot nouveau signalé : {{skryť sa}} = se cacher. Un ours derrière une armoire, ça dépasse.
+
+! 🕴️ Tá vydra má zápisník s číslami. Ak s ním príde do televízie, bude panika.
+> Cette loutre a un carnet avec des chiffres. Si elle va à la télévision avec, ce sera la panique.
+> Tá vydra = cette loutre
+> má zápisník s číslami = a un carnet avec des chiffres
+> Ak s ním príde = si elle vient avec
+> do televízie = à la télévision
+> bude panika = ce sera la panique
+
+! 🧑 Ten zápisník stratila. V Košiciach.
+> Elle l'a perdu, ce carnet. À Košice.
+> Ten zápisník = ce carnet
+> stratila = elle l'a perdu
+> V Košiciach = à Košice
++ Mot nouveau signalé : {{stratila}} = elle a perdu.
+
+! 🕴️ Tak ho musíme nájsť my. Skôr ako ona.
+> Alors c'est nous qui devons le trouver. Avant elle.
+> Tak ho musíme nájsť = alors nous devons le trouver
+> my = nous
+> Skôr ako ona = avant elle
+
+! 🧑 A ak má tá vydra pravdu?
+> Et si la loutre avait raison ?
+> A ak = et si
+> má tá vydra pravdu = la loutre a raison
++ Mot nouveau signalé : {{mať pravdu}} = avoir raison.
+
+! 🕴️ Mne povedali, že je všetko v poriadku.
+> On m'a dit que tout allait bien.
+> Mne povedali = on m'a dit
+> že je všetko v poriadku = que tout est en ordre
++ Pour comprendre : {{mne}} = à moi. Le monsieur se défausse : « on m'a dit ».
+
+! 🧑 Kto vám to povedal?
+> Qui vous l'a dit ?
+> Kto = qui
+> vám to povedal = vous l'a dit
++ Pour comprendre : {{vám}} = à vous.
+
+! 🕴️ Kolegovia. Tí to počuli od inžinierov. Ja sa nepýtam. Ja len hovorím.
+> Des collègues. Eux l'ont entendu des ingénieurs. Moi, je ne demande pas. Je parle, c'est tout.
+> Kolegovia = des collègues
+> Tí to počuli = eux l'ont entendu
+> od inžinierov = des ingénieurs
+> Ja sa nepýtam = moi, je ne demande pas
+> Ja len hovorím = moi, je parle seulement
++ Mot nouveau signalé : {{kolegovia}} = des collègues, {{inžinier}} = un ingénieur. À écouter : il répète « ja », il se lave les mains.
+
+! 💬 Pán v obleku sa usmeje a odíde. [USER_NAME] drží batoh pevne.
+> Le monsieur en costume sourit et s'en va. [USER_NAME] serre son sac à dos.
+> Pán v obleku sa usmeje = le monsieur en costume sourit
+> a odíde = et s'en va
+> [USER_NAME] drží batoh pevne = [USER_NAME] tient fort son sac à dos
+
+! 🐹 Oni hľadajú náš zápisník.
+> Ils cherchent notre carnet.
+> Oni hľadajú = ils cherchent
+> náš zápisník = notre carnet
+
+! 🐻 Jej zápisník.
+> Son carnet à elle.
+> Jej zápisník = son carnet (à elle)
++ {{jej}} = à elle. Maťo est très à cheval sur la propriété.
+
+! 🐹 Teraz je náš.
+> Maintenant, c'est le nôtre.
+> Teraz = maintenant
+> je náš = c'est le nôtre
+
+! 🐰 Počuli ste? Každý to počul od niekoho iného. A nikto sa nepýtal.
+> Vous avez entendu ? Chacun l'a entendu de quelqu'un d'autre. Et personne n'a posé la question.
+> Počuli ste = vous avez entendu
+> Každý to počul = chacun l'a entendu
+> od niekoho iného = de quelqu'un d'autre
+> A nikto sa nepýtal = et personne n'a demandé
++ Mot nouveau signalé : {{iný}} = autre. C'est la phrase clé de l'épisode : personne ne vérifie.
 
 ---
 

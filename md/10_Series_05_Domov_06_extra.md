@@ -81,6 +81,8 @@
 | dôležité | important (nouveau) |
 | Zabudni! | Oublie ! (nouveau) |
 | domov | à la maison, chez soi (nouveau) |
+| pred tromi dňami | il y a trois jours |
+| obálka | l'enveloppe |
 
 ---
 
@@ -117,6 +119,12 @@
 > Idem tam = je vais là
 > kde je voda = où il y a de l'eau
 > Alebo tam, kde nie je = ou là où il n'y en a pas
+
+! 🐹 Zápisník vie. Zápisník hovorí: Liptov.
+> Le carnet, lui, sait. Le carnet dit : le Liptov.
+> Zápisník vie = le carnet sait
+> Zápisník hovorí = le carnet dit
+> Liptov = le Liptov
 
 ! 🐹 Idem s vami.
 > Je viens avec vous.

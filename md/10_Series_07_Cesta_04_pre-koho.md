@@ -108,6 +108,24 @@
 > Ľudia v kanceláriách = les gens dans les bureaux
 > Ja len staviam = moi, je construis seulement
 
+! 🐹 A kto platí?
+> Et qui paie ?
+> A kto = et qui
+> platí = paie
++ Pour comprendre : {{platiť}} = payer.
+
+! 🧑 Skupina Zelená vlna. Stavajú cesty, budovy, všetko.
+> Le groupe Zelená vlna. Ils construisent des routes, des bâtiments, tout.
+> Skupina Zelená vlna = le groupe Zelená vlna
+> Stavajú cesty = ils construisent des routes
+> budovy = des bâtiments
+> všetko = tout
+
+! 🐹 Zelená vlna! Tá z televízie!
+> Zelená vlna ! Ceux de la télé !
+> Zelená vlna = Zelená vlna
+> Tá z televízie = celle de la télévision
+
 ---
 
 ## 🇸🇰 Coin slovaque

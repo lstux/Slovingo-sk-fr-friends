@@ -226,6 +226,38 @@
         "najprv sucho",
         "a potom povodeň?"
       ]
+    },
+    {
+      "id": "qcm-obalka",
+      "type": "qcm",
+      "l1": "l'enveloppe",
+      "l2": "obálka",
+      "choices_l1": [
+        "le carnet",
+        "la page",
+        "le magasin"
+      ],
+      "choices_l2": [
+        "zápisník",
+        "strana",
+        "obchod"
+      ]
+    },
+    {
+      "id": "qcm-pred-tromi-dnami",
+      "type": "qcm",
+      "l1": "il y a trois jours",
+      "l2": "pred tromi dňami",
+      "choices_l1": [
+        "hier",
+        "trois fois",
+        "chaque année"
+      ],
+      "choices_l2": [
+        "včera",
+        "trikrát",
+        "každý rok"
+      ]
     }
   ]
 }

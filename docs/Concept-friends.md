@@ -84,6 +84,8 @@ Et il est capable de dire — réplique à conserver **texto** dans le cours :
 
 C'est probablement la réplique qui le résume le mieux : ironique, tendre, jamais cynique. La fin du monde est prise avec légèreté, mais partagée quand même. Il garde aussi un côté très attachant et spontané de son enfance.
 
+**Pourquoi il parle autant** : il n'a parlé slovaque avec personne depuis les Tatras. Il a peur d'oublier, alors il dit tout à voix haute, il commente ce qu'il voit, il « rattrape » cinq ans. Les piques d'Andrea (« les renards, ça parle beaucoup ») viennent de là. Et quand ça compte vraiment (ch. 10, près du feu), il se tait : « Un chasseur se tait. Toi, jamais. »
+
 **Son fil rouge** : il sait qu'il est là **pour un temps limité** et qu'il devra retourner à Lyon. Plus l'histoire avance, plus il a **peur de perdre Andrea de vue** une seconde fois (§9).
 
 > *Dans Kids, le renard est l'apprenant lui-même : prénom saisi par l'élève, genre jamais précisé, aucune forme genrée. Il dit « Mám desať rokov », il a une sœur et un papa « grand et fort », il dit « Bývam v nore ». Dans Friends, il reste « toi » mais devient un personnage à personnalité marquée et à **genre fixé** (masculin), parce que le slovaque accorde le passé, le conditionnel et beaucoup d'adjectifs. Le prénom saisi par l'élève ne change donc jamais le genre du personnage.*
@@ -154,6 +156,8 @@ Ils ne rejoignent pas la bande : on les croise à l'occasion d'un épisode.
 
 **🦔 Pani Ježková** (hérisson, commerçante du village, **vouvoyée**) et **🦅 Pán Orol** (aigle, gardien du parc national, **vouvoyé**) viennent de Kids. Ils peuvent faire de **brèves apparitions** (par exemple le gardien du parc pendant la sécheresse) tant que ça ne tombe pas comme un cheveu sur la soupe. Ils sont de bons supports pour le *vy* et pour des clins d'œil.
 
+**🦦 Doktorka Vydrová** (loutre, hydrologue, adulte, **vouvoyée**) est le fil de l'enquête (voir `Intrigue-jeu.md`). Elle mesure l'eau à travers le pays et a toujours un jour d'avance ; Gab trouve son carnet dans la fontaine de Košice (ch. 2), et la bande suit ses pages jusqu'au château, où elle est l'experte invitée (ch. 12). Elle a les chiffres, eux sont les témoins.
+
 > *Ján et Marek n'existent pas dans Kids : ce sont des personnages nouveaux. Leurs prénoms existent dans le cours adulte, mais ce sont ici des personnages différents, sans lien à faire.*
 
 ## 3.7 Les humains
@@ -164,6 +168,8 @@ Il n'y a **aucun humain dans Kids**. Dans Friends, ils existaient « hors champ 
 - Ils sont **vouvoyés** par les ados (*vy*).
 - Seuls les animaux principaux ont un prénom : les humains sont désignés par leur **fonction** (*vodič*, *úradníčka*, *redaktorka*…).
 - Ils sont assez rares : on ne les croise que lorsque l'histoire le demande.
+
+**🕴️ Le monsieur au sourire** est l'exception qui fait un petit « méchant » : porte-parole du groupe **Zelená vlna** (qui finance la route, le datacentre et la mine), il répète que « la situation est sous contrôle » et veut récupérer le carnet de la loutre avant elle. Il reste léger et comique (un sourire, un costume, une voiture noire), jamais dangereux, et il n'est pas la cause de tout : la route, le datacentre et la mine gardent leurs défenseurs honnêtes (chef de chantier, Marek, mineur). Il repart simplement « sans sourire » après le direct. **Sa psychologie :** il ne ment pas vraiment et n'est pas cynique. On lui a dit « pas de problème », il ne cherche pas plus loin parce qu'au fond il sent que ça ne va pas et n'a pas le courage de vérifier (« Moi, je ne demande pas. Je parle, c'est tout. »). Il illustre le thème de la responsabilité diluée : chacun a entendu « tout va bien » de quelqu'un d'autre, personne n'a posé la question, donc personne n'est responsable du tout. Ça rejoint l'éponge (chacun prend un morceau, « à chacun un peu, donc à personne tout à fait »).
 
 Voir aussi la règle des animaux parlants (§4).
 

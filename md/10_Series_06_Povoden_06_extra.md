@@ -81,6 +81,10 @@
 | by mal | devrait (nouveau) |
 | Ani ja. | Moi non plus. (nouveau) |
 | spolu | ensemble (nouveau) |
+| pod kontrolou | sous contrôle (nouveau) |
+| dôvod | la raison (nouveau) |
+| hovorca | le porte-parole (nouveau) |
+| zistím | je vais découvrir (nouveau) |
 
 ---
 
@@ -93,6 +97,7 @@
 - 🐹 Katka, une marmotte de treize ans, la sœur de Maťo
 - 🦊🦺 Une jeune renarde bénévole : on la vouvoie
 - 🧑 La directrice de l'école : une adulte, on la vouvoie
+- 🕴️ Le monsieur au sourire, à la télévision : on le vouvoie
 
 ---
 
@@ -226,6 +231,47 @@
 > Po chvíli = après un moment
 > sedia všetci pri polievke = tout le monde est assis devant la soupe
 > Vonku prší = dehors, il pleut
+
+! 💬 Na stene telocvične visí televízor. V správach hovorí pán v obleku. Usmieva sa.
+> Au mur du gymnase, il y a une télévision. Aux infos, un monsieur en costume parle. Il sourit.
+> Na stene telocvične = au mur du gymnase
+> visí televízor = est accrochée une télévision
+> V správach = aux infos
+> hovorí pán v obleku = un monsieur en costume parle
+> Usmieva sa = il sourit
+
+! 🕴️ Situácia je pod kontrolou. Nie je dôvod na paniku.
+> La situation est sous contrôle. Il n'y a aucune raison de paniquer.
+> Situácia je = la situation est
+> pod kontrolou = sous contrôle
+> Nie je dôvod = il n'y a pas de raison
+> na paniku = de paniquer
++ Mot nouveau signalé : {{pod kontrolou}} = sous contrôle, {{dôvod}} = la raison. La phrase préférée de ce monsieur.
+
+! 🐰 To je on. Pán s úsmevom.
+> C'est lui. Le monsieur au sourire.
+> To je on = c'est lui
+> Pán s úsmevom = le monsieur au sourire
+
+! 🐹 Pod ním je napísané: „hovorca skupiny Zelená vlna“.
+> En dessous, c'est écrit : « porte-parole du groupe Zelená vlna ».
+> Pod ním = sous lui
+> je napísané = c'est écrit
+> hovorca = le porte-parole
+> skupiny Zelená vlna = du groupe Zelená vlna
++ Mot nouveau signalé : {{hovorca}} = le porte-parole (de {{hovoriť}}, parler). {{Zelená vlna}} = « la vague verte ».
+
+! 🦊 Pod kontrolou? Tak prečo sme takí mokrí?
+> Sous contrôle ? Alors pourquoi on est aussi mouillés ?
+> Pod kontrolou = sous contrôle
+> Tak prečo = alors pourquoi
+> sme takí mokrí = on est aussi mouillés
+
+! 🐹 Zelená vlna. Neviem, čo to je. Ale zistím to.
+> Zelená vlna. Je ne sais pas ce que c'est. Mais je vais le découvrir.
+> Neviem, čo to je = je ne sais pas ce que c'est
+> Ale zistím to = mais je vais le découvrir
++ Mot nouveau signalé : {{zistím}} = je vais découvrir, je vais trouver.
 
 ! 🐹 Dva mesiace sucho. A potom toto. Čo sa to s tým svetom deje?
 > Deux mois de sécheresse. Et ensuite ça. Mais qu'est-ce qui arrive à ce monde ?

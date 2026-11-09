@@ -94,6 +94,21 @@
 ! 🦡 Aj tak.
 > Quand même.
 
+! 🐰 Bola tu aj vydra? Doktorka Vydrová?
+> Une loutre est passée ici aussi ? Madame la docteure Vydrová ?
+> Bola tu aj vydra = une loutre était ici aussi
+> Doktorka Vydrová = madame la docteure Vydrová
+
+! 🦡 Bola. Chcela vedieť, koľko vody berieme z rieky. Nedali sme jej čísla. Šéf povedal nie.
+> Oui. Elle voulait savoir combien d'eau on prend dans la rivière. On ne lui a pas donné les chiffres. Le chef a dit non.
+> Bola = elle est venue
+> Chcela vedieť = elle voulait savoir
+> koľko vody berieme = combien d'eau on prend
+> z rieky = dans la rivière
+> Nedali sme jej čísla = on ne lui a pas donné les chiffres
+> Šéf povedal nie = le chef a dit non
++ Pour comprendre : {{berieme}} = nous prenons.
+
 ---
 
 ## 🇸🇰 Coin slovaque

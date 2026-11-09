@@ -76,6 +76,7 @@
 | jablká | des pommes (nouveau) |
 | veriť | croire, faire confiance (nouveau) |
 | okrem | sauf (nouveau) |
+| nálezca | celui qui trouve |
 
 ---
 

@@ -77,6 +77,10 @@
 | ostatní | les autres (nouveau) |
 | neskôr | plus tard (nouveau) |
 | dobrodružstvo | l'aventure (nouveau) |
+| špongia | l'éponge (nouveau) |
+| držia | ils retiennent (nouveau) |
+| za to môže | c'est de sa faute |
+| celkom | tout à fait |
 
 ---
 
@@ -97,6 +101,70 @@
 > Všetci sedia pri raňajkách = tout le monde est assis au petit-déjeuner
 > drží telefón v ruke = tient le téléphone à la main
 + Mot nouveau signalé : {{raňajky}} = le petit-déjeuner (un mot pluriel).
+
+! 💬 Na deke ležia všetky strany zo zápisníka. Katka ich ukladá vedľa seba.
+> Sur la couverture, il y a toutes les pages du carnet. Katka les pose les unes à côté des autres.
+> Na deke ležia = sur la couverture sont posées
+> všetky strany zo zápisníka = toutes les pages du carnet
+> Katka ich ukladá = Katka les pose
+> vedľa seba = les unes à côté des autres
+
+! 🐹 Košice: fontána, prázdna. Raj: potok, menej ako vlani. Tatry: búrka. Dedina: potok, každý rok menší. Liptov: povodeň. Datacentrum: voda z rieky. Štiavnica: tajchy.
+> Košice : la fontaine, vide. Le Paradis : le ruisseau, moins que l'an dernier. Les Tatras : l'orage. Le village : le ruisseau, chaque année plus petit. Le Liptov : l'inondation. Le datacentre : l'eau de la rivière. Štiavnica : les tajchy.
+> fontána, prázdna = la fontaine, vide
+> potok, menej ako vlani = le ruisseau, moins que l'an dernier
+> búrka = l'orage
+> potok, každý rok menší = le ruisseau, chaque année plus petit
+> povodeň = l'inondation
+> voda z rieky = l'eau de la rivière
++ Tout le voyage en une réplique. Tu reconnais chaque mot ?
+
+! 🐻 A čo z toho?
+> Et alors ?
+> A čo z toho = et qu'est-ce qu'on en tire ?
+
+! 🐹 Vzadu je jedna veta. Prečítam: „Les a mokrade držia vodu ako špongia. Keď ich nie je, voda nezostane. Najprv príde sucho, potom povodeň.“
+> Au dos, il y a une phrase. Je lis : « Les forêts et les zones humides retiennent l'eau comme une éponge. Quand elles ne sont plus là, l'eau ne reste pas. D'abord vient la sécheresse, puis l'inondation. »
+> Vzadu je jedna veta = au dos, il y a une phrase
+> Prečítam = je lis
+> Les a mokrade = la forêt et les zones humides
+> držia vodu ako špongia = retiennent l'eau comme une éponge
+> Keď ich nie je = quand il n'y en a pas
+> voda nezostane = l'eau ne reste pas
+> Najprv príde sucho, potom povodeň = d'abord vient la sécheresse, puis l'inondation
++ Mot nouveau signalé : {{špongia}} = l'éponge, {{držia}} = ils retiennent.
+
+! 🦊 To je to „prečo“. To, čo nehovorili v rádiu.
+> C'est ça, le « pourquoi ». Ce qu'ils ne disaient pas à la radio.
+> To je to prečo = c'est ça, le pourquoi
+> To, čo nehovorili = ce qu'ils ne disaient pas
+> v rádiu = à la radio
+
+! 🐰 Nikto nie je zlý. Len každý zoberie kúsok špongie.
+> Personne n'est méchant. Chacun prend juste un morceau de l'éponge.
+> Nikto nie je zlý = personne n'est méchant
+> Len každý zoberie = chacun prend seulement
+> kúsok špongie = un morceau d'éponge
++ Pour comprendre : {{kúsok}} = un petit morceau.
+
+! 🐻 A potom už nie je špongia.
+> Et après, il n'y a plus d'éponge.
+> A potom = et après
+> už nie je špongia = il n'y a plus d'éponge
+
+! 🐹 Takže kto za to môže?
+> Alors, à qui la faute ?
+> Takže = alors
+> kto = qui
+> za to môže = est responsable de ça (c'est sa faute)
++ Mot nouveau signalé : {{za to môže}} = c'est de sa faute. {{Kto za to môže?}} = À qui la faute ?
+
+! 🐰 Každý trochu. Preto nikto celkom.
+> À chacun un peu. Donc à personne tout à fait.
+> Každý trochu = chacun un peu
+> Preto = c'est pour ça, donc
+> nikto celkom = personne tout à fait
++ Mot nouveau signalé : {{celkom}} = tout à fait, entièrement. À écouter : la réponse est courte et un peu glaçante.
 
 ! 🐻 Čo im povieme v televízii?
 > Qu'est-ce qu'on leur dira à la télévision ?
@@ -157,6 +225,16 @@
 ! 🐹 Dobre. To si zapíšem.
 > D'accord. Je le note.
 > To si zapíšem = je le note
+
+! 🐰 A zápisník?
+> Et le carnet ?
+> A zápisník = et le carnet
+
+! 🐹 Ten nie je náš. Musíme nájsť doktorku Vydrovú.
+> Il n'est pas à nous. Il faut qu'on trouve madame la docteure Vydrová.
+> Ten nie je náš = celui-là n'est pas à nous
+> Musíme nájsť = nous devons trouver
+> doktorku Vydrovú = madame la docteure Vydrová
 
 ! 🦊 Mám ešte jednu vec.
 > J'ai encore une chose.

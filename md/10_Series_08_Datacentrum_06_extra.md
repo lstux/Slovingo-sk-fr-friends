@@ -77,6 +77,13 @@
 | usmievať sa | sourire (nouveau) |
 | rada | le conseil (nouveau) |
 | držať palce | croiser les doigts (tenir les pouces) (nouveau) |
+| skryť sa | se cacher |
+| stratila | elle a perdu |
+| chcem, aby | je veux que (nouveau) |
+| mať pravdu | avoir raison |
+| kolegovia | les collègues |
+| inžinier | l'ingénieur |
+| iný | autre |
 
 ---
 
@@ -205,6 +212,35 @@
 > vám budem držať palce = je vous tiendrai les pouces
 > a pozerať niečo iné = et je regarderai autre chose
 + Mot nouveau signalé : {{držať palce}} = mot à mot « tenir les pouces » : c'est le « croiser les doigts » slovaque.
+
+! 🦡 Počkajte. Mám pre vás niečo.
+> Attendez. J'ai quelque chose pour vous.
+> Počkajte = attendez
+> Mám pre vás niečo = j'ai quelque chose pour vous
+
+! 💬 Marek im podá papier. Sú na ňom čísla.
+> Marek leur tend un papier. Il y a des chiffres dessus.
+> Marek im podá papier = Marek leur tend un papier
+> Sú na ňom čísla = il y a des chiffres dessus
+
+! 🦡 Koľko vody berieme z rieky. Každý deň. Pre zápisník doktorky Vydrovej.
+> Combien d'eau on prend dans la rivière. Chaque jour. Pour le carnet de madame la docteure Vydrová.
+> Koľko vody berieme = combien d'eau nous prenons
+> z rieky = dans la rivière
+> Každý deň = chaque jour
+> Pre zápisník doktorky Vydrovej = pour le carnet de madame la docteure Vydrová
+
+! 🐰 Prečo nám to dávate?
+> Pourquoi vous nous donnez ça ?
+> Prečo = pourquoi
+> nám to dávate = vous nous donnez ça
+
+! 🦡 Lebo mám štyri deti. A chcem, aby raz videli žaby.
+> Parce que j'ai quatre enfants. Et je veux qu'un jour, ils voient des grenouilles.
+> Lebo mám štyri deti = parce que j'ai quatre enfants
+> A chcem, aby = et je veux que
+> raz videli žaby = un jour ils voient des grenouilles
++ Mot nouveau signalé : {{chcem, aby}} = je veux que.
 
 ! 🦡 A ešte niečo. Cestou choďte cez Banskú Štiavnicu. Sú tam staré jazerá. Tam ešte voda je.
 > Et encore une chose. En chemin, passez par Banská Štiavnica. Il y a de vieux lacs. Là-bas, il y a encore de l'eau.

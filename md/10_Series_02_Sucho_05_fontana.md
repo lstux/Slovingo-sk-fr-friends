@@ -2,7 +2,7 @@
 
 @ img/illus_02_sucho.jpg | La fontaine chantante, devant le théâtre de Košice… qui ne chante plus. Source : illustration générée avec ChatGPT, d'après une photo d'Antimuonium (Wikimedia Commons, CC BY-SA 4.0)
 
-{{fr:Dernière chance en ville : la fontaine de la rue principale. Tu vas rencontrer ton premier adulte humain, et ça se corse : il faut le vouvoyer.}}
+{{fr:Dernière chance en ville : la fontaine de la rue principale. Et au fond de la fontaine, une surprise. Tu vas rencontrer ton premier adulte humain, et ça se corse : il faut le vouvoyer.}}
 
 ---
 
@@ -18,6 +18,12 @@
 | nikde | nulle part |
 | v rádiu | à la radio |
 | Veľa šťastia! | Bonne chance ! |
+| zápisník | le carnet |
+| meranie | la mesure |
+| vydra | la loutre |
+| strana | la page |
+| ďalšie | suivant, prochain |
+| klameš | tu mens |
 
 ---
 
@@ -27,6 +33,7 @@
 - 🦊 Toi, un garçon de quinze ans, de Lyon
 - 🐰 Andrea, une hase de seize ans, ton amie
 - 🧑 Un jardinier de la ville : un adulte, on le vouvoie
+- 🕴️ Un monsieur en costume, qui sourit beaucoup : un adulte, on le vouvoie
 
 ---
 
@@ -101,6 +108,148 @@
 > Bonne chance.
 > Veľa šťastia = bonne chance
 + Mot à mot : « beaucoup de bonheur ». Et c'est bien {{veľa}} : c'est une quantité de chance !
+
+! 💬 Na dne fontány leží niečo malé a modré. [USER_NAME] skočí dnu.
+> Au fond de la fontaine, il y a quelque chose de petit et de bleu. [USER_NAME] saute dedans.
+> Na dne fontány = au fond de la fontaine
+> leží = est posé
+> niečo malé a modré = quelque chose de petit et de bleu
+> [USER_NAME] skočí dnu = [USER_NAME] saute dedans
++ Pour comprendre : {{na dne}} = au fond, {{skočí}} = il saute.
+
+! 🦊 Pozri, čo som našiel! Zápisník.
+> Regarde ce que j'ai trouvé ! Un carnet.
+> Pozri = regarde
+> čo som našiel = ce que j'ai trouvé
+> Zápisník = un carnet
++ Mot nouveau signalé : {{zápisník}} = le carnet. À écouter : {{našiel som}} = j'ai trouvé.
+
+! 🐰 Čo je v ňom?
+> Qu'est-ce qu'il y a dedans ?
+> Čo je = qu'est-ce qu'il y a
+> v ňom = dedans
+
+! 🦊 Čísla. Dátumy. A kresby fontány. „Meranie vody. Košice.“ A podpis: Dr. V.
+> Des chiffres. Des dates. Et des dessins de la fontaine. « Mesure de l'eau. Košice. » Et une signature : Dr. V.
+> Čísla = des chiffres
+> Dátumy = des dates
+> A kresby fontány = et des dessins de la fontaine
+> Meranie vody = mesure de l'eau
+> A podpis = et une signature
++ Mot nouveau signalé : {{meranie}} = la mesure. Pour comprendre : {{kresby}} = des dessins, {{podpis}} = la signature.
+
+! 🧑 Ten zápisník poznám. Je pani doktorky Vydrovej. Je to vydra. Predvčerom tu merala fontánu.
+> Ce carnet, je le connais. Il est à madame la docteure Vydrová. C'est une loutre. Avant-hier, elle a mesuré la fontaine.
+> Ten zápisník poznám = ce carnet, je le connais
+> Je pani doktorky Vydrovej = il est à madame la docteure Vydrová
+> Je to vydra = c'est une loutre
+> Predvčerom = avant-hier
+> tu merala fontánu = elle a mesuré la fontaine ici
++ Mot nouveau signalé : {{vydra}} = la loutre. À écouter : {{merala}} = elle a mesuré. Pour comprendre : {{predvčerom}} = avant-hier. Son nom, {{Vydrová}}, vient de {{vydra}} !
+
+! 🦊 A kde je teraz?
+> Et où est-elle maintenant ?
+> A kde je = et où est-elle
+> teraz = maintenant
+
+! 🧑 Odišla na západ. Hľadá vodu. Ako vy.
+> Elle est partie vers l'ouest. Elle cherche de l'eau. Comme vous.
+> Odišla = elle est partie
+> na západ = vers l'ouest
+> Hľadá vodu = elle cherche de l'eau
+> Ako vy = comme vous
++ À écouter : {{odišla}} = elle est partie.
+
+! 🐰 Pozri, posledná strana: „Ďalšie meranie: Slovenský raj.“
+> Regarde, la dernière page : « Prochaine mesure : Paradis slovaque. »
+> Pozri = regarde
+> posledná strana = la dernière page
+> Ďalšie meranie = prochaine mesure
+> Slovenský raj = le Paradis slovaque
++ Mot nouveau signalé : {{strana}} = la page, {{ďalšie}} = suivant, prochain.
+
+! 🦊 Slovenský raj! Tam ideme aj my!
+> Le Paradis slovaque ! C'est là qu'on va, nous aussi !
+> Slovenský raj = le Paradis slovaque
+> Tam ideme = c'est là qu'on va
+> aj my = nous aussi
+
+! 💬 Pri fontáne zastaví čierne auto. Vystúpi pán v obleku. Usmieva sa.
+> Une voiture noire s'arrête près de la fontaine. Un monsieur en costume descend. Il sourit.
+> Pri fontáne = près de la fontaine
+> zastaví čierne auto = une voiture noire s'arrête
+> Vystúpi = descend
+> pán v obleku = un monsieur en costume
+> Usmieva sa = il sourit
++ Pour comprendre : {{auto}} = la voiture, {{v obleku}} = en costume, {{usmieva sa}} = il sourit.
+
+! 🕴️ Dobrý deň. Nenašli ste tu modrý zápisník? Je môj.
+> Bonjour. Vous n'auriez pas trouvé un carnet bleu ? C'est le mien.
+> Dobrý deň = bonjour
+> Nenašli ste tu = vous n'avez pas trouvé ici
+> modrý zápisník = un carnet bleu
+> Je môj = c'est le mien
++ À écouter : {{nenašli ste}} = vous n'avez pas trouvé (avec {{vy}}).
+
+! 🧑 Váš? Myslel som, že je pani doktorky.
+> Le vôtre ? Je croyais qu'il était à madame la docteure.
+> Váš = le vôtre
+> Myslel som = je croyais
+> že je pani doktorky = qu'il est à madame la docteure
+
+! 🕴️ Je mojej kolegyne. To je to isté.
+> À ma collègue. C'est pareil.
+> Je mojej kolegyne = il est à ma collègue
+> To je to isté = c'est la même chose
++ Pour comprendre : {{kolegyňa}} = la collègue. {{To je to isté}} = c'est pareil.
+
+! 💬 [USER_NAME] rýchlo strčí zápisník do batoha.
+> [USER_NAME] fourre vite le carnet dans son sac à dos.
+> [USER_NAME] rýchlo strčí = [USER_NAME] fourre vite
+> zápisník = le carnet
+> do batoha = dans le sac à dos
++ Pour comprendre : {{strčí}} = il fourre, {{do batoha}} = dans le sac à dos.
+
+! 🐰 Nie. Nič sme nenašli. Dovidenia.
+> Non. Nous n'avons rien trouvé. Au revoir.
+> Nie = non
+> Nič sme nenašli = nous n'avons rien trouvé
+> Dovidenia = au revoir
++ Avec un adulte, on part sur {{Dovidenia}}. Même quand on ment.
+
+! 🕴️ Škoda. Pekný deň, deti.
+> Dommage. Bonne journée, les enfants.
+> Škoda = dommage
+> Pekný deň = bonne journée
+> deti = les enfants
+
+! 💬 Auto odíde.
+> La voiture s'en va.
+> Auto = la voiture
+> odíde = s'en va
+
+! 🦊 Andrea! Ty klameš!
+> Andrea ! Tu mens !
+> Andrea = Andrea
+> Ty klameš = tu mens
++ Mot nouveau signalé : {{klameš}} = tu mens.
+
+! 🐰 Áno. Ten pán sa veľmi usmieva. To sa mi nepáči.
+> Oui. Ce monsieur sourit beaucoup. Ça ne me plaît pas.
+> Áno = oui
+> Ten pán = ce monsieur
+> sa veľmi usmieva = sourit beaucoup
+> To sa mi nepáči = ça ne me plaît pas
++ Ici, c'est bien {{veľmi}} : il sourit « très fort », c'est une façon de sourire, pas une quantité.
+
+! 🦊 Prečo?
+> Pourquoi ?
+> Prečo = pourquoi
+
+! 🐰 Lebo.
+> Parce que.
+> Lebo = parce que
++ {{Lebo.}} tout seul, c'est la réponse de quelqu'un qui ne veut pas répondre. Comme « parce que » en français.
 
 ---
 

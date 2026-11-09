@@ -99,6 +99,22 @@
 > buďte opatrní = soyez prudents
 > Voda je silná = l'eau est forte
 
+! 🐰 Nevideli ste tu vydru? Doktorku Vydrovú?
+> Vous n'avez pas vu une loutre ? Madame la docteure Vydrová ?
+> Nevideli ste tu = vous n'avez pas vu ici
+> vydru = une loutre
+> Doktorku Vydrovú = madame la docteure Vydrová
+
+! 🧑 Videl. Pred dvoma dňami nás varovala, že príde povodeň. Nikto jej neveril. Ani ja.
+> Si. Il y a deux jours, elle nous a prévenus que l'inondation arrivait. Personne ne l'a crue. Moi non plus.
+> Videl = je l'ai vue
+> Pred dvoma dňami = il y a deux jours
+> nás varovala = elle nous a prévenus
+> že príde povodeň = que l'inondation arrive
+> Nikto jej neveril = personne ne l'a crue
+> Ani ja = moi non plus
++ Pour comprendre : {{varovala}} = elle a prévenu, {{neveril}} = n'a pas cru. {{Ani ja}} = moi non plus.
+
 ! 🐹 Môžem nosiť len ľahké veci?
 > Je peux ne porter que des choses légères ?
 > Môžem nosiť = je peux porter

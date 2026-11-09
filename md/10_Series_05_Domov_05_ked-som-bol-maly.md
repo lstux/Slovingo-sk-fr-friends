@@ -21,6 +21,8 @@
 | rieka | la rivière |
 | stúpa | monte |
 | povodeň | l'inondation |
+| pred tromi dňami | il y a trois jours |
+| obálka | l'enveloppe |
 
 ---
 
@@ -103,6 +105,66 @@
 > voda príde a voda odíde = l'eau vient et l'eau s'en va
 > takto som to ešte nevidela = je n'avais encore jamais vu ça
 + Mots nouveaux signalés : {{zmenšuje sa}} = il rétrécit ({{menší}} = plus petit), {{starý otec}} = le grand-père, mot à mot « le vieux père ».
+
+! 🐑 Aj vydra to hovorila. Doktorka Vydrová. Bola tu pred tromi dňami. Merala potok a zjedla dva taniere halušiek.
+> La loutre aussi le disait. Madame la docteure Vydrová. Elle est passée il y a trois jours. Elle a mesuré le ruisseau et elle a mangé deux assiettes de halušky.
+> Aj vydra to hovorila = la loutre aussi le disait
+> Bola tu = elle était ici
+> pred tromi dňami = il y a trois jours
+> Merala potok = elle a mesuré le ruisseau
+> a zjedla = et elle a mangé
+> dva taniere halušiek = deux assiettes de halušky
++ Mot nouveau signalé : {{pred tromi dňami}} = il y a trois jours. Pour comprendre : {{taniere}} = des assiettes.
+
+! 🦊 Bez bryndze?
+> Sans bryndza ?
+> Bez bryndze = sans bryndza
+
+! 🐑 Bez bryndze. Nechala tu obálku. Povedala, že príde líška s jej zápisníkom. Myslela som, že žartuje.
+> Sans bryndza. Elle a laissé une enveloppe. Elle a dit qu'un renard viendrait avec son carnet. J'ai cru qu'elle plaisantait.
+> Bez bryndze = sans bryndza
+> Nechala tu obálku = elle a laissé une enveloppe ici
+> Povedala, že = elle a dit que
+> príde líška = un renard viendra
+> s jej zápisníkom = avec son carnet
+> Myslela som, že žartuje = j'ai cru qu'elle plaisantait
++ Mot nouveau signalé : {{obálka}} = l'enveloppe. Babka dit {{líška}} : en slovaque, « renard » est un mot féminin.
+
+! 💬 Babka vytiahne z kredenca obálku. [USER_NAME] ju otvorí.
+> Babka sort une enveloppe du buffet. [USER_NAME] l'ouvre.
+> Babka vytiahne = Babka sort
+> z kredenca = du buffet
+> obálku = une enveloppe
+> [USER_NAME] ju otvorí = [USER_NAME] l'ouvre
++ Pour comprendre : {{kredenc}} = le buffet de cuisine.
+
+! 🦊 Ďalšia strana! „Potok: každý rok o desať centimetrov menej. Ďalšie meranie: Váh, Liptov.“
+> Une nouvelle page ! « Ruisseau : dix centimètres de moins chaque année. Prochaine mesure : le Váh, Liptov. »
+> Ďalšia strana = une page de plus
+> Potok = le ruisseau
+> každý rok = chaque année
+> o desať centimetrov menej = dix centimètres de moins
+> Ďalšie meranie = prochaine mesure
+
+! 🐑 A ešte niečo. Včera tu bol jeden pán v obleku. Veľmi milý. Veľmi sa usmieval. Chcel tú obálku.
+> Et autre chose. Hier, un monsieur en costume est venu. Très gentil. Il souriait beaucoup. Il voulait l'enveloppe.
+> A ešte niečo = et encore une chose
+> Včera tu bol = hier, il y avait ici
+> jeden pán v obleku = un monsieur en costume
+> Veľmi milý = très gentil
+> Veľmi sa usmieval = il souriait beaucoup
+> Chcel tú obálku = il voulait cette enveloppe
+
+! 🐰 A?
+> Et ?
+> A = et
+
+! 🐑 Nedala som mu ju. Nepáčili sa mi jeho topánky.
+> Je ne la lui ai pas donnée. Je n'aimais pas ses chaussures.
+> Nedala som mu ju = je ne la lui ai pas donnée
+> Nepáčili sa mi = ne me plaisaient pas
+> jeho topánky = ses chaussures
++ Pour comprendre : {{topánky}} = les chaussures. Babka juge les gens à leurs chaussures. C'est une méthode.
 
 ! 🐻 Tu bolo celé leto sucho. A včera v noci tak pršalo, že potok bol hnedý. Ovce nevedeli, čo robiť.
 > Ici, tout l'été a été sec. Et hier soir, il a tellement plu que le ruisseau était marron. Les moutons ne savaient plus quoi faire.

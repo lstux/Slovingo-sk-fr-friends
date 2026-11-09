@@ -84,6 +84,22 @@
 > ako rádio = que la radio
 + {{viac ako}} = plus que, {{menej ako}} = moins que.
 
+! 🐰 Bola tu doktorka Vydrová? Vydra so zápisníkom?
+> Madame la docteure Vydrová est passée ? Une loutre avec un carnet ?
+> Bola tu = elle était ici
+> doktorka Vydrová = madame la docteure Vydrová
+> Vydra = une loutre
+> so zápisníkom = avec un carnet
+
+! 🧑 Predvčerom. Merala jazero. Aj ona sa pýtala môjho kolena.
+> Avant-hier. Elle a mesuré le lac. Elle aussi, elle a demandé l'avis de mon genou.
+> Predvčerom = avant-hier
+> Merala jazero = elle a mesuré le lac
+> Aj ona = elle aussi
+> sa pýtala = a demandé
+> môjho kolena = à mon genou
++ Pour comprendre : {{predvčerom}} = avant-hier. À écouter : {{pýtala sa}} = elle a demandé.
+
 ! 🐰 Musíme ísť dolu?
 > On doit redescendre ?
 > Musíme = nous devons

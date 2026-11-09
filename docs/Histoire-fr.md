@@ -6,7 +6,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 ## Conventions
 
-- `🦊` Gab, `🐰` Andrea, `🐻` Maťo, `🐹` Katka, `🐑` Babka Zuzana, `🦔` madame Ježková, `🦡` Marek, `🐿️` Ján, `🐥` un canard, `🐭` une souris (ch. 6), `🦅` pán Orol (aigle, garde du parc), `🐇` la tante d'Andrea, `🦊🦺` la renarde bénévole (ch. 6), et pour l'équipe de la télévision : `📝` la rédactrice, `🎥` le cameraman, `💄` la maquilleuse, `🎙️` la présentatrice ; `🐑📱` Babka au téléphone. Le moteur lit tout ce qui suit l'émoji : jamais de « (fonction) » après l'avatar, `📻` la radio, `💬` le Narrateur, `🧑` un humain adulte (vouvoyé, désigné par sa fonction).
+- `🦊` Gab, `🐰` Andrea, `🐻` Maťo, `🐹` Katka, `🐑` Babka Zuzana, `🦔` madame Ježková, `🦡` Marek, `🐿️` Ján, `🐥` un canard, `🐭` une souris (ch. 6), `🦅` pán Orol (aigle, garde du parc), `🐇` la tante d'Andrea, `🦊🦺` la renarde bénévole (ch. 6), et pour l'équipe de la télévision : `📝` la rédactrice, `🎥` le cameraman, `💄` la maquilleuse, `🎙️` la présentatrice ; `🐑📱` Babka au téléphone. Le moteur lit tout ce qui suit l'émoji : jamais de « (fonction) » après l'avatar, `📻` la radio, `💬` le Narrateur, `🧑` un humain adulte (vouvoyé, désigné par sa fonction), `🦦` doktorka Vydrová (loutre hydrologue, vouvoyée), `🕴️` le monsieur au sourire (humain, porte-parole de Zelená vlna, vouvoyé).
 - **Tutoiement / vouvoiement** : le slovaque distingue *ty* et *vy* comme le français *tu* et *vous*, j'ai gardé la même répartition (ados et Babka Zuzana : tu ; adultes inconnus et humains : vous).
 - **Genre** : Gab est un garçon, Andrea une fille. En français, ça se voit aux accords (« content », « contente »).
 - Les noms propres ne sont pas traduits (Košice, Bratislava, Maťo, Katka…). Les lieux connus en français le sont : le Paradis slovaque (*Slovenský raj*), les Tatras (*Tatry*), le Danube (*Dunaj*), la cathédrale Sainte-Élisabeth.
@@ -15,7 +15,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 # Chapitre 1 — Košice
 
-*Résumé : un tram à Košice. Gab, 15 ans, retrouve par hasard Andrea, 16 ans, cinq ans après les Tatras. Elle le taquine sur les renards, il passe la nuit dans le jardin de sa tante (qui n'est pas au courant) et s'endort. Gags : « les renards parlent beaucoup, ils sont compliqués comme des extraterrestres » ; première note du fil rouge « temps limité » ; le rêve est planté sans insister.*
+*Résumé : un tram à Košice. Gab, 15 ans, retrouve par hasard Andrea, 16 ans, cinq ans après les Tatras. Elle le taquine sur les renards, il passe la nuit dans le jardin de sa tante (qui n'est pas au courant) et s'endort. Gags : « les renards parlent beaucoup, ils sont compliqués comme des extraterrestres » ; première note du fil rouge « temps limité » ; le rêve est planté sans insister. Gab parle autant parce qu'il n'a parlé slovaque avec personne depuis cinq ans : il rattrape, de peur d'oublier.*
 
 ## Scène 1
 
@@ -93,6 +93,10 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 💬 Gab se met à parler. Il parle de Lyon, du train, de Košice, du tram et de son ticket.
 
+🦊 Ça fait cinq ans que je n'ai parlé slovaque avec personne.
+
+🦊 Il faut que je parle. Sinon, j'oublie.
+
 🦊 Košice, c'est super ! Le tram, c'est super ! Et mon ticket, c'est super !
 
 🦊 Et je parle slovaque ! Presque tout ! Et je me souviens de chaque mot !
@@ -165,7 +169,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 # Chapitre 2 — Sucho
 
-*Résumé : le lendemain, il fait très chaud et il n'a pas plu depuis deux mois. Le seul point d'eau d'Andrea, l'étang du parc, est presque à sec. Gab fait son gag (« Veľmi hovorím, som líškasky, komplikovaný… ») et Andrea le corrige. Un jardinier confirme qu'il n'y a plus d'eau dans la ville, la radio parle du Slovenský raj : ils partent en train. Andrea laisse un mot à sa tante (jeu de mots sur « lístok » : ticket / petit mot). Fil rouge : « Teraz si tu. Uvidíme. »*
+*Résumé : le lendemain, il fait très chaud et il n'a pas plu depuis deux mois. Le seul point d'eau d'Andrea, l'étang du parc, est presque à sec. Gab fait son gag (« Veľmi hovorím, som líškasky, komplikovaný… ») et Andrea le corrige. Un jardinier confirme qu'il n'y a plus d'eau dans la ville, la radio parle du Slovenský raj : ils partent en train. Andrea laisse un mot à sa tante (jeu de mots sur « lístok » : ticket / petit mot). Fil rouge : « Teraz si tu. Uvidíme. » Dans la fontaine à sec, Gab trouve le carnet de doktorka Vydrová, une loutre hydrologue, avec la prochaine étape : le Paradis slovaque. Premier passage du monsieur au sourire, qui dit que le carnet est à lui ; Andrea ment pour le garder.*
 
 ## Scène 1
 
@@ -191,7 +195,11 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 💬 Ils vont au parc. Gab parle de tout : du pommier, de la tante, de Lyon, du tram, du temps qu'il fait...
 
+🦊 Un pommier. Un arbre. Un banc. Un chien. Un grand chien. Un très grand chien...
+
 🐰 Tu parles beaucoup.
+
+🦊 Je m'entraîne.
 
 🦊 Je parle très, je suis renardesque, compliqué...
 
@@ -277,6 +285,48 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🧑 Bonne chance.
 
+💬 Au fond de la fontaine, il y a quelque chose de petit et de bleu. Gab saute dedans.
+
+🦊 Regarde ce que j'ai trouvé ! Un carnet.
+
+🐰 Qu'est-ce qu'il y a dedans ?
+
+🦊 Des chiffres. Des dates. Et des dessins de la fontaine. « Mesure de l'eau. Košice. » Et une signature : Dr. V.
+
+🧑 Ce carnet, je le connais. Il est à madame la docteure Vydrová. C'est une loutre. Avant-hier, elle a mesuré la fontaine.
+
+🦊 Et où est-elle maintenant ?
+
+🧑 Elle est partie vers l'ouest. Elle cherche de l'eau. Comme vous.
+
+🐰 Regarde, la dernière page : « Prochaine mesure : Paradis slovaque. »
+
+🦊 Le Paradis slovaque ! C'est là qu'on va, nous aussi !
+
+💬 Une voiture noire s'arrête près de la fontaine. Un monsieur en costume descend. Il sourit.
+
+🕴️ Bonjour. Vous n'auriez pas trouvé un carnet bleu ? C'est le mien.
+
+🧑 Le vôtre ? Je croyais qu'il était à madame la docteure.
+
+🕴️ À ma collègue. C'est pareil.
+
+💬 Gab fourre vite le carnet dans son sac à dos.
+
+🐰 Non. Nous n'avons rien trouvé. Au revoir.
+
+🕴️ Dommage. Bonne journée, les enfants.
+
+💬 La voiture s'en va.
+
+🦊 Andrea ! Tu mens !
+
+🐰 Oui. Ce monsieur sourit beaucoup. Ça ne me plaît pas.
+
+🦊 Pourquoi ?
+
+🐰 Parce que.
+
 ## Scène 6
 
 💬 Gab et Andrea sont à la gare. Il y a beaucoup de monde et très peu d'ombre.
@@ -309,7 +359,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 # Chapitre 3 — Raj
 
-*Résumé : le Slovenský raj, ses forêts, ses ruisseaux et ses échelles dans les gorges. Il y a encore un peu d'eau, mais moins que d'habitude. Gab a le vertige. Pán Orol, l'aigle garde du parc (déjà dans Kids), leur apprend qu'il pleut dans les Tatras : ils iront là-bas. Andrea lâche une pique plus pointue : elle ne fait confiance à aucun renard, « sauf un ».*
+*Résumé : le Slovenský raj, ses forêts, ses ruisseaux et ses échelles dans les gorges. Il y a encore un peu d'eau, mais moins que d'habitude. Gab a le vertige. Pán Orol, l'aigle garde du parc (déjà dans Kids), leur apprend qu'il pleut dans les Tatras : ils iront là-bas. Andrea lâche une pique plus pointue : elle ne fait confiance à aucun renard, « sauf un ». pán Orol leur remet une page laissée « pour la personne qui a trouvé le carnet » : la loutre est partie mesurer dans les Tatras. Le monsieur au sourire est déjà passé.*
 
 ## Scène 1
 
@@ -411,6 +461,20 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🦅 Oui. En montagne, le temps est différent. Si vous voulez de l'eau, allez là-bas.
 
+🦊 Et vous n'avez pas vu une loutre ? Avec un carnet ?
+
+🦅 Madame la docteure Vydrová ? Elle était là hier. Elle a mesuré le ruisseau. Elle a laissé quelque chose. Pour celui qui trouverait son carnet.
+
+💬 Pán Orol leur tend un papier. C'est une page du carnet.
+
+🦊 « Pour la personne qui l'a trouvé. Merci ! Je vais mesurer dans les Tatras, près du refuge Téry. Dr. V. »
+
+🦅 Autre chose. Hier, un monsieur en costume m'a posé des questions sur elle. Il souriait beaucoup.
+
+🐰 Encore lui !
+
+🦅 Les aigles n'aiment pas ce genre de sourire. Je ne lui ai rien dit.
+
 🦊 Merci. Nous irons dans les Tatras.
 
 🦅 Soyez prudents. Et prenez une veste.
@@ -451,7 +515,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 # Chapitre 4 — Burka
 
-*Résumé : l'ascension dans les Hautes Tatras. Un gardien de refuge (humain) annonce un orage pour le lendemain ; le refuge est plein, ils dorment par terre dans la cuisine. L'orage éclate de nuit, pendant que Gab tremble de la queue. Le matin, le lac déborde d'eau : après deux mois de sécheresse, c'est « trop ». Andrea parle de ses cousins, au village en bas : Maťo et Katka. Comparatifs et futur : plus haut, plus froid, demain.*
+*Résumé : l'ascension dans les Hautes Tatras. Un gardien de refuge (humain) annonce un orage pour le lendemain ; le refuge est plein, ils dorment par terre dans la cuisine. L'orage éclate de nuit, pendant que Gab tremble de la queue. Le matin, le lac déborde d'eau : après deux mois de sécheresse, c'est « trop ». Andrea parle de ses cousins, au village en bas : Maťo et Katka. Comparatifs et futur : plus haut, plus froid, demain. Le gardien a vu la loutre ; le carnet indique la prochaine mesure : le ruisseau du village d'Andrea.*
 
 ## Scène 1
 
@@ -478,6 +542,10 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 🦊 Par votre genou ?
 
 🧑 Mon genou en sait plus que la radio.
+
+🐰 Madame la docteure Vydrová est passée ? Une loutre avec un carnet ?
+
+🧑 Avant-hier. Elle a mesuré le lac. Elle aussi, elle a demandé l'avis de mon genou.
 
 🐰 On doit redescendre ?
 
@@ -575,11 +643,17 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🐰 Oui. C'est là qu'on s'est connus, Gab.
 
+💬 Gab ouvre le carnet. Sur la page suivante, il y a une petite carte : un ruisseau, un pont, un magasin et un pré.
+
+🦊 Regarde. Prochaine mesure : « Le ruisseau sous les Tatras. »
+
+🐰 Notre ruisseau. Tu vois ? On va dans la bonne direction.
+
 ---
 
 # Chapitre 5 — Domov
 
-*Résumé : le village d'enfance sous les Tatras. Pani Ježková (vouvoyée) ne reconnaît pas tout de suite Gab, puis Maťo (14 ans, calme, énorme), Katka (13 ans, téléphone, sarcasme : ne l'appelez pas « petite ») et Babka Zuzana (qui évite soigneusement la bryndza). Premiers souvenirs au passé (« Keď som bol malý… »), Babka raconte que le ruisseau rétrécit chaque année et que la tempête de la veille était un record. Maťo et Katka décident de venir. Indice sur Andrea : une phrase de sa mère, coupée net. Fil rouge du temps limité : « Uvidíme. »*
+*Résumé : le village d'enfance sous les Tatras. Pani Ježková (vouvoyée) ne reconnaît pas tout de suite Gab, puis Maťo (14 ans, calme, énorme), Katka (13 ans, téléphone, sarcasme : ne l'appelez pas « petite ») et Babka Zuzana (qui évite soigneusement la bryndza). Premiers souvenirs au passé (« Keď som bol malý… »), Babka raconte que le ruisseau rétrécit chaque année et que la tempête de la veille était un record. Maťo et Katka décident de venir. Indice sur Andrea : une phrase de sa mère, coupée net. Fil rouge du temps limité : « Uvidíme. » Babka remet une enveloppe de la loutre (le ruisseau perd dix centimètres par an ; prochaine mesure : le Váh). Le monsieur au sourire est passé la veille ; Babka ne lui a rien donné (ses chaussures).*
 
 ## Scène 1
 
@@ -701,6 +775,22 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🐑 Le ruisseau rétrécit. Chaque année il est plus petit. Mon grand-père disait : l'eau vient et l'eau s'en va. Mais ça, je ne l'avais jamais vu.
 
+🐑 La loutre aussi le disait. Madame la docteure Vydrová. Elle est passée il y a trois jours. Elle a mesuré le ruisseau et elle a mangé deux assiettes de halušky.
+
+🦊 Sans bryndza ?
+
+🐑 Sans bryndza. Elle a laissé une enveloppe. Elle a dit qu'un renard viendrait avec son carnet. J'ai cru qu'elle plaisantait.
+
+💬 Babka sort une enveloppe du buffet. Gab l'ouvre.
+
+🦊 Une nouvelle page ! « Ruisseau : dix centimètres de moins chaque année. Prochaine mesure : le Váh, Liptov. »
+
+🐑 Et autre chose. Hier, un monsieur en costume est venu. Très gentil. Il souriait beaucoup. Il voulait l'enveloppe.
+
+🐰 Et ?
+
+🐑 Je ne la lui ai pas donnée. Je n'aimais pas ses chaussures.
+
 🐻 Ici, tout l'été a été sec. Et hier soir, il a tellement plu que le ruisseau était marron. Les moutons ne savaient plus quoi faire.
 
 🐰 Nous aussi, on était dans cet orage. Là-haut, près du lac.
@@ -722,6 +812,8 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 🐻 Babka dit que vous allez dans le Liptov.
 
 🐰 Je ne sais pas encore. Je vais là où il y a de l'eau. Ou là où il n'y en a pas.
+
+🐹 Le carnet, lui, sait. Le carnet dit : le Liptov.
 
 🐹 Je viens avec vous.
 
@@ -779,7 +871,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 # Chapitre 6 — Povodeň
 
-*Résumé : le Liptov. Il pleut depuis trois jours, le train s'arrête (voie inondée), le Váh déborde. Pour la première fois, les héros ne cherchent pas l'eau qui manque mais fuient celle qui monte. Un pompier (vouvoyé) leur demande un coup de main : déplacer les petits animaux d'un village vers l'école. Ils aident, mouillés comme des poissons ; Katka protège son téléphone avant tout (« je n'ai que deux mains, le téléphone est la troisième »). Soirée au gymnase : soupe, entraide, et une renarde bénévole qui sert le thé : Andrea ne le prend qu'après que Gab a bu. Idée qui germe : « il faut que quelqu'un le dise. »*
+*Résumé : le Liptov. Il pleut depuis trois jours, le train s'arrête (voie inondée), le Váh déborde. Pour la première fois, les héros ne cherchent pas l'eau qui manque mais fuient celle qui monte. Un pompier (vouvoyé) leur demande un coup de main : déplacer les petits animaux d'un village vers l'école. Ils aident, mouillés comme des poissons ; Katka protège son téléphone avant tout (« je n'ai que deux mains, le téléphone est la troisième »). Soirée au gymnase : soupe, entraide, et une renarde bénévole qui sert le thé : Andrea ne le prend qu'après que Gab a bu. Idée qui germe : « il faut que quelqu'un le dise. » Le pompier : la loutre avait prévenu de la crue, personne ne l'a crue. À la télé du gymnase, le monsieur au sourire : « la situation est sous contrôle » ; il est porte-parole du groupe Zelená vlna.*
 
 ## Scène 1
 
@@ -874,6 +966,10 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 🐻 Nous les y amènerons.
 
 🧑 Exactement. Merci à vous. Et faites attention, s'il vous plaît. L'eau est forte.
+
+🐰 Vous n'avez pas vu une loutre ? Madame la docteure Vydrová ?
+
+🧑 Si. Il y a deux jours, elle nous a prévenus que l'inondation arrivait. Personne ne l'a crue. Moi non plus.
 
 🐹 Je peux ne porter que des choses légères ?
 
@@ -977,6 +1073,18 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 💬 Un moment plus tard, tout le monde est assis devant la soupe. Dehors, il pleut.
 
+💬 Au mur du gymnase, il y a une télévision. Aux infos, un monsieur en costume parle. Il sourit.
+
+🕴️ La situation est sous contrôle. Il n'y a aucune raison de paniquer.
+
+🐰 C'est lui. Le monsieur au sourire.
+
+🐹 En dessous, c'est écrit : « porte-parole du groupe Zelená vlna ».
+
+🦊 Sous contrôle ? Alors pourquoi on est aussi mouillés ?
+
+🐹 Zelená vlna. Je ne sais pas ce que c'est. Mais je vais le découvrir.
+
 🐹 Deux mois de sécheresse. Et ensuite ça. Mais qu'est-ce qui arrive à ce monde ?
 
 🐻 Je ne sais pas. Mais quelqu'un devrait le dire.
@@ -1001,7 +1109,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 # Chapitre 7 — Cesta
 
-*Résumé : en descendant du Liptov, ils tombent sur un chantier : une nouvelle route doit traverser la forêt. Le contremaître (vouvoyé) les laisse passer et propose de leur montrer le chemin. Premier vrai débat du groupe : Katka est pour (« on va plus vite »), Maťo contre, Gab hésite, Andrea veut les deux. Le contremaître donne son avis, lui aussi nuancé. Un camionneur les prend à bord ; à la radio, le journal du soir : Správy STVR, qui parle de « situation exceptionnelle » sans dire pourquoi. Idée de Katka : « Allons à la télévision. » Gab croit à une blague. Katka, non.*
+*Résumé : en descendant du Liptov, ils tombent sur un chantier : une nouvelle route doit traverser la forêt. Le contremaître (vouvoyé) les laisse passer et propose de leur montrer le chemin. Premier vrai débat du groupe : Katka est pour (« on va plus vite »), Maťo contre, Gab hésite, Andrea veut les deux. Le contremaître donne son avis, lui aussi nuancé. Un camionneur les prend à bord ; à la radio, le journal du soir : Správy STVR, qui parle de « situation exceptionnelle » sans dire pourquoi. Idée de Katka : « Allons à la télévision. » Gab croit à une blague. Katka, non. Le chef de chantier : la route est payée par Zelená vlna. À la radio, le porte-parole répète qu'il n'y a « aucune raison de paniquer ».*
 
 ## Scène 1
 
@@ -1095,6 +1203,12 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🧑 Les gens dans les bureaux. Moi, je construis seulement.
 
+🐹 Et qui paie ?
+
+🧑 Le groupe Zelená vlna. Ils construisent des routes, des bâtiments, tout.
+
+🐹 Zelená vlna ! Ceux de la télé !
+
 ## Scène 5
 
 💬 Ils marchent sur la nouvelle route. Elle est dure et chaude. Le chef de chantier marche devant eux.
@@ -1153,6 +1267,10 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 📻 ...Le Váh a atteint son niveau maximal. Les habitants des villages au bord de la rivière ont été déplacés dans les écoles. Le gouvernement a déclaré une situation exceptionnelle...
 
+📻 ...Le porte-parole du groupe Zelená vlna a déclaré qu'il n'y avait aucune raison de paniquer...
+
+🐰 Encore lui.
+
 🐻 Ils ne parlent pas de nous.
 
 🐹 Ils ne parlent pas de nous. Et ils le disent mal.
@@ -1197,7 +1315,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 # Chapitre 8 — Datacentrum
 
-*Résumé : le camion les dépose près d'un fleuve, en région centrale. Un énorme bâtiment gris ronronne là où il y avait une zone humide ; plus de grenouilles. Ils rencontrent Marek, blaireau, technicien du datacentre : il leur explique le refroidissement à l'eau, les 200 emplois, l'internet qui passe par là (le téléphone de Katka y vit peut-être). Premier vrai « pour et contre », sans méchant : Marek n'est pas fier, mais il a une famille. Andrea reste méfiante (« les gens qui sourient »), Gab fait écho au gag « veľa / veľmi ». Marek leur conseille la télé : les chefs regardent les infos de 19 h.*
+*Résumé : le camion les dépose près d'un fleuve, en région centrale. Un énorme bâtiment gris ronronne là où il y avait une zone humide ; plus de grenouilles. Ils rencontrent Marek, blaireau, technicien du datacentre : il leur explique le refroidissement à l'eau, les 200 emplois, l'internet qui passe par là (le téléphone de Katka y vit peut-être). Premier vrai « pour et contre », sans méchant : Marek n'est pas fier, mais il a une famille. Andrea reste méfiante (« les gens qui sourient »), Gab fait écho au gag « veľa / veľmi ». Marek leur conseille la télé : les chefs regardent les infos de 19 h. Le datacentre est aussi à Zelená vlna. Cachés derrière les serveurs, ils entendent le porte-parole : il veut trouver le carnet avant la loutre. Marek leur donne les chiffres de l'eau.*
 
 ## Scène 1
 
@@ -1240,6 +1358,8 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 ## Scène 3
 
 💬 Devant la grille, il y a une grande enseigne : « Datacentre Zelená vlna ». Du bâtiment sort un blaireau en gilet bleu.
+
+🐹 Zelená vlna. Encore eux.
 
 🦡 Bonjour. Vous cherchez quelqu'un ?
 
@@ -1285,6 +1405,10 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🦡 Quand même.
 
+🐰 Une loutre est passée ici aussi ? Madame la docteure Vydrová ?
+
+🦡 Oui. Elle voulait savoir combien d'eau on prend dans la rivière. On ne lui a pas donné les chiffres. Le chef a dit non.
+
 ## Scène 5
 
 💬 Marek les conduit à l'intérieur. Dans la salle, c'est silencieux et froid. Il y a des milliers d'armoires aux lumières clignotantes.
@@ -1316,6 +1440,36 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 🐻 Les grenouilles peuvent-elles vivre ailleurs ?
 
 🦡 Je l'espère. Près du ruisseau, à cinq kilomètres d'ici, il y a un petit étang. Elles y sont peut-être.
+
+💬 Soudain, la porte s'ouvre. Le directeur entre dans la salle. Et avec lui, le monsieur en costume.
+
+🦡 Vite ! Derrière les armoires !
+
+💬 Tout le monde se cache. Maťo est celui qui se cache le plus mal.
+
+🕴️ Cette loutre a un carnet avec des chiffres. Si elle va à la télévision avec, ce sera la panique.
+
+🧑 Elle l'a perdu, ce carnet. À Košice.
+
+🕴️ Alors c'est nous qui devons le trouver. Avant elle.
+
+🧑 Et si la loutre avait raison ?
+
+🕴️ On m'a dit que tout allait bien.
+
+🧑 Qui vous l'a dit ?
+
+🕴️ Des collègues. Eux l'ont entendu des ingénieurs. Moi, je ne demande pas. Je parle, c'est tout.
+
+💬 Le monsieur en costume sourit et s'en va. Gab serre son sac à dos.
+
+🐹 Ils cherchent notre carnet.
+
+🐻 Son carnet à elle.
+
+🐹 Maintenant, c'est le nôtre.
+
+🐰 Vous avez entendu ? Chacun l'a entendu de quelqu'un d'autre. Et personne n'a posé la question.
 
 ## Scène 6
 
@@ -1363,6 +1517,16 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🦡 Alors je croiserai les doigts pour vous, et je regarderai autre chose.
 
+🦡 Attendez. J'ai quelque chose pour vous.
+
+💬 Marek leur tend un papier. Il y a des chiffres dessus.
+
+🦡 Combien d'eau on prend dans la rivière. Chaque jour. Pour le carnet de madame la docteure Vydrová.
+
+🐰 Pourquoi vous nous donnez ça ?
+
+🦡 Parce que j'ai quatre enfants. Et je veux qu'un jour, ils voient des grenouilles.
+
 🦡 Et encore une chose. En chemin, passez par Banská Štiavnica. Il y a de vieux lacs. Là-bas, il y a encore de l'eau.
 
 🐻 Merci, Marek.
@@ -1373,7 +1537,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 # Chapitre 9 — Baňa
 
-*Résumé : Banská Štiavnica, ville de pierre et de pentes (ville d'argent et d'or, classée à l'UNESCO, avec ses petits lacs-réservoirs, les **tajchy**, construits du XVIe au XVIIIe siècle pour les mines). La mine du récit est **fictive** : un nouveau projet de lithium dans les collines au-dessus de la ville. Ján, écureuil bavard et sûr de lui, leur sert de guide ; sa forêt doit être libérée avant la fin du mois. Premier débat « avec des si » (keby) : le lithium fait la batterie du téléphone de Katka. Un mineur (vouvoyé) leur explique que c'est son premier emploi depuis dix ans. Indice sur Andrea : « Keby som bola počúvala mamu… »*
+*Résumé : Banská Štiavnica, ville de pierre et de pentes (ville d'argent et d'or, classée à l'UNESCO, avec ses petits lacs-réservoirs, les **tajchy**, construits du XVIe au XVIIIe siècle pour les mines). La mine du récit est **fictive** : un nouveau projet de lithium dans les collines au-dessus de la ville. Ján, écureuil bavard et sûr de lui, leur sert de guide ; sa forêt doit être libérée avant la fin du mois. Premier débat « avec des si » (keby) : le lithium fait la batterie du téléphone de Katka. Un mineur (vouvoyé) leur explique que c'est son premier emploi depuis dix ans. Indice sur Andrea : « Keby som bola počúvala mamu… » La lettre de la loutre aux tajchy a été prise par le porte-parole ; Ján la récupère dans sa voiture : « Tous mes chiffres disent une seule chose. »*
 
 ## Scène 1
 
@@ -1447,6 +1611,12 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🐿️ Un fonctionnaire. Avec un papier et un joli sourire. Il a dit qu'on allait creuser la montagne.
 
+🐰 Un joli sourire ? En costume ?
+
+🐿️ Oui ! Vous le connaissez ?
+
+🐹 Le porte-parole de Zelená vlna. On le croise partout.
+
 🦊 Creuser ? Pourquoi ?
 
 🐿️ Pour le lithium. C'est un métal. Il y en a dans les batteries. Ils en ont besoin pour les voitures, pour les téléphones, pour tout.
@@ -1495,6 +1665,16 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🐰 Je ne sais pas. Mais sûrement plus de deux.
 
+🧑 Autre chose. Hier, une loutre est venue. Elle a mesuré les tajchy. Elle a laissé une lettre. Pour « la personne qui a trouvé le carnet ».
+
+🦊 C'est nous !
+
+🧑 Trop tard. Ce matin, le monsieur en costume l'a prise. Elle est dans sa voiture.
+
+🐿️ Dans la voiture noire ? Près de la grille ?
+
+🧑 Moi, je n'ai rien dit.
+
 ## Scène 6
 
 💬 Le soir, ils sont assis près du tajch. Ján tient un grand sac à dos. Autour de lui, les autres écureuils font leurs bagages.
@@ -1529,6 +1709,18 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 💬 Ján se lève et leur tend un petit papier avec une adresse.
 
+🐿️ Et aussi ça.
+
+💬 Ján sort un papier de son sac à dos. Il est un peu froissé.
+
+🐿️ De la voiture noire. La fenêtre était ouverte. Les écureuils savent prendre des choses.
+
+🐻 Ján ! C'est du vol !
+
+🐿️ Non. C'est une restitution. Cette lettre est pour vous.
+
+🦊 « Pour la personne qui l'a trouvé. Tous mes chiffres disent une seule chose. Lisez-les ensemble. Dr. V. »
+
 🐿️ À Bratislava, ne parlez pas lentement. Parlez vite. Sinon on ne vous entend pas.
 
 🐻 Et s'ils ne nous écoutent toujours pas ?
@@ -1539,7 +1731,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 # Chapitre 10 — Rozhodnutie
 
-*Résumé : après la mine, la bande est fatiguée et se dispute dans les collines du centre du pays. Un message de la maman de Gab, que Katka oblige Gab à traduire, apprend à tout le monde que son vol part dimanche : discours rapporté (« Mama napísala, že… »), « mal by som ísť domov ». Gab et Andrea parlent seuls près du feu : elle lâche enfin une phrase sur « un certain renard » et sur un dîner où elle faillit « être le menu », puis plaisante. Gab ne pose pas de questions. Au matin, la bande décide quoi dire à la télévision (« la vérité, pas un slogan ») et Gab décide d'appeler sa mère pour repousser son départ.*
+*Résumé : après la mine, la bande est fatiguée et se dispute dans les collines du centre du pays. Un message de la maman de Gab, que Katka oblige Gab à traduire, apprend à tout le monde que son vol part dimanche : discours rapporté (« Mama napísala, že… »), « mal by som ísť domov ». Gab et Andrea parlent seuls près du feu : elle lâche enfin une phrase sur « un certain renard » et sur un dîner où elle faillit « être le menu », puis plaisante. Gab ne pose pas de questions. Au matin, la bande décide quoi dire à la télévision (« la vérité, pas un slogan ») et Gab décide d'appeler sa mère pour repousser son départ. Les pages du carnet mises bout à bout : les forêts et les zones humides retiennent l'eau comme une éponge. Le « pourquoi » que la radio ne disait pas.*
 
 ## Scène 1
 
@@ -1675,6 +1867,24 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 💬 Le matin. Tout le monde est assis devant le petit-déjeuner. Gab tient son téléphone à la main.
 
+💬 Sur la couverture, il y a toutes les pages du carnet. Katka les pose les unes à côté des autres.
+
+🐹 Košice : la fontaine, vide. Le Paradis : le ruisseau, moins que l'an dernier. Les Tatras : l'orage. Le village : le ruisseau, chaque année plus petit. Le Liptov : l'inondation. Le datacentre : l'eau de la rivière. Štiavnica : les tajchy.
+
+🐻 Et alors ?
+
+🐹 Au dos, il y a une phrase. Je lis : « Les forêts et les zones humides retiennent l'eau comme une éponge. Quand elles ne sont plus là, l'eau ne reste pas. D'abord vient la sécheresse, puis l'inondation. »
+
+🦊 C'est ça, le « pourquoi ». Ce qu'ils ne disaient pas à la radio.
+
+🐰 Personne n'est méchant. Chacun prend juste un morceau de l'éponge.
+
+🐻 Et après, il n'y a plus d'éponge.
+
+🐹 Alors, à qui la faute ?
+
+🐰 À chacun un peu. Donc à personne tout à fait.
+
 🐻 Qu'est-ce qu'on leur dira à la télévision ?
 
 🐹 La vérité.
@@ -1696,6 +1906,10 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 🐰 Moi, je le dirais plus simplement : « Nous, on était là. »
 
 🐹 D'accord. Je le note.
+
+🐰 Et le carnet ?
+
+🐹 Il n'est pas à nous. Il faut qu'on trouve madame la docteure Vydrová.
 
 🦊 J'ai encore une chose.
 
@@ -1727,7 +1941,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 # Chapitre 11 — Bratislava
 
-*Résumé : arrivée en train à Bratislava. Une grande ville, du bruit, beaucoup d'humains, du wifi. Katka salue la ville de la part de Babka. Découverte du château vu d'en bas (« une table renversée », le surnom populaire du Bratislavský hrad). Devant le siège du diffuseur public (fictionnalisé), le portier (vouvoyé) leur demande s'ils ont rendez-vous : non. Le téléphone de Katka meurt (le lithium, encore). Une rédactrice les écoute et leur propose une chose inattendue : un des journaux de la semaine est tourné depuis le château et il reste une place pour cinq minutes. Ils répètent le soir, nerveux.*
+*Résumé : arrivée en train à Bratislava. Une grande ville, du bruit, beaucoup d'humains, du wifi. Katka salue la ville de la part de Babka. Découverte du château vu d'en bas (« une table renversée », le surnom populaire du Bratislavský hrad). Devant le siège du diffuseur public (fictionnalisé), le portier (vouvoyé) leur demande s'ils ont rendez-vous : non. Le téléphone de Katka meurt (le lithium, encore). Une rédactrice les écoute et leur propose une chose inattendue : un des journaux de la semaine est tourné depuis le château et il reste une place pour cinq minutes. Ils répètent le soir, nerveux. Le porte-parole entre sans problème ; la rédactrice annonce les invités du soir : lui, et doktorka Vydrová, qui a perdu son carnet à Košice.*
 
 ## Scène 1
 
@@ -1811,6 +2025,20 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🧑 Toute la Slovaquie. C'est beau.
 
+💬 Un monsieur en costume passe devant la guérite. Le portier lui ouvre sans poser de question.
+
+🕴️ Bonsoir, les enfants. Joli voyage ?
+
+🐰 C'est lui.
+
+🦊 Pourquoi lui, il peut entrer ?
+
+🧑 Monsieur le porte-parole a une accréditation.
+
+🐹 Nous, on a un carnet.
+
+🧑 Un carnet, ce n'est pas une accréditation.
+
 🐹 En plus, notre téléphone est mort.
 
 🐻 Katka, ce n'est pas important maintenant.
@@ -1849,6 +2077,16 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 📝 Dites-leur la même chose qu'à moi. Seulement plus lentement.
 
+📝 Encore une chose. Ce soir, nous avons d'autres invités. Le porte-parole du groupe Zelená vlna. Et madame la docteure Vydrová, hydrologue. La pauvre, elle a perdu son carnet à Košice.
+
+💬 Gab ouvre lentement son sac à dos.
+
+🦊 Un carnet bleu ?
+
+📝 Comment vous le savez ?
+
+🦊 Parce qu'il est là.
+
 ## Scène 6
 
 💬 C'est la fin d'après-midi. Quatre animaux sont devant la porte du château. En haut, il y a des escaliers et une large terrasse.
@@ -1883,7 +2121,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 # Chapitre 12 — Hrad
 
-*Résumé : le studio improvisé sur une terrasse du château. Maquillage (« Nepúdrujte ma ! »), trac, la rédactrice qui compte à rebours. En direct, à 19 h, chacun dit une phrase : Maťo le ruisseau, Katka l'inondation, Gab le point d'eau de Košice, Andrea la zone humide et la mine. Ils ne sauvent pas le monde ; ils demandent à être entendus. La présentatrice répond : « Počujeme vás. » Après l'émission : un message de Marek, un autre de Ján et Babka au téléphone (« jedz, Gab »). Dernière scène sur la terrasse : Gab repartira lundi, Andrea : « Teraz si tu. »*
+*Résumé : le studio improvisé sur une terrasse du château. Maquillage (« Nepúdrujte ma ! »), trac, la rédactrice qui compte à rebours. En direct, à 19 h, chacun dit une phrase : Maťo le ruisseau, Katka l'inondation, Gab le point d'eau de Košice, Andrea la zone humide et la mine. Ils ne sauvent pas le monde ; ils demandent à être entendus. La présentatrice répond : « Počujeme vás. » Après l'émission : un message de Marek, un autre de Ján et Babka au téléphone (« jedz, Gab »). Dernière scène sur la terrasse : Gab repartira lundi, Andrea : « Teraz si tu. » Dans la loge, la loutre retrouve son carnet : elle a les chiffres, eux sont les témoins. En direct, le porte-parole répète « sous contrôle », la loutre répond par l'éponge. Il repart sans sourire.*
 
 ## Scène 1
 
@@ -1922,6 +2160,28 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 🦊 Il est « de renard ».
 
 > *Note de traduction : « líščí » = « de renard » (cf. chapitre 2, « líščí chvost »). Le rappel marche très bien, mais pour qu'il marche en français, il faut que « de renard » soit l'adjectif appris au chapitre 2.*
+
+💬 Une loutre en bottes de caoutchouc entre en courant dans la pièce.
+
+🦦 Excusez-moi ! Où est le renard qui a mon carnet ?
+
+🦊 Ici. Moi. Bonsoir.
+
+💬 Gab lui tend le carnet. La loutre le tient un moment dans ses mains. Comme quelque chose de précieux.
+
+🦦 Je le cherche depuis trois jours. Où était-il ?
+
+🦊 Dans la fontaine. À Košice.
+
+🦦 Et mes lettres ? Vous les avez trouvées aussi ?
+
+🐹 Toutes. Il y en a une qu'un écureuil nous a rendue.
+
+🦦 Merci. J'ai les chiffres. Mais je n'ai pas de témoins. Personne n'a vu ce que montrent les chiffres.
+
+🐻 Nous, on l'a vu.
+
+🦦 Alors on le dira ensemble.
 
 ## Scène 3
 
@@ -1997,6 +2257,22 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🐻 Et nous, nous étions là.
 
+🎙️ Monsieur le porte-parole, qu'en dites-vous ?
+
+🕴️ La situation est sous contrôle. Il n'y a aucune raison de paniquer.
+
+🦦 Aucune raison de paniquer. Mais une bonne raison de dire la vérité. Les forêts et les zones humides retiennent l'eau comme une éponge. Mes chiffres le montrent. Et ces quatre-là l'ont vu.
+
+🎙️ Monsieur le porte-parole, avez-vous lu ces chiffres ?
+
+🕴️ Non. On m'a dit que c'était en ordre.
+
+🦦 Et vous n'avez pas demandé ?
+
+🕴️ ... Non.
+
+💬 Le porte-parole sourit toujours. Mais beaucoup moins.
+
 💬 Un court silence s'installe. La présentatrice regarde droit la caméra.
 
 🎙️ Vous ne voulez pas sauver le monde ?
@@ -2016,6 +2292,12 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 🐻 Vraiment ?
 
 📝 C'est la première fois que j'entends quatre animaux s'accorder sur une seule chose.
+
+🐹 Et où est monsieur le porte-parole ?
+
+📝 Parti juste après l'émission. Sans sourire.
+
+🐰 Enfin.
 
 💬 Le téléphone de Katka bipe. Il est chargé grâce au chargeur du studio.
 
@@ -2067,7 +2349,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 # Épilogue — Sen
 
-*Résumé : le lendemain des retrouvailles, à Košice. Gab se réveille sous le pommier. Andrea arrive avec de l'eau (il n'y a que trois gouttes). Il raconte son rêve (« Snívalo sa mi… »), passé composé, résumé de toute l'aventure en deux minutes : l'occasion de tout réviser. Il ajoute « un détail étrange » : un renard, un dîner, une broche. Andrea devient silencieuse : confirmation, sans explication. Chaussettes mouillées (clin d'œil au chap. 6), la tante qui se réveille (« Andrea ? S kým hovoríš ? — S jabloňou. »). Même fil rouge : « Teraz si tu. — Uvidíme. »*
+*Résumé : le lendemain des retrouvailles, à Košice. Gab se réveille sous le pommier. Andrea arrive avec de l'eau (il n'y a que trois gouttes). Il raconte son rêve (« Snívalo sa mi… »), passé composé, résumé de toute l'aventure en deux minutes : l'occasion de tout réviser. Il ajoute « un détail étrange » : un renard, un dîner, une broche. Andrea devient silencieuse : confirmation, sans explication. Chaussettes mouillées (clin d'œil au chap. 6), la tante qui se réveille (« Andrea ? S kým hovoríš ? — S jabloňou. »). Même fil rouge : « Teraz si tu. — Uvidíme. » Andrea donne à Gab les six lettres jamais envoyées (« dans le train, pas avant ») et raconte qu'une loutre en bottes cherchait un carnet bleu à la fontaine ce matin.*
 
 ## Scène 1
 
@@ -2172,6 +2454,18 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 🦊 Andrea...
 
 🐰 Viens. Certains rêves ne sont que des rêves. Et d'autres ne sont pas que des rêves.
+
+💬 Andrea sort six enveloppes de sa poche. Elles sont vieilles et un peu froissées.
+
+🐰 Tiens. Six lettres. Je ne les ai jamais envoyées.
+
+🦊 Six ? Comme dans le rêve !
+
+🐰 Tu les liras dans le train. Pas avant.
+
+🐰 Et autre chose. Ce matin, à la fontaine, il y avait une loutre. En bottes de caoutchouc. Elle cherchait un carnet bleu.
+
+💬 Gab regarde ses chaussettes mouillées. Puis le pommier. Il ne dit rien.
 
 💬 Une voix retentit à la fenêtre.
 

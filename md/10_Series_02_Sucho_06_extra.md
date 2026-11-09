@@ -79,6 +79,12 @@
 | kam | où (vers où) (nouveau) |
 | na vlak | pour le train (nouveau) |
 | Šťastnú cestu! | Bon voyage ! (nouveau) |
+| zápisník | le carnet |
+| meranie | la mesure |
+| vydra | la loutre |
+| strana | la page |
+| ďalšie | suivant, prochain |
+| klameš | tu mens |
 
 ---
 

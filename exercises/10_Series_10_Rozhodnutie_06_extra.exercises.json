@@ -184,6 +184,97 @@
         "aj ona mala rada dobrodružstvá,",
         "keď bola mladá."
       ]
+    },
+    {
+      "id": "listen-takie-kto-za-to-m-e",
+      "type": "listen",
+      "l1": "Alors, à qui la faute ?",
+      "l2": "Takže kto za to môže?",
+      "choices_l1": [
+        "Alors, qui a fait ça ?",
+        "Alors, à qui est-ce ?",
+        "Alors, qui veut y aller ?"
+      ]
+    },
+    {
+      "id": "blank-ka-d-trochu-preto-nikto-celkom",
+      "type": "fill-blank",
+      "l1": "À chacun un peu. Donc à personne tout à fait.",
+      "l2": "Každý trochu. Preto nikto celkom.",
+      "missing_l1": "Donc",
+      "missing_l2": "Preto",
+      "blank_index_l1": 4,
+      "blank_index_l2": 2,
+      "choices_l1": [
+        "Avant",
+        "Jamais",
+        "Déjà"
+      ],
+      "choices_l2": [
+        "Predtým",
+        "Nikdy",
+        "Už"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "qcm-celkom",
+      "type": "qcm",
+      "l1": "tout à fait",
+      "l2": "celkom",
+      "choices_l1": [
+        "fatigués",
+        "sales",
+        "le feu"
+      ],
+      "choices_l2": [
+        "unavení",
+        "špinaví",
+        "oheň"
+      ]
+    },
+    {
+      "id": "qcm-za-to-m-e",
+      "type": "qcm",
+      "l1": "c'est de sa faute",
+      "l2": "za to môže",
+      "choices_l1": [
+        "je devrais",
+        "dimanche",
+        "les lettres"
+      ],
+      "choices_l2": [
+        "mal by som",
+        "nedeľa",
+        "listy"
+      ]
+    },
+    {
+      "id": "order-ka-d-trochu-preto-nikto-celkom",
+      "type": "order",
+      "l1": "À chacun un peu. Donc à personne tout à fait.",
+      "l2": "Každý trochu. Preto nikto celkom.",
+      "tokens_l1": [
+        "À chacun un peu.",
+        "Donc",
+        "à personne tout à fait."
+      ],
+      "tokens_l2": [
+        "Každý trochu.",
+        "Preto",
+        "nikto celkom."
+      ]
+    },
+    {
+      "id": "listen-ka-d-trochu-preto-nikto-celkom",
+      "type": "listen",
+      "l1": "À chacun un peu. Donc à personne tout à fait.",
+      "l2": "Každý trochu. Preto nikto celkom.",
+      "choices_l1": [
+        "À chacun un peu. Donc à tout le monde pareil.",
+        "Personne un peu. Donc chacun tout à fait.",
+        "À chacun un peu. Donc à quelqu'un tout à fait."
+      ]
     }
   ]
 }

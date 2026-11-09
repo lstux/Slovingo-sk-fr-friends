@@ -6,7 +6,7 @@ Une illustration par série, pour la **fiche 05** (le moment fort de l'épisode)
 
 ## Méthode
 
-1. **Planche de personnages** : dans ChatGPT, joindre `esp32/zajko-quest/art/characters/fox-reference.png` puis `esp32/zajko-quest/art/characters/andrea-reference.png`, coller le prompt « Planche des héros ». ✅ Faite le 31 octobre : `docs/illustrations/planche-heros.jpg` (prompt ci-dessous, puis la correction « Andrea en vraie hase, Katka en marmotte »). Puis la même chose avec le prompt « Planche des seconds rôles » (sans image jointe). ✅ Faite le 31 octobre : `docs/illustrations/planche-seconds-roles.jpg`.
+1. **Planches de personnages** : dans ChatGPT, joindre `esp32/zajko-quest/art/characters/fox-reference.png` puis `esp32/zajko-quest/art/characters/andrea-reference.png`, coller le prompt « Planche des héros ». ✅ Faite le 31 octobre : `docs/illustrations/planche-heros.jpg` (prompt ci-dessous, puis la correction « Andrea en vraie hase, Katka en marmotte »). Puis la même chose avec le prompt « Planche des seconds rôles » (sans image jointe). ✅ Faite le 31 octobre : `docs/illustrations/planche-seconds-roles.jpg`. Puis le prompt « Planche des nouveaux rôles » (la loutre, le porte-parole et le carnet), en joignant la planche des seconds rôles pour garder le même style : à faire, à enregistrer dans `docs/illustrations/planche-nouveaux-roles.jpg`.
 2. **Chaque scène** : nouvelle conversation, joindre **la planche des héros** (et celle des seconds rôles si la scène en contient un) + **la photo de référence** du lieu (lien Commons donné : télécharger l'image depuis la page), coller le prompt de la scène. Chaque prompt est complet : rien d'autre à ajouter.
 3. Si un personnage dérive (couleurs, vêtements, taille), le redemander dans la même conversation : « Keep the characters exactly as in the attached model sheet. »
 4. **Format** : demander le paysage (déjà écrit dans chaque prompt). ChatGPT sort du 3:2 (1536×1024) ; je recadre si besoin. Déposer l'image dans `img/illus_<NN>_<lieu>.jpg` (le nom est donné pour chaque scène). Je l'intègre ensuite dans la fiche 05, avec le crédit.
@@ -27,6 +27,9 @@ Une illustration par série, pour la **fiche 05** (le moment fort de l'épisode)
 | 🦡 | Marek | blaireau adulte ; gilet de travail bleu marine avec un badge, chemise claire |
 | 🐿️ | Ján | écureuil roux, ado, très vif, parle avec les mains ; T-shirt orange, casquette bleue à l'envers |
 | 🦅 | Pán Orol | aigle royal, garde du parc ; chapeau de garde forestier, gilet vert kaki avec un insigne en forme de sapin |
+| 🦦 | Doktorka Vydrová | loutre d'Europe adulte, hydrologue ; pelage brun lisse, gorge crème, petites oreilles rondes, moustaches ; bob kaki, veste imperméable vert olive à poches, bottes de caoutchouc jaunes, règle graduée pour mesurer l'eau |
+| 🕴️ | Le porte-parole (« le monsieur au sourire ») | humain adulte, même style simple que les autres humains ; costume gris anthracite, chemise blanche, cravate fine vert émeraude, cheveux bien coiffés avec une raie, grand sourire permanent, porte-documents en cuir ; une voiture noire |
+| 📘 | Le carnet | petit carnet bleu, couverture souple imperméable, élastique, crayon glissé dedans ; des feuilles arrachées dépassent parfois |
 | 🧑 | Les humains | adultes ordinaires, même style 2D, désignés par leur fonction (jardinier, chef de chantier, mineur, journaliste…) |
 
 Le renard n'a pas de prénom écrit dans les prompts : dans le cours, c'est « toi ».
@@ -67,6 +70,22 @@ Character model sheet for a friendly animated film, on a plain light background.
 2. Marek, an adult European badger (black and white striped face, grey body), wearing a navy-blue work vest with a plain badge, over a light shirt. Calm, a little tired, honest.
 3. Ján, a teenage red squirrel (rust-red fur, big bushy tail, ear tufts), wearing an orange T-shirt and a backwards cap, very lively, talking with his hands.
 4. Pán Orol, a golden eagle park ranger (dark brown feathers, golden neck), wearing a ranger hat and a small ranger badge, stern but kind.
+
+Style: Classic 2D hand-drawn animated-film style (not 3D, not pixel art): clean ink outlines, flat colours with soft cel shading, expressive faces. No text, no letters, no logos, no watermark.
+```
+
+## Planche des nouveaux rôles
+
+**À joindre** : la planche des seconds rôles (pour le style seulement).
+
+```
+Character model sheet for a friendly animated film, on a plain light background, in exactly the same drawing style as the attached model sheet. Two new characters and one prop, each shown front view and three-quarter view, full body:
+
+1. Doktorka Vydrová, an adult Eurasian otter, a field hydrologist (sleek brown fur, cream throat and cheeks, small round ears, long whiskers, bright clever eyes, energetic and a little scatterbrained), wearing a khaki bucket hat, an olive-green waterproof field jacket with many pockets, and yellow rubber boots. She carries a long graduated measuring stick for water levels.
+2. A human spokesman in his forties, drawn in the same simple cartoon style as the animals (simplified shapes, flat colours, few details on the face, no realistic face): slim, neatly side-parted hair, a charcoal-grey suit, a white shirt and a thin emerald-green tie, a wide, permanent, slightly too perfect smile, holding a brown leather document folder. Polite and smooth, never scary.
+3. A prop: a small blue notebook with a soft waterproof cover, an elastic band and a pencil tucked in, shown closed and open (pages with hand-drawn water-level charts and small sketches, no readable text).
+
+Size: the otter is a little shorter than the fox in the attached sheet; the spokesman is an adult human, taller than all the animals except the bear.
 
 Style: Classic 2D hand-drawn animated-film style (not 3D, not pixel art): clean ink outlines, flat colours with soft cel shading, expressive faces. No text, no letters, no logos, no watermark.
 ```
@@ -191,17 +210,17 @@ Scene: A brand-new black asphalt road cut through a hilly spruce forest in centr
 Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. Any humans are drawn in the same simple cartoon style as the animals: simplified shapes, flat colours, few details on faces and hair, no realistic or semi-realistic faces. Soft, painterly background with few small details, so the characters stand out, but the place stays recognisable. Landscape format. No text, no letters, no logos, no watermark.
 ```
 
-## 08 Datacentrum — La salle des serveurs
+## 08 Datacentrum — Cachés derrière les serveurs
 
 Fiche `10_Series_08_Datacentrum_05_aj-ked.md` → `img/illus_08_datacentrum.jpg`
 
-**À joindre en plus** : la planche des seconds rôles (Marek).
+**À joindre en plus** : la planche des seconds rôles (Marek) et la planche des nouveaux rôles (le porte-parole).
 **Photo de référence** : [salle de serveurs](https://commons.wikimedia.org/wiki/File:Server_Room_(22397102849).jpg) (Carl Lender, CC BY 2.0)
 
 ```
 Use the attached model sheets for the characters (keep them exactly as designed). Use the attached photo as the reference for the server room.
 
-Scene: Inside a huge, cold data centre hall, wide landscape format. Long rows of black server cabinets with thousands of tiny blinking blue and green lights disappear into the distance; cold white light from the ceiling, cables above. Marek, the badger in his navy work vest, walks them through and explains calmly, open-handed. The fox and Andrea look around, impressed; Maťo rubs his arms because of the cold; Katka holds up her phone to film the lights, delighted. Quiet, a bit unreal.
+Scene: Inside a huge, cold data centre hall, wide landscape format. Long rows of black server cabinets with thousands of tiny blinking blue and green lights; cold white light from the ceiling, cables above. In the central aisle, on the right, the smiling spokesman in his grey suit and green tie walks in with a human director in a white shirt, both talking, not noticing anything. On the left, the four friends hide behind the end of a row of cabinets: the fox clutches his backpack, Andrea listens with narrowed eyes, Katka covers her own mouth, and Maťo, far too big, sticks out on both sides of the cabinet. Marek, the badger in his navy work vest, stands calmly in the aisle in front of them, hands in his pockets, as if nothing were going on. Funny, tense, a little unreal.
 
 Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. Any humans are drawn in the same simple cartoon style as the animals: simplified shapes, flat colours, few details on faces and hair, no realistic or semi-realistic faces. Soft, painterly background with few small details, so the characters stand out, but the place stays recognisable. Landscape format. No text, no letters, no logos, no watermark.
 ```
@@ -210,13 +229,13 @@ Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, f
 
 Fiche `10_Series_09_Bana_05_keby.md` → `img/illus_09_bana.jpg`
 
-**À joindre en plus** : la planche des seconds rôles (Ján).
+**À joindre en plus** : la planche des seconds rôles (Ján). La voiture noire est celle du porte-parole (pas besoin de sa planche, il n'est pas dans l'image).
 **Photo de référence** : [Banská Štiavnica](https://commons.wikimedia.org/wiki/File:Bansk%C3%A1_%C5%A0tiavnica_panor%C3%A1ma_2015.jpg) (Mineralysk, CC0) : pour les collines et la ville au loin.
 
 ```
 Use the attached model sheets for the characters (keep them exactly as designed). Use the attached photo as the reference for the hills and the old town in the distance.
 
-Scene: The gate of a new mine on a forested hill above the old mining town of Banská Štiavnica, late afternoon, wide landscape format. Behind a tall wire gate: bulldozers, a cleared slope, a few spruces still standing. At the gate, a middle-aged human miner in an orange vest and helmet sits on a folding chair with a thermos, friendly. Ján, the red squirrel, talks to him very fast with both hands; the fox, Andrea, Maťo and Katka stand a little behind, listening. Far below in the valley: the old town with its church towers and red roofs. Mixed feelings: nobody is a villain.
+Scene: The gate of a new mine on a forested hill above the old mining town of Banská Štiavnica, late afternoon, wide landscape format. Behind a tall wire gate: bulldozers, a cleared slope, a few spruces still standing. At the gate, a middle-aged human miner in an orange vest and helmet sits on a folding chair with a thermos, friendly. Ján, the red squirrel, talks to him very fast with both hands; the fox, Andrea, Maťo and Katka stand a little behind, listening. Parked near the gate, a shiny black car with its side window half open; Ján glances at it out of the corner of his eye. Far below in the valley: the old town with its church towers and red roofs. Mixed feelings: nobody is a villain.
 
 Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. Any humans are drawn in the same simple cartoon style as the animals: simplified shapes, flat colours, few details on faces and hair, no realistic or semi-realistic faces. Soft, painterly background with few small details, so the characters stand out, but the place stays recognisable. Landscape format. No text, no letters, no logos, no watermark.
 ```
@@ -239,12 +258,14 @@ Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, f
 
 Fiche `10_Series_11_Bratislava_05_redaktorka.md` → `img/illus_11_bratislava.jpg`
 
+**À joindre en plus** : la planche des nouveaux rôles (le porte-parole et le carnet).
+
 **Photo de référence** : [le bâtiment de la radio-télévision slovaque](https://commons.wikimedia.org/wiki/File:Radio_and_Television_Slovakia_(Rozhlas_a_telev%C3%ADzia_Slovenska),_Bratislava.JPG) (Kiwiev, CC0)
 
 ```
 Use the attached model sheet for the characters (keep them exactly as designed). Use the attached photo as the reference for the building (an inverted pyramid of brown steel and glass), but without any sign or lettering.
 
-Scene: In front of a striking inverted-pyramid building in Bratislava, a sunny late morning, wide landscape format. A young human journalist with a laptop under her arm has just come out of the glass door; she has stopped and looks at the four animals with sudden interest, as if she has an idea. The four friends, dusty and tired from the journey, look back at her: the fox hopeful, Andrea cautious, Maťo surprised, Katka already holding up her phone. A small guard booth on the side with a bored guard.
+Scene: In front of a striking inverted-pyramid building in Bratislava, a sunny late morning, wide landscape format. A young human journalist with a laptop under her arm has just come out of the glass door; she has stopped and looks at the four animals with sudden interest, as if she has an idea. The four friends, dusty and tired from the journey, look back at her: the fox hopeful, holding the small blue notebook against his chest, Andrea cautious, Maťo surprised, Katka holding up her phone. A small guard booth on the side with a bored guard; behind it, the smiling spokesman in his grey suit walks in through the barrier, waving at them politely.
 
 Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. Any humans are drawn in the same simple cartoon style as the animals: simplified shapes, flat colours, few details on faces and hair, no realistic or semi-realistic faces. Soft, painterly background with few small details, so the characters stand out, but the place stays recognisable. Landscape format. No text, no letters, no logos, no watermark.
 ```
@@ -253,12 +274,14 @@ Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, f
 
 Fiche `10_Series_12_Hrad_05_priamy-prenos.md` → `img/illus_12_hrad.jpg`
 
+**À joindre en plus** : la planche des nouveaux rôles (la loutre, le porte-parole, le carnet).
+
 **Photo de référence** : [le château de Bratislava](https://commons.wikimedia.org/wiki/File:Bratislava_Castle,_20210727_1004_0250.jpg) (Jakub Hałun, CC BY-SA 4.0)
 
 ```
 Use the attached model sheet for the characters (keep them exactly as designed). Use the attached photo as the reference for the castle.
 
-Scene: A live TV news studio inside Bratislava Castle at dusk, wide landscape format. Behind the guests, a large arched window shows the white castle walls with red roofs, the Danube below and the city lights coming on. A professional TV camera with a small red light on, two lights on stands, cables on the floor. A human news presenter sits on the left with a microphone; facing her, the four friends sit on chairs: Maťo on a chair clearly too small for him, Katka sitting very straight, the fox nervous but brave, speaking, Andrea calm, looking straight at the camera. Serious and touching moment, warm evening light.
+Scene: A live TV news studio inside Bratislava Castle at dusk, wide landscape format. Behind the guests, a large arched window shows the white castle walls with red roofs, the Danube below and the city lights coming on. A professional TV camera with a small red light on, two lights on stands, cables on the floor. A human news presenter sits on the left with a microphone. In the middle, the four friends sit on chairs: Maťo on a chair clearly too small for him, Katka sitting very straight, the fox nervous but brave, speaking, Andrea calm, looking straight at the camera. Next to them sits the otter hydrologist, holding up her open blue notebook with a hand-drawn water chart. On the far right, the spokesman in his grey suit and green tie is still smiling, but his smile is starting to crack. Serious and touching moment, warm evening light.
 
 Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. Any humans are drawn in the same simple cartoon style as the animals: simplified shapes, flat colours, few details on faces and hair, no realistic or semi-realistic faces. Soft, painterly background with few small details, so the characters stand out, but the place stays recognisable. Landscape format. No text, no letters, no logos, no channel logo, no watermark.
 ```
@@ -275,4 +298,48 @@ Use the attached model sheet for the characters (keep them exactly as designed).
 Scene: Early morning in a small garden at the edge of Košice, wide landscape format. The fox sits in the grass under an apple tree full of small green apples, still a little sleepy, telling a long story with big gestures. Andrea sits facing him, holding a nearly empty water bottle, listening; her smile is slowly fading, as if some details of his "dream" were strangely true. Dry yellow grass, soft golden morning light, a few apartment blocks far behind the garden fence.
 
 Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. Any humans are drawn in the same simple cartoon style as the animals: simplified shapes, flat colours, few details on faces and hair, no realistic or semi-realistic faces. Soft, painterly background with few small details, so the characters stand out, but the place stays recognisable. Landscape format. No text, no letters, no logos, no watermark.
+```
+
+---
+
+## Retouches des images déjà faites
+
+À faire dans ChatGPT : joindre l'image existante (`img/illus_…`) + la planche indiquée, coller la demande. Garder le même cadrage.
+
+| Image | Pourquoi | Priorité |
+|---|---|---|
+| 02 Sucho | Le carnet est trouvé dans cette scène : il doit se voir. | à faire |
+| 01 Košice | Les passagers humains ressemblent à des enfants ; le cours n'a que des humains adultes. | à faire |
+| 06 Povodeň | Les visages sourient trop pour une inondation (déjà noté). | à faire |
+| 03 Raj | pán Orol leur remet une page du carnet. | facultatif |
+| 05 Domov | Babka sort l'enveloppe de la loutre. | facultatif |
+
+**02 Sucho** (joindre `illus_02_sucho.jpg` + la planche des nouveaux rôles) :
+
+```
+Keep this image exactly as it is (same framing, characters and style), with one change: the fox now holds a small blue notebook with an elastic band (as in the attached model sheet), open in his paws, and looks at it with surprise; Andrea leans in to look at it too. Optional: far in the background, on the street, a shiny black car is parked.
+```
+
+**01 Košice** (joindre `illus_01_kosice.jpg`) :
+
+```
+Keep this image exactly as it is (same framing, the fox and the hare unchanged), with one change: the human passengers must clearly be adults (a man in his forties reading, an older woman, a middle-aged man looking out of the window), drawn in the same simple cartoon style, no children.
+```
+
+**06 Povodeň** (joindre `illus_06_povoden.jpg` + la planche des héros) :
+
+```
+Keep this image exactly as it is (same framing, characters, poses and style), with one change: the faces of the fox and the bear are no longer smiling widely: they look focused, a little worried but determined, as people helping during a flood. The ducks and the mouse can stay a bit comical.
+```
+
+**03 Raj** (facultatif, joindre `illus_03_raj.jpg`) :
+
+```
+Keep this image exactly as it is, with one change: the eagle ranger holds out a single folded page of paper in his talons towards the hare.
+```
+
+**05 Domov** (facultatif, joindre `illus_05_domov.jpg`) :
+
+```
+Keep this image exactly as it is, with one change: a white paper envelope lies on the tablecloth in front of the old ewe, next to the teapot.
 ```

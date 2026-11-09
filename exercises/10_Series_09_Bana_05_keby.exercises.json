@@ -226,6 +226,22 @@
         "Zrejme by som sa hneval,",
         "ale chodil by som do práce."
       ]
+    },
+    {
+      "id": "qcm-neskoro",
+      "type": "qcm",
+      "l1": "trop tard",
+      "l2": "neskoro",
+      "choices_l1": [
+        "maintenant",
+        "demain",
+        "encore"
+      ],
+      "choices_l2": [
+        "teraz",
+        "zajtra",
+        "ešte"
+      ]
     }
   ]
 }

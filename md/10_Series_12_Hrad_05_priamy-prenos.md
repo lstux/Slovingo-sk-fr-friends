@@ -25,6 +25,7 @@
 | ticho | le silence |
 | zachrániť svet | sauver le monde |
 | aby nás počuli | qu'on nous entende |
+| čítať | lire |
 
 ---
 
@@ -36,6 +37,8 @@
 - 🐻 Maťo, un ours de quatorze ans, le cousin d'Andrea
 - 🐹 Katka, une marmotte de treize ans, la sœur de Maťo
 - 🎙️ La présentatrice du journal : une adulte, on la vouvoie
+- 🦦 Doktorka Vydrová, une loutre hydrologue : on la vouvoie
+- 🕴️ Le porte-parole de Zelená vlna : on le vouvoie
 
 ---
 
@@ -130,6 +133,54 @@
 > Et nous, nous étions là.
 > A my = et nous
 > sme tam boli = nous y étions
+
+! 🎙️ Pán hovorca, čo na to poviete?
+> Monsieur le porte-parole, qu'en dites-vous ?
+> Pán hovorca = monsieur le porte-parole
+> čo na to poviete = qu'en direz-vous
+
+! 🕴️ Situácia je pod kontrolou. Nie je dôvod na paniku.
+> La situation est sous contrôle. Il n'y a aucune raison de paniquer.
+> Situácia je pod kontrolou = la situation est sous contrôle
+> Nie je dôvod na paniku = il n'y a aucune raison de paniquer
+
+! 🦦 Nie je dôvod na paniku. Ale je dôvod na pravdu. Les a mokrade držia vodu ako špongia. Moje čísla to ukazujú. A títo štyria to videli.
+> Aucune raison de paniquer. Mais une bonne raison de dire la vérité. Les forêts et les zones humides retiennent l'eau comme une éponge. Mes chiffres le montrent. Et ces quatre-là l'ont vu.
+> Nie je dôvod na paniku = il n'y a pas de raison de paniquer
+> Ale je dôvod na pravdu = mais il y a une raison de dire la vérité
+> Les a mokrade držia vodu = la forêt et les zones humides retiennent l'eau
+> ako špongia = comme une éponge
+> Moje čísla to ukazujú = mes chiffres le montrent
+> A títo štyria to videli = et ces quatre-là l'ont vu
+
+! 🎙️ Pán hovorca, čítali ste tie čísla?
+> Monsieur le porte-parole, avez-vous lu ces chiffres ?
+> Pán hovorca = monsieur le porte-parole
+> čítali ste = avez-vous lu
+> tie čísla = ces chiffres
++ Mot nouveau signalé : {{čítať}} = lire. {{čítali ste}} = vous avez lu.
+
+! 🕴️ Nie. Mne povedali, že je to v poriadku.
+> Non. On m'a dit que c'était en ordre.
+> Nie = non
+> Mne povedali = on m'a dit
+> že je to v poriadku = que c'est en ordre
+
+! 🦦 A vy ste sa nepýtali?
+> Et vous n'avez pas demandé ?
+> A vy = et vous
+> ste sa nepýtali = vous n'avez pas demandé
+
+! 🕴️ ... Nie.
+> ... Non.
+> Nie = non
++ À écouter : un long silence avant le « non ». C'est le moment où il ne sourit plus.
+
+! 💬 Pán hovorca sa stále usmieva. Ale už nie tak veľmi.
+> Le porte-parole sourit toujours. Mais beaucoup moins.
+> Pán hovorca = le porte-parole
+> sa stále usmieva = sourit toujours
+> Ale už nie tak veľmi = mais plus autant
 
 ! 💬 Nastane krátke ticho. Moderátorka sa zahľadí do kamery.
 > Un court silence s'installe. La présentatrice regarde droit la caméra.

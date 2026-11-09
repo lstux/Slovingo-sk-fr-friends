@@ -132,6 +132,34 @@
 > čo mne = qu'à moi
 > Len pomalšie = seulement plus lentement
 
+! 📝 A ešte jedna vec. Dnes máme aj iných hostí. Hovorcu skupiny Zelená vlna. A doktorku Vydrovú, hydrologičku. Chudera, v Košiciach stratila zápisník.
+> Encore une chose. Ce soir, nous avons d'autres invités. Le porte-parole du groupe Zelená vlna. Et madame la docteure Vydrová, hydrologue. La pauvre, elle a perdu son carnet à Košice.
+> A ešte jedna vec = et encore une chose
+> Dnes máme aj iných hostí = aujourd'hui nous avons aussi d'autres invités
+> Hovorcu skupiny Zelená vlna = le porte-parole du groupe Zelená vlna
+> A doktorku Vydrovú, hydrologičku = et madame la docteure Vydrová, hydrologue
+> Chudera = la pauvre
+> v Košiciach stratila zápisník = elle a perdu son carnet à Košice
++ Pour comprendre : {{hostí}} = des invités, {{hydrologička}} = une hydrologue, une spécialiste de l'eau.
+
+! 💬 [USER_NAME] pomaly otvorí batoh.
+> [USER_NAME] ouvre lentement son sac à dos.
+> [USER_NAME] pomaly otvorí = [USER_NAME] ouvre lentement
+> batoh = le sac à dos
+
+! 🦊 Modrý zápisník?
+> Un carnet bleu ?
+> Modrý zápisník = un carnet bleu
+
+! 📝 Ako to viete?
+> Comment vous le savez ?
+> Ako to viete = comment le savez-vous
+
+! 🦊 Lebo je tu.
+> Parce qu'il est là.
+> Lebo = parce que
+> je tu = il est ici
+
 ---
 
 ## 🇸🇰 Coin slovaque
