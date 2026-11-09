@@ -43,6 +43,9 @@
       this.busy = false; this.hover = null; this.selected = null; this.mouse = [-1, -1];
       this.dialog = null; this.choices = null; this.panel = null; this.endCard = null;
       this.showFr = true; this.flash = 0; this.t = 0; this.last = 0; this.timers = [];
+      // jeu complet : carnet de la loutre, aide (Andrea puis le telephone de Katka), voyage entre les chapitres
+      this.pages = []; this.clues = []; this.helper = null; this.hintLevel = {}; this.chapter = null; this.visited = [];
+      this.mapState = null;
       try { this.showFr = root.localStorage.getItem(FR_KEY) !== '0'; } catch (e) { /* ignore */ }
       this._bind();
     }
@@ -74,19 +77,29 @@
     // ------------------------------------------------------------ sauvegarde
     save() {
       try {
-        root.localStorage.setItem(SAVE_KEY, JSON.stringify({ scene: this.scene && this.scene.id, flags: this.flags, items: this.items, words: this.words }));
+        root.localStorage.setItem(this.saveKey(), JSON.stringify({
+          scene: this.scene && this.scene.id, flags: this.flags, items: this.items, words: this.words,
+          pages: this.pages, clues: this.clues, helper: this.helper, hintLevel: this.hintLevel, chapter: this.chapter, visited: this.visited,
+        }));
       } catch (e) { /* ignore */ }
     }
     load() {
       try {
-        const s = JSON.parse(root.localStorage.getItem(SAVE_KEY) || 'null');
-        if (s && this.data.scenes[s.scene]) { this.flags = s.flags || {}; this.items = s.items || []; this.words = s.words || {}; return s.scene; }
+        const s = JSON.parse(root.localStorage.getItem(this.saveKey()) || 'null');
+        if (s && this.data.scenes[s.scene]) {
+          this.flags = s.flags || {}; this.items = s.items || []; this.words = s.words || {};
+          this.pages = s.pages || []; this.clues = s.clues || []; this.helper = s.helper || null; this.hintLevel = s.hintLevel || {};
+          this.chapter = s.chapter || null; this.visited = s.visited || [];
+          return s.scene;
+        }
       } catch (e) { /* ignore */ }
       return null;
     }
+    saveKey() { return this.data.saveKey || SAVE_KEY; }
     newGame() {
-      try { root.localStorage.removeItem(SAVE_KEY); } catch (e) { /* ignore */ }
+      try { root.localStorage.removeItem(this.saveKey()); } catch (e) { /* ignore */ }
       this.flags = {}; this.items = []; this.words = {}; this.selected = null; this.endCard = null;
+      this.pages = []; this.clues = []; this.helper = null; this.hintLevel = {}; this.chapter = null; this.visited = []; this.mapState = null; this.panel = null;
       this.enter(this.data.start);
     }
     setShowFr(v) {
@@ -107,6 +120,7 @@
       this.sprites = (def.sprites || []).map((s) => Object.assign({ tx: null, ty: null, face: 1, wt: 0, hidden: false }, s));
       this.timers = []; this.dialog = null; this.choices = null; this.selected = null;
       this.sceneTime = 0;
+      if (def.chapter) { this.chapter = def.chapter; if (!this.visited.includes(def.chapter)) this.visited.push(def.chapter); }
       this.save();
       if (def.onEnter) this.run(() => def.onEnter(this.api()));
     }
@@ -134,12 +148,27 @@
         after: (ms, fn) => g.timers.push({ at: g.sceneTime + ms / 1000, fn }),
         sleep, goScene: (id) => g.enter(id), restart: () => g.enter(g.scene.id),
         end: (sk, fr) => { g.endCard = { sk, fr }; g.save(); },
+        // --- jeu complet
+        knows: (w) => !!g.words[w],
+        talk: (h) => g.talk(h, g.api()),
+        addPage: (id) => { if (!g.pages.includes(id)) { g.pages.push(id); g.save(); } },
+        hasPage: (id) => g.pages.includes(id),
+        addClue: (id) => { if (!g.clues.includes(id)) { g.clues.push(id); g.save(); } },
+        hasClue: (id) => g.clues.includes(id),
+        // aide : who = personnage qui souffle les indices, tokens = nombre d'indices (ou de % de batterie) pour le chapitre
+        setHelper: (who, tokens) => { g.helper = { who, tokens, max: tokens, dead: false }; g.save(); },
+        helperDead: (v = true) => { if (g.helper) { g.helper.dead = v; g.save(); } },
+        chargeHelper: (tokens) => { if (g.helper) { g.helper.tokens = tokens === undefined ? g.helper.max : tokens; g.helper.dead = false; g.save(); } },
+        noHelper: () => { g.helper = null; g.save(); },
+        showMap: (to, opts) => g.showMap(to, opts),
       };
     }
     async run(fn) {
+      this.runs = (this.runs || 0) + 1;   // plusieurs histoires peuvent se chevaucher (changement de decor en plein dialogue)
       this.busy = true;
       try { await fn(); } catch (e) { console.error(e); }
-      this.busy = false;
+      this.runs -= 1;
+      this.busy = this.runs > 0;
     }
 
     // ------------------------------------------------------------ actions
@@ -181,18 +210,35 @@
     spriteRect(s) {
       const im = this.img(s.img), k = this.scaleAt(s.y), h = s.h * k;
       const w = im && im.naturalHeight ? (im.naturalWidth / im.naturalHeight) * h : h * 0.5;
+      if (!s.img && s.emoji) return { x: s.x - h * 0.35, y: s.y - h * 0.85, w: h * 0.7, h: h * 0.85 };
       return { x: s.x - w / 2, y: s.y - h, w, h };
     }
 
     async click(p) {
       if (this.endCard) return;
+      if (this.panel === 'map') { this.clickMap(); return; }
       if (this.panel) { this.panel = null; return; }
       if (this.dialog) { this.advance(); return; }
       if (this.choices) { this.pickChoice(p); return; }
       if (this.busy) return;
-      // inventaire
+      const hb = this.hudButtonAt(p);
+      if (hb) { this.pressHud(hb); return; }
+      // inventaire : un objet, ou deux objets a combiner
       const slot = this.slotAt(p);
-      if (slot >= 0) { this.selected = this.selected === this.items[slot] ? null : this.items[slot]; return; }
+      if (slot >= 0) {
+        const it = this.items[slot];
+        if (this.selected && this.selected !== it) {
+          const a = this.selected; this.selected = null;
+          const c = (this.data.combos || []).find((q) => (q.a === a && q.b === it) || (q.a === it && q.b === a));
+          this.run(async () => {
+            if (c) await c.run(this.api());
+            else await this.say('fox', 'Hmm… to k sebe nepasuje.', 'Hmm… ça ne va pas ensemble.');
+          });
+          return;
+        }
+        this.selected = this.selected === it ? null : it;
+        return;
+      }
       const api = this.api(), h = this.hotspotAt(p), fox = this.sprites.find((s) => s.id === this.scene.player);
       this.run(async () => {
         if (!h) {   // le sol : le renard y marche
@@ -208,10 +254,76 @@
           else await this.say('fox', 'Hmm… to nejde.', 'Hmm… ça ne marche pas.');
         } else if (h.onUse) {
           await h.onUse(api);
+        } else if (h.topics) {
+          await this.talk(h, api);
         } else if (h.look) {
           await this.say(h.look.who || 'fox', h.look.sk, h.look.fr, h.look.words);
         }
       });
+    }
+    // menu de sujets : on ne peut parler que de ce dont on connait le mot (le Slovnik sert de cles)
+    async talk(h, api) {
+      if (h.greet) await this.say(h.greet.who || (h.sprite || 'narrator'), h.greet.sk, h.greet.fr, h.greet.words);
+      for (;;) {
+        const ts = (h.topics || []).filter((t) => (!t.need || this.words[t.need]) && (!t.when || t.when(api)) && !(t.once && this.flags['topic:' + (t.id || t.sk)]));
+        const shown = ts.slice(0, 6), opts = shown.map((t) => ({ sk: t.sk, fr: t.fr }));
+        opts.push({ sk: 'Dovidenia.', fr: 'Au revoir.' });
+        const i = await this.choose(opts);
+        if (i >= shown.length) { if (h.bye) await this.say(h.bye.who || (h.sprite || 'narrator'), h.bye.sk, h.bye.fr); return; }
+        const t = shown[i];
+        if (t.once) { this.flags['topic:' + (t.id || t.sk)] = true; this.save(); }
+        await t.run(api);
+      }
+    }
+    // indices : le helper (Andrea, puis le telephone de Katka) souffle, de plus en plus clairement, un nombre limite de fois
+    async useHint() {
+      const H = this.helper, sc = this.scene;
+      if (!H) return;
+      const cfg = (this.data.helpers || {})[H.who] || {};
+      await this.run(async () => {
+        if (H.dead) { await this.say(cfg.who || H.who, cfg.dead ? cfg.dead.sk : '…', cfg.dead ? cfg.dead.fr : '…'); return; }
+        if (H.tokens <= 0) { await this.say(cfg.who || H.who, cfg.empty ? cfg.empty.sk : 'Skús ešte chvíľu sám.', cfg.empty ? cfg.empty.fr : 'Essaie encore un peu tout seul.'); return; }
+        const api = this.api(), h = (sc.hints || []).find((q) => !q.when || q.when(api));
+        if (!h) { await this.say(cfg.who || H.who, 'Pozri sa dobre okolo seba.', 'Regarde bien autour de toi.'); return; }
+        const lv = Math.min(this.hintLevel[h.id] || 0, h.levels.length - 1);
+        this.hintLevel[h.id] = (this.hintLevel[h.id] || 0) + 1;
+        H.tokens -= 1; this.save();
+        await this.say(cfg.who || H.who, h.levels[lv].sk, h.levels[lv].fr, h.levels[lv].words);
+      });
+    }
+    hudButtons() {
+      const out = [];
+      let x = 14;
+      const add = (id, icon, extra) => { out.push(Object.assign({ id, icon, x, y: 14, w: 64, h: 64 }, extra || {})); x += 74; };
+      if (this.helper) {
+        const cfg = (this.data.helpers || {})[this.helper.who] || {};
+        add('hint', cfg.icon || '💡', { badge: this.helper.dead ? '✕' : String(this.helper.tokens), title: cfg.title });
+      }
+      add('words', '📖', { title: 'Slovník' });
+      if (this.items.includes('zapisnik') || this.pages.length) add('notebook', '📓', { title: 'Zápisník' });
+      if (this.data.chapters) add('map', '🗺️', { title: 'Mapa' });
+      return out;
+    }
+    hudButtonAt(p) { return this.hudButtons().find((b) => p[0] >= b.x && p[0] <= b.x + b.w && p[1] >= b.y && p[1] <= b.y + b.h) || null; }
+    pressHud(b) {
+      if (b.id === 'hint') this.useHint();
+      else if (b.id === 'words') this.panel = 'words';
+      else if (b.id === 'notebook') this.panel = 'notebook';
+      else if (b.id === 'map') { this.mapState = { from: this.chapter, to: null, t: 1, resolve: null, browse: true }; this.panel = 'map'; }
+    }
+    // carte de Slovaquie : le voyage d'un chapitre au suivant (to = chapitre d'arrivee)
+    showMap(to, opts) {
+      return new Promise((resolve) => {
+        this.mapState = { from: (opts && opts.from) || this.chapter, to, t: 0, resolve, browse: false, note: opts && opts.note };
+        this.panel = 'map';
+      });
+    }
+    clickMap() {
+      const m = this.mapState;
+      if (!m) { this.panel = null; return; }
+      if (m.t < 1) { m.t = 1; return; }
+      this.panel = null; this.mapState = null;
+      if (m.resolve) m.resolve();
     }
     advance() {
       const d = this.dialog;
@@ -253,7 +365,7 @@
       cv.addEventListener('pointerdown', (ev) => { ev.preventDefault(); this.mouse = pos(ev); this.click(this.mouse); });
       root.addEventListener('keydown', (ev) => {
         if (ev.key === ' ' || ev.key === 'Enter') { ev.preventDefault(); if (this.dialog) this.advance(); else this.flashZones(); }
-        else if (ev.key === 'Escape') this.panel = null;
+        else if (ev.key === 'Escape') { if (this.panel === 'map') this.clickMap(); else this.panel = null; }
       });
     }
 
@@ -270,6 +382,7 @@
       if (!this.scene) return;
       this.sceneTime += dt;
       if (this.flash > 0) this.flash -= dt;
+      if (this.panel === 'map' && this.mapState && this.mapState.t < 1) this.mapState.t = Math.min(1, this.mapState.t + dt / 2.6);
       if (this.dialog && this.dialog.shown < this.dialog.sk.length) this.dialog.shown = Math.min(this.dialog.sk.length, this.dialog.shown + dt * 55);
       for (const s of this.sprites) {
         if (s.tx === null) { s.wt = 0; continue; }
@@ -292,7 +405,7 @@
         }
       }
       this.hover = this.busy || this.dialog || this.choices || this.panel ? null : this.hotspotAt(this.mouse);
-      this.cv.style.cursor = this.hover || this.slotAt(this.mouse) >= 0 ? 'pointer' : 'default';
+      this.cv.style.cursor = this.hover || this.slotAt(this.mouse) >= 0 || (!this.busy && !this.dialog && !this.choices && !this.panel && this.hudButtonAt(this.mouse)) ? 'pointer' : 'default';
     }
 
     // ------------------------------------------------------------ rendu
@@ -303,13 +416,17 @@
       if (!sc) return;
       const bg = this.img(sc.bg);
       if (bg && bg.naturalWidth) c.drawImage(bg, 0, 0, W, H);
+      else if (!sc.bg) this.drawPlaceholder(sc);
       for (const l of sc.layers || []) this.drawLayer(l);
       const order = this.sprites.filter((s) => !s.hidden).sort((a, b) => a.y - b.y);
       for (const s of order) this.drawSprite(s);
+      if (sc.dim) { const a = sc.dim(this.api()); if (a > 0) { c.fillStyle = `rgba(8,10,40,${a})`; c.fillRect(0, 0, W, H); } }
       this.drawHud();
       if (this.dialog) this.drawDialog();
       if (this.choices) this.drawChoices();
       if (this.panel === 'words') this.drawWords();
+      if (this.panel === 'notebook') this.drawNotebook();
+      if (this.panel === 'map') this.drawMap();
       if (this.endCard) this.drawEnd();
     }
     // une image qui s'estompe sur sa gauche (pour la raccorder a la precedente)
@@ -371,6 +488,16 @@
     }
     drawSprite(s) {
       const im = this.img(s.img);
+      if (!s.img && s.emoji) {   // personnage provisoire : un emoji
+        const c = this.ctx, k = this.scaleAt(s.y), h = s.h * k;
+        c.save(); c.translate(s.x, s.y);
+        c.fillStyle = 'rgba(0,0,0,.25)'; c.beginPath(); c.ellipse(0, -4, h * 0.22, h * 0.05, 0, 0, 7); c.fill();
+        c.font = Math.round(h * 0.7) + 'px system-ui, sans-serif'; c.textAlign = 'center'; c.textBaseline = 'alphabetic';
+        if (s.face < 0) c.scale(-1, 1);
+        c.fillText(s.emoji, 0, -h * 0.12);
+        c.restore();
+        return;
+      }
       if (!im || !im.naturalWidth) return;
       const c = this.ctx, moving = s.tx !== null, ws = s.walkSheet, wim = ws && this.img(ws.img);
       c.save();
@@ -437,13 +564,27 @@
         c.fillStyle = '#ffe08a'; c.textBaseline = 'top'; c.fillText(label, x + 18, y + 7);
         if (this.showFr) { c.font = 'italic 22px system-ui, sans-serif'; c.fillStyle = '#c9c4d8'; c.fillText(n.fr, x + 18, y + 40); }
       }
+      // boutons : aide, Slovnik, carnet, carte
+      for (const b of this.hudButtons()) {
+        const over = !this.busy && !this.dialog && !this.choices && !this.panel && this.hudButtonAt(this.mouse) === b;
+        c.fillStyle = over ? 'rgba(240,168,48,.92)' : 'rgba(20,20,35,.78)'; this.roundRect(b.x, b.y, b.w, b.h, 14); c.fill();
+        c.strokeStyle = '#5a5a80'; c.lineWidth = 3; c.stroke();
+        c.font = '36px system-ui, sans-serif'; c.textAlign = 'center'; c.textBaseline = 'middle'; c.fillStyle = '#fff';
+        c.fillText(b.icon, b.x + b.w / 2, b.y + b.h / 2 + 3);
+        if (b.badge !== undefined) {
+          c.fillStyle = b.badge === '0' || b.badge === '✕' ? '#b3402e' : '#3a9a5c'; c.beginPath(); c.arc(b.x + b.w - 6, b.y + b.h - 6, 15, 0, 7); c.fill();
+          c.fillStyle = '#fff'; c.font = '700 18px system-ui, sans-serif'; c.fillText(b.badge, b.x + b.w - 6, b.y + b.h - 5);
+        }
+        c.textAlign = 'left';
+      }
       // inventaire
       for (let i = 0; i < this.items.length; i++) {
         const r = this.slotRect(i), it = this.data.items[this.items[i]], sel = this.selected === this.items[i];
         c.fillStyle = sel ? 'rgba(240,168,48,.92)' : 'rgba(20,20,35,.78)'; this.roundRect(r.x, r.y, r.w, r.h, 12); c.fill();
         c.strokeStyle = sel ? '#fff' : '#5a5a80'; c.lineWidth = 3; c.stroke();
-        const im = this.img(it.icon);
+        const im = it.icon ? this.img(it.icon) : null;
         if (im && im.naturalWidth) c.drawImage(im, r.x + 4, r.y + 4, r.w - 8, r.h - 8);
+        else if (it.emoji) { c.font = '40px system-ui, sans-serif'; c.textAlign = 'center'; c.textBaseline = 'middle'; c.fillStyle = '#fff'; c.fillText(it.emoji, r.x + r.w / 2, r.y + r.h / 2 + 3); c.textAlign = 'left'; }
       }
       if (this.selected && !this.dialog) {
         const it = this.data.items[this.selected];
@@ -499,6 +640,105 @@
       });
       if (!ws.length) { c.fillStyle = '#9a96a8'; c.fillText('Pas encore de mots : parle, regarde, écoute.', 80, 140); }
       c.font = '22px system-ui'; c.fillStyle = '#9a96a8'; c.fillText('Touche pour fermer', 80, H - 60);
+    }
+    // decor provisoire : degrade, sol, noms des zones (pour jouer avant d'avoir les images)
+    drawPlaceholder(sc) {
+      const c = this.ctx, tint = sc.tint || ['#31456b', '#8aa0c0'];
+      const g = c.createLinearGradient(0, 0, 0, H);
+      g.addColorStop(0, tint[0]); g.addColorStop(0.75, tint[1]); g.addColorStop(1, tint[1]);
+      c.fillStyle = g; c.fillRect(0, 0, W, H);
+      if (sc.floor) {
+        c.beginPath(); sc.floor.forEach(([x, y], i) => (i ? c.lineTo(x, y) : c.moveTo(x, y))); c.closePath();
+        c.fillStyle = 'rgba(255,255,255,.14)'; c.fill();
+      }
+      for (const h of sc.hotspots || []) {
+        if (h.when && !h.when(this.api())) continue;
+        if (!h.poly) continue;
+        const [x0, y0, x1, y1] = bbox(h.poly);
+        c.fillStyle = 'rgba(255,255,255,.1)'; c.fillRect(x0, y0, x1 - x0, y1 - y0);
+        c.strokeStyle = 'rgba(255,255,255,.35)'; c.lineWidth = 2; c.setLineDash([6, 6]); c.strokeRect(x0, y0, x1 - x0, y1 - y0); c.setLineDash([]);
+        if (h.name) { c.font = '600 22px system-ui, sans-serif'; c.fillStyle = 'rgba(255,255,255,.7)'; c.textAlign = 'center'; c.textBaseline = 'middle'; c.fillText(h.name.sk, (x0 + x1) / 2, (y0 + y1) / 2, Math.max(60, x1 - x0 - 8)); c.textAlign = 'left'; }
+      }
+      c.font = '600 26px system-ui, sans-serif'; c.fillStyle = 'rgba(255,255,255,.75)'; c.textBaseline = 'top';
+      c.fillText((sc.title ? sc.title.sk + ' · ' : '') + 'décor provisoire', 24, H - 52);
+    }
+    drawNotebook() {
+      const c = this.ctx, nb = this.data.notebook || { pages: {}, clues: {} };
+      c.fillStyle = 'rgba(10,10,20,.92)'; c.fillRect(0, 0, W, H);
+      c.fillStyle = '#7fb4ff'; c.font = '700 44px system-ui, sans-serif'; c.textBaseline = 'top';
+      const all = Object.keys(nb.pages || {});
+      c.fillText(`Zápisník Dr. V. · strany ${this.pages.length}/${all.length}`, 80, 40);
+      let y = 110;
+      for (const id of all) {
+        const found = this.pages.includes(id), pg = nb.pages[id];
+        c.fillStyle = found ? '#fff' : '#5a5a70'; c.font = '700 28px system-ui, sans-serif';
+        c.fillText(found ? pg.title.sk : '? ? ?', 80, y);
+        if (found) {
+          c.font = '26px system-ui, sans-serif'; c.fillStyle = '#e8e4f8'; c.fillText(pg.sk, 100, y + 36);
+          if (this.showFr) { c.font = 'italic 22px system-ui, sans-serif'; c.fillStyle = '#b9b4cf'; c.fillText(pg.fr, 100, y + 68); }
+          y += 108;
+        } else y += 44;
+      }
+      const cl = Object.keys(nb.clues || {}).filter((id) => this.clues.includes(id));
+      y += 14; c.fillStyle = '#ffe08a'; c.font = '700 30px system-ui, sans-serif'; c.fillText('Stopy · indices', 80, y); y += 44;
+      c.font = '24px system-ui, sans-serif';
+      for (const id of cl) { c.fillStyle = '#fff'; c.fillText('• ' + nb.clues[id].sk, 100, y); if (this.showFr) { c.fillStyle = '#b9b4cf'; c.font = 'italic 20px system-ui, sans-serif'; c.fillText(nb.clues[id].fr, 124, y + 28); c.font = '24px system-ui, sans-serif'; y += 28; } y += 38; }
+      if (!cl.length) { c.fillStyle = '#9a96a8'; c.fillText('Pas encore d\'indices.', 100, y); }
+      c.font = '22px system-ui'; c.fillStyle = '#9a96a8'; c.fillText('Touche pour fermer', 80, H - 50);
+    }
+    // carte de Slovaquie (contour simplifie) : etapes du voyage, trajet anime vers le chapitre suivant
+    mapXY(lon, lat) {
+      const k = 252, x0 = 150, y0 = 650;
+      return [x0 + (lon - 16.7) * 0.66 * k, y0 - (lat - 47.7) * k];
+    }
+    drawMap() {
+      const c = this.ctx, m = this.mapState, chs = this.data.chapters || [];
+      c.fillStyle = '#e8d9ae'; c.fillRect(0, 0, W, H);
+      c.strokeStyle = 'rgba(120,90,40,.35)'; c.lineWidth = 6; c.strokeRect(24, 24, W - 48, H - 48);
+      const outline = [[16.85, 48.35], [17.1, 48.0], [17.7, 47.8], [18.1, 47.75], [18.7, 47.85], [19.1, 48.05], [19.6, 48.2], [20.3, 48.3], [21.0, 48.5], [21.8, 48.35], [22.2, 48.4], [22.55, 49.05], [22.0, 49.25], [21.4, 49.4], [20.9, 49.3], [20.3, 49.4], [19.9, 49.2], [19.5, 49.6], [18.9, 49.5], [18.4, 49.3], [17.9, 49.05], [17.5, 48.85], [17.1, 48.85], [16.85, 48.6]];
+      c.beginPath(); outline.forEach(([lo, la], i) => { const [x, y] = this.mapXY(lo, la); i ? c.lineTo(x, y) : c.moveTo(x, y); }); c.closePath();
+      c.fillStyle = '#b7d29a'; c.fill(); c.strokeStyle = '#6b8a4a'; c.lineWidth = 4; c.stroke();
+      const idx = (id) => chs.findIndex((q) => q.id === id);
+      const cur = m ? idx(m.to || m.from) : idx(this.chapter);
+      // trajet deja fait + trajet anime
+      const pts = chs.map((q) => this.mapXY(q.lon, q.lat));
+      const upTo = m && m.to ? idx(m.to) : cur;
+      const from = m && m.to ? idx(m.from) : -1;
+      c.setLineDash([12, 10]); c.lineWidth = 5; c.strokeStyle = 'rgba(150,70,40,.85)';
+      c.beginPath();
+      for (let i = 0; i <= (m && m.to ? Math.max(0, from) : cur) && i < pts.length; i++) i ? c.lineTo(pts[i][0], pts[i][1]) : c.moveTo(pts[i][0], pts[i][1]);
+      c.stroke();
+      let dot = null;
+      if (m && m.to && from >= 0 && upTo >= 0) {
+        const a = pts[from], b = pts[upTo], t = m.t;
+        dot = [a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t];
+        c.beginPath(); c.moveTo(a[0], a[1]); c.lineTo(dot[0], dot[1]); c.stroke();
+      }
+      c.setLineDash([]);
+      const seen = new Set();
+      chs.forEach((q, i) => {
+        const key = q.lon + ',' + q.lat;
+        const [x, y] = pts[i];
+        const visited = this.visited.includes(q.id) || (m && m.to === q.id && m.t >= 1);
+        if (!seen.has(key)) {
+          seen.add(key);
+          c.beginPath(); c.arc(x, y, 13, 0, 7); c.fillStyle = visited ? '#d8892b' : '#9a9a8a'; c.fill(); c.strokeStyle = '#fff'; c.lineWidth = 3; c.stroke();
+        }
+        if (visited && q.label !== false) {
+          c.font = '600 21px system-ui, sans-serif'; c.fillStyle = '#3d2b12'; c.textAlign = 'left'; c.textBaseline = 'middle';
+          c.fillText(q.place ? q.place.sk : q.title.sk, x + 18, y - 4 + (q.dy || 0));
+        }
+      });
+      if (dot) { c.beginPath(); c.arc(dot[0], dot[1], 11 + Math.sin(this.t * 6) * 2, 0, 7); c.fillStyle = '#c0392b'; c.fill(); c.strokeStyle = '#fff'; c.lineWidth = 3; c.stroke(); }
+      // titre
+      const target = m && m.to ? chs[idx(m.to)] : chs[cur];
+      c.textAlign = 'left'; c.textBaseline = 'top';
+      if (target) {
+        c.fillStyle = '#3d2b12'; c.font = '700 44px system-ui, sans-serif'; c.fillText(`${target.num !== undefined ? target.num + ' · ' : ''}${target.title.sk}`, 60, 52);
+        if (this.showFr) { c.font = 'italic 28px system-ui, sans-serif'; c.fillStyle = '#6b5530'; c.fillText(target.title.fr, 60, 106); }
+      }
+      if (m && m.note) { c.font = '600 28px system-ui, sans-serif'; c.fillStyle = '#6b3a20'; c.fillText(m.note.sk, 60, H - 110); if (this.showFr) { c.font = 'italic 22px system-ui, sans-serif'; c.fillText(m.note.fr, 60, H - 74); } }
+      c.font = '22px system-ui'; c.fillStyle = '#7a6a48'; c.fillText(m && m.browse ? 'Touche pour fermer' : (m && m.t >= 1 ? 'Touche pour continuer' : 'Touche pour passer'), W - 330, H - 56);
     }
     drawEnd() {
       const c = this.ctx, e = this.endCard;

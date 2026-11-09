@@ -15,3 +15,11 @@ Aperçu : la scène du tram de Košice (valider son ticket, passer le contrôle,
 - **Test** : `node web-games/tests/aventure_test.js` joue la scène dans Chromium (Playwright).
 
 Les lignes slovaques et françaises sont une première écriture, à relire.
+
+
+## Version de test du jeu : `jeu.html`
+
+`jeu.html` + `js/game.js` (donnees `ZG_DATA`) : prologue, chapitre 1 et chapitre 2 de Zajko Quest, decors provisoires (sauf le tram).
+Le moteur (`js/engine.js`) gere en plus : menu de sujets lie au Slovnik (`topics` + `need`), combinaison de deux objets (`combos`),
+indices par Andrea (`hints`, `helpers`), carnet de la loutre (`notebook`), carte du voyage entre chapitres (`chapters`, `showMap`).
+Conception : `docs/Jeu-conception.md`. Test : `node web-games/tests/jeu_test.js`.
