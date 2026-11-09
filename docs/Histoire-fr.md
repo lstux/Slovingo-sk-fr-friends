@@ -1453,6 +1453,14 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🕴️ Alors c'est nous qui devons le trouver. Avant elle.
 
+🧑 Et si la loutre avait raison ?
+
+🕴️ On m'a dit que tout allait bien.
+
+🧑 Qui vous l'a dit ?
+
+🕴️ Des collègues. Eux l'ont entendu des ingénieurs. Moi, je ne demande pas. Je parle, c'est tout.
+
 💬 Le monsieur en costume sourit et s'en va. Gab serre son sac à dos.
 
 🐹 Ils cherchent notre carnet.
@@ -1460,6 +1468,8 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 🐻 Son carnet à elle.
 
 🐹 Maintenant, c'est le nôtre.
+
+🐰 Vous avez entendu ? Chacun l'a entendu de quelqu'un d'autre. Et personne n'a posé la question.
 
 ## Scène 6
 
@@ -1871,6 +1881,10 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🐻 Et après, il n'y a plus d'éponge.
 
+🐹 Alors, à qui la faute ?
+
+🐰 À chacun un peu. Donc à personne tout à fait.
+
 🐻 Qu'est-ce qu'on leur dira à la télévision ?
 
 🐹 La vérité.
@@ -2248,6 +2262,14 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 🕴️ La situation est sous contrôle. Il n'y a aucune raison de paniquer.
 
 🦦 Aucune raison de paniquer. Mais une bonne raison de dire la vérité. Les forêts et les zones humides retiennent l'eau comme une éponge. Mes chiffres le montrent. Et ces quatre-là l'ont vu.
+
+🎙️ Monsieur le porte-parole, avez-vous lu ces chiffres ?
+
+🕴️ Non. On m'a dit que c'était en ordre.
+
+🦦 Et vous n'avez pas demandé ?
+
+🕴️ ... Non.
 
 💬 Le porte-parole sourit toujours. Mais beaucoup moins.
 

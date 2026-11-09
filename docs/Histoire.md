@@ -1464,6 +1464,14 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🕴️ Tak ho musíme nájsť my. Skôr ako ona.
 
+🧑 A ak má tá vydra pravdu?
+
+🕴️ Mne povedali, že je všetko v poriadku.
+
+🧑 Kto vám to povedal?
+
+🕴️ Kolegovia. Tí to počuli od inžinierov. Ja sa nepýtam. Ja len hovorím.
+
 💬 Pán v obleku sa usmeje a odíde. Gab drží batoh pevne.
 
 🐹 Oni hľadajú náš zápisník.
@@ -1471,6 +1479,8 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 🐻 Jej zápisník.
 
 🐹 Teraz je náš.
+
+🐰 Počuli ste? Každý to počul od niekoho iného. A nikto sa nepýtal.
 
 ## Scéna 6
 
@@ -1882,6 +1892,10 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🐻 A potom už nie je špongia.
 
+🐹 Takže kto za to môže?
+
+🐰 Každý trochu. Preto nikto celkom.
+
 🐻 Čo im povieme v televízii?
 
 🐹 Pravdu.
@@ -2255,6 +2269,14 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 🕴️ Situácia je pod kontrolou. Nie je dôvod na paniku.
 
 🦦 Nie je dôvod na paniku. Ale je dôvod na pravdu. Les a mokrade držia vodu ako špongia. Moje čísla to ukazujú. A títo štyria to videli.
+
+🎙️ Pán hovorca, čítali ste tie čísla?
+
+🕴️ Nie. Mne povedali, že je to v poriadku.
+
+🦦 A vy ste sa nepýtali?
+
+🕴️ ... Nie.
 
 💬 Pán hovorca sa stále usmieva. Ale už nie tak veľmi.
 
