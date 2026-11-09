@@ -264,6 +264,88 @@
         "Maintenant, c'est fini.",
         "Avant, c'était le nôtre."
       ]
+    },
+    {
+      "id": "qcm-ma-pravdu",
+      "type": "qcm",
+      "l1": "avoir raison",
+      "l2": "mať pravdu",
+      "choices_l1": [
+        "l'ingénieur",
+        "autre",
+        "se cacher"
+      ],
+      "choices_l2": [
+        "inžinier",
+        "iný",
+        "skryť sa"
+      ]
+    },
+    {
+      "id": "blank-mne-povedali-e-je-v-etko-v-poriadku",
+      "type": "fill-blank",
+      "l1": "On m'a dit que tout allait bien.",
+      "l2": "Mne povedali, že je všetko v poriadku.",
+      "missing_l1": "tout",
+      "missing_l2": "všetko",
+      "blank_index_l1": 4,
+      "blank_index_l2": 4,
+      "choices_l1": [
+        "rien",
+        "personne",
+        "beaucoup"
+      ],
+      "choices_l2": [
+        "nič",
+        "nikto",
+        "veľa"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "listen-kto-v-m-to-povedal",
+      "type": "listen",
+      "l1": "Qui vous l'a dit ?",
+      "l2": "Kto vám to povedal?",
+      "choices_l1": [
+        "Qui vous l'a demandé ?",
+        "Qui te l'a dit ?",
+        "Qu'est-ce qu'il vous a dit ?"
+      ]
+    },
+    {
+      "id": "order-kolegovia-t-to-po-uli-od-in-inierov-ja-sa-nep-tam-ja-len-hovor-m",
+      "type": "order",
+      "l1": "Des collègues. Eux l'ont entendu des ingénieurs. Moi, je ne demande pas. Je parle, c'est tout.",
+      "l2": "Kolegovia. Tí to počuli od inžinierov. Ja sa nepýtam. Ja len hovorím.",
+      "tokens_l1": [
+        "Des collègues.",
+        "Eux l'ont entendu des ingénieurs.",
+        "Moi, je ne demande pas.",
+        "Je parle, c'est tout."
+      ],
+      "tokens_l2": [
+        "Kolegovia.",
+        "Tí to počuli od inžinierov.",
+        "Ja sa nepýtam.",
+        "Ja len hovorím."
+      ]
+    },
+    {
+      "id": "match-ma-pravdu-vocab",
+      "type": "match",
+      "l1": [
+        "avoir raison",
+        "les collègues",
+        "l'ingénieur",
+        "autre"
+      ],
+      "l2": [
+        "mať pravdu",
+        "kolegovia",
+        "inžinier",
+        "iný"
+      ]
     }
   ]
 }

@@ -226,6 +226,81 @@
         "Datacentrum na mokradi, kde už nie sú žaby.",
         "A baňu na hore, z ktorej odišli veveričky."
       ]
+    },
+    {
+      "id": "qcm-ta",
+      "type": "qcm",
+      "l1": "lire",
+      "l2": "čítať",
+      "choices_l1": [
+        "le silence",
+        "ailleurs",
+        "les invités"
+      ],
+      "choices_l2": [
+        "ticho",
+        "inde",
+        "hostia"
+      ]
+    },
+    {
+      "id": "listen-p-n-hovorca-ta-li-ste-tie-sla",
+      "type": "listen",
+      "l1": "Monsieur le porte-parole, avez-vous lu ces chiffres ?",
+      "l2": "Pán hovorca, čítali ste tie čísla?",
+      "choices_l1": [
+        "Monsieur le porte-parole, avez-vous vu ces chiffres ?",
+        "Monsieur le porte-parole, avez-vous écrit ces chiffres ?",
+        "Madame la présentatrice, avez-vous lu ces chiffres ?"
+      ]
+    },
+    {
+      "id": "blank-nie-mne-povedali-e-je-to-v-poriadku",
+      "type": "fill-blank",
+      "l1": "Non. On m'a dit que c'était en ordre.",
+      "l2": "Nie. Mne povedali, že je to v poriadku.",
+      "missing_l1": "dit",
+      "missing_l2": "povedali",
+      "blank_index_l1": 3,
+      "blank_index_l2": 2,
+      "choices_l1": [
+        "vu",
+        "cherché",
+        "perdu"
+      ],
+      "choices_l2": [
+        "videli",
+        "hľadali",
+        "stratili"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-p-n-hovorca-ta-li-ste-tie-sla",
+      "type": "order",
+      "l1": "Monsieur le porte-parole, avez-vous lu ces chiffres ?",
+      "l2": "Pán hovorca, čítali ste tie čísla?",
+      "tokens_l1": [
+        "Monsieur le porte-parole,",
+        "avez-vous lu",
+        "ces chiffres ?"
+      ],
+      "tokens_l2": [
+        "Pán hovorca,",
+        "čítali ste",
+        "tie čísla?"
+      ]
+    },
+    {
+      "id": "listen-a-vy-ste-sa-nep-tali",
+      "type": "listen",
+      "l1": "Et vous n'avez pas demandé ?",
+      "l2": "A vy ste sa nepýtali?",
+      "choices_l1": [
+        "Et vous n'avez pas répondu ?",
+        "Et toi, tu n'as pas demandé ?",
+        "Et elle n'a pas demandé ?"
+      ]
     }
   ]
 }
