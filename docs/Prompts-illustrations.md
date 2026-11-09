@@ -15,6 +15,10 @@ Une illustration par série, pour la **fiche 05** (le moment fort de l'épisode)
 
 **Crédits** : « Illustration générée avec ChatGPT, d'après une photo de <auteur> (Wikimedia Commons, <licence>) ». Une image faite d'après une photo CC BY ou CC BY-SA en est une œuvre dérivée : elle garde le nom du photographe, et sous CC BY-SA elle reste sous CC BY-SA (voir `img/credits.md`). Je m'en occupe à l'intégration.
 
+## Limite de 2 fichiers (ChatGPT)
+
+ChatGPT ne prend que 2 fichiers par conversation. Pour les scènes qui demandent plusieurs planches (08, 09, 11, 12), une fois la planche des nouveaux rôles validée, je fabrique `docs/illustrations/planche-tous.jpg` (les trois planches empilées en un seul fichier). Il suffit alors de joindre cette planche + la photo de référence.
+
 ## Les personnages
 
 | | Personnage | Description à garder |
@@ -81,8 +85,8 @@ Style: Classic 2D hand-drawn animated-film style (not 3D, not pixel art): clean 
 ```
 Character model sheet for a friendly animated film, on a plain light background, in exactly the same drawing style as the attached model sheet. Two new characters and one prop, each shown front view and three-quarter view, full body:
 
-1. Doktorka Vydrová, an adult Eurasian otter, a field hydrologist (sleek brown fur, cream throat and cheeks, small round ears, long whiskers, bright clever eyes, energetic and a little scatterbrained), wearing a khaki bucket hat, an olive-green waterproof field jacket with many pockets, and yellow rubber boots. She carries a long graduated measuring stick for water levels.
-2. A human spokesman in his forties, drawn in the same simple cartoon style as the animals (simplified shapes, flat colours, few details on the face, no realistic face): slim, neatly side-parted hair, a charcoal-grey suit, a white shirt and a thin emerald-green tie, a wide, permanent, slightly too perfect smile, holding a brown leather document folder. Polite and smooth, never scary.
+1. Doktorka Vydrová, an adult Eurasian otter, a field hydrologist (sleek brown fur, cream throat and cheeks, small round ears, long whiskers, bright clever eyes, energetic and a little scatterbrained), wearing a khaki bucket hat, an olive-green waterproof field jacket with many pockets, and yellow rubber boots. A short graduated measuring rod (about the length of her forearm) is clipped to her belt, and her hands are free (one on her hip, one waving or holding a pencil).
+2. A human spokesman in his forties, drawn in the same simple cartoon style as the animals (simplified shapes, flat colours, few details on the face, no realistic face): a thin, polished face with a small nose, calm half-lidded eyes, slicked-back neat hair with a side parting, a charcoal-grey suit, a white shirt and a thin emerald-green tie, a wide, fixed, perfectly symmetrical smile that stays on his face but does not reach his eyes, holding a brown leather document folder. Polite, smooth and a little empty, never goofy and never scary.
 3. A prop: a small blue notebook with a soft waterproof cover, an elastic band and a pencil tucked in, shown closed and open (pages with hand-drawn water-level charts and small sketches, no readable text).
 
 Size: the otter is a little shorter than the fox in the attached sheet; the spokesman is an adult human, taller than all the animals except the bear.
@@ -258,14 +262,14 @@ Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, f
 
 Fiche `10_Series_11_Bratislava_05_redaktorka.md` → `img/illus_11_bratislava.jpg`
 
-**À joindre en plus** : la planche des nouveaux rôles (le porte-parole et le carnet).
+**À joindre en plus** : la planche des nouveaux rôles (le porte-parole). Le carnet reste dans le sac à dos du renard jusqu'à la fin de la fiche.
 
 **Photo de référence** : [le bâtiment de la radio-télévision slovaque](https://commons.wikimedia.org/wiki/File:Radio_and_Television_Slovakia_(Rozhlas_a_telev%C3%ADzia_Slovenska),_Bratislava.JPG) (Kiwiev, CC0)
 
 ```
 Use the attached model sheet for the characters (keep them exactly as designed). Use the attached photo as the reference for the building (an inverted pyramid of brown steel and glass), but without any sign or lettering.
 
-Scene: In front of a striking inverted-pyramid building in Bratislava, a sunny late morning, wide landscape format. A young human journalist with a laptop under her arm has just come out of the glass door; she has stopped and looks at the four animals with sudden interest, as if she has an idea. The four friends, dusty and tired from the journey, look back at her: the fox hopeful, holding the small blue notebook against his chest, Andrea cautious, Maťo surprised, Katka holding up her phone. A small guard booth on the side with a bored guard; behind it, the smiling spokesman in his grey suit walks in through the barrier, waving at them politely.
+Scene: In front of a striking inverted-pyramid building in Bratislava, a sunny late morning, wide landscape format. A young human journalist with a laptop under her arm has just come out of the glass door; she has stopped and looks at the four animals with sudden interest, as if she has an idea. The four friends, dusty and tired from the journey, look back at her: the fox hopeful, one paw on the strap of his backpack as if something precious were inside, Andrea cautious, Maťo surprised, Katka holding up her phone. A small guard booth on the side with a bored guard; behind it, the smiling spokesman in his grey suit walks in through the barrier, waving at them politely.
 
 Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. Any humans are drawn in the same simple cartoon style as the animals: simplified shapes, flat colours, few details on faces and hair, no realistic or semi-realistic faces. Soft, painterly background with few small details, so the characters stand out, but the place stays recognisable. Landscape format. No text, no letters, no logos, no watermark.
 ```
