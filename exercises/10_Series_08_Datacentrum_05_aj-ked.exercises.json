@@ -237,6 +237,33 @@
         "Nie je to jedno.",
         "Ale nie je to ani jednoduché."
       ]
+    },
+    {
+      "id": "qcm-stratila",
+      "type": "qcm",
+      "l1": "elle a perdu",
+      "l2": "stratila",
+      "choices_l1": [
+        "elle était",
+        "elle a mesuré",
+        "elle a laissé"
+      ],
+      "choices_l2": [
+        "bola",
+        "merala",
+        "nechala"
+      ]
+    },
+    {
+      "id": "listen-teraz-je-nas",
+      "type": "listen",
+      "l1": "Maintenant, c'est le nôtre.",
+      "l2": "Teraz je náš.",
+      "choices_l1": [
+        "Maintenant, c'est le sien.",
+        "Maintenant, c'est fini.",
+        "Avant, c'était le nôtre."
+      ]
     }
   ]
 }

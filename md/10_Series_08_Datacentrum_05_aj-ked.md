@@ -21,6 +21,8 @@
 | čestná | honnête |
 | je to jedno | c'est pareil, ça ne change rien |
 | jednoduché | simple |
+| skryť sa | se cacher |
+| stratila | elle a perdu |
 
 ---
 
@@ -32,6 +34,8 @@
 - 🐻 Maťo, un ours de quatorze ans, le cousin d'Andrea
 - 🐹 Katka, une marmotte de treize ans, la sœur de Maťo
 - 🦡 Marek, un blaireau, technicien du datacentre : on le vouvoie
+- 🕴️ Le monsieur au sourire, porte-parole de Zelená vlna : on le vouvoie
+- 🧑 Le directeur du datacentre
 
 ---
 
@@ -140,6 +144,69 @@
 > päť kilometrov odtiaľto = à cinq kilomètres d'ici
 > je malé jazierko = il y a un petit étang
 > Možno sú tam = elles y sont peut-être
+
+! 💬 Zrazu sa otvoria dvere. Do haly vojde riaditeľ. A s ním pán v obleku.
+> Soudain, la porte s'ouvre. Le directeur entre dans la salle. Et avec lui, le monsieur en costume.
+> Zrazu = soudain
+> sa otvoria dvere = la porte s'ouvre
+> Do haly vojde riaditeľ = le directeur entre dans la salle
+> A s ním = et avec lui
+> pán v obleku = le monsieur en costume
++ Pour comprendre : {{zrazu}} = soudain, {{riaditeľ}} = le directeur.
+
+! 🦡 Rýchlo! Za skrinky!
+> Vite ! Derrière les armoires !
+> Rýchlo = vite
+> Za skrinky = derrière les armoires
+
+! 💬 Všetci sa skryjú. Maťo sa skrýva najhoršie.
+> Tout le monde se cache. Maťo est celui qui se cache le plus mal.
+> Všetci sa skryjú = tout le monde se cache
+> Maťo sa skrýva = Maťo se cache
+> najhoršie = le plus mal
++ Mot nouveau signalé : {{skryť sa}} = se cacher. Un ours derrière une armoire, ça dépasse.
+
+! 🕴️ Tá vydra má zápisník s číslami. Ak s ním príde do televízie, bude panika.
+> Cette loutre a un carnet avec des chiffres. Si elle va à la télévision avec, ce sera la panique.
+> Tá vydra = cette loutre
+> má zápisník s číslami = a un carnet avec des chiffres
+> Ak s ním príde = si elle vient avec
+> do televízie = à la télévision
+> bude panika = ce sera la panique
+
+! 🧑 Ten zápisník stratila. V Košiciach.
+> Elle l'a perdu, ce carnet. À Košice.
+> Ten zápisník = ce carnet
+> stratila = elle l'a perdu
+> V Košiciach = à Košice
++ Mot nouveau signalé : {{stratila}} = elle a perdu.
+
+! 🕴️ Tak ho musíme nájsť my. Skôr ako ona.
+> Alors c'est nous qui devons le trouver. Avant elle.
+> Tak ho musíme nájsť = alors nous devons le trouver
+> my = nous
+> Skôr ako ona = avant elle
+
+! 💬 Pán v obleku sa usmeje a odíde. [USER_NAME] drží batoh pevne.
+> Le monsieur en costume sourit et s'en va. [USER_NAME] serre son sac à dos.
+> Pán v obleku sa usmeje = le monsieur en costume sourit
+> a odíde = et s'en va
+> [USER_NAME] drží batoh pevne = [USER_NAME] tient fort son sac à dos
+
+! 🐹 Oni hľadajú náš zápisník.
+> Ils cherchent notre carnet.
+> Oni hľadajú = ils cherchent
+> náš zápisník = notre carnet
+
+! 🐻 Jej zápisník.
+> Son carnet à elle.
+> Jej zápisník = son carnet (à elle)
++ {{jej}} = à elle. Maťo est très à cheval sur la propriété.
+
+! 🐹 Teraz je náš.
+> Maintenant, c'est le nôtre.
+> Teraz = maintenant
+> je náš = c'est le nôtre
 
 ---
 

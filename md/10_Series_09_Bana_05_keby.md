@@ -21,6 +21,7 @@
 | dilema | le dilemme |
 | možnosti | les possibilités, les options |
 | určite | sûrement, bien sûr |
+| neskoro | trop tard |
 
 ---
 
@@ -152,6 +153,38 @@
 > Neviem = je ne sais pas
 > Ale určite = mais sûrement
 > viac ako dve = plus que deux
+
+! 🧑 Ešte niečo. Včera tu bola jedna vydra. Merala tajchy. Nechala tu list. Pre „nálezcu zápisníka“.
+> Autre chose. Hier, une loutre est venue. Elle a mesuré les tajchy. Elle a laissé une lettre. Pour « la personne qui a trouvé le carnet ».
+> Ešte niečo = encore une chose
+> Včera tu bola jedna vydra = hier, une loutre était ici
+> Merala tajchy = elle a mesuré les tajchy
+> Nechala tu list = elle a laissé une lettre ici
+> Pre nálezcu zápisníka = pour celui qui a trouvé le carnet
++ Pour comprendre : {{list}} = la lettre.
+
+! 🦊 To sme my!
+> C'est nous !
+> To sme my = c'est nous
+
+! 🧑 Neskoro. Ráno si ho vzal pán v obleku. Je v jeho aute.
+> Trop tard. Ce matin, le monsieur en costume l'a prise. Elle est dans sa voiture.
+> Neskoro = trop tard
+> Ráno = ce matin
+> si ho vzal = l'a prise
+> pán v obleku = le monsieur en costume
+> Je v jeho aute = elle est dans sa voiture
++ Mot nouveau signalé : {{neskoro}} = trop tard. {{list}} est masculin en slovaque : {{vzal si ho}}, « il l'a pris ».
+
+! 🐿️ V tom čiernom aute? Pri bráne?
+> Dans la voiture noire ? Près de la grille ?
+> V tom čiernom aute = dans cette voiture noire
+> Pri bráne = près de la grille
+
+! 🧑 Ja som nič nepovedal.
+> Moi, je n'ai rien dit.
+> Ja = moi
+> som nič nepovedal = je n'ai rien dit
 
 ---
 

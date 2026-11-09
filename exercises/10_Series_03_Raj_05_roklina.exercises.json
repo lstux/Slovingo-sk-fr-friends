@@ -226,6 +226,33 @@
         "V Tatrách vraj prší.",
         "Tu nie."
       ]
+    },
+    {
+      "id": "qcm-nalezca",
+      "type": "qcm",
+      "l1": "celui qui trouve",
+      "l2": "nálezca",
+      "choices_l1": [
+        "le garde du parc",
+        "le carnet",
+        "la page"
+      ],
+      "choices_l2": [
+        "strážca parku",
+        "zápisník",
+        "strana"
+      ]
+    },
+    {
+      "id": "listen-zase-on",
+      "type": "listen",
+      "l1": "Encore lui !",
+      "l2": "Zase on!",
+      "choices_l1": [
+        "Encore elle !",
+        "C'est nous !",
+        "Pas lui !"
+      ]
     }
   ]
 }

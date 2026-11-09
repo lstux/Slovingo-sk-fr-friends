@@ -129,6 +129,21 @@
 > na jednej veci = sur une seule chose
 + Mot nouveau signalé : {{prvýkrát}} = pour la première fois. Pour comprendre : {{zhodnúť sa}} = tomber d'accord.
 
+! 🐹 A kde je pán hovorca?
+> Et où est monsieur le porte-parole ?
+> A kde je = et où est
+> pán hovorca = monsieur le porte-parole
+
+! 📝 Odišiel hneď po vysielaní. Bez úsmevu.
+> Parti juste après l'émission. Sans sourire.
+> Odišiel = il est parti
+> hneď po vysielaní = juste après l'émission
+> Bez úsmevu = sans sourire
+
+! 🐰 Konečne.
+> Enfin.
+> Konečne = enfin
+
 ! 💬 Katkin telefón zapípa. Je nabitý z nabíjačky v štúdiu.
 > Le téléphone de Katka bipe. Il est chargé grâce au chargeur du studio.
 > Katkin telefón zapípa = le téléphone de Katka bipe

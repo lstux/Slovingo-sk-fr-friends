@@ -249,6 +249,33 @@
         "moja zastávka.",
         "Poď!"
       ]
+    },
+    {
+      "id": "qcm-zabudnem",
+      "type": "qcm",
+      "l1": "j'oublie",
+      "l2": "zabudnem",
+      "choices_l1": [
+        "je parle",
+        "je comprends",
+        "je dois"
+      ],
+      "choices_l2": [
+        "hovorím",
+        "rozumiem",
+        "musím"
+      ]
+    },
+    {
+      "id": "listen-musim-hovorit-inak-zabudnem",
+      "type": "listen",
+      "l1": "Il faut que je parle. Sinon, j'oublie.",
+      "l2": "Musím hovoriť. Inak zabudnem.",
+      "choices_l1": [
+        "Il faut que je parte. Sinon, je suis en retard.",
+        "Je veux parler. Sinon, je dors.",
+        "Il faut que je parle. Sinon, je pleure."
+      ]
     }
   ]
 }

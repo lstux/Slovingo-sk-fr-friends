@@ -75,6 +75,7 @@
 | smutná | triste (dite d'une fille) (nouveau) |
 | príliš veľa | trop (nouveau) |
 | možno | peut-être (nouveau) |
+| Ideme správne. | On va dans la bonne direction. (nouveau) |
 
 ---
 
@@ -147,6 +148,27 @@
 > Tam = là-bas
 > sme sa spoznali = on s'est connus
 + À écouter : {{sme sa spoznali}} = on s'est connus. Comme {{dlho sme sa nevideli}}, c'est un passé avec {{sme}}.
+
+! 💬 [USER_NAME] otvorí zápisník. Na ďalšej strane je malá mapa: potok, most, obchod a lúka.
+> [USER_NAME] ouvre le carnet. Sur la page suivante, il y a une petite carte : un ruisseau, un pont, un magasin et un pré.
+> [USER_NAME] otvorí zápisník = [USER_NAME] ouvre le carnet
+> Na ďalšej strane = sur la page suivante
+> je malá mapa = il y a une petite carte
+> potok, most, obchod a lúka = un ruisseau, un pont, un magasin et un pré
++ Pour comprendre : {{most}} = le pont, {{obchod}} = le magasin, {{lúka}} = le pré.
+
+! 🦊 Pozri. Ďalšie meranie: „Potok pod Tatrami.“
+> Regarde. Prochaine mesure : « Le ruisseau sous les Tatras. »
+> Pozri = regarde
+> Ďalšie meranie = prochaine mesure
+> Potok pod Tatrami = le ruisseau sous les Tatras
+
+! 🐰 Náš potok. Tak vidíš. Ideme správne.
+> Notre ruisseau. Tu vois ? On va dans la bonne direction.
+> Náš potok = notre ruisseau
+> Tak vidíš = tu vois
+> Ideme správne = on va dans la bonne direction
++ Mot nouveau signalé : {{ideme správne}} = on va dans la bonne direction (mot à mot : « on va correctement »).
 
 ---
 

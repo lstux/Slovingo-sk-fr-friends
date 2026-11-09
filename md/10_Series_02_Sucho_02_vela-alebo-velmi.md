@@ -51,12 +51,27 @@
 > o tete = de la tante
 > o počasí = du temps qu'il fait
 
+! 🦊 Jabloň. Strom. Lavička. Pes. Veľký pes. Veľmi veľký pes...
+> Un pommier. Un arbre. Un banc. Un chien. Un grand chien. Un très grand chien...
+> Jabloň = un pommier
+> Strom = un arbre
+> Lavička = un banc
+> Pes = un chien
+> Veľký pes = un grand chien
+> Veľmi veľký pes = un très grand chien
++ Pour comprendre : {{strom}} = l'arbre, {{lavička}} = le banc, {{pes}} = le chien. Ton renard dit tout ce qu'il voit, à voix haute : il s'entraîne.
+
 ! 🐰 Ty veľa hovoríš.
 > Tu parles beaucoup.
 > Ty = toi
 > veľa = beaucoup
 > hovoríš = tu parles
 + {{hovorím}} (je parle) → {{hovoríš}} (tu parles), comme {{robím}} → {{robíš}}.
+
+! 🦊 Cvičím.
+> Je m'entraîne.
+> Cvičím = je m'entraîne
++ Pour comprendre : {{cvičiť}} = s'entraîner.
 
 ! 🦊 Veľmi hovorím, som líškasky, komplikovaný...
 > Je parle très, je suis renardesque, compliqué...

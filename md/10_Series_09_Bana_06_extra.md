@@ -75,6 +75,8 @@
 | byt | l'appartement (nouveau) |
 | tajomná | mystérieuse (dite d'une fille) (nouveau) |
 | inak | sinon, autrement (nouveau) |
+| neskoro | trop tard |
+| krádež | le vol (nouveau) |
 
 ---
 
@@ -180,6 +182,43 @@
 > a podá im lístok = et leur tend un papier
 > s adresou = avec une adresse
 + Encore {{lístok}} ! Ici, c'est un petit papier. Ce mot est partout.
+
+! 🐿️ A ešte toto.
+> Et aussi ça.
+> A ešte toto = et encore ceci
+
+! 💬 Ján vytiahne z ruksaku papier. Je trochu pokrčený.
+> Ján sort un papier de son sac à dos. Il est un peu froissé.
+> Ján vytiahne = Ján sort
+> z ruksaku = du sac à dos
+> papier = un papier
+> Je trochu pokrčený = il est un peu froissé
+
+! 🐿️ Z čierneho auta. Okno bolo otvorené. Veveričky vedia brať veci.
+> De la voiture noire. La fenêtre était ouverte. Les écureuils savent prendre des choses.
+> Z čierneho auta = de la voiture noire
+> Okno bolo otvorené = la fenêtre était ouverte
+> Veveričky vedia = les écureuils savent
+> brať veci = prendre des choses
+
+! 🐻 Ján! To je krádež!
+> Ján ! C'est du vol !
+> Ján = Ján
+> To je krádež = c'est du vol
++ Mot nouveau signalé : {{krádež}} = le vol (quand on prend ce qui n'est pas à soi).
+
+! 🐿️ Nie. To je vrátenie. Ten list je pre vás.
+> Non. C'est une restitution. Cette lettre est pour vous.
+> Nie = non
+> To je vrátenie = c'est un retour, une restitution
+> Ten list je pre vás = cette lettre est pour vous
+
+! 🦊 „Pre nálezcu. Všetky moje čísla hovoria jednu vec. Prečítajte ich spolu. Dr. V.“
+> « Pour la personne qui l'a trouvé. Tous mes chiffres disent une seule chose. Lisez-les ensemble. Dr. V. »
+> Pre nálezcu = pour celui qui l'a trouvé
+> Všetky moje čísla = tous mes chiffres
+> hovoria jednu vec = disent une seule chose
+> Prečítajte ich spolu = lisez-les ensemble
 
 ! 🐿️ V Bratislave nehovorte pomaly. Hovorte rýchlo. Inak vás nepočujú.
 > À Bratislava, ne parlez pas lentement. Parlez vite. Sinon on ne vous entend pas.

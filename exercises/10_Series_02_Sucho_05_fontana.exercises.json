@@ -226,6 +226,81 @@
         "Áno,",
         "hľadáme vodu."
       ]
+    },
+    {
+      "id": "qcm-zapisnik",
+      "type": "qcm",
+      "l1": "le carnet",
+      "l2": "zápisník",
+      "choices_l1": [
+        "la page",
+        "la mesure",
+        "la fontaine"
+      ],
+      "choices_l2": [
+        "strana",
+        "meranie",
+        "fontána"
+      ]
+    },
+    {
+      "id": "qcm-vydra",
+      "type": "qcm",
+      "l1": "la loutre",
+      "l2": "vydra",
+      "choices_l1": [
+        "la hase",
+        "le jardinier",
+        "la fontaine"
+      ],
+      "choices_l2": [
+        "zajačica",
+        "záhradník",
+        "fontána"
+      ]
+    },
+    {
+      "id": "qcm-klames",
+      "type": "qcm",
+      "l1": "tu mens",
+      "l2": "klameš",
+      "choices_l1": [
+        "tu cherches",
+        "tu comprends",
+        "tu parles"
+      ],
+      "choices_l2": [
+        "hľadáš",
+        "rozumieš",
+        "hovoríš"
+      ]
+    },
+    {
+      "id": "listen-pozri-co-som-nasiel-zapisnik",
+      "type": "listen",
+      "l1": "Regarde ce que j'ai trouvé ! Un carnet.",
+      "l2": "Pozri, čo som našiel! Zápisník.",
+      "choices_l1": [
+        "Regarde ce que j'ai perdu ! Un ticket.",
+        "Regarde ce que j'ai trouvé ! Une fontaine.",
+        "Regarde ce que j'ai vu ! Une loutre."
+      ]
+    },
+    {
+      "id": "match-sucho05-carnet",
+      "type": "match",
+      "l1": [
+        "le carnet",
+        "la loutre",
+        "la page",
+        "tu mens"
+      ],
+      "l2": [
+        "zápisník",
+        "vydra",
+        "strana",
+        "klameš"
+      ]
     }
   ]
 }

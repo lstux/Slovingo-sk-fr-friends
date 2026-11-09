@@ -81,6 +81,8 @@
 | jabloň | le pommier (nouveau) |
 | uvidíme | on verra (nouveau) |
 | Dobrú noc | bonne nuit (nouveau) |
+| zabudnem | j'oublie |
+| s nikým | avec personne |
 
 ---
 

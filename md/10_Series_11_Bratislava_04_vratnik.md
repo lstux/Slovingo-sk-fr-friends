@@ -95,6 +95,42 @@
 ! 🧑 Celé Slovensko. To je pekné.
 > Toute la Slovaquie. C'est beau.
 
+! 💬 Okolo búdky prejde pán v obleku. Vrátnik mu otvorí bez otázky.
+> Un monsieur en costume passe devant la guérite. Le portier lui ouvre sans poser de question.
+> Okolo búdky = devant la guérite
+> prejde pán v obleku = passe un monsieur en costume
+> Vrátnik mu otvorí = le portier lui ouvre
+> bez otázky = sans question
+
+! 🕴️ Dobrý večer, deti. Pekný výlet?
+> Bonsoir, les enfants. Joli voyage ?
+> Dobrý večer, deti = bonsoir, les enfants
+> Pekný výlet = joli voyage
+
+! 🐰 To je on.
+> C'est lui.
+> To je on = c'est lui
+
+! 🦊 Prečo on môže ísť dnu?
+> Pourquoi lui, il peut entrer ?
+> Prečo on = pourquoi lui
+> môže ísť dnu = peut entrer
+
+! 🧑 Pán hovorca má akreditáciu.
+> Monsieur le porte-parole a une accréditation.
+> Pán hovorca = monsieur le porte-parole
+> má akreditáciu = a une accréditation
+
+! 🐹 My máme zápisník.
+> Nous, on a un carnet.
+> My máme = nous avons
+> zápisník = un carnet
+
+! 🧑 Zápisník nie je akreditácia.
+> Un carnet, ce n'est pas une accréditation.
+> Zápisník = un carnet
+> nie je akreditácia = n'est pas une accréditation
+
 ! 🐹 Okrem toho nám zomrel telefón.
 > En plus, notre téléphone est mort.
 > Okrem toho = en plus

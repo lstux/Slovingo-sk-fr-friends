@@ -52,6 +52,11 @@
 > jazvec v modrej veste = un blaireau en gilet bleu
 + Pour comprendre : {{Zelená vlna}} = « vague verte ». Un nom très écolo pour un bâtiment qui a remplacé une zone humide.
 
+! 🐹 Zelená vlna. Zase oni.
+> Zelená vlna. Encore eux.
+> Zelená vlna = Zelená vlna
+> Zase oni = encore eux
+
 ! 🦡 Dobrý deň. Hľadáte niekoho?
 > Bonjour. Vous cherchez quelqu'un ?
 > Hľadáte = vous cherchez

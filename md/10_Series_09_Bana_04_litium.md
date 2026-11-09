@@ -79,6 +79,23 @@
 > Povedal, že = il a dit que
 > hora sa bude kopať = la montagne va être creusée
 
+! 🐰 S pekným úsmevom? V obleku?
+> Un joli sourire ? En costume ?
+> S pekným úsmevom = avec un joli sourire
+> V obleku = en costume
+
+! 🐿️ Áno! Poznáte ho?
+> Oui ! Vous le connaissez ?
+> Áno = oui
+> Poznáte ho = vous le connaissez
++ Ján dit {{poznáte}} : il parle à toute la bande, donc au pluriel.
+
+! 🐹 Hovorca Zelenej vlny. Stretávame ho všade.
+> Le porte-parole de Zelená vlna. On le croise partout.
+> Hovorca Zelenej vlny = le porte-parole de Zelená vlna
+> Stretávame ho = nous le croisons
+> všade = partout
+
 ! 🦊 Kopať? Prečo?
 > Creuser ? Pourquoi ?
 

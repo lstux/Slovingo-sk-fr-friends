@@ -159,6 +159,17 @@
 > mimoriadnu situáciu = une situation exceptionnelle
 + Pour comprendre : la langue des informations est plus difficile. Retiens surtout {{mimoriadna situácia}} = situation exceptionnelle, et {{vláda}} = le gouvernement.
 
+! 📻 ...Hovorca skupiny Zelená vlna povedal, že nie je dôvod na paniku...
+> ...Le porte-parole du groupe Zelená vlna a déclaré qu'il n'y avait aucune raison de paniquer...
+> Hovorca skupiny Zelená vlna = le porte-parole du groupe Zelená vlna
+> povedal, že = a dit que
+> nie je dôvod na paniku = il n'y a aucune raison de paniquer
+
+! 🐰 Zase on.
+> Encore lui.
+> Zase = encore
+> on = lui
+
 ! 🐻 O nás nehovoria.
 > Ils ne parlent pas de nous.
 > O nás = de nous

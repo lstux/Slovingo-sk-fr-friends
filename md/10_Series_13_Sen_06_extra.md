@@ -81,6 +81,7 @@
 | raňajky | le petit-déjeuner (nouveau) |
 | niektoré | certains (nouveau) |
 | zasmiať sa | éclater de rire (nouveau) |
+| nie skôr | pas avant (nouveau) |
 
 ---
 
@@ -146,6 +147,48 @@
 > sú len sny = ne sont que des rêves
 > A niektoré nie sú len sny = et certains ne sont pas que des rêves
 + Mot nouveau signalé : {{niektoré}} = certains, certaines.
+
+! 💬 Andrea vytiahne z vrecka šesť obálok. Sú staré a trochu pokrčené.
+> Andrea sort six enveloppes de sa poche. Elles sont vieilles et un peu froissées.
+> Andrea vytiahne = Andrea sort
+> z vrecka = de sa poche
+> šesť obálok = six enveloppes
+> Sú staré = elles sont vieilles
+> a trochu pokrčené = et un peu froissées
+
+! 🐰 Tu máš. Šesť listov. Nikdy som ich neposlala.
+> Tiens. Six lettres. Je ne les ai jamais envoyées.
+> Tu máš = tiens
+> Šesť listov = six lettres
+> Nikdy som ich neposlala = je ne les ai jamais envoyées
+
+! 🦊 Šesť? Ako vo sne!
+> Six ? Comme dans le rêve !
+> Šesť = six
+> Ako vo sne = comme dans le rêve
+
+! 🐰 Prečítaš si ich vo vlaku. Nie skôr.
+> Tu les liras dans le train. Pas avant.
+> Prečítaš si ich = tu les liras
+> vo vlaku = dans le train
+> Nie skôr = pas avant
++ Mot nouveau signalé : {{nie skôr}} = pas avant.
+
+! 🐰 A ešte niečo. Ráno pri fontáne bola jedna vydra. V gumených čižmách. Hľadala modrý zápisník.
+> Et autre chose. Ce matin, à la fontaine, il y avait une loutre. En bottes de caoutchouc. Elle cherchait un carnet bleu.
+> A ešte niečo = et encore une chose
+> Ráno pri fontáne = ce matin, à la fontaine
+> bola jedna vydra = il y avait une loutre
+> V gumených čižmách = en bottes de caoutchouc
+> Hľadala modrý zápisník = elle cherchait un carnet bleu
+
+! 💬 [USER_NAME] sa pozrie na svoje mokré ponožky. Potom na jabloň. Nič nepovie.
+> [USER_NAME] regarde ses chaussettes mouillées. Puis le pommier. Il ne dit rien.
+> [USER_NAME] sa pozrie = [USER_NAME] regarde
+> na svoje mokré ponožky = ses chaussettes mouillées
+> Potom na jabloň = puis le pommier
+> Nič nepovie = il ne dit rien
++ Pour une fois, le renard ne dit rien.
 
 ! 💬 Z okna zaznie hlas.
 > Une voix retentit à la fenêtre.

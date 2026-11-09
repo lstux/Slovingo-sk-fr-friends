@@ -20,6 +20,7 @@
 | opatrne | prudemment |
 | bunda | la veste |
 | v lete | en été |
+| nálezca | celui qui trouve |
 
 ---
 
@@ -88,6 +89,61 @@
 > Ak chcete vodu = si vous voulez de l'eau
 > choďte tam = allez là-bas
 + Mot nouveau signalé : {{v horách}} = en montagne ({{hory}} = les montagnes). À écouter : {{choďte}} = allez, quand on vouvoie.
+
+! 🦊 A nevideli ste tu jednu vydru? So zápisníkom?
+> Et vous n'avez pas vu une loutre ? Avec un carnet ?
+> A nevideli ste tu = et vous n'avez pas vu ici
+> jednu vydru = une loutre
+> So zápisníkom = avec un carnet
++ À écouter : {{nevideli ste}} = vous n'avez pas vu. {{vydru}}, c'est {{vydra}} après le verbe.
+
+! 🦅 Doktorku Vydrovú? Bola tu včera. Merala potok. Nechala tu niečo. Pre toho, kto nájde jej zápisník.
+> Madame la docteure Vydrová ? Elle était là hier. Elle a mesuré le ruisseau. Elle a laissé quelque chose. Pour celui qui trouverait son carnet.
+> Doktorku Vydrovú = madame la docteure Vydrová
+> Bola tu včera = elle était là hier
+> Merala potok = elle a mesuré le ruisseau
+> Nechala tu niečo = elle a laissé quelque chose ici
+> Pre toho, kto nájde = pour celui qui trouve
+> jej zápisník = son carnet
++ À écouter : {{nechala}} = elle a laissé.
+
+! 💬 Pán Orol im podá papier. Je to strana zo zápisníka.
+> Pán Orol leur tend un papier. C'est une page du carnet.
+> Pán Orol im podá = pán Orol leur tend
+> papier = un papier
+> Je to strana = c'est une page
+> zo zápisníka = du carnet
+
+! 🦊 „Pre nálezcu. Ďakujem! Idem merať do Tatier, k Téryho chate. Dr. V.“
+> « Pour la personne qui l'a trouvé. Merci ! Je vais mesurer dans les Tatras, près du refuge Téry. Dr. V. »
+> Pre nálezcu = pour celui qui l'a trouvé
+> Ďakujem = merci
+> Idem merať = je vais mesurer
+> do Tatier = dans les Tatras
+> k Téryho chate = vers le refuge Téry
++ Mot nouveau signalé : {{nálezca}} = celui qui trouve (de {{nájsť}}, trouver). Pour comprendre : {{chata}} = le refuge.
+
+! 🦅 Ešte niečo. Včera sa na ňu pýtal jeden pán v obleku. Veľmi sa usmieval.
+> Autre chose. Hier, un monsieur en costume m'a posé des questions sur elle. Il souriait beaucoup.
+> Ešte niečo = encore une chose
+> Včera = hier
+> sa na ňu pýtal = a posé des questions sur elle
+> jeden pán v obleku = un monsieur en costume
+> Veľmi sa usmieval = il souriait beaucoup
++ À écouter : {{pýtal sa}} = il a demandé, {{usmieval sa}} = il souriait.
+
+! 🐰 Zase on!
+> Encore lui !
+> Zase = encore
+> on = lui
+
+! 🦅 Orly nemajú rady také úsmevy. Nič som mu nepovedal.
+> Les aigles n'aiment pas ce genre de sourire. Je ne lui ai rien dit.
+> Orly = les aigles
+> nemajú rady = n'aiment pas
+> také úsmevy = ce genre de sourires
+> Nič som mu nepovedal = je ne lui ai rien dit
++ Pour comprendre : {{úsmevy}} = des sourires. En slovaque, on accumule les négations : {{nič}} + {{nepovedal}}, « rien » + « pas dit ».
 
 ! 🦊 Ďakujeme. Pôjdeme do Tatier.
 > Merci. Nous irons dans les Tatras.
