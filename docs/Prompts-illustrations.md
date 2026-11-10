@@ -312,7 +312,7 @@ Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, f
 
 | Image | Pourquoi | Priorité |
 |---|---|---|
-| 02 Sucho | Le carnet est trouvé dans cette scène : il doit se voir. | à faire |
+| 02 Sucho | Le carnet est trouvé dans cette scène : il doit se voir. | ✅ fait le 10 novembre (ChatGPT, avec la planche des nouveaux rôles) |
 | 01 Košice | Les passagers humains ressemblent à des enfants ; le cours n'a que des humains adultes. | à faire |
 | 06 Povodeň | Les visages sourient trop pour une inondation (déjà noté). | à faire |
 | 03 Raj | pán Orol leur remet une page du carnet. | facultatif |
