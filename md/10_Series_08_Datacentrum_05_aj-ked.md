@@ -1,6 +1,6 @@
 # Série Datacentrum (5/5) — Aj keď
 
-@ img/serverovna.jpg | Une salle de serveurs avec des voyants lumineux. Source : Wikimedia Commons, Carl Lender from Sunrise, USA, CC BY 2.0
+@ img/illus_08_datacentrum.jpg | Dans la salle des serveurs, les quatre amis se cachent derrière les armoires pendant que le porte-parole passe avec son directeur. Source : illustration générée avec ChatGPT, d'après une photo de Carl Lender (Wikimedia Commons, CC BY 2.0)
 
 {{fr:Marek vous fait entrer. Dans la grande salle, il fait froid et des milliers de petites lumières clignotent. C'est ici que vit Internet. Marek ne vous cache rien, ni le bon, ni le mauvais. On apprend à dire « même si ».}}
 

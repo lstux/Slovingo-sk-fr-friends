@@ -214,7 +214,7 @@ Scene: A brand-new black asphalt road cut through a hilly spruce forest in centr
 Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. Any humans are drawn in the same simple cartoon style as the animals: simplified shapes, flat colours, few details on faces and hair, no realistic or semi-realistic faces. Soft, painterly background with few small details, so the characters stand out, but the place stays recognisable. Landscape format. No text, no letters, no logos, no watermark.
 ```
 
-## 08 Datacentrum — Cachés derrière les serveurs
+## 08 Datacentrum — Cachés derrière les serveurs ✅ faite le 10 novembre (ChatGPT, planche-tous + photo ; porte-parole retouché pour un sourire fermé)
 
 Fiche `10_Series_08_Datacentrum_05_aj-ked.md` → `img/illus_08_datacentrum.jpg`
 
