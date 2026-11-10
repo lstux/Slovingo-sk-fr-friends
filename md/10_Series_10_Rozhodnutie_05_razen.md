@@ -1,6 +1,6 @@
 # Série Rozhodnutie (5/5) — Ražeň
 
-@ img/taborak-noc.jpg | Des flammes d'un feu de camp, la nuit. Source : Wikimedia Commons, Marc-Lautenbacher, CC BY-SA 4.0
+@ img/illus_10_rozhodnutie.jpg | Près du feu, la nuit : Andrea regarde les flammes, le renard l'écoute sans rien dire ; au loin, Maťo et Katka ramassent du bois. Source : illustration générée avec ChatGPT, d'après une photo de Marc-Lautenbacher (Wikimedia Commons, CC BY-SA 4.0)
 
 {{fr:Le feu crépite. Andrea regarde les flammes, et elle se met à raconter quelque chose qu'elle n'a jamais dit. Pas tout. Juste assez. Toi, tu choisis de ne pas poser de questions.}}
 

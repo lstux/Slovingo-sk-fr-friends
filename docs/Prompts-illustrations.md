@@ -248,7 +248,7 @@ Scene: The gate of a new mine on a forested hill above the old mining town of Ba
 Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. Any humans are drawn in the same simple cartoon style as the animals: simplified shapes, flat colours, few details on faces and hair, no realistic or semi-realistic faces. Soft, painterly background with few small details, so the characters stand out, but the place stays recognisable. Landscape format. No text, no letters, no logos, no watermark.
 ```
 
-## 10 Rozhodnutie — Près du feu
+## 10 Rozhodnutie — Près du feu ✅ faite le 10 novembre (ChatGPT, planche des héros + photo ; retouche : Andrea pensive, bouche fermée)
 
 Fiche `10_Series_10_Rozhodnutie_05_razen.md` → `img/illus_10_rozhodnutie.jpg`
 
