@@ -174,6 +174,8 @@
 
 ## 🇸🇰 Coin slovaque
 
+@ img/orol-skalny.jpg | Un aigle royal, orol skalný, posé sur un rocher. Source : Wikimedia Commons, Jacob W. Frank, domaine public
+
 {{fr:L'aigle royal, en slovaque}} {{orol skalný}}{{fr:, « l'aigle des rochers », vit dans les montagnes slovaques. Il est protégé, et c'est un des symboles des parcs nationaux.}}
 
 {{fr:Le mot}} {{pán}} {{fr:veut dire « monsieur ». Devant un nom, on garde}} {{pán}} {{fr:même quand on lui parle :}} {{Dobrý deň, pán Orol!}}

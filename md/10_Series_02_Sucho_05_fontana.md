@@ -255,6 +255,8 @@
 
 ## 🇸🇰 Coin slovaque
 
+@ img/spievajuca-fontana.jpg | La Spievajúca fontána, au milieu de la rue principale de Košice. Source : Wikimedia Commons, Antimuonium, CC BY-SA 4.0
+
 {{fr:La}} {{Spievajúca fontána}}{{fr:, la « fontaine chantante », est au milieu de la rue principale de Košice, entre la cathédrale et le théâtre. En été, ses jets d'eau dansent en musique. Quand il y a de l'eau, bien sûr…}}
 
 {{fr:Avec un adulte qu'on ne connaît pas, on dit}} {{vy}} {{fr:: on commence par}} {{Dobrý deň}} {{fr:et on termine par}} {{Dovidenia}}{{fr:. Entre ados, un simple}} {{ahoj}} {{fr:fait l'affaire.}}

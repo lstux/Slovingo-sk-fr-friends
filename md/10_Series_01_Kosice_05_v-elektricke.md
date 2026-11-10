@@ -194,6 +194,8 @@
 
 ## 🇸🇰 Coin slovaque
 
+@ img/kosice-elektricka-dom.jpg | Le Dóm svätej Alžbety, la cathédrale Sainte-Élisabeth, au milieu de la rue principale de Košice. Source : Wikimedia Commons, Fortepan (ID 6189, donateur : Gyöngyi), CC BY-SA 3.0
+
 {{fr:Le}} {{Dóm svätej Alžbety}}{{fr:, la cathédrale Sainte-Élisabeth, est la plus grande église de Slovaquie. Elle est gothique et se trouve en plein milieu de la rue principale de Košice.}}
 
 {{fr:Un}} {{gymnázium}} {{fr:est à peu près l'équivalent d'un lycée général. Il se termine par un examen très important, la}} {{maturita}}{{fr:, un peu comme le bac.}}

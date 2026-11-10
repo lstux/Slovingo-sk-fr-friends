@@ -93,6 +93,8 @@
 
 ## 🇸🇰 Coin slovaque
 
+@ img/halusky.jpg | Des bryndzové halušky, le plat national slovaque. Source : Wikimedia Commons, Gregory finster, CC0
+
 {{fr:Les}} {{halušky}} {{fr:sont de petites boulettes de pâte à la pomme de terre. Avec la}} {{bryndza}}{{fr:, un fromage de brebis, elles forment le plat national slovaque :}} {{bryndzové halušky}}{{fr:. Sans bryndza, on les mange par exemple avec du chou :}} {{strapačky}}{{fr:.}}
 
 {{fr:Pour raconter quelque chose, on dit}} {{rozprávať}}{{fr:. Mais}} {{rozprávať}} {{fr:veut aussi dire simplement « parler, discuter ».}}

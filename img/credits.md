@@ -84,6 +84,7 @@ La légende de chaque image, dans la fiche, rappelle aussi l'auteur et la licenc
 | `10_Series_13_Sen_03_mokre-ponozky.md` | `rosa-trava.jpg` | [Dew Drops on Grass in shahkot, Punjab, Pakistan.jpg](https://commons.wikimedia.org/wiki/File:Dew_Drops_on_Grass_in_shahkot,_Punjab,_Pakistan.jpg) | Salman Munir | CC BY-SA 4.0 |
 | `10_Series_13_Sen_04_snivalo-sa-mi.md` | `mapa-slovenska.jpg` | [Relief Map of Slovakia 2.png](https://commons.wikimedia.org/wiki/File:Relief_Map_of_Slovakia_2.png) | derivative work Виктор_В | CC BY-SA 3.0 |
 | `10_Series_13_Sen_05_dobry-sen.md` | `illus_13_sen.jpg` | Illustration générée avec ChatGPT, d'après la photo [Green apples on tree](https://commons.wikimedia.org/wiki/File:2018-07-16_Green_apples_on_tree.jpg) de Maksym Kozlenko (Wikimedia Commons) | CC BY-SA 4.0 (œuvre dérivée, même licence) |
+| `10_Series_13_Sen_05_dobry-sen.md` | `halusky.jpg` (Coin slovaque) | [Bryndzové halušky so slaninou.jpg](https://commons.wikimedia.org/wiki/File:Bryndzov%C3%A9_halu%C5%A1ky_so_slaninou.jpg) | Gregory finster | CC0 |
 | `10_Series_13_Sen_06_extra.md` | `jablon-okno.jpg` | [2026.08.27 Sakovichi Sakovičy Wooden House Salihorsk District Minsk Region Belarus 02.jpg](https://commons.wikimedia.org/wiki/File:2026.08.27_Sakovichi_Sakovi%C4%8Dy_Wooden_House_Salihorsk_District_Minsk_Region_Belarus_02.jpg) | Tess Mattew | CC BY-SA 4.0 |
 
 ## Illustrations générées (ChatGPT)
@@ -94,8 +95,11 @@ Faites d'après `docs/Prompts-illustrations.md`, avec les planches de personnage
 |---|---|---|---|
 | `00_Introduction_01_bienvenue.md` | `illus_00_couverture.jpg` | aucune | générée pour ce projet (2026) |
 | `10_Series_01_Kosice_05_v-elektricke.md` | `illus_01_kosice.jpg` | Illustration générée avec ChatGPT, sans photo de référence | Image générée (pas de photo source) |
+| `10_Series_01_Kosice_05_v-elektricke.md` | `kosice-elektricka-dom.jpg` (Coin slovaque) | [Szent Erzsébet-főszékesegyház (Dóm). Fortepan 6189.jpg](https://commons.wikimedia.org/wiki/File:Szent_Erzs%C3%A9bet-f%C5%91sz%C3%A9kesegyh%C3%A1z_(D%C3%B3m)._Fortepan_6189.jpg) | FOTO:Fortepan — ID 6189: Adományozó/Donor: Gyöngyi. | CC BY-SA 3.0 |
 | `10_Series_02_Sucho_05_fontana.md` | `illus_02_sucho.jpg` | [Spievajúca fontána, Košice, 2026 (5).jpg](https://commons.wikimedia.org/wiki/File:Spievaj%C3%BAca_font%C3%A1na,_Ko%C5%A1ice,_2026_(5).jpg), Antimuonium | CC BY-SA 4.0 (œuvre dérivée) |
+| `10_Series_02_Sucho_05_fontana.md` | `spievajuca-fontana.jpg` (Coin slovaque) | [Spievajúca fontána, Košice, 2026 (5).jpg](https://commons.wikimedia.org/wiki/File:Spievaj%C3%BAca_font%C3%A1na,_Ko%C5%A1ice,_2026_(5).jpg) | Antimuonium | CC BY-SA 4.0 |
 | `10_Series_03_Raj_05_roklina.md` | `illus_03_raj.jpg` | [Slovensky raj, Sucha Bela, 03.jpg](https://commons.wikimedia.org/wiki/File:Slovensky_raj,_Sucha_Bela,_03.jpg), dariusz wozniak | CC BY-SA 3.0 (œuvre dérivée) |
+| `10_Series_03_Raj_05_roklina.md` | `orol-skalny.jpg` (Coin slovaque) | [A golden eagle, feathers ruffled against the falling snow, perches on a rocky outcropping atop a mountain (dec951c4-0379-4814-9783-83bd17521806).jpg](https://commons.wikimedia.org/wiki/File:A_golden_eagle,_feathers_ruffled_against_the_falling_snow,_perches_on_a_rocky_outcropping_atop_a_mountain_(dec951c4-0379-4814-9783-83bd17521806).jpg) | Jacob W. Frank | Public domain |
 | `10_Series_04_Burka_05_spis.md` | `illus_04_burka.jpg` | [Teryho chata I.jpg](https://commons.wikimedia.org/wiki/File:Teryho_chata_I.jpg), Kristo | CC BY-SA 3.0 (œuvre dérivée) |
 | `10_Series_05_Domov_05_ked-som-bol-maly.md` | `illus_05_domov.jpg` | Illustration générée avec ChatGPT, sans photo de référence | Image générée (pas de photo source) |
 | `10_Series_06_Povoden_05_zachrana.md` | `illus_06_povoden.jpg` | Illustration générée avec ChatGPT, sans photo de référence | Image générée (pas de photo source) |
@@ -115,11 +119,8 @@ Dans `img/`, mais utilisées par aucune fiche pour l'instant (remplacées par un
 
 | Image (`img/`) | Ancienne fiche | Original | Auteur | Licence |
 |---|---|---|---|---|
-| `orol-skalny.jpg` | Raj 05 | [A golden eagle, feathers ruffled against the falling snow, perches on a rocky outcropping atop a mountain (dec951c4-0379-4814-9783-83bd17521806).jpg](https://commons.wikimedia.org/wiki/File:A_golden_eagle,_feathers_ruffled_against_the_falling_snow,_perches_on_a_rocky_outcropping_atop_a_mountain_(dec951c4-0379-4814-9783-83bd17521806).jpg) | Jacob W. Frank | Public domain |
-| `spievajuca-fontana.jpg` | Sucho 05 | [Spievajúca fontána, Košice, 2026 (5).jpg](https://commons.wikimedia.org/wiki/File:Spievaj%C3%BAca_font%C3%A1na,_Ko%C5%A1ice,_2026_(5).jpg) | Antimuonium | CC BY-SA 4.0 |
 | `drevenica-vecer.jpg` | Domov 05 | [Museum of Orava village 01.jpg](https://commons.wikimedia.org/wiki/File:Museum_of_Orava_village_01.jpg) | 10ricardo | CC BY-SA 4.0 |
 | `kacica-kacatka.jpg` | Povodeň 05 | [Wood duck female with ducklings (73499).jpg](https://commons.wikimedia.org/wiki/File:Wood_duck_female_with_ducklings_(73499).jpg) | Rhododendrites | CC BY-SA 4.0 |
-| `kosice-elektricka-dom.jpg` | Košice 05 | [Szent Erzsébet-főszékesegyház (Dóm). Fortepan 6189.jpg](https://commons.wikimedia.org/wiki/File:Szent_Erzs%C3%A9bet-f%C5%91sz%C3%A9kesegyh%C3%A1z_(D%C3%B3m)._Fortepan_6189.jpg) | FOTO:Fortepan — ID 6189: Adományozó/Donor: Gyöngyi. | CC BY-SA 3.0 |
 
 ## Image de fond de la carte (accueil)
 
