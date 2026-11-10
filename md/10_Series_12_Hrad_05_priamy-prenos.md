@@ -207,6 +207,8 @@
 
 ## 🇸🇰 Coin slovaque
 
+@ img/stvr-mlynska-dolina.jpg | Le bâtiment de la radio-télévision slovaque (STVR), à Mlynská dolina, à Bratislava. Source : Wikimedia Commons, Kiwiev, CC0
+
 {{STVR}} {{fr:veut dire « Radio et télévision slovaques ». C'est le service public de radio et de télévision, un peu comme France Télévisions et Radio France réunis.}}
 
 {{fr:Les points cardinaux en slovaque :}} {{sever}} {{fr:(le nord),}} {{juh}} {{fr:(le sud),}} {{východ}} {{fr:(l'est) et}} {{západ}} {{fr:(l'ouest). Le soleil}} {{vychádza}} {{fr:à l'est et}} {{zapadá}} {{fr:à l'ouest : les mots viennent de là.}}

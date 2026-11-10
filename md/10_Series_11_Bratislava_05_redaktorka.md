@@ -164,6 +164,8 @@
 
 ## 🇸🇰 Coin slovaque
 
+@ img/bratislavsky-hrad.jpg | Le château de Bratislava, blanc avec ses quatre tours : il accueille vraiment des événements officiels. Source : Wikimedia Commons, Jakub Hałun, CC BY-SA 4.0
+
 {{fr:Dans cette histoire, le journal est filmé depuis le château : c'est inventé. Mais le château accueille vraiment des événements officiels, et on y filme souvent des reportages.}}
 
 {{fr:Un}} {{redaktor}} {{fr:ou une}} {{redaktorka}}{{fr:, en slovaque, c'est un journaliste qui prépare et écrit les sujets. Le mot vient du latin, comme « rédaction » en français.}}
