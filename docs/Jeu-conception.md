@@ -144,3 +144,9 @@ Total : 6 décors à générer (+ 1 variante), 5 personnages, une planche d'obje
 
 *Ces mots sont aussi les sujets de conversation débloqués : on ne parle de la loutre qu'après avoir appris* vydra.
 
+
+## Retours de test (10 nov. 2026, Eric) : à appliquer quand il le dira
+
+- **Distributeur (prologue) trop facile** : l'automate ne doit plus dire « lis le panneau ». Gab se demande tout seul, en français : « Zut, comment on dit "un ticket" en slovaque ?! ». Le mot doit se trouver en croisant **deux indices** (affiche « Jeden lístok · 1,20 € » + panneau de l'automate « Lístok na električku »). Indice d'Andrea indisponible au prologue ; au bout de 3 insistances, Gab : « Il y a sûrement un truc écrit quelque part… ». Choix final plus difficile : trois formes plausibles (`Jeden / Jedna / Jedno lístok`).
+- **Autres endroits encore trop faciles** : à lister par Eric après ses tests (quiz des âges, fontaine, etc.).
+- **Décor « petit »** : envisager des décors plus larges que l'écran avec défilement horizontal (travelling quand le renard approche d'un bord), à la Broken Sword. Demande : quelle résolution d'image sort de ChatGPT / Gemini ?
