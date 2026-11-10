@@ -335,7 +335,7 @@ Décision d'Eric (10 novembre) : chaque fiche 06 (« extra » : suite de l'épis
 | `10_Series_12_Hrad_06_extra.md` (Potom uvidíme) | voir ci-dessous | `img/illus_12_hrad_2.jpg` | la planche des héros (`planche-heros.jpg`) |
 | `10_Series_13_Sen_06_extra.md` (Teraz si tu) | voir ci-dessous | `img/illus_13_sen_2.jpg` | la planche des héros (`planche-heros.jpg`) |
 
-### 01 Košice (extra) — Dobrú noc
+### 01 Košice (extra) — Dobrú noc ✅ (tante = deux oreilles à la fenêtre)
 
 Fiche `10_Series_01_Kosice_06_extra.md` → `img/illus_01_kosice_2.jpg`
 

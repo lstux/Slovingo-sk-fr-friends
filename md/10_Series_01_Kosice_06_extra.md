@@ -1,6 +1,6 @@
 # Košice (extra) — Dobrú noc
 
-@ img/kosice-zahrada-vecer.jpg | Un pré avec des arbres fruitiers et une petite cabane, au coucher du soleil. Source : Wikimedia Commons, Jean-Michel Priaux from Alsace, France, CC BY 2.0
+@ img/illus_01_kosice_2.jpg | Dans le jardin, au soir : toi sous le pommier, Andrea à la porte… et deux grandes oreilles à la fenêtre. Source : illustration générée avec ChatGPT
 
 {{fr:Le soir tombe sur Košice. Andrea t'emmène chez sa tante… enfin, pas vraiment chez elle : dans son jardin.}}
 
