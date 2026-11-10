@@ -1,6 +1,6 @@
 # Série Baňa (5/5) — Keby…
 
-@ img/banik-brana.jpg | L'entrée d'une vieille galerie de mine, fermée par une grille. Source : Wikimedia Commons, Shy gear, CC BY-SA 4.0
+@ img/illus_09_bana.jpg | À la grille de la nouvelle mine, au-dessus de Banská Štiavnica : Ján discute avec le mineur, la voiture noire n'est pas loin. Source : illustration générée avec ChatGPT, d'après une photo de Mineralysk (Wikimedia Commons, CC0)
 
 {{fr:À la grille de la future mine, un mineur garde l'entrée. Il connaît Ján. Il a enfin un travail. Et tout le monde se met à parler avec des « si ». On apprend à imaginer : « si j'avais… ».}}
 

@@ -96,6 +96,10 @@ Style: Classic 2D hand-drawn animated-film style (not 3D, not pixel art): clean 
 
 ---
 
+## À faire plus tard : passe « décors moins photo »
+
+Avec une photo de référence, ChatGPT dessine les décors et les objets rigides (voitures, engins, grillages, serveurs) trop réalistes par rapport aux personnages. Retouche qui a marché (scène 09) : « redessiner le fond, la voiture et les machines dans le même style dessin animé que les personnages : contours à l'encre, aplats, formes simplifiées, beaucoup moins de détails, pas de reflets ni de textures photo ». Eric prévoit une passe sur toutes les images (scènes déjà intégrées comprises) ; dans les prompts à venir (10 à 13), ajouter cette phrase à la ligne « Style ».
+
 ## Couverture — l'image d'intro
 
 Pour `md/00_Introduction_01_bienvenue.md` → `img/illus_00_couverture.jpg`
@@ -229,7 +233,7 @@ Scene: Inside a huge, cold data centre hall, wide landscape format. Long rows of
 Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. Any humans are drawn in the same simple cartoon style as the animals: simplified shapes, flat colours, few details on faces and hair, no realistic or semi-realistic faces. Soft, painterly background with few small details, so the characters stand out, but the place stays recognisable. Landscape format. No text, no letters, no logos, no watermark.
 ```
 
-## 09 Baňa — À la grille de la mine
+## 09 Baňa — À la grille de la mine ✅ faite le 10 novembre (ChatGPT, planche-tous + photo ; 2 retouches : voiture visible et regards inquiets, puis décor/voiture/engins redessinés en dessin animé)
 
 Fiche `10_Series_09_Bana_05_keby.md` → `img/illus_09_bana.jpg`
 
