@@ -262,7 +262,7 @@ Scene: Night in a meadow in the Slovak hills, wide landscape format. A small cam
 Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. Any humans are drawn in the same simple cartoon style as the animals: simplified shapes, flat colours, few details on faces and hair, no realistic or semi-realistic faces. Soft, painterly background with few small details, so the characters stand out, but the place stays recognisable. Landscape format. No text, no letters, no logos, no watermark.
 ```
 
-## 11 Bratislava — Devant la télévision
+## 11 Bratislava — Devant la télévision ✅ faite le 10 novembre (ChatGPT, planche-tous + photo, du premier coup)
 
 Fiche `10_Series_11_Bratislava_05_redaktorka.md` → `img/illus_11_bratislava.jpg`
 
