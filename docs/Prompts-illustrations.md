@@ -278,7 +278,7 @@ Scene: In front of a striking inverted-pyramid building in Bratislava, a sunny l
 Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. Any humans are drawn in the same simple cartoon style as the animals: simplified shapes, flat colours, few details on faces and hair, no realistic or semi-realistic faces. Soft, painterly background with few small details, so the characters stand out, but the place stays recognisable. Landscape format. No text, no letters, no logos, no watermark.
 ```
 
-## 12 Hrad — En direct
+## 12 Hrad — En direct ✅ faite le 10 novembre (ChatGPT, planche-tous + photo ; 2 retouches : recomposition en arc de cercle sur canapé, puis porte-parole crispé et dents de Katka corrigées ; son expression est un peu forte, à reprendre peut-être)
 
 Fiche `10_Series_12_Hrad_05_priamy-prenos.md` → `img/illus_12_hrad.jpg`
 

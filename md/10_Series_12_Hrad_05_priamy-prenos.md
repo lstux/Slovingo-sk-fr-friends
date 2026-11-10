@@ -1,6 +1,6 @@
 # Série Hrad (5/5) — Priamy prenos
 
-@ img/stvr-studio-kamera.jpg | Une caméra de télévision sur un plateau éclairé. Source : Wikimedia Commons, NJM2010, CC BY-SA 3.0
+@ img/illus_12_hrad.jpg | En direct depuis le château de Bratislava : le renard raconte, la loutre montre le carnet, et le porte-parole sourit de moins en moins. Source : illustration générée avec ChatGPT, d'après une photo de Jakub Hałun (Wikimedia Commons, CC BY-SA 4.0)
 
 {{fr:Sept heures. La lumière rouge s'allume sur la caméra. Vous êtes en direct, devant tout le pays. Chacun raconte ce qu'il a vu. Et la présentatrice pose une dernière question.}}
 
