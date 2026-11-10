@@ -1044,7 +1044,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🐹 A toľko mokrých.
 
-💬 Príde k nim mladá líška v zelenej veste. Nesie podnos s čajom.
+💬 Príde k nim mladá kamzica v zelenej veste. Nesie podnos s čajom.
 
 🦊🦺 Dobrý večer. Dáte si čaj? Je horúci.
 

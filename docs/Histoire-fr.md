@@ -1031,7 +1031,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🐹 Ni autant de mouillés.
 
-💬 Une jeune renarde en gilet vert s'approche d'eux. Elle porte un plateau avec du thé.
+💬 Une jeune chamois en gilet vert s'approche d'eux. Elle porte un plateau avec du thé.
 
 🦊🦺 Bonsoir. Vous voulez du thé ? Il est chaud.
 

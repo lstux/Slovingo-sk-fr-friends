@@ -1,8 +1,8 @@
 # Povodeň (extra) — V telocvični
 
-@ TODO_img/telocvicna-matrace.jpg | TODO : choisir une image (un gymnase avec des matelas et des couvertures, centre d'accueil)
+@ img/illus_06_povoden_2.jpg | Au gymnase, la soupe et le thé : une bénévole tend une tasse chaude à Andrea, qui hésite. Source : illustration générée avec ChatGPT
 
-{{fr:Le soir, au gymnase de l'école. Des dizaines d'animaux mouillés, une soupe qui chauffe, une renarde qui sert le thé. Andrea est bizarre avec ce thé. Et Maťo a une idée qui va tout changer.}}
+{{fr:Le soir, au gymnase de l'école. Des dizaines d'animaux mouillés, une soupe qui chauffe, une chamois qui sert le thé. Andrea est bizarre avec ce thé. Et Maťo a une idée qui va tout changer.}}
 
 ---
 
@@ -95,7 +95,7 @@
 - 🐰 Andrea, une hase de seize ans, ton amie
 - 🐻 Maťo, un ours de quatorze ans, le cousin d'Andrea
 - 🐹 Katka, une marmotte de treize ans, la sœur de Maťo
-- 🦊🦺 Une jeune renarde bénévole : on la vouvoie
+- 🐐🦺 Une jeune chamois bénévole : on la vouvoie
 - 🧑 La directrice de l'école : une adulte, on la vouvoie
 - 🕴️ Le monsieur au sourire, à la télévision : on le vouvoie
 
@@ -123,15 +123,15 @@
 > Ni autant de mouillés.
 > A toľko mokrých = et autant de mouillés
 
-! 💬 Príde k nim mladá líška v zelenej veste. Nesie podnos s čajom.
-> Une jeune renarde en gilet vert s'approche d'eux. Elle porte un plateau avec du thé.
+! 💬 Príde k nim mladá kamzica v zelenej veste. Nesie podnos s čajom.
+> Une jeune chamois en gilet vert s'approche d'eux. Elle porte un plateau avec du thé.
 > Príde k nim = vient vers eux
-> mladá líška = une jeune renarde
+> mladá kamzica = une jeune chamois (femelle)
 > v zelenej veste = en gilet vert
 > Nesie podnos s čajom = elle porte un plateau avec du thé
 + Pour comprendre : {{zelená}} = verte, {{vesta}} = le gilet, {{podnos}} = le plateau.
 
-! 🦊🦺 Dobrý večer. Dáte si čaj? Je horúci.
+! 🐐🦺 Dobrý večer. Dáte si čaj? Je horúci.
 > Bonsoir. Vous voulez du thé ? Il est chaud.
 > Dobrý večer = bonsoir
 > Dáte si čaj = vous prenez du thé
