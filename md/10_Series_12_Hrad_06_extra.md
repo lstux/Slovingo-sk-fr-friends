@@ -1,6 +1,6 @@
 # Hrad (extra) — Potom uvidíme
 
-@ img/bratislava-noc-dunaj.jpg | Le Nový most et le Danube, la nuit. Source : Wikimedia Commons, Frettie, CC BY 3.0
+@ img/illus_12_hrad_2.jpg | Sur la terrasse du château, la nuit : le Danube, les lumières, et une question difficile. Source : illustration générée avec ChatGPT
 
 {{fr:La caméra s'éteint. Tout le monde souffle. Le téléphone de Katka se recharge, et les messages tombent. Plus tard, sur la terrasse, il ne reste que toi et Andrea. Et une question difficile.}}
 
