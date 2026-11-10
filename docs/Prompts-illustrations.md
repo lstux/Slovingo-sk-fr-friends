@@ -294,7 +294,7 @@ Scene: A live TV news studio inside Bratislava Castle at dusk, wide landscape fo
 Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. Any humans are drawn in the same simple cartoon style as the animals: simplified shapes, flat colours, few details on faces and hair, no realistic or semi-realistic faces. Soft, painterly background with few small details, so the characters stand out, but the place stays recognisable. Landscape format. No text, no letters, no logos, no channel logo, no watermark.
 ```
 
-## 13 Sen — Sous le pommier
+## 13 Sen — Sous le pommier ✅ faite le 10 novembre (ChatGPT, planche des héros + photo ; retouche des expressions)
 
 Fiche `10_Series_13_Sen_05_dobry-sen.md` → `img/illus_13_sen.jpg`
 
@@ -317,8 +317,8 @@ Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, f
 | Image | Pourquoi | Priorité |
 |---|---|---|
 | 02 Sucho | Le carnet est trouvé dans cette scène : il doit se voir. | ✅ fait le 10 novembre (ChatGPT, avec la planche des nouveaux rôles) |
-| 01 Košice | Les passagers humains ressemblent à des enfants ; le cours n'a que des humains adultes. | à faire |
-| 06 Povodeň | Les visages sourient trop pour une inondation (déjà noté). | à faire |
+| 01 Košice | Les passagers humains ressemblent à des enfants ; le cours n'a que des humains adultes. | ✅ refaite le 10 novembre (planche des héros seule, sans photo ; intérieur du tram simplifié, quatre passagers adultes) |
+| 06 Povodeň | Les visages sourient trop pour une inondation (déjà noté). | ✅ fait le 10 novembre (visages concentrés, décor redessiné) |
 | 03 Raj | pán Orol leur remet une page du carnet. | facultatif |
 | 05 Domov | Babka sort l'enveloppe de la loutre. | facultatif |
 

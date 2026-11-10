@@ -1,6 +1,6 @@
 # Série Sen (5/5) — Dobrý sen
 
-@ img/halusky.jpg | Une assiette de bryndzové halušky. Source : Wikimedia Commons, Gregory finster, CC0
+@ img/illus_13_sen.jpg | Au petit matin, sous le pommier : Gab raconte son « rêve » et Andrea l'écoute, de moins en moins amusée. Source : illustration générée avec ChatGPT, d'après une photo de Maksym Kozlenko (Wikimedia Commons, CC BY-SA 4.0)
 
 {{fr:Tu racontes tout. La sécheresse, l'orage, l'inondation, la route, le datacentre, la mine. Andrea écoute. Et bizarrement, beaucoup de détails sont… vrais.}}
 
