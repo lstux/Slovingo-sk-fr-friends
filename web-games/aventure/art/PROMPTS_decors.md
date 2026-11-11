@@ -74,3 +74,19 @@ Résultat (11 nov.) : bon du premier coup (`sources/zahrada_wide_src.png`). La c
 
 Demandé à la suite de la conversation du jardin (« exactly the same garden, same point of view… next morning »). Résultat
 (`sources/rano_wide_src.png`) superposable au pixel près à la version du soir : mêmes zones dans `game.js`.
+
+
+## 9. Le parc et l'étang presque à sec : `park_wide.webp` (chapitre 2)
+
+**À la suite de la conversation du jardin** (rien à joindre) ; sinon joindre `sources/rano_wide_src.png`.
+Disposition : entrée du parc (on arrive du jardin), pítko à sec et kiosque à glaces fermé (fausses pistes), l'étang presque vide au
+milieu (boue craquelée, roseaux secs, petite passerelle, **échelle de mesure du niveau d'eau** : lien avec la loutre qui « mesurait
+l'eau »), des oiseaux silencieux sur une branche, puis l'allée vers le centre-ville (la cathédrale au loin). Le canard est un sprite.
+
+```
+Now, in exactly the same drawing style, draw the next scrolling background of the game: a public park in Kosice, Slovakia, on a very hot, dry summer morning, as a very wide panoramic image in 3:1 format (3072x1024 pixels), seen from the side, harsh bright sunlight, a pale hazy sky.
+
+From left to right: the park entrance with an open wrought-iron gate and a gravel path; a stone drinking fountain (dry, no water); a small closed ice-cream kiosk with its shutter pulled down (no writing on it); a wooden bench under a big chestnut tree whose leaves are turning brown too early, with three small birds sitting silently on a low branch; in the middle, a small pond that is almost completely dry: cracked brown mud, a small puddle of water left in the centre, dry yellow-brown reeds, an old water-level measuring post standing in the mud with painted marks (stripes only, no numbers), and a small wooden footbridge crossing the dry pond; then flower beds with wilted flowers, a lamp post, and on the right the park path leading out towards the old town, with the Gothic cathedral spire in the distance above the trees. The park is EMPTY (no people, no ducks, no other animals except the three silent birds on the branch). The lower third of the picture (the gravel path in front of the pond) stays clear and empty, because characters will walk there. No text, no letters, no numbers, no signs with writing, no logos.
+
+Background style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading, simplified shapes, gentle gradients, no photographic textures or reflections. Landscape 3:1 format. No text, no letters, no numbers, no logos, no watermark.
+```
