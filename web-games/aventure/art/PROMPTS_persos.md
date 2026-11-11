@@ -94,3 +94,24 @@ Poses toutes bonnes. Marche (demandée dans la même conversation, une main sur 
 fois un **vrai cycle de 8 images** (les deux pas différent), utilisé en entier. Images du jeu : `make_sprites.py andrea` →
 `art/andrea2_*` (`art/andrea.png` et `andrea_walk.png` restent ceux de l'aperçu `tram.js`). Dans le tram : assise en train de lire
 (`read`), lève les yeux (`look`), se lève et fait un pas vers Gab, puis `arms`, `surprised`, `laugh`, `point` selon les répliques.
+
+
+## Le contrôleur (*revízor*, humain) : `revizor_sheet_src.png` (une seule planche : marche + poses)
+
+**À joindre** : `sources/gab_sheet_src.png` (cadrage et style) et `img/illus_01_kosice_2.jpg` (la façon de dessiner les humains).
+
+```
+Use the first attached image (a sprite sheet of a fox) as the reference for the layout, the size and the drawing style, and the second attached image for how ordinary humans are drawn in this world: very simple cartoon shapes, flat colours, small simple eyes, few lines on the face, no realistic or semi-realistic faces.
+
+Create a sprite sheet for a 2D point-and-click adventure game: a very wide image in 3:1 format (3072x1024 pixels), a grid of 8 columns and 2 rows of equal cells, the same character drawn full body in every cell, at exactly the same size and scale in every cell, feet on the same baseline near the bottom of each cell, nothing touching the cell borders, no cell borders drawn.
+
+The character: an ordinary adult human man, a tram ticket inspector in Kosice, Slovakia, a bit taller than the fox, slightly round, with a small moustache. He wears a navy-blue uniform jacket and trousers, black shoes, a navy cap, a lanyard with a plain badge (no text), and carries a small grey handheld ticket machine. Serious and a bit stern, but kind underneath.
+
+Row 1, walk cycle, side view facing RIGHT: 8 consecutive frames of a calm, official walk, with the hand holding the ticket machine against his chest and the other hand behind his back, so that the arms stay still in every frame; only the legs, a gentle body bounce and the lanyard move.
+
+Row 2, eight poses facing RIGHT: 1 standing, neutral; 2 holding out his open hand, asking for a ticket; 3 looking down at a ticket in his hand, checking it; 4 nodding with a small satisfied smile; 5 frowning, arms crossed; 6 writing on a small notepad (a fine); 7 pointing firmly at the floor; 8 touching the peak of his cap with two fingers, a polite goodbye.
+
+Background: one flat, uniform pure green colour (#00FF00) everywhere, with no gradient, no floor, no shadows, no texture. Do not use this green anywhere on the character.
+
+Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. No text, no letters, no numbers, no frame labels, no watermark.
+```
