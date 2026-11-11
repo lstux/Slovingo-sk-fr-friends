@@ -86,7 +86,7 @@ const srv = http.createServer((q, r) => {
   await idle('retour'); await useW(1935, 428, 'interrupteur'); if (!(await st()).flags.lampoff) fail('lampe');
   picks = [0, 1]; await useW(1040, 450, 'dodo'); await idle('rano'); s = await st(); if (s.sc !== 'rano') fail('pas au matin ' + s.sc);
   await idle('matin'); await shot('05_rano'); if (!(await st()).items.includes('flasa')) fail('gourde');
-  await use(1175, 400, 'parc'); s = await st(); if (s.sc !== 'jazierko') fail('etang ' + s.sc);
+  await useW(1760, 420, 'hamac le matin'); await useW(120, 470, 'portillon vers le parc'); s = await st(); if (s.sc !== 'jazierko') fail('etang ' + s.sc);
   await item('flasa', 900, 520, 'canard'); s = await st(); if (!s.clues.includes('kacka')) fail('indice canard');
   await shot('06_etang');
   await use(1175, 400, 'centre'); s = await st(); if (s.sc !== 'fontana') fail('fontaine ' + s.sc);

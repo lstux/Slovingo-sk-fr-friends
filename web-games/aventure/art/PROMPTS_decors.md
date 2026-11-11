@@ -69,3 +69,8 @@ Background style: Classic 2D hand-drawn animated-film style (not 3D): clean ink 
 
 Résultat (11 nov.) : bon du premier coup (`sources/zahrada_wide_src.png`). La couverture et son icône : `sources/objets_zahrada_src.png`
 (demandées à la suite). Le halo de la lampe est dessiné par le jeu (`props` `glow`) ; lampe éteinte : `shade` sur la lanterne et l'herbe.
+
+## 8. Le jardin, le matin : `rano_wide.webp` (chapitre 2, début)
+
+Demandé à la suite de la conversation du jardin (« exactly the same garden, same point of view… next morning »). Résultat
+(`sources/rano_wide_src.png`) superposable au pixel près à la version du soir : mêmes zones dans `game.js`.

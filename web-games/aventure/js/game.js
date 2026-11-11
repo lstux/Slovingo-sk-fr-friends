@@ -631,33 +631,64 @@
       },
 
       // =============================================================== CHAPITRE 2 : Sucho
+      // le matin dans le jardin (meme decor que le soir, version de jour : les zones sont les memes). Theme : la secheresse.
       rano: {
         chapter: 'ch2', title: { sk: 'Ráno v záhrade', fr: 'Le matin dans le jardin' }, tint: ['#e8c57a', '#cdb577'],
-        player: 'fox', floor: FLOOR, scale: SCALE, sprites: [fox(400), andrea(700, -1)],
+        bg: 'art/rano_wide.webp', worldW: 2160,
+        player: 'fox', floor: [[0, 590], [2160, 590], [2160, 712], [0, 712]], scale: { y0: 590, s0: 0.5, y1: 712, s1: 0.6 },
+        sprites: [gab(1040, 640), andrea(1240, -1, 640)],
         hotspots: [
-          { id: 'jablon', name: { sk: 'jabloň', fr: 'le pommier' }, poly: box(80, 80, 380, 560), walk: [300, 650],
-            look: { sk: 'Pod jabloňou som dobre spal.', fr: 'J\'ai bien dormi sous le pommier.' } },
-          { id: 'park', name: { sk: 'park', fr: 'le parc' }, poly: box(1100, 250, 1250, 560), walk: [1090, 650],
+          { id: 'branka', name: { sk: 'bránka', fr: 'le portillon' }, poly: box(55, 380, 170, 575), walk: [120, 630], pose: 'use',
             async onUse(g) {
               if (!g.has('flasa') && !g.flag('duck')) { await say(g, 'andrea', 'Vezmi si fľašu s vodou.', 'Prends la gourde.'); return; }
               await say(g, 'andrea', 'Ideme do parku. Tam je jazierko.', 'On va au parc. Il y a un petit étang.', [['jazierko', 'le petit étang']]);
               g.goScene('jazierko');
             } },
+          { id: 'kolna', name: { sk: 'kôlňa', fr: 'la cabane' }, poly: box(235, 275, 590, 480), walk: [430, 630],
+            look: { sk: 'Kôlňa. Drevo na zimu. Teraz je horúco, zima je ďaleko.', fr: 'La cabane. Du bois pour l\'hiver. Il fait chaud, l\'hiver est loin.', words: [['zima', 'l\'hiver'], ['horúco', 'il fait chaud']] } },
+          { id: 'krhla', name: { sk: 'krhla', fr: 'l\'arrosoir' }, poly: box(380, 485, 480, 580), walk: [440, 630], pose: 'pick',
+            async onUse(g) { await say(g, 'narrator', 'Krhla je prázdna. Ani kvapka.', 'L\'arrosoir est vide. Pas une goutte.', [['kvapka', 'la goutte'], ['prázdny', 'vide']]); } },
+          { id: 'kvety', name: { sk: 'kvety', fr: 'les fleurs' }, poly: box(620, 450, 745, 560), walk: [680, 630],
+            look: { sk: 'Kvety sú smädné. Hlavičky visia dole.', fr: 'Les fleurs ont soif. Leurs têtes pendent.', words: [['kvet', 'la fleur'], ['smädný', 'assoiffé']] } },
+          { id: 'snura', name: { sk: 'šnúra', fr: 'la corde à linge' }, poly: box(625, 340, 940, 470), walk: [780, 630],
+            look: { sk: 'Tričko a uterák. Už sú suché. Všetko je tu suché.', fr: 'Le tee-shirt et la serviette. Déjà secs. Tout est sec, ici.', words: [['suchý', 'sec']] } },
+          { id: 'jablon', name: { sk: 'jabloň', fr: 'le pommier' }, poly: [[700, 40], [1470, 40], [1470, 300], [1110, 330], [1110, 575], [950, 575], [960, 330], [700, 300]], walk: [1040, 640],
+            look: { sk: 'Pod jabloňou som dobre spal. Ale jablká sú malé. Strom potrebuje vodu.', fr: 'J\'ai bien dormi sous le pommier. Mais les pommes sont petites. L\'arbre a besoin d\'eau.', words: [['strom', 'l\'arbre'], ['potrebuje', 'il a besoin']] } },
+          { id: 'buda', name: { sk: 'búda', fr: 'la niche' }, poly: box(1125, 420, 1310, 565), walk: [1215, 630],
+            look: { sk: 'Stále bez psa. Možno je pes u susedov, v tieni.', fr: 'Toujours pas de chien. Il est peut-être chez les voisins, à l\'ombre.', words: [['tieň', 'l\'ombre'], ['sused', 'le voisin']] } },
+          { id: 'furik', name: { sk: 'fúrik', fr: 'la brouette' }, poly: box(1385, 460, 1590, 565), walk: [1480, 630],
+            look: { sk: 'Fúrik. Vo fúriku sa vozí zem, nie Gab.', fr: 'Une brouette. On y transporte de la terre, pas des renards.', words: [['zem', 'la terre']] } },
+          { id: 'hojdacka', name: { sk: 'hojdacia sieť', fr: 'le hamac' }, poly: box(1640, 335, 1910, 495), walk: [1760, 630],
+            async onUse(g) {
+              g.pose('andrea', 'arms');
+              await say(g, 'andrea', 'Teraz áno… ale nemáme čas!', 'Maintenant, oui… mais on n\'a pas le temps !', [['čas', 'le temps']]);
+              g.pose('andrea', null);
+            } },
+          { id: 'okno', name: { sk: 'okno', fr: 'la fenêtre' }, poly: box(1770, 65, 1930, 265), walk: [1850, 630],
+            look: { sk: 'Záclona je zatiahnutá. Teta ešte spí? Alebo nás pozoruje…', fr: 'Le rideau est tiré. La tante dort encore ? Ou elle nous observe…', words: [['pozorovať', 'observer']] } },
+          { id: 'dvere', name: { sk: 'dvere', fr: 'la porte' }, poly: box(1970, 250, 2080, 535), walk: [2000, 630], pose: 'use',
+            async onUse(g) { await say(g, 'andrea', 'Nie! Tam je teta. Ideme radšej von, cez bránku.', 'Non ! Ma tante est là-dedans. Sortons plutôt par le portillon.', [['von', 'dehors']]); } },
+          { id: 'katedrala', name: { sk: 'katedrála', fr: 'la cathédrale' }, poly: box(495, 125, 650, 255), walk: [570, 630],
+            look: { sk: 'Katedrála v rannom slnku.', fr: 'La cathédrale au soleil du matin.', words: [['slnko', 'le soleil']] } },
         ],
         hints: [
           { id: 'r_exit', levels: [
-            { sk: 'Ideme do parku. Je to napravo.', fr: 'On va au parc. C\'est à droite.' },
-            { sk: 'Klikni na park.', fr: 'Clique sur le parc.' } ] },
+            { sk: 'Ideme do parku. Najprv von zo záhrady.', fr: 'On va au parc. D\'abord, il faut sortir du jardin.' },
+            { sk: 'Bránka je vľavo.', fr: 'Le portillon est à gauche.' },
+            { sk: 'Klikni na bránku.', fr: 'Clique sur le portillon.' } ] },
         ],
         async onEnter(g) {
           if (g.flag('rano0')) return;
           g.setFlag('rano0');
           g.setHelper('andrea', 3);
+          g.pose('fox', 'sit');
           await say(g, 'narrator', 'Ráno. Slnko je už vysoko. Gab spí pod jabloňou.', 'Le matin. Le soleil est déjà haut. Gab dort sous le pommier.');
           await say(g, 'andrea', 'Gab! Vstávaj!', 'Gab ! Debout !');
+          g.pose('fox', 'surprised');
           await say(g, 'fox', 'Čo… Kde som? Ach áno. V záhrade.', 'Quoi… Où je suis ? Ah oui. Dans le jardin.');
+          g.pose('fox', null);
           await say(g, 'andrea', 'Na. Voda. Len trochu. Viac nemám.', 'Tiens. De l\'eau. Juste un peu. Je n\'en ai pas plus.', [['voda', 'l\'eau']]);
-          g.give('flasa');
+          g.pose('andrea', 'give'); await g.sleep(500); g.give('flasa'); g.pose('andrea', null);
           await say(g, 'andrea', 'Je horúco a sucho. Dva mesiace nepršalo.', 'Il fait chaud et sec. Il n\'a pas plu depuis deux mois.', [['sucho', 'la sécheresse'], ['nepršalo', 'il n\'a pas plu']]);
           await say(g, 'fox', 'Dva mesiace? A kde pijete?', 'Deux mois ? Et vous buvez où ?');
           await say(g, 'andrea', 'V parku je jazierko. Gab, ty veľmi hovoríš.', 'Il y a un étang au parc. Gab, tu parles beaucoup.');
