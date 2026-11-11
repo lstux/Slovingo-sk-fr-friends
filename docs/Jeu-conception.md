@@ -159,3 +159,36 @@ Décision d'Eric : défilement de caméra (façon Broken Sword) sur **quelques s
 - Moteur : `scene.worldW` + caméra qui suit le joueur (`engine.js`, `camTarget`). Zones et sprites en coordonnées du décor entier.
 - Essai : le tram (`art/tram_wide.webp`, `jeu.html?large=1`), l'ancien tram reste le défaut.
 - À voir : style un peu « vectoriel » à côté des illustrations du cours ; ville qui défile derrière les vitres (la ville du panorama est fixe) ; zones à affiner.
+
+
+## 5 bis. Nouvelle ouverture (décidée le 11 nov. 2026, remplace l'intro de la gare actuelle)
+
+On reprend le jeu du début : ouverture en images, puis la gare, puis un tram refait pour coller à l'histoire (Andrea n'est pas visible
+d'emblée : on avance dans le wagon et on la découvre assise plus loin). Tous les décors et toutes les animations seront regénérés ; ce
+qui existe aujourd'hui (images provisoires, sprites découpés des planches) n'est pas à conserver.
+
+### Déroulé (environ 40 s, bouton « Passer », ne se rejoue pas : drapeau `intro_done`)
+
+| Plan | Image | Texte (SK / FR) |
+|---|---|---|
+| 1. Zoom lent | Carte illustrée de l'**Europe** ; la caméra s'approche doucement de l'est, jusqu'à la Slovaquie | *Leto.* / « L'été. » |
+| fondu enchaîné | | *Gab má pätnásť rokov. Pochádza z Francúzska.* / « Gab a quinze ans. Il vient de France. » |
+| 2. Fixe | Carte de la **Slovaquie**, Košice marqué à l'est (le zoom du plan 1 s'y fond) | *Dnes prichádza do Košíc.* / « Aujourd'hui, il arrive à Košice. » |
+| fondu | | |
+| 3. Travelling | Intérieur du train, panorama 3:1 : Gab assis près de la fenêtre, Košice qui approche derrière la vitre ; la caméra glisse de Gab vers la vitre | Annonce : *Vážení cestujúci, o chvíľu prídeme do Košíc. Konečná stanica.* / « Chers voyageurs, nous arrivons bientôt à Košice. Terminus. » |
+| fondu | | Le jeu commence : la gare |
+
+Les textes slovaques sont une première écriture, à faire relire par un natif. L'annonce du train sert de premier mini-cours
+(*konečná stanica* = terminus, *cestujúci* = voyageurs).
+
+### Ce qu'il faut côté moteur
+- Scène « cinématique » : pas d'interface, clic ou Espace pour passer, bouton « Passer ».
+- Travelling scripté de la caméra (de x1 à x2 en N secondes, courbe douce) ; la caméra qui suit un joueur existe déjà (`worldW`).
+- **Zoom** de caméra (agrandir l'image autour d'un point, doucement).
+- Fondu au noir et fondu enchaîné entre deux images ; cartons de texte bilingues sur l'image.
+- Drapeau `intro_done` dans la sauvegarde.
+
+### Images à générer (sans aucun texte : le texte vient du jeu) : `web-games/aventure/art/PROMPTS_intro.md`
+1. Carte de l'Europe (16:9), avec un pointillé de la France jusqu'à un repère rouge à Košice.
+2. Carte de la Slovaquie (16:9), Košice marqué.
+3. Intérieur du train, panorama 3:1, Gab dedans.
