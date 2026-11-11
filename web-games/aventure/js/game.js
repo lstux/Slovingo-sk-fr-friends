@@ -701,32 +701,84 @@
         },
       },
 
+      // le parc v2 (decor 3:1 : art/PROMPTS_decors.md n° 9) : l'etang presque a sec, le canard assoiffe, les animaux silencieux.
       jazierko: {
         chapter: 'ch2', title: { sk: 'Jazierko v parku', fr: 'L\'étang du parc' }, tint: ['#7ea36a', '#c9b779'],
-        player: 'fox', floor: FLOOR, scale: SCALE,
-        sprites: [fox(260), andrea(520, -1), { id: 'kacka', emoji: '🦆', x: 900, y: 640, h: 230, face: -1 }],
+        bg: 'art/park_wide.webp', worldW: 2160,
+        player: 'fox', floor: [[0, 570], [2160, 570], [2160, 712], [0, 712]], scale: { y0: 570, s0: 0.5, y1: 712, s1: 0.6 },
+        sprites: [gab(150, 640), andrea(260, -1, 625),
+          { id: 'kacka', img: 'art/kacka_hope.png', x: 1345, y: 580, h: 222, face: 1, pose: 'thirsty',
+            poses: Object.fromEntries(['thirsty', 'hope', 'drink', 'talk', 'happy', 'point'].map((k) => [k, { img: `art/kacka_${k}.png`, h: 222 }])) }],
+        props: [
+          { img: 'art/obj_zaba.png', x: 1440, y: 525, w: 52 },
+          { img: 'art/obj_srnka.png', x: 1040, y: 592, w: 230 },
+          { img: 'art/obj_jez.png', x: 1530, y: 566, w: 62 },
+          { img: 'art/obj_korytnacka.png', x: 1620, y: 572, w: 96 },
+        ],
         hotspots: [
-          { id: 'kacka', sprite: 'kacka', name: { sk: 'kačka', fr: 'le canard' }, walk: [760, 650],
+          { id: 'branka', name: { sk: 'brána parku', fr: 'la grille du parc' }, poly: box(0, 190, 300, 480), walk: [150, 630],
+            look: { sk: 'Brána parku. Späť? Nie, ideme ďalej.', fr: 'La grille du parc. Revenir ? Non, on continue.', words: [['brána', 'la grille'], ['ďalej', 'plus loin']] } },
+          { id: 'pitko', name: { sk: 'pítko', fr: 'la fontaine à boire' }, poly: box(260, 375, 390, 600), walk: [330, 630], pose: 'use',
+            async onUse(g) {
+              await say(g, 'narrator', 'Pítko. Nefunguje. Ani kvapka.', 'La fontaine à boire. Elle ne marche pas. Pas une goutte.', [['pítko', 'la fontaine à boire'], ['nefunguje', 'ça ne marche pas']]);
+            } },
+          { id: 'kiosk', name: { sk: 'stánok', fr: 'le kiosque' }, poly: box(345, 205, 612, 500), walk: [480, 630],
+            async onUse(g) {
+              g.pose('fox', 'surprised'); await say(g, 'fox', 'Zmrzlina!', 'Des glaces !', [['zmrzlina', 'la glace']]); g.pose('fox', null);
+              await say(g, 'narrator', 'Zatvorené.', 'Fermé.', [['zatvorené', 'fermé']]);
+              await say(g, 'andrea', 'Bez vody nie je zmrzlina, Gab.', 'Sans eau, pas de glace, Gab.');
+            } },
+          { id: 'vtaky', name: { sk: 'vtáky', fr: 'les oiseaux' }, poly: box(805, 115, 960, 180), walk: [880, 630],
+            look: { sk: 'Tri vtáky. Nespievajú. Je príliš horúco.', fr: 'Trois oiseaux. Ils ne chantent pas. Il fait trop chaud.', words: [['vták', 'l\'oiseau'], ['spievať', 'chanter']] } },
+          { id: 'gastan', name: { sk: 'gaštan', fr: 'le marronnier' }, poly: [[200, 0], [1300, 0], [1300, 230], [760, 260], [740, 520], [590, 540], [620, 260], [200, 200]], walk: [700, 630],
+            look: { sk: 'Gaštan. Listy sú už hnedé. V lete!', fr: 'Un marronnier. Ses feuilles sont déjà brunes. En été !', words: [['gaštan', 'le marronnier'], ['list', 'la feuille'], ['leto', 'l\'été']] } },
+          { id: 'lavicka', name: { sk: 'lavička', fr: 'le banc' }, poly: box(680, 420, 945, 560), walk: [810, 630],
+            look: { sk: 'Lavička v tieni. Tu je aspoň trochu chládku.', fr: 'Un banc à l\'ombre. Ici, au moins, il fait un peu frais.', words: [['tieň', 'l\'ombre'], ['chládok', 'le frais']] } },
+          { id: 'jazierko', name: { sk: 'jazierko', fr: 'l\'étang' }, poly: [[1100, 405], [1700, 405], [1700, 545], [1100, 545]], walk: [1250, 630],
+            look: { sk: 'Jazierko je skoro suché. Zostalo len blato.', fr: 'L\'étang est presque à sec. Il ne reste que de la boue.', words: [['suchý', 'sec'], ['blato', 'la boue']] } },
+          { id: 'most', name: { sk: 'mostík', fr: 'la passerelle' }, poly: box(1190, 310, 1640, 400), walk: [1420, 630],
+            look: { sk: 'Mostík cez jazierko. Cez jazierko bez vody.', fr: 'Une passerelle au-dessus de l\'étang. D\'un étang sans eau.', words: [['most', 'le pont']] } },
+          { id: 'meradlo', name: { sk: 'stĺpik', fr: 'le poteau' }, poly: box(1060, 395, 1100, 535), walk: [1080, 630],
+            async onUse(g) {
+              g.pose('fox', 'think');
+              await say(g, 'fox', 'Stĺpik s pásikmi. Meria sa ním voda. Tu niekto meral vodu?', 'Un poteau à rayures. Il sert à mesurer l\'eau. Quelqu\'un a mesuré l\'eau, ici ?', [['merať', 'mesurer'], ['stĺpik', 'le poteau']]);
+              g.pose('fox', null);
+              g.setFlag('saw_meradlo');
+            } },
+          { id: 'srnka', name: { sk: 'srnka', fr: 'la biche' }, poly: box(925, 520, 1155, 592), walk: [1000, 640],
+            look: { who: 'narrator', sk: 'Srnka leží v tieni. Mlčí. Je jej horúco.', fr: 'Une biche est couchée à l\'ombre. Elle se tait. Elle a chaud.', words: [['srnka', 'la biche'], ['mlčať', 'se taire']] } },
+          { id: 'zaba', name: { sk: 'žaba', fr: 'la grenouille' }, poly: box(1412, 486, 1468, 527), walk: [1430, 630],
+            look: { who: 'narrator', sk: 'Žaba na suchom blate. Žaba bez vody…', fr: 'Une grenouille sur la boue sèche. Une grenouille sans eau…', words: [['žaba', 'la grenouille']] } },
+          { id: 'jez', name: { sk: 'jež', fr: 'le hérisson' }, poly: box(1498, 520, 1562, 568), walk: [1530, 640],
+            look: { who: 'narrator', sk: 'Ježko je skrútený do klbka. Nehovorí.', fr: 'Un hérisson roulé en boule. Il ne parle pas.', words: [['jež', 'le hérisson']] } },
+          { id: 'korytnacka', name: { sk: 'korytnačka', fr: 'la tortue' }, poly: box(1572, 515, 1670, 574), walk: [1620, 640],
+            look: { who: 'narrator', sk: 'Stará korytnačka. Videla už veľa liet. Takéto ešte nie.', fr: 'Une vieille tortue. Elle a vu beaucoup d\'étés. Jamais un comme celui-ci.', words: [['korytnačka', 'la tortue'], ['starý', 'vieux']] } },
+          { id: 'kvety', name: { sk: 'kvety', fr: 'les fleurs' }, poly: box(1640, 400, 2010, 560), walk: [1820, 630],
+            look: { sk: 'Zvädnuté kvety.', fr: 'Des fleurs fanées.', words: [['zvädnutý', 'fané']] } },
+          { id: 'kacka', sprite: 'kacka', name: { sk: 'kačka', fr: 'le canard' }, walk: [1180, 650],
             look: { sk: 'Kačka je smädná. Nemá vodu.', fr: 'Le canard a soif. Il n\'a pas d\'eau.', words: [['kačka', 'le canard'], ['smädný', 'assoiffé']] },
             async onUse(g) {
-              if (g.flag('duck')) { await say(g, 'kacka', 'Ďakujem ešte raz!', 'Merci encore une fois !'); return; }
+              if (g.flag('duck')) { g.pose('kacka', 'talk'); await say(g, 'kacka', 'Ďakujem ešte raz!', 'Merci encore une fois !'); g.pose('kacka', 'happy'); return; }
+              g.pose('kacka', 'hope');
               await say(g, 'fox', 'Kačka je smädná.', 'Le canard a soif.', [['kačka', 'le canard'], ['smädný', 'assoiffé']]);
+              await say(g, 'kacka', 'Vo… vodu…', 'De… l\'eau…');
+              g.pose('kacka', 'thirsty');
             },
             onItem: {
               async flasa(g) {
                 await say(g, 'fox', 'Pre teba, kačička.', 'Pour toi, petit canard.', [['pre teba', 'pour toi'], ['dať', 'donner']]);
+                g.pose('fox', 'use'); await g.sleep(400); g.pose('fox', null);
                 g.take('flasa'); g.setFlag('duck'); g.addClue('kacka');
+                g.pose('kacka', 'drink');
                 await say(g, 'narrator', 'Kačka pije. Potom prehovorí.', 'Le canard boit. Puis il parle.');
+                g.pose('kacka', 'happy'); await g.sleep(700); g.pose('kacka', 'talk');
                 await say(g, 'kacka', 'Ďakujem! Včera tu bola vydra. Mala žlté čižmy.', 'Merci ! Hier, une loutre est passée. Elle avait des bottes jaunes.', [['vydra', 'la loutre'], ['čižmy', 'les bottes']]);
-                await say(g, 'kacka', 'Merala vodu. Potom išla do centra.', 'Elle mesurait l\'eau. Puis elle est allée vers le centre.', [['merať', 'mesurer']]);
+                await say(g, 'kacka', 'Merala vodu. Tamto pri jazierku. Potom išla do centra.', 'Elle mesurait l\'eau. Là, près de l\'étang. Puis elle est allée vers le centre.', [['merať', 'mesurer']]);
+                g.pose('kacka', 'point'); await g.sleep(900); g.pose('kacka', 'happy');
                 await say(g, 'andrea', 'Vydra, ktorá meria vodu? Ideme do centra.', 'Une loutre qui mesure l\'eau ? On va au centre.');
               },
             } },
-          { id: 'jazierko', name: { sk: 'jazierko', fr: 'l\'étang' }, poly: box(420, 560, 900, 640), walk: [660, 650],
-            look: { sk: 'Jazierko je skoro suché. Zostalo len blato.', fr: 'L\'étang est presque à sec. Il ne reste que de la boue.', words: [['suchý', 'sec'], ['blato', 'la boue']] } },
-          { id: 'zvierata', name: { sk: 'zvieratá', fr: 'les animaux' }, poly: box(40, 330, 330, 560), walk: [250, 650],
-            look: { sk: 'Zvieratá mlčia. Nikto nehovorí.', fr: 'Les animaux se taisent. Personne ne parle.', words: [['ticho', 'le silence'], ['mlčať', 'se taire']] } },
-          { id: 'centrum', name: { sk: 'centrum', fr: 'le centre' }, poly: box(1100, 250, 1250, 560), walk: [1090, 650],
+          { id: 'centrum', name: { sk: 'cesta do centra', fr: 'le chemin du centre' }, poly: box(1950, 360, 2160, 565), walk: [2080, 630],
             async onUse(g) {
               if (!g.flag('duck')) {
                 await say(g, 'andrea', 'Môžeme ísť. Ale kačka je smädná…', 'On peut y aller. Mais le canard a soif…');
@@ -736,6 +788,16 @@
               g.goScene('fontana');
             } },
         ],
+        async onEnter(g) {
+          if (g.flag('duck')) g.pose('kacka', 'happy');
+          if (g.flag('park0')) return;
+          g.setFlag('park0');
+          await say(g, 'narrator', 'V parku je jazierko. Ale je v ňom veľmi málo vody.', 'Dans le parc, il y a un petit étang. Mais il y a très peu d\'eau dedans.', [['málo', 'peu']]);
+          g.pose('andrea', 'worried');
+          await say(g, 'andrea', 'Včera tu ešte bola voda. Aspoň trochu.', 'Hier, il y avait encore de l\'eau. Un peu, au moins.', [['včera', 'hier'], ['trochu', 'un peu']]);
+          g.pose('andrea', null);
+          await say(g, 'narrator', 'Pri jazierku sú iné zvieratá. Nikto nehovorí.', 'Près de l\'étang, d\'autres animaux sont là. Personne ne parle.', [['zviera', 'l\'animal']]);
+        },
         hints: [
           { id: 'p_duck', when: (g) => !g.flag('duck'), levels: [
             { sk: 'Kačka je smädná. Máš niečo na pitie?', fr: 'Le canard a soif. Tu as de quoi boire ?' },

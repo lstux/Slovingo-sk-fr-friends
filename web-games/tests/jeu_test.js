@@ -87,9 +87,12 @@ const srv = http.createServer((q, r) => {
   picks = [0, 1]; await useW(1040, 450, 'dodo'); await idle('rano'); s = await st(); if (s.sc !== 'rano') fail('pas au matin ' + s.sc);
   await idle('matin'); await shot('05_rano'); if (!(await st()).items.includes('flasa')) fail('gourde');
   await useW(1760, 420, 'hamac le matin'); await useW(120, 470, 'portillon vers le parc'); s = await st(); if (s.sc !== 'jazierko') fail('etang ' + s.sc);
-  await item('flasa', 900, 520, 'canard'); s = await st(); if (!s.clues.includes('kacka')) fail('indice canard');
+  await useW(1080, 470, 'poteau de mesure'); await useW(400, 350, 'kiosque (fausse piste)');
+  await pg.evaluate(async () => { await __zajka.walk('fox', 1180, 650); __zajka.cam = __zajka.camTarget(); });
+  const duckAt = await pg.evaluate(() => { const k = __zajka.sprites.find((q) => q.id === 'kacka'); return [k.x - __zajka.cam, k.y - 40]; });
+  await item('flasa', duckAt[0], duckAt[1], 'canard'); s = await st(); if (!s.clues.includes('kacka')) fail('indice canard');
   await shot('06_etang');
-  await use(1175, 400, 'centre'); s = await st(); if (s.sc !== 'fontana') fail('fontaine ' + s.sc);
+  await useW(2060, 460, 'centre'); s = await st(); if (s.sc !== 'fontana') fail('fontaine ' + s.sc);
   await idle('fontaine'); await shot('07_fontaine');
   // jardinier : sujets (le mot "rebrik" doit etre connu d'abord : on regarde l'echelle)
   await use(100, 400, 'regarder echelle');

@@ -90,3 +90,7 @@ From left to right: the park entrance with an open wrought-iron gate and a grave
 
 Background style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading, simplified shapes, gentle gradients, no photographic textures or reflections. Landscape 3:1 format. No text, no letters, no numbers, no logos, no watermark.
 ```
+
+Résultat (12 nov.) : `sources/park_wide_src.png`, puis à la suite le canard (6 poses, `sources/kacka_sheet_src.png` → `art/kacka_*.png`)
+et les animaux silencieux de l'histoire (« Personne ne parle » : biche, hérisson, tortue, grenouille, `sources/zvierata_park_src.png`
+→ `art/obj_*.png`, posés en `props` avec une zone chacun).
