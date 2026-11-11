@@ -31,3 +31,12 @@ Conception : `docs/Jeu-conception.md`. Test : `node web-games/tests/jeu_test.js`
 Le moteur gère maintenant une **caméra** : une scène peut avoir `worldW` (largeur du décor, par défaut 1280) ; la caméra suit le
 joueur et s'arrête aux bords, les coordonnées des zones, du sol et des sprites sont celles du décor entier, l'interface reste fixe.
 Une scène sans `worldW` se comporte comme avant. Test : `node web-games/tests/tram_large_test.js`.
+
+
+## Ouverture (cinématique) : scène `uvod`
+
+Une nouvelle partie commence par l'ouverture (carte de l'Europe avec zoom vers Košice, fondu sur la carte de la Slovaquie, travelling
+dans le train, cartons SK/FR), puis la gare. Bouton « Passer », clic ou Espace pour raccourcir un carton ; drapeau `intro_done`.
+Moteur : `scene.cine` (pas d'interface), `scene.pics` (images avec leur propre cadrage : point `ax,ay` de l'image montré en `sx,sy`,
+agrandi `zoom` fois), et dans l'histoire `g.animate(ms, fn)`, `g.wait(ms)`, `g.caption(sk, fr, mots)`, `g.pic(id, props)`, `g.fade(a)`.
+Images : `art/PROMPTS_intro.md`. Test : `node web-games/tests/intro_test.js`.

@@ -7,6 +7,7 @@
   const W = 1280, H = 720;
   const SAVE_KEY = 'zajka-aventure-v1', FR_KEY = 'zajka-aventure-fr';
   const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+  const smooth = (k) => k * k * (3 - 2 * k);   // courbe douce (depart et arrivee lents)
 
   function pointInPoly(p, poly) {
     let inside = false;
@@ -47,6 +48,8 @@
       this.pages = []; this.clues = []; this.helper = null; this.hintLevel = {}; this.chapter = null; this.visited = [];
       this.mapState = null;
       this.cam = 0;   // camera : decalage horizontal du decor (scenes plus larges que l'ecran : scene.worldW)
+      // cinematiques (scene.cine) : images avec leur propre cadrage (pics), animations, attentes, carton de texte, fondu au noir
+      this.serial = 0; this.pics = []; this.anims = []; this.waits = []; this.caption = null; this.fadeA = 0;
       try { this.showFr = root.localStorage.getItem(FR_KEY) !== '0'; } catch (e) { /* ignore */ }
       this._bind();
     }
@@ -65,6 +68,7 @@
       const srcs = new Set();
       for (const s of Object.values(this.data.scenes)) {
         srcs.add(s.bg);
+        for (const q of s.pics || []) srcs.add(q.img);
         for (const l of s.layers || []) { srcs.add(l.img); for (const q of l.imgs || []) srcs.add(q); }
         for (const sp of (s.sprites || []).concat(Object.values(s.extraSprites || {}))) { srcs.add(sp.img); if (sp.walkSheet) srcs.add(sp.walkSheet.img); }
       }
@@ -117,7 +121,13 @@
     }
     enter(id) {
       const def = this.data.scenes[id];
+      const fromCine = !!(this.scene && this.scene.cine);
+      this.flushCine();
+      this.serial += 1;
       this.scene = Object.assign({ id }, def);
+      this.pics = (def.pics || []).map((q) => Object.assign({ alpha: 1 }, q, { view: Object.assign({ zoom: 1, ax: 0, ay: 0, sx: 0, sy: 0 }, q.view) }));
+      this.caption = null; this.fadeA = 0;
+      if (fromCine && !def.cine) { this.fadeA = 1; this.animate(800, (k) => { this.fadeA = 1 - k; }); }   // on sort d'une cinematique : fondu depuis le noir
       this.sprites = (def.sprites || []).map((s) => Object.assign({ tx: null, ty: null, face: 1, wt: 0, hidden: false }, s));
       this.timers = []; this.dialog = null; this.choices = null; this.selected = null;
       this.sceneTime = 0;
@@ -126,9 +136,49 @@
       this.save();
       if (def.onEnter) this.run(() => def.onEnter(this.api()));
     }
+    // ------------------------------------------------------------ cinematiques
+    // animate(ms, fn) : appelle fn(k) a chaque image, k de 0 a 1 (courbe douce) ; promesse resolue a la fin
+    animate(ms, fn, ease) {
+      return new Promise((resolve) => {
+        const a = { t0: this.t, dur: Math.max(0.001, ms / 1000), fn, ease: ease || smooth, resolve };
+        fn(a.ease(0));
+        this.anims.push(a);
+      });
+    }
+    // attente qu'un clic (ou Espace) peut raccourcir
+    wait(ms) {
+      return new Promise((resolve) => { this.waits.push({ at: this.t + ms / 1000, resolve }); });
+    }
+    flushCine() {
+      for (const a of this.anims) { a.fn(a.ease(1)); a.resolve(); }
+      for (const w of this.waits) w.resolve();
+      this.anims = []; this.waits = [];
+    }
+    cineNext() { const ws = this.waits; this.waits = []; for (const w of ws) w.resolve(); }
+    skipRect() { return { x: W - 176, y: 14, w: 162, h: 50 }; }
+    skipCine() {
+      const sc = this.scene;
+      if (!sc || !sc.cine) return;
+      if (sc.doneFlag) this.flags[sc.doneFlag] = true;
+      if (sc.next) this.enter(sc.next); else this.flushCine();
+    }
+    pic(id, props) {
+      const q = this.pics.find((x) => x.id === id);
+      if (!q) return;
+      const { view, ...rest } = props;
+      Object.assign(q, rest);
+      if (view) Object.assign(q.view, view);
+    }
     api() {
-      const g = this;
+      const g = this, serial = this.serial;
+      const live = () => g.serial === serial;   // une histoire d'un decor quitte (cinematique passee) ne touche plus a rien
+      const done = () => Promise.resolve();
       return {
+        animate: (ms, fn, ease) => (live() ? g.animate(ms, (k) => { if (live()) fn(k); }, ease) : done()),
+        wait: (ms) => (live() ? g.wait(ms) : done()),
+        caption: (sk, fr, words) => { if (!live()) return; if (words) for (const [a, b] of words) g.words[a] = b; g.caption = sk ? { sk, fr, t0: g.t } : null; },
+        pic: (id, props) => { if (live()) g.pic(id, props); },
+        fade: (a) => { if (live()) g.fadeA = a; },
         say: (who, sk, fr, words) => g.say(who, sk, fr, words),
         choice: (opts) => g.choose(opts),
         walk: (id, x, y) => g.walk(id, x, y),
@@ -148,7 +198,7 @@
         take: (it) => { g.items = g.items.filter((q) => q !== it); if (g.selected === it) g.selected = null; g.save(); },
         learn: (sk, fr) => { g.words[sk] = fr; g.save(); },
         after: (ms, fn) => g.timers.push({ at: g.sceneTime + ms / 1000, fn }),
-        sleep, goScene: (id) => g.enter(id), restart: () => g.enter(g.scene.id),
+        sleep, goScene: (id) => { if (live()) g.enter(id); }, restart: () => g.enter(g.scene.id),
         end: (sk, fr) => { g.endCard = { sk, fr }; g.save(); },
         // --- jeu complet
         knows: (w) => !!g.words[w],
@@ -230,6 +280,7 @@
       if (this.panel) { this.panel = null; return; }
       if (this.dialog) { this.advance(); return; }
       if (this.choices) { this.pickChoice(p); return; }
+      if (this.scene && this.scene.cine) { const r = this.skipRect(); if (p[0] >= r.x && p[0] <= r.x + r.w && p[1] >= r.y && p[1] <= r.y + r.h) this.skipCine(); else this.cineNext(); return; }
       if (this.busy) return;
       const hb = this.hudButtonAt(p);
       if (hb) { this.pressHud(hb); return; }
@@ -375,7 +426,7 @@
       cv.addEventListener('pointermove', (ev) => { this.mouse = pos(ev); });
       cv.addEventListener('pointerdown', (ev) => { ev.preventDefault(); this.mouse = pos(ev); this.click(this.mouse); });
       root.addEventListener('keydown', (ev) => {
-        if (ev.key === ' ' || ev.key === 'Enter') { ev.preventDefault(); if (this.dialog) this.advance(); else this.flashZones(); }
+        if (ev.key === ' ' || ev.key === 'Enter') { ev.preventDefault(); if (this.dialog) this.advance(); else if (this.scene && this.scene.cine) this.cineNext(); else this.flashZones(); }
         else if (ev.key === 'Escape') { if (this.panel === 'map') this.clickMap(); else this.panel = null; }
       });
     }
@@ -393,6 +444,17 @@
       if (!this.scene) return;
       this.sceneTime += dt;
       if (this.flash > 0) this.flash -= dt;
+      if (this.anims.length) {
+        const cur = this.anims, keep = [];
+        this.anims = [];
+        for (const a of cur) {
+          const k = Math.min(1, (this.t - a.t0) / a.dur);
+          a.fn(a.ease(k));
+          if (k >= 1) a.resolve(); else keep.push(a);
+        }
+        this.anims = keep.concat(this.anims);
+      }
+      if (this.waits.length) { const due = this.waits.filter((w) => w.at <= this.t); if (due.length) { this.waits = this.waits.filter((w) => w.at > this.t); for (const w of due) w.resolve(); } }
       if (this.panel === 'map' && this.mapState && this.mapState.t < 1) this.mapState.t = Math.min(1, this.mapState.t + dt / 2.6);
       if (this.dialog && this.dialog.shown < this.dialog.sk.length) this.dialog.shown = Math.min(this.dialog.sk.length, this.dialog.shown + dt * 55);
       for (const s of this.sprites) {
@@ -419,7 +481,8 @@
       this.cam += (ct - this.cam) * Math.min(1, dt * 5);
       if (Math.abs(ct - this.cam) < 0.5) this.cam = ct;
       this.hover = this.busy || this.dialog || this.choices || this.panel ? null : this.hotspotAt([this.mouse[0] + this.cam, this.mouse[1]]);
-      this.cv.style.cursor = this.hover || this.slotAt(this.mouse) >= 0 || (!this.busy && !this.dialog && !this.choices && !this.panel && this.hudButtonAt(this.mouse)) ? 'pointer' : 'default';
+      const sr = this.skipRect(), overSkip = this.scene && this.scene.cine && this.mouse[0] >= sr.x && this.mouse[0] <= sr.x + sr.w && this.mouse[1] >= sr.y && this.mouse[1] <= sr.y + sr.h;
+      this.cv.style.cursor = overSkip || this.hover || this.slotAt(this.mouse) >= 0 || (!this.busy && !this.dialog && !this.choices && !this.panel && this.hudButtonAt(this.mouse)) ? 'pointer' : 'default';
     }
 
     // ------------------------------------------------------------ rendu
@@ -430,21 +493,62 @@
       if (!sc) return;
       c.save();
       c.translate(-Math.round(this.cam), 0);   // le decor (et tout ce qui est dedans) defile avec la camera ; l'interface, non
+      if (sc.pics) this.drawPics(sc);
       const bg = this.img(sc.bg);
       if (bg && bg.naturalWidth) c.drawImage(bg, 0, 0, sc.worldW || W, H);
-      else if (!sc.bg) this.drawPlaceholder(sc);
+      else if (!sc.bg && !sc.pics) this.drawPlaceholder(sc);
       for (const l of sc.layers || []) this.drawLayer(l);
       const order = this.sprites.filter((s) => !s.hidden).sort((a, b) => a.y - b.y);
       for (const s of order) this.drawSprite(s);
       c.restore();
       if (sc.dim) { const a = sc.dim(this.api()); if (a > 0) { c.fillStyle = `rgba(8,10,40,${a})`; c.fillRect(0, 0, W, H); } }
-      this.drawHud();
+      if (this.fadeA > 0) { c.fillStyle = `rgba(0,0,0,${Math.min(1, this.fadeA)})`; c.fillRect(0, 0, W, H); }
+      if (sc.cine) this.drawCineHud(); else this.drawHud();
       if (this.dialog) this.drawDialog();
       if (this.choices) this.drawChoices();
       if (this.panel === 'words') this.drawWords();
       if (this.panel === 'notebook') this.drawNotebook();
       if (this.panel === 'map') this.drawMap();
       if (this.endCard) this.drawEnd();
+    }
+    // images d'une cinematique : chacune a son cadrage (le point ax,ay de l'image est montre en sx,sy de l'ecran, agrandi zoom fois)
+    drawPics(sc) {
+      const c = this.ctx;
+      c.fillStyle = sc.bgColor || '#000'; c.fillRect(0, 0, W, H);
+      for (const q of this.pics) {
+        if (!(q.alpha > 0)) continue;
+        const im = this.img(q.img);
+        if (!im || !im.naturalWidth) continue;
+        const v = q.view, z = v.zoom, cx = v.ax - v.sx / z, cy = v.ay - v.sy / z;
+        c.save();
+        c.globalAlpha = Math.min(1, q.alpha);
+        c.imageSmoothingQuality = 'high';
+        c.scale(z, z); c.translate(-cx, -cy);
+        c.drawImage(im, 0, 0, q.w || W, q.h || H);
+        c.restore();
+      }
+    }
+    drawCineHud() {
+      const c = this.ctx, cap = this.caption;
+      if (cap) {
+        const a = Math.min(1, (this.t - cap.t0) / 0.6);
+        c.save();
+        c.globalAlpha = a;
+        const g = c.createLinearGradient(0, H - 230, 0, H);
+        g.addColorStop(0, 'rgba(0,0,0,0)'); g.addColorStop(0.45, 'rgba(0,0,0,.62)'); g.addColorStop(1, 'rgba(0,0,0,.78)');
+        c.fillStyle = g; c.fillRect(0, H - 230, W, 230);
+        c.textAlign = 'center'; c.textBaseline = 'alphabetic';
+        c.font = '700 40px system-ui, sans-serif'; c.fillStyle = '#fff4d6';
+        const lines = this.wrap(cap.sk, W - 200);
+        let y = H - 112 - (lines.length - 1) * 48 + (this.showFr ? 0 : 40);
+        for (const l of lines) { c.fillText(l, W / 2, y); y += 48; }
+        if (this.showFr && cap.fr) { c.font = 'italic 28px system-ui, sans-serif'; c.fillStyle = '#c9c4d8'; c.fillText(cap.fr, W / 2, y + 2); }
+        c.restore();
+      }
+      const r = this.skipRect(), m = this.mouse, over = m[0] >= r.x && m[0] <= r.x + r.w && m[1] >= r.y && m[1] <= r.y + r.h;
+      c.fillStyle = over ? 'rgba(240,168,48,.92)' : 'rgba(20,20,35,.6)'; this.roundRect(r.x, r.y, r.w, r.h, 14); c.fill();
+      c.font = '600 24px system-ui, sans-serif'; c.fillStyle = '#fff'; c.textAlign = 'center'; c.textBaseline = 'middle';
+      c.fillText('Passer ▸', r.x + r.w / 2, r.y + r.h / 2 + 1); c.textAlign = 'left';
     }
     // une image qui s'estompe sur sa gauche (pour la raccorder a la precedente)
     fadedImage(im, w, h, fade) {

@@ -142,11 +142,57 @@
       await inspect(g, REV_WIDE);
     },
   };
+  // ------------------------------------------------------------------ l'ouverture (cinematique) : docs/Jeu-conception.md, « Nouvelle ouverture »
+  // Cartes : 1672 x 941 montrees en 1280 x 720 ; repere de Kosice mesure sur chaque image (art/PROMPTS_intro.md).
+  const EU = [1190 * 1280 / 1672, 419 * 720 / 941];    // pointe du repere sur la carte de l'Europe
+  const SK = [1252 * 1280 / 1672, 491 * 720 / 941];    // pointe du repere sur la carte de la Slovaquie
+  const uvod = {
+    cine: true, next: 'gare', doneFlag: 'intro_done', bgColor: '#e3c88e',
+    title: { sk: 'Úvod', fr: 'Ouverture' },
+    pics: [
+      { id: 'europe', img: 'art/intro_europe.webp', alpha: 1 },
+      { id: 'sk', img: 'art/intro_slovensko.webp', alpha: 0, view: { zoom: 0.8, ax: SK[0], ay: SK[1], sx: SK[0], sy: SK[1] } },
+      { id: 'train', img: 'art/intro_train.webp', w: 2160, alpha: 0 },
+    ],
+    async onEnter(g) {
+      g.fade(1);
+      await g.animate(1200, (k) => g.fade(1 - k));
+      // 1. l'Europe : la camera s'approche du repere, qui glisse vers la place qu'il aura sur la carte de la Slovaquie
+      const zoom = g.animate(8000, (k) => g.pic('europe', { view: { zoom: 1 + 2 * k, ax: EU[0], ay: EU[1], sx: EU[0] + (SK[0] - EU[0]) * k, sy: EU[1] + (SK[1] - EU[1]) * k } }));
+      g.caption('Leto.', 'L\'été.', [['leto', 'l\'été']]);
+      await g.wait(3000);
+      g.caption('Gab má pätnásť rokov. Pochádza z Francúzska.', 'Gab a quinze ans. Il vient de France.', [['Francúzsko', 'la France']]);
+      await zoom;
+      // fondu enchaine : les deux cartes grossissent ensemble, les deux reperes l'un sur l'autre
+      await g.animate(1800, (k) => {
+        g.pic('europe', { alpha: 1 - k, view: { zoom: 3 + 0.6 * k, ax: EU[0], ay: EU[1], sx: SK[0], sy: SK[1] } });
+        g.pic('sk', { alpha: k, view: { zoom: 0.8 + 0.2 * k, ax: SK[0], ay: SK[1], sx: SK[0], sy: SK[1] } });
+      });
+      // 2. la Slovaquie
+      g.caption('Dnes prichádza do Košíc.', 'Aujourd\'hui, il arrive à Košice.', [['dnes', 'aujourd\'hui']]);
+      await g.wait(3500);
+      g.caption(null);
+      await g.animate(900, (k) => g.fade(k));
+      g.pic('sk', { alpha: 0 }); g.pic('train', { alpha: 1 });
+      await g.animate(900, (k) => g.fade(1 - k));
+      // 3. le train : on reste un instant sur Gab, puis travelling vers la fenetre de la cathedrale pendant l'annonce
+      await g.wait(2200);
+      g.caption('📢 Vážení cestujúci, o chvíľu prídeme do Košíc. Konečná stanica.', '« Chers voyageurs, nous arrivons bientôt à Košice. Terminus. »',
+        [['cestujúci', 'les voyageurs'], ['konečná stanica', 'le terminus']]);
+      await g.animate(9000, (k) => g.pic('train', { view: { ax: 880 * k } }));
+      await g.wait(2500);
+      g.caption(null);
+      await g.animate(1000, (k) => g.fade(k));
+      g.setFlag('intro_done');
+      g.goScene('gare');
+    },
+  };
+
   // ------------------------------------------------------------------ le jeu
   globalThis.ZG_DATA = {
     title: 'Zajko Quest',
     saveKey: 'zajko-quest-web-v1',
-    start: 'gare',
+    start: 'uvod',
     chapters,
     notebook,
     helpers: {
@@ -181,6 +227,7 @@
       } },
     ],
     scenes: {
+      uvod,
       // =============================================================== INTRO : la gare de Kosice
       gare: {
         chapter: 'ch0', title: { sk: 'Stanica', fr: 'La gare' }, tint: ['#2f3d5a', '#9aa8bf'],

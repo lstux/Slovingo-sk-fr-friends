@@ -38,6 +38,7 @@ const srv = http.createServer((q, r) => {
   const use = async (x, y, what) => { await idle('avant ' + what); await click(x, y); await idle(what); };
   const item = async (name, x, y, what) => { await idle('avant ' + what); await pg.evaluate((n) => { __zajka.selected = n; }, name); await click(x, y); await idle(what); };
 
+  await pg.evaluate(() => { if (__zajka.scene.cine) __zajka.skipCine(); });   // l'ouverture a son propre test (intro_test.js)
   await idle('intro gare'); await shot('01_gare');
   await use(990, 430, 'automat sans mot');          // doit refuser (mot inconnu)
   let s = await st(); if (s.items.includes('listok')) fail('ticket sans avoir lu');

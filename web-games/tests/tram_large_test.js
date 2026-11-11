@@ -38,6 +38,7 @@ const srv = http.createServer((q, r) => {
   const click = (x, y) => g(([x, y]) => __zajka.click([x, y]), [x, y]);
   const worldToScreen = async (wx, wy) => { const cam = (await st()).cam; return [wx - cam, wy]; };
 
+  await pg.evaluate(() => { if (__zajka.scene.cine) __zajka.skipCine(); });   // l'ouverture a son propre test (intro_test.js)
   await idle('intro gare');   // l'histoire de la gare doit etre finie avant de changer de scene
   // on entre directement dans le tram, comme venant de la gare
   await g(() => { __zajka.items = ['listok']; __zajka.enter('tram'); });
