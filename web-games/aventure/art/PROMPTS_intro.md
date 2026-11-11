@@ -4,7 +4,9 @@ Même méthode que `PROMPTS.md` : nouvelle conversation par image, on joint les 
 résultat dans `sources/`. Style du cours (dessin animé 2D, aplats avec ombrage cel, décors peints). **Aucun texte dans les images.**
 Voir `docs/Jeu-conception.md`, section « Nouvelle ouverture ».
 
-## 1. Carte de l'Europe : `intro_europe.webp` (plan 1, avec zoom vers l'est)
+## 1. Carte de l'Europe : `intro_europe.webp` (plan 1, avec zoom vers l'est) ✅ 11 nov.
+
+Faite (1672 x 941, `sources/intro_europe_src.png`). **Pointe du repère : (1190, 419)**, soit 71,2 % / 44,5 % de l'image.
 
 **À joindre** : `img/illus_12_hrad_2.jpg` (seulement pour le style de dessin).
 
@@ -19,7 +21,10 @@ Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, f
 À vérifier sur le résultat : la Slovaquie doit être au bon endroit (petit pays, entre la Pologne au nord, l'Ukraine à l'est, la Hongrie
 au sud, l'Autriche et la Tchéquie à l'ouest) et le repère rouge à l'est du pays. La position du repère sert de cible au zoom.
 
-## 2. Carte de la Slovaquie : `intro_slovensko.webp` (plan 2)
+## 2. Carte de la Slovaquie : `intro_slovensko.webp` (plan 2) ✅ 11 nov.
+
+Faite (1672 x 941, `sources/intro_slovensko_src.png`), en joignant la carte de l'Europe pour le style. **Pointe du repère : (1252, 491)**, soit 74,9 % / 52,2 %.
+Pendant le fondu, les deux images grossissent ensemble pour que les deux repères se superposent.
 
 **À joindre** : `img/illus_12_hrad_2.jpg` (seulement pour le style).
 
@@ -33,12 +38,15 @@ Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, f
 
 ## 3. Intérieur du train : `intro_train.webp` (plan 3, panorama 3:1 avec travelling)
 
-**À joindre** : `docs/illustrations/planche-heros.jpg` (pour Gab, le renard).
+**À joindre** : `docs/illustrations/planche-heros.jpg` (pour Gab) et `sources/tram_wide_src.png` (le style des décors du jeu).
+
+Premier essai (11 nov.) : bon Gab et belle vue, mais un compartiment trop spacieux et une porte au milieu de la paroi des fenêtres qui
+donnerait sur un couloir impossible. On demande donc une **voiture ouverte** (sans compartiments), vue de l'allée.
 
 ```
-Use the attached model sheet (the heroes' sheet) for the character (keep him exactly as designed): the fox (Gab) only.
+Use the first attached image (the heroes' model sheet) for the character (keep him exactly as designed): the fox (Gab) only. Use the second attached image (a tram interior) only as the reference for the drawing style of the background (same clean lines, colours and level of detail); do not copy its content.
 
-Scene: the inside of a passenger train compartment, drawn as a very wide panoramic image in 3:1 format (3072x1024 pixels), as the last opening shot of an adventure game, afternoon light. On the left, the fox sits by a large window on a blue patterned seat, seen from the side, his yellow backpack on the seat next to him, one hand on the window ledge, looking out with a tired, hopeful smile. On the right, a second large window shows the outskirts of the city of Kosice, Slovakia, getting closer: apartment blocks, trees, railway tracks, and in the distance the tall Gothic spire of the cathedral. Between the two windows: a luggage rack, a small folding table, the compartment door with a glass panel. The compartment is otherwise EMPTY (no other passengers). The fox is clearly visible in the left third of the picture; the right two thirds are the compartment and the view.
+Scene: the inside of an open-plan passenger coach of a Slovak regional train (no compartments), seen from the central aisle looking at the window wall, drawn as a very wide panoramic image in 3:1 format (3072x1024 pixels), as the last opening shot of an adventure game, warm afternoon light. Along the whole wall: repeating seat bays, each bay with two pairs of blue patterned seats facing each other close together (realistic, cramped legroom), a small fold-down table under each window, one window per bay, and a continuous metal luggage rack above the windows. In the first bay on the left, the fox sits by the window, his yellow backpack on the seat next to him, his cheek resting on his hand, looking out with a tired, hopeful smile. The other bays are EMPTY (no other passengers). Through the windows, the outskirts of the city of Kosice, Slovakia, getting closer from left to right: trees and railway tracks, then apartment blocks, and in the last window on the right the tall Gothic spire of the cathedral. No doors in the window wall.
 
-Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading, soft painterly background, simplified shapes, gentle gradients, no photographic textures or reflections. Landscape 3:1 format. No text, no letters, no numbers, no signs, no logos, no watermark.
+Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading, simplified shapes, gentle gradients, no photographic textures or reflections. Landscape 3:1 format. No text, no letters, no numbers, no signs, no logos, no watermark.
 ```
