@@ -1,6 +1,6 @@
 # Raj (extra) — Pri potoku
 
-@ img/noc-hviezdy-les.jpg | Un ciel étoilé au-dessus d'une forêt. Source : Wikimedia Commons, Dennis Snipes, CC BY-SA 3.0
+@ img/illus_03_raj_2.jpg | Au bord du ruisseau, sous les étoiles : le renard s'endort, Andrea regarde l'eau. Source : illustration générée avec ChatGPT
 
 {{fr:Demain, direction les Tatras. Ce soir, on dort à la belle étoile, près du ruisseau. Et Andrea lâche une phrase qu'elle ne finit pas d'expliquer.}}
 
