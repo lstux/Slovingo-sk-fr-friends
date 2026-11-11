@@ -69,6 +69,7 @@
       for (const s of Object.values(this.data.scenes)) {
         srcs.add(s.bg);
         for (const q of s.pics || []) srcs.add(q.img);
+        for (const q of s.props || []) srcs.add(q.img);
         for (const l of s.layers || []) { srcs.add(l.img); for (const q of l.imgs || []) srcs.add(q); }
         for (const sp of (s.sprites || []).concat(Object.values(s.extraSprites || {}))) { srcs.add(sp.img); if (sp.walkSheet) srcs.add(sp.walkSheet.img); for (const q of Object.values(sp.poses || {})) srcs.add(q.img); }
       }
@@ -519,6 +520,7 @@
       if (bg && bg.naturalWidth) c.drawImage(bg, 0, 0, sc.worldW || W, H);
       else if (!sc.bg && !sc.pics) this.drawPlaceholder(sc);
       for (const l of sc.layers || []) this.drawLayer(l);
+      if (sc.props) this.drawProps(sc);
       const order = this.sprites.filter((s) => !s.hidden).sort((a, b) => a.y - b.y);
       for (const s of order) this.drawSprite(s);
       c.restore();
@@ -531,6 +533,17 @@
       if (this.panel === 'notebook') this.drawNotebook();
       if (this.panel === 'map') this.drawMap();
       if (this.endCard) this.drawEnd();
+    }
+    // objets poses dans le decor (scene.props : { img, x, y, w, when(g) }) : taille fixe, ancre en bas au milieu, sous les personnages
+    drawProps(sc) {
+      const api = this.api();
+      for (const q of sc.props) {
+        if (q.when && !q.when(api)) continue;
+        const im = this.img(q.img);
+        if (!im || !im.naturalWidth) continue;
+        const h = q.w * im.naturalHeight / im.naturalWidth;
+        this.ctx.drawImage(im, q.x - q.w / 2, q.y - h, q.w, h);
+      }
     }
     // images d'une cinematique : chacune a son cadrage (le point ax,ay de l'image est montre en sx,sy de l'ecran, agrandi zoom fois)
     drawPics(sc) {

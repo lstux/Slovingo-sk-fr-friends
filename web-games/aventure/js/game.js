@@ -293,8 +293,8 @@
       pokladnicka: { name: 'Pokladníčka', icon: '🧑‍💼', color: '#b06ab0' },
     }),
     items: Object.assign({}, ZA_DATA.items, {
-      kluc: { sk: 'kľúč', fr: 'clé', emoji: '🔑' },
-      cent: { sk: 'cent', fr: 'un centime', emoji: '🪙' },
+      kluc: { sk: 'kľúč', fr: 'clé', icon: 'art/item_kluc.png' },
+      cent: { sk: 'cent', fr: 'un centime', icon: 'art/item_cent.png' },
       deka: { sk: 'deka', fr: 'couverture', emoji: '🛏️' },
       flasa: { sk: 'fľaša', fr: 'gourde', emoji: '💧' },
       rebrik: { sk: 'rebrík', fr: 'échelle', emoji: '🪜' },
@@ -371,11 +371,20 @@
         bg: 'art/rue_wide.webp', worldW: 2160,
         player: 'fox', floor: [[0, 590], [2160, 590], [2160, 705], [0, 705]], scale: { y0: 590, s0: 0.33, y1: 705, s1: 0.41 },
         sprites: [gab(150, 640), andrea(260, -1, 630)],
+        // objets poses dans le decor (art/PROMPTS_decors.md n° 6)
+        props: [
+          { img: 'art/obj_noviny.png', x: 162, y: 482, w: 78 },
+          { img: 'art/obj_cent.png', x: 710, y: 620, w: 22, when: (g) => !g.flag('cent') },
+          { img: 'art/obj_rohozka.png', x: 1032, y: 584, w: 110 },
+          { img: 'art/obj_slimak.png', x: 1102, y: 492, w: 30, when: (g) => g.flag('pot_cerveny') },
+          { img: 'art/obj_schranka.png', x: 1577, y: 482, w: 42 },
+          { img: 'art/obj_trpaslik.png', x: 1808, y: 552, w: 34 },
+        ],
         hotspots: [
           // --- fausses pistes et petits mots, de gauche a droite
           { id: 'lavicka', name: { sk: 'lavička', fr: 'le banc' }, poly: box(95, 470, 295, 545), walk: [200, 625],
             look: { sk: 'Lavička na zastávke. Niekto tu zabudol noviny.', fr: 'Un banc à l\'arrêt. Quelqu\'un a oublié son journal.', words: [['zastávka', 'l\'arrêt'], ['noviny', 'le journal']] } },
-          { id: 'noviny', name: { sk: 'noviny', fr: 'le journal' }, poly: box(118, 448, 205, 476), walk: [175, 625],
+          { id: 'noviny', name: { sk: 'noviny', fr: 'le journal' }, poly: box(122, 452, 202, 484), walk: [175, 625],
             async onUse(g) {
               g.pose('fox', 'pick');
               await say(g, 'narrator', 'Noviny. „Počasie: zajtra slnko a modrá obloha.“', 'Le journal. « Météo : demain, du soleil et un ciel… « modrá ». »', [['počasie', 'la météo'], ['slnko', 'le soleil'], ['obloha', 'le ciel']]);
@@ -387,7 +396,7 @@
             look: { sk: 'Stará lampa. Večer svieti.', fr: 'Un vieux réverbère. Il s\'allume le soir.', words: [['lampa', 'la lampe'], ['večer', 'le soir']] } },
           { id: 'lipa', name: { sk: 'lipa', fr: 'le tilleul' }, poly: [[430, 60], [700, 40], [820, 300], [560, 340], [565, 565], [480, 565], [490, 330], [180, 300]], walk: [520, 625],
             look: { who: 'andrea', sk: 'Lipa. To je náš národný strom!', fr: 'Un tilleul. C\'est notre arbre national !', words: [['lipa', 'le tilleul'], ['národný strom', 'l\'arbre national']] } },
-          { id: 'cent', name: { sk: 'niečo lesklé', fr: 'quelque chose qui brille' }, poly: box(690, 596, 730, 620), walk: [700, 628],
+          { id: 'cent', name: { sk: 'niečo lesklé', fr: 'quelque chose qui brille' }, poly: box(692, 600, 728, 624), walk: [700, 632],
             when: (g) => !g.flag('cent'),
             async onUse(g) {
               g.pose('fox', 'pick');
@@ -420,7 +429,7 @@
               await say(g, 'andrea', 'Gab! Povedala som: potichu!', 'Gab ! J\'ai dit : doucement !');
               g.pose('andrea', null);
             } },
-          { id: 'rohozka', name: { sk: 'rohožka', fr: 'le paillasson' }, poly: box(985, 548, 1080, 578), walk: [1030, 625], pose: 'pick',
+          { id: 'rohozka', name: { sk: 'rohožka', fr: 'le paillasson' }, poly: box(978, 560, 1088, 588), walk: [1030, 625], pose: 'pick',
             async onUse(g) {
               await say(g, 'narrator', 'Pod rohožkou… nič. Len prach.', 'Sous le paillasson… rien. Juste de la poussière.', [['rohožka', 'le paillasson'], ['prach', 'la poussière']]);
               await say(g, 'fox', 'Škoda. Vo filmoch to vždy funguje.', 'Dommage. Dans les films, ça marche toujours.');
@@ -446,7 +455,7 @@
             } },
           { id: 'jablone', name: { sk: 'jabloň', fr: 'le pommier' }, poly: [[1440, 160], [1620, 80], [1880, 170], [1900, 330], [1700, 400], [1460, 360]], walk: [1640, 625],
             look: { sk: 'Jablká! Ale sú príliš vysoko. A ešte zelené.', fr: 'Des pommes ! Mais elles sont trop haut. Et encore vertes.', words: [['jablko', 'la pomme'], ['zelený', 'vert']] } },
-          { id: 'schranka', name: { sk: 'schránka', fr: 'la boîte aux lettres' }, poly: box(1548, 425, 1600, 480), walk: [1560, 625],
+          { id: 'schranka', name: { sk: 'schránka', fr: 'la boîte aux lettres' }, poly: box(1554, 436, 1600, 484), walk: [1560, 625],
             look: { sk: 'Poštová schránka. Zamknutá. Teta dostáva veľa listov.', fr: 'La boîte aux lettres. Fermée à clé. La tante reçoit beaucoup de lettres.', words: [['schránka', 'la boîte aux lettres'], ['list', 'la lettre']] } },
           { id: 'branka', name: { sk: 'bránka', fr: 'le portillon' }, poly: box(1600, 395, 1716, 546), walk: [1655, 625], pose: 'use',
             async onUse(g) {
@@ -455,7 +464,7 @@
               g.take('kluc'); g.setFlag('gate');
               g.goScene('zahrada');
             } },
-          { id: 'trpaslik', name: { sk: 'trpaslík', fr: 'le nain de jardin' }, poly: box(1785, 492, 1832, 550), walk: [1810, 625],
+          { id: 'trpaslik', name: { sk: 'trpaslík', fr: 'le nain de jardin' }, poly: box(1788, 484, 1828, 554), walk: [1810, 625],
             look: { sk: 'Záhradný trpaslík. Usmieva sa. Nič nevie.', fr: 'Un nain de jardin. Il sourit. Il ne sait rien.', words: [['trpaslík', 'le nain']] } },
           { id: 'katedrala', name: { sk: 'katedrála', fr: 'la cathédrale' }, poly: box(1950, 60, 2125, 220), walk: [2000, 625],
             look: { sk: 'Katedrála. Vidno ju z celého mesta.', fr: 'La cathédrale. On la voit de toute la ville.' } },
