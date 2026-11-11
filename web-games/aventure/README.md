@@ -41,3 +41,11 @@ dans le train, cartons SK/FR), puis la gare. Bouton « Passer », clic ou Espace
 Moteur : `scene.cine` (pas d'interface), `scene.pics` (images avec leur propre cadrage : point `ax,ay` de l'image montré en `sx,sy`,
 agrandi `zoom` fois), et dans l'histoire `g.animate(ms, fn)`, `g.wait(ms)`, `g.caption(sk, fr, mots)`, `g.pic(id, props)`, `g.fade(a)`.
 Images : `art/PROMPTS_intro.md`. Test : `node web-games/tests/intro_test.js`.
+
+
+## Personnages : planches d'animation et poses
+
+Gab (gare, tram) utilise sa nouvelle planche : `walkSheet` (4 images, 8 i/s) et `poses` (`idle, talk, pick, use, surprised, think,
+laugh, sit`), images faites par `tools/make_sprites.py`. Le moteur : la pose `talk` pendant ses répliques, un geste (`hotspot.pose`,
+ou `use` quand on se sert d'un objet) avant l'action, `g.pose(id, nom)` dans les histoires, `scaleSpeed` (vitesse à l'échelle du
+décor, les pieds ne glissent pas). Prompts : `art/PROMPTS_persos.md`.

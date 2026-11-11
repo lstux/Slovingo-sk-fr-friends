@@ -70,7 +70,7 @@
         srcs.add(s.bg);
         for (const q of s.pics || []) srcs.add(q.img);
         for (const l of s.layers || []) { srcs.add(l.img); for (const q of l.imgs || []) srcs.add(q); }
-        for (const sp of (s.sprites || []).concat(Object.values(s.extraSprites || {}))) { srcs.add(sp.img); if (sp.walkSheet) srcs.add(sp.walkSheet.img); }
+        for (const sp of (s.sprites || []).concat(Object.values(s.extraSprites || {}))) { srcs.add(sp.img); if (sp.walkSheet) srcs.add(sp.walkSheet.img); for (const q of Object.values(sp.poses || {})) srcs.add(q.img); }
       }
       for (const it of Object.values(this.data.items)) srcs.add(it.icon);
       return Promise.all([...srcs].filter(Boolean).map((s) => new Promise((res) => {
@@ -191,6 +191,8 @@
         },
         hide: (id) => { const s = g.sprites.find((q) => q.id === id); if (s) s.hidden = true; },
         face: (id, dir) => { const s = g.sprites.find((q) => q.id === id); if (s) s.face = dir; },
+        // pose d'un personnage (planche d'animation) : 'think', 'surprised', 'sit'... ; null = debout
+        pose: (id, name) => { const s = g.sprites.find((q) => q.id === id); if (s) s.pose = name || null; },
         flag: (k) => !!g.flags[k],
         setFlag: (k, v = true) => { g.flags[k] = v; g.save(); },
         has: (it) => g.items.includes(it),
@@ -226,7 +228,12 @@
     // ------------------------------------------------------------ actions
     say(who, sk, fr, words) {
       if (words) for (const [a, b] of words) this.words[a] = b;
-      return new Promise((resolve) => { this.dialog = { who, sk, fr, shown: 0, resolve, done: false }; });
+      // le personnage qui parle prend sa pose « parle » (s'il en a une et qu'il n'a pas deja une autre pose)
+      const sp = this.sprites.find((q) => q.id === who && q.poses && q.poses.talk && !q.pose);
+      if (sp) sp.pose = 'talk';
+      return new Promise((resolve) => {
+        this.dialog = { who, sk, fr, shown: 0, done: false, resolve: () => { if (sp && sp.pose === 'talk') sp.pose = null; resolve(); } };
+      });
     }
     choose(opts) {
       return new Promise((resolve) => { this.choices = { opts, resolve }; });
@@ -310,6 +317,10 @@
         const it = this.selected;
         if (fox && h.walk) await this.walk(fox.id, h.walk[0], h.walk[1]);
         if (fox && h.faceDir !== undefined) fox.face = h.faceDir;
+        else if (fox) { const poly = h.sprite ? this.spritePoly(h.sprite) : h.poly; if (poly) { const cx = poly.reduce((a, q) => a + q[0], 0) / poly.length; if (Math.abs(cx - fox.x) > 20) fox.face = cx > fox.x ? 1 : -1; } }
+        // un petit geste avant l'action (planche d'animation) : un objet sur une zone -> « utiliser », sinon la pose de la zone
+        const gesture = fox && fox.poses && (it ? h.pose || 'use' : h.onUse && h.pose);
+        if (gesture && fox.poses[gesture]) { fox.pose = gesture; await sleep(450); if (fox.pose === gesture) fox.pose = null; }
         if (it) {
           this.selected = null;
           if (h.onItem && h.onItem[it]) await h.onItem[it](api);
@@ -468,13 +479,14 @@
       if (this.dialog && this.dialog.shown < this.dialog.sk.length) this.dialog.shown = Math.min(this.dialog.sk.length, this.dialog.shown + dt * 55);
       for (const s of this.sprites) {
         if (s.tx === null) { s.wt = 0; continue; }
-        const dx = s.tx - s.x, dy = s.ty - s.y, d = Math.hypot(dx, dy), step = (s.speed || 300) * dt;
+        const dx = s.tx - s.x, dy = s.ty - s.y, d = Math.hypot(dx, dy), step = (s.speed || 300) * dt * (s.scaleSpeed ? this.scaleAt(s.y) : 1);   // scaleSpeed : les pieds ne glissent pas, loin ou pres
         if (d <= step) {
           s.x = s.tx; s.y = s.ty; s.tx = s.ty = null;
           const a = s.arrive; s.arrive = null;
           if (a) a();
         } else {
           s.x += (dx / d) * step; s.y += (dy / d) * step;
+          if (s.pose && s.pose !== 'talk') s.pose = null;
           if (Math.abs(dx) > 4) s.face = dx > 0 ? 1 : -1;
           s.wt += dt;
         }
@@ -639,11 +651,14 @@
         const f = Math.floor(s.wt * (ws.fps || 10)) % n;
         c.drawImage(wim, f * fw, 0, fw, wim.naturalHeight, -w / 2, -h, w, h);
       } else {
-        const r = this.spriteRect(s);
-        const ph = s.wt * 9, bob = moving ? Math.abs(Math.sin(ph)) * 8 : Math.sin(this.t * 1.6 + (s.x % 7)) * 1.2;   // faux pas / respiration
-        const sq = moving ? 1 : 1 + Math.sin(this.t * 1.6 + (s.x % 7)) * 0.006;
+        let r = this.spriteRect(s), pim = im;
+        const pose = !moving && s.pose && s.poses && s.poses[s.pose], pi = pose && this.img(pose.img);
+        if (pi && pi.naturalWidth) { const h = pose.h * this.scaleAt(s.y); r = { w: (pi.naturalWidth / pi.naturalHeight) * h, h }; pim = pi; }
+        const breath = !pose || s.pose === 'talk';
+        const ph = s.wt * 9, bob = moving ? Math.abs(Math.sin(ph)) * 8 : breath ? Math.sin(this.t * 1.6 + (s.x % 7)) * 1.2 : 0;   // faux pas / respiration
+        const sq = moving || !breath ? 1 : 1 + Math.sin(this.t * 1.6 + (s.x % 7)) * 0.006;
         if (moving) c.rotate(Math.sin(ph) * 0.025);
-        c.drawImage(im, -r.w / 2, -r.h - bob, r.w, r.h * sq);
+        c.drawImage(pim, -r.w / 2, -r.h - bob, r.w, r.h * sq);
       }
       c.restore();
     }

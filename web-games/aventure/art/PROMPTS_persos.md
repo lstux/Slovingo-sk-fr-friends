@@ -58,3 +58,12 @@ Background: one flat, uniform pure green colour (#00FF00) everywhere, with no gr
 
 Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. No text, no letters, no numbers, no frame labels, no watermark.
 ```
+
+
+### Résultat (11 nov.) : marche « mains dans les poches », `sources/gab_walk_src.png`
+
+Deux essais avec les bras qui balancent : ChatGPT dessine un seul pas, deux fois (toujours le même bras devant). Mains dans les
+poches : plus d'alternance à réussir. Les images 5 à 8 sont des copies de 1 à 4, le jeu boucle donc sur **4 images** (un pas).
+Images du jeu : `python3 web-games/aventure/tools/make_sprites.py gab` (détourage, même échelle que les poses mesurée sur la
+largeur de la tête, pieds en bas, tête au milieu) → `art/gab_walk.png` (4 images, 8 i/s) et `art/gab_<pose>.png`.
+Même méthode pour les autres personnages : poses + marche mains occupées (sac, livre, poches…).
