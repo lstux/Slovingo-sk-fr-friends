@@ -66,3 +66,6 @@ From left to right: the small wooden garden gate in the fence (seen from inside 
 
 Background style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading, simplified shapes, gentle gradients, no photographic textures or reflections. Landscape 3:1 format. No text, no letters, no numbers, no logos, no watermark.
 ```
+
+Résultat (11 nov.) : bon du premier coup (`sources/zahrada_wide_src.png`). La couverture et son icône : `sources/objets_zahrada_src.png`
+(demandées à la suite). Le halo de la lampe est dessiné par le jeu (`props` `glow`) ; lampe éteinte : `shade` sur la lanterne et l'herbe.

@@ -295,7 +295,7 @@
     items: Object.assign({}, ZA_DATA.items, {
       kluc: { sk: 'kľúč', fr: 'clé', icon: 'art/item_kluc.png' },
       cent: { sk: 'cent', fr: 'un centime', icon: 'art/item_cent.png' },
-      deka: { sk: 'deka', fr: 'couverture', emoji: '🛏️' },
+      deka: { sk: 'deka', fr: 'couverture', icon: 'art/item_deka.png' },
       flasa: { sk: 'fľaša', fr: 'gourde', emoji: '💧' },
       rebrik: { sk: 'rebrík', fr: 'échelle', emoji: '🪜' },
       zapisnik: { sk: 'zápisník', fr: 'carnet', emoji: '📘' },
@@ -529,27 +529,48 @@
       },
 
       // le jardin le soir : lampe, couverture, pommier
+      // le jardin v2 (decor 3:1 : art/PROMPTS_decors.md n° 7), le soir. Prendre la couverture, eteindre la lampe, dormir sous le pommier.
+      // Fausses pistes : le hamac (juste sous la fenetre de la tante !), la niche, la cabane, l'arrosoir, la brouette, la porte.
       zahrada: {
         chapter: 'ch1', title: { sk: 'Záhrada', fr: 'Le jardin' }, tint: ['#223049', '#4d6a55'],
-        player: 'fox', floor: FLOOR, scale: SCALE, sprites: [fox(260), andrea(480, 1)],
+        bg: 'art/zahrada_wide.webp', worldW: 2160,
+        player: 'fox', floor: [[0, 590], [2160, 590], [2160, 712], [0, 712]], scale: { y0: 590, s0: 0.5, y1: 712, s1: 0.6 },
+        sprites: [gab(130, 640), andrea(230, 1, 630)],
         dim: (g) => (g.flag('lampoff') ? 0.38 : 0.04),
+        props: [
+          { glow: 230, x: 1602, y: 205, when: (g) => !g.flag('lampoff') },
+          // lampe eteinte : on eteint aussi la lanterne peinte et la tache de lumiere sur l'herbe
+          { shade: 150, a: 0.8, x: 1602, y: 200, when: (g) => g.flag('lampoff') },
+          { shade: 260, a: 0.55, sy: 0.4, x: 1640, y: 610, when: (g) => g.flag('lampoff') },
+          { img: 'art/obj_deka.png', x: 820, y: 476, w: 150, when: (g) => !g.flag('deka') },
+        ],
         hotspots: [
-          { id: 'snura', name: { sk: 'šnúra', fr: 'la corde à linge' }, poly: box(20, 130, 440, 330), walk: [230, 650],
+          { id: 'branka', name: { sk: 'bránka', fr: 'le portillon' }, poly: box(55, 380, 170, 575), walk: [120, 630],
+            look: { sk: 'Bránka na ulicu. Teraz nie, je večer.', fr: 'Le portillon vers la rue. Pas maintenant, c\'est le soir.' } },
+          { id: 'kolna', name: { sk: 'kôlňa', fr: 'la cabane' }, poly: box(235, 275, 590, 480), walk: [430, 630],
+            look: { sk: 'Kôlňa plná dreva. Spať na dreve? Nie, ďakujem.', fr: 'Une cabane pleine de bois. Dormir sur du bois ? Non merci.', words: [['kôlňa', 'la cabane'], ['drevo', 'le bois']] } },
+          { id: 'krhla', name: { sk: 'krhla', fr: 'l\'arrosoir' }, poly: box(380, 485, 480, 580), walk: [440, 630], pose: 'pick',
+            async onUse(g) { await say(g, 'narrator', 'Krhla. Prázdna. Záhrada je suchá.', 'Un arrosoir. Vide. Le jardin est sec.', [['krhla', 'l\'arrosoir'], ['suchý', 'sec']]); } },
+          { id: 'snura', name: { sk: 'šnúra', fr: 'la corde à linge' }, poly: box(625, 340, 940, 470), walk: [780, 630],
+            look: { sk: 'Tričko, šortky, uterák. Nič na spanie.', fr: 'Un tee-shirt, un short, une serviette. Rien pour dormir.', words: [['tričko', 'le tee-shirt'], ['uterák', 'la serviette']] } },
+          { id: 'deka', name: { sk: 'deka', fr: 'la couverture' }, poly: box(745, 340, 895, 480), walk: [820, 630], pose: 'pick',
+            when: (g) => !g.flag('deka'),
             async onUse(g) {
-              if (g.flag('deka')) { await say(g, 'fox', 'Už tu nič nie je.', 'Il n\'y a plus rien ici.'); return; }
               g.give('deka'); g.setFlag('deka');
-              await say(g, 'narrator', 'Na šnúre visí stará deka. Gab si ju berie.', 'Une vieille couverture pend à la corde. Gab la prend.', [['deka', 'la couverture']]);
+              await say(g, 'narrator', 'Na šnúre visí stará deka. Gab si ju berie.', 'Une vieille couverture pend à la corde. Gab la prend.', [['deka', 'la couverture'], ['šnúra', 'la corde à linge']]);
             } },
-          { id: 'jablon', name: { sk: 'jabloň', fr: 'le pommier' }, poly: box(480, 90, 800, 540), walk: [640, 650],
+          { id: 'jablon', name: { sk: 'jabloň', fr: 'le pommier' }, poly: [[700, 40], [1470, 40], [1470, 300], [1110, 330], [1110, 575], [950, 575], [960, 330], [700, 300]], walk: [1040, 640],
             async onUse(g) {
               if (!g.flag('deka')) { await say(g, 'fox', 'Bez deky? Bude mi zima.', 'Sans couverture ? J\'aurai froid.'); return; }
               if (!g.flag('lampoff')) {
-                await say(g, 'narrator', 'Lampa osvetľuje celú záhradu. V tetinom okne sa pohne záclona.', 'La lampe éclaire tout le jardin. Au fenêtre de la tante, un rideau bouge.', [['záclona', 'le rideau']]);
+                await say(g, 'narrator', 'Lampa osvetľuje celú záhradu. V tetinom okne sa pohne záclona.', 'La lampe éclaire tout le jardin. À la fenêtre de la tante, un rideau bouge.', [['záclona', 'le rideau']]);
+                g.pose('fox', 'surprised');
                 await say(g, 'teta', 'Kto je v mojej záhrade?!', 'Qui est dans mon jardin ?!');
                 await say(g, 'andrea', 'Ach nie! Rýchlo, preč! A vypni tú lampu!', 'Oh non ! Vite, filons ! Et éteins cette lampe !', [['vypnúť', 'éteindre']]);
                 g.restart();
                 return;
               }
+              g.pose('fox', 'sit');
               await say(g, 'andrea', 'Dobrú noc, Gab.', 'Bonne nuit, Gab.');
               for (;;) {
                 const i = await g.choice([{ sk: 'Dobrú noc, Andrea.', fr: 'Bonne nuit, Andrea.' }, { sk: 'Dobré ráno, Andrea.', fr: 'Bonjour, Andrea.' }]);
@@ -560,22 +581,36 @@
               await g.showMap('ch2');
               g.goScene('rano');
             } },
-          { id: 'okno', name: { sk: 'okno', fr: 'la fenêtre' }, poly: box(880, 60, 1080, 240), walk: [980, 650],
-            look: { sk: 'V tetinom okne sa svieti. Teta ešte nespí.', fr: 'La fenêtre de la tante est éclairée. Elle ne dort pas encore.', words: [['okno', 'la fenêtre'], ['svieti', 'ça brille, c\'est allumé']] } },
-          { id: 'lampa', name: { sk: 'lampa', fr: 'la lampe' }, poly: box(860, 260, 940, 460), walk: [900, 650],
-            look: { sk: 'Lampa svieti veľmi silno. Gab je na nej vidno.', fr: 'La lampe brille très fort. On voit Gab de loin.', words: [['lampa', 'la lampe']] } },
-          { id: 'vypinac', name: { sk: 'vypínač', fr: 'l\'interrupteur' }, poly: box(1140, 300, 1230, 400), walk: [1170, 650],
+          { id: 'buda', name: { sk: 'búda', fr: 'la niche' }, poly: box(1125, 420, 1310, 565), walk: [1215, 630],
+            look: { sk: 'Psia búda… bez psa. Uf.', fr: 'Une niche… sans chien. Ouf.', words: [['búda', 'la niche'], ['pes', 'le chien']] } },
+          { id: 'fúrik', name: { sk: 'fúrik', fr: 'la brouette' }, poly: box(1385, 460, 1590, 565), walk: [1480, 630],
+            look: { sk: 'Fúrik. Spať vo fúriku? To by bolo… zaujímavé.', fr: 'Une brouette. Dormir dans une brouette ? Ce serait… original.', words: [['fúrik', 'la brouette']] } },
+          { id: 'lampa', name: { sk: 'lampa', fr: 'la lampe' }, poly: box(1550, 130, 1655, 585), walk: [1600, 640],
+            look: { sk: 'Lampa svieti veľmi silno. Gaba je vidno z celého domu.', fr: 'La lampe brille très fort. On voit Gab de toute la maison.', words: [['lampa', 'la lampe']] } },
+          { id: 'hojdacka', name: { sk: 'hojdacia sieť', fr: 'le hamac' }, poly: box(1640, 335, 1910, 495), walk: [1760, 630],
+            async onUse(g) {
+              await say(g, 'fox', 'Hojdacia sieť! Ideálne na spanie…', 'Un hamac ! Parfait pour dormir…', [['hojdacia sieť', 'le hamac']]);
+              await say(g, 'narrator', 'Hore nad ňou je tetino okno.', 'Juste au-dessus, il y a la fenêtre de la tante.', [['hore', 'en haut']]);
+              g.pose('fox', 'surprised'); await say(g, 'fox', 'Pod tetiným oknom? Radšej nie!', 'Sous la fenêtre de la tante ? Plutôt pas !'); g.pose('fox', null);
+            } },
+          { id: 'okno', name: { sk: 'okno', fr: 'la fenêtre' }, poly: box(1770, 65, 1930, 265), walk: [1850, 630],
+            look: { sk: 'V tetinom okne sa svieti. Teta ešte nespí.', fr: 'La fenêtre de la tante est éclairée. Elle ne dort pas encore.', words: [['okno', 'la fenêtre'], ['svieti', 'c\'est allumé']] } },
+          { id: 'vypinac', name: { sk: 'vypínač', fr: 'l\'interrupteur' }, poly: box(1905, 395, 1968, 462), walk: [1930, 630], pose: 'use',
             async onUse(g) {
               if (g.flag('lampoff')) { await say(g, 'fox', 'Už je tma.', 'Il fait déjà noir.'); return; }
               g.setFlag('lampoff');
               await say(g, 'narrator', 'Cvak! Lampa zhasla.', 'Clac ! La lampe s\'éteint.', [['vypínač', 'l\'interrupteur'], ['zhasnúť', 'éteindre']]);
             } },
+          { id: 'dvere', name: { sk: 'dvere', fr: 'la porte' }, poly: box(1970, 250, 2080, 535), walk: [2000, 630], pose: 'use',
+            async onUse(g) { await say(g, 'fox', 'Zamknuté. Andrea je už dnu.', 'Fermé à clé. Andrea est déjà à l\'intérieur.', [['zamknuté', 'fermé à clé']]); } },
+          { id: 'katedrala', name: { sk: 'katedrála', fr: 'la cathédrale' }, poly: box(495, 125, 650, 255), walk: [570, 630],
+            look: { sk: 'Katedrála v noci. Krásna.', fr: 'La cathédrale, la nuit. Magnifique.', words: [['noc', 'la nuit'], ['krásny', 'beau']] } },
         ],
         hints: [
           { id: 'g_lamp', when: (g) => !g.flag('lampoff'), levels: [
             { sk: 'Lampa svieti veľmi silno. Teta nás môže vidieť.', fr: 'La lampe brille fort. Ma tante peut nous voir.' },
             { sk: 'Nájdi vypínač.', fr: 'Cherche l\'interrupteur.', words: [['vypínač', 'l\'interrupteur']] },
-            { sk: 'Vypínač je napravo pri múre.', fr: 'L\'interrupteur est à droite, près du mur.' } ] },
+            { sk: 'Vypínač je pri zadných dverách.', fr: 'L\'interrupteur est à côté de la porte de derrière.' } ] },
           { id: 'g_blanket', when: (g) => !g.flag('deka'), levels: [
             { sk: 'Bude noc. Potrebuješ niečo na zakrytie.', fr: 'La nuit va être fraîche. Il te faut de quoi te couvrir.' },
             { sk: 'Pozri sa na šnúru.', fr: 'Regarde la corde à linge.' } ] },
@@ -587,7 +622,10 @@
           if (g.flag('garden0')) return;
           g.setFlag('garden0');
           await say(g, 'narrator', 'Je večer. Pred domom je veľká záhrada.', 'C\'est le soir. Devant la maison, il y a un grand jardin.', [['záhrada', 'le jardin']]);
+          g.pose('andrea', 'whisper');
           await say(g, 'andrea', 'Pssst! Teta ešte nespí. Spi pod jabloňou. Ja idem dnu.', 'Pssst ! Ma tante ne dort pas encore. Dors sous le pommier. Moi, je rentre.');
+          g.pose('andrea', 'wave'); await g.sleep(700); g.pose('andrea', null);
+          await g.walk('andrea', 2020, 600);
           g.hide('andrea');
         },
       },

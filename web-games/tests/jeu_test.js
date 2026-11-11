@@ -80,10 +80,11 @@ const srv = http.createServer((q, r) => {
   await useW(1325, 440, 'pot bleu'); s = await st(); if (!s.items.includes('kluc')) fail('pas de cle');
   await useW(1655, 470, 'portillon'); s = await st(); if (s.sc !== 'zahrada') fail('pas dans le jardin ' + s.sc);
   await idle('jardin'); await shot('04_jardin');
-  await use(230, 230, 'corde'); if (!(await st()).items.includes('deka')) fail('pas de couverture');
-  await use(640, 300, 'pommier lampe allumee'); s = await st(); if (s.sc !== 'zahrada' || s.flags.lampoff) fail('la tante aurait du crier');
-  await idle('retour'); await use(1185, 350, 'interrupteur'); if (!(await st()).flags.lampoff) fail('lampe');
-  picks = [0, 1]; await use(640, 300, 'dodo'); await idle('rano'); s = await st(); if (s.sc !== 'rano') fail('pas au matin ' + s.sc);
+  await useW(1760, 420, 'hamac (fausse piste)'); if ((await st()).sc !== 'zahrada') fail('hamac');
+  await useW(820, 400, 'couverture'); if (!(await st()).items.includes('deka')) fail('pas de couverture');
+  await useW(1040, 450, 'pommier lampe allumee'); s = await st(); if (s.sc !== 'zahrada' || s.flags.lampoff) fail('la tante aurait du crier');
+  await idle('retour'); await useW(1935, 428, 'interrupteur'); if (!(await st()).flags.lampoff) fail('lampe');
+  picks = [0, 1]; await useW(1040, 450, 'dodo'); await idle('rano'); s = await st(); if (s.sc !== 'rano') fail('pas au matin ' + s.sc);
   await idle('matin'); await shot('05_rano'); if (!(await st()).items.includes('flasa')) fail('gourde');
   await use(1175, 400, 'parc'); s = await st(); if (s.sc !== 'jazierko') fail('etang ' + s.sc);
   await item('flasa', 900, 520, 'canard'); s = await st(); if (!s.clues.includes('kacka')) fail('indice canard');

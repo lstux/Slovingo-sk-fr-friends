@@ -539,6 +539,19 @@
       const api = this.api();
       for (const q of sc.props) {
         if (q.when && !q.when(api)) continue;
+        if (q.glow) {   // un halo de lumiere (lampe) : degrade radial additif
+          const c = this.ctx, gr = c.createRadialGradient(q.x, q.y, 0, q.x, q.y, q.glow);
+          gr.addColorStop(0, q.color || 'rgba(255,250,210,.55)'); gr.addColorStop(1, 'rgba(255,250,210,0)');
+          c.save(); c.globalCompositeOperation = 'lighter'; c.fillStyle = gr; c.fillRect(q.x - q.glow, q.y - q.glow, 2 * q.glow, 2 * q.glow); c.restore();
+          continue;
+        }
+        if (q.shade) {   // une zone assombrie (lampe eteinte peinte allumee dans le decor) : degrade radial sombre
+          const c = this.ctx, gr = c.createRadialGradient(q.x, q.y, 0, q.x, q.y, q.shade);
+          gr.addColorStop(0, `rgba(10,12,40,${q.a || 0.7})`); gr.addColorStop(1, 'rgba(10,12,40,0)');
+          c.save(); c.translate(q.x, q.y); c.scale(1, q.sy || 1); c.translate(-q.x, -q.y);
+          c.fillStyle = gr; c.fillRect(q.x - q.shade, q.y - q.shade, 2 * q.shade, 2 * q.shade); c.restore();
+          continue;
+        }
         const im = this.img(q.img);
         if (!im || !im.naturalWidth) continue;
         const h = q.w * im.naturalHeight / im.naturalWidth;
