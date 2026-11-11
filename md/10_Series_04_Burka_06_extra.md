@@ -1,6 +1,6 @@
 # Burka (extra) — Ráno po búrke
 
-@ img/tatry-pleso-rano.jpg | Les Tatras au loin, dans la lumière du petit matin. Source : Wikimedia Commons, Jakub Hałun, CC BY-SA 4.0
+@ img/illus_04_burka_2.jpg | Au lac, le lendemain de l'orage : le renard montre le plan du carnet, Andrea regarde l'eau monter. Source : illustration générée avec ChatGPT
 
 {{fr:Le matin, l'orage est parti. Il y a de l'eau partout. Tu es content. Andrea, beaucoup moins.}}
 
@@ -173,6 +173,8 @@
 ---
 
 ## 🇸🇰 Coin slovaque
+
+@ img/tatry-pleso-rano.jpg | Les Tatras au petit matin, vues du lac de Czorsztyn : ces sommets sont à la frontière entre la Slovaquie et la Pologne. Source : Wikimedia Commons, Jakub Hałun, CC BY-SA 4.0
 
 {{fr:Après des semaines de sécheresse, le sol durci boit mal l'eau. Quand un gros orage arrive, l'eau ruisselle au lieu de s'infiltrer, et les rivières montent très vite. C'est ce qui inquiète Andrea.}}
 
