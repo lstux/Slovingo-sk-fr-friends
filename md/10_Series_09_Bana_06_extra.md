@@ -1,6 +1,6 @@
 # Baňa (extra) — Pri tajchu
 
-@ img/tajch-vecer.jpg | Un petit lac au milieu de la forêt, vu d'en haut. Source : Wikimedia Commons, Robertgomez87, CC BY-SA 4.0
+@ img/illus_09_bana_2.jpg | Au bord du tajch, la veille du départ : les écureuils doivent quitter leur forêt, Ján garde le sourire. Source : illustration générée avec ChatGPT
 
 {{fr:Le soir, au bord du lac. Les écureuils font leurs bagages. Ján part demain. Il a encore beaucoup de choses à dire, et un conseil pour Bratislava. Andrea, elle, laisse échapper une phrase sur sa mère.}}
 
@@ -241,6 +241,8 @@
 ---
 
 ## 🇸🇰 Coin slovaque
+
+@ img/tajch-vecer.jpg | Un lac au coucher du soleil. Source : Wikimedia Commons, Robertgomez87, CC BY-SA 4.0
 
 {{fr:Zvolen, où part Ján, est une ville au cœur de la Slovaquie, avec un château du XIVe siècle. C'est aussi un grand carrefour de routes et de trains.}}
 
