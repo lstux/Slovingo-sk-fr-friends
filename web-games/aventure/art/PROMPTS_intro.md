@@ -1,4 +1,4 @@
-# Images de l'ouverture du jeu : prompts ChatGPT
+# Images de l'ouverture et du prologue (gare) : prompts ChatGPT
 
 Même méthode que `PROMPTS.md` : nouvelle conversation par image, on joint les images indiquées, on colle le prompt tel quel, on dépose le
 résultat dans `sources/`. Style du cours (dessin animé 2D, aplats avec ombrage cel, décors peints). **Aucun texte dans les images.**
@@ -49,4 +49,21 @@ Use the first attached image (the heroes' model sheet) for the character (keep h
 Scene: the inside of an open-plan passenger coach of a Slovak regional train (no compartments), seen from the central aisle looking at the window wall, drawn as a very wide panoramic image in 3:1 format (3072x1024 pixels), as the last opening shot of an adventure game, warm afternoon light. Along the whole wall: repeating seat bays, each bay with two pairs of blue patterned seats facing each other close together (realistic, cramped legroom), a small fold-down table under each window, one window per bay, and a continuous metal luggage rack above the windows. In the first bay on the left, the fox sits by the window, his yellow backpack on the seat next to him, his cheek resting on his hand, looking out with a tired, hopeful smile. The other bays are EMPTY (no other passengers). Through the windows, the outskirts of the city of Kosice, Slovakia, getting closer from left to right: trees and railway tracks, then apartment blocks, and in the last window on the right the tall Gothic spire of the cathedral. No doors in the window wall.
 
 Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading, simplified shapes, gentle gradients, no photographic textures or reflections. Landscape 3:1 format. No text, no letters, no numbers, no signs, no logos, no watermark.
+```
+
+
+## 4. La gare de Košice : `gare_wide.webp` (prologue, panorama 3:1, la caméra suit Gab)
+
+**À joindre** : `sources/tram_wide_src.png` (le style des décors du jeu).
+
+Disposition voulue, de gauche à droite (c'est aussi le chemin du joueur) : portes des quais (on arrive du train), tableau des départs,
+banc, grande affiche sur un pilier, distributeurs de tickets, portes de sortie vers l'arrêt du tram. Pas de personnages : Gab et les
+autres sont des sprites. Le sol (tiers du bas) reste dégagé pour la marche. Tous les textes (tableau, affiche, écran) viennent du jeu.
+
+```
+Use the attached image (a tram interior) only as the reference for the drawing style (same clean ink lines, flat colours with soft cel shading, colours and level of detail); do not copy its content.
+
+Scene: the main hall of the railway station of Kosice, Slovakia, a bright modern hall with tall glass windows and a high ceiling, drawn as the long scrolling background of a point-and-click adventure game, as a very wide panoramic image in 3:1 format (3072x1024 pixels), seen from the side, afternoon light. From left to right: glass doors leading to the platforms, with a red and white passenger train visible behind them; a large dark departures board hanging from the ceiling with empty rows (no readable text); a long wooden bench; a big square pillar with a large framed poster showing a simple drawing of a yellow tram and a small paper ticket (no text on it); two tall orange ticket machines side by side, each with a blank screen and a small slot; and on the far right, wide glass exit doors through which a blue and yellow tram waits at a tram stop outside. A few potted plants, a wall clock without numbers, a litter bin. The hall is EMPTY (no people, no animals). The lower third of the picture (a smooth light stone floor) stays clear and empty, because characters will walk there. No text, no letters, no numbers, no signs with writing, no logos.
+
+Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading, simplified shapes, gentle gradients, no photographic textures or reflections. Landscape 3:1 format. No text, no letters, no numbers, no logos, no watermark.
 ```

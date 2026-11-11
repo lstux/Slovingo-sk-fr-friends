@@ -192,3 +192,15 @@ Les textes slovaques sont une première écriture, à faire relire par un natif.
 1. Carte de l'Europe (16:9), avec un pointillé de la France jusqu'à un repère rouge à Košice.
 2. Carte de la Slovaquie (16:9), Košice marqué.
 3. Intérieur du train, panorama 3:1, Gab dedans.
+
+
+### La gare (prologue), version 2 : décor 3:1, la caméra suit Gab
+
+Gab arrive du train par les portes des quais (à gauche) et traverse le hall vers la sortie (à droite, l'arrêt du tram).
+- **Tableau des départs** (*tabuľa*) : arrivées, le train de Gab (*príchody*).
+- **Affiche** sur le pilier (*plagát*) : premier indice, *Jeden lístok · 1,20 €* avec le dessin d'un tram et d'un ticket.
+- **Distributeur** (*automat*) : second indice, l'écriteau *Lístok na električku*. S'il ne connaît pas encore le mot, Gab se dit en
+  français « Zut, comment on dit "un ticket" en slovaque ?! » ; après trois essais : « Il y a sûrement un truc écrit quelque part… ».
+  Choix final : *Jeden / Jedna / Jedno lístok, prosím* (masculin : *jeden*).
+- **Sortie** vers l'arrêt (*zastávka*) : seulement avec le ticket.
+Retour de test du 10 nov. appliqué ici (l'automate ne dit plus « lis le panneau »). Prompt du décor : `art/PROMPTS_intro.md`, n° 4.
