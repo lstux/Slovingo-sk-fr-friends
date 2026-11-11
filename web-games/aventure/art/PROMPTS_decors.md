@@ -47,3 +47,22 @@ Background: one flat, uniform pure green colour (#00FF00) everywhere, with no gr
 
 Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. No text, no letters, no numbers, no labels, no watermark.
 ```
+
+
+## 7. Le jardin de la tante, le soir : `zahrada_wide.webp` (chapitre 1, fin)
+
+**À la suite de la conversation de la rue** (elle a déjà le style et l'illustration du jardin, `img/illus_01_kosice_2.jpg`) : rien
+à joindre. Sinon, joindre `sources/rue_wide_src.png` et `img/illus_01_kosice_2.jpg`.
+
+Disposition, de gauche à droite : le portillon (on arrive de la rue), la cabane à bois, la corde à linge (**sans la couverture** :
+elle sera un objet à prendre), le grand pommier au milieu, puis l'arrière de la maison : porte de derrière, **interrupteur** à côté,
+fenêtre de l'étage **allumée**, et une **lampe de jardin très vive**. Fausses pistes possibles : un hamac sous la fenêtre, une niche
+sans chien, un arrosoir, une brouette.
+
+```
+Now draw the garden behind this same house, in exactly the same drawing style, as the next scrolling background of the game: a very wide panoramic image in 3:1 format (3072x1024 pixels), seen from the side, in the evening at dusk (deep blue sky with the first stars, the last orange light on the horizon). It must be the same garden as in the earlier garden illustration: the same two-storey house with the red tile roof, the same shed, clothesline and big apple tree.
+
+From left to right: the small wooden garden gate in the fence (seen from inside the garden); a small wooden shed with stacked firewood and a watering can in front of it; a clothesline between two posts with a few clothes and a towel hanging (but NO blanket); in the middle, the big apple tree with small green apples and soft grass under it; an empty dog kennel with no dog; a wheelbarrow; then the back of the aunt's house on the right: the back door with two steps, a white light switch box on the wall next to the door, an upstairs window brightly lit with a curtain, a striped hammock hanging between the house and a post just under that window, and a garden lamp on a post near the house shining a strong, bright white light that lights up the whole garden. The garden is EMPTY (no people, no animals). The lower third of the picture (the grass) stays clear and empty, because characters will walk there. No text, no letters, no numbers, no logos.
+
+Background style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading, simplified shapes, gentle gradients, no photographic textures or reflections. Landscape 3:1 format. No text, no letters, no numbers, no logos, no watermark.
+```
