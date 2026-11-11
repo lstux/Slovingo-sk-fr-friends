@@ -46,6 +46,7 @@
       // jeu complet : carnet de la loutre, aide (Andrea puis le telephone de Katka), voyage entre les chapitres
       this.pages = []; this.clues = []; this.helper = null; this.hintLevel = {}; this.chapter = null; this.visited = [];
       this.mapState = null;
+      this.cam = 0;   // camera : decalage horizontal du decor (scenes plus larges que l'ecran : scene.worldW)
       try { this.showFr = root.localStorage.getItem(FR_KEY) !== '0'; } catch (e) { /* ignore */ }
       this._bind();
     }
@@ -120,6 +121,7 @@
       this.sprites = (def.sprites || []).map((s) => Object.assign({ tx: null, ty: null, face: 1, wt: 0, hidden: false }, s));
       this.timers = []; this.dialog = null; this.choices = null; this.selected = null;
       this.sceneTime = 0;
+      this.cam = this.camTarget();
       if (def.chapter) { this.chapter = def.chapter; if (!this.visited.includes(def.chapter)) this.visited.push(def.chapter); }
       this.save();
       if (def.onEnter) this.run(() => def.onEnter(this.api()));
@@ -187,6 +189,14 @@
       if (fl && !pointInPoly(p, fl)) p = closestOnPoly(p, fl);
       return new Promise((resolve) => { s.tx = p[0]; s.ty = p[1]; s.arrive = resolve; });
     }
+    // camera : suit le personnage, bornee aux bords du decor (une scene normale tient dans l'ecran : camera a 0)
+    camTarget() {
+      const ww = (this.scene && this.scene.worldW) || W;
+      if (ww <= W) return 0;
+      const pl = this.sprites.find((q) => q.id === this.scene.player);
+      const x = pl ? pl.x : W / 2;
+      return Math.max(0, Math.min(ww - W, x - W / 2));
+    }
     hotspotAt(p) {
       const hs = this.scene.hotspots || [];
       for (let i = hs.length - 1; i >= 0; i--) {
@@ -239,10 +249,11 @@
         this.selected = this.selected === it ? null : it;
         return;
       }
-      const api = this.api(), h = this.hotspotAt(p), fox = this.sprites.find((s) => s.id === this.scene.player);
+      const wp = [p[0] + this.cam, p[1]];   // point dans le repere du decor (la camera peut l'avoir decale)
+      const api = this.api(), h = this.hotspotAt(wp), fox = this.sprites.find((s) => s.id === this.scene.player);
       this.run(async () => {
         if (!h) {   // le sol : le renard y marche
-          if (fox && this.scene.floor && pointInPoly(p, this.scene.floor)) { this.selected = null; await this.walk(fox.id, p[0], p[1]); }
+          if (fox && this.scene.floor && pointInPoly(wp, this.scene.floor)) { this.selected = null; await this.walk(fox.id, wp[0], wp[1]); }
           return;
         }
         const it = this.selected;
@@ -404,7 +415,10 @@
           this.run(async () => { for (const q of due) await q.fn(this.api()); });
         }
       }
-      this.hover = this.busy || this.dialog || this.choices || this.panel ? null : this.hotspotAt(this.mouse);
+      const ct = this.camTarget();
+      this.cam += (ct - this.cam) * Math.min(1, dt * 5);
+      if (Math.abs(ct - this.cam) < 0.5) this.cam = ct;
+      this.hover = this.busy || this.dialog || this.choices || this.panel ? null : this.hotspotAt([this.mouse[0] + this.cam, this.mouse[1]]);
       this.cv.style.cursor = this.hover || this.slotAt(this.mouse) >= 0 || (!this.busy && !this.dialog && !this.choices && !this.panel && this.hudButtonAt(this.mouse)) ? 'pointer' : 'default';
     }
 
@@ -414,12 +428,15 @@
       c.clearRect(0, 0, W, H);
       const sc = this.scene;
       if (!sc) return;
+      c.save();
+      c.translate(-Math.round(this.cam), 0);   // le decor (et tout ce qui est dedans) defile avec la camera ; l'interface, non
       const bg = this.img(sc.bg);
-      if (bg && bg.naturalWidth) c.drawImage(bg, 0, 0, W, H);
+      if (bg && bg.naturalWidth) c.drawImage(bg, 0, 0, sc.worldW || W, H);
       else if (!sc.bg) this.drawPlaceholder(sc);
       for (const l of sc.layers || []) this.drawLayer(l);
       const order = this.sprites.filter((s) => !s.hidden).sort((a, b) => a.y - b.y);
       for (const s of order) this.drawSprite(s);
+      c.restore();
       if (sc.dim) { const a = sc.dim(this.api()); if (a > 0) { c.fillStyle = `rgba(8,10,40,${a})`; c.fillRect(0, 0, W, H); } }
       this.drawHud();
       if (this.dialog) this.drawDialog();
@@ -544,6 +561,7 @@
         const on = h === this.hover, fl = this.flash > 0;
         if (!on && !fl) continue;
         c.save();
+        c.translate(-Math.round(this.cam), 0);
         c.beginPath();
         poly.forEach(([x, y], i) => (i ? c.lineTo(x, y) : c.moveTo(x, y)));
         c.closePath();

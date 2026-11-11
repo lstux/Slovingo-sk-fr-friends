@@ -83,10 +83,12 @@ globalThis.ZA_DATA = {
 };
 
 // le controleur : il entre, demande les tickets, repart
-async function inspect(g) {
-  const r = g.spawn('revizor', 1260, 662);
+// P : ou le controleur entre et ou il s'arrete (par defaut, le tram de l'apercu ; le grand tram a ses propres positions)
+const REV_POS = { from: [1260, 662], to: [735, 662] };
+async function inspect(g, P = REV_POS) {
+  const r = g.spawn('revizor', P.from[0], P.from[1]);
   g.face('revizor', -1);
-  await g.walk('revizor', 735, 662);
+  await g.walk('revizor', P.to[0], P.to[1]);
   await g.say('revizor', 'Dobrý deň. Lístky na kontrolu, prosím.', 'Bonjour. Contrôle des tickets, s\'il vous plaît.', [['kontrola', 'le contrôle']]);
   for (;;) {
     const i = await g.choice([
@@ -99,7 +101,7 @@ async function inspect(g) {
   }
   await g.say('fox', 'Tu je môj lístok.', 'Voici mon ticket.');
   await g.say('revizor', 'Je v poriadku. Ďakujem.', 'C\'est en ordre. Merci.', [['v poriadku', 'en ordre']]);
-  await g.walk('revizor', 1260, 662);
+  await g.walk('revizor', P.from[0], P.from[1]);
   g.hide('revizor');
   g.setFlag('checked');
   await g.say('narrator', 'Električka zastavuje.', 'Le tram s\'arrête.');
@@ -108,10 +110,10 @@ async function inspect(g) {
 }
 
 // pas de ticket valide : une amende, et on recommence
-async function fine(g) {
-  g.spawn('revizor', 1260, 662);
+async function fine(g, P = REV_POS) {
+  g.spawn('revizor', P.from[0], P.from[1]);
   g.face('revizor', -1);
-  await g.walk('revizor', 735, 662);
+  await g.walk('revizor', P.to[0], P.to[1]);
   await g.say('revizor', 'Dobrý deň. Lístky na kontrolu, prosím.', 'Bonjour. Contrôle des tickets, s\'il vous plaît.');
   await g.say('revizor', 'Váš lístok nie je označený. To je pokuta!', 'Votre ticket n\'est pas validé. C\'est une amende !', [['pokuta', 'l\'amende']]);
   await g.say('andrea', 'Ach nie! Skús to znova.', 'Oh non ! Essaie encore.');

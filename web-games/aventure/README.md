@@ -23,3 +23,11 @@ Les lignes slovaques et françaises sont une première écriture, à relire.
 Le moteur (`js/engine.js`) gere en plus : menu de sujets lie au Slovnik (`topics` + `need`), combinaison de deux objets (`combos`),
 indices par Andrea (`hints`, `helpers`), carnet de la loutre (`notebook`), carte du voyage entre chapitres (`chapters`, `showMap`).
 Conception : `docs/Jeu-conception.md`. Test : `node web-games/tests/jeu_test.js`.
+
+
+## Essai : décor plus large que l'écran (caméra qui défile)
+
+`jeu.html?large=1` remplace le tram par `art/tram_wide.webp` (2160 x 720, un panorama 3:1 généré par ChatGPT).
+Le moteur gère maintenant une **caméra** : une scène peut avoir `worldW` (largeur du décor, par défaut 1280) ; la caméra suit le
+joueur et s'arrête aux bords, les coordonnées des zones, du sol et des sprites sont celles du décor entier, l'interface reste fixe.
+Une scène sans `worldW` se comporte comme avant. Test : `node web-games/tests/tram_large_test.js`.

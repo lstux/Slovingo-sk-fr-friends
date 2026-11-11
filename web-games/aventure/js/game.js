@@ -7,6 +7,9 @@
   const andrea = (x, face) => ({ id: 'andrea', img: 'art/andrea.png', x, y: 662, h: 445, face: face || 1, speed: 300, walkSheet: { img: 'art/andrea_walk.png', frames: 4, fps: 7, h: 425 } });
   const box = (x0, y0, x1, y1) => [[x0, y0], [x1, y0], [x1, y1], [x0, y1]];
   const say = (g, who, sk, fr, words) => g.say(who, sk, fr, words);
+  // essai du grand tram (decor 3:1 qui defile) : jeu.html?large=1
+  const LARGE = /[?&]large=1/.test(globalThis.location ? globalThis.location.search : '');
+  const REV_WIDE = { from: [1900, 662], to: [1300, 662] };   // le controleur entre par la droite et s'arrete pres du composteur
 
   // ------------------------------------------------------------------ chapitres (la carte du voyage)
   const chapters = [
@@ -93,10 +96,52 @@
         await say(g, 'andrea', 'Nezabudni označiť lístok. Revízor tu býva často.', 'N\'oublie pas de valider ton ticket. Le contrôleur est souvent là.',
           [['označiť lístok', 'valider un ticket'], ['revízor', 'le contrôleur']]);
       }
-      if (!g.flag('stamped')) g.after(50000, async (g2) => { if (!g2.flag('stamped')) await fine(g2); });
+      if (!g.flag('stamped')) g.after(50000, async (g2) => { if (!g2.flag('stamped')) await fine(g2, LARGE ? REV_WIDE : undefined); });
     },
   });
 
+  // ------------------------------------------------------------------ le grand tram (essai : decor 3:1 qui defile avec la camera)
+  // Active par jeu.html?large=1. Meme histoire que le tram ci-dessus, autre decor (art/tram_wide.webp, 2160 x 720) et autres zones.
+  // Les coordonnees sont celles du decor entier (0..2160) ; la camera suit le renard.
+  const WW = 2160;
+  const byId = {}; for (const h of tram.hotspots) byId[h.id] = h;
+  const tramWide = Object.assign({}, tram, {
+    bg: 'art/tram_wide.webp',
+    worldW: WW,
+    floor: [[0, 590], [WW, 590], [WW, 712], [0, 712]],
+    layers: [],   // les vitres du decor montrent deja Kosice (plus tard : la ville qui defile derriere)
+    sprites: [fox(430), andrea(1560, -1)],
+    extraSprites: { revizor: { img: 'art/revizor.png', x: 1900, y: 662, h: 470, walkSheet: { img: 'art/revizor_walk.png', frames: 4, fps: 7, h: 470 }, hidden: true, speed: 240 } },
+    hotspots: [
+      Object.assign({}, byId.door, { poly: box(245, 170, 465, 555), walk: [355, 650] }),
+      { id: 'door2', name: { sk: 'dvere', fr: 'les portes' }, poly: box(1175, 170, 1395, 555), walk: [1285, 650],
+        look: { sk: 'Tieto dvere sa neotvoria. Vystupuje sa vpredu.', fr: 'Ces portes ne s\'ouvrent pas. On descend à l\'avant.', words: [['dvere', 'les portes']] } },
+      Object.assign({}, byId.validator, { poly: box(1052, 282, 1108, 372), walk: [1080, 650] }),
+      { id: 'cabin', name: { sk: 'kabína', fr: 'la cabine' }, poly: box(0, 70, 170, 590), walk: [200, 650],
+        look: { who: 'narrator', sk: 'Kabína vodiča. Vodič nás vezie cez mesto.', fr: 'La cabine du conducteur. Il nous conduit à travers la ville.', words: [['vodič', 'le conducteur']] } },
+      { id: 'win_cathedral', name: { sk: 'okno', fr: 'la fenêtre' }, poly: box(770, 170, 1018, 398), walk: [900, 650],
+        look: { sk: 'Pozri, katedrála! Svätá Alžbeta.', fr: 'Regarde, la cathédrale ! Sainte-Élisabeth.', words: [['katedrála', 'la cathédrale']] } },
+      { id: 'win_left', name: { sk: 'okno', fr: 'la fenêtre' }, poly: box(505, 170, 752, 398), walk: [630, 650],
+        look: { sk: 'Košice sú super!', fr: 'Košice, c\'est super !', words: [['okno', 'la fenêtre']] } },
+      { id: 'win_right', name: { sk: 'okno', fr: 'la fenêtre' }, poly: box(1425, 170, 2020, 398), walk: [1700, 650],
+        look: { sk: 'Pozri, mesto ide okolo!', fr: 'Regarde, la ville défile !' } },
+      { id: 'seats', name: { sk: 'sedadlá', fr: 'les sièges' }, poly: box(1445, 360, 1650, 575), walk: [1550, 662],
+        look: { who: 'narrator', sk: 'Prázdne sedadlá. Je popoludnie, nikto necestuje.', fr: 'Des sièges vides. C\'est l\'après-midi, personne ne voyage.', words: [['sedadlo', 'le siège']] } },
+      Object.assign({}, byId.andrea, { walk: [1440, 665] }),
+    ],
+    async onEnter(g) {
+      await tram.onEnter(g);
+    },
+  });
+  // le valideur appelle inspect() : dans le grand tram, le controleur entre par la droite et s'arrete pres du composteur
+  const stampWide = tramWide.hotspots.find((h) => h.id === 'validator');
+  stampWide.onItem = {
+    async listok(g) {
+      g.take('listok'); g.give('listok_ok'); g.setFlag('stamped');
+      await say(g, 'narrator', 'Cink! Lístok je označený.', 'Clac ! Le ticket est validé.', [['označený', 'validé']]);
+      await inspect(g, REV_WIDE);
+    },
+  };
   // ------------------------------------------------------------------ le jeu
   globalThis.ZG_DATA = {
     title: 'Zajko Quest',
@@ -185,7 +230,7 @@
       },
 
       // =============================================================== CHAPITRE 1 : le tram
-      tram,
+      tram: LARGE ? tramWide : tram,
 
       // la rue, devant l'arret : le test des ages et la cle sous le pot
       rue: {

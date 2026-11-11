@@ -150,3 +150,12 @@ Total : 6 décors à générer (+ 1 variante), 5 personnages, une planche d'obje
 - **Distributeur (prologue) trop facile** : l'automate ne doit plus dire « lis le panneau ». Gab se demande tout seul, en français : « Zut, comment on dit "un ticket" en slovaque ?! ». Le mot doit se trouver en croisant **deux indices** (affiche « Jeden lístok · 1,20 € » + panneau de l'automate « Lístok na električku »). Indice d'Andrea indisponible au prologue ; au bout de 3 insistances, Gab : « Il y a sûrement un truc écrit quelque part… ». Choix final plus difficile : trois formes plausibles (`Jeden / Jedna / Jedno lístok`).
 - **Autres endroits encore trop faciles** : à lister par Eric après ses tests (quiz des âges, fontaine, etc.).
 - **Décor « petit »** : envisager des décors plus larges que l'écran avec défilement horizontal (travelling quand le renard approche d'un bord), à la Broken Sword. Demande : quelle résolution d'image sort de ChatGPT / Gemini ?
+
+
+## Décors plus larges que l'écran (essai du 11 nov. 2026)
+
+Décision d'Eric : défilement de caméra (façon Broken Sword) sur **quelques scènes seulement**, pas toutes.
+- Format : panorama **3:1** (ChatGPT le sort : test concluant, image reçue en 2172 x 724 ; le jeu l'étire à 2160 x 720, 1,7 écran de large).
+- Moteur : `scene.worldW` + caméra qui suit le joueur (`engine.js`, `camTarget`). Zones et sprites en coordonnées du décor entier.
+- Essai : le tram (`art/tram_wide.webp`, `jeu.html?large=1`), l'ancien tram reste le défaut.
+- À voir : style un peu « vectoriel » à côté des illustrations du cours ; ville qui défile derrière les vitres (la ville du panorama est fixe) ; zones à affiner.
