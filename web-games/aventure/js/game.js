@@ -14,6 +14,13 @@
   // Andrea, nouvelle planche (art/PROMPTS_persos.md ; tools/make_sprites.py andrea) : marche 8 images (un cycle complet), 16 poses
   const ANDREA_POSES = { idle: 481, talk: 481, arms: 481, shy: 478, surprised: 482, point: 479, read: 429, look: 429,
     think: 479, laugh: 479, worried: 408, whisper: 439, wave: 479, give: 479, pick: 369, shrug: 479 };
+  // le controleur, nouvelle planche (tools/make_sprites.py revizor)
+  const REVIZOR_POSES = { idle: 512, ask: 509, check: 488, nod: 514, arms: 512, write: 502, point: 503, salute: 509 };
+  const revizor = (x, y) => ({
+    img: 'art/revizor2_idle.png', x, y, h: REVIZOR_POSES.idle, hidden: true, speed: 312, scaleSpeed: true,
+    walkSheet: { img: 'art/revizor2_walk.png', frames: 8, fps: 6, h: 515 },
+    poses: Object.fromEntries(Object.entries(REVIZOR_POSES).map(([k, h]) => [k, { img: `art/revizor2_${k}.png`, h }])),
+  });
   const andrea = (x, face, y) => ({
     id: 'andrea', img: 'art/andrea2_idle.png', x, y: y || 662, h: ANDREA_POSES.idle, face: face || 1, speed: 324, scaleSpeed: true,
     walkSheet: { img: 'art/andrea2_walk.png', frames: 8, fps: 8, h: 479 },
@@ -104,7 +111,7 @@
     player: 'fox', floor: [[0, 590], [TW, 590], [TW, 712], [0, 712]], scale: TRAM_SCALE,
     // Andrea est assise sur la banquette du fond (y 578 : au niveau des sieges), elle lit ; elle se leve a la rencontre
     sprites: [gab(360, 650), Object.assign(andrea(SEAT[0], -1, SEAT[1]), { pose: 'read' })],
-    extraSprites: { revizor: { img: 'art/revizor.png', x: 2140, y: 650, h: 470, walkSheet: { img: 'art/revizor_walk.png', frames: 4, fps: 7, h: 470 }, hidden: true, speed: 240 } },
+    extraSprites: { revizor: revizor(2140, 650) },
     triggers: [
       // Andrea entre dans l'ecran quand Gab depasse le composteur : la rencontre
       { x: [1150, TW], when: (g) => !g.flag('met'), run: meetAndrea },

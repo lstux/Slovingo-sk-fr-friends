@@ -115,3 +115,9 @@ Background: one flat, uniform pure green colour (#00FF00) everywhere, with no gr
 
 Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. No text, no letters, no numbers, no frame labels, no watermark.
 ```
+
+### Résultat (11 nov.) : `sources/revizor_sheet_src.png`
+
+Bonne du premier coup : marche (bras immobiles, 8 images différentes) et 8 poses. `make_sprites.py revizor` (échelle mesurée sur la
+hauteur : la casquette fausse la largeur de la tête) → `art/revizor2_*`. Dans `inspect()`/`fine()` (`tram.js`) : `ask`, `arms`
+(mauvaise réponse), `check`, `nod`, `salute`, `write` (amende).

@@ -36,6 +36,14 @@ CHARS = {
         'band': (0.25, 0.31),   # la tete est sous les grandes oreilles
         'out': 'andrea2',       # art/andrea.png et art/andrea_walk.png sont ceux de l'apercu (tram.js)
     },
+    'revizor': {
+        'poses': {'src': 'sources/revizor_sheet_src.png', 'cols': 8, 'rows': 2, 'row': 1,
+                  'names': ['idle', 'ask', 'check', 'nod', 'arms', 'write', 'point', 'salute']},
+        'walk': {'src': 'sources/revizor_sheet_src.png', 'cols': 8, 'rows': 2, 'row': 0, 'frames': 8, 'fps': 6, 'steps': 2},   # pas calme
+        'height': 500,           # un adulte, plus grand que Gab
+        'scale_by': 'height',    # la casquette fausse la largeur de la tete : on compare les hauteurs
+        'out': 'revizor2',       # art/revizor.png et revizor_walk.png restent ceux de l'apercu
+    },
 }
 
 def key(img):
@@ -101,7 +109,10 @@ def main(cid):
     pc = cells(spec['poses'])
     wc = cells(spec['walk'])[: spec['walk']['frames']]
     ref = measure(pc[0])                                   # la pose debout fixe l'echelle
-    kw = ref['head_w'] / np.mean([measure(c)['head_w'] for c in wc])
+    if spec.get('scale_by') == 'height':
+        kw = (ref['bot'] - ref['top']) / np.mean([measure(c)['bot'] - measure(c)['top'] for c in wc])
+    else:
+        kw = ref['head_w'] / np.mean([measure(c)['head_w'] for c in wc])
     poses = [scaled(c, 1.0) for c in pc]
     walk = [scaled(c, kw) for c in wc]
     unit = spec.get('height', HEIGHT) / (ref['bot'] - ref['top'])   # pixels d'image -> hauteur du jeu

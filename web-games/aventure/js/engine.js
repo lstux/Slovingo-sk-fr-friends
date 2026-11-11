@@ -189,7 +189,7 @@
           if (s) { s.hidden = false; if (x !== undefined) { s.x = x; s.y = y; } }
           return s;
         },
-        hide: (id) => { const s = g.sprites.find((q) => q.id === id); if (s) s.hidden = true; },
+        hide: (id) => { const s = g.sprites.find((q) => q.id === id); if (s) { s.hidden = true; s.pose = null; } },
         face: (id, dir) => { const s = g.sprites.find((q) => q.id === id); if (s) s.face = dir; },
         // pose d'un personnage (planche d'animation) : 'think', 'surprised', 'sit'... ; null = debout
         pose: (id, name) => { const s = g.sprites.find((q) => q.id === id); if (s) s.pose = name || null; },

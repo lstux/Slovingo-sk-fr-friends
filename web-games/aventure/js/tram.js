@@ -89,6 +89,7 @@ async function inspect(g, P = REV_POS) {
   const r = g.spawn('revizor', P.from[0], P.from[1]);
   g.face('revizor', -1);
   await g.walk('revizor', P.to[0], P.to[1]);
+  g.pose('revizor', 'ask');
   await g.say('revizor', 'Dobrý deň. Lístky na kontrolu, prosím.', 'Bonjour. Contrôle des tickets, s\'il vous plaît.', [['kontrola', 'le contrôle']]);
   for (;;) {
     const i = await g.choice([
@@ -97,10 +98,18 @@ async function inspect(g, P = REV_POS) {
       { sk: 'Ďakujem, dovidenia.', fr: 'Merci, au revoir.' },
     ]);
     if (i === 1) break;
+    g.pose('revizor', 'arms');
     await g.say('revizor', 'Prosím? Lístok, prosím.', 'Pardon ? Le ticket, s\'il vous plaît.');
+    g.pose('revizor', 'ask');
   }
+  g.pose('fox', 'use');
   await g.say('fox', 'Tu je môj lístok.', 'Voici mon ticket.');
+  g.pose('fox', null);
+  g.pose('revizor', 'check'); await g.sleep(1200);
+  g.pose('revizor', 'nod');
   await g.say('revizor', 'Je v poriadku. Ďakujem.', 'C\'est en ordre. Merci.', [['v poriadku', 'en ordre']]);
+  g.pose('revizor', 'salute'); await g.sleep(800);
+  g.pose('revizor', null);
   await g.walk('revizor', P.from[0], P.from[1]);
   g.hide('revizor');
   g.setFlag('checked');
@@ -114,7 +123,10 @@ async function fine(g, P = REV_POS) {
   g.spawn('revizor', P.from[0], P.from[1]);
   g.face('revizor', -1);
   await g.walk('revizor', P.to[0], P.to[1]);
+  g.pose('revizor', 'ask');
   await g.say('revizor', 'Dobrý deň. Lístky na kontrolu, prosím.', 'Bonjour. Contrôle des tickets, s\'il vous plaît.');
+  g.pose('revizor', 'check'); await g.sleep(1000);
+  g.pose('revizor', 'write');
   await g.say('revizor', 'Váš lístok nie je označený. To je pokuta!', 'Votre ticket n\'est pas validé. C\'est une amende !', [['pokuta', 'l\'amende']]);
   await g.say('andrea', 'Ach nie! Skús to znova.', 'Oh non ! Essaie encore.');
   g.restart();
