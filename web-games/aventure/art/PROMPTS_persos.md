@@ -67,3 +67,22 @@ poches : plus d'alternance à réussir. Les images 5 à 8 sont des copies de 1 �
 Images du jeu : `python3 web-games/aventure/tools/make_sprites.py gab` (détourage, même échelle que les poses mesurée sur la
 largeur de la tête, pieds en bas, tête au milieu) → `art/gab_walk.png` (4 images, 8 i/s) et `art/gab_<pose>.png`.
 Même méthode pour les autres personnages : poses + marche mains occupées (sac, livre, poches…).
+
+
+## Andrea (la hase) : `andrea_sheet_src.png` (poses) puis `andrea_walk_src.png` (marche)
+
+**À joindre** : `docs/illustrations/planche-heros.jpg` et `sources/gab_sheet_src.png` (même taille de cases et même style que Gab).
+
+```
+Use the first attached image (the heroes' model sheet) for the character: the hare (Andrea), keep her exactly as designed (same face, long ears with dark tips, grey-beige fur, green T-shirt, short denim shorts, red high-top sneakers, yellow shoulder bag). Use the second attached image (a sprite sheet of the fox) only as the reference for the layout, the size and the drawing style.
+
+Create a sprite sheet for a 2D point-and-click adventure game: a very wide image in 3:1 format (3072x1024 pixels), a grid of 8 columns and 2 rows of equal cells, the hare drawn full body in every cell, at exactly the same size and scale in every cell, feet on the same baseline near the bottom of each cell, nothing touching the cell borders, no cell borders drawn. She is a calm, slightly mysterious teenage girl, a bit taller than the fox.
+
+Row 1, eight poses, side or three-quarter view facing RIGHT: 1 standing idle, calm, one hand on the strap of her bag; 2 talking, a small smile, one hand raised in a gesture; 3 arms crossed, one eyebrow raised; 4 a warm, half-hidden smile, looking slightly down; 5 surprised, ears straight up; 6 pointing forward with one arm; 7 sitting on an invisible seat (side view, knees bent at 90 degrees) reading an open book held in both hands; 8 sitting the same way, the book closed on her knees, looking up and to the right with a smile.
+
+Row 2, eight more poses facing RIGHT: 1 thinking, a finger on her chin; 2 laughing softly, a hand in front of her mouth; 3 worried, ears slightly lowered; 4 whispering, a hand next to her mouth; 5 waving hello; 6 holding out a small object in her open hand; 7 crouching to pick something up; 8 shrugging, palms up.
+
+Background: one flat, uniform pure green colour (#00FF00) everywhere, with no gradient, no floor, no shadows, no texture. Do not use this green anywhere on the character.
+
+Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading, the same style as the model sheet. No text, no letters, no numbers, no frame labels, no watermark.
+```

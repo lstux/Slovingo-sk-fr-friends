@@ -416,7 +416,7 @@
         }
       }
     }
-    choiceRect(i, n) { return { x: 160, y: 470 - (n - i) * 70, w: 960, h: 60 }; }
+    choiceRect(i, n) { return { x: 160, y: 84 + i * 68, w: 960, h: 60 }; }   // en haut, a la place de la boite de dialogue : les personnages restent visibles
     slotAt(p) {
       for (let i = 0; i < this.items.length; i++) {
         const r = this.slotRect(i);
@@ -742,7 +742,7 @@
     }
     drawDialog() {
       const d = this.dialog, c = this.ctx, ch = this.data.characters[d.who] || {};
-      const x = 50, y = 508, w = W - 100, h = 190;
+      const x = 50, y = 84, w = W - 100, h = 190;   // en haut, sous les boutons : les personnages (en bas, sur le sol) restent visibles
       c.fillStyle = 'rgba(18,16,30,.92)'; this.roundRect(x, y, w, h, 18); c.fill();
       c.strokeStyle = ch.color || '#8a86a8'; c.lineWidth = 4; c.stroke();
       let tx = x + 28;
