@@ -213,3 +213,13 @@ la fait apparaître et la rencontre se déclenche (*Ahoj, Andrea!* / *Dobrý de�
 ticket est validé **et** Andrea retrouvée ; si on la retrouve sans avoir validé, il passe 50 s plus tard : amende, et le tram
 recommence. On descend par les portes de l'avant. À prévoir avec les nouvelles planches : Andrea **assise** avec son livre (le sprite
 actuel est debout).
+
+
+### La rue (chapitre 1), version 2 : décor 3:1, fausses pistes, « modrý » à comprendre
+
+Andrea dit « Kľúč od bránky je pod modrým kvetináčom » sans traduire *modrý* (le nom des pots au survol ne donne pas la couleur).
+On le lui demande (« Čo je modrý? » → « Modrý ako obloha! ») ; le journal du banc parle aussi de *modrá obloha*. Fausses pistes,
+chacune avec un mot ou une blague : pot rouge (un escargot), pot jaune (des fourmis), paillasson (« dans les films, ça marche
+toujours »), **sonnette** (la tante : « Kto je tam?! », Gab se cache derrière le tilleul), boîte aux lettres, nain de jardin, une pièce
+à ramasser (un centime « pour la chance », inutile… pour l'instant), le tilleul (arbre national), les pommes trop hautes.
+Soulever le pot bleu au hasard marche aussi : deviner reste possible, mais coûte quelques gags.

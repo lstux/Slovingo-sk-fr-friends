@@ -22,3 +22,28 @@ Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, f
 
 À vérifier : les trois pots bien séparés et de trois couleurs franches ; le portillon visible (fermé) ; la maison reconnaissable ;
 aucun numéro de maison ni panneau écrit.
+
+Résultat (11 nov.) : bon du premier coup (`sources/rue_wide_src.png`). Zones dans `game.js` (scène `rue`).
+
+## 6. Objets de la rue (fausses pistes) : `objets_rue_src.png`
+
+Posés par-dessus le décor (sprites) : paillasson, pièce, journal sur le banc, boîte aux lettres, nain de jardin ; et deux icônes
+d'inventaire (clé, centime). **À joindre** : `sources/rue_wide_src.png` (le décor où ils iront : même style, même lumière).
+
+```
+Use the attached image (a street background) as the reference for the drawing style and the light (same clean ink lines, flat colours with soft cel shading, warm late-afternoon light). Do not copy its content.
+
+Create an object sheet for a 2D point-and-click adventure game: a very wide image in 3:1 format (3072x1024 pixels), a grid of 4 columns and 2 rows of equal cells, ONE object per cell, centred, drawn large in its cell, nothing touching the cell borders, no cell borders drawn, all seen from the side or slightly from above as in the street background:
+1 a worn brown doormat lying flat on the ground (seen slightly from above), plain, with no writing;
+2 a small shiny copper coin lying on the ground, seen slightly from above, catching the light (no readable text or numbers);
+3 a folded newspaper (grey columns and a small drawing of a sun, no readable text);
+4 a green metal wall letterbox with a slot and a small lock (no text);
+5 a cheerful garden gnome with a red pointed hat and a white beard, standing;
+6 a small snail with a brown spiral shell;
+7 an old iron key with a round head (inventory icon), seen from the front;
+8 the same copper coin seen from the front, as an inventory icon (no readable text or numbers).
+
+Background: one flat, uniform pure green colour (#00FF00) everywhere, with no gradient, no floor, no shadows, no texture. Do not use this green anywhere on the objects.
+
+Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. No text, no letters, no numbers, no labels, no watermark.
+```

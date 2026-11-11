@@ -68,8 +68,17 @@ const srv = http.createServer((q, r) => {
   picks = [1, 1];                                     // quiz des ages dans la rue
   await useW(355, 360, 'porte'); s = await st(); if (s.sc !== 'rue') fail('pas dans la rue ' + s.sc);
   await idle('quiz'); await shot('03_rue');
-  await use(920, 520, 'pot bleu'); s = await st(); if (!s.items.includes('kluc')) fail('pas de cle');
-  await use(1175, 400, 'portillon'); s = await st(); if (s.sc !== 'zahrada') fail('pas dans le jardin ' + s.sc);
+  // rue v2 : « modrý » n'est pas traduit ; on le demande a Andrea, on souleve d'abord un mauvais pot (fausse piste)
+  if (await pg.evaluate(() => !!__zajka.words['modrý'])) fail('modrý connu trop tot');
+  picks = [0, 3];                                     // « Čo je modrý? », puis « Dovidenia »
+  await pg.evaluate(async () => { const a = __zajka.sprites.find((q) => q.id === 'andrea'); await __zajka.walk('fox', a.x - 90, 640); __zajka.cam = __zajka.camTarget(); });
+  await pg.evaluate(() => { const a = __zajka.sprites.find((q) => q.id === 'andrea'); __zajka.click([a.x - __zajka.cam, a.y - 60]); });
+  await idle('Andrea explique modrý');
+  if (!(await pg.evaluate(() => !!__zajka.words['modrý']))) fail('modrý non appris');
+  await useW(1140, 440, 'pot rouge'); s = await st(); if (s.items.includes('kluc')) fail('cle sous le pot rouge ?!');
+  await useW(1030, 560, 'paillasson'); s = await st(); if (s.items.includes('kluc')) fail('cle sous le paillasson ?!');
+  await useW(1325, 440, 'pot bleu'); s = await st(); if (!s.items.includes('kluc')) fail('pas de cle');
+  await useW(1655, 470, 'portillon'); s = await st(); if (s.sc !== 'zahrada') fail('pas dans le jardin ' + s.sc);
   await idle('jardin'); await shot('04_jardin');
   await use(230, 230, 'corde'); if (!(await st()).items.includes('deka')) fail('pas de couverture');
   await use(640, 300, 'pommier lampe allumee'); s = await st(); if (s.sc !== 'zahrada' || s.flags.lampoff) fail('la tante aurait du crier');

@@ -294,6 +294,7 @@
     }),
     items: Object.assign({}, ZA_DATA.items, {
       kluc: { sk: 'kľúč', fr: 'clé', emoji: '🔑' },
+      cent: { sk: 'cent', fr: 'un centime', emoji: '🪙' },
       deka: { sk: 'deka', fr: 'couverture', emoji: '🛏️' },
       flasa: { sk: 'fľaša', fr: 'gourde', emoji: '💧' },
       rebrik: { sk: 'rebrík', fr: 'échelle', emoji: '🪜' },
@@ -362,41 +363,128 @@
       tram,
 
       // la rue, devant l'arret : le test des ages et la cle sous le pot
+      // la rue v2 (decor 3:1 : art/PROMPTS_decors.md n° 5) : l'arret du tram, la maison de la tante, trois pots, le portillon.
+      // Enigme : la cle est « pod modrým kvetináčom » ; on ne sait pas ce qu'est « modrý » : on le demande a Andrea (« ako obloha »).
+      // Fausses pistes : les deux autres pots, le paillasson, la sonnette (la tante se reveille !), la boite aux lettres, le nain...
       rue: {
         chapter: 'ch1', title: { sk: 'Pred domom', fr: 'Devant la maison' }, tint: ['#b7a07a', '#d9c9a2'],
-        player: 'fox', floor: FLOOR, scale: SCALE, sprites: [fox(260), andrea(560, -1)],
+        bg: 'art/rue_wide.webp', worldW: 2160,
+        player: 'fox', floor: [[0, 590], [2160, 590], [2160, 705], [0, 705]], scale: { y0: 590, s0: 0.33, y1: 705, s1: 0.41 },
+        sprites: [gab(150, 640), andrea(260, -1, 630)],
         hotspots: [
-          { id: 'dom', name: { sk: 'dom', fr: 'la maison' }, poly: box(560, 60, 1000, 420), walk: [800, 650],
-            look: { sk: 'Dom Andreinej tety. Hlavné dvere sú zavreté.', fr: 'La maison de la tante d\'Andrea. La porte d\'entrée est fermée.', words: [['dom', 'la maison']] } },
-          { id: 'cerveny', name: { sk: 'červený kvetináč', fr: 'le pot rouge' }, poly: box(640, 470, 720, 560), walk: [680, 650],
-            async onUse(g) { await say(g, 'narrator', 'Pod červeným kvetináčom je slimák.', 'Sous le pot rouge, il y a un escargot.', [['červený', 'rouge'], ['slimák', 'l\'escargot']]); } },
-          { id: 'zlty', name: { sk: 'žltý kvetináč', fr: 'le pot jaune' }, poly: box(760, 470, 840, 560), walk: [800, 650],
-            async onUse(g) { await say(g, 'narrator', 'Pod žltým kvetináčom spí mačka. Mňau!', 'Sous le pot jaune, un chat dort. Miaou !', [['žltý', 'jaune'], ['mačka', 'le chat']]); } },
-          { id: 'modry', name: { sk: 'modrý kvetináč', fr: 'le pot bleu' }, poly: box(880, 470, 960, 560), walk: [920, 650],
+          // --- fausses pistes et petits mots, de gauche a droite
+          { id: 'lavicka', name: { sk: 'lavička', fr: 'le banc' }, poly: box(95, 470, 295, 545), walk: [200, 625],
+            look: { sk: 'Lavička na zastávke. Niekto tu zabudol noviny.', fr: 'Un banc à l\'arrêt. Quelqu\'un a oublié son journal.', words: [['zastávka', 'l\'arrêt'], ['noviny', 'le journal']] } },
+          { id: 'noviny', name: { sk: 'noviny', fr: 'le journal' }, poly: box(118, 448, 205, 476), walk: [175, 625],
+            async onUse(g) {
+              g.pose('fox', 'pick');
+              await say(g, 'narrator', 'Noviny. „Počasie: zajtra slnko a modrá obloha.“', 'Le journal. « Météo : demain, du soleil et un ciel… « modrá ». »', [['počasie', 'la météo'], ['slnko', 'le soleil'], ['obloha', 'le ciel']]);
+              g.pose('fox', null);
+              await say(g, 'fox', 'Modrá obloha… Hmm.', 'Un ciel « modrá »… Hmm.');
+              g.setFlag('read_noviny');
+            } },
+          { id: 'lampa', name: { sk: 'lampa', fr: 'le réverbère' }, poly: box(330, 105, 395, 580), walk: [360, 625],
+            look: { sk: 'Stará lampa. Večer svieti.', fr: 'Un vieux réverbère. Il s\'allume le soir.', words: [['lampa', 'la lampe'], ['večer', 'le soir']] } },
+          { id: 'lipa', name: { sk: 'lipa', fr: 'le tilleul' }, poly: [[430, 60], [700, 40], [820, 300], [560, 340], [565, 565], [480, 565], [490, 330], [180, 300]], walk: [520, 625],
+            look: { who: 'andrea', sk: 'Lipa. To je náš národný strom!', fr: 'Un tilleul. C\'est notre arbre national !', words: [['lipa', 'le tilleul'], ['národný strom', 'l\'arbre national']] } },
+          { id: 'cent', name: { sk: 'niečo lesklé', fr: 'quelque chose qui brille' }, poly: box(690, 596, 730, 620), walk: [700, 628],
+            when: (g) => !g.flag('cent'),
+            async onUse(g) {
+              g.pose('fox', 'pick');
+              g.give('cent'); g.setFlag('cent');
+              await say(g, 'narrator', 'Jeden cent! Na šťastie.', 'Un centime ! Ça porte bonheur.', [['šťastie', 'la chance']]);
+              g.pose('fox', null);
+            } },
+          { id: 'okno', name: { sk: 'okná', fr: 'les fenêtres' }, poly: [[965, 140], [1100, 140], [1100, 265], [965, 265], [965, 140]].concat([]), walk: [1030, 625],
+            look: { sk: 'Záclony. Teta spí… dúfam.', fr: 'Des rideaux. La tante dort… j\'espère.', words: [['záclona', 'le rideau']] } },
+          { id: 'okno2', name: { sk: 'okná', fr: 'les fenêtres' }, poly: box(1165, 140, 1300, 265), walk: [1230, 625],
+            look: { sk: 'Záclony. Teta spí… dúfam.', fr: 'Des rideaux. La tante dort… j\'espère.', words: [['záclona', 'le rideau']] } },
+          { id: 'lucerna', name: { sk: 'lampáš', fr: 'la lanterne' }, poly: box(905, 250, 962, 342), walk: [960, 625],
+            look: { sk: 'Lampáš. Rovnaký ako v záhrade.', fr: 'Une lanterne. La même que dans le jardin.' } },
+          // la porte : la sonnette est un piege (la tante se reveille)
+          { id: 'dvere', name: { sk: 'dvere', fr: 'la porte' }, poly: box(980, 300, 1082, 486), walk: [1030, 625], pose: 'use',
+            async onUse(g) {
+              if (g.flag('rang')) { await say(g, 'fox', 'Znova zvoniť? Nie, ďakujem!', 'Sonner encore ? Non merci !'); return; }
+              const i = await g.choice([{ sk: 'Zazvoniť.', fr: 'Sonner.' }, { sk: 'Radšej nie.', fr: 'Plutôt pas.' }]);
+              if (i === 1) return;
+              g.setFlag('rang');
+              await say(g, 'narrator', 'Crrrrr!', 'Driiiing !', [['zvoniť', 'sonner']]);
+              g.pose('andrea', 'surprised'); g.pose('fox', 'surprised');
+              await say(g, 'teta', 'Kto je tam?!', 'Qui est là ?!', [['kto', 'qui']]);
+              await say(g, 'andrea', 'Rýchlo, schovaj sa!', 'Vite, cache-toi !', [['schovať sa', 'se cacher']]);
+              g.pose('andrea', null); g.pose('fox', null);
+              await g.walk('fox', 560, 600);   // derriere le tilleul
+              await say(g, 'andrea', 'To som ja, teta! … Nič, nič. Dobrú noc!', 'C\'est moi, tata ! … Rien, rien. Bonne nuit !');
+              await say(g, 'narrator', 'Ticho. Teta zase spí.', 'Silence. La tante se rendort.', [['ticho', 'le silence']]);
+              g.pose('andrea', 'arms');
+              await say(g, 'andrea', 'Gab! Povedala som: potichu!', 'Gab ! J\'ai dit : doucement !');
+              g.pose('andrea', null);
+            } },
+          { id: 'rohozka', name: { sk: 'rohožka', fr: 'le paillasson' }, poly: box(985, 548, 1080, 578), walk: [1030, 625], pose: 'pick',
+            async onUse(g) {
+              await say(g, 'narrator', 'Pod rohožkou… nič. Len prach.', 'Sous le paillasson… rien. Juste de la poussière.', [['rohožka', 'le paillasson'], ['prach', 'la poussière']]);
+              await say(g, 'fox', 'Škoda. Vo filmoch to vždy funguje.', 'Dommage. Dans les films, ça marche toujours.');
+            } },
+          // les trois pots : on ne connait pas encore les couleurs (le nom au survol ne les trahit pas)
+          { id: 'cerveny', name: { sk: 'kvetináč', fr: 'un pot de fleurs' }, poly: box(1105, 395, 1172, 490), walk: [1140, 625], pose: 'pick',
+            async onUse(g) {
+              await say(g, 'narrator', 'Červený kvetináč. Pod ním je… slimák!', 'Le pot « červený ». Dessous, il y a… un escargot !', [['slimák', 'l\'escargot']]);
+              g.pose('fox', 'surprised'); await say(g, 'fox', 'Fuj! Prepáč, slimák.', 'Beurk ! Pardon, l\'escargot.', [['prepáč', 'pardon']]); g.pose('fox', null);
+              g.setFlag('pot_cerveny');
+            } },
+          { id: 'zlty', name: { sk: 'kvetináč', fr: 'un pot de fleurs' }, poly: box(1195, 395, 1265, 490), walk: [1230, 625], pose: 'pick',
+            async onUse(g) {
+              await say(g, 'narrator', 'Žltý kvetináč. Pod ním sú len mravce.', 'Le pot « žltý ». Dessous, il n\'y a que des fourmis.', [['mravce', 'les fourmis']]);
+              g.setFlag('pot_zlty');
+            } },
+          { id: 'modry', name: { sk: 'kvetináč', fr: 'un pot de fleurs' }, poly: box(1288, 395, 1362, 490), walk: [1325, 625], pose: 'pick',
             async onUse(g) {
               if (g.has('kluc') || g.flag('gate')) { await say(g, 'fox', 'Tu už nič nie je.', 'Il n\'y a plus rien ici.'); return; }
               g.give('kluc'); g.setFlag('keyfound');
-              await say(g, 'narrator', 'Kľúč! Bol pod modrým kvetináčom.', 'La clé ! Elle était sous le pot bleu.', [['modrý', 'bleu']]);
+              await say(g, 'narrator', 'Modrý kvetináč… a pod ním kľúč!', 'Le pot bleu… et dessous, la clé !', [['modrý', 'bleu']]);
+              g.pose('fox', 'laugh'); await g.sleep(700); g.pose('fox', null);
             } },
-          { id: 'branka', name: { sk: 'bránka', fr: 'le portillon' }, poly: box(1100, 250, 1250, 560), walk: [1090, 650],
+          { id: 'jablone', name: { sk: 'jabloň', fr: 'le pommier' }, poly: [[1440, 160], [1620, 80], [1880, 170], [1900, 330], [1700, 400], [1460, 360]], walk: [1640, 625],
+            look: { sk: 'Jablká! Ale sú príliš vysoko. A ešte zelené.', fr: 'Des pommes ! Mais elles sont trop haut. Et encore vertes.', words: [['jablko', 'la pomme'], ['zelený', 'vert']] } },
+          { id: 'schranka', name: { sk: 'schránka', fr: 'la boîte aux lettres' }, poly: box(1548, 425, 1600, 480), walk: [1560, 625],
+            look: { sk: 'Poštová schránka. Zamknutá. Teta dostáva veľa listov.', fr: 'La boîte aux lettres. Fermée à clé. La tante reçoit beaucoup de lettres.', words: [['schránka', 'la boîte aux lettres'], ['list', 'la lettre']] } },
+          { id: 'branka', name: { sk: 'bránka', fr: 'le portillon' }, poly: box(1600, 395, 1716, 546), walk: [1655, 625], pose: 'use',
             async onUse(g) {
               if (!g.has('kluc')) { await say(g, 'fox', 'Bránka je zamknutá.', 'Le portillon est fermé à clé.', [['zamknutá', 'fermé à clé']]); return; }
               await say(g, 'narrator', 'Cvak! Bránka sa otvára.', 'Clac ! Le portillon s\'ouvre.');
               g.take('kluc'); g.setFlag('gate');
               g.goScene('zahrada');
             } },
-          { id: 'andrea', sprite: 'andrea', name: { sk: 'Andrea', fr: 'Andrea' }, walk: [480, 665],
+          { id: 'trpaslik', name: { sk: 'trpaslík', fr: 'le nain de jardin' }, poly: box(1785, 492, 1832, 550), walk: [1810, 625],
+            look: { sk: 'Záhradný trpaslík. Usmieva sa. Nič nevie.', fr: 'Un nain de jardin. Il sourit. Il ne sait rien.', words: [['trpaslík', 'le nain']] } },
+          { id: 'katedrala', name: { sk: 'katedrála', fr: 'la cathédrale' }, poly: box(1950, 60, 2125, 220), walk: [2000, 625],
+            look: { sk: 'Katedrála. Vidno ju z celého mesta.', fr: 'La cathédrale. On la voit de toute la ville.' } },
+          // Andrea : c'est elle qui explique « modrý »
+          { id: 'andrea', sprite: 'andrea', name: { sk: 'Andrea', fr: 'Andrea' }, walk: [330, 630],
             topics: [
-              { need: 'kľúč', sk: 'Kde je kľúč?', fr: 'Où est la clé ?', async run(g) { await say(g, 'andrea', 'Pod modrým kvetináčom. Pod!', 'Sous le pot bleu. Sous !'); } },
+              { id: 'modry', when: (g) => g.flag('heard_modry') && !g.knows('modrý'), sk: 'Modrý? Čo je modrý?', fr: '« Modrý » ? C\'est quoi, « modrý » ?',
+                async run(g) {
+                  g.pose('andrea', 'point');
+                  await say(g, 'andrea', 'Modrý ako obloha! Pozri hore.', '« Modrý » comme le ciel ! Regarde en haut.', [['obloha', 'le ciel']]);
+                  g.pose('andrea', null);
+                  g.pose('fox', 'think');
+                  await say(g, 'fox', 'Obloha je… modrá. Modrá ako… Aha! Modrý je modrý!', 'Le ciel est… bleu. Bleu comme… Ah ! « Modrý », c\'est bleu !');
+                  g.pose('fox', null);
+                  g.learn('modrý', 'bleu');
+                } },
+              { need: 'kľúč', sk: 'Kde je kľúč?', fr: 'Où est la clé ?', async run(g) { await say(g, 'andrea', 'Pod modrým kvetináčom. Pod!', 'Sous le pot de fleurs « modrý ». Sous !'); } },
               { need: 'teta', sk: 'Čo je s tetou?', fr: 'Qu\'est-ce qu\'elle a, ta tante ?', async run(g) { await say(g, 'andrea', 'Je milá. Ale veľká a silná. Radšej ju nebudíme.', 'Elle est gentille. Mais grande et forte. Mieux vaut ne pas la réveiller.', [['silná', 'forte']]); } },
               { need: 'trinásť', sk: 'Katka má trinásť rokov?', fr: 'Katka a treize ans ?', async run(g) { await say(g, 'andrea', 'Áno. A Maťo má štrnásť.', 'Oui. Et Maťo en a quatorze.'); } },
             ] },
         ],
         hints: [
+          { id: 'rue_modry', when: (g) => !g.knows('modrý') && !g.has('kluc') && !g.flag('gate'), levels: [
+            { sk: 'Kľúč je pod modrým kvetináčom. Ale čo je „modrý“?', fr: 'La clé est sous le pot « modrý ». Mais c\'est quoi, « modrý » ?' },
+            { sk: 'Opýtaj sa ma: „Čo je modrý?“', fr: 'Demande-moi : « C\'est quoi, modrý ? »' },
+            { sk: 'Klikni na mňa a vyber otázku o farbe.', fr: 'Clique sur moi et choisis la question sur la couleur.' } ] },
           { id: 'rue_key', when: (g) => !g.has('kluc') && !g.flag('gate'), levels: [
-            { sk: 'Andrea ti povedala, kde je kľúč.', fr: 'Andrea t\'a dit où est la clé.' },
-            { sk: 'Pod modrým kvetináčom. Pozri sa na kvetináče.', fr: 'Sous le pot bleu. Regarde les pots de fleurs.' },
-            { sk: 'Klikni na modrý kvetináč.', fr: 'Clique sur le pot bleu.' } ] },
+            { sk: 'Modrý je ako obloha. Ktorý kvetináč je modrý?', fr: '« Modrý », c\'est comme le ciel. Quel pot est de cette couleur ?' },
+            { sk: 'Tretí kvetináč, vpravo.', fr: 'Le troisième pot, à droite.' } ] },
           { id: 'rue_gate', when: (g) => g.has('kluc'), levels: [
             { sk: 'Máš kľúč. Čo otvára?', fr: 'Tu as la clé. Qu\'est-ce qu\'elle ouvre ?' },
             { sk: 'Klikni na bránku.', fr: 'Clique sur le portillon.' } ] },
@@ -404,6 +492,7 @@
         async onEnter(g) {
           if (g.flag('quiz')) return;
           g.setFlag('quiz');
+          await g.walk('andrea', 420, 625); g.face('andrea', -1);
           await say(g, 'narrator', 'Pred domom Andreinej tety. Je podvečer.', 'Devant la maison de la tante d\'Andrea. C\'est la fin d\'après-midi.', [['podvečer', 'en fin de journée']]);
           await say(g, 'andrea', 'Tu býva moja teta. Pst! Nesmie ťa vidieť.', 'C\'est ici qu\'habite ma tante. Chut ! Elle ne doit pas te voir.', [['teta', 'la tante'], ['nesmie', 'elle ne doit pas']]);
           await say(g, 'andrea', 'Ale najprv jeden test. Si naozaj Gab?', 'Mais d\'abord un petit test. Tu es vraiment Gab ?');
@@ -420,8 +509,13 @@
             await say(g, 'andrea', i === 0 ? 'Osem? To bolo pred piatimi rokmi!' : 'Sedemnásť? To je veľa!', i === 0 ? 'Huit ? C\'était il y a cinq ans !' : 'Dix-sept ? C\'est beaucoup !');
           }
           await say(g, 'andrea', 'Trinásť. A Maťo má štrnásť.', 'Treize. Et Maťo en a quatorze.', [['trinásť', 'treize'], ['štrnásť', 'quatorze']]);
-          await say(g, 'andrea', 'Dobre. Si to ty. Pozri: kľúč od bránky je pod modrým kvetináčom.', 'Bien. C\'est bien toi. Regarde : la clé du portillon est sous le pot bleu.',
-            [['kľúč', 'la clé'], ['bránka', 'le portillon'], ['pod', 'sous'], ['kvetináč', 'le pot de fleurs'], ['modrý', 'bleu']]);
+          // l'indice de la cle, sans traduire « modrý » : il faudra le comprendre (demander a Andrea)
+          await say(g, 'andrea', 'Dobre. Si to ty. Kľúč od bránky je pod modrým kvetináčom.', 'Bien. C\'est bien toi. La clé du portillon est sous le pot de fleurs… « modrý ».',
+            [['kľúč', 'la clé'], ['bránka', 'le portillon'], ['pod', 'sous'], ['kvetináč', 'le pot de fleurs']]);
+          g.setFlag('heard_modry');
+          g.pose('andrea', 'whisper');
+          await say(g, 'andrea', 'A potichu, prosím. Teta spí.', 'Et doucement, s\'il te plaît. Ma tante dort.', [['potichu', 'doucement'], ['spí', 'elle dort']]);
+          g.pose('andrea', null);
         },
       },
 
