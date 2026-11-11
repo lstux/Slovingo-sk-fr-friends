@@ -419,7 +419,7 @@ Scene: A school gym turned into a shelter during a flood, evening, wide landscap
 Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. Any humans are drawn in the same very simple cartoon style as the animals: simplified rounded shapes, flat colours, small simple eyes, few lines on the face, no realistic or semi-realistic faces. The whole background and every object are hand-drawn in the same cartoon style as the characters: simplified shapes, gentle gradients, no photographic textures or reflections. Soft, painterly background with few small details, so the characters stand out, but the place stays recognisable. Landscape format. No text, no letters, no logos, no watermark.
 ```
 
-### 07 Cesta (extra) — V kamióne
+### 07 Cesta (extra) — V kamióne ✅
 
 Fiche `10_Series_07_Cesta_06_extra.md` → `img/illus_07_cesta_2.jpg`
 
