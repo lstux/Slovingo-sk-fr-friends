@@ -1,6 +1,6 @@
 # Rozhodnutie (extra) — My sme tam boli
 
-@ img/ranajky-vonku.jpg | Un feu de camp qui fume encore, le matin. Source : Wikimedia Commons, Andre Carrotflower, CC BY-SA 4.0
+@ img/illus_10_rozhodnutie_2.jpg | Le matin, au petit-déjeuner : le carnet est étalé sur la couverture, et le renard a un coup de fil à passer. Source : illustration générée avec ChatGPT
 
 {{fr:Le matin, au petit-déjeuner. Il faut décider quoi dire à la télévision. Tout le monde a un avis. Et toi, tu as un coup de fil à passer.}}
 
