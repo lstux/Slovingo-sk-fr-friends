@@ -142,6 +142,49 @@
       await inspect(g, REV_WIDE);
     },
   };
+  // ------------------------------------------------------------------ la gare : les deux indices et le distributeur
+  // On apprend « električka » sur l'affiche (le dessin du tram) ; « lístok » quand on a vu l'affiche ET l'ecriteau du distributeur.
+  async function clue(g, which) {
+    if (which === 'plagat') {
+      await say(g, 'narrator', 'Plagát: Električka. Jeden lístok: 1,20 €.', 'Sous un dessin de tram et d\'un petit bout de papier : « Električka. Jeden lístok : 1,20 € ».');
+      if (!g.knows('električka')) { await say(g, 'fox', 'Električka… to bude ten tram na obrázku.', 'Električka… ça doit être le tram du dessin.'); g.learn('električka', 'le tram'); }
+      g.setFlag('clue_plagat');
+    } else {
+      await say(g, 'narrator', 'Na automate je nápis: Lístok na električku.', 'Sur le distributeur, c\'est écrit : « Lístok na električku ».', [['nápis', 'l\'écriteau']]);
+      g.setFlag('clue_automat');
+    }
+    if (g.flag('clue_plagat') && g.flag('clue_automat') && !g.knows('lístok')) {
+      await say(g, 'fox', 'Lístok na električku… Jeden lístok, 1,20 €… Lístok je ten papierik! Lístok!', 'Un « lístok » pour le tram… un « lístok » à 1,20 €… Lístok, c\'est le ticket !');
+      g.learn('lístok', 'le ticket'); g.learn('jeden', 'un');
+    }
+  }
+  async function automat(g) {
+    if (g.has('listok') || g.has('listok_ok')) { await say(g, 'fox', 'Už mám lístok.', 'J\'ai déjà mon ticket.'); return; }
+    if (!g.flag('clue_automat')) await clue(g, 'automat');
+    if (!g.knows('lístok')) {
+      await say(g, 'automat', 'Dobrý deň. Čo si želáte?', 'Bonjour. Que désirez-vous ?', [['želáte', 'vous désirez']]);
+      const n = g.flag('auto2') ? 3 : g.flag('auto1') ? 2 : 1;
+      if (n === 1) g.setFlag('auto1'); else if (n === 2) g.setFlag('auto2');
+      if (n < 3) await say(g, 'fox', 'Hmm…', 'Zut, comment on dit « un ticket » en slovaque ?!');
+      else await say(g, 'fox', 'Hmm… nápis…', 'Il y a sûrement un truc écrit quelque part… sur une affiche ?');
+      return;
+    }
+    await say(g, 'automat', 'Dobrý deň. Čo si želáte?', 'Bonjour. Que désirez-vous ?', [['želáte', 'vous désirez']]);
+    for (;;) {
+      const i = await g.choice([
+        { sk: 'Jedna lístok, prosím.', fr: 'Un ticket, s\'il vous plaît. (?)' },
+        { sk: 'Jeden lístok, prosím.', fr: 'Un ticket, s\'il vous plaît. (?)' },
+        { sk: 'Jedno lístok, prosím.', fr: 'Un ticket, s\'il vous plaît. (?)' },
+      ]);
+      if (i === 1) break;
+      await say(g, 'automat', 'Pííp! Chyba.', 'Bip ! Erreur.');
+      await say(g, 'fox', i === 0 ? 'Jedna… nie. Na plagáte bolo inak.' : 'Jedno… nie. Na plagáte bolo inak.', i === 0 ? '« Jedna »… non. Sur l\'affiche, c\'était autrement.' : '« Jedno »… non. Sur l\'affiche, c\'était autrement.');
+    }
+    await say(g, 'automat', 'Ďakujem. Dobrú cestu!', 'Merci. Bon voyage !', [['ďakujem', 'merci']]);
+    g.give('listok'); g.setFlag('ticket');
+    await say(g, 'narrator', 'Cink! Lístok vypadol z automatu. „Lístok“ je mužský rod: jeden lístok.', 'Clac ! Le ticket sort du distributeur. « Lístok » est masculin : jeden lístok.', [['prosím', 's\'il vous plaît']]);
+  }
+
   // ------------------------------------------------------------------ l'ouverture (cinematique) : docs/Jeu-conception.md, « Nouvelle ouverture »
   // Cartes : 1672 x 941 montrees en 1280 x 720 ; repere de Kosice mesure sur chaque image (art/PROMPTS_intro.md).
   const EU = [1190 * 1280 / 1672, 419 * 720 / 941];    // pointe du repere sur la carte de l'Europe
@@ -229,40 +272,37 @@
     scenes: {
       uvod,
       // =============================================================== INTRO : la gare de Kosice
+      // la gare v2 (docs/Jeu-conception.md, « La gare (prologue), version 2 ») : decor 3:1, la camera suit Gab.
+      // Le mot « lístok » se trouve en croisant deux indices : l'affiche (pilier) et l'ecriteau du distributeur.
       gare: {
         chapter: 'ch0', title: { sk: 'Stanica', fr: 'La gare' }, tint: ['#2f3d5a', '#9aa8bf'],
-        player: 'fox', floor: FLOOR, scale: SCALE, sprites: [fox(300)],
+        bg: 'art/gare_wide.webp', worldW: 2160,
+        player: 'fox', floor: [[0, 600], [2160, 600], [2160, 712], [0, 712]], scale: { y0: 600, s0: 0.55, y1: 712, s1: 0.64 },
+        sprites: [Object.assign(fox(330), { y: 645 })],
         hotspots: [
-          { id: 'plagat', name: { sk: 'plagát', fr: 'l\'affiche' }, poly: box(100, 150, 300, 420), walk: [200, 650],
-            look: { sk: 'Plagát: Košice, mesto kultúry.', fr: 'Affiche : Košice, ville de culture.', words: [['plagát', 'l\'affiche'], ['mesto', 'la ville']] } },
-          { id: 'tabula', name: { sk: 'tabuľa', fr: 'le panneau' }, poly: box(420, 60, 760, 200), walk: [590, 650],
-            look: { who: 'narrator', sk: 'Príchody: vlak z Lyonu. Meškanie: žiadne.', fr: 'Arrivées : train de Lyon. Retard : aucun.', words: [['príchody', 'les arrivées']] } },
-          { id: 'napis', name: { sk: 'nápis', fr: 'l\'écriteau' }, poly: box(880, 150, 1100, 290), walk: [990, 650],
-            look: { who: 'narrator', sk: 'Lístok na električku. Jeden lístok: 1,20 €.', fr: 'Ticket de tram. Un ticket : 1,20 €.', words: [['lístok', 'le ticket'], ['električka', 'le tram'], ['jeden', 'un']] } },
-          { id: 'automat', name: { sk: 'automat', fr: 'le distributeur' }, poly: box(880, 300, 1100, 560), walk: [990, 650],
+          { id: 'nastupiste', name: { sk: 'nástupištia', fr: 'les quais' }, poly: box(100, 290, 438, 578), walk: [300, 650],
+            look: { sk: 'Nástupištia. Môj vlak tam ešte stojí.', fr: 'Les quais. Mon train y est encore.', words: [['nástupište', 'le quai'], ['vlak', 'le train']] },
+            async onUse(g) { await say(g, 'fox', 'Späť do vlaku? Nie, nie!', 'Retourner dans le train ? Non, non !'); } },
+          { id: 'tabula', name: { sk: 'tabuľa', fr: 'le tableau' }, poly: box(524, 157, 940, 310), walk: [730, 650],
+            look: { who: 'narrator', sk: 'Príchody. Môj vlak prišiel načas.', fr: 'Les arrivées. Mon train est arrivé à l\'heure.', words: [['príchody', 'les arrivées'], ['načas', 'à l\'heure']] } },
+          { id: 'lavicka', name: { sk: 'lavička', fr: 'le banc' }, poly: box(534, 467, 1107, 592), walk: [820, 650],
+            look: { sk: 'Lavička. Teraz nie, som príliš zvedavý!', fr: 'Un banc. Pas maintenant, je suis trop curieux !', words: [['lavička', 'le banc']] } },
+          { id: 'hodiny', name: { sk: 'hodiny', fr: 'l\'horloge' }, poly: box(1178, 112, 1286, 219), walk: [1230, 650],
+            look: { who: 'narrator', sk: 'Hodiny. Je popoludnie.', fr: 'L\'horloge. C\'est l\'après-midi.', words: [['hodiny', 'l\'horloge'], ['popoludnie', 'l\'après-midi']] } },
+          // indice 1 : l'affiche (le francais decrit sans traduire « lístok »)
+          { id: 'plagat', name: { sk: 'plagát', fr: 'l\'affiche' }, poly: box(1160, 246, 1303, 475), walk: [1230, 650],
+            async onUse(g) { await clue(g, 'plagat'); } },
+          { id: 'kos', name: { sk: 'kôš', fr: 'la poubelle' }, poly: box(1326, 474, 1392, 592), walk: [1360, 650],
+            look: { sk: 'Kôš. Prázdny. Stanica je čistá.', fr: 'Une poubelle. Vide. La gare est propre.', words: [['kôš', 'la poubelle'], ['prázdny', 'vide']] } },
+          // indice 2 : le distributeur (son ecriteau), puis l'achat quand on a compris le mot
+          { id: 'automat', name: { sk: 'automat', fr: 'le distributeur' }, poly: box(1402, 350, 1512, 587), walk: [1457, 650],
+            async onUse(g) { await automat(g); } },
+          { id: 'automat2', name: { sk: 'automat', fr: 'le distributeur' }, poly: box(1512, 350, 1623, 587), walk: [1568, 650],
+            async onUse(g) { await say(g, 'narrator', 'Na obrazovke: MIMO PREVÁDZKY.', 'Sur l\'écran : HORS SERVICE.', [['mimo prevádzky', 'hors service']]); await say(g, 'fox', 'Dobre, ten vedľa.', 'Bon, celui d\'à côté.'); } },
+          { id: 'vychod', name: { sk: 'východ', fr: 'la sortie' }, poly: box(1750, 288, 2160, 577), walk: [1800, 650],
+            look: { sk: 'Východ. Vonku je zastávka električky.', fr: 'La sortie. Dehors, il y a l\'arrêt du tram.', words: [['východ', 'la sortie'], ['zastávka', 'l\'arrêt']] },
             async onUse(g) {
-              if (g.has('listok') || g.has('listok_ok')) { await say(g, 'fox', 'Už mám lístok.', 'J\'ai déjà mon ticket.'); return; }
-              if (!g.knows('lístok')) {
-                await say(g, 'fox', 'Čo mám stlačiť?', 'Sur quoi je dois appuyer ?');
-                await say(g, 'narrator', 'Najprv si prečítaj nápis nad automatom.', 'Lis d\'abord l\'écriteau au-dessus du distributeur.', [['nápis', 'l\'écriteau']]);
-                return;
-              }
-              await say(g, 'automat', 'Dobrý deň. Čo si želáte?', 'Bonjour. Que désirez-vous ?');
-              for (;;) {
-                const i = await g.choice([
-                  { sk: 'Jeden lístok, prosím.', fr: 'Un ticket, s\'il vous plaît.' },
-                  { sk: 'Jedna lístok, prosím.', fr: 'Un ticket… (mal accordé)' },
-                  { sk: 'Dobrú noc, automat.', fr: 'Bonne nuit, distributeur.' },
-                ]);
-                if (i === 0) break;
-                await say(g, 'automat', i === 1 ? 'Pííp! Chyba. „Lístok“ je mužský rod: jeden.' : 'Pííp! Automat nerozumie. Skús to znova.', i === 1 ? 'Bip ! Erreur. « Lístok » est masculin : jeden.' : 'Bip ! Le distributeur ne comprend pas. Réessaie.');
-              }
-              g.give('listok'); g.setFlag('ticket');
-              await say(g, 'narrator', 'Cink! Lístok vypadol z automatu.', 'Clac ! Le ticket sort du distributeur.', [['prosím', 's\'il vous plaît']]);
-            } },
-          { id: 'vychod', name: { sk: 'východ', fr: 'la sortie' }, poly: box(0, 100, 90, 560), walk: [160, 650],
-            async onUse(g) {
-              if (!g.has('listok') && !g.has('listok_ok')) { await say(g, 'fox', 'Najprv lístok.', 'D\'abord un ticket.'); return; }
+              if (!g.has('listok') && !g.has('listok_ok')) { await say(g, 'fox', 'Bez lístka? Radšej nie.', 'Sans ticket ? Mieux vaut pas.'); return; }
               await say(g, 'fox', 'Ideme na električku.', 'Direction le tram.');
               await g.showMap('ch1');
               g.goScene('tram');
@@ -271,8 +311,8 @@
         async onEnter(g) {
           if (g.flag('intro0')) return;
           g.setFlag('intro0'); g.noHelper();
-          await say(g, 'narrator', 'Železničná stanica v Košiciach. Gab práve prišiel z Lyonu.', 'La gare de Košice. Gab vient d\'arriver de Lyon.', [['stanica', 'la gare']]);
-          await say(g, 'narrator', 'Klikni na zem a Gab pôjde. Pozri sa na veci okolo.', 'Clique sur le sol pour marcher. Regarde les choses autour de toi.');
+          await say(g, 'narrator', 'Železničná stanica v Košiciach.', 'La gare de Košice.', [['stanica', 'la gare']]);
+          await say(g, 'narrator', 'Klikni na zem a Gab pôjde. Klikni na veci okolo.', 'Clique sur le sol pour marcher. Clique sur les choses autour de toi.');
         },
       },
 

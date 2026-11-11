@@ -40,12 +40,21 @@ const srv = http.createServer((q, r) => {
 
   await pg.evaluate(() => { if (__zajka.scene.cine) __zajka.skipCine(); });   // l'ouverture a son propre test (intro_test.js)
   await idle('intro gare'); await shot('01_gare');
-  await use(990, 430, 'automat sans mot');          // doit refuser (mot inconnu)
-  let s = await st(); if (s.items.includes('listok')) fail('ticket sans avoir lu');
-  await use(990, 220, 'nappis');
-  picks = [1, 0];                                     // mauvais accord, puis bon
-  await use(990, 430, 'automat'); s = await st(); if (!s.items.includes('listok')) fail('pas de ticket');
-  await use(40, 300, 'sortie'); s = await st();
+  // la gare v2 est plus large que l'ecran : on amene Gab pres de la chose, puis on clique a l'ecran (camera calee)
+  const useW = async (wx, wy, what) => {
+    await idle('avant ' + what);
+    await pg.evaluate(async (x) => { await __zajka.walk('fox', x, 650); __zajka.cam = __zajka.camTarget(); }, wx);
+    const cam = await pg.evaluate(() => __zajka.cam);
+    await use(wx - cam, wy, what);
+  };
+  await useW(1457, 450, 'automat sans mot');          // ecriteau vu, mais le mot n'est pas encore compris
+  let s = await st(); if (s.items.includes('listok')) fail('ticket sans les deux indices');
+  if ((await pg.evaluate(() => !!__zajka.words['lístok']))) fail('lístok appris trop tot');
+  await useW(1230, 360, 'affiche');                   // second indice : le mot est compris
+  if (!(await pg.evaluate(() => !!__zajka.words['lístok']))) fail('lístok non appris apres les deux indices');
+  picks = [0, 2, 1];                                  // jedna, jedno, puis jeden
+  await useW(1457, 450, 'automat'); s = await st(); if (!s.items.includes('listok')) fail('pas de ticket');
+  await useW(1950, 420, 'sortie'); s = await st();
   if (s.sc !== 'tram') fail('pas dans le tram ' + s.sc);
   // tram : intro (mauvaise salutation puis bonne)
   picks = [1, 0]; await idle('tram intro'); await shot('02_tram');
