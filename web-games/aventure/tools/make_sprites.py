@@ -17,6 +17,7 @@ from PIL import Image
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ART = os.path.join(HERE, '..', 'art')
+BAND = (0.13, 0.19)   # bande de la tete (fraction de la hauteur) pour mesurer l'echelle ; changee par personnage
 HEIGHT = 440   # hauteur de la pose "debout" dans le jeu, a l'echelle 1 (comme l'ancien sprite)
 
 CHARS = {
@@ -24,6 +25,16 @@ CHARS = {
         'poses': {'src': 'sources/gab_sheet_src.png', 'cols': 8, 'rows': 2, 'row': 1,
                   'names': ['idle', 'talk', 'pick', 'use', 'surprised', 'think', 'laugh', 'sit']},
         'walk': {'src': 'sources/gab_walk_src.png', 'cols': 8, 'rows': 1, 'row': 0, 'frames': 4, 'fps': 8},
+    },
+    'andrea': {
+        # deux rangees de poses (16) : row = 'all'
+        'poses': {'src': 'sources/andrea_sheet_src.png', 'cols': 8, 'rows': 2, 'row': 'all',
+                  'names': ['idle', 'talk', 'arms', 'shy', 'surprised', 'point', 'read', 'look',
+                            'think', 'laugh', 'worried', 'whisper', 'wave', 'give', 'pick', 'shrug']},
+        'walk': {'src': 'sources/andrea_walk_src.png', 'cols': 8, 'rows': 1, 'row': 0, 'frames': 8, 'fps': 8, 'steps': 2},
+        'height': 470,   # un peu plus grande que Gab (oreilles comprises)
+        'band': (0.25, 0.31),   # la tete est sous les grandes oreilles
+        'out': 'andrea2',       # art/andrea.png et art/andrea_walk.png sont ceux de l'apercu (tram.js)
     },
 }
 
@@ -41,11 +52,12 @@ def cells(spec):
     rgba = key(im)
     H, W = rgba.shape[:2]
     cw, ch = W / spec['cols'], H / spec['rows']
-    y0, y1 = int(spec['row'] * ch), int((spec['row'] + 1) * ch)
+    rows = range(spec['rows']) if spec['row'] == 'all' else [spec['row']]
     out = []
-    for c in range(spec['cols']):
-        cell = rgba[y0:y1, int(c * cw):int((c + 1) * cw)]
-        out.append(cell)
+    for row in rows:
+        y0, y1 = int(row * ch), int((row + 1) * ch)
+        for c in range(spec['cols']):
+            out.append(rgba[y0:y1, int(c * cw):int((c + 1) * cw)])
     return out
 
 def measure(cell):
@@ -53,7 +65,7 @@ def measure(cell):
     ys, xs = np.nonzero(m)
     top, bot = ys.min(), ys.max()
     h = bot - top
-    band = [m[top + int(h * f)] for f in np.linspace(0.13, 0.19, 7)]
+    band = [m[top + int(h * f)] for f in np.linspace(*BAND, 7)]
     heads = [(np.nonzero(r)[0].min(), np.nonzero(r)[0].max()) for r in band if r.any()]
     head_w = np.mean([b - a for a, b in heads])
     head_c = np.mean([(a + b) / 2 for a, b in heads])
@@ -82,24 +94,27 @@ def scaled(cell, k):
     return d
 
 def main(cid):
+    global BAND
     spec = CHARS[cid]
+    BAND = spec.get('band', (0.13, 0.19))
+    out = spec.get('out', cid)
     pc = cells(spec['poses'])
     wc = cells(spec['walk'])[: spec['walk']['frames']]
     ref = measure(pc[0])                                   # la pose debout fixe l'echelle
     kw = ref['head_w'] / np.mean([measure(c)['head_w'] for c in wc])
     poses = [scaled(c, 1.0) for c in pc]
     walk = [scaled(c, kw) for c in wc]
-    unit = HEIGHT / (ref['bot'] - ref['top'])              # pixels d'image -> hauteur du jeu
+    unit = spec.get('height', HEIGHT) / (ref['bot'] - ref['top'])   # pixels d'image -> hauteur du jeu
     meta = {'poses': {}, 'walk': {}}
     for name, d in zip(spec['poses']['names'], poses):
         fr = place([d])[0]
-        fr.save(os.path.join(ART, f'{cid}_{name}.png'))
-        meta['poses'][name] = {'img': f'art/{cid}_{name}.png', 'h': round(fr.height * unit)}
+        fr.save(os.path.join(ART, f'{out}_{name}.png'))
+        meta['poses'][name] = {'img': f'art/{out}_{name}.png', 'h': round(fr.height * unit)}
     frames = place(walk)
     strip = Image.new('RGBA', (frames[0].width * len(frames), frames[0].height), (0, 0, 0, 0))
     for i, f in enumerate(frames):
         strip.alpha_composite(f, (i * f.width, 0))
-    strip.save(os.path.join(ART, f'{cid}_walk.png'))
+    strip.save(os.path.join(ART, f'{out}_walk.png'))
     # pas : ecart des pieds a l'image 1 (contact) moins la longueur d'un pied (image de passage)
     def feet(d, f=0.05):
         m = d['mask']; rows = m[d['bot'] - int((d['bot'] - d['top']) * f): d['bot'] + 1]
@@ -107,8 +122,8 @@ def main(cid):
         return xs.max() - xs.min()
     stride = feet(walk[0]) - feet(walk[2]) * 0.5
     fps = spec['walk']['fps']
-    speed = stride * unit * fps / len(frames)
-    meta['walk'] = {'img': f'art/{cid}_walk.png', 'frames': len(frames), 'fps': fps, 'h': round(frames[0].height * unit), 'speed': round(speed)}
+    speed = stride * unit * fps * spec['walk'].get('steps', 1) / len(frames)   # steps : nombre de pas dans la bande
+    meta['walk'] = {'img': f'art/{out}_walk.png', 'frames': len(frames), 'fps': fps, 'h': round(frames[0].height * unit), 'speed': round(speed)}
     print(json.dumps(meta, indent=1, ensure_ascii=False))
 
 if __name__ == '__main__':

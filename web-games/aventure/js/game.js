@@ -11,7 +11,14 @@
     walkSheet: { img: 'art/gab_walk.png', frames: 4, fps: 8, h: 436 },
     poses: Object.fromEntries(Object.entries(GAB_POSES).map(([k, h]) => [k, { img: `art/gab_${k}.png`, h }])),
   });
-  const andrea = (x, face) => ({ id: 'andrea', img: 'art/andrea.png', x, y: 662, h: 445, face: face || 1, speed: 300, walkSheet: { img: 'art/andrea_walk.png', frames: 4, fps: 7, h: 425 } });
+  // Andrea, nouvelle planche (art/PROMPTS_persos.md ; tools/make_sprites.py andrea) : marche 8 images (un cycle complet), 16 poses
+  const ANDREA_POSES = { idle: 481, talk: 481, arms: 481, shy: 478, surprised: 482, point: 479, read: 429, look: 429,
+    think: 479, laugh: 479, worried: 408, whisper: 439, wave: 479, give: 479, pick: 369, shrug: 479 };
+  const andrea = (x, face, y) => ({
+    id: 'andrea', img: 'art/andrea2_idle.png', x, y: y || 662, h: ANDREA_POSES.idle, face: face || 1, speed: 324, scaleSpeed: true,
+    walkSheet: { img: 'art/andrea2_walk.png', frames: 8, fps: 8, h: 479 },
+    poses: Object.fromEntries(Object.entries(ANDREA_POSES).map(([k, h]) => [k, { img: `art/andrea2_${k}.png`, h }])),
+  });
   const box = (x0, y0, x1, y1) => [[x0, y0], [x1, y0], [x1, y1], [x0, y1]];
   const say = (g, who, sk, fr, words) => g.say(who, sk, fr, words);
 
@@ -54,6 +61,7 @@
   // On monte par l'avant ; le wagon a l'air vide. Andrea est assise au fond (hors de l'ecran au depart) : on la decouvre en avancant.
   // Le controleur passe quand on a valide le ticket ET retrouve Andrea ; s'il n'est pas valide 50 s apres la rencontre : amende.
   const TW = 2160;
+  const SEAT = [1838, 578];   // la banquette du fond, ou Andrea lit
   const TRAM_SCALE = { y0: 590, s0: 0.66, y1: 712, s1: 0.76 };
   // le controleur entre par l'arriere et s'arrete un peu devant Gab
   const revPos = (g) => { const f = g.sprite('fox'); const x = Math.min(2040, Math.max(700, (f ? f.x : 1200) + 190)); return { from: [2140, 650], to: [x, 650] }; };
@@ -64,13 +72,22 @@
     g.pose('fox', 'surprised');
     await say(g, 'fox', 'Počkaj… Andrea? To si ty?', 'Attends… Andrea ? C\'est toi ?');
     g.pose('fox', null);
+    g.pose('andrea', 'look');                    // elle leve les yeux de son livre
+    await g.sleep(900);
+    g.pose('andrea', null);                      // elle se leve et fait un pas vers Gab
+    await g.walk('andrea', SEAT[0] - 70, 650);
+    g.face('andrea', -1);
     for (;;) {
       const i = await g.choice([{ sk: 'Ahoj, Andrea!', fr: 'Salut, Andrea !' }, { sk: 'Dobrý deň, pani.', fr: 'Bonjour, madame.' }]);
       if (i === 0) break;
+      g.pose('andrea', 'arms');
       await say(g, 'andrea', 'Pani? Gab, to som ja!', 'Madame ? Gab, c\'est moi !');
       await say(g, 'andrea', 'Kamarátke sa predsa hovorí „ahoj“.', 'À une amie, on dit « ahoj », voyons.', [['kamarátka', 'l\'amie']]);
+      g.pose('andrea', null);
     }
+    g.pose('andrea', 'surprised');
     await say(g, 'andrea', 'Gab? Naozaj ty? Päť rokov!', 'Gab ? C\'est vraiment toi ? Cinq ans !', [['päť rokov', 'cinq ans']]);
+    g.pose('andrea', 'laugh'); g.pose('fox', 'laugh'); await g.sleep(900); g.pose('andrea', null); g.pose('fox', null);
     g.setHelper('andrea', 3);
     if (g.flag('stamped')) {
       await say(g, 'andrea', 'Lístok máš označený? Výborne. Revízor tu býva často.', 'Ton ticket est validé ? Parfait. Le contrôleur passe souvent.', [['revízor', 'le contrôleur']]);
@@ -85,7 +102,8 @@
     chapter: 'ch1', title: { sk: 'V električke', fr: 'Dans le tram' },
     bg: 'art/tram_wide.webp', worldW: TW,
     player: 'fox', floor: [[0, 590], [TW, 590], [TW, 712], [0, 712]], scale: TRAM_SCALE,
-    sprites: [gab(360, 650), Object.assign(andrea(1840, -1), { y: 650 })],
+    // Andrea est assise sur la banquette du fond (y 578 : au niveau des sieges), elle lit ; elle se leve a la rencontre
+    sprites: [gab(360, 650), Object.assign(andrea(SEAT[0], -1, SEAT[1]), { pose: 'read' })],
     extraSprites: { revizor: { img: 'art/revizor.png', x: 2140, y: 650, h: 470, walkSheet: { img: 'art/revizor_walk.png', frames: 4, fps: 7, h: 470 }, hidden: true, speed: 240 } },
     triggers: [
       // Andrea entre dans l'ecran quand Gab depasse le composteur : la rencontre
@@ -118,10 +136,10 @@
         look: { sk: 'Košice! Konečne.', fr: 'Košice ! Enfin.', words: [['okno', 'la fenêtre'], ['konečne', 'enfin']] } },
       { id: 'win_right', name: { sk: 'okno', fr: 'la fenêtre' }, poly: box(1425, 170, 2020, 398), walk: [1700, 650],
         look: { sk: 'Pozri, mesto ide okolo!', fr: 'Regarde, la ville défile !' } },
-      { id: 'andrea', sprite: 'andrea', name: { sk: 'Andrea', fr: 'Andrea' }, walk: [1720, 650],
+      { id: 'andrea', sprite: 'andrea', name: { sk: 'Andrea', fr: 'Andrea' }, walk: [1660, 650],
         async onUse(g) {
           if (!g.flag('met')) { await meetAndrea(g); return; }
-          if (!g.flag('stamped')) await say(g, 'andrea', 'Označ si lístok! Označovač je pri dverách.', 'Valide ton ticket ! Le composteur est près des portes.', [['pri dverách', 'près des portes']]);
+          if (!g.flag('stamped')) { g.pose('andrea', 'point'); await say(g, 'andrea', 'Označ si lístok! Označovač je pri dverách.', 'Valide ton ticket ! Le composteur est près des portes.', [['pri dverách', 'près des portes']]); g.pose('andrea', null); }
           else if (g.flag('checked')) await say(g, 'andrea', 'Vystupujeme na ďalšej zastávke. Poď dopredu.', 'On descend au prochain arrêt. Viens à l\'avant.', [['dopredu', 'vers l\'avant']]);
           else await say(g, 'andrea', 'Dobre, lístok je v poriadku.', 'Bien, le ticket est en ordre.');
         } },
@@ -145,7 +163,8 @@
         await say(g, 'narrator', 'Električka ide cez Košice. Je popoludnie.', 'Le tram traverse Košice. C\'est l\'après-midi.', [['električka', 'le tram']]);
         await say(g, 'fox', 'Prázdna električka… Lístok mám. Treba ho označiť.', 'Un tram vide… J\'ai mon ticket. Il faut le valider.', [['označiť', 'valider']]);
       }
-      // apres une amende (le decor recommence) : le delai repart si on a deja retrouve Andrea
+      // apres une amende (le decor recommence) : Andrea est deja debout, et le delai repart
+      if (g.flag('met')) { g.pose('andrea', null); g.spawn('andrea', SEAT[0] - 70, 650); g.face('andrea', -1); }
       if (g.flag('met') && !g.flag('stamped')) g.after(50000, async (g2) => { if (!g2.flag('stamped')) await fine(g2, revPos(g2)); });
     },
   };

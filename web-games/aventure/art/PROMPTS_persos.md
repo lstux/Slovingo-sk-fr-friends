@@ -86,3 +86,11 @@ Background: one flat, uniform pure green colour (#00FF00) everywhere, with no gr
 
 Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading, the same style as the model sheet. No text, no letters, no numbers, no frame labels, no watermark.
 ```
+
+
+### Résultat (11 nov.) : `sources/andrea_sheet_src.png` (16 poses) et `sources/andrea_walk_src.png`
+
+Poses toutes bonnes. Marche (demandée dans la même conversation, une main sur la bandoulière, le livre contre la poitrine) : cette
+fois un **vrai cycle de 8 images** (les deux pas différent), utilisé en entier. Images du jeu : `make_sprites.py andrea` →
+`art/andrea2_*` (`art/andrea.png` et `andrea_walk.png` restent ceux de l'aperçu `tram.js`). Dans le tram : assise en train de lire
+(`read`), lève les yeux (`look`), se lève et fait un pas vers Gab, puis `arms`, `surprised`, `laugh`, `point` selon les répliques.

@@ -26,7 +26,7 @@ const srv = http.createServer((q, r) => {
       for (let i = 0; i < 80; i++) {
         const s = await pg.st();
         if (fn(s)) return s;
-        if (s.dlg) await pg.click_(640, 600);
+        if (s.dlg) await pg.click_(640, 600);   // (le dialogue est en haut, mais un clic n'importe ou le fait avancer)
         await pg.waitForTimeout(120);
       }
       fail(what);
@@ -39,9 +39,11 @@ const srv = http.createServer((q, r) => {
   await pg.click_(1232, 46);                       // choisir le ticket
   await pg.click_(355, 290);                       // sur le composteur
   await pg.until((s) => s.ch, 'choix du controleur');
-  await pg.click_(600, 135 + 70 * 0 + 190);        // mauvaise reponse (« Dobru noc »)
+  // clique la reponse dont le texte correspond (les choix sont en haut de l'ecran : choiceRect)
+  const pick = async (re) => { const r = await pg.evaluate((re) => { const c = __zajka.choices, i = c.opts.findIndex((o) => new RegExp(re).test(o.sk)); return __zajka.choiceRect(i, c.opts.length); }, re); await pg.click_(r.x + r.w / 2, r.y + r.h / 2); };
+  await pick('^(?!Tu je)');                        // mauvaise reponse
   await pg.until((s) => s.ch, 'la question revient');
-  await pg.click_(600, 330 + 30);                  // bonne reponse (« Tu je moj listok »)
+  await pick('Tu je');                             // bonne reponse (« Tu je môj lístok »)
   await pg.until((s) => s.flags.checked && !s.busy, 'controle passe');
   let s = await pg.st();
   if (!s.items.includes('listok_ok') || s.items.includes('listok')) fail('le ticket aurait du etre valide : ' + JSON.stringify(s.items));
