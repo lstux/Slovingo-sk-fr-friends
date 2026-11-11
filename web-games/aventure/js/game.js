@@ -7,9 +7,6 @@
   const andrea = (x, face) => ({ id: 'andrea', img: 'art/andrea.png', x, y: 662, h: 445, face: face || 1, speed: 300, walkSheet: { img: 'art/andrea_walk.png', frames: 4, fps: 7, h: 425 } });
   const box = (x0, y0, x1, y1) => [[x0, y0], [x1, y0], [x1, y1], [x0, y1]];
   const say = (g, who, sk, fr, words) => g.say(who, sk, fr, words);
-  // essai du grand tram (decor 3:1 qui defile) : jeu.html?large=1
-  const LARGE = /[?&]large=1/.test(globalThis.location ? globalThis.location.search : '');
-  const REV_WIDE = { from: [1900, 662], to: [1300, 662] };   // le controleur entre par la droite et s'arrete pres du composteur
 
   // ------------------------------------------------------------------ chapitres (la carte du voyage)
   const chapters = [
@@ -46,102 +43,104 @@
     },
   };
 
-  // ------------------------------------------------------------------ la scene du tram : on reprend celle de l'apercu
-  const T = ZA_DATA.scenes.tram;
-  const tram = Object.assign({}, T, {
-    chapter: 'ch1',
-    title: { sk: 'V električke', fr: 'Dans le tram' },
-    hotspots: T.hotspots.map((h) => {
-      if (h.id === 'door') {
-        return Object.assign({}, h, {
-          async onUse(g) {
-            if (!g.flag('checked')) { await say(g, 'fox', 'Ešte nie. Električka ide.', 'Pas encore. Le tram roule.', [['dvere', 'les portes']]); return; }
-            await say(g, 'fox', 'Vystupujeme!', 'On descend !');
-            g.goScene('rue');
+  // ------------------------------------------------------------------ le tram v2 (decor 3:1, la camera suit Gab)
+  // On monte par l'avant ; le wagon a l'air vide. Andrea est assise au fond (hors de l'ecran au depart) : on la decouvre en avancant.
+  // Le controleur passe quand on a valide le ticket ET retrouve Andrea ; s'il n'est pas valide 50 s apres la rencontre : amende.
+  const TW = 2160;
+  const TRAM_SCALE = { y0: 590, s0: 0.66, y1: 712, s1: 0.76 };
+  // le controleur entre par l'arriere et s'arrete un peu devant Gab
+  const revPos = (g) => { const f = g.sprite('fox'); const x = Math.min(2040, Math.max(700, (f ? f.x : 1200) + 190)); return { from: [2140, 650], to: [x, 650] }; };
+  async function meetAndrea(g) {
+    g.setFlag('met');
+    g.face('fox', 1);
+    await say(g, 'narrator', 'Vzadu sedí zajačica a číta knihu.', 'Au fond, une hase est assise et lit un livre.', [['zajačica', 'la hase'], ['kniha', 'le livre'], ['vzadu', 'au fond']]);
+    await say(g, 'fox', 'Počkaj… Andrea? To si ty?', 'Attends… Andrea ? C\'est toi ?');
+    for (;;) {
+      const i = await g.choice([{ sk: 'Ahoj, Andrea!', fr: 'Salut, Andrea !' }, { sk: 'Dobrý deň, pani.', fr: 'Bonjour, madame.' }]);
+      if (i === 0) break;
+      await say(g, 'andrea', 'Pani? Gab, to som ja!', 'Madame ? Gab, c\'est moi !');
+      await say(g, 'andrea', 'Kamarátke sa predsa hovorí „ahoj“.', 'À une amie, on dit « ahoj », voyons.', [['kamarátka', 'l\'amie']]);
+    }
+    await say(g, 'andrea', 'Gab? Naozaj ty? Päť rokov!', 'Gab ? C\'est vraiment toi ? Cinq ans !', [['päť rokov', 'cinq ans']]);
+    g.setHelper('andrea', 3);
+    if (g.flag('stamped')) {
+      await say(g, 'andrea', 'Lístok máš označený? Výborne. Revízor tu býva často.', 'Ton ticket est validé ? Parfait. Le contrôleur passe souvent.', [['revízor', 'le contrôleur']]);
+      await inspect(g, revPos(g));
+    } else {
+      await say(g, 'andrea', 'Nezabudni označiť lístok. Revízor tu býva často.', 'N\'oublie pas de valider ton ticket. Le contrôleur passe souvent.',
+        [['označiť lístok', 'valider un ticket'], ['revízor', 'le contrôleur']]);
+      g.after(50000, async (g2) => { if (!g2.flag('stamped')) await fine(g2, revPos(g2)); });
+    }
+  }
+  const tram = {
+    chapter: 'ch1', title: { sk: 'V električke', fr: 'Dans le tram' },
+    bg: 'art/tram_wide.webp', worldW: TW,
+    player: 'fox', floor: [[0, 590], [TW, 590], [TW, 712], [0, 712]], scale: TRAM_SCALE,
+    sprites: [Object.assign(fox(360), { y: 650 }), Object.assign(andrea(1840, -1), { y: 650 })],
+    extraSprites: { revizor: { img: 'art/revizor.png', x: 2140, y: 650, h: 470, walkSheet: { img: 'art/revizor_walk.png', frames: 4, fps: 7, h: 470 }, hidden: true, speed: 240 } },
+    triggers: [
+      // Andrea entre dans l'ecran quand Gab depasse le composteur : la rencontre
+      { x: [1150, TW], when: (g) => !g.flag('met'), run: meetAndrea },
+    ],
+    hotspots: [
+      { id: 'door', name: { sk: 'dvere', fr: 'les portes' }, poly: box(245, 170, 465, 555), walk: [355, 650],
+        async onUse(g) {
+          if (!g.flag('checked')) { await say(g, 'fox', 'Ešte nie. Električka ide.', 'Pas encore. Le tram roule.', [['dvere', 'les portes']]); return; }
+          await say(g, 'fox', 'Vystupujeme!', 'On descend !');
+          g.goScene('rue');
+        } },
+      { id: 'door2', name: { sk: 'dvere', fr: 'les portes' }, poly: box(1175, 170, 1395, 555), walk: [1285, 650],
+        look: { sk: 'Ďalšie dvere. Vystupuje sa vpredu.', fr: 'D\'autres portes. On descend à l\'avant.', words: [['ďalší', 'autre, suivant']] } },
+      { id: 'validator', name: { sk: 'označovač', fr: 'le composteur' }, poly: box(1052, 282, 1108, 372), walk: [1080, 650],
+        look: { sk: 'Označovač lístkov. Tu označím lístok.', fr: 'Le composteur de tickets. C\'est ici que je valide mon ticket.', words: [['označovač', 'le composteur'], ['označiť', 'valider']] },
+        onItem: {
+          async listok(g) {
+            g.take('listok'); g.give('listok_ok'); g.setFlag('stamped');
+            await say(g, 'narrator', 'Cink! Lístok je označený.', 'Clac ! Le ticket est validé.', [['označený', 'validé']]);
+            if (g.flag('met')) await inspect(g, revPos(g));
+            else await say(g, 'fox', 'Hotovo. A teraz si sadnem… vzadu je miesto.', 'Voilà. Et maintenant, je m\'assois… il y a de la place au fond.', [['miesto', 'la place']]);
           },
-        });
-      }
-      if (h.id === 'windows2') {
-        return Object.assign({}, h, { look: { sk: 'Pozri, katedrála! Svätá Alžbeta.', fr: 'Regarde, la cathédrale ! Sainte-Élisabeth.', words: [['katedrála', 'la cathédrale']] } });
-      }
-      return h;
-    }),
+        } },
+      { id: 'cabin', name: { sk: 'kabína', fr: 'la cabine' }, poly: box(0, 70, 170, 590), walk: [200, 650],
+        look: { who: 'narrator', sk: 'Kabína vodiča. Vodič nás vezie cez mesto.', fr: 'La cabine du conducteur. Il nous conduit à travers la ville.', words: [['vodič', 'le conducteur']] } },
+      { id: 'win_cathedral', name: { sk: 'okno', fr: 'la fenêtre' }, poly: box(770, 170, 1018, 398), walk: [900, 650],
+        look: { sk: 'Pozri, katedrála! Svätá Alžbeta.', fr: 'Regarde, la cathédrale ! Sainte-Élisabeth.', words: [['katedrála', 'la cathédrale']] } },
+      { id: 'win_left', name: { sk: 'okno', fr: 'la fenêtre' }, poly: box(505, 170, 752, 398), walk: [630, 650],
+        look: { sk: 'Košice! Konečne.', fr: 'Košice ! Enfin.', words: [['okno', 'la fenêtre'], ['konečne', 'enfin']] } },
+      { id: 'win_right', name: { sk: 'okno', fr: 'la fenêtre' }, poly: box(1425, 170, 2020, 398), walk: [1700, 650],
+        look: { sk: 'Pozri, mesto ide okolo!', fr: 'Regarde, la ville défile !' } },
+      { id: 'andrea', sprite: 'andrea', name: { sk: 'Andrea', fr: 'Andrea' }, walk: [1720, 650],
+        async onUse(g) {
+          if (!g.flag('met')) { await meetAndrea(g); return; }
+          if (!g.flag('stamped')) await say(g, 'andrea', 'Označ si lístok! Označovač je pri dverách.', 'Valide ton ticket ! Le composteur est près des portes.', [['pri dverách', 'près des portes']]);
+          else if (g.flag('checked')) await say(g, 'andrea', 'Vystupujeme na ďalšej zastávke. Poď dopredu.', 'On descend au prochain arrêt. Viens à l\'avant.', [['dopredu', 'vers l\'avant']]);
+          else await say(g, 'andrea', 'Dobre, lístok je v poriadku.', 'Bien, le ticket est en ordre.');
+        } },
+    ],
     hints: [
       { id: 'tram_ticket', when: (g) => !g.flag('stamped'), levels: [
         { sk: 'Máš lístok? Nezabudni ho označiť.', fr: 'Tu as ton ticket ? N\'oublie pas de le valider.' },
-        { sk: 'Označovač je pri dverách.', fr: 'Le composteur est près des portes.', words: [['pri dverách', 'près des portes']] },
+        { sk: 'Označovač je žltá skrinka pri dverách, v strede električky.', fr: 'Le composteur est le boîtier jaune près des portes, au milieu du tram.', words: [['pri dverách', 'près des portes']] },
         { sk: 'Vyber lístok a klikni na označovač.', fr: 'Prends ton ticket et clique sur le composteur.' } ] },
       { id: 'tram_check', when: (g) => !g.flag('checked'), levels: [
         { sk: 'Revízor sa pýta na lístok. Odpovedz slušne.', fr: 'Le contrôleur demande ton ticket. Réponds poliment.' },
         { sk: 'Povedz: „Tu je môj lístok.“', fr: 'Dis : « Voici mon ticket. »' },
         { sk: 'Klikni na druhú vetu.', fr: 'Clique sur la deuxième phrase.' } ] },
       { id: 'tram_out', levels: [
-        { sk: 'Vystupujeme. Choď k dverám.', fr: 'On descend. Va vers les portes.' },
-        { sk: 'Klikni na dvere.', fr: 'Clique sur les portes.' } ] },
+        { sk: 'Vystupujeme. Choď k dverám vpredu.', fr: 'On descend. Va vers les portes à l\'avant.' },
+        { sk: 'Klikni na prvé dvere, vľavo.', fr: 'Clique sur les premières portes, à gauche.' } ] },
     ],
     async onEnter(g) {
-      if (!g.flag('met')) {
-        g.setFlag('met');
-        g.setHelper('andrea', 3);
+      if (!g.flag('tram_in')) {
+        g.setFlag('tram_in');
         await say(g, 'narrator', 'Električka ide cez Košice. Je popoludnie.', 'Le tram traverse Košice. C\'est l\'après-midi.', [['električka', 'le tram']]);
-        await say(g, 'narrator', 'Oproti sedí zajačica a číta knihu.', 'En face, une hase est assise et lit un livre.', [['zajačica', 'la hase'], ['kniha', 'le livre']]);
-        await say(g, 'fox', 'Počkaj… Andrea? To si ty?', 'Attends… Andrea ? C\'est toi ?');
-        for (;;) {
-          const i = await g.choice([{ sk: 'Ahoj, Andrea!', fr: 'Salut, Andrea !' }, { sk: 'Dobrý deň, pani.', fr: 'Bonjour, madame.' }]);
-          if (i === 0) break;
-          await say(g, 'andrea', 'Pani? Gab, to som ja!', 'Madame ? Gab, c\'est moi !');
-          await say(g, 'andrea', 'Kamarátke sa predsa hovorí „ahoj“.', 'À une amie, on dit « ahoj », voyons.', [['kamarátka', 'l\'amie']]);
-        }
-        await say(g, 'andrea', 'Gab? Naozaj ty?', 'Gab ? C\'est vraiment toi ?');
-        await say(g, 'andrea', 'Nezabudni označiť lístok. Revízor tu býva často.', 'N\'oublie pas de valider ton ticket. Le contrôleur est souvent là.',
-          [['označiť lístok', 'valider un ticket'], ['revízor', 'le contrôleur']]);
+        await say(g, 'fox', 'Prázdna električka… Lístok mám. Treba ho označiť.', 'Un tram vide… J\'ai mon ticket. Il faut le valider.', [['označiť', 'valider']]);
       }
-      if (!g.flag('stamped')) g.after(50000, async (g2) => { if (!g2.flag('stamped')) await fine(g2, LARGE ? REV_WIDE : undefined); });
-    },
-  });
-
-  // ------------------------------------------------------------------ le grand tram (essai : decor 3:1 qui defile avec la camera)
-  // Active par jeu.html?large=1. Meme histoire que le tram ci-dessus, autre decor (art/tram_wide.webp, 2160 x 720) et autres zones.
-  // Les coordonnees sont celles du decor entier (0..2160) ; la camera suit le renard.
-  const WW = 2160;
-  const byId = {}; for (const h of tram.hotspots) byId[h.id] = h;
-  const tramWide = Object.assign({}, tram, {
-    bg: 'art/tram_wide.webp',
-    worldW: WW,
-    floor: [[0, 590], [WW, 590], [WW, 712], [0, 712]],
-    layers: [],   // les vitres du decor montrent deja Kosice (plus tard : la ville qui defile derriere)
-    sprites: [fox(430), andrea(1560, -1)],
-    extraSprites: { revizor: { img: 'art/revizor.png', x: 1900, y: 662, h: 470, walkSheet: { img: 'art/revizor_walk.png', frames: 4, fps: 7, h: 470 }, hidden: true, speed: 240 } },
-    hotspots: [
-      Object.assign({}, byId.door, { poly: box(245, 170, 465, 555), walk: [355, 650] }),
-      { id: 'door2', name: { sk: 'dvere', fr: 'les portes' }, poly: box(1175, 170, 1395, 555), walk: [1285, 650],
-        look: { sk: 'Tieto dvere sa neotvoria. Vystupuje sa vpredu.', fr: 'Ces portes ne s\'ouvrent pas. On descend à l\'avant.', words: [['dvere', 'les portes']] } },
-      Object.assign({}, byId.validator, { poly: box(1052, 282, 1108, 372), walk: [1080, 650] }),
-      { id: 'cabin', name: { sk: 'kabína', fr: 'la cabine' }, poly: box(0, 70, 170, 590), walk: [200, 650],
-        look: { who: 'narrator', sk: 'Kabína vodiča. Vodič nás vezie cez mesto.', fr: 'La cabine du conducteur. Il nous conduit à travers la ville.', words: [['vodič', 'le conducteur']] } },
-      { id: 'win_cathedral', name: { sk: 'okno', fr: 'la fenêtre' }, poly: box(770, 170, 1018, 398), walk: [900, 650],
-        look: { sk: 'Pozri, katedrála! Svätá Alžbeta.', fr: 'Regarde, la cathédrale ! Sainte-Élisabeth.', words: [['katedrála', 'la cathédrale']] } },
-      { id: 'win_left', name: { sk: 'okno', fr: 'la fenêtre' }, poly: box(505, 170, 752, 398), walk: [630, 650],
-        look: { sk: 'Košice sú super!', fr: 'Košice, c\'est super !', words: [['okno', 'la fenêtre']] } },
-      { id: 'win_right', name: { sk: 'okno', fr: 'la fenêtre' }, poly: box(1425, 170, 2020, 398), walk: [1700, 650],
-        look: { sk: 'Pozri, mesto ide okolo!', fr: 'Regarde, la ville défile !' } },
-      { id: 'seats', name: { sk: 'sedadlá', fr: 'les sièges' }, poly: box(1445, 360, 1650, 575), walk: [1550, 662],
-        look: { who: 'narrator', sk: 'Prázdne sedadlá. Je popoludnie, nikto necestuje.', fr: 'Des sièges vides. C\'est l\'après-midi, personne ne voyage.', words: [['sedadlo', 'le siège']] } },
-      Object.assign({}, byId.andrea, { walk: [1440, 665] }),
-    ],
-    async onEnter(g) {
-      await tram.onEnter(g);
-    },
-  });
-  // le valideur appelle inspect() : dans le grand tram, le controleur entre par la droite et s'arrete pres du composteur
-  const stampWide = tramWide.hotspots.find((h) => h.id === 'validator');
-  stampWide.onItem = {
-    async listok(g) {
-      g.take('listok'); g.give('listok_ok'); g.setFlag('stamped');
-      await say(g, 'narrator', 'Cink! Lístok je označený.', 'Clac ! Le ticket est validé.', [['označený', 'validé']]);
-      await inspect(g, REV_WIDE);
+      // apres une amende (le decor recommence) : le delai repart si on a deja retrouve Andrea
+      if (g.flag('met') && !g.flag('stamped')) g.after(50000, async (g2) => { if (!g2.flag('stamped')) await fine(g2, revPos(g2)); });
     },
   };
+
   // ------------------------------------------------------------------ la gare : les deux indices et le distributeur
   // On apprend « električka » sur l'affiche (le dessin du tram) ; « lístok » quand on a vu l'affiche ET l'ecriteau du distributeur.
   async function clue(g, which) {
@@ -317,7 +316,7 @@
       },
 
       // =============================================================== CHAPITRE 1 : le tram
-      tram: LARGE ? tramWide : tram,
+      tram,
 
       // la rue, devant l'arret : le test des ages et la cle sous le pot
       rue: {

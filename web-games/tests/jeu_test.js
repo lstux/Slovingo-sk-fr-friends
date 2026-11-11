@@ -56,12 +56,17 @@ const srv = http.createServer((q, r) => {
   await useW(1457, 450, 'automat'); s = await st(); if (!s.items.includes('listok')) fail('pas de ticket');
   await useW(1950, 420, 'sortie'); s = await st();
   if (s.sc !== 'tram') fail('pas dans le tram ' + s.sc);
-  // tram : intro (mauvaise salutation puis bonne)
-  picks = [1, 0]; await idle('tram intro'); await shot('02_tram');
-  // la suite du tram est celle de l'apercu : on saute au controle via le flag (deja teste par aventure_test)
-  await pg.evaluate(() => { __zajka.flags.checked = true; __zajka.flags.stamped = true; });
-  picks = [1, 1];
-  await use(120, 300, 'porte'); s = await st(); if (s.sc !== 'rue') fail('pas dans la rue ' + s.sc);
+  // tram v2 : on monte par l'avant, Andrea est au fond (hors de l'ecran) ; on la decouvre en avancant
+  await idle('tram intro'); await shot('02_tram');
+  if ((await st()).flags.met) fail('Andrea rencontree avant d\'avancer');
+  await pg.evaluate(async () => { await __zajka.walk('fox', 1300, 650); });
+  picks = [1, 0]; await until((q) => q.flags.met && !q.busy && !q.dlg && !q.ch, 'rencontre avec Andrea'); await shot('02b_andrea');
+  picks = [1];                                        // controle : « Tu je môj lístok »
+  await pg.evaluate(() => { __zajka.selected = 'listok'; });
+  await useW(1080, 330, 'composteur'); s = await st();
+  if (!s.flags.stamped || !s.flags.checked) fail('ticket non valide ou controle non passe ' + JSON.stringify(s.flags));
+  picks = [1, 1];                                     // quiz des ages dans la rue
+  await useW(355, 360, 'porte'); s = await st(); if (s.sc !== 'rue') fail('pas dans la rue ' + s.sc);
   await idle('quiz'); await shot('03_rue');
   await use(920, 520, 'pot bleu'); s = await st(); if (!s.items.includes('kluc')) fail('pas de cle');
   await use(1175, 400, 'portillon'); s = await st(); if (s.sc !== 'zahrada') fail('pas dans le jardin ' + s.sc);

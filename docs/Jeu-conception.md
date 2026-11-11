@@ -204,3 +204,12 @@ Gab arrive du train par les portes des quais (à gauche) et traverse le hall ver
   Choix final : *Jeden / Jedna / Jedno lístok, prosím* (masculin : *jeden*).
 - **Sortie** vers l'arrêt (*zastávka*) : seulement avec le ticket.
 Retour de test du 10 nov. appliqué ici (l'automate ne dit plus « lis le panneau »). Prompt du décor : `art/PROMPTS_intro.md`, n° 4.
+
+
+### Le tram (chapitre 1), version 2 : décor 3:1, Andrea découverte au fond
+
+Gab monte par l'avant ; le wagon a l'air vide (Andrea est au fond, hors de l'écran). En avançant au-delà du composteur, la caméra
+la fait apparaître et la rencontre se déclenche (*Ahoj, Andrea!* / *Dobrý deň, pani.*). Le contrôleur entre par l'arrière quand le
+ticket est validé **et** Andrea retrouvée ; si on la retrouve sans avoir validé, il passe 50 s plus tard : amende, et le tram
+recommence. On descend par les portes de l'avant. À prévoir avec les nouvelles planches : Andrea **assise** avec son livre (le sprite
+actuel est debout).

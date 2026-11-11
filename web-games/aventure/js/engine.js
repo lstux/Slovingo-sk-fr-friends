@@ -454,6 +454,15 @@
         }
         this.anims = keep.concat(this.anims);
       }
+      // declencheurs : le joueur entre dans une bande du decor (scene.triggers : { x: [x0, x1], when(g), run(g) }), seulement au repos
+      if (this.scene && this.scene.triggers && !this.busy && !this.dialog && !this.choices && !this.panel) {
+        const pl = this.sprites.find((q) => q.id === this.scene.player);
+        if (pl && pl.tx == null) {
+          const api = this.api();
+          const t = this.scene.triggers.find((q) => pl.x >= q.x[0] && pl.x <= q.x[1] && (!q.when || q.when(api)));
+          if (t) this.run(() => t.run(this.api()));
+        }
+      }
       if (this.waits.length) { const due = this.waits.filter((w) => w.at <= this.t); if (due.length) { this.waits = this.waits.filter((w) => w.at > this.t); for (const w of due) w.resolve(); } }
       if (this.panel === 'map' && this.mapState && this.mapState.t < 1) this.mapState.t = Math.min(1, this.mapState.t + dt / 2.6);
       if (this.dialog && this.dialog.shown < this.dialog.sk.length) this.dialog.shown = Math.min(this.dialog.sk.length, this.dialog.shown + dt * 55);

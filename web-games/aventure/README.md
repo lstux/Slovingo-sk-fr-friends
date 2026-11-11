@@ -25,13 +25,14 @@ indices par Andrea (`hints`, `helpers`), carnet de la loutre (`notebook`), carte
 Conception : `docs/Jeu-conception.md`. Test : `node web-games/tests/jeu_test.js`.
 
 
-## Essai : décor plus large que l'écran (caméra qui défile)
+## Décors plus larges que l'écran (caméra qui défile)
 
-`jeu.html?large=1` remplace le tram par `art/tram_wide.webp` (2160 x 720, un panorama 3:1 généré par ChatGPT).
-Le moteur gère maintenant une **caméra** : une scène peut avoir `worldW` (largeur du décor, par défaut 1280) ; la caméra suit le
+La gare et le tram du jeu complet sont des panoramas 3:1 (`art/gare_wide.webp`, `art/tram_wide.webp`, 2160 x 720).
+Le moteur gère une **caméra** : une scène peut avoir `worldW` (largeur du décor, par défaut 1280) ; la caméra suit le
 joueur et s'arrête aux bords, les coordonnées des zones, du sol et des sprites sont celles du décor entier, l'interface reste fixe.
-Une scène sans `worldW` se comporte comme avant. Test : `node web-games/tests/tram_large_test.js`.
-
+Une scène sans `worldW` se comporte comme avant. **Déclencheurs** : `scene.triggers` (`{ x: [x0, x1], when(g), run(g) }`) lancent une
+histoire quand le joueur, au repos, est dans une bande du décor (ex. : la rencontre avec Andrea au fond du tram).
+Tests : `node web-games/tests/tram_test.js` (et `jeu_test.js` pour la partie complète).
 
 ## Ouverture (cinématique) : scène `uvod`
 
