@@ -507,12 +507,12 @@ Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, f
 
 Fiche `10_Series_13_Sen_06_extra.md` → `img/illus_13_sen_2.jpg`
 
-**À joindre** : la planche des héros (`planche-heros.jpg`).
+**À joindre** : la planche des héros (`planche-heros.jpg`) **et** l'illustration de la 01 Košice (06) (`img/illus_01_kosice_2.jpg`), pour garder la même maison.
 
 ```
-Use the attached model sheet (the heroes' sheet) for the characters (keep them exactly as designed).
+Use the first attached image (the heroes' model sheet) for the characters (keep them exactly as designed), and the second attached image only as a reference for the house, the garden and the lamp post (the same two-storey house with the red tile roof, the door with steps, the upstairs window, the shed, the clothesline and the apple tree), not for the characters' poses.
 
-Scene: Early morning in the garden of a small house at the edge of Košice, wide landscape format, golden light through the leaves of an apple tree. The fox bursts out laughing, head thrown back, sitting in the grass; Andrea stands next to him holding six old, slightly crumpled envelopes in her hand, a warm smile and a raised eyebrow. In an upstairs window behind them, the face of her aunt, a tall strong adult hare, half hidden behind a curtain, leaning out with a suspicious look. Dry yellow grass, small green apples, a garden fence, apartment blocks far away. Warm, funny and touching.
+Scene: Early morning in the garden of a small house at the edge of Košice, wide landscape format, golden light through the leaves of an apple tree. The fox bursts out laughing, head thrown back, sitting in the grass; Andrea stands next to him holding six old, slightly crumpled envelopes in her hand, a warm smile and a raised eyebrow. In the upstairs window of the house behind them (clearly on the first floor, high above the ground), her aunt, an adult hare, shows only her head and shoulders, half hidden behind the curtain, leaning out with a suspicious look; she looks small and far away from this distance, about the size of Andrea's head or smaller. Dry yellow grass, small green apples, a garden fence, apartment blocks far away. Warm, funny and touching.
 
 Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. Any humans are drawn in the same very simple cartoon style as the animals: simplified rounded shapes, flat colours, small simple eyes, few lines on the face, no realistic or semi-realistic faces. The whole background and every object are hand-drawn in the same cartoon style as the characters: simplified shapes, gentle gradients, no photographic textures or reflections. Soft, painterly background with few small details, so the characters stand out, but the place stays recognisable. Landscape format. No text, no letters, no logos, no watermark.
 ```
