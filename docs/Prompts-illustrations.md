@@ -475,7 +475,7 @@ Scene: Morning in a meadow in the Slovak hills, wide landscape format, soft morn
 Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. Any humans are drawn in the same very simple cartoon style as the animals: simplified rounded shapes, flat colours, small simple eyes, few lines on the face, no realistic or semi-realistic faces. The whole background and every object are hand-drawn in the same cartoon style as the characters: simplified shapes, gentle gradients, no photographic textures or reflections. Soft, painterly background with few small details, so the characters stand out, but the place stays recognisable. Landscape format. No text, no letters, no logos, no watermark.
 ```
 
-### 11 Bratislava (extra) — Pred hradom
+### 11 Bratislava (extra) — Pred hradom ✅ (dents de Katka corrigées)
 
 Fiche `10_Series_11_Bratislava_06_extra.md` → `img/illus_11_bratislava_2.jpg`
 

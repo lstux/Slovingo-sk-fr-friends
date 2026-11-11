@@ -1,6 +1,6 @@
 # Bratislava (extra) — Pred hradom
 
-@ img/bratislava-vyhlad-hrad-dunaj.jpg | Bratislava vue du Nový most, avec le château et le Danube. Source : Wikimedia Commons, Jakub Hałun, CC BY-SA 4.0
+@ img/illus_11_bratislava_2.jpg | Sur la terrasse du château, en fin d'après-midi : le téléphone de Katka est vide, et Maťo sort un papier de sa poche. Source : illustration générée avec ChatGPT
 
 {{fr:Fin d'après-midi, devant la porte du château. La vue sur le Danube est magnifique. Le téléphone de Katka est vide. Et Maťo sort un papier de sa poche.}}
 
@@ -178,6 +178,8 @@
 ---
 
 ## 🇸🇰 Coin slovaque
+
+@ img/bratislava-vyhlad-hrad-dunaj.jpg | Bratislava vue du Nový most (Most SNP), avec le château et le Danube. Source : Wikimedia Commons, Jakub Hałun, CC BY-SA 4.0
 
 {{fr:Depuis la terrasse du château, on voit le Danube, le pont}} {{Most SNP}} {{fr:avec son restaurant en forme de soucoupe volante, l'}}{{UFO}}{{fr:, et au loin, l'Autriche.}}
 
