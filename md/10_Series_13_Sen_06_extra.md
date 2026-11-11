@@ -1,6 +1,6 @@
 # Sen (extra) — Teraz si tu
 
-@ img/jablon-okno.jpg | Une maison en bois derrière des pommiers. Source : Wikimedia Commons, Tess Mattew, CC BY-SA 4.0
+@ img/illus_13_sen_2.jpg | Au petit matin, dans le jardin : le renard rit aux éclats, Andrea a retrouvé les enveloppes, et la tante guette à la fenêtre. Source : illustration générée avec ChatGPT
 
 {{fr:Il reste un détail. Dans ton rêve, Andrea t'a raconté un secret, près du feu. Mais ce n'était qu'un rêve… n'est-ce pas ? Une fenêtre s'ouvre. La tante d'Andrea est réveillée.}}
 

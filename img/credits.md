@@ -89,7 +89,7 @@ La légende de chaque image, dans la fiche, rappelle aussi l'auteur et la licenc
 | `10_Series_13_Sen_04_snivalo-sa-mi.md` | `mapa-slovenska.jpg` | [Relief Map of Slovakia 2.png](https://commons.wikimedia.org/wiki/File:Relief_Map_of_Slovakia_2.png) | derivative work Виктор_В | CC BY-SA 3.0 |
 | `10_Series_13_Sen_05_dobry-sen.md` | `illus_13_sen.jpg` | Illustration générée avec ChatGPT, d'après la photo [Green apples on tree](https://commons.wikimedia.org/wiki/File:2018-07-16_Green_apples_on_tree.jpg) de Maksym Kozlenko (Wikimedia Commons) | CC BY-SA 4.0 (œuvre dérivée, même licence) |
 | `10_Series_13_Sen_05_dobry-sen.md` | `halusky.jpg` (Coin slovaque) | [Bryndzové halušky so slaninou.jpg](https://commons.wikimedia.org/wiki/File:Bryndzov%C3%A9_halu%C5%A1ky_so_slaninou.jpg) | Gregory finster | CC0 |
-| `10_Series_13_Sen_06_extra.md` | `jablon-okno.jpg` | [2026.08.27 Sakovichi Sakovičy Wooden House Salihorsk District Minsk Region Belarus 02.jpg](https://commons.wikimedia.org/wiki/File:2026.08.27_Sakovichi_Sakovi%C4%8Dy_Wooden_House_Salihorsk_District_Minsk_Region_Belarus_02.jpg) | Tess Mattew | CC BY-SA 4.0 |
+| `10_Series_13_Sen_06_extra.md` | `illus_13_sen_2.jpg` | Illustration générée avec ChatGPT, sans photo de référence | Image générée (pas de photo source) |
 
 ## Illustrations générées (ChatGPT)
 
