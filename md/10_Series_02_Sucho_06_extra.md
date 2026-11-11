@@ -1,6 +1,6 @@
 # Sucho (extra) — Na stanici
 
-@ img/kosice-stanica.jpg | La gare de Košice. Source : Wikimedia Commons, RickRichards, CC BY-SA 4.0
+@ img/illus_02_sucho_2.jpg | À la gare de Košice, en pleine chaleur : le renard est fier de son billet, Andrea écrit son mot. Source : illustration générée avec ChatGPT
 
 {{fr:Le dernier arrêt avant de quitter Košice : la gare. Andrea doit laisser un mot à sa tante, et il faut des billets. De vrais billets, cette fois.}}
 

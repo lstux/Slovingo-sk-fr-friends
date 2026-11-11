@@ -349,7 +349,7 @@ Scene: Evening in the garden of a house at the edge of Košice, wide landscape f
 Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. Any humans are drawn in the same very simple cartoon style as the animals: simplified rounded shapes, flat colours, small simple eyes, few lines on the face, no realistic or semi-realistic faces. The whole background and every object are hand-drawn in the same cartoon style as the characters: simplified shapes, gentle gradients, no photographic textures or reflections. Soft, painterly background with few small details, so the characters stand out, but the place stays recognisable. Landscape format. No text, no letters, no logos, no watermark.
 ```
 
-### 02 Sucho (extra) — Na stanici
+### 02 Sucho (extra) — Na stanici ✅
 
 Fiche `10_Series_02_Sucho_06_extra.md` → `img/illus_02_sucho_2.jpg`
 
