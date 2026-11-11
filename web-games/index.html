@@ -35,12 +35,37 @@
   .back { color: #f2ecd8; text-decoration: none; border: 1px solid #3a3a55; border-radius: 20px; padding: 8px 16px; background: #1e1e2e; }
   .back:hover { border-color: #f0a830; }
   small { color: #9a96a8; text-align: center; }
-  @media (prefers-reduced-motion: reduce) { .box { transition: none; } }
+  @media (prefers-reduced-motion: reduce) { .box, .cd { transition: none; } }
+  /* boitier de CD 32 bits : plastique transparent, tranche noire avec charniere, jaquette carree */
+  .cd { position: relative; display: flex; width: 300px; height: 300px; color: #fff; text-decoration: none; border-radius: 4px;
+    background: linear-gradient(135deg, rgba(255,255,255,.55), rgba(255,255,255,.12) 40%, rgba(255,255,255,.3)); padding: 5px;
+    box-shadow: 0 18px 26px rgba(0,0,0,.65), 0 0 0 1px rgba(255,255,255,.35), inset 0 0 0 1px rgba(0,0,0,.4); transition: transform .15s, box-shadow .15s; }
+  .cd .spine { flex: none; width: 30px; margin-right: 4px; border-radius: 2px 0 0 2px; background: linear-gradient(90deg, #050507, #22222a 45%, #08080b);
+    display: flex; align-items: center; justify-content: center; position: relative; }
+  .cd .spine::before, .cd .spine::after { content: ""; position: absolute; left: 4px; right: 4px; height: 26px; border-radius: 2px; background: repeating-linear-gradient(#3a3a44 0 2px, #111 2px 4px); }
+  .cd .spine::before { top: 6px; } .cd .spine::after { bottom: 6px; }
+  .cd .spine span { writing-mode: vertical-rl; transform: rotate(180deg); font: 800 11px/1 system-ui; letter-spacing: .28em; text-transform: uppercase; color: #e6e6ee; }
+  .cd .cover { position: relative; flex: 1; overflow: hidden; border-radius: 0 2px 2px 0; background: #000; }
+  .cd .cover img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  .cd .cover::after { content: ""; position: absolute; inset: 0; pointer-events: none;
+    background: linear-gradient(115deg, rgba(255,255,255,.32) 0, rgba(255,255,255,0) 30%, rgba(255,255,255,0) 70%, rgba(255,255,255,.12) 100%); }
+  .cd .logo { position: absolute; top: 0; left: 0; right: 0; padding: 12px 12px 26px; text-align: center; background: linear-gradient(#0b0b18ee, #0b0b1800); }
+  .cd .logo b { display: block; font: 900 30px/1 Georgia, 'Times New Roman', serif; letter-spacing: .04em; color: #ffe08a;
+    text-shadow: 0 2px 0 #b5411b, 0 4px 0 #4a1a0b, 0 6px 10px #000; }
+  .cd .logo i { display: block; margin-top: 5px; font: 700 10px/1 system-ui; font-style: normal; letter-spacing: .3em; text-transform: uppercase; color: #c8f0ff; }
+  .cd .band { position: absolute; left: 0; right: 0; bottom: 0; display: flex; justify-content: space-between; align-items: center; gap: 8px; padding: 22px 10px 9px;
+    font: 700 11px/1.25 system-ui; text-transform: uppercase; letter-spacing: .05em; background: linear-gradient(#0b0b1800, #0b0b18f0 45%); }
+  .cd .play { flex: none; background: #fff; color: #14141f; border-radius: 4px; padding: 6px 10px; font-weight: 900; box-shadow: 0 3px 0 #0006; }
+  .cd .badge { position: absolute; right: 8px; top: 64px; transform: rotate(8deg); background: #e8342b; color: #fff; font: 900 10px/1 system-ui; letter-spacing: .08em;
+    padding: 5px 7px; border-radius: 3px; box-shadow: 0 2px 0 #0007; text-transform: uppercase; }
+  .cd:hover, .cd:focus-visible { transform: translateY(-8px) rotate(1deg); box-shadow: 0 30px 34px rgba(0,0,0,.6), 0 0 0 2px #fff; }
+  .cd:hover .play, .cd:focus-visible .play { background: #ffe08a; }
+
 </style>
 </head>
 <body>
 <h1>Zajko</h1>
-<p class="sub">Choisis ta cartouche</p>
+<p class="sub">Choisis ton jeu</p>
 <div class="shelf">
   <a class="box run" href="zajko-run/index.html" aria-label="Jouer à Zajko Run">
     <div class="tag"><span>Slovingo · 16 bit</span><span>1 joueur</span></div>
@@ -48,15 +73,17 @@
     <div class="shot"><img src="img/run.png" width="320" height="240" alt="Le renard court dans les rues de Košice"></div>
     <div class="foot"><span>Plateformes<br>Košice → Tatry</span><span class="play">▶ Jouer</span></div>
   </a>
-  <a class="box quest" href="zajko-quest/index.html" aria-label="Jouer à Zajko Quest">
-    <div class="tag"><span>Slovingo · 16 bit</span><span>1 joueur</span></div>
-    <h2 class="title">Zajko Quest</h2>
-    <div class="shot"><img src="img/quest.png" width="320" height="240" alt="Le renard explore une place de ville"></div>
-    <div class="foot"><span>Aventure &amp;<br>cours de slovaque</span><span class="play">▶ Jouer</span></div>
+  <a class="cd" href="aventure/jeu.html" aria-label="Jouer à Zajko Quest">
+    <div class="spine"><span>Zajko Quest</span></div>
+    <div class="cover">
+      <img src="img/aventure.jpg" width="480" height="480" alt="Dans le tram de Košice, le renard reconnaît Andrea, qui lit au fond">
+      <div class="logo"><b>Zajko Quest</b><i>Point &amp; click · 32 bit</i></div>
+      <span class="badge">Nouveau</span>
+      <div class="band"><span>Aventure &amp;<br>cours de slovaque</span><span class="play">▶ Jouer</span></div>
+    </div>
   </a>
 </div>
-<a class="back" href="aventure/jeu.html">✨ Zajko Quest, version de test : prologue + chapitres 1 et 2 (décors provisoires)</a>
 <a class="back" href="../">← Retour au cours</a>
-<small>Versions web des jeux ESP32 / Odroid-Go (dossier <code>esp32/</code>)</small>
+<small>Zajko Run : version web du jeu ESP32 / Odroid-Go (dossier <code>esp32/</code>). Zajko Quest : en cours (ouverture, gare, tram, rue refaits).</small>
 </body>
 </html>
