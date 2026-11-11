@@ -433,7 +433,7 @@ Scene: Night inside the cabin of a big truck on a country road, wide landscape f
 Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. Any humans are drawn in the same very simple cartoon style as the animals: simplified rounded shapes, flat colours, small simple eyes, few lines on the face, no realistic or semi-realistic faces. The whole background and every object are hand-drawn in the same cartoon style as the characters: simplified shapes, gentle gradients, no photographic textures or reflections. Soft, painterly background with few small details, so the characters stand out, but the place stays recognisable. Landscape format. No text, no letters, no logos, no watermark.
 ```
 
-### 08 Datacentrum (extra) — Rada od Mareka
+### 08 Datacentrum (extra) — Rada od Mareka ✅
 
 Fiche `10_Series_08_Datacentrum_06_extra.md` → `img/illus_08_datacentrum_2.jpg`
 
