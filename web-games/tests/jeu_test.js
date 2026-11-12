@@ -120,7 +120,16 @@ const srv = http.createServer((q, r) => {
   await itemN('mot', 1706, 440, -140, 'schranka'); if (!(await st()).flags.mot_sent) fail('mot non poste');
   picks = [0]; await useN(1030, 420, -200, 'guichet'); if (!(await st()).flags.tickets) fail('billets');
   await shot('09b_guichet');
-  await useN(1930, 330, 0, 'quai'); await until((q) => q.end, 'fin');
+  await useN(1930, 330, 0, 'quai'); await until((q) => q.sc === 'raj' && !q.dlg && !q.busy && !q.panel, 'foret'); await shot('10_raj_arrivee');
+  // chapitre 3 : foret silencieuse -> ruisseau (Andrea ne veut pas parler avant qu'on ait bu)
+  await pg.evaluate(async () => { await __zajka.walk('fox', 800, 650); });
+  await until((q) => q.flags.raj2 && !q.dlg && !q.busy, 'foret silencieuse'); await shot('10b_raj_ticho');
+  await useN(1500, 450, -150, 'andrea avant de boire'); if ((await st()).flags.raj3) fail('Andrea parle avant la boisson');
+  await useN(1200, 420, -150, 'champignons'); await useN(850, 440, -120, 'pnik (fausse piste)'); await useN(650, 380, -150, 'tronc (fausse piste)');
+  await useN(1900, 450, -150, 'potok'); s = await st(); if (!s.flags.drank) fail('pas bu'); await shot('10c_raj_potok');
+  await pg.evaluate(async () => { const a = __zajka.words; if (!a['vpravo']) throw new Error('vpravo non appris'); });
+  await useN(1480, 450, -150, 'andrea apres'); s = await st(); if (!s.flags.raj3) fail('pas de discussion');
+  await useN(2100, 450, -150, 'roklina'); await until((q) => q.end, 'fin');
   await shot('10_fin');
   if (errs.length) fail(errs.join(' | '));
   console.log('OK : prologue + chapitres 1 et 2 jouables'); await b.close(); srv.close();

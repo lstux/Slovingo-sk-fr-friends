@@ -998,8 +998,8 @@
             async onUse(g) {
               if (!g.flag('tickets') || !g.flag('mot_sent')) { await say(g, 'andrea', 'Ešte nie. Potrebujeme lístky na vlak a odkaz pre tetu.', 'Pas encore. Il nous faut les billets et le mot pour ma tante.'); return; }
               await say(g, 'narrator', 'Vlak odchádza na západ.', 'Le train part vers l\'ouest.');
-              await g.showMap('ch3', { note: { sk: 'Pokračovanie nabudúce…', fr: 'À suivre…' } });
-              g.end('Koniec ukážky', 'Fin de l\'aperçu');
+              await g.showMap('ch3');
+              g.goScene('raj');
             } },
         ],
         hints: [
@@ -1014,6 +1014,115 @@
           { id: 's_go', levels: [
             { sk: 'Máme všetko. Choď na nástupište.', fr: 'On a tout. Va sur le quai.' } ] },
         ],
+      },
+
+      // ---------------------------------------------------------------- chapitre 3 : Raj (decor A : foret et ruisseau)
+      raj: {
+        chapter: 'ch3', title: { sk: 'Les v Slovenskom raji', fr: 'La forêt du Paradis slovaque' }, tint: ['#6f9a5a', '#c9b27a'],
+        bg: 'art/raj_foret_wide.webp', worldW: 2160,
+        player: 'fox', floor: [[0, 560], [2160, 560], [2160, 712], [0, 712]], scale: { y0: 560, s0: 0.5, y1: 712, s1: 0.62 },
+        sprites: [gab(150, 650), andrea(280, 1, 645)],
+        triggers: [
+          // scene 2 : la foret silencieuse (Andrea dit « vpravo » sans le traduire)
+          { x: [700, 2160], when: (g) => g.flag('raj0') && !g.flag('raj2'), async run(g) {
+            g.setFlag('raj2');
+            await say(g, 'narrator', 'Idú cez les. Je tu tieň, ale voda nie je.', 'Ils traversent la forêt. Il y a de l\'ombre, mais pas d\'eau.', [['les', 'la forêt'], ['tieň', 'l\'ombre']]);
+            await say(g, 'fox', 'Je to ešte ďaleko?', 'C\'est encore loin ?');
+            await say(g, 'andrea', 'Nie. Ale ticho. Počuješ?', 'Non. Mais chut. Tu entends ?', [['ticho', 'le silence']]);
+            await say(g, 'fox', 'Nič nepočujem.', 'Je n\'entends rien.');
+            await say(g, 'andrea', 'Presne. Ticho. Aj vtáky mlčia.', 'Exactement. Le silence. Même les oiseaux se taisent.', [['vtáky', 'les oiseaux']]);
+            await say(g, 'fox', 'To nie je dobré.', 'C\'est pas bon.');
+            await say(g, 'andrea', 'Nie. Ale počkaj… Počuješ to?', 'Non. Mais attends… Tu entends ça ?');
+            await say(g, 'narrator', 'Niekde blízko tečie voda.', 'Quelque part tout près, de l\'eau coule.', [['voda', 'l\'eau']]);
+            await say(g, 'fox', 'Voda! Potok!', 'De l\'eau ! Un ruisseau !', [['potok', 'le ruisseau']]);
+            g.pose('andrea', 'point');
+            await say(g, 'andrea', 'Tečie vpravo. Poď!', 'Elle coule… (à toi de comprendre.) Viens !');
+            g.pose('andrea', null);
+            await g.walk('andrea', 1500, 650);
+          } },
+        ],
+        hotspots: [
+          { id: 'zastavka', name: { sk: 'zastávka', fr: 'la halte' }, poly: box(0, 110, 215, 455), walk: [260, 645],
+            look: { sk: 'Malá zastávka s jednou lampou. Vlak už odišiel.', fr: 'Une petite halte avec un seul lampadaire. Le train est déjà reparti.', words: [['zastávka', 'la halte'], ['lampa', 'le lampadaire']] } },
+          { id: 'buk', name: { sk: 'buk', fr: 'le hêtre' }, poly: box(190, 0, 445, 500), walk: [480, 645],
+            look: { sk: 'Starý buk. Aj v suchu dáva tieň.', fr: 'Un vieux hêtre. Même par temps sec, il donne de l\'ombre.', words: [['buk', 'le hêtre']] } },
+          { id: 'spadnuty', name: { sk: 'spadnutý strom', fr: 'l\'arbre tombé' }, poly: box(395, 280, 790, 470), walk: [600, 645],
+            look: { sk: 'Spadnutý strom. Tadiaľto cesta nevedie. A voda tu určite nie je.', fr: 'Un arbre tombé. Le chemin ne passe pas par là. Et il n\'y a sûrement pas d\'eau ici.', words: [['spadnutý', 'tombé'], ['strom', 'l\'arbre']] } },
+          { id: 'pnik', name: { sk: 'pník', fr: 'la souche' }, poly: box(740, 380, 955, 500), walk: [850, 645],
+            look: { sk: 'Starý pník. Strom tu už nie je. Len pník.', fr: 'Une vieille souche. L\'arbre n\'est plus là. Seulement la souche.', words: [['pník', 'la souche']] } },
+          { id: 'huby', name: { sk: 'huby', fr: 'les champignons' }, poly: box(1100, 340, 1290, 495), walk: [1200, 645],
+            async onUse(g) {
+              await say(g, 'fox', 'Huby! Môžem jednu?', 'Des champignons ! Je peux en goûter un ?', [['huby', 'les champignons']]);
+              g.pose('andrea', 'point');
+              await say(g, 'andrea', 'Nie! Nejedz ich!', 'Non ! N\'en mange pas !', [['nejedz', 'ne mange pas']]);
+              g.pose('andrea', null);
+            } },
+          { id: 'kamen', name: { sk: 'kameň', fr: 'la pierre' }, poly: box(1490, 460, 1725, 555), walk: [1600, 655],
+            look: { sk: 'Plochý kameň pri potoku. Dobré miesto, kde sa napiť.', fr: 'Une pierre plate au bord du ruisseau. Un bon endroit pour boire.', words: [['kameň', 'la pierre'], ['napiť sa', 'boire']] } },
+          { id: 'potok', name: { sk: 'potok', fr: 'le ruisseau' }, poly: box(1640, 360, 2160, 620), walk: [1760, 655],
+            async onUse(g) {
+              if (g.flag('drank')) { await say(g, 'fox', 'Potok je malý. Vody je málo, ale je tam.', 'Le ruisseau est petit. Il y a peu d\'eau, mais il y en a.', [['málo', 'peu']]); return; }
+              g.setFlag('drank');
+              await say(g, 'narrator', 'Gab sa napije. Voda je studená!', 'Gab boit. L\'eau est fraîche !', [['studená', 'froide']]);
+              if (!g.knows('vpravo')) {
+                g.pose('fox', 'think');
+                await say(g, 'fox', 'Voda bola vpravo. Aha: vpravo je tam, kde je voda!', 'L\'eau était « vpravo ». Ah : « vpravo », c\'est là où est l\'eau !');
+                g.pose('fox', null);
+                g.learn('vpravo', 'à droite');
+              }
+            } },
+          { id: 'andrea', sprite: 'andrea', name: { sk: 'Andrea', fr: 'Andrea' }, walk: [1500, 650],
+            async onUse(g) {
+              if (!g.flag('drank')) { g.pose('andrea', 'point'); await say(g, 'andrea', 'Najprv sa napi. Potom rozprávaj.', 'D\'abord, bois. Ensuite, parle.', [['najprv', 'd\'abord'], ['potom', 'ensuite']]); g.pose('andrea', null); return; }
+              if (!g.flag('raj3')) {
+                g.setFlag('raj3');
+                await say(g, 'narrator', 'Potok je malý. Vody je v ňom málo, ale je tam.', 'Le ruisseau est petit. Il y a peu d\'eau, mais il y en a.');
+                await say(g, 'fox', 'Je tu voda! Je tu veľa vody!', 'Il y a de l\'eau ! Il y a beaucoup d\'eau !', [['veľa', 'beaucoup']]);
+                await say(g, 'andrea', 'Nie je tu veľa. Je tu dosť. Pre dvoch.', 'Il n\'y en a pas beaucoup. Il y en a assez. Pour deux.', [['dosť', 'assez']]);
+                await say(g, 'fox', 'To mi stačí.', 'Ça me suffit.');
+                await say(g, 'fox', 'Ty si zase šéf.', 'Tu fais encore la cheffe.', [['šéf', 'le chef']]);
+                await say(g, 'andrea', 'Ja mám mapu. Ty máš batoh. Takže ja som šéf.', 'Moi, j\'ai la carte. Toi, tu as le sac à dos. Donc c\'est moi la cheffe.', [['batoh', 'le sac à dos']]);
+                await say(g, 'fox', 'To je nespravodlivé.', 'C\'est injuste.');
+                await say(g, 'andrea', 'Je.', 'Oui.');
+                return;
+              }
+              await say(g, 'andrea', 'Poď. Cesta vedie do rokliny. Je tam, na konci.', 'Viens. Le chemin mène à la gorge. C\'est au bout.', [['roklina', 'la gorge']]);
+            } },
+          { id: 'rokle', name: { sk: 'cesta do rokliny', fr: 'le chemin de la gorge' }, poly: box(2040, 300, 2160, 560), walk: [2090, 640],
+            async onUse(g) {
+              if (!g.flag('drank')) { await say(g, 'andrea', 'Počkaj! Najprv sa napi.', 'Attends ! Bois d\'abord.'); return; }
+              if (!g.flag('raj3')) { await say(g, 'andrea', 'Počkaj. Ešte sa porozprávame.', 'Attends. On se parle d\'abord un peu.'); return; }
+              await say(g, 'narrator', 'Cesta vedie do rokliny. V skale sú rebríky a mostíky nad vodou.', 'Le chemin mène dans une gorge. Dans la roche, il y a des échelles et des petits ponts au-dessus de l\'eau.', [['rebrík', 'l\'échelle'], ['most', 'le pont']]);
+              g.pose('fox', 'surprised');
+              await say(g, 'fox', 'To nemyslíš vážne.', 'Tu ne parles pas sérieusement.');
+              g.pose('fox', null);
+              await say(g, 'andrea', 'Myslím. Idem prvá. Ty ideš za mnou.', 'Si. Je passe la première. Toi, tu me suis.');
+              g.end('Koniec ukážky', 'Fin de l\'aperçu');   // la gorge à échelles (décor B) est la suite
+            } },
+        ],
+        hints: [
+          { id: 'r_water', when: (g) => !g.flag('drank'), levels: [
+            { sk: 'Je tu ticho. Počúvaj. Kde tečie voda?', fr: 'Il y a un silence. Écoute. Où coule l\'eau ?' },
+            { sk: 'Andrea povedala: „vpravo“.', fr: 'Andrea a dit : « vpravo ».' },
+            { sk: 'Choď doprava, až k potoku. Potom klikni na potok.', fr: 'Va vers la droite, jusqu\'au ruisseau. Puis clique sur le ruisseau.' } ] },
+          { id: 'r_talk', when: (g) => !g.flag('raj3'), levels: [
+            { sk: 'Andrea ti chce niečo povedať. Napi sa a potom sa s ňou rozprávaj.', fr: 'Andrea veut te dire quelque chose. Bois, puis parle-lui.' } ] },
+          { id: 'r_go', levels: [
+            { sk: 'Cesta do rokliny je úplne vpravo.', fr: 'Le chemin de la gorge est tout à droite.' } ] },
+        ],
+        async onEnter(g) {
+          if (g.flag('raj0')) return;
+          g.setFlag('raj0');
+          g.take('rebrik'); g.take('listky_vlak');   // l'echelle a ete rendue au jardinier, les billets sont composes
+          await say(g, 'narrator', 'Vlak stojí v Spišskej Novej Vsi. Gab a Andrea vystupujú. Je horúco.', 'Le train est arrêté à Spišská Nová Ves. Gab et Andrea descendent. Il fait chaud.', [['horúco', 'chaud']]);
+          await say(g, 'fox', 'Kam teraz?', 'On va où maintenant ?');
+          await say(g, 'andrea', 'Poď za mnou. Mám mapu.', 'Suis-moi. J\'ai une carte.', [['mapa', 'la carte']]);
+          await say(g, 'fox', 'Ty vždy máš mapu.', 'Tu as toujours une carte.');
+          await say(g, 'andrea', 'A ty vždy máš otázky. Poď.', 'Et toi, tu as toujours des questions. Viens.', [['otázka', 'la question']]);
+          await say(g, 'fox', 'Počkaj! Idem pomaly!', 'Attends ! Je vais lentement !', [['pomaly', 'lentement']]);
+          await say(g, 'andrea', 'Ja viem. Tak poď rýchlo.', 'Je sais. Alors viens vite.', [['rýchlo', 'vite']]);
+          await g.walk('andrea', 760, 645);
+        },
       },
     },
   };
