@@ -223,3 +223,25 @@ chacune avec un mot ou une blague : pot rouge (un escargot), pot jaune (des four
 toujours »), **sonnette** (la tante : « Kto je tam?! », Gab se cache derrière le tilleul), boîte aux lettres, nain de jardin, une pièce
 à ramasser (un centime « pour la chance », inutile… pour l'instant), le tilleul (arbre national), les pommes trop hautes.
 Soulever le pot bleu au hasard marche aussi : deviner reste possible, mais coûte quelques gags.
+
+## Chapitre 3 : Raj, conception détaillée (12 nov. 2026)
+
+**Grammaire** : le vouvoiement (*vy*, *ste*), les directions (*hore, dole, vľavo / doľava, vpravo / doprava*), *dosť* / *málo*.
+**Mots** : *les, ticho, potok, pi (bois), hore, dole, vľavo, vpravo, rebrík (revu), most, rokľa, orol, strážca, vy, videli ste…?*
+**Objet clé** : la page du carnet de pán Orol (indice : refuge Téry, Tatras).
+
+Cinq lieux, quatre décors (les scènes 2 et 3 partagent le même panorama) :
+
+| Scène de l'histoire | Décor | Idée de jeu |
+|---|---|---|
+| 1. Arrivée à Spišská Nová Ves | début du panorama A (quai minuscule, chemin) : caméra qui suit Gab hors de la gare | court : carte d'Andrea (cliquable : mot *mapa*), « Je vais lentement ! » : Andrea attend sans cesse |
+| 2. Forêt silencieuse | **A. Forêt et ruisseau** (gauche : sous-bois sec et silencieux, droite : petit ruisseau) | **Énigme de compréhension** : Andrea dit « *Ticho. Ale počúvaj… voda tečie vpravo.* » (sans traduire *vpravo*). Aller à gauche = cul-de-sac drôle (un tronc, un écureuil qui hausse les épaules) ; aller à droite = le ruisseau (plus tard : le son de l'eau vient de la droite, en stéréo) |
+| 3. Le ruisseau | même panorama A | *Najprv pi, potom hovor.* Gab boit (clic sur le ruisseau) puis seulement après peut parler. Gag « Tu fais encore la cheffe ». *Dosť pre dvoch* / *málo* ; fausses pistes : poissons, galets, champignon, papillon |
+| 4. La gorge à échelles | **B. Gorge à échelles** (paroi de la gorge, échelles métalliques, passerelles, ruisseau en bas) | **Énigme principale** : Gab a le vertige et ferme les yeux. Andrea guide **à la voix**, une consigne à la fois : « *Hore!* » (échelle), « *Doprava!* » (passerelle), « *Dole!* » (échelle). Le joueur clique le bon élément d'après le mot compris. Mauvais clic : Gab hésite (gag), Andrea répète plus lentement ; après deux erreurs, indice en français |
+| 5. Pán Orol | **C. Le rocher de l'aigle** (sortie de la gorge, clairière, grand rocher) | **Vouvoiement** : le joueur choisit la phrase polie (*Videli ste vydru?* et non *Videl si…*). Orol donne la page du carnet ; nouveaux sujets : *Tatry, vydra, pán v obleku* |
+| 6. Le soir au ruisseau | **D. Bivouac, la nuit** (image fixe étoilée avec petite caméra ; pas de panorama) | scène calme à dialogues (« sauf un »), puis carte du voyage vers les Tatras (chap. 4) |
+
+**Sprites à faire** : pán Orol (aigle perché, humain-vouvoyé ; ~8 poses : neutre, parle, regarde de haut, tend un papier, inquiet, sourit, plume qui tombe, s'envole) ; Gab qui grimpe à l'échelle (8 images de montée, yeux fermés) ; Gab en équilibre sur la passerelle ; un écureuil (fausse piste, cul-de-sac).
+**Objets** : la page du carnet d'Orol (icône), le petit papier plié, la carte d'Andrea (*mapa*).
+**Sons** : voir `docs/Sons-a-chercher.md` (forêt silencieuse, ruisseau, échelles métalliques, cri d'aigle).
+**Décors** (prompts dans `web-games/aventure/art/PROMPTS_decors.md`) : n°12 forêt et ruisseau, n°13 gorge, n°14 rocher de l'aigle, n°15 bivouac.

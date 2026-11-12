@@ -120,3 +120,17 @@ colonnes sculptées : ça ne collait pas à l'arrivée, moderne et vitrée). Le 
 Prompt : « Use the attached image as the exact reference for the place, the architecture and the drawing style… Draw another part of the SAME hall… »
 (table et banc, tableau des départs, comptoir de guichet avec une fenêtre ouverte et un rideau baissé, boîte aux lettres rouge, portes vitrées vers les quais,
 hall vide, tiers inférieur dégagé). Coordonnées des zones dans `game.js` (scène `stanica`, panorama 2160×720). La guichetière est un sprite (à faire).
+
+## 12. Forêt et ruisseau du Slovenský raj : `raj_foret_wide.webp` (chapitre 3, scènes 1 à 3)
+
+**À joindre** : `park_wide_ref.png` (le décor du parc, pour garder la même main de dessin). Disposition : à gauche le chemin arrive de la petite gare ;
+au centre un sous-bois sec et silencieux, une souche, un tronc couché (cul-de-sac de gauche) ; à droite, un petit ruisseau peu profond qui coule
+sur des galets plats (de quoi boire, pas plus). Les sprites (Gab, Andrea) et un écureuil seront posés par le jeu.
+
+```
+Use the attached image as the reference for the drawing style and the level of detail. Now draw the next scrolling background of the game: a forest in the Slovak Paradise national park, Slovakia, on a very hot, dry summer day, as a very wide panoramic image in 3:1 format (3072x1024 pixels), seen from the side, dappled sunlight through the trees, a quiet atmosphere.
+
+From left to right: on the far left, the end of a dirt path coming from a tiny railway halt, which is barely visible (a short platform edge and one small lamp post, no text); then a dry, silent, shady forest of tall beech and spruce trees with a carpet of dry brown leaves and needles, a tree stump and a fallen tree trunk lying across the left side (a dead end); in the middle, a small clearing with a few mushrooms and ferns; and on the right, a shallow, narrow stream running across the picture over flat grey pebbles and stones, with a little clear water (less than normal: its banks show a dry muddy edge), a flat stone beside it where someone can drink, and some green moss. Tall limestone rocks appear faintly in the distant background. The scene is EMPTY (no people, no animals, no signs, no signposts with writing). The lower third of the picture (the path and the stream bank) stays clear and uncluttered, because characters will walk there. No text, no letters, no numbers, no logos.
+
+Background style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading, simplified shapes, gentle gradients, no photographic textures or reflections. Landscape 3:1 format. No text, no letters, no numbers, no logos, no watermark.
+```
