@@ -118,7 +118,7 @@ const srv = http.createServer((q, r) => {
   await pg.evaluate(() => { __zajka.selected = 'pero'; const r = __zajka.slotRect(__zajka.items.indexOf('papier')); __zajka.click([r.x + 10, r.y + 10]); });
   await idle('combo'); s = await st(); if (!s.items.includes('mot')) fail('pas de mot ' + JSON.stringify(s.items));
   await itemN('mot', 1706, 440, -140, 'schranka'); if (!(await st()).flags.mot_sent) fail('mot non poste');
-  picks = [0]; await useN(1030, 380, 200, 'guichet'); if (!(await st()).flags.tickets) fail('billets');
+  picks = [0]; await useN(1030, 420, -200, 'guichet'); if (!(await st()).flags.tickets) fail('billets');
   await shot('09b_guichet');
   await useN(1930, 330, 0, 'quai'); await until((q) => q.end, 'fin');
   await shot('10_fin');

@@ -34,6 +34,12 @@
     walkSheet: { img: 'art/pan_walk.png', frames: 8, fps: 7, h: 544 },
     poses: Object.fromEntries(Object.entries(PAN_POSES).map(([k, h]) => [k, { img: `art/pan_${k}.png`, h }])),
   });
+  // la guichetiere, planche du 12 nov. (tools/make_sprites.py pokladnicka) : buste, 16 poses de meme cadre
+  const POKL = ['idle', 'talk', 'smile', 'type', 'give', 'no', 'point', 'wipe', 'read', 'stamp', 'surprised', 'explain', 'watch', 'fan', 'wave', 'wait'];
+  const pokladnicka = (x, y) => ({
+    id: 'pokladnicka', img: 'art/pokladnicka_idle.png', x, y, h: 271, face: -1,
+    poses: Object.fromEntries(POKL.map((k) => [k, { img: `art/pokladnicka_${k}.png`, h: 271 }])),
+  });
   const andrea = (x, face, y) => ({
     id: 'andrea', img: 'art/andrea2_idle.png', x, y: y || 662, h: ANDREA_POSES.idle, face: face || 1, speed: 324, scaleSpeed: true,
     walkSheet: { img: 'art/andrea2_walk.png', frames: 8, fps: 8, h: 479 },
@@ -921,8 +927,7 @@
         chapter: 'ch2', title: { sk: 'Stanica v Košiciach', fr: 'La gare de Košice' }, tint: ['#8c93a8', '#cbc3b0'],
         bg: 'art/stanica_wide.webp', worldW: 2160,
         player: 'fox', floor: [[0, 600], [2160, 600], [2160, 712], [0, 712]], scale: { y0: 600, s0: 0.56, y1: 712, s1: 0.64 },
-        // la guichetiere : emoji provisoire en attendant sa planche (elle se penche au guichet ouvert)
-        sprites: [gab(220, 655), andrea(350, 1, 650), { id: 'pokladnicka', emoji: '🧑‍💼', x: 1030, y: 488, h: 300, face: -1 }],
+        sprites: [gab(220, 655), andrea(350, 1, 650), pokladnicka(1030, 484)],
         hotspots: [
           { id: 'plagat1', name: { sk: 'plagát', fr: 'l\'affiche' }, poly: box(135, 224, 235, 397), walk: [190, 655],
             look: { sk: 'Plagát: hrad a veža. Košice sú pekné. Aj bez vody.', fr: 'Une affiche : un château et une tour. Košice est joli. Même sans eau.', words: [['plagát', 'l\'affiche'], ['veža', 'la tour']] } },
@@ -958,18 +963,22 @@
                 await say(g, 'narrator', 'Odkaz je v schránke. Teta ho nájde ráno.', 'Le message est dans la boîte. La tante le trouvera demain matin.');
               },
             } },
-          { id: 'pokladnicka', sprite: 'pokladnicka', name: { sk: 'pokladníčka', fr: 'la guichetière' }, walk: [1030, 655],
+          { id: 'pokladnicka', sprite: 'pokladnicka', name: { sk: 'pokladníčka', fr: 'la guichetière' }, walk: [880, 655],
             onItem: {
               async listok_ok(g) {
                 await say(g, 'fox', 'Tu je môj lístok!', 'Voici mon ticket !');
+                g.pose('pokladnicka', 'surprised');
                 await say(g, 'pokladnicka', 'To je lístok na električku. Ja predávam lístky na vlak.', 'C\'est un ticket de tram. Moi, je vends des billets de train.');
-                await say(g, 'andrea', 'Gab…', 'Gab…');
+                g.pose('pokladnicka', 'smile');
+                await say(g, 'andrea', 'Gab…', 'Gab…'); g.pose('pokladnicka', null);
               },
             },
             async onUse(g) {
-              if (g.flag('tickets')) { await say(g, 'pokladnicka', 'Šťastnú cestu!', 'Bon voyage !'); return; }
+              if (g.flag('tickets')) { g.pose('pokladnicka', 'wave'); await say(g, 'pokladnicka', 'Šťastnú cestu!', 'Bon voyage !'); g.pose('pokladnicka', null); return; }
+              g.pose('pokladnicka', 'smile');
               await say(g, 'pokladnicka', 'Dobrý deň. Kam idete?', 'Bonjour. Vous allez où ?', [['kam', 'où (direction)']]);
-              if (!g.flag('rozpis')) { await say(g, 'andrea', 'Najprv sa pozri na rozpis.', 'Regarde d\'abord le tableau des départs.'); return; }
+              if (!g.flag('rozpis')) { g.pose('pokladnicka', 'point'); await say(g, 'andrea', 'Najprv sa pozri na rozpis.', 'Regarde d\'abord le tableau des départs.'); g.pose('pokladnicka', null); return; }
+              g.pose('pokladnicka', 'wait');
               for (;;) {
                 const i = await g.choice([
                   { sk: 'Dva lístky do Spišskej Novej Vsi, prosím.', fr: 'Deux billets pour Spišská Nová Ves, s\'il vous plaît.' },
@@ -977,10 +986,13 @@
                   { sk: 'Dve lístky do Spišskej Novej Vsi, prosím.', fr: 'Deux billets… (mal accordé).' },
                 ]);
                 if (i === 0) break;
+                g.pose('pokladnicka', 'no');
                 await say(g, 'pokladnicka', i === 1 ? 'Správne je: do Spišskej Novej Vsi.' : 'Lístok je mužský rod: dva lístky.', i === 1 ? 'Le bon accord : « do Spišskej Novej Vsi » (après « do », on décline).' : '« Lístok » est masculin : « dva lístky ».');
               }
               g.give('listky_vlak'); g.setFlag('tickets');
+              g.pose('pokladnicka', 'stamp'); await g.sleep(700); g.pose('pokladnicka', 'give');
               await say(g, 'pokladnicka', 'Dva lístky. Šťastnú cestu!', 'Deux billets. Bon voyage !', [['pokladňa', 'le guichet']]);
+              g.pose('pokladnicka', null);
             } },
           { id: 'nastupiste', name: { sk: 'nástupište', fr: 'le quai' }, poly: box(1777, 280, 2085, 605), walk: [1930, 655],
             async onUse(g) {

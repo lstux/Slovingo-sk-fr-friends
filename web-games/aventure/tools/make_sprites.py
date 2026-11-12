@@ -60,6 +60,16 @@ CHARS = {
     },
 }
 
+CHARS['pokladnicka'] = {
+    # buste derriere un comptoir : 16 poses, un seul cadre commun (tete au meme endroit), pas de marche
+    'poses': {'src': 'sources/pokladnicka_sheet_src.png', 'cols': 8, 'rows': 2, 'row': 'all',
+              'names': ['idle', 'talk', 'smile', 'type', 'give', 'no', 'point', 'wipe',
+                        'read', 'stamp', 'surprised', 'explain', 'watch', 'fan', 'wave', 'wait']},
+    'common': True,
+    'height': 255,           # hauteur du buste dans le jeu (une adulte de 510 de haut, coupee a la taille)
+    'band': (0.08, 0.16),    # le haut du crane (chignon) sert a centrer la tete
+}
+
 def key(img):
     """fond vert -> transparent (bord doux), et on retire le reflet vert des contours"""
     a = np.asarray(img.convert('RGB')).astype(float)
@@ -121,6 +131,13 @@ def main(cid):
     BAND = spec.get('band', (0.13, 0.19))
     out = spec.get('out', cid)
     pc = cells(spec['poses'])
+    if spec.get('common'):
+        ref = measure(pc[0]); unit = spec['height'] / (ref['bot'] - ref['top'])
+        frames = place([scaled(c, 1.0) for c in pc]); meta = {}
+        for name, fr in zip(spec['poses']['names'], frames):
+            fr.save(os.path.join(ART, f'{out}_{name}.png'))
+        print(json.dumps({'h': round(frames[0].height * unit), 'poses': spec['poses']['names']}, ensure_ascii=False))
+        return
     wc = cells(spec['walk'])[: spec['walk']['frames']]
     ref = measure(pc[0])                                   # la pose debout fixe l'echelle
     if spec.get('scale_by') == 'height':
