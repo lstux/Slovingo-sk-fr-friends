@@ -134,3 +134,17 @@ From left to right: on the far left, the end of a dirt path coming from a tiny r
 
 Background style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading, simplified shapes, gentle gradients, no photographic textures or reflections. Landscape 3:1 format. No text, no letters, no numbers, no logos, no watermark.
 ```
+
+## 13. La gorge à échelles du Slovenský raj : `raj_rokle_wide.webp` (chapitre 3, scène 4)
+
+**À la suite de la conversation de la forêt** (rien à joindre). Énigme : Gab (yeux fermés, vertige) est guidé à la voix par Andrea.
+Le trajet visible : sol de départ à gauche, **échelle 1 vers le haut** (gauche), **passerelle en planches** au-dessus de l'eau (milieu), **échelle 2 vers le bas** (droite),
+sol d'arrivée à droite. Fausses pistes : une échelle qui monte à une corniche vide, une corde pendante, un nid d'oiseau. Sprites posés par le jeu.
+
+```
+Now, in exactly the same drawing style, draw the next scrolling background of the game: a narrow gorge in the Slovak Paradise national park, Slovakia, on the same very hot, dry summer day, as a very wide panoramic image in 3:1 format (3072x1024 pixels), seen from the front, tall pale limestone walls on both sides and in the background, green moss, ferns and a few small trees growing in the rock, shafts of warm sunlight coming from above, a calm atmosphere.
+
+From left to right, along the gorge: on the far left, a flat path of stones at the bottom beside a small stream (this is where the characters start); just right of it, a tall steel ladder bolted to the rock wall, going up to a wooden platform with a handrail; from that platform, a wooden plank footbridge with handrails crossing over the stream, a bit above the water, running to the right; at the right end of the bridge, a second steel ladder going down to the right bank, where a flat path of stones continues (this is where the characters end up); in the middle of the wall, above the bridge, a third ladder leading up to a small empty rock ledge (a dead end), a rope with a knot hanging from a tree root, and a small bird nest in a crack; a thin little waterfall trickling on the right wall (there is less water than usual). The gorge is EMPTY (no people, no animals, no signs with writing). The two lower corners (the stone paths at the start and at the end) stay clear and uncluttered, because characters will walk there. No text, no letters, no numbers, no logos.
+
+Background style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading, simplified shapes, gentle gradients, no photographic textures or reflections. Landscape 3:1 format. No text, no letters, no numbers, no logos, no watermark.
+```
