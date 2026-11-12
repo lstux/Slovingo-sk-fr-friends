@@ -231,6 +231,7 @@
         // pose d'un personnage (planche d'animation) : 'think', 'surprised', 'sit'... ; null = debout
         pose: (id, name) => { const s = g.sprites.find((q) => q.id === id); if (s) s.pose = name || null; },
         flag: (k) => !!g.flags[k],
+        flagv: (k) => g.flags[k],   // valeur brute (compteurs, etapes)
         setFlag: (k, v = true) => { g.flags[k] = v; g.save(); },
         has: (it) => g.items.includes(it),
         give: (it) => { if (!g.items.includes(it)) g.items.push(it); g.save(); },
@@ -282,7 +283,7 @@
       if (!s) return Promise.resolve();
       let p = [x, y];
       const fl = this.scene.floor;
-      if (fl && !pointInPoly(p, fl)) p = closestOnPoly(p, fl);
+      if (fl && !this.scene.freeWalk && !pointInPoly(p, fl)) p = closestOnPoly(p, fl);   // freeWalk : echelles, passerelles (trajets scriptes hors du sol)
       return new Promise((resolve) => { s.tx = p[0]; s.ty = p[1]; s.arrive = resolve; });
     }
     // camera : suit le personnage, bornee aux bords du decor (une scene normale tient dans l'ecran : camera a 0)
@@ -311,7 +312,9 @@
     }
     scaleAt(y) {
       const sc = this.scene.scale || { y0: 590, s0: 0.9, y1: 700, s1: 1.1 };
-      return sc.s0 + ((y - sc.y0) / (sc.y1 - sc.y0)) * (sc.s1 - sc.s0);
+      let t = (y - sc.y0) / (sc.y1 - sc.y0);
+      if (sc.clamp) t = Math.max(0, Math.min(1, t));   // echelles : on monte sans rapetisser
+      return sc.s0 + t * (sc.s1 - sc.s0);
     }
     spriteRect(s) {
       const im = this.img(s.img), k = this.scaleAt(s.y), h = s.h * k;
@@ -358,7 +361,7 @@
       const api = this.api(), h = this.hotspotAt(wp), fox = this.sprites.find((s) => s.id === this.scene.player);
       this.run(async () => {
         if (!h) {   // le sol : le renard y marche
-          if (fox && this.scene.floor && pointInPoly(wp, this.scene.floor)) { this.selected = null; await this.walk(fox.id, wp[0], wp[1]); }
+          if (fox && this.scene.floor && pointInPoly(wp, this.scene.floor) && !(this.scene.noWalk && this.scene.noWalk(api))) { this.selected = null; await this.walk(fox.id, wp[0], wp[1]); }
           return;
         }
         const it = this.selected;

@@ -1097,7 +1097,7 @@
               await say(g, 'fox', 'To nemyslíš vážne.', 'Tu ne parles pas sérieusement.');
               g.pose('fox', null);
               await say(g, 'andrea', 'Myslím. Idem prvá. Ty ideš za mnou.', 'Si. Je passe la première. Toi, tu me suis.');
-              g.end('Koniec ukážky', 'Fin de l\'aperçu');   // la gorge à échelles (décor B) est la suite
+              g.goScene('rokle');
             } },
         ],
         hints: [
@@ -1124,7 +1124,130 @@
           await g.walk('andrea', 760, 645);
         },
       },
+
+      // ---------------------------------------------------------------- chapitre 3 : decor B, la gorge a echelles
+      rokle: {
+        chapter: 'ch3', title: { sk: 'Roklina', fr: 'La gorge' }, tint: ['#b9b08a', '#8f8a6a'],
+        bg: 'art/raj_rokle_wide.webp', worldW: 2160,
+        player: 'fox', floor: [[0, 640], [520, 640], [520, 712], [0, 712]], scale: { y0: 640, s0: 0.6, y1: 712, s1: 0.66, clamp: true },
+        freeWalk: true,
+        noWalk: (g) => !!g.flagv('rk_step'),   // une fois sur l'echelle, on ne marche plus au sol
+        sprites: [gab(220, 668), andrea(330, 1, 662)],
+        hotspots: [
+          { id: 'lano', name: { sk: 'lano', fr: 'la corde' }, poly: box(762, 20, 812, 255),
+            look: { sk: 'Lano s uzlom. Visí zo stromu. To nie je cesta.', fr: 'Une corde avec un nœud. Elle pend d\'un arbre. Ce n\'est pas le chemin.', words: [['lano', 'la corde'], ['uzol', 'le nœud']] } },
+          { id: 'hniezdo', name: { sk: 'hniezdo', fr: 'le nid' }, poly: box(405, 70, 480, 125),
+            look: { sk: 'Vtáčie hniezdo. Je prázdne. Aj vtáky mlčia.', fr: 'Un nid d\'oiseau. Il est vide. Même les oiseaux se taisent.', words: [['hniezdo', 'le nid']] } },
+          { id: 'vodopad', name: { sk: 'vodopád', fr: 'la cascade' }, poly: box(1790, 40, 1950, 610),
+            look: { sk: 'Malý vodopád. Je tenký. Vody je málo.', fr: 'Une petite cascade. Elle est toute fine. Il y a peu d\'eau.', words: [['vodopád', 'la cascade']] } },
+          { id: 'potok', name: { sk: 'potok', fr: 'le ruisseau' }, poly: box(560, 590, 1500, 712),
+            look: { sk: 'Potok pod mostom. Radšej sa nepozerám dole.', fr: 'Le ruisseau sous le pont. Je préfère ne pas regarder en bas.', words: [['most', 'le pont']] } },
+          // les trois elements du trajet : rebrik 1 (hore), most (doprava), rebrik 2 (dole). Le rebrik du milieu est une impasse.
+          { id: 'rebrik1', name: { sk: 'rebrík', fr: 'l\'échelle' }, poly: box(335, 205, 445, 625),
+            async onUse(g) {
+              const st = g.flagv('rk_step') || 0;
+              if (st === 0 && g.flag('rk_ready')) {
+                g.setFlag('rk_step', 1);
+                await follow(g, 'fox', ROK_UP);
+                g.learn('hore', 'en haut');
+                await say(g, 'andrea', 'Výborne! Teraz doprava. Cez most!', 'Très bien ! Maintenant… (à toi de comprendre) Passe le pont !', [['most', 'le pont']]);
+              } else if (st === 0) { await say(g, 'fox', 'Najprv počkám, čo povie Andrea.', 'J\'attends d\'abord ce que dit Andrea.'); }
+              else { await say(g, 'fox', 'Tam som už bol. Nepôjdem naspäť.', 'J\'y suis déjà passé. Je ne retourne pas en arrière.'); }
+            } },
+          { id: 'most', name: { sk: 'most', fr: 'le pont' }, poly: box(620, 300, 1700, 445),
+            async onUse(g) {
+              const st = g.flagv('rk_step') || 0;
+              if (st === 1) {
+                g.setFlag('rk_step', 2);
+                await follow(g, 'fox', ROK_CROSS);
+                g.learn('doprava', 'vers la droite');
+                await say(g, 'andrea', 'Úžasné! A teraz dole! Po rebríku!', 'Génial ! Et maintenant… (à toi de comprendre) Par l\'échelle !', [['rebrík', 'l\'échelle']]);
+              } else if (st === 0) {
+                await say(g, 'fox', 'Most? Ale ako sa tam dostanem? Je vysoko!', 'Le pont ? Mais comment j\'y monte ? C\'est haut !');
+                await rokErr(g, 'Hore! Najprv rebrík!', '« Hore », c\'est en haut. Il faut d\'abord monter à l\'échelle !');
+              } else { await say(g, 'fox', 'Most som už prešiel.', 'J\'ai déjà traversé le pont.'); }
+            } },
+          { id: 'rebrik2', name: { sk: 'rebrík', fr: 'l\'échelle' }, poly: box(1590, 360, 1690, 650),
+            async onUse(g) {
+              const st = g.flagv('rk_step') || 0;
+              if (st === 2) {
+                g.setFlag('rk_step', 3);
+                await follow(g, 'fox', ROK_DOWN);
+                g.learn('dole', 'en bas');
+                g.pose('fox', 'laugh');
+                await say(g, 'fox', 'Som dole! Dole! Žijem!', 'Je suis en bas ! Je suis vivant !', [['dole', 'en bas']]);
+                g.pose('fox', null);
+                await say(g, 'andrea', 'Vidíš? Nebolo to také zlé.', 'Tu vois ? C\'était pas si terrible.');
+                await say(g, 'fox', 'Zatváral som oči. Skoro som nič nevidel.', 'J\'avais les yeux fermés. Je n\'ai presque rien vu.');
+                g.end('Koniec ukážky', 'Fin de l\'aperçu');   // la suite : le rocher de pan Orol (decor C)
+              } else if (st === 1) {
+                await say(g, 'fox', 'Ten rebrík je za mostom. Najprv musím prejsť cez most.', 'Cette échelle est après le pont. Je dois d\'abord le traverser.');
+                await rokErr(g, 'Doprava! Cez most!', '« Doprava », c\'est vers la droite ! Par le pont !');
+              } else { await say(g, 'fox', 'Ešte nie. Najprv ma Andrea musí navigovať.', 'Pas encore. Andrea doit d\'abord me guider.'); }
+            } },
+          { id: 'rebrik3', name: { sk: 'rebrík', fr: 'l\'échelle' }, poly: box(1030, 150, 1100, 395),
+            async onUse(g) {
+              const st = g.flagv('rk_step') || 0;
+              if (st === 0) { await say(g, 'fox', 'Ten rebrík je veľmi vysoko. Odtiaľto sa tam nedostanem.', 'Cette échelle est très haut. D\'ici, je ne peux pas y aller.'); return; }
+              // l'impasse : il grimpe, ne trouve rien, redescend
+              const back = st === 1 ? [585, 305] : [1640, 402];
+              await follow(g, 'fox', [[660, 402], [1065, 402], [1065, 165]]);
+              g.pose('fox', 'surprised');
+              await say(g, 'fox', 'Tu nie je nič. Len skala a… ticho.', 'Il n\'y a rien ici. Juste de la roche et… du silence.');
+              g.pose('fox', null);
+              await say(g, 'andrea', 'Nie tam! Počúvaj ma!', 'Pas là ! Écoute-moi !');
+              await follow(g, 'fox', [[1065, 402]]);
+              if (st === 1) await follow(g, 'fox', [[660, 402], back]); else await follow(g, 'fox', [back]);
+              await rokErr(g, st === 1 ? 'Doprava! Cez most!' : 'Dole! Po rebríku!', st === 1 ? '« Doprava », vers la droite ! Par le pont !' : '« Dole », c\'est en bas ! Par l\'échelle !');
+            } },
+        ],
+        hints: [
+          { id: 'k_up', when: (g) => !g.flagv('rk_step'), levels: [
+            { sk: 'Andrea volá z druhej strany. Počúvaj, čo hovorí.', fr: 'Andrea appelle depuis l\'autre côté. Écoute ce qu\'elle dit.' },
+            { sk: '„Hore“ znamená, že sa ide nahor.', fr: '« Hore » veut dire qu\'on monte.' },
+            { sk: 'Klikni na ľavý rebrík.', fr: 'Clique sur l\'échelle de gauche.' } ] },
+          { id: 'k_cross', when: (g) => g.flagv('rk_step') === 1, levels: [
+            { sk: 'Andrea povedala: „doprava“.', fr: 'Andrea a dit : « doprava ».' },
+            { sk: 'Cez čo sa dá ísť doprava?', fr: 'Par où peut-on aller vers la droite ?' },
+            { sk: 'Klikni na most.', fr: 'Clique sur le pont.' } ] },
+          { id: 'k_down', when: (g) => g.flagv('rk_step') === 2, levels: [
+            { sk: 'Andrea povedala: „dole“.', fr: 'Andrea a dit : « dole ».' },
+            { sk: '„Dole“ je opak slova „hore“.', fr: '« Dole » est le contraire de « hore ».' },
+            { sk: 'Klikni na pravý rebrík.', fr: 'Clique sur l\'échelle de droite.' } ] },
+        ],
+        async onEnter(g) {
+          if (g.flag('rk0')) return;
+          g.setFlag('rk0');
+          await say(g, 'fox', 'Po rebríkoch? Ja nemám rád výšky!', 'Par des échelles ? Moi, je n\'aime pas les hauteurs !', [['výška', 'la hauteur']]);
+          await say(g, 'andrea', 'Nepozeraj dole.', 'Ne regarde pas en bas.');
+          await say(g, 'fox', 'Ja nepozerám. Ja zatváram oči.', 'Je ne regarde pas. Je ferme les yeux.', [['oči', 'les yeux']]);
+          await say(g, 'andrea', 'Zatvorené oči a rebrík? To je zlý nápad.', 'Les yeux fermés et une échelle ? Mauvaise idée.', [['nápad', 'l\'idée']]);
+          await say(g, 'fox', 'Všetky moje nápady sú zlé. Je to môj štýl.', 'Toutes mes idées sont mauvaises. C\'est mon style.');
+          await say(g, 'andrea', 'Poď. Ak spadneš, chytím ťa.', 'Viens. Si tu tombes, je te rattrape.');
+          await say(g, 'fox', 'Ty? Ty si zajac!', 'Toi ? Mais tu es un lièvre !');
+          await say(g, 'andrea', 'Zajačica. A silná.', 'Une hase. Et forte.');
+          await say(g, 'fox', 'Dobre. Idem.', 'D\'accord. J\'y vais.');
+          // Andrea passe devant et attend de l'autre cote, puis guide Gab a la voix
+          await follow(g, 'andrea', [[390, 648], [390, 300], [585, 305], ...ROK_CROSS, ...ROK_DOWN]);
+          g.face('andrea', -1);
+          g.pose('andrea', 'point');
+          await say(g, 'andrea', 'Hore! Rebrík je pred tebou!', 'Hore ! (À toi de comprendre.) L\'échelle est devant toi !');
+          g.pose('andrea', null);
+          g.setFlag('rk_ready');
+        },
+      },
     },
+  };
+
+  // la gorge : trajets le long des echelles et de la passerelle (coordonnees du decor)
+  const ROK_UP = [[390, 648], [390, 300], [585, 305]];            // echelle 1 puis la plate-forme
+  const ROK_CROSS = [[660, 402], [1580, 402], [1640, 402]];       // la passerelle
+  const ROK_DOWN = [[1640, 650], [1820, 668]];                    // echelle 2 puis la berge de droite
+  const follow = async (g, id, pts) => { for (const [x, y] of pts) await g.walk(id, x, y); };
+  // une erreur de plus : apres deux, Andrea traduit la consigne
+  const rokErr = async (g, word, fr) => {
+    const n = (g.flagv('rk_err') || 0) + 1; g.setFlag('rk_err', n);
+    if (n >= 2 && n % 2 === 0) { g.pose('andrea', 'point'); await say(g, 'andrea', 'Počúvaj! ' + word, 'Écoute bien ! ' + fr); g.pose('andrea', null); }
   };
 
   // le monsieur au sourire : la rencontre, avec la bonne negation (« Nič sme nenašli »)

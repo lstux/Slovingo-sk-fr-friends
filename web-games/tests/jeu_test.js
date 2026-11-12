@@ -129,8 +129,25 @@ const srv = http.createServer((q, r) => {
   await useN(1900, 450, -150, 'potok'); s = await st(); if (!s.flags.drank) fail('pas bu'); await shot('10c_raj_potok');
   await pg.evaluate(async () => { const a = __zajka.words; if (!a['vpravo']) throw new Error('vpravo non appris'); });
   await useN(1480, 450, -150, 'andrea apres'); s = await st(); if (!s.flags.raj3) fail('pas de discussion');
-  await useN(2100, 450, -150, 'roklina'); await until((q) => q.end, 'fin');
-  await shot('10_fin');
+  await useN(2100, 450, -150, 'roklina'); await until((q) => q.sc === 'rokle' && !q.dlg && !q.busy && q.flags.rk_ready, 'gorge : intro + Andrea passe');
+  await shot('11_rokle');
+  // clic sur un element du decor, camera calee dessus
+  const clickWorld = async (wx, wy, what) => {
+    await idle('avant ' + what);
+    await pg.evaluate((x) => { __zajka.cam = Math.max(0, Math.min(2160 - 1280, x - 640)); }, wx);
+    const cam = await pg.evaluate(() => __zajka.cam);
+    await click(wx - cam, wy); await idle(what);
+  };
+  await clickWorld(1065, 300, 'rebrik3 trop tot'); if ((await st()).flags.rk_step) fail('rebrik3 ne doit pas lancer le trajet');
+  await clickWorld(900, 360, 'most trop tot'); if ((await st()).flags.rk_step) fail('pont avant echelle');
+  await clickWorld(390, 450, 'rebrik1'); s = await st(); if (s.flags.rk_step !== 1) fail('echelle 1 sans effet ' + JSON.stringify(s.flags));
+  await clickWorld(1640, 500, 'rebrik2 trop tot'); if ((await st()).flags.rk_step !== 1) fail('echelle 2 trop tot');
+  await clickWorld(1065, 300, 'impasse'); await shot('11b_rokle_impasse');
+  await clickWorld(900, 360, 'most'); s = await st(); if (s.flags.rk_step !== 2) fail('pont sans effet ' + JSON.stringify(s.flags));
+  await shot('11c_rokle_pont');
+  await clickWorld(1640, 500, 'rebrik2'); await until((q) => q.end, 'fin');
+  for (const w of ['hore', 'doprava', 'dole']) if (!(await pg.evaluate((w) => !!__zajka.words[w], w))) fail(w + ' non appris');
+  await shot('11d_fin');
   if (errs.length) fail(errs.join(' | '));
   console.log('OK : prologue + chapitres 1 et 2 jouables'); await b.close(); srv.close();
 })().catch((e) => { console.error(e); process.exit(1); });
