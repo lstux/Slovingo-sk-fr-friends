@@ -155,3 +155,9 @@ Row 2, eight poses facing RIGHT: 1 standing, neutral, hands joined in front, smi
 
 Background: flat pure green (#00FF00), no gradient, no floor, no shadows. Do not use that green on the character. No text, no letters, no numbers, no frame labels, no watermark.
 ```
+
+### Résultat (12 nov.) : jardinier OK (`sources/zahradnik_sheet_src.png`), monsieur au sourire à refaire
+
+Le jardinier est bon du premier coup (marche avec le râteau sur l'épaule, 8 poses). Le monsieur de la 1re planche (`sources/pan_sheet_v1_rejetee.png`)
+ne ressemble pas à celui du reste de l'histoire (planche des nouveaux rôles) : visage long, sourire carnassier plein de dents, costume noir, cravate rouge,
+mallette. Refait en joignant `sources/pan_ref.png` (le vrai personnage, découpé de `docs/illustrations/planche-nouveaux-roles.jpg`) et `sources/zahradnik_sheet_src.png` (la mise en page).
