@@ -95,17 +95,19 @@ const srv = http.createServer((q, r) => {
   await useW(2060, 460, 'centre'); s = await st(); if (s.sc !== 'fontana') fail('fontaine ' + s.sc);
   await idle('fontaine'); await shot('07_fontaine');
   // jardinier : sujets (le mot "rebrik" doit etre connu d'abord : on regarde l'echelle)
-  await use(100, 400, 'regarder echelle');
-  await idle('x'); await click(860, 450); await until((q) => q.ch, 'menu sujets'); await shot('08_sujets');
+  await useW(135, 320, 'regarder echelle'); await useW(1270, 366, 'banc (fausse piste)'); await useW(1500, 300, 'panneau (fausse piste)');
+  await idle('x'); const gz = await pg.evaluate(() => { const z = __zajka.sprites.find((q) => q.id === 'zahradnik'); return [z.x, z.y]; });
+  await pg.evaluate(async (x) => { await __zajka.walk('fox', x + 120, 665); __zajka.cam = __zajka.camTarget(); }, gz[0]);
+  const gcam = await pg.evaluate(() => __zajka.cam); await click(gz[0] - gcam, gz[1] - 150); await until((q) => q.ch, 'menu sujets'); await shot('08_sujets');
   await pg.evaluate(() => { const c = __zajka.choices; const i = c.opts.findIndex((o) => /rebr/.test(o.sk)); const r = __zajka.choiceRect(i, c.opts.length); __zajka.click([r.x + 10, r.y + 10]); });
   await until((q) => q.ch, 'menu revient'); await pg.evaluate(() => { const c = __zajka.choices; const r = __zajka.choiceRect(c.opts.length - 1, c.opts.length); __zajka.click([r.x + 10, r.y + 10]); });
   await idle('echelle'); if (!(await st()).items.includes('rebrik')) fail('pas d echelle '+JSON.stringify(await st()));
-  picks = []; await use(570, 450, 'fontaine'); s = await st(); if (!s.pages.includes('p1')) fail('pas de page');
+  picks = []; await useW(800, 330, 'fontaine'); s = await st(); if (!s.pages.includes('p1')) fail('pas de page'); await pg.evaluate(() => { const a = __zajka.sprites.find((q) => q.id === 'auto'); if (a) { a.hidden = false; a.x = 1950; a.y = 548; a.face = 1; } __zajka.camFocus = 1700; __zajka.cam = __zajka.camTarget(); }); await shot('07b_voiture'); await pg.evaluate(() => { __zajka.camFocus = null; });
   // cacher le carnet dans le sac
-  const fx = await pg.evaluate(() => { const f = __zajka.sprites.find((q) => q.id === 'fox'); return [f.x, f.y - 200]; });
+  const fx = await pg.evaluate(() => { const f = __zajka.sprites.find((q) => q.id === 'fox'); return [f.x - __zajka.cam, f.y - 120]; });
   await item('zapisnik', fx[0], fx[1], 'cacher'); 
-  picks = [1, 0]; await idle('rencontre'); s = await st(); if (!s.flags.met_pan_done) fail('rencontre non finie ' + JSON.stringify(s.flags));
-  await use(1175, 400, 'gare'); s = await st(); if (s.sc !== 'stanica') fail('gare ' + s.sc);
+  picks = [1, 0]; await shot('07c_monsieur'); await idle('rencontre'); s = await st(); if (!s.flags.met_pan_done) fail('rencontre non finie ' + JSON.stringify(s.flags));
+  await useW(2110, 280, 'gare'); s = await st(); if (s.sc !== 'stanica') fail('gare ' + s.sc);
   await idle('stanica'); await shot('09_stanica');
   await use(610, 130, 'rozpis'); await use(220, 450, 'papier'); await use(1070, 470, 'pero');
   // combiner : selectionner pero puis cliquer dans l'inventaire sur papier

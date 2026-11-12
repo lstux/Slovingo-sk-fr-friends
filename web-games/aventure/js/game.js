@@ -297,8 +297,8 @@
       cent: { sk: 'cent', fr: 'un centime', icon: 'art/item_cent.png' },
       deka: { sk: 'deka', fr: 'couverture', icon: 'art/item_deka.png' },
       flasa: { sk: 'fľaša', fr: 'gourde', emoji: '💧' },
-      rebrik: { sk: 'rebrík', fr: 'échelle', emoji: '🪜' },
-      zapisnik: { sk: 'zápisník', fr: 'carnet', emoji: '📘' },
+      rebrik: { sk: 'rebrík', fr: 'échelle', icon: 'art/obj_rebrik.png' },
+      zapisnik: { sk: 'zápisník', fr: 'carnet', icon: 'art/item_zapisnik.png' },
       pero: { sk: 'pero', fr: 'stylo', emoji: '🖊️' },
       papier: { sk: 'papier', fr: 'papier', emoji: '📄' },
       mot: { sk: 'lístok (odkaz)', fr: 'petit mot', emoji: '📝' },
@@ -583,7 +583,7 @@
             } },
           { id: 'buda', name: { sk: 'búda', fr: 'la niche' }, poly: box(1125, 420, 1310, 565), walk: [1215, 630],
             look: { sk: 'Psia búda… bez psa. Uf.', fr: 'Une niche… sans chien. Ouf.', words: [['búda', 'la niche'], ['pes', 'le chien']] } },
-          { id: 'fúrik', name: { sk: 'fúrik', fr: 'la brouette' }, poly: box(1385, 460, 1590, 565), walk: [1480, 630],
+          { id: 'furik', name: { sk: 'fúrik', fr: 'la brouette' }, poly: box(1385, 460, 1590, 565), walk: [1480, 630],
             look: { sk: 'Fúrik. Spať vo fúriku? To by bolo… zaujímavé.', fr: 'Une brouette. Dormir dans une brouette ? Ce serait… original.', words: [['fúrik', 'la brouette']] } },
           { id: 'lampa', name: { sk: 'lampa', fr: 'la lampe' }, poly: box(1550, 130, 1655, 585), walk: [1600, 640],
             look: { sk: 'Lampa svieti veľmi silno. Gaba je vidno z celého domu.', fr: 'La lampe brille très fort. On voit Gab de toute la maison.', words: [['lampa', 'la lampe']] } },
@@ -810,14 +810,20 @@
 
       fontana: {
         chapter: 'ch2', title: { sk: 'Spievajúca fontána', fr: 'La fontaine chantante' }, tint: ['#9fb7d6', '#d9d0b4'],
-        player: 'fox', floor: FLOOR, scale: SCALE,
-        sprites: [fox(260), andrea(480, 1), { id: 'zahradnik', emoji: '🧑‍🌾', x: 860, y: 650, h: 340, face: -1 }],
+        bg: 'art/fontana_wide.webp', worldW: 2160,
+        player: 'fox', floor: [[0, 625], [2160, 625], [2160, 712], [0, 712]], scale: { y0: 625, s0: 0.55, y1: 712, s1: 0.62 },
+        // jardinier et monsieur au sourire : emojis provisoires en attendant leurs planches
+        sprites: [gab(150, 665), andrea(270, -1, 655), { id: 'zahradnik', emoji: '🧑‍🌾', x: 560, y: 660, h: 420, face: -1 }],
         extraSprites: {
-          pan: { emoji: '🕴️', x: 1250, y: 650, h: 340, hidden: true, speed: 240 },
-          auto: { emoji: '🚗', x: 1210, y: 620, h: 260, hidden: true },
+          pan: { emoji: '🕴️', x: 1900, y: 640, h: 420, hidden: true, speed: 300 },
+          auto: { img: 'art/obj_auto.png', x: 1950, y: 548, h: 290, face: 1, hidden: true },
         },
+        props: [
+          { img: 'art/obj_rebrik.png', x: 135, y: 590, w: 150, when: (g) => !g.has('rebrik') },
+          { img: 'art/obj_zapisnik.png', x: 800, y: 478, w: 66, when: (g) => !g.flag('nb') },
+        ],
         hotspots: [
-          { id: 'fontana', name: { sk: 'fontána', fr: 'la fontaine' }, poly: box(380, 330, 760, 570), walk: [570, 650],
+          { id: 'fontana', name: { sk: 'fontána', fr: 'la fontaine' }, poly: box(415, 290, 1280, 615), walk: [800, 665],
             look: { sk: 'Fontána je prázdna. Spievajúca fontána dnes nespieva.', fr: 'La fontaine est vide. La fontaine chantante ne chante pas aujourd\'hui.', words: [['fontána', 'la fontaine'], ['prázdny', 'vide']] },
             async onUse(g) {
               if (g.flag('nb')) { await say(g, 'fox', 'Už tu nič nie je.', 'Il n\'y a plus rien ici.'); return; }
@@ -835,14 +841,32 @@
               await say(g, 'zahradnik', 'Odišla na západ. Hľadá vodu. Ako vy.', 'Elle est partie vers l\'ouest. Elle cherche de l\'eau. Comme vous.');
               await say(g, 'andrea', 'Pozri, posledná strana: „Ďalšie meranie: Slovenský raj.“', 'Regarde, la dernière page : « Prochaine mesure : Paradis slovaque. »');
               g.setFlag('car');
-              await say(g, 'narrator', 'Čierne auto zastavuje pri fontáne.', 'Une voiture noire s\'arrête près de la fontaine.', [['auto', 'la voiture']]);
-              g.spawn('auto', 1210, 620);
+              g.camTo(1700); g.spawn('auto', 1950, 548); await g.sleep(900);
+              await say(g, 'narrator', 'Čierne auto zastavuje pri parkovisku.', 'Une voiture noire s\'arrête sur le parking.', [['auto', 'la voiture']]);
+              g.camTo(null);
               await say(g, 'andrea', 'Rýchlo! Schovaj zápisník!', 'Vite ! Cache le carnet !', [['schovať', 'cacher']]);
               g.after(16000, async (g2) => { if (!g2.flag('hidden') && !g2.flag('met_pan')) { g2.setFlag('hidden_by_andrea'); await say(g2, 'andrea', 'Daj to sem!', 'Donne-moi ça !'); await meeting(g2); } });
             } },
-          { id: 'rebrik', name: { sk: 'rebrík', fr: 'l\'échelle' }, poly: box(40, 200, 160, 560), walk: [210, 650],
+          { id: 'strom', name: { sk: 'strom', fr: 'l\'arbre' }, poly: box(100, 100, 300, 545), walk: [330, 670],
+            look: { sk: 'Veľký gaštan. V lete dáva tieň. V lete bez vody dáva aspoň tieň.', fr: 'Un grand marronnier. L\'été, il donne de l\'ombre. Même sans eau, au moins l\'ombre.', words: [['strom', 'l\'arbre'], ['tieň', 'l\'ombre']] } },
+          { id: 'furik', name: { sk: 'fúrik', fr: 'la brouette' }, poly: box(238, 335, 432, 540), walk: [470, 670],
+            look: { sk: 'Fúrik záhradníka. Hrable, krhla… nič modré.', fr: 'La brouette du jardinier. Un râteau, un arrosoir… rien de bleu.', words: [['fúrik', 'la brouette'], ['krhla', 'l\'arrosoir']] } },
+          { id: 'rebrik', name: { sk: 'rebrík', fr: 'l\'échelle' }, poly: box(55, 250, 215, 595), walk: [250, 670],
+            when: (g) => !g.has('rebrik'),
             look: { sk: 'Rebrík. Patrí záhradníkovi.', fr: 'Une échelle. Elle appartient au jardinier.', words: [['rebrík', 'l\'échelle']] } },
-          { id: 'zahradnik', sprite: 'zahradnik', name: { sk: 'záhradník', fr: 'le jardinier' }, walk: [760, 660],
+          { id: 'lavicka', name: { sk: 'lavička', fr: 'le banc' }, poly: box(1177, 356, 1360, 460), walk: [1270, 650],
+            look: { sk: 'Lavička. Nikto na nej nesedí. Je príliš horúco.', fr: 'Un banc. Personne dessus. Il fait trop chaud.', words: [['lavička', 'le banc'], ['príliš', 'trop']] } },
+          { id: 'lampa', name: { sk: 'lampa', fr: 'le lampadaire' }, poly: box(1366, 120, 1430, 470), walk: [1400, 650],
+            look: { sk: 'Stará pouličná lampa. Cez deň nesvieti.', fr: 'Un vieux lampadaire. De jour, il n\'éclaire pas.', words: [['lampa', 'le lampadaire']] } },
+          { id: 'tabula', name: { sk: 'tabuľa', fr: 'le panneau' }, poly: box(1447, 265, 1555, 470), walk: [1500, 650],
+            look: { sk: 'Informačná tabuľa. Je prázdna. Žiadny program, žiadna správa.', fr: 'Un panneau d\'affichage. Il est vide. Pas de programme, pas de message.', words: [['tabuľa', 'le panneau'], ['prázdny', 'vide']] } },
+          { id: 'kaviaren', name: { sk: 'kaviareň', fr: 'le café' }, poly: box(1590, 160, 1825, 430), walk: [1700, 650],
+            look: { sk: 'Terasa kaviarne. Stoličky sú zložené. Zatvorené.', fr: 'La terrasse du café. Les chaises sont empilées. Fermé.', words: [['kaviareň', 'le café'], ['zatvorené', 'fermé']] } },
+          { id: 'kvety', name: { sk: 'kvety', fr: 'les fleurs' }, poly: box(430, 500, 660, 580), walk: [540, 670],
+            look: { sk: 'Zvädnuté kvety okolo fontány. Aj ony majú smäd.', fr: 'Des fleurs fanées autour de la fontaine. Elles ont soif, elles aussi.', words: [['smäd', 'la soif']] } },
+          { id: 'parkovisko', name: { sk: 'parkovisko', fr: 'le parking' }, poly: box(1790, 360, 2040, 570), walk: [1850, 670],
+            look: { sk: 'Parkovisko. Dnes je skoro prázdne.', fr: 'Un parking. Aujourd\'hui, il est presque vide.', words: [['parkovisko', 'le parking']] } },
+          { id: 'zahradnik', sprite: 'zahradnik', name: { sk: 'záhradník', fr: 'le jardinier' }, walk: [620, 670],
             greet: { who: 'zahradnik', sk: 'Dobrý deň. Hľadáte vodu?', fr: 'Bonjour. Vous cherchez de l\'eau ?' },
             topics: [
               { need: 'voda', sk: 'Kde je voda?', fr: 'Où est l\'eau ?', async run(g) { await say(g, 'zahradnik', 'Tu už nie je. Nikde v meste. V Slovenskom raji ešte je. Hovorili to v rádiu.', 'Il n\'y en a plus ici. Nulle part en ville. Dans le Paradis slovaque, il y en a encore. Ils l\'ont dit à la radio.', [['rádio', 'la radio']]); } },
@@ -859,7 +883,7 @@
                 await meeting(g);
               },
             } },
-          { id: 'stanica', name: { sk: 'stanica', fr: 'la gare' }, poly: box(1100, 250, 1250, 560), walk: [1090, 650],
+          { id: 'stanica', name: { sk: 'stanica', fr: 'la gare' }, poly: box(2060, 215, 2160, 360), walk: [2080, 650],
             async onUse(g) {
               if (!g.flag('met_pan_done')) { await say(g, 'fox', g.flag('nb') ? 'Počkaj. Najprv ten pán.' : 'Najprv fontána.', g.flag('nb') ? 'Attends. D\'abord ce monsieur.' : 'D\'abord la fontaine.'); return; }
               g.goScene('stanica');
@@ -873,7 +897,7 @@
           { id: 'f_ladder', when: (g) => !g.flag('nb') && !g.has('rebrik'), levels: [
             { sk: 'Na dne fontány je niečo modré.', fr: 'Au fond de la fontaine, il y a quelque chose de bleu.' },
             { sk: 'Potrebuješ rebrík. Spýtaj sa záhradníka.', fr: 'Il te faut une échelle. Demande au jardinier.' },
-            { sk: 'Povedz záhradníkovi slovo „rebrík“. Najprv si ho pozri pri stene.', fr: 'Dis au jardinier le mot « rebrík ». Regarde-le d\'abord près du mur.' } ] },
+            { sk: 'Povedz záhradníkovi slovo „rebrík“. Najprv si ho pozri pri strome.', fr: 'Dis au jardinier le mot « rebrík ». Regarde-la d\'abord près de l\'arbre.' } ] },
           { id: 'f_climb', when: (g) => !g.flag('nb') && g.has('rebrik'), levels: [
             { sk: 'Máš rebrík. Klikni na fontánu.', fr: 'Tu as l\'échelle. Clique sur la fontaine.' } ] },
           { id: 'f_go', levels: [
@@ -964,8 +988,8 @@
   async function meeting(g) {
     if (g.flag('met_pan')) return;
     g.setFlag('met_pan');
-    g.spawn('pan', 1250, 650); g.face('pan', -1);
-    await g.walk('pan', 960, 650);
+    g.camTo(1600); g.spawn('pan', 1900, 645); g.face('pan', -1);
+    await g.walk('pan', 1480, 655); g.camTo(null);
     await say(g, 'pan', 'Dobrý deň. Nenašli ste modrý zápisník? Je môj.', 'Bonjour. Vous n\'auriez pas trouvé un carnet bleu ? C\'est le mien.');
     await say(g, 'zahradnik', 'Váš? Myslel som, že patrí pani doktorke.', 'Le vôtre ? Je croyais qu\'il était à madame la docteure.');
     await say(g, 'pan', 'Mojej kolegyni. To je to isté. Tak čo? Nenašli ste ho?', 'À ma collègue. C\'est pareil. Alors ? Vous ne l\'avez pas trouvé ?');
@@ -985,7 +1009,7 @@
     }
     await say(g, 'andrea', 'Nič sme nenašli. Dovidenia.', 'Nous n\'avons rien trouvé. Au revoir.', [['nič', 'rien'], ['nenašli', '(ils) n\'ont pas trouvé']]);
     await say(g, 'pan', 'Škoda. Pekný deň, deti.', 'Dommage. Bonne journée, les enfants.');
-    await g.walk('pan', 1250, 650);
+    await g.walk('pan', 1900, 645);
     g.hide('pan'); g.hide('auto');
     await say(g, 'narrator', 'Auto odchádza.', 'La voiture s\'en va.');
     await say(g, 'andrea', 'Ten pán sa veľa usmieva. To sa mi nepáči.', 'Ce monsieur sourit beaucoup. Ça ne me plaît pas.');

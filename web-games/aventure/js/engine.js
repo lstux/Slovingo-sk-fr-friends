@@ -121,6 +121,7 @@
       this.enter(this.load() || this.data.start);
     }
     enter(id) {
+      this.camFocus = null;
       const def = this.data.scenes[id];
       const fromCine = !!(this.scene && this.scene.cine);
       this.flushCine();
@@ -200,6 +201,7 @@
         give: (it) => { if (!g.items.includes(it)) g.items.push(it); g.save(); },
         take: (it) => { g.items = g.items.filter((q) => q !== it); if (g.selected === it) g.selected = null; g.save(); },
         learn: (sk, fr) => { g.words[sk] = fr; g.save(); },
+        camTo: (x) => { g.camFocus = x == null ? null : x; },   // la camera regarde x (ou revient sur le joueur avec null)
         after: (ms, fn) => g.timers.push({ at: g.sceneTime + ms / 1000, fn }),
         sleep, goScene: (id) => { if (live()) g.enter(id); }, restart: () => g.enter(g.scene.id),
         end: (sk, fr) => { g.endCard = { sk, fr }; g.save(); },
@@ -252,7 +254,7 @@
       const ww = (this.scene && this.scene.worldW) || W;
       if (ww <= W) return 0;
       const pl = this.sprites.find((q) => q.id === this.scene.player);
-      const x = pl ? pl.x : W / 2;
+      const x = this.camFocus != null ? this.camFocus : pl ? pl.x : W / 2;   // camFocus : plan de coupe (g.camTo)
       return Math.max(0, Math.min(ww - W, x - W / 2));
     }
     hotspotAt(p) {
