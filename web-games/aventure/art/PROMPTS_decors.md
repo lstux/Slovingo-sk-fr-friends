@@ -94,3 +94,20 @@ Background style: Classic 2D hand-drawn animated-film style (not 3D): clean ink 
 Résultat (12 nov.) : `sources/park_wide_src.png`, puis à la suite le canard (6 poses, `sources/kacka_sheet_src.png` → `art/kacka_*.png`)
 et les animaux silencieux de l'histoire (« Personne ne parle » : biche, hérisson, tortue, grenouille, `sources/zvierata_park_src.png`
 → `art/obj_*.png`, posés en `props` avec une zone chacun).
+
+
+## 10. La Hlavná ulica et la fontaine chantante (à sec) : `fontana_wide.webp` (chapitre 2)
+
+**À la suite de la conversation du parc** (rien à joindre). Disposition : arrivée du parc à gauche ; l'**échelle** du jardinier contre
+un arbre, avec sa brouette d'outils ; la **grande fontaine ronde à sec au milieu** (bassin profond, petite tache bleue au fond = le
+carnet, sculpture centrale) ; la cathédrale Sainte-Élisabeth derrière ; des façades colorées ; un banc, un panneau d'affichage vide et
+un parasol de terrasse fermé (fausses pistes) ; à droite, la rue où se garera la voiture noire, vers la gare. Le jardinier, le monsieur
+au sourire et la voiture sont des sprites.
+
+```
+Now, in exactly the same drawing style, draw the next scrolling background of the game: Hlavná ulica, the main street of the old town of Kosice, Slovakia, on the same very hot, dry summer morning, as a very wide panoramic image in 3:1 format (3072x1024 pixels), seen from the side, harsh bright sunlight, a pale hazy sky.
+
+From left to right: the end of the park path arriving from the left, with a tree; a long wooden ladder leaning against that tree and a gardener's wheelbarrow with tools (a rake, a watering can); in the middle, a big round stone fountain in a small flower bed, completely DRY: a deep empty basin with a low stone rim, a decorative metal sculpture in the centre with dry water jets, and, at the very bottom of the basin, a tiny blue object (a small notebook) barely visible; behind the fountain, the tall Gothic Cathedral of St. Elisabeth with its colourful patterned tiled roof; along the street, colourful baroque house facades (pastel yellow, pink, green) with closed shutters because of the heat; a public bench; an empty notice board on a pole (no posters, no writing); a café terrace with a closed parasol and stacked chairs; and on the right, the cobbled street continuing towards the railway station, with an empty parking space at the kerb. The street is EMPTY (no people, no animals, no cars). The lower third of the picture (the cobbled square in front of the fountain) stays clear and empty, because characters will walk there. No text, no letters, no numbers, no signs with writing, no shop names, no logos.
+
+Background style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading, simplified shapes, gentle gradients, no photographic textures or reflections. Landscape 3:1 format. No text, no letters, no numbers, no logos, no watermark.
+```
