@@ -49,3 +49,10 @@ Gab (gare, tram) utilise sa nouvelle planche : `walkSheet` (4 images, 8 i/s) et 
 laugh, sit`), images faites par `tools/make_sprites.py`. Le moteur : la pose `talk` pendant ses répliques, un geste (`hotspot.pose`,
 ou `use` quand on se sert d'un objet) avant l'action, `g.pose(id, nom)` dans les histoires, `scaleSpeed` (vitesse à l'échelle du
 décor, les pieds ne glissent pas). Prompts : `art/PROMPTS_persos.md`.
+
+## Voix (synthèse vocale)
+
+Le bouton « Voix » lit les dialogues, les phrases choisies et les cartons de l'ouverture avec la voix slovaque (`sk-SK`) de l'appareil (`speechSynthesis`).
+Un seul timbre existe : les personnages se distinguent par la hauteur et le débit (`VOICE_PROFILES` dans `engine.js`, surchargeables par `characters.<id>.voice`).
+Dans le Slovník, toucher un mot l'écoute. Sans voix slovaque, le bouton affiche « indisponible » et le jeu reste muet. Réglage retenu dans `localStorage`.
+Test : `node web-games/tests/voix_test.js` (fausse synthèse). La liste des sons à chercher est dans `docs/Sons-a-chercher.md`.

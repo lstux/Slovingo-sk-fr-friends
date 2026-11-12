@@ -5,7 +5,10 @@
 (function (root) {
   'use strict';
   const W = 1280, H = 720;
-  const SAVE_KEY = 'zajka-aventure-v1', FR_KEY = 'zajka-aventure-fr';
+  const SAVE_KEY = 'zajka-aventure-v1', FR_KEY = 'zajka-aventure-fr', VOICE_KEY = 'zajka-aventure-voice';
+  // une seule voix slovaque (celle de l'appareil) : on distingue les personnages par la hauteur et le debit
+  const VOICE_PROFILES = { fox: { pitch: 1.0, rate: 0.95 }, andrea: { pitch: 1.3, rate: 1.0 }, narrator: { pitch: 0.8, rate: 0.92 }, katka: { pitch: 1.2, rate: 1.05 }, mato: { pitch: 0.7, rate: 0.9 },
+    zahradnik: { pitch: 0.7, rate: 0.85 }, pan: { pitch: 0.85, rate: 0.9 }, revizor: { pitch: 0.8, rate: 0.9 }, pokladnicka: { pitch: 1.1, rate: 0.95 }, kacka: { pitch: 1.6, rate: 1.0 }, teta: { pitch: 1.15, rate: 0.95 } };
   const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
   const smooth = (k) => k * k * (3 - 2 * k);   // courbe douce (depart et arrivee lents)
 
@@ -51,6 +54,9 @@
       // cinematiques (scene.cine) : images avec leur propre cadrage (pics), animations, attentes, carton de texte, fondu au noir
       this.serial = 0; this.pics = []; this.anims = []; this.waits = []; this.caption = null; this.fadeA = 0;
       try { this.showFr = root.localStorage.getItem(FR_KEY) !== '0'; } catch (e) { /* ignore */ }
+      this.voiceOn = true; this.voice = null;
+      try { this.voiceOn = root.localStorage.getItem(VOICE_KEY) !== '0'; } catch (e) { /* ignore */ }
+      this._initVoice();
       this._bind();
     }
 
@@ -107,6 +113,35 @@
       this.flags = {}; this.items = []; this.words = {}; this.selected = null; this.endCard = null;
       this.pages = []; this.clues = []; this.helper = null; this.hintLevel = {}; this.chapter = null; this.visited = []; this.mapState = null; this.panel = null;
       this.enter(this.data.start);
+    }
+    // ------------------------------------------------------------ voix (synthese vocale du navigateur, slovaque)
+    _initVoice() {
+      const ss = root.speechSynthesis;
+      if (!ss) return;
+      const pick = () => {
+        const vs = ss.getVoices() || [];
+        const sk = (v) => /^(sk|slk|slo)([-_]|$)/i.test(v.lang || '') || /slovak|sloven[čc]ina/i.test(v.name || '');
+        this.voice = vs.filter(sk).find((v) => /sk[-_]SK/i.test(v.lang)) || vs.find(sk) || null;
+      };
+      pick();
+      if (ss.addEventListener) ss.addEventListener('voiceschanged', pick);
+    }
+    // 'on' : actif ; 'off' : coupe ; 'none' : aucune voix slovaque sur cet appareil
+    voiceState() { return !root.speechSynthesis || !this.voice ? 'none' : this.voiceOn ? 'on' : 'off'; }
+    setVoice(v) {
+      this.voiceOn = v;
+      try { root.localStorage.setItem(VOICE_KEY, v ? '1' : '0'); } catch (e) { /* ignore */ }
+      if (!v) this.stopVoice();
+    }
+    stopVoice() { try { if (root.speechSynthesis) root.speechSynthesis.cancel(); } catch (e) { /* ignore */ } }
+    speak(text, who) {
+      if (this.voiceState() !== 'on' || !text) return;
+      try {
+        const ch = (this.data.characters && this.data.characters[who]) || {}, prof = Object.assign({ pitch: 1, rate: 0.95 }, VOICE_PROFILES[who], ch.voice);
+        const u = new root.SpeechSynthesisUtterance(text.replace(/[…]/g, '...'));
+        u.voice = this.voice; u.lang = this.voice.lang || 'sk-SK'; u.pitch = prof.pitch; u.rate = prof.rate;
+        root.speechSynthesis.cancel(); root.speechSynthesis.speak(u);
+      } catch (e) { /* pas de voix : le jeu reste muet */ }
     }
     setShowFr(v) {
       this.showFr = v;
@@ -178,7 +213,7 @@
       return {
         animate: (ms, fn, ease) => (live() ? g.animate(ms, (k) => { if (live()) fn(k); }, ease) : done()),
         wait: (ms) => (live() ? g.wait(ms) : done()),
-        caption: (sk, fr, words) => { if (!live()) return; if (words) for (const [a, b] of words) g.words[a] = b; g.caption = sk ? { sk, fr, t0: g.t } : null; },
+        caption: (sk, fr, words) => { if (!live()) return; if (words) for (const [a, b] of words) g.words[a] = b; g.caption = sk ? { sk, fr, t0: g.t } : null; if (sk) g.speak(sk, 'narrator'); },
         pic: (id, props) => { if (live()) g.pic(id, props); },
         fade: (a) => { if (live()) g.fadeA = a; },
         say: (who, sk, fr, words) => g.say(who, sk, fr, words),
@@ -234,6 +269,7 @@
       // le personnage qui parle prend sa pose « parle » (s'il en a une et qu'il n'a pas deja une autre pose)
       const sp = this.sprites.find((q) => q.id === who && q.poses && q.poses.talk && !q.pose);
       if (sp) sp.pose = 'talk';
+      this.speak(sk, who);
       return new Promise((resolve) => {
         this.dialog = { who, sk, fr, shown: 0, done: false, resolve: () => { if (sp && sp.pose === 'talk') sp.pose = null; resolve(); } };
       });
@@ -287,6 +323,14 @@
     async click(p) {
       if (this.endCard) return;
       if (this.panel === 'map') { this.clickMap(); return; }
+      if (this.panel === 'words') {   // un mot : on l'ecoute ; ailleurs : on ferme
+        const ws = Object.entries(this.words);
+        for (let i = 0; i < ws.length; i++) {
+          const col = i % 2, row = (i / 2) | 0, x = 80 + col * 560, y = 130 + row * 50;
+          if (p[0] >= x - 10 && p[0] <= x + 500 && p[1] >= y - 8 && p[1] <= y + 42) { this.speak(ws[i][0], 'fox'); return; }
+        }
+        this.panel = null; this.stopVoice(); return;
+      }
       if (this.panel) { this.panel = null; return; }
       if (this.dialog) { this.advance(); return; }
       if (this.choices) { this.pickChoice(p); return; }
@@ -406,6 +450,7 @@
       if (!d) return;
       if (d.shown < d.sk.length) { d.shown = d.sk.length; return; }
       this.dialog = null;
+      this.stopVoice();
       d.resolve();
     }
     pickChoice(p) {
@@ -414,6 +459,7 @@
         const r = this.choiceRect(i, c.opts.length);
         if (p[0] >= r.x && p[0] <= r.x + r.w && p[1] >= r.y && p[1] <= r.y + r.h) {
           this.choices = null;
+          this.speak(c.opts[i].sk, 'fox');
           c.resolve(i);
           return;
         }
@@ -813,7 +859,7 @@
         c.fillStyle = '#b9b4cf'; c.fillText('= ' + b, 80 + col * 560 + 250, 130 + row * 50);
       });
       if (!ws.length) { c.fillStyle = '#9a96a8'; c.fillText('Pas encore de mots : parle, regarde, écoute.', 80, 140); }
-      c.font = '22px system-ui'; c.fillStyle = '#9a96a8'; c.fillText('Touche pour fermer', 80, H - 60);
+      c.font = '22px system-ui'; c.fillStyle = '#9a96a8'; c.fillText(this.voiceState() === 'on' ? 'Touche un mot pour l\'écouter · touche ailleurs pour fermer' : 'Touche pour fermer', 80, H - 60);
     }
     // decor provisoire : degrade, sol, noms des zones (pour jouer avant d'avoir les images)
     drawPlaceholder(sc) {

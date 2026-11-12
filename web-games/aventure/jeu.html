@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
 <title>Zajko Quest</title>
-<link rel="stylesheet" href="../common/style.css?v=20261103">
+<link rel="stylesheet" href="../common/style.css?v=20261112">
 <style>
   header { flex-wrap: wrap; row-gap: 4px; }
   main { background: #0b0b12; }
@@ -20,6 +20,7 @@
   <button id="zones" title="Montrer ce qui est cliquable (touche Espace)">Zones</button>
   <button id="words">Slovník</button>
   <button id="fr">Traduction : oui</button>
+  <button id="voice">Voix : oui</button>
   <button id="newgame">Nouvelle partie</button>
   <button id="fs">Plein écran</button>
   <a href="../index.html">Jeux</a>
@@ -27,9 +28,9 @@
 </header>
 <main id="stage"><canvas id="screen" width="1280" height="720"></canvas></main>
 <p id="rot">📱 Tourne ton téléphone en paysage : le décor sera plus grand.</p>
-<script src="js/engine.js?v=20261103"></script>
-<script src="js/tram.js?v=20261103"></script>
-<script src="js/game.js?v=20261109"></script>
+<script src="js/engine.js?v=20261112"></script>
+<script src="js/tram.js?v=20261112"></script>
+<script src="js/game.js?v=20261112"></script>
 <script>
 (function () {
   const cv = document.getElementById('screen'), stage = document.getElementById('stage');
@@ -44,6 +45,15 @@
   const $ = (id) => document.getElementById(id);
   const label = () => { $('fr').textContent = 'Traduction : ' + (g.showFr ? 'oui' : 'non'); };
   label();
+  const vlabel = () => {
+    const st = g.voiceState(), b = $('voice');
+    b.textContent = 'Voix : ' + (st === 'on' ? 'oui' : st === 'off' ? 'non' : 'indisponible');
+    b.title = st === 'none' ? 'Aucune voix slovaque sur cet appareil (réglages du système : langues et voix)' : 'Lire les dialogues à voix haute (voix slovaque de ton appareil)';
+    b.disabled = st === 'none';
+  };
+  vlabel(); setTimeout(vlabel, 600); setTimeout(vlabel, 2500);   // les voix de certains navigateurs arrivent en retard
+  if (window.speechSynthesis && speechSynthesis.addEventListener) speechSynthesis.addEventListener('voiceschanged', vlabel);
+  $('voice').onclick = () => { g.setVoice(!g.voiceOn); vlabel(); };
   $('fr').onclick = () => { g.setShowFr(!g.showFr); label(); };
   $('zones').onclick = () => g.flashZones();
   $('words').onclick = () => { g.panel = g.panel ? null : 'words'; };
