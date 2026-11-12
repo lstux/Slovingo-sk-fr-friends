@@ -21,6 +21,19 @@
     walkSheet: { img: 'art/revizor2_walk.png', frames: 8, fps: 6, h: 515 },
     poses: Object.fromEntries(Object.entries(REVIZOR_POSES).map(([k, h]) => [k, { img: `art/revizor2_${k}.png`, h }])),
   });
+  // le jardinier et le monsieur au sourire, planches du 12 nov. (tools/make_sprites.py zahradnik / pan)
+  const ZAHRADNIK_POSES = { idle: 481, talk: 481, shrug: 480, point: 471, scratch: 483, give: 481, sky: 487, wave: 481 };
+  const zahradnik = (x, y, face) => ({
+    id: 'zahradnik', img: 'art/zahradnik_idle.png', x, y, h: ZAHRADNIK_POSES.idle, face: face || -1, speed: 238, scaleSpeed: true,
+    walkSheet: { img: 'art/zahradnik_walk.png', frames: 8, fps: 6, h: 481 },
+    poses: Object.fromEntries(Object.entries(ZAHRADNIK_POSES).map(([k, h]) => [k, { img: `art/zahradnik_${k}.png`, h }])),
+  });
+  const PAN_POSES = { idle: 542, talk: 541, ask: 541, watch: 528, no: 541, tie: 542, point: 539, car: 518 };
+  const panSprite = (x, y) => ({
+    img: 'art/pan_idle.png', x, y, h: PAN_POSES.idle, hidden: true, speed: 323, scaleSpeed: true,
+    walkSheet: { img: 'art/pan_walk.png', frames: 8, fps: 7, h: 544 },
+    poses: Object.fromEntries(Object.entries(PAN_POSES).map(([k, h]) => [k, { img: `art/pan_${k}.png`, h }])),
+  });
   const andrea = (x, face, y) => ({
     id: 'andrea', img: 'art/andrea2_idle.png', x, y: y || 662, h: ANDREA_POSES.idle, face: face || 1, speed: 324, scaleSpeed: true,
     walkSheet: { img: 'art/andrea2_walk.png', frames: 8, fps: 8, h: 479 },
@@ -812,10 +825,9 @@
         chapter: 'ch2', title: { sk: 'Spievajúca fontána', fr: 'La fontaine chantante' }, tint: ['#9fb7d6', '#d9d0b4'],
         bg: 'art/fontana_wide.webp', worldW: 2160,
         player: 'fox', floor: [[0, 625], [2160, 625], [2160, 712], [0, 712]], scale: { y0: 625, s0: 0.55, y1: 712, s1: 0.62 },
-        // jardinier et monsieur au sourire : emojis provisoires en attendant leurs planches
-        sprites: [gab(150, 665), andrea(270, -1, 655), { id: 'zahradnik', emoji: '🧑‍🌾', x: 560, y: 660, h: 420, face: -1 }],
+        sprites: [gab(150, 665), andrea(270, -1, 655), zahradnik(560, 660, -1)],
         extraSprites: {
-          pan: { emoji: '🕴️', x: 1900, y: 640, h: 420, hidden: true, speed: 300 },
+          pan: panSprite(1900, 645),
           auto: { img: 'art/obj_auto.png', x: 1950, y: 548, h: 290, face: 1, hidden: true },
         },
         props: [

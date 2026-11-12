@@ -44,6 +44,20 @@ CHARS = {
         'scale_by': 'height',    # la casquette fausse la largeur de la tete : on compare les hauteurs
         'out': 'revizor2',       # art/revizor.png et revizor_walk.png restent ceux de l'apercu
     },
+    'zahradnik': {
+        'poses': {'src': 'sources/zahradnik_sheet_src.png', 'cols': 8, 'rows': 2, 'row': 1,
+                  'names': ['idle', 'talk', 'shrug', 'point', 'scratch', 'give', 'sky', 'wave']},
+        'walk': {'src': 'sources/zahradnik_sheet_src.png', 'cols': 8, 'rows': 2, 'row': 0, 'frames': 8, 'fps': 6, 'steps': 2},
+        'height': 470,           # vieux monsieur un peu voute : plus petit que le controleur
+        'scale_by': 'height',    # le chapeau fausse la largeur de la tete
+    },
+    'pan': {
+        'poses': {'src': 'sources/pan_sheet_src.png', 'cols': 8, 'rows': 2, 'row': 1,
+                  'names': ['idle', 'talk', 'ask', 'watch', 'no', 'tie', 'point', 'car']},
+        'walk': {'src': 'sources/pan_sheet_src.png', 'cols': 8, 'rows': 2, 'row': 0, 'frames': 8, 'fps': 7, 'steps': 2},
+        'height': 530,           # grand et mince
+        'scale_by': 'height',
+    },
 }
 
 def key(img):
