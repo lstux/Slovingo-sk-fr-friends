@@ -182,3 +182,17 @@ Background: one flat, uniform pure green colour (#00FF00) everywhere, with no gr
 
 Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading, very simple cartoon human. No text, no letters, no numbers, no frame labels, no watermark.
 ```
+
+## Gab grimpe (chapitre 3, la gorge) : `sources/gab_climb_src.png`
+
+**À joindre** : `sources/gab_sheet_src.png` (et la planche de grimpe précédente pour les retouches). Résultat retenu à la 2ᵉ version : l'échelle est dessinée en **aplat magenta uni** (#FF00FF) pour être retirée par script comme le vert (la 1ʳᵉ version, échelle en bois brun, n'était pas détourable : brun trop proche de l'orange du renard).
+Rangée 1 : 8 images de grimpe, de dos. Rangée 2 : 8 images de descente (3/4 dos, tête de profil, yeux fermés, grimace). Découpage : `tools/make_climb.py` → `art/gab_climb_up.png` et `gab_climb_down.png`.
+
+```
+Use the attached sheet as the model: same character (Gab the fox), same art style, same colors, same outfit and backpack, same proportions.
+Create a new animation sheet in a single 3:1 image: 8 columns x 2 rows of equal cells, flat pure green background (#00FF00), no ground shadow, no scenery, no text, no grid lines.
+In every cell Gab climbs a vertical ladder, seen from behind. The ladder is a perfectly flat, solid magenta silhouette (#FF00FF), no texture, no shading, no outline, same position and size in every cell; Gab's hands and feet stay IN FRONT of the magenta rungs. Eyes tightly shut, brows frowning, tense scared expression.
+Row 1: 8-frame climbing-up cycle, hands and feet alternating rung by rung (the 8th frame loops to the 1st).
+Row 2: 8-frame climbing-down cycle, same ladder, head turned toward the ground with a grimace, eyes still closed, tail tidy.
+Same scale in every cell, Gab centered, nothing crossing a cell border.
+```

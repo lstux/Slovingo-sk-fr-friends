@@ -9,6 +9,7 @@
   const gab = (x, y) => ({
     id: 'fox', img: 'art/gab_idle.png', x, y: y || 650, h: GAB_POSES.idle, speed: 307, scaleSpeed: true,
     walkSheet: { img: 'art/gab_walk.png', frames: 4, fps: 8, h: 436 },
+    climbSheets: { up: { img: 'art/gab_climb_up.png', frames: 8, fps: 9, h: 325 }, down: { img: 'art/gab_climb_down.png', frames: 8, fps: 9, h: 325 } },
     poses: Object.fromEntries(Object.entries(GAB_POSES).map(([k, h]) => [k, { img: `art/gab_${k}.png`, h }])),
   });
   // Andrea, nouvelle planche (art/PROMPTS_persos.md ; tools/make_sprites.py andrea) : marche 8 images (un cycle complet), 16 poses
@@ -1191,12 +1192,12 @@
               if (st === 0) { await say(g, 'fox', 'Ten rebrík je veľmi vysoko. Odtiaľto sa tam nedostanem.', 'Cette échelle est très haut. D\'ici, je ne peux pas y aller.'); return; }
               // l'impasse : il grimpe, ne trouve rien, redescend
               const back = st === 1 ? [585, 305] : [1640, 402];
-              await follow(g, 'fox', [[660, 402], [1065, 402], [1065, 165]]);
+              await follow(g, 'fox', [[660, 402], [1065, 402], 'up', [1065, 165]]);
               g.pose('fox', 'surprised');
               await say(g, 'fox', 'Tu nie je nič. Len skala a… ticho.', 'Il n\'y a rien ici. Juste de la roche et… du silence.');
               g.pose('fox', null);
               await say(g, 'andrea', 'Nie tam! Počúvaj ma!', 'Pas là ! Écoute-moi !');
-              await follow(g, 'fox', [[1065, 402]]);
+              await follow(g, 'fox', ['down', [1065, 402]]);
               if (st === 1) await follow(g, 'fox', [[660, 402], back]); else await follow(g, 'fox', [back]);
               await rokErr(g, st === 1 ? 'Doprava! Cez most!' : 'Dole! Po rebríku!', st === 1 ? '« Doprava », vers la droite ! Par le pont !' : '« Dole », c\'est en bas ! Par l\'échelle !');
             } },
@@ -1240,10 +1241,14 @@
   };
 
   // la gorge : trajets le long des echelles et de la passerelle (coordonnees du decor)
-  const ROK_UP = [[390, 648], [390, 300], [585, 305]];            // echelle 1 puis la plate-forme
-  const ROK_CROSS = [[660, 402], [1580, 402], [1640, 402]];       // la passerelle
-  const ROK_DOWN = [[1640, 650], [1820, 668]];                    // echelle 2 puis la berge de droite
-  const follow = async (g, id, pts) => { for (const [x, y] of pts) await g.walk(id, x, y); };
+  // trajets scriptes : [x, y] = on marche ; 'up' / 'down' / null = on grimpe (bande d'images) ou on remarche
+  const ROK_UP = [[390, 648], 'up', [390, 300], null, [585, 305]];            // echelle 1 puis la plate-forme
+  const ROK_CROSS = [[660, 402], [1580, 402], [1640, 402]];                   // la passerelle
+  const ROK_DOWN = ['down', [1640, 650], null, [1820, 668]];                  // echelle 2 puis la berge de droite
+  const follow = async (g, id, pts) => {
+    for (const p of pts) { if (Array.isArray(p)) await g.walk(id, p[0], p[1]); else g.climb(id, p); }
+    g.climb(id, null);
+  };
   // une erreur de plus : apres deux, Andrea traduit la consigne
   const rokErr = async (g, word, fr) => {
     const n = (g.flagv('rk_err') || 0) + 1; g.setFlag('rk_err', n);

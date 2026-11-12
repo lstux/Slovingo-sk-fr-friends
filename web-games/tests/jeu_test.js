@@ -24,7 +24,7 @@ const srv = http.createServer((q, r) => {
   // avance dialogues/cartes jusqu'a la condition ; choix : liste des index a prendre dans l'ordre (defaut 0)
   let picks = [];
   const until = async (fn, what) => {
-    for (let i = 0; i < 300; i++) {
+    for (let i = 0; i < 900; i++) {
       const s = await st();
       if (fn(s)) return s;
       if (s.panel === 'map') await click(640, 360);

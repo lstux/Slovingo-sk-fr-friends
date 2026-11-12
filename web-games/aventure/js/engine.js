@@ -77,7 +77,7 @@
         for (const q of s.pics || []) srcs.add(q.img);
         for (const q of s.props || []) srcs.add(q.img);
         for (const l of s.layers || []) { srcs.add(l.img); for (const q of l.imgs || []) srcs.add(q); }
-        for (const sp of (s.sprites || []).concat(Object.values(s.extraSprites || {}))) { srcs.add(sp.img); if (sp.walkSheet) srcs.add(sp.walkSheet.img); for (const q of Object.values(sp.poses || {})) srcs.add(q.img); }
+        for (const sp of (s.sprites || []).concat(Object.values(s.extraSprites || {}))) { srcs.add(sp.img); if (sp.walkSheet) srcs.add(sp.walkSheet.img); for (const q of Object.values(sp.climbSheets || {})) srcs.add(q.img); for (const q of Object.values(sp.poses || {})) srcs.add(q.img); }
       }
       for (const it of Object.values(this.data.items)) srcs.add(it.icon);
       return Promise.all([...srcs].filter(Boolean).map((s) => new Promise((res) => {
@@ -227,6 +227,7 @@
           return s;
         },
         hide: (id) => { const s = g.sprites.find((q) => q.id === id); if (s) { s.hidden = true; s.pose = null; } },
+        climb: (id, dir) => { const s = g.sprites.find((q) => q.id === id); if (s) s.climb = dir || null; },   // 'up' | 'down' | null : bande d'images de grimpe pendant les deplacements
         face: (id, dir) => { const s = g.sprites.find((q) => q.id === id); if (s) s.face = dir; },
         // pose d'un personnage (planche d'animation) : 'think', 'surprised', 'sit'... ; null = debout
         pose: (id, name) => { const s = g.sprites.find((q) => q.id === id); if (s) s.pose = name || null; },
@@ -718,7 +719,7 @@
         return;
       }
       if (!im || !im.naturalWidth) return;
-      const c = this.ctx, moving = s.tx !== null, ws = s.walkSheet, wim = ws && this.img(ws.img);
+      const c = this.ctx, moving = s.tx !== null, ws = (s.climb && s.climbSheets && s.climbSheets[s.climb]) || s.walkSheet, wim = ws && this.img(ws.img);
       c.save();
       c.translate(s.x, s.y);
       c.scale(s.face * (s.flip ? -1 : 1), 1);
