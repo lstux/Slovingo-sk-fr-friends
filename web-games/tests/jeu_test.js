@@ -109,13 +109,18 @@ const srv = http.createServer((q, r) => {
   picks = [1, 0]; await shot('07c_monsieur'); await idle('rencontre'); s = await st(); if (!s.flags.met_pan_done) fail('rencontre non finie ' + JSON.stringify(s.flags));
   await useW(2110, 280, 'gare'); s = await st(); if (s.sc !== 'stanica') fail('gare ' + s.sc);
   await idle('stanica'); await shot('09_stanica');
-  await use(610, 130, 'rozpis'); await use(220, 450, 'papier'); await use(1070, 470, 'pero');
-  // combiner : selectionner pero puis cliquer dans l'inventaire sur papier
+  // Gab se place a cote (dx) pour ne pas cacher la zone cliquee
+  const nearW = async (wx, dx) => { await idle('marche'); await pg.evaluate(async (x) => { await __zajka.walk('fox', x, 655); __zajka.cam = __zajka.camTarget(); }, wx + dx); return pg.evaluate(() => __zajka.cam); };
+  const useN = async (wx, wy, dx, what) => { const cam = await nearW(wx, dx); await use(wx - cam, wy, what); };
+  const itemN = async (name, wx, wy, dx, what) => { const cam = await nearW(wx, dx); await item(name, wx - cam, wy, what); };
+  await useN(530, 240, 260, 'rozpis'); await useN(180, 540, 150, 'papier'); await useN(1188, 450, 120, 'pero');
+  await useN(190, 300, 160, 'affiche (fausse piste)'); await useN(1450, 380, 0, 'guichet ferme (fausse piste)');
   await pg.evaluate(() => { __zajka.selected = 'pero'; const r = __zajka.slotRect(__zajka.items.indexOf('papier')); __zajka.click([r.x + 10, r.y + 10]); });
   await idle('combo'); s = await st(); if (!s.items.includes('mot')) fail('pas de mot ' + JSON.stringify(s.items));
-  await item('mot', 1185, 340, 'schranka'); if (!(await st()).flags.mot_sent) fail('mot non poste');
-  picks = [0]; await use(900, 480, 'guichet'); if (!(await st()).flags.tickets) fail('billets');
-  await use(40, 400, 'quai'); await until((q) => q.end, 'fin');
+  await itemN('mot', 1706, 440, -140, 'schranka'); if (!(await st()).flags.mot_sent) fail('mot non poste');
+  picks = [0]; await useN(1030, 380, 200, 'guichet'); if (!(await st()).flags.tickets) fail('billets');
+  await shot('09b_guichet');
+  await useN(1930, 330, 0, 'quai'); await until((q) => q.end, 'fin');
   await shot('10_fin');
   if (errs.length) fail(errs.join(' | '));
   console.log('OK : prologue + chapitres 1 et 2 jouables'); await b.close(); srv.close();

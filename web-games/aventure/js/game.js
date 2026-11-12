@@ -919,28 +919,38 @@
 
       stanica: {
         chapter: 'ch2', title: { sk: 'Stanica v Košiciach', fr: 'La gare de Košice' }, tint: ['#8c93a8', '#cbc3b0'],
-        player: 'fox', floor: FLOOR, scale: SCALE,
-        sprites: [fox(260), andrea(480, 1), { id: 'pokladnicka', emoji: '🧑‍💼', x: 900, y: 640, h: 330, face: -1 }],
+        bg: 'art/stanica_wide.webp', worldW: 2160,
+        player: 'fox', floor: [[0, 600], [2160, 600], [2160, 712], [0, 712]], scale: { y0: 600, s0: 0.56, y1: 712, s1: 0.64 },
+        // la guichetiere : emoji provisoire en attendant sa planche (elle se penche au guichet ouvert)
+        sprites: [gab(220, 655), andrea(350, 1, 650), { id: 'pokladnicka', emoji: '🧑‍💼', x: 1030, y: 488, h: 300, face: -1 }],
         hotspots: [
-          { id: 'rozpis', name: { sk: 'rozpis', fr: 'le tableau des départs' }, poly: box(400, 60, 820, 200), walk: [610, 650],
+          { id: 'plagat1', name: { sk: 'plagát', fr: 'l\'affiche' }, poly: box(135, 224, 235, 397), walk: [190, 655],
+            look: { sk: 'Plagát: hrad a veža. Košice sú pekné. Aj bez vody.', fr: 'Une affiche : un château et une tour. Košice est joli. Même sans eau.', words: [['plagát', 'l\'affiche'], ['veža', 'la tour']] } },
+          { id: 'plagat2', name: { sk: 'plagát', fr: 'l\'affiche' }, poly: box(1658, 224, 1755, 383), walk: [1700, 655],
+            look: { sk: 'Plagát: žltá električka. Dnes ideme vlakom.', fr: 'Une affiche : un tram jaune. Aujourd\'hui, on prend le train.', words: [['električka', 'le tram'], ['vlak', 'le train']] } },
+          { id: 'kvetina', name: { sk: 'kvetina', fr: 'la plante' }, poly: box(300, 390, 400, 590), walk: [440, 655],
+            look: { sk: 'Zelená kvetina. Je jediná v hale, ktorá nemá smäd.', fr: 'Une plante verte. La seule du hall qui n\'a pas soif.', words: [['kvetina', 'la plante']] } },
+          { id: 'zatvorene', name: { sk: 'zatvorené okienko', fr: 'le guichet fermé' }, poly: box(1242, 308, 1571, 465), walk: [1400, 655],
+            look: { sk: 'Zatvorené okienko. Roleta je dole.', fr: 'Le guichet fermé. Le rideau est baissé.', words: [['zatvorené', 'fermé'], ['roleta', 'le rideau']] } },
+          { id: 'rozpis', name: { sk: 'rozpis', fr: 'le tableau des départs' }, poly: box(340, 165, 713, 320), walk: [530, 655],
             async onUse(g) {
               g.setFlag('rozpis');
               await say(g, 'narrator', 'Odchody: 10:42 Spišská Nová Ves · 10:55 Bratislava · 11:08 Prešov.', 'Départs : 10 h 42 Spišská Nová Ves · 10 h 55 Bratislava · 11 h 08 Prešov.', [['rozpis', 'le tableau des départs'], ['odchody', 'les départs']]);
               await say(g, 'andrea', 'Nám ide ten prvý: Spišská Nová Ves.', 'C\'est le premier qu\'il nous faut : Spišská Nová Ves.');
             } },
-          { id: 'stol', name: { sk: 'stôl', fr: 'la table' }, poly: box(80, 360, 320, 560), walk: [220, 650],
+          { id: 'stol', name: { sk: 'stôl', fr: 'la table' }, poly: box(50, 470, 300, 595), walk: [200, 655],
             async onUse(g) {
               if (g.has('papier') || g.has('mot')) { await say(g, 'fox', 'Papier už mám.', 'J\'ai déjà du papier.'); return; }
               g.give('papier');
               await say(g, 'narrator', 'Na stole leží čistý papier. Gab si ho berie.', 'Sur la table, une feuille blanche. Gab la prend.', [['papier', 'le papier']]);
             } },
-          { id: 'pero', name: { sk: 'pero', fr: 'le stylo' }, poly: box(1030, 440, 1110, 500), walk: [1070, 650],
+          { id: 'pero', name: { sk: 'pero', fr: 'le stylo' }, poly: box(1160, 425, 1215, 475), walk: [1190, 650],
             async onUse(g) {
               if (g.has('pero') || g.has('mot')) { await say(g, 'fox', 'Pero už mám.', 'J\'ai déjà un stylo.'); return; }
               g.give('pero');
               await say(g, 'narrator', 'Na pulte leží pero. Gab si ho berie.', 'Sur le comptoir, un stylo. Gab le prend.', [['pero', 'le stylo']]);
             } },
-          { id: 'schranka', name: { sk: 'schránka', fr: 'la boîte aux lettres' }, poly: box(1120, 250, 1250, 440), walk: [1100, 650],
+          { id: 'schranka', name: { sk: 'schránka', fr: 'la boîte aux lettres' }, poly: box(1669, 410, 1744, 502), walk: [1710, 655],
             look: { sk: 'Poštová schránka. Sem dám odkaz pre tetu.', fr: 'Une boîte aux lettres. J\'y mets le mot pour la tante.', words: [['schránka', 'la boîte aux lettres']] },
             onItem: {
               async mot(g) {
@@ -948,7 +958,7 @@
                 await say(g, 'narrator', 'Odkaz je v schránke. Teta ho nájde ráno.', 'Le message est dans la boîte. La tante le trouvera demain matin.');
               },
             } },
-          { id: 'pokladnicka', sprite: 'pokladnicka', name: { sk: 'pokladníčka', fr: 'la guichetière' }, walk: [790, 650],
+          { id: 'pokladnicka', sprite: 'pokladnicka', name: { sk: 'pokladníčka', fr: 'la guichetière' }, walk: [1030, 655],
             onItem: {
               async listok_ok(g) {
                 await say(g, 'fox', 'Tu je môj lístok!', 'Voici mon ticket !');
@@ -972,7 +982,7 @@
               g.give('listky_vlak'); g.setFlag('tickets');
               await say(g, 'pokladnicka', 'Dva lístky. Šťastnú cestu!', 'Deux billets. Bon voyage !', [['pokladňa', 'le guichet']]);
             } },
-          { id: 'nastupiste', name: { sk: 'nástupište', fr: 'le quai' }, poly: box(0, 250, 110, 560), walk: [160, 650],
+          { id: 'nastupiste', name: { sk: 'nástupište', fr: 'le quai' }, poly: box(1777, 280, 2085, 605), walk: [1930, 655],
             async onUse(g) {
               if (!g.flag('tickets') || !g.flag('mot_sent')) { await say(g, 'andrea', 'Ešte nie. Potrebujeme lístky na vlak a odkaz pre tetu.', 'Pas encore. Il nous faut les billets et le mot pour ma tante.'); return; }
               await say(g, 'narrator', 'Vlak odchádza na západ.', 'Le train part vers l\'ouest.');

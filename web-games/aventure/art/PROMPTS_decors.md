@@ -111,3 +111,12 @@ From left to right: the end of the park path arriving from the left, with a tree
 
 Background style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading, simplified shapes, gentle gradients, no photographic textures or reflections. Landscape 3:1 format. No text, no letters, no numbers, no logos, no watermark.
 ```
+
+## 11. La salle des guichets de la gare de Košice : `stanica_wide.webp` (chapitre 2, départ)
+
+**À joindre** : `gare_wide_ref.png` (le décor d'arrivée, converti en png), pour garder le même hall. Premier essai rejeté (hall baroque très chaud,
+colonnes sculptées : ça ne collait pas à l'arrivée, moderne et vitrée). Le deuxième essai, avec la référence jointe, est le bon.
+
+Prompt : « Use the attached image as the exact reference for the place, the architecture and the drawing style… Draw another part of the SAME hall… »
+(table et banc, tableau des départs, comptoir de guichet avec une fenêtre ouverte et un rideau baissé, boîte aux lettres rouge, portes vitrées vers les quais,
+hall vide, tiers inférieur dégagé). Coordonnées des zones dans `game.js` (scène `stanica`, panorama 2160×720). La guichetière est un sprite (à faire).
