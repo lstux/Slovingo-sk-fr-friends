@@ -44,6 +44,7 @@
   const andrea = (x, face, y) => ({
     id: 'andrea', img: 'art/andrea2_idle.png', x, y: y || 662, h: ANDREA_POSES.idle, face: face || 1, speed: 324, scaleSpeed: true,
     walkSheet: { img: 'art/andrea2_walk.png', frames: 8, fps: 8, h: 479 },
+    climbSheets: { up: { img: 'art/andrea_climb_up.png', frames: 8, fps: 9, h: 324 }, down: { img: 'art/andrea_climb_down.png', frames: 8, fps: 9, h: 324 } },
     poses: Object.fromEntries(Object.entries(ANDREA_POSES).map(([k, h]) => [k, { img: `art/andrea2_${k}.png`, h }])),
   });
   const box = (x0, y0, x1, y1) => [[x0, y0], [x1, y0], [x1, y1], [x0, y1]];
@@ -1229,7 +1230,7 @@
           await say(g, 'andrea', 'Zajačica. A silná.', 'Une hase. Et forte.');
           await say(g, 'fox', 'Dobre. Idem.', 'D\'accord. J\'y vais.');
           // Andrea passe devant et attend de l'autre cote, puis guide Gab a la voix
-          await follow(g, 'andrea', [[390, 648], [390, 300], [585, 305], ...ROK_CROSS, ...ROK_DOWN]);
+          await follow(g, 'andrea', [...ROK_UP, ...ROK_CROSS, ...ROK_DOWN]);
           g.face('andrea', -1);
           g.pose('andrea', 'point');
           await say(g, 'andrea', 'Hore! Rebrík je pred tebou!', 'Hore ! (À toi de comprendre.) L\'échelle est devant toi !');

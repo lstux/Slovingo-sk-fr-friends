@@ -196,3 +196,18 @@ Row 1: 8-frame climbing-up cycle, hands and feet alternating rung by rung (the 8
 Row 2: 8-frame climbing-down cycle, same ladder, head turned toward the ground with a grimace, eyes still closed, tail tidy.
 Same scale in every cell, Gab centered, nothing crossing a cell border.
 ```
+
+## Andrea grimpe : `sources/andrea_climb_src.png`
+
+**À joindre** : `sources/andrea_sheet_src.png` (modèle) + `sources/gab_climb_src.png` (disposition). Même principe que Gab (échelle magenta). Découpage : `python3 tools/make_climb.py andrea` (le vert exact du fond seulement : sa chemise est verte).
+Rangée 1 : montée de dos, yeux ouverts. Rangée 2 : descente de dos, tête tournée par-dessus l'épaule, regard amusé.
+```
+Image 1 is the model sheet of Andrea (the hare girl): keep exactly the same character, art style, colors, outfit, satchel and proportions, including her long ears.
+Image 2 shows the layout I want for a climbing animation (another character, Gab the fox): copy only its layout and principle, not the character.
+Create a new animation sheet for Andrea in a single 3:1 image: 8 columns x 2 rows of equal cells, flat pure green background (#00FF00), no ground shadow, no scenery, no text, no grid lines.
+In every cell Andrea climbs a vertical ladder, seen from behind. The ladder is a perfectly flat, solid magenta silhouette (#FF00FF), no texture, no shading, no outline, same position and size in every cell; her hands and feet stay IN FRONT of the magenta rungs.
+She is the confident one: eyes open and focused, a determined little smile, ears upright, tail visible as a small tuft.
+Row 1: 8-frame climbing-up cycle, steady and quick (the 8th frame loops back to the 1st).
+Row 2: 8-frame climbing-down cycle, back view too, head turned over her shoulder toward the ground with a calm, slightly amused look.
+Same scale in every cell, Andrea centered, ears and feet never cross a cell border, no tangled limbs.
+```
