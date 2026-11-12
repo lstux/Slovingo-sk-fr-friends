@@ -121,3 +121,37 @@ Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, f
 Bonne du premier coup : marche (bras immobiles, 8 images différentes) et 8 poses. `make_sprites.py revizor` (échelle mesurée sur la
 hauteur : la casquette fausse la largeur de la tête) → `art/revizor2_*`. Dans `inspect()`/`fine()` (`tram.js`) : `ask`, `arms`
 (mauvaise réponse), `check`, `nod`, `salute`, `write` (amende).
+
+## Le jardinier (*záhradník*, humain) : `zahradnik_sheet_src.png` (marche + poses)
+
+**À joindre** : `sources/revizor_sheet_src.png` (cadrage, taille, style des humains) et `sources/gab_sheet_src.png`.
+
+```
+Use the first attached image (a sprite sheet of a human inspector) as the reference for the layout, the size and the drawing style, and the second one for the proportions relative to the fox.
+
+Create a sprite sheet for a 2D point-and-click adventure game: a very wide image in 3:1 format (3072x1024 pixels), a grid of 8 columns and 2 rows of equal cells, the same character drawn full body in every cell, at exactly the same size and scale in every cell, feet on the same baseline near the bottom of each cell, nothing touching the cell borders, no cell borders drawn.
+
+The character: an elderly town gardener in Kosice, Slovakia, thin and slightly stooped, a weathered kind face, a grey moustache, a faded straw hat, a green work apron over a checked shirt and brown trousers, rubber boots. He is tired but good-natured, and worried about the dry fountain.
+
+Row 1, walk cycle, side view facing RIGHT: 8 consecutive frames of a slow, tired walk, one hand holding a garden rake upright against his shoulder and the other hand in his apron pocket, so that the arms stay still in every frame; only the legs, a gentle body bounce and the hat move.
+
+Row 2, eight poses facing RIGHT: 1 standing, neutral, hands in the apron; 2 talking, one hand raised; 3 shrugging with a sad smile, palms up; 4 pointing at the ground, as at an empty basin; 5 scratching his head under the hat, puzzled; 6 handing something over with both arms stretched forward, a kind smile; 7 looking up at the sky with a hand shading his eyes; 8 a small wave goodbye.
+
+Background: one flat, uniform pure green colour (#00FF00) everywhere, with no gradient, no floor, no shadows, no texture. Do not use this green anywhere on the character (the apron must be dark olive or teal, not bright green).
+
+Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading, very simple cartoon humans. No text, no letters, no numbers, no frame labels, no watermark.
+```
+
+## Le monsieur au sourire (*pán v obleku*, humain, récurrent) : `pan_sheet_src.png`
+
+**À joindre** : mêmes fichiers. Si c'est dans la même conversation, pas besoin de rejoindre quoi que ce soit.
+
+```
+Same layout, size and drawing style as the previous sheet. New character: a tall slim man in his forties, spokesman of a company, a perfectly pressed dark charcoal suit, white shirt, a dull red tie, shiny black shoes, neat slicked-back hair, a thin smile that is a little too wide and never changes (keep the same wide smile in every cell, even when he gives orders), small cold eyes. He is polite and smooth, but not trustworthy.
+
+Row 1, walk cycle, side view facing RIGHT: 8 consecutive frames of a smooth, confident walk, one hand holding a slim black briefcase and the other hand in his trouser pocket, so that the arms stay still in every frame; only the legs and a slight body bounce move.
+
+Row 2, eight poses facing RIGHT: 1 standing, neutral, hands joined in front, smiling; 2 talking, one palm open in a reassuring gesture; 3 holding out his open hand, asking for the notebook with an even bigger smile; 4 glancing at his wristwatch; 5 shaking his head with the same smile, a polite "no"; 6 straightening his tie; 7 pointing firmly with one finger, still smiling; 8 getting into a car posture: leaning slightly forward, one hand on an invisible car door, looking back over his shoulder.
+
+Background: flat pure green (#00FF00), no gradient, no floor, no shadows. Do not use that green on the character. No text, no letters, no numbers, no frame labels, no watermark.
+```
