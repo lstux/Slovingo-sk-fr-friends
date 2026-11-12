@@ -161,3 +161,24 @@ Background: flat pure green (#00FF00), no gradient, no floor, no shadows. Do not
 Le jardinier est bon du premier coup (marche avec le râteau sur l'épaule, 8 poses). Le monsieur de la 1re planche (`sources/pan_sheet_v1_rejetee.png`)
 ne ressemble pas à celui du reste de l'histoire (planche des nouveaux rôles) : visage long, sourire carnassier plein de dents, costume noir, cravate rouge,
 mallette. Refait en joignant `sources/pan_ref.png` (le vrai personnage, découpé de `docs/illustrations/planche-nouveaux-roles.jpg`) et `sources/zahradnik_sheet_src.png` (la mise en page).
+
+## La guichetière (*pokladníčka*, humaine) : `pokladnicka_sheet_src.png` (buste, poses seulement)
+
+**À joindre** : `sources/revizor_sheet_src.png` (même univers ferroviaire, mise en page) et `sources/pan_sheet_src.png` (humains de cette série).
+Elle est derrière le comptoir : on ne dessine que le haut du corps (à partir de la taille), pas de marche.
+
+```
+Use the first attached image (a sprite sheet of a railway inspector) as the reference for the layout and the drawing style, and the second one for how humans are drawn in this world: very simple cartoon shapes, flat colours, small simple eyes, few lines on the face, no realistic faces.
+
+Create a sprite sheet for a 2D point-and-click adventure game: a very wide image in 3:1 format (3072x1024 pixels), a grid of 8 columns and 2 rows of equal cells (16 poses), the same character drawn from the waist up only (she stands behind a ticket counter, so nothing below the waist), at exactly the same size and scale in every cell, the cut line at her waist on the same baseline near the bottom of each cell, nothing touching the cell borders, no cell borders drawn.
+
+The character: an ordinary adult woman, a railway ticket seller in Kosice, Slovakia, around fifty, slightly round, short grey-brown hair in a neat bun, round glasses on a thin chain, a navy-blue railway-company waistcoat over a white blouse, a small plain badge (no text). Tired because of the heat, but kind and professional. Facing RIGHT, in a slight three-quarter view.
+
+Row 1: 1 neutral, listening, hands resting on the counter; 2 talking, one hand raised; 3 friendly smile, head slightly tilted; 4 looking down at the counter, typing on an invisible keyboard; 5 holding out two paper train tickets with a smile; 6 shaking her head with a patient smile; 7 pointing to the side, up (towards a departure board); 8 wiping her forehead with the back of her hand, tired by the heat.
+
+Row 2: 1 reading a sheet of paper through her glasses; 2 stamping a ticket with a stamp; 3 surprised, eyebrows raised, hands up; 4 explaining kindly, both palms open; 5 looking at a wristwatch; 6 fanning herself with a paper; 7 a small polite wave goodbye; 8 neutral, arms crossed on the counter, waiting.
+
+Background: one flat, uniform pure green colour (#00FF00) everywhere, with no gradient, no floor, no shadows, no texture. Do not use this green anywhere on the character (the waistcoat must be navy blue).
+
+Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading, very simple cartoon human. No text, no letters, no numbers, no frame labels, no watermark.
+```
