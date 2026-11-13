@@ -1,6 +1,6 @@
 # Vzťahy a pocity (Les relations et les émotions)
 
-@ img/vocabulary/07_vztahy-pocity.jpg | Retrouver ses amis, se disputer, se réconcilier : dire ce qu'on ressent. Source : illustration générée avec ChatGPT
+@ img/vocabulary/07_vztahy-pocity.jpg | Raconter, taquiner, se confier : parler de ses amis et de ses émotions. Source : illustration générée avec ChatGPT
 
 {{fr:Retrouver un vieil ami, se disputer, s'inquiéter ou faire confiance : les relations ne sont pas toujours simples.}}
 

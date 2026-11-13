@@ -76,7 +76,7 @@ Scene: A cosy rustic Slovak inn, wooden beams and checked tablecloths. Maťo, at
 ```
 
 ### 07 — Les relations et les émotions
-Fichier : `img/vocabulary/07_vztahy-pocity.jpg` · Joindre : **A** · Légende : « Retrouver ses amis, se disputer, se réconcilier : dire ce qu'on ressent. »
+Fichier : `img/vocabulary/07_vztahy-pocity.jpg` · Joindre : **A** · Légende : « Raconter, taquiner, se confier : parler de ses amis et de ses émotions. »
 ```
 Scene: A park bench under old trees, golden evening light. The fox and Andrea sit side by side: the fox, relieved and sheepish, scratches the back of his head; Andrea, arms crossed, hides a small smile with one eyebrow raised. In the background, a little behind them, Maťo and Katka give each other a high five. Warm, a little funny.
 ```
