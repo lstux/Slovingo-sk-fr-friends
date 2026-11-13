@@ -73,7 +73,21 @@
     "praca-obcianska-spolocnost": "Travail et société",
     "cas-spomienky": "Temps et souvenirs",
     "vyjadrovanie-komunikacia": "Communication",
-    "cisla-pocitanie": "Nombres et calcul"
+    "cisla-pocitanie": "Nombres et calcul",
+    "vie-quotidienne": "Vie quotidienne",
+    "domacnost-byvanie": "Maison et logement",
+    "oblecenie-styl": "Vêtements et style",
+    "telo-zdravie": "Corps et santé",
+    "skola-ucenie": "École et apprentissage",
+    "rodina-priatelstvo": "Famille et amitié",
+    "sport-pohyb": "Sport et mouvement",
+    "hudba-film-kultura": "Musique et cinéma",
+    "hry-zabava": "Jeux et loisirs",
+    "dovolenka-ubytovanie": "Vacances et hébergement",
+    "nakupy-peniaze": "Achats et argent",
+    "zvierata-rastliny": "Animaux et plantes",
+    "krajiny-jazyky": "Pays et langues",
+    "vzdelanie-veda": "Sciences et découvertes"
   },
   "ui": {
     "change_course": "Changer de cours",
@@ -364,7 +378,21 @@
     "praca-obcianska-spolocnost": "default",
     "cas-spomienky": "default",
     "vyjadrovanie-komunikacia": "default",
-    "cisla-pocitanie": "default"
+    "cisla-pocitanie": "default",
+    "vie-quotidienne": "default",
+    "domacnost-byvanie": "default",
+    "oblecenie-styl": "default",
+    "telo-zdravie": "default",
+    "skola-ucenie": "default",
+    "rodina-priatelstvo": "default",
+    "sport-pohyb": "default",
+    "hudba-film-kultura": "default",
+    "hry-zabava": "default",
+    "dovolenka-ubytovanie": "default",
+    "nakupy-peniaze": "default",
+    "zvierata-rastliny": "default",
+    "krajiny-jazyky": "default",
+    "vzdelanie-veda": "default"
   },
   "map": {
     "icons": {
