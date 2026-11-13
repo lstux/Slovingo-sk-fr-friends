@@ -72,7 +72,8 @@
     "bezpecnost-pomoc": "Sécurité et secours",
     "praca-obcianska-spolocnost": "Travail et société",
     "cas-spomienky": "Temps et souvenirs",
-    "vyjadrovanie-komunikacia": "Communication"
+    "vyjadrovanie-komunikacia": "Communication",
+    "cisla-pocitanie": "Nombres et calcul"
   },
   "ui": {
     "change_course": "Changer de cours",
@@ -362,7 +363,8 @@
     "bezpecnost-pomoc": "default",
     "praca-obcianska-spolocnost": "default",
     "cas-spomienky": "default",
-    "vyjadrovanie-komunikacia": "default"
+    "vyjadrovanie-komunikacia": "default",
+    "cisla-pocitanie": "default"
   },
   "map": {
     "icons": {
