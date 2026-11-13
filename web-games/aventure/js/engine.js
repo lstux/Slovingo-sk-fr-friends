@@ -192,10 +192,10 @@
       this.anims = []; this.waits = [];
     }
     cineNext() { const ws = this.waits; this.waits = []; for (const w of ws) w.resolve(); }
-    skipRect() { return { x: W - 176, y: 14, w: 162, h: 50 }; }
+    skipRect() { return this.scene && this.scene.noSkip ? { x: -999, y: -999, w: 0, h: 0 } : { x: W - 176, y: 14, w: 162, h: 50 }; }   // noSkip : cinematique sans bouton « Passer »
     skipCine() {
       const sc = this.scene;
-      if (!sc || !sc.cine) return;
+      if (!sc || !sc.cine || sc.noSkip) return;
       if (sc.doneFlag) this.flags[sc.doneFlag] = true;
       if (sc.next) this.enter(sc.next); else this.flushCine();
     }

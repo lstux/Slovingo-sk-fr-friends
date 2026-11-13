@@ -150,10 +150,13 @@ const srv = http.createServer((q, r) => {
   await shot('11d_orol');
   await pg.waitForTimeout(1500);   // la camera revient sur Gab
   picks = [0, 1];                   // d'abord le tutoiement (refuse), puis « videli ste »
-  await clickWorld(1800, 140, 'pan Orol'); await until((q) => q.end, 'fin');
+  await pg.evaluate((c) => __zajka.click([1800 - c, 140]), await pg.evaluate(() => __zajka.cam)); await pg.waitForTimeout(200);
+  await until((q) => q.sc === 'bivouac' && q.dlg, 'bivouac'); await pg.waitForTimeout(3000); await shot('11e_bivouac');
+  await until((q) => q.end, 'fin');
+  if (!(await st()).flags.bivouac_done) fail('bivouac non termine');
   s = await st(); if (!s.pages.includes('p2')) fail('page du carnet non donnee');
   if (!(await pg.evaluate(() => !!__zajka.words['videli ste']))) fail('videli ste non appris');
-  await shot('11e_fin');
+  await shot('11f_fin');
   if (errs.length) fail(errs.join(' | '));
   console.log('OK : prologue + chapitres 1 a 3 (jusqu\'au rocher de pan Orol) jouables'); await b.close(); srv.close();
 })().catch((e) => { console.error(e); process.exit(1); });

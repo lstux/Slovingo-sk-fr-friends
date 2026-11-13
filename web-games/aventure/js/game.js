@@ -389,6 +389,41 @@
         },
       },
 
+      // ---------------------------------------------------------------- chapitre 3 : decor D, le bivouac (scene calme, image fixe)
+      bivouac: {
+        cine: true, noSkip: true, bgColor: '#0b1030',
+        chapter: 'ch3', title: { sk: 'Bivak', fr: 'Le bivouac' },
+        pics: [{ id: 'camp', img: 'art/raj_bivouac.webp', alpha: 1 }],
+        async onEnter(g) {
+          const CAMP = [470, 430];
+          const zoom = (k) => g.pic('camp', { view: { zoom: 1 + 0.12 * k, ax: CAMP[0], ay: CAMP[1], sx: CAMP[0], sy: CAMP[1] } });
+          g.fade(1);
+          await g.animate(1500, (k) => g.fade(1 - k));
+          const drift = g.animate(60000, zoom);   // « petite camera » : on s'approche tres lentement
+          await g.wait(1200);
+          await say(g, 'narrator', 'Je večer. Gab a Andrea oddychujú pri potoku.', 'C\'est le soir. Gab et Andrea se reposent au bord du ruisseau.', [['večer', 'le soir'], ['potok', 'le ruisseau']]);
+          await say(g, 'fox', 'Nikdy som nespal pod hviezdami.', 'Je n\'ai jamais dormi sous les étoiles.', [['hviezdy', 'les étoiles']]);
+          await say(g, 'andrea', 'Spal si pod jabloňou.', 'Tu as dormi sous un pommier.', [['jabloň', 'le pommier']]);
+          await say(g, 'fox', 'To nie sú hviezdy. To sú jablká.', 'Ce ne sont pas des étoiles. Ce sont des pommes.', [['jablko', 'la pomme']]);
+          await say(g, 'andrea', 'Spi, Gab.', 'Dors, Gab.');
+          await g.wait(1500);
+          await say(g, 'fox', 'Andrea?', 'Andrea ?');
+          await say(g, 'andrea', 'Hm?', 'Hm ?');
+          await say(g, 'fox', 'Ty nikdy neveríš líškam?', 'Tu ne fais jamais confiance aux renards ?', [['líška', 'le renard']]);
+          await say(g, 'andrea', 'Nikdy. Okrem jednej.', 'Jamais. Sauf un.', [['okrem', 'sauf']]);
+          await say(g, 'fox', 'Okrem jednej? Ktorej?', 'Sauf un ? Lequel ?');
+          await g.wait(1200);
+          await say(g, 'andrea', 'Spi.', 'Dors.');
+          await say(g, 'fox', 'Ja viem, že som to ja.', 'Je sais que c\'est moi.');
+          await say(g, 'andrea', 'Nič nevieš. Spi.', 'Tu ne sais rien. Dors.');
+          await g.wait(2500);
+          await g.animate(1800, (k) => g.fade(k));
+          g.setFlag('bivouac_done');
+          await g.showMap('ch4');
+          g.end('Koniec ukážky', 'Fin de l\'aperçu');   // la suite : chapitre 4, Burka (orage dans les Hautes Tatras)
+        },
+      },
+
       // =============================================================== CHAPITRE 1 : le tram
       tram,
 
@@ -1362,7 +1397,8 @@
     await say(g, 'orol', 'V horách je iné leto.', 'Dans les montagnes, l\'été est différent.');
     g.pose('orol', null);
     g.setFlag('orol_done');
-    g.end('Koniec ukážky', 'Fin de l\'aperçu');   // la suite : le bivouac (decor D)
+    await g.sleep(700);
+    g.goScene('bivouac');
   }
 
   // une erreur de plus : apres deux, Andrea traduit la consigne

@@ -80,7 +80,7 @@ son avec une marque ou une voix reconnaissable.
 
 | Chapitre | Lieux | Sons à prévoir (idées de départ) | État |
 |---|---|---|---|
-| 3. Raj (*Slovenský raj*) | forêt, ruisseau, gorges, échelles métalliques | forêt de jour, ruisseau qui murmure, petite cascade, pas sur échelle métallique, cri d'aigle (pán Orol) | à chercher |
+| 3. Raj (*Slovenský raj*) | forêt, ruisseau, gorges, échelles métalliques, rocher de l'aigle, bivouac de nuit | forêt de jour, ruisseau qui murmure, petite cascade, pas sur échelle métallique (grincement), vent dans la gorge, cri d'aigle (pán Orol), **nuit calme : grillons, ruisseau, hibou lointain** (bivouac) | à chercher |
 | 4. Orage (Hautes Tatras) | montagne, orage | pluie d'orage, tonnerre lointain puis proche, vent d'altitude | à chercher |
 | 5. Domov (le village d'enfance) | village sous les Tatras | cloches, poules, moutons, ruisseau qui rétrécit, ambiance de cuisine (Babka) | à chercher |
 | 6. Inondation (Liptov) | pluie, rivière qui déborde, gymnase | pluie continue, eau qui monte, sirène de pompiers, foule feutrée dans un gymnase, télé en fond | à chercher |
