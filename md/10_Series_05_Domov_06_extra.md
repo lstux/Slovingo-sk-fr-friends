@@ -177,13 +177,13 @@
 > Babka Zuzana ouvre la fenêtre.
 > otvára okno = ouvre la fenêtre
 
-! 🐑 Vezmite si bundy. A čapice. A ponožky. Ponožky sú dôležité.
+! 🐑 Vezmite si bundy. A čiapky. A ponožky. Ponožky sú dôležité.
 > Prenez des vestes. Et des bonnets. Et des chaussettes. Les chaussettes, c'est important.
 > Vezmite si bundy = prenez des vestes
-> A čapice = et des bonnets
+> A čiapky = et des bonnets
 > A ponožky = et des chaussettes
 > Ponožky sú dôležité = les chaussettes sont importantes
-+ Mots nouveaux signalés : {{ponožky}} = les chaussettes, {{dôležité}} = important. Pour comprendre : {{čapica}} = le bonnet.
++ Mots nouveaux signalés : {{ponožky}} = les chaussettes, {{dôležité}} = important. Pour comprendre : {{čiapka}} = le bonnet.
 
 ! 🐑 Keď som bola mladá, bola som raz v Bratislave. Bola tam veľká rieka a veľa áut. Už som tam nebola. Ale ak tam pôjdete, pozdravte ju.
 > Quand j'étais jeune, je suis allée une fois à Bratislava. Il y avait un grand fleuve et beaucoup de voitures. Je n'y suis jamais retournée. Mais si vous y allez, saluez-la de ma part.

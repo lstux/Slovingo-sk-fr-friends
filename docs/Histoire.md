@@ -6,7 +6,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 ## Conventions
 
-- Une réplique par ligne : `🦊 Gab`, `🐰 Andrea`, `💬 Narrateur` (présent narratif, phrases courtes). Les autres avatars : `🐻` Maťo, `🐹` Katka, `🐑` Babka Zuzana, `🦔` pani Ježková (commerçante, vouvoyée), `📻` la radio, `🐥` un canard, `🐭` une souris (ch. 6), `🦅` pán Orol (aigle, garde du parc, vouvoyé), `🐇` la tante d'Andrea, `🦊🦺` la renarde bénévole (ch. 6), et pour l'équipe de la télévision : `📝` la rédactrice, `🎥` le cameraman, `💄` la maquilleuse, `🎙️` la présentatrice ; `🐑📱` Babka au téléphone. Le moteur lit tout ce qui suit l'émoji : jamais de « (fonction) » après l'avatar, `🦡` Marek, `🐿️` Ján, `🧑` un humain adulte (vouvoyé, désigné par sa fonction : le Narrateur le présente), `🦦` doktorka Vydrová (loutre hydrologue, vouvoyée), `🕴️` le monsieur au sourire (humain, porte-parole de Zelená vlna, vouvoyé).
+- Une réplique par ligne : `🦊 Gab`, `🐰 Andrea`, `💬 Narrateur` (présent narratif, phrases courtes). Les autres avatars : `🐻` Maťo, `🐹` Katka, `🐑` Babka Zuzana, `🦔` pani Ježková (commerçante, vouvoyée), `📻` la radio, `🐥` un canard, `🐭` une souris (ch. 6), `🦅` pán Orol (aigle, garde du parc, vouvoyé), `🐇` la tante d'Andrea, `🐐🦺` la chamois bénévole (ch. 6), et pour l'équipe de la télévision : `📝` la rédactrice, `🎥` le cameraman, `💄` la maquilleuse, `🎙️` la présentatrice ; `🐑📱` Babka au téléphone. Le moteur lit tout ce qui suit l'émoji : jamais de « (fonction) » après l'avatar, `🦡` Marek, `🐿️` Ján, `🧑` un humain adulte (vouvoyé, désigné par sa fonction : le Narrateur le présente), `🦦` doktorka Vydrová (loutre hydrologue, vouvoyée), `🕴️` le monsieur au sourire (humain, porte-parole de Zelená vlna, vouvoyé).
 - **Gab** s'écrit « Gab » dans ce document. Dans les fiches, ce sera `[USER_NAME]`. Pas de « Gabo » en dur, et jamais de forme déclinée (*Gabovi*, *Gabov*…) : le prénom s'emploie seulement comme sujet ou pour interpeller.
 - **Genre** : Gab est un garçon (*bol som*, *rád*), Andrea une fille (*bola som*, *rada*).
 - **Tutoiement** entre ados et avec Babka Zuzana, **vouvoiement** (*vy*) avec les adultes inconnus, humains compris.
@@ -21,7 +21,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 | 1 | Košice | Košice | Retrouvailles dans le tram |
 | 2 | Sucho | Košice | Le point d'eau disparaît, départ |
 | 3 | Raj | Slovenský raj | À la recherche d'eau |
-| 4 | Burka | Hautes Tatras | Tempête |
+| 4 | Búrka | Hautes Tatras | Tempête |
 | 5 | Domov | Village d'enfance | Maťo et Katka rejoignent la bande |
 | 6 | Povodeň | Liptov | Inondations |
 | 7 | Cesta | Liptov | Une nouvelle route, l'idée de la télévision |
@@ -298,7 +298,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🐰 A inde?
 
-🧑 Na západe, v Slovenskom raji, ešte voda je. Hovorili to v rádiu.
+🧑 Na západe, v Slovenskom raji, je ešte voda. Hovorili to v rádiu.
 
 🦊 Ďakujeme.
 
@@ -490,7 +490,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🐰 Zase on!
 
-🦅 Orly nemajú rady také úsmevy. Nič som mu nepovedal.
+🦅 Orly nemajú radi také úsmevy. Nič som mu nepovedal.
 
 🦊 Ďakujeme. Pôjdeme do Tatier.
 
@@ -530,7 +530,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 ---
 
-# Kapitola 4 — Burka
+# Kapitola 4 — Búrka
 
 *Résumé : l'ascension dans les Hautes Tatras. Un gardien de refuge (humain) annonce un orage pour le lendemain ; le refuge est plein, ils dorment par terre dans la cuisine. L'orage éclate de nuit, pendant que Gab tremble de la queue. Le matin, le lac déborde d'eau : après deux mois de sécheresse, c'est « trop ». Andrea parle de ses cousins, au village en bas : Maťo et Katka. Comparatifs et futur : plus haut, plus froid, demain. Le gardien a vu la loutre ; le carnet indique la prochaine mesure : le ruisseau du village d'Andrea.*
 
@@ -602,7 +602,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🦊 Len búrka! Dva mesiace nepršalo, a teraz toľko vody!
 
-💬 Elektrika nejde. Chatár zapaľuje sviečku.
+💬 Elektrina nejde. Chatár zapaľuje sviečku.
 
 🦊 Vy ste hovorili, že búrka bude zajtra!
 
@@ -798,7 +798,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 💬 Babka vytiahne z kredenca obálku. Gab ju otvorí.
 
-🦊 Ďalšia strana! „Potok: každý rok o desať centimetrov menej. Ďalšie meranie: Váh, Liptov.“
+🦊 Ďalšia strana! „Potok: každý rok o desať centimetrov menej vody. Ďalšie meranie: Váh, Liptov.“
 
 🐑 A ešte niečo. Včera tu bol jeden pán v obleku. Veľmi milý. Veľmi sa usmieval. Chcel tú obálku.
 
@@ -850,7 +850,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 💬 Babka Zuzana otvára okno.
 
-🐑 Vezmite si bundy. A čapice. A ponožky. Ponožky sú dôležité.
+🐑 Vezmite si bundy. A čiapky. A ponožky. Ponožky sú dôležité.
 
 🐑 Keď som bola mladá, bola som raz v Bratislave. Bola tam veľká rieka a veľa áut. Už som tam nebola. Ale ak tam pôjdete, pozdravte ju.
 
@@ -886,7 +886,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 # Kapitola 6 — Povodeň
 
-*Résumé : le Liptov. Il pleut depuis trois jours, le train s'arrête (voie inondée), le Váh déborde. Pour la première fois, les héros ne cherchent pas l'eau qui manque mais fuient celle qui monte. Un pompier (vouvoyé) leur demande un coup de main : déplacer les petits animaux d'un village vers l'école. Ils aident, mouillés comme des poissons ; Katka protège son téléphone avant tout (« je n'ai que deux mains, le téléphone est la troisième »). Soirée au gymnase : soupe, entraide, et une renarde bénévole qui sert le thé : Andrea ne le prend qu'après que Gab a bu. Idée qui germe : « il faut que quelqu'un le dise. » Le pompier : la loutre avait prévenu de la crue, personne ne l'a crue. À la télé du gymnase, le monsieur au sourire : « la situation est sous contrôle » ; il est porte-parole du groupe Zelená vlna.*
+*Résumé : le Liptov. Il pleut depuis trois jours, le train s'arrête (voie inondée), le Váh déborde. Pour la première fois, les héros ne cherchent pas l'eau qui manque mais fuient celle qui monte. Un pompier (vouvoyé) leur demande un coup de main : déplacer les petits animaux d'un village vers l'école. Ils aident, mouillés comme des poissons ; Katka protège son téléphone avant tout (« je n'ai que deux mains, le téléphone est la troisième »). Soirée au gymnase : soupe, entraide, et une chamois bénévole qui sert le thé : Andrea ne le prend qu'après que Gab a bu. Idée qui germe : « il faut que quelqu'un le dise. » Le pompier : la loutre avait prévenu de la crue, personne ne l'a crue. À la télé du gymnase, le monsieur au sourire : « la situation est sous contrôle » ; il est porte-parole du groupe Zelená vlna.*
 
 ## Scéna 1
 
@@ -980,7 +980,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🐻 My ich tam odnesieme.
 
-🧑 Presne tak. Ďakujem vám. A prosím, buďte opatrní. Voda je silná.
+🧑 Presne tak. Ďakujem vám. A prosím, buďte opatrní. Prúd je silný.
 
 🐰 Nevideli ste tu vydru? Doktorku Vydrovú?
 
@@ -1046,7 +1046,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 💬 Príde k nim mladá kamzica v zelenej veste. Nesie podnos s čajom.
 
-🦊🦺 Dobrý večer. Dáte si čaj? Je horúci.
+🐐🦺 Dobrý večer. Dáte si čaj? Je horúci.
 
 🦊 Ďakujem, to je od vás milé.
 
@@ -1538,7 +1538,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🦡 Lebo mám štyri deti. A chcem, aby raz videli žaby.
 
-🦡 A ešte niečo. Cestou choďte cez Banskú Štiavnicu. Sú tam staré jazerá. Tam ešte voda je.
+🦡 A ešte niečo. Cestou choďte cez Banskú Štiavnicu. Sú tam staré jazerá. Tam je ešte voda.
 
 🐻 Ďakujeme, Marek.
 
@@ -1904,7 +1904,7 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 🐹 Ak povieme len jednu vec, povedia, že nám ide len o jednu vec.
 
-🐻 Ak povieme päť vecí, nikto si nezapamätá nič.
+🐻 Ak povieme päť vecí, nikto si nič nezapamätá.
 
 🦊 Povedzme to, čo sme videli.
 
@@ -2148,11 +2148,11 @@ Ce document contient **toute l'histoire en slovaque**, écrite d'un seul jet ava
 
 💬 Z vedľajšej miestnosti vyjde vizážistka s veľkou štetkou.
 
-💄 Dobrý večer. Na minútku. Trochu pudru.
+💄 Dobrý večer. Na minútku. Trochu púdru.
 
 🐹 Nepúdrujte ma!
 
-💄 Svetlá sú silné. Bez pudra budete sa lesknúť.
+💄 Svetlá sú silné. Bez púdru sa budete lesknúť.
 
 🐹 Ja sa nelesknem. Ja žiarim.
 

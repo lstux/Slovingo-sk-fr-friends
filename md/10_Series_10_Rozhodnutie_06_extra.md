@@ -189,10 +189,10 @@
 > povedia, že = ils diront que
 > nám ide len o jednu vec = nous ne nous intéressons qu'à une chose
 
-! 🐻 Ak povieme päť vecí, nikto si nezapamätá nič.
+! 🐻 Ak povieme päť vecí, nikto si nič nezapamätá.
 > Si on en dit cinq, personne n'en retiendra aucune.
 > Ak povieme päť vecí = si nous disons cinq choses
-> nikto si nezapamätá nič = personne ne retiendra rien
+> nikto si nič nezapamätá = personne ne retiendra rien
 + Mot nouveau signalé : {{zapamätať si}} = retenir, se souvenir de.
 
 ! 🦊 Povedzme to, čo sme videli.

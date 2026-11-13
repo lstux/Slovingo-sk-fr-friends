@@ -1,4 +1,4 @@
-# Série Burka (3/5) — Čím vyššie, tým chladnejšie
+# Série Búrka (3/5) — Čím vyššie, tým chladnejšie
 
 @ img/tatry-ciernne-oblaky.jpg | Des nuages sombres au-dessus des crêtes des Tatras. Source : Wikimedia Commons, Sława Pietrzyk, CC BY 3.0
 

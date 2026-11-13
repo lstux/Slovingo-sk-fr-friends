@@ -86,7 +86,7 @@
       "id": "listen-dobr-ve-er-na-min-tku-trochu-pudru",
       "type": "listen",
       "l1": "Bonsoir. Une minute. Un peu de poudre.",
-      "l2": "Dobrý večer. Na minútku. Trochu pudru.",
+      "l2": "Dobrý večer. Na minútku. Trochu púdru.",
       "choices_l1": [
         "Bonsoir. Une heure. Beaucoup de poudre.",
         "Bonjour. Une minute. Un peu d'eau.",
@@ -157,7 +157,7 @@
       "id": "blank-svetl-s-siln-bez-pudra-budete-sa-leskn",
       "type": "fill-blank",
       "l1": "Les lumières sont fortes. Sans poudre, vous brillerez.",
-      "l2": "Svetlá sú silné. Bez pudra budete sa lesknúť.",
+      "l2": "Svetlá sú silné. Bez púdru sa budete lesknúť.",
       "missing_l1": "fortes",
       "missing_l2": "silné",
       "blank_index_l1": 3,

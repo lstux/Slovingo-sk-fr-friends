@@ -137,7 +137,7 @@
 > Zase = encore
 > on = lui
 
-! 🦅 Orly nemajú rady také úsmevy. Nič som mu nepovedal.
+! 🦅 Orly nemajú radi také úsmevy. Nič som mu nepovedal.
 > Les aigles n'aiment pas ce genre de sourire. Je ne lui ai rien dit.
 > Orly = les aigles
 > nemajú rady = n'aiment pas

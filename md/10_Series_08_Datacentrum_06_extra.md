@@ -242,13 +242,13 @@
 > raz videli žaby = un jour ils voient des grenouilles
 + Mot nouveau signalé : {{chcem, aby}} = je veux que.
 
-! 🦡 A ešte niečo. Cestou choďte cez Banskú Štiavnicu. Sú tam staré jazerá. Tam ešte voda je.
+! 🦡 A ešte niečo. Cestou choďte cez Banskú Štiavnicu. Sú tam staré jazerá. Tam je ešte voda.
 > Et encore une chose. En chemin, passez par Banská Štiavnica. Il y a de vieux lacs. Là-bas, il y a encore de l'eau.
 > A ešte niečo = et encore une chose
 > Cestou = en chemin
 > choďte cez Banskú Štiavnicu = passez par Banská Štiavnica
 > Sú tam staré jazerá = il y a là-bas de vieux lacs
-> Tam ešte voda je = là-bas, il y a encore de l'eau
+> Tam je ešte voda = là-bas, il y a encore de l'eau
 
 ! 🐻 Ďakujeme, Marek.
 > Merci, Marek.

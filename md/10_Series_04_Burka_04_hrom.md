@@ -1,4 +1,4 @@
-# Série Burka (4/5) — Hrom
+# Série Búrka (4/5) — Hrom
 
 @ img/blesk-hory.jpg | Un éclair au-dessus des montagnes, la nuit. Source : Wikimedia Commons, Rehansharifqazi, CC BY-SA 4.0
 
@@ -65,9 +65,9 @@
 > toľko vody = autant d'eau
 + {{toľko}} = tellement, autant. Comme {{veľa}}, il est suivi de {{vody}}.
 
-! 💬 Elektrika nejde. Chatár zapaľuje sviečku.
+! 💬 Elektrina nejde. Chatár zapaľuje sviečku.
 > L'électricité est coupée. Le gardien allume une bougie.
-> Elektrika nejde = l'électricité ne marche pas
+> Elektrina nejde = l'électricité ne marche pas
 > Chatár = le gardien
 > zapaľuje sviečku = allume une bougie
 

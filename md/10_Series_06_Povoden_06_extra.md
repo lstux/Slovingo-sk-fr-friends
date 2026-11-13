@@ -120,7 +120,7 @@
 > som ešte nevidel = je n'ai encore jamais vu
 
 ! 🐹 A toľko mokrých.
-> Ni autant de mouillés.
+> Et autant de mouillés.
 > A toľko mokrých = et autant de mouillés
 
 ! 💬 Príde k nim mladá kamzica v zelenej veste. Nesie podnos s čajom.

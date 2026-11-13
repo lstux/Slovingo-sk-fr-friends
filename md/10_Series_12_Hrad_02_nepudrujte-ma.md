@@ -47,20 +47,20 @@
 > vyjde vizážistka = sort une maquilleuse
 > s veľkou štetkou = avec un grand pinceau
 
-! 💄 Dobrý večer. Na minútku. Trochu pudru.
+! 💄 Dobrý večer. Na minútku. Trochu púdru.
 > Bonsoir. Une minute. Un peu de poudre.
 > Na minútku = pour une petite minute
-> Trochu pudru = un peu de poudre
+> Trochu púdru = un peu de poudre
 
 ! 🐹 Nepúdrujte ma!
 > Ne me poudrez pas !
 > Nepúdrujte ma = ne me poudrez pas
 
-! 💄 Svetlá sú silné. Bez pudra budete sa lesknúť.
+! 💄 Svetlá sú silné. Bez púdru sa budete lesknúť.
 > Les lumières sont fortes. Sans poudre, vous brillerez.
 > Svetlá sú silné = les lumières sont fortes
-> Bez pudra = sans poudre
-> budete sa lesknúť = vous brillerez
+> Bez púdru = sans poudre
+> sa budete lesknúť = vous brillerez
 + {{lesknúť sa}} = briller, luire, comme un nez sous un projecteur.
 
 ! 🐹 Ja sa nelesknem. Ja žiarim.

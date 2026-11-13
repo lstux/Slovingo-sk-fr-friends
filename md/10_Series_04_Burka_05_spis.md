@@ -1,4 +1,4 @@
-# Série Burka (5/5) — Spíš?
+# Série Búrka (5/5) — Spíš?
 
 @ img/illus_04_burka.jpg | L'orage gronde sur les Tatras, et dans la cuisine du refuge, impossible de dormir. Source : illustration générée avec ChatGPT, d'après une photo de Kristo (Wikimedia Commons, CC BY-SA 3.0)
 

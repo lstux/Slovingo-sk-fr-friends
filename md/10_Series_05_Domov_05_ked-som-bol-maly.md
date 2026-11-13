@@ -138,12 +138,12 @@
 > [USER_NAME] ju otvorí = [USER_NAME] l'ouvre
 + Pour comprendre : {{kredenc}} = le buffet de cuisine.
 
-! 🦊 Ďalšia strana! „Potok: každý rok o desať centimetrov menej. Ďalšie meranie: Váh, Liptov.“
-> Une nouvelle page ! « Ruisseau : dix centimètres de moins chaque année. Prochaine mesure : le Váh, Liptov. »
+! 🦊 Ďalšia strana! „Potok: každý rok o desať centimetrov menej vody. Ďalšie meranie: Váh, Liptov.“
+> Une nouvelle page ! « Ruisseau : dix centimètres d'eau en moins chaque année. Prochaine mesure : le Váh, Liptov. »
 > Ďalšia strana = une page de plus
 > Potok = le ruisseau
 > každý rok = chaque année
-> o desať centimetrov menej = dix centimètres de moins
+> o desať centimetrov menej vody = dix centimètres d'eau en moins
 > Ďalšie meranie = prochaine mesure
 
 ! 🐑 A ešte niečo. Včera tu bol jeden pán v obleku. Veľmi milý. Veľmi sa usmieval. Chcel tú obálku.

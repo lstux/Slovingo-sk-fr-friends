@@ -1386,7 +1386,7 @@
     g.pose('orol', null);
     await say(g, 'andrea', 'Zase on!', 'Encore lui !');
     g.pose('orol', 'no');
-    await say(g, 'orol', 'Orly nemajú rady také úsmevy. Nič som mu nepovedal.', 'Les aigles n\'aiment pas ces sourires-là. Je ne lui ai rien dit.');
+    await say(g, 'orol', 'Orly nemajú radi také úsmevy. Nič som mu nepovedal.', 'Les aigles n\'aiment pas ces sourires-là. Je ne lui ai rien dit.');
     g.pose('orol', null);
     await say(g, 'fox', 'Ďakujeme. Pôjdeme do Tatier.', 'Merci. Nous irons dans les Tatras.');
     g.pose('orol', 'pointup');

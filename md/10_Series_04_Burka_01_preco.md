@@ -1,4 +1,4 @@
-# Série Burka (1/5) — Prečo?
+# Série Búrka (1/5) — Prečo?
 
 @ img/vysoke-tatry-chodnik.jpg | Un poteau indicateur de randonnée dans les Hautes Tatras. Source : Wikimedia Commons, Scharla (Wikivoyage), Public domain
 

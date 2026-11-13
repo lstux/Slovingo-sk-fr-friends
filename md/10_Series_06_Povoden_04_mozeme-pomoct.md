@@ -91,13 +91,14 @@
 > tam = là-bas
 > odnesieme = nous emporterons
 
-! 🧑 Presne tak. Ďakujem vám. A prosím, buďte opatrní. Voda je silná.
-> Exactement. Merci à vous. Et faites attention, s'il vous plaît. L'eau est forte.
+! 🧑 Presne tak. Ďakujem vám. A prosím, buďte opatrní. Prúd je silný.
+> Exactement. Merci à vous. Et faites attention, s'il vous plaît. Le courant est fort.
 > Presne tak = exactement
 > Ďakujem vám = merci à vous
 > A prosím = et s'il vous plaît
 > buďte opatrní = soyez prudents
-> Voda je silná = l'eau est forte
+> Prúd je silný = le courant est fort
++ Pour comprendre : {{prúd}} = le courant (de l'eau).
 
 ! 🐰 Nevideli ste tu vydru? Doktorku Vydrovú?
 > Vous n'avez pas vu une loutre ? Madame la docteure Vydrová ?

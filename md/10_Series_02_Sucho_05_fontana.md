@@ -90,11 +90,11 @@
 > Et ailleurs ?
 > A inde = et ailleurs
 
-! 🧑 Na západe, v Slovenskom raji, ešte voda je. Hovorili to v rádiu.
+! 🧑 Na západe, v Slovenskom raji, je ešte voda. Hovorili to v rádiu.
 > À l'ouest, dans le Paradis slovaque, il y en a encore. Ils l'ont dit à la radio.
 > Na západe = à l'ouest
 > v Slovenskom raji = dans le Paradis slovaque
-> ešte voda je = il y a encore de l'eau
+> je ešte voda = il y a encore de l'eau
 > Hovorili to = ils l'ont dit
 > v rádiu = à la radio
 + Mot nouveau signalé : {{v rádiu}} = à la radio. À écouter : {{hovorili}} = ils ont dit.

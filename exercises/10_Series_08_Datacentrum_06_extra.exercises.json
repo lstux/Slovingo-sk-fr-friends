@@ -175,7 +175,7 @@
       "id": "order-a-e-te-nie-o-cestou-cho-te-cez-bansk-tiavnicu-s-tam-star-jazer-tam-e-te-voda-je",
       "type": "order",
       "l1": "Et encore une chose. En chemin, passez par Banská Štiavnica. Il y a de vieux lacs. Là-bas, il y a encore de l'eau.",
-      "l2": "A ešte niečo. Cestou choďte cez Banskú Štiavnicu. Sú tam staré jazerá. Tam ešte voda je.",
+      "l2": "A ešte niečo. Cestou choďte cez Banskú Štiavnicu. Sú tam staré jazerá. Tam je ešte voda.",
       "tokens_l1": [
         "Et encore une chose.",
         "En chemin, passez par Banská Štiavnica.",
@@ -186,7 +186,7 @@
         "A ešte niečo.",
         "Cestou choďte cez Banskú Štiavnicu.",
         "Sú tam staré jazerá.",
-        "Tam ešte voda je."
+        "Tam je ešte voda."
       ]
     }
   ]

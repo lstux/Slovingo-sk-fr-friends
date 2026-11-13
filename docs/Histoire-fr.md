@@ -6,7 +6,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 ## Conventions
 
-- `🦊` Gab, `🐰` Andrea, `🐻` Maťo, `🐹` Katka, `🐑` Babka Zuzana, `🦔` madame Ježková, `🦡` Marek, `🐿️` Ján, `🐥` un canard, `🐭` une souris (ch. 6), `🦅` pán Orol (aigle, garde du parc), `🐇` la tante d'Andrea, `🦊🦺` la renarde bénévole (ch. 6), et pour l'équipe de la télévision : `📝` la rédactrice, `🎥` le cameraman, `💄` la maquilleuse, `🎙️` la présentatrice ; `🐑📱` Babka au téléphone. Le moteur lit tout ce qui suit l'émoji : jamais de « (fonction) » après l'avatar, `📻` la radio, `💬` le Narrateur, `🧑` un humain adulte (vouvoyé, désigné par sa fonction), `🦦` doktorka Vydrová (loutre hydrologue, vouvoyée), `🕴️` le monsieur au sourire (humain, porte-parole de Zelená vlna, vouvoyé).
+- `🦊` Gab, `🐰` Andrea, `🐻` Maťo, `🐹` Katka, `🐑` Babka Zuzana, `🦔` madame Ježková, `🦡` Marek, `🐿️` Ján, `🐥` un canard, `🐭` une souris (ch. 6), `🦅` pán Orol (aigle, garde du parc), `🐇` la tante d'Andrea, `🐐🦺` la chamois bénévole (ch. 6), et pour l'équipe de la télévision : `📝` la rédactrice, `🎥` le cameraman, `💄` la maquilleuse, `🎙️` la présentatrice ; `🐑📱` Babka au téléphone. Le moteur lit tout ce qui suit l'émoji : jamais de « (fonction) » après l'avatar, `📻` la radio, `💬` le Narrateur, `🧑` un humain adulte (vouvoyé, désigné par sa fonction), `🦦` doktorka Vydrová (loutre hydrologue, vouvoyée), `🕴️` le monsieur au sourire (humain, porte-parole de Zelená vlna, vouvoyé).
 - **Tutoiement / vouvoiement** : le slovaque distingue *ty* et *vy* comme le français *tu* et *vous*, j'ai gardé la même répartition (ados et Babka Zuzana : tu ; adultes inconnus et humains : vous).
 - **Genre** : Gab est un garçon, Andrea une fille. En français, ça se voit aux accords (« content », « contente »).
 - Les noms propres ne sont pas traduits (Košice, Bratislava, Maťo, Katka…). Les lieux connus en français le sont : le Paradis slovaque (*Slovenský raj*), les Tatras (*Tatry*), le Danube (*Dunaj*), la cathédrale Sainte-Élisabeth.
@@ -513,7 +513,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 ---
 
-# Chapitre 4 — Burka
+# Chapitre 4 — Búrka
 
 *Résumé : l'ascension dans les Hautes Tatras. Un gardien de refuge (humain) annonce un orage pour le lendemain ; le refuge est plein, ils dorment par terre dans la cuisine. L'orage éclate de nuit, pendant que Gab tremble de la queue. Le matin, le lac déborde d'eau : après deux mois de sécheresse, c'est « trop ». Andrea parle de ses cousins, au village en bas : Maťo et Katka. Comparatifs et futur : plus haut, plus froid, demain. Le gardien a vu la loutre ; le carnet indique la prochaine mesure : le ruisseau du village d'Andrea.*
 
@@ -783,7 +783,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 💬 Babka sort une enveloppe du buffet. Gab l'ouvre.
 
-🦊 Une nouvelle page ! « Ruisseau : dix centimètres de moins chaque année. Prochaine mesure : le Váh, Liptov. »
+🦊 Une nouvelle page ! « Ruisseau : dix centimètres d'eau en moins chaque année. Prochaine mesure : le Váh, Liptov. »
 
 🐑 Et autre chose. Hier, un monsieur en costume est venu. Très gentil. Il souriait beaucoup. Il voulait l'enveloppe.
 
@@ -871,7 +871,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 # Chapitre 6 — Povodeň
 
-*Résumé : le Liptov. Il pleut depuis trois jours, le train s'arrête (voie inondée), le Váh déborde. Pour la première fois, les héros ne cherchent pas l'eau qui manque mais fuient celle qui monte. Un pompier (vouvoyé) leur demande un coup de main : déplacer les petits animaux d'un village vers l'école. Ils aident, mouillés comme des poissons ; Katka protège son téléphone avant tout (« je n'ai que deux mains, le téléphone est la troisième »). Soirée au gymnase : soupe, entraide, et une renarde bénévole qui sert le thé : Andrea ne le prend qu'après que Gab a bu. Idée qui germe : « il faut que quelqu'un le dise. » Le pompier : la loutre avait prévenu de la crue, personne ne l'a crue. À la télé du gymnase, le monsieur au sourire : « la situation est sous contrôle » ; il est porte-parole du groupe Zelená vlna.*
+*Résumé : le Liptov. Il pleut depuis trois jours, le train s'arrête (voie inondée), le Váh déborde. Pour la première fois, les héros ne cherchent pas l'eau qui manque mais fuient celle qui monte. Un pompier (vouvoyé) leur demande un coup de main : déplacer les petits animaux d'un village vers l'école. Ils aident, mouillés comme des poissons ; Katka protège son téléphone avant tout (« je n'ai que deux mains, le téléphone est la troisième »). Soirée au gymnase : soupe, entraide, et une chamois bénévole qui sert le thé : Andrea ne le prend qu'après que Gab a bu. Idée qui germe : « il faut que quelqu'un le dise. » Le pompier : la loutre avait prévenu de la crue, personne ne l'a crue. À la télé du gymnase, le monsieur au sourire : « la situation est sous contrôle » ; il est porte-parole du groupe Zelená vlna.*
 
 ## Scène 1
 
@@ -965,7 +965,7 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🐻 Nous les y amènerons.
 
-🧑 Exactement. Merci à vous. Et faites attention, s'il vous plaît. L'eau est forte.
+🧑 Exactement. Merci à vous. Et faites attention, s'il vous plaît. Le courant est fort.
 
 🐰 Vous n'avez pas vu une loutre ? Madame la docteure Vydrová ?
 
@@ -1029,11 +1029,11 @@ Traduction **ligne à ligne** de `Histoire.md` (même découpage en chapitres et
 
 🐻 Je n'ai jamais vu autant d'animaux au même endroit.
 
-🐹 Ni autant de mouillés.
+🐹 Et autant de mouillés.
 
 💬 Une jeune chamois en gilet vert s'approche d'eux. Elle porte un plateau avec du thé.
 
-🦊🦺 Bonsoir. Vous voulez du thé ? Il est chaud.
+🐐🦺 Bonsoir. Vous voulez du thé ? Il est chaud.
 
 🦊 Merci, c'est gentil à vous.
 

@@ -214,19 +214,19 @@
     {
       "id": "order-presne-tak-akujem-v-m-a-pros-m-bu-te-opatrn-voda-je-siln",
       "type": "order",
-      "l1": "Exactement. Merci à vous. Et faites attention, s'il vous plaît. L'eau est forte.",
-      "l2": "Presne tak. Ďakujem vám. A prosím, buďte opatrní. Voda je silná.",
+      "l1": "Exactement. Merci à vous. Et faites attention, s'il vous plaît. Le courant est fort.",
+      "l2": "Presne tak. Ďakujem vám. A prosím, buďte opatrní. Prúd je silný.",
       "tokens_l1": [
         "Exactement.",
         "Merci à vous.",
         "Et faites attention, s'il vous plaît.",
-        "L'eau est forte."
+        "Le courant est fort."
       ],
       "tokens_l2": [
         "Presne tak.",
         "Ďakujem vám.",
         "A prosím, buďte opatrní.",
-        "Voda je silná."
+        "Prúd je silný."
       ]
     }
   ]

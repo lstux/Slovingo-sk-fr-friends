@@ -1,4 +1,4 @@
-# Série Burka (2/5) — Zajtra bude búrka
+# Série Búrka (2/5) — Zajtra bude búrka
 
 @ img/tatry-chata-pleso.jpg | Un refuge de montagne au bord d'un lac des Tatras. Source : Wikimedia Commons, Kristo, CC BY-SA 3.0
 

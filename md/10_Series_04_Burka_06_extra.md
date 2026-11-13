@@ -1,4 +1,4 @@
-# Burka (extra) — Ráno po búrke
+# Búrka (extra) — Ráno po búrke
 
 @ img/illus_04_burka_2.jpg | Au lac, le lendemain de l'orage : le renard montre le plan du carnet, Andrea regarde l'eau monter. Source : illustration générée avec ChatGPT
 
