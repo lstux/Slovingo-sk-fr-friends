@@ -70,7 +70,7 @@ Scene: The pedestrian main street of Košice on a sunny day, the tall Gothic cat
 ```
 
 ### 06 — La nourriture et la gastronomie
-Fichier : `img/vocabulary/06_jedlo-gastronomia.jpg` · Joindre : **A** · Légende : « Commander, goûter et donner son avis dans une auberge slovaque. »
+Fichier : `img/vocabulary/06_jedlo-gastronomia.jpg` · Joindre : **A** · Légende : « Découvrir les spécialités, goûter et donner son avis au marché. »
 ```
 Scene: A cosy rustic Slovak inn, wooden beams and checked tablecloths. Maťo, at the centre, looks delighted at a big steaming plate of potato dumplings with white sheep cheese and crispy bacon. The fox and Andrea share a plate of filled dumplings and a bowl of soup, Andrea tasting with one eyebrow raised. A friendly human waiter in a simple apron arrives with a tray and a basket of bread.
 ```

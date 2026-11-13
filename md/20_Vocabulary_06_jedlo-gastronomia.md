@@ -1,5 +1,7 @@
 # Jedlo a gastronómia (La nourriture et la gastronomie)
 
+@ img/vocabulary/06_jedlo-gastronomia.jpg | Découvrir les spécialités, goûter et donner son avis au marché. Source : illustration générée avec ChatGPT
+
 {{fr:La cuisine slovaque ne se résume pas aux halušky. Voici de quoi commander, goûter et donner ton avis.}}
 
 ---
