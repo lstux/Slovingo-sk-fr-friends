@@ -222,6 +222,34 @@
     "backup_import": "📤 Importer une sauvegarde (JSON)",
     "map_final_reached": "Bravo ! Tu as terminé tout le parcours !"
   },
+  "mascots": {
+    "map": "duo",
+    "greetings": {
+      "morning": [
+        { "t": "Dobré ráno, [USER_NAME]!", "n": "Bonjour, [USER_NAME] !" },
+        { "t": "Dobré ráno! Káva alebo čaj?", "n": "Bonjour ! Café ou thé ?" },
+        { "t": "Ráno múdrejšie večera.", "n": "Le matin est plus sage que le soir (la nuit porte conseil)." }
+      ],
+      "day": [
+        { "t": "Dobrý deň, [USER_NAME]!", "n": "Bonjour, [USER_NAME] !" },
+        { "t": "Ahoj! Ideme na to?", "n": "Salut ! On s'y met ?" },
+        { "t": "Čo nové?", "n": "Quoi de neuf ?" }
+      ],
+      "evening": [
+        { "t": "Dobrý večer, [USER_NAME]!", "n": "Bonsoir, [USER_NAME] !" },
+        { "t": "Ešte chvíľku slovenčiny?", "n": "Encore un peu de slovaque ?" }
+      ],
+      "night": [
+        { "t": "Ešte nespíš?", "n": "Tu ne dors pas encore ?" },
+        { "t": "Dobrú noc… ale najprv jedno cvičenie!", "n": "Bonne nuit… mais d'abord un exercice !" }
+      ],
+      "any": [
+        { "t": "Ahoj, [USER_NAME]!", "n": "Salut, [USER_NAME] !" },
+        { "t": "Vitaj späť!", "n": "Bon retour !" },
+        { "t": "Hej! Kam dnes ideme?", "n": "Hé ! On va où aujourd'hui ?", "who": "fox" }
+      ]
+    }
+  },
   "greeting": {
     "t": "Ahoj, [USER_NAME]!",
     "n": "Salut, [USER_NAME] !"
