@@ -57,7 +57,22 @@
     "rozhodnutie": "Rozhodnutie",
     "bratislava": "Bratislava",
     "hrad": "Hrad",
-    "sen": "Sen"
+    "sen": "Sen",
+    "meteo-climat": "Météo et climat",
+    "voda-zivotne-prostredie": "Eau et environnement",
+    "hory-turistika": "Montagne et randonnée",
+    "doprava-cestovanie": "Transports et déplacements",
+    "mesto-kultura": "Ville et culture",
+    "jedlo-gastronomia": "Gastronomie",
+    "vztahy-pocity": "Relations et émotions",
+    "nazory-diskusia": "Opinions et débats",
+    "technologie-internet": "Technologie et Internet",
+    "energia-bana": "Énergie et exploitation minière",
+    "media-spravodajstvo": "Médias et information",
+    "bezpecnost-pomoc": "Sécurité et secours",
+    "praca-obcianska-spolocnost": "Travail et société",
+    "cas-spomienky": "Temps et souvenirs",
+    "vyjadrovanie-komunikacia": "Communication"
   },
   "ui": {
     "change_course": "Changer de cours",
@@ -191,34 +206,88 @@
     "backup_import": "📤 Importer une sauvegarde (JSON)",
     "map_final_reached": "Bravo ! Tu as terminé tout le parcours !"
   },
-  "greeting": {"t": "Ahoj, [USER_NAME]!", "n": "Salut, [USER_NAME] !"},
+  "greeting": {
+    "t": "Ahoj, [USER_NAME]!",
+    "n": "Salut, [USER_NAME] !"
+  },
   "cheers": {
     "perfect": [
-      {"t": "Výborne!", "n": "Excellent !"},
-      {"t": "Úžasné!", "n": "Incroyable !"},
-      {"t": "Bomba!", "n": "Génial !"},
-      {"t": "Sto percent!", "n": "Cent pour cent !"},
-      {"t": "To je pre teba ľahké?!", "n": "C'est trop facile pour toi ?!"}
+      {
+        "t": "Výborne!",
+        "n": "Excellent !"
+      },
+      {
+        "t": "Úžasné!",
+        "n": "Incroyable !"
+      },
+      {
+        "t": "Bomba!",
+        "n": "Génial !"
+      },
+      {
+        "t": "Sto percent!",
+        "n": "Cent pour cent !"
+      },
+      {
+        "t": "To je pre teba ľahké?!",
+        "n": "C'est trop facile pour toi ?!"
+      }
     ],
     "great": [
-      {"t": "Skvelé!", "n": "Super !"},
-      {"t": "Takmer dokonalé!", "n": "Presque parfait !"},
-      {"t": "Veľmi dobre!", "n": "Très bien !"}
+      {
+        "t": "Skvelé!",
+        "n": "Super !"
+      },
+      {
+        "t": "Takmer dokonalé!",
+        "n": "Presque parfait !"
+      },
+      {
+        "t": "Veľmi dobre!",
+        "n": "Très bien !"
+      }
     ],
     "good": [
-      {"t": "Dobrá práca!", "n": "Beau travail !"},
-      {"t": "Pekne!", "n": "Joli !"},
-      {"t": "Ide ti to!", "n": "Ça marche bien pour toi !"}
+      {
+        "t": "Dobrá práca!",
+        "n": "Beau travail !"
+      },
+      {
+        "t": "Pekne!",
+        "n": "Joli !"
+      },
+      {
+        "t": "Ide ti to!",
+        "n": "Ça marche bien pour toi !"
+      }
     ],
     "ok": [
-      {"t": "Nie je to zlé!", "n": "Pas mal !"},
-      {"t": "Pokračuj!", "n": "Continue !"},
-      {"t": "Zlepšuješ sa!", "n": "Tu progresses !"}
+      {
+        "t": "Nie je to zlé!",
+        "n": "Pas mal !"
+      },
+      {
+        "t": "Pokračuj!",
+        "n": "Continue !"
+      },
+      {
+        "t": "Zlepšuješ sa!",
+        "n": "Tu progresses !"
+      }
     ],
     "retry": [
-      {"t": "Skús znova!", "n": "Essaie encore !"},
-      {"t": "Nevzdávaj sa!", "n": "Ne lâche pas !"},
-      {"t": "Cvičenie robí majstra!", "n": "C'est en s'entraînant qu'on progresse !"}
+      {
+        "t": "Skús znova!",
+        "n": "Essaie encore !"
+      },
+      {
+        "t": "Nevzdávaj sa!",
+        "n": "Ne lâche pas !"
+      },
+      {
+        "t": "Cvičenie robí majstra!",
+        "n": "C'est en s'entraînant qu'on progresse !"
+      }
     ]
   },
   "generator": {
@@ -278,7 +347,22 @@
     "rozhodnutie": "default",
     "bratislava": "city",
     "hrad": "city",
-    "sen": "default"
+    "sen": "default",
+    "meteo-climat": "default",
+    "voda-zivotne-prostredie": "default",
+    "hory-turistika": "default",
+    "doprava-cestovanie": "city",
+    "mesto-kultura": "city",
+    "jedlo-gastronomia": "food",
+    "vztahy-pocity": "default",
+    "nazory-diskusia": "default",
+    "technologie-internet": "default",
+    "energia-bana": "default",
+    "media-spravodajstvo": "default",
+    "bezpecnost-pomoc": "default",
+    "praca-obcianska-spolocnost": "default",
+    "cas-spomienky": "default",
+    "vyjadrovanie-komunikacia": "default"
   },
   "map": {
     "icons": {
@@ -298,21 +382,66 @@
     },
     "direction": "down",
     "positions": {
-      "intro": [71.5, 3.2],
-      "series-kosice": [87.6, 37.5],
-      "series-sucho": [57.4, 30],
-      "series-raj": [48.8, 16.5],
-      "series-burka": [14.2, 19.5],
-      "series-domov": [33.5, 40.3],
-      "series-povoden": [65.3, 47],
-      "series-cesta": [83.8, 58.2],
-      "series-datacentrum": [17.9, 53.8],
-      "series-bana": [77.9, 72],
-      "series-rozhodnutie": [22.6, 68.3],
-      "series-bratislava": [35.9, 80.8],
-      "series-hrad": [55, 90.3],
-      "series-sen": [86, 93.3],
-      "final-exam": [25.5, 97.7]
+      "intro": [
+        71.5,
+        3.2
+      ],
+      "series-kosice": [
+        87.6,
+        37.5
+      ],
+      "series-sucho": [
+        57.4,
+        30
+      ],
+      "series-raj": [
+        48.8,
+        16.5
+      ],
+      "series-burka": [
+        14.2,
+        19.5
+      ],
+      "series-domov": [
+        33.5,
+        40.3
+      ],
+      "series-povoden": [
+        65.3,
+        47
+      ],
+      "series-cesta": [
+        83.8,
+        58.2
+      ],
+      "series-datacentrum": [
+        17.9,
+        53.8
+      ],
+      "series-bana": [
+        77.9,
+        72
+      ],
+      "series-rozhodnutie": [
+        22.6,
+        68.3
+      ],
+      "series-bratislava": [
+        35.9,
+        80.8
+      ],
+      "series-hrad": [
+        55,
+        90.3
+      ],
+      "series-sen": [
+        86,
+        93.3
+      ],
+      "final-exam": [
+        25.5,
+        97.7
+      ]
     }
   }
 }
