@@ -1,5 +1,7 @@
 # Doprava a cestovanie (Les transports et les déplacements)
 
+@ img/vocabulary/04_doprava-cestovanie.jpg | Consulter les horaires, trouver le quai et prendre le bon train. Source : illustration générée avec ChatGPT
+
 {{fr:Train, bus, tram ou voiture : traverser la Slovaquie demande parfois un peu d'organisation.}}
 
 ---

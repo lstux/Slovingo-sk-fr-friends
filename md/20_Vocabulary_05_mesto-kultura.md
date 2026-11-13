@@ -1,5 +1,7 @@
 # Mesto a kultúra (La ville et la culture)
 
+@ img/vocabulary/05_mesto-kultura.jpg | Explorer le centre historique, les monuments et les lieux culturels. Source : illustration générée avec ChatGPT
+
 {{fr:Košice et Bratislava ont chacune leur caractère. Découvre les mots pour visiter une ville et parler de son patrimoine.}}
 
 ---

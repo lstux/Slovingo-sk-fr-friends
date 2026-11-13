@@ -1,5 +1,7 @@
 # Voda a životné prostredie (L'eau et l'environnement)
 
+@ img/vocabulary/02_voda-zivotne-prostredie.jpg | Préserver les rivières et protéger les ressources naturelles. Source : illustration générée avec ChatGPT
+
 {{fr:L'eau est indispensable à la vie. Mais que se passe-t-il quand elle vient à manquer ou quand elle est polluée ?}}
 
 ---

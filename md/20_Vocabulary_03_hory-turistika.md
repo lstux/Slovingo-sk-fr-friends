@@ -1,5 +1,7 @@
 # Hory a turistika (La montagne et la randonnée)
 
+@ img/vocabulary/03_hory-turistika.jpg | Préparer une randonnée et suivre les sentiers balisés des Tatras. Source : illustration générée avec ChatGPT
+
 {{fr:Les Tatras et le Slovenský raj sont magnifiques, mais la montagne se respecte. Voici le vocabulaire pour préparer une randonnée.}}
 
 ---
