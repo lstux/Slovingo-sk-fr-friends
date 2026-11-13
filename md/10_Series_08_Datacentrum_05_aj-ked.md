@@ -253,4 +253,4 @@
 
 {{fr:Pour nuancer en slovaque, deux petits mots :}} {{aj keď}} {{fr:(même si) et}} {{ale}} {{fr:(mais). Avec eux, on peut être d'accord et pas d'accord dans la même phrase. Comme Marek.}}
 
-{{fr:L'expression}} {{Je mi to jedno}} {{fr:veut dire « ça m'est égal ». Attention au ton : dite trop vite, elle peut sembler un peu sèche.}}
+@@ hare:think | {{fr:L'expression}} {{Je mi to jedno}} {{fr:veut dire « ça m'est égal ». Attention au ton : dite trop vite, elle peut sembler un peu sèche.}}

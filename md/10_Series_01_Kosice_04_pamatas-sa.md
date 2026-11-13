@@ -32,7 +32,7 @@
 
 {{fr:Trois nombres trichent un peu :}} {{štyri}} {{fr:donne}} {{štrnásť}}{{fr:,}} {{šesť}} {{fr:donne}} {{šestnásť}}{{fr:, et le}} {{ť}} {{fr:de}} {{päť}} {{fr:devient un simple}} {{t}} {{fr:dans}} {{pätnásť}}{{fr:. Les autres suivent la règle.}}
 
-{{fr:Attention à l'oreille : cinq et quinze se ressemblent beaucoup, écoute bien la fin du mot.}}
+@@ fox:think | {{fr:Attention à l'oreille : cinq et quinze se ressemblent beaucoup, écoute bien la fin du mot.}}
 
 | Slovenčina | Français |
 |------------|----------|
@@ -138,7 +138,7 @@
 
 {{fr:Les nombres de 11 à 19 finissent tous par}} {{-násť}}{{fr:. C'est un vieux « sur dix » :}} {{jedenásť}} {{fr:veut dire, à l'origine, « un sur dix ». Une façon de compter qu'on retrouve dans toutes les langues slaves.}}
 
-{{fr:Si tu veux épater tes amis, retiens bien}} {{päť}} {{fr:et}} {{pätnásť}}{{fr: : c'est facile de se tromper entre les deux !}}
+@@ fox:bravo | {{fr:Si tu veux épater tes amis, retiens bien}} {{päť}} {{fr:et}} {{pätnásť}}{{fr: : c'est facile de se tromper entre les deux !}}
 
 ---
 

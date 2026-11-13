@@ -106,7 +106,7 @@
 
 ## 🇸🇰 Coin slovaque
 
-{{fr:Le mot}} {{tréma}} {{fr:veut dire « le trac ». Attention, en français, le tréma, c'est les deux points sur une lettre ! Mêmes lettres, sens complètement différent.}}
+@@ fox:think | {{fr:Le mot}} {{tréma}} {{fr:veut dire « le trac ». Attention, en français, le tréma, c'est les deux points sur une lettre ! Mêmes lettres, sens complètement différent.}}
 
 {{fr:Pour souhaiter bonne chance avant une épreuve, les Slovaques disent}} {{Zlom väz!}}{{fr:, « Casse-toi le cou ! ». C'est l'équivalent du « Merde ! » des comédiens français.}}
 

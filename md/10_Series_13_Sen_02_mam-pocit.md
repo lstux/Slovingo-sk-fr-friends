@@ -79,7 +79,7 @@
 
 ## 🇸🇰 Coin slovaque
 
-{{fr:Le mot}} {{divný}} {{fr:veut dire « bizarre ». Attention au faux ami : il ne veut pas dire « divin » ! Une idée divine, ce serait plutôt}} {{božská}}{{fr:.}}
+@@ hare:content | {{fr:Le mot}} {{divný}} {{fr:veut dire « bizarre ». Attention au faux ami : il ne veut pas dire « divin » ! Une idée divine, ce serait plutôt}} {{božská}}{{fr:.}}
 
 {{fr:Pour tendre quelque chose à quelqu'un, on dit}} {{Tu máš.}} {{fr:à un ami et}} {{Tu máte.}} {{fr:à un adulte. Mot à mot : « ici tu as ».}}
 

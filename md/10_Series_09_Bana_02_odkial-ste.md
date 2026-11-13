@@ -40,7 +40,7 @@
 | Kedy? | Quand ? |
 | Ako? | Comment ? |
 
-{{fr:Attention au trio}} {{kde}}{{fr:,}} {{kam}}{{fr:,}} {{odkiaľ}}{{fr: : où on est, où on va, d'où on vient.}}
+@@ hare:think | {{fr:Attention au trio}} {{kde}}{{fr:,}} {{kam}}{{fr:,}} {{odkiaľ}}{{fr: : où on est, où on va, d'où on vient.}}
 
 ---
 

@@ -57,7 +57,7 @@
 
 ## C'est…
 
-{{fr:Pour montrer quelque chose ou quelqu'un, on dit}} {{to je}}{{fr:. Pas besoin de « le » ou « la » : le slovaque n'a pas d'articles.}}
+@@ fox:bravo | {{fr:Pour montrer quelque chose ou quelqu'un, on dit}} {{to je}}{{fr:. Pas besoin de « le » ou « la » : le slovaque n'a pas d'articles.}}
 
 ! To je Andrea.
 > C'est Andrea.

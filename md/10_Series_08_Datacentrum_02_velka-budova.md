@@ -94,7 +94,7 @@
 
 ## 🇸🇰 Coin slovaque
 
-{{fr:Les zones humides, en slovaque}} {{mokrade}}{{fr:, gardent l'eau comme une éponge : elles la retiennent quand il pleut et la rendent quand il fait sec. En Slovaquie, beaucoup ont disparu au XXe siècle, asséchées pour les champs ou les constructions.}}
+@@ hare:content | {{fr:Les zones humides, en slovaque}} {{mokrade}}{{fr:, gardent l'eau comme une éponge : elles la retiennent quand il pleut et la rendent quand il fait sec. En Slovaquie, beaucoup ont disparu au XXe siècle, asséchées pour les champs ou les constructions.}}
 
 {{fr:Le cri de la grenouille, en slovaque, c'est}} {{kvák}}{{fr:. En français, c'est « croâ ». Les grenouilles slovaques ont visiblement un autre accent.}}
 
