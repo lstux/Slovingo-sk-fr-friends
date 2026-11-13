@@ -211,3 +211,8 @@ Row 1: 8-frame climbing-up cycle, steady and quick (the 8th frame loops back to 
 Row 2: 8-frame climbing-down cycle, back view too, head turned over her shoulder toward the ground with a calm, slightly amused look.
 Same scale in every cell, Andrea centered, ears and feet never cross a cell border, no tangled limbs.
 ```
+
+## Pán Orol (l'aigle, garde du parc) : `sources/orol_sheet_src.png` (16 poses, perché, pas de marche)
+
+**À joindre** : `planche-tous.jpg` (la planche de tous les personnages, on n'utilise que l'aigle). 2 rangées × 8, poses tournées vers la GAUCHE (le sprite est donc tel que dessiné avec `face: 1`). Découpage : `python3 tools/make_sprites.py orol`. Poses : idle, talk, down, paper, worry, smile, surprised, think, pointr, pointup, hat, search, feather, spread, fly, no.
+Prompt : voir la conversation du 13 nov. (16 poses listées : debout, parle, regarde de haut, tend une page, inquiet, sourit, surpris, réfléchit / pointe à droite, pointe le ciel, salue du chapeau, cherche, tient une plume, ailes à demi ouvertes, en vol, secoue la tête).

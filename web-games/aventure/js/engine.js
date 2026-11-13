@@ -8,7 +8,7 @@
   const SAVE_KEY = 'zajka-aventure-v1', FR_KEY = 'zajka-aventure-fr', VOICE_KEY = 'zajka-aventure-voice';
   // une seule voix slovaque (celle de l'appareil) : on distingue les personnages par la hauteur et le debit
   const VOICE_PROFILES = { fox: { pitch: 1.0, rate: 0.95 }, andrea: { pitch: 1.3, rate: 1.0 }, narrator: { pitch: 0.8, rate: 0.92 }, katka: { pitch: 1.2, rate: 1.05 }, mato: { pitch: 0.7, rate: 0.9 },
-    zahradnik: { pitch: 0.7, rate: 0.85 }, pan: { pitch: 0.85, rate: 0.9 }, revizor: { pitch: 0.8, rate: 0.9 }, pokladnicka: { pitch: 1.1, rate: 0.95 }, kacka: { pitch: 1.6, rate: 1.0 }, teta: { pitch: 1.15, rate: 0.95 } };
+    zahradnik: { pitch: 0.7, rate: 0.85 }, pan: { pitch: 0.85, rate: 0.9 }, revizor: { pitch: 0.8, rate: 0.9 }, pokladnicka: { pitch: 1.1, rate: 0.95 }, orol: { pitch: 0.75, rate: 0.88 }, kacka: { pitch: 1.6, rate: 1.0 }, teta: { pitch: 1.15, rate: 0.95 } };
   const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
   const smooth = (k) => k * k * (3 - 2 * k);   // courbe douce (depart et arrivee lents)
 

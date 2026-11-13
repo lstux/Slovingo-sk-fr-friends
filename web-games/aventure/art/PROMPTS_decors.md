@@ -148,3 +148,12 @@ From left to right, along the gorge: on the far left, a flat path of stones at t
 
 Background style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading, simplified shapes, gentle gradients, no photographic textures or reflections. Landscape 3:1 format. No text, no letters, no numbers, no logos, no watermark.
 ```
+
+## 14. Le rocher de pán Orol : `raj_orol_wide.webp` (chapitre 3, scène 5)
+
+**À la suite de la conversation de la gorge** (rien à joindre). Résultat retenu du 1ᵉʳ coup : l'échelle de la gorge à gauche, clairière, tronc creux (cul-de-sac de l'écureuil), grand rocher à sommet plat à droite (pán Orol s'y perche), Tatras enneigées au fond.
+```
+Now, in exactly the same drawing style, draw the next scrolling background of the game: the clearing just after the end of the gorge in the Slovak Paradise national park, Slovakia, on the same very hot, dry summer day, as a very wide panoramic image in 3:1 format (3072x1024 pixels), seen from the front, warm afternoon light, a calm atmosphere.
+From left to right: on the far left, the gorge opens up, with the pale limestone wall and the foot of the steel ladder we just came down, and a flat path of stones that leads into the clearing (this is where the characters arrive). In the middle, a sunny grassy clearing with wildflowers, a few spruces and beech trees around it, a mossy fallen log, and a small stream at the back. On the right, a LARGE, tall, flat-topped limestone boulder, the "eagle's rock", rising high above the clearing with a smooth natural perch on its top and a few twigs and a worn feather on the ground at its foot; behind it, in the distance and slightly hazy, the dark blue silhouette of the High Tatras mountains with a bit of snow on the highest peaks. A tiny hollow in a tree trunk in the left part (empty, for a dead-end joke). The clearing is EMPTY (no people, no animals, no signs with writing). The lower third of the image, along the whole width, stays clear and uncluttered, because characters will walk there. No text, no letters, no numbers, no logos.
+Background style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading, simplified shapes, gentle gradients, no photographic textures or reflections. Landscape 3:1 format. No text, no letters, no numbers, no logos, no watermark.
+```

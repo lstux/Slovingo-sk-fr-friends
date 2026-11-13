@@ -60,6 +60,16 @@ CHARS = {
     },
 }
 
+CHARS['orol'] = {
+    # pan Orol (aigle, garde du parc) : perche sur son rocher, 16 poses, pas de marche
+    'poses': {'src': 'sources/orol_sheet_src.png', 'cols': 8, 'rows': 2, 'row': 'all',
+              'names': ['idle', 'talk', 'down', 'paper', 'worry', 'smile', 'surprised', 'think',
+                        'pointr', 'pointup', 'hat', 'search', 'feather', 'spread', 'fly', 'no']},
+    'nowalk': True,
+    'height': 400,           # plus grand que Gab (440 avec les oreilles... non : l'aigle est trapu), a juger sur le decor
+    'scale_by': 'height',
+}
+
 CHARS['pokladnicka'] = {
     # buste derriere un comptoir : 16 poses, un seul cadre commun (tete au meme endroit), pas de marche
     'poses': {'src': 'sources/pokladnicka_sheet_src.png', 'cols': 8, 'rows': 2, 'row': 'all',
@@ -138,6 +148,12 @@ def main(cid):
             fr.save(os.path.join(ART, f'{out}_{name}.png'))
         print(json.dumps({'h': round(frames[0].height * unit), 'poses': spec['poses']['names']}, ensure_ascii=False))
         return
+    if spec.get('nowalk'):          # personnage perche : poses seulement, chacune a son echelle (pose debout = reference)
+        ref = measure(pc[0]); unit = spec['height'] / (ref['bot'] - ref['top']); meta = {}
+        for name, c in zip(spec['poses']['names'], pc):
+            fr = place([scaled(c, 1.0)])[0]; fr.save(os.path.join(ART, f'{out}_{name}.png'))
+            meta[name] = round(fr.height * unit)
+        print(json.dumps(meta, ensure_ascii=False)); return
     wc = cells(spec['walk'])[: spec['walk']['frames']]
     ref = measure(pc[0])                                   # la pose debout fixe l'echelle
     if spec.get('scale_by') == 'height':

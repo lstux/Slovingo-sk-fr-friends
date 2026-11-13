@@ -41,6 +41,13 @@
     id: 'pokladnicka', img: 'art/pokladnicka_idle.png', x, y, h: 271, face: -1,
     poses: Object.fromEntries(POKL.map((k) => [k, { img: `art/pokladnicka_${k}.png`, h: 271 }])),
   });
+  // pan Orol : la planche le montre tourne vers la GAUCHE (face: 1 = tel que dessine). Il ne marche pas : il reste perche.
+  const OROL_POSES = { idle: 410, talk: 411, down: 418, paper: 410, worry: 420, smile: 418, surprised: 425, think: 410, pointr: 411, pointup: 414, hat: 418, search: 381, feather: 416, spread: 387, fly: 356, no: 410 };
+  const OROL_K = 0.84;   // perche loin, au sommet : tete visible sous le bord de l'ecran
+  const orolSprite = (x, y) => ({
+    id: 'orol', img: 'art/orol_idle.png', x, y, h: OROL_POSES.idle * OROL_K, face: 1,
+    poses: Object.fromEntries(Object.entries(OROL_POSES).map(([k, h]) => [k, { img: `art/orol_${k}.png`, h: h * OROL_K }])),
+  });
   const andrea = (x, face, y) => ({
     id: 'andrea', img: 'art/andrea2_idle.png', x, y: y || 662, h: ANDREA_POSES.idle, face: face || 1, speed: 324, scaleSpeed: true,
     walkSheet: { img: 'art/andrea2_walk.png', frames: 8, fps: 8, h: 479 },
@@ -72,7 +79,7 @@
   const notebook = {
     pages: {
       p1: { title: { sk: 'Fontána v Košiciach', fr: 'La fontaine de Košice' }, sk: 'Ďalšie meranie: Slovenský raj.', fr: 'Prochaine mesure : Paradis slovaque.' },
-      p2: { title: { sk: 'Slovenský raj', fr: 'Paradis slovaque' }, sk: '(strana ešte chýba)', fr: '(page à trouver)' },
+      p2: { title: { sk: 'Slovenský raj', fr: 'Paradis slovaque' }, sk: 'Pre nálezcu. Ďakujem! Idem merať do Tatier, k Téryho chate. Dr. V.', fr: 'Pour celui qui trouvera ce carnet. Merci ! Je vais mesurer dans les Tatras, au refuge Téry. Dr V.' },
       p3: { title: { sk: 'Vysoké Tatry', fr: 'Hautes Tatras' }, sk: '(strana ešte chýba)', fr: '(page à trouver)' },
       p4: { title: { sk: 'Liptov', fr: 'Liptov' }, sk: '(strana ešte chýba)', fr: '(page à trouver)' },
       p5: { title: { sk: 'Dátové centrum', fr: 'Centre de données' }, sk: '(strana ešte chýba)', fr: '(page à trouver)' },
@@ -81,6 +88,7 @@
     clues: {
       kacka: { sk: 'Vydra s žltými čižmami merala vodu v jazierku.', fr: 'Une loutre en bottes jaunes mesurait l\'eau de l\'étang.' },
       fontana: { sk: 'Zápisník patrí doktorke Vydrovej. Odišla na západ.', fr: 'Le carnet est à la docteure Vydrová. Elle est partie vers l\'ouest.' },
+      tatry: { sk: 'Doktorka Vydrová šla do Tatier, k Téryho chate. V Tatrách prší.', fr: 'La docteure Vydrová est partie dans les Tatras, au refuge Téry. Il pleut dans les Tatras.' },
       pan: { sk: 'Pán v čiernom aute hľadá zápisník. Veľa sa usmieva.', fr: 'Le monsieur à la voiture noire cherche le carnet. Il sourit beaucoup.' },
     },
   };
@@ -312,6 +320,7 @@
       zahradnik: { name: 'Záhradník', icon: '🧑‍🌾', color: '#5a9a4a' },
       pan: { name: 'Pán v obleku', icon: '🕴️', color: '#555a66' },
       pokladnicka: { name: 'Pokladníčka', icon: '🧑‍💼', color: '#b06ab0' },
+      orol: { name: 'Pán Orol', icon: '🦅', color: '#8a5a2a' },
     }),
     items: Object.assign({}, ZA_DATA.items, {
       kluc: { sk: 'kľúč', fr: 'clé', icon: 'art/item_kluc.png' },
@@ -1181,7 +1190,7 @@
                 g.pose('fox', null);
                 await say(g, 'andrea', 'Vidíš? Nebolo to také zlé.', 'Tu vois ? C\'était pas si terrible.');
                 await say(g, 'fox', 'Zatváral som oči. Skoro som nič nevidel.', 'J\'avais les yeux fermés. Je n\'ai presque rien vu.');
-                g.end('Koniec ukážky', 'Fin de l\'aperçu');   // la suite : le rocher de pan Orol (decor C)
+                await g.sleep(500); g.goScene('orol');
               } else if (st === 1) {
                 await say(g, 'fox', 'Ten rebrík je za mostom. Najprv musím prejsť cez most.', 'Cette échelle est après le pont. Je dois d\'abord le traverser.');
                 await rokErr(g, 'Doprava! Cez most!', '« Doprava », c\'est vers la droite ! Par le pont !');
@@ -1238,6 +1247,56 @@
           g.setFlag('rk_ready');
         },
       },
+
+      // ---------------------------------------------------------------- chapitre 3 : decor C, le rocher de pan Orol
+      orol: {
+        chapter: 'ch3', title: { sk: 'Skala pána Orla', fr: 'Le rocher de l\'aigle' }, tint: ['#d9c88a', '#a99c6a'],
+        bg: 'art/raj_orol_wide.webp', worldW: 2160,
+        player: 'fox', floor: [[0, 590], [2160, 590], [2160, 712], [0, 712]], scale: { y0: 590, s0: 0.58, y1: 712, s1: 0.66, clamp: true },
+        sprites: [gab(220, 672), andrea(340, 1, 664), orolSprite(1800, 212)],
+        hotspots: [
+          // le rocher d'abord : les hotspots suivants (dont Orol, perche dessus) gagnent au recouvrement
+          { id: 'skala', name: { sk: 'skala', fr: 'le rocher' }, poly: box(1540, 130, 2160, 545),
+            look: { sk: 'Veľká skala. Na vrchu sedí orol.', fr: 'Un grand rocher. Un aigle est perché au sommet.', words: [['skala', 'le rocher']] } },
+          { id: 'orol', sprite: 'orol', name: { sk: 'pán Orol', fr: 'pán Orol' }, walk: [1560, 668],
+            greet: { who: 'orol', sk: 'Dobrý deň. Máte ešte nejakú otázku?', fr: 'Bonjour. Vous avez encore une question ?' },
+            topics: [
+              { when: (g) => g.flag('orol_done'), sk: 'Kde sú Tatry?', fr: 'Où sont les Tatras ?', async run(g) { g.pose('orol', 'pointr'); await say(g, 'orol', 'Tam. Vpravo, za lesom. Vidíte ten sneh?', 'Là-bas. À droite, derrière la forêt. Vous voyez cette neige ?', [['sneh', 'la neige']]); g.pose('orol', null); } },
+              { when: (g) => g.flag('orol_done'), sk: 'Kam šla doktorka Vydrová?', fr: 'Où est partie la docteure Vydrová ?', async run(g) { g.pose('orol', 'paper'); await say(g, 'orol', 'Do Tatier. K Téryho chate. Je to napísané na papieri.', 'Dans les Tatras. Au refuge Téry. C\'est écrit sur le papier.'); g.pose('orol', null); } },
+              { when: (g) => g.flag('orol_done'), sk: 'Kto bol ten pán v obleku?', fr: 'Qui était ce monsieur en costume ?', async run(g) { g.pose('orol', 'down'); await say(g, 'orol', 'Neviem. Mal čierne auto a veľký úsmev. Nepáčil sa mi.', 'Je ne sais pas. Il avait une voiture noire et un grand sourire. Il ne me plaisait pas.'); g.pose('orol', null); } },
+            ],
+            async onUse(g) { if (!g.flag('orol_done')) await orolTalk(g); else await g.talk(this); } },
+          { id: 'dutina', name: { sk: 'dutina', fr: 'le trou dans l\'arbre' }, poly: box(495, 135, 585, 225), walk: [520, 668],
+            look: { sk: 'Dutina v strome. Je tam ticho. Nikto nie je doma. Iba jeden orech.', fr: 'Un trou dans l\'arbre. C\'est silencieux. Personne n\'est chez soi. Juste une noix.', words: [['dutina', 'le creux'], ['orech', 'la noix']] } },
+          { id: 'rebrik', name: { sk: 'rebrík', fr: 'l\'échelle' }, poly: box(100, 110, 225, 580),
+            look: { sk: 'Rebrík z rokliny. Už sme dole. Tentoraz som otvoril oči.', fr: 'L\'échelle de la gorge. On est en bas. Cette fois, j\'ai ouvert les yeux.', words: [['tentoraz', 'cette fois']] } },
+          { id: 'kmen', name: { sk: 'kmeň', fr: 'le tronc' }, poly: box(545, 390, 995, 505),
+            look: { sk: 'Padnutý kmeň. Rastú na ňom hríby. Nie sú pre nás.', fr: 'Un tronc tombé. Des champignons y poussent. Ils ne sont pas pour nous.', words: [['kmeň', 'le tronc']] } },
+          { id: 'potok', name: { sk: 'potok', fr: 'le ruisseau' }, poly: box(995, 415, 1560, 485),
+            look: { sk: 'Potok je tenký. Vody je málo.', fr: 'Le ruisseau est tout fin. Il y a peu d\'eau.', words: [['málo', 'peu']] } },
+          { id: 'tatry', name: { sk: 'Tatry', fr: 'les Tatras' }, poly: box(1330, 40, 1960, 130),
+            look: { sk: 'Vysoké Tatry. Na vrcholoch je sneh. V lete!', fr: 'Les Hautes Tatras. Il y a de la neige sur les sommets. En été !', words: [['Tatry', 'les Tatras'], ['sneh', 'la neige']] } },
+          { id: 'pierko', name: { sk: 'pierko', fr: 'la plume' }, poly: box(1880, 520, 1990, 570), walk: [1840, 668],
+            look: { sk: 'Orlie pierko. Nechám ho tu. Patrí pánovi Orlovi.', fr: 'Une plume d\'aigle. Je la laisse là. Elle appartient à pán Orol.', words: [['pierko', 'la plume']] } },
+        ],
+        hints: [
+          { id: 'o_talk', when: (g) => !g.flag('orol_done'), levels: [
+            { sk: 'Niekto sedí hore na skale.', fr: 'Quelqu\'un est perché en haut du rocher.' },
+            { sk: 'Je to pán Orol, strážca parku. Pozdrav ho.', fr: 'C\'est pán Orol, le garde du parc. Va le saluer.' },
+            { sk: 'Klikni na orla.', fr: 'Clique sur l\'aigle.' } ] },
+        ],
+        async onEnter(g) {
+          if (g.flag('or0')) return;
+          g.setFlag('or0');
+          await say(g, 'narrator', 'Na konci rokliny je čistinka. Na skale sedí orol.', 'Au bout de la gorge, il y a une clairière. Un aigle est perché sur un rocher.', [['čistinka', 'la clairière'], ['orol', 'l\'aigle']]);
+          g.camTo(1400);
+          await g.sleep(1400);
+          g.pose('andrea', 'point');
+          await say(g, 'andrea', 'Pozri! Hore na skale.', 'Regarde ! Là-haut sur le rocher.', [['skala', 'le rocher']]);
+          g.pose('andrea', null);
+          g.camTo(null);
+        },
+      },
     },
   };
 
@@ -1250,6 +1309,62 @@
     for (const p of pts) { if (Array.isArray(p)) await g.walk(id, p[0], p[1]); else g.climb(id, p); }
     g.climb(id, null);
   };
+  // pan Orol : vouvoiement. Il faut dire « videli ste », pas « videl si » (on ne tutoie pas le garde du parc)
+  async function orolTalk(g) {
+    g.setFlag('orol_met');
+    g.pose('orol', 'hat');
+    await say(g, 'orol', 'Dobrý deň. Kam idete?', 'Bonjour. Vous allez où ?');
+    g.pose('orol', null);
+    await say(g, 'fox', 'Dobrý deň. Hľadáme vodu.', 'Bonjour. Nous cherchons de l\'eau.');
+    g.pose('orol', 'worry');
+    await say(g, 'orol', 'Aj tu je vody menej ako vlani. Potoky vysychajú.', 'Ici aussi, il y a moins d\'eau que l\'an dernier. Les ruisseaux s\'assèchent.', [['vlani', 'l\'an dernier'], ['vysychajú', 's\'assèchent']]);
+    await say(g, 'andrea', 'Menej ako vlani? Čo sa deje?', 'Moins que l\'an dernier ? Qu\'est-ce qui se passe ?');
+    g.pose('orol', 'no');
+    await say(g, 'orol', 'Neviem. V Tatrách vraj prší. Tu nie.', 'Je ne sais pas. Il paraît qu\'il pleut dans les Tatras. Pas ici.');
+    await say(g, 'andrea', 'V Tatrách prší?', 'Il pleut dans les Tatras ?');
+    g.pose('orol', 'pointr');
+    await say(g, 'orol', 'Áno. V horách je počasie iné. Ak chcete vodu, choďte tam.', 'Oui. Dans les montagnes, le temps est différent. Si vous voulez de l\'eau, allez là-bas.', [['počasie', 'le temps (météo)'], ['choďte', 'allez (vous)']]);
+    g.pose('orol', null);
+    // le joueur choisit la phrase polie
+    for (;;) {
+      const i = await g.choice([
+        { sk: 'A videl si tu jednu vydru? So zápisníkom?', fr: 'Et tu as vu une loutre ici ? Avec un carnet ? (tutoiement)' },
+        { sk: 'A nevideli ste tu jednu vydru? So zápisníkom?', fr: 'Et vous n\'auriez pas vu une loutre ici ? Avec un carnet ? (vouvoiement)' },
+        { sk: 'Hej, orol! Videl si vydru?', fr: 'Hé, l\'aigle ! Tu as vu une loutre ? (tutoiement)' },
+      ]);
+      if (i === 1) { await say(g, 'fox', 'A nevideli ste tu jednu vydru? So zápisníkom?', 'Et vous n\'auriez pas vu une loutre ici ? Avec un carnet ?', [['videli ste', 'vous avez vu']]); g.learn('videli ste', 'vous avez vu'); break; }
+      await say(g, 'fox', i === 0 ? 'A videl si tu jednu vydru? So zápisníkom?' : 'Hej, orol! Videl si vydru?', i === 0 ? 'Et tu as vu une loutre ici ? Avec un carnet ?' : 'Hé, l\'aigle ! Tu as vu une loutre ?');
+      g.pose('orol', 'down');
+      await say(g, 'orol', 'Hm. Ja som pán Orol. Nie „ty“.', 'Hm. Je suis pán Orol. Pas « ty ».');
+      g.pose('orol', null);
+      await say(g, 'andrea', 'Gab! Vykáme mu. „Videli ste…“', 'Gab ! On le vouvoie. « Videli ste… »');
+    }
+    g.pose('orol', 'smile');
+    await say(g, 'orol', 'Doktorku Vydrovú? Bola tu včera. Merala potok. Nechala tu niečo. Pre toho, kto nájde jej zápisník.', 'La docteure Vydrová ? Elle était là hier. Elle mesurait le ruisseau. Elle a laissé quelque chose. Pour celui qui trouvera son carnet.', [['včera', 'hier'], ['merala', 'elle mesurait']]);
+    g.pose('orol', 'paper');
+    await say(g, 'narrator', 'Pán Orol im podá papier. Je to strana zo zápisníka.', 'Pán Orol leur tend un papier. C\'est une page du carnet.', [['strana', 'la page']]);
+    g.addPage('p2'); g.addClue('tatry');
+    g.pose('orol', null);
+    await say(g, 'fox', '„Pre nálezcu. Ďakujem! Idem merať do Tatier, k Téryho chate. Dr. V.“', '« Pour celui qui trouvera ce carnet. Merci ! Je vais mesurer dans les Tatras, au refuge Téry. Dr V. »');
+    g.pose('orol', 'think');
+    await say(g, 'orol', 'Ešte niečo. Včera sa na ňu pýtal jeden pán v obleku. Veľmi sa usmieval.', 'Encore une chose. Hier, un monsieur en costume a demandé après elle. Il souriait beaucoup.', [['oblek', 'le costume']]);
+    g.pose('orol', null);
+    await say(g, 'andrea', 'Zase on!', 'Encore lui !');
+    g.pose('orol', 'no');
+    await say(g, 'orol', 'Orly nemajú rady také úsmevy. Nič som mu nepovedal.', 'Les aigles n\'aiment pas ces sourires-là. Je ne lui ai rien dit.');
+    g.pose('orol', null);
+    await say(g, 'fox', 'Ďakujeme. Pôjdeme do Tatier.', 'Merci. Nous irons dans les Tatras.');
+    g.pose('orol', 'pointup');
+    await say(g, 'orol', 'Opatrne. A vezmite si bundu.', 'Soyez prudents. Et prenez une veste.', [['bunda', 'la veste']]);
+    g.pose('orol', null);
+    await say(g, 'fox', 'Bundu? V lete?', 'Une veste ? En été ?');
+    g.pose('orol', 'smile');
+    await say(g, 'orol', 'V horách je iné leto.', 'Dans les montagnes, l\'été est différent.');
+    g.pose('orol', null);
+    g.setFlag('orol_done');
+    g.end('Koniec ukážky', 'Fin de l\'aperçu');   // la suite : le bivouac (decor D)
+  }
+
   // une erreur de plus : apres deux, Andrea traduit la consigne
   const rokErr = async (g, word, fr) => {
     const n = (g.flagv('rk_err') || 0) + 1; g.setFlag('rk_err', n);

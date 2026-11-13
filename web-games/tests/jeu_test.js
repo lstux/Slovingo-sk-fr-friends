@@ -145,9 +145,15 @@ const srv = http.createServer((q, r) => {
   await clickWorld(1065, 300, 'impasse'); await shot('11b_rokle_impasse');
   await clickWorld(900, 360, 'most'); s = await st(); if (s.flags.rk_step !== 2) fail('pont sans effet ' + JSON.stringify(s.flags));
   await shot('11c_rokle_pont');
-  await clickWorld(1640, 500, 'rebrik2'); await until((q) => q.end, 'fin');
+  await clickWorld(1640, 500, 'rebrik2'); await until((q) => q.sc === 'orol' && !q.dlg && !q.busy && q.flags.or0, 'rocher de pan Orol');
   for (const w of ['hore', 'doprava', 'dole']) if (!(await pg.evaluate((w) => !!__zajka.words[w], w))) fail(w + ' non appris');
-  await shot('11d_fin');
+  await shot('11d_orol');
+  await pg.waitForTimeout(1500);   // la camera revient sur Gab
+  picks = [0, 1];                   // d'abord le tutoiement (refuse), puis « videli ste »
+  await clickWorld(1800, 140, 'pan Orol'); await until((q) => q.end, 'fin');
+  s = await st(); if (!s.pages.includes('p2')) fail('page du carnet non donnee');
+  if (!(await pg.evaluate(() => !!__zajka.words['videli ste']))) fail('videli ste non appris');
+  await shot('11e_fin');
   if (errs.length) fail(errs.join(' | '));
-  console.log('OK : prologue + chapitres 1 et 2 jouables'); await b.close(); srv.close();
+  console.log('OK : prologue + chapitres 1 a 3 (jusqu\'au rocher de pan Orol) jouables'); await b.close(); srv.close();
 })().catch((e) => { console.error(e); process.exit(1); });
