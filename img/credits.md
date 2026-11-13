@@ -126,7 +126,7 @@ Dans `img/`, mais utilisées par aucune fiche pour l'instant (remplacées par un
 |---|---|---|---|---|
 | `drevenica-vecer.jpg` | Domov 05 | [Museum of Orava village 01.jpg](https://commons.wikimedia.org/wiki/File:Museum_of_Orava_village_01.jpg) | 10ricardo | CC BY-SA 4.0 |
 | `kacica-kacatka.jpg` | Povodeň 05 | [Wood duck female with ducklings (73499).jpg](https://commons.wikimedia.org/wiki/File:Wood_duck_female_with_ducklings_(73499).jpg) | Rhododendrites | CC BY-SA 4.0 |
-| `20_Vocabulary_01_meteo-climat.md` | `vocabulary/01_pocasie.jpg` | Illustration générée avec ChatGPT, sans photo de référence | Image générée (pas de photo source) |
+| `20_Vocabulary_01_meteo-climat.md` | `vocabulary/01_meteo-climat.jpg` | Illustration générée avec ChatGPT, sans photo de référence | Image générée (pas de photo source) |
 | `20_Vocabulary_02_voda-zivotne-prostredie.md` | `vocabulary/02_voda-zivotne-prostredie.jpg` | Illustration générée avec ChatGPT, sans photo de référence | Image générée (pas de photo source) |
 | `20_Vocabulary_03_hory-turistika.md` | `vocabulary/03_hory-turistika.jpg` | Illustration générée avec ChatGPT, sans photo de référence | Image générée (pas de photo source) |
 | `20_Vocabulary_04_doprava-cestovanie.md` | `vocabulary/04_doprava-cestovanie.jpg` | Illustration générée avec ChatGPT, sans photo de référence | Image générée (pas de photo source) |

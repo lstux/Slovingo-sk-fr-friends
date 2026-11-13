@@ -1,6 +1,6 @@
 # Počasie a klíma (La météo et le climat)
 
-@ img/vocabulary/01_pocasie.jpg | Découvrir les phénomènes météo et parler du climat en Slovaquie. Source : illustration générée avec ChatGPT
+@ img/vocabulary/01_meteo-climat.jpg | Découvrir les phénomènes météo et parler du climat en Slovaquie. Source : illustration générée avec ChatGPT
 
 {{fr:En Slovaquie, le temps peut changer très vite. Entre la chaleur, les orages et la neige, mieux vaut savoir en parler.}}
 
