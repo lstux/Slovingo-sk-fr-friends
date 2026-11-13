@@ -1,5 +1,7 @@
 # Technológie a internet (La technologie et Internet)
 
+@ img/vocabulary/09_technologie-internet.jpg | Ordinateurs, réseaux et données : le vocabulaire de la technologie. Source : illustration générée avec ChatGPT
+
 {{fr:Un datacenter, des écrans, des données… La technologie est partout, même quand on ne la voit pas.}}
 
 ---
