@@ -132,6 +132,7 @@ Dans `img/`, mais utilisées par aucune fiche pour l'instant (remplacées par un
 | `20_Vocabulary_04_doprava-cestovanie.md` | `vocabulary/04_doprava-cestovanie.jpg` | Illustration générée avec ChatGPT, sans photo de référence | Image générée (pas de photo source) |
 | `20_Vocabulary_05_mesto-kultura.md` | `vocabulary/05_mesto-kultura.jpg` | Illustration générée avec ChatGPT, sans photo de référence | Image générée (pas de photo source) |
 | `20_Vocabulary_06_jedlo-gastronomia.md` | `vocabulary/06_jedlo-gastronomia.jpg` | Illustration générée avec ChatGPT, sans photo de référence | Image générée (pas de photo source) |
+| `20_Vocabulary_07_vztahy-pocity.md` | `vocabulary/07_vztahy-pocity.jpg` | Illustration générée avec ChatGPT, sans photo de référence | Image générée (pas de photo source) |
 
 ## Image de fond de la carte (accueil)
 
