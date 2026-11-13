@@ -91,7 +91,7 @@ static const char* const ep1_dialog_c5_items[3] = { "Aj ja ťa rád vidím.", "A
 static const Choice ep1_dialog_c5 = { CH_PICK, "qcm-r-d", ep1_dialog_c5_items, 3 };
 static const Line ep1_dialog[6] = {
   {SPK_ANDREA, "Dlho sme sa nevideli.", "On ne s'est pas vus depuis longtemps.", ep1_dialog_g0, 2, "À écouter : sme sa nevideli est du passé. Pour l'instant, retiens la phrase d'un bloc.", nullptr},
-  {SPK_FOX, "Veľmi dlho. Päť rokov.", "Très longtemps. Cinq ans.", ep1_dialog_g1, 3, "veľmi = très, comme dans Ďakujem veľmi pekne. päť rokov = cinq ans : après päť, rok devient rokov.", &ep1_dialog_c1},
+  {SPK_FOX, "Veľmi dlho. Päť rokov.", "Très longtemps. Cinq ans.", ep1_dialog_g1, 3, "veľmi = très : veľmi dlho = très longtemps. päť rokov = cinq ans : après päť, rok devient rokov.", &ep1_dialog_c1},
   {SPK_ANDREA, "Päť rokov! Ako sa máš?", "Cinq ans ! Comment ça va ?", ep1_dialog_g2, 2, nullptr, nullptr},
   {SPK_FOX, "Mám sa super! A ty?", "Ça va super ! Et toi ?", ep1_dialog_g3, 3, nullptr, nullptr},
   {SPK_ANDREA, "Aj ja sa mám dobre. Rada ťa vidím.", "Moi aussi, ça va bien. Je suis contente de te voir.", ep1_dialog_g4, 4, "Andrea est une fille : elle dit rada. Toi, tu es un garçon : tu dis rád.", nullptr},
@@ -105,7 +105,7 @@ static const Line ep1_extra[2] = {
 };
 static const Word ep1_words[10] = {
   {"Ako sa máš?", "Comment vas-tu ? (rappel)"},
-  {"Mám sa dobre.", "Je vais bien. (rappel)"},
+  {"Mám sa dobre.", "Je vais bien."},
   {"super", "super, génial"},
   {"A ty?", "Et toi ?"},
   {"aj ja", "moi aussi"},
@@ -260,8 +260,9 @@ static const Line ep3_extra[2] = {
   {SPK_NONE, "Chodím na gymnázium.", "Je vais au lycée.", ep3_extra_g0, 2, "chodím = je vais, tous les jours ou régulièrement. idem, c'est « je vais » en ce moment.", nullptr},
   {SPK_NONE, "Dóm je veľký kostol.", "Une cathédrale, c'est une grande église.", ep3_extra_g1, 3, nullptr, nullptr},
 };
-static const Word ep3_words[10] = {
+static const Word ep3_words[11] = {
   {"jedenásť", "onze"},
+  {"dvanásť", "douze"},
   {"trinásť", "treize"},
   {"štrnásť", "quatorze"},
   {"pätnásť", "quinze"},
@@ -307,59 +308,65 @@ static const Line ep3_bonus[1] = {
   {SPK_ANDREA, "Pamätáš si to dobre!", "Tu t'en souviens bien !", nullptr, 0, nullptr, nullptr},
 };
 static const Episode ep3 = { "10_Series_01_Kosice_04_pamatas-sa", "Košice", 1, 4, "Pamätáš sa na Tatry?", "Košice",
-  ep3_dialog, 10, ep3_extra, 2, ep3_words, 10, ep3_exercises, 11, ep3_bonus, 1 };
+  ep3_dialog, 10, ep3_extra, 2, ep3_words, 11, ep3_exercises, 11, ep3_bonus, 1 };
 
 static const Gloss ep4_dialog_g0[5] = { {"začne rozprávať", "se met à parler"}, {"Rozpráva o", "il parle de"}, {"o Lyone", "de Lyon"}, {"o vlaku", "du train"}, {"o svojom lístku", "de son ticket"} };
-static const Gloss ep4_dialog_g1[3] = { {"Košice sú super", "Košice, c'est super"}, {"Električka je super", "le tram, c'est super"}, {"môj lístok", "mon ticket"} };
-static const Gloss ep4_dialog_g2[4] = { {"viem po slovensky", "je sais le slovaque"}, {"Skoro všetko", "presque tout"}, {"pamätám sa na", "je me souviens de"}, {"každé slovo", "chaque mot"} };
-static const Gloss ep4_dialog_g3[5] = { {"Líšky", "les renards"}, {"veľa", "beaucoup"}, {"rozprávajú", "ils parlent"}, {"A sú komplikované", "et ils sont compliqués"}, {"ako mimozemšťania", "comme des extraterrestres"} };
-static const Gloss ep4_dialog_g4[3] = { {"Ale", "mais"}, {"ja som", "moi, je suis"}, {"tvoj kamarát", "ton copain"} };
-static const char* const ep4_dialog_c4_items[3] = { "Ale ja som tvoj kamarát!", "Ale ja som tvoja kamarátka!", "Ale ja som tvoj kostol!" };
-static const Choice ep4_dialog_c4 = { CH_PICK, "fix", ep4_dialog_c4_items, 3 };
-static const Gloss ep4_dialog_g5[3] = { {"Áno", "oui"}, {"Ale", "mais"}, {"si líška", "tu es un renard"} };
-static const Gloss ep4_dialog_g6[3] = { {"Ja", "moi"}, {"Ja som", "moi, je suis"}, {"jednoduchý", "simple"} };
-static const char* const ep4_dialog_c6_items[3] = { "Ja? Ja som jednoduchý!", "Ja? Ja som jednoduchá!", "Ja? Ja som jednoduché!" };
+static const Gloss ep4_dialog_g1[4] = { {"Päť rokov", "cinq ans"}, {"som nehovoril", "je n'ai pas parlé"}, {"po slovensky", "en slovaque"}, {"S nikým", "avec personne"} };
+static const Gloss ep4_dialog_g2[3] = { {"Musím hovoriť", "je dois parler"}, {"Inak", "sinon"}, {"zabudnem", "j'oublie"} };
+static const char* const ep4_dialog_c2_items[3] = { "Musím hovoriť. Inak zabudnem.", "Musím hovoriť. Inak hovorím.", "Musím hovoriť. Inak rozumiem." };
+static const Choice ep4_dialog_c2 = { CH_PICK, "qcm-zabudnem", ep4_dialog_c2_items, 3 };
+static const Gloss ep4_dialog_g3[3] = { {"Košice sú super", "Košice, c'est super"}, {"Električka je super", "le tram, c'est super"}, {"môj lístok", "mon ticket"} };
+static const Gloss ep4_dialog_g4[4] = { {"viem po slovensky", "je sais le slovaque"}, {"Skoro všetko", "presque tout"}, {"pamätám sa na", "je me souviens de"}, {"každé slovo", "chaque mot"} };
+static const Gloss ep4_dialog_g5[5] = { {"Líšky", "les renards"}, {"veľa", "beaucoup"}, {"rozprávajú", "ils parlent"}, {"A sú komplikované", "et ils sont compliqués"}, {"ako mimozemšťania", "comme des extraterrestres"} };
+static const Gloss ep4_dialog_g6[3] = { {"Ale", "mais"}, {"ja som", "moi, je suis"}, {"tvoj kamarát", "ton copain"} };
+static const char* const ep4_dialog_c6_items[3] = { "Ale ja som tvoj kamarát!", "Ale ja som tvoja kamarátka!", "Ale ja som tvoj kostol!" };
 static const Choice ep4_dialog_c6 = { CH_PICK, "fix", ep4_dialog_c6_items, 3 };
-static const Gloss ep4_dialog_g7[1] = { {"Nie", "non"} };
-static const Gloss ep4_dialog_g8[1] = { {"Aha", "ah, d'accord"} };
-static const Gloss ep4_dialog_g9[1] = { {"Vidíš", "tu vois"} };
-static const Gloss ep4_dialog_g10[3] = { {"Električka ide", "le tram passe"}, {"okolo", "devant, à côté de"}, {"veľkého dómu", "une grande cathédrale"} };
-static const Gloss ep4_dialog_g11[3] = { {"Pozri", "regarde"}, {"To je", "c'est"}, {"dóm", "la cathédrale"} };
-static const Gloss ep4_dialog_g12[4] = { {"Dóm svätej Alžbety", "la cathédrale Sainte-Élisabeth"}, {"Najväčší", "le plus grand"}, {"kostol", "l'église"}, {"na Slovensku", "en Slovaquie"} };
-static const Gloss ep4_dialog_g13[2] = { {"A ty", "et toi"}, {"Bývaš tu", "tu habites ici"} };
-static const Gloss ep4_dialog_g14[3] = { {"Áno", "oui"}, {"u mojej tety", "chez ma tante"}, {"Chodím na gymnázium", "je vais au lycée"} };
-static const Gloss ep4_dialog_g15[5] = { {"Ty", "toi"}, {"Na gymnázium", "au lycée"}, {"Veď", "mais enfin"}, {"si behala", "tu courais"}, {"po lúke", "dans les prés"} };
-static const Gloss ep4_dialog_g16[3] = { {"A ty", "et toi"}, {"si spadol", "tu es tombé"}, {"do potoka", "dans le ruisseau"} };
-static const Gloss ep4_dialog_g17[2] = { {"To nie je", "ce n'est pas"}, {"pravda", "vrai"} };
-static const char* const ep4_dialog_c17_items[3] = { "To nie je pravda.", "To nie je skoro.", "To nie je naozaj." };
-static const Choice ep4_dialog_c17 = { CH_PICK, "qcm-pravda", ep4_dialog_c17_items, 3 };
-static const Gloss ep4_dialog_g18[1] = { {"Je", "si, c'est vrai"} };
-static const Gloss ep4_dialog_g19[2] = { {"Električka", "le tram"}, {"stojí", "s'arrête"} };
-static const Gloss ep4_dialog_g20[3] = { {"To je", "c'est"}, {"moja zastávka", "mon arrêt"}, {"Poď", "viens"} };
-static const Gloss ep4_dialog_g21[1] = { {"Idem", "j'arrive, je viens"} };
-static const Line ep4_dialog[22] = {
+static const Gloss ep4_dialog_g7[3] = { {"Áno", "oui"}, {"Ale", "mais"}, {"si líška", "tu es un renard"} };
+static const Gloss ep4_dialog_g8[3] = { {"Ja", "moi"}, {"Ja som", "moi, je suis"}, {"jednoduchý", "simple"} };
+static const char* const ep4_dialog_c8_items[3] = { "Ja? Ja som jednoduchý!", "Ja? Ja som jednoduchá!", "Ja? Ja som jednoduché!" };
+static const Choice ep4_dialog_c8 = { CH_PICK, "fix", ep4_dialog_c8_items, 3 };
+static const Gloss ep4_dialog_g9[1] = { {"Nie", "non"} };
+static const Gloss ep4_dialog_g10[1] = { {"Aha", "ah, d'accord"} };
+static const Gloss ep4_dialog_g11[1] = { {"Vidíš", "tu vois"} };
+static const Gloss ep4_dialog_g12[3] = { {"Električka ide", "le tram passe"}, {"okolo", "devant, à côté de"}, {"veľkého dómu", "une grande cathédrale"} };
+static const Gloss ep4_dialog_g13[3] = { {"Pozri", "regarde"}, {"To je", "c'est"}, {"dóm", "la cathédrale"} };
+static const Gloss ep4_dialog_g14[4] = { {"Dóm svätej Alžbety", "la cathédrale Sainte-Élisabeth"}, {"Najväčší", "le plus grand"}, {"kostol", "l'église"}, {"na Slovensku", "en Slovaquie"} };
+static const Gloss ep4_dialog_g15[2] = { {"A ty", "et toi"}, {"Bývaš tu", "tu habites ici"} };
+static const Gloss ep4_dialog_g16[3] = { {"Áno", "oui"}, {"u mojej tety", "chez ma tante"}, {"Chodím na gymnázium", "je vais au lycée"} };
+static const Gloss ep4_dialog_g17[5] = { {"Ty", "toi"}, {"Na gymnázium", "au lycée"}, {"Veď", "mais enfin"}, {"si behala", "tu courais"}, {"po lúke", "dans les prés"} };
+static const Gloss ep4_dialog_g18[3] = { {"A ty", "et toi"}, {"si spadol", "tu es tombé"}, {"do potoka", "dans le ruisseau"} };
+static const Gloss ep4_dialog_g19[2] = { {"To nie je", "ce n'est pas"}, {"pravda", "vrai"} };
+static const char* const ep4_dialog_c19_items[3] = { "To nie je pravda.", "To nie je skoro.", "To nie je naozaj." };
+static const Choice ep4_dialog_c19 = { CH_PICK, "qcm-pravda", ep4_dialog_c19_items, 3 };
+static const Gloss ep4_dialog_g20[1] = { {"Je", "si, c'est vrai"} };
+static const Gloss ep4_dialog_g21[2] = { {"Električka", "le tram"}, {"stojí", "s'arrête"} };
+static const Gloss ep4_dialog_g22[3] = { {"To je", "c'est"}, {"moja zastávka", "mon arrêt"}, {"Poď", "viens"} };
+static const Gloss ep4_dialog_g23[1] = { {"Idem", "j'arrive, je viens"} };
+static const Line ep4_dialog[24] = {
   {SPK_NARRATOR, "\001 začne rozprávať. Rozpráva o Lyone, o vlaku, o Košiciach, o električke a o svojom lístku.", "\001 se met à parler. Il parle de Lyon, du train, de Košice, du tram et de son ticket.", ep4_dialog_g0, 5, "Pour comprendre : rozprávať = parler, raconter. Après o (« de, au sujet de »), les noms changent un peu à la fin, comme après v.", nullptr},
-  {SPK_FOX, "Košice sú super! Električka je super! A môj lístok je super!", "Košice, c'est super ! Le tram, c'est super ! Et mon ticket, c'est super !", ep4_dialog_g1, 3, "Košice est un pluriel en slovaque : on dit Košice sú, un peu comme « les Košice sont ».", nullptr},
-  {SPK_FOX, "A viem po slovensky! Skoro všetko! A pamätám sa na každé slovo!", "Et je parle slovaque ! Presque tout ! Et je me souviens de chaque mot !", ep4_dialog_g2, 4, "Mot nouveau signalé : skoro = presque. Pour comprendre : každé slovo = chaque mot.", nullptr},
-  {SPK_ANDREA, "Líšky veľa rozprávajú. A sú komplikované ako mimozemšťania!", "Les renards, ça parle beaucoup. Et c'est compliqué comme des extraterrestres !", ep4_dialog_g3, 5, "Mots nouveaux signalés : veľa = beaucoup, rozprávajú = ils parlent, komplikované = compliqués, mimozemšťania = les extraterrestres. Attention : veľa = beaucoup, veľmi = très. Ce sont deux mots différents !", nullptr},
-  {SPK_FOX, "Ale ja som tvoj kamarát!", "Mais moi, je suis ton copain !", ep4_dialog_g4, 3, "Mot nouveau signalé : kamarát = le copain, l'ami.", &ep4_dialog_c4},
-  {SPK_ANDREA, "Áno. Ale si líška.", "Oui. Mais tu es un renard.", ep4_dialog_g5, 3, "líška est un mot féminin, même pour un renard garçon : c'est le mot qui compte, pas toi.", nullptr},
-  {SPK_FOX, "Ja? Ja som jednoduchý!", "Moi ? Mais je suis simple !", ep4_dialog_g6, 3, "Mot nouveau signalé : jednoduchý = simple, dit d'un garçon. Une fille dirait jednoduchá.", &ep4_dialog_c6},
-  {SPK_ANDREA, "Nie.", "Non.", ep4_dialog_g7, 1, "Pas d'explication. Andrea est comme ça.", nullptr},
-  {SPK_FOX, "Aha.", "Ah.", ep4_dialog_g8, 1, nullptr, nullptr},
-  {SPK_ANDREA, "Vidíš?", "Tu vois ?", ep4_dialog_g9, 1, "vidím (je vois) → vidíš (tu vois), comme robím → robíš.", nullptr},
-  {SPK_NARRATOR, "Električka ide okolo veľkého dómu.", "Le tram passe devant une grande cathédrale.", ep4_dialog_g10, 3, nullptr, nullptr},
-  {SPK_FOX, "Pozri! To je dóm!", "Regarde ! C'est la cathédrale !", ep4_dialog_g11, 3, nullptr, nullptr},
-  {SPK_ANDREA, "Dóm svätej Alžbety. Najväčší kostol na Slovensku.", "La cathédrale Sainte-Élisabeth. La plus grande église de Slovaquie.", ep4_dialog_g12, 4, nullptr, nullptr},
-  {SPK_FOX, "A ty? Bývaš tu?", "Et toi ? Tu habites ici ?", ep4_dialog_g13, 2, nullptr, nullptr},
-  {SPK_ANDREA, "Áno, u mojej tety. Chodím na gymnázium.", "Oui, chez ma tante. Je vais au lycée.", ep4_dialog_g14, 3, "Mot nouveau signalé : u mojej tety = chez ma tante. teta = la tante ; après u (« chez »), elle devient tety.", nullptr},
-  {SPK_FOX, "Ty? Na gymnázium? Veď si behala po lúke!", "Toi ? Au lycée ? Mais tu courais dans les prés !", ep4_dialog_g15, 5, "À écouter : behala si = tu courais, dit à une fille.", nullptr},
-  {SPK_ANDREA, "A ty si spadol do potoka.", "Et toi, tu es tombé dans le ruisseau.", ep4_dialog_g16, 3, nullptr, nullptr},
-  {SPK_FOX, "To nie je pravda.", "C'est pas vrai.", ep4_dialog_g17, 2, "Mot nouveau signalé : pravda = la vérité. To je pravda = c'est vrai.", &ep4_dialog_c17},
-  {SPK_ANDREA, "Je.", "Si.", ep4_dialog_g18, 1, "Pour dire « si », Andrea répète simplement le verbe : Je.", nullptr},
-  {SPK_NARRATOR, "Električka stojí.", "Le tram s'arrête.", ep4_dialog_g19, 2, nullptr, nullptr},
-  {SPK_ANDREA, "To je moja zastávka. Poď!", "C'est mon arrêt. Viens !", ep4_dialog_g20, 3, nullptr, nullptr},
-  {SPK_FOX, "Idem!", "J'arrive !", ep4_dialog_g21, 1, nullptr, nullptr},
+  {SPK_FOX, "Päť rokov som nehovoril po slovensky. S nikým.", "Ça fait cinq ans que je n'ai parlé slovaque avec personne.", ep4_dialog_g1, 4, "À écouter : som nehovoril = je n'ai pas parlé (un garçon). Mot nouveau signalé : s nikým = avec personne.", nullptr},
+  {SPK_FOX, "Musím hovoriť. Inak zabudnem.", "Il faut que je parle. Sinon, j'oublie.", ep4_dialog_g2, 3, "Mot nouveau signalé : zabudnem = j'oublie. Pour comprendre : musím = je dois.", &ep4_dialog_c2},
+  {SPK_FOX, "Košice sú super! Električka je super! A môj lístok je super!", "Košice, c'est super ! Le tram, c'est super ! Et mon ticket, c'est super !", ep4_dialog_g3, 3, "Košice est un pluriel en slovaque : on dit Košice sú, un peu comme « les Košice sont ».", nullptr},
+  {SPK_FOX, "A viem po slovensky! Skoro všetko! A pamätám sa na každé slovo!", "Et je parle slovaque ! Presque tout ! Et je me souviens de chaque mot !", ep4_dialog_g4, 4, "Mot nouveau signalé : skoro = presque. Pour comprendre : každé slovo = chaque mot.", nullptr},
+  {SPK_ANDREA, "Líšky veľa rozprávajú. A sú komplikované ako mimozemšťania!", "Les renards, ça parle beaucoup. Et c'est compliqué comme des extraterrestres !", ep4_dialog_g5, 5, "Mots nouveaux signalés : veľa = beaucoup, rozprávajú = ils parlent, komplikované = compliqués, mimozemšťania = les extraterrestres. Attention : veľa = beaucoup, veľmi = très. Ce sont deux mots différents !", nullptr},
+  {SPK_FOX, "Ale ja som tvoj kamarát!", "Mais moi, je suis ton copain !", ep4_dialog_g6, 3, "Mot nouveau signalé : kamarát = le copain, l'ami.", &ep4_dialog_c6},
+  {SPK_ANDREA, "Áno. Ale si líška.", "Oui. Mais tu es un renard.", ep4_dialog_g7, 3, "líška est un mot féminin, même pour un renard garçon : c'est le mot qui compte, pas toi.", nullptr},
+  {SPK_FOX, "Ja? Ja som jednoduchý!", "Moi ? Mais je suis simple !", ep4_dialog_g8, 3, "Mot nouveau signalé : jednoduchý = simple, dit d'un garçon. Une fille dirait jednoduchá.", &ep4_dialog_c8},
+  {SPK_ANDREA, "Nie.", "Non.", ep4_dialog_g9, 1, "Pas d'explication. Andrea est comme ça.", nullptr},
+  {SPK_FOX, "Aha.", "Ah.", ep4_dialog_g10, 1, nullptr, nullptr},
+  {SPK_ANDREA, "Vidíš?", "Tu vois ?", ep4_dialog_g11, 1, "vidím (je vois) → vidíš (tu vois), comme robím → robíš.", nullptr},
+  {SPK_NARRATOR, "Električka ide okolo veľkého dómu.", "Le tram passe devant une grande cathédrale.", ep4_dialog_g12, 3, nullptr, nullptr},
+  {SPK_FOX, "Pozri! To je dóm!", "Regarde ! C'est la cathédrale !", ep4_dialog_g13, 3, nullptr, nullptr},
+  {SPK_ANDREA, "Dóm svätej Alžbety. Najväčší kostol na Slovensku.", "La cathédrale Sainte-Élisabeth. La plus grande église de Slovaquie.", ep4_dialog_g14, 4, nullptr, nullptr},
+  {SPK_FOX, "A ty? Bývaš tu?", "Et toi ? Tu habites ici ?", ep4_dialog_g15, 2, nullptr, nullptr},
+  {SPK_ANDREA, "Áno, u mojej tety. Chodím na gymnázium.", "Oui, chez ma tante. Je vais au lycée.", ep4_dialog_g16, 3, "Mot nouveau signalé : u mojej tety = chez ma tante. teta = la tante ; après u (« chez »), elle devient tety.", nullptr},
+  {SPK_FOX, "Ty? Na gymnázium? Veď si behala po lúke!", "Toi ? Au lycée ? Mais tu courais dans les prés !", ep4_dialog_g17, 5, "À écouter : behala si = tu courais, dit à une fille.", nullptr},
+  {SPK_ANDREA, "A ty si spadol do potoka.", "Et toi, tu es tombé dans le ruisseau.", ep4_dialog_g18, 3, nullptr, nullptr},
+  {SPK_FOX, "To nie je pravda.", "C'est pas vrai.", ep4_dialog_g19, 2, "Mot nouveau signalé : pravda = la vérité. To je pravda = c'est vrai.", &ep4_dialog_c19},
+  {SPK_ANDREA, "Je.", "Si.", ep4_dialog_g20, 1, "Pour dire « si », Andrea répète simplement le verbe : Je.", nullptr},
+  {SPK_NARRATOR, "Električka stojí.", "Le tram s'arrête.", ep4_dialog_g21, 2, nullptr, nullptr},
+  {SPK_ANDREA, "To je moja zastávka. Poď!", "C'est mon arrêt. Viens !", ep4_dialog_g22, 3, nullptr, nullptr},
+  {SPK_FOX, "Idem!", "J'arrive !", ep4_dialog_g23, 1, nullptr, nullptr},
 };
 static const char* const ep4_x0_csk[3] = { "skoro", "všetko", "naozaj" };
 static const char* const ep4_x0_cfr[3] = { "presque", "tout", "vraiment" };
@@ -380,7 +387,10 @@ static const char* const ep4_x10_tsk[3] = { "Dóm svätej Alžbety.", "Najväč�
 static const char* const ep4_x10_tfr[3] = { "La cathédrale Sainte-Élisabeth.", "La plus grande église", "de Slovaquie." };
 static const char* const ep4_x11_tsk[3] = { "To je", "moja zastávka.", "Poď!" };
 static const char* const ep4_x11_tfr[3] = { "C'est", "mon arrêt.", "Viens !" };
-static const Exercise ep4_exercises[12] = {
+static const char* const ep4_x12_csk[3] = { "hovorím", "rozumiem", "musím" };
+static const char* const ep4_x12_cfr[3] = { "je parle", "je comprends", "je dois" };
+static const char* const ep4_x13_cfr[3] = { "Il faut que je parte. Sinon, je suis en retard.", "Je veux parler. Sinon, je dors.", "Il faut que je parle. Sinon, je pleure." };
+static const Exercise ep4_exercises[14] = {
   {EX_QCM, "qcm-ve-a", "veľa", "beaucoup", ep4_x0_csk, ep4_x0_cfr, 3, nullptr, nullptr, 0},
   {EX_QCM, "qcm-kamar-t", "kamarát", "le copain, l'ami", ep4_x1_csk, ep4_x1_cfr, 3, nullptr, nullptr, 0},
   {EX_QCM, "qcm-jednoduch", "jednoduchý", "simple (dit d'un garçon)", ep4_x2_csk, ep4_x2_cfr, 3, nullptr, nullptr, 0},
@@ -393,13 +403,15 @@ static const Exercise ep4_exercises[12] = {
   {EX_ORDER, "order-no-u-mojej-tety-chod-m-na-gymn-zium", "Áno, u mojej tety. Chodím na gymnázium.", "Oui, chez ma tante. Je vais au lycée.", nullptr, nullptr, 0, ep4_x9_tsk, ep4_x9_tfr, 4},
   {EX_ORDER, "order-d-m-sv-tej-al-bety-najv-kostol-na-slovensku", "Dóm svätej Alžbety. Najväčší kostol na Slovensku.", "La cathédrale Sainte-Élisabeth. La plus grande église de Slovaquie.", nullptr, nullptr, 0, ep4_x10_tsk, ep4_x10_tfr, 3},
   {EX_ORDER, "order-to-je-moja-zast-vka-po", "To je moja zastávka. Poď!", "C'est mon arrêt. Viens !", nullptr, nullptr, 0, ep4_x11_tsk, ep4_x11_tfr, 3},
+  {EX_QCM, "qcm-zabudnem", "zabudnem", "j'oublie", ep4_x12_csk, ep4_x12_cfr, 3, nullptr, nullptr, 0},
+  {EX_LISTEN, "listen-musim-hovorit-inak-zabudnem", "Musím hovoriť. Inak zabudnem.", "Il faut que je parle. Sinon, j'oublie.", nullptr, ep4_x13_cfr, 3, nullptr, nullptr, 0},
 };
 static const Line ep4_bonus[2] = {
   {SPK_ANDREA, "Nie si až taký jednoduchý!", "Tu n'es pas si simple que ça !", nullptr, 0, nullptr, nullptr},
   {SPK_ANDREA, "Hovoríš ako Košičan!", "Tu parles comme quelqu'un de Košice !", nullptr, 0, nullptr, nullptr},
 };
 static const Episode ep4 = { "10_Series_01_Kosice_05_v-elektricke", "Košice", 1, 5, "V električke", "Košice",
-  ep4_dialog, 22, nullptr, 0, nullptr, 0, ep4_exercises, 12, ep4_bonus, 2 };
+  ep4_dialog, 24, nullptr, 0, nullptr, 0, ep4_exercises, 14, ep4_bonus, 2 };
 
 static const Gloss ep5_dialog_g0[3] = { {"Je večer", "c'est le soir"}, {"Pred domom", "devant la maison"}, {"je veľká záhrada", "il y a un grand jardin"} };
 static const Gloss ep5_dialog_g1[5] = { {"Tu býva", "ici habite"}, {"moja teta", "ma tante"}, {"Je milá", "elle est gentille"}, {"Ale", "mais"}, {"veľká a silná", "grande et forte"} };
@@ -539,34 +551,38 @@ static const Episode ep6 = { "10_Series_02_Sucho_01_je-horuco", "Sucho", 2, 1, "
   ep6_dialog, 9, ep6_extra, 2, ep6_words, 10, ep6_exercises, 11, ep6_bonus, 2 };
 
 static const Gloss ep7_dialog_g0[5] = { {"Idú do parku", "ils vont au parc"}, {"rozpráva o všetkom", "parle de tout"}, {"o jabloni", "du pommier"}, {"o tete", "de la tante"}, {"o počasí", "du temps qu'il fait"} };
-static const Gloss ep7_dialog_g1[3] = { {"Ty", "toi"}, {"veľa", "beaucoup"}, {"hovoríš", "tu parles"} };
-static const Gloss ep7_dialog_g2[3] = { {"Veľmi hovorím", "je parle très"}, {"som líškasky", "je suis « renardesque »"}, {"komplikovaný", "compliqué"} };
-static const Gloss ep7_dialog_g3[5] = { {"Rozumiem", "je comprends"}, {"čo chceš povedať", "ce que tu veux dire"}, {"Ale", "mais"}, {"správne je", "le correct, c'est"}, {"veľa hovorím", "je parle beaucoup"} };
-static const Gloss ep7_dialog_g4[1] = { {"Veľa hovorím", "je parle beaucoup"} };
-static const Gloss ep7_dialog_g5[5] = { {"Veľmi je pre aký", "« veľmi » sert pour « comment »"}, {"veľmi milý", "très gentil"}, {"veľmi ďaleko", "très loin"}, {"Veľa je pre koľko", "« veľa » sert pour « combien »"}, {"veľa vody", "beaucoup d'eau"} };
-static const Gloss ep7_dialog_g6[3] = { {"A", "et"}, {"líškasky neexistuje", "« líškasky » n'existe pas"}, {"Si líška", "tu es un renard"} };
-static const Gloss ep7_dialog_g7[2] = { {"Aha", "ah"}, {"Som líška", "je suis un renard"} };
-static const char* const ep7_dialog_c7_items[3] = { "Aha.", "Som", "líška." };
-static const Choice ep7_dialog_c7 = { CH_ORDER, "order-aha-som-l-ka", ep7_dialog_c7_items, 3 };
-static const Gloss ep7_dialog_g8[4] = { {"Správne", "exact"}, {"líščí je to", "« líščí », c'est ce"}, {"čo patrí líške", "qui appartient au renard"}, {"líščí chvost", "une queue de renard"} };
-static const Gloss ep7_dialog_g9[4] = { {"Takže", "donc"}, {"môj chvost", "ma queue"}, {"je líščí", "est de renard"}, {"A ja som líška", "et moi, je suis un renard"} };
-static const char* const ep7_dialog_c9_items[3] = { "Takže môj chvost je líščí. A ja som líška.", "Takže môj chvost je zajačí. A ja som líška.", "Takže môj chvost je líščí. A ja som zajac." };
-static const Choice ep7_dialog_c9 = { CH_PICK, "fix", ep7_dialog_c9_items, 3 };
-static const Gloss ep7_dialog_g10[1] = { {"Presne", "exactement"} };
-static const Gloss ep7_dialog_g11[3] = { {"Teraz", "maintenant"}, {"to chápem", "je comprends"}, {"Skoro", "presque"} };
-static const Line ep7_dialog[12] = {
+static const Gloss ep7_dialog_g1[6] = { {"Jabloň", "un pommier"}, {"Strom", "un arbre"}, {"Lavička", "un banc"}, {"Pes", "un chien"}, {"Veľký pes", "un grand chien"}, {"Veľmi veľký pes", "un très grand chien"} };
+static const Gloss ep7_dialog_g2[3] = { {"Ty", "toi"}, {"veľa", "beaucoup"}, {"hovoríš", "tu parles"} };
+static const Gloss ep7_dialog_g3[1] = { {"Cvičím", "je m'entraîne"} };
+static const Gloss ep7_dialog_g4[3] = { {"Veľmi hovorím", "je parle très"}, {"som líškasky", "je suis « renardesque »"}, {"komplikovaný", "compliqué"} };
+static const Gloss ep7_dialog_g5[5] = { {"Rozumiem", "je comprends"}, {"čo chceš povedať", "ce que tu veux dire"}, {"Ale", "mais"}, {"správne je", "le correct, c'est"}, {"veľa hovorím", "je parle beaucoup"} };
+static const Gloss ep7_dialog_g6[1] = { {"Veľa hovorím", "je parle beaucoup"} };
+static const Gloss ep7_dialog_g7[5] = { {"Veľmi je pre aký", "« veľmi » sert pour « comment »"}, {"veľmi milý", "très gentil"}, {"veľmi ďaleko", "très loin"}, {"Veľa je pre koľko", "« veľa » sert pour « combien »"}, {"veľa vody", "beaucoup d'eau"} };
+static const Gloss ep7_dialog_g8[3] = { {"A", "et"}, {"líškasky neexistuje", "« líškasky » n'existe pas"}, {"Si líška", "tu es un renard"} };
+static const Gloss ep7_dialog_g9[2] = { {"Aha", "ah"}, {"Som líška", "je suis un renard"} };
+static const char* const ep7_dialog_c9_items[3] = { "Aha.", "Som", "líška." };
+static const Choice ep7_dialog_c9 = { CH_ORDER, "order-aha-som-l-ka", ep7_dialog_c9_items, 3 };
+static const Gloss ep7_dialog_g10[4] = { {"Správne", "exact"}, {"líščí je to", "« líščí », c'est ce"}, {"čo patrí líške", "qui appartient au renard"}, {"líščí chvost", "une queue de renard"} };
+static const Gloss ep7_dialog_g11[4] = { {"Takže", "donc"}, {"môj chvost", "ma queue"}, {"je líščí", "est de renard"}, {"A ja som líška", "et moi, je suis un renard"} };
+static const char* const ep7_dialog_c11_items[3] = { "Takže môj chvost je líščí. A ja som líška.", "Takže môj chvost je zajačí. A ja som líška.", "Takže môj chvost je líščí. A ja som zajac." };
+static const Choice ep7_dialog_c11 = { CH_PICK, "fix", ep7_dialog_c11_items, 3 };
+static const Gloss ep7_dialog_g12[1] = { {"Presne", "exactement"} };
+static const Gloss ep7_dialog_g13[3] = { {"Teraz", "maintenant"}, {"to chápem", "je comprends"}, {"Skoro", "presque"} };
+static const Line ep7_dialog[14] = {
   {SPK_NARRATOR, "Idú do parku. \001 rozpráva o všetkom: o jabloni, o tete, o Lyone, o električke, o počasí...", "Ils vont au parc. \001 parle de tout : du pommier, de la tante, de Lyon, du tram, du temps qu'il fait...", ep7_dialog_g0, 5, nullptr, nullptr},
-  {SPK_ANDREA, "Ty veľa hovoríš.", "Tu parles beaucoup.", ep7_dialog_g1, 3, "hovorím (je parle) → hovoríš (tu parles), comme robím → robíš.", nullptr},
-  {SPK_FOX, "Veľmi hovorím, som líškasky, komplikovaný...", "Je parle très, je suis renardesque, compliqué...", ep7_dialog_g2, 3, "Cette phrase est fausse, exprès ! Andrea va expliquer pourquoi. Ne la retiens pas telle quelle.", nullptr},
-  {SPK_ANDREA, "Rozumiem, čo chceš povedať. Ale správne je: veľa hovorím.", "Je comprends ce que tu veux dire. Mais ce qu'il faut dire, c'est : « je parle beaucoup ».", ep7_dialog_g3, 5, nullptr, nullptr},
-  {SPK_FOX, "Veľa hovorím?", "« Je parle beaucoup » ?", ep7_dialog_g4, 1, nullptr, nullptr},
-  {SPK_ANDREA, "„Veľmi“ je pre „aký“: veľmi milý, veľmi ďaleko. „Veľa“ je pre „koľko“: veľa vody, veľa hovorím.", "« Veľmi », c'est pour « comment ? » : très gentil, très loin. « Veľa », c'est pour « combien ? » : beaucoup d'eau, je parle beaucoup.", ep7_dialog_g5, 5, "aký = quel, comment ; koľko = combien. Voilà toute la règle en une phrase.", nullptr},
-  {SPK_ANDREA, "A „líškasky“ neexistuje. Si líška.", "Et « líškasky » n'existe pas. Tu es un renard.", ep7_dialog_g6, 3, "La terminaison -sky sert pour les langues, comme dans po slovensky. Pour dire ce qu'on est, il faut un nom : si líška.", nullptr},
-  {SPK_FOX, "Aha. Som líška.", "Ah. Je suis un renard.", ep7_dialog_g7, 2, nullptr, &ep7_dialog_c7},
-  {SPK_ANDREA, "Správne. A „líščí“ je to, čo patrí líške: líščí chvost.", "Exact. Et « líščí », c'est ce qui appartient au renard : la queue de renard.", ep7_dialog_g8, 4, nullptr, nullptr},
-  {SPK_FOX, "Takže môj chvost je líščí. A ja som líška.", "Donc ma queue est « de renard ». Et moi, je suis un renard.", ep7_dialog_g9, 4, nullptr, &ep7_dialog_c9},
-  {SPK_ANDREA, "Presne.", "Voilà.", ep7_dialog_g10, 1, nullptr, nullptr},
-  {SPK_FOX, "Teraz to chápem. Skoro.", "Maintenant, je comprends. Presque.", ep7_dialog_g11, 3, "chápem = je comprends, je pige. C'est un cousin de rozumiem.", nullptr},
+  {SPK_FOX, "Jabloň. Strom. Lavička. Pes. Veľký pes. Veľmi veľký pes...", "Un pommier. Un arbre. Un banc. Un chien. Un grand chien. Un très grand chien...", ep7_dialog_g1, 6, "Pour comprendre : strom = l'arbre, lavička = le banc, pes = le chien. Ton renard dit tout ce qu'il voit, à voix haute : il s'entraîne.", nullptr},
+  {SPK_ANDREA, "Ty veľa hovoríš.", "Tu parles beaucoup.", ep7_dialog_g2, 3, "hovorím (je parle) → hovoríš (tu parles), comme robím → robíš.", nullptr},
+  {SPK_FOX, "Cvičím.", "Je m'entraîne.", ep7_dialog_g3, 1, "Pour comprendre : cvičiť = s'entraîner.", nullptr},
+  {SPK_FOX, "Veľmi hovorím, som líškasky, komplikovaný...", "Je parle très, je suis renardesque, compliqué...", ep7_dialog_g4, 3, "Cette phrase est fausse, exprès ! Andrea va expliquer pourquoi. Ne la retiens pas telle quelle.", nullptr},
+  {SPK_ANDREA, "Rozumiem, čo chceš povedať. Ale správne je: veľa hovorím.", "Je comprends ce que tu veux dire. Mais ce qu'il faut dire, c'est : « je parle beaucoup ».", ep7_dialog_g5, 5, nullptr, nullptr},
+  {SPK_FOX, "Veľa hovorím?", "« Je parle beaucoup » ?", ep7_dialog_g6, 1, nullptr, nullptr},
+  {SPK_ANDREA, "„Veľmi“ je pre „aký“: veľmi milý, veľmi ďaleko. „Veľa“ je pre „koľko“: veľa vody, veľa hovorím.", "« Veľmi », c'est pour « comment ? » : très gentil, très loin. « Veľa », c'est pour « combien ? » : beaucoup d'eau, je parle beaucoup.", ep7_dialog_g7, 5, "aký = quel, comment ; koľko = combien. Voilà toute la règle en une phrase.", nullptr},
+  {SPK_ANDREA, "A „líškasky“ neexistuje. Si líška.", "Et « líškasky » n'existe pas. Tu es un renard.", ep7_dialog_g8, 3, "La terminaison -sky sert pour les langues, comme dans po slovensky. Pour dire ce qu'on est, il faut un nom : si líška.", nullptr},
+  {SPK_FOX, "Aha. Som líška.", "Ah. Je suis un renard.", ep7_dialog_g9, 2, nullptr, &ep7_dialog_c9},
+  {SPK_ANDREA, "Správne. A „líščí“ je to, čo patrí líške: líščí chvost.", "Exact. Et « líščí », c'est ce qui appartient au renard : la queue de renard.", ep7_dialog_g10, 4, nullptr, nullptr},
+  {SPK_FOX, "Takže môj chvost je líščí. A ja som líška.", "Donc ma queue est « de renard ». Et moi, je suis un renard.", ep7_dialog_g11, 4, nullptr, &ep7_dialog_c11},
+  {SPK_ANDREA, "Presne.", "Voilà.", ep7_dialog_g12, 1, nullptr, nullptr},
+  {SPK_FOX, "Teraz to chápem. Skoro.", "Maintenant, je comprends. Presque.", ep7_dialog_g13, 3, "chápem = je comprends, je pige. C'est un cousin de rozumiem.", nullptr},
 };
 static const Gloss ep7_extra_g0[3] = { {"Mám", "j'ai"}, {"trochu", "un peu"}, {"vody", "d'eau"} };
 static const Gloss ep7_extra_g1[3] = { {"Chcem", "je veux"}, {"viac vody", "plus d'eau"}, {"nie menej", "pas moins"} };
@@ -621,7 +637,7 @@ static const Line ep7_bonus[1] = {
   {SPK_ANDREA, "Vidíš? Už hovoríš správne.", "Tu vois ? Tu parles déjà correctement.", nullptr, 0, nullptr, nullptr},
 };
 static const Episode ep7 = { "10_Series_02_Sucho_02_vela-alebo-velmi", "Sucho", 2, 2, "Veľa alebo veľmi?", "Sucho",
-  ep7_dialog, 12, ep7_extra, 2, ep7_words, 10, ep7_exercises, 11, ep7_bonus, 1 };
+  ep7_dialog, 14, ep7_extra, 2, ep7_words, 10, ep7_exercises, 11, ep7_bonus, 1 };
 
 static const Gloss ep8_dialog_g0[5] = { {"V parku", "dans le parc"}, {"je jazierko", "il y a un petit étang"}, {"Ale", "mais"}, {"vody je v ňom", "il y a de l'eau dedans"}, {"veľmi málo", "très peu"} };
 static const Gloss ep8_dialog_g1[5] = { {"Včera", "hier"}, {"tu", "ici"}, {"ešte", "encore"}, {"bola voda", "il y avait de l'eau"}, {"Aspoň trochu", "au moins un peu"} };
@@ -796,10 +812,35 @@ static const char* const ep10_dialog_c5_items[3] = { "Dobrý deň.", "Áno,", "h
 static const Choice ep10_dialog_c5 = { CH_ORDER, "order-dobr-de-no-h-ad-me-vodu", ep10_dialog_c5_items, 3 };
 static const Gloss ep10_dialog_g6[4] = { {"Prepáčte", "désolé, excusez-moi"}, {"Tu už voda nie je", "ici, il n'y a plus d'eau"}, {"Nikde", "nulle part"}, {"v meste", "en ville"} };
 static const Gloss ep10_dialog_g7[1] = { {"A inde", "et ailleurs"} };
-static const Gloss ep10_dialog_g8[5] = { {"Na západe", "à l'ouest"}, {"v Slovenskom raji", "dans le Paradis slovaque"}, {"ešte voda je", "il y a encore de l'eau"}, {"Hovorili to", "ils l'ont dit"}, {"v rádiu", "à la radio"} };
+static const Gloss ep10_dialog_g8[5] = { {"Na západe", "à l'ouest"}, {"v Slovenskom raji", "dans le Paradis slovaque"}, {"je ešte voda", "il y a encore de l'eau"}, {"Hovorili to", "ils l'ont dit"}, {"v rádiu", "à la radio"} };
 static const Gloss ep10_dialog_g9[1] = { {"Ďakujeme", "merci (de notre part à tous les deux)"} };
 static const Gloss ep10_dialog_g10[1] = { {"Veľa šťastia", "bonne chance"} };
-static const Line ep10_dialog[11] = {
+static const Gloss ep10_dialog_g11[4] = { {"Na dne fontány", "au fond de la fontaine"}, {"leží", "est posé"}, {"niečo malé a modré", "quelque chose de petit et de bleu"}, {"\001 skočí dnu", "\001 saute dedans"} };
+static const Gloss ep10_dialog_g12[3] = { {"Pozri", "regarde"}, {"čo som našiel", "ce que j'ai trouvé"}, {"Zápisník", "un carnet"} };
+static const char* const ep10_dialog_c12_items[3] = { "Pozri, čo som našiel! Zápisník.", "Pozri, čo som našiel! Strana.", "Pozri, čo som našiel! Meranie." };
+static const Choice ep10_dialog_c12 = { CH_PICK, "qcm-zapisnik", ep10_dialog_c12_items, 3 };
+static const Gloss ep10_dialog_g13[2] = { {"Čo je", "qu'est-ce qu'il y a"}, {"v ňom", "dedans"} };
+static const Gloss ep10_dialog_g14[5] = { {"Čísla", "des chiffres"}, {"Dátumy", "des dates"}, {"A kresby fontány", "et des dessins de la fontaine"}, {"Meranie vody", "mesure de l'eau"}, {"A podpis", "et une signature"} };
+static const Gloss ep10_dialog_g15[5] = { {"Ten zápisník poznám", "ce carnet, je le connais"}, {"Je pani doktorky Vydrovej", "il est à madame la docteure Vydrová"}, {"Je to vydra", "c'est une loutre"}, {"Predvčerom", "avant-hier"}, {"tu merala fontánu", "elle a mesuré la fontaine ici"} };
+static const Gloss ep10_dialog_g16[2] = { {"A kde je", "et où est-elle"}, {"teraz", "maintenant"} };
+static const Gloss ep10_dialog_g17[4] = { {"Odišla", "elle est partie"}, {"na západ", "vers l'ouest"}, {"Hľadá vodu", "elle cherche de l'eau"}, {"Ako vy", "comme vous"} };
+static const Gloss ep10_dialog_g18[4] = { {"Pozri", "regarde"}, {"posledná strana", "la dernière page"}, {"Ďalšie meranie", "prochaine mesure"}, {"Slovenský raj", "le Paradis slovaque"} };
+static const Gloss ep10_dialog_g19[3] = { {"Slovenský raj", "le Paradis slovaque"}, {"Tam ideme", "c'est là qu'on va"}, {"aj my", "nous aussi"} };
+static const Gloss ep10_dialog_g20[5] = { {"Pri fontáne", "près de la fontaine"}, {"zastaví čierne auto", "une voiture noire s'arrête"}, {"Vystúpi", "descend"}, {"pán v obleku", "un monsieur en costume"}, {"Usmieva sa", "il sourit"} };
+static const Gloss ep10_dialog_g21[4] = { {"Dobrý deň", "bonjour"}, {"Nenašli ste tu", "vous n'avez pas trouvé ici"}, {"modrý zápisník", "un carnet bleu"}, {"Je môj", "c'est le mien"} };
+static const Gloss ep10_dialog_g22[3] = { {"Váš", "le vôtre"}, {"Myslel som", "je croyais"}, {"že je pani doktorky", "qu'il est à madame la docteure"} };
+static const Gloss ep10_dialog_g23[2] = { {"Je mojej kolegyne", "il est à ma collègue"}, {"To je to isté", "c'est la même chose"} };
+static const Gloss ep10_dialog_g24[3] = { {"\001 rýchlo strčí", "\001 fourre vite"}, {"zápisník", "le carnet"}, {"do batoha", "dans le sac à dos"} };
+static const Gloss ep10_dialog_g25[3] = { {"Nie", "non"}, {"Nič sme nenašli", "nous n'avons rien trouvé"}, {"Dovidenia", "au revoir"} };
+static const Gloss ep10_dialog_g26[3] = { {"Škoda", "dommage"}, {"Pekný deň", "bonne journée"}, {"deti", "les enfants"} };
+static const Gloss ep10_dialog_g27[2] = { {"Auto", "la voiture"}, {"odíde", "s'en va"} };
+static const Gloss ep10_dialog_g28[2] = { {"Andrea", "Andrea"}, {"Ty klameš", "tu mens"} };
+static const char* const ep10_dialog_c28_items[3] = { "Andrea! Ty klameš!", "Andrea! Ty hľadáš!", "Andrea! Ty rozumieš!" };
+static const Choice ep10_dialog_c28 = { CH_PICK, "qcm-klames", ep10_dialog_c28_items, 3 };
+static const Gloss ep10_dialog_g29[4] = { {"Áno", "oui"}, {"Ten pán", "ce monsieur"}, {"sa veľmi usmieva", "sourit beaucoup"}, {"To sa mi nepáči", "ça ne me plaît pas"} };
+static const Gloss ep10_dialog_g30[1] = { {"Prečo", "pourquoi"} };
+static const Gloss ep10_dialog_g31[1] = { {"Lebo", "parce que"} };
+static const Line ep10_dialog[32] = {
   {SPK_NARRATOR, "V centre mesta je fontána. Spievajúca fontána. Ale dnes nespieva.", "Au centre-ville, il y a une fontaine. Une fontaine chantante. Mais aujourd'hui, elle ne chante pas.", ep10_dialog_g0, 4, "Mot nouveau signalé : fontána = la fontaine. Pour comprendre : spievať = chanter.", nullptr},
   {SPK_FOX, "Pozri! Fontána!", "Regarde ! Une fontaine !", ep10_dialog_g1, 2, nullptr, &ep10_dialog_c1},
   {SPK_ANDREA, "Je prázdna.", "Elle est vide.", ep10_dialog_g2, 2, "Mot nouveau signalé : prázdna = vide. On dit prázdna parce que fontána est un mot féminin.", nullptr},
@@ -808,9 +849,30 @@ static const Line ep10_dialog[11] = {
   {SPK_FOX, "Dobrý deň. Áno, hľadáme vodu.", "Bonjour. Oui, nous cherchons de l'eau.", ep10_dialog_g5, 3, "Avec un adulte qu'on ne connaît pas, on commence par Dobrý deň, jamais par ahoj.", &ep10_dialog_c5},
   {SPK_HUMAN, "Prepáčte. Tu už voda nie je. Nikde v meste.", "Désolé. Ici, il n'y a plus d'eau. Nulle part en ville.", ep10_dialog_g6, 4, "Mots nouveaux signalés : prepáčte = excusez-moi (c'est prepáč avec -te), nikde = nulle part.", nullptr},
   {SPK_ANDREA, "A inde?", "Et ailleurs ?", ep10_dialog_g7, 1, nullptr, nullptr},
-  {SPK_HUMAN, "Na západe, v Slovenskom raji, ešte voda je. Hovorili to v rádiu.", "À l'ouest, dans le Paradis slovaque, il y en a encore. Ils l'ont dit à la radio.", ep10_dialog_g8, 5, "Mot nouveau signalé : v rádiu = à la radio. À écouter : hovorili = ils ont dit.", nullptr},
+  {SPK_HUMAN, "Na západe, v Slovenskom raji, je ešte voda. Hovorili to v rádiu.", "À l'ouest, dans le Paradis slovaque, il y en a encore. Ils l'ont dit à la radio.", ep10_dialog_g8, 5, "Mot nouveau signalé : v rádiu = à la radio. À écouter : hovorili = ils ont dit.", nullptr},
   {SPK_FOX, "Ďakujeme.", "Merci.", ep10_dialog_g9, 1, "ďakujem = je remercie, ďakujeme = nous remercions. Encore le -me du « nous ».", nullptr},
   {SPK_HUMAN, "Veľa šťastia.", "Bonne chance.", ep10_dialog_g10, 1, "Mot à mot : « beaucoup de bonheur ». Et c'est bien veľa : c'est une quantité de chance !", nullptr},
+  {SPK_NARRATOR, "Na dne fontány leží niečo malé a modré. \001 skočí dnu.", "Au fond de la fontaine, il y a quelque chose de petit et de bleu. \001 saute dedans.", ep10_dialog_g11, 4, "Pour comprendre : na dne = au fond, skočí = il saute.", nullptr},
+  {SPK_FOX, "Pozri, čo som našiel! Zápisník.", "Regarde ce que j'ai trouvé ! Un carnet.", ep10_dialog_g12, 3, "Mot nouveau signalé : zápisník = le carnet. À écouter : našiel som = j'ai trouvé.", &ep10_dialog_c12},
+  {SPK_ANDREA, "Čo je v ňom?", "Qu'est-ce qu'il y a dedans ?", ep10_dialog_g13, 2, nullptr, nullptr},
+  {SPK_FOX, "Čísla. Dátumy. A kresby fontány. „Meranie vody. Košice.“ A podpis: Dr. V.", "Des chiffres. Des dates. Et des dessins de la fontaine. « Mesure de l'eau. Košice. » Et une signature : Dr. V.", ep10_dialog_g14, 5, "Mot nouveau signalé : meranie = la mesure. Pour comprendre : kresby = des dessins, podpis = la signature.", nullptr},
+  {SPK_HUMAN, "Ten zápisník poznám. Je pani doktorky Vydrovej. Je to vydra. Predvčerom tu merala fontánu.", "Ce carnet, je le connais. Il est à madame la docteure Vydrová. C'est une loutre. Avant-hier, elle a mesuré la fontaine.", ep10_dialog_g15, 5, "Mot nouveau signalé : vydra = la loutre. À écouter : merala = elle a mesuré. Pour comprendre : predvčerom = avant-hier. Son nom, Vydrová, vient de vydra !", nullptr},
+  {SPK_FOX, "A kde je teraz?", "Et où est-elle maintenant ?", ep10_dialog_g16, 2, nullptr, nullptr},
+  {SPK_HUMAN, "Odišla na západ. Hľadá vodu. Ako vy.", "Elle est partie vers l'ouest. Elle cherche de l'eau. Comme vous.", ep10_dialog_g17, 4, "À écouter : odišla = elle est partie.", nullptr},
+  {SPK_ANDREA, "Pozri, posledná strana: „Ďalšie meranie: Slovenský raj.“", "Regarde, la dernière page : « Prochaine mesure : Paradis slovaque. »", ep10_dialog_g18, 4, "Mot nouveau signalé : strana = la page, ďalšie = suivant, prochain.", nullptr},
+  {SPK_FOX, "Slovenský raj! Tam ideme aj my!", "Le Paradis slovaque ! C'est là qu'on va, nous aussi !", ep10_dialog_g19, 3, nullptr, nullptr},
+  {SPK_NARRATOR, "Pri fontáne zastaví čierne auto. Vystúpi pán v obleku. Usmieva sa.", "Une voiture noire s'arrête près de la fontaine. Un monsieur en costume descend. Il sourit.", ep10_dialog_g20, 5, "Pour comprendre : auto = la voiture, v obleku = en costume, usmieva sa = il sourit.", nullptr},
+  {SPK_NONE, "Dobrý deň. Nenašli ste tu modrý zápisník? Je môj.", "Bonjour. Vous n'auriez pas trouvé un carnet bleu ? C'est le mien.", ep10_dialog_g21, 4, "À écouter : nenašli ste = vous n'avez pas trouvé (avec vy).", nullptr},
+  {SPK_HUMAN, "Váš? Myslel som, že je pani doktorky.", "Le vôtre ? Je croyais qu'il était à madame la docteure.", ep10_dialog_g22, 3, nullptr, nullptr},
+  {SPK_NONE, "Je mojej kolegyne. To je to isté.", "À ma collègue. C'est pareil.", ep10_dialog_g23, 2, "Pour comprendre : kolegyňa = la collègue. To je to isté = c'est pareil.", nullptr},
+  {SPK_NARRATOR, "\001 rýchlo strčí zápisník do batoha.", "\001 fourre vite le carnet dans son sac à dos.", ep10_dialog_g24, 3, "Pour comprendre : strčí = il fourre, do batoha = dans le sac à dos.", nullptr},
+  {SPK_ANDREA, "Nie. Nič sme nenašli. Dovidenia.", "Non. Nous n'avons rien trouvé. Au revoir.", ep10_dialog_g25, 3, "Avec un adulte, on part sur Dovidenia. Même quand on ment.", nullptr},
+  {SPK_NONE, "Škoda. Pekný deň, deti.", "Dommage. Bonne journée, les enfants.", ep10_dialog_g26, 3, nullptr, nullptr},
+  {SPK_NARRATOR, "Auto odíde.", "La voiture s'en va.", ep10_dialog_g27, 2, nullptr, nullptr},
+  {SPK_FOX, "Andrea! Ty klameš!", "Andrea ! Tu mens !", ep10_dialog_g28, 2, "Mot nouveau signalé : klameš = tu mens.", &ep10_dialog_c28},
+  {SPK_ANDREA, "Áno. Ten pán sa veľmi usmieva. To sa mi nepáči.", "Oui. Ce monsieur sourit beaucoup. Ça ne me plaît pas.", ep10_dialog_g29, 4, "Ici, c'est bien veľmi : il sourit « très fort », c'est une façon de sourire, pas une quantité.", nullptr},
+  {SPK_FOX, "Prečo?", "Pourquoi ?", ep10_dialog_g30, 1, nullptr, nullptr},
+  {SPK_ANDREA, "Lebo.", "Parce que.", ep10_dialog_g31, 1, "Lebo. tout seul, c'est la réponse de quelqu'un qui ne veut pas répondre. Comme « parce que » en français.", nullptr},
 };
 static const char* const ep10_x0_csk[3] = { "záhradník", "v rádiu", "nikde" };
 static const char* const ep10_x0_cfr[3] = { "le jardinier", "à la radio", "nulle part" };
@@ -831,7 +893,14 @@ static const char* const ep10_x10_tsk[3] = { "Prepáčte.", "Tu už voda nie je.
 static const char* const ep10_x10_tfr[3] = { "Désolé.", "Ici, il n'y a plus d'eau.", "Nulle part en ville." };
 static const char* const ep10_x11_tsk[3] = { "Dobrý deň.", "Áno,", "hľadáme vodu." };
 static const char* const ep10_x11_tfr[3] = { "Bonjour.", "Oui,", "nous cherchons de l'eau." };
-static const Exercise ep10_exercises[12] = {
+static const char* const ep10_x12_csk[3] = { "strana", "meranie", "fontána" };
+static const char* const ep10_x12_cfr[3] = { "la page", "la mesure", "la fontaine" };
+static const char* const ep10_x13_csk[3] = { "zajačica", "záhradník", "fontána" };
+static const char* const ep10_x13_cfr[3] = { "la hase", "le jardinier", "la fontaine" };
+static const char* const ep10_x14_csk[3] = { "hľadáš", "rozumieš", "hovoríš" };
+static const char* const ep10_x14_cfr[3] = { "tu cherches", "tu comprends", "tu parles" };
+static const char* const ep10_x15_cfr[3] = { "Regarde ce que j'ai perdu ! Un ticket.", "Regarde ce que j'ai trouvé ! Une fontaine.", "Regarde ce que j'ai vu ! Une loutre." };
+static const Exercise ep10_exercises[16] = {
   {EX_QCM, "qcm-font-na", "fontána", "la fontaine", ep10_x0_csk, ep10_x0_cfr, 3, nullptr, nullptr, 0},
   {EX_QCM, "qcm-pr-zdna", "prázdna", "vide (dit d'une fontaine)", ep10_x1_csk, ep10_x1_cfr, 3, nullptr, nullptr, 0},
   {EX_QCM, "qcm-nikde", "nikde", "nulle part", ep10_x2_csk, ep10_x2_cfr, 3, nullptr, nullptr, 0},
@@ -840,16 +909,20 @@ static const Exercise ep10_exercises[12] = {
   {EX_LISTEN, "listen-je-pr-zdna", "Je prázdna.", "Elle est vide.", nullptr, ep10_x5_cfr, 3, nullptr, nullptr, 0},
   {EX_LISTEN, "listen-prep-te-tu-u-voda-nie-je-nikde-v-meste", "Prepáčte. Tu už voda nie je. Nikde v meste.", "Désolé. Ici, il n'y a plus d'eau. Nulle part en ville.", nullptr, ep10_x6_cfr, 3, nullptr, nullptr, 0},
   {EX_LISTEN, "listen-a-inde", "A inde?", "Et ailleurs ?", nullptr, ep10_x7_cfr, 3, nullptr, nullptr, 0},
-  {EX_LISTEN, "listen-na-z-pade-v-slovenskom-raji-e-te-voda-je-hovorili-to-v-r-diu", "Na západe, v Slovenskom raji, ešte voda je. Hovorili to v rádiu.", "À l'ouest, dans le Paradis slovaque, il y en a encore. Ils l'ont dit à la radio.", nullptr, ep10_x8_cfr, 3, nullptr, nullptr, 0},
+  {EX_LISTEN, "listen-na-z-pade-v-slovenskom-raji-e-te-voda-je-hovorili-to-v-r-diu", "Na západe, v Slovenskom raji, je ešte voda. Hovorili to v rádiu.", "À l'ouest, dans le Paradis slovaque, il y en a encore. Ils l'ont dit à la radio.", nullptr, ep10_x8_cfr, 3, nullptr, nullptr, 0},
   {EX_LISTEN, "listen-ve-a-astia", "Veľa šťastia.", "Bonne chance.", nullptr, ep10_x9_cfr, 3, nullptr, nullptr, 0},
   {EX_ORDER, "order-prep-te-tu-u-voda-nie-je-nikde-v-meste", "Prepáčte. Tu už voda nie je. Nikde v meste.", "Désolé. Ici, il n'y a plus d'eau. Nulle part en ville.", nullptr, nullptr, 0, ep10_x10_tsk, ep10_x10_tfr, 3},
   {EX_ORDER, "order-dobr-de-no-h-ad-me-vodu", "Dobrý deň. Áno, hľadáme vodu.", "Bonjour. Oui, nous cherchons de l'eau.", nullptr, nullptr, 0, ep10_x11_tsk, ep10_x11_tfr, 3},
+  {EX_QCM, "qcm-zapisnik", "zápisník", "le carnet", ep10_x12_csk, ep10_x12_cfr, 3, nullptr, nullptr, 0},
+  {EX_QCM, "qcm-vydra", "vydra", "la loutre", ep10_x13_csk, ep10_x13_cfr, 3, nullptr, nullptr, 0},
+  {EX_QCM, "qcm-klames", "klameš", "tu mens", ep10_x14_csk, ep10_x14_cfr, 3, nullptr, nullptr, 0},
+  {EX_LISTEN, "listen-pozri-co-som-nasiel-zapisnik", "Pozri, čo som našiel! Zápisník.", "Regarde ce que j'ai trouvé ! Un carnet.", nullptr, ep10_x15_cfr, 3, nullptr, nullptr, 0},
 };
 static const Line ep10_bonus[1] = {
   {SPK_ANDREA, "Hovoríš ako pravý Slovák.", "Tu parles comme un vrai Slovaque.", nullptr, 0, nullptr, nullptr},
 };
 static const Episode ep10 = { "10_Series_02_Sucho_05_fontana", "Sucho", 2, 5, "Fontána", "Sucho",
-  ep10_dialog, 11, nullptr, 0, nullptr, 0, ep10_exercises, 12, ep10_bonus, 1 };
+  ep10_dialog, 32, nullptr, 0, nullptr, 0, ep10_exercises, 16, ep10_bonus, 1 };
 
 static const Gloss ep11_dialog_g0[4] = { {"\001 a Andrea sú", "\001 et Andrea sont"}, {"na stanici", "à la gare"}, {"Je tam veľa ľudí", "il y a beaucoup de monde"}, {"a veľmi málo tieňa", "et très peu d'ombre"} };
 static const Gloss ep11_dialog_g1[5] = { {"Počkaj", "attends"}, {"Musím", "je dois"}, {"napísať", "écrire"}, {"tete", "à ma tante"}, {"lístok", "un petit mot"} };
@@ -1220,13 +1293,20 @@ static const Gloss ep16_dialog_g4[2] = { {"Menej ako vlani", "moins que l'an der
 static const Gloss ep16_dialog_g5[5] = { {"Neviem", "je ne sais pas"}, {"V Tatrách", "dans les Tatras"}, {"vraj", "il paraît que"}, {"prší", "il pleut"}, {"Tu nie", "ici, non"} };
 static const Gloss ep16_dialog_g6[2] = { {"V Tatrách", "dans les Tatras"}, {"prší", "il pleut"} };
 static const Gloss ep16_dialog_g7[5] = { {"Áno", "oui"}, {"V horách", "en montagne"}, {"je počasie iné", "le temps est différent"}, {"Ak chcete vodu", "si vous voulez de l'eau"}, {"choďte tam", "allez là-bas"} };
-static const Gloss ep16_dialog_g8[3] = { {"Ďakujeme", "merci"}, {"Pôjdeme", "nous irons"}, {"do Tatier", "dans les Tatras"} };
-static const char* const ep16_dialog_c8_items[3] = { "Ďakujeme. Pôjdeme do Tatier.", "Ďakujeme. Opatrne do Tatier.", "Ďakujeme. Vraj do Tatier." };
-static const Choice ep16_dialog_c8 = { CH_PICK, "qcm-p-jdeme", ep16_dialog_c8_items, 3 };
-static const Gloss ep16_dialog_g9[3] = { {"Opatrne", "prudemment"}, {"A vezmite si", "et prenez"}, {"bundu", "une veste"} };
-static const Gloss ep16_dialog_g10[2] = { {"Bundu", "une veste"}, {"V lete", "en été"} };
-static const Gloss ep16_dialog_g11[2] = { {"V horách", "en montagne"}, {"je iné leto", "l'été est différent"} };
-static const Line ep16_dialog[12] = {
+static const Gloss ep16_dialog_g8[3] = { {"A nevideli ste tu", "et vous n'avez pas vu ici"}, {"jednu vydru", "une loutre"}, {"So zápisníkom", "avec un carnet"} };
+static const Gloss ep16_dialog_g9[6] = { {"Doktorku Vydrovú", "madame la docteure Vydrová"}, {"Bola tu včera", "elle était là hier"}, {"Merala potok", "elle a mesuré le ruisseau"}, {"Nechala tu niečo", "elle a laissé quelque chose ici"}, {"Pre toho, kto nájde", "pour celui qui trouve"}, {"jej zápisník", "son carnet"} };
+static const Gloss ep16_dialog_g10[4] = { {"Pán Orol im podá", "pán Orol leur tend"}, {"papier", "un papier"}, {"Je to strana", "c'est une page"}, {"zo zápisníka", "du carnet"} };
+static const Gloss ep16_dialog_g11[5] = { {"Pre nálezcu", "pour celui qui l'a trouvé"}, {"Ďakujem", "merci"}, {"Idem merať", "je vais mesurer"}, {"do Tatier", "dans les Tatras"}, {"k Téryho chate", "vers le refuge Téry"} };
+static const Gloss ep16_dialog_g12[5] = { {"Ešte niečo", "encore une chose"}, {"Včera", "hier"}, {"sa na ňu pýtal", "a posé des questions sur elle"}, {"jeden pán v obleku", "un monsieur en costume"}, {"Veľmi sa usmieval", "il souriait beaucoup"} };
+static const Gloss ep16_dialog_g13[2] = { {"Zase", "encore"}, {"on", "lui"} };
+static const Gloss ep16_dialog_g14[4] = { {"Orly", "les aigles"}, {"nemajú rady", "n'aiment pas"}, {"také úsmevy", "ce genre de sourires"}, {"Nič som mu nepovedal", "je ne lui ai rien dit"} };
+static const Gloss ep16_dialog_g15[3] = { {"Ďakujeme", "merci"}, {"Pôjdeme", "nous irons"}, {"do Tatier", "dans les Tatras"} };
+static const char* const ep16_dialog_c15_items[3] = { "Ďakujeme. Pôjdeme do Tatier.", "Ďakujeme. Opatrne do Tatier.", "Ďakujeme. Vraj do Tatier." };
+static const Choice ep16_dialog_c15 = { CH_PICK, "qcm-p-jdeme", ep16_dialog_c15_items, 3 };
+static const Gloss ep16_dialog_g16[3] = { {"Opatrne", "prudemment"}, {"A vezmite si", "et prenez"}, {"bundu", "une veste"} };
+static const Gloss ep16_dialog_g17[2] = { {"Bundu", "une veste"}, {"V lete", "en été"} };
+static const Gloss ep16_dialog_g18[2] = { {"V horách", "en montagne"}, {"je iné leto", "l'été est différent"} };
+static const Line ep16_dialog[19] = {
   {SPK_NARRATOR, "Na konci rokliny sedí na skale orol. Je to pán Orol, strážca parku.", "Au bout de la gorge, un aigle est perché sur un rocher. C'est pán Orol, le garde du parc.", ep16_dialog_g0, 4, "Mot nouveau signalé : strážca parku = le garde du parc. orol = l'aigle, et pán Orol, c'est « monsieur Aigle ».", nullptr},
   {SPK_OROL, "Dobrý deň. Kam idete?", "Bonjour. Vous allez où ?", ep16_dialog_g1, 2, nullptr, nullptr},
   {SPK_FOX, "Dobrý deň. Hľadáme vodu.", "Bonjour. Nous cherchons de l'eau.", ep16_dialog_g2, 2, nullptr, nullptr},
@@ -1235,10 +1315,17 @@ static const Line ep16_dialog[12] = {
   {SPK_OROL, "Neviem. V Tatrách vraj prší. Tu nie.", "Je ne sais pas. Dans les Tatras, il paraît qu'il pleut. Ici, non.", ep16_dialog_g5, 5, "Mot nouveau signalé : vraj = il paraît que, on dit que. prší = il pleut.", nullptr},
   {SPK_ANDREA, "V Tatrách prší?", "Il pleut dans les Tatras ?", ep16_dialog_g6, 2, nullptr, nullptr},
   {SPK_OROL, "Áno. V horách je počasie iné. Ak chcete vodu, choďte tam.", "Oui. En montagne, le temps est différent. Si vous voulez de l'eau, allez là-bas.", ep16_dialog_g7, 5, "Mot nouveau signalé : v horách = en montagne (hory = les montagnes). À écouter : choďte = allez, quand on vouvoie.", nullptr},
-  {SPK_FOX, "Ďakujeme. Pôjdeme do Tatier.", "Merci. Nous irons dans les Tatras.", ep16_dialog_g8, 3, "Mot nouveau signalé : pôjdeme = nous irons. C'est le futur de ideme. Et Tatry devient do Tatier : retiens-le d'un bloc.", &ep16_dialog_c8},
-  {SPK_OROL, "Opatrne. A vezmite si bundu.", "Soyez prudents. Et prenez une veste.", ep16_dialog_g9, 3, "Mots nouveaux signalés : opatrne = prudemment, bunda = la veste (bundu après « prendre »).", nullptr},
-  {SPK_FOX, "Bundu? V lete?", "Une veste ? En plein été ?", ep16_dialog_g10, 2, "Mot nouveau signalé : v lete = en été. leto = l'été.", nullptr},
-  {SPK_OROL, "V horách je iné leto.", "En montagne, l'été est différent.", ep16_dialog_g11, 2, nullptr, nullptr},
+  {SPK_FOX, "A nevideli ste tu jednu vydru? So zápisníkom?", "Et vous n'avez pas vu une loutre ? Avec un carnet ?", ep16_dialog_g8, 3, "À écouter : nevideli ste = vous n'avez pas vu. vydru, c'est vydra après le verbe.", nullptr},
+  {SPK_OROL, "Doktorku Vydrovú? Bola tu včera. Merala potok. Nechala tu niečo. Pre toho, kto nájde jej zápisník.", "Madame la docteure Vydrová ? Elle était là hier. Elle a mesuré le ruisseau. Elle a laissé quelque chose. Pour celui qui trouverait son carnet.", ep16_dialog_g9, 6, "À écouter : nechala = elle a laissé.", nullptr},
+  {SPK_NARRATOR, "Pán Orol im podá papier. Je to strana zo zápisníka.", "Pán Orol leur tend un papier. C'est une page du carnet.", ep16_dialog_g10, 4, nullptr, nullptr},
+  {SPK_FOX, "„Pre nálezcu. Ďakujem! Idem merať do Tatier, k Téryho chate. Dr. V.“", "« Pour la personne qui l'a trouvé. Merci ! Je vais mesurer dans les Tatras, près du refuge Téry. Dr. V. »", ep16_dialog_g11, 5, "Mot nouveau signalé : nálezca = celui qui trouve (de nájsť, trouver). Pour comprendre : chata = le refuge.", nullptr},
+  {SPK_OROL, "Ešte niečo. Včera sa na ňu pýtal jeden pán v obleku. Veľmi sa usmieval.", "Autre chose. Hier, un monsieur en costume m'a posé des questions sur elle. Il souriait beaucoup.", ep16_dialog_g12, 5, "À écouter : pýtal sa = il a demandé, usmieval sa = il souriait.", nullptr},
+  {SPK_ANDREA, "Zase on!", "Encore lui !", ep16_dialog_g13, 2, nullptr, nullptr},
+  {SPK_OROL, "Orly nemajú radi také úsmevy. Nič som mu nepovedal.", "Les aigles n'aiment pas ce genre de sourire. Je ne lui ai rien dit.", ep16_dialog_g14, 4, "Pour comprendre : úsmevy = des sourires. En slovaque, on accumule les négations : nič + nepovedal, « rien » + « pas dit ».", nullptr},
+  {SPK_FOX, "Ďakujeme. Pôjdeme do Tatier.", "Merci. Nous irons dans les Tatras.", ep16_dialog_g15, 3, "Mot nouveau signalé : pôjdeme = nous irons. C'est le futur de ideme. Et Tatry devient do Tatier : retiens-le d'un bloc.", &ep16_dialog_c15},
+  {SPK_OROL, "Opatrne. A vezmite si bundu.", "Soyez prudents. Et prenez une veste.", ep16_dialog_g16, 3, "Mots nouveaux signalés : opatrne = prudemment, bunda = la veste (bundu après « prendre »).", nullptr},
+  {SPK_FOX, "Bundu? V lete?", "Une veste ? En plein été ?", ep16_dialog_g17, 2, "Mot nouveau signalé : v lete = en été. leto = l'été.", nullptr},
+  {SPK_OROL, "V horách je iné leto.", "En montagne, l'été est différent.", ep16_dialog_g18, 2, nullptr, nullptr},
 };
 static const char* const ep16_x0_csk[3] = { "v lete", "vraj", "opatrne" };
 static const char* const ep16_x0_cfr[3] = { "en été", "il paraît que", "prudemment" };
@@ -1259,7 +1346,10 @@ static const char* const ep16_x10_tsk[3] = { "Opatrne.", "A vezmite si", "bundu.
 static const char* const ep16_x10_tfr[3] = { "Soyez prudents.", "Et prenez", "une veste." };
 static const char* const ep16_x11_tsk[3] = { "Neviem.", "V Tatrách vraj prší.", "Tu nie." };
 static const char* const ep16_x11_tfr[3] = { "Je ne sais pas.", "Dans les Tatras, il paraît qu'il pleut.", "Ici, non." };
-static const Exercise ep16_exercises[12] = {
+static const char* const ep16_x12_csk[3] = { "strážca parku", "zápisník", "strana" };
+static const char* const ep16_x12_cfr[3] = { "le garde du parc", "le carnet", "la page" };
+static const char* const ep16_x13_cfr[3] = { "Encore elle !", "C'est nous !", "Pas lui !" };
+static const Exercise ep16_exercises[14] = {
   {EX_QCM, "qcm-vlani", "vlani", "l'an dernier", ep16_x0_csk, ep16_x0_cfr, 3, nullptr, nullptr, 0},
   {EX_QCM, "qcm-vraj", "vraj", "il paraît que", ep16_x1_csk, ep16_x1_cfr, 3, nullptr, nullptr, 0},
   {EX_QCM, "qcm-opatrne", "opatrne", "prudemment", ep16_x2_csk, ep16_x2_cfr, 3, nullptr, nullptr, 0},
@@ -1272,12 +1362,14 @@ static const Exercise ep16_exercises[12] = {
   {EX_LISTEN, "listen-bundu-v-lete", "Bundu? V lete?", "Une veste ? En plein été ?", nullptr, ep16_x9_cfr, 3, nullptr, nullptr, 0},
   {EX_ORDER, "order-opatrne-a-vezmite-si-bundu", "Opatrne. A vezmite si bundu.", "Soyez prudents. Et prenez une veste.", nullptr, nullptr, 0, ep16_x10_tsk, ep16_x10_tfr, 3},
   {EX_ORDER, "order-neviem-v-tatr-ch-vraj-pr-tu-nie", "Neviem. V Tatrách vraj prší. Tu nie.", "Je ne sais pas. Dans les Tatras, il paraît qu'il pleut. Ici, non.", nullptr, nullptr, 0, ep16_x11_tsk, ep16_x11_tfr, 3},
+  {EX_QCM, "qcm-nalezca", "nálezca", "celui qui trouve", ep16_x12_csk, ep16_x12_cfr, 3, nullptr, nullptr, 0},
+  {EX_LISTEN, "listen-zase-on", "Zase on!", "Encore lui !", nullptr, ep16_x13_cfr, 3, nullptr, nullptr, 0},
 };
 static const Line ep16_bonus[1] = {
   {SPK_OROL, "Hovoríte veľmi pekne po slovensky.", "Vous parlez très bien slovaque.", nullptr, 0, nullptr, nullptr},
 };
 static const Episode ep16 = { "10_Series_03_Raj_05_roklina", "Raj", 3, 5, "Na konci rokliny", "Raj",
-  ep16_dialog, 12, nullptr, 0, nullptr, 0, ep16_exercises, 12, ep16_bonus, 1 };
+  ep16_dialog, 19, nullptr, 0, nullptr, 0, ep16_exercises, 14, ep16_bonus, 1 };
 
 static const Gloss ep17_dialog_g0[3] = { {"Je večer", "c'est le soir"}, {"sedia", "sont assis"}, {"pri potoku", "près du ruisseau"} };
 static const Gloss ep17_dialog_g1[3] = { {"Nikdy", "jamais"}, {"som nespal", "je n'ai pas dormi"}, {"pod hviezdami", "sous les étoiles"} };
@@ -1336,7 +1428,7 @@ static const Episode ep17 = { "10_Series_03_Raj_06_extra", "Raj", 3, 6, "Pri pot
   ep17_dialog, 13, nullptr, 0, nullptr, 0, ep17_exercises, 8, ep17_bonus, 1 };
 
 const Episode* const COURSE_EPISODES[] = { &ep0, &ep1, &ep2, &ep3, &ep4, &ep5, &ep6, &ep7, &ep8, &ep9, &ep10, &ep11, &ep12, &ep13, &ep14, &ep15, &ep16, &ep17 };
-const Word COURSE_VOCAB[200] = {
+const Word COURSE_VOCAB[210] = {
   {"ja", "moi, je"},
   {"ty", "toi, tu"},
   {"som", "je suis"},
@@ -1351,7 +1443,7 @@ const Word COURSE_VOCAB[200] = {
   {"lístok", "le ticket"},
   {"mesto", "la ville"},
   {"Ako sa máš?", "Comment vas-tu ? (rappel)"},
-  {"Mám sa dobre.", "Je vais bien. (rappel)"},
+  {"Mám sa dobre.", "Je vais bien."},
   {"super", "super, génial"},
   {"A ty?", "Et toi ?"},
   {"aj ja", "moi aussi"},
@@ -1377,6 +1469,7 @@ const Word COURSE_VOCAB[200] = {
   {"vlak", "le train"},
   {"vlakom", "en train"},
   {"jedenásť", "onze"},
+  {"dvanásť", "douze"},
   {"trinásť", "treize"},
   {"štrnásť", "quatorze"},
   {"pätnásť", "quinze"},
@@ -1398,6 +1491,8 @@ const Word COURSE_VOCAB[200] = {
   {"skoro", "presque"},
   {"u mojej tety", "chez ma tante"},
   {"pravda", "vrai, la vérité"},
+  {"zabudnem", "j'oublie"},
+  {"s nikým", "avec personne"},
   {"večer", "le soir (nouveau)"},
   {"záhrada", "le jardin (nouveau)"},
   {"teta", "la tante (nouveau)"},
@@ -1465,6 +1560,12 @@ const Word COURSE_VOCAB[200] = {
   {"nikde", "nulle part"},
   {"v rádiu", "à la radio"},
   {"Veľa šťastia!", "Bonne chance !"},
+  {"zápisník", "le carnet"},
+  {"meranie", "la mesure"},
+  {"vydra", "la loutre"},
+  {"strana", "la page"},
+  {"ďalšie", "suivant, prochain"},
+  {"klameš", "tu mens"},
   {"stanica", "la gare (nouveau)"},
   {"na stanici", "à la gare (nouveau)"},
   {"musím", "je dois (nouveau)"},
@@ -1532,13 +1633,14 @@ const Word COURSE_VOCAB[200] = {
   {"opatrne", "prudemment"},
   {"bunda", "la veste"},
   {"v lete", "en été"},
+  {"nálezca", "celui qui trouve"},
   {"nikdy", "jamais (nouveau)"},
   {"hviezdy", "les étoiles (nouveau)"},
   {"jablká", "des pommes (nouveau)"},
   {"veriť", "croire, faire confiance (nouveau)"},
   {"okrem", "sauf (nouveau)"},
 };
-const int COURSE_NUM_VOCAB = 200;
+const int COURSE_NUM_VOCAB = 210;
 static const char* const gl0_c1_items[3] = { "Lístok na električku, prosím.", "Mapu mesta, prosím.", "Vodu, prosím." };
 static const Choice gl0_c1 = { CH_PICK, "lines", gl0_c1_items, 3 };
 static const Line gl0[3] = {
