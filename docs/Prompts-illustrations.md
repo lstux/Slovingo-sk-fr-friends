@@ -1,5 +1,7 @@
 # Illustrations IA de Zajko Friends — prompts ChatGPT
 
+*Les illustrations des fiches de vocabulaire ont leur propre document : `docs/Prompts-illustrations-vocabulaire.md`.*
+
 Une illustration par série, pour la **fiche 05** (le moment fort de l'épisode), plus une **couverture** pour l'introduction. Les autres fiches gardent leur photo Wikimedia Commons. Même méthode que pour les illustrations Gemini du cours adulte (`Slovingo-sk-fr`, `docs/Prompts-illustrations.md`), adaptée à ChatGPT.
 
 **Style** : dessin animé 2D classique (pas de 3D), personnages animaux, décors peints réalistes pour que les lieux soient reconnaissables. Même famille de style que le cours adulte, mais les héros sont des ados.
