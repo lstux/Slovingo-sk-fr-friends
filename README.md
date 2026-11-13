@@ -39,8 +39,8 @@ Sécheresse, orage dans les Tatras, inondation, une drôle de route en construct
 
 Deux petits jeux dans l'univers du cours, qui reprennent ses dialogues :
 
-- **Zajko Run** (plateformes) et **Zajko Quest** (aventure, chapitres Košice et Sucho), à jouer dans le navigateur : **[lstux.github.io/Slovingo-sk-fr-friends/games/](https://lstux.github.io/Slovingo-sk-fr-friends/games/)** (sources dans [`web-games/`](./web-games/)).
-- Les mêmes jeux en firmware pour l'**ODROID-GO** (ESP32) : [`esp32/zajko-run`](./esp32/zajko-run/) et [`esp32/zajko-quest`](./esp32/zajko-quest/). Oui, j'ai craqué. ^^
+- **Zajko Run** (plateformes) et **Zajko Quest** (aventure en point & click, en chantier), à jouer dans le navigateur : **[lstux.github.io/Slovingo-sk-fr-friends/games/](https://lstux.github.io/Slovingo-sk-fr-friends/games/)** (sources dans [`web-games/`](./web-games/)).
+- Zajko Run en firmware pour l'**ODROID-GO** (ESP32) : [`esp32/zajko-run`](./esp32/zajko-run/). Oui, j'ai craqué. ^^ (L'ancien Zajko Quest 16 bit, [`esp32/zajko-quest`](./esp32/zajko-quest/), n'est plus poursuivi.)
 
 ## La famille
 
