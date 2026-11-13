@@ -1,5 +1,7 @@
 # Názory a diskusia (Les opinions et le débat)
 
+@ img/vocabulary/08_nazory-diskusia.jpg | Donner son avis, argumenter et échanger des idées sans se disputer. Source : illustration générée avec ChatGPT
+
 {{fr:Quand on n'est pas d'accord, on peut le dire sans se disputer. Voici des expressions pour expliquer son point de vue.}}
 
 ---
