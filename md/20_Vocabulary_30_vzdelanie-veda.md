@@ -1,5 +1,7 @@
 # Veda a objavy (Les sciences et les découvertes)
 
+@ img/vocabulary/30_vzdelanie-veda.jpg | Observer, expérimenter, partager une découverte. Source : illustration générée avec ChatGPT
+
 {{fr:Observer, faire une expérience, comprendre un phénomène et partager une découverte : un peu de vocabulaire scientifique sans devenir professeur.}}
 
 ## Les sciences
