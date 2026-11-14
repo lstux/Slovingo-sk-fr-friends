@@ -1,5 +1,7 @@
 # Čísla a počítanie (Les nombres et le calcul)
 
+@ img/vocabulary/16_cisla-pocitanie.jpg | Compter, calculer, lire un prix, une date ou une heure. Source : illustration générée avec ChatGPT
+
 {{fr:De zéro à l'infini… et au-delà ! Les nombres servent à compter, donner son âge, lire un prix, comprendre une date ou annoncer une heure.}}
 
 ---
