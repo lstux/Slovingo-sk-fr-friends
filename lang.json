@@ -90,6 +90,7 @@
     "domacnost-bydlenie": "Maison et logement"
   },
   "ui": {
+    "tts_error": "La voix n'a pas pu être lue ({error}).",
     "sheet_not_found": "Fiche introuvable : {id}",
     "change_course": "Changer de cours",
     "home": "Accueil",
