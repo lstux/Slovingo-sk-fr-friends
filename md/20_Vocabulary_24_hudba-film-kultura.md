@@ -1,5 +1,7 @@
 # Hudba a film (La musique et le cinéma)
 
+@ img/vocabulary/24_hudba-film-kultura.jpg | Musique, cinéma et séries : parler de ce qu'on aime. Source : illustration générée avec ChatGPT
+
 {{fr:Parler de ce qu'on écoute, des films qu'on regarde et de ce qu'on aime dans la culture.}}
 
 ## La musique
