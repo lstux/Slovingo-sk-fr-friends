@@ -1,5 +1,7 @@
 # Energia a ťažba (L'énergie et l'exploitation minière)
 
+@ img/vocabulary/10_energia-bana.jpg | La mine, l'énergie et les ressources : comprendre les enjeux. Source : illustration générée avec ChatGPT
+
 {{fr:Une mine, des machines, des ressources naturelles et des choix difficiles : voici les mots pour comprendre les enjeux de l'énergie.}}
 
 ---
