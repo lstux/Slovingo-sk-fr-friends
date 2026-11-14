@@ -1,5 +1,7 @@
 # Oblečenie a štýl (Les vêtements et le style)
 
+@ img/vocabulary/19_oblecenie-styl.jpg | Choisir une tenue, essayer et acheter des vêtements. Source : illustration générée avec ChatGPT
+
 {{fr:Pour choisir une tenue, faire les magasins ou décrire ce que quelqu'un porte.}}
 
 ## Les vêtements
