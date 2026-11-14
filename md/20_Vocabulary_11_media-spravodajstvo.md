@@ -1,5 +1,7 @@
 # Médiá a spravodajstvo (Les médias et l'information)
 
+@ img/vocabulary/11_media-spravodajstvo.jpg | Interview, reportage, actualité : parler des médias. Source : illustration générée avec ChatGPT
+
 {{fr:Quand une histoire devient importante, les journalistes veulent comprendre ce qui s'est passé et donner la parole aux personnes concernées.}}
 
 ---
