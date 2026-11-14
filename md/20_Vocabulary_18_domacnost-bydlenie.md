@@ -1,5 +1,7 @@
 # Domácnosť a bývanie (La maison et le logement)
 
+@ img/vocabulary/18_domacnost-bydlenie.jpg | Les pièces, les meubles et les gestes de la maison. Source : illustration générée avec ChatGPT
+
 {{fr:Pour parler de chez soi, de sa chambre ou d'un appartement, voici les mots vraiment utiles.}}
 
 ## Les pièces
