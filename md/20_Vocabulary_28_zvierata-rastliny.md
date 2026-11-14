@@ -1,5 +1,7 @@
 # Zvieratá a rastliny (Les animaux et les plantes)
 
+@ img/vocabulary/28_zvierata-rastliny.jpg | Animaux, arbres et petites bêtes : observer la nature. Source : illustration générée avec ChatGPT
+
 {{fr:La nature ne se résume pas aux montagnes : voici les animaux, les arbres et les petites bêtes qu'on croise dehors.}}
 
 ## Les animaux
