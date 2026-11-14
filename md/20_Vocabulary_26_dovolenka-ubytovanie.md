@@ -1,5 +1,7 @@
 # Dovolenka a ubytovanie (Les vacances et l'hébergement)
 
+@ img/vocabulary/26_dovolenka-ubytovanie.jpg | Réserver une chambre et organiser son séjour. Source : illustration générée avec ChatGPT
+
 {{fr:Préparer un séjour, réserver une chambre, demander son chemin et profiter des vacances.}}
 
 ## Les vacances et les destinations
