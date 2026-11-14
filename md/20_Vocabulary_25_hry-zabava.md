@@ -1,5 +1,7 @@
 # Hry a zábava (Les jeux et les loisirs)
 
+@ img/vocabulary/25_hry-zabava.jpg | Jeux de société, jeux vidéo et sorties entre amis. Source : illustration générée avec ChatGPT
+
 {{fr:Jeux de société, jeux vidéo, sorties entre amis : de quoi parler quand on ne révise pas le slovaque.}}
 
 ## Les jeux

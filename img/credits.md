@@ -150,6 +150,7 @@ Dans `img/`, mais utilisées par aucune fiche pour l'instant (remplacées par un
 | `20_Vocabulary_22_rodina-priatelstvo.md` | `vocabulary/22_rodina-priatelstvo.jpg` | Illustration générée avec ChatGPT, sans photo de référence | Image générée (pas de photo source) |
 | `20_Vocabulary_23_sport-pohyb.md` | `vocabulary/23_sport-pohyb.jpg` | Illustration générée avec ChatGPT, sans photo de référence | Image générée (pas de photo source) |
 | `20_Vocabulary_24_hudba-film-kultura.md` | `vocabulary/24_hudba-film-kultura.jpg` | Illustration générée avec ChatGPT, sans photo de référence | Image générée (pas de photo source) |
+| `20_Vocabulary_25_hry-zabava.md` | `vocabulary/25_hry-zabava.jpg` | Illustration générée avec ChatGPT, sans photo de référence | Image générée (pas de photo source) |
 | (mascottes, interface) | `mascots/fox-*.png`, `mascots/hare-*.png` (8 portraits), `mascots/duo-walk.png` | Illustrations générées avec ChatGPT, sans photo de référence | Image générée (pas de photo source) | — |
 | `90_Annex_01_zajko-run.md`, `90_Annex_02_zajko-quest.md` | `jeux/*.jpg` (captures des jeux) | Captures d'écran de Zajko Run et Zajko Quest (`web-games/`) | — | — |
 
