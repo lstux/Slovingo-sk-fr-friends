@@ -142,6 +142,7 @@ Dans `img/`, mais utilisées par aucune fiche pour l'instant (remplacées par un
 | `20_Vocabulary_14_cas-spomienky.md` | `vocabulary/14_cas-spomienky.jpg` | Illustration générée avec ChatGPT, sans photo de référence | Image générée (pas de photo source) |
 | `20_Vocabulary_15_vyjadrovanie-komunikacia.md` | `vocabulary/15_vyjadrovanie-komunikacia.jpg` | Illustration générée avec ChatGPT, sans photo de référence | Image générée (pas de photo source) |
 | `20_Vocabulary_16_cisla-pocitanie.md` | `vocabulary/16_cisla-pocitanie.jpg` | Illustration générée avec ChatGPT, sans photo de référence | Image générée (pas de photo source) |
+| `20_Vocabulary_17_vie-quotidienne.md` | `vocabulary/17_vie-quotidienne.jpg` | Illustration générée avec ChatGPT, sans photo de référence | Image générée (pas de photo source) |
 | (mascottes, interface) | `mascots/fox-*.png`, `mascots/hare-*.png` (8 portraits), `mascots/duo-walk.png` | Illustrations générées avec ChatGPT, sans photo de référence | Image générée (pas de photo source) | — |
 | `90_Annex_01_zajko-run.md`, `90_Annex_02_zajko-quest.md` | `jeux/*.jpg` (captures des jeux) | Captures d'écran de Zajko Run et Zajko Quest (`web-games/`) | — | — |
 

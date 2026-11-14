@@ -1,5 +1,7 @@
 # Každodenný život (La vie quotidienne)
 
+@ img/vocabulary/17_vie-quotidienne.jpg | Se lever, se préparer, manger : une journée ordinaire. Source : illustration générée avec ChatGPT
+
 {{fr:Une journée, ce n'est pas seulement une aventure : il faut aussi se lever, se préparer, manger, ranger et arriver à l'heure.}}
 
 ## Les moments et les habitudes
