@@ -1,5 +1,7 @@
 # Telo a zdravie (Le corps et la santé)
 
+@ img/vocabulary/20_telo-zdravie.jpg | Parler du corps, dire qu'on a mal ou qu'on est malade. Source : illustration générée avec ChatGPT
+
 {{fr:Pour expliquer comment on se sent, parler d'une douleur ou demander de l'aide.}}
 
 ## Le corps
