@@ -1,5 +1,7 @@
 # Komunikácia a vyjadrovanie (La communication)
 
+@ img/vocabulary/15_vyjadrovanie-komunikacia.jpg | Expliquer, reformuler, demander de répéter. Source : illustration générée avec ChatGPT
+
 {{fr:Expliquer, préciser, reformuler ou demander à quelqu'un de répéter : ces expressions sont utiles dans toutes les conversations.}}
 
 ---
