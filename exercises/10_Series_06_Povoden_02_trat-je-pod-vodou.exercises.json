@@ -201,16 +201,33 @@
       "l1": "Deux kilomètres. On ne peut pas aller plus loin. Excusez-moi, mais vous devez descendre.",
       "l2": "Dva kilometre. Ďalej sa nedá. Prepáčte, ale musíte vystúpiť.",
       "tokens_l1": [
-        "Deux kilomètres.",
-        "On ne peut pas aller plus loin.",
+        "Deux",
+        "kilomètres.",
+        "On",
+        "ne",
+        "peut",
+        "pas",
+        "aller",
+        "plus",
+        "loin.",
         "Excusez-moi,",
-        "mais vous devez descendre."
+        "mais",
+        "vous",
+        "devez",
+        "descendre.",
+        "mouillé"
       ],
       "tokens_l2": [
-        "Dva kilometre.",
-        "Ďalej sa nedá.",
+        "Dva",
+        "kilometre.",
+        "Ďalej",
+        "sa",
+        "nedá.",
         "Prepáčte,",
-        "ale musíte vystúpiť."
+        "ale",
+        "musíte",
+        "vystúpiť.",
+        "mokrý"
       ]
     },
     {
@@ -219,14 +236,26 @@
       "l1": "C'est pour ça que c'est moi qui le porte.",
       "l2": "Preto ho nosím ja.",
       "tokens_l1": [
-        "C'est pour ça",
-        "que c'est moi",
-        "qui le porte."
+        "C'est",
+        "pour",
+        "ça",
+        "que",
+        "c'est",
+        "moi",
+        "qui",
+        "le",
+        "porte.",
+        "plus",
+        "mais",
+        "devez"
       ],
       "tokens_l2": [
         "Preto",
         "ho nosím",
-        "ja."
+        "ja.",
+        "ale",
+        "sa",
+        "nedá"
       ]
     }
   ]

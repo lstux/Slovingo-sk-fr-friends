@@ -201,14 +201,30 @@
       "l1": "Ils descendent du train. Katka s'arrête au milieu du quai.",
       "l2": "Vystúpia z vlaku. Katka sa zastaví uprostred nástupišťa.",
       "tokens_l1": [
-        "Ils descendent du train.",
-        "Katka s'arrête",
-        "au milieu du quai."
+        "Ils",
+        "descendent",
+        "du",
+        "train.",
+        "Katka",
+        "s'arrête",
+        "au",
+        "milieu",
+        "du",
+        "quai.",
+        "vous",
+        "salue"
       ],
       "tokens_l2": [
-        "Vystúpia z vlaku.",
-        "Katka sa zastaví",
-        "uprostred nástupišťa."
+        "Vystúpia",
+        "z",
+        "vlaku.",
+        "Katka",
+        "sa",
+        "zastaví",
+        "uprostred",
+        "nástupišťa.",
+        "pozdravuje",
+        "vás"
       ]
     },
     {
@@ -217,14 +233,32 @@
       "l1": "Pas encore. Mais la ville est grande. Elle a besoin de temps.",
       "l2": "Ešte nie. Ale mesto je veľké. Potrebuje čas.",
       "tokens_l1": [
-        "Pas encore.",
-        "Mais la ville est grande.",
-        "Elle a besoin de temps."
+        "Pas",
+        "encore.",
+        "Mais",
+        "la",
+        "ville",
+        "est",
+        "grande.",
+        "Elle",
+        "a",
+        "besoin",
+        "de",
+        "temps.",
+        "vous",
+        "salue"
       ],
       "tokens_l2": [
-        "Ešte nie.",
-        "Ale mesto je veľké.",
-        "Potrebuje čas."
+        "Ešte",
+        "nie.",
+        "Ale",
+        "mesto",
+        "je",
+        "veľké.",
+        "Potrebuje",
+        "čas.",
+        "vás",
+        "pozdravuje"
       ]
     }
   ]

@@ -202,13 +202,24 @@
       "l2": "Myslím, že žaby sú pri potoku.",
       "tokens_l1": [
         "Je pense",
-        "que les grenouilles",
-        "sont près du ruisseau."
+        "que",
+        "les",
+        "grenouilles",
+        "sont",
+        "près",
+        "du",
+        "ruisseau.",
+        "vous",
+        "quand"
       ],
       "tokens_l2": [
         "Myslím,",
         "že žaby",
-        "sú pri potoku."
+        "sú",
+        "pri",
+        "potoku.",
+        "prišli",
+        "aj"
       ]
     },
     {
@@ -217,14 +228,31 @@
       "l1": "Vous saviez qu'il y avait ici une zone humide ?",
       "l2": "Vy ste vedeli, že tu bola mokraď?",
       "tokens_l1": [
-        "Vous saviez",
-        "qu'il y avait ici",
-        "une zone humide ?"
+        "Vous",
+        "saviez",
+        "qu'il",
+        "y",
+        "avait",
+        "ici",
+        "une",
+        "zone",
+        "humide",
+        "?",
+        "côté",
+        "habiter",
+        "alors"
       ],
       "tokens_l2": [
-        "Vy ste vedeli,",
-        "že tu bola",
-        "mokraď?"
+        "Vy",
+        "ste",
+        "vedeli,",
+        "že",
+        "tu",
+        "bola",
+        "mokraď?",
+        "vedľa",
+        "bývať",
+        "nepáčilo"
       ]
     }
   ]

@@ -201,14 +201,34 @@
       "l1": "Hier, on nous a dit qu'il fallait partir. D'ici la fin du mois.",
       "l2": "Včera nám povedali, že musíme odísť. Do konca mesiaca.",
       "tokens_l1": [
-        "Hier, on nous a dit",
-        "qu'il fallait partir.",
-        "D'ici la fin du mois."
+        "Hier,",
+        "on",
+        "nous",
+        "a",
+        "dit",
+        "qu'il",
+        "fallait",
+        "partir.",
+        "D'ici",
+        "la",
+        "fin",
+        "du",
+        "mois.",
+        "vais",
+        "cause"
       ],
       "tokens_l2": [
-        "Včera nám povedali,",
-        "že musíme odísť.",
-        "Do konca mesiaca."
+        "Včera",
+        "nám",
+        "povedali,",
+        "že",
+        "musíme",
+        "odísť.",
+        "Do",
+        "konca",
+        "mesiaca.",
+        "papierom",
+        "na"
       ]
     },
     {
@@ -218,13 +238,42 @@
       "l2": "Úradník. S papierom a s pekným úsmevom. Povedal, že hora sa bude kopať.",
       "tokens_l1": [
         "Un fonctionnaire.",
-        "Avec un papier et un joli sourire.",
-        "Il a dit qu'on allait creuser la montagne."
+        "Avec",
+        "un",
+        "papier",
+        "et",
+        "un",
+        "joli",
+        "sourire.",
+        "Il",
+        "a",
+        "dit",
+        "qu'on",
+        "allait",
+        "creuser",
+        "la",
+        "montagne.",
+        "toujours",
+        "depuis",
+        "y"
       ],
       "tokens_l2": [
         "Úradník.",
-        "S papierom a s pekným úsmevom.",
-        "Povedal, že hora sa bude kopať."
+        "S",
+        "papierom",
+        "a",
+        "s",
+        "pekným",
+        "úsmevom.",
+        "Povedal,",
+        "že",
+        "hora",
+        "sa",
+        "bude",
+        "kopať.",
+        "skôr",
+        "strom",
+        "stromy"
       ]
     }
   ]

@@ -201,14 +201,27 @@
       "l1": "C'est un talent. Viens. On y sera ensemble.",
       "l2": "To je zručnosť. Poď. Budeme tam spolu.",
       "tokens_l1": [
-        "C'est un talent.",
+        "C'est",
+        "un",
+        "talent.",
         "Viens.",
-        "On y sera ensemble."
+        "On",
+        "y",
+        "sera",
+        "ensemble.",
+        "chance",
+        "le"
       ],
       "tokens_l2": [
-        "To je zručnosť.",
+        "To",
+        "je",
+        "zručnosť.",
         "Poď.",
-        "Budeme tam spolu."
+        "Budeme",
+        "tam",
+        "spolu.",
+        "trému",
+        "väz"
       ]
     },
     {
@@ -217,14 +230,26 @@
       "l1": "Je ne les ai pas mangés. Ils étaient là.",
       "l2": "Nezjedol som ich. Boli tam.",
       "tokens_l1": [
-        "Je ne les ai",
-        "pas mangés.",
-        "Ils étaient là."
+        "Je",
+        "ne",
+        "les",
+        "ai",
+        "pas",
+        "mangés.",
+        "Ils",
+        "étaient",
+        "là.",
+        "trac",
+        "chance"
       ],
       "tokens_l2": [
         "Nezjedol",
-        "som ich.",
-        "Boli tam."
+        "som",
+        "ich.",
+        "Boli",
+        "tam.",
+        "trému",
+        "väz"
       ]
     }
   ]

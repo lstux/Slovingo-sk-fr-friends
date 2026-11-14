@@ -191,13 +191,23 @@
       "l2": "Nie. Ale počkaj... Počuješ to?",
       "tokens_l1": [
         "Non.",
-        "Mais attends...",
-        "Tu entends ça ?"
+        "Mais",
+        "attends...",
+        "Tu",
+        "entends",
+        "ça",
+        "?",
+        "les",
+        "se"
       ],
       "tokens_l2": [
         "Nie.",
-        "Ale počkaj...",
-        "Počuješ to?"
+        "Ale",
+        "počkaj...",
+        "Počuješ",
+        "to?",
+        "mlčia",
+        "vtáky"
       ]
     },
     {
@@ -207,13 +217,22 @@
       "l2": "Nie. Ale ticho. Počuješ?",
       "tokens_l1": [
         "Non.",
-        "Mais chut.",
-        "Tu entends ?"
+        "Mais",
+        "chut.",
+        "Tu",
+        "entends",
+        "?",
+        "encore",
+        "loin"
       ],
       "tokens_l2": [
         "Nie.",
-        "Ale ticho.",
-        "Počuješ?"
+        "Ale",
+        "ticho.",
+        "Počuješ?",
+        "ešte",
+        "ďaleko",
+        "to"
       ]
     }
   ]

@@ -202,13 +202,43 @@
       "l2": "Pozrite sa na neho. Štyri veže sú ako štyri nohy. Vyzerá ako stôl hore nohami.",
       "tokens_l1": [
         "Regardez-le.",
-        "Les quatre tours, ce sont les quatre pieds.",
-        "On dirait une table à l'envers."
+        "Les",
+        "quatre",
+        "tours,",
+        "ce",
+        "sont",
+        "les",
+        "quatre",
+        "pieds.",
+        "On",
+        "dirait",
+        "une",
+        "table",
+        "à",
+        "l'envers.",
+        "dolina",
+        "bâtiment",
+        "télévision"
       ],
       "tokens_l2": [
-        "Pozrite sa na neho.",
-        "Štyri veže sú ako štyri nohy.",
-        "Vyzerá ako stôl hore nohami."
+        "Pozrite",
+        "sa",
+        "na",
+        "neho.",
+        "Štyri",
+        "veže",
+        "sú",
+        "ako",
+        "štyri",
+        "nohy.",
+        "Vyzerá",
+        "ako",
+        "stôl",
+        "hore",
+        "nohami.",
+        "to",
+        "televízie",
+        "veľká"
       ]
     },
     {
@@ -217,14 +247,32 @@
       "l1": "Une énorme table sur laquelle on décide des choses importantes.",
       "l2": "Obrovský stôl, na ktorom sa rozhodujú dôležité veci.",
       "tokens_l1": [
-        "Une énorme table",
-        "sur laquelle on décide",
-        "des choses importantes."
+        "Une",
+        "énorme",
+        "table",
+        "sur",
+        "laquelle",
+        "on",
+        "décide",
+        "des",
+        "choses",
+        "importantes.",
+        "le",
+        "gris",
+        "télévision"
       ],
       "tokens_l2": [
-        "Obrovský stôl,",
-        "na ktorom sa rozhodujú",
-        "dôležité veci."
+        "Obrovský",
+        "stôl,",
+        "na",
+        "ktorom",
+        "sa",
+        "rozhodujú",
+        "dôležité",
+        "veci.",
+        "budova",
+        "potom",
+        "električkou"
       ]
     }
   ]

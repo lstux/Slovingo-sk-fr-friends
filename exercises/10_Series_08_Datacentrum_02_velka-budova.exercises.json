@@ -201,14 +201,26 @@
       "l1": "Une zone humide. Là où vivaient les grenouilles.",
       "l2": "Mokraď. Tam, kde žili žaby.",
       "tokens_l1": [
-        "Une zone humide.",
+        "Une",
+        "zone",
+        "humide.",
         "Là où",
-        "vivaient les grenouilles."
+        "vivaient",
+        "les",
+        "grenouilles.",
+        "sur",
+        "y",
+        "toit"
       ],
       "tokens_l2": [
         "Mokraď.",
-        "Tam, kde",
-        "žili žaby."
+        "Tam,",
+        "kde",
+        "žili",
+        "žaby.",
+        "je",
+        "streche",
+        "žaba"
       ]
     },
     {
@@ -219,12 +231,21 @@
       "tokens_l1": [
         "Je n'entends",
         "rien.",
-        "Seulement des machines."
+        "Seulement",
+        "des",
+        "machines.",
+        "zone",
+        "grenouilles",
+        "les"
       ],
       "tokens_l2": [
         "Nepočujem",
         "nič.",
-        "Len stroje."
+        "Len",
+        "stroje.",
+        "kde",
+        "žili",
+        "žaby"
       ]
     }
   ]

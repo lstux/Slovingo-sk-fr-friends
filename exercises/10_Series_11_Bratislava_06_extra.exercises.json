@@ -159,16 +159,53 @@
       "l1": "« Il y avait de l'eau. Puis il n'y en avait plus. Puis il y en a eu trop. Et nous, nous étions là. »",
       "l2": "„Bola voda. Potom nebola. Potom jej bolo príliš veľa. A my sme tam boli.“",
       "tokens_l1": [
-        "« Il y avait de l'eau.",
-        "Puis il n'y en avait plus.",
-        "Puis il y en a eu trop.",
-        "Et nous, nous étions là. »"
+        "«",
+        "Il",
+        "y",
+        "avait",
+        "de",
+        "l'eau.",
+        "Puis",
+        "il",
+        "n'y",
+        "en",
+        "avait",
+        "plus.",
+        "Puis",
+        "il",
+        "y",
+        "en",
+        "a",
+        "eu",
+        "trop.",
+        "Et",
+        "nous,",
+        "nous",
+        "étions",
+        "là.",
+        "»",
+        "est",
+        "vue",
+        "magnifique"
       ],
       "tokens_l2": [
-        "„Bola voda.",
-        "Potom nebola.",
-        "Potom jej bolo príliš veľa.",
-        "A my sme tam boli.“"
+        "„Bola",
+        "voda.",
+        "Potom",
+        "nebola.",
+        "Potom",
+        "jej",
+        "bolo",
+        "príliš",
+        "veľa.",
+        "A",
+        "my",
+        "sme",
+        "tam",
+        "boli.“",
+        "nádherný",
+        "tu",
+        "výhľad"
       ]
     },
     {
@@ -178,13 +215,27 @@
       "l2": "Ďakujem. To je najkrajší kompliment dnešného dňa.",
       "tokens_l1": [
         "Merci.",
-        "C'est le plus beau compliment",
-        "d'aujourd'hui."
+        "C'est",
+        "le",
+        "plus",
+        "beau",
+        "compliment",
+        "d'aujourd'hui.",
+        "aussi",
+        "moi",
+        "si"
       ],
       "tokens_l2": [
         "Ďakujem.",
-        "To je najkrajší kompliment",
-        "dnešného dňa."
+        "To",
+        "je",
+        "najkrajší",
+        "kompliment",
+        "dnešného",
+        "dňa.",
+        "čo",
+        "sa",
+        "zasekneme"
       ]
     }
   ]

@@ -192,12 +192,17 @@
       "tokens_l1": [
         "Bonjour,",
         "babka.",
-        "Merci."
+        "Merci.",
+        "enfants"
       ],
       "tokens_l2": [
-        "Dobrý deň,",
+        "Dobrý",
+        "deň,",
         "babka.",
-        "Ďakujem."
+        "Ďakujem.",
+        "si",
+        "moje",
+        "ďalej"
       ]
     },
     {
@@ -206,14 +211,28 @@
       "l1": "Je suis une brebis. On ne parle pas de bryndza.",
       "l2": "Ja som ovca. O bryndzi nehovoríme.",
       "tokens_l1": [
-        "Je suis une brebis.",
-        "On ne parle pas",
-        "de bryndza."
+        "Je",
+        "suis",
+        "une",
+        "brebis.",
+        "On",
+        "ne",
+        "parle",
+        "pas",
+        "de bryndza.",
+        "ça",
+        "dis",
+        "toujours"
       ],
       "tokens_l2": [
-        "Ja som ovca.",
+        "Ja",
+        "som",
+        "ovca.",
         "O bryndzi",
-        "nehovoríme."
+        "nehovoríme.",
+        "hovoríš",
+        "to",
+        "vždy"
       ]
     }
   ]

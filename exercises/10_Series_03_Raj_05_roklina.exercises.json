@@ -201,14 +201,21 @@
       "l1": "Soyez prudents. Et prenez une veste.",
       "l2": "Opatrne. A vezmite si bundu.",
       "tokens_l1": [
-        "Soyez prudents.",
+        "Soyez",
+        "prudents.",
         "Et prenez",
-        "une veste."
+        "une veste.",
+        "dernier",
+        "moins"
       ],
       "tokens_l2": [
         "Opatrne.",
-        "A vezmite si",
-        "bundu."
+        "A",
+        "vezmite",
+        "si",
+        "bundu.",
+        "vlani",
+        "tu"
       ]
     },
     {
@@ -217,14 +224,31 @@
       "l1": "Je ne sais pas. Dans les Tatras, il paraît qu'il pleut. Ici, non.",
       "l2": "Neviem. V Tatrách vraj prší. Tu nie.",
       "tokens_l1": [
-        "Je ne sais pas.",
-        "Dans les Tatras, il paraît qu'il pleut.",
-        "Ici, non."
+        "Je",
+        "ne",
+        "sais",
+        "pas.",
+        "Dans",
+        "les",
+        "Tatras,",
+        "il",
+        "paraît",
+        "qu'il",
+        "pleut.",
+        "Ici,",
+        "non.",
+        "l'an",
+        "que"
       ],
       "tokens_l2": [
         "Neviem.",
-        "V Tatrách vraj prší.",
-        "Tu nie."
+        "V",
+        "Tatrách",
+        "vraj",
+        "prší.",
+        "Tu nie.",
+        "deje",
+        "ako"
       ]
     },
     {

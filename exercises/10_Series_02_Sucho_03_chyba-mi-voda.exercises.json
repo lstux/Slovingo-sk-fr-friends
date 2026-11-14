@@ -192,12 +192,17 @@
       "tokens_l1": [
         "L'eau",
         "te",
-        "manque ?"
+        "manque",
+        "?",
+        "d'eau",
+        "ruisseau"
       ],
       "tokens_l2": [
         "Chýba",
         "ti",
-        "voda?"
+        "voda?",
+        "vody",
+        "je"
       ]
     },
     {
@@ -206,14 +211,26 @@
       "l1": "Je cherche un ruisseau. Voilà une goutte d'eau !",
       "l2": "Hľadám potok. Tu je kvapka vody!",
       "tokens_l1": [
-        "Je cherche un ruisseau.",
+        "Je",
+        "cherche",
+        "un",
+        "ruisseau.",
         "Voilà",
-        "une goutte d'eau !"
+        "une",
+        "goutte",
+        "d'eau",
+        "!",
+        "manque",
+        "te"
       ],
       "tokens_l2": [
-        "Hľadám potok.",
+        "Hľadám",
+        "potok.",
         "Tu je",
-        "kvapka vody!"
+        "kvapka",
+        "vody!",
+        "voda",
+        "ti"
       ]
     }
   ]

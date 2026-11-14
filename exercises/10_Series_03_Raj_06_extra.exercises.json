@@ -148,14 +148,30 @@
       "l1": "Ce ne sont pas des étoiles. Ce sont des pommes.",
       "l2": "To nie sú hviezdy. To sú jablká.",
       "tokens_l1": [
-        "Ce ne sont pas",
+        "Ce",
+        "ne",
+        "sont",
+        "pas",
         "des étoiles.",
-        "Ce sont des pommes."
+        "Ce",
+        "sont",
+        "des",
+        "pommes.",
+        "jamais",
+        "sous",
+        "les"
       ],
       "tokens_l2": [
-        "To nie sú",
+        "To",
+        "nie",
+        "sú",
         "hviezdy.",
-        "To sú jablká."
+        "To",
+        "sú",
+        "jablká.",
+        "nespal",
+        "hviezdami",
+        "som"
       ]
     },
     {
@@ -165,13 +181,20 @@
       "l2": "Okrem jednej? Ktorej?",
       "tokens_l1": [
         "Sauf",
-        "à un ?",
-        "Lequel ?"
+        "à",
+        "un",
+        "?",
+        "Lequel",
+        "?",
+        "sais",
+        "moi"
       ],
       "tokens_l2": [
         "Okrem",
         "jednej?",
-        "Ktorej?"
+        "Ktorej?",
+        "že",
+        "som"
       ]
     }
   ]

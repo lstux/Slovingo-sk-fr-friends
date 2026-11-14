@@ -202,13 +202,31 @@
       "l2": "Prepáčte. Tu už voda nie je. Nikde v meste.",
       "tokens_l1": [
         "Désolé.",
-        "Ici, il n'y a plus d'eau.",
-        "Nulle part en ville."
+        "Ici,",
+        "il",
+        "n'y",
+        "a",
+        "plus",
+        "d'eau.",
+        "Nulle",
+        "part",
+        "en",
+        "ville.",
+        "l'eau",
+        "cherchez"
       ],
       "tokens_l2": [
         "Prepáčte.",
-        "Tu už voda nie je.",
-        "Nikde v meste."
+        "Tu",
+        "už",
+        "voda",
+        "nie",
+        "je.",
+        "Nikde",
+        "v",
+        "meste.",
+        "vodu",
+        "deň"
       ]
     },
     {
@@ -219,12 +237,23 @@
       "tokens_l1": [
         "Bonjour.",
         "Oui,",
-        "nous cherchons de l'eau."
+        "nous",
+        "cherchons",
+        "de",
+        "l'eau.",
+        "dans",
+        "le",
+        "l'ouest"
       ],
       "tokens_l2": [
-        "Dobrý deň.",
+        "Dobrý",
+        "deň.",
         "Áno,",
-        "hľadáme vodu."
+        "hľadáme",
+        "vodu.",
+        "ešte",
+        "raji",
+        "voda"
       ]
     },
     {

@@ -148,14 +148,39 @@
       "l1": "Tu n'es pas venu avec moi. Tu es venu tout seul. Et moi, j'étais là.",
       "l2": "Neprišiel si so mnou. Prišiel si sám. A ja som tu bola.",
       "tokens_l1": [
-        "Tu n'es pas venu avec moi.",
-        "Tu es venu tout seul.",
-        "Et moi, j'étais là."
+        "Tu",
+        "n'es",
+        "pas",
+        "venu",
+        "avec",
+        "moi.",
+        "Tu",
+        "es",
+        "venu",
+        "tout",
+        "seul.",
+        "Et",
+        "moi,",
+        "j'étais",
+        "là.",
+        "dis",
+        "toute"
       ],
       "tokens_l2": [
-        "Neprišiel si so mnou.",
-        "Prišiel si sám.",
-        "A ja som tu bola."
+        "Neprišiel",
+        "si",
+        "so",
+        "mnou.",
+        "Prišiel",
+        "si",
+        "sám.",
+        "A",
+        "ja",
+        "som",
+        "tu",
+        "bola.",
+        "povieš",
+        "idem"
       ]
     },
     {
@@ -164,14 +189,32 @@
       "l1": "À la fin de l'été, je dois rentrer chez moi, Andrea.",
       "l2": "Na konci leta musím ísť domov, Andrea.",
       "tokens_l1": [
-        "À la fin de l'été,",
-        "je dois rentrer chez moi,",
-        "Andrea."
+        "À",
+        "la",
+        "fin",
+        "de",
+        "l'été,",
+        "je",
+        "dois",
+        "rentrer",
+        "chez",
+        "moi,",
+        "Andrea.",
+        "dis",
+        "j'y",
+        "toute"
       ],
       "tokens_l2": [
-        "Na konci leta",
-        "musím ísť domov,",
-        "Andrea."
+        "Na",
+        "konci",
+        "leta",
+        "musím",
+        "ísť",
+        "domov,",
+        "Andrea.",
+        "malá",
+        "povieš",
+        "sama"
       ]
     }
   ]

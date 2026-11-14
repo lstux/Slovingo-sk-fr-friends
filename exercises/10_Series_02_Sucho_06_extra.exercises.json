@@ -149,15 +149,26 @@
       "l2": "Dobrý deň. Dva lístky na vlak, prosím.",
       "tokens_l1": [
         "Bonjour.",
-        "Deux billets",
+        "Deux",
+        "billets",
         "de train,",
-        "s'il vous plaît."
+        "s'il",
+        "vous",
+        "plaît.",
+        "super",
+        "un",
+        "billet"
       ],
       "tokens_l2": [
-        "Dobrý deň.",
-        "Dva lístky",
+        "Dobrý",
+        "deň.",
+        "Dva",
+        "lístky",
         "na vlak,",
-        "prosím."
+        "prosím.",
+        "mám",
+        "lístok",
+        "super"
       ]
     },
     {
@@ -168,12 +179,18 @@
       "tokens_l1": [
         "Deux",
         "billets.",
-        "Bon voyage."
+        "Bon",
+        "voyage.",
+        "où",
+        "allez"
       ],
       "tokens_l2": [
         "Dva",
         "lístky.",
-        "Šťastnú cestu."
+        "Šťastnú",
+        "cestu.",
+        "idete",
+        "deň"
       ]
     }
   ]

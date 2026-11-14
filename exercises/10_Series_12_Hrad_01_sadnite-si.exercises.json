@@ -201,14 +201,54 @@
       "l1": "La terrasse du château. Il y a une caméra, un micro, quatre chaises et trois projecteurs. Autour, des gens courent avec des câbles.",
       "l2": "Terasa na hrade. Je tu kamera, mikrofón, štyri stoličky a tri reflektory. Okolo behajú ľudia s drôtmi.",
       "tokens_l1": [
-        "La terrasse du château.",
-        "Il y a une caméra, un micro, quatre chaises et trois projecteurs.",
-        "Autour, des gens courent avec des câbles."
+        "La",
+        "terrasse",
+        "du",
+        "château.",
+        "Il",
+        "y",
+        "a",
+        "une",
+        "caméra,",
+        "un",
+        "micro,",
+        "quatre",
+        "chaises",
+        "et",
+        "trois",
+        "projecteurs.",
+        "Autour,",
+        "des",
+        "gens",
+        "courent",
+        "avec",
+        "des",
+        "câbles.",
+        "vous",
+        "plaît",
+        "là"
       ],
       "tokens_l2": [
-        "Terasa na hrade.",
-        "Je tu kamera, mikrofón, štyri stoličky a tri reflektory.",
-        "Okolo behajú ľudia s drôtmi."
+        "Terasa",
+        "na",
+        "hrade.",
+        "Je",
+        "tu",
+        "kamera,",
+        "mikrofón,",
+        "štyri",
+        "stoličky",
+        "a",
+        "tri",
+        "reflektory.",
+        "Okolo",
+        "behajú",
+        "ľudia",
+        "s",
+        "drôtmi.",
+        "tam",
+        "sadnite",
+        "večer"
       ]
     },
     {
@@ -218,13 +258,27 @@
       "l2": "Ja viem. Pre mňa sú všetky stoličky malé.",
       "tokens_l1": [
         "Je sais.",
-        "Pour moi,",
-        "toutes les chaises sont petites."
+        "Pour",
+        "moi,",
+        "toutes",
+        "les",
+        "chaises",
+        "sont",
+        "petites.",
+        "s'il",
+        "vous",
+        "là"
       ],
       "tokens_l2": [
         "Ja viem.",
         "Pre mňa",
-        "sú všetky stoličky malé."
+        "sú",
+        "všetky",
+        "stoličky",
+        "malé.",
+        "tam",
+        "sadnite",
+        "si"
       ]
     }
   ]

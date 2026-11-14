@@ -180,15 +180,26 @@
       "l2": "Nie, bývam v Lyone. Som tu na prázdninách.",
       "tokens_l1": [
         "Non,",
-        "j'habite à Lyon.",
-        "Je suis ici",
-        "en vacances."
+        "j'habite",
+        "à",
+        "Lyon.",
+        "Je",
+        "suis",
+        "ici",
+        "en vacances.",
+        "au",
+        "ta"
       ],
       "tokens_l2": [
         "Nie,",
-        "bývam v Lyone.",
-        "Som tu",
-        "na prázdninách."
+        "bývam",
+        "v",
+        "Lyone.",
+        "Som",
+        "tu",
+        "na prázdninách.",
+        "mama",
+        "tvoja"
       ]
     },
     {
@@ -197,14 +208,26 @@
       "l1": "Et ta maman est au courant ?",
       "l2": "A tvoja mama o tom vie?",
       "tokens_l1": [
-        "Et ta maman",
+        "Et",
+        "ta",
+        "maman",
         "est",
-        "au courant ?"
+        "au",
+        "courant",
+        "?",
+        "ici",
+        "vacances",
+        "en"
       ],
       "tokens_l2": [
-        "A tvoja mama",
+        "A",
+        "tvoja",
+        "mama",
         "o tom",
-        "vie?"
+        "vie?",
+        "prázdninách",
+        "na",
+        "v"
       ]
     }
   ]

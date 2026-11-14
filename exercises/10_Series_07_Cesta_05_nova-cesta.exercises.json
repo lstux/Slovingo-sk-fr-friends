@@ -201,14 +201,26 @@
       "l1": "Mais les gens ont besoin d'une route. Toi aussi.",
       "l2": "Ale ľudia potrebujú cestu. Aj ty.",
       "tokens_l1": [
-        "Mais les gens",
-        "ont besoin d'une route.",
-        "Toi aussi."
+        "Mais",
+        "les",
+        "gens",
+        "ont",
+        "besoin",
+        "d'une",
+        "route.",
+        "Toi",
+        "aussi.",
+        "forêt",
+        "la"
       ],
       "tokens_l2": [
-        "Ale ľudia",
-        "potrebujú cestu.",
-        "Aj ty."
+        "Ale",
+        "ľudia",
+        "potrebujú",
+        "cestu.",
+        "Aj ty.",
+        "potrebujem",
+        "les"
       ]
     },
     {
@@ -218,13 +230,25 @@
       "l2": "Ja viem. Môj plán je byť prezidentkou.",
       "tokens_l1": [
         "Je sais.",
-        "Mon plan, c'est",
-        "d'être présidente."
+        "Mon",
+        "plan,",
+        "c'est",
+        "d'être",
+        "présidente.",
+        "besoin",
+        "gens",
+        "les"
       ],
       "tokens_l2": [
         "Ja viem.",
-        "Môj plán je",
-        "byť prezidentkou."
+        "Môj",
+        "plán",
+        "je",
+        "byť",
+        "prezidentkou.",
+        "ľudia",
+        "potrebujú",
+        "ty"
       ]
     }
   ]

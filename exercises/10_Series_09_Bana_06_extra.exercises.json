@@ -149,13 +149,29 @@
       "l2": "Keby som bola počúvala mamu, nebola by som tu.",
       "tokens_l1": [
         "Si j'avais",
-        "écouté ma mère,",
-        "je ne serais pas ici."
+        "écouté",
+        "ma",
+        "mère,",
+        "je",
+        "ne",
+        "serais",
+        "pas",
+        "ici.",
+        "restent",
+        "parfois"
       ],
       "tokens_l2": [
-        "Keby som bola",
-        "počúvala mamu,",
-        "nebola by som tu."
+        "Keby",
+        "som",
+        "bola",
+        "počúvala",
+        "mamu,",
+        "nebola",
+        "by",
+        "som",
+        "tu.",
+        "zostávajú",
+        "aj"
       ]
     },
     {
@@ -164,16 +180,47 @@
       "l1": "Je ne sais pas. Peut-être pas. Les écureuils sont comme les renards. On ne reste jamais longtemps au même endroit.",
       "l2": "Neviem. Možno nie. Veveričky sú ako líšky. Nikdy nezostaneme dlho na jednom mieste.",
       "tokens_l1": [
-        "Je ne sais pas. Peut-être pas.",
-        "Les écureuils sont comme les renards.",
-        "On ne reste jamais longtemps",
-        "au même endroit."
+        "Je",
+        "ne",
+        "sais",
+        "pas.",
+        "Peut-être",
+        "pas.",
+        "Les",
+        "écureuils",
+        "sont",
+        "comme",
+        "les",
+        "renards.",
+        "On",
+        "ne",
+        "reste",
+        "jamais",
+        "longtemps",
+        "au",
+        "même",
+        "endroit.",
+        "normale",
+        "tout",
+        "à"
       ],
       "tokens_l2": [
-        "Neviem. Možno nie.",
-        "Veveričky sú ako líšky.",
-        "Nikdy nezostaneme dlho",
-        "na jednom mieste."
+        "Neviem.",
+        "Možno",
+        "nie.",
+        "Veveričky",
+        "sú",
+        "ako",
+        "líšky.",
+        "Nikdy",
+        "nezostaneme",
+        "dlho",
+        "na",
+        "jednom",
+        "mieste.",
+        "úplne",
+        "normálna",
+        "som"
       ]
     }
   ]

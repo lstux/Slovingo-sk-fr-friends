@@ -148,14 +148,46 @@
       "l1": "Parce que nous, on va à Bratislava. Le sud, c'est aussi un bon début. On peut venir avec vous ?",
       "l2": "Lebo my ideme do Bratislavy. Juh je tiež dobrý začiatok. Môžeme ísť s vami?",
       "tokens_l1": [
-        "Parce que nous, on va à Bratislava.",
-        "Le sud, c'est aussi un bon début.",
-        "On peut venir avec vous ?"
+        "Parce",
+        "que",
+        "nous,",
+        "on",
+        "va",
+        "à",
+        "Bratislava.",
+        "Le",
+        "sud,",
+        "c'est",
+        "aussi",
+        "un",
+        "bon",
+        "début.",
+        "On",
+        "peut",
+        "venir",
+        "avec",
+        "vous",
+        "?",
+        "pas",
+        "ne"
       ],
       "tokens_l2": [
-        "Lebo my ideme do Bratislavy.",
-        "Juh je tiež dobrý začiatok.",
-        "Môžeme ísť s vami?"
+        "Lebo",
+        "my",
+        "ideme",
+        "do",
+        "Bratislavy.",
+        "Juh",
+        "je",
+        "tiež",
+        "dobrý",
+        "začiatok.",
+        "Môžeme",
+        "ísť",
+        "s",
+        "vami?",
+        "nás",
+        "nehovoria"
       ]
     },
     {
@@ -164,16 +196,35 @@
       "l1": "Une hase, un renard, un ours et une marmotte à la télévision. Mieux ?",
       "l2": "Zajačica, líška, medveď a svišť v televízii. Lepšie?",
       "tokens_l1": [
-        "Une hase, un renard,",
-        "un ours et une marmotte",
-        "à la télévision.",
-        "Mieux ?"
+        "Une",
+        "hase,",
+        "un",
+        "renard,",
+        "un",
+        "ours",
+        "et",
+        "une",
+        "marmotte",
+        "à",
+        "la",
+        "télévision.",
+        "Mieux",
+        "?",
+        "allez",
+        "vers",
+        "l'ouest"
       ],
       "tokens_l2": [
-        "Zajačica, líška,",
-        "medveď a svišť",
+        "Zajačica,",
+        "líška,",
+        "medveď",
+        "a",
+        "svišť",
         "v televízii.",
-        "Lepšie?"
+        "Lepšie?",
+        "na",
+        "deň",
+        "západ"
       ]
     }
   ]

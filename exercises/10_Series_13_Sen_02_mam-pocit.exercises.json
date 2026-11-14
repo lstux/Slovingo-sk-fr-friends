@@ -201,14 +201,40 @@
       "l1": "J'ai l'impression d'avoir été très loin. Et que ça a duré très longtemps.",
       "l2": "Mám pocit, že som bol veľmi ďaleko. A že to trvalo veľmi dlho.",
       "tokens_l1": [
-        "J'ai l'impression d'avoir été",
-        "très loin.",
-        "Et que ça a duré très longtemps."
+        "J'ai",
+        "l'impression",
+        "d'avoir",
+        "été",
+        "très",
+        "loin.",
+        "Et",
+        "que",
+        "ça",
+        "a",
+        "duré",
+        "très",
+        "longtemps.",
+        "dedans",
+        "y",
+        "tient"
       ],
       "tokens_l2": [
-        "Mám pocit, že som bol",
-        "veľmi ďaleko.",
-        "A že to trvalo veľmi dlho."
+        "Mám",
+        "pocit,",
+        "že",
+        "som",
+        "bol",
+        "veľmi",
+        "ďaleko.",
+        "A",
+        "že",
+        "to",
+        "trvalo",
+        "veľmi",
+        "dlho.",
+        "trochu",
+        "vody",
+        "v"
       ]
     },
     {
@@ -218,13 +244,27 @@
       "l2": "Tu máš. Len trochu. Viac nemám.",
       "tokens_l1": [
         "Tiens.",
-        "Juste un peu.",
-        "Je n'en ai pas plus."
+        "Juste",
+        "un",
+        "peu.",
+        "Je",
+        "n'en",
+        "ai",
+        "pas",
+        "plus.",
+        "nuit",
+        "longue",
+        "une"
       ],
       "tokens_l2": [
         "Tu máš.",
-        "Len trochu.",
-        "Viac nemám."
+        "Len",
+        "trochu.",
+        "Viac",
+        "nemám.",
+        "noc",
+        "to",
+        "dlhá"
       ]
     }
   ]

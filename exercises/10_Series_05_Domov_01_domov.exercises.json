@@ -190,16 +190,35 @@
       "l1": "Mon Dieu ! Mais vous avez grandi ! Avant, vous étiez si petit.",
       "l2": "Ježiš! Veď ste vyrástli! Predtým ste boli taký malý.",
       "tokens_l1": [
-        "Mon Dieu !",
-        "Mais vous avez grandi !",
-        "Avant, vous étiez",
-        "si petit."
+        "Mon",
+        "Dieu",
+        "!",
+        "Mais",
+        "vous",
+        "avez",
+        "grandi",
+        "!",
+        "Avant,",
+        "vous",
+        "étiez",
+        "si petit.",
+        "pré",
+        "jamais",
+        "cherche"
       ],
       "tokens_l2": [
         "Ježiš!",
-        "Veď ste vyrástli!",
-        "Predtým ste boli",
-        "taký malý."
+        "Veď",
+        "ste",
+        "vyrástli!",
+        "Predtým",
+        "ste",
+        "boli",
+        "taký",
+        "malý.",
+        "nikdy",
+        "jeho",
+        "ovce"
       ]
     },
     {
@@ -208,14 +227,32 @@
       "l1": "Bonjour... Attendez. C'est vous ? Ce renard de l'été ?",
       "l2": "Dobrý deň... Počkajte. To ste vy? Tá líška z leta?",
       "tokens_l1": [
-        "Bonjour... Attendez.",
-        "C'est vous ?",
-        "Ce renard de l'été ?"
+        "Bonjour...",
+        "Attendez.",
+        "C'est",
+        "vous",
+        "?",
+        "Ce",
+        "renard",
+        "de",
+        "l'été",
+        "?",
+        "magnifique",
+        "est"
       ],
       "tokens_l2": [
-        "Dobrý deň... Počkajte.",
-        "To ste vy?",
-        "Tá líška z leta?"
+        "Dobrý",
+        "deň...",
+        "Počkajte.",
+        "To",
+        "ste",
+        "vy?",
+        "Tá",
+        "líška",
+        "z",
+        "leta?",
+        "krásne",
+        "je"
       ]
     }
   ]

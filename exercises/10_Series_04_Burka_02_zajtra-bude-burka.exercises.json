@@ -191,13 +191,27 @@
       "l2": "Nie. Dolu je to horšie. Zostaňte tu.",
       "tokens_l1": [
         "Non.",
-        "En bas, c'est pire.",
-        "Restez ici."
+        "En",
+        "bas,",
+        "c'est",
+        "pire.",
+        "Restez",
+        "ici.",
+        "orage",
+        "un",
+        "il"
       ],
       "tokens_l2": [
         "Nie.",
-        "Dolu je to horšie.",
-        "Zostaňte tu."
+        "Dolu",
+        "je",
+        "to",
+        "horšie.",
+        "Zostaňte",
+        "tu.",
+        "búrka",
+        "deň",
+        "bude"
       ]
     },
     {
@@ -206,14 +220,27 @@
       "l1": "À la radio, ils disent qu'il y aura un orage.",
       "l2": "V rádiu hovoria, že bude búrka.",
       "tokens_l1": [
-        "À la radio,",
-        "ils disent",
-        "qu'il y aura un orage."
+        "À",
+        "la",
+        "radio,",
+        "ils",
+        "disent",
+        "qu'il",
+        "y",
+        "aura",
+        "un",
+        "orage.",
+        "genou",
+        "sait"
       ],
       "tokens_l2": [
         "V rádiu",
         "hovoria,",
-        "že bude búrka."
+        "že",
+        "bude",
+        "búrka.",
+        "vie",
+        "viac"
       ]
     }
   ]

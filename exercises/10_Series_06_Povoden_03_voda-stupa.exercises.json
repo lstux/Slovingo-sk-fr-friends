@@ -201,14 +201,27 @@
       "l1": "D'après l'appli, elle va encore monter d'un mètre.",
       "l2": "Podľa aplikácie stúpne ešte o meter.",
       "tokens_l1": [
-        "D'après l'appli,",
-        "elle va encore monter",
-        "d'un mètre."
+        "D'après",
+        "l'appli,",
+        "elle",
+        "va",
+        "encore",
+        "monter",
+        "d'un",
+        "mètre.",
+        "maison",
+        "est",
+        "le"
       ],
       "tokens_l2": [
-        "Podľa aplikácie",
-        "stúpne ešte",
-        "o meter."
+        "Podľa",
+        "aplikácie",
+        "stúpne",
+        "ešte",
+        "o meter.",
+        "dome",
+        "že",
+        "je"
       ]
     },
     {
@@ -218,13 +231,21 @@
       "l2": "Dúfam, že pes vie plávať.",
       "tokens_l1": [
         "J'espère",
-        "que le chien",
-        "sait nager."
+        "que",
+        "le",
+        "chien",
+        "sait",
+        "nager.",
+        "mètre",
+        "beaucoup"
       ],
       "tokens_l2": [
         "Dúfam,",
         "že pes",
-        "vie plávať."
+        "vie",
+        "plávať.",
+        "je",
+        "meter"
       ]
     }
   ]

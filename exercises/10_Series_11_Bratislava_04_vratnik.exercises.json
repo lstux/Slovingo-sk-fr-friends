@@ -201,14 +201,36 @@
       "l1": "Nous, on n'est pas « comme ça ». On a traversé toute la Slovaquie.",
       "l2": "My nie sme len tak. Prešli sme celé Slovensko.",
       "tokens_l1": [
-        "Nous, on n'est pas « comme ça ».",
-        "On a traversé",
-        "toute la Slovaquie."
+        "Nous,",
+        "on",
+        "n'est",
+        "pas",
+        "«",
+        "comme",
+        "ça",
+        "».",
+        "On",
+        "a",
+        "traversé",
+        "toute",
+        "la",
+        "Slovaquie.",
+        "je",
+        "m'appelle"
       ],
       "tokens_l2": [
-        "My nie sme len tak.",
-        "Prešli sme",
-        "celé Slovensko."
+        "My",
+        "nie",
+        "sme",
+        "len",
+        "tak.",
+        "Prešli",
+        "sme",
+        "celé",
+        "Slovensko.",
+        "ma",
+        "sa",
+        "deň"
       ]
     },
     {
@@ -217,14 +239,37 @@
       "l1": "Cela me fait plaisir. Mais on ne vient pas aux infos comme ça.",
       "l2": "To ma teší. Ale do Správ sa nedá len tak prísť.",
       "tokens_l1": [
-        "Cela me fait plaisir.",
-        "Mais on ne vient pas aux infos",
-        "comme ça."
+        "Cela",
+        "me",
+        "fait",
+        "plaisir.",
+        "Mais",
+        "on",
+        "ne",
+        "vient",
+        "pas",
+        "aux",
+        "infos",
+        "comme",
+        "ça.",
+        "avez",
+        "rendez-vous"
       ],
       "tokens_l2": [
-        "To ma teší.",
-        "Ale do Správ sa nedá",
-        "len tak prísť."
+        "To",
+        "ma",
+        "teší.",
+        "Ale",
+        "do",
+        "Správ",
+        "sa",
+        "nedá",
+        "len",
+        "tak",
+        "prísť.",
+        "termín",
+        "dohodnutý",
+        "deň"
       ]
     }
   ]

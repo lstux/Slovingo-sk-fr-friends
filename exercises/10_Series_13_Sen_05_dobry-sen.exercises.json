@@ -201,14 +201,42 @@
       "l1": "Et puis on est passés à la télévision. On leur a dit qu'on y était.",
       "l2": "A potom sme boli v televízii. Povedali sme im, že sme tam boli.",
       "tokens_l1": [
-        "Et puis on est passés à la télévision.",
-        "On leur a dit",
-        "qu'on y était."
+        "Et",
+        "puis",
+        "on",
+        "est",
+        "passés",
+        "à",
+        "la",
+        "télévision.",
+        "On",
+        "leur",
+        "a",
+        "dit",
+        "qu'on",
+        "y",
+        "était.",
+        "très",
+        "nous",
+        "entendus"
       ],
       "tokens_l2": [
-        "A potom sme boli v televízii.",
-        "Povedali sme im,",
-        "že sme tam boli."
+        "A",
+        "potom",
+        "sme",
+        "boli",
+        "v",
+        "televízii.",
+        "Povedali",
+        "sme",
+        "im,",
+        "že",
+        "sme",
+        "tam",
+        "boli.",
+        "počuli",
+        "veľmi",
+        "hlučný"
       ]
     },
     {
@@ -217,14 +245,34 @@
       "l1": "Et Katka portait son téléphone au-dessus de sa tête pour ne pas le mouiller.",
       "l2": "A Katka nosila telefón nad hlavou, aby sa nenamočil.",
       "tokens_l1": [
-        "Et Katka portait son téléphone",
-        "au-dessus de sa tête",
-        "pour ne pas le mouiller."
+        "Et",
+        "Katka",
+        "portait",
+        "son",
+        "téléphone",
+        "au-dessus",
+        "de",
+        "sa",
+        "tête",
+        "pour",
+        "ne",
+        "pas",
+        "le",
+        "mouiller.",
+        "a",
+        "nous"
       ],
       "tokens_l2": [
-        "A Katka nosila telefón",
+        "A",
+        "Katka",
+        "nosila",
+        "telefón",
         "nad hlavou,",
-        "aby sa nenamočil."
+        "aby",
+        "sa",
+        "nenamočil.",
+        "veľmi",
+        "hlučný"
       ]
     }
   ]

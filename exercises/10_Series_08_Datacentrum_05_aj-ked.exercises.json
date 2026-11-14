@@ -212,14 +212,28 @@
       "l1": "Même si à cause de lui, la zone humide a disparu.",
       "l2": "Aj keď kvôli tomu zmizla mokraď.",
       "tokens_l1": [
-        "Même si",
-        "à cause de lui,",
-        "la zone humide a disparu."
+        "Même",
+        "si",
+        "à",
+        "cause",
+        "de",
+        "lui,",
+        "la",
+        "zone",
+        "humide",
+        "a",
+        "disparu.",
+        "temps",
+        "en"
       ],
       "tokens_l2": [
         "Aj keď",
-        "kvôli tomu",
-        "zmizla mokraď."
+        "kvôli",
+        "tomu",
+        "zmizla",
+        "mokraď.",
+        "užitočné",
+        "zároveň"
       ]
     },
     {
@@ -229,13 +243,36 @@
       "l2": "Nie. Nie je to jedno. Ale nie je to ani jednoduché.",
       "tokens_l1": [
         "Non.",
-        "Ça ne revient pas au même.",
-        "Mais ce n'est pas simple non plus."
+        "Ça",
+        "ne",
+        "revient",
+        "pas",
+        "au",
+        "même.",
+        "Mais",
+        "ce",
+        "n'est",
+        "pas",
+        "simple",
+        "non",
+        "plus.",
+        "en",
+        "utile"
       ],
       "tokens_l2": [
         "Nie.",
-        "Nie je to jedno.",
-        "Ale nie je to ani jednoduché."
+        "Nie",
+        "je",
+        "to",
+        "jedno.",
+        "Ale",
+        "nie",
+        "je",
+        "to",
+        "ani",
+        "jednoduché.",
+        "užitočné",
+        "zároveň"
       ]
     },
     {
@@ -320,15 +357,38 @@
       "l2": "Kolegovia. Tí to počuli od inžinierov. Ja sa nepýtam. Ja len hovorím.",
       "tokens_l1": [
         "Des collègues.",
-        "Eux l'ont entendu des ingénieurs.",
-        "Moi, je ne demande pas.",
-        "Je parle, c'est tout."
+        "Eux",
+        "l'ont",
+        "entendu",
+        "des",
+        "ingénieurs.",
+        "Moi,",
+        "je",
+        "ne",
+        "demande",
+        "pas.",
+        "Je",
+        "parle,",
+        "c'est",
+        "tout.",
+        "même",
+        "utile"
       ],
       "tokens_l2": [
         "Kolegovia.",
-        "Tí to počuli od inžinierov.",
-        "Ja sa nepýtam.",
-        "Ja len hovorím."
+        "Tí",
+        "to",
+        "počuli",
+        "od",
+        "inžinierov.",
+        "Ja",
+        "sa",
+        "nepýtam.",
+        "Ja",
+        "len",
+        "hovorím.",
+        "zároveň",
+        "užitočné"
       ]
     },
     {

@@ -207,15 +207,25 @@
       "l2": "Áno, u mojej tety. Chodím na gymnázium.",
       "tokens_l1": [
         "Oui,",
-        "chez ma tante.",
+        "chez",
+        "ma",
+        "tante.",
         "Je vais",
-        "au lycée."
+        "au lycée.",
+        "ton",
+        "suis",
+        "moi"
       ],
       "tokens_l2": [
         "Áno,",
-        "u mojej tety.",
+        "u",
+        "mojej",
+        "tety.",
         "Chodím",
-        "na gymnázium."
+        "na gymnázium.",
+        "som",
+        "ja",
+        "tvoj"
       ]
     },
     {
@@ -224,14 +234,28 @@
       "l1": "La cathédrale Sainte-Élisabeth. La plus grande église de Slovaquie.",
       "l2": "Dóm svätej Alžbety. Najväčší kostol na Slovensku.",
       "tokens_l1": [
-        "La cathédrale Sainte-Élisabeth.",
-        "La plus grande église",
-        "de Slovaquie."
+        "La",
+        "cathédrale",
+        "Sainte-Élisabeth.",
+        "La",
+        "plus",
+        "grande",
+        "église",
+        "de Slovaquie.",
+        "je",
+        "copain",
+        "suis"
       ],
       "tokens_l2": [
-        "Dóm svätej Alžbety.",
-        "Najväčší kostol",
-        "na Slovensku."
+        "Dóm",
+        "svätej",
+        "Alžbety.",
+        "Najväčší",
+        "kostol",
+        "na Slovensku.",
+        "ja",
+        "tvoj",
+        "kamarát"
       ]
     },
     {
@@ -241,13 +265,20 @@
       "l2": "To je moja zastávka. Poď!",
       "tokens_l1": [
         "C'est",
-        "mon arrêt.",
-        "Viens !"
+        "mon",
+        "arrêt.",
+        "Viens",
+        "!",
+        "suis",
+        "je"
       ],
       "tokens_l2": [
         "To je",
-        "moja zastávka.",
-        "Poď!"
+        "moja",
+        "zastávka.",
+        "Poď!",
+        "ja",
+        "tvoj"
       ]
     },
     {

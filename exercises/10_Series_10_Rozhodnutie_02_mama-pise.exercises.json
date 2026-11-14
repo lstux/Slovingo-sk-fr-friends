@@ -201,14 +201,43 @@
       "l1": "Que dimanche, mon avion part de Vienne. Qu'elle a déjà le ticket. Et qu'elle m'aime.",
       "l2": "Že v nedeľu mi letí lietadlo z Viedne. Že lístok už má. A že ma ľúbi.",
       "tokens_l1": [
-        "Que dimanche, mon avion part de Vienne.",
-        "Qu'elle a déjà le ticket.",
-        "Et qu'elle m'aime."
+        "Que",
+        "dimanche,",
+        "mon",
+        "avion",
+        "part",
+        "de",
+        "Vienne.",
+        "Qu'elle",
+        "a",
+        "déjà",
+        "le",
+        "ticket.",
+        "Et",
+        "qu'elle",
+        "m'aime.",
+        "un",
+        "pas"
       ],
       "tokens_l2": [
-        "Že v nedeľu mi letí lietadlo z Viedne.",
-        "Že lístok už má.",
-        "A že ma ľúbi."
+        "Že",
+        "v",
+        "nedeľu",
+        "mi",
+        "letí",
+        "lietadlo",
+        "z",
+        "Viedne.",
+        "Že",
+        "lístok",
+        "už",
+        "má.",
+        "A",
+        "že",
+        "ma",
+        "ľúbi.",
+        "ani",
+        "po"
       ]
     },
     {
@@ -217,14 +246,23 @@
       "l1": "Elle a écrit qu'elle t'aime ?",
       "l2": "Napísala, že ťa ľúbi?",
       "tokens_l1": [
-        "Elle a écrit",
+        "Elle",
+        "a",
+        "écrit",
         "qu'elle",
-        "t'aime ?"
+        "t'aime",
+        "?",
+        "toi",
+        "dire",
+        "le"
       ],
       "tokens_l2": [
         "Napísala,",
         "že ťa",
-        "ľúbi?"
+        "ľúbi?",
+        "povedať",
+        "jej",
+        "zabúdaš"
       ]
     }
   ]

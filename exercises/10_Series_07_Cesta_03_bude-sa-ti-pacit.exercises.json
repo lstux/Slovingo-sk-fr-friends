@@ -201,14 +201,28 @@
       "l1": "Le bitume, c'est plat. C'est bien pour le vélo.",
       "l2": "Asfalt je rovný. Je dobrý pre bicykel.",
       "tokens_l1": [
-        "Le bitume, c'est plat.",
-        "C'est bien",
-        "pour le vélo."
+        "Le",
+        "bitume,",
+        "c'est",
+        "plat.",
+        "C'est",
+        "bien",
+        "pour",
+        "le",
+        "vélo.",
+        "un",
+        "pourrait",
+        "elle"
       ],
       "tokens_l2": [
-        "Asfalt je rovný.",
+        "Asfalt",
+        "je",
+        "rovný.",
         "Je dobrý",
-        "pre bicykel."
+        "pre bicykel.",
+        "mohla",
+        "mať",
+        "by"
       ]
     },
     {
@@ -219,12 +233,20 @@
       "tokens_l1": [
         "L'homme",
         "est",
-        "dans la forêt."
+        "dans",
+        "la",
+        "forêt.",
+        "elle",
+        "un",
+        "avoir"
       ],
       "tokens_l2": [
         "Muž",
         "je",
-        "v lese."
+        "v lese.",
+        "by",
+        "mať",
+        "mohla"
       ]
     }
   ]

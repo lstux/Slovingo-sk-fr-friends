@@ -181,12 +181,18 @@
       "tokens_l1": [
         "Très",
         "longtemps.",
-        "Cinq ans."
+        "Cinq",
+        "ans.",
+        "va",
+        "bien"
       ],
       "tokens_l2": [
         "Veľmi",
         "dlho.",
-        "Päť rokov."
+        "Päť",
+        "rokov.",
+        "mám",
+        "ťa"
       ]
     },
     {
@@ -195,14 +201,21 @@
       "l1": "Salut ! Comment ça va ?",
       "l2": "Čau! Ako sa máš?",
       "tokens_l1": [
-        "Salut !",
+        "Salut",
+        "!",
         "Comment",
-        "ça va ?"
+        "ça",
+        "va",
+        "?",
+        "de",
+        "aussi"
       ],
       "tokens_l2": [
         "Čau!",
         "Ako",
-        "sa máš?"
+        "sa máš?",
+        "ťa",
+        "vidím"
       ]
     }
   ]

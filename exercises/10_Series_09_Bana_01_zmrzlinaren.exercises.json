@@ -190,14 +190,36 @@
       "l1": "Moi non plus. Mais je vois aussi du réseau. Faible, mais il y en a.",
       "l2": "Ani ja. Ale vidím aj signál. Slabý, ale je.",
       "tokens_l1": [
-        "Moi non plus.",
-        "Mais je vois aussi du réseau.",
-        "Faible, mais il y en a."
+        "Moi",
+        "non",
+        "plus.",
+        "Mais",
+        "je",
+        "vois",
+        "aussi",
+        "du",
+        "réseau.",
+        "Faible,",
+        "mais",
+        "il",
+        "y",
+        "en",
+        "a.",
+        "prends",
+        "glace"
       ],
       "tokens_l2": [
-        "Ani ja.",
-        "Ale vidím aj signál.",
-        "Slabý, ale je."
+        "Ani",
+        "ja.",
+        "Ale",
+        "vidím",
+        "aj",
+        "signál.",
+        "Slabý,",
+        "ale",
+        "je.",
+        "si",
+        "zmrzlinu"
       ]
     },
     {
@@ -206,14 +228,31 @@
       "l1": "Même cinq minutes suffisent quand la colline est assez haute.",
       "l2": "Aj päť minút stačí, keď je kopec dosť vysoký.",
       "tokens_l1": [
-        "Même cinq minutes suffisent",
-        "quand la colline",
-        "est assez haute."
+        "Même",
+        "cinq",
+        "minutes",
+        "suffisent",
+        "quand",
+        "la",
+        "colline",
+        "est",
+        "assez",
+        "haute.",
+        "glace",
+        "une"
       ],
       "tokens_l2": [
-        "Aj päť minút stačí,",
-        "keď je kopec",
-        "dosť vysoký."
+        "Aj",
+        "päť",
+        "minút",
+        "stačí,",
+        "keď",
+        "je",
+        "kopec",
+        "dosť",
+        "vysoký.",
+        "zmrzlinu",
+        "si"
       ]
     }
   ]

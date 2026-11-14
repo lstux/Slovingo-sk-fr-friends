@@ -192,12 +192,18 @@
       "tokens_l1": [
         "D'abord,",
         "bois.",
-        "Ensuite, parle."
+        "Ensuite,",
+        "parle.",
+        "le",
+        "c'est"
       ],
       "tokens_l2": [
         "Najprv",
         "sa napi.",
-        "Potom rozprávaj."
+        "Potom",
+        "rozprávaj.",
+        "ja",
+        "som"
       ]
     },
     {
@@ -207,13 +213,23 @@
       "l2": "Tu je fľaša vody. Môžeš piť.",
       "tokens_l1": [
         "Voilà",
-        "une bouteille d'eau.",
-        "Tu peux boire."
+        "une",
+        "bouteille",
+        "d'eau.",
+        "Tu",
+        "peux",
+        "boire.",
+        "c'est",
+        "j'ai"
       ],
       "tokens_l2": [
         "Tu je",
-        "fľaša vody.",
-        "Môžeš piť."
+        "fľaša",
+        "vody.",
+        "Môžeš",
+        "piť.",
+        "mám",
+        "som"
       ]
     }
   ]

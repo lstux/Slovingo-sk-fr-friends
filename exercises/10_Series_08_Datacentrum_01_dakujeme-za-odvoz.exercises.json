@@ -201,14 +201,26 @@
       "l1": "Je m'arrête ici. Ensuite, je prends une autre direction.",
       "l2": "Tu končím. Ďalej idem iným smerom.",
       "tokens_l1": [
-        "Je m'arrête ici.",
-        "Ensuite, je prends",
-        "une autre direction."
+        "Je",
+        "m'arrête",
+        "ici.",
+        "Ensuite,",
+        "je",
+        "prends",
+        "une",
+        "autre",
+        "direction.",
+        "pas",
+        "n'a"
       ],
       "tokens_l2": [
         "Tu končím.",
-        "Ďalej idem",
-        "iným smerom."
+        "Ďalej",
+        "idem",
+        "iným",
+        "smerom.",
+        "daždi",
+        "neprespali"
       ]
     },
     {
@@ -219,12 +231,20 @@
       "tokens_l1": [
         "Dans quelle",
         "direction",
-        "on va ?"
+        "on",
+        "va",
+        "?",
+        "sous",
+        "pluie",
+        "dormi"
       ],
       "tokens_l2": [
         "Ktorým",
         "smerom",
-        "ideme?"
+        "ideme?",
+        "daždi",
+        "sme",
+        "v"
       ]
     }
   ]

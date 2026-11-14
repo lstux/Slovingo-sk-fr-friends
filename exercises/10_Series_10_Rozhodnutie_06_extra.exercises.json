@@ -159,14 +159,40 @@
       "l1": "Si on ne dit qu'une seule chose, ils diront qu'on ne parle que de ça.",
       "l2": "Ak povieme len jednu vec, povedia, že nám ide len o jednu vec.",
       "tokens_l1": [
-        "Si on ne dit qu'une seule chose,",
-        "ils diront",
-        "qu'on ne parle que de ça."
+        "Si",
+        "on",
+        "ne",
+        "dit",
+        "qu'une",
+        "seule",
+        "chose,",
+        "ils",
+        "diront",
+        "qu'on",
+        "ne",
+        "parle",
+        "que",
+        "de",
+        "ça.",
+        "le",
+        "note"
       ],
       "tokens_l2": [
-        "Ak povieme len jednu vec,",
+        "Ak",
+        "povieme",
+        "len",
+        "jednu",
+        "vec,",
         "povedia,",
-        "že nám ide len o jednu vec."
+        "že",
+        "nám",
+        "ide",
+        "len",
+        "o",
+        "jednu",
+        "vec.",
+        "zapíšem",
+        "si"
       ]
     },
     {
@@ -175,14 +201,34 @@
       "l1": "Elle a dit qu'elle aussi, elle aimait l'aventure quand elle était jeune.",
       "l2": "Povedala, že aj ona mala rada dobrodružstvá, keď bola mladá.",
       "tokens_l1": [
-        "Elle a dit qu'elle aussi,",
-        "elle aimait l'aventure",
-        "quand elle était jeune."
+        "Elle",
+        "a",
+        "dit",
+        "qu'elle",
+        "aussi,",
+        "elle",
+        "aimait",
+        "l'aventure",
+        "quand",
+        "elle",
+        "était",
+        "jeune.",
+        "en",
+        "retiendra"
       ],
       "tokens_l2": [
-        "Povedala, že",
-        "aj ona mala rada dobrodružstvá,",
-        "keď bola mladá."
+        "Povedala,",
+        "že",
+        "aj",
+        "ona",
+        "mala",
+        "rada",
+        "dobrodružstvá,",
+        "keď",
+        "bola",
+        "mladá.",
+        "vecí",
+        "nezapamätá"
       ]
     },
     {
@@ -255,14 +301,27 @@
       "l1": "À chacun un peu. Donc à personne tout à fait.",
       "l2": "Každý trochu. Preto nikto celkom.",
       "tokens_l1": [
-        "À chacun un peu.",
+        "À",
+        "chacun",
+        "un",
+        "peu.",
         "Donc",
-        "à personne tout à fait."
+        "à",
+        "personne",
+        "tout",
+        "à",
+        "fait.",
+        "seule",
+        "diront"
       ],
       "tokens_l2": [
-        "Každý trochu.",
+        "Každý",
+        "trochu.",
         "Preto",
-        "nikto celkom."
+        "nikto",
+        "celkom.",
+        "ide",
+        "jednu"
       ]
     },
     {

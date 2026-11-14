@@ -201,16 +201,50 @@
       "l1": "Il y avait la sécheresse. Et puis on est partis loin. Au Paradis slovaque. Dans les Tatras. Dans le Liptov. À Bratislava.",
       "l2": "Bolo tu sucho. A potom sme išli ďaleko. Do Raja. Do Tatier. Do Liptova. Do Bratislavy.",
       "tokens_l1": [
-        "Il y avait la sécheresse.",
-        "Et puis on est partis loin.",
-        "Au Paradis slovaque. Dans les Tatras.",
-        "Dans le Liptov. À Bratislava."
+        "Il",
+        "y",
+        "avait",
+        "la",
+        "sécheresse.",
+        "Et",
+        "puis",
+        "on",
+        "est",
+        "partis",
+        "loin.",
+        "Au",
+        "Paradis",
+        "slovaque.",
+        "Dans",
+        "les",
+        "Tatras.",
+        "Dans",
+        "le",
+        "Liptov.",
+        "À",
+        "Bratislava.",
+        "un",
+        "rêve"
       ],
       "tokens_l2": [
-        "Bolo tu sucho.",
-        "A potom sme išli ďaleko.",
-        "Do Raja. Do Tatier.",
-        "Do Liptova. Do Bratislavy."
+        "Bolo",
+        "tu",
+        "sucho.",
+        "A",
+        "potom",
+        "sme",
+        "išli",
+        "ďaleko.",
+        "Do",
+        "Raja.",
+        "Do",
+        "Tatier.",
+        "Do",
+        "Liptova.",
+        "Do",
+        "Bratislavy.",
+        "čudné",
+        "niečo"
       ]
     },
     {
@@ -219,14 +253,20 @@
       "l1": "Nous sommes allés à la montagne.",
       "l2": "Išli sme do hôr.",
       "tokens_l1": [
-        "Nous sommes allés",
+        "Nous",
+        "sommes",
+        "allés",
         "à la",
-        "montagne."
+        "montagne.",
+        "rêve",
+        "drôle"
       ],
       "tokens_l2": [
         "Išli",
         "sme",
-        "do hôr."
+        "do hôr.",
+        "niečo",
+        "sa"
       ]
     }
   ]

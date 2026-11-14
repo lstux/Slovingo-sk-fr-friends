@@ -169,14 +169,29 @@
       "l1": "Merci, Andrea. Je suis content de te voir.",
       "l2": "Ďakujem, Andrea. Som rád, že ťa vidím.",
       "tokens_l1": [
-        "Merci, Andrea.",
-        "Je suis content",
-        "de te voir."
+        "Merci,",
+        "Andrea.",
+        "Je",
+        "suis",
+        "content",
+        "de",
+        "te",
+        "voir.",
+        "là",
+        "super",
+        "es"
       ],
       "tokens_l2": [
-        "Ďakujem, Andrea.",
-        "Som rád,",
-        "že ťa vidím."
+        "Ďakujem,",
+        "Andrea.",
+        "Som",
+        "rád,",
+        "že",
+        "ťa",
+        "vidím.",
+        "je",
+        "ja",
+        "tu"
       ]
     },
     {
@@ -185,14 +200,29 @@
       "l1": "Moi aussi. Maintenant tu es là. C'est super.",
       "l2": "Aj ja. Teraz si tu. To je skvelé.",
       "tokens_l1": [
-        "Moi aussi.",
-        "Maintenant tu es là.",
-        "C'est super."
+        "Moi",
+        "aussi.",
+        "Maintenant",
+        "tu",
+        "es",
+        "là.",
+        "C'est",
+        "super.",
+        "jardin",
+        "pommier",
+        "dormir"
       ],
       "tokens_l2": [
         "Aj ja.",
-        "Teraz si tu.",
-        "To je skvelé."
+        "Teraz",
+        "si",
+        "tu.",
+        "To",
+        "je",
+        "skvelé.",
+        "spať",
+        "v",
+        "jabloňou"
       ]
     },
     {
@@ -201,14 +231,32 @@
       "l1": "Tu n'as pas à avoir peur. Ma tante ne sait pas que tu es là.",
       "l2": "Nemusíš. Teta o tebe nevie.",
       "tokens_l1": [
-        "Tu n'as pas à avoir peur.",
-        "Ma tante ne sait pas",
-        "que tu es là."
+        "Tu",
+        "n'as",
+        "pas",
+        "à",
+        "avoir",
+        "peur.",
+        "Ma",
+        "tante",
+        "ne",
+        "sait",
+        "pas",
+        "que",
+        "tu",
+        "es",
+        "là.",
+        "super",
+        "aussi"
       ],
       "tokens_l2": [
         "Nemusíš.",
         "Teta",
-        "o tebe nevie."
+        "o",
+        "tebe",
+        "nevie.",
+        "skvelé",
+        "tu"
       ]
     }
   ]

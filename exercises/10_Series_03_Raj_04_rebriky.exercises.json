@@ -202,13 +202,27 @@
       "l2": "Myslím. Idem prvá. Ty ideš za mnou.",
       "tokens_l1": [
         "Si.",
-        "Je passe la première.",
-        "Toi, tu me suis."
+        "Je",
+        "passe",
+        "la",
+        "première.",
+        "Toi,",
+        "tu",
+        "me",
+        "suis.",
+        "ferme",
+        "pas"
       ],
       "tokens_l2": [
         "Myslím.",
-        "Idem prvá.",
-        "Ty ideš za mnou."
+        "Idem",
+        "prvá.",
+        "Ty",
+        "ideš",
+        "za",
+        "mnou.",
+        "zatváram",
+        "nepozerám"
       ]
     },
     {
@@ -218,13 +232,24 @@
       "l2": "Poď. Ak spadneš, chytím ťa.",
       "tokens_l1": [
         "Viens.",
-        "Si tu tombes,",
-        "je te rattrape."
+        "Si",
+        "tu",
+        "tombes,",
+        "je",
+        "te",
+        "rattrape.",
+        "ferme",
+        "regarde",
+        "ne"
       ],
       "tokens_l2": [
         "Poď.",
         "Ak spadneš,",
-        "chytím ťa."
+        "chytím",
+        "ťa.",
+        "nepozerám",
+        "oči",
+        "zatváram"
       ]
     }
   ]

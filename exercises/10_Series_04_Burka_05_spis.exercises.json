@@ -187,12 +187,22 @@
       "tokens_l1": [
         "En bas.",
         "Au village.",
-        "Mes cousins y habitent."
+        "Mes",
+        "cousins",
+        "y",
+        "habitent.",
+        "demain",
+        "va"
       ],
       "tokens_l2": [
         "Dolu.",
         "Do dediny.",
-        "Moji bratranci tam bývajú."
+        "Moji",
+        "bratranci",
+        "tam",
+        "bývajú.",
+        "zajtra",
+        "pôjdeme"
       ]
     },
     {
@@ -201,14 +211,25 @@
       "l1": "Katka a treize ans. J'ai peur d'elle.",
       "l2": "Katka má trinásť. Bojím sa jej.",
       "tokens_l1": [
-        "Katka a",
-        "treize ans.",
-        "J'ai peur d'elle."
+        "Katka",
+        "a",
+        "treize",
+        "ans.",
+        "J'ai",
+        "peur",
+        "d'elle.",
+        "cousins",
+        "habitent"
       ],
       "tokens_l2": [
-        "Katka má",
+        "Katka",
+        "má",
         "trinásť.",
-        "Bojím sa jej."
+        "Bojím",
+        "sa",
+        "jej.",
+        "bývajú",
+        "tam"
       ]
     }
   ]

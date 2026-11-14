@@ -207,15 +207,36 @@
       "l2": "Rozumiem, čo chceš povedať. Ale správne je: veľa hovorím.",
       "tokens_l1": [
         "Je comprends",
-        "ce que tu veux dire.",
-        "Mais ce qu'il faut dire, c'est :",
-        "« je parle beaucoup »."
+        "ce",
+        "que",
+        "tu",
+        "veux",
+        "dire.",
+        "Mais",
+        "ce",
+        "qu'il",
+        "faut",
+        "dire,",
+        "c'est",
+        ":",
+        "«",
+        "je",
+        "parle",
+        "beaucoup",
+        "».",
+        "renard"
       ],
       "tokens_l2": [
         "Rozumiem,",
-        "čo chceš povedať.",
-        "Ale správne je:",
-        "veľa hovorím."
+        "čo",
+        "chceš",
+        "povedať.",
+        "Ale",
+        "správne",
+        "je:",
+        "veľa",
+        "hovorím.",
+        "líška"
       ]
     }
   ]

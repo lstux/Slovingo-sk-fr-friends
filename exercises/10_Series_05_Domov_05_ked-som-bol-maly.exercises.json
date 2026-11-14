@@ -201,14 +201,28 @@
       "l1": "Quand j'étais petit, je suis tombé dans le ruisseau.",
       "l2": "Keď som bol malý, spadol som do potoka.",
       "tokens_l1": [
-        "Quand j'étais petit,",
-        "je suis tombé",
-        "dans le ruisseau."
+        "Quand",
+        "j'étais",
+        "petit,",
+        "je",
+        "suis",
+        "tombé",
+        "dans",
+        "le",
+        "ruisseau.",
+        "monde",
+        "d'aujourd'hui"
       ],
       "tokens_l2": [
-        "Keď som bol malý,",
-        "spadol som",
-        "do potoka."
+        "Keď",
+        "som",
+        "bol",
+        "malý,",
+        "spadol",
+        "som",
+        "do potoka.",
+        "dnes",
+        "svet"
       ]
     },
     {
@@ -218,13 +232,27 @@
       "l2": "Takže najprv sucho a potom povodeň?",
       "tokens_l1": [
         "Donc",
-        "d'abord la sécheresse,",
-        "et ensuite l'inondation ?"
+        "d'abord",
+        "la",
+        "sécheresse,",
+        "et",
+        "ensuite",
+        "l'inondation",
+        "?",
+        "dans",
+        "tombé",
+        "le"
       ],
       "tokens_l2": [
         "Takže",
-        "najprv sucho",
-        "a potom povodeň?"
+        "najprv",
+        "sucho",
+        "a",
+        "potom",
+        "povodeň?",
+        "potoka",
+        "som",
+        "malý"
       ]
     },
     {

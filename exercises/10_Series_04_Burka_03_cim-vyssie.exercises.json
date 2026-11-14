@@ -190,14 +190,29 @@
       "l1": "On est plus haut. Plus on monte, plus il fait froid.",
       "l2": "Sme vyššie. Čím vyššie, tým chladnejšie.",
       "tokens_l1": [
-        "On est plus haut.",
-        "Plus on monte,",
-        "plus il fait froid."
+        "On",
+        "est",
+        "plus",
+        "haut.",
+        "Plus",
+        "on",
+        "monte,",
+        "plus",
+        "il",
+        "fait",
+        "froid.",
+        "le",
+        "c'est"
       ],
       "tokens_l2": [
-        "Sme vyššie.",
-        "Čím vyššie,",
-        "tým chladnejšie."
+        "Sme",
+        "vyššie.",
+        "Čím",
+        "vyššie,",
+        "tým",
+        "chladnejšie.",
+        "oblohu",
+        "je"
       ]
     },
     {
@@ -206,14 +221,26 @@
       "l1": "Et ici, c'est humide. Regarde le ciel.",
       "l2": "A tu je vlhko. Pozri na oblohu.",
       "tokens_l1": [
-        "Et ici, c'est humide.",
+        "Et",
+        "ici,",
+        "c'est",
+        "humide.",
         "Regarde",
-        "le ciel."
+        "le ciel.",
+        "froid",
+        "monte",
+        "est"
       ],
       "tokens_l2": [
-        "A tu je vlhko.",
+        "A",
+        "tu",
+        "je",
+        "vlhko.",
         "Pozri",
-        "na oblohu."
+        "na oblohu.",
+        "chladnejšie",
+        "vyššie",
+        "tým"
       ]
     }
   ]

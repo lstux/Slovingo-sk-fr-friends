@@ -201,14 +201,29 @@
       "l1": "Ça me plaît. Mais de la poudre quand même.",
       "l2": "To sa mi páči. Ale púder aj tak.",
       "tokens_l1": [
-        "Ça me plaît.",
-        "Mais de la poudre",
-        "quand même."
+        "Ça",
+        "me",
+        "plaît.",
+        "Mais",
+        "de",
+        "la",
+        "poudre",
+        "quand",
+        "même.",
+        "peu",
+        "minute"
       ],
       "tokens_l2": [
-        "To sa mi páči.",
-        "Ale púder",
-        "aj tak."
+        "To",
+        "sa",
+        "mi",
+        "páči.",
+        "Ale",
+        "púder",
+        "aj tak.",
+        "púdru",
+        "minútku",
+        "večer"
       ]
     },
     {
@@ -217,14 +232,31 @@
       "l1": "De la pièce voisine sort une maquilleuse avec un grand pinceau.",
       "l2": "Z vedľajšej miestnosti vyjde vizážistka s veľkou štetkou.",
       "tokens_l1": [
-        "De la pièce voisine",
-        "sort une maquilleuse",
-        "avec un grand pinceau."
+        "De",
+        "la",
+        "pièce",
+        "voisine",
+        "sort",
+        "une",
+        "maquilleuse",
+        "avec",
+        "un",
+        "grand",
+        "pinceau.",
+        "poudre",
+        "peu"
       ],
       "tokens_l2": [
-        "Z vedľajšej miestnosti",
-        "vyjde vizážistka",
-        "s veľkou štetkou."
+        "Z",
+        "vedľajšej",
+        "miestnosti",
+        "vyjde",
+        "vizážistka",
+        "s",
+        "veľkou",
+        "štetkou.",
+        "púdru",
+        "večer"
       ]
     }
   ]

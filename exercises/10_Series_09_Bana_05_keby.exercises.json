@@ -201,14 +201,34 @@
       "l1": "Si vous n'aviez pas ce travail, vous en chercheriez un autre ?",
       "l2": "Keby ste nemali túto prácu, hľadali by ste inú?",
       "tokens_l1": [
-        "Si vous n'aviez pas",
+        "Si",
+        "vous",
+        "n'aviez",
+        "pas",
         "ce travail,",
-        "vous en chercheriez un autre ?"
+        "vous",
+        "en",
+        "chercheriez",
+        "un",
+        "autre",
+        "?",
+        "moi",
+        "combien",
+        "ai"
       ],
       "tokens_l2": [
-        "Keby ste nemali",
-        "túto prácu,",
-        "hľadali by ste inú?"
+        "Keby",
+        "ste",
+        "nemali",
+        "túto",
+        "prácu,",
+        "hľadali",
+        "by",
+        "ste",
+        "inú?",
+        "ja",
+        "mám",
+        "koľko"
       ]
     },
     {
@@ -217,14 +237,38 @@
       "l1": "Je ne sais pas. Sans doute que je serais en colère, mais j'irais travailler.",
       "l2": "Neviem. Zrejme by som sa hneval, ale chodil by som do práce.",
       "tokens_l1": [
-        "Je ne sais pas.",
-        "Sans doute que je serais en colère,",
-        "mais j'irais travailler."
+        "Je",
+        "ne",
+        "sais",
+        "pas.",
+        "Sans",
+        "doute",
+        "que",
+        "je",
+        "serais",
+        "en",
+        "colère,",
+        "mais",
+        "j'irais",
+        "travailler.",
+        "ai",
+        "combien"
       ],
       "tokens_l2": [
         "Neviem.",
-        "Zrejme by som sa hneval,",
-        "ale chodil by som do práce."
+        "Zrejme",
+        "by",
+        "som",
+        "sa",
+        "hneval,",
+        "ale",
+        "chodil",
+        "by",
+        "som",
+        "do",
+        "práce.",
+        "ja",
+        "mám"
       ]
     },
     {

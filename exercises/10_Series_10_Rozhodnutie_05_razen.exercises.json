@@ -202,15 +202,49 @@
       "l2": "Viem. Vždy si jedol len bobule. A hovoril si príliš veľa. Takto sa lovec nechová.",
       "tokens_l1": [
         "Je sais.",
-        "Tu n'as toujours mangé que des baies.",
-        "Et tu parlais beaucoup trop.",
-        "Un chasseur ne se comporte pas comme ça."
+        "Tu",
+        "n'as",
+        "toujours",
+        "mangé",
+        "que",
+        "des",
+        "baies.",
+        "Et",
+        "tu",
+        "parlais",
+        "beaucoup",
+        "trop.",
+        "Un",
+        "chasseur",
+        "ne",
+        "se",
+        "comporte",
+        "pas",
+        "comme",
+        "ça.",
+        "la",
+        "chance",
+        "cas"
       ],
       "tokens_l2": [
         "Viem.",
-        "Vždy si jedol len bobule.",
-        "A hovoril si príliš veľa.",
-        "Takto sa lovec nechová."
+        "Vždy",
+        "si",
+        "jedol",
+        "len",
+        "bobule.",
+        "A",
+        "hovoril",
+        "si",
+        "príliš",
+        "veľa.",
+        "Takto",
+        "sa",
+        "lovec",
+        "nechová.",
+        "tomto",
+        "šťastie",
+        "prípade"
       ]
     },
     {
@@ -219,14 +253,33 @@
       "l1": "Un jour, je me suis laissé inviter à dîner. Par un renard.",
       "l2": "Raz som sa nechala pozvať na večeru. Jedným lišiakom.",
       "tokens_l1": [
-        "Un jour, je me suis laissé",
-        "inviter à dîner.",
-        "Par un renard."
+        "Un",
+        "jour,",
+        "je",
+        "me",
+        "suis",
+        "laissé",
+        "inviter",
+        "à",
+        "dîner.",
+        "Par",
+        "un",
+        "renard.",
+        "ce",
+        "dans"
       ],
       "tokens_l2": [
-        "Raz som sa nechala",
-        "pozvať na večeru.",
-        "Jedným lišiakom."
+        "Raz",
+        "som",
+        "sa",
+        "nechala",
+        "pozvať",
+        "na",
+        "večeru.",
+        "Jedným",
+        "lišiakom.",
+        "v",
+        "mám"
       ]
     }
   ]

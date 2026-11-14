@@ -180,13 +180,20 @@
       "l2": "Počkaj... To nie je možné.",
       "tokens_l1": [
         "Attends...",
-        "C'est pas",
-        "possible."
+        "C'est",
+        "pas",
+        "possible.",
+        "tram",
+        "là"
       ],
       "tokens_l2": [
         "Počkaj...",
-        "To nie je",
-        "možné."
+        "To",
+        "nie",
+        "je",
+        "možné.",
+        "tu",
+        "si"
       ]
     },
     {
@@ -195,14 +202,29 @@
       "l1": "Tu es là ? À Košice ? Dans le tram ?",
       "l2": "Ty si tu? V Košiciach? V električke?",
       "tokens_l1": [
-        "Tu es là ?",
-        "À Košice ?",
-        "Dans le tram ?"
+        "Tu",
+        "es",
+        "là",
+        "?",
+        "À",
+        "Košice",
+        "?",
+        "Dans",
+        "le",
+        "tram",
+        "?",
+        "possible",
+        "pas"
       ],
       "tokens_l2": [
-        "Ty si tu?",
+        "Ty",
+        "si",
+        "tu?",
         "V Košiciach?",
-        "V električke?"
+        "V električke?",
+        "nie",
+        "možné",
+        "je"
       ]
     }
   ]

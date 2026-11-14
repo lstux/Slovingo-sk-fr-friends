@@ -191,13 +191,23 @@
       "l2": "To je najlepší moment tohto leta.",
       "tokens_l1": [
         "C'est",
-        "le meilleur moment",
-        "de cet été."
+        "le",
+        "meilleur",
+        "moment",
+        "de",
+        "cet",
+        "été.",
+        "tajch",
+        "dans"
       ],
       "tokens_l2": [
         "To je",
-        "najlepší moment",
-        "tohto leta."
+        "najlepší",
+        "moment",
+        "tohto",
+        "leta.",
+        "tajchu",
+        "kúpať"
       ]
     },
     {
@@ -208,12 +218,20 @@
       "tokens_l1": [
         "On va",
         "se baigner",
-        "dans le tajch."
+        "dans",
+        "le",
+        "tajch.",
+        "en",
+        "ce",
+        "tout"
       ],
       "tokens_l2": [
         "Ideme",
         "sa kúpať",
-        "do tajchu."
+        "do tajchu.",
+        "na",
+        "čo",
+        "všetko"
       ]
     }
   ]

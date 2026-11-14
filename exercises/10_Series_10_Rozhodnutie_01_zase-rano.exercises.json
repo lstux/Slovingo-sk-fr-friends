@@ -202,15 +202,42 @@
       "l2": "Ráno. Štyri zvieratá sedia okolo vyhaslého ohňa. Nikto nehovorí. Všetci sú unavení a špinaví.",
       "tokens_l1": [
         "Le matin.",
-        "Quatre animaux sont assis autour d'un feu éteint.",
-        "Personne ne parle.",
-        "Tous sont fatigués et sales."
+        "Quatre",
+        "animaux",
+        "sont",
+        "assis",
+        "autour",
+        "d'un",
+        "feu",
+        "éteint.",
+        "Personne",
+        "ne",
+        "parle.",
+        "Tous",
+        "sont",
+        "fatigués",
+        "et",
+        "sales.",
+        "appris",
+        "seulement"
       ],
       "tokens_l2": [
         "Ráno.",
-        "Štyri zvieratá sedia okolo vyhaslého ohňa.",
-        "Nikto nehovorí.",
-        "Všetci sú unavení a špinaví."
+        "Štyri",
+        "zvieratá",
+        "sedia",
+        "okolo",
+        "vyhaslého",
+        "ohňa.",
+        "Nikto",
+        "nehovorí.",
+        "Všetci",
+        "sú",
+        "unavení",
+        "a",
+        "špinaví.",
+        "sa",
+        "učila"
       ]
     },
     {
@@ -219,14 +246,37 @@
       "l1": "Ça vient du gardien du refuge des Tatras ! Tu ne fais que répéter.",
       "l2": "To je od chatára z Tatier! Ty to len opakuješ.",
       "tokens_l1": [
-        "Ça vient du gardien du refuge",
-        "des Tatras !",
-        "Tu ne fais que répéter."
+        "Ça",
+        "vient",
+        "du",
+        "gardien",
+        "du",
+        "refuge",
+        "des",
+        "Tatras",
+        "!",
+        "Tu",
+        "ne",
+        "fais",
+        "que",
+        "répéter.",
+        "dans",
+        "radio",
+        "une"
       ],
       "tokens_l2": [
-        "To je od chatára",
+        "To",
+        "je",
+        "od",
+        "chatára",
         "z Tatier!",
-        "Ty to len opakuješ."
+        "Ty",
+        "to",
+        "len",
+        "opakuješ.",
+        "kolene",
+        "v",
+        "rádio"
       ]
     }
   ]

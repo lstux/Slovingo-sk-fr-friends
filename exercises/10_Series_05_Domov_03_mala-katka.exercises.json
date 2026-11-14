@@ -206,14 +206,23 @@
       "l1": "Je ne suis pas petite. J'ai treize ans.",
       "l2": "Nie som malá. Mám trinásť.",
       "tokens_l1": [
-        "Je ne suis pas",
+        "Je",
+        "ne",
+        "suis",
+        "pas",
         "petite.",
-        "J'ai treize ans."
+        "J'ai",
+        "treize",
+        "ans.",
+        "un"
       ],
       "tokens_l2": [
-        "Nie som",
+        "Nie",
+        "som",
         "malá.",
-        "Mám trinásť."
+        "Mám",
+        "trinásť.",
+        "správu"
       ]
     }
   ]

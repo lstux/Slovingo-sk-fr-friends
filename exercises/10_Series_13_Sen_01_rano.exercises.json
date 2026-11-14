@@ -201,14 +201,30 @@
       "l1": "Au-dessus de lui pendent des pommes. Elles ne sont pas encore mûres.",
       "l2": "Nad ním visia jablká. Ešte nie sú zrelé.",
       "tokens_l1": [
-        "Au-dessus de lui pendent des pommes.",
-        "Elles ne sont pas",
-        "encore mûres."
+        "Au-dessus",
+        "de",
+        "lui",
+        "pendent",
+        "des",
+        "pommes.",
+        "Elles",
+        "ne",
+        "sont",
+        "pas",
+        "encore",
+        "mûres.",
+        "jardin"
       ],
       "tokens_l2": [
-        "Nad ním visia jablká.",
-        "Ešte nie sú",
-        "zrelé."
+        "Nad",
+        "ním",
+        "visia",
+        "jablká.",
+        "Ešte",
+        "nie",
+        "sú",
+        "zrelé.",
+        "záhrade"
       ]
     },
     {
@@ -217,14 +233,20 @@
       "l1": "Il y a des pommes sur l'arbre.",
       "l2": "Na strome sú jablká.",
       "tokens_l1": [
-        "Il y a des pommes",
+        "Il",
+        "y",
+        "a",
+        "des",
+        "pommes",
         "sur",
-        "l'arbre."
+        "l'arbre.",
+        "jardin"
       ],
       "tokens_l2": [
         "Na strome",
         "sú",
-        "jablká."
+        "jablká.",
+        "záhrade"
       ]
     }
   ]

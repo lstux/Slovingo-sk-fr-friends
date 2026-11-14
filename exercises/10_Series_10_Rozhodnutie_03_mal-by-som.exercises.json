@@ -201,14 +201,35 @@
       "l1": "Elle a dit qu'elle m'attendait. Et qu'elle s'inquiétait pour moi.",
       "l2": "Povedala, že na mňa čaká. A že sa o mňa bojí.",
       "tokens_l1": [
-        "Elle a dit",
-        "qu'elle m'attendait.",
-        "Et qu'elle s'inquiétait pour moi."
+        "Elle",
+        "a",
+        "dit",
+        "qu'elle",
+        "m'attendait.",
+        "Et",
+        "qu'elle",
+        "s'inquiétait",
+        "pour",
+        "moi.",
+        "dire",
+        "je",
+        "ce"
       ],
       "tokens_l2": [
         "Povedala,",
-        "že na mňa čaká.",
-        "A že sa o mňa bojí."
+        "že",
+        "na",
+        "mňa",
+        "čaká.",
+        "A",
+        "že",
+        "sa",
+        "o",
+        "mňa",
+        "bojí.",
+        "mám",
+        "čo",
+        "povedať"
       ]
     },
     {
@@ -217,14 +238,32 @@
       "l1": "Elle s'inquiète pour toi. C'est vrai. Elle a raison.",
       "l2": "Ona sa o teba bojí. To je pravda. Má pravdu.",
       "tokens_l1": [
-        "Elle s'inquiète pour toi.",
-        "C'est vrai.",
-        "Elle a raison."
+        "Elle",
+        "s'inquiète",
+        "pour",
+        "toi.",
+        "C'est",
+        "vrai.",
+        "Elle",
+        "a",
+        "raison.",
+        "dois",
+        "sais",
+        "ce"
       ],
       "tokens_l2": [
-        "Ona sa o teba bojí.",
-        "To je pravda.",
-        "Má pravdu."
+        "Ona",
+        "sa",
+        "o",
+        "teba",
+        "bojí.",
+        "To",
+        "je",
+        "pravda.",
+        "Má pravdu.",
+        "povedať",
+        "mám",
+        "čo"
       ]
     }
   ]

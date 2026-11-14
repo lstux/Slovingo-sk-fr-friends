@@ -201,14 +201,36 @@
       "l1": "Je corrige, c'est tout. Et il y a du réseau. Un très bon réseau.",
       "l2": "Ja len opravujem. Je tu aj signál. Veľmi dobrý signál.",
       "tokens_l1": [
-        "Je corrige, c'est tout.",
-        "Et il y a du réseau.",
-        "Un très bon réseau."
+        "Je",
+        "corrige,",
+        "c'est",
+        "tout.",
+        "Et",
+        "il",
+        "y",
+        "a",
+        "du",
+        "réseau.",
+        "Un",
+        "très",
+        "bon",
+        "réseau.",
+        "train",
+        "centrale"
       ],
       "tokens_l2": [
-        "Ja len opravujem.",
-        "Je tu aj signál.",
-        "Veľmi dobrý signál."
+        "Ja",
+        "len",
+        "opravujem.",
+        "Je",
+        "tu",
+        "aj",
+        "signál.",
+        "Veľmi",
+        "dobrý",
+        "signál.",
+        "ľudí",
+        "zastaví"
       ]
     },
     {
@@ -217,14 +239,49 @@
       "l1": "La gare centrale. Le train s'arrête doucement. Par la fenêtre, on voit beaucoup d'immeubles, beaucoup de voitures et beaucoup de monde.",
       "l2": "Hlavná stanica. Vlak pomaly zastaví. Z okna vidno veľa budov, veľa áut a veľa ľudí.",
       "tokens_l1": [
-        "La gare centrale.",
-        "Le train s'arrête doucement.",
-        "Par la fenêtre, on voit beaucoup d'immeubles, beaucoup de voitures et beaucoup de monde."
+        "La",
+        "gare",
+        "centrale.",
+        "Le",
+        "train",
+        "s'arrête",
+        "doucement.",
+        "Par",
+        "la",
+        "fenêtre,",
+        "on",
+        "voit",
+        "beaucoup",
+        "d'immeubles,",
+        "beaucoup",
+        "de",
+        "voitures",
+        "et",
+        "beaucoup",
+        "de",
+        "monde.",
+        "est",
+        "capitale"
       ],
       "tokens_l2": [
-        "Hlavná stanica.",
-        "Vlak pomaly zastaví.",
-        "Z okna vidno veľa budov, veľa áut a veľa ľudí."
+        "Hlavná",
+        "stanica.",
+        "Vlak",
+        "pomaly",
+        "zastaví.",
+        "Z",
+        "okna",
+        "vidno",
+        "veľa",
+        "budov,",
+        "veľa",
+        "áut",
+        "a",
+        "veľa",
+        "ľudí.",
+        "hlavné",
+        "mesto",
+        "je"
       ]
     }
   ]

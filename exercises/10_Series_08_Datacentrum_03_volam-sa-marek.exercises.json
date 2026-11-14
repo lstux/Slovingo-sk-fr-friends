@@ -202,15 +202,32 @@
       "l2": "Aha. To je častá otázka. Volám sa Marek. Pracujem tu.",
       "tokens_l1": [
         "Ah.",
-        "C'est une question fréquente.",
-        "Je m'appelle Marek.",
-        "Je travaille ici."
+        "C'est",
+        "une",
+        "question",
+        "fréquente.",
+        "Je",
+        "m'appelle",
+        "Marek.",
+        "Je",
+        "travaille",
+        "ici.",
+        "grenouilles",
+        "l'eau"
       ],
       "tokens_l2": [
         "Aha.",
-        "To je častá otázka.",
-        "Volám sa Marek.",
-        "Pracujem tu."
+        "To",
+        "je",
+        "častá",
+        "otázka.",
+        "Volám",
+        "sa",
+        "Marek.",
+        "Pracujem",
+        "tu.",
+        "žaby",
+        "deň"
       ]
     },
     {
@@ -221,12 +238,17 @@
       "tokens_l1": [
         "Mon",
         "ordinateur",
-        "est lent."
+        "est",
+        "lent.",
+        "grenouilles",
+        "des"
       ],
       "tokens_l2": [
         "Môj",
         "počítač",
-        "je pomalý."
+        "je pomalý.",
+        "žaby",
+        "deň"
       ]
     }
   ]

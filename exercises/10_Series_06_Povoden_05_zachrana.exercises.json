@@ -213,13 +213,31 @@
       "l2": "Nechajte ju. Každý zachraňuje, čo je mu najdrahšie.",
       "tokens_l1": [
         "Laissez-la.",
-        "Chacun sauve",
-        "ce qui lui est le plus cher."
+        "Chacun",
+        "sauve",
+        "ce",
+        "qui",
+        "lui",
+        "est",
+        "le",
+        "plus",
+        "cher.",
+        "mon",
+        "téléphone",
+        "je"
       ],
       "tokens_l2": [
-        "Nechajte ju.",
-        "Každý zachraňuje,",
-        "čo je mu najdrahšie."
+        "Nechajte",
+        "ju.",
+        "Každý",
+        "zachraňuje,",
+        "čo",
+        "je",
+        "mu",
+        "najdrahšie.",
+        "by",
+        "telefón",
+        "zachránil"
       ]
     },
     {
@@ -228,14 +246,26 @@
       "l1": "Alors, au moins, ça ira bien maintenant.",
       "l2": "Tak aspoň teraz bude dobre.",
       "tokens_l1": [
-        "Alors, au moins,",
-        "ça ira bien",
-        "maintenant."
+        "Alors,",
+        "au",
+        "moins,",
+        "ça",
+        "ira",
+        "bien",
+        "maintenant.",
+        "meilleur",
+        "mien",
+        "le"
       ],
       "tokens_l2": [
         "Tak",
-        "aspoň teraz",
-        "bude dobre."
+        "aspoň",
+        "teraz",
+        "bude",
+        "dobre.",
+        "lepšia",
+        "je",
+        "moja"
       ]
     }
   ]

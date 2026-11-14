@@ -201,14 +201,29 @@
       "l1": "C'est mauvais. Ça veut dire que la route est proche.",
       "l2": "To je zlé. Znamená to, že cesta je blízko.",
       "tokens_l1": [
-        "C'est mauvais.",
-        "Ça veut dire",
-        "que la route est proche."
+        "C'est",
+        "mauvais.",
+        "Ça",
+        "veut",
+        "dire",
+        "que",
+        "la",
+        "route",
+        "est",
+        "proche.",
+        "deux"
       ],
       "tokens_l2": [
-        "To je zlé.",
-        "Znamená to,",
-        "že cesta je blízko."
+        "To",
+        "je",
+        "zlé.",
+        "Znamená",
+        "to,",
+        "že",
+        "cesta",
+        "je",
+        "blízko.",
+        "dva"
       ]
     },
     {
@@ -219,12 +234,17 @@
       "tokens_l1": [
         "Non.",
         "C'est",
-        "une grosse machine."
+        "une",
+        "grosse",
+        "machine.",
+        "pelleteuse"
       ],
       "tokens_l2": [
         "Nie.",
         "To je",
-        "veľký stroj."
+        "veľký",
+        "stroj.",
+        "dva"
       ]
     }
   ]

@@ -191,13 +191,26 @@
       "l2": "Ja dýcham stále. To je môj problém.",
       "tokens_l1": [
         "Je respire",
-        "tout le temps.",
-        "C'est mon problème."
+        "tout",
+        "le",
+        "temps.",
+        "C'est",
+        "mon",
+        "problème.",
+        "dépend",
+        "vous",
+        "j'habitais"
       ],
       "tokens_l2": [
         "Ja dýcham",
         "stále.",
-        "To je môj problém."
+        "To",
+        "je",
+        "môj",
+        "problém.",
+        "pýtate",
+        "ste",
+        "noví"
       ]
     },
     {
@@ -206,14 +219,25 @@
       "l1": "Ján est mon ami. Il a des noix.",
       "l2": "Ján je môj priateľ. Má orechy.",
       "tokens_l1": [
-        "Ján est",
-        "mon ami.",
-        "Il a des noix."
+        "Ján",
+        "est",
+        "mon",
+        "ami.",
+        "Il",
+        "a",
+        "des",
+        "noix.",
+        "pas",
+        "animal"
       ],
       "tokens_l2": [
-        "Ján je",
-        "môj priateľ.",
-        "Má orechy."
+        "Ján",
+        "je",
+        "môj",
+        "priateľ.",
+        "Má orechy.",
+        "zoo",
+        "nie"
       ]
     }
   ]

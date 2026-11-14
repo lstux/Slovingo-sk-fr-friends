@@ -202,13 +202,32 @@
       "l2": "Nie, sme len na ceste. Môžeme vám pomôcť?",
       "tokens_l1": [
         "Non,",
-        "nous sommes juste de passage.",
-        "Est-ce que nous pouvons vous aider ?"
+        "nous",
+        "sommes",
+        "juste",
+        "de",
+        "passage.",
+        "Est-ce",
+        "que",
+        "nous",
+        "pouvons",
+        "vous",
+        "aider",
+        "?",
+        "êtes",
+        "d'ici"
       ],
       "tokens_l2": [
         "Nie,",
-        "sme len na ceste.",
-        "Môžeme vám pomôcť?"
+        "sme",
+        "len",
+        "na",
+        "ceste.",
+        "Môžeme",
+        "vám",
+        "pomôcť?",
+        "deň",
+        "odtiaľto"
       ]
     },
     {
@@ -218,15 +237,36 @@
       "l2": "Presne tak. Ďakujem vám. A prosím, buďte opatrní. Prúd je silný.",
       "tokens_l1": [
         "Exactement.",
-        "Merci à vous.",
-        "Et faites attention, s'il vous plaît.",
-        "Le courant est fort."
+        "Merci",
+        "à",
+        "vous.",
+        "Et",
+        "faites",
+        "attention,",
+        "s'il",
+        "vous",
+        "plaît.",
+        "Le",
+        "courant",
+        "est",
+        "fort.",
+        "êtes",
+        "d'ici"
       ],
       "tokens_l2": [
-        "Presne tak.",
-        "Ďakujem vám.",
-        "A prosím, buďte opatrní.",
-        "Prúd je silný."
+        "Presne",
+        "tak.",
+        "Ďakujem",
+        "vám.",
+        "A",
+        "prosím,",
+        "buďte",
+        "opatrní.",
+        "Prúd",
+        "je",
+        "silný.",
+        "odtiaľto",
+        "deň"
       ]
     }
   ]

@@ -5,8 +5,8 @@ static const Gloss ep0_dialog_g0[3] = { {"Električka", "le tram"}, {"ide pomaly
 static const Gloss ep0_dialog_g1[4] = { {"V električke", "dans le tram"}, {"sedí", "est assis"}, {"Pozerá von oknom", "il regarde par la fenêtre"}, {"a nič nehovorí", "et ne dit rien"} };
 static const Gloss ep0_dialog_g2[4] = { {"Oproti", "en face"}, {"sedí", "est assise"}, {"zajačica", "une hase"}, {"a číta knihu", "et lit un livre"} };
 static const Gloss ep0_dialog_g3[3] = { {"Počkaj", "attends"}, {"To nie je", "ce n'est pas"}, {"možné", "possible"} };
-static const char* const ep0_dialog_c3_items[3] = { "Počkaj...", "To nie je", "možné." };
-static const Choice ep0_dialog_c3 = { CH_ORDER, "order-po-kaj-to-nie-je-mo-n", ep0_dialog_c3_items, 3 };
+static const char* const ep0_dialog_c3_items[7] = { "Počkaj...", "To", "nie", "je", "možné.", "tu", "si" };
+static const Choice ep0_dialog_c3 = { CH_ORDER, "order-po-kaj-to-nie-je-mo-n", ep0_dialog_c3_items, 7 };
 static const Gloss ep0_dialog_g4[1] = { {"To si ty", "c'est toi"} };
 static const char* const ep0_dialog_c4_items[3] = { "Andrea? To si ty?", "Andrea? To som ty?", "Andrea? To je ty?" };
 static const Choice ep0_dialog_c4 = { CH_PICK, "qcm-si", ep0_dialog_c4_items, 3 };
@@ -56,10 +56,10 @@ static const char* const ep0_x4_cfr[3] = { "le ticket", "la ville", "le tram" };
 static const char* const ep0_x5_cfr[3] = { "Andrea ? C'est moi ?", "Andrea ? Tu es là ?", "Andrea ? C'est vraiment moi ?" };
 static const char* const ep0_x6_cfr[3] = { "Oui ! C'est toi !", "Attends ! C'est moi !", "Oui ! C'est vraiment toi !" };
 static const char* const ep0_x7_cfr[3] = { "Je suis là ? À Košice ? Dans le tram ?", "Tu es là ? À Košice ? En ville ?", "C'est toi ? À Košice ? Dans le tram ?" };
-static const char* const ep0_x8_tsk[3] = { "Počkaj...", "To nie je", "možné." };
-static const char* const ep0_x8_tfr[3] = { "Attends...", "C'est pas", "possible." };
-static const char* const ep0_x9_tsk[3] = { "Ty si tu?", "V Košiciach?", "V električke?" };
-static const char* const ep0_x9_tfr[3] = { "Tu es là ?", "À Košice ?", "Dans le tram ?" };
+static const char* const ep0_x8_tsk[7] = { "Počkaj...", "To", "nie", "je", "možné.", "tu", "si" };
+static const char* const ep0_x8_tfr[6] = { "Attends...", "C'est", "pas", "possible.", "tram", "là" };
+static const char* const ep0_x9_tsk[8] = { "Ty", "si", "tu?", "V Košiciach?", "V električke?", "nie", "možné", "je" };
+static const char* const ep0_x9_tfr[13] = { "Tu", "es", "là", "?", "À", "Košice", "?", "Dans", "le", "tram", "?", "possible", "pas" };
 static const Exercise ep0_exercises[10] = {
   {EX_QCM, "qcm-si", "si", "tu es", ep0_x0_csk, ep0_x0_cfr, 3, nullptr, nullptr, 0},
   {EX_QCM, "qcm-naozaj", "naozaj", "vraiment", ep0_x1_csk, ep0_x1_cfr, 3, nullptr, nullptr, 0},
@@ -69,8 +69,8 @@ static const Exercise ep0_exercises[10] = {
   {EX_LISTEN, "listen-andrea-to-si-ty", "Andrea? To si ty?", "Andrea ? C'est toi ?", nullptr, ep0_x5_cfr, 3, nullptr, nullptr, 0},
   {EX_LISTEN, "listen-no-to-som-ja", "Áno! To som ja!", "Oui ! C'est moi !", nullptr, ep0_x6_cfr, 3, nullptr, nullptr, 0},
   {EX_LISTEN, "listen-ty-si-tu-v-ko-iciach-v-elektri-ke", "Ty si tu? V Košiciach? V električke?", "Tu es là ? À Košice ? Dans le tram ?", nullptr, ep0_x7_cfr, 3, nullptr, nullptr, 0},
-  {EX_ORDER, "order-po-kaj-to-nie-je-mo-n", "Počkaj... To nie je možné.", "Attends... C'est pas possible.", nullptr, nullptr, 0, ep0_x8_tsk, ep0_x8_tfr, 3},
-  {EX_ORDER, "order-ty-si-tu-v-ko-iciach-v-elektri-ke", "Ty si tu? V Košiciach? V električke?", "Tu es là ? À Košice ? Dans le tram ?", nullptr, nullptr, 0, ep0_x9_tsk, ep0_x9_tfr, 3},
+  {EX_ORDER, "order-po-kaj-to-nie-je-mo-n", "Počkaj... To nie je možné.", "Attends... C'est pas possible.", nullptr, nullptr, 0, ep0_x8_tsk, ep0_x8_tfr, 7},
+  {EX_ORDER, "order-ty-si-tu-v-ko-iciach-v-elektri-ke", "Ty si tu? V Košiciach? V električke?", "Tu es là ? À Košice ? Dans le tram ?", nullptr, nullptr, 0, ep0_x9_tsk, ep0_x9_tfr, 8},
 };
 static const Line ep0_bonus[2] = {
   {SPK_ANDREA, "Ešte stále vieš po slovensky!", "Tu parles toujours slovaque !", nullptr, 0, nullptr, nullptr},
@@ -81,8 +81,8 @@ static const Episode ep0 = { "10_Series_01_Kosice_01_to-si-ty", "Košice", 1, 1,
 
 static const Gloss ep1_dialog_g0[2] = { {"Dlho", "longtemps"}, {"sme sa nevideli", "on ne s'est pas vus"} };
 static const Gloss ep1_dialog_g1[3] = { {"Veľmi", "très"}, {"dlho", "longtemps"}, {"Päť rokov", "cinq ans"} };
-static const char* const ep1_dialog_c1_items[3] = { "Veľmi", "dlho.", "Päť rokov." };
-static const Choice ep1_dialog_c1 = { CH_ORDER, "order-ve-mi-dlho-p-rokov", ep1_dialog_c1_items, 3 };
+static const char* const ep1_dialog_c1_items[6] = { "Veľmi", "dlho.", "Päť", "rokov.", "mám", "ťa" };
+static const Choice ep1_dialog_c1 = { CH_ORDER, "order-ve-mi-dlho-p-rokov", ep1_dialog_c1_items, 6 };
 static const Gloss ep1_dialog_g2[2] = { {"Päť rokov", "cinq ans"}, {"Ako sa máš", "comment ça va"} };
 static const Gloss ep1_dialog_g3[3] = { {"Mám sa", "je me porte"}, {"super", "super"}, {"A ty", "et toi"} };
 static const Gloss ep1_dialog_g4[4] = { {"Aj ja", "moi aussi"}, {"sa mám dobre", "je vais bien"}, {"Rada", "contente"}, {"ťa vidím", "je te vois"} };
@@ -128,10 +128,10 @@ static const char* const ep1_x4_cfr[3] = { "te", "content (dit par un garçon)",
 static const char* const ep1_x5_cfr[3] = { "On ne se voit pas souvent.", "On se connaît depuis longtemps.", "On ne s'est jamais vus." };
 static const char* const ep1_x6_cfr[3] = { "Ça va bien ! Et toi ?", "Ça va super ! Moi aussi.", "Je suis content ! Et toi ?" };
 static const char* const ep1_x7_cfr[3] = { "Moi aussi, ça va super. Je suis contente de te voir.", "Moi aussi, ça va bien. Je suis content de te voir.", "Moi aussi, ça va bien. Ça fait longtemps." };
-static const char* const ep1_x8_tsk[3] = { "Veľmi", "dlho.", "Päť rokov." };
-static const char* const ep1_x8_tfr[3] = { "Très", "longtemps.", "Cinq ans." };
-static const char* const ep1_x9_tsk[3] = { "Čau!", "Ako", "sa máš?" };
-static const char* const ep1_x9_tfr[3] = { "Salut !", "Comment", "ça va ?" };
+static const char* const ep1_x8_tsk[6] = { "Veľmi", "dlho.", "Päť", "rokov.", "mám", "ťa" };
+static const char* const ep1_x8_tfr[6] = { "Très", "longtemps.", "Cinq", "ans.", "va", "bien" };
+static const char* const ep1_x9_tsk[5] = { "Čau!", "Ako", "sa máš?", "ťa", "vidím" };
+static const char* const ep1_x9_tfr[8] = { "Salut", "!", "Comment", "ça", "va", "?", "de", "aussi" };
 static const Exercise ep1_exercises[10] = {
   {EX_QCM, "qcm-r-d", "rád", "content (dit par un garçon)", ep1_x0_csk, ep1_x0_cfr, 3, nullptr, nullptr, 0},
   {EX_QCM, "qcm-rada", "rada", "contente (dit par une fille)", ep1_x1_csk, ep1_x1_cfr, 3, nullptr, nullptr, 0},
@@ -141,8 +141,8 @@ static const Exercise ep1_exercises[10] = {
   {EX_LISTEN, "listen-dlho-sme-sa-nevideli", "Dlho sme sa nevideli.", "On ne s'est pas vus depuis longtemps.", nullptr, ep1_x5_cfr, 3, nullptr, nullptr, 0},
   {EX_LISTEN, "listen-m-m-sa-super-a-ty", "Mám sa super! A ty?", "Ça va super ! Et toi ?", nullptr, ep1_x6_cfr, 3, nullptr, nullptr, 0},
   {EX_LISTEN, "listen-aj-ja-sa-m-m-dobre-rada-a-vid-m", "Aj ja sa mám dobre. Rada ťa vidím.", "Moi aussi, ça va bien. Je suis contente de te voir.", nullptr, ep1_x7_cfr, 3, nullptr, nullptr, 0},
-  {EX_ORDER, "order-ve-mi-dlho-p-rokov", "Veľmi dlho. Päť rokov.", "Très longtemps. Cinq ans.", nullptr, nullptr, 0, ep1_x8_tsk, ep1_x8_tfr, 3},
-  {EX_ORDER, "order-au-ako-sa-m", "Čau! Ako sa máš?", "Salut ! Comment ça va ?", nullptr, nullptr, 0, ep1_x9_tsk, ep1_x9_tfr, 3},
+  {EX_ORDER, "order-ve-mi-dlho-p-rokov", "Veľmi dlho. Päť rokov.", "Très longtemps. Cinq ans.", nullptr, nullptr, 0, ep1_x8_tsk, ep1_x8_tfr, 6},
+  {EX_ORDER, "order-au-ako-sa-m", "Čau! Ako sa máš?", "Salut ! Comment ça va ?", nullptr, nullptr, 0, ep1_x9_tsk, ep1_x9_tfr, 5},
 };
 static const Line ep1_bonus[2] = {
   {SPK_ANDREA, "Tvoja slovenčina je stále dobrá!", "Ton slovaque est toujours bon !", nullptr, 0, nullptr, nullptr},
@@ -153,8 +153,8 @@ static const Episode ep1 = { "10_Series_01_Kosice_02_ako-sa-mas", "Košice", 1, 
 
 static const Gloss ep2_dialog_g0[3] = { {"Čo tu robíš", "qu'est-ce que tu fais ici"}, {"Bývaš", "tu habites"}, {"v Košiciach", "à Košice"} };
 static const Gloss ep2_dialog_g1[4] = { {"Nie", "non"}, {"bývam v Lyone", "j'habite à Lyon"}, {"Som tu", "je suis ici"}, {"na prázdninách", "en vacances"} };
-static const char* const ep2_dialog_c1_items[4] = { "Nie,", "bývam v Lyone.", "Som tu", "na prázdninách." };
-static const Choice ep2_dialog_c1 = { CH_ORDER, "order-nie-b-vam-v-lyone-som-tu-na-pr-zdnin-ch", ep2_dialog_c1_items, 4 };
+static const char* const ep2_dialog_c1_items[9] = { "Nie,", "bývam", "v", "Lyone.", "Som", "tu", "na prázdninách.", "mama", "tvoja" };
+static const Choice ep2_dialog_c1 = { CH_ORDER, "order-nie-b-vam-v-lyone-som-tu-na-pr-zdnin-ch", ep2_dialog_c1_items, 9 };
 static const Gloss ep2_dialog_g2[1] = { {"Sám", "seul"} };
 static const Gloss ep2_dialog_g3[2] = { {"Áno", "oui"}, {"sám", "seul"} };
 static const char* const ep2_dialog_c3_items[3] = { "Áno, sám.", "Áno, sama.", "Áno, sami." };
@@ -204,10 +204,10 @@ static const char* const ep2_x4_cfr[3] = { "seul (dit par un garçon)", "quoi, q
 static const char* const ep2_x5_cfr[3] = { "Qu'est-ce que tu fais ici ? Tu habites à Lyon ?", "Où es-tu ? Tu habites à Košice ?", "Qu'est-ce que je fais ici ? J'habite à Košice ?" };
 static const char* const ep2_x6_cfr[3] = { "Oui, j'habite à Lyon. Je suis ici en vacances.", "Non, j'habite à Košice. Je suis ici en vacances.", "Non, j'habite à Lyon. Je suis ici avec maman." };
 static const char* const ep2_x7_cfr[3] = { "Et ta maman est là ?", "Et ta maman habite ici ?", "Et ta maman va bien ?" };
-static const char* const ep2_x8_tsk[4] = { "Nie,", "bývam v Lyone.", "Som tu", "na prázdninách." };
-static const char* const ep2_x8_tfr[4] = { "Non,", "j'habite à Lyon.", "Je suis ici", "en vacances." };
-static const char* const ep2_x9_tsk[3] = { "A tvoja mama", "o tom", "vie?" };
-static const char* const ep2_x9_tfr[3] = { "Et ta maman", "est", "au courant ?" };
+static const char* const ep2_x8_tsk[9] = { "Nie,", "bývam", "v", "Lyone.", "Som", "tu", "na prázdninách.", "mama", "tvoja" };
+static const char* const ep2_x8_tfr[10] = { "Non,", "j'habite", "à", "Lyon.", "Je", "suis", "ici", "en vacances.", "au", "ta" };
+static const char* const ep2_x9_tsk[8] = { "A", "tvoja", "mama", "o tom", "vie?", "prázdninách", "na", "v" };
+static const char* const ep2_x9_tfr[10] = { "Et", "ta", "maman", "est", "au", "courant", "?", "ici", "vacances", "en" };
 static const Exercise ep2_exercises[10] = {
   {EX_QCM, "qcm-rob", "robíš", "tu fais", ep2_x0_csk, ep2_x0_cfr, 3, nullptr, nullptr, 0},
   {EX_QCM, "qcm-b-vam", "bývam", "j'habite", ep2_x1_csk, ep2_x1_cfr, 3, nullptr, nullptr, 0},
@@ -217,8 +217,8 @@ static const Exercise ep2_exercises[10] = {
   {EX_LISTEN, "listen-o-tu-rob-b-va-v-ko-iciach", "Čo tu robíš? Bývaš v Košiciach?", "Qu'est-ce que tu fais ici ? Tu habites à Košice ?", nullptr, ep2_x5_cfr, 3, nullptr, nullptr, 0},
   {EX_LISTEN, "listen-nie-b-vam-v-lyone-som-tu-na-pr-zdnin-ch", "Nie, bývam v Lyone. Som tu na prázdninách.", "Non, j'habite à Lyon. Je suis ici en vacances.", nullptr, ep2_x6_cfr, 3, nullptr, nullptr, 0},
   {EX_LISTEN, "listen-a-tvoja-mama-o-tom-vie", "A tvoja mama o tom vie?", "Et ta maman est au courant ?", nullptr, ep2_x7_cfr, 3, nullptr, nullptr, 0},
-  {EX_ORDER, "order-nie-b-vam-v-lyone-som-tu-na-pr-zdnin-ch", "Nie, bývam v Lyone. Som tu na prázdninách.", "Non, j'habite à Lyon. Je suis ici en vacances.", nullptr, nullptr, 0, ep2_x8_tsk, ep2_x8_tfr, 4},
-  {EX_ORDER, "order-a-tvoja-mama-o-tom-vie", "A tvoja mama o tom vie?", "Et ta maman est au courant ?", nullptr, nullptr, 0, ep2_x9_tsk, ep2_x9_tfr, 3},
+  {EX_ORDER, "order-nie-b-vam-v-lyone-som-tu-na-pr-zdnin-ch", "Nie, bývam v Lyone. Som tu na prázdninách.", "Non, j'habite à Lyon. Je suis ici en vacances.", nullptr, nullptr, 0, ep2_x8_tsk, ep2_x8_tfr, 9},
+  {EX_ORDER, "order-a-tvoja-mama-o-tom-vie", "A tvoja mama o tom vie?", "Et ta maman est au courant ?", nullptr, nullptr, 0, ep2_x9_tsk, ep2_x9_tfr, 8},
 };
 static const Line ep2_bonus[1] = {
   {SPK_ANDREA, "Sám na prázdninách? Si odvážny!", "Tout seul en vacances ? Tu es courageux !", nullptr, 0, nullptr, nullptr},
@@ -287,8 +287,8 @@ static const char* const ep3_x5_cfr[3] = { "Tu habites dans les Tatras ?", "Je m
 static const char* const ep3_x6_cfr[3] = { "Bien. Katka a quatorze ans et Maťo treize.", "Bien. Katka a trois ans et Maťo quatre.", "Bien. Katka a seize ans et Maťo quinze." };
 static const char* const ep3_x7_cfr[3] = { "Tu vois ? Le tram passe.", "Tu vois ? Il fait beau.", "Tu sais ? Le temps passe." };
 static const char* const ep3_x8_cfr[3] = { "Toi, tu en avais onze. Et moi, dix. Maintenant j'en ai seize.", "Toi, tu en avais dix. Et moi, onze. Maintenant j'en ai quinze.", "Toi, tu en as dix. Et moi, onze. Maintenant j'en ai seize." };
-static const char* const ep3_x9_tsk[3] = { "Ty si mal desať.", "A ja som mala jedenásť.", "Teraz mám šestnásť." };
-static const char* const ep3_x9_tfr[3] = { "Toi, tu en avais dix.", "Et moi, onze.", "Maintenant j'en ai seize." };
+static const char* const ep3_x9_tsk[14] = { "Ty", "si", "mal", "desať.", "A", "ja", "som", "mala", "jedenásť.", "Teraz", "mám", "šestnásť.", "gymnázium", "na" };
+static const char* const ep3_x9_tfr[14] = { "Toi,", "tu", "en", "avais", "dix.", "Et", "moi,", "onze.", "Maintenant", "j'en", "ai", "seize.", "vais", "lycée" };
 static const char* const ep3_x10_tsk[3] = { "Chodím", "na", "gymnázium." };
 static const char* const ep3_x10_tfr[3] = { "Je vais", "au", "lycée." };
 static const Exercise ep3_exercises[11] = {
@@ -301,7 +301,7 @@ static const Exercise ep3_exercises[11] = {
   {EX_LISTEN, "listen-dobre-katka-m-trin-s-a-ma-o-trn-s", "Dobre. Katka má trinásť a Maťo štrnásť.", "Bien. Katka a treize ans et Maťo quatorze.", nullptr, ep3_x6_cfr, 3, nullptr, nullptr, 0},
   {EX_LISTEN, "listen-vid-as-ide", "Vidíš? Čas ide.", "Tu vois ? Le temps passe.", nullptr, ep3_x7_cfr, 3, nullptr, nullptr, 0},
   {EX_LISTEN, "listen-ty-si-mal-desa-a-ja-som-mala-jeden-s-teraz-m-m-estn-s", "Ty si mal desať. A ja som mala jedenásť. Teraz mám šestnásť.", "Toi, tu en avais dix. Et moi, onze. Maintenant j'en ai seize.", nullptr, ep3_x8_cfr, 3, nullptr, nullptr, 0},
-  {EX_ORDER, "order-ty-si-mal-desa-a-ja-som-mala-jeden-s-teraz-m-m-estn-s", "Ty si mal desať. A ja som mala jedenásť. Teraz mám šestnásť.", "Toi, tu en avais dix. Et moi, onze. Maintenant j'en ai seize.", nullptr, nullptr, 0, ep3_x9_tsk, ep3_x9_tfr, 3},
+  {EX_ORDER, "order-ty-si-mal-desa-a-ja-som-mala-jeden-s-teraz-m-m-estn-s", "Ty si mal desať. A ja som mala jedenásť. Teraz mám šestnásť.", "Toi, tu en avais dix. Et moi, onze. Maintenant j'en ai seize.", nullptr, nullptr, 0, ep3_x9_tsk, ep3_x9_tfr, 14},
   {EX_ORDER, "order-chod-m-na-gymn-zium", "Chodím na gymnázium.", "Je vais au lycée.", nullptr, nullptr, 0, ep3_x10_tsk, ep3_x10_tfr, 3},
 };
 static const Line ep3_bonus[1] = {
@@ -381,12 +381,12 @@ static const char* const ep4_x5_cfr[3] = { "Mais toi, tu es mon copain !", "Mais
 static const char* const ep4_x6_cfr[3] = { "Oui, chez ma maman. Je vais au lycée.", "Oui, chez ma tante. Je vais à la cathédrale.", "Non, à Lyon. Je vais au lycée." };
 static const char* const ep4_x7_cfr[3] = { "C'est vrai.", "C'est pas possible.", "C'est pas moi." };
 static const char* const ep4_x8_cfr[3] = { "C'est mon ticket. Viens !", "C'est ma ville. Viens !", "C'est mon arrêt. Attends !" };
-static const char* const ep4_x9_tsk[4] = { "Áno,", "u mojej tety.", "Chodím", "na gymnázium." };
-static const char* const ep4_x9_tfr[4] = { "Oui,", "chez ma tante.", "Je vais", "au lycée." };
-static const char* const ep4_x10_tsk[3] = { "Dóm svätej Alžbety.", "Najväčší kostol", "na Slovensku." };
-static const char* const ep4_x10_tfr[3] = { "La cathédrale Sainte-Élisabeth.", "La plus grande église", "de Slovaquie." };
-static const char* const ep4_x11_tsk[3] = { "To je", "moja zastávka.", "Poď!" };
-static const char* const ep4_x11_tfr[3] = { "C'est", "mon arrêt.", "Viens !" };
+static const char* const ep4_x9_tsk[9] = { "Áno,", "u", "mojej", "tety.", "Chodím", "na gymnázium.", "som", "ja", "tvoj" };
+static const char* const ep4_x9_tfr[9] = { "Oui,", "chez", "ma", "tante.", "Je vais", "au lycée.", "ton", "suis", "moi" };
+static const char* const ep4_x10_tsk[9] = { "Dóm", "svätej", "Alžbety.", "Najväčší", "kostol", "na Slovensku.", "ja", "tvoj", "kamarát" };
+static const char* const ep4_x10_tfr[11] = { "La", "cathédrale", "Sainte-Élisabeth.", "La", "plus", "grande", "église", "de Slovaquie.", "je", "copain", "suis" };
+static const char* const ep4_x11_tsk[6] = { "To je", "moja", "zastávka.", "Poď!", "ja", "tvoj" };
+static const char* const ep4_x11_tfr[7] = { "C'est", "mon", "arrêt.", "Viens", "!", "suis", "je" };
 static const char* const ep4_x12_csk[3] = { "hovorím", "rozumiem", "musím" };
 static const char* const ep4_x12_cfr[3] = { "je parle", "je comprends", "je dois" };
 static const char* const ep4_x13_cfr[3] = { "Il faut que je parte. Sinon, je suis en retard.", "Je veux parler. Sinon, je dors.", "Il faut que je parle. Sinon, je pleure." };
@@ -400,9 +400,9 @@ static const Exercise ep4_exercises[14] = {
   {EX_LISTEN, "listen-no-u-mojej-tety-chod-m-na-gymn-zium", "Áno, u mojej tety. Chodím na gymnázium.", "Oui, chez ma tante. Je vais au lycée.", nullptr, ep4_x6_cfr, 3, nullptr, nullptr, 0},
   {EX_LISTEN, "listen-to-nie-je-pravda", "To nie je pravda.", "C'est pas vrai.", nullptr, ep4_x7_cfr, 3, nullptr, nullptr, 0},
   {EX_LISTEN, "listen-to-je-moja-zast-vka-po", "To je moja zastávka. Poď!", "C'est mon arrêt. Viens !", nullptr, ep4_x8_cfr, 3, nullptr, nullptr, 0},
-  {EX_ORDER, "order-no-u-mojej-tety-chod-m-na-gymn-zium", "Áno, u mojej tety. Chodím na gymnázium.", "Oui, chez ma tante. Je vais au lycée.", nullptr, nullptr, 0, ep4_x9_tsk, ep4_x9_tfr, 4},
-  {EX_ORDER, "order-d-m-sv-tej-al-bety-najv-kostol-na-slovensku", "Dóm svätej Alžbety. Najväčší kostol na Slovensku.", "La cathédrale Sainte-Élisabeth. La plus grande église de Slovaquie.", nullptr, nullptr, 0, ep4_x10_tsk, ep4_x10_tfr, 3},
-  {EX_ORDER, "order-to-je-moja-zast-vka-po", "To je moja zastávka. Poď!", "C'est mon arrêt. Viens !", nullptr, nullptr, 0, ep4_x11_tsk, ep4_x11_tfr, 3},
+  {EX_ORDER, "order-no-u-mojej-tety-chod-m-na-gymn-zium", "Áno, u mojej tety. Chodím na gymnázium.", "Oui, chez ma tante. Je vais au lycée.", nullptr, nullptr, 0, ep4_x9_tsk, ep4_x9_tfr, 9},
+  {EX_ORDER, "order-d-m-sv-tej-al-bety-najv-kostol-na-slovensku", "Dóm svätej Alžbety. Najväčší kostol na Slovensku.", "La cathédrale Sainte-Élisabeth. La plus grande église de Slovaquie.", nullptr, nullptr, 0, ep4_x10_tsk, ep4_x10_tfr, 9},
+  {EX_ORDER, "order-to-je-moja-zast-vka-po", "To je moja zastávka. Poď!", "C'est mon arrêt. Viens !", nullptr, nullptr, 0, ep4_x11_tsk, ep4_x11_tfr, 6},
   {EX_QCM, "qcm-zabudnem", "zabudnem", "j'oublie", ep4_x12_csk, ep4_x12_cfr, 3, nullptr, nullptr, 0},
   {EX_LISTEN, "listen-musim-hovorit-inak-zabudnem", "Musím hovoriť. Inak zabudnem.", "Il faut que je parle. Sinon, j'oublie.", nullptr, ep4_x13_cfr, 3, nullptr, nullptr, 0},
 };
@@ -420,8 +420,8 @@ static const Gloss ep5_dialog_g3[4] = { {"Nemusíš", "tu n'es pas obligé"}, {"
 static const Gloss ep5_dialog_g4[1] = { {"Nevie", "elle ne sait pas"} };
 static const Gloss ep5_dialog_g5[3] = { {"Budeš spať", "tu vas dormir"}, {"v záhrade", "dans le jardin"}, {"Pod jabloňou", "sous le pommier"} };
 static const Gloss ep5_dialog_g6[3] = { {"Ďakujem", "merci"}, {"Som rád", "je suis content"}, {"že ťa vidím", "de te voir"} };
-static const char* const ep5_dialog_c6_items[3] = { "Ďakujem, Andrea.", "Som rád,", "že ťa vidím." };
-static const Choice ep5_dialog_c6 = { CH_ORDER, "order-akujem-andrea-som-r-d-e-a-vid-m", ep5_dialog_c6_items, 3 };
+static const char* const ep5_dialog_c6_items[10] = { "Ďakujem,", "Andrea.", "Som", "rád,", "že", "ťa", "vidím.", "je", "ja", "tu" };
+static const Choice ep5_dialog_c6 = { CH_ORDER, "order-akujem-andrea-som-r-d-e-a-vid-m", ep5_dialog_c6_items, 10 };
 static const Gloss ep5_dialog_g7[3] = { {"Aj ja", "moi aussi"}, {"Teraz si tu", "maintenant tu es là"}, {"To je skvelé", "c'est super"} };
 static const Gloss ep5_dialog_g8[4] = { {"Ale", "mais"}, {"ja som tu", "moi, je suis ici"}, {"len", "seulement"}, {"na prázdninách", "en vacances"} };
 static const Gloss ep5_dialog_g9[2] = { {"Uvidíme", "on verra"}, {"Dobrú noc", "bonne nuit"} };
@@ -447,12 +447,12 @@ static const char* const ep5_x2_cfr[3] = { "Tu vas dormir dans le tram. Sous le 
 static const char* const ep5_x3_cfr[3] = { "Moi aussi. Maintenant je suis là. C'est super.", "Toi aussi. Maintenant tu es là. C'est bizarre.", "Moi non. Maintenant tu es là. C'est super." };
 static const char* const ep5_x4_cfr[3] = { "Mais moi, j'habite ici...", "Mais moi, je suis ici avec maman...", "Mais toi, tu n'es ici qu'en vacances..." };
 static const char* const ep5_x5_cfr[3] = { "C'est le matin. Devant la maison, il y a un grand jardin.", "C'est le soir. Devant la maison, il y a une grande cathédrale.", "C'est le soir. Dans la maison, il y a une grande tante." };
-static const char* const ep5_x6_tsk[3] = { "Ďakujem, Andrea.", "Som rád,", "že ťa vidím." };
-static const char* const ep5_x6_tfr[3] = { "Merci, Andrea.", "Je suis content", "de te voir." };
-static const char* const ep5_x7_tsk[3] = { "Aj ja.", "Teraz si tu.", "To je skvelé." };
-static const char* const ep5_x7_tfr[3] = { "Moi aussi.", "Maintenant tu es là.", "C'est super." };
-static const char* const ep5_x8_tsk[3] = { "Nemusíš.", "Teta", "o tebe nevie." };
-static const char* const ep5_x8_tfr[3] = { "Tu n'as pas à avoir peur.", "Ma tante ne sait pas", "que tu es là." };
+static const char* const ep5_x6_tsk[10] = { "Ďakujem,", "Andrea.", "Som", "rád,", "že", "ťa", "vidím.", "je", "ja", "tu" };
+static const char* const ep5_x6_tfr[11] = { "Merci,", "Andrea.", "Je", "suis", "content", "de", "te", "voir.", "là", "super", "es" };
+static const char* const ep5_x7_tsk[10] = { "Aj ja.", "Teraz", "si", "tu.", "To", "je", "skvelé.", "spať", "v", "jabloňou" };
+static const char* const ep5_x7_tfr[11] = { "Moi", "aussi.", "Maintenant", "tu", "es", "là.", "C'est", "super.", "jardin", "pommier", "dormir" };
+static const char* const ep5_x8_tsk[7] = { "Nemusíš.", "Teta", "o", "tebe", "nevie.", "skvelé", "tu" };
+static const char* const ep5_x8_tfr[17] = { "Tu", "n'as", "pas", "à", "avoir", "peur.", "Ma", "tante", "ne", "sait", "pas", "que", "tu", "es", "là.", "super", "aussi" };
 static const Exercise ep5_exercises[9] = {
   {EX_LISTEN, "listen-tu-b-va-moja-teta-je-mil-ale-ve-k-a-siln", "Tu býva moja teta. Je milá. Ale veľká a silná.", "C'est là qu'habite ma tante. Elle est gentille. Mais grande et forte.", nullptr, ep5_x0_cfr, 3, nullptr, nullptr, 0},
   {EX_LISTEN, "listen-boj-m-sa", "Bojím sa.", "J'ai peur.", nullptr, ep5_x1_cfr, 3, nullptr, nullptr, 0},
@@ -460,9 +460,9 @@ static const Exercise ep5_exercises[9] = {
   {EX_LISTEN, "listen-aj-ja-teraz-si-tu-to-je-skvel", "Aj ja. Teraz si tu. To je skvelé.", "Moi aussi. Maintenant tu es là. C'est super.", nullptr, ep5_x3_cfr, 3, nullptr, nullptr, 0},
   {EX_LISTEN, "listen-ale-ja-som-tu-len-na-pr-zdnin-ch", "Ale ja som tu len na prázdninách...", "Mais moi, je ne suis ici qu'en vacances...", nullptr, ep5_x4_cfr, 3, nullptr, nullptr, 0},
   {EX_LISTEN, "listen-je-ve-er-pred-domom-je-ve-k-z-hrada", "Je večer. Pred domom je veľká záhrada.", "C'est le soir. Devant la maison, il y a un grand jardin.", nullptr, ep5_x5_cfr, 3, nullptr, nullptr, 0},
-  {EX_ORDER, "order-akujem-andrea-som-r-d-e-a-vid-m", "Ďakujem, Andrea. Som rád, že ťa vidím.", "Merci, Andrea. Je suis content de te voir.", nullptr, nullptr, 0, ep5_x6_tsk, ep5_x6_tfr, 3},
-  {EX_ORDER, "order-aj-ja-teraz-si-tu-to-je-skvel", "Aj ja. Teraz si tu. To je skvelé.", "Moi aussi. Maintenant tu es là. C'est super.", nullptr, nullptr, 0, ep5_x7_tsk, ep5_x7_tfr, 3},
-  {EX_ORDER, "order-nemus-teta-o-tebe-nevie", "Nemusíš. Teta o tebe nevie.", "Tu n'as pas à avoir peur. Ma tante ne sait pas que tu es là.", nullptr, nullptr, 0, ep5_x8_tsk, ep5_x8_tfr, 3},
+  {EX_ORDER, "order-akujem-andrea-som-r-d-e-a-vid-m", "Ďakujem, Andrea. Som rád, že ťa vidím.", "Merci, Andrea. Je suis content de te voir.", nullptr, nullptr, 0, ep5_x6_tsk, ep5_x6_tfr, 10},
+  {EX_ORDER, "order-aj-ja-teraz-si-tu-to-je-skvel", "Aj ja. Teraz si tu. To je skvelé.", "Moi aussi. Maintenant tu es là. C'est super.", nullptr, nullptr, 0, ep5_x7_tsk, ep5_x7_tfr, 10},
+  {EX_ORDER, "order-nemus-teta-o-tebe-nevie", "Nemusíš. Teta o tebe nevie.", "Tu n'as pas à avoir peur. Ma tante ne sait pas que tu es là.", nullptr, nullptr, 0, ep5_x8_tsk, ep5_x8_tfr, 7},
 };
 static const Line ep5_bonus[1] = {
   {SPK_ANDREA, "Dobre sa vyspi, líška.", "Dors bien, renard.", nullptr, 0, nullptr, nullptr},
@@ -473,8 +473,8 @@ static const Episode ep5 = { "10_Series_01_Kosice_06_extra", "Košice", 1, 6, "D
 static const Gloss ep6_dialog_g0[4] = { {"Ráno", "le matin"}, {"Slnko", "le soleil"}, {"je už vysoko", "est déjà haut"}, {"spí pod jabloňou", "dort sous le pommier"} };
 static const Gloss ep6_dialog_g1[1] = { {"Vstávaj", "lève-toi"} };
 static const Gloss ep6_dialog_g2[3] = { {"Čo", "quoi"}, {"Kde som", "où je suis"}, {"V záhrade", "dans le jardin"} };
-static const char* const ep6_dialog_c2_items[4] = { "Čo...", "Kde som?", "Aha.", "V záhrade." };
-static const Choice ep6_dialog_c2 = { CH_ORDER, "order-o-kde-som-aha-v-z-hrade", ep6_dialog_c2_items, 4 };
+static const char* const ep6_dialog_c2_items[7] = { "Čo...", "Kde", "som?", "Aha.", "V záhrade.", "nepršalo", "sucho" };
+static const Choice ep6_dialog_c2 = { CH_ORDER, "order-o-kde-som-aha-v-z-hrade", ep6_dialog_c2_items, 7 };
 static const Gloss ep6_dialog_g3[3] = { {"Tu máš vodu", "tiens, de l'eau"}, {"Len trochu", "juste un peu"}, {"Viac nemám", "je n'en ai pas plus"} };
 static const Gloss ep6_dialog_g4[4] = { {"Ďakujem", "merci"}, {"Aké je", "comment est"}, {"dnes", "aujourd'hui"}, {"počasie", "le temps (la météo)"} };
 static const char* const ep6_dialog_c4_items[3] = { "Ďakujem. Aké je dnes počasie?", "Ďakujem. Aké je každé ráno počasie?", "Ďakujem. Aké je dva mesiace počasie?" };
@@ -526,10 +526,10 @@ static const char* const ep6_x5_cfr[3] = { "Chaud. Et sec. Il n'a pas plu depuis
 static const char* const ep6_x6_cfr[3] = { "Merci. Il fait quel temps ce soir ?", "Merci. Où est l'eau aujourd'hui ?", "Merci. Il fait chaud aujourd'hui ?" };
 static const char* const ep6_x7_cfr[3] = { "Il y a un petit étang dans le jardin. J'y vais tous les matins.", "Il y a un petit étang dans le parc. J'y vais tous les soirs.", "Il y a un grand lac dans le parc. J'y vais tous les matins." };
 static const char* const ep6_x8_cfr[3] = { "Alors viens.", "Alors on verra.", "Alors attends." };
-static const char* const ep6_x9_tsk[3] = { "Tu máš vodu.", "Len trochu.", "Viac nemám." };
-static const char* const ep6_x9_tfr[3] = { "Tiens, de l'eau.", "Juste un peu.", "Je n'en ai pas plus." };
-static const char* const ep6_x10_tsk[4] = { "Čo...", "Kde som?", "Aha.", "V záhrade." };
-static const char* const ep6_x10_tfr[4] = { "Quoi...", "Où je suis ?", "Ah.", "Dans le jardin." };
+static const char* const ep6_x9_tsk[10] = { "Tu", "máš", "vodu.", "Len", "trochu.", "Viac", "nemám.", "sucho", "mesiace", "dva" };
+static const char* const ep6_x9_tfr[14] = { "Tiens,", "de", "l'eau.", "Juste", "un", "peu.", "Je", "n'en", "ai", "pas", "plus.", "depuis", "deux", "n'a" };
+static const char* const ep6_x10_tsk[7] = { "Čo...", "Kde", "som?", "Aha.", "V záhrade.", "nepršalo", "sucho" };
+static const char* const ep6_x10_tfr[11] = { "Quoi...", "Où", "je", "suis", "?", "Ah.", "Dans", "le", "jardin.", "n'a", "plu" };
 static const Exercise ep6_exercises[11] = {
   {EX_QCM, "qcm-hor-co", "horúco", "chaud", ep6_x0_csk, ep6_x0_cfr, 3, nullptr, nullptr, 0},
   {EX_QCM, "qcm-dnes", "dnes", "aujourd'hui", ep6_x1_csk, ep6_x1_cfr, 3, nullptr, nullptr, 0},
@@ -540,8 +540,8 @@ static const Exercise ep6_exercises[11] = {
   {EX_LISTEN, "listen-akujem-ak-je-dnes-po-asie", "Ďakujem. Aké je dnes počasie?", "Merci. Il fait quel temps aujourd'hui ?", nullptr, ep6_x6_cfr, 3, nullptr, nullptr, 0},
   {EX_LISTEN, "listen-v-parku-je-jazierko-chod-m-tam-ka-d-r-no", "V parku je jazierko. Chodím tam každé ráno.", "Il y a un petit étang dans le parc. J'y vais tous les matins.", nullptr, ep6_x7_cfr, 3, nullptr, nullptr, 0},
   {EX_LISTEN, "listen-tak-po-me", "Tak poďme.", "Alors allons-y.", nullptr, ep6_x8_cfr, 3, nullptr, nullptr, 0},
-  {EX_ORDER, "order-tu-m-vodu-len-trochu-viac-nem-m", "Tu máš vodu. Len trochu. Viac nemám.", "Tiens, de l'eau. Juste un peu. Je n'en ai pas plus.", nullptr, nullptr, 0, ep6_x9_tsk, ep6_x9_tfr, 3},
-  {EX_ORDER, "order-o-kde-som-aha-v-z-hrade", "Čo... Kde som? Aha. V záhrade.", "Quoi... Où je suis ? Ah. Dans le jardin.", nullptr, nullptr, 0, ep6_x10_tsk, ep6_x10_tfr, 4},
+  {EX_ORDER, "order-tu-m-vodu-len-trochu-viac-nem-m", "Tu máš vodu. Len trochu. Viac nemám.", "Tiens, de l'eau. Juste un peu. Je n'en ai pas plus.", nullptr, nullptr, 0, ep6_x9_tsk, ep6_x9_tfr, 10},
+  {EX_ORDER, "order-o-kde-som-aha-v-z-hrade", "Čo... Kde som? Aha. V záhrade.", "Quoi... Où je suis ? Ah. Dans le jardin.", nullptr, nullptr, 0, ep6_x10_tsk, ep6_x10_tfr, 7},
 };
 static const Line ep6_bonus[2] = {
   {SPK_ANDREA, "Dobré ráno, ospalec!", "Bonjour, la marmotte !", nullptr, 0, nullptr, nullptr},
@@ -618,8 +618,8 @@ static const char* const ep7_x7_cfr[3] = { "Maintenant, je comprends. Exactement
 static const char* const ep7_x8_cfr[3] = { "J'ai beaucoup d'eau.", "J'ai peu d'eau.", "Je cherche un peu d'eau." };
 static const char* const ep7_x9_tsk[3] = { "Aha.", "Som", "líška." };
 static const char* const ep7_x9_tfr[3] = { "Ah.", "Je suis", "un renard." };
-static const char* const ep7_x10_tsk[4] = { "Rozumiem,", "čo chceš povedať.", "Ale správne je:", "veľa hovorím." };
-static const char* const ep7_x10_tfr[4] = { "Je comprends", "ce que tu veux dire.", "Mais ce qu'il faut dire, c'est :", "« je parle beaucoup »." };
+static const char* const ep7_x10_tsk[10] = { "Rozumiem,", "čo", "chceš", "povedať.", "Ale", "správne", "je:", "veľa", "hovorím.", "líška" };
+static const char* const ep7_x10_tfr[19] = { "Je comprends", "ce", "que", "tu", "veux", "dire.", "Mais", "ce", "qu'il", "faut", "dire,", "c'est", ":", "«", "je", "parle", "beaucoup", "».", "renard" };
 static const Exercise ep7_exercises[11] = {
   {EX_QCM, "qcm-m-lo", "málo", "peu", ep7_x0_csk, ep7_x0_cfr, 3, nullptr, nullptr, 0},
   {EX_QCM, "qcm-chvost", "chvost", "la queue", ep7_x1_csk, ep7_x1_cfr, 3, nullptr, nullptr, 0},
@@ -631,7 +631,7 @@ static const Exercise ep7_exercises[11] = {
   {EX_LISTEN, "listen-teraz-to-ch-pem-skoro", "Teraz to chápem. Skoro.", "Maintenant, je comprends. Presque.", nullptr, ep7_x7_cfr, 3, nullptr, nullptr, 0},
   {EX_LISTEN, "listen-m-m-trochu-vody", "Mám trochu vody.", "J'ai un peu d'eau.", nullptr, ep7_x8_cfr, 3, nullptr, nullptr, 0},
   {EX_ORDER, "order-aha-som-l-ka", "Aha. Som líška.", "Ah. Je suis un renard.", nullptr, nullptr, 0, ep7_x9_tsk, ep7_x9_tfr, 3},
-  {EX_ORDER, "order-rozumiem-o-chce-poveda-ale-spr-vne-je-ve-a-hovor-m", "Rozumiem, čo chceš povedať. Ale správne je: veľa hovorím.", "Je comprends ce que tu veux dire. Mais ce qu'il faut dire, c'est : « je parle beaucoup ».", nullptr, nullptr, 0, ep7_x10_tsk, ep7_x10_tfr, 4},
+  {EX_ORDER, "order-rozumiem-o-chce-poveda-ale-spr-vne-je-ve-a-hovor-m", "Rozumiem, čo chceš povedať. Ale správne je: veľa hovorím.", "Je comprends ce que tu veux dire. Mais ce qu'il faut dire, c'est : « je parle beaucoup ».", nullptr, nullptr, 0, ep7_x10_tsk, ep7_x10_tfr, 10},
 };
 static const Line ep7_bonus[1] = {
   {SPK_ANDREA, "Vidíš? Už hovoríš správne.", "Tu vois ? Tu parles déjà correctement.", nullptr, 0, nullptr, nullptr},
@@ -642,8 +642,8 @@ static const Episode ep7 = { "10_Series_02_Sucho_02_vela-alebo-velmi", "Sucho", 
 static const Gloss ep8_dialog_g0[5] = { {"V parku", "dans le parc"}, {"je jazierko", "il y a un petit étang"}, {"Ale", "mais"}, {"vody je v ňom", "il y a de l'eau dedans"}, {"veľmi málo", "très peu"} };
 static const Gloss ep8_dialog_g1[5] = { {"Včera", "hier"}, {"tu", "ici"}, {"ešte", "encore"}, {"bola voda", "il y avait de l'eau"}, {"Aspoň trochu", "au moins un peu"} };
 static const Gloss ep8_dialog_g2[2] = { {"Chýba ti", "te manque"}, {"voda", "l'eau"} };
-static const char* const ep8_dialog_c2_items[3] = { "Chýba", "ti", "voda?" };
-static const Choice ep8_dialog_c2 = { CH_ORDER, "order-ch-ba-ti-voda", ep8_dialog_c2_items, 3 };
+static const char* const ep8_dialog_c2_items[5] = { "Chýba", "ti", "voda?", "vody", "je" };
+static const Choice ep8_dialog_c2 = { CH_ORDER, "order-ch-ba-ti-voda", ep8_dialog_c2_items, 5 };
 static const Gloss ep8_dialog_g3[2] = { {"Veľmi", "beaucoup, très fort"}, {"mi chýba", "me manque"} };
 static const Gloss ep8_dialog_g4[4] = { {"Pri jazierku", "près de l'étang"}, {"stoja", "se tiennent debout"}, {"ďalšie zvieratá", "d'autres animaux"}, {"Nikto nehovorí", "personne ne parle"} };
 static const Gloss ep8_dialog_g5[2] = { {"To je", "c'est"}, {"zlé", "mauvais"} };
@@ -691,10 +691,10 @@ static const char* const ep8_x5_cfr[3] = { "Aujourd'hui, il y a encore de l'eau.
 static const char* const ep8_x6_cfr[3] = { "L'eau me manque.", "Tu as de l'eau ?", "Tu bois de l'eau ?" };
 static const char* const ep8_x7_cfr[3] = { "C'est très bien.", "C'est mauvais.", "C'est très loin." };
 static const char* const ep8_x8_cfr[3] = { "Un lac, c'est petit, un petit étang, c'est grand.", "Un ruisseau, c'est grand, un petit étang, c'est petit.", "Un lac, c'est grand, une goutte, c'est petit." };
-static const char* const ep8_x9_tsk[3] = { "Chýba", "ti", "voda?" };
-static const char* const ep8_x9_tfr[3] = { "L'eau", "te", "manque ?" };
-static const char* const ep8_x10_tsk[3] = { "Hľadám potok.", "Tu je", "kvapka vody!" };
-static const char* const ep8_x10_tfr[3] = { "Je cherche un ruisseau.", "Voilà", "une goutte d'eau !" };
+static const char* const ep8_x9_tsk[5] = { "Chýba", "ti", "voda?", "vody", "je" };
+static const char* const ep8_x9_tfr[6] = { "L'eau", "te", "manque", "?", "d'eau", "ruisseau" };
+static const char* const ep8_x10_tsk[7] = { "Hľadám", "potok.", "Tu je", "kvapka", "vody!", "voda", "ti" };
+static const char* const ep8_x10_tfr[11] = { "Je", "cherche", "un", "ruisseau.", "Voilà", "une", "goutte", "d'eau", "!", "manque", "te" };
 static const Exercise ep8_exercises[11] = {
   {EX_QCM, "qcm-ch-ba-mi", "chýba mi", "il me manque", ep8_x0_csk, ep8_x0_cfr, 3, nullptr, nullptr, 0},
   {EX_QCM, "qcm-v-era", "včera", "hier", ep8_x1_csk, ep8_x1_cfr, 3, nullptr, nullptr, 0},
@@ -705,8 +705,8 @@ static const Exercise ep8_exercises[11] = {
   {EX_LISTEN, "listen-ch-ba-ti-voda", "Chýba ti voda?", "L'eau te manque ?", nullptr, ep8_x6_cfr, 3, nullptr, nullptr, 0},
   {EX_LISTEN, "listen-to-je-ve-mi-zl", "To je veľmi zlé.", "C'est très mauvais.", nullptr, ep8_x7_cfr, 3, nullptr, nullptr, 0},
   {EX_LISTEN, "listen-jazero-je-ve-k-jazierko-je-mal", "Jazero je veľké, jazierko je malé.", "Un lac, c'est grand, un petit étang, c'est petit.", nullptr, ep8_x8_cfr, 3, nullptr, nullptr, 0},
-  {EX_ORDER, "order-ch-ba-ti-voda", "Chýba ti voda?", "L'eau te manque ?", nullptr, nullptr, 0, ep8_x9_tsk, ep8_x9_tfr, 3},
-  {EX_ORDER, "order-h-ad-m-potok-tu-je-kvapka-vody", "Hľadám potok. Tu je kvapka vody!", "Je cherche un ruisseau. Voilà une goutte d'eau !", nullptr, nullptr, 0, ep8_x10_tsk, ep8_x10_tfr, 3},
+  {EX_ORDER, "order-ch-ba-ti-voda", "Chýba ti voda?", "L'eau te manque ?", nullptr, nullptr, 0, ep8_x9_tsk, ep8_x9_tfr, 5},
+  {EX_ORDER, "order-h-ad-m-potok-tu-je-kvapka-vody", "Hľadám potok. Tu je kvapka vody!", "Je cherche un ruisseau. Voilà une goutte d'eau !", nullptr, nullptr, 0, ep8_x10_tsk, ep8_x10_tfr, 7},
 };
 static const Line ep8_bonus[1] = {
   {SPK_ANDREA, "Dobre povedané.", "Bien dit.", nullptr, 0, nullptr, nullptr},
@@ -725,12 +725,12 @@ static const char* const ep9_dialog_c4_items[3] = { "Slovenský raj? To je ďale
 static const Choice ep9_dialog_c4 = { CH_PICK, "fix", ep9_dialog_c4_items, 3 };
 static const Gloss ep9_dialog_g5[2] = { {"Veľmi", "très"}, {"ďaleko", "loin"} };
 static const Gloss ep9_dialog_g6[2] = { {"A škola", "et l'école"}, {"A tvoja teta", "et ta tante"} };
-static const char* const ep9_dialog_c6_items[3] = { "A škola?", "A tvoja", "teta?" };
-static const Choice ep9_dialog_c6 = { CH_ORDER, "order-a-kola-a-tvoja-teta", ep9_dialog_c6_items, 3 };
+static const char* const ep9_dialog_c6_items[6] = { "A škola?", "A tvoja", "teta?", "západe", "potoky", "je" };
+static const Choice ep9_dialog_c6 = { CH_ORDER, "order-a-kola-a-tvoja-teta", ep9_dialog_c6_items, 6 };
 static const Gloss ep9_dialog_g7[3] = { {"Sú prázdniny", "ce sont les vacances"}, {"A teta spí", "et ma tante dort"}, {"do desiatej", "jusqu'à dix heures"} };
 static const Gloss ep9_dialog_g8[4] = { {"Ja som tu", "moi, je suis ici"}, {"len", "seulement"}, {"na prázdninách", "en vacances"}, {"a už ideme preč", "et on part déjà"} };
-static const char* const ep9_dialog_c8_items[3] = { "Ja som tu len", "na prázdninách...", "a už ideme preč?" };
-static const Choice ep9_dialog_c8 = { CH_ORDER, "order-ja-som-tu-len-na-pr-zdnin-ch-a-u-ideme-pre", ep9_dialog_c8_items, 3 };
+static const char* const ep9_dialog_c8_items[12] = { "Ja", "som", "tu", "len", "na prázdninách...", "a", "už", "ideme", "preč?", "je", "raj", "ďaleko" };
+static const Choice ep9_dialog_c8 = { CH_ORDER, "order-ja-som-tu-len-na-pr-zdnin-ch-a-u-ideme-pre", ep9_dialog_c8_items, 12 };
 static const Gloss ep9_dialog_g9[3] = { {"Teraz", "maintenant"}, {"si tu", "tu es là"}, {"Uvidíme", "on verra"} };
 static const Line ep9_dialog[10] = {
   {SPK_FOX, "Čo budeme robiť?", "Qu'est-ce qu'on va faire ?", ep9_dialog_g0, 2, nullptr, &ep9_dialog_c0},
@@ -776,10 +776,10 @@ static const char* const ep9_x5_cfr[3] = { "Qu'est-ce que tu fais ?", "Où est-c
 static const char* const ep9_x6_cfr[3] = { "À l'est, il y a le Paradis slovaque. Là-bas, il y a des ruisseaux.", "À l'ouest, il y a le Paradis slovaque. Là-bas, il y a des lacs.", "À l'ouest, il y a Košice. Là-bas, il y a des ruisseaux." };
 static const char* const ep9_x7_cfr[3] = { "Ce sont les vacances. Et ma tante dort jusqu'à onze heures.", "C'est l'école. Et ma tante dort jusqu'à dix heures.", "Ce sont les vacances. Et ma tante est au lycée jusqu'à dix heures." };
 static const char* const ep9_x8_cfr[3] = { "Maintenant je suis là. On verra.", "Maintenant tu es là. Allons-y.", "Avant, tu étais là. On verra." };
-static const char* const ep9_x9_tsk[3] = { "Ja som tu len", "na prázdninách...", "a už ideme preč?" };
-static const char* const ep9_x9_tfr[3] = { "Moi, je ne suis ici", "qu'en vacances...", "et on repart déjà ?" };
-static const char* const ep9_x10_tsk[3] = { "A škola?", "A tvoja", "teta?" };
-static const char* const ep9_x10_tfr[3] = { "Et l'école ?", "Et ta", "tante ?" };
+static const char* const ep9_x9_tsk[12] = { "Ja", "som", "tu", "len", "na prázdninách...", "a", "už", "ideme", "preč?", "je", "raj", "ďaleko" };
+static const char* const ep9_x9_tfr[14] = { "Moi,", "je", "ne", "suis", "ici", "qu'en", "vacances...", "et", "on", "repart", "déjà", "?", "slovaque", "loin" };
+static const char* const ep9_x10_tsk[6] = { "A škola?", "A tvoja", "teta?", "západe", "potoky", "je" };
+static const char* const ep9_x10_tfr[9] = { "Et", "l'école", "?", "Et ta", "tante", "?", "le", "des", "ruisseaux" };
 static const Exercise ep9_exercises[11] = {
   {EX_QCM, "qcm-inde", "inde", "ailleurs", ep9_x0_csk, ep9_x0_cfr, 3, nullptr, nullptr, 0},
   {EX_QCM, "qcm-aleko", "ďaleko", "loin", ep9_x1_csk, ep9_x1_cfr, 3, nullptr, nullptr, 0},
@@ -790,8 +790,8 @@ static const Exercise ep9_exercises[11] = {
   {EX_LISTEN, "listen-na-z-pade-je-slovensk-raj-tam-s-potoky", "Na západe je Slovenský raj. Tam sú potoky.", "À l'ouest, il y a le Paradis slovaque. Là-bas, il y a des ruisseaux.", nullptr, ep9_x6_cfr, 3, nullptr, nullptr, 0},
   {EX_LISTEN, "listen-s-pr-zdniny-a-teta-sp-do-desiatej", "Sú prázdniny. A teta spí do desiatej.", "Ce sont les vacances. Et ma tante dort jusqu'à dix heures.", nullptr, ep9_x7_cfr, 3, nullptr, nullptr, 0},
   {EX_LISTEN, "listen-teraz-si-tu-uvid-me", "Teraz si tu. Uvidíme.", "Maintenant tu es là. On verra.", nullptr, ep9_x8_cfr, 3, nullptr, nullptr, 0},
-  {EX_ORDER, "order-ja-som-tu-len-na-pr-zdnin-ch-a-u-ideme-pre", "Ja som tu len na prázdninách... a už ideme preč?", "Moi, je ne suis ici qu'en vacances... et on repart déjà ?", nullptr, nullptr, 0, ep9_x9_tsk, ep9_x9_tfr, 3},
-  {EX_ORDER, "order-a-kola-a-tvoja-teta", "A škola? A tvoja teta?", "Et l'école ? Et ta tante ?", nullptr, nullptr, 0, ep9_x10_tsk, ep9_x10_tfr, 3},
+  {EX_ORDER, "order-ja-som-tu-len-na-pr-zdnin-ch-a-u-ideme-pre", "Ja som tu len na prázdninách... a už ideme preč?", "Moi, je ne suis ici qu'en vacances... et on repart déjà ?", nullptr, nullptr, 0, ep9_x9_tsk, ep9_x9_tfr, 12},
+  {EX_ORDER, "order-a-kola-a-tvoja-teta", "A škola? A tvoja teta?", "Et l'école ? Et ta tante ?", nullptr, nullptr, 0, ep9_x10_tsk, ep9_x10_tfr, 6},
 };
 static const Line ep9_bonus[2] = {
   {SPK_ANDREA, "Neboj sa, mám mapu.", "Ne t'inquiète pas, j'ai une carte.", nullptr, 0, nullptr, nullptr},
@@ -808,8 +808,8 @@ static const Gloss ep10_dialog_g2[2] = { {"Je", "elle est"}, {"prázdna", "vide"
 static const Gloss ep10_dialog_g3[3] = { {"Pri fontáne", "près de la fontaine"}, {"stojí", "se tient"}, {"záhradník", "un jardinier"} };
 static const Gloss ep10_dialog_g4[2] = { {"Dobrý deň", "bonjour"}, {"Hľadáte vodu", "vous cherchez de l'eau"} };
 static const Gloss ep10_dialog_g5[3] = { {"Dobrý deň", "bonjour"}, {"Áno", "oui"}, {"hľadáme vodu", "nous cherchons de l'eau"} };
-static const char* const ep10_dialog_c5_items[3] = { "Dobrý deň.", "Áno,", "hľadáme vodu." };
-static const Choice ep10_dialog_c5 = { CH_ORDER, "order-dobr-de-no-h-ad-me-vodu", ep10_dialog_c5_items, 3 };
+static const char* const ep10_dialog_c5_items[8] = { "Dobrý", "deň.", "Áno,", "hľadáme", "vodu.", "ešte", "raji", "voda" };
+static const Choice ep10_dialog_c5 = { CH_ORDER, "order-dobr-de-no-h-ad-me-vodu", ep10_dialog_c5_items, 8 };
 static const Gloss ep10_dialog_g6[4] = { {"Prepáčte", "désolé, excusez-moi"}, {"Tu už voda nie je", "ici, il n'y a plus d'eau"}, {"Nikde", "nulle part"}, {"v meste", "en ville"} };
 static const Gloss ep10_dialog_g7[1] = { {"A inde", "et ailleurs"} };
 static const Gloss ep10_dialog_g8[5] = { {"Na západe", "à l'ouest"}, {"v Slovenskom raji", "dans le Paradis slovaque"}, {"je ešte voda", "il y a encore de l'eau"}, {"Hovorili to", "ils l'ont dit"}, {"v rádiu", "à la radio"} };
@@ -889,10 +889,10 @@ static const char* const ep10_x6_cfr[3] = { "Désolé. Ici, il y a encore de l'e
 static const char* const ep10_x7_cfr[3] = { "Et ici ?", "Et maintenant ?", "Et loin ?" };
 static const char* const ep10_x8_cfr[3] = { "À l'ouest, dans le Paradis slovaque, il n'y en a plus. Ils l'ont dit à la radio.", "À l'ouest, dans le Paradis slovaque, il y en a encore. Ils l'ont dit à la gare.", "À l'est, dans les Tatras, il y en a encore. Ils l'ont dit à la radio." };
 static const char* const ep10_x9_cfr[3] = { "Bon voyage.", "Bonne nuit.", "Beaucoup d'eau." };
-static const char* const ep10_x10_tsk[3] = { "Prepáčte.", "Tu už voda nie je.", "Nikde v meste." };
-static const char* const ep10_x10_tfr[3] = { "Désolé.", "Ici, il n'y a plus d'eau.", "Nulle part en ville." };
-static const char* const ep10_x11_tsk[3] = { "Dobrý deň.", "Áno,", "hľadáme vodu." };
-static const char* const ep10_x11_tfr[3] = { "Bonjour.", "Oui,", "nous cherchons de l'eau." };
+static const char* const ep10_x10_tsk[11] = { "Prepáčte.", "Tu", "už", "voda", "nie", "je.", "Nikde", "v", "meste.", "vodu", "deň" };
+static const char* const ep10_x10_tfr[13] = { "Désolé.", "Ici,", "il", "n'y", "a", "plus", "d'eau.", "Nulle", "part", "en", "ville.", "l'eau", "cherchez" };
+static const char* const ep10_x11_tsk[8] = { "Dobrý", "deň.", "Áno,", "hľadáme", "vodu.", "ešte", "raji", "voda" };
+static const char* const ep10_x11_tfr[9] = { "Bonjour.", "Oui,", "nous", "cherchons", "de", "l'eau.", "dans", "le", "l'ouest" };
 static const char* const ep10_x12_csk[3] = { "strana", "meranie", "fontána" };
 static const char* const ep10_x12_cfr[3] = { "la page", "la mesure", "la fontaine" };
 static const char* const ep10_x13_csk[3] = { "zajačica", "záhradník", "fontána" };
@@ -911,8 +911,8 @@ static const Exercise ep10_exercises[16] = {
   {EX_LISTEN, "listen-a-inde", "A inde?", "Et ailleurs ?", nullptr, ep10_x7_cfr, 3, nullptr, nullptr, 0},
   {EX_LISTEN, "listen-na-z-pade-v-slovenskom-raji-e-te-voda-je-hovorili-to-v-r-diu", "Na západe, v Slovenskom raji, je ešte voda. Hovorili to v rádiu.", "À l'ouest, dans le Paradis slovaque, il y en a encore. Ils l'ont dit à la radio.", nullptr, ep10_x8_cfr, 3, nullptr, nullptr, 0},
   {EX_LISTEN, "listen-ve-a-astia", "Veľa šťastia.", "Bonne chance.", nullptr, ep10_x9_cfr, 3, nullptr, nullptr, 0},
-  {EX_ORDER, "order-prep-te-tu-u-voda-nie-je-nikde-v-meste", "Prepáčte. Tu už voda nie je. Nikde v meste.", "Désolé. Ici, il n'y a plus d'eau. Nulle part en ville.", nullptr, nullptr, 0, ep10_x10_tsk, ep10_x10_tfr, 3},
-  {EX_ORDER, "order-dobr-de-no-h-ad-me-vodu", "Dobrý deň. Áno, hľadáme vodu.", "Bonjour. Oui, nous cherchons de l'eau.", nullptr, nullptr, 0, ep10_x11_tsk, ep10_x11_tfr, 3},
+  {EX_ORDER, "order-prep-te-tu-u-voda-nie-je-nikde-v-meste", "Prepáčte. Tu už voda nie je. Nikde v meste.", "Désolé. Ici, il n'y a plus d'eau. Nulle part en ville.", nullptr, nullptr, 0, ep10_x10_tsk, ep10_x10_tfr, 11},
+  {EX_ORDER, "order-dobr-de-no-h-ad-me-vodu", "Dobrý deň. Áno, hľadáme vodu.", "Bonjour. Oui, nous cherchons de l'eau.", nullptr, nullptr, 0, ep10_x11_tsk, ep10_x11_tfr, 8},
   {EX_QCM, "qcm-zapisnik", "zápisník", "le carnet", ep10_x12_csk, ep10_x12_cfr, 3, nullptr, nullptr, 0},
   {EX_QCM, "qcm-vydra", "vydra", "la loutre", ep10_x13_csk, ep10_x13_cfr, 3, nullptr, nullptr, 0},
   {EX_QCM, "qcm-klames", "klameš", "tu mens", ep10_x14_csk, ep10_x14_cfr, 3, nullptr, nullptr, 0},
@@ -956,10 +956,10 @@ static const char* const ep11_x2_cfr[3] = { "Bonjour. Deux tickets de tram, s'il
 static const char* const ep11_x3_cfr[3] = { "Bonjour. Tu vas où ?", "Bonjour. Vous cherchez de l'eau ?", "Bonjour. Vous êtes où ?" };
 static const char* const ep11_x4_cfr[3] = { "Deux billets. Bonne chance.", "Un billet. Bon voyage.", "Deux billets. Bonne nuit." };
 static const char* const ep11_x5_cfr[3] = { "Moi, j'ai une carte ! Elle est super !", "Toi, tu as un billet ! Il est super !", "Moi, j'ai un billet ! Il est vide !" };
-static const char* const ep11_x6_tsk[4] = { "Dobrý deň.", "Dva lístky", "na vlak,", "prosím." };
-static const char* const ep11_x6_tfr[4] = { "Bonjour.", "Deux billets", "de train,", "s'il vous plaît." };
-static const char* const ep11_x7_tsk[3] = { "Dva", "lístky.", "Šťastnú cestu." };
-static const char* const ep11_x7_tfr[3] = { "Deux", "billets.", "Bon voyage." };
+static const char* const ep11_x6_tsk[9] = { "Dobrý", "deň.", "Dva", "lístky", "na vlak,", "prosím.", "mám", "lístok", "super" };
+static const char* const ep11_x6_tfr[10] = { "Bonjour.", "Deux", "billets", "de train,", "s'il", "vous", "plaît.", "super", "un", "billet" };
+static const char* const ep11_x7_tsk[6] = { "Dva", "lístky.", "Šťastnú", "cestu.", "idete", "deň" };
+static const char* const ep11_x7_tfr[6] = { "Deux", "billets.", "Bon", "voyage.", "où", "allez" };
 static const Exercise ep11_exercises[8] = {
   {EX_LISTEN, "listen-po-kaj-mus-m-nap-sa-tete-l-stok", "Počkaj. Musím napísať tete lístok.", "Attends. Je dois écrire un mot à ma tante.", nullptr, ep11_x0_cfr, 3, nullptr, nullptr, 0},
   {EX_LISTEN, "listen-to-nie-je-ten-l-stok-to-je-l-stok-z-elektri-ky", "To nie je ten lístok. To je lístok z električky.", "Ce n'est pas ce billet-là. Toi, tu as un ticket de tram.", nullptr, ep11_x1_cfr, 3, nullptr, nullptr, 0},
@@ -967,8 +967,8 @@ static const Exercise ep11_exercises[8] = {
   {EX_LISTEN, "listen-dobr-de-kam-idete", "Dobrý deň. Kam idete?", "Bonjour. Vous allez où ?", nullptr, ep11_x3_cfr, 3, nullptr, nullptr, 0},
   {EX_LISTEN, "listen-dva-l-stky-astn-cestu", "Dva lístky. Šťastnú cestu.", "Deux billets. Bon voyage.", nullptr, ep11_x4_cfr, 3, nullptr, nullptr, 0},
   {EX_LISTEN, "listen-ja-m-m-l-stok-je-super", "Ja mám lístok! Je super!", "Moi, j'ai un billet ! Il est super !", nullptr, ep11_x5_cfr, 3, nullptr, nullptr, 0},
-  {EX_ORDER, "order-dobr-de-dva-l-stky-na-vlak-pros-m", "Dobrý deň. Dva lístky na vlak, prosím.", "Bonjour. Deux billets de train, s'il vous plaît.", nullptr, nullptr, 0, ep11_x6_tsk, ep11_x6_tfr, 4},
-  {EX_ORDER, "order-dva-l-stky-astn-cestu", "Dva lístky. Šťastnú cestu.", "Deux billets. Bon voyage.", nullptr, nullptr, 0, ep11_x7_tsk, ep11_x7_tfr, 3},
+  {EX_ORDER, "order-dobr-de-dva-l-stky-na-vlak-pros-m", "Dobrý deň. Dva lístky na vlak, prosím.", "Bonjour. Deux billets de train, s'il vous plaît.", nullptr, nullptr, 0, ep11_x6_tsk, ep11_x6_tfr, 9},
+  {EX_ORDER, "order-dva-l-stky-astn-cestu", "Dva lístky. Šťastnú cestu.", "Deux billets. Bon voyage.", nullptr, nullptr, 0, ep11_x7_tsk, ep11_x7_tfr, 6},
 };
 static const Line ep11_bonus[1] = {
   {SPK_ANDREA, "Dobrý cestovateľ!", "Un bon voyageur !", nullptr, 0, nullptr, nullptr},
@@ -1027,10 +1027,10 @@ static const char* const ep12_x5_cfr[3] = { "Suis-moi. J'ai une question.", "Att
 static const char* const ep12_x6_cfr[3] = { "Et toi, tu as toujours une carte. Viens.", "Et toi, tu n'as jamais de questions. Viens.", "Et toi, tu as toujours des questions. Attends." };
 static const char* const ep12_x7_cfr[3] = { "Attends ! Je vais vite !", "Viens ! Je vais lentement !", "Attends ! Tu vas lentement !" };
 static const char* const ep12_x8_cfr[3] = { "Je sais. Alors viens lentement.", "Je ne sais pas. Alors viens vite.", "Je sais. Alors attends ici." };
-static const char* const ep12_x9_tsk[3] = { "Ja viem.", "Tak", "poď rýchlo." };
-static const char* const ep12_x9_tfr[3] = { "Je sais.", "Alors", "viens vite." };
-static const char* const ep12_x10_tsk[3] = { "A ty", "vždy máš otázky.", "Poď." };
-static const char* const ep12_x10_tfr[3] = { "Et toi,", "tu as toujours des questions.", "Viens." };
+static const char* const ep12_x9_tsk[6] = { "Ja viem.", "Tak", "poď", "rýchlo.", "les", "cez" };
+static const char* const ep12_x9_tfr[6] = { "Je sais.", "Alors", "viens", "vite.", "forêt", "la" };
+static const char* const ep12_x10_tsk[7] = { "A ty", "vždy", "máš", "otázky.", "Poď.", "les", "cez" };
+static const char* const ep12_x10_tfr[9] = { "Et toi,", "tu", "as", "toujours", "des", "questions.", "Viens.", "traverse", "forêt" };
 static const Exercise ep12_exercises[11] = {
   {EX_QCM, "qcm-v-dy", "vždy", "toujours", ep12_x0_csk, ep12_x0_cfr, 3, nullptr, nullptr, 0},
   {EX_QCM, "qcm-pomaly", "pomaly", "lentement", ep12_x1_csk, ep12_x1_cfr, 3, nullptr, nullptr, 0},
@@ -1041,8 +1041,8 @@ static const Exercise ep12_exercises[11] = {
   {EX_LISTEN, "listen-a-ty-v-dy-m-ot-zky-po", "A ty vždy máš otázky. Poď.", "Et toi, tu as toujours des questions. Viens.", nullptr, ep12_x6_cfr, 3, nullptr, nullptr, 0},
   {EX_LISTEN, "listen-po-kaj-idem-pomaly", "Počkaj! Idem pomaly!", "Attends ! Je vais lentement !", nullptr, ep12_x7_cfr, 3, nullptr, nullptr, 0},
   {EX_LISTEN, "listen-ja-viem-tak-po-r-chlo", "Ja viem. Tak poď rýchlo.", "Je sais. Alors viens vite.", nullptr, ep12_x8_cfr, 3, nullptr, nullptr, 0},
-  {EX_ORDER, "order-ja-viem-tak-po-r-chlo", "Ja viem. Tak poď rýchlo.", "Je sais. Alors viens vite.", nullptr, nullptr, 0, ep12_x9_tsk, ep12_x9_tfr, 3},
-  {EX_ORDER, "order-a-ty-v-dy-m-ot-zky-po", "A ty vždy máš otázky. Poď.", "Et toi, tu as toujours des questions. Viens.", nullptr, nullptr, 0, ep12_x10_tsk, ep12_x10_tfr, 3},
+  {EX_ORDER, "order-ja-viem-tak-po-r-chlo", "Ja viem. Tak poď rýchlo.", "Je sais. Alors viens vite.", nullptr, nullptr, 0, ep12_x9_tsk, ep12_x9_tfr, 6},
+  {EX_ORDER, "order-a-ty-v-dy-m-ot-zky-po", "A ty vždy máš otázky. Poď.", "Et toi, tu as toujours des questions. Viens.", nullptr, nullptr, 0, ep12_x10_tsk, ep12_x10_tfr, 7},
 };
 static const Line ep12_bonus[1] = {
   {SPK_ANDREA, "Rýchlo sa učíš!", "Tu apprends vite !", nullptr, 0, nullptr, nullptr},
@@ -1104,10 +1104,10 @@ static const char* const ep13_x5_cfr[3] = { "C'est encore près ?", "C'est déj�
 static const char* const ep13_x6_cfr[3] = { "Je ne vois rien.", "J'entends tout.", "Tu n'entends rien." };
 static const char* const ep13_x7_cfr[3] = { "Exactement. Le silence. Même les oiseaux chantent.", "Exactement. Le bruit. Même les oiseaux se taisent.", "Presque. Le silence. Même les renards se taisent." };
 static const char* const ep13_x8_cfr[3] = { "Tu entends ? Un oiseau se tait.", "Tu vois ? Un oiseau chante.", "Tu entends ? L'eau coule." };
-static const char* const ep13_x9_tsk[3] = { "Nie.", "Ale počkaj...", "Počuješ to?" };
-static const char* const ep13_x9_tfr[3] = { "Non.", "Mais attends...", "Tu entends ça ?" };
-static const char* const ep13_x10_tsk[3] = { "Nie.", "Ale ticho.", "Počuješ?" };
-static const char* const ep13_x10_tfr[3] = { "Non.", "Mais chut.", "Tu entends ?" };
+static const char* const ep13_x9_tsk[7] = { "Nie.", "Ale", "počkaj...", "Počuješ", "to?", "mlčia", "vtáky" };
+static const char* const ep13_x9_tfr[9] = { "Non.", "Mais", "attends...", "Tu", "entends", "ça", "?", "les", "se" };
+static const char* const ep13_x10_tsk[7] = { "Nie.", "Ale", "ticho.", "Počuješ?", "ešte", "ďaleko", "to" };
+static const char* const ep13_x10_tfr[8] = { "Non.", "Mais", "chut.", "Tu", "entends", "?", "encore", "loin" };
 static const Exercise ep13_exercises[11] = {
   {EX_QCM, "qcm-po-uje", "počuješ", "tu entends", ep13_x0_csk, ep13_x0_cfr, 3, nullptr, nullptr, 0},
   {EX_QCM, "qcm-ni", "nič", "rien", ep13_x1_csk, ep13_x1_cfr, 3, nullptr, nullptr, 0},
@@ -1118,8 +1118,8 @@ static const Exercise ep13_exercises[11] = {
   {EX_LISTEN, "listen-ni-nepo-ujem", "Nič nepočujem.", "Je n'entends rien.", nullptr, ep13_x6_cfr, 3, nullptr, nullptr, 0},
   {EX_LISTEN, "listen-presne-ticho-aj-vt-ky-ml-ia", "Presne. Ticho. Aj vtáky mlčia.", "Exactement. Le silence. Même les oiseaux se taisent.", nullptr, ep13_x7_cfr, 3, nullptr, nullptr, 0},
   {EX_LISTEN, "listen-po-uje-vt-k-spieva", "Počuješ? Vták spieva.", "Tu entends ? Un oiseau chante.", nullptr, ep13_x8_cfr, 3, nullptr, nullptr, 0},
-  {EX_ORDER, "order-nie-ale-po-kaj-po-uje-to", "Nie. Ale počkaj... Počuješ to?", "Non. Mais attends... Tu entends ça ?", nullptr, nullptr, 0, ep13_x9_tsk, ep13_x9_tfr, 3},
-  {EX_ORDER, "order-nie-ale-ticho-po-uje", "Nie. Ale ticho. Počuješ?", "Non. Mais chut. Tu entends ?", nullptr, nullptr, 0, ep13_x10_tsk, ep13_x10_tfr, 3},
+  {EX_ORDER, "order-nie-ale-po-kaj-po-uje-to", "Nie. Ale počkaj... Počuješ to?", "Non. Mais attends... Tu entends ça ?", nullptr, nullptr, 0, ep13_x9_tsk, ep13_x9_tfr, 7},
+  {EX_ORDER, "order-nie-ale-ticho-po-uje", "Nie. Ale ticho. Počuješ?", "Non. Mais chut. Tu entends ?", nullptr, nullptr, 0, ep13_x10_tsk, ep13_x10_tfr, 7},
 };
 static const Line ep13_bonus[1] = {
   {SPK_ANDREA, "Dobre počuješ!", "Tu entends bien !", nullptr, 0, nullptr, nullptr},
@@ -1179,10 +1179,10 @@ static const char* const ep14_x5_cfr[3] = { "Il y en a beaucoup. Il y en a trop.
 static const char* const ep14_x6_cfr[3] = { "Ça me manque.", "Ça te suffit.", "Ça me plaît." };
 static const char* const ep14_x7_cfr[3] = { "D'abord, parle. Ensuite, bois.", "D'abord, bois. Ensuite, dors.", "Bois encore. Ensuite, parle." };
 static const char* const ep14_x8_cfr[3] = { "C'est juste.", "C'est inutile.", "C'est mauvais." };
-static const char* const ep14_x9_tsk[3] = { "Najprv", "sa napi.", "Potom rozprávaj." };
-static const char* const ep14_x9_tfr[3] = { "D'abord,", "bois.", "Ensuite, parle." };
-static const char* const ep14_x10_tsk[3] = { "Tu je", "fľaša vody.", "Môžeš piť." };
-static const char* const ep14_x10_tfr[3] = { "Voilà", "une bouteille d'eau.", "Tu peux boire." };
+static const char* const ep14_x9_tsk[6] = { "Najprv", "sa napi.", "Potom", "rozprávaj.", "ja", "som" };
+static const char* const ep14_x9_tfr[6] = { "D'abord,", "bois.", "Ensuite,", "parle.", "le", "c'est" };
+static const char* const ep14_x10_tsk[7] = { "Tu je", "fľaša", "vody.", "Môžeš", "piť.", "mám", "som" };
+static const char* const ep14_x10_tfr[9] = { "Voilà", "une", "bouteille", "d'eau.", "Tu", "peux", "boire.", "c'est", "j'ai" };
 static const Exercise ep14_exercises[11] = {
   {EX_QCM, "qcm-dos", "dosť", "assez", ep14_x0_csk, ep14_x0_cfr, 3, nullptr, nullptr, 0},
   {EX_QCM, "qcm-najprv", "najprv", "d'abord", ep14_x1_csk, ep14_x1_cfr, 3, nullptr, nullptr, 0},
@@ -1193,8 +1193,8 @@ static const Exercise ep14_exercises[11] = {
   {EX_LISTEN, "listen-to-mi-sta", "To mi stačí.", "Ça me suffit.", nullptr, ep14_x6_cfr, 3, nullptr, nullptr, 0},
   {EX_LISTEN, "listen-najprv-sa-napi-potom-rozpr-vaj", "Najprv sa napi. Potom rozprávaj.", "D'abord, bois. Ensuite, parle.", nullptr, ep14_x7_cfr, 3, nullptr, nullptr, 0},
   {EX_LISTEN, "listen-to-je-nespravodliv", "To je nespravodlivé.", "C'est injuste.", nullptr, ep14_x8_cfr, 3, nullptr, nullptr, 0},
-  {EX_ORDER, "order-najprv-sa-napi-potom-rozpr-vaj", "Najprv sa napi. Potom rozprávaj.", "D'abord, bois. Ensuite, parle.", nullptr, nullptr, 0, ep14_x9_tsk, ep14_x9_tfr, 3},
-  {EX_ORDER, "order-tu-je-f-a-a-vody-m-e-pi", "Tu je fľaša vody. Môžeš piť.", "Voilà une bouteille d'eau. Tu peux boire.", nullptr, nullptr, 0, ep14_x10_tsk, ep14_x10_tfr, 3},
+  {EX_ORDER, "order-najprv-sa-napi-potom-rozpr-vaj", "Najprv sa napi. Potom rozprávaj.", "D'abord, bois. Ensuite, parle.", nullptr, nullptr, 0, ep14_x9_tsk, ep14_x9_tfr, 6},
+  {EX_ORDER, "order-tu-je-f-a-a-vody-m-e-pi", "Tu je fľaša vody. Môžeš piť.", "Voilà une bouteille d'eau. Tu peux boire.", nullptr, nullptr, 0, ep14_x10_tsk, ep14_x10_tfr, 7},
 };
 static const Line ep14_bonus[1] = {
   {SPK_ANDREA, "Dobre, dnes si šéf ty.", "Bon, aujourd'hui c'est toi le chef.", nullptr, 0, nullptr, nullptr},
@@ -1261,10 +1261,10 @@ static const char* const ep15_x6_cfr[3] = { "Regarde en bas.", "Ne regarde pas e
 static const char* const ep15_x7_cfr[3] = { "Toutes mes idées sont bonnes. C'est mon style.", "Toutes tes idées sont mauvaises. C'est ton style.", "Toutes mes idées sont mauvaises. C'est ma faute." };
 static const char* const ep15_x8_cfr[3] = { "Viens. Si tu tombes, je rigole.", "Attends. Si tu tombes, je te rattrape.", "Viens. Si je tombe, tu me rattrapes." };
 static const char* const ep15_x9_cfr[3] = { "Un lièvre. Et fort.", "Une hase. Et gentille.", "Une renarde. Et forte." };
-static const char* const ep15_x10_tsk[3] = { "Myslím.", "Idem prvá.", "Ty ideš za mnou." };
-static const char* const ep15_x10_tfr[3] = { "Si.", "Je passe la première.", "Toi, tu me suis." };
-static const char* const ep15_x11_tsk[3] = { "Poď.", "Ak spadneš,", "chytím ťa." };
-static const char* const ep15_x11_tfr[3] = { "Viens.", "Si tu tombes,", "je te rattrape." };
+static const char* const ep15_x10_tsk[9] = { "Myslím.", "Idem", "prvá.", "Ty", "ideš", "za", "mnou.", "zatváram", "nepozerám" };
+static const char* const ep15_x10_tfr[11] = { "Si.", "Je", "passe", "la", "première.", "Toi,", "tu", "me", "suis.", "ferme", "pas" };
+static const char* const ep15_x11_tsk[7] = { "Poď.", "Ak spadneš,", "chytím", "ťa.", "nepozerám", "oči", "zatváram" };
+static const char* const ep15_x11_tfr[10] = { "Viens.", "Si", "tu", "tombes,", "je", "te", "rattrape.", "ferme", "regarde", "ne" };
 static const Exercise ep15_exercises[12] = {
   {EX_QCM, "qcm-roklina", "roklina", "la gorge (le ravin)", ep15_x0_csk, ep15_x0_cfr, 3, nullptr, nullptr, 0},
   {EX_QCM, "qcm-rebr-k", "rebrík", "l'échelle", ep15_x1_csk, ep15_x1_cfr, 3, nullptr, nullptr, 0},
@@ -1276,8 +1276,8 @@ static const Exercise ep15_exercises[12] = {
   {EX_LISTEN, "listen-v-etky-moje-n-pady-s-zl-je-to-m-j-t-l", "Všetky moje nápady sú zlé. Je to môj štýl.", "Toutes mes idées sont mauvaises. C'est mon style.", nullptr, ep15_x7_cfr, 3, nullptr, nullptr, 0},
   {EX_LISTEN, "listen-po-ak-spadne-chyt-m-a", "Poď. Ak spadneš, chytím ťa.", "Viens. Si tu tombes, je te rattrape.", nullptr, ep15_x8_cfr, 3, nullptr, nullptr, 0},
   {EX_LISTEN, "listen-zaja-ica-a-siln", "Zajačica. A silná.", "Une hase. Et forte.", nullptr, ep15_x9_cfr, 3, nullptr, nullptr, 0},
-  {EX_ORDER, "order-mysl-m-idem-prv-ty-ide-za-mnou", "Myslím. Idem prvá. Ty ideš za mnou.", "Si. Je passe la première. Toi, tu me suis.", nullptr, nullptr, 0, ep15_x10_tsk, ep15_x10_tfr, 3},
-  {EX_ORDER, "order-po-ak-spadne-chyt-m-a", "Poď. Ak spadneš, chytím ťa.", "Viens. Si tu tombes, je te rattrape.", nullptr, nullptr, 0, ep15_x11_tsk, ep15_x11_tfr, 3},
+  {EX_ORDER, "order-mysl-m-idem-prv-ty-ide-za-mnou", "Myslím. Idem prvá. Ty ideš za mnou.", "Si. Je passe la première. Toi, tu me suis.", nullptr, nullptr, 0, ep15_x10_tsk, ep15_x10_tfr, 9},
+  {EX_ORDER, "order-po-ak-spadne-chyt-m-a", "Poď. Ak spadneš, chytím ťa.", "Viens. Si tu tombes, je te rattrape.", nullptr, nullptr, 0, ep15_x11_tsk, ep15_x11_tfr, 7},
 };
 static const Line ep15_bonus[1] = {
   {SPK_ANDREA, "Ty sa vôbec nebojíš!", "Tu n'as pas peur du tout !", nullptr, 0, nullptr, nullptr},
@@ -1342,10 +1342,10 @@ static const char* const ep16_x6_cfr[3] = { "Plus que l'an dernier ? Qu'est-ce q
 static const char* const ep16_x7_cfr[3] = { "Je ne sais pas. Dans les Tatras, il paraît qu'il fait sec. Ici, non.", "Je sais. Dans les Tatras, il pleut. Ici aussi.", "Je ne sais pas. Ici, il paraît qu'il pleut. Dans les Tatras, non." };
 static const char* const ep16_x8_cfr[3] = { "Merci. Nous sommes dans les Tatras.", "Merci. Nous irons au village.", "Merci. Vous irez dans les Tatras." };
 static const char* const ep16_x9_cfr[3] = { "Une veste ? En hiver ?", "Un sac à dos ? En plein été ?", "Une bouteille ? En plein été ?" };
-static const char* const ep16_x10_tsk[3] = { "Opatrne.", "A vezmite si", "bundu." };
-static const char* const ep16_x10_tfr[3] = { "Soyez prudents.", "Et prenez", "une veste." };
-static const char* const ep16_x11_tsk[3] = { "Neviem.", "V Tatrách vraj prší.", "Tu nie." };
-static const char* const ep16_x11_tfr[3] = { "Je ne sais pas.", "Dans les Tatras, il paraît qu'il pleut.", "Ici, non." };
+static const char* const ep16_x10_tsk[7] = { "Opatrne.", "A", "vezmite", "si", "bundu.", "vlani", "tu" };
+static const char* const ep16_x10_tfr[6] = { "Soyez", "prudents.", "Et prenez", "une veste.", "dernier", "moins" };
+static const char* const ep16_x11_tsk[8] = { "Neviem.", "V", "Tatrách", "vraj", "prší.", "Tu nie.", "deje", "ako" };
+static const char* const ep16_x11_tfr[15] = { "Je", "ne", "sais", "pas.", "Dans", "les", "Tatras,", "il", "paraît", "qu'il", "pleut.", "Ici,", "non.", "l'an", "que" };
 static const char* const ep16_x12_csk[3] = { "strážca parku", "zápisník", "strana" };
 static const char* const ep16_x12_cfr[3] = { "le garde du parc", "le carnet", "la page" };
 static const char* const ep16_x13_cfr[3] = { "Encore elle !", "C'est nous !", "Pas lui !" };
@@ -1360,8 +1360,8 @@ static const Exercise ep16_exercises[14] = {
   {EX_LISTEN, "listen-neviem-v-tatr-ch-vraj-pr-tu-nie", "Neviem. V Tatrách vraj prší. Tu nie.", "Je ne sais pas. Dans les Tatras, il paraît qu'il pleut. Ici, non.", nullptr, ep16_x7_cfr, 3, nullptr, nullptr, 0},
   {EX_LISTEN, "listen-akujeme-p-jdeme-do-tatier", "Ďakujeme. Pôjdeme do Tatier.", "Merci. Nous irons dans les Tatras.", nullptr, ep16_x8_cfr, 3, nullptr, nullptr, 0},
   {EX_LISTEN, "listen-bundu-v-lete", "Bundu? V lete?", "Une veste ? En plein été ?", nullptr, ep16_x9_cfr, 3, nullptr, nullptr, 0},
-  {EX_ORDER, "order-opatrne-a-vezmite-si-bundu", "Opatrne. A vezmite si bundu.", "Soyez prudents. Et prenez une veste.", nullptr, nullptr, 0, ep16_x10_tsk, ep16_x10_tfr, 3},
-  {EX_ORDER, "order-neviem-v-tatr-ch-vraj-pr-tu-nie", "Neviem. V Tatrách vraj prší. Tu nie.", "Je ne sais pas. Dans les Tatras, il paraît qu'il pleut. Ici, non.", nullptr, nullptr, 0, ep16_x11_tsk, ep16_x11_tfr, 3},
+  {EX_ORDER, "order-opatrne-a-vezmite-si-bundu", "Opatrne. A vezmite si bundu.", "Soyez prudents. Et prenez une veste.", nullptr, nullptr, 0, ep16_x10_tsk, ep16_x10_tfr, 7},
+  {EX_ORDER, "order-neviem-v-tatr-ch-vraj-pr-tu-nie", "Neviem. V Tatrách vraj prší. Tu nie.", "Je ne sais pas. Dans les Tatras, il paraît qu'il pleut. Ici, non.", nullptr, nullptr, 0, ep16_x11_tsk, ep16_x11_tfr, 8},
   {EX_QCM, "qcm-nalezca", "nálezca", "celui qui trouve", ep16_x12_csk, ep16_x12_cfr, 3, nullptr, nullptr, 0},
   {EX_LISTEN, "listen-zase-on", "Zase on!", "Encore lui !", nullptr, ep16_x13_cfr, 3, nullptr, nullptr, 0},
 };
@@ -1375,14 +1375,14 @@ static const Gloss ep17_dialog_g0[3] = { {"Je večer", "c'est le soir"}, {"sedia
 static const Gloss ep17_dialog_g1[3] = { {"Nikdy", "jamais"}, {"som nespal", "je n'ai pas dormi"}, {"pod hviezdami", "sous les étoiles"} };
 static const Gloss ep17_dialog_g2[2] = { {"Spal si", "tu as dormi"}, {"pod jabloňou", "sous un pommier"} };
 static const Gloss ep17_dialog_g3[4] = { {"To nie sú", "ce ne sont pas"}, {"hviezdy", "des étoiles"}, {"To sú", "ce sont"}, {"jablká", "des pommes"} };
-static const char* const ep17_dialog_c3_items[3] = { "To nie sú", "hviezdy.", "To sú jablká." };
-static const Choice ep17_dialog_c3 = { CH_ORDER, "order-to-nie-s-hviezdy-to-s-jablk", ep17_dialog_c3_items, 3 };
+static const char* const ep17_dialog_c3_items[10] = { "To", "nie", "sú", "hviezdy.", "To", "sú", "jablká.", "nespal", "hviezdami", "som" };
+static const Choice ep17_dialog_c3 = { CH_ORDER, "order-to-nie-s-hviezdy-to-s-jablk", ep17_dialog_c3_items, 10 };
 static const Gloss ep17_dialog_g4[1] = { {"Spi", "dors"} };
 static const Gloss ep17_dialog_g7[3] = { {"Ty", "toi"}, {"nikdy neveríš", "tu ne crois jamais"}, {"líškam", "aux renards"} };
 static const Gloss ep17_dialog_g8[2] = { {"Nikdy", "jamais"}, {"Okrem jednej", "sauf une"} };
 static const Gloss ep17_dialog_g9[2] = { {"Okrem jednej", "sauf une"}, {"Ktorej", "laquelle"} };
-static const char* const ep17_dialog_c9_items[3] = { "Okrem", "jednej?", "Ktorej?" };
-static const Choice ep17_dialog_c9 = { CH_ORDER, "order-okrem-jednej-ktorej", ep17_dialog_c9_items, 3 };
+static const char* const ep17_dialog_c9_items[5] = { "Okrem", "jednej?", "Ktorej?", "že", "som" };
+static const Choice ep17_dialog_c9 = { CH_ORDER, "order-okrem-jednej-ktorej", ep17_dialog_c9_items, 5 };
 static const Gloss ep17_dialog_g10[1] = { {"Spi", "dors"} };
 static const Gloss ep17_dialog_g11[2] = { {"Ja viem", "je sais"}, {"že som to ja", "que c'est moi"} };
 static const Gloss ep17_dialog_g12[2] = { {"Nič nevieš", "tu ne sais rien"}, {"Spi", "dors"} };
@@ -1407,10 +1407,10 @@ static const char* const ep17_x2_cfr[3] = { "Toi, tu fais toujours confiance aux
 static const char* const ep17_x3_cfr[3] = { "Toujours. Sauf à un.", "Jamais. Même pas à un.", "Jamais. Sauf à deux." };
 static const char* const ep17_x4_cfr[3] = { "Je sais que c'est toi.", "Je ne sais pas si c'est moi.", "Tu sais que c'est moi." };
 static const char* const ep17_x5_cfr[3] = { "Tu sais tout. Dors.", "Je ne sais rien. Dors.", "Tu ne sais rien. Viens." };
-static const char* const ep17_x6_tsk[3] = { "To nie sú", "hviezdy.", "To sú jablká." };
-static const char* const ep17_x6_tfr[3] = { "Ce ne sont pas", "des étoiles.", "Ce sont des pommes." };
-static const char* const ep17_x7_tsk[3] = { "Okrem", "jednej?", "Ktorej?" };
-static const char* const ep17_x7_tfr[3] = { "Sauf", "à un ?", "Lequel ?" };
+static const char* const ep17_x6_tsk[10] = { "To", "nie", "sú", "hviezdy.", "To", "sú", "jablká.", "nespal", "hviezdami", "som" };
+static const char* const ep17_x6_tfr[12] = { "Ce", "ne", "sont", "pas", "des étoiles.", "Ce", "sont", "des", "pommes.", "jamais", "sous", "les" };
+static const char* const ep17_x7_tsk[5] = { "Okrem", "jednej?", "Ktorej?", "že", "som" };
+static const char* const ep17_x7_tfr[8] = { "Sauf", "à", "un", "?", "Lequel", "?", "sais", "moi" };
 static const Exercise ep17_exercises[8] = {
   {EX_LISTEN, "listen-nikdy-som-nespal-pod-hviezdami", "Nikdy som nespal pod hviezdami.", "Je n'ai jamais dormi sous les étoiles.", nullptr, ep17_x0_cfr, 3, nullptr, nullptr, 0},
   {EX_LISTEN, "listen-to-nie-s-hviezdy-to-s-jablk", "To nie sú hviezdy. To sú jablká.", "Ce ne sont pas des étoiles. Ce sont des pommes.", nullptr, ep17_x1_cfr, 3, nullptr, nullptr, 0},
@@ -1418,8 +1418,8 @@ static const Exercise ep17_exercises[8] = {
   {EX_LISTEN, "listen-nikdy-okrem-jednej", "Nikdy. Okrem jednej.", "Jamais. Sauf à un.", nullptr, ep17_x3_cfr, 3, nullptr, nullptr, 0},
   {EX_LISTEN, "listen-ja-viem-e-som-to-ja", "Ja viem, že som to ja.", "Je sais que c'est moi.", nullptr, ep17_x4_cfr, 3, nullptr, nullptr, 0},
   {EX_LISTEN, "listen-ni-nevie-spi", "Nič nevieš. Spi.", "Tu ne sais rien. Dors.", nullptr, ep17_x5_cfr, 3, nullptr, nullptr, 0},
-  {EX_ORDER, "order-to-nie-s-hviezdy-to-s-jablk", "To nie sú hviezdy. To sú jablká.", "Ce ne sont pas des étoiles. Ce sont des pommes.", nullptr, nullptr, 0, ep17_x6_tsk, ep17_x6_tfr, 3},
-  {EX_ORDER, "order-okrem-jednej-ktorej", "Okrem jednej? Ktorej?", "Sauf à un ? Lequel ?", nullptr, nullptr, 0, ep17_x7_tsk, ep17_x7_tfr, 3},
+  {EX_ORDER, "order-to-nie-s-hviezdy-to-s-jablk", "To nie sú hviezdy. To sú jablká.", "Ce ne sont pas des étoiles. Ce sont des pommes.", nullptr, nullptr, 0, ep17_x6_tsk, ep17_x6_tfr, 10},
+  {EX_ORDER, "order-okrem-jednej-ktorej", "Okrem jednej? Ktorej?", "Sauf à un ? Lequel ?", nullptr, nullptr, 0, ep17_x7_tsk, ep17_x7_tfr, 5},
 };
 static const Line ep17_bonus[1] = {
   {SPK_ANDREA, "Dobrú noc, líška.", "Bonne nuit, renard.", nullptr, 0, nullptr, nullptr},

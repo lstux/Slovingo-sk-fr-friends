@@ -190,14 +190,34 @@
       "l1": "Moi, je ne suis ici qu'en vacances... et on repart déjà ?",
       "l2": "Ja som tu len na prázdninách... a už ideme preč?",
       "tokens_l1": [
-        "Moi, je ne suis ici",
-        "qu'en vacances...",
-        "et on repart déjà ?"
+        "Moi,",
+        "je",
+        "ne",
+        "suis",
+        "ici",
+        "qu'en",
+        "vacances...",
+        "et",
+        "on",
+        "repart",
+        "déjà",
+        "?",
+        "slovaque",
+        "loin"
       ],
       "tokens_l2": [
-        "Ja som tu len",
+        "Ja",
+        "som",
+        "tu",
+        "len",
         "na prázdninách...",
-        "a už ideme preč?"
+        "a",
+        "už",
+        "ideme",
+        "preč?",
+        "je",
+        "raj",
+        "ďaleko"
       ]
     },
     {
@@ -206,14 +226,23 @@
       "l1": "Et l'école ? Et ta tante ?",
       "l2": "A škola? A tvoja teta?",
       "tokens_l1": [
-        "Et l'école ?",
+        "Et",
+        "l'école",
+        "?",
         "Et ta",
-        "tante ?"
+        "tante",
+        "?",
+        "le",
+        "des",
+        "ruisseaux"
       ],
       "tokens_l2": [
         "A škola?",
         "A tvoja",
-        "teta?"
+        "teta?",
+        "západe",
+        "potoky",
+        "je"
       ]
     }
   ]

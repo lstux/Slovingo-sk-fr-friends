@@ -190,14 +190,32 @@
       "l1": "Tiens, de l'eau. Juste un peu. Je n'en ai pas plus.",
       "l2": "Tu máš vodu. Len trochu. Viac nemám.",
       "tokens_l1": [
-        "Tiens, de l'eau.",
-        "Juste un peu.",
-        "Je n'en ai pas plus."
+        "Tiens,",
+        "de",
+        "l'eau.",
+        "Juste",
+        "un",
+        "peu.",
+        "Je",
+        "n'en",
+        "ai",
+        "pas",
+        "plus.",
+        "depuis",
+        "deux",
+        "n'a"
       ],
       "tokens_l2": [
-        "Tu máš vodu.",
-        "Len trochu.",
-        "Viac nemám."
+        "Tu",
+        "máš",
+        "vodu.",
+        "Len",
+        "trochu.",
+        "Viac",
+        "nemám.",
+        "sucho",
+        "mesiace",
+        "dva"
       ]
     },
     {
@@ -207,15 +225,25 @@
       "l2": "Čo... Kde som? Aha. V záhrade.",
       "tokens_l1": [
         "Quoi...",
-        "Où je suis ?",
+        "Où",
+        "je",
+        "suis",
+        "?",
         "Ah.",
-        "Dans le jardin."
+        "Dans",
+        "le",
+        "jardin.",
+        "n'a",
+        "plu"
       ],
       "tokens_l2": [
         "Čo...",
-        "Kde som?",
+        "Kde",
+        "som?",
         "Aha.",
-        "V záhrade."
+        "V záhrade.",
+        "nepršalo",
+        "sucho"
       ]
     }
   ]

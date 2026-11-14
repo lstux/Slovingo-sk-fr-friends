@@ -202,13 +202,53 @@
       "l2": "Presne tak. Ak sa dohodnete, kto bude hovoriť, dostanete päť minút. Ak sa nedohodnete, dostanete jednu.",
       "tokens_l1": [
         "Exactement.",
-        "Si vous vous mettez d'accord sur qui parle, vous aurez cinq minutes.",
-        "Si vous ne vous mettez pas d'accord, vous en aurez une."
+        "Si",
+        "vous",
+        "vous",
+        "mettez",
+        "d'accord",
+        "sur",
+        "qui",
+        "parle,",
+        "vous",
+        "aurez",
+        "cinq",
+        "minutes.",
+        "Si",
+        "vous",
+        "ne",
+        "vous",
+        "mettez",
+        "pas",
+        "d'accord,",
+        "vous",
+        "en",
+        "aurez",
+        "une.",
+        "étions",
+        "voulons",
+        "dire"
       ],
       "tokens_l2": [
-        "Presne tak.",
-        "Ak sa dohodnete, kto bude hovoriť, dostanete päť minút.",
-        "Ak sa nedohodnete, dostanete jednu."
+        "Presne",
+        "tak.",
+        "Ak",
+        "sa",
+        "dohodnete,",
+        "kto",
+        "bude",
+        "hovoriť,",
+        "dostanete",
+        "päť",
+        "minút.",
+        "Ak",
+        "sa",
+        "nedohodnete,",
+        "dostanete",
+        "jednu.",
+        "to",
+        "tam",
+        "povedať"
       ]
     },
     {
@@ -219,12 +259,23 @@
       "tokens_l1": [
         "Merci.",
         "Vraiment.",
-        "Je ne sais pas quoi dire."
+        "Je",
+        "ne",
+        "sais",
+        "pas",
+        "quoi",
+        "dire.",
+        "les",
+        "vous"
       ],
       "tokens_l2": [
         "Ďakujeme.",
         "Vážne.",
-        "Neviem, čo povedať."
+        "Neviem,",
+        "čo",
+        "povedať.",
+        "hľadáte",
+        "som"
       ]
     }
   ]

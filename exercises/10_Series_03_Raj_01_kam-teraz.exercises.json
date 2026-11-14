@@ -192,12 +192,18 @@
       "tokens_l1": [
         "Je sais.",
         "Alors",
-        "viens vite."
+        "viens",
+        "vite.",
+        "forêt",
+        "la"
       ],
       "tokens_l2": [
         "Ja viem.",
         "Tak",
-        "poď rýchlo."
+        "poď",
+        "rýchlo.",
+        "les",
+        "cez"
       ]
     },
     {
@@ -207,13 +213,23 @@
       "l2": "A ty vždy máš otázky. Poď.",
       "tokens_l1": [
         "Et toi,",
-        "tu as toujours des questions.",
-        "Viens."
+        "tu",
+        "as",
+        "toujours",
+        "des",
+        "questions.",
+        "Viens.",
+        "traverse",
+        "forêt"
       ],
       "tokens_l2": [
         "A ty",
-        "vždy máš otázky.",
-        "Poď."
+        "vždy",
+        "máš",
+        "otázky.",
+        "Poď.",
+        "les",
+        "cez"
       ]
     }
   ]

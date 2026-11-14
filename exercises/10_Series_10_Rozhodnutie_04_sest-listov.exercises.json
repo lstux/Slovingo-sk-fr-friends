@@ -202,13 +202,38 @@
       "l2": "Nie. Predtým si bol malý a hlučný. Teraz si veľký a hlučný.",
       "tokens_l1": [
         "Non.",
-        "Avant, tu étais petit et bruyant.",
-        "Maintenant, tu es grand et bruyant."
+        "Avant,",
+        "tu",
+        "étais",
+        "petit",
+        "et",
+        "bruyant.",
+        "Maintenant,",
+        "tu",
+        "es",
+        "grand",
+        "et",
+        "bruyant.",
+        "à",
+        "poste",
+        "une"
       ],
       "tokens_l2": [
         "Nie.",
-        "Predtým si bol malý a hlučný.",
-        "Teraz si veľký a hlučný."
+        "Predtým",
+        "si",
+        "bol",
+        "malý",
+        "a",
+        "hlučný.",
+        "Teraz",
+        "si",
+        "veľký",
+        "a",
+        "hlučný.",
+        "na",
+        "list",
+        "poštu"
       ]
     },
     {
@@ -217,14 +242,37 @@
       "l1": "Je ne savais pas quoi t'écrire. J'étais différente. Maintenant aussi, je suis différente.",
       "l2": "Nevedela som, čo ti napísať. Bola som iná. Teraz som tiež iná.",
       "tokens_l1": [
-        "Je ne savais pas quoi t'écrire.",
-        "J'étais différente.",
-        "Maintenant aussi, je suis différente."
+        "Je",
+        "ne",
+        "savais",
+        "pas",
+        "quoi",
+        "t'écrire.",
+        "J'étais",
+        "différente.",
+        "Maintenant",
+        "aussi,",
+        "je",
+        "suis",
+        "différente.",
+        "lettre",
+        "une"
       ],
       "tokens_l2": [
-        "Nevedela som, čo ti napísať.",
-        "Bola som iná.",
-        "Teraz som tiež iná."
+        "Nevedela",
+        "som,",
+        "čo",
+        "ti",
+        "napísať.",
+        "Bola",
+        "som",
+        "iná.",
+        "Teraz",
+        "som",
+        "tiež",
+        "iná.",
+        "na",
+        "poštu"
       ]
     }
   ]

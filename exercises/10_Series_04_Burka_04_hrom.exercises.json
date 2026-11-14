@@ -202,13 +202,29 @@
       "l2": "Môj chvost sa trasie sám. Ja za to nemôžem.",
       "tokens_l1": [
         "Ma queue",
-        "tremble toute seule.",
-        "Je n'y suis pour rien."
+        "tremble",
+        "toute",
+        "seule.",
+        "Je",
+        "n'y",
+        "suis",
+        "pour",
+        "rien.",
+        "la",
+        "noir"
       ],
       "tokens_l2": [
-        "Môj chvost",
-        "sa trasie sám.",
-        "Ja za to nemôžem."
+        "Môj",
+        "chvost",
+        "sa",
+        "trasie",
+        "sám.",
+        "Ja",
+        "za",
+        "to",
+        "nemôžem.",
+        "svetlo",
+        "tma"
       ]
     },
     {
@@ -219,12 +235,19 @@
       "tokens_l1": [
         "D'abord",
         "l'éclair,",
-        "ensuite le tonnerre."
+        "ensuite",
+        "le",
+        "tonnerre.",
+        "peur",
+        "n'ai"
       ],
       "tokens_l2": [
         "Najprv",
         "blesk,",
-        "potom hrom."
+        "potom",
+        "hrom.",
+        "nebojím",
+        "sa"
       ]
     }
   ]

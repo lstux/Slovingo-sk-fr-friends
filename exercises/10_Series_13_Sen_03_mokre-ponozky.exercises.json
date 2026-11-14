@@ -202,13 +202,24 @@
       "l2": "Nie. Už dva mesiace nepršalo.",
       "tokens_l1": [
         "Non.",
-        "Il n'a pas plu",
-        "depuis deux mois."
+        "Il",
+        "n'a",
+        "pas",
+        "plu",
+        "depuis",
+        "deux",
+        "mois.",
+        "sèches",
+        "chaussures"
       ],
       "tokens_l2": [
         "Nie.",
-        "Už dva mesiace",
-        "nepršalo."
+        "Už",
+        "dva",
+        "mesiace",
+        "nepršalo.",
+        "sú",
+        "topánky"
       ]
     },
     {
@@ -217,14 +228,20 @@
       "l1": "La rosée ! Ça paraît logique.",
       "l2": "Od rosy! To znie logicky.",
       "tokens_l1": [
-        "La rosée !",
+        "La",
+        "rosée",
+        "!",
         "Ça paraît",
-        "logique."
+        "logique.",
+        "chaussures",
+        "sèches"
       ],
       "tokens_l2": [
         "Od rosy!",
         "To znie",
-        "logicky."
+        "logicky.",
+        "sú",
+        "topánky"
       ]
     }
   ]

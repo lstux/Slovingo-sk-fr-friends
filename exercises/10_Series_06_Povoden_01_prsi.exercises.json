@@ -201,14 +201,35 @@
       "l1": "Encore dans le Liptov. Encore deux arrêts et on est à la Mara.",
       "l2": "Ešte v Liptove. Ešte dve zastávky a sme pri Mare.",
       "tokens_l1": [
-        "Encore dans le Liptov.",
-        "Encore deux arrêts",
-        "et on est à la Mara."
+        "Encore",
+        "dans",
+        "le",
+        "Liptov.",
+        "Encore",
+        "deux",
+        "arrêts",
+        "et",
+        "on",
+        "est",
+        "à",
+        "la",
+        "Mara.",
+        "temps",
+        "devenu"
       ],
       "tokens_l2": [
-        "Ešte v Liptove.",
-        "Ešte dve zastávky",
-        "a sme pri Mare."
+        "Ešte",
+        "v",
+        "Liptove.",
+        "Ešte",
+        "dve",
+        "zastávky",
+        "a",
+        "sme",
+        "pri",
+        "Mare.",
+        "sa",
+        "zbláznilo"
       ]
     },
     {

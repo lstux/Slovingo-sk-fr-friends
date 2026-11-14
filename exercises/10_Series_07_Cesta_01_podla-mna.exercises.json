@@ -190,14 +190,24 @@
       "l1": "D'après la carte, il y a un chemin.",
       "l2": "Podľa mapy tam vedie cesta.",
       "tokens_l1": [
-        "D'après la carte,",
-        "il y a",
-        "un chemin."
+        "D'après",
+        "la",
+        "carte,",
+        "il",
+        "y",
+        "a",
+        "un chemin.",
+        "ne",
+        "fin"
       ],
       "tokens_l2": [
-        "Podľa mapy",
-        "tam vedie",
-        "cesta."
+        "Podľa",
+        "mapy",
+        "tam",
+        "vedie",
+        "cesta.",
+        "dobrý",
+        "koniec"
       ]
     },
     {
@@ -206,14 +216,31 @@
       "l1": "C'est un bon début. Mais on ne connaît pas la fin.",
       "l2": "Je to dobrý začiatok. Ale koniec nepoznáme.",
       "tokens_l1": [
-        "C'est un bon début.",
-        "Mais on ne connaît pas",
-        "la fin."
+        "C'est",
+        "un",
+        "bon",
+        "début.",
+        "Mais",
+        "on",
+        "ne",
+        "connaît",
+        "pas",
+        "la fin.",
+        "est",
+        "à",
+        "l'est"
       ],
       "tokens_l2": [
-        "Je to dobrý začiatok.",
-        "Ale koniec",
-        "nepoznáme."
+        "Je",
+        "to",
+        "dobrý",
+        "začiatok.",
+        "Ale",
+        "koniec",
+        "nepoznáme.",
+        "sú",
+        "východe",
+        "na"
       ]
     }
   ]

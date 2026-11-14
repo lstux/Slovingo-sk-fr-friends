@@ -190,14 +190,36 @@
       "l1": "Toi, tu en avais dix. Et moi, onze. Maintenant j'en ai seize.",
       "l2": "Ty si mal desať. A ja som mala jedenásť. Teraz mám šestnásť.",
       "tokens_l1": [
-        "Toi, tu en avais dix.",
-        "Et moi, onze.",
-        "Maintenant j'en ai seize."
+        "Toi,",
+        "tu",
+        "en",
+        "avais",
+        "dix.",
+        "Et",
+        "moi,",
+        "onze.",
+        "Maintenant",
+        "j'en",
+        "ai",
+        "seize.",
+        "vais",
+        "lycée"
       ],
       "tokens_l2": [
-        "Ty si mal desať.",
-        "A ja som mala jedenásť.",
-        "Teraz mám šestnásť."
+        "Ty",
+        "si",
+        "mal",
+        "desať.",
+        "A",
+        "ja",
+        "som",
+        "mala",
+        "jedenásť.",
+        "Teraz",
+        "mám",
+        "šestnásť.",
+        "gymnázium",
+        "na"
       ]
     },
     {

@@ -190,14 +190,32 @@
       "l1": "Toi, tu étais petit. Moi, j'étais déjà grand à l'époque.",
       "l2": "Ty si bol malý. Ja som bol už vtedy veľký.",
       "tokens_l1": [
-        "Toi, tu étais petit.",
-        "Moi, j'étais",
-        "déjà grand à l'époque."
+        "Toi,",
+        "tu",
+        "étais",
+        "petit.",
+        "Moi,",
+        "j'étais",
+        "déjà",
+        "grand",
+        "à",
+        "l'époque.",
+        "mamie",
+        "va"
       ],
       "tokens_l2": [
-        "Ty si bol malý.",
-        "Ja som bol",
-        "už vtedy veľký."
+        "Ty",
+        "si",
+        "bol",
+        "malý.",
+        "Ja",
+        "som",
+        "bol",
+        "už",
+        "vtedy",
+        "veľký.",
+        "viac",
+        "je"
       ]
     },
     {
@@ -207,13 +225,23 @@
       "l2": "Medveď je veľký ako dom.",
       "tokens_l1": [
         "L'ours",
-        "est grand",
-        "comme une maison."
+        "est",
+        "grand",
+        "comme",
+        "une",
+        "maison.",
+        "moutons",
+        "sont",
+        "toujours"
       ],
       "tokens_l2": [
         "Medveď",
         "je veľký",
-        "ako dom."
+        "ako",
+        "dom.",
+        "sú",
+        "stále",
+        "ovce"
       ]
     }
   ]

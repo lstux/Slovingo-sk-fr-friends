@@ -148,14 +148,46 @@
       "l1": "Pendant deux mois, il n'y avait pas une goutte. Et maintenant il y en a trop. Ce n'est pas normal.",
       "l2": "Dva mesiace nebola ani kvapka. A teraz je jej príliš veľa. To nie je normálne.",
       "tokens_l1": [
-        "Pendant deux mois, il n'y avait pas une goutte.",
-        "Et maintenant il y en a trop.",
-        "Ce n'est pas normal."
+        "Pendant",
+        "deux",
+        "mois,",
+        "il",
+        "n'y",
+        "avait",
+        "pas",
+        "une",
+        "goutte.",
+        "Et",
+        "maintenant",
+        "il",
+        "y",
+        "en",
+        "a",
+        "trop.",
+        "Ce",
+        "n'est",
+        "pas",
+        "normal.",
+        "village-là"
       ],
       "tokens_l2": [
-        "Dva mesiace nebola ani kvapka.",
-        "A teraz je jej príliš veľa.",
-        "To nie je normálne."
+        "Dva",
+        "mesiace",
+        "nebola",
+        "ani",
+        "kvapka.",
+        "A",
+        "teraz",
+        "je",
+        "jej",
+        "príliš",
+        "veľa.",
+        "To",
+        "nie",
+        "je",
+        "normálne.",
+        "dediny",
+        "tej"
       ]
     },
     {
@@ -164,14 +196,32 @@
       "l1": "Pourquoi tu es si triste ? Il y a de l'eau !",
       "l2": "Prečo si taká smutná? Veď je tu voda!",
       "tokens_l1": [
-        "Pourquoi tu es",
-        "si triste ?",
-        "Il y a de l'eau !"
+        "Pourquoi",
+        "tu",
+        "es",
+        "si",
+        "triste",
+        "?",
+        "Il",
+        "y",
+        "a",
+        "de",
+        "l'eau",
+        "!",
+        "ce",
+        "village-là"
       ],
       "tokens_l2": [
-        "Prečo si",
-        "taká smutná?",
-        "Veď je tu voda!"
+        "Prečo",
+        "si",
+        "taká",
+        "smutná?",
+        "Veď",
+        "je",
+        "tu",
+        "voda!",
+        "dediny",
+        "tej"
       ]
     }
   ]

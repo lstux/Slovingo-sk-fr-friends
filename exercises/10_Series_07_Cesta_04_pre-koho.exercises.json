@@ -201,14 +201,33 @@
       "l1": "Pour les gens. Pour les voitures. Pour tous ceux qui sont pressés.",
       "l2": "Pre ľudí. Pre autá. Pre všetkých, ktorí sa ponáhľajú.",
       "tokens_l1": [
-        "Pour les gens.",
-        "Pour les voitures.",
-        "Pour tous ceux qui sont pressés."
+        "Pour",
+        "les",
+        "gens.",
+        "Pour",
+        "les",
+        "voitures.",
+        "Pour",
+        "tous",
+        "ceux",
+        "qui",
+        "sont",
+        "pressés.",
+        "forêt",
+        "traverser",
+        "possible"
       ],
       "tokens_l2": [
         "Pre ľudí.",
         "Pre autá.",
-        "Pre všetkých, ktorí sa ponáhľajú."
+        "Pre",
+        "všetkých,",
+        "ktorí",
+        "sa",
+        "ponáhľajú.",
+        "to",
+        "deň",
+        "cez"
       ]
     },
     {
@@ -218,13 +237,21 @@
       "l2": "Ľudia potrebujú diaľnicu.",
       "tokens_l1": [
         "Les gens",
-        "ont besoin",
-        "d'une autoroute."
+        "ont",
+        "besoin",
+        "d'une",
+        "autoroute.",
+        "possible",
+        "forêt",
+        "traverser"
       ],
       "tokens_l2": [
         "Ľudia",
         "potrebujú",
-        "diaľnicu."
+        "diaľnicu.",
+        "to",
+        "možné",
+        "ísť"
       ]
     }
   ]

@@ -190,14 +190,21 @@
       "l1": "C'est une réponse complètement inutile.",
       "l2": "To je úplne zbytočná odpoveď.",
       "tokens_l1": [
-        "C'est une réponse",
+        "C'est",
+        "une",
+        "réponse",
         "complètement",
-        "inutile."
+        "inutile.",
+        "hautes",
+        "les"
       ],
       "tokens_l2": [
         "To je",
-        "úplne zbytočná",
-        "odpoveď."
+        "úplne",
+        "zbytočná",
+        "odpoveď.",
+        "vysoké",
+        "také"
       ]
     },
     {
@@ -206,14 +213,31 @@
       "l1": "Pourquoi on monte ? Parce que là-haut, il y a un lac.",
       "l2": "Prečo ideme hore? Lebo tam je pleso.",
       "tokens_l1": [
-        "Pourquoi on monte ?",
-        "Parce que",
-        "là-haut, il y a un lac."
+        "Pourquoi",
+        "on",
+        "monte",
+        "?",
+        "Parce",
+        "que",
+        "là-haut,",
+        "il",
+        "y",
+        "a",
+        "un",
+        "lac.",
+        "une",
+        "question"
       ],
       "tokens_l2": [
-        "Prečo ideme hore?",
+        "Prečo",
+        "ideme",
+        "hore?",
         "Lebo",
-        "tam je pleso."
+        "tam",
+        "je",
+        "pleso.",
+        "otázka",
+        "zbytočná"
       ]
     }
   ]

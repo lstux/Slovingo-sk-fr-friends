@@ -159,14 +159,40 @@
       "l1": "Deux mois de sécheresse. Et ensuite ça. Mais qu'est-ce qui arrive à ce monde ?",
       "l2": "Dva mesiace sucho. A potom toto. Čo sa to s tým svetom deje?",
       "tokens_l1": [
-        "Deux mois de sécheresse.",
-        "Et ensuite ça.",
-        "Mais qu'est-ce qui arrive à ce monde ?"
+        "Deux",
+        "mois",
+        "de",
+        "sécheresse.",
+        "Et",
+        "ensuite",
+        "ça.",
+        "Mais",
+        "qu'est-ce",
+        "qui",
+        "arrive",
+        "à",
+        "ce",
+        "monde",
+        "?",
+        "que",
+        "pompiers"
       ],
       "tokens_l2": [
-        "Dva mesiace sucho.",
-        "A potom toto.",
-        "Čo sa to s tým svetom deje?"
+        "Dva",
+        "mesiace",
+        "sucho.",
+        "A",
+        "potom",
+        "toto.",
+        "Čo",
+        "sa",
+        "to",
+        "s",
+        "tým",
+        "svetom",
+        "deje?",
+        "mi",
+        "povedali"
       ]
     },
     {
@@ -176,13 +202,22 @@
       "l2": "Tak môžeme ísť do Bratislavy.",
       "tokens_l1": [
         "Alors",
-        "on peut aller",
-        "à Bratislava."
+        "on",
+        "peut",
+        "aller",
+        "à Bratislava.",
+        "dit",
+        "vous",
+        "avez"
       ],
       "tokens_l2": [
         "Tak",
-        "môžeme ísť",
-        "do Bratislavy."
+        "môžeme",
+        "ísť",
+        "do Bratislavy.",
+        "večer",
+        "vám",
+        "pomáhali"
       ]
     }
   ]
