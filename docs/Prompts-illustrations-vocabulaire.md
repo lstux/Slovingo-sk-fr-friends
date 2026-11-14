@@ -112,7 +112,7 @@ Scene: A flooded village street in heavy rain, brown water up to the knees, grey
 ```
 
 ### 13 — Le travail et la société
-Fichier : `img/vocabulary/13_praca-obcianska-spolocnost.jpg` · Joindre : **A** · Légende : « Les métiers, la vie de la ville et la participation des habitants. »
+Fichier : `img/vocabulary/13_praca-obcianska-spolocnost.jpg` · Joindre : **A** · Légende : « Les métiers, l'emploi et la vie de la commune. »
 ```
 Scene: A small town square on a market morning. Around the edge, a gardener waters flower beds, a baker hands out bread from a stall, a postwoman delivers letters (all humans, in simple cartoon style). In the centre, the fox and Andrea hold a clipboard with a petition and ask a passer-by to sign; the passer-by thinks it over. A town hall with a clock tower behind. No signs with text.
 ```

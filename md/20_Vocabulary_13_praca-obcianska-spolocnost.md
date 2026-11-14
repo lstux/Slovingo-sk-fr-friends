@@ -1,5 +1,7 @@
 # Práca a spoločnosť (Le travail et la société)
 
+@ img/vocabulary/13_praca-obcianska-spolocnost.jpg | Les métiers, l'emploi et la vie de la commune. Source : illustration générée avec ChatGPT
+
 {{fr:Dans une ville, chacun a un rôle : les habitants, les élus, les associations et les personnes qui font fonctionner les services.}}
 
 ---
