@@ -1,5 +1,7 @@
 # Nákupy a peniaze (Les achats et l'argent)
 
+@ img/vocabulary/27_nakupy-peniaze.jpg | Faire les courses, payer et parler de son budget. Source : illustration générée avec ChatGPT
+
 {{fr:Faire les courses, comparer les prix, payer et parler de son budget.}}
 
 ## Les commerces et les achats
