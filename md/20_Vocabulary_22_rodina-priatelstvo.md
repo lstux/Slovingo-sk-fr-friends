@@ -1,5 +1,7 @@
 # Rodina a priateľstvo (La famille et l'amitié)
 
+@ img/vocabulary/22_rodina-priatelstvo.jpg | Présenter sa famille, parler de ses amis. Source : illustration générée avec ChatGPT
+
 {{fr:Parler de sa famille, présenter ses proches et décrire une amitié.}}
 
 ## La famille
