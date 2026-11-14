@@ -1,5 +1,7 @@
 # Šport a pohyb (Le sport et l'activité physique)
 
+@ img/vocabulary/23_sport-pohyb.jpg | Gym, vélo, randonnée, sport en club : on bouge ! Source : illustration générée avec ChatGPT
+
 {{fr:Du sport en club, une sortie à vélo ou une randonnée entre amis : on bouge !}}
 
 ## Les sports
