@@ -1,5 +1,7 @@
 # Škola a učenie (L'école et l'apprentissage)
 
+@ img/vocabulary/21_skola-ucenie.jpg | Cours, devoirs, examens : une journée d'école. Source : illustration générée avec ChatGPT
+
 {{fr:Les cours, les devoirs, les examens… et les phrases pour survivre à une journée d'école.}}
 
 ## À l'école
