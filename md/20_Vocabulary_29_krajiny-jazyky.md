@@ -1,5 +1,7 @@
 # Krajiny a jazyky (Les pays et les langues)
 
+@ img/vocabulary/29_krajiny-jazyky.jpg | Les pays voisins, les langues et les nationalités. Source : illustration générée avec ChatGPT
+
 {{fr:Dire d'où l'on vient, nommer les pays voisins et parler des langues qu'on connaît.}}
 
 ## Les pays et les habitants
