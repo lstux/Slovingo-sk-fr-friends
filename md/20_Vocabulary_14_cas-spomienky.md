@@ -1,5 +1,7 @@
 # Čas a spomienky (Le temps et les souvenirs)
 
+@ img/vocabulary/14_cas-spomienky.jpg | Hier, autrefois, bientôt : raconter ses souvenirs. Source : illustration générée avec ChatGPT
+
 {{fr:Pour raconter une aventure, il faut savoir parler d'hier, d'autrefois, de ce qui vient de se passer et de ce qui arrivera.}}
 
 ---
