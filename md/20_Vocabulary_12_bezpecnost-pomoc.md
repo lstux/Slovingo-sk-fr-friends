@@ -1,5 +1,7 @@
 # Bezpečnosť a pomoc (La sécurité et les secours)
 
+@ img/vocabulary/12_bezpecnost-pomoc.jpg | Dangers, secours et bons réflexes : savoir demander de l'aide. Source : illustration générée avec ChatGPT
+
 {{fr:En montagne, pendant une inondation ou sur la route, il faut parfois réagir vite et demander de l'aide.}}
 
 ---
