@@ -60,9 +60,13 @@
 
 ## Scène 2 — Cinq ans
 
-🦊 Cinq ans ! Tu avais onze ans. Moi, dix.
+🦊 Cinq ans ! Les vacances dans les Tatras. Tu avais onze ans. Moi, dix.
 
-🐰 Et tu es tombé dans le ruisseau.
+🐰 Tu te souviens du ruisseau, derrière le village ?
+
+🦊 Bien sûr ! On y jouait tous les jours.
+
+🐰 Tu es tombé dedans.
 
 🦊 Une fois.
 
@@ -71,6 +75,12 @@
 🦊 Tu comptais ?
 
 🐰 Quelqu'un devait compter.
+
+🦊 Il est toujours aussi froid ?
+
+💬 Andrea ne répond pas tout de suite.
+
+🐰 On verra.
 
 🦊 Et maintenant ? Tu habites ici ? Tu vas au lycée ? Tu as quel âge ? Seize ans ? Moi, j'ai quinze ans. J'habite toujours à Lyon. Je suis venu en train. Deux jours ! Tout seul !
 
@@ -217,6 +227,7 @@
 ---
 
 > **Notes pour Eric**
+> - Le ruisseau de la scène 2 n'est pas une référence à Kids : la scène dit elle-même d'où il vient. C'est aussi le premier indice de l'enquête (c'est lui qui est à sec).
 > - Le gag de langue *veľa / veľmi* (« je parle très ») passe au chapitre 2, comme dans le concept. Ici, il n'y a que la pique « les renards, ça parle beaucoup ».
 > - Au téléphone, c'est Katka. On ne le dit pas avant le chapitre 7.
 > - « Poštová » est une vraie rue de Košice, mais je n'ai pas vérifié qu'il y a un arrêt de tram de ce nom : à contrôler ou à remplacer.
