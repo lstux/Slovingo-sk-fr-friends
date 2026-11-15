@@ -82,7 +82,7 @@
 
 🐰 On verra.
 
-🦊 Et maintenant ? Tu habites ici ? Tu vas au lycée ? Tu as quel âge ? Seize ans ? Moi, j'ai quinze ans. J'habite toujours à Lyon. Je suis venu en train. Deux jours ! Tout seul !
+🦊 Et maintenant ? Comment tu vas ? Tu habites ici ? Tu vas au lycée ? Tu as quel âge ? Seize ans ? Moi, j'ai quinze ans. J'habite toujours à Lyon. Je suis venu en train. Deux jours ! Tout seul !
 
 🐰 Gab.
 
@@ -132,13 +132,13 @@
 
 ## Scène 4 — L'arrêt
 
-📢 Prochain arrêt : Poštová.
+📢 Prochain arrêt : Hlavná pošta.
 
 🐰 Tu descends ici.
 
 🦊 Moi ? Comment tu le sais ?
 
-🐰 Ton auberge est dans cette rue.
+🐰 Ton auberge est juste à côté.
 
 🦊 Je ne t'ai pas dit que j'avais une auberge.
 
@@ -160,7 +160,7 @@
 
 🦊 Ta tante est d'accord ?
 
-🐰 Ma tante dort à neuf heures.
+🐰 Ma tante dort à partir de neuf heures.
 
 🦊 Ce n'est pas une réponse.
 
@@ -230,7 +230,7 @@
 > - Le ruisseau de la scène 2 n'est pas une référence à Kids : la scène dit elle-même d'où il vient. C'est aussi le premier indice de l'enquête (c'est lui qui est à sec).
 > - Le gag de langue *veľa / veľmi* (« je parle très ») passe au chapitre 2, comme dans le concept. Ici, il n'y a que la pique « les renards, ça parle beaucoup ».
 > - Au téléphone, c'est Katka. On ne le dit pas avant le chapitre 7.
-> - « Poštová » est une vraie rue de Košice, mais je n'ai pas vérifié qu'il y a un arrêt de tram de ce nom : à contrôler ou à remplacer.
+> - L'arrêt « Hlavná pošta » (la poste principale) : je crois qu'il existe sur le réseau de Košice, mais je ne l'ai pas contrôlé.
 > - Pour le jeu : le prologue de la gare et la validation du ticket existent déjà ; le livre à l'envers devient une zone cliquable, et la scène 6 une courte cinématique.
 
 ---

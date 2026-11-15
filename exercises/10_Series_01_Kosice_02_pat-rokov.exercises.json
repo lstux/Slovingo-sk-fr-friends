@@ -1,0 +1,291 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-jeden-s",
+      "type": "qcm",
+      "l1": "onze",
+      "l2": "jedenásť",
+      "choices_l1": [
+        "six",
+        "quinze",
+        "un"
+      ],
+      "choices_l2": [
+        "päť",
+        "šesť",
+        "pätnásť"
+      ]
+    },
+    {
+      "id": "qcm-dvan-s",
+      "type": "qcm",
+      "l1": "douze",
+      "l2": "dvanásť",
+      "choices_l1": [
+        "quatorze",
+        "quinze",
+        "treize"
+      ],
+      "choices_l2": [
+        "potok",
+        "veľa",
+        "štrnásť"
+      ]
+    },
+    {
+      "id": "qcm-trin-s",
+      "type": "qcm",
+      "l1": "treize",
+      "l2": "trinásť",
+      "choices_l1": [
+        "le ruisseau",
+        "quinze",
+        "quatorze"
+      ],
+      "choices_l2": [
+        "päť rokov",
+        "dvanásť",
+        "veľa"
+      ]
+    },
+    {
+      "id": "qcm-trn-s",
+      "type": "qcm",
+      "l1": "quatorze",
+      "l2": "štrnásť",
+      "choices_l1": [
+        "cinq ans",
+        "onze",
+        "treize"
+      ],
+      "choices_l2": [
+        "veľa",
+        "teraz",
+        "pätnásť"
+      ]
+    },
+    {
+      "id": "qcm-p-tn-s",
+      "type": "qcm",
+      "l1": "quinze",
+      "l2": "pätnásť",
+      "choices_l1": [
+        "cinq",
+        "six",
+        "un"
+      ],
+      "choices_l2": [
+        "šestnásť",
+        "jedenásť",
+        "šesť"
+      ]
+    },
+    {
+      "id": "qcm-estn-s",
+      "type": "qcm",
+      "l1": "seize",
+      "l2": "šestnásť",
+      "choices_l1": [
+        "cinq",
+        "six",
+        "onze"
+      ],
+      "choices_l2": [
+        "päť",
+        "šesť",
+        "pätnásť"
+      ]
+    },
+    {
+      "id": "listen-pamätáš-sa-na-potok-za-dedinou",
+      "type": "listen",
+      "l1": "Tu te souviens du ruisseau, derrière le village ?",
+      "l2": "Pamätáš sa na potok za dedinou?",
+      "choices_l1": [
+        "Tu te souviens du village, derrière le ruisseau ?",
+        "Tu habites près du ruisseau, derrière le village ?",
+        "Tu te souviens des vacances dans les Tatras ?"
+      ]
+    },
+    {
+      "id": "listen-spadol-si-do-neho",
+      "type": "listen",
+      "l1": "Tu es tombé dedans.",
+      "l2": "Spadol si do neho.",
+      "choices_l1": [
+        "Tu avais onze ans.",
+        "On y jouait tous les jours.",
+        "Tu es venu en train."
+      ]
+    },
+    {
+      "id": "listen-poznám-len-jednu-stačí",
+      "type": "listen",
+      "l1": "Je n'en connais qu'un. Ça suffit.",
+      "l2": "Poznám len jednu. Stačí.",
+      "choices_l1": [
+        "Je n'en connais aucun. Ça suffit.",
+        "J'en connais beaucoup. Ça suffit.",
+        "Je n'en connais qu'un. On verra."
+      ]
+    },
+    {
+      "id": "listen-koľko-máš-rokov",
+      "type": "listen",
+      "l1": "Tu as quel âge ?",
+      "l2": "Koľko máš rokov?",
+      "choices_l1": [
+        "Comment tu vas ?",
+        "Tu habites ici ?",
+        "Tu as quinze ans ?"
+      ]
+    },
+    {
+      "id": "blank-líšky-veľa-rozprávajú",
+      "type": "fill-blank",
+      "l1": "Les renards, ça parle beaucoup.",
+      "l2": "Líšky veľa rozprávajú.",
+      "missing_l1": "beaucoup",
+      "missing_l2": "veľa",
+      "blank_index_l1": 4,
+      "blank_index_l2": 1,
+      "choices_l1": [
+        "très",
+        "maintenant",
+        "vraiment"
+      ],
+      "choices_l2": [
+        "veľmi",
+        "teraz",
+        "naozaj"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-mám-štrnásť-a-moja-kamarátka-trinásť",
+      "type": "fill-blank",
+      "l1": "J'ai quatorze ans. Et ma copine, treize.",
+      "l2": "Mám štrnásť. A moja kamarátka trinásť.",
+      "missing_l1": "quatorze",
+      "missing_l2": "štrnásť",
+      "blank_index_l1": 1,
+      "blank_index_l2": 1,
+      "choices_l1": [
+        "quinze",
+        "quatre",
+        "seize"
+      ],
+      "choices_l2": [
+        "pätnásť",
+        "štyri",
+        "šestnásť"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-mám-pätnásť-rokov",
+      "type": "order",
+      "l1": "J'ai quinze ans.",
+      "l2": "Mám pätnásť rokov.",
+      "tokens_l1": [
+        "J'ai",
+        "quinze",
+        "ans.",
+        "Et",
+        "maintenant",
+        "?",
+        "Comment",
+        "tu",
+        "vas",
+        "?",
+        "Tu",
+        "habites",
+        "ici",
+        "?",
+        "Tu",
+        "vas",
+        "au",
+        "lycée",
+        "?",
+        "Tu",
+        "as",
+        "quel",
+        "âge",
+        "?",
+        "Seize",
+        "ans",
+        "?"
+      ],
+      "tokens_l2": [
+        "Mám",
+        "pätnásť",
+        "rokov.",
+        "A",
+        "teraz?",
+        "Ako",
+        "sa",
+        "máš?",
+        "Bývaš",
+        "tu?",
+        "Chodíš",
+        "na",
+        "gymnázium?",
+        "Koľko",
+        "máš",
+        "rokov?",
+        "Šestnásť?"
+      ]
+    },
+    {
+      "id": "order-bol-som-tu-dvakrát",
+      "type": "order",
+      "l1": "Je suis venu ici deux fois.",
+      "l2": "Bol som tu dvakrát.",
+      "tokens_l1": [
+        "Je",
+        "suis",
+        "venu",
+        "ici",
+        "deux",
+        "fois.",
+        "J'ai",
+        "quatorze",
+        "ans.",
+        "Et",
+        "ma",
+        "copine,",
+        "treize."
+      ],
+      "tokens_l2": [
+        "Bol",
+        "som",
+        "tu",
+        "dvakrát.",
+        "Mám",
+        "štrnásť.",
+        "A",
+        "moja",
+        "kamarátka",
+        "trinásť."
+      ]
+    },
+    {
+      "id": "match-jeden-s-vocab",
+      "type": "match",
+      "l1": [
+        "onze",
+        "douze",
+        "treize",
+        "quatorze"
+      ],
+      "l2": [
+        "jedenásť",
+        "dvanásť",
+        "trinásť",
+        "štrnásť"
+      ]
+    }
+  ]
+}

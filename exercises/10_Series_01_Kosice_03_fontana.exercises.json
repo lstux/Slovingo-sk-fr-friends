@@ -1,0 +1,280 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-o-je-to",
+      "type": "qcm",
+      "l1": "Qu'est-ce que c'est ?",
+      "l2": "Čo je to?",
+      "choices_l1": [
+        "Tu as quel âge ?",
+        "Tu avais onze ans. (à une fille)",
+        "Tu es tombé. (à un garçon)"
+      ],
+      "choices_l2": [
+        "To som ja.",
+        "Mala si jedenásť.",
+        "Ty nie si prekvapená?"
+      ]
+    },
+    {
+      "id": "qcm-po-ta",
+      "type": "qcm",
+      "l1": "l'ordinateur",
+      "l2": "počítač",
+      "choices_l1": [
+        "un peu",
+        "la fontaine",
+        "regarde"
+      ],
+      "choices_l2": [
+        "trochu",
+        "bývaš",
+        "bývam"
+      ]
+    },
+    {
+      "id": "qcm-b-vam",
+      "type": "qcm",
+      "l1": "j'habite",
+      "l2": "bývam",
+      "choices_l1": [
+        "je sais",
+        "le tram",
+        "treize"
+      ],
+      "choices_l2": [
+        "nefunguje",
+        "nebývam",
+        "funguje"
+      ]
+    },
+    {
+      "id": "qcm-b-va",
+      "type": "qcm",
+      "l1": "tu habites",
+      "l2": "bývaš",
+      "choices_l1": [
+        "j'habite",
+        "je sais",
+        "tu sais"
+      ],
+      "choices_l2": [
+        "bývam",
+        "Andrea býva",
+        "teta vie"
+      ]
+    },
+    {
+      "id": "qcm-u",
+      "type": "qcm",
+      "l1": "déjà, plus",
+      "l2": "už",
+      "choices_l1": [
+        "la fontaine",
+        "l'ordinateur",
+        "tu habites"
+      ],
+      "choices_l2": [
+        "bývaš",
+        "voda",
+        "trochu"
+      ]
+    },
+    {
+      "id": "qcm-pozri",
+      "type": "qcm",
+      "l1": "regarde",
+      "l2": "pozri",
+      "choices_l1": [
+        "la fontaine",
+        "l'eau",
+        "déjà, plus"
+      ],
+      "choices_l2": [
+        "bývam",
+        "počítač",
+        "smädný"
+      ]
+    },
+    {
+      "id": "listen-už-tam-nebývam",
+      "type": "listen",
+      "l1": "Je n'habite plus là-bas.",
+      "l2": "Už tam nebývam.",
+      "choices_l1": [
+        "J'habite encore là-bas.",
+        "Tu n'habites plus là-bas.",
+        "Je n'habite pas ici."
+      ]
+    },
+    {
+      "id": "listen-pozri-fontána",
+      "type": "listen",
+      "l1": "Regarde. La fontaine.",
+      "l2": "Pozri. Fontána.",
+      "choices_l1": [
+        "Regarde. De l'eau.",
+        "Bois. C'est la fontaine.",
+        "Regarde. Une affiche."
+      ]
+    },
+    {
+      "id": "listen-pi-ale-nie-všetko",
+      "type": "listen",
+      "l1": "Bois. Mais pas tout.",
+      "l2": "Pi. Ale nie všetko.",
+      "choices_l1": [
+        "Regarde. Mais pas tout.",
+        "Bois. Un peu d'eau.",
+        "Bois tout. J'ai de l'eau."
+      ]
+    },
+    {
+      "id": "listen-si-smädný",
+      "type": "listen",
+      "l1": "Tu as soif ?",
+      "l2": "Si smädný?",
+      "choices_l1": [
+        "Tu as de l'eau ?",
+        "Tu habites ici ?",
+        "C'est quoi ?"
+      ]
+    },
+    {
+      "id": "blank-môj-počítač-nefunguje",
+      "type": "fill-blank",
+      "l1": "Mon ordinateur ne marche pas.",
+      "l2": "Môj počítač nefunguje.",
+      "missing_l1": "ordinateur",
+      "missing_l2": "počítač",
+      "blank_index_l1": 1,
+      "blank_index_l2": 1,
+      "choices_l1": [
+        "ticket",
+        "livre",
+        "sac"
+      ],
+      "choices_l2": [
+        "lístok",
+        "plagát",
+        "batoh"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-už-tam-nebývam",
+      "type": "fill-blank",
+      "l1": "Je n'habite plus là-bas.",
+      "l2": "Už tam nebývam.",
+      "missing_l1": "plus",
+      "missing_l2": "Už",
+      "blank_index_l1": 2,
+      "blank_index_l2": 0,
+      "choices_l1": [
+        "vraiment",
+        "très",
+        "aussi"
+      ],
+      "choices_l2": [
+        "Naozaj",
+        "Veľmi",
+        "Trochu"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-máš-fľašu-vody",
+      "type": "order",
+      "l1": "Tu as une bouteille d'eau ?",
+      "l2": "Máš fľašu vody?",
+      "tokens_l1": [
+        "Tu",
+        "as",
+        "une",
+        "bouteille",
+        "d'eau",
+        "?",
+        "Il",
+        "n'y",
+        "a",
+        "plus",
+        "d'eau.",
+        "Il",
+        "n'a",
+        "pas",
+        "plu",
+        "depuis",
+        "deux",
+        "mois."
+      ],
+      "tokens_l2": [
+        "Máš",
+        "fľašu",
+        "vody?",
+        "Nie",
+        "je",
+        "voda.",
+        "Dva",
+        "mesiace",
+        "nepršalo."
+      ]
+    },
+    {
+      "id": "order-to-je-pekné-čo-je-to",
+      "type": "order",
+      "l1": "C'est joli. C'est quoi ?",
+      "l2": "To je pekné. Čo je to?",
+      "tokens_l1": [
+        "C'est",
+        "joli.",
+        "C'est",
+        "quoi",
+        "?",
+        "«",
+        "Zelená",
+        "vlna.",
+        "Le",
+        "cloud",
+        "refroidi",
+        "par",
+        "l'air",
+        "des",
+        "Tatras.",
+        "»"
+      ],
+      "tokens_l2": [
+        "To",
+        "je",
+        "pekné.",
+        "Čo",
+        "je",
+        "to?",
+        "„Zelená",
+        "vlna.",
+        "Cloud",
+        "chladený",
+        "vzduchom",
+        "z",
+        "Tatier.“"
+      ]
+    },
+    {
+      "id": "match-o-je-to-vocab",
+      "type": "match",
+      "l1": [
+        "Qu'est-ce que c'est ?",
+        "l'ordinateur",
+        "j'habite",
+        "tu habites"
+      ],
+      "l2": [
+        "Čo je to?",
+        "počítač",
+        "bývam",
+        "bývaš"
+      ]
+    }
+  ]
+}

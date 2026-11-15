@@ -1,0 +1,271 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-ve-er",
+      "type": "qcm",
+      "l1": "le soir",
+      "l2": "večer",
+      "choices_l1": [
+        "dehors",
+        "moi aussi",
+        "dimanche"
+      ],
+      "choices_l2": [
+        "v nedeľu",
+        "rada",
+        "vonku"
+      ]
+    },
+    {
+      "id": "qcm-jablo",
+      "type": "qcm",
+      "l1": "le pommier",
+      "l2": "jabloň",
+      "choices_l1": [
+        "dehors",
+        "moi aussi",
+        "le soir"
+      ],
+      "choices_l2": [
+        "rád",
+        "pod jabloňou",
+        "vonku"
+      ]
+    },
+    {
+      "id": "qcm-pod-jablo-ou",
+      "type": "qcm",
+      "l1": "sous le pommier",
+      "l2": "pod jabloňou",
+      "choices_l1": [
+        "dedans, à l'intérieur",
+        "dans une semaine",
+        "content (dit par un garçon)"
+      ],
+      "choices_l2": [
+        "vonku",
+        "Dobrú noc.",
+        "rád"
+      ]
+    },
+    {
+      "id": "qcm-vonku",
+      "type": "qcm",
+      "l1": "dehors",
+      "l2": "vonku",
+      "choices_l1": [
+        "moi aussi",
+        "dimanche",
+        "le pommier"
+      ],
+      "choices_l2": [
+        "vnútri",
+        "jabloň",
+        "v nedeľu"
+      ]
+    },
+    {
+      "id": "qcm-vn-tri",
+      "type": "qcm",
+      "l1": "dedans, à l'intérieur",
+      "l2": "vnútri",
+      "choices_l1": [
+        "contente (dit par une fille)",
+        "sous le pommier",
+        "content (dit par un garçon)"
+      ],
+      "choices_l2": [
+        "o týždeň",
+        "večer",
+        "v nedeľu"
+      ]
+    },
+    {
+      "id": "qcm-r-d",
+      "type": "qcm",
+      "l1": "content (dit par un garçon)",
+      "l2": "rád",
+      "choices_l1": [
+        "dans une semaine",
+        "dedans, à l'intérieur",
+        "sous le pommier"
+      ],
+      "choices_l2": [
+        "v nedeľu",
+        "vnútri",
+        "o týždeň"
+      ]
+    },
+    {
+      "id": "listen-spíš-tam-pod-jabloňou",
+      "type": "listen",
+      "l1": "Tu dors là. Sous le pommier.",
+      "l2": "Spíš tam. Pod jabloňou.",
+      "choices_l1": [
+        "Tu dors là. Dans le jardin.",
+        "Tu dors dedans. Il fait chaud.",
+        "Je dors là. Sous le pommier."
+      ]
+    },
+    {
+      "id": "listen-a-keď-bude-pršať",
+      "type": "listen",
+      "l1": "Et s'il pleut ?",
+      "l2": "A keď bude pršať?",
+      "choices_l1": [
+        "Et s'il fait chaud ?",
+        "Et ta tante ?",
+        "Et dimanche ?"
+      ]
+    },
+    {
+      "id": "listen-trochu-aj-navonok",
+      "type": "listen",
+      "l1": "Un peu à l'extérieur aussi.",
+      "l2": "Trochu aj navonok.",
+      "choices_l1": [
+        "Un peu à l'intérieur aussi.",
+        "Dehors, c'est pire.",
+        "Moi aussi, un peu."
+      ]
+    },
+    {
+      "id": "listen-dobrú-noc",
+      "type": "listen",
+      "l1": "Bonne nuit.",
+      "l2": "Dobrú noc.",
+      "choices_l1": [
+        "Bonsoir.",
+        "À dimanche.",
+        "Moi aussi."
+      ]
+    },
+    {
+      "id": "blank-som-rád-že-ťa-vidím",
+      "type": "fill-blank",
+      "l1": "Je suis content de te voir.",
+      "l2": "Som rád, že ťa vidím.",
+      "missing_l1": "content",
+      "missing_l2": "rád",
+      "blank_index_l1": 2,
+      "blank_index_l2": 1,
+      "choices_l1": [
+        "contente",
+        "dedans",
+        "dehors"
+      ],
+      "choices_l2": [
+        "rada",
+        "vnútri",
+        "vonku"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-o-týždeň-odchádzam-v-nedeľu",
+      "type": "fill-blank",
+      "l1": "Je repars dans une semaine. Dimanche.",
+      "l2": "O týždeň odchádzam. V nedeľu.",
+      "missing_l1": "semaine",
+      "missing_l2": "týždeň",
+      "blank_index_l1": 4,
+      "blank_index_l2": 1,
+      "choices_l1": [
+        "soir",
+        "nuit",
+        "fois"
+      ],
+      "choices_l2": [
+        "večer",
+        "noc",
+        "raz"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-ako-to-vieš",
+      "type": "order",
+      "l1": "Comment tu le sais ?",
+      "l2": "Ako to vieš?",
+      "tokens_l1": [
+        "Comment",
+        "tu",
+        "le",
+        "sais",
+        "?",
+        "Un",
+        "peu",
+        "à",
+        "l'extérieur",
+        "aussi."
+      ],
+      "tokens_l2": [
+        "Ako",
+        "to",
+        "vieš?",
+        "Trochu",
+        "aj",
+        "navonok."
+      ]
+    },
+    {
+      "id": "order-je-tridsať-stupňov-vnútri-je-to-horšie",
+      "type": "order",
+      "l1": "Il fait trente degrés. Dedans, c'est pire.",
+      "l2": "Je tridsať stupňov. Vnútri je to horšie.",
+      "tokens_l1": [
+        "Il",
+        "fait",
+        "trente",
+        "degrés.",
+        "Dedans,",
+        "c'est",
+        "pire.",
+        "Andrea",
+        "lui",
+        "donne",
+        "une",
+        "couverture.",
+        "Elle",
+        "reste",
+        "debout",
+        "un",
+        "moment."
+      ],
+      "tokens_l2": [
+        "Je",
+        "tridsať",
+        "stupňov.",
+        "Vnútri",
+        "je",
+        "to",
+        "horšie.",
+        "Andrea",
+        "mu",
+        "dá",
+        "deku.",
+        "Chvíľu",
+        "ešte",
+        "stojí."
+      ]
+    },
+    {
+      "id": "match-ve-er-vocab",
+      "type": "match",
+      "l1": [
+        "le soir",
+        "le pommier",
+        "sous le pommier",
+        "dehors"
+      ],
+      "l2": [
+        "večer",
+        "jabloň",
+        "pod jabloňou",
+        "vonku"
+      ]
+    }
+  ]
+}

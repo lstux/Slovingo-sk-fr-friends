@@ -3,19 +3,51 @@
   "sync": "full",
   "exercises": [
     {
+      "id": "qcm-som",
+      "type": "qcm",
+      "l1": "je suis",
+      "l2": "som",
+      "choices_l1": [
+        "C'est moi.",
+        "tu es",
+        "C'est toi."
+      ],
+      "choices_l2": [
+        "zastávka",
+        "si",
+        "je"
+      ]
+    },
+    {
       "id": "qcm-si",
       "type": "qcm",
       "l1": "tu es",
       "l2": "si",
       "choices_l1": [
+        "C'est toi.",
         "je suis",
-        "il est, elle est",
-        "oui"
+        "C'est moi."
       ],
       "choices_l2": [
+        "veľmi",
         "som",
-        "je",
-        "áno"
+        "dnes"
+      ]
+    },
+    {
+      "id": "qcm-nie-si",
+      "type": "qcm",
+      "l1": "tu n'es pas",
+      "l2": "nie si",
+      "choices_l1": [
+        "Je ne suis pas un touriste.",
+        "il est, elle est",
+        "Tu n'es pas surprise ?"
+      ],
+      "choices_l2": [
+        "viem",
+        "veľmi",
+        "som"
       ]
     },
     {
@@ -24,207 +56,215 @@
       "l1": "vraiment",
       "l2": "naozaj",
       "choices_l1": [
-        "attends",
-        "ici, là",
-        "le tram"
-      ],
-      "choices_l2": [
-        "počkaj",
-        "tu",
-        "električka"
-      ]
-    },
-    {
-      "id": "qcm-po-kaj",
-      "type": "qcm",
-      "l1": "attends",
-      "l2": "počkaj",
-      "choices_l1": [
-        "vraiment",
-        "ici, là",
-        "tu es"
-      ],
-      "choices_l2": [
-        "naozaj",
-        "tu",
-        "si"
-      ]
-    },
-    {
-      "id": "qcm-tu",
-      "type": "qcm",
-      "l1": "ici, là",
-      "l2": "tu",
-      "choices_l1": [
-        "toi, tu",
-        "moi, je",
-        "tu es"
-      ],
-      "choices_l2": [
-        "ty",
-        "ja",
-        "si"
-      ]
-    },
-    {
-      "id": "qcm-zast-vka",
-      "type": "qcm",
-      "l1": "l'arrêt",
-      "l2": "zastávka",
-      "choices_l1": [
         "le ticket",
-        "la ville",
-        "le tram"
+        "je suis",
+        "le livre"
+      ],
+      "choices_l2": [
+        "viem",
+        "som",
+        "veľmi"
+      ]
+    },
+    {
+      "id": "qcm-elektri-ka",
+      "type": "qcm",
+      "l1": "le tram",
+      "l2": "električka",
+      "choices_l1": [
+        "tu es",
+        "très",
+        "je sais"
+      ],
+      "choices_l2": [
+        "som",
+        "viem",
+        "veľmi"
+      ]
+    },
+    {
+      "id": "qcm-l-stok",
+      "type": "qcm",
+      "l1": "le ticket",
+      "l2": "lístok",
+      "choices_l1": [
+        "le tram",
+        "je suis",
+        "le livre"
+      ],
+      "choices_l2": [
+        "nie si",
+        "električka",
+        "naozaj"
+      ]
+    },
+    {
+      "id": "listen-to-si-ty-to-si-naozaj-ty",
+      "type": "listen",
+      "l1": "C'est toi ! C'est vraiment toi !",
+      "l2": "To si ty! To si naozaj ty!",
+      "choices_l1": [
+        "C'est moi ! C'est vraiment moi !",
+        "C'est toi ! Tu es dans le tram !",
+        "Tu es là ! C'est vraiment toi !"
+      ]
+    },
+    {
+      "id": "listen-dnes-áno",
+      "type": "listen",
+      "l1": "Aujourd'hui, oui.",
+      "l2": "Dnes áno.",
+      "choices_l1": [
+        "Aujourd'hui, non.",
+        "Oui, vraiment.",
+        "Je sais, oui."
+      ]
+    },
+    {
+      "id": "listen-som-veľmi",
+      "type": "listen",
+      "l1": "Si. Très.",
+      "l2": "Som. Veľmi.",
+      "choices_l1": [
+        "Je sais. Vraiment.",
+        "Oui. Aujourd'hui.",
+        "C'est moi. Vraiment."
+      ]
+    },
+    {
+      "id": "listen-kde-je-zastávka",
+      "type": "listen",
+      "l1": "Où est l'arrêt ?",
+      "l2": "Kde je zastávka?",
+      "choices_l1": [
+        "Où est le tram ?",
+        "Où est mon ticket ?",
+        "Où est la ville ?"
+      ]
+    },
+    {
+      "id": "blank-tú-knihu-máš-naopak",
+      "type": "fill-blank",
+      "l1": "Ton livre est à l'envers.",
+      "l2": "Tú knihu máš naopak.",
+      "missing_l1": "livre",
+      "missing_l2": "knihu",
+      "blank_index_l1": 1,
+      "blank_index_l2": 1,
+      "choices_l1": [
+        "ticket",
+        "sac",
+        "tram"
       ],
       "choices_l2": [
         "lístok",
-        "mesto",
-        "električka"
-      ]
-    },
-    {
-      "id": "listen-andrea-to-si-ty",
-      "type": "listen",
-      "l1": "Andrea ? C'est toi ?",
-      "l2": "Andrea? To si ty?",
-      "choices_l1": [
-        "Andrea ? C'est moi ?",
-        "Andrea ? Tu es là ?",
-        "Andrea ? C'est vraiment moi ?"
-      ]
-    },
-    {
-      "id": "listen-no-to-som-ja",
-      "type": "listen",
-      "l1": "Oui ! C'est moi !",
-      "l2": "Áno! To som ja!",
-      "choices_l1": [
-        "Oui ! C'est toi !",
-        "Attends ! C'est moi !",
-        "Oui ! C'est vraiment toi !"
-      ]
-    },
-    {
-      "id": "listen-ty-si-tu-v-ko-iciach-v-elektri-ke",
-      "type": "listen",
-      "l1": "Tu es là ? À Košice ? Dans le tram ?",
-      "l2": "Ty si tu? V Košiciach? V električke?",
-      "choices_l1": [
-        "Je suis là ? À Košice ? Dans le tram ?",
-        "Tu es là ? À Košice ? En ville ?",
-        "C'est toi ? À Košice ? Dans le tram ?"
-      ]
-    },
-    {
-      "id": "match-ja-vocab",
-      "type": "match",
-      "l1": [
-        "moi, je",
-        "toi, tu",
-        "je suis",
-        "tu es"
+        "batoh",
+        "električku"
       ],
-      "l2": [
-        "ja",
-        "ty",
-        "som",
-        "si"
-      ]
+      "show_translation": true
     },
     {
-      "id": "blank-no-to-som-ja",
+      "id": "blank-to-som-ja",
       "type": "fill-blank",
-      "l1": "Oui ! C'est moi !",
-      "l2": "Áno! To som ja!",
+      "l1": "C'est moi.",
+      "l2": "To som ja.",
       "missing_l1": "moi",
-      "missing_l2": "ja",
-      "blank_index_l1": 3,
-      "blank_index_l2": 3,
+      "missing_l2": "som",
+      "blank_index_l1": 1,
+      "blank_index_l2": 1,
       "choices_l1": [
         "toi",
-        "ici",
-        "vraiment"
+        "vraiment",
+        "aujourd'hui"
       ],
       "choices_l2": [
-        "ty",
-        "tu",
-        "si"
+        "si",
+        "je",
+        "viem"
       ],
       "show_translation": true
     },
     {
-      "id": "blank-to-je-m-j-l-stok",
-      "type": "fill-blank",
-      "l1": "C'est mon ticket.",
-      "l2": "To je môj lístok.",
-      "missing_l1": "ticket",
-      "missing_l2": "lístok",
-      "blank_index_l1": 2,
-      "blank_index_l2": 3,
-      "choices_l1": [
-        "arrêt",
-        "tram",
-        "ville"
-      ],
-      "choices_l2": [
-        "zastávka",
-        "električka",
-        "mesto"
-      ],
-      "show_translation": true
-    },
-    {
-      "id": "order-po-kaj-to-nie-je-mo-n",
+      "id": "order-ale-ty-nie-si-prekvapená",
       "type": "order",
-      "l1": "Attends... C'est pas possible.",
-      "l2": "Počkaj... To nie je možné.",
+      "l1": "Mais… tu n'es pas surprise ?",
+      "l2": "Ale… ty nie si prekvapená?",
       "tokens_l1": [
-        "Attends...",
-        "C'est",
+        "Mais…",
+        "tu",
+        "n'es",
         "pas",
-        "possible.",
+        "surprise",
+        "?",
+        "Mon",
+        "sac",
+        "à",
+        "dos",
+        "est",
+        "dans",
+        "le",
         "tram",
-        "là"
+        "!"
       ],
       "tokens_l2": [
-        "Počkaj...",
-        "To",
+        "Ale…",
+        "ty",
         "nie",
+        "si",
+        "prekvapená?",
+        "Môj",
+        "batoh",
         "je",
-        "možné.",
-        "tu",
-        "si"
+        "v",
+        "električke!"
       ]
     },
     {
-      "id": "order-ty-si-tu-v-ko-iciach-v-elektri-ke",
+      "id": "order-som-prekvapená-vnútri",
       "type": "order",
-      "l1": "Tu es là ? À Košice ? Dans le tram ?",
-      "l2": "Ty si tu? V Košiciach? V električke?",
+      "l1": "Je suis surprise à l'intérieur.",
+      "l2": "Som prekvapená vnútri.",
       "tokens_l1": [
-        "Tu",
-        "es",
-        "là",
-        "?",
-        "À",
-        "Košice",
-        "?",
-        "Dans",
-        "le",
-        "tram",
-        "?",
-        "possible",
-        "pas"
+        "Je",
+        "suis",
+        "surprise",
+        "à",
+        "l'intérieur.",
+        "C'est",
+        "toi",
+        "!",
+        "C'est",
+        "vraiment",
+        "toi",
+        "!"
       ],
       "tokens_l2": [
-        "Ty",
+        "Som",
+        "prekvapená",
+        "vnútri.",
+        "To",
         "si",
-        "tu?",
-        "V Košiciach?",
-        "V električke?",
-        "nie",
-        "možné",
-        "je"
+        "ty!",
+        "To",
+        "si",
+        "naozaj",
+        "ty!"
+      ]
+    },
+    {
+      "id": "match-som-vocab",
+      "type": "match",
+      "l1": [
+        "je suis",
+        "tu es",
+        "tu n'es pas",
+        "vraiment"
+      ],
+      "l2": [
+        "som",
+        "si",
+        "nie si",
+        "naozaj"
       ]
     }
   ]

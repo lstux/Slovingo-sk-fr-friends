@@ -3,260 +3,201 @@
   "sync": "full",
   "exercises": [
     {
-      "id": "listen-tu-b-va-moja-teta-je-mil-ale-ve-k-a-siln",
-      "type": "listen",
-      "l1": "C'est là qu'habite ma tante. Elle est gentille. Mais grande et forte.",
-      "l2": "Tu býva moja teta. Je milá. Ale veľká a silná.",
+      "id": "qcm-trn-s",
+      "type": "qcm",
+      "l1": "quatorze",
+      "l2": "štrnásť",
       "choices_l1": [
-        "C'est là qu'habite ma tante. Elle est petite. Mais gentille et forte.",
-        "C'est là qu'habite ma maman. Elle est gentille. Mais grande et forte.",
-        "C'est là que j'habite. Je suis gentille. Mais grande et forte."
-      ]
-    },
-    {
-      "id": "listen-boj-m-sa",
-      "type": "listen",
-      "l1": "J'ai peur.",
-      "l2": "Bojím sa.",
-      "choices_l1": [
-        "J'ai froid.",
-        "J'arrive.",
-        "Je dors."
-      ]
-    },
-    {
-      "id": "listen-bude-spa-v-z-hrade-pod-jablo-ou",
-      "type": "listen",
-      "l1": "Tu vas dormir dans le jardin. Sous le pommier.",
-      "l2": "Budeš spať v záhrade. Pod jabloňou.",
-      "choices_l1": [
-        "Tu vas dormir dans le tram. Sous le pommier.",
-        "Tu vas dormir dans la maison. Avec ma tante.",
-        "Tu vas manger dans le jardin. Sous le pommier."
-      ]
-    },
-    {
-      "id": "listen-aj-ja-teraz-si-tu-to-je-skvel",
-      "type": "listen",
-      "l1": "Moi aussi. Maintenant tu es là. C'est super.",
-      "l2": "Aj ja. Teraz si tu. To je skvelé.",
-      "choices_l1": [
-        "Moi aussi. Maintenant je suis là. C'est super.",
-        "Toi aussi. Maintenant tu es là. C'est bizarre.",
-        "Moi non. Maintenant tu es là. C'est super."
-      ]
-    },
-    {
-      "id": "listen-ale-ja-som-tu-len-na-pr-zdnin-ch",
-      "type": "listen",
-      "l1": "Mais moi, je ne suis ici qu'en vacances...",
-      "l2": "Ale ja som tu len na prázdninách...",
-      "choices_l1": [
-        "Mais moi, j'habite ici...",
-        "Mais moi, je suis ici avec maman...",
-        "Mais toi, tu n'es ici qu'en vacances..."
-      ]
-    },
-    {
-      "id": "listen-je-ve-er-pred-domom-je-ve-k-z-hrada",
-      "type": "listen",
-      "l1": "C'est le soir. Devant la maison, il y a un grand jardin.",
-      "l2": "Je večer. Pred domom je veľká záhrada.",
-      "choices_l1": [
-        "C'est le matin. Devant la maison, il y a un grand jardin.",
-        "C'est le soir. Devant la maison, il y a une grande cathédrale.",
-        "C'est le soir. Dans la maison, il y a une grande tante."
-      ]
-    },
-    {
-      "id": "match-pam-t-m-sa-vocab",
-      "type": "match",
-      "l1": [
-        "je me souviens",
-        "tout",
-        "vrai, la vérité",
-        "presque"
-      ],
-      "l2": [
-        "pamätám sa",
-        "všetko",
-        "pravda",
-        "skoro"
-      ]
-    },
-    {
-      "id": "match-boj-m-sa-sentences",
-      "type": "match",
-      "l1": [
-        "J'ai peur.",
-        "Elle ne sait pas ?",
-        "Bonne nuit, Andrea.",
-        "Moi aussi. Maintenant tu es là. C'est super."
-      ],
-      "l2": [
-        "Bojím sa.",
-        "Nevie?",
-        "Dobrú noc, Andrea.",
-        "Aj ja. Teraz si tu. To je skvelé."
-      ]
-    },
-    {
-      "id": "blank-tu-b-va-moja-teta-je-mil-ale-ve-k-a-siln",
-      "type": "fill-blank",
-      "l1": "C'est là qu'habite ma tante. Elle est gentille. Mais grande et forte.",
-      "l2": "Tu býva moja teta. Je milá. Ale veľká a silná.",
-      "missing_l1": "forte",
-      "missing_l2": "silná",
-      "blank_index_l1": 11,
-      "blank_index_l2": 9,
-      "choices_l1": [
-        "gentille",
-        "contente",
-        "petite"
+        "je suis",
+        "le soir",
+        "la réponse"
       ],
       "choices_l2": [
-        "milá",
-        "rada",
-        "malá"
-      ],
-      "show_translation": true
+        "viem",
+        "okno",
+        "rád"
+      ]
     },
     {
-      "id": "blank-bude-spa-v-z-hrade-pod-jablo-ou",
+      "id": "qcm-u",
+      "type": "qcm",
+      "l1": "déjà, plus",
+      "l2": "už",
+      "choices_l1": [
+        "cinq ans",
+        "le tram",
+        "la tante"
+      ],
+      "choices_l2": [
+        "zajtra",
+        "majú",
+        "záhrada"
+      ]
+    },
+    {
+      "id": "qcm-n-mestie",
+      "type": "qcm",
+      "l1": "la place",
+      "l2": "námestie",
+      "choices_l1": [
+        "le touriste",
+        "le soir",
+        "demain (nouveau)"
+      ],
+      "choices_l2": [
+        "v nedeľu",
+        "fontána",
+        "veľa"
+      ]
+    },
+    {
+      "id": "qcm-teta",
+      "type": "qcm",
+      "l1": "la tante",
+      "l2": "teta",
+      "choices_l1": [
+        "douze",
+        "le livre",
+        "onze"
+      ],
+      "choices_l2": [
+        "pod jabloňou",
+        "drahý",
+        "šestnásť"
+      ]
+    },
+    {
+      "id": "qcm-rada",
+      "type": "qcm",
+      "l1": "contente (dit par une fille)",
+      "l2": "rada",
+      "choices_l1": [
+        "la fenêtre (nouveau)",
+        "dans une semaine",
+        "il dort, elle dort"
+      ],
+      "choices_l2": [
+        "fontána",
+        "noc",
+        "vnútri"
+      ]
+    },
+    {
+      "id": "qcm-noc",
+      "type": "qcm",
+      "l1": "la nuit (nouveau)",
+      "l2": "noc",
+      "choices_l1": [
+        "qui a soif (un garçon)",
+        "Qu'est-ce que c'est ?",
+        "tu n'es pas"
+      ],
+      "choices_l2": [
+        "Dobrú noc.",
+        "štrnásť",
+        "veľa"
+      ]
+    },
+    {
+      "id": "qcm-okno",
+      "type": "qcm",
+      "l1": "la fenêtre (nouveau)",
+      "l2": "okno",
+      "choices_l1": [
+        "la nuit",
+        "le jardin",
+        "la rue"
+      ],
+      "choices_l2": [
+        "noc",
+        "záhrada",
+        "ulica"
+      ]
+    },
+    {
+      "id": "qcm-zajtra",
+      "type": "qcm",
+      "l1": "demain (nouveau)",
+      "l2": "zajtra",
+      "choices_l1": [
+        "aujourd'hui",
+        "maintenant",
+        "dimanche"
+      ],
+      "choices_l2": [
+        "dnes",
+        "teraz",
+        "v nedeľu"
+      ]
+    },
+    {
+      "id": "listen-áno-je-tu",
+      "type": "listen",
+      "l1": "Oui. Il est là.",
+      "l2": "Áno. Je tu.",
+      "choices_l1": [
+        "Non. Il n'est pas là.",
+        "Oui. C'est moi.",
+        "Oui. Demain."
+      ]
+    },
+    {
+      "id": "listen-je-tu-kto-ja",
+      "type": "listen",
+      "l1": "« Il est là » ? Qui ? Moi ?",
+      "l2": "„Je tu“? Kto? Ja?",
+      "choices_l1": [
+        "« Il est là » ? Où ? Ici ?",
+        "« Demain » ? Quoi ? Pourquoi ?",
+        "« C'est moi » ? Qui ? Toi ?"
+      ]
+    },
+    {
+      "id": "listen-zajtra",
+      "type": "listen",
+      "l1": "Demain.",
+      "l2": "Zajtra.",
+      "choices_l1": [
+        "Aujourd'hui.",
+        "Dimanche.",
+        "Ce soir."
+      ]
+    },
+    {
+      "id": "blank-nie-nič-som-mu-nepovedala",
       "type": "fill-blank",
-      "l1": "Tu vas dormir dans le jardin. Sous le pommier.",
-      "l2": "Budeš spať v záhrade. Pod jabloňou.",
-      "missing_l1": "jardin",
-      "missing_l2": "záhrade",
+      "l1": "Non. Je ne lui ai rien dit.",
+      "l2": "Nie. Nič som mu nepovedala.",
+      "missing_l1": "rien",
+      "missing_l2": "Nič",
       "blank_index_l1": 5,
-      "blank_index_l2": 3,
-      "choices_l1": [
-        "tram",
-        "train",
-        "lycée"
-      ],
-      "choices_l2": [
-        "električke",
-        "meste",
-        "Lyone"
-      ],
-      "show_translation": true
-    },
-    {
-      "id": "blank-dobr-noc-andrea",
-      "type": "fill-blank",
-      "l1": "Bonne nuit, Andrea.",
-      "l2": "Dobrú noc, Andrea.",
-      "missing_l1": "nuit",
-      "missing_l2": "noc",
-      "blank_index_l1": 1,
       "blank_index_l2": 1,
       "choices_l1": [
-        "journée",
-        "soirée",
-        "chance"
+        "demain",
+        "vraiment",
+        "aussi"
       ],
       "choices_l2": [
-        "deň",
-        "večer",
-        "cestu"
+        "Zajtra",
+        "Naozaj",
+        "Veľa"
       ],
       "show_translation": true
     },
     {
-      "id": "order-akujem-andrea-som-r-d-e-a-vid-m",
-      "type": "order",
-      "l1": "Merci, Andrea. Je suis content de te voir.",
-      "l2": "Ďakujem, Andrea. Som rád, že ťa vidím.",
-      "tokens_l1": [
-        "Merci,",
-        "Andrea.",
-        "Je",
-        "suis",
-        "content",
-        "de",
-        "te",
-        "voir.",
-        "là",
-        "super",
-        "es"
+      "id": "match-som-vocab",
+      "type": "match",
+      "l1": [
+        "je suis",
+        "tu es",
+        "tu n'es pas",
+        "vraiment"
       ],
-      "tokens_l2": [
-        "Ďakujem,",
-        "Andrea.",
-        "Som",
-        "rád,",
-        "že",
-        "ťa",
-        "vidím.",
-        "je",
-        "ja",
-        "tu"
-      ]
-    },
-    {
-      "id": "order-aj-ja-teraz-si-tu-to-je-skvel",
-      "type": "order",
-      "l1": "Moi aussi. Maintenant tu es là. C'est super.",
-      "l2": "Aj ja. Teraz si tu. To je skvelé.",
-      "tokens_l1": [
-        "Moi",
-        "aussi.",
-        "Maintenant",
-        "tu",
-        "es",
-        "là.",
-        "C'est",
-        "super.",
-        "jardin",
-        "pommier",
-        "dormir"
-      ],
-      "tokens_l2": [
-        "Aj ja.",
-        "Teraz",
+      "l2": [
+        "som",
         "si",
-        "tu.",
-        "To",
-        "je",
-        "skvelé.",
-        "spať",
-        "v",
-        "jabloňou"
-      ]
-    },
-    {
-      "id": "order-nemus-teta-o-tebe-nevie",
-      "type": "order",
-      "l1": "Tu n'as pas à avoir peur. Ma tante ne sait pas que tu es là.",
-      "l2": "Nemusíš. Teta o tebe nevie.",
-      "tokens_l1": [
-        "Tu",
-        "n'as",
-        "pas",
-        "à",
-        "avoir",
-        "peur.",
-        "Ma",
-        "tante",
-        "ne",
-        "sait",
-        "pas",
-        "que",
-        "tu",
-        "es",
-        "là.",
-        "super",
-        "aussi"
-      ],
-      "tokens_l2": [
-        "Nemusíš.",
-        "Teta",
-        "o",
-        "tebe",
-        "nevie.",
-        "skvelé",
-        "tu"
+        "nie si",
+        "naozaj"
       ]
     }
   ]

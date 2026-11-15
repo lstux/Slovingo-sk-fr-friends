@@ -1,0 +1,261 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-vystupujem",
+      "type": "qcm",
+      "l1": "je descends (du tram)",
+      "l2": "vystupujem",
+      "choices_l1": [
+        "l'auberge de jeunesse",
+        "Qu'est-ce que c'est ?",
+        "tu n'es pas"
+      ],
+      "choices_l2": [
+        "turista",
+        "drahý",
+        "hostel"
+      ]
+    },
+    {
+      "id": "qcm-vystupuje",
+      "type": "qcm",
+      "l1": "tu descends",
+      "l2": "vystupuješ",
+      "choices_l1": [
+        "la tante",
+        "cher",
+        "ils ont"
+      ],
+      "choices_l2": [
+        "záhrada",
+        "hostel",
+        "prečo"
+      ]
+    },
+    {
+      "id": "qcm-ako-to-vie",
+      "type": "qcm",
+      "l1": "Comment tu le sais ?",
+      "l2": "Ako to vieš?",
+      "choices_l1": [
+        "le sac à dos",
+        "l'auberge de jeunesse",
+        "Qu'est-ce que c'est ?"
+      ],
+      "choices_l2": [
+        "Čo je to?",
+        "Nie som turista.",
+        "Mal som desať."
+      ]
+    },
+    {
+      "id": "qcm-hostel",
+      "type": "qcm",
+      "l1": "l'auberge de jeunesse",
+      "l2": "hostel",
+      "choices_l1": [
+        "Tu es tombé. (à un garçon)",
+        "il est, elle est",
+        "Je ne suis pas un touriste."
+      ],
+      "choices_l2": [
+        "majú",
+        "drahý",
+        "vystupuješ"
+      ]
+    },
+    {
+      "id": "qcm-turista",
+      "type": "qcm",
+      "l1": "le touriste",
+      "l2": "turista",
+      "choices_l1": [
+        "tu descends",
+        "la tante",
+        "le jardin"
+      ],
+      "choices_l2": [
+        "drahý",
+        "vystupujem",
+        "majú"
+      ]
+    },
+    {
+      "id": "qcm-maj",
+      "type": "qcm",
+      "l1": "ils ont",
+      "l2": "majú",
+      "choices_l1": [
+        "la tante",
+        "cher",
+        "pourquoi"
+      ],
+      "choices_l2": [
+        "teta",
+        "hostel",
+        "prečo"
+      ]
+    },
+    {
+      "id": "listen-vystupuješ-tu",
+      "type": "listen",
+      "l1": "Tu descends ici.",
+      "l2": "Vystupuješ tu.",
+      "choices_l1": [
+        "Je descends ici.",
+        "Tu habites ici.",
+        "Tu dors ici."
+      ]
+    },
+    {
+      "id": "listen-tvoj-hostel-je-hneď-vedľa",
+      "type": "listen",
+      "l1": "Ton auberge est juste à côté.",
+      "l2": "Tvoj hostel je hneď vedľa.",
+      "choices_l1": [
+        "Ton auberge est chère.",
+        "Ma tante est juste à côté.",
+        "Ton jardin est juste à côté."
+      ]
+    },
+    {
+      "id": "listen-a-ty-aj-ty-tu-vystupuješ",
+      "type": "listen",
+      "l1": "Et toi ? Tu descends ici aussi ?",
+      "l2": "A ty? Aj ty tu vystupuješ?",
+      "choices_l1": [
+        "Et toi ? Tu habites ici aussi ?",
+        "Et moi ? Je descends ici aussi ?",
+        "Et toi ? Pourquoi tu descends ici ?"
+      ]
+    },
+    {
+      "id": "listen-to-nie-je-odpoveď",
+      "type": "listen",
+      "l1": "Ce n'est pas une réponse.",
+      "l2": "To nie je odpoveď.",
+      "choices_l1": [
+        "C'est une bonne réponse.",
+        "Ce n'est pas un jardin.",
+        "Ce n'est pas ta tante."
+      ]
+    },
+    {
+      "id": "blank-turisti-majú-hostel",
+      "type": "fill-blank",
+      "l1": "Les touristes ont une auberge.",
+      "l2": "Turisti majú hostel.",
+      "missing_l1": "ont",
+      "missing_l2": "majú",
+      "blank_index_l1": 2,
+      "blank_index_l2": 1,
+      "choices_l1": [
+        "ai",
+        "as",
+        "a"
+      ],
+      "choices_l2": [
+        "mám",
+        "máš",
+        "má"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-tvoj-hostel-je-drahý-a-moja-teta-má-záhradu",
+      "type": "fill-blank",
+      "l1": "Ton auberge est chère. Et ma tante a un jardin.",
+      "l2": "Tvoj hostel je drahý. A moja teta má záhradu.",
+      "missing_l1": "tante",
+      "missing_l2": "teta",
+      "blank_index_l1": 6,
+      "blank_index_l2": 6,
+      "choices_l1": [
+        "rue",
+        "réponse",
+        "ville"
+      ],
+      "choices_l2": [
+        "ulica",
+        "odpoveď",
+        "kniha"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-prečo-vystupuješ-tu",
+      "type": "order",
+      "l1": "Pourquoi tu descends ici ?",
+      "l2": "Prečo vystupuješ tu?",
+      "tokens_l1": [
+        "Pourquoi",
+        "tu",
+        "descends",
+        "ici",
+        "?",
+        "Dans",
+        "la",
+        "rue,",
+        "un",
+        "gros",
+        "chien",
+        "dort."
+      ],
+      "tokens_l2": [
+        "Prečo",
+        "vystupuješ",
+        "tu?",
+        "Na",
+        "ulici",
+        "spí",
+        "veľký",
+        "pes."
+      ]
+    },
+    {
+      "id": "order-to-je-dobrá-odpoveď",
+      "type": "order",
+      "l1": "C'est une bonne réponse.",
+      "l2": "To je dobrá odpoveď.",
+      "tokens_l1": [
+        "C'est",
+        "une",
+        "bonne",
+        "réponse.",
+        "Prochain",
+        "arrêt",
+        ":",
+        "Hlavná",
+        "pošta."
+      ],
+      "tokens_l2": [
+        "To",
+        "je",
+        "dobrá",
+        "odpoveď.",
+        "Nasledujúca",
+        "zastávka:",
+        "Hlavná",
+        "pošta."
+      ]
+    },
+    {
+      "id": "match-vystupujem-vocab",
+      "type": "match",
+      "l1": [
+        "je descends (du tram)",
+        "tu descends",
+        "Comment tu le sais ?",
+        "l'auberge de jeunesse"
+      ],
+      "l2": [
+        "vystupujem",
+        "vystupuješ",
+        "Ako to vieš?",
+        "hostel"
+      ]
+    }
+  ]
+}
