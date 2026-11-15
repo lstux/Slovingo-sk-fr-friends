@@ -75,7 +75,7 @@ Chaque chapitre a un lieu, un objectif, une pièce à conviction et une fausse p
 ## 6. Pour le point & click
 
 - **Le pouvoir de Gab : faire l'étranger.** « Nerozumiem, som Francúz » ouvre des portes. Mais il doit comprendre ce qu'il entend et ce qu'il lit. C'est le cœur du jeu et du cours.
-- **Le tableau d'enquête** : huit pièces, deux témoins, des suspects qu'on raye, une question par chapitre.
+- **Le tableau d'enquête** : neuf pièces, deux témoins, des suspects qu'on raye, une question par chapitre.
 - **Le final** est une scène de preuves à présenter au bon moment.
 - **Les énigmes restent des exercices déguisés** : lire un permis (nombres), comparer deux relevés (comparatifs), écouter un regard (vocabulaire des sons), vouvoyer pour obtenir un registre, lire un bon de livraison.
 

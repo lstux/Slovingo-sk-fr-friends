@@ -1439,3 +1439,757 @@
 > - **« On verra »** change de bouche à la fin du chapitre 7.
 > - **Le frigo de la souris** et **les halušky sans fromage de brebis** sont gardés de l'ancienne histoire, une fois chacun.
 > - **Chiffres à vérifier :** 200 litres par seconde pour quatre pompes, et le seuil de 25 °C. Je les ai choisis pour être lisibles, pas pour être exacts.
+
+---
+
+# Chapitre 9 — Le lac du haut
+
+*Résumé : samedi matin, à Banská Štiavnica. Ján, un étudiant écureuil, les mène à doktorka Vydrová, l'hydrologue qui a appris à Andrea à mesurer. On lui a pris sa station comme on a pris le carnet d'Andrea. Elle ne croit que ce qu'on lui démontre : sur les vieux lacs-réservoirs, la bande comprend comment une conduite vide une source (l'énigme des vannes, pour le jeu). Pièce n° 8 : ses trente ans de relevés. Elle vient à Bratislava, mais il manque encore le carnet et un témoin de l'intérieur. Nouveaux avatars : `🐿️` Ján, `🦦` doktorka Vydrová.*
+
+## Scène 1 — Les escaliers
+
+💬 Samedi matin. Banská Štiavnica est une ville en escaliers. L'église est en haut. La boulangerie aussi.
+
+🐻 Je n'ai jamais vu autant de marches.
+
+🦊 On cherche une loutre. Une loutre, ça vit en bas. Près de l'eau. Pourquoi on monte ?
+
+🐰 Parce qu'ici, l'eau est en haut.
+
+🦊 Ce pays est à l'envers.
+
+💬 Un écureuil saute d'un toit, juste devant eux.
+
+🐿️ Salut ! Vous cherchez quelqu'un ? Vous êtes perdus ? Vous êtes des touristes ? Moi, c'est Ján, je suis étudiant, j'étudie l'eau, enfin les lacs, enfin les vieux lacs, vous voulez des noix ?
+
+🦊 Respire.
+
+💬 Andrea regarde Gab.
+
+🐰 Tu vois ce que ça fait.
+
+🦊 Je ne suis pas comme ça.
+
+🐰 Non. Toi, tu n'as pas de noix.
+
+🐹 On cherche doktorka Vydrová.
+
+🐿️ Ma prof ! Elle est aux lacs. Elle est toujours aux lacs. Elle dit que les lacs, au moins, ne mentent pas. Venez !
+
+## Scène 2 — La loutre
+
+💬 Au-dessus de la ville, dans la forêt, un petit lac très calme. Une loutre en bottes de caoutchouc plante une règle dans l'eau.
+
+🐰 Bonjour, madame.
+
+💬 La loutre se retourne. Elle fait tomber sa règle.
+
+🦦 Andrea. Tu as grandi. Tu mesures toujours ?
+
+🐰 On m'a pris mon carnet.
+
+🦦 Et à moi, ma station. Nous sommes deux.
+
+🦊 Pourquoi on vous l'a prise ?
+
+🦦 On m'a dit : « Madame, vos appareils sont vieux. Leurs capteurs sont modernes. » Et on m'a envoyée ici, mesurer des lacs qui ont trois cents ans. C'est très calme. Personne ne me demande rien.
+
+🐰 Nous, on vous demande quelque chose.
+
+## Scène 3 — La démonstration
+
+💬 Ils posent tout sur un banc. Le chiffre du permis. Le registre. La tranchée. Les captures. La vidéo. Le bon. Le compteur.
+
+💬 La loutre regarde longtemps. Elle ne dit rien.
+
+🦊 Alors ?
+
+🦦 Alors vous avez sept choses qui vont dans le même sens. C'est beaucoup. Ce n'est pas une preuve.
+
+🐹 Sept !
+
+🦦 À la télévision, on vous dira : « Un tuyau, là-haut, ne peut pas vider un ruisseau, en bas. » Vous répondrez quoi ?
+
+💬 Personne ne répond.
+
+🦦 Venez. Ces lacs ont été construits pour ça.
+
+💬 Elle les mène plus haut. Deux lacs, l'un au-dessus de l'autre. Entre les deux, une petite source coule dans l'herbe. À côté, une vieille roue en fer.
+
+🦦 Le lac du haut nourrit la source. Monsieur l'ours, tournez la roue. Doucement.
+
+💬 Maťo tourne. Quelque part sous la terre, de l'eau se met à courir. Le lac du haut baisse, lentement.
+
+🐻 Et maintenant ?
+
+🦦 Maintenant, regardez la source.
+
+💬 Dans l'herbe, le filet d'eau devient plus fin. Puis il n'y a plus que des gouttes. Puis rien.
+
+🦊 Le lac du haut, c'est la zone humide.
+
+🐰 Et la roue, c'est leurs pompes.
+
+🦦 Voilà. Maintenant, vous savez répondre. Refermez, s'il vous plaît. Cette source a trois cents ans, je voudrais la garder.
+
+## Scène 4 — Les boîtes
+
+💬 Dans son petit bureau, sous le toit. Des boîtes en carton jusqu'au plafond.
+
+🦦 Trente ans de mesures de votre ruisseau. Toutes les semaines, à la main. Ils ont pris la station. Ils ont oublié les boîtes.
+
+🐹 On peut les prendre en photo ?
+
+🦦 Vous pouvez m'emmener avec. Le train pour Bratislava part à midi.
+
+🐰 Vous venez ?
+
+🦦 On m'a demandé de me taire dans un endroit calme. Je me suis tue deux ans. C'est assez.
+
+💬 Elle ferme une boîte. Puis elle s'arrête.
+
+🦦 Mais il y a un trou. Mes chiffres s'arrêtent il y a deux ans. Depuis, il n'y a que leurs chiffres à eux.
+
+🦊 Et le carnet d'Andrea.
+
+🦦 Et le carnet d'Andrea. Ce sont les seuls vrais chiffres des deux dernières années. Où est-il ?
+
+🐰 Dans une voiture noire.
+
+🦦 Alors il vous faut le carnet, ou quelqu'un de l'intérieur. Sinon, ils diront : « Une vieille loutre fâchée et quatre enfants. »
+
+🐿️ Et un écureuil !
+
+🦦 Ján, tu as un examen lundi.
+
+🐿️ Et pas d'écureuil.
+
+---
+
+# Chapitre 10 — L'offre
+
+*Résumé : samedi après-midi, dans le train pour Bratislava. La mère de Gab rappelle l'avion de dimanche. Le monsieur au sourire s'assoit en face d'eux et propose un marché : un puits neuf pour le village, une bourse d'études pour Andrea, contre leur silence. Il n'est pas un monstre, et son offre est tentante. Babka téléphone. La bande décide ensemble : dire la vérité, et demander qu'on rouvre le ruisseau, pas qu'on ferme le bâtiment. Andrea, cette fois, demande à Gab.*
+
+## Scène 1 — Le message
+
+💬 Samedi, une heure. Le train roule vers Bratislava. La loutre dort entre deux boîtes.
+
+💬 Le téléphone de Gab sonne.
+
+🐹 C'est en français. Elle dit quoi ?
+
+🦊 C'est maman. « Ton avion part demain à dix heures, de Vienne. Tu ne réponds jamais. Tu manges ? Je t'aime. »
+
+🐻 Elle écrit « je t'aime » ?
+
+🦊 À chaque message.
+
+🐹 Et toi, tu réponds quoi ?
+
+🦊 « Oui. »
+
+🐹 « Oui » à quoi ?
+
+🦊 À tout. Ça va plus vite.
+
+🐰 Demain, dix heures.
+
+🦊 Demain, dix heures.
+
+💬 Ils regardent tous les deux par la fenêtre. Pas la même.
+
+## Scène 2 — Le monsieur
+
+💬 À la gare suivante, quelqu'un monte. Un costume, un sourire. Il s'assoit en face d'eux, comme un ami.
+
+🕴️ Bonjour, les enfants. Bonjour, Andrea. Et bonjour, monsieur Baguette. Tu comprends très bien, finalement.
+
+🦊 J'apprends vite.
+
+🕴️ Je vois ça. N'ayez pas peur. Je ne suis pas votre ennemi.
+
+🐰 Vous avez mon carnet.
+
+🕴️ J'ai ton carnet. Il est très bien fait. Nos ingénieurs l'ont dit aussi.
+
+💬 Il pose deux papiers sur la petite table.
+
+🕴️ Premier papier. Un puits pour le village. Profond, neuf, de l'eau pour tout le monde. On commence lundi.
+
+🐻 Un puits…
+
+🕴️ Deuxième papier. Une bourse. Cinq ans d'études à Bratislava. L'hydrologie, Andrea. C'est bien ce que tu veux faire ?
+
+💬 Andrea regarde le papier. Trop longtemps.
+
+🐹 Et en échange ?
+
+🕴️ Rien. Vous rentrez chez vous. Vous regardez la télévision ce soir, comme tout le monde. Et vous nous laissez régler ça doucement. Entre adultes.
+
+🦊 Sinon ?
+
+🕴️ Sinon, lundi, il y a deux cents personnes sans travail. Tu veux expliquer à leurs enfants pourquoi papa repart en Autriche ? Moi, non.
+
+💬 Il se lève. Il laisse les papiers.
+
+🕴️ Je suis dans le wagon d'à côté. Réfléchissez. Vous êtes des enfants intelligents.
+
+## Scène 3 — Babka
+
+💬 Longtemps, personne ne parle. Puis le téléphone de Katka sonne.
+
+🐑📱 Katka ? C'est Babka. Le maire dit que vous allez à la télévision.
+
+🐹 Le maire dit beaucoup de choses.
+
+🐑📱 Écoute-moi. Ce matin, je suis allée au ruisseau. J'y vais depuis soixante ans. Je me suis assise sur les pierres. Dites la vérité.
+
+🐻 Et ton voisin, Babka ?
+
+🐑📱 Dites la vérité. Mais ne nous fermez pas l'usine à ordinateurs. Vous êtes capables de faire les deux ?
+
+🐹 On ne sait pas.
+
+🐑📱 Alors mangez quelque chose, et après vous saurez.
+
+## Scène 4 — La phrase
+
+🐻 Un puits, c'est bien.
+
+🐹 Un puits, c'est de l'eau qu'on prend ailleurs. À un autre village.
+
+🐻 Ah. Oui.
+
+🦊 Andrea. La bourse.
+
+🐰 Quoi ?
+
+🦊 Tu la veux.
+
+🐰 Oui.
+
+💬 Elle le dit tout de suite. Sans mentir.
+
+🐰 Je la veux depuis que j'ai douze ans. Mais pas la sienne.
+
+🦊 Pourquoi ?
+
+🐰 Parce qu'après, chaque fois que je mesurerai un ruisseau, je me demanderai pour qui je le mesure.
+
+💬 Elle retourne le papier. Maťo prend un crayon.
+
+🐻 Babka veut les deux. La vérité, et le bâtiment. Alors il faut le dire comme ça.
+
+🐹 Comment ?
+
+💬 Maťo écrit lentement, en grosses lettres, au dos de l'offre.
+
+🐻 « On ne veut pas fermer le bâtiment. On veut rouvrir le ruisseau. »
+
+🦊 C'est bien.
+
+🐹 C'est très bien. C'est toi qui le lis, ce soir.
+
+🐻 Moi ? Devant les caméras ?
+
+🐹 Tu es grand. On te verra bien.
+
+## Scène 5 — La question
+
+💬 Les autres dorment. Le train passe sur un pont. Andrea ne regarde plus la fenêtre.
+
+🐰 Gab.
+
+🦊 Oui ?
+
+🐰 Mon carnet est dans sa voiture. Sa voiture sera devant la télévision. Je ne peux pas m'approcher, il me connaît.
+
+🦊 Et ?
+
+🐰 Et tu m'as dit de demander.
+
+💬 Gab attend. Il ne l'aide pas.
+
+🐰 Tu veux bien aller reprendre mon carnet ?
+
+🦊 Dans la voiture de quelqu'un ? C'est du vol.
+
+🐰 Non. C'est une restitution.
+
+🦊 Alors non.
+
+🐰 Non ?
+
+🦊 Je plaisante. Oui.
+
+🐰 Tu es bête.
+
+🦊 Tu vois. Ce n'était pas si difficile.
+
+---
+
+# Chapitre 11 — La voiture noire
+
+*Résumé : samedi, fin d'après-midi, à Bratislava. À la télévision, une rédactrice écoute : avec la loutre, ils auront deux minutes ; avec un original, cinq. Le carnet est sur la banquette de la voiture noire. Gab occupe le chauffeur en touriste perdu pendant que Katka passe le bras par la vitre. Poursuite dans le tram : le monsieur au sourire n'a pas validé de ticket. Dans le carnet, une note des ingénieurs : « Chiffres corrects. Ne pas diffuser. » Nouvel avatar : `📝` la rédactrice.*
+
+## Scène 1 — La rédactrice
+
+💬 Bratislava, cinq heures. Un grand bâtiment gris, encore un. Mais sur celui-ci, il est écrit : Télévision.
+
+🧑 Vous avez un rendez-vous ?
+
+🦊 Non.
+
+🧑 Une invitation ?
+
+🐹 Non.
+
+🧑 Alors c'est non.
+
+🦦 Jeune homme. Je suis doktorka Vydrová. J'ai mesuré l'eau de ce pays pendant trente ans. J'ai deux boîtes très lourdes et je ne les porterai pas plus loin. Appelez quelqu'un.
+
+💬 Le portier appelle quelqu'un. Une jeune femme arrive, un ordinateur sous le bras.
+
+📝 Vous avez trois minutes. Je prépare l'émission de ce soir.
+
+🐰 On sait. C'est pour ça.
+
+💬 Trois minutes plus tard, elle n'a toujours pas regardé sa montre. Elle regarde la vidéo de Katka pour la troisième fois.
+
+📝 C'est bien. C'est même très bien. Ce n'est pas assez.
+
+🐻 Pas assez ?
+
+📝 Des photos, des captures, une vidéo : ils diront que c'est faux. Avec madame, je vous donne deux minutes à la fin. Mais il me faut un original. Quelque chose qu'on tient dans la main. Ou quelqu'un qui dit : « J'y étais. C'est moi. »
+
+🐰 Et si on a l'original ?
+
+📝 Alors vous avez cinq minutes. Je pars pour le château dans une heure.
+
+## Scène 2 — Le chauffeur
+
+💬 Devant le bâtiment, une voiture noire. La vitre arrière est ouverte de dix centimètres, à cause de la chaleur. Sur la banquette, un carnet vert.
+
+🐰 C'est lui.
+
+🐻 Je ne passe pas le bras. Je ne passe même pas un doigt.
+
+🐹 Moi, je passe. Mais il y a le chauffeur.
+
+💬 Le chauffeur est appuyé contre la portière. Il regarde son téléphone.
+
+🦊 Je m'en occupe.
+
+💬 Gab sort le plan de la ville. Il le déplie en entier. Il le tient à l'envers.
+
+🦊 Bonjour, monsieur ! Excusez-moi ! Je suis français. Je cherche le château.
+
+🧑 Le château ? Il est là-haut. On le voit d'ici.
+
+🦊 Là-haut à droite ?
+
+🧑 À gauche.
+
+🦊 Cette gauche-là ?
+
+🧑 Il n'y a qu'une gauche.
+
+🦊 Avec moi, il y en a plusieurs. Vous pouvez me montrer sur le plan ? Non, venez, il y a trop de soleil ici. Par là. Encore un peu.
+
+💬 Le chauffeur fait dix pas avec lui. Derrière, une petite patte de marmotte entre par la vitre.
+
+🧑 Votre plan est à l'envers.
+
+🦊 Ah ! C'est pour ça. Depuis une semaine, je me perds partout. Merci, monsieur. Merci beaucoup. Pas « très ». Beaucoup.
+
+🧑 … De rien.
+
+## Scène 3 — Le tram
+
+💬 Ils courent. Derrière eux, une porte claque.
+
+🕴️ Andrea ! Attends ! On peut discuter !
+
+🐹 Le tram ! Le neuf ! Il va au château !
+
+💬 Ils sautent dedans. Les portes se ferment. Presque. Une main en costume les rouvre.
+
+🕴️ Voilà. On est mieux assis pour parler, non ?
+
+💬 Il sourit. Il est essoufflé. Le tram démarre.
+
+🐹 J'ai acheté quatre tickets sur mon téléphone. Pendant qu'on courait.
+
+🐻 En courant ?
+
+🐹 J'ai la fibre dans le sang.
+
+💬 Au fond du tram, un homme en uniforme se lève.
+
+🧑 Contrôle des tickets, s'il vous plaît.
+
+💬 Katka montre son téléphone. Quatre tickets. Le contrôleur hoche la tête et se tourne vers le costume.
+
+🧑 Monsieur ?
+
+🕴️ Je suis le porte-parole du groupe Zelená vlna.
+
+🧑 Enchanté. Je suis le contrôleur de la ligne neuf. Votre ticket.
+
+🕴️ Je n'ai pas eu le temps. Je suis monté en courant. C'est une urgence.
+
+🧑 Il faut un ticket, et il faut le valider. La machine jaune.
+
+🦊 Elle est là. Moi aussi, on me l'a expliqué.
+
+🧑 Vous descendez avec moi au prochain arrêt, monsieur. L'amende, c'est au guichet.
+
+💬 Au prochain arrêt, deux personnes descendent. Par la vitre, Gab regarde le monsieur sur le trottoir.
+
+🦊 Andrea. Regarde.
+
+🐰 Quoi ?
+
+🦊 Il ne sourit plus.
+
+## Scène 4 — Le carnet
+
+💬 Le tram monte vers le château. Andrea tient le carnet vert sur ses genoux. Elle ne l'ouvre pas.
+
+🦊 Ouvre.
+
+🐰 Et s'ils ont arraché les pages ?
+
+🦊 Ouvre.
+
+💬 Elle ouvre. Tout est là. Deux ans de chiffres, à l'encre bleue, une ligne par semaine.
+
+🐰 Tout est là.
+
+🐹 Il y a un papier collé. Ce n'est pas ton écriture.
+
+💬 Sur la première page, un petit papier jaune. Trois lignes, écrites à la machine.
+
+🐰 « Service technique. Mesures vérifiées. Chiffres corrects. Ne pas diffuser. »
+
+💬 Dans le tram, il n'y a plus de bruit.
+
+🐻 Ils savaient.
+
+🐰 Depuis un an. Ils ont vérifié. J'avais raison, et ils l'ont écrit.
+
+🦊 Sur un papier jaune.
+
+🦦 Mon enfant, c'est le plus beau compliment qu'un ingénieur puisse faire. Garde-le.
+
+💬 En haut de la colline, le château apparaît. Blanc, avec ses quatre tours.
+
+🦊 Cinq minutes, elle a dit.
+
+🐰 On verra.
+
+---
+
+# Chapitre 12 — Cinq minutes
+
+*Résumé : samedi soir, en direct de la terrasse du château. La directrice reçoit son prix et remercie « l'air des Tatras ». La bande a cinq minutes : les neuf pièces, dans l'ordre (la scène de preuves du jeu). La directrice nie. Dans le public, Marek se lève. Résultat modeste et vrai : les pompes s'arrêtent le soir même, un contrôle est annoncé, le bâtiment reste. Sur la terrasse, Gab et Andrea. Nouveaux avatars : `🎙️` la présentatrice, `👩‍💼` la directrice.*
+
+## Scène 1 — Les coulisses
+
+💬 La terrasse du château. Des projecteurs, des câbles, des chaises dorées. En bas, le Danube.
+
+🧑 Ne bougez pas. Vous brillez.
+
+🐹 Je ne brille pas. Je rayonne.
+
+🧑 Vous rayonnez trop. Fermez les yeux.
+
+💬 Gab est dans un coin. Il est tout blanc, comme en haut des échelles.
+
+🦊 J'ai des papillons dans le ventre.
+
+🐰 Respire.
+
+🦊 Tu me l'as déjà dit. Dans le tram.
+
+🐰 Et ça a marché ?
+
+🦊 Non.
+
+🐰 Alors respire mieux.
+
+🦊 Et toi ? Tu n'as pas peur ?
+
+🐰 Si. Très.
+
+🦊 Ça ne se voit pas.
+
+🐰 J'ai peur à l'intérieur.
+
+## Scène 2 — Le prix
+
+💬 Sept heures. Les lumières s'allument. La présentatrice sourit à la caméra.
+
+🎙️ Bonsoir. En direct du château de Bratislava : l'entreprise verte de l'année. Et le prix revient au groupe Zelená vlna.
+
+💬 Des applaudissements. Une dame élégante monte sur la scène. Elle prend le trophée : une goutte d'eau en verre.
+
+👩‍💼 Merci. Notre secret est simple. Nous n'avons rien inventé. Nous avons seulement écouté la nature. Nos serveurs sont refroidis par l'air des Tatras. Circuit fermé. Zéro litre d'eau.
+
+🎙️ Zéro litre. C'est remarquable. Avant de nous quitter, nous avons ce soir des invités un peu particuliers. Ils viennent d'un village, juste au-dessus de votre bâtiment. Ils ont cinq minutes.
+
+💬 La directrice sourit toujours. Mais elle cherche quelqu'un des yeux, dans le public. Une chaise est vide.
+
+## Scène 3 — Les preuves
+
+🦊 Bonsoir. Je m'appelle Gab. Je suis français.
+
+👩‍💼 Ce jeune homme est un touriste. Il ne comprend pas bien notre langue.
+
+🦊 Je comprends. Et je parle beaucoup. Mais ce soir, je parle lentement.
+
+💬 Il sort de sa poche un ticket de tram.
+
+🦊 Mardi, à Košice, j'ai lu votre permis. J'ai copié une ligne. « Consommation d'eau : zéro litre. »
+
+🐰 Mercredi. Le registre du parc. En trente et un ans, notre source n'a jamais séché. Même les étés les plus secs. Elle a séché l'été après votre arrivée.
+
+🐰 Mercredi soir. Une photo. Une tranchée, de la zone humide jusqu'à votre bâtiment. « Pour la fibre. »
+
+🐹 Jeudi. Votre site. Quarante-deux centimètres d'eau dans notre ruisseau. J'étais assise dedans. J'étais sèche. Et c'est la même semaine de chiffres, recopiée pendant un an. Vous avez tout changé vendredi. J'ai les captures de jeudi.
+
+🐹 Jeudi soir. Une vidéo. De l'eau tiède qui sort de votre mur, et de la vapeur sur votre toit.
+
+🐻 Vendredi. Un bon de livraison. Quatre pompes. Deux cents litres par seconde. Je l'ai porté moi-même. Le bon, pas les pompes.
+
+🦊 Vendredi après-midi. Votre compteur. Cent quatre-vingts litres par seconde. Zéro, ça ne s'écrit pas comme ça.
+
+🦦 Et ceci. Trente ans de mesures de ce ruisseau, par mon service. Avant vos capteurs. Vous pouvez tout vérifier, c'est écrit à la main.
+
+💬 Andrea monte la dernière. Elle pose le carnet vert à côté du trophée.
+
+🐰 Et mon carnet. Deux ans de mesures. Je l'ai prêté à votre entreprise l'an dernier. Aujourd'hui, il y a un papier dedans. Je le lis ? « Service technique. Chiffres corrects. Ne pas diffuser. »
+
+## Scène 4 — « Moi »
+
+💬 Sur la terrasse, on entend le Danube.
+
+🎙️ Madame la directrice ?
+
+👩‍💼 C'est très touchant. Des dessins d'enfants. Un carnet d'école. Une dame qui ne travaille plus chez nous.
+
+🦦 Je n'ai jamais travaillé chez vous, madame. Je travaillais pour le ruisseau.
+
+👩‍💼 Je vous pose une seule question. Qui, dans mon entreprise, dit une chose pareille ? Qui ? Personne.
+
+💬 Au troisième rang, une chaise grince. Un blaireau en gilet bleu se lève. À côté de lui, quatre petits blaireaux en chemise blanche.
+
+🦡 Moi.
+
+💬 La directrice ne sourit plus.
+
+🦡 Je m'appelle Marek. Je suis technicien chez Zelená vlna depuis le premier jour. Le circuit fermé marche jusqu'à vingt-cinq degrés. Au-dessus, nous pompons. Depuis deux ans.
+
+🎙️ Et les chiffres du site ?
+
+🦡 C'est un programme. Douze lignes. C'est moi qui l'ai écrit. Je peux les montrer. Je les connais par cœur. Je les relis tous les soirs.
+
+💬 Le plus petit des quatre blaireaux lui tire la manche.
+
+🦡 Oui. Papa a fini.
+
+## Scène 5 — Le ruisseau
+
+🎙️ Madame la directrice. Une réponse ?
+
+💬 La directrice regarde la goutte de verre dans sa main. Elle la repose.
+
+👩‍💼 Nous allons… vérifier.
+
+🎙️ Une dernière question, pour nos invités. Vous voulez qu'on ferme ce bâtiment ?
+
+💬 Katka pousse Maťo. Maťo sort un papier plié en quatre. Il est très grand, devant la caméra. Sa voix est toute petite.
+
+🐻 Non. On ne veut pas fermer le bâtiment. On veut rouvrir le ruisseau.
+
+💬 Quelqu'un applaudit. Puis tout le monde.
+
+## Scène 6 — Après
+
+💬 Neuf heures. Les caméras sont éteintes. Le téléphone de Katka n'arrête pas de sonner.
+
+🐹 Écoutez. « Zelená vlna arrête ses pompes ce soir. Un contrôle commence lundi. » Et le maire a écrit. Il dit qu'il avait toujours eu des doutes.
+
+🐻 Le maire.
+
+🐹 Je ne réponds pas.
+
+🦊 Et le ruisseau ? Il coule demain ?
+
+🦦 Non. Une source, ça revient lentement. Des mois. Peut-être l'été prochain.
+
+🦡 Et moi, lundi, je n'ai peut-être plus de travail.
+
+🦦 Vous savez lire un compteur et écrire un programme. Et maintenant, tout le pays sait que vous dites la vérité. Moi, j'ai une station à rouvrir. Il me faut quelqu'un.
+
+💬 Le téléphone sonne encore.
+
+🐑📱 Katka ! Je vous ai vus ! Maťo, tu as très bien lu. Andrea, tu étais belle. Gab, tu es maigre. Mange !
+
+🦊 Oui, Babka.
+
+🐑📱 Et le bâtiment ? Il reste ?
+
+🐹 Il reste.
+
+🐑📱 Bon. Alors je vais le dire au voisin. Il n'a pas dormi depuis jeudi.
+
+## Scène 7 — La terrasse
+
+💬 Plus tard. La terrasse est vide. En bas, la ville est allumée, et le Danube passe, lent et noir.
+
+🦊 Demain, dix heures.
+
+🐰 Je sais.
+
+🦊 L'été prochain, le ruisseau coulera.
+
+🐰 Peut-être.
+
+🦊 Je veux retomber dedans. Une quatrième fois.
+
+🐰 Je compterai.
+
+🦊 Je reviendrai. Je te le promets.
+
+🐰 Ne promets pas. Tu ne sais pas.
+
+🦊 Alors quoi ?
+
+🐰 Maintenant, tu es là.
+
+🦊 Et après ?
+
+💬 Elle ouvre la bouche. Il est plus rapide.
+
+🦊 On verra.
+
+🐰 C'est ma phrase.
+
+🦊 Je sais. Je te la rends l'été prochain.
+
+---
+
+# Épilogue — Le pommier
+
+*Résumé : Košice, mardi matin. Gab se réveille sous le pommier : on est au lendemain du tram. Il raconte son rêve. Mais Andrea se tait trop, il y a quelque chose d'écrit au dos de son ticket, et il connaît une règle de slovaque qu'elle ne lui a pas encore apprise. Fin ambiguë : rêve, ou répétition générale ?*
+
+## Scène 1 — Le réveil
+
+💬 Košice. Le matin. Sous le pommier, il fait déjà chaud.
+
+🦊 Marek ! Le carnet ! Cinq minutes !
+
+🐰 Debout. Il est sept heures.
+
+💬 Gab ouvre les yeux. Des feuilles. Des pommes vertes. Andrea, avec un verre d'eau à moitié plein.
+
+🦊 On est où ?
+
+🐰 Dans le jardin de ma tante.
+
+🦊 Et le château ?
+
+🐰 Quel château ?
+
+🦊 On est quel jour ?
+
+🐰 Mardi. Tu es arrivé hier. Qui est Marek ?
+
+## Scène 2 — Le rêve
+
+🦊 J'ai fait un rêve. Très long. Une semaine entière.
+
+🐰 En une nuit ?
+
+🦊 Notre ruisseau était à sec. Tu avais un carnet vert. Il y avait un monsieur qui souriait tout le temps, un aigle avec un registre, un castor en colère, un blaireau avec quatre enfants. Et une loutre en bottes.
+
+💬 Andrea ne bouge plus.
+
+🦊 On est passés à la télévision. Maťo a lu une phrase. Tout le monde a applaudi.
+
+🐰 Et dans ton rêve… pourquoi j'étais dans le tram ?
+
+🦊 Tu m'attendais. Ton livre était à l'envers.
+
+💬 Elle ne répond pas. Elle regarde le pommier, très longtemps.
+
+🦊 Andrea ? C'était juste un rêve.
+
+## Scène 3 — Le ticket
+
+💬 Gab met la main dans sa poche. Il en sort son ticket de tram, celui d'hier.
+
+🦊 Tiens. J'ai écrit quelque chose au dos.
+
+🐰 Quoi ?
+
+🦊 « 0 litre ? »
+
+🐰 Pourquoi tu as écrit ça ?
+
+🦊 Je n'ai pas écrit ça.
+
+🐰 C'est ton écriture.
+
+🦊 Je sais que c'est mon écriture.
+
+💬 Ils regardent le ticket tous les deux.
+
+## Scène 4 — La question
+
+🐰 Gab. Je n'étais pas dans ce tram par hasard.
+
+🦊 …
+
+🐰 Il faut que je te montre quelque chose.
+
+💬 Elle sort son téléphone. Sur l'écran, des pierres blanches, un vieux pont, et pas d'eau.
+
+🦊 Attends.
+
+🐰 Quoi ?
+
+🦊 Dans mon rêve, tu avais peur que je dise non. Alors demande-moi.
+
+💬 Andrea le regarde. Elle ne comprend pas. Puis elle comprend un peu.
+
+🐰 Tu veux bien m'aider ?
+
+🦊 Non.
+
+🐰 …
+
+🦊 Je plaisante. Oui.
+
+🐰 Tu es bête.
+
+🦊 Très bête. Pas « beaucoup bête ».
+
+💬 Andrea fronce les sourcils.
+
+🐰 Comment tu sais ça ? Je ne te l'ai pas encore appris.
+
+💬 Gab ouvre la bouche. Il la referme.
+
+🦊 On verra.
+
+---
+
+> **Notes pour Eric (chapitres 9 à 12 et épilogue)**
+> - **Neuf pièces au final**, pas huit : le papier jaune des ingénieurs dans le carnet (« Chiffres corrects. Ne pas diffuser. ») s'est ajouté en écrivant. Il règle une faiblesse du scénario : sans lui, rien ne prouvait que l'entreprise savait.
+> - **Deux fins heureuses que le scénario ne prévoyait pas :** la loutre propose à Marek de rouvrir la station avec elle, et le monsieur au sourire ne monte jamais sur la terrasse (sa chaise reste vide, à cause de l'amende du tram). Dis-moi si c'est trop gentil.
+> - **Les rappels entre le début et la fin** sont voulus : « Respire », « à l'intérieur », les droites et les gauches, « je compte », la machine jaune, le livre et le plan à l'envers. Ils préparent l'épilogue, où tout ce que Gab « sait déjà » fait douter du rêve.
+> - **La dernière réplique** repose sur le gag *veľmi / veľa* : à vérifier en slovaque avant de s'y attacher.
+> - **Pour le jeu :** les vannes du chapitre 9 sont l'énigme mécanique ; la voiture noire du chapitre 11 est une énigme à deux personnages (Gab distrait, Katka attrape) ; la scène 3 du chapitre 12 est la scène de preuves, à présenter dans l'ordre.
+> - **À vérifier :** la ligne de tram qui monte vers le château de Bratislava (j'ai écrit « le neuf » sans contrôler), l'heure de l'émission, et si un prix de ce genre existe.
