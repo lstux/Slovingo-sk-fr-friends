@@ -1,4 +1,4 @@
-// Joue Zajko Quest v2 « Circuit fermé » (prologue + chapitre 1) dans Chromium en pilotant le moteur par clics canvas.
+// Joue Zajko Quest v2 « Circuit fermé » (prologue + chapitres 1 et 2) dans Chromium en pilotant le moteur par clics canvas.
 //   node web-games/tests/jeu_v2_test.js   (captures dans $SHOTS si defini)
 // Conception : docs/Jeu-conception-v2.md (monnaie au kiosque, cabas de la babicka, chat sur le pot bleu, gravier, tableau d'enquete).
 const { chromium } = require('playwright');
@@ -128,10 +128,70 @@ const srv = http.createServer((q, r) => {
   await until((q) => !q.dlg && q.sel === 0, 'reponse fausse');
   if ((await st()).panel !== 'board') await fail('le tableau s\'est ferme sur une mauvaise reponse');
   await pickCards('zastavka', 'telefon');
-  await until((q) => q.end, 'fin du chapitre 1');
+
+  // ---------------------------------------------------------------- chapitre 2 : le jardin du matin, les photos
+  const SHOWN = [2, 4, 0, 3, 1];
+  const photo = (k) => pg.evaluate((j) => __zajka.click([150 + j * 200 + 90, 200 + 110]), SHOWN.indexOf(k));
+  picks = [1];                                        // « Hovoria veľa o vode »
+  await until((q) => q.sc === 'rano' && q.panel === 'custom' && !q.dlg, 'photos du telephone');
+  await pg.waitForTimeout(300); await shot('07_photos');
+  for (const k of [1, 0, 2, 3, 4]) { await photo(k); await pg.waitForTimeout(60); }      // mauvais ordre : Andrea aide
+  await until((q) => q.panel === 'custom' && !q.dlg && !q.busy === false, 'indice des photos');
+  await until((q) => !q.dlg, 'fin indice');
+  for (const k of [0, 1, 2, 3, 4]) { await photo(k); await pg.waitForTimeout(60); }
+  await idle('apres les photos');
+  if (!(await st()).cards.includes('fotky')) await fail('indice des photos absent');
+  await useW(120, 480, 'portillon sans eau');
+  if ((await st()).sc !== 'rano') await fail('parti sans eau');
+  await useW(430, 530, 'arrosoir'); if (!(await has('rucka'))) await fail('pas de poignee');
+  await itemW('flasa_prazdna', 1800, 580, 'bouteille sans poignee', 1760);
+  if (await has('flasa')) await fail('eau sans poignee ?!');
+  await itemW('rucka', 1800, 580, 'poignee sur le robinet', 1760);
+  await itemW('flasa_prazdna', 1800, 580, 'remplir la bouteille', 1760);
+  if (!(await has('flasa'))) await fail('bouteille non remplie');
+  await pg.evaluate(() => { __zajka.cam = 880; }); await pg.waitForTimeout(300); await shot('08_rano');
+  await useW(120, 480, 'portillon'); if ((await st()).sc !== 'urad') await fail('pas au bureau');
+
+  // ---------------------------------------------------------------- le bureau : file d'attente, dame, dossier, stylo
+  await idle('bureau');
+  await useW(1300, 400, 'guichet sans ticket'); if ((await st()).flags.dossier_found) await fail('dossier sans ticket');
+  await useW(455, 480, 'borne'); if (!(await has('cislo'))) await fail('pas de ticket d\'attente');
+  await useW(1300, 400, 'guichet trop tot');
+  await pg.evaluate(() => { __zajka.cam = 300; }); await pg.waitForTimeout(300); await shot('09_bureau');
+  await until((q) => q.flags.q_cur === q.flags.q_mine && !q.dlg && !q.busy, 'mon numero appele');
+  picks = [1, 1, 1];
+  await idle('avant guichet a mon tour'); { const cam = await near(1300); await click(1300 - cam, 400); }
+  await until((q) => q.panel === 'custom' && !q.dlg, 'dossier ouvert');
+  await pg.waitForTimeout(200); await shot('10_dossier');
+  const btnD = (i) => pg.evaluate((i) => __zajka.click([148 + i * 142 + 60, 630]), i);
+  for (const i of [3, 6, 6, 6, 5, 2]) { await btnD(i); await pg.waitForTimeout(40); }   // sommaire (3), +100 x3, +10, -1 : page 312
+  if ((await pg.evaluate(() => __zajka.custom && __zajka.custom.st.page)) !== 312) await fail('pas a la page 312');
+  await shot('11_page312');
+  await pg.evaluate(() => __zajka.click([300, 250 + (__zajka.showFr ? 50 : 38) + 10]));
+  await idle('dossier lu'); if (!(await st()).flags.dossier_found) await fail('consommation non trouvee');
+  picks = [3]; await useW(640, 520, 'castor (voda)', 700); if (!(await has('pero'))) await fail('pas de stylo');
+  await pg.evaluate(() => { __zajka.selected = 'pero'; const i = __zajka.items.indexOf('listok_ok'); const r = __zajka.slotRect(i); __zajka.click([r.x + 10, r.y + 10]); });
+  await idle('combinaison stylo + ticket'); if (!(await has('listok_0l'))) await fail('piece n°1 absente');
+  await useW(140, 400, 'sortie du bureau', 200); if ((await st()).sc !== 'namestie') await fail('pas sur la place');
+
+  // ---------------------------------------------------------------- la place : se cacher du monsieur au sourire
+  await idle('place');
+  await pg.evaluate(() => { __zajka.cam = 900; }); await pg.waitForTimeout(400); await shot('12_place');
+  // vu en traversant pendant qu'il regarde
+  await pg.evaluate(() => { const p = __zajka.sprites.find((q) => q.id === 'pan'); p.alt = null; p.pose = 'watch'; });
+  await pg.evaluate(() => __zajka.walk('fox', 900, 660));
+  await until((q) => !q.dlg && !q.busy && q.flags.hid !== true, 'vu par le monsieur');
+  const fx2 = await pg.evaluate(() => __zajka.sprites.find((q) => q.id === 'fox').x);
+  if (fx2 < 1300) await fail('pas renvoye a la porte apres avoir ete vu : x=' + fx2);
+  await pg.evaluate(() => { const p = __zajka.sprites.find((q) => q.id === 'pan'); p.pose = null; });
+  await pg.evaluate(() => __zajka.walk('fox', 500, 665));
+  await until((q) => q.panel === 'board' && q.q && !q.dlg, 'question du tableau (ch2)');
+  await pg.waitForTimeout(300); await shot('13_tableau2');
+  await pickCards('permis', 'fotky');
+  await until((q) => q.end, 'fin du chapitre 2');
   await shot('06_fin');
   if (missing.length) await fail('images manquantes : ' + missing.join(', '));
   if (errs.length) await fail('erreurs JS : ' + errs.join(' | '));
-  console.log('OK : prologue + chapitre 1 v2 joues jusqu\'au bout');
+  console.log('OK : prologue + chapitres 1 et 2 v2 joues jusqu\'au bout');
   await b.close(); srv.close();
 })();

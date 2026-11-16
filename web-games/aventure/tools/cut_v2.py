@@ -168,7 +168,22 @@ def photos(path, names):
         print(f'{n}.jpg {crop.size}')
 
 
+def urad_bg():
+    """Le decor du bureau sans son ventilateur peint (le jeu l'anime par-dessus) : le plafond a des lattes horizontales,
+    on refait chaque ligne en melangeant la couleur prise a gauche et a droite du ventilateur."""
+    im = Image.open(os.path.join(SRC, 'urad_wide_src.png')).convert('RGB')
+    a = np.asarray(im).astype(np.float32).copy()
+    x0, x1, y0, y1 = 1068, 1398, 6, 152
+    L, R = a[y0:y1, x0 - 6:x0 - 2].mean(1), a[y0:y1, x1 + 2:x1 + 6].mean(1)
+    t = np.linspace(0, 1, x1 - x0)[None, :, None]
+    a[y0:y1, x0:x1] = L[:, None, :] * (1 - t) + R[:, None, :] * t
+    out = Image.fromarray(a.clip(0, 255).astype(np.uint8)).resize((2160, 720), Image.LANCZOS)
+    out.save(os.path.join(ART, 'urad_wide.webp'), quality=88)
+    print('urad_wide.webp (ventilateur peint retire)')
+
+
 def chapter2():
+    urad_bg()
     c = cells(os.path.join(SRC, 'figurants_ch2_src.png'), 4, 2)
     pair(c[0], c[1], 'bobor_a', 'bobor_b')
     pair(c[2], c[3], 'veverica_a', 'veverica_b')

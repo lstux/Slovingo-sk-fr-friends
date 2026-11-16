@@ -84,6 +84,7 @@
         for (const sp of (s.sprites || []).concat(Object.values(s.extraSprites || {}))) { srcs.add(sp.img); if (sp.walkSheet) srcs.add(sp.walkSheet.img); for (const q of Object.values(sp.climbSheets || {})) srcs.add(q.img); for (const q of Object.values(sp.poses || {})) srcs.add(q.img); }
       }
       for (const it of Object.values(this.data.items)) srcs.add(it.icon);
+      for (const q of this.data.preload || []) srcs.add(q);
       for (const cd of Object.values((this.data.board || {}).cards || {})) srcs.add(cd.img);
       return Promise.all([...srcs].filter(Boolean).map((s) => new Promise((res) => {
         const im = this.img(s);
@@ -268,6 +269,9 @@
         hasCard: (id) => g.cards.includes(id),
         solved: (q) => g.solved.includes(q),
         askBoard: (q) => g.askBoard(q),
+        // panneau sur mesure (dossier a feuilleter, photos a remettre dans l'ordre) : def = { draw(c, st, E), click(p, st, g, E) }
+        // click renvoie { done: valeur } pour fermer le panneau ; la promesse se resout avec cette valeur
+        openPanel: (def, st) => new Promise((resolve) => { g.custom = { def, st: st || {}, resolve }; g.panel = 'custom'; }),
         toast: (sk, fr) => { g.toast = { sk, fr, t0: g.t }; },
       };
     }
@@ -343,6 +347,20 @@
       if (this.endCard) return;
       if (this.panel === 'map') { this.clickMap(); return; }
       if (this.panel === 'board') { if (this.dialog) this.advance(); else if (!this.choices) this.clickBoard(p); return; }
+      if (this.panel === 'custom') {
+        if (this.dialog) { this.advance(); return; }
+        if (this.choices) { this.pickChoice(p); return; }
+        if (this.customBusy) return;
+        const C = this.custom;
+        this.customBusy = true;
+        this.run(async () => {
+          try {
+            const r = await C.def.click(p, C.st, this.api(), this);
+            if (r && r.done !== undefined && this.custom === C) { this.custom = null; this.panel = null; C.resolve(r.done); }
+          } finally { this.customBusy = false; }
+        });
+        return;
+      }
       if (this.panel === 'words') {   // un mot : on l'ecoute ; ailleurs : on ferme
         const ws = Object.entries(this.words);
         for (let i = 0; i < ws.length; i++) {
@@ -511,7 +529,7 @@
       cv.addEventListener('pointerdown', (ev) => { ev.preventDefault(); this.mouse = pos(ev); this.click(this.mouse); });
       root.addEventListener('keydown', (ev) => {
         if (ev.key === ' ' || ev.key === 'Enter') { ev.preventDefault(); if (this.dialog) this.advance(); else if (this.scene && this.scene.cine) this.cineNext(); else this.flashZones(); }
-        else if (ev.key === 'Escape') { if (this.panel === 'map') this.clickMap(); else if (!(this.panel === 'board' && this.boardQ)) this.panel = null; }
+        else if (ev.key === 'Escape') { if (this.panel === 'map') this.clickMap(); else if (!(this.panel === 'board' && this.boardQ) && this.panel !== 'custom') this.panel = null; }
       });
     }
 
@@ -562,6 +580,7 @@
           if (this.t >= s.altAt) {
             const on = s.pose === s.alt.pose;
             s.pose = on ? null : s.alt.pose;
+            if (s.alt.faceOn !== undefined) s.face = on ? s.alt.faceOff : s.alt.faceOn;   // il se retourne pour regarder
             const [a, b] = on ? [s.alt.min, s.alt.max] : (s.alt.hold || [1.2, 2.6]);
             s.altAt = this.t + a + Math.random() * (b - a);
           }
@@ -619,6 +638,7 @@
       for (const l of sc.layers || []) this.drawLayer(l);
       if (sc.props) this.drawProps(sc);
       if (sc.ambient) this.drawAmbient(sc, false);
+      if (sc.overlay) sc.overlay(c, this.api(), this);   // dessin libre dans le decor (chiffres du tableau lumineux…)
       const order = this.sprites.filter((s) => !s.hidden).sort((a, b) => a.y - b.y);
       for (const s of order) this.drawSprite(s);
       if (sc.ambient) this.drawAmbient(sc, true);
@@ -627,6 +647,7 @@
       if (this.fadeA > 0) { c.fillStyle = `rgba(0,0,0,${Math.min(1, this.fadeA)})`; c.fillRect(0, 0, W, H); }
       if (sc.cine) this.drawCineHud(); else this.drawHud();
       if (this.boardT > 0) this.drawBoard();
+      if (this.panel === 'custom' && this.custom) this.custom.def.draw(c, this.custom.st, this);
       if (this.toast) this.drawToast();
       if (this.dialog) this.drawDialog();
       if (this.choices) this.drawChoices();
@@ -739,7 +760,7 @@
     }
     boardRect() { const w = 820, x = W - w * smooth(Math.min(1, this.boardT)); return { x, y: 0, w, h: H }; }
     boardCardRects() {
-      const r = this.boardRect(), cols = 2, cw = 360, ch = 96, gx = 24, gy = 16, x0 = r.x + 40, y0 = this.boardQ ? 200 : 130;
+      const r = this.boardRect(), cols = 2, cw = 360, ch = 88, gx = 24, gy = 10, x0 = r.x + 40, y0 = this.boardQ ? 200 : 130;
       return this.cards.map((id, i) => ({ id, x: x0 + (i % cols) * (cw + gx), y: y0 + ((i / cols) | 0) * (ch + gy), w: cw, h: ch }));
     }
     clickBoard(p) {
@@ -793,7 +814,7 @@
         if (cd.icon) { c.font = '42px system-ui, sans-serif'; c.textBaseline = 'middle'; c.fillText(cd.icon, tx, 2); tx += 58; }
         c.textBaseline = 'top'; c.fillStyle = '#1a1208'; c.font = '700 22px system-ui, sans-serif';
         this.wrap(cd.sk, q.w / 2 - tx - 10).slice(0, 2).forEach((ln, i) => c.fillText(ln, tx, -q.h / 2 + 14 + i * 26));
-        if (this.showFr) { c.font = 'italic 17px system-ui, sans-serif'; c.fillStyle = '#5a4a30'; c.fillText(cd.fr, tx, -q.h / 2 + 68, q.w / 2 - tx - 10); }
+        if (this.showFr) { c.font = 'italic 17px system-ui, sans-serif'; c.fillStyle = '#5a4a30'; c.fillText(cd.fr, tx, -q.h / 2 + 64, q.w / 2 - tx - 10); }
         c.restore();
       }
       if (rects.length >= 2 && this.boardSel.length === 2) {   // le fil rouge entre les deux pieces choisies
@@ -807,7 +828,7 @@
       const c = this.ctx, k = this.t - this.toast.t0, a = Math.min(1, k * 4, (3 - k) * 3);
       if (a <= 0) return;
       c.save(); c.globalAlpha = a; c.font = '700 26px system-ui, sans-serif';
-      const w = Math.max(c.measureText(this.toast.sk).width, 200) + 48, x = (W - w) / 2, y = H - 120;
+      const w = Math.max(c.measureText(this.toast.sk).width, 200) + 48, x = (W - w) / 2, y = this.panel ? 18 : H - 120;   // panneau ouvert : en haut
       c.fillStyle = 'rgba(30,20,10,.88)'; this.roundRect(x, y, w, this.showFr ? 78 : 50, 12); c.fill();
       c.fillStyle = '#ffe08a'; c.textBaseline = 'top'; c.fillText(this.toast.sk, x + 24, y + 10);
       if (this.showFr) { c.font = 'italic 20px system-ui, sans-serif'; c.fillStyle = '#d9cfb8'; c.fillText(this.toast.fr, x + 24, y + 46); }
@@ -942,8 +963,8 @@
         const breath = !s.still && (!pose || s.pose === 'talk');
         const ph = s.wt * 9, bob = moving ? Math.abs(Math.sin(ph)) * 8 : breath ? Math.sin(this.t * 1.6 + (s.x % 7)) * 1.2 : 0;   // faux pas / respiration
         const sq = moving || !breath ? 1 : 1 + Math.sin(this.t * 1.6 + (s.x % 7)) * 0.006;
-        if (moving) c.rotate(Math.sin(ph) * 0.025);
-        c.drawImage(pim, -r.w / 2, -r.h - bob, r.w, r.h * sq);
+        if (moving && !s.rigid) c.rotate(Math.sin(ph) * 0.025);
+        c.drawImage(pim, -r.w / 2, -r.h - (s.rigid ? 0 : bob), r.w, r.h * sq);   // rigid : une voiture ne fait pas de pas
       }
       c.restore();
     }
