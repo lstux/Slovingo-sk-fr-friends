@@ -1,6 +1,6 @@
 # Série Sen (4/5) — Lístok
 
-@ TODO_img/listok-0-litrov.jpg | TODO : choisir une image (un ticket de tram froissé, avec quelque chose écrit au dos)
+@ img/illus_13_listok.jpg | Au dos du ticket de tram d’hier, quelques mots écrits à la main. Andrea reconnaît l’écriture. Source : illustration générée avec ChatGPT
 
 {{fr:Tu mets la main dans ta poche. Il y a ton ticket de tram, celui d'hier. Et quelque chose est écrit au dos.}}
 
