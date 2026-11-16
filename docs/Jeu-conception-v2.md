@@ -193,9 +193,11 @@ Les fausses pistes de la v1 restent : pot rouge (escargot), pot jaune (fourmis),
 
 Estimation : 7 décors, environ 6 planches de figurants, 2 planches de héros, 1 planche d'objets, 4 ou 5 planches d'ambiance, soit à peu près 40 à 55 générations.
 
-## 10. Questions pour Eric
+## 10. Décisions d'Eric (16 nov. 2026)
 
-1. Les figurants en **animaux** (comme les héros) plutôt qu'en humains, sauf les adultes de l'histoire : d'accord ?
-2. Les **chronos** (dossier, robinet) : ça te va, ou on les retire pour garder un jeu sans stress ?
-3. La **bouteille d'eau** qui passe de la gare au chat : ce genre de fil entre décors, on en veut un par chapitre ?
-4. Le **tableau d'enquête** : un écran à part, ou un panneau qui glisse par-dessus le décor ?
+1. **Figurants** : des animaux, sauf les adultes humains de l'histoire (contrôleur, dame du guichet, monsieur au sourire…).
+2. **Chronos** : on les garde (dossier de 400 pages, robinet).
+3. **Un fil d'objet par chapitre** entre deux décors, comme la bouteille d'eau de la gare qui sert au chat.
+4. **Tableau d'enquête** : un panneau qui glisse par-dessus le décor, pas un écran à part.
+
+**Images** : les décors 3:1 du 11 nov. (gare, tram, rue, jardin soir et matin) et les planches de Gab, Andrea et du contrôleur sont gardés. Les nouveautés (objets, figurants, ambiance) se font en planches séparées, posées par-dessus : `web-games/aventure/art/PROMPTS_v2.md`.
