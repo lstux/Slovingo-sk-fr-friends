@@ -105,3 +105,140 @@ Scene: Early morning in a small garden in Košice, under an old apple tree with 
 
 Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. The garden and the house are drawn in the same cartoon style as the characters: ink outlines, flat colours, simplified shapes, few details. Landscape format. No text, no readable letters, no logos, no watermark.
 ```
+
+---
+
+# Suite — les 11 emplacements « photo » sans candidat
+*Même méthode : nouvelle conversation par scène, planche jointe, format paysage 3:2. Carnet d'Andrea **vert**. Si ChatGPT refuse, on enlève la phrase qui coince.*
+
+## 9. 01-06 — La fenêtre allumée
+
+Fiche `10_Series_01_Kosice_06_extra.md` → `img/okno-v-noci.jpg` · **Joindre** : `planche-heros.jpg`
+
+```
+Use the attached model sheet for the characters (keep them exactly as designed).
+
+Scene: Night in a village garden, wide landscape format. The fox lies on his back in the grass under an old apple tree, his backpack as a pillow, arms behind his head, looking up at the dark sky and a few stars. A few fallen apples around him. At the back, a modest village house; all its windows are dark except one on the upper floor, which glows warm yellow, with the faint silhouette of a girl hare (Andrea) standing behind the curtain, looking out. Calm, slightly mysterious mood; cool blue night, one warm spot.
+
+Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. The background and the objects are drawn in the same cartoon style as the characters: ink outlines, flat colours, simplified shapes, few details, no photographic reflections or textures. Landscape format. No text, no readable letters or numbers, no logos, no watermark.
+```
+
+## 10. 02-04 — Le guichet
+
+Fiche `10_Series_02_Sucho_04_okienko.md` → `img/okienko-urad.jpg` · **Joindre** : `planche-heros.jpg`
+
+```
+Use the attached model sheet for the characters (keep them exactly as designed).
+
+Scene: Inside a Slovak local administration building, wide landscape format. A very long, empty corridor with worn linoleum floor and pale green walls, many closed doors, a dusty plant. At the far end, a single open service window with a counter. Behind it, a human clerk, a woman in her fifties with glasses and a cardigan, looks over her glasses with a suspicious, curious face. In front of the counter, seen from slightly behind, the fox with his backpack, standing very politely, ears a little flattened. Flat, tired fluorescent light.
+
+Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. Any humans are drawn in the same simple cartoon style as the animals: simplified shapes, flat colours, few details on faces and hair, no realistic or semi-realistic faces. The background and the objects are drawn in the same cartoon style as the characters: ink outlines, flat colours, simplified shapes, few details, no photographic reflections or textures. Landscape format. No text, no readable letters or numbers, no logos, no watermark.
+```
+
+## 11. 02-05 — Le gros dossier
+
+Fiche `10_Series_02_Sucho_05_nula-litrov.md` → `img/spis-nula-litrov.jpg` · **Joindre** : `planche-heros.jpg`
+
+```
+Use the attached model sheet for the characters (keep them exactly as designed).
+
+Scene: Close-up on a counter in an administration office, wide landscape format. A huge thick file bound in a green cover (no readable title) lies open on the counter; its pages are covered in tables and tiny text (unreadable lines). The fox's paw turns a page, his other paw holds a crumpled tram ticket with a short scribble on the back. On the other side of the counter, the sleeve of a cardigan and a hand tapping a wall clock-sized watch: she is in a hurry. A round wall clock in the background shows almost noon. Neutral, slightly yellowish office light.
+
+Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. Any humans are drawn in the same simple cartoon style as the animals: simplified shapes, flat colours, few details on faces and hair, no realistic or semi-realistic faces. The background and the objects are drawn in the same cartoon style as the characters: ink outlines, flat colours, simplified shapes, few details, no photographic reflections or textures. Landscape format. No text, no readable letters or numbers, no logos, no watermark.
+```
+
+## 12. 05-04 — La plaque OPTIKA
+
+Fiche `10_Series_05_Domov_04_optika.md` → `img/poklop-optika.jpg` · **Joindre** : `planche-heros.jpg`
+
+```
+Use the attached model sheet for the characters (keep them exactly as designed).
+
+Scene: Behind a wooden sheepfold in a Slovak mountain village, wide landscape format, grey wet morning. In the tall grass lies a square iron plate with big bolts at the corners and a short stencilled word on it (do not make it readable). The fox kneels and presses his ear against the plate, one paw raised to say "shh". Maťo the bear, Andrea the hare and Katka the marmot crouch around him in a circle, all with an ear tilted towards the iron, eyes wide, listening. Small puddles, a few sheep far behind.
+
+Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. The background and the objects are drawn in the same cartoon style as the characters: ink outlines, flat colours, simplified shapes, few details, no photographic reflections or textures. Landscape format. No text, no readable letters or numbers, no logos, no watermark.
+```
+
+## 13. 05-05 — Le ruisseau à sec
+
+Fiche `10_Series_05_Domov_05_styridsatdva.md` → `img/potok-suchy-kamene.jpg` · **Joindre** : `planche-heros.jpg`
+
+```
+Use the attached model sheet for the characters (keep them exactly as designed).
+
+Scene: The bed of a mountain stream in Slovakia, almost dry, wide landscape format. Round grey stones everywhere, only a thin trickle of water in the middle, barely ankle-deep. The fox, Maťo the bear, Andrea the hare and Katka the marmot sit on the dry stones in the middle of the stream bed. Katka holds a smartphone and taps it quickly (screenshots); Andrea has her green notebook open; Maťo looks puzzled at the water. Behind them, a line of alders and a grey concrete building on the hillside. Hot, bright light, sense of drought.
+
+Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. The background and the objects are drawn in the same cartoon style as the characters: ink outlines, flat colours, simplified shapes, few details, no photographic reflections or textures. Landscape format. No text, no readable letters or numbers, no logos, no watermark.
+```
+
+## 14. 06-04 — Le tuyau tiède
+
+Fiche `10_Series_06_Povoden_04_rura.md` → `img/rura-para.jpg` · **Joindre** : `planche-tous.jpg`
+
+```
+Use the attached model sheet for the characters (keep them exactly as designed).
+
+Scene: Behind a big grey data-centre building on a cold rainy day, wide landscape format. A thick pipe comes out of the wall and pours water towards a river bank; the water steams slightly. The fox holds one paw under the stream, face surprised (it is warm). Katka the marmot points her phone at the pipe and his paw, filming. On the flat roof, a thick plume of white steam rises into the rain. On the wall, a green wave-shaped painted logo (no text). In a lit first-floor window, Marek the badger in his navy work vest watches them; his hand is on the switch, about to turn the light off.
+
+Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. The background and the objects are drawn in the same cartoon style as the characters: ink outlines, flat colours, simplified shapes, few details, no photographic reflections or textures. Landscape format. No text, no readable letters or numbers, no logos, no watermark.
+```
+
+## 15. 06-06 — Le château en direct
+
+Fiche `10_Series_06_Povoden_06_extra.md` → `img/hrad-televizia.jpg` · **Joindre** : `planche-heros.jpg`
+
+```
+Use the attached model sheet for the characters (keep them exactly as designed).
+
+Scene: Evening in Bratislava, wide landscape format. On a hill across the Danube, the Bratislava castle, a white rectangular building with four corner towers, is lit by floodlights against a darkening blue sky. In the foreground on a riverbank bench, the fox and Katka the marmot lean together over her phone, which shows a tiny news-style picture of the same castle (no readable text). Katka is very excited, the fox raises one eyebrow. Lights of the city and a bridge in the background.
+
+Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. The background and the objects are drawn in the same cartoon style as the characters: ink outlines, flat colours, simplified shapes, few details, no photographic reflections or textures. Landscape format. No text, no readable letters or numbers, no logos, no watermark.
+```
+
+## 16. 07-03 — Le bon de livraison
+
+Fiche `10_Series_07_Cesta_03_dodaci-list.md` → `img/dodaci-list.jpg` · **Joindre** : `planche-heros.jpg (+ illus_07_cesta_2.jpg si tu l'as, pour le chauffeur)`
+
+```
+Use the attached model sheet for the characters (keep them exactly as designed).
+
+Scene: Inside a lorry cab, wide landscape format. The truck driver (same man as in the attached illustration: a round, friendly human man in his fifties with a moustache and a cap) holds open a cardboard box under his seat, full of hundreds of papers, all neatly stacked and sorted with paper clips. He pulls one sheet out with a proud smile, as if showing a trophy. The fox and Andrea the hare lean in from the passenger seat, amazed. The windscreen shows a country road. Warm afternoon light.
+
+Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. Any humans are drawn in the same simple cartoon style as the animals: simplified shapes, flat colours, few details on faces and hair, no realistic or semi-realistic faces. The background and the objects are drawn in the same cartoon style as the characters: ink outlines, flat colours, simplified shapes, few details, no photographic reflections or textures. Landscape format. No text, no readable letters or numbers, no logos, no watermark.
+```
+
+## 17. 07-04 — La cabine silencieuse
+
+Fiche `10_Series_07_Cesta_04_tvoja-fotka.md` → `img/kamion-kabina.jpg` · **Joindre** : `planche-heros.jpg`
+
+```
+Use the attached model sheet for the characters (keep them exactly as designed).
+
+Scene: Inside a lorry cab at the end of the day, wide landscape format, the road ahead seen through the windscreen. In the foreground, Katka the marmot proudly holds a stack of printed screenshots and a delivery note, cheerful; everyone else is silent. Andrea the hare is frozen, ears slightly down, staring at the fox. The fox looks at Andrea, serious, a little hurt. Maťo the bear, squeezed in the back, covers his mouth with a paw. The driver (human, round, moustache, cap) keeps his eyes on the road, careful not to look. Low warm sun through the windscreen.
+
+Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. Any humans are drawn in the same simple cartoon style as the animals: simplified shapes, flat colours, few details on faces and hair, no realistic or semi-realistic faces. The background and the objects are drawn in the same cartoon style as the characters: ink outlines, flat colours, simplified shapes, few details, no photographic reflections or textures. Landscape format. No text, no readable letters or numbers, no logos, no watermark.
+```
+
+## 18. 07-05 — La vitre du camion
+
+Fiche `10_Series_07_Cesta_05_hocikto.md` → `img/okno-kamionu.jpg` · **Joindre** : `planche-heros.jpg`
+
+```
+Use the attached model sheet for the characters (keep them exactly as designed).
+
+Scene: Inside a lorry cab, wide landscape format, grey overcast afternoon. The fox sits by the passenger window, his forehead almost on the glass, looking out at a long straight country road with fields and a few poplars. Next to him, Andrea the hare, mouth half open, hands on her green notebook, cannot find her words. In the blurred background, Maťo and Katka look away on purpose. Soft grey light, quiet sad mood.
+
+Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. The background and the objects are drawn in the same cartoon style as the characters: ink outlines, flat colours, simplified shapes, few details, no photographic reflections or textures. Landscape format. No text, no readable letters or numbers, no logos, no watermark.
+```
+
+## 19. 08-03 — Les quatre pompes
+
+Fiche `10_Series_08_Datacentrum_03_cerpadla.md` → `img/cerpadla-hala.jpg` · **Joindre** : `planche-tous.jpg`
+
+```
+Use the attached model sheet for the characters (keep them exactly as designed).
+
+Scene: A hot, noisy technical hall inside a data centre, wide landscape format. Four huge green industrial pumps in a row, thick green pipes as wide as a person, vibration lines to show the noise. A small grey box with glowing digits (unreadable) is fixed on a pipe. The fox, holding up a smartphone to take a photo of the pumps and the box, excited and scared. In the doorway behind him, Marek the badger in his navy vest with a badge has just appeared, frozen. Cool neon light, warm glow near the pumps.
+
+Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. The background and the objects are drawn in the same cartoon style as the characters: ink outlines, flat colours, simplified shapes, few details, no photographic reflections or textures. Landscape format. No text, no readable letters or numbers, no logos, no watermark.
+```
