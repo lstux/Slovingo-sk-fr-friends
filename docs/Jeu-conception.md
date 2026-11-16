@@ -1,5 +1,7 @@
 # Zajko Quest (point & click) : conception
 
+*Remplacé par `Jeu-conception-v2.md` (« Circuit fermé ») le 16 novembre 2026. Gardé pour mémoire.*
+
 *Premier jet du 9 novembre 2026. On vise les 12 chapitres, mais on détaille d'abord l'intro et les chapitres 1 et 2 pour voir si la tendance plaît avant d'aller plus loin. Base : `docs/Histoire-fr.md`, `docs/Intrigue-jeu.md`, prototype `web-games/aventure/`.*
 
 ## 1. Principes
