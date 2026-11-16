@@ -1,6 +1,6 @@
 # Série Sucho (4/5) — Okienko
 
-@ TODO_img/okienko-urad.jpg | TODO : choisir une image (un guichet d'administration, un long couloir)
+@ img/illus_02_okienko.jpg | Un long couloir vide, un seul guichet ouvert. Derrière, une dame qui te regarde par-dessus ses lunettes. Source : illustration générée avec ChatGPT
 
 {{fr:Tu es devant le guichet. Derrière la vitre, une dame. Une adulte que tu ne connais pas : il va falloir la vouvoyer. Et faire le Français.}}
 
