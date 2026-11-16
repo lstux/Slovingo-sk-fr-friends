@@ -1,6 +1,6 @@
 # Série Povodeň (4/5) — Rúra
 
-@ TODO_img/rura-para.jpg | TODO : choisir une image (un gros tuyau qui sort d'un mur, de la vapeur sur un toit)
+@ img/illus_06_rura.jpg | Derrière le bâtiment gris, un gros tuyau qui crache de l’eau tiède. Et Marek, à la fenêtre, éteint la lumière. Source : illustration générée avec ChatGPT
 
 {{fr:Tu cherches où te laver les mains. Derrière le bâtiment, un gros tuyau sort du mur. De l'eau en coule. Mets ta main dessous.}}
 
