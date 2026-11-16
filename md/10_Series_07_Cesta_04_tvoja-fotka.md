@@ -1,6 +1,6 @@
 # Série Cesta (4/5) — Tvoja fotka
 
-@ TODO_img/kamion-kabina.jpg | TODO : choisir une image (l'intérieur d'une cabine de camion, une route par la fenêtre)
+@ img/illus_07_kabina.jpg | Katka est très contente de ses six preuves. Dans la cabine, plus personne ne parle. Source : illustration générée avec ChatGPT
 
 {{fr:Katka range le bon de livraison avec ses captures. Elle est très contente. Trop contente. Elle va dire quelque chose qu'elle n'aurait pas dû dire.}}
 
