@@ -242,3 +242,9 @@ Scene: A hot, noisy technical hall inside a data centre, wide landscape format. 
 
 Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading. The background and the objects are drawn in the same cartoon style as the characters: ink outlines, flat colours, simplified shapes, few details, no photographic reflections or textures. Landscape format. No text, no readable letters or numbers, no logos, no watermark.
 ```
+
+---
+
+## Options pour la fin
+
+- **Jardin d'Andrea (01-05, 01-06, 13-02, 13-05)** : l'ancienne version avait la cathédrale de Košice au loin, derrière les arbres. Elle a disparu avec la nouvelle maison. Si on veut la remettre, retoucher les 4 images : « add the distant spire of a gothic cathedral above the trees on the left, between the tree and the hills ».
