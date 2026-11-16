@@ -1,6 +1,6 @@
 # Série Datacentrum (5/5) — Program
 
-@ TODO_img/marek-schody.jpg | TODO : choisir une image (un escalier de service, une porte entrouverte)
+@ img/illus_08_marek.jpg | Dans la salle des pompes, Marek avoue : le petit programme, c’est lui. Source : illustration générée avec ChatGPT
 
 {{fr:Il reste une question. Celle des chiffres du ruisseau : quarante-deux, quarante et un, quarante-trois, toute l'année. Qui les a écrits ?}}
 
