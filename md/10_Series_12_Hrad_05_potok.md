@@ -1,6 +1,6 @@
 # Série Hrad (5/5) — Potok
 
-@ TODO_img/mato-kamera.jpg | TODO : choisir une image (Maťo, très grand, lit un petit papier devant la caméra)
+@ img/illus_12_mato.jpg | Sur la terrasse du château, devant la caméra, Maťo lit son petit papier d’une toute petite voix. Source : illustration générée avec ChatGPT
 
 {{fr:La directrice a encore le trophée dans la main. Il reste une question de la présentatrice. Et une phrase que Maťo a écrite dans le train.}}
 
