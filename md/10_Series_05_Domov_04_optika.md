@@ -1,6 +1,6 @@
 # Série Domov (4/5) — Optika
 
-@ TODO_img/poklop-optika.jpg | TODO : choisir une image (une plaque en fer dans l'herbe)
+@ img/illus_05_poklop.jpg | Derrière la bergerie, une plaque en fer vissée dans l’herbe. Chut. Écoutez. Source : illustration générée avec ChatGPT
 
 {{fr:Le gardien du refuge a parlé d'une tranchée « pour la fibre ». Maťo l'a vue, il y a deux ans. Elle passait juste derrière la bergerie.}}
 

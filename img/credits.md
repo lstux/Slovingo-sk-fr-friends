@@ -24,6 +24,7 @@ La légende de chaque image, dans la fiche, rappelle aussi l'auteur et la licenc
 | `10_Series_02_Sucho_06_extra.md` | `illus_02_sucho_2.jpg` | Illustration générée avec ChatGPT, sans photo de référence | Image générée (pas de photo source) |
 | `10_Series_02_Sucho_04_okienko.md` | `illus_02_okienko.jpg` | Illustration générée avec ChatGPT, sans photo de référence | Image générée (pas de photo source) |
 | `10_Series_02_Sucho_05_nula-litrov.md` | `illus_02_spis.jpg` | Illustration générée avec ChatGPT, sans photo de référence | Image générée (pas de photo source) |
+| `10_Series_05_Domov_04_optika.md` | `illus_05_poklop.jpg` | Illustration générée avec ChatGPT, sans photo de référence | Image générée (pas de photo source) |
 | `10_Series_03_Raj_01_kam-teraz.md` | `slovensky-raj-les.jpg` | [Slovak Paradise in the Shadow of the Crag.jpg](https://commons.wikimedia.org/wiki/File:Slovak_Paradise_in_the_Shadow_of_the_Crag.jpg) | Jarovyh | CC BY-SA 4.0 |
 | `10_Series_03_Raj_02_pocujes.md` | `slovensky-raj-potok.jpg` | [Hornad in Slovak Paradise.jpg](https://commons.wikimedia.org/wiki/File:Hornad_in_Slovak_Paradise.jpg) | Marek K. Misztal | CC BY-SA 3.0 |
 | `10_Series_03_Raj_03_je-tu-voda.md` | `slovensky-raj-voda.jpg` | [Misové vodopády, Suchá Belá, Slovenský ráj, 2012, 02.JPG](https://commons.wikimedia.org/wiki/File:Misov%C3%A9_vodop%C3%A1dy,_Such%C3%A1_Bel%C3%A1,_Slovensk%C3%BD_r%C3%A1j,_2012,_02.JPG) | Michal Klajban | CC BY-SA 3.0 |
