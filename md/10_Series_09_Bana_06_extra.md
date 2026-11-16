@@ -1,6 +1,6 @@
 # Tajchy (extra) — Krabice
 
-@ TODO_img/vydra-krabice.jpg | TODO : choisir une image (un petit bureau sous les toits, plein de boîtes en carton)
+@ img/illus_09_krabice.jpg | Sous le toit, des boîtes jusqu’au plafond. La doktorka en sort de vieux cahiers de mesures, écrits à la main. Source : illustration générée avec ChatGPT
 
 {{fr:Dans le petit bureau de la doktorka, sous le toit, il y a des boîtes en carton jusqu'au plafond. Et dedans, trente ans de mesures.}}
 

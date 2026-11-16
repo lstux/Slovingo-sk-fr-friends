@@ -25,6 +25,7 @@ La légende de chaque image, dans la fiche, rappelle aussi l'auteur et la licenc
 | `10_Series_02_Sucho_04_okienko.md` | `illus_02_okienko.jpg` | Illustration générée avec ChatGPT, sans photo de référence | Image générée (pas de photo source) |
 | `10_Series_02_Sucho_05_nula-litrov.md` | `illus_02_spis.jpg` | Illustration générée avec ChatGPT, sans photo de référence | Image générée (pas de photo source) |
 | `10_Series_05_Domov_04_optika.md` | `illus_05_poklop.jpg` | Illustration générée avec ChatGPT, sans photo de référence | Image générée (pas de photo source) |
+| `10_Series_09_Bana_06_extra.md` | `illus_09_krabice.jpg` | Illustration générée avec ChatGPT, sans photo de référence | Image générée (pas de photo source) |
 | `10_Series_08_Datacentrum_05_program.md` | `illus_08_marek.jpg` | Illustration générée avec ChatGPT, sans photo de référence | Image générée (pas de photo source) |
 | `10_Series_08_Datacentrum_03_cerpadla.md` | `illus_08_cerpadla.jpg` | Illustration générée avec ChatGPT, sans photo de référence | Image générée (pas de photo source) |
 | `10_Series_07_Cesta_05_hocikto.md` | `illus_07_okno.jpg` | Illustration générée avec ChatGPT, sans photo de référence | Image générée (pas de photo source) |
