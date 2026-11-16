@@ -1,6 +1,6 @@
 # Série Cesta (5/5) — Hocikto
 
-@ TODO_img/okno-kamionu.jpg | TODO : choisir une image (une route de campagne vue par la vitre d'un camion)
+@ img/illus_07_okno.jpg | Vingt kilomètres sans un mot. Dehors, une route droite sous un ciel gris. Source : illustration générée avec ChatGPT
 
 {{fr:Le livre à l'envers, l'arrêt de tram deviné, le téléphone du soir. Tout se met en place d'un coup. Et ce n'est pas agréable.}}
 
