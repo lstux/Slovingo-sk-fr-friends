@@ -1,6 +1,6 @@
 # Série Cesta (3/5) — Dodací list
 
-@ TODO_img/dodaci-list.jpg | TODO : choisir une image (une boîte pleine de papiers bien rangés)
+@ img/illus_07_dodaci-list.jpg | Des centaines de papiers, tous bien rangés. Le chauffeur sort le bon de livraison comme un trophée. Source : illustration générée avec ChatGPT
 
 {{fr:Quatre grosses pompes, pour un bâtiment qui n'utilise pas d'eau. Il faudrait une preuve écrite. Katka pose la question.}}
 
