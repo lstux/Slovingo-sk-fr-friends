@@ -1,6 +1,6 @@
 # Série Datacentrum (3/5) — Čerpadlá
 
-@ TODO_img/cerpadla-hala.jpg | TODO : choisir une image (de grosses pompes vertes dans une salle technique)
+@ img/illus_08_cerpadla.jpg | Quatre machines énormes, vertes, qui tournent. Photo vite ! Et dans la porte, le blaireau au gilet bleu. Source : illustration générée avec ChatGPT
 
 {{fr:Derrière la porte interdite, un escalier. Il fait chaud. Quelque chose ronfle très fort. Andrea te guide au téléphone.}}
 
