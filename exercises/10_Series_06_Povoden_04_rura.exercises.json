@@ -1,0 +1,248 @@
+{
+ "mode": "replace",
+ "sync": "full",
+ "exercises": [
+  {
+   "id": "qcm-r-ra",
+   "type": "qcm",
+   "l1": "le tuyau",
+   "l2": "rúra",
+   "choices_l1": [
+    "l'étage",
+    "la vapeur",
+    "la baignoire"
+   ],
+   "choices_l2": [
+    "vlažný",
+    "filmuje",
+    "vaňa"
+   ]
+  },
+  {
+   "id": "qcm-umy-si-ruky",
+   "type": "qcm",
+   "l1": "se laver les mains",
+   "l2": "umyť si ruky",
+   "choices_l1": [
+    "Je ne lui ai rien dit.",
+    "chacun, tout le monde",
+    "la forêt → Je vois la forêt."
+   ],
+   "choices_l2": [
+    "voda → Počujem vodu.",
+    "halušky s bryndzou",
+    "Nie som turista."
+   ]
+  },
+  {
+   "id": "qcm-tepl",
+   "type": "qcm",
+   "l1": "chaud",
+   "l2": "teplý",
+   "choices_l1": [
+    "l'étage",
+    "tiède",
+    "froid"
+   ],
+   "choices_l2": [
+    "vaňa",
+    "para",
+    "rúra"
+   ]
+  },
+  {
+   "id": "qcm-vla-n",
+   "type": "qcm",
+   "l1": "tiède",
+   "l2": "vlažný",
+   "choices_l1": [
+    "chaud",
+    "le tuyau",
+    "la baignoire"
+   ],
+   "choices_l2": [
+    "poschodie",
+    "teplý",
+    "dym"
+   ]
+  },
+  {
+   "id": "qcm-studen",
+   "type": "qcm",
+   "l1": "froid",
+   "l2": "studený",
+   "choices_l1": [
+    "tiède",
+    "la fumée",
+    "le tuyau"
+   ],
+   "choices_l2": [
+    "vaňa",
+    "teplý",
+    "para"
+   ]
+  },
+  {
+   "id": "qcm-va-a",
+   "type": "qcm",
+   "l1": "la baignoire",
+   "l2": "vaňa",
+   "choices_l1": [
+    "le tuyau",
+    "chaud",
+    "la fumée"
+   ],
+   "choices_l2": [
+    "rúra",
+    "poschodie",
+    "filmuje"
+   ]
+  },
+  {
+   "id": "listen-je-teplá",
+   "type": "listen",
+   "l1": "Elle est chaude !",
+   "l2": "Je teplá!",
+   "choices_l1": [
+    "Elle est froide !",
+    "Elle est tiède !",
+    "Elle est vide !"
+   ]
+  },
+  {
+   "id": "listen-vlažná-ako-vo-vani",
+   "type": "listen",
+   "l1": "Tiède. Comme un bain.",
+   "l2": "Vlažná. Ako vo vani.",
+   "choices_l1": [
+    "Froide. Comme la rivière.",
+    "Chaude. Comme le thé.",
+    "Tiède. Comme la pluie."
+   ]
+  },
+  {
+   "id": "listen-to-nie-je-dym-to-je-para",
+   "type": "listen",
+   "l1": "Ce n'est pas de la fumée. C'est de la vapeur.",
+   "l2": "To nie je dym. To je para.",
+   "choices_l1": [
+    "C'est de la fumée. Ce n'est pas de la vapeur.",
+    "Ce n'est pas de l'eau. C'est de la vapeur.",
+    "Ce n'est pas un nuage. C'est de la fumée."
+   ]
+  },
+  {
+   "id": "blank-voda-je-studená",
+   "type": "fill-blank",
+   "l1": "L'eau est froide.",
+   "l2": "Voda je studená.",
+   "missing_l1": "froide",
+   "missing_l2": "studená",
+   "blank_index_l1": 2,
+   "blank_index_l2": 2,
+   "choices_l1": [
+    "chaude",
+    "tiède",
+    "brûlante"
+   ],
+   "choices_l2": [
+    "teplá",
+    "vlažná",
+    "horúca"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "blank-na-streche-je-para",
+   "type": "fill-blank",
+   "l1": "Il y a de la vapeur sur le toit.",
+   "l2": "Na streche je para.",
+   "missing_l1": "vapeur",
+   "missing_l2": "para",
+   "blank_index_l1": 5,
+   "blank_index_l2": 3,
+   "choices_l1": [
+    "fumée",
+    "neige",
+    "pluie"
+   ],
+   "choices_l2": [
+    "dym",
+    "sneh",
+    "dážď"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "order-chcem-si-umyť-ruky",
+   "type": "order",
+   "l1": "Je veux me laver les mains.",
+   "l2": "Chcem si umyť ruky.",
+   "tokens_l1": [
+    "Je",
+    "veux",
+    "me",
+    "laver",
+    "les",
+    "mains.",
+    "tuyau"
+   ],
+   "tokens_l2": [
+    "Chcem",
+    "si",
+    "umyť",
+    "ruky.",
+    "rúra"
+   ]
+  },
+  {
+   "id": "order-uzavretý-okruh-nevypúšťa-vodu-a-nerobí-paru",
+   "type": "order",
+   "l1": "Un circuit fermé ne jette pas d'eau. Et il ne fait pas de vapeur.",
+   "l2": "Uzavretý okruh nevypúšťa vodu. A nerobí paru.",
+   "tokens_l1": [
+    "Un",
+    "circuit",
+    "fermé",
+    "ne",
+    "jette",
+    "pas",
+    "d'eau.",
+    "Et",
+    "il",
+    "ne",
+    "fait",
+    "pas",
+    "de",
+    "vapeur.",
+    "fumée"
+   ],
+   "tokens_l2": [
+    "Uzavretý",
+    "okruh",
+    "nevypúšťa",
+    "vodu.",
+    "A",
+    "nerobí",
+    "paru.",
+    "dym"
+   ]
+  },
+  {
+   "id": "match-r-ra-vocab",
+   "type": "match",
+   "l1": [
+    "le tuyau",
+    "se laver les mains",
+    "chaud",
+    "tiède"
+   ],
+   "l2": [
+    "rúra",
+    "umyť si ruky",
+    "teplý",
+    "vlažný"
+   ]
+  }
+ ]
+}

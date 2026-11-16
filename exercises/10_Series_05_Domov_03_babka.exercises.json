@@ -1,0 +1,239 @@
+{
+ "mode": "replace",
+ "sync": "full",
+ "exercises": [
+  {
+   "id": "qcm-chud",
+   "type": "qcm",
+   "l1": "maigre",
+   "l2": "chudý",
+   "choices_l1": [
+    "avec",
+    "le voisin",
+    "le chou"
+   ],
+   "choices_l2": [
+    "s",
+    "predtým",
+    "kapusta"
+   ]
+  },
+  {
+   "id": "qcm-sadni-si",
+   "type": "qcm",
+   "l1": "Assieds-toi.",
+   "l2": "Sadni si.",
+   "choices_l1": [
+    "la question",
+    "avec",
+    "maigre"
+   ],
+   "choices_l2": [
+    "predtým",
+    "vonia",
+    "otázka"
+   ]
+  },
+  {
+   "id": "qcm-jedz",
+   "type": "qcm",
+   "l1": "Mange.",
+   "l2": "Jedz.",
+   "choices_l1": [
+    "Assieds-toi.",
+    "avant",
+    "maigre"
+   ],
+   "choices_l2": [
+    "chudý",
+    "sused",
+    "s"
+   ]
+  },
+  {
+   "id": "qcm-kapusta",
+   "type": "qcm",
+   "l1": "le chou",
+   "l2": "kapusta",
+   "choices_l1": [
+    "avec",
+    "le voisin",
+    "Assieds-toi."
+   ],
+   "choices_l2": [
+    "vonia",
+    "s",
+    "chudý"
+   ]
+  },
+  {
+   "id": "qcm-s",
+   "type": "qcm",
+   "l1": "avec",
+   "l2": "s",
+   "choices_l1": [
+    "le voisin",
+    "Assieds-toi.",
+    "avant"
+   ],
+   "choices_l2": [
+    "otázka",
+    "kapusta",
+    "Jedz."
+   ]
+  },
+  {
+   "id": "qcm-vonia",
+   "type": "qcm",
+   "l1": "ça sent (bon)",
+   "l2": "vonia",
+   "choices_l1": [
+    "le pied, la jambe",
+    "la cabane, le refuge",
+    "ici non plus"
+   ],
+   "choices_l2": [
+    "s",
+    "kapusta",
+    "sused"
+   ]
+  },
+  {
+   "id": "listen-malý-francúz-si-chudý-sadni-si-jedz",
+   "type": "listen",
+   "l1": "Le petit Français ! Tu es maigre. Assieds-toi. Mange.",
+   "l2": "Malý Francúz! Si chudý. Sadni si. Jedz.",
+   "choices_l1": [
+    "Le petit Français ! Tu es grand. Assieds-toi. Bois.",
+    "Le petit Slovaque ! Tu es maigre. Mange.",
+    "Le petit Français ! Tu as faim ? Viens."
+   ]
+  },
+  {
+   "id": "listen-ja-som-ovca",
+   "type": "listen",
+   "l1": "Je suis une brebis.",
+   "l2": "Ja som ovca.",
+   "choices_l1": [
+    "Je suis un ours.",
+    "Je suis ta grand-mère.",
+    "C'est une brebis."
+   ]
+  },
+  {
+   "id": "listen-nie-ale-je-to-moja-odpoveď",
+   "type": "listen",
+   "l1": "Non. Mais c'est ma réponse.",
+   "l2": "Nie. Ale je to moja odpoveď.",
+   "choices_l1": [
+    "Oui. C'est ma question.",
+    "Non. Ce n'est pas ma réponse.",
+    "Non. Mais c'est ta question."
+   ]
+  },
+  {
+   "id": "blank-idem-s-andreou",
+   "type": "fill-blank",
+   "l1": "J'y vais avec Andrea.",
+   "l2": "Idem s Andreou.",
+   "missing_l1": "avec",
+   "missing_l2": "s",
+   "blank_index_l1": 2,
+   "blank_index_l2": 1,
+   "choices_l1": [
+    "sans",
+    "pour",
+    "chez"
+   ],
+   "choices_l2": [
+    "bez",
+    "pre",
+    "do"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "blank-čaj-bez-cukru-prosím",
+   "type": "fill-blank",
+   "l1": "Un thé sans sucre, s'il vous plaît.",
+   "l2": "Čaj bez cukru, prosím.",
+   "missing_l1": "sans",
+   "missing_l2": "bez",
+   "blank_index_l1": 2,
+   "blank_index_l2": 1,
+   "choices_l1": [
+    "avec",
+    "beaucoup",
+    "peu"
+   ],
+   "choices_l2": [
+    "s",
+    "veľa",
+    "málo"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "order-dám-si-halušky-s-kapustou",
+   "type": "order",
+   "l1": "Je vais prendre des halušky au chou.",
+   "l2": "Dám si halušky s kapustou.",
+   "tokens_l1": [
+    "Je",
+    "vais",
+    "prendre",
+    "des",
+    "halušky",
+    "au",
+    "chou.",
+    "sans"
+   ],
+   "tokens_l2": [
+    "Dám",
+    "si",
+    "halušky",
+    "s",
+    "kapustou.",
+    "bez"
+   ]
+  },
+  {
+   "id": "order-to-nie-je-moja-otázka",
+   "type": "order",
+   "l1": "Ce n'est pas ma question.",
+   "l2": "To nie je moja otázka.",
+   "tokens_l1": [
+    "Ce",
+    "n'est",
+    "pas",
+    "ma",
+    "question.",
+    "voisin"
+   ],
+   "tokens_l2": [
+    "To",
+    "nie",
+    "je",
+    "moja",
+    "otázka.",
+    "sused"
+   ]
+  },
+  {
+   "id": "match-chud-vocab",
+   "type": "match",
+   "l1": [
+    "maigre",
+    "Assieds-toi.",
+    "Mange.",
+    "le chou"
+   ],
+   "l2": [
+    "chudý",
+    "Sadni si.",
+    "Jedz.",
+    "kapusta"
+   ]
+  }
+ ]
+}

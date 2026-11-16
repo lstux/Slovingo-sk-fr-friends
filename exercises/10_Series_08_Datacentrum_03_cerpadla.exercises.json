@@ -1,0 +1,239 @@
+{
+ "mode": "replace",
+ "sync": "full",
+ "exercises": [
+  {
+   "id": "qcm-schody",
+   "type": "qcm",
+   "l1": "l'escalier",
+   "l2": "schody",
+   "choices_l1": [
+    "Lis !",
+    "le boîtier",
+    "ils changent"
+   ],
+   "choices_l2": [
+    "skrinka",
+    "stoosemdesiat",
+    "točia sa"
+   ]
+  },
+  {
+   "id": "qcm-hu",
+   "type": "qcm",
+   "l1": "ça ronfle, ça gronde",
+   "l2": "hučí",
+   "choices_l1": [
+    "Je dois rentrer à la maison.",
+    "ton sac à dos",
+    "D'où es-tu ?"
+   ],
+   "choices_l2": [
+    "ostrý",
+    "točia sa",
+    "skrinka"
+   ]
+  },
+  {
+   "id": "qcm-posledn",
+   "type": "qcm",
+   "l1": "le dernier",
+   "l2": "posledný",
+   "choices_l1": [
+    "le boîtier",
+    "ils tournent",
+    "l'escalier"
+   ],
+   "choices_l2": [
+    "stoosemdesiat",
+    "menia sa",
+    "ostrý"
+   ]
+  },
+  {
+   "id": "qcm-to-ia-sa",
+   "type": "qcm",
+   "l1": "ils tournent",
+   "l2": "točia sa",
+   "choices_l1": [
+    "cent quatre-vingts",
+    "le compteur",
+    "le boîtier"
+   ],
+   "choices_l2": [
+    "hučí",
+    "ostrý",
+    "merač"
+   ]
+  },
+  {
+   "id": "qcm-mera",
+   "type": "qcm",
+   "l1": "le compteur",
+   "l2": "merač",
+   "choices_l1": [
+    "ils changent",
+    "le dernier",
+    "ils tournent"
+   ],
+   "choices_l2": [
+    "menia sa",
+    "posledný",
+    "stoosemdesiat"
+   ]
+  },
+  {
+   "id": "qcm-skrinka",
+   "type": "qcm",
+   "l1": "le boîtier",
+   "l2": "skrinka",
+   "choices_l1": [
+    "ils tournent",
+    "le compteur",
+    "ils changent"
+   ],
+   "choices_l2": [
+    "merač",
+    "stoosemdesiat",
+    "ostrý"
+   ]
+  },
+  {
+   "id": "listen-andrea-sú-tu-štyri-točia-sa",
+   "type": "listen",
+   "l1": "Andrea. Elles sont là. Quatre. Elles tournent.",
+   "l2": "Andrea. Sú tu. Štyri. Točia sa.",
+   "choices_l1": [
+    "Andrea. Elles ne sont pas là.",
+    "Andrea. Il y en a deux. Elles tournent.",
+    "Andrea. Elles sont là. Quatre. Elles sont arrêtées."
+   ]
+  },
+  {
+   "id": "listen-je-tam-merač",
+   "type": "listen",
+   "l1": "Il y a un compteur ?",
+   "l2": "Je tam merač?",
+   "choices_l1": [
+    "Il y a une porte ?",
+    "Il y a quelqu'un ?",
+    "Il y a une pompe ?"
+   ]
+  },
+  {
+   "id": "listen-je-ostrá",
+   "type": "listen",
+   "l1": "Elle est nette ?",
+   "l2": "Je ostrá?",
+   "choices_l1": [
+    "Elle est belle ?",
+    "Elle est floue ?",
+    "Elle est à toi ?"
+   ]
+  },
+  {
+   "id": "blank-má-tristo-strán",
+   "type": "fill-blank",
+   "l1": "Il a trois cents pages.",
+   "l2": "Má tristo strán.",
+   "missing_l1": "trois",
+   "missing_l2": "tristo",
+   "blank_index_l1": 2,
+   "blank_index_l2": 1,
+   "choices_l1": [
+    "deux",
+    "quatre",
+    "cent"
+   ],
+   "choices_l2": [
+    "dvesto",
+    "štyristo",
+    "sto"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "blank-čerpadlo-hučí-veľmi-silno",
+   "type": "fill-blank",
+   "l1": "La pompe ronfle très fort.",
+   "l2": "Čerpadlo hučí veľmi silno.",
+   "missing_l1": "pompe",
+   "missing_l2": "Čerpadlo",
+   "blank_index_l1": 1,
+   "blank_index_l2": 0,
+   "choices_l1": [
+    "machine",
+    "porte",
+    "musique"
+   ],
+   "choices_l2": [
+    "Stroj",
+    "Dvere",
+    "Hudba"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "order-je-tá-fotka-ostrá",
+   "type": "order",
+   "l1": "Cette photo est nette ?",
+   "l2": "Je tá fotka ostrá?",
+   "tokens_l1": [
+    "Cette",
+    "photo",
+    "est",
+    "nette",
+    "?",
+    "compteur"
+   ],
+   "tokens_l2": [
+    "Je",
+    "tá",
+    "fotka",
+    "ostrá?",
+    "merač"
+   ]
+  },
+  {
+   "id": "order-fotku-s-čerpadlami-a-s-číslami",
+   "type": "order",
+   "l1": "Photo. Avec les pompes. Et les chiffres.",
+   "l2": "Fotku. S čerpadlami. A s číslami.",
+   "tokens_l1": [
+    "Photo.",
+    "Avec",
+    "les",
+    "pompes.",
+    "Et",
+    "les",
+    "chiffres.",
+    "escalier"
+   ],
+   "tokens_l2": [
+    "Fotku.",
+    "S",
+    "čerpadlami.",
+    "A",
+    "s",
+    "číslami.",
+    "schody"
+   ]
+  },
+  {
+   "id": "match-schody-vocab",
+   "type": "match",
+   "l1": [
+    "l'escalier",
+    "ça ronfle, ça gronde",
+    "le dernier",
+    "ils tournent"
+   ],
+   "l2": [
+    "schody",
+    "hučí",
+    "posledný",
+    "točia sa"
+   ]
+  }
+ ]
+}

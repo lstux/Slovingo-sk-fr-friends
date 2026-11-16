@@ -1,0 +1,253 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-l-ka",
+      "type": "qcm",
+      "l1": "le pré",
+      "l2": "lúka",
+      "choices_l1": [
+        "les moutons",
+        "de rien",
+        "l'ours"
+      ],
+      "choices_l2": [
+        "potrebujeme",
+        "už vtedy",
+        "o ničom"
+      ]
+    },
+    {
+      "id": "qcm-ovce",
+      "type": "qcm",
+      "l1": "les moutons",
+      "l2": "ovce",
+      "choices_l1": [
+        "montrer",
+        "de rien",
+        "le meilleur"
+      ],
+      "choices_l2": [
+        "potrebujeme",
+        "najlepší",
+        "ukázať"
+      ]
+    },
+    {
+      "id": "qcm-medve",
+      "type": "qcm",
+      "l1": "l'ours",
+      "l2": "medveď",
+      "choices_l1": [
+        "les moutons",
+        "montrer",
+        "de rien"
+      ],
+      "choices_l2": [
+        "už vtedy",
+        "najlepší",
+        "ovce"
+      ]
+    },
+    {
+      "id": "qcm-vtedy",
+      "type": "qcm",
+      "l1": "à l'époque, alors",
+      "l2": "vtedy",
+      "choices_l1": [
+        "la fibre (internet)",
+        "déjà à l'époque",
+        "nous avons besoin"
+      ],
+      "choices_l2": [
+        "najlepší",
+        "o ničom",
+        "lúka"
+      ]
+    },
+    {
+      "id": "qcm-u-vtedy",
+      "type": "qcm",
+      "l1": "déjà à l'époque",
+      "l2": "už vtedy",
+      "choices_l1": [
+        "nous avons besoin",
+        "à l'époque, alors",
+        "la fibre (internet)"
+      ],
+      "choices_l2": [
+        "ovce",
+        "vtedy",
+        "o ničom"
+      ]
+    },
+    {
+      "id": "qcm-uk-za",
+      "type": "qcm",
+      "l1": "montrer",
+      "l2": "ukázať",
+      "choices_l1": [
+        "l'ours",
+        "le pré",
+        "de rien"
+      ],
+      "choices_l2": [
+        "o ničom",
+        "medveď",
+        "najlepší"
+      ]
+    },
+    {
+      "id": "listen-maťo-ty-si-bol-malý",
+      "type": "listen",
+      "l1": "Maťo ? Tu étais petit !",
+      "l2": "Maťo? Ty si bol malý!",
+      "choices_l1": [
+        "Maťo ? Tu es grand !",
+        "Maťo ? Tu es toujours petit !",
+        "Katka ? Tu étais petite !"
+      ]
+    },
+    {
+      "id": "listen-o-ničom-videl-si-máme-optiku",
+      "type": "listen",
+      "l1": "Sur rien. Tu as vu ? On a la fibre.",
+      "l2": "O ničom. Videl si? Máme optiku.",
+      "choices_l1": [
+        "Sur rien. Tu as vu ? On a des moutons.",
+        "Sur tout. Tu sais ? On a la fibre.",
+        "Rien. Tu viens ? On a internet."
+      ]
+    },
+    {
+      "id": "listen-katka-potrebujeme-tvoju-optiku",
+      "type": "listen",
+      "l1": "Katka. On a besoin de ta fibre.",
+      "l2": "Katka. Potrebujeme tvoju optiku.",
+      "choices_l1": [
+        "Katka. On a besoin de ton téléphone.",
+        "Katka. Tu as besoin de notre fibre.",
+        "Katka. On n'a pas besoin de ta fibre."
+      ]
+    },
+    {
+      "id": "blank-vtedy-som-bol-malý",
+      "type": "fill-blank",
+      "l1": "À l'époque, j'étais petit.",
+      "l2": "Vtedy som bol malý.",
+      "missing_l1": "l'époque",
+      "missing_l2": "Vtedy",
+      "blank_index_l1": 1,
+      "blank_index_l2": 0,
+      "choices_l1": [
+        "maintenant",
+        "toujours",
+        "demain"
+      ],
+      "choices_l2": [
+        "Teraz",
+        "Stále",
+        "Zajtra"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-stále-bývaš-v-lyone",
+      "type": "fill-blank",
+      "l1": "Tu habites toujours à Lyon ?",
+      "l2": "Stále bývaš v Lyone?",
+      "missing_l1": "toujours",
+      "missing_l2": "Stále",
+      "blank_index_l1": 2,
+      "blank_index_l2": 0,
+      "choices_l1": [
+        "déjà",
+        "maintenant",
+        "jamais"
+      ],
+      "choices_l2": [
+        "Už",
+        "Teraz",
+        "Nikdy"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-teraz-som-veľký",
+      "type": "order",
+      "l1": "Maintenant, je suis grand.",
+      "l2": "Teraz som veľký.",
+      "tokens_l1": [
+        "Maintenant,",
+        "je",
+        "suis",
+        "grand.",
+        "petit"
+      ],
+      "tokens_l2": [
+        "Teraz",
+        "som",
+        "veľký.",
+        "malý"
+      ]
+    },
+    {
+      "id": "order-nie-ja-som-bol-už-vtedy-veľký-to-ty-si-bol-malý",
+      "type": "order",
+      "l1": "Non. J'étais déjà grand. C'est toi qui étais petit.",
+      "l2": "Nie. Ja som bol už vtedy veľký. To ty si bol malý.",
+      "tokens_l1": [
+        "Non.",
+        "J'étais",
+        "déjà",
+        "grand.",
+        "C'est",
+        "toi",
+        "qui",
+        "étais",
+        "petit.",
+        "Tu",
+        "habites",
+        "toujours",
+        "à",
+        "Lyon",
+        "?"
+      ],
+      "tokens_l2": [
+        "Nie.",
+        "Ja",
+        "som",
+        "bol",
+        "už",
+        "vtedy",
+        "veľký.",
+        "To",
+        "ty",
+        "si",
+        "bol",
+        "malý.",
+        "Stále",
+        "bývaš",
+        "v",
+        "Lyone?"
+      ]
+    },
+    {
+      "id": "match-l-ka-vocab",
+      "type": "match",
+      "l1": [
+        "le pré",
+        "les moutons",
+        "l'ours",
+        "à l'époque, alors"
+      ],
+      "l2": [
+        "lúka",
+        "ovce",
+        "medveď",
+        "vtedy"
+      ]
+    }
+  ]
+}

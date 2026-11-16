@@ -1,0 +1,263 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-ke",
+      "type": "qcm",
+      "l1": "quand",
+      "l2": "keď",
+      "choices_l1": [
+        "l'oreille",
+        "la bergerie",
+        "en fer"
+      ],
+      "choices_l2": [
+        "železný",
+        "tráva",
+        "salaš"
+      ]
+    },
+    {
+      "id": "qcm-sala",
+      "type": "qcm",
+      "l1": "la bergerie",
+      "l2": "salaš",
+      "choices_l1": [
+        "soulever",
+        "la vis",
+        "Écoutez !"
+      ],
+      "choices_l2": [
+        "železný",
+        "tráva",
+        "poklop"
+      ]
+    },
+    {
+      "id": "qcm-tr-va",
+      "type": "qcm",
+      "l1": "l'herbe",
+      "l2": "tráva",
+      "choices_l1": [
+        "en fer",
+        "soulever",
+        "la vis"
+      ],
+      "choices_l2": [
+        "zdvihnúť",
+        "keď",
+        "Počúvajte!"
+      ]
+    },
+    {
+      "id": "qcm-poklop",
+      "type": "qcm",
+      "l1": "la plaque, le couvercle",
+      "l2": "poklop",
+      "choices_l1": [
+        "haut → plus haut",
+        "tu es → vous êtes",
+        "Tu es tombé. (à un garçon)"
+      ],
+      "choices_l2": [
+        "skrutka",
+        "Pst!",
+        "salaš"
+      ]
+    },
+    {
+      "id": "qcm-elezn",
+      "type": "qcm",
+      "l1": "en fer",
+      "l2": "železný",
+      "choices_l1": [
+        "quand",
+        "la bergerie",
+        "l'herbe"
+      ],
+      "choices_l2": [
+        "keď",
+        "poklop",
+        "ucho"
+      ]
+    },
+    {
+      "id": "qcm-zdvihn",
+      "type": "qcm",
+      "l1": "soulever",
+      "l2": "zdvihnúť",
+      "choices_l1": [
+        "quand",
+        "Écoutez !",
+        "l'herbe"
+      ],
+      "choices_l2": [
+        "ucho",
+        "skrutka",
+        "salaš"
+      ]
+    },
+    {
+      "id": "listen-ukáž-nám-ho",
+      "type": "listen",
+      "l1": "Montre-nous.",
+      "l2": "Ukáž nám ho.",
+      "choices_l1": [
+        "Écoutez.",
+        "Regarde-moi.",
+        "Donne-le-nous."
+      ]
+    },
+    {
+      "id": "listen-môžeš-ho-zdvihnúť",
+      "type": "listen",
+      "l1": "Tu peux la soulever ?",
+      "l2": "Môžeš ho zdvihnúť?",
+      "choices_l1": [
+        "Tu peux l'ouvrir ?",
+        "Tu peux l'écouter ?",
+        "Je peux la soulever ?"
+      ]
+    },
+    {
+      "id": "listen-optika-takto-neznie",
+      "type": "listen",
+      "l1": "La fibre optique ne fait pas ce bruit-là.",
+      "l2": "Optika takto neznie.",
+      "choices_l1": [
+        "La fibre optique fait ce bruit-là.",
+        "L'eau ne fait pas ce bruit-là.",
+        "La fibre optique ne marche pas."
+      ]
+    },
+    {
+      "id": "blank-poďte-sem-a-počúvajte",
+      "type": "fill-blank",
+      "l1": "Venez ici et écoutez !",
+      "l2": "Poďte sem a počúvajte!",
+      "missing_l1": "écoutez",
+      "missing_l2": "počúvajte",
+      "blank_index_l1": 3,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "regardez",
+        "attendez",
+        "entrez"
+      ],
+      "choices_l2": [
+        "pozrite",
+        "počkajte",
+        "vstúpte"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-keď-prší-potok-tečie-rýchlo",
+      "type": "fill-blank",
+      "l1": "Quand il pleut, le ruisseau coule vite.",
+      "l2": "Keď prší, potok tečie rýchlo.",
+      "missing_l1": "Quand",
+      "missing_l2": "Keď",
+      "blank_index_l1": 0,
+      "blank_index_l2": 0,
+      "choices_l1": [
+        "Si",
+        "Avant",
+        "Pendant"
+      ],
+      "choices_l2": [
+        "Ak",
+        "Predtým",
+        "Počas"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-keď-som-bol-malý-býval-som-na-salaši",
+      "type": "order",
+      "l1": "Quand j'étais petit, j'habitais à la bergerie.",
+      "l2": "Keď som bol malý, býval som na salaši.",
+      "tokens_l1": [
+        "Quand",
+        "j'étais",
+        "petit,",
+        "j'habitais",
+        "à",
+        "la",
+        "bergerie.",
+        "La",
+        "fibre",
+        "optique",
+        "ne",
+        "fait",
+        "pas",
+        "ce",
+        "bruit-là."
+      ],
+      "tokens_l2": [
+        "Keď",
+        "som",
+        "bol",
+        "malý,",
+        "býval",
+        "som",
+        "na",
+        "salaši.",
+        "Optika",
+        "takto",
+        "neznie."
+      ]
+    },
+    {
+      "id": "order-je-priskrutkovaný-veľmi-veľkými-skrutkami",
+      "type": "order",
+      "l1": "Elle est vissée. Avec de très grosses vis.",
+      "l2": "Je priskrutkovaný. Veľmi veľkými skrutkami.",
+      "tokens_l1": [
+        "Elle",
+        "est",
+        "vissée.",
+        "Avec",
+        "de",
+        "très",
+        "grosses",
+        "vis.",
+        "La",
+        "fibre",
+        "optique",
+        "ne",
+        "fait",
+        "pas",
+        "ce",
+        "bruit-là."
+      ],
+      "tokens_l2": [
+        "Je",
+        "priskrutkovaný.",
+        "Veľmi",
+        "veľkými",
+        "skrutkami.",
+        "Optika",
+        "takto",
+        "neznie."
+      ]
+    },
+    {
+      "id": "match-ke-vocab",
+      "type": "match",
+      "l1": [
+        "quand",
+        "la bergerie",
+        "l'herbe",
+        "la plaque, le couvercle"
+      ],
+      "l2": [
+        "keď",
+        "salaš",
+        "tráva",
+        "poklop"
+      ]
+    }
+  ]
+}

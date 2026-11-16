@@ -1,0 +1,255 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-pochopil-si",
+      "type": "qcm",
+      "l1": "tu as compris (à un garçon)",
+      "l2": "pochopil si",
+      "choices_l1": [
+        "Ce n'est pas de la fumée. C'est de la vapeur.",
+        "Il fait froid.",
+        "Tu avais onze ans. (à une fille)"
+      ],
+      "choices_l2": [
+        "unavene",
+        "nad tým",
+        "existuje"
+      ]
+    },
+    {
+      "id": "qcm-debna",
+      "type": "qcm",
+      "l1": "la caisse",
+      "l2": "debna",
+      "choices_l1": [
+        "il existe",
+        "ils surchauffent",
+        "vingt-cinq"
+      ],
+      "choices_l2": [
+        "nevedeli",
+        "existuje",
+        "treba"
+      ]
+    },
+    {
+      "id": "qcm-unavene",
+      "type": "qcm",
+      "l1": "fatigué (il a l'air)",
+      "l2": "unavene",
+      "choices_l1": [
+        "la capture d'écran",
+        "Tu as un gros sac à dos.",
+        "Il fait chaud. → Il a fait chaud."
+      ],
+      "choices_l2": [
+        "existuje",
+        "treba",
+        "debna"
+      ]
+    },
+    {
+      "id": "qcm-existuje",
+      "type": "qcm",
+      "l1": "il existe",
+      "l2": "existuje",
+      "choices_l1": [
+        "au-dessus",
+        "vingt-cinq",
+        "plus que"
+      ],
+      "choices_l2": [
+        "viac ako",
+        "debna",
+        "dvadsaťpäť"
+      ]
+    },
+    {
+      "id": "qcm-dvadsa-p",
+      "type": "qcm",
+      "l1": "vingt-cinq",
+      "l2": "dvadsaťpäť",
+      "choices_l1": [
+        "au-dessus",
+        "ils surchauffent",
+        "il existe"
+      ],
+      "choices_l2": [
+        "prehrievajú sa",
+        "pochopil si",
+        "existuje"
+      ]
+    },
+    {
+      "id": "qcm-nad-t-m",
+      "type": "qcm",
+      "l1": "au-dessus",
+      "l2": "nad tým",
+      "choices_l1": [
+        "ils surchauffent",
+        "il existe",
+        "il faut"
+      ],
+      "choices_l2": [
+        "nevedeli",
+        "debna",
+        "prehrievajú sa"
+      ]
+    },
+    {
+      "id": "listen-zakázané-dvere-si-pochopil-veľmi-dobre",
+      "type": "listen",
+      "l1": "Tu as très bien compris la porte interdite.",
+      "l2": "Zakázané dvere si pochopil veľmi dobre.",
+      "choices_l1": [
+        "Tu n'as pas compris la porte interdite.",
+        "Tu as très bien vu les pompes.",
+        "Tu as trouvé la porte interdite."
+      ]
+    },
+    {
+      "id": "listen-uzavretý-okruh-existuje-funguje-do-dvadsaťpäť-stupňov-vonku",
+      "type": "listen",
+      "l1": "Le circuit fermé existe. Il marche. Jusqu'à vingt-cinq degrés dehors.",
+      "l2": "Uzavretý okruh existuje. Funguje. Do dvadsaťpäť stupňov vonku.",
+      "choices_l1": [
+        "Le circuit fermé n'existe pas. Il ne marche pas.",
+        "Le circuit fermé existe. Il marche jusqu'à trente-cinq degrés.",
+        "Le circuit est ouvert. Il marche toujours."
+      ]
+    },
+    {
+      "id": "listen-a-v-lete-je-viac-ako-dvadsaťpäť-stupňov",
+      "type": "listen",
+      "l1": "Et l'été, il fait plus de vingt-cinq degrés.",
+      "l2": "A v lete je viac ako dvadsaťpäť stupňov.",
+      "choices_l1": [
+        "Et l'hiver, il fait moins de cinq degrés.",
+        "Et l'été, il fait moins de vingt-cinq degrés.",
+        "Et aujourd'hui, il fait vingt-cinq degrés."
+      ]
+    },
+    {
+      "id": "blank-vedel-som-že-to-nie-je-sucho",
+      "type": "fill-blank",
+      "l1": "Je savais que ce n'était pas la sécheresse.",
+      "l2": "Vedel som, že to nie je sucho.",
+      "missing_l1": "savais",
+      "missing_l2": "Vedel",
+      "blank_index_l1": 1,
+      "blank_index_l2": 0,
+      "choices_l1": [
+        "pensais",
+        "disais",
+        "voyais"
+      ],
+      "choices_l2": [
+        "Myslel",
+        "Hovoril",
+        "Videl"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-dnes-je-viac-ako-tridsať-stupňov",
+      "type": "fill-blank",
+      "l1": "Aujourd'hui, il fait plus de trente degrés.",
+      "l2": "Dnes je viac ako tridsať stupňov.",
+      "missing_l1": "plus",
+      "missing_l2": "viac",
+      "blank_index_l1": 3,
+      "blank_index_l2": 2,
+      "choices_l1": [
+        "moins",
+        "presque",
+        "seulement"
+      ],
+      "choices_l2": [
+        "menej",
+        "skoro",
+        "len"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-treba-ísť",
+      "type": "order",
+      "l1": "Il faut y aller.",
+      "l2": "Treba ísť.",
+      "tokens_l1": [
+        "Il",
+        "faut",
+        "y",
+        "aller.",
+        "Je",
+        "savais",
+        "que",
+        "ce",
+        "n'était",
+        "pas",
+        "la",
+        "sécheresse."
+      ],
+      "tokens_l2": [
+        "Treba",
+        "ísť.",
+        "Vedel",
+        "som,",
+        "že",
+        "to",
+        "nie",
+        "je",
+        "sucho."
+      ]
+    },
+    {
+      "id": "order-sadni-si",
+      "type": "order",
+      "l1": "Assieds-toi.",
+      "l2": "Sadni si.",
+      "tokens_l1": [
+        "Assieds-toi.",
+        "Le",
+        "circuit",
+        "fermé",
+        "existe.",
+        "Il",
+        "marche.",
+        "Jusqu'à",
+        "vingt-cinq",
+        "degrés",
+        "dehors."
+      ],
+      "tokens_l2": [
+        "Sadni",
+        "si.",
+        "Uzavretý",
+        "okruh",
+        "existuje.",
+        "Funguje.",
+        "Do",
+        "dvadsaťpäť",
+        "stupňov",
+        "vonku."
+      ]
+    },
+    {
+      "id": "match-pochopil-si-vocab",
+      "type": "match",
+      "l1": [
+        "tu as compris (à un garçon)",
+        "la caisse",
+        "fatigué (il a l'air)",
+        "il existe"
+      ],
+      "l2": [
+        "pochopil si",
+        "debna",
+        "unavene",
+        "existuje"
+      ]
+    }
+  ]
+}

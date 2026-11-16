@@ -1,0 +1,259 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-ponad",
+      "type": "qcm",
+      "l1": "par-dessus",
+      "l2": "ponad",
+      "choices_l1": [
+        "n'importe qui",
+        "le kilomètre",
+        "la phrase"
+      ],
+      "choices_l2": [
+        "nenájde",
+        "veta",
+        "kilometer"
+      ]
+    },
+    {
+      "id": "qcm-n-zov",
+      "type": "qcm",
+      "l1": "le nom (d'une chose)",
+      "l2": "názov",
+      "choices_l1": [
+        "n'importe qui (complément)",
+        "tu avais besoin (à une fille)",
+        "elle ne trouve pas"
+      ],
+      "choices_l2": [
+        "kilometer",
+        "ústa",
+        "nenájde"
+      ]
+    },
+    {
+      "id": "qcm-nen-jde",
+      "type": "qcm",
+      "l1": "elle ne trouve pas",
+      "l2": "nenájde",
+      "choices_l1": [
+        "le nom (d'une chose)",
+        "tu avais besoin (à une fille)",
+        "n'importe qui (complément)"
+      ],
+      "choices_l2": [
+        "hocikto",
+        "názov",
+        "hocikoho"
+      ]
+    },
+    {
+      "id": "qcm-potrebovala-si",
+      "type": "qcm",
+      "l1": "tu avais besoin (à une fille)",
+      "l2": "potrebovala si",
+      "choices_l1": [
+        "elle ne trouve pas",
+        "n'importe qui (complément)",
+        "le nom (d'une chose)"
+      ],
+      "choices_l2": [
+        "rekord",
+        "Teraz nie.",
+        "veta"
+      ]
+    },
+    {
+      "id": "qcm-hocikto",
+      "type": "qcm",
+      "l1": "n'importe qui",
+      "l2": "hocikto",
+      "choices_l1": [
+        "le record",
+        "la phrase",
+        "le kilomètre"
+      ],
+      "choices_l2": [
+        "ústa",
+        "veta",
+        "kilometer"
+      ]
+    },
+    {
+      "id": "qcm-hocikoho",
+      "type": "qcm",
+      "l1": "n'importe qui (complément)",
+      "l2": "hocikoho",
+      "choices_l1": [
+        "le nom (d'une chose)",
+        "tu avais besoin (à une fille)",
+        "elle ne trouve pas"
+      ],
+      "choices_l2": [
+        "hocikto",
+        "ponad",
+        "nenájde"
+      ]
+    },
+    {
+      "id": "listen-pozerala-som-sa-na-teba-ponad-ňu",
+      "type": "listen",
+      "l1": "Je te regardais par-dessus.",
+      "l2": "Pozerala som sa na teba ponad ňu.",
+      "choices_l1": [
+        "Je ne te regardais pas.",
+        "Je lisais par-dessus.",
+        "Tu me regardais par-dessus."
+      ]
+    },
+    {
+      "id": "listen-to-som-bola-ja-prepáč",
+      "type": "listen",
+      "l1": "Ça, c'était moi. Pardon.",
+      "l2": "To som bola ja. Prepáč.",
+      "choices_l1": [
+        "Ce n'était pas moi. Pardon.",
+        "Ça, c'était elle. Pardon.",
+        "Ça, c'était moi. Merci."
+      ]
+    },
+    {
+      "id": "listen-maťo-teraz-nie",
+      "type": "listen",
+      "l1": "Maťo. Pas maintenant.",
+      "l2": "Maťo. Teraz nie.",
+      "choices_l1": [
+        "Maťo. Maintenant.",
+        "Katka. Pas maintenant.",
+        "Maťo. Pas encore."
+      ]
+    },
+    {
+      "id": "blank-potrebovala-som-niekoho",
+      "type": "fill-blank",
+      "l1": "J'avais besoin de quelqu'un.",
+      "l2": "Potrebovala som niekoho.",
+      "missing_l1": "quelqu'un",
+      "missing_l2": "niekoho",
+      "blank_index_l1": 3,
+      "blank_index_l2": 2,
+      "choices_l1": [
+        "personne",
+        "rien",
+        "tout"
+      ],
+      "choices_l2": [
+        "nikoho",
+        "nič",
+        "všetko"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-dvadsať-kilometrov-to-je-rekord",
+      "type": "fill-blank",
+      "l1": "Vingt kilomètres. C'est un record.",
+      "l2": "Dvadsať kilometrov. To je rekord.",
+      "missing_l1": "record",
+      "missing_l2": "rekord",
+      "blank_index_l1": 4,
+      "blank_index_l2": 4,
+      "choices_l1": [
+        "chemin",
+        "village",
+        "camion"
+      ],
+      "choices_l2": [
+        "cesta",
+        "dedina",
+        "kamión"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-potrebovala-si-turistu",
+      "type": "order",
+      "l1": "Tu avais besoin d'un touriste.",
+      "l2": "Potrebovala si turistu.",
+      "tokens_l1": [
+        "Tu",
+        "avais",
+        "besoin",
+        "d'un",
+        "touriste.",
+        "[USER_NAME]",
+        "regarde",
+        "par",
+        "la",
+        "fenêtre.",
+        "Il",
+        "ne",
+        "dit",
+        "rien",
+        "pendant",
+        "vingt",
+        "kilomètres."
+      ],
+      "tokens_l2": [
+        "Potrebovala",
+        "si",
+        "turistu.",
+        "[USER_NAME]",
+        "sa",
+        "pozerá",
+        "von",
+        "oknom.",
+        "Dvadsať",
+        "kilometrov",
+        "nič",
+        "nepovie."
+      ]
+    },
+    {
+      "id": "order-andrea-otvorí-ústa-nenájde-vetu",
+      "type": "order",
+      "l1": "Andrea ouvre la bouche. Elle ne trouve pas la phrase.",
+      "l2": "Andrea otvorí ústa. Nenájde vetu.",
+      "tokens_l1": [
+        "Andrea",
+        "ouvre",
+        "la",
+        "bouche.",
+        "Elle",
+        "ne",
+        "trouve",
+        "pas",
+        "la",
+        "phrase.",
+        "record"
+      ],
+      "tokens_l2": [
+        "Andrea",
+        "otvorí",
+        "ústa.",
+        "Nenájde",
+        "vetu.",
+        "rekord"
+      ]
+    },
+    {
+      "id": "match-ponad-vocab",
+      "type": "match",
+      "l1": [
+        "par-dessus",
+        "le nom (d'une chose)",
+        "elle ne trouve pas",
+        "tu avais besoin (à une fille)"
+      ],
+      "l2": [
+        "ponad",
+        "názov",
+        "nenájde",
+        "potrebovala si"
+      ]
+    }
+  ]
+}

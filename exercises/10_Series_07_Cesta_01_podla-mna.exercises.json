@@ -5,242 +5,241 @@
     {
       "id": "qcm-pod-a-m-a",
       "type": "qcm",
-      "l1": "d'après moi",
+      "l1": "à mon avis",
       "l2": "podľa mňa",
       "choices_l1": [
-        "d'après la carte",
-        "comme toujours",
-        "en direction du sud"
+        "…parce qu'ils ont coupé la forêt.",
+        "À mon avis, c'est eux.",
+        "…parce qu'on n'a pas le temps."
       ],
       "choices_l2": [
-        "podľa mapy",
-        "ako vždy",
-        "smerom na juh"
+        "hýbu sa",
+        "šesťdesiat",
+        "moja teta"
       ]
     },
     {
-      "id": "qcm-za-iatok",
+      "id": "qcm-lebo",
       "type": "qcm",
-      "l1": "le début",
-      "l2": "začiatok",
+      "l1": "parce que",
+      "l2": "lebo",
       "choices_l1": [
-        "la fin",
-        "mène",
-        "baisse, descend"
+        "le chantier",
+        "le camion",
+        "le plan"
       ],
       "choices_l2": [
-        "koniec",
-        "vedie",
-        "klesá"
+        "kamión",
+        "stavenisko",
+        "vyrúbali"
       ]
     },
     {
-      "id": "qcm-koniec",
+      "id": "qcm-stavenisko",
       "type": "qcm",
-      "l1": "la fin",
-      "l2": "koniec",
+      "l1": "le chantier",
+      "l2": "stavenisko",
       "choices_l1": [
-        "le début",
-        "mène",
-        "nous ne connaissons pas"
+        "le plan",
+        "parce que",
+        "le casque"
       ],
       "choices_l2": [
-        "začiatok",
-        "vedie",
-        "nepoznáme"
+        "plán",
+        "kamión",
+        "Opýtajte sa."
       ]
     },
     {
-      "id": "qcm-kles",
+      "id": "qcm-vyr-bali",
       "type": "qcm",
-      "l1": "baisse, descend",
-      "l2": "klesá",
+      "l1": "ils ont coupé (les arbres)",
+      "l2": "vyrúbali",
       "choices_l1": [
-        "mène",
-        "nous ne connaissons pas",
-        "le début"
+        "le temps (qu'il fait)",
+        "il gagne, elle gagne",
+        "à sa place"
       ],
       "choices_l2": [
-        "vedie",
-        "nepoznáme",
-        "začiatok"
+        "kamión",
+        "lebo",
+        "prilba"
       ]
     },
     {
-      "id": "qcm-juh",
+      "id": "qcm-prilba",
       "type": "qcm",
-      "l1": "le sud",
-      "l2": "juh",
+      "l1": "le casque",
+      "l2": "prilba",
       "choices_l1": [
-        "le nord",
-        "l'est",
-        "la fin"
+        "le chantier",
+        "Demandez.",
+        "parce que"
       ],
       "choices_l2": [
-        "sever",
-        "východ",
-        "koniec"
+        "lebo",
+        "Opýtajte sa.",
+        "pešo"
       ]
     },
     {
-      "id": "listen-smerom-na-juh-cez-les",
-      "type": "listen",
-      "l1": "Vers le sud. À travers la forêt.",
-      "l2": "Smerom na juh. Cez les.",
+      "id": "qcm-pl-n",
+      "type": "qcm",
+      "l1": "le plan",
+      "l2": "plán",
       "choices_l1": [
-        "Vers le nord. À travers la forêt.",
-        "Vers le sud. Par la route.",
-        "Vers l'ouest. À travers la ville."
+        "le camion",
+        "Demandez.",
+        "à pied"
+      ],
+      "choices_l2": [
+        "podľa mňa",
+        "Opýtajte sa.",
+        "kamión"
       ]
     },
     {
-      "id": "listen-pod-a-mapy-tam-vedie-cesta-pod-a-m-a-tam-je-les",
+      "id": "listen-maťo-včera-to-bol-starosta-tvoj-kamarát",
       "type": "listen",
-      "l1": "D'après la carte, il y a un chemin. D'après moi, il y a une forêt.",
-      "l2": "Podľa mapy tam vedie cesta. Podľa mňa tam je les.",
+      "l1": "Maťo. Hier, c'était le maire, ton ami.",
+      "l2": "Maťo. Včera to bol starosta, tvoj kamarát.",
       "choices_l1": [
-        "D'après moi, il y a un chemin. D'après la carte, il y a une forêt.",
-        "D'après la carte, il y a une route. D'après moi, il y a une rivière.",
-        "D'après la carte, il n'y a rien. D'après moi, il y a une forêt."
+        "Maťo. Aujourd'hui, c'est le maire, ton ami.",
+        "Maťo. Hier, c'était le castor.",
+        "Katka. Hier, c'était le maire, ton ami."
       ]
     },
     {
-      "id": "listen-je-to-dobr-za-iatok-ale-koniec-nepozn-me",
+      "id": "listen-dnes-nikomu-neverím-učím-sa",
       "type": "listen",
-      "l1": "C'est un bon début. Mais on ne connaît pas la fin.",
-      "l2": "Je to dobrý začiatok. Ale koniec nepoznáme.",
+      "l1": "Aujourd'hui, je me méfie de tout le monde. J'apprends.",
+      "l2": "Dnes nikomu neverím. Učím sa.",
       "choices_l1": [
-        "C'est une bonne fin. Mais on ne connaît pas le début.",
-        "C'est un mauvais début. Mais on connaît la fin.",
-        "C'est un bon début. Et on connaît la fin."
+        "Aujourd'hui, je fais confiance à tout le monde.",
+        "Aujourd'hui, je ne sais rien. J'apprends.",
+        "Hier, je me méfiais de tout le monde."
       ]
     },
     {
-      "id": "listen-ako-v-dy",
+      "id": "listen-pešo-o-desať-minút-odchádza-kamión-opýtajte-sa-ho",
       "type": "listen",
-      "l1": "Comme toujours.",
-      "l2": "Ako vždy.",
+      "l1": "À pied ? Il y a un camion qui part dans dix minutes. Demandez-lui.",
+      "l2": "Pešo? O desať minút odchádza kamión. Opýtajte sa ho.",
       "choices_l1": [
-        "Comme avant.",
-        "Pas toujours.",
-        "Comme ça."
+        "À pied ? Il y a un bus dans dix minutes.",
+        "En camion ? Il part dans deux minutes.",
+        "À pied ? Le camion est déjà parti."
       ]
     },
     {
-      "id": "match-za-iatok-vocab",
+      "id": "blank-podľa-teba-je-to-pravda",
+      "type": "fill-blank",
+      "l1": "À ton avis, c'est vrai ?",
+      "l2": "Podľa teba je to pravda?",
+      "missing_l1": "ton",
+      "missing_l2": "teba",
+      "blank_index_l1": 1,
+      "blank_index_l2": 1,
+      "choices_l1": [
+        "mon",
+        "son",
+        "notre"
+      ],
+      "choices_l2": [
+        "mňa",
+        "neho",
+        "nás"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-idem-pešo-lebo-nemám-lístok",
+      "type": "fill-blank",
+      "l1": "J'y vais à pied, parce que je n'ai pas de ticket.",
+      "l2": "Idem pešo, lebo nemám lístok.",
+      "missing_l1": "pied",
+      "missing_l2": "pešo",
+      "blank_index_l1": 3,
+      "blank_index_l2": 1,
+      "choices_l1": [
+        "camion",
+        "tram",
+        "train"
+      ],
+      "choices_l2": [
+        "kamiónom",
+        "električkou",
+        "vlakom"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-kamión-je-na-druhej-strane",
+      "type": "order",
+      "l1": "Le camion est de l'autre côté.",
+      "l2": "Kamión je na druhej strane.",
+      "tokens_l1": [
+        "Le",
+        "camion",
+        "est",
+        "de",
+        "l'autre",
+        "côté.",
+        "J'y",
+        "vais",
+        "à",
+        "pied,",
+        "parce",
+        "que",
+        "je",
+        "n'ai",
+        "pas",
+        "de",
+        "ticket."
+      ],
+      "tokens_l2": [
+        "Kamión",
+        "je",
+        "na",
+        "druhej",
+        "strane.",
+        "Idem",
+        "pešo,",
+        "lebo",
+        "nemám",
+        "lístok."
+      ]
+    },
+    {
+      "id": "order-prepáčte-pane",
+      "type": "order",
+      "l1": "Pardon, monsieur.",
+      "l2": "Prepáčte, pane.",
+      "tokens_l1": [
+        "Pardon,",
+        "monsieur.",
+        "chantier"
+      ],
+      "tokens_l2": [
+        "Prepáčte,",
+        "pane.",
+        "stavenisko"
+      ]
+    },
+    {
+      "id": "match-pod-a-m-a-vocab",
       "type": "match",
       "l1": [
-        "le début",
-        "la fin",
-        "d'après moi",
-        "comme toujours"
+        "à mon avis",
+        "parce que",
+        "le chantier",
+        "ils ont coupé (les arbres)"
       ],
       "l2": [
-        "začiatok",
-        "koniec",
         "podľa mňa",
-        "ako vždy"
-      ]
-    },
-    {
-      "id": "blank-ko-ice-s-na-v-chode",
-      "type": "fill-blank",
-      "l1": "Košice est à l'est.",
-      "l2": "Košice sú na východe.",
-      "missing_l1": "l'est",
-      "missing_l2": "východe",
-      "blank_index_l1": 3,
-      "blank_index_l2": 3,
-      "choices_l1": [
-        "l'ouest",
-        "l'école",
-        "l'hôtel"
-      ],
-      "choices_l2": [
-        "západe",
-        "juhu",
-        "severe"
-      ],
-      "show_translation": true
-    },
-    {
-      "id": "blank-cesta-cez-les-to-je-dobr-za-iatok",
-      "type": "fill-blank",
-      "l1": "Un chemin à travers la forêt. C'est un bon début.",
-      "l2": "Cesta cez les. To je dobrý začiatok.",
-      "missing_l1": "début",
-      "missing_l2": "začiatok",
-      "blank_index_l1": 9,
-      "blank_index_l2": 6,
-      "choices_l1": [
-        "fin",
-        "idée",
-        "chemin"
-      ],
-      "choices_l2": [
-        "koniec",
-        "nápad",
-        "kameň"
-      ],
-      "show_translation": true
-    },
-    {
-      "id": "order-pod-a-mapy-tam-vedie-cesta",
-      "type": "order",
-      "l1": "D'après la carte, il y a un chemin.",
-      "l2": "Podľa mapy tam vedie cesta.",
-      "tokens_l1": [
-        "D'après",
-        "la",
-        "carte,",
-        "il",
-        "y",
-        "a",
-        "un chemin.",
-        "ne",
-        "fin"
-      ],
-      "tokens_l2": [
-        "Podľa",
-        "mapy",
-        "tam",
-        "vedie",
-        "cesta.",
-        "dobrý",
-        "koniec"
-      ]
-    },
-    {
-      "id": "order-je-to-dobr-za-iatok-ale-koniec-nepozn-me",
-      "type": "order",
-      "l1": "C'est un bon début. Mais on ne connaît pas la fin.",
-      "l2": "Je to dobrý začiatok. Ale koniec nepoznáme.",
-      "tokens_l1": [
-        "C'est",
-        "un",
-        "bon",
-        "début.",
-        "Mais",
-        "on",
-        "ne",
-        "connaît",
-        "pas",
-        "la fin.",
-        "est",
-        "à",
-        "l'est"
-      ],
-      "tokens_l2": [
-        "Je",
-        "to",
-        "dobrý",
-        "začiatok.",
-        "Ale",
-        "koniec",
-        "nepoznáme.",
-        "sú",
-        "východe",
-        "na"
+        "lebo",
+        "stavenisko",
+        "vyrúbali"
       ]
     }
   ]

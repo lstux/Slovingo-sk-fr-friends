@@ -20,6 +20,7 @@
 | koleno | le genou |
 | búrka | l'orage |
 | Poďte dnu. | Entrez. |
+| ako | que (pour comparer) |
 | dvere | la porte |
 | rádio | la radio |
 | môžem | je peux |

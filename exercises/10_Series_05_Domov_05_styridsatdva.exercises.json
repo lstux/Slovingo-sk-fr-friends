@@ -1,0 +1,254 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-web",
+      "type": "qcm",
+      "l1": "le site internet",
+      "l2": "web",
+      "choices_l1": [
+        "qui a soif (un garçon)",
+        "Andrea → Je vois Andrea.",
+        "Tu es toujours petit."
+      ],
+      "choices_l2": [
+        "utorok",
+        "ten istý",
+        "centimeter"
+      ]
+    },
+    {
+      "id": "qcm-daje",
+      "type": "qcm",
+      "l1": "les données",
+      "l2": "údaje",
+      "choices_l1": [
+        "le centimètre",
+        "mercredi",
+        "quarante"
+      ],
+      "choices_l2": [
+        "každú hodinu",
+        "ten istý",
+        "web"
+      ]
+    },
+    {
+      "id": "qcm-ka-d-hodinu",
+      "type": "qcm",
+      "l1": "toutes les heures",
+      "l2": "každú hodinu",
+      "choices_l1": [
+        "le tram → dans le tram",
+        "ici non plus",
+        "D'où es-tu ?"
+      ],
+      "choices_l2": [
+        "štyridsať",
+        "senzor",
+        "po kolená"
+      ]
+    },
+    {
+      "id": "qcm-senzor",
+      "type": "qcm",
+      "l1": "le capteur",
+      "l2": "senzor",
+      "choices_l1": [
+        "quarante",
+        "jusqu'aux genoux",
+        "le centimètre"
+      ],
+      "choices_l2": [
+        "screenshot",
+        "štyridsať",
+        "utorok"
+      ]
+    },
+    {
+      "id": "qcm-tyridsa",
+      "type": "qcm",
+      "l1": "quarante",
+      "l2": "štyridsať",
+      "choices_l1": [
+        "le même",
+        "mercredi",
+        "mardi"
+      ],
+      "choices_l2": [
+        "streda",
+        "screenshot",
+        "web"
+      ]
+    },
+    {
+      "id": "qcm-centimeter",
+      "type": "qcm",
+      "l1": "le centimètre",
+      "l2": "centimeter",
+      "choices_l1": [
+        "le même",
+        "les données",
+        "jusqu'aux genoux"
+      ],
+      "choices_l2": [
+        "senzor",
+        "štyridsať",
+        "screenshot"
+      ]
+    },
+    {
+      "id": "listen-dnes-štyridsaťdva-centimetrov-vody",
+      "type": "listen",
+      "l1": "Aujourd'hui : quarante-deux centimètres d'eau.",
+      "l2": "Dnes: štyridsaťdva centimetrov vody.",
+      "choices_l1": [
+        "Aujourd'hui : quatorze centimètres d'eau.",
+        "Hier : quarante-deux centimètres d'eau.",
+        "Aujourd'hui : quarante-trois centimètres d'eau."
+      ]
+    },
+    {
+      "id": "listen-ja-po-členky",
+      "type": "listen",
+      "l1": "Moi, jusqu'aux chevilles.",
+      "l2": "Ja po členky.",
+      "choices_l1": [
+        "Moi, jusqu'aux genoux.",
+        "Toi, jusqu'aux chevilles.",
+        "Moi, jusqu'au cou."
+      ]
+    },
+    {
+      "id": "listen-štyridsaťtri-ako-každú-stredu",
+      "type": "listen",
+      "l1": "Quarante-trois. Comme tous les mercredis.",
+      "l2": "Štyridsaťtri. Ako každú stredu.",
+      "choices_l1": [
+        "Quarante-deux. Comme tous les lundis.",
+        "Quarante-trois. Comme tous les mardis.",
+        "Trente-quatre. Comme tous les mercredis."
+      ]
+    },
+    {
+      "id": "blank-aj-včera-počas-búrky",
+      "type": "fill-blank",
+      "l1": "Même hier ? Pendant l'orage ?",
+      "l2": "Aj včera? Počas búrky?",
+      "missing_l1": "Pendant",
+      "missing_l2": "Počas",
+      "blank_index_l1": 3,
+      "blank_index_l2": 2,
+      "choices_l1": [
+        "Avant",
+        "Après",
+        "Sans"
+      ],
+      "choices_l2": [
+        "Pred",
+        "Po",
+        "Bez"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-ich-senzormi-predtým-to-bola-skutočná-stanica",
+      "type": "fill-blank",
+      "l1": "Avec leurs capteurs. Avant, c'était une vraie station.",
+      "l2": "Ich senzormi. Predtým to bola skutočná stanica.",
+      "missing_l1": "capteurs",
+      "missing_l2": "senzormi",
+      "blank_index_l1": 2,
+      "blank_index_l2": 1,
+      "choices_l1": [
+        "ordinateurs",
+        "yeux",
+        "mains"
+      ],
+      "choices_l2": [
+        "počítačmi",
+        "očami",
+        "rukami"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-to-isté-a-ešte-predtým-je-to-ten-istý-týždeň-už-rok",
+      "type": "order",
+      "l1": "Pareil. Et encore avant. C'est la même semaine. Depuis un an.",
+      "l2": "To isté. A ešte predtým. Je to ten istý týždeň. Už rok.",
+      "tokens_l1": [
+        "Pareil.",
+        "Et",
+        "encore",
+        "avant.",
+        "C'est",
+        "la",
+        "même",
+        "semaine.",
+        "Depuis",
+        "un",
+        "an.",
+        "mardi"
+      ],
+      "tokens_l2": [
+        "To",
+        "isté.",
+        "A",
+        "ešte",
+        "predtým.",
+        "Je",
+        "to",
+        "ten",
+        "istý",
+        "týždeň.",
+        "Už",
+        "rok.",
+        "utorok"
+      ]
+    },
+    {
+      "id": "order-katka-robí-screenshoty-veľa",
+      "type": "order",
+      "l1": "Katka fait des captures d'écran. Beaucoup.",
+      "l2": "Katka robí screenshoty. Veľa.",
+      "tokens_l1": [
+        "Katka",
+        "fait",
+        "des",
+        "captures",
+        "d'écran.",
+        "Beaucoup.",
+        "Moi,",
+        "jusqu'aux",
+        "chevilles."
+      ],
+      "tokens_l2": [
+        "Katka",
+        "robí",
+        "screenshoty.",
+        "Veľa.",
+        "Ja",
+        "po",
+        "členky."
+      ]
+    },
+    {
+      "id": "match-web-vocab",
+      "type": "match",
+      "l1": [
+        "le site internet",
+        "les données",
+        "toutes les heures",
+        "le capteur"
+      ],
+      "l2": [
+        "web",
+        "údaje",
+        "každú hodinu",
+        "senzor"
+      ]
+    }
+  ]
+}

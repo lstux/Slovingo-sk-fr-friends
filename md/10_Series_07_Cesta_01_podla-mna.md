@@ -1,13 +1,13 @@
 # Série Cesta (1/5) — Podľa mňa
 
-@ img/cesta-les-hory.jpg | Un chemin de forêt. Source : Wikimedia Commons, Radosław Botev, CC BY-SA 4.0
+@ img/vyrub-lesa-cesta.jpg | Une forêt coupée pour faire passer une route, avec des camions. Source : Wikimedia Commons, Mfloryan, CC BY 4.0
 
 %~ Vers le sud, à travers les Basses Tatras
 % 49.0746, 19.3053 | {{Ružomberok}} | z9
 % 48.8803, 19.2286 | {{Donovaly}}
 % 48.7363, 19.1462 | {{Banská Bystrica}}
 
-{{fr:La pluie s'est arrêtée. Quatre animaux, quatre sacs, un téléphone, et une question : par où on passe ? Chacun a son avis. On apprend à dire « d'après moi ».}}
+{{fr:Vendredi, midi. Il faut aller à Banská Štiavnica, voir la dame qui sait lire les chiffres. Mais la route de la vallée est sous l'eau. Il reste un chantier, dans la forêt. Et Maťo a un nouveau suspect.}}
 
 ---
 
@@ -15,93 +15,107 @@
 
 | Slovenčina | Français |
 |------------|----------|
-| prestalo pršať | il a cessé de pleuvoir |
-| klesá | baisse, descend |
-| smerom na juh | en direction du sud |
-| podľa mapy | d'après la carte |
-| podľa mňa | d'après moi |
-| vedie | mène |
-| začiatok | le début |
-| koniec | la fin |
-| nepoznáme | nous ne connaissons pas |
-| ako vždy | comme toujours |
+| podľa mňa | à mon avis |
+| lebo | parce que |
+| stavenisko | le chantier |
+| vyrúbali | ils ont coupé (les arbres) |
+| prilba | le casque |
+| plán | le plan |
+| na druhej strane | de l'autre côté |
+| pešo | à pied |
+| kamión | le camion |
+| Opýtajte sa. | Demandez. |
 
 ---
 
 ## Aujourd'hui on apprend…
 
-### Podľa mňa…
+### À mon avis… parce que…
 
-{{fr:Pour donner son avis, on commence par}} {{podľa mňa}}{{fr:, « d'après moi ». Et on peut l'utiliser avec n'importe qui ou n'importe quoi.}}
+{{fr:Pour donner ton avis, commence par}} {{podľa mňa}}{{fr:, « selon moi ». Pour expliquer pourquoi,}} {{lebo}} {{fr:ou}} {{pretože}}{{fr:, « parce que ».}} {{lebo}} {{fr:est plus courant à l'oral.}}
 
 | Slovenčina | Français |
 |------------|----------|
-| podľa mňa | d'après moi, à mon avis |
-| podľa teba | d'après toi |
-| podľa mapy | d'après la carte |
-| podľa aplikácie | d'après l'appli |
-| Podľa mňa je to dobrý nápad. | À mon avis, c'est une bonne idée. |
+| podľa mňa | à mon avis |
+| podľa teba | à ton avis |
+| Podľa mňa sú to oni. | À mon avis, c'est eux. |
+| …lebo vyrúbali les. | …parce qu'ils ont coupé la forêt. |
+| …pretože nemáme čas. | …parce qu'on n'a pas le temps. |
 
 ---
 
 ## Le dialogue
 
-! 💬 Ráno prestalo pršať. Voda v dedine pomaly klesá. Štyri zvieratá stoja na ceste so štyrmi batohmi a jedným telefónom.
-> Le matin, la pluie s'est arrêtée. L'eau du village descend doucement. Quatre animaux sont sur la route avec quatre sacs à dos et un téléphone.
-> Ráno prestalo pršať = le matin, il a cessé de pleuvoir
-> Voda v dedine = l'eau du village
-> pomaly klesá = descend lentement
-> Štyri zvieratá stoja na ceste = quatre animaux sont sur la route
-> so štyrmi batohmi a jedným telefónom = avec quatre sacs à dos et un téléphone
+! 💬 Piatok, obed. Cesta v údolí je pod vodou. Zostáva stavenisko novej cesty, v lese.
+> Vendredi, midi. La route de la vallée est sous l'eau. Il reste le chantier de la nouvelle route, dans la forêt.
+> Cesta v údolí = la route de la vallée
+> je pod vodou = est sous l'eau
+> Zostáva stavenisko = il reste le chantier
+> novej cesty = de la nouvelle route
+> v lese = dans la forêt
 
-! 🐻 Dobre. Ideme.
-> Bon. On y va.
-> Dobre = bon
-> Ideme = on y va
+! 🐻 Podľa mňa sú to oni! Vyrúbali les. Bez lesa nie je voda.
+> C'est peut-être eux ! Ils ont coupé la forêt. Pas de forêt, pas d'eau.
+> Podľa mňa sú to oni = à mon avis, c'est eux
+> Vyrúbali les = ils ont coupé la forêt
+> Bez lesa nie je voda = sans forêt, il n'y a pas d'eau
 
-! 🐹 Kam?
-> Où ça ?
-> Kam = où (vers où)
+! 🐹 Maťo. Včera to bol starosta, tvoj kamarát.
+> Maťo. Hier, c'était le maire, ton ami.
+> Včera to bol starosta = hier c'était le maire
+> tvoj kamarát = ton ami
 
-! 🐻 Smerom na juh. Cez les.
-> Vers le sud. À travers la forêt.
-> Smerom na juh = en direction du sud
-> Cez les = à travers la forêt
-+ {{na juh}} = vers le sud, {{na sever}} = vers le nord, {{na západ}}, {{na východ}}.
+! 🐻 Dnes nikomu neverím. Učím sa.
+> Aujourd'hui, je me méfie de tout le monde. J'apprends.
+> Dnes nikomu neverím = aujourd'hui je ne fais confiance à personne
+> Učím sa = j'apprends
 
-! 🐰 Podľa mapy tam vedie cesta.
-> D'après la carte, il y a un chemin.
-> Podľa mapy = d'après la carte
-> tam vedie cesta = un chemin y mène
+! 💬 Muž v žltej prilbe rozloží veľký plán.
+> Un homme en casque jaune déplie un grand plan.
+> Muž v žltej prilbe = un homme en casque jaune
+> rozloží veľký plán = déplie un grand plan
 
-! 🐹 Podľa mapy tam vedie cesta. Podľa mňa tam je les.
-> D'après la carte, il y a un chemin. D'après moi, il y a une forêt.
-> Podľa mapy = d'après la carte
-> Podľa mňa = d'après moi
-> tam je les = il y a une forêt
+! 🧑 Prameň vašej dediny? Je tu. My sme tu. Na druhej strane hory.
+> La source de votre village ? Elle est là. Nous, on est là. De l'autre côté de la montagne.
+> Prameň vašej dediny = la source de votre village
+> Je tu = elle est ici
+> My sme tu = nous sommes ici
+> Na druhej strane hory = de l'autre côté de la montagne
 
-! 🦊 Cesta cez les. To je dobrý začiatok.
-> Un chemin à travers la forêt. C'est un bon début.
-> Cesta cez les = un chemin à travers la forêt
-> To je dobrý začiatok = c'est un bon début
+! 🐻 Aha.
+> Ah.
 
-! 🐹 Je to dobrý začiatok. Ale koniec nepoznáme.
-> C'est un bon début. Mais on ne connaît pas la fin.
-> Je to dobrý začiatok = c'est un bon début
-> Ale koniec = mais la fin
-> nepoznáme = nous ne connaissons pas
+! 🧑 Veľa vecí sa hádže na mňa. Toto nie.
+> On me met beaucoup de choses sur le dos. Celle-là, non.
+> Veľa vecí = beaucoup de choses
+> sa hádže na mňa = on me jette dessus
+> Toto nie = ça, non
 
-! 🐰 Ako vždy.
-> Comme toujours.
-> Ako vždy = comme toujours
+! 🐻 Prepáčte, pane.
+> Pardon, monsieur.
+
+! 🧑 Nič sa nestalo. Kam idete?
+> Ce n'est rien. Vous allez où ?
+> Nič sa nestalo = il ne s'est rien passé
+> Kam idete = où allez-vous
+
+! 🐰 Do Banskej Štiavnice.
+> À Banská Štiavnica.
+
+! 🧑 Pešo? O desať minút odchádza kamión. Opýtajte sa ho.
+> À pied ? Il y a un camion qui part dans dix minutes. Demandez-lui.
+> Pešo = à pied
+> O desať minút = dans dix minutes
+> odchádza kamión = part un camion
+> Opýtajte sa ho = demandez-lui
 
 ---
 
 ## 🇸🇰 Coin slovaque
 
-{{fr:Entre le Liptov et Banská Bystrica, il faut traverser les Basses Tatras, en slovaque}} {{Nízke Tatry}}{{fr:. Le col de}} {{Donovaly}} {{fr:est une station de ski en hiver et un lieu de randonnée en été.}}
+{{fr:La Slovaquie construit depuis des années une grande autoroute pour relier Bratislava, à l'ouest, et Košice, à l'est. Entre les deux, il y a des montagnes : il faut creuser des tunnels, construire des ponts, couper des forêts.}}
 
-{{fr:Le mot}} {{cesta}} {{fr:veut dire à la fois « la route », « le chemin » et « le voyage ».}} {{Šťastnú cestu!}} {{fr:, c'est « bon voyage », pas « bonne route ».}}
+{{fr:Une route rapide, une forêt en moins : c'est un vrai débat en Slovaquie. Mais pour la source du village, le chef de chantier a raison : ce n'est pas lui.}}
 
 ---
 
@@ -109,20 +123,25 @@
 
 | Slovenčina | Français |
 |------------|----------|
-| juh | le sud |
-| sever | le nord |
-| východ | l'est |
+| pretože | parce que |
+| muž | l'homme |
+| kamarát | l'ami, le copain |
 
 ---
 
 ## Encore quelques répliques
 
-! Košice sú na východe.
-> Košice est à l'est.
-> Košice sú = Košice est
-> na východe = à l'est
+! Podľa teba je to pravda?
+> À ton avis, c'est vrai ?
+> Podľa teba = à ton avis
+> je to pravda = c'est vrai
 
-! Tatry sú na severe.
-> Les Tatras sont au nord.
-> Tatry sú = les Tatras sont
-> na severe = au nord
+! Idem pešo, lebo nemám lístok.
+> J'y vais à pied, parce que je n'ai pas de ticket.
+> Idem pešo = j'y vais à pied
+> lebo nemám lístok = parce que je n'ai pas de ticket
+
+! Kamión je na druhej strane.
+> Le camion est de l'autre côté.
+> Kamión je = le camion est
+> na druhej strane = de l'autre côté

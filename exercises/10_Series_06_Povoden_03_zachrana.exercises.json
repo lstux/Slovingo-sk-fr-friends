@@ -1,0 +1,249 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-cesta",
+      "type": "qcm",
+      "l1": "le trajet, l'aller-retour",
+      "l2": "cesta",
+      "choices_l1": [
+        "sous le pommier",
+        "Personne ne parle.",
+        "Vous parlez français ?"
+      ],
+      "choices_l2": [
+        "chladnička",
+        "Pozor!",
+        "nesiem"
+      ]
+    },
+    {
+      "id": "qcm-k",
+      "type": "qcm",
+      "l1": "le panier",
+      "l2": "kôš",
+      "choices_l1": [
+        "soixante",
+        "je porte",
+        "l'animal"
+      ],
+      "choices_l2": [
+        "zviera",
+        "šesťdesiat",
+        "chladnička"
+      ]
+    },
+    {
+      "id": "qcm-chladni-ka",
+      "type": "qcm",
+      "l1": "le frigo",
+      "l2": "chladnička",
+      "choices_l1": [
+        "l'animal",
+        "le panier",
+        "la couverture"
+      ],
+      "choices_l2": [
+        "cesta",
+        "nesiem",
+        "deka"
+      ]
+    },
+    {
+      "id": "qcm-pozor",
+      "type": "qcm",
+      "l1": "Attention !",
+      "l2": "Pozor!",
+      "choices_l1": [
+        "soixante",
+        "le panier",
+        "minuit"
+      ],
+      "choices_l2": [
+        "šesťdesiat",
+        "kôš",
+        "zviera"
+      ]
+    },
+    {
+      "id": "qcm-polnoc",
+      "type": "qcm",
+      "l1": "minuit",
+      "l2": "polnoc",
+      "choices_l1": [
+        "soixante",
+        "je porte",
+        "la couverture"
+      ],
+      "choices_l2": [
+        "Pozor!",
+        "zviera",
+        "cesta"
+      ]
+    },
+    {
+      "id": "qcm-es-desiat",
+      "type": "qcm",
+      "l1": "soixante",
+      "l2": "šesťdesiat",
+      "choices_l1": [
+        "Attention !",
+        "le panier",
+        "je porte"
+      ],
+      "choices_l2": [
+        "polnoc",
+        "Pozor!",
+        "cesta"
+      ]
+    },
+    {
+      "id": "listen-pozor-na-moju-chladničku",
+      "type": "listen",
+      "l1": "Attention à mon frigo !",
+      "l2": "Pozor na moju chladničku!",
+      "choices_l1": [
+        "Attention à ma maison !",
+        "Attention, c'est mon frigo !",
+        "Prends mon frigo !"
+      ]
+    },
+    {
+      "id": "listen-mám-v-nej-všetko-čo-mám",
+      "type": "listen",
+      "l1": "Tout ce que j'ai est dedans.",
+      "l2": "Mám v nej všetko, čo mám.",
+      "choices_l1": [
+        "Il n'y a rien dedans.",
+        "J'ai tout perdu.",
+        "Tout ce que j'ai est dans la maison."
+      ]
+    },
+    {
+      "id": "listen-viem-to-ma-práve-trápi",
+      "type": "listen",
+      "l1": "Je sais. C'est ça qui m'embête.",
+      "l2": "Viem. To ma práve trápi.",
+      "choices_l1": [
+        "Je sais. Ça ne m'embête pas.",
+        "Je ne sais pas. C'est ça qui m'embête.",
+        "Je sais. C'est pour ça que je l'aime bien."
+      ]
+    },
+    {
+      "id": "blank-bol-som-tu-päť-dní",
+      "type": "fill-blank",
+      "l1": "J'ai été ici cinq jours.",
+      "l2": "Bol som tu päť dní.",
+      "missing_l1": "cinq",
+      "missing_l2": "päť",
+      "blank_index_l1": 3,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "deux",
+        "trois",
+        "quatre"
+      ],
+      "choices_l2": [
+        "dva",
+        "tri",
+        "štyri"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-mám-dva-koše",
+      "type": "fill-blank",
+      "l1": "J'ai deux paniers.",
+      "l2": "Mám dva koše.",
+      "missing_l1": "paniers",
+      "missing_l2": "koše",
+      "blank_index_l1": 2,
+      "blank_index_l2": 2,
+      "choices_l1": [
+        "couvertures",
+        "frigos",
+        "canards"
+      ],
+      "choices_l2": [
+        "deky",
+        "chladničky",
+        "kačky"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-ale-otvoril-bránu",
+      "type": "order",
+      "l1": "Il a quand même ouvert le portail.",
+      "l2": "Ale otvoril bránu.",
+      "tokens_l1": [
+        "Il",
+        "a",
+        "quand",
+        "même",
+        "ouvert",
+        "le",
+        "portail.",
+        "frigo"
+      ],
+      "tokens_l2": [
+        "Ale",
+        "otvoril",
+        "bránu.",
+        "chladničku"
+      ]
+    },
+    {
+      "id": "order-je-milý",
+      "type": "order",
+      "l1": "Il est gentil.",
+      "l2": "Je milý.",
+      "tokens_l1": [
+        "Il",
+        "est",
+        "gentil.",
+        "Ils",
+        "font",
+        "dix",
+        "voyages.",
+        "Maťo",
+        "porte",
+        "deux",
+        "paniers",
+        "à",
+        "la",
+        "fois."
+      ],
+      "tokens_l2": [
+        "Je",
+        "milý.",
+        "Urobia",
+        "desať",
+        "ciest.",
+        "Maťo",
+        "nesie",
+        "dva",
+        "koše",
+        "naraz."
+      ]
+    },
+    {
+      "id": "match-cesta-vocab",
+      "type": "match",
+      "l1": [
+        "le trajet, l'aller-retour",
+        "le panier",
+        "le frigo",
+        "Attention !"
+      ],
+      "l2": [
+        "cesta",
+        "kôš",
+        "chladnička",
+        "Pozor!"
+      ]
+    }
+  ]
+}

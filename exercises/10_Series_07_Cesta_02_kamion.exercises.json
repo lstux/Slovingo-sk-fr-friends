@@ -1,0 +1,270 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-kab-na",
+      "type": "qcm",
+      "l1": "la cabine",
+      "l2": "kabína",
+      "choices_l1": [
+        "presque",
+        "pour",
+        "la pompe"
+      ],
+      "choices_l2": [
+        "nepýtam sa",
+        "skoro",
+        "po ceste"
+      ]
+    },
+    {
+      "id": "qcm-skoro",
+      "type": "qcm",
+      "l1": "presque",
+      "l2": "skoro",
+      "choices_l1": [
+        "pour",
+        "la cabine",
+        "la pompe"
+      ],
+      "choices_l2": [
+        "pomáhali sme",
+        "po ceste",
+        "kabína"
+      ]
+    },
+    {
+      "id": "qcm-po-ceste",
+      "type": "qcm",
+      "l1": "sur la route, en chemin",
+      "l2": "po ceste",
+      "choices_l1": [
+        "je transporte, je livre",
+        "plus lourd que",
+        "nous avons aidé"
+      ],
+      "choices_l2": [
+        "vozím",
+        "zablatený",
+        "kabína"
+      ]
+    },
+    {
+      "id": "qcm-zablaten",
+      "type": "qcm",
+      "l1": "couvert de boue",
+      "l2": "zablatený",
+      "choices_l1": [
+        "je transporte, je livre",
+        "plus lourd que",
+        "sur la route, en chemin"
+      ],
+      "choices_l2": [
+        "pomáhali sme",
+        "čerpadlo",
+        "ťažší ako"
+      ]
+    },
+    {
+      "id": "qcm-pom-hali-sme",
+      "type": "qcm",
+      "l1": "nous avons aidé",
+      "l2": "pomáhali sme",
+      "choices_l1": [
+        "plus lourd que",
+        "sur la route, en chemin",
+        "je transporte, je livre"
+      ],
+      "choices_l2": [
+        "vozím",
+        "nepýtam sa",
+        "po ceste"
+      ]
+    },
+    {
+      "id": "qcm-erpadlo",
+      "type": "qcm",
+      "l1": "la pompe",
+      "l2": "čerpadlo",
+      "choices_l1": [
+        "la cabine",
+        "pour",
+        "presque"
+      ],
+      "choices_l2": [
+        "vozím",
+        "kabína",
+        "pomáhali sme"
+      ]
+    },
+    {
+      "id": "listen-kabína-je-veľká-aj-maťo-sa-zmestí-skoro",
+      "type": "listen",
+      "l1": "La cabine est grande. Même Maťo rentre. Presque.",
+      "l2": "Kabína je veľká. Aj Maťo sa zmestí. Skoro.",
+      "choices_l1": [
+        "La cabine est petite. Maťo ne rentre pas.",
+        "La cabine est grande. Même Katka rentre.",
+        "Le camion est grand. Même Maťo rentre."
+      ]
+    },
+    {
+      "id": "listen-zo-sivej-budovy-pomáhali-sme-pri-povodni",
+      "type": "listen",
+      "l1": "Du bâtiment gris. On a aidé pour l'inondation.",
+      "l2": "Zo sivej budovy. Pomáhali sme pri povodni.",
+      "choices_l1": [
+        "Du village. On a aidé pour l'orage.",
+        "Du bâtiment gris. On a vu l'inondation.",
+        "De la forêt. On a aidé les castors."
+      ]
+    },
+    {
+      "id": "listen-ja-vozím-nepýtam-sa",
+      "type": "listen",
+      "l1": "Moi, je livre. Je ne pose pas de questions.",
+      "l2": "Ja vozím. Nepýtam sa.",
+      "choices_l1": [
+        "Moi, je livre. Je pose beaucoup de questions.",
+        "Moi, je conduis. Je ne sais rien.",
+        "Vous livrez ? Je ne pose pas de questions."
+      ]
+    },
+    {
+      "id": "blank-toto-je-pre-teba",
+      "type": "fill-blank",
+      "l1": "C'est pour toi.",
+      "l2": "Toto je pre teba.",
+      "missing_l1": "toi",
+      "missing_l2": "teba",
+      "blank_index_l1": 2,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "moi",
+        "lui",
+        "nous"
+      ],
+      "choices_l2": [
+        "mňa",
+        "neho",
+        "nás"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-maťo-je-vyšší-ako-ja",
+      "type": "fill-blank",
+      "l1": "Maťo est plus grand que moi.",
+      "l2": "Maťo je vyšší ako ja.",
+      "missing_l1": "grand",
+      "missing_l2": "vyšší",
+      "blank_index_l1": 3,
+      "blank_index_l2": 2,
+      "choices_l1": [
+        "petit",
+        "lourd",
+        "rapide"
+      ],
+      "choices_l2": [
+        "menší",
+        "ťažší",
+        "rýchlejší"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-pre-koho-je-to-čerpadlo",
+      "type": "order",
+      "l1": "Pour qui est cette pompe ?",
+      "l2": "Pre koho je to čerpadlo?",
+      "tokens_l1": [
+        "Pour",
+        "qui",
+        "est",
+        "cette",
+        "pompe",
+        "?",
+        "Zelená",
+        "vlna",
+        "?",
+        "Je",
+        "connais.",
+        "J'ai",
+        "livré",
+        "le",
+        "chantier,",
+        "il",
+        "y",
+        "a",
+        "deux",
+        "ans."
+      ],
+      "tokens_l2": [
+        "Pre",
+        "koho",
+        "je",
+        "to",
+        "čerpadlo?",
+        "Zelená",
+        "vlna?",
+        "Poznám.",
+        "Pred",
+        "dvoma",
+        "rokmi",
+        "som",
+        "im",
+        "vozil",
+        "materiál",
+        "na",
+        "stavbu."
+      ]
+    },
+    {
+      "id": "order-čo-ste-im-vozili",
+      "type": "order",
+      "l1": "Vous avez livré quoi ?",
+      "l2": "Čo ste im vozili?",
+      "tokens_l1": [
+        "Vous",
+        "avez",
+        "livré",
+        "quoi",
+        "?",
+        "Maťo",
+        "est",
+        "plus",
+        "grand",
+        "que",
+        "moi."
+      ],
+      "tokens_l2": [
+        "Čo",
+        "ste",
+        "im",
+        "vozili?",
+        "Maťo",
+        "je",
+        "vyšší",
+        "ako",
+        "ja."
+      ]
+    },
+    {
+      "id": "match-kab-na-vocab",
+      "type": "match",
+      "l1": [
+        "la cabine",
+        "presque",
+        "sur la route, en chemin",
+        "couvert de boue"
+      ],
+      "l2": [
+        "kabína",
+        "skoro",
+        "po ceste",
+        "zablatený"
+      ]
+    }
+  ]
+}

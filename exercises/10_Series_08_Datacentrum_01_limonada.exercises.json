@@ -1,0 +1,256 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-bal-n",
+      "type": "qcm",
+      "l1": "le ballon",
+      "l2": "balón",
+      "choices_l1": [
+        "le t-shirt",
+        "gratuit",
+        "Dis-moi."
+      ],
+      "choices_l2": [
+        "zadarmo",
+        "vchod",
+        "rozdáva"
+      ]
+    },
+    {
+      "id": "qcm-hudba",
+      "type": "qcm",
+      "l1": "la musique",
+      "l2": "hudba",
+      "choices_l1": [
+        "l'entrée",
+        "gratuit",
+        "Dis-moi."
+      ],
+      "choices_l2": [
+        "Vitajte!",
+        "tričko",
+        "práve preto"
+      ]
+    },
+    {
+      "id": "qcm-vchod",
+      "type": "qcm",
+      "l1": "l'entrée",
+      "l2": "vchod",
+      "choices_l1": [
+        "la musique",
+        "le ballon",
+        "Bienvenue !"
+      ],
+      "choices_l2": [
+        "balón",
+        "rozdáva",
+        "hudba"
+      ]
+    },
+    {
+      "id": "qcm-tri-ko",
+      "type": "qcm",
+      "l1": "le t-shirt",
+      "l2": "tričko",
+      "choices_l1": [
+        "elle distribue",
+        "le ballon",
+        "l'entrée"
+      ],
+      "choices_l2": [
+        "Vitajte!",
+        "hudba",
+        "vchod"
+      ]
+    },
+    {
+      "id": "qcm-rozd-va",
+      "type": "qcm",
+      "l1": "elle distribue",
+      "l2": "rozdáva",
+      "choices_l1": [
+        "Dis-moi.",
+        "la musique",
+        "l'entrée"
+      ],
+      "choices_l2": [
+        "balón",
+        "Vitajte!",
+        "tričko"
+      ]
+    },
+    {
+      "id": "qcm-vitajte",
+      "type": "qcm",
+      "l1": "Bienvenue !",
+      "l2": "Vitajte!",
+      "choices_l1": [
+        "le t-shirt",
+        "l'entrée",
+        "la musique"
+      ],
+      "choices_l2": [
+        "preto",
+        "hudba",
+        "Povedz mi."
+      ]
+    },
+    {
+      "id": "listen-ešte-sa-hneváš",
+      "type": "listen",
+      "l1": "Tu es encore fâché ?",
+      "l2": "Ešte sa hneváš?",
+      "choices_l1": [
+        "Tu es encore là ?",
+        "Tu es content ?",
+        "Tu es encore fatigué ?"
+      ]
+    },
+    {
+      "id": "listen-áno-povedz-mi-kam-mám-ísť",
+      "type": "listen",
+      "l1": "Oui. Dis-moi où aller.",
+      "l2": "Áno. Povedz mi, kam mám ísť.",
+      "choices_l1": [
+        "Non. Dis-moi où tu es.",
+        "Oui. Je sais où aller.",
+        "Oui. Viens avec moi."
+      ]
+    },
+    {
+      "id": "listen-vitajte-v-zelenej-vlne-limonádu",
+      "type": "listen",
+      "l1": "Bienvenue chez Zelená vlna ! Une limonade ?",
+      "l2": "Vitajte v Zelenej vlne! Limonádu?",
+      "choices_l1": [
+        "Bienvenue chez Zelená vlna ! Une saucisse ?",
+        "Au revoir ! Une limonade ?",
+        "Bienvenue ! Un thé ?"
+      ]
+    },
+    {
+      "id": "blank-ďakujem-za-limonádu",
+      "type": "fill-blank",
+      "l1": "Merci pour la limonade.",
+      "l2": "Ďakujem za limonádu.",
+      "missing_l1": "limonade",
+      "missing_l2": "limonádu",
+      "blank_index_l1": 3,
+      "blank_index_l2": 2,
+      "choices_l1": [
+        "saucisse",
+        "musique",
+        "visite"
+      ],
+      "choices_l2": [
+        "klobásu",
+        "hudbu",
+        "prehliadku"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-prší-preto-som-doma",
+      "type": "fill-blank",
+      "l1": "Il pleut, c'est pour ça que je suis à la maison.",
+      "l2": "Prší, preto som doma.",
+      "missing_l1": "pleut",
+      "missing_l2": "Prší",
+      "blank_index_l1": 1,
+      "blank_index_l2": 0,
+      "choices_l1": [
+        "neige",
+        "fait",
+        "gèle"
+      ],
+      "choices_l2": [
+        "Sneží",
+        "Je",
+        "Mrzne"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-vitajte-v-košiciach",
+      "type": "order",
+      "l1": "Bienvenue à Košice !",
+      "l2": "Vitajte v Košiciach!",
+      "tokens_l1": [
+        "Bienvenue",
+        "à",
+        "Košice",
+        "!",
+        "Il",
+        "pleut,",
+        "c'est",
+        "pour",
+        "ça",
+        "que",
+        "je",
+        "suis",
+        "à",
+        "la",
+        "maison."
+      ],
+      "tokens_l2": [
+        "Vitajte",
+        "v",
+        "Košiciach!",
+        "Prší,",
+        "preto",
+        "som",
+        "doma."
+      ]
+    },
+    {
+      "id": "order-s-tebou-nehovorím",
+      "type": "order",
+      "l1": "Je ne te parle pas.",
+      "l2": "S tebou nehovorím.",
+      "tokens_l1": [
+        "Je",
+        "ne",
+        "te",
+        "parle",
+        "pas.",
+        "Bienvenue",
+        "chez",
+        "Zelená",
+        "vlna",
+        "!",
+        "Une",
+        "limonade",
+        "?"
+      ],
+      "tokens_l2": [
+        "S",
+        "tebou",
+        "nehovorím.",
+        "Vitajte",
+        "v",
+        "Zelenej",
+        "vlne!",
+        "Limonádu?"
+      ]
+    },
+    {
+      "id": "match-bal-n-vocab",
+      "type": "match",
+      "l1": [
+        "le ballon",
+        "la musique",
+        "l'entrée",
+        "le t-shirt"
+      ],
+      "l2": [
+        "balón",
+        "hudba",
+        "vchod",
+        "tričko"
+      ]
+    }
+  ]
+}

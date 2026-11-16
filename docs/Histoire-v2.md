@@ -757,3 +757,689 @@
 🦊 A ak to nebolo sucho?
 
 🐰 Uvidíme. Na obed sme tam.
+
+---
+
+# Kapitola 5 — Štyridsaťdva centimetrov
+
+## Scéna Domov — Potok
+
+💬 Štvrtok, obed. Dedina pod Tatrami. Všade mláky, blato, kvapky na strechách.
+
+💬 Za domami sú biele kamene a starý most. Medzi kameňmi nič.
+
+🦊 Tu je to?
+
+🐰 Tu.
+
+🦊 Celú noc pršalo.
+
+🐰 Áno.
+
+💬 Gab zíde medzi kamene. Položí ruku na zem.
+
+🦊 Je to suché.
+
+🐰 Tu si spadol. Trikrát.
+
+🦊 Dnes si nemôžem ani namočiť nohy.
+
+💬 Andrea nič nepovie. Odfotí to.
+
+## Scéna Domov — Maťo a Katka
+
+💬 Na lúke počíta obrovský medveď ovce. Vedľa neho sedí Katka a pozerá sa do mobilu.
+
+🐻 Gab? To je Gab!
+
+🦊 Maťo? Ty si bol malý!
+
+🐻 Nie. Ja som bol už vtedy veľký. To ty si bol malý.
+
+🐹 Ahoj, Gab. Tak čo, Andrea ti už všetko…
+
+🐰 Katka.
+
+🐹 … ukázala? Dedinu? Nie? Dobre. Nič nehovorím.
+
+🦊 Nič nehovorí o čom?
+
+🐹 O ničom. Videl si? Máme optiku.
+
+🦊 Optiku?
+
+🐹 Internet. Veľmi rýchly. Dala nám ho sivá budova. To je najlepšia vec, čo sa tu stala, odkedy som na svete.
+
+🐰 Katka. Potrebujeme tvoju optiku.
+
+## Scéna Domov — Babka
+
+💬 Kuchyňa babky Zuzany. Vonia tu kapusta.
+
+🐑 Malý Francúz! Si chudý. Sadni si. Jedz.
+
+🦊 Ďakujem, babka. Čo je to?
+
+🐑 Halušky. S kapustou.
+
+🦊 Nie s bryndzou?
+
+🐑 Ja som ovca.
+
+🦊 Prepáčte.
+
+🐑 Jedz.
+
+🐰 Babka, potok. Myslíš, že je to sucho?
+
+🐑 Myslím, že môj sused robí v sivej budove.
+
+🐑 Predtým robil v Rakúsku. Domov chodil raz za mesiac. Teraz chodí každý večer.
+
+🐰 To nie je moja otázka.
+
+🐑 Nie. Ale je to moja odpoveď.
+
+## Scéna Domov — Optika
+
+🐻 Výkop? Videl som ho, keď som mal dvanásť. Išiel za salašom.
+
+🐰 Ukáž nám ho.
+
+💬 Za salašom, v tráve, je železný poklop. Na ňom je jedno slovo: OPTIKA.
+
+🦊 Môžeš ho zdvihnúť?
+
+💬 Maťo to skúsi. Poklop sa nepohne.
+
+🐻 Je priskrutkovaný. Veľmi veľkými skrutkami.
+
+🐹 Pre optiku? U nás je optika v malej plastovej krabičke.
+
+💬 Gab si kľakne. Priloží ucho na poklop.
+
+🦊 Pst.
+
+🐻 Čo?
+
+🦊 Počúvajte.
+
+💬 Počúvajú všetci štyria, s uchom na železe. Dole niečo tečie. Rýchlo.
+
+🐹 Optika takto neznie.
+
+🐰 Nie.
+
+## Scéna Domov — Štyridsaťdva
+
+🐹 Pozrite. Sivá budova má web. „Naše údaje sú transparentné.“ Merajú potok. Každú hodinu.
+
+🐰 Ich senzormi. Predtým to bola skutočná stanica.
+
+🐹 Dnes: štyridsaťdva centimetrov vody.
+
+💬 Sedia na suchých kameňoch, uprostred potoka.
+
+🦊 Štyridsaťdva centimetrov. Mali by sme mať vodu po kolená.
+
+🐻 Ja po členky.
+
+🐹 Počkajte. Pondelok štyridsaťdva. Utorok štyridsaťjeden. Streda štyridsaťtri.
+
+🐹 A týždeň predtým… štyridsaťdva, štyridsaťjeden, štyridsaťtri.
+
+🐰 A ešte týždeň predtým?
+
+🐹 To isté. A ešte predtým. Je to ten istý týždeň. Už rok.
+
+🦊 Aj včera? Počas búrky?
+
+🐹 Štyridsaťtri. Ako každú stredu.
+
+💬 Katka robí screenshoty. Veľa.
+
+## Scéna Domov — Starosta
+
+💬 Pred salašom zastane pekné nové auto. Vystúpi z neho pán.
+
+🐻 To je pán starosta. Musíme mu to povedať!
+
+🐰 Maťo, počkaj…
+
+🐻 Pán starosta! Potok! Nie je to sucho! Pod poklopom je voda a čísla nie sú pravdivé!
+
+🧑 Pomaly, chlapče. Aký poklop?
+
+🐻 Tamten! Počúvajte!
+
+💬 Starosta poklop nepočúva. Pozerá sa na Andreu.
+
+🧑 Zase ty. Myslel som, že bývaš v Košiciach.
+
+🐰 Mám prázdniny.
+
+🧑 To je všetko veľmi zaujímavé. Zavolám.
+
+🐰 Komu?
+
+🧑 Správnym ľuďom.
+
+💬 Nasadne do auta.
+
+🐻 Vidíš? Pomôže nám.
+
+🐹 V rádiu hovoria, že dole v údolí stúpa rieka.
+
+🐰 Ideme dole. A čo sa týka starostu…
+
+🐻 Áno?
+
+🐰 Uvidíme.
+
+---
+
+# Kapitola 6 — Brána
+
+## Scéna Povoden — Hasič
+
+💬 Štvrtok večer. V údolí už rieka nie je rieka. Je to hnedé jazero a stúpa.
+
+🐻 Včera ani kvapka. Dnes priveľa.
+
+🦊 Počasie sa zbláznilo.
+
+🐹 Počasie bolo vždy bláznivé. Teraz má internet.
+
+💬 Hasič v žltej bunde na nich máva.
+
+🧑 Vy štyria! Potrebujem ruky. V domoch dole sú rodiny. Kačky, myši, zajace.
+
+🐰 Pomôžeme vám.
+
+🐻 Ruky mám.
+
+🧑 To vidím. Vezmite ich hore.
+
+🐰 Hore, kam?
+
+🧑 Dobrá otázka. Škola je pod vodou.
+
+💬 Všetci sa pozerajú na to isté miesto. Na kopci stojí veľká sivá budova. Jej parkovisko je prázdne a suché.
+
+## Scéna Povoden — Brána
+
+💬 Pred bránou stojí strážnik. Za nimi je tridsať mokrých zvierat.
+
+🧑 Je zatvorené.
+
+🐰 Je povodeň.
+
+🧑 Videl som. Aj tak je zatvorené. Mám príkazy.
+
+🐹 Príkazy od koho?
+
+🧑 Od niekoho, kto je v suchu.
+
+💬 Z druhej strany pribehne jazvec v modrej veste. Má kľúč.
+
+🦡 Otvor.
+
+🧑 Marek, riaditeľka povedala…
+
+🦡 Riaditeľka je v Bratislave. Ja som tu a vidím káčatá v daždi.
+
+🦡 Otvor. Keby sa niekto pýtal, brána bola pokazená.
+
+💬 Brána sa otvorí.
+
+🦡 Poďte ďalej. Na parkovisko, nie do budovy. V aute mám čaj.
+
+🐻 Ďakujeme, pane.
+
+🦡 Marek. A neďakujte mi. Nič som neurobil. Brána bola pokazená.
+
+## Scéna Povoden — Záchrana
+
+💬 Urobia desať ciest. Maťo nesie dva koše naraz.
+
+🐭 Pozor na moju chladničku!
+
+🐻 Pani, vy nesiete chladničku?
+
+🐭 Mám v nej všetko, čo mám.
+
+🐻 Dajte mi ju. Ja nesiem chladničku. Vy neste seba.
+
+💬 O polnoci je na parkovisku šesťdesiat zvierat. Marek nalieva čaj. Našiel aj deky.
+
+🦊 Je milý.
+
+🐰 Áno.
+
+🦊 Povedala si „áno“, ako keby to bol problém.
+
+🐰 Nedôverujem milým ľuďom, ktorí tu robia.
+
+🐹 Ale otvoril bránu.
+
+🐰 Viem. To ma práve trápi.
+
+## Scéna Povoden — Rúra
+
+💬 Gab hľadá, kde si umyť ruky. Za budovou trčí zo steny hrubá rúra. Tečie z nej voda, do rieky.
+
+🦊 Au!
+
+🐹 Čo?
+
+🦊 Je teplá!
+
+🐹 Teplá?
+
+🦊 Vlažná. Ako vo vani.
+
+💬 Katka zdvihne hlavu. Na streche, v studenom daždi, stúpa hustý biely dym.
+
+🐹 To nie je dym. To je para.
+
+🐰 Uzavretý okruh nevypúšťa vodu. A nerobí paru.
+
+🦊 Nula litrov.
+
+💬 Katka filmuje. Rúru, jeho labku pod ňou, paru, stenu so zelenou vlnou.
+
+💬 Z okna na prvom poschodí sa na nich pozerá Marek. Nič nepovie. Zhasne svetlo.
+
+## Scéna Povoden — Betón
+
+💬 Piatok ráno. Voda klesá. Vracajú sa do dediny, unavení a plní blata.
+
+🐻 Poďte sa pozrieť.
+
+💬 Za salašom už nie je poklop OPTIKA. Na jeho mieste je sivý štvorec betónu. Je ešte mäkký.
+
+🦊 Dnes v noci. Počas povodne.
+
+🐹 Počkajte. Web.
+
+🐰 Čo?
+
+🐹 Čísla. Hýbu sa. Dnes: osemnásť centimetrov. Včera: dvanásť. Všetko zmenili. Celý rok.
+
+🦊 Ale ty máš screenshoty!
+
+🐹 Mám screenshoty.
+
+💬 Maťo sa pozerá na svoje nohy.
+
+🐻 To som ja. To starosta. Všetko som mu povedal.
+
+🐰 Nemohol si to vedieť.
+
+🐻 Ty si to vedela.
+
+🐰 Aj ja som urobila to isté. S limonádou.
+
+## Scéna Povoden — Sobota
+
+🐹 Ešte niečo. Zajtra večer, v sobotu, v televízii. Naživo z Bratislavského hradu.
+
+🐹 „Zelená firma roka.“ Hádajte, kto vyhrá.
+
+🦊 Nie.
+
+🐹 Áno.
+
+🐰 Zajtra večer. Pozerá celá krajina.
+
+🐻 A my?
+
+🐰 My máme fotku, screenshoty a video. To nestačí. Povedia, že sú to deti s mobilom.
+
+🦊 Čo potrebujeme?
+
+🐰 Niekoho, kto vie čítať čísla. A niekoho zvnútra.
+
+🦊 Poznáš niekoho, kto vie čítať čísla?
+
+🐰 Tú, ktorá ma naučila merať. Mala stanicu na potoku, pred senzormi. Poslali ju do Banskej Štiavnice.
+
+🦊 A niekoho zvnútra?
+
+💬 Andrea sa pozerá dole, na sivú budovu.
+
+🐰 Uvidíme.
+
+---
+
+# Kapitola 7 — Štyri čerpadlá
+
+## Scéna Cesta — Podľa mňa
+
+💬 Piatok, obed. Cesta v údolí je pod vodou. Zostáva stavenisko novej cesty, v lese.
+
+🐻 Podľa mňa sú to oni! Vyrúbali les. Bez lesa nie je voda.
+
+🐹 Maťo. Včera to bol starosta, tvoj kamarát.
+
+🐻 Dnes nikomu neverím. Učím sa.
+
+💬 Muž v žltej prilbe rozloží veľký plán.
+
+🧑 Prameň vašej dediny? Je tu. My sme tu. Na druhej strane hory.
+
+🐻 Aha.
+
+🧑 Veľa vecí sa hádže na mňa. Toto nie.
+
+🐻 Prepáčte, pane.
+
+🧑 Nič sa nestalo. Kam idete?
+
+🐰 Do Banskej Štiavnice.
+
+🧑 Pešo? O desať minút odchádza kamión. Opýtajte sa ho.
+
+## Scéna Cesta — Kamión
+
+💬 Kabína je veľká. Aj Maťo sa zmestí. Skoro.
+
+🧑 Štiavnica mi je po ceste. Odkiaľ idete takí zablatení?
+
+🦊 Zo sivej budovy. Pomáhali sme pri povodni.
+
+🧑 Zelená vlna? Poznám. Pred dvoma rokmi som im vozil materiál na stavbu.
+
+🐰 Čo ste im vozili?
+
+🧑 Čerpadlá. Štyri. Veľké. Každé ťažšie ako tvoj kamarát medveď.
+
+🐻 Ďakujem.
+
+🦊 Čerpadlá? Pre budovu, ktorá nepoužíva vodu?
+
+🧑 Ja vozím. Nepýtam sa.
+
+## Scéna Cesta — Dodací list
+
+🐹 Máte ešte ten papier?
+
+🧑 Dodací list? Žena hovorí, že všetko odkladám. Má pravdu.
+
+💬 Otvorí krabicu pod sedadlom. Stovky papierov, pekne uložených.
+
+🧑 Tu je. „Zelená vlna. Štyri čerpadlá. Dvesto litrov za sekundu.“ Zoberte si ho. Mám kópiu.
+
+🐹 Aj kópie si odkladáte?
+
+🧑 Žena hovorí, že je to choroba.
+
+🐰 Dvesto litrov za sekundu. To znamená, že…
+
+🦊 … že nula litrov nie je pravda.
+
+## Scéna Cesta — Tvoja fotka
+
+💬 Katka uloží dodací list k screenshotom. Je veľmi spokojná.
+
+🐹 Štyri dôkazy za štyri dni! Ešte šťastie, že som videla tvoju fotku, Gab.
+
+🦊 Moju fotku?
+
+🐹 „Košice, som tu“, s električkou. Bez nej by ťa Andrea nikdy nenašla.
+
+💬 V kabíne nikto nehovorí. Aj motor je tichší.
+
+🦊 Našla.
+
+🐹 Povedala som „našla“? Chcela som povedať…
+
+🐰 Katka. To je dobré.
+
+## Scéna Cesta — Hocikto
+
+🦊 Kniha naopak.
+
+🐰 Pozerala som sa na teba ponad ňu.
+
+🦊 „Vystupuješ tu.“
+
+🐰 Pod fotkou si napísal názov hostela.
+
+🦊 A telefón večer. „Je tu.“
+
+🐹 To som bola ja. Prepáč.
+
+🦊 Potrebovala si turistu.
+
+🐰 Potrebovala som niekoho.
+
+🦊 Hocikoho?
+
+💬 Andrea otvorí ústa. Nenájde vetu.
+
+💬 Gab sa pozerá von oknom. Dvadsať kilometrov nič nepovie.
+
+🐻 Dvadsať kilometrov. To je rekord.
+
+🐹 Maťo. Teraz nie.
+
+## Scéna Cesta — Späť
+
+🧑 Je to zvláštne. Dnes tam majú oslavu.
+
+🐰 Kde?
+
+🧑 V sivej budove. Deň otvorených dverí, dnes poobede. Nechali ho, aj keď bola povodeň. Sú tam klobásy a prehliadka.
+
+🐹 Prehliadka čoho?
+
+🧑 Všetkého. Okrem toho, čo je zaujímavé, myslím.
+
+💬 Andrea sa pozerá na líšku. Líška sa stále pozerá von oknom.
+
+🐰 Čerpadlá. Ak bežia, potrebujeme fotku.
+
+🐻 Ty dnu nemôžeš. List od advokáta.
+
+🐰 Nie. Ja nemôžem.
+
+💬 Ticho.
+
+🦊 Zastavte, prosím.
+
+🧑 Tu?
+
+🦊 Tu. Idem si dať klobásu.
+
+🐰 Gab…
+
+🦊 Nerobím to pre teba. Robím to pre potok.
+
+🐰 Dobre.
+
+🦊 A trochu pre teba. Ale stále sa hnevám.
+
+🐰 Uvidíme.
+
+🦊 A nie. Tentoraz to poviem ja.
+
+---
+
+# Kapitola 8 — Deň otvorených dverí
+
+## Scéna Datacentrum — Limonáda
+
+💬 Piatok poobede. Na bráne sú zelené balóny. Hudba. Vonia klobása.
+
+💬 Andrea zostala za stromami, s Maťovým mobilom. Gab má pri uchu Katkin mobil.
+
+🐰 Počuješ ma?
+
+🦊 Počujem.
+
+🐰 Ešte sa hneváš?
+
+🦊 Áno. Povedz mi, kam mám ísť.
+
+💬 Pri vchode rozdáva mladá žena v zelenom tričku poháre.
+
+🧑 Vitajte v Zelenej vlne! Limonádu?
+
+🦊 Nie, ďakujem.
+
+🧑 Je zadarmo!
+
+🦊 Práve preto.
+
+🐰 Dobrá odpoveď.
+
+🦊 S tebou nehovorím.
+
+## Scéna Datacentrum — Prehliadka
+
+🧑 Tu je serverovňa. Desaťtisíc počítačov. Vaše fotky, filmy, správy: všetko je tu.
+
+🐹 A heslo na wifi?
+
+🧑 Prosím?
+
+🐹 Pre návštevníkov. Je tu wifi? Je rýchla? Ide až na parkovisko? Až do dediny?
+
+🧑 Ehm… jedna otázka naraz.
+
+💬 Vzadu je veľký hluk. Maťo sa zasekol v turnikete.
+
+🐻 Prepáčte. Je mi to ľúto. Neprejdem.
+
+🧑 Netlačte! Cúvnite! Nie, nie takto!
+
+🐰 Teraz. Sivé dvere, vľavo.
+
+💬 Na dverách je tabuľa: „Technická miestnosť. Vstup zakázaný.“
+
+🦊 Je to zakázané.
+
+🐰 Ty nerozumieš po slovensky.
+
+🦊 Pravda. Zabudol som.
+
+## Scéna Datacentrum — Čerpadlá
+
+💬 Schody. Chodba. Je teplo a niečo veľmi silno hučí.
+
+💬 Gab otvorí posledné dvere. Štyri obrovské zelené stroje, ktoré sa točia. Rúry hrubé ako on.
+
+🦊 Andrea. Sú tu. Štyri. Točia sa.
+
+🐰 Je tam merač?
+
+🦊 Je tu skrinka s číslami. Idú veľmi rýchlo.
+
+🐰 Čítaj.
+
+🦊 Nemôžem. Menia sa príliš rýchlo. Počkaj… dole: „Litre za sekundu: stoosemdesiat.“
+
+🐰 Fotku. S čerpadlami. A s číslami.
+
+💬 Gab odfotí. Potom ešte raz.
+
+🦡 Je ostrá?
+
+💬 Gab sa otočí. Vo dverách stojí jazvec v modrej veste.
+
+## Scéna Datacentrum — Marek
+
+🦊 Nerozumiem. Som Francúz.
+
+🦡 Zakázané dvere si pochopil veľmi dobre.
+
+🦊 … Baguette?
+
+🦡 Sadni si.
+
+💬 Marek si sadne prvý, na debnu. Vyzerá unavene.
+
+🦡 Uzavretý okruh existuje. Funguje. Do dvadsaťpäť stupňov vonku.
+
+🦡 Nad tým sa servery prehrievajú. Treba vodu. Veľa.
+
+🦊 A v lete je viac ako dvadsaťpäť stupňov.
+
+🦡 Teraz áno. Každý deň. Nevedeli, že to tak bude. Tak našli vodu tam hore.
+
+## Scéna Datacentrum — Program
+
+🦊 A čísla z potoka? Tých štyridsaťdva centimetrov?
+
+💬 Marek sa pozerá na svoje ruky.
+
+🦡 Je to malý program. Dvanásť riadkov. Kopíruje predchádzajúci rok.
+
+🦊 Kto ho napísal?
+
+🦡 Ja.
+
+💬 V telefóne Andrea prestane dýchať.
+
+🦡 Povedali mi: „Tri týždne. Kým potrvajú skúšky.“ Sú to dva roky.
+
+🦡 A dnes v noci ma požiadali, aby som všetko zase zmenil.
+
+🦊 Poďte to povedať. Zajtra. Do Bratislavy.
+
+🦡 Mám štyri deti.
+
+🦊 Pijú vaše deti vodu?
+
+💬 Marek neodpovie. Vstane a otvorí dvere.
+
+🦡 Máš svoju fotku. Choď po schodoch vpravo. Nič som nevidel. Viem veľmi dobre nič nevidieť.
+
+## Scéna Datacentrum — Za stromami
+
+💬 Vonku, za stromami. Maťo má v každej ruke klobásu. Katka má heslo na wifi.
+
+🐰 Máš to?
+
+🦊 Mám. Stoosemdesiat litrov za sekundu.
+
+🐰 A on?
+
+🦊 Nepríde.
+
+💬 Andrea prikývne. Potom hovorí rýchlo a nepozerá sa naňho.
+
+🐰 Nie hocikoho.
+
+🦊 Čo?
+
+🐰 V kamióne. Spýtal si sa: „Hocikoho?“ Nie. Nie hocikoho.
+
+🐰 Čakala som rok. Nikoho som sa nespýtala. A potom mi Katka ukázala tvoju fotku.
+
+🦊 Mohla si mi to povedať. V električke.
+
+🐰 Bála som sa, že povieš nie.
+
+🦊 Povedal by som áno.
+
+🐰 Viem. Teraz.
+
+💬 Gab sa pozerá na sivú budovu. Na malom pódiu má pán s úsmevom prejav. Zdvihne hlavu. Uvidí ich. Usmeje sa.
+
+🦊 Videl nás.
+
+🐰 Áno.
+
+🦊 Marek povedal jednu vec. Požiadali ho a on nevedel povedať nie.
+
+🐰 A čo?
+
+🦊 Tak ty ma nabudúce požiadaj. Ja viem povedať nie. A aj tak poviem áno.
+
+🐰 Si komplikovaný.
+
+🦊 Som líška.
+
+🐹 Skončili ste? Autobus do Štiavnice ide o štyri minúty.

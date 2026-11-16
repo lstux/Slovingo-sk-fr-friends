@@ -1,0 +1,248 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-povode",
+      "type": "qcm",
+      "l1": "l'inondation",
+      "l2": "povodeň",
+      "choices_l1": [
+        "la famille",
+        "le parking",
+        "le canard"
+      ],
+      "choices_l2": [
+        "priveľa",
+        "pod vodou",
+        "hasič"
+      ]
+    },
+    {
+      "id": "qcm-prive-a",
+      "type": "qcm",
+      "l1": "trop",
+      "l2": "priveľa",
+      "choices_l1": [
+        "la souris",
+        "le parking",
+        "le pompier"
+      ],
+      "choices_l2": [
+        "rodina",
+        "kopec",
+        "myš"
+      ]
+    },
+    {
+      "id": "qcm-hasi",
+      "type": "qcm",
+      "l1": "le pompier",
+      "l2": "hasič",
+      "choices_l1": [
+        "le canard",
+        "aider",
+        "trop"
+      ],
+      "choices_l2": [
+        "kačka",
+        "priveľa",
+        "pod vodou"
+      ]
+    },
+    {
+      "id": "qcm-rodina",
+      "type": "qcm",
+      "l1": "la famille",
+      "l2": "rodina",
+      "choices_l1": [
+        "trop",
+        "la souris",
+        "aider"
+      ],
+      "choices_l2": [
+        "parkovisko",
+        "myš",
+        "priveľa"
+      ]
+    },
+    {
+      "id": "qcm-ka-ka",
+      "type": "qcm",
+      "l1": "le canard",
+      "l2": "kačka",
+      "choices_l1": [
+        "la famille",
+        "trop",
+        "la souris"
+      ],
+      "choices_l2": [
+        "rodina",
+        "myš",
+        "priveľa"
+      ]
+    },
+    {
+      "id": "qcm-my",
+      "type": "qcm",
+      "l1": "la souris",
+      "l2": "myš",
+      "choices_l1": [
+        "l'inondation",
+        "le parking",
+        "aider"
+      ],
+      "choices_l2": [
+        "kopec",
+        "pod vodou",
+        "parkovisko"
+      ]
+    },
+    {
+      "id": "listen-včera-ani-kvapka-dnes-priveľa",
+      "type": "listen",
+      "l1": "Hier, pas une goutte. Aujourd'hui, trop.",
+      "l2": "Včera ani kvapka. Dnes priveľa.",
+      "choices_l1": [
+        "Hier, trop. Aujourd'hui, pas une goutte.",
+        "Hier, un peu. Aujourd'hui, beaucoup.",
+        "Aujourd'hui, pas une goutte. Demain, trop."
+      ]
+    },
+    {
+      "id": "listen-počasie-sa-zbláznilo",
+      "type": "listen",
+      "l1": "Le temps est devenu fou.",
+      "l2": "Počasie sa zbláznilo.",
+      "choices_l1": [
+        "Le temps est beau.",
+        "Le pompier est devenu fou.",
+        "Le temps a toujours été fou."
+      ]
+    },
+    {
+      "id": "listen-dobrá-otázka-škola-je-pod-vodou",
+      "type": "listen",
+      "l1": "Bonne question. L'école est sous l'eau.",
+      "l2": "Dobrá otázka. Škola je pod vodou.",
+      "choices_l1": [
+        "Bonne réponse. L'école est sur la butte.",
+        "Bonne question. Le parking est sous l'eau.",
+        "Mauvaise question. L'école est fermée."
+      ]
+    },
+    {
+      "id": "blank-pomôžem-ti",
+      "type": "fill-blank",
+      "l1": "Je t'aide.",
+      "l2": "Pomôžem ti.",
+      "missing_l1": "t'aide",
+      "missing_l2": "Pomôžem",
+      "blank_index_l1": 1,
+      "blank_index_l2": 0,
+      "choices_l1": [
+        "t'aime",
+        "t'attends",
+        "t'appelle"
+      ],
+      "choices_l2": [
+        "Ľúbim",
+        "Čakám",
+        "Volám"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-škola-je-na-kopci",
+      "type": "fill-blank",
+      "l1": "L'école est sur la colline.",
+      "l2": "Škola je na kopci.",
+      "missing_l1": "colline",
+      "missing_l2": "kopci",
+      "blank_index_l1": 4,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "rivière",
+        "parking",
+        "place"
+      ],
+      "choices_l2": [
+        "rieke",
+        "parkovisku",
+        "námestí"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-potrebujem-pomoc",
+      "type": "order",
+      "l1": "J'ai besoin d'aide.",
+      "l2": "Potrebujem pomoc.",
+      "tokens_l1": [
+        "J'ai",
+        "besoin",
+        "d'aide.",
+        "Le",
+        "temps",
+        "est",
+        "devenu",
+        "fou."
+      ],
+      "tokens_l2": [
+        "Potrebujem",
+        "pomoc.",
+        "Počasie",
+        "sa",
+        "zbláznilo."
+      ]
+    },
+    {
+      "id": "order-pomôžeme-vám",
+      "type": "order",
+      "l1": "On vous aide.",
+      "l2": "Pomôžeme vám.",
+      "tokens_l1": [
+        "On",
+        "vous",
+        "aide.",
+        "Le",
+        "temps",
+        "a",
+        "toujours",
+        "été",
+        "fou.",
+        "Maintenant,",
+        "il",
+        "a",
+        "internet."
+      ],
+      "tokens_l2": [
+        "Pomôžeme",
+        "vám.",
+        "Počasie",
+        "bolo",
+        "vždy",
+        "bláznivé.",
+        "Teraz",
+        "má",
+        "internet."
+      ]
+    },
+    {
+      "id": "match-povode-vocab",
+      "type": "match",
+      "l1": [
+        "l'inondation",
+        "trop",
+        "le pompier",
+        "la famille"
+      ],
+      "l2": [
+        "povodeň",
+        "priveľa",
+        "hasič",
+        "rodina"
+      ]
+    }
+  ]
+}

@@ -123,7 +123,7 @@
 
 | Slovenčina | Français |
 |------------|----------|
-| včera | hier (rappel) |
+| ako | que (pour comparer) |
 | dvere | la porte |
 | rádio | la radio |
 

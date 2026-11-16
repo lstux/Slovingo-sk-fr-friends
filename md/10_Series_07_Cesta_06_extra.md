@@ -1,8 +1,8 @@
-# Cesta (extra) — V kamióne
+# Cesta (extra) — Späť
 
-@ img/illus_07_cesta_2.jpg | Dans la cabine du camion : Katka a une idée folle, personne n'y croit… sauf le chauffeur. Source : illustration générée avec ChatGPT
+@ img/nova-cesta-asfalt.jpg | Une route qui traverse la forêt. Source : Wikimedia Commons, David Howard, CC BY-SA 2.0
 
-{{fr:Au bout de la route, un camion. Le chauffeur va au sud, et le sud, c'est un bon début. Dans la cabine, la radio annonce les infos. Et Katka a une idée complètement folle.}}
+{{fr:Vingt kilomètres de silence. Puis le chauffeur reparle. Il a une information. Et Gab va prendre une décision.}}
 
 ---
 
@@ -10,74 +10,83 @@
 
 | Slovenčina | Français |
 |------------|----------|
-| prestalo pršať | il a cessé de pleuvoir |
-| klesá | baisse, descend |
-| smerom na juh | en direction du sud |
-| podľa mapy | d'après la carte |
-| podľa mňa | d'après moi |
-| vedie | mène |
-| začiatok | le début |
-| koniec | la fin |
-| nepoznáme | nous ne connaissons pas |
-| ako vždy | comme toujours |
-| juh | le sud |
-| sever | le nord |
-| východ | l'est |
-| hluk | le bruit |
-| Počujete? | Vous entendez ? |
-| bager | la pelleteuse |
-| kamión | le camion |
-| znamená | ça veut dire |
-| plot | la clôture |
-| tabuľa | le panneau |
-| Vstup zakázaný. | Entrée interdite. |
-| možný | possible |
-| žartujem | je plaisante |
-| motor | le moteur |
-| auto | la voiture |
-| stroj | la machine |
-| stromy | les arbres |
-| koľko | combien |
-| obľúbená | préférée |
-| tadiaľto | par ici |
-| kameň | la pierre |
-| asfalt | le bitume |
-| páčiť sa | plaire |
-| rovný | plat, droit |
-| bicykel | le vélo |
-| mohla by | elle pourrait |
-| strom | l'arbre |
-| piesok | le sable |
-| muž | l'homme |
-| bezpečné | sûr, sans danger |
-| ukážem vám | je vous montrerai |
-| stavbyvedúci | le chef de chantier |
-| staviate | vous construisez |
-| spojí | reliera |
-| rýchla | rapide |
-| pre koho | pour qui |
-| ponáhľajú sa | ils sont pressés |
-| rozhoduje | décide |
-| kancelária | le bureau |
-| diaľnica | l'autoroute |
-| ľudia | les gens |
-| staviam | je construis |
-| súhlasím | je suis d'accord |
-| nesúhlasím | je ne suis pas d'accord |
-| zničí | détruira |
-| naraz | à la fois |
-| obaja | tous les deux |
+| podľa mňa | à mon avis |
 | lebo | parce que |
+| stavenisko | le chantier |
+| vyrúbali | ils ont coupé (les arbres) |
+| prilba | le casque |
+| plán | le plan |
+| na druhej strane | de l'autre côté |
+| pešo | à pied |
+| kamión | le camion |
+| Opýtajte sa. | Demandez. |
 | pretože | parce que |
+| muž | l'homme |
+| kamarát | l'ami, le copain |
+| kabína | la cabine |
+| skoro | presque |
+| po ceste | sur la route, en chemin |
+| zablatený | couvert de boue |
+| pomáhali sme | nous avons aidé |
+| čerpadlo | la pompe |
+| ťažší ako | plus lourd que |
+| pre | pour |
+| vozím | je transporte, je livre |
+| nepýtam sa | je ne pose pas de questions |
+| kamionista | le chauffeur de camion |
+| stavba | la construction |
+| ťažký | lourd |
+| dodací list | le bon de livraison |
+| žena | la femme, l'épouse |
+| odkladám | je garde, je range |
+| mať pravdu | avoir raison |
+| krabica | la boîte |
+| sedadlo | le siège |
+| dvesto | deux cents |
+| za sekundu | par seconde |
+| kópia | la copie |
+| znamená to, že | ça veut dire que |
+| sto | cent |
+| choroba | la maladie |
+| papier | le papier |
+| dôkaz | la preuve |
+| za štyri dni | en quatre jours |
+| Ešte šťastie. | Heureusement. |
+| videla som | j'ai vu (une fille) |
+| našla | elle a trouvé |
+| motor | le moteur |
+| tichší | plus silencieux |
+| spokojný | content, satisfait |
+| chcela som povedať | je voulais dire (une fille) |
 | bez nej | sans elle |
-| ľúto | dommage, de la peine |
-| férová | juste, honnête |
-| diplomatické | diplomatique |
-| vodič | le chauffeur (nouveau) |
-| Správy | les informations, le journal (nouveau) |
-| Počúvajte! | Écoutez ! (nouveau) |
-| televízia | la télévision (nouveau) |
-| šialené | fou, dingue (nouveau) |
+| šťastie | la chance |
+| tichý | silencieux |
+| povedala som | j'ai dit (une fille) |
+| ponad | par-dessus |
+| názov | le nom (d'une chose) |
+| potrebovala si | tu avais besoin (à une fille) |
+| hocikto | n'importe qui |
+| hocikoho | n'importe qui (complément) |
+| ústa | la bouche |
+| nenájde | elle ne trouve pas |
+| veta | la phrase |
+| kilometer | le kilomètre |
+| rekord | le record |
+| Teraz nie. | Pas maintenant. |
+
+---
+
+## Les nouveaux mots de l'épisode
+
+| Slovenčina | Français |
+|------------|----------|
+| oslava | la fête |
+| poobede | l'après-midi |
+| klobása | la saucisse |
+| prehliadka | la visite |
+| okrem | sauf |
+| hnevám sa | je suis fâché |
+| tentoraz | cette fois |
 
 ---
 
@@ -86,178 +95,104 @@
 - 💬 Le Narrateur
 - 🦊 Toi, un garçon de quinze ans, de Lyon
 - 🐰 Andrea, une hase de seize ans, ton amie
-- 🐻 Maťo, un ours de quatorze ans, le cousin d'Andrea
-- 🐹 Katka, une marmotte de treize ans, la sœur de Maťo
+- 🐻 Maťo, un ours de quatorze ans
+- 🐹 Katka, une marmotte de treize ans
 - 🧑 Le chauffeur du camion : un adulte, on le vouvoie
-- 📻 La radio
 
 ---
 
 ## La suite de l'épisode
 
-! 💬 Na konci cesty stojí kamión. Vodič pije kávu z termosky.
-> Au bout de la route, il y a un camion. Le chauffeur boit du café dans un thermos.
-> Na konci cesty = au bout de la route
-> stojí kamión = il y a un camion
-> Vodič pije kávu = le chauffeur boit du café
-> z termosky = dans un thermos
-+ Mot nouveau signalé : {{vodič}} = le chauffeur. Pour comprendre : {{termoska}} = le thermos.
+! 🧑 Je to zvláštne. Dnes tam majú oslavu.
+> C'est drôle, quand même. Aujourd'hui, ils font la fête, là-bas.
+> Je to zvláštne = c'est bizarre
+> Dnes tam majú oslavu = aujourd'hui ils ont une fête là-bas
++ Mot nouveau signalé : {{oslava}} = la fête.
 
-! 🐰 Dobrý deň. Idete na západ?
-> Bonjour. Vous allez vers l'ouest ?
-> Idete na západ = vous allez vers l'ouest
+! 🐰 Kde?
+> Où ?
 
-! 🧑 Idem na juh, na Zvolen. Prečo?
-> Je vais vers le sud, à Zvolen. Pourquoi ?
-> Idem na juh = je vais vers le sud
-> na Zvolen = vers Zvolen
-> Prečo = pourquoi
+! 🧑 V sivej budove. Deň otvorených dverí, dnes poobede. Nechali ho, aj keď bola povodeň. Sú tam klobásy a prehliadka.
+> Au bâtiment gris. Journée portes ouvertes, cet après-midi. Ils l'ont gardée, malgré l'inondation. Il y a des saucisses et une visite.
+> V sivej budove = au bâtiment gris
+> Deň otvorených dverí = la journée portes ouvertes
+> dnes poobede = cet après-midi
+> Nechali ho = ils l'ont gardée
+> aj keď bola povodeň = même s'il y a eu une inondation
+> Sú tam klobásy a prehliadka = il y a des saucisses et une visite
++ Mots nouveaux signalés : {{poobede}} = l'après-midi, {{klobása}} = la saucisse, {{prehliadka}} = la visite. Et {{aj keď}} = même si.
 
-! 🐹 Lebo my ideme do Bratislavy. Juh je tiež dobrý začiatok. Môžeme ísť s vami?
-> Parce que nous, on va à Bratislava. Le sud, c'est aussi un bon début. On peut venir avec vous ?
-> Lebo my ideme = parce que nous allons
-> do Bratislavy = à Bratislava
-> Juh je tiež dobrý začiatok = le sud est aussi un bon début
-> Môžeme ísť s vami = pouvons-nous venir avec vous
+! 🐹 Prehliadka čoho?
+> Une visite de quoi ?
 
-! 🧑 Štyria? Zmestíte sa. V kabíne je miesto.
-> À quatre ? Vous tiendrez. Il y a de la place dans la cabine.
-> Štyria = à quatre
-> Zmestíte sa = vous tiendrez
-> V kabíne je miesto = il y a de la place dans la cabine
-+ Pour comprendre : {{zmestiť sa}} = tenir, avoir assez de place.
+! 🧑 Všetkého. Okrem toho, čo je zaujímavé, myslím.
+> De tout. Sauf de ce qui est intéressant, je suppose.
+> Všetkého = de tout
+> Okrem toho, čo je zaujímavé = sauf ce qui est intéressant
+> myslím = je pense
 
-! 💬 Kamión ide dlho do noci. V kabíne hrá rádio.
-> Le camion roule tard dans la nuit. Dans la cabine, la radio joue.
-> Kamión ide = le camion roule
-> dlho do noci = tard dans la nuit
-> V kabíne hrá rádio = dans la cabine, la radio joue
+! 💬 Andrea sa pozerá na líšku. Líška sa stále pozerá von oknom.
+> Andrea regarde Gab. Gab regarde toujours par la fenêtre.
+> Andrea sa pozerá na líšku = Andrea regarde le renard
+> Líška sa stále pozerá von oknom = le renard regarde toujours par la fenêtre
 
-! 📻 ...a teraz Správy STVR. Dobrý večer. Dnes sa v Liptove...
-> ...et maintenant, le journal Správy STVR. Bonsoir. Aujourd'hui, dans le Liptov...
-> a teraz = et maintenant
-> Správy STVR = le journal de la STVR
-> Dnes sa v Liptove = aujourd'hui, dans le Liptov
-+ Mot nouveau signalé : {{Správy}} = les informations, le journal. {{správa}} = un message, {{Správy}} = les infos.
+! 🐰 Čerpadlá. Ak bežia, potrebujeme fotku.
+> Les pompes. Si elles tournent, il faut une photo.
+> Ak bežia = si elles tournent
+> potrebujeme fotku = nous avons besoin d'une photo
 
-! 🐹 Správy! Teraz!
-> Les infos ! Maintenant !
+! 🐻 Ty dnu nemôžeš. List od advokáta.
+> Tu ne peux pas entrer. La lettre de l'avocat.
+> Ty dnu nemôžeš = toi, tu ne peux pas entrer
+> List od advokáta = la lettre de l'avocat
 
-! 🧑 Počúvajte. Hovoria o povodni.
-> Écoutez. Ils parlent de l'inondation.
-> Počúvajte = écoutez
-> Hovoria o povodni = ils parlent de l'inondation
-+ Mot nouveau signalé : {{Počúvajte!}} = écoutez ! ({{počúvať}} = écouter ; {{počuť}} = entendre).
+! 🐰 Nie. Ja nemôžem.
+> Non. Moi, je ne peux pas.
 
-! 📻 ...Rieka Váh dosiahla maximálnu úroveň. Obyvatelia dedín pri rieke sa presunuli do škôl. Vláda vyhlásila mimoriadnu situáciu...
-> ...Le Váh a atteint son niveau maximal. Les habitants des villages au bord de la rivière ont été déplacés dans les écoles. Le gouvernement a déclaré une situation exceptionnelle...
-> Rieka Váh dosiahla = le Váh a atteint
-> maximálnu úroveň = son niveau maximal
-> Obyvatelia dedín pri rieke = les habitants des villages au bord de la rivière
-> sa presunuli do škôl = se sont déplacés dans les écoles
-> Vláda vyhlásila = le gouvernement a déclaré
-> mimoriadnu situáciu = une situation exceptionnelle
-+ Pour comprendre : la langue des informations est plus difficile. Retiens surtout {{mimoriadna situácia}} = situation exceptionnelle, et {{vláda}} = le gouvernement.
+! 💬 Ticho.
+> Un silence.
 
-! 📻 ...Hovorca skupiny Zelená vlna povedal, že nie je dôvod na paniku...
-> ...Le porte-parole du groupe Zelená vlna a déclaré qu'il n'y avait aucune raison de paniquer...
-> Hovorca skupiny Zelená vlna = le porte-parole du groupe Zelená vlna
-> povedal, že = a dit que
-> nie je dôvod na paniku = il n'y a aucune raison de paniquer
+! 🦊 Zastavte, prosím.
+> Arrêtez le camion, s'il vous plaît.
+> Zastavte, prosím = arrêtez-vous, s'il vous plaît
 
-! 🐰 Zase on.
-> Encore lui.
-> Zase = encore
-> on = lui
+! 🧑 Tu?
+> Ici ?
 
-! 🐻 O nás nehovoria.
-> Ils ne parlent pas de nous.
-> O nás = de nous
-> nehovoria = ils ne parlent pas
+! 🦊 Tu. Idem si dať klobásu.
+> Ici. Je vais manger une saucisse.
+> Idem si dať klobásu = je vais prendre une saucisse
 
-! 🐹 O nás nehovoria. A hovoria to zle.
-> Ils ne parlent pas de nous. Et ils le disent mal.
-> O nás nehovoria = ils ne parlent pas de nous
-> A hovoria to zle = et ils le disent mal
+! 🐰 [USER_NAME]…
+> [USER_NAME]…
 
-! 🦊 Zle? Čo je zle?
-> Mal ? Qu'est-ce qui est mal ?
+! 🦊 Nerobím to pre teba. Robím to pre potok.
+> Je ne le fais pas pour toi. Je le fais pour le ruisseau.
+> Nerobím to pre teba = je ne le fais pas pour toi
+> Robím to pre potok = je le fais pour le ruisseau
 
-! 🐹 Hovoria „mimoriadna situácia“. A nehovoria, že dva mesiace nepršalo. A že zmizla voda.
-> Ils disent « situation exceptionnelle ». Et ils ne disent pas qu'il n'a pas plu pendant deux mois. Et que l'eau avait disparu.
-> Hovoria = ils disent
-> A nehovoria = et ils ne disent pas
-> že dva mesiace nepršalo = qu'il n'a pas plu pendant deux mois
-> A že zmizla voda = et que l'eau avait disparu
-+ Pour comprendre : {{zmizla}} = a disparu.
+! 🐰 Dobre.
+> D'accord.
 
-! 🐰 Nehovoria, prečo.
-> Ils ne disent pas pourquoi.
+! 🦊 A trochu pre teba. Ale stále sa hnevám.
+> Et un peu pour toi. Mais je suis encore fâché.
+> A trochu pre teba = et un peu pour toi
+> Ale stále sa hnevám = mais je suis encore fâché
++ Mot nouveau signalé : {{hnevám sa}} = je suis fâché.
 
-! 🐹 Takže im to musíme povedať.
-> Donc il faut qu'on leur dise.
-> Takže = donc
-> im to musíme povedať = nous devons le leur dire
+! 🐰 Uvidíme.
+> On verra.
 
-! 🦊 Kto?
-> Qui ?
-
-! 🐹 My.
-> Nous.
-
-! 🦊 A ako?
-> Et comment ?
-
-! 🐹 Pôjdeme tam. Do televízie.
-> On va y aller. À la télévision.
-> Pôjdeme tam = nous irons là-bas
-> Do televízie = à la télévision
-+ Mot nouveau signalé : {{televízia}} = la télévision ; {{do televízie}} = à la télévision.
-
-! 🦊 Do televízie? To nemyslíš vážne.
-> À la télévision ? Tu ne parles pas sérieusement.
-> To nemyslíš vážne = tu ne le penses pas sérieusement
-
-! 🐹 Myslím.
-> Si.
-> Myslím = je le pense
-
-! 🐻 A čo im povieme?
-> Et qu'est-ce qu'on leur dira ?
-> A čo im povieme = et que leur dirons-nous
-
-! 🐹 Čo sme videli. Všetko.
-> Ce qu'on a vu. Tout.
-> Čo sme videli = ce que nous avons vu
-> Všetko = tout
-
-! 🦊 Katka, to je šialené...
-> Katka, c'est de la folie...
-> to je šialené = c'est fou
-+ Mot nouveau signalé : {{šialené}} = fou, dingue.
-
-! 🐰 Počkaj. To nie je zlé.
-> Attends. Ce n'est pas mal.
-
-! 🦊 Naozaj? Zajac, líška, medveď a svišť v televízii?
-> Vraiment ? Un lièvre, un renard, un ours et une marmotte à la télévision ?
-> Zajac, líška, medveď a svišť = un lièvre, un renard, un ours et une marmotte
-> v televízii = à la télévision
-
-! 🐰 Zajačica.
-> Une hase.
-
-! 🦊 Zajačica, líška, medveď a svišť v televízii. Lepšie?
-> Une hase, un renard, un ours et une marmotte à la télévision. Mieux ?
-> Lepšie = mieux
-
-! 🐰 Trochu.
-> Un peu.
+! 🦊 A nie. Tentoraz to poviem ja.
+> Ah non. Cette fois, c'est moi qui le dis.
+> A nie = ah non
+> Tentoraz to poviem ja = cette fois, c'est moi qui le dis
++ Mot nouveau signalé : {{tentoraz}} = cette fois. Gab lui a volé sa phrase.
 
 ---
 
 ## 🇸🇰 Coin slovaque
 
-{{fr:La}} {{STVR}} {{fr:est la radio-télévision publique slovaque. Son journal télévisé du soir s'appelle}} {{Správy STVR}}{{fr:, et il passe à 19 heures sur la chaîne}} {{Jednotka}}{{fr:.}}
+{{fr:Fais le point. Six pièces : le permis, le registre, la photo de la tranchée, les captures, la vidéo du tuyau, et le bon de livraison des quatre pompes.}}
 
-{{fr:Le septième chapitre est terminé. La bande ne cherche plus seulement de l'eau. Elle cherche quelqu'un qui écoute.}}
+{{fr:Il manque toujours deux choses : quelqu'un qui sait lire les chiffres, et quelqu'un de l'intérieur. Cet après-midi, le bâtiment gris ouvre ses portes à tout le monde. Même aux renards.}}

@@ -1,0 +1,248 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-piatok",
+      "type": "qcm",
+      "l1": "vendredi",
+      "l2": "piatok",
+      "choices_l1": [
+        "ils bougent",
+        "le carré",
+        "(ça) baisse"
+      ],
+      "choices_l2": [
+        "zmenili",
+        "štvorec",
+        "klesá"
+      ]
+    },
+    {
+      "id": "qcm-kles",
+      "type": "qcm",
+      "l1": "(ça) baisse",
+      "l2": "klesá",
+      "choices_l1": [
+        "mou",
+        "vendredi",
+        "savoir"
+      ],
+      "choices_l2": [
+        "plný blata",
+        "betón",
+        "zmenili"
+      ]
+    },
+    {
+      "id": "qcm-unaven",
+      "type": "qcm",
+      "l1": "fatigué",
+      "l2": "unavený",
+      "choices_l1": [
+        "pendant",
+        "le carré",
+        "(ça) baisse"
+      ],
+      "choices_l2": [
+        "betón",
+        "hýbu sa",
+        "klesá"
+      ]
+    },
+    {
+      "id": "qcm-pln-blata",
+      "type": "qcm",
+      "l1": "couvert de boue",
+      "l2": "plný blata",
+      "choices_l1": [
+        "Je suis tombée. (une fille)",
+        "je vais appeler",
+        "la carte de visite"
+      ],
+      "choices_l2": [
+        "klesá",
+        "štvorec",
+        "unavený"
+      ]
+    },
+    {
+      "id": "qcm-na-jeho-mieste",
+      "type": "qcm",
+      "l1": "à sa place",
+      "l2": "na jeho mieste",
+      "choices_l1": [
+        "Il va pleuvoir.",
+        "trente et un",
+        "la petite boîte"
+      ],
+      "choices_l2": [
+        "pred dvoma rokmi",
+        "Koľko máš rokov?",
+        "Videli ste ju?"
+      ]
+    },
+    {
+      "id": "qcm-tvorec",
+      "type": "qcm",
+      "l1": "le carré",
+      "l2": "štvorec",
+      "choices_l1": [
+        "ils bougent",
+        "fatigué",
+        "vendredi"
+      ],
+      "choices_l2": [
+        "betón",
+        "počas",
+        "zmenili"
+      ]
+    },
+    {
+      "id": "listen-dnes-v-noci-počas-povodne",
+      "type": "listen",
+      "l1": "Cette nuit. Pendant l'inondation.",
+      "l2": "Dnes v noci. Počas povodne.",
+      "choices_l1": [
+        "Ce matin. Pendant l'orage.",
+        "Hier soir. Après l'inondation.",
+        "Cette nuit. Avant l'inondation."
+      ]
+    },
+    {
+      "id": "listen-nemohol-si-to-vedieť",
+      "type": "listen",
+      "l1": "Tu ne pouvais pas savoir.",
+      "l2": "Nemohol si to vedieť.",
+      "choices_l1": [
+        "Tu devais savoir.",
+        "Je ne pouvais pas savoir.",
+        "Tu savais tout."
+      ]
+    },
+    {
+      "id": "listen-ty-si-to-vedela",
+      "type": "listen",
+      "l1": "Toi, tu savais.",
+      "l2": "Ty si to vedela.",
+      "choices_l1": [
+        "Moi, je savais.",
+        "Toi, tu ne savais pas.",
+        "Lui, il savait."
+      ]
+    },
+    {
+      "id": "blank-ale-ty-máš-screenshoty",
+      "type": "fill-blank",
+      "l1": "Mais tu as les captures !",
+      "l2": "Ale ty máš screenshoty!",
+      "missing_l1": "captures",
+      "missing_l2": "screenshoty",
+      "blank_index_l1": 4,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "photos",
+        "chiffres",
+        "plaques"
+      ],
+      "choices_l2": [
+        "fotky",
+        "čísla",
+        "poklopy"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-to-som-ja-to-starosta-všetko-som-mu-povedal",
+      "type": "fill-blank",
+      "l1": "C'est moi. C'est le maire. Je lui ai tout dit.",
+      "l2": "To som ja. To starosta. Všetko som mu povedal.",
+      "missing_l1": "maire",
+      "missing_l2": "starosta",
+      "blank_index_l1": 4,
+      "blank_index_l2": 4,
+      "choices_l1": [
+        "chauffeur",
+        "pompier",
+        "voisin"
+      ],
+      "choices_l2": [
+        "kamionista",
+        "hasič",
+        "sused"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-poďte-sa-pozrieť",
+      "type": "order",
+      "l1": "Venez voir.",
+      "l2": "Poďte sa pozrieť.",
+      "tokens_l1": [
+        "Venez",
+        "voir.",
+        "Moi,",
+        "j'ai",
+        "déjà",
+        "fait",
+        "la",
+        "même",
+        "chose.",
+        "Avec",
+        "une",
+        "limonade."
+      ],
+      "tokens_l2": [
+        "Poďte",
+        "sa",
+        "pozrieť.",
+        "Aj",
+        "ja",
+        "som",
+        "urobila",
+        "to",
+        "isté.",
+        "S",
+        "limonádou."
+      ]
+    },
+    {
+      "id": "order-maťo-sa-pozerá-na-svoje-nohy",
+      "type": "order",
+      "l1": "Maťo regarde ses pieds.",
+      "l2": "Maťo sa pozerá na svoje nohy.",
+      "tokens_l1": [
+        "Maťo",
+        "regarde",
+        "ses",
+        "pieds.",
+        "mou"
+      ],
+      "tokens_l2": [
+        "Maťo",
+        "sa",
+        "pozerá",
+        "na",
+        "svoje",
+        "nohy.",
+        "mäkký"
+      ]
+    },
+    {
+      "id": "match-piatok-vocab",
+      "type": "match",
+      "l1": [
+        "vendredi",
+        "(ça) baisse",
+        "fatigué",
+        "couvert de boue"
+      ],
+      "l2": [
+        "piatok",
+        "klesá",
+        "unavený",
+        "plný blata"
+      ]
+    }
+  ]
+}

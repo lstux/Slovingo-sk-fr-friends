@@ -3,252 +3,298 @@
   "sync": "full",
   "exercises": [
     {
-      "id": "listen-pre-o-n-m-to-hovor-te",
-      "type": "listen",
-      "l1": "Pourquoi nous le dites-vous ?",
-      "l2": "Prečo nám to hovoríte?",
+      "id": "qcm-riadok",
+      "type": "qcm",
+      "l1": "la ligne",
+      "l2": "riadok",
       "choices_l1": [
-        "Pourquoi vous ne nous le dites pas ?",
-        "Pourquoi tu nous le dis ?",
-        "Qu'est-ce que vous nous dites ?"
-      ]
-    },
-    {
-      "id": "listen-lebo-ste-sa-p-tali",
-      "type": "listen",
-      "l1": "Parce que vous avez posé la question.",
-      "l2": "Lebo ste sa pýtali.",
-      "choices_l1": [
-        "Parce que vous n'avez rien demandé.",
-        "Parce que j'ai posé la question.",
-        "Parce que vous avez répondu."
-      ]
-    },
-    {
-      "id": "listen-pr-ve-preto",
-      "type": "listen",
-      "l1": "C'est justement pour ça.",
-      "l2": "Práve preto.",
-      "choices_l1": [
-        "Ce n'est pas pour ça.",
-        "C'est justement maintenant.",
-        "C'est pour qui ?"
-      ]
-    },
-    {
-      "id": "listen-artovala-som-skoro",
-      "type": "listen",
-      "l1": "Je plaisantais. Presque.",
-      "l2": "Žartovala som. Skoro.",
-      "choices_l1": [
-        "Je ne plaisantais pas. Pas du tout.",
-        "Je plaisante. Toujours.",
-        "Tu plaisantais. Presque."
-      ]
-    },
-    {
-      "id": "listen-do-bratislavy-do-telev-zie",
-      "type": "listen",
-      "l1": "À Bratislava. À la télévision.",
-      "l2": "Do Bratislavy. Do televízie.",
-      "choices_l1": [
-        "À Bratislava. À la radio.",
-        "À Košice. À la télévision.",
-        "À Banská Štiavnica. Aux lacs."
-      ]
-    },
-    {
-      "id": "listen-naozaj-vy-ste-m-dri",
-      "type": "listen",
-      "l1": "Vraiment ? Vous êtes malins.",
-      "l2": "Naozaj? Vy ste múdri.",
-      "choices_l1": [
-        "Vraiment ? Vous êtes fous.",
-        "Vraiment ? Tu es malin.",
-        "Vraiment ? Vous êtes fatigués."
-      ]
-    },
-    {
-      "id": "listen-akujeme-marek",
-      "type": "listen",
-      "l1": "Merci, Marek.",
-      "l2": "Ďakujeme, Marek.",
-      "choices_l1": [
-        "Au revoir, Marek.",
-        "Pardon, Marek.",
-        "Bonsoir, Marek."
-      ]
-    },
-    {
-      "id": "match-aj-ke-vocab",
-      "type": "match",
-      "l1": [
-        "même si",
-        "c'est pour ça",
-        "là où",
-        "quand même"
-      ],
-      "l2": [
-        "aj keď",
-        "preto",
-        "tam, kde",
-        "aj tak"
-      ]
-    },
-    {
-      "id": "match-budova-nouns",
-      "type": "match",
-      "l1": [
-        "le bâtiment",
-        "la zone humide, le marais",
-        "les grenouilles",
-        "le blaireau"
-      ],
-      "l2": [
-        "budova",
-        "mokraď",
-        "žaby",
-        "jazvec"
-      ]
-    },
-    {
-      "id": "blank-rozumiem-nemus-te-mi-veri-ale-chcem-v-m-da-jednu-radu",
-      "type": "fill-blank",
-      "l1": "Je comprends. Vous n'avez pas à me croire. Mais je veux vous donner un conseil.",
-      "l2": "Rozumiem. Nemusíte mi veriť. Ale chcem vám dať jednu radu.",
-      "missing_l1": "conseil",
-      "missing_l2": "radu",
-      "blank_index_l1": 14,
-      "blank_index_l2": 9,
-      "choices_l1": [
-        "thé",
-        "billet",
-        "sandwich"
+        "le premier",
+        "Dis-moi.",
+        "le visiteur"
       ],
       "choices_l2": [
-        "mapu",
-        "vodu",
-        "správu"
+        "nevedeli",
+        "predchádzajúci",
+        "zabudol som"
+      ]
+    },
+    {
+      "id": "qcm-pij",
+      "type": "qcm",
+      "l1": "ils boivent",
+      "l2": "pijú",
+      "choices_l1": [
+        "la musique",
+        "le premier",
+        "par l'escalier"
+      ],
+      "choices_l2": [
+        "pochopil si",
+        "nad tým",
+        "posledný"
+      ]
+    },
+    {
+      "id": "qcm-nepr-de",
+      "type": "qcm",
+      "l1": "il ne viendra pas",
+      "l2": "nepríde",
+      "choices_l1": [
+        "la prochaine fois",
+        "j'ai attendu (une fille)",
+        "j'avais peur (une fille)"
+      ],
+      "choices_l2": [
+        "nabudúce",
+        "pódium",
+        "čakala som"
+      ]
+    },
+    {
+      "id": "qcm-akala-som",
+      "type": "qcm",
+      "l1": "j'ai attendu (une fille)",
+      "l2": "čakala som",
+      "choices_l1": [
+        "il ne viendra pas",
+        "la prochaine fois",
+        "j'avais peur (une fille)"
+      ],
+      "choices_l2": [
+        "nepríde",
+        "nabudúce",
+        "pódium"
+      ]
+    },
+    {
+      "id": "qcm-b-la-som-sa",
+      "type": "qcm",
+      "l1": "j'avais peur (une fille)",
+      "l2": "bála som sa",
+      "choices_l1": [
+        "il ne viendra pas",
+        "la scène, l'estrade",
+        "j'ai attendu (une fille)"
+      ],
+      "choices_l2": [
+        "sto litrov za sekundu",
+        "Som doma, lebo prší.",
+        "Ako to vieš?"
+      ]
+    },
+    {
+      "id": "qcm-p-dium",
+      "type": "qcm",
+      "l1": "la scène, l'estrade",
+      "l2": "pódium",
+      "choices_l1": [
+        "il ne viendra pas",
+        "j'ai attendu (une fille)",
+        "la prochaine fois"
+      ],
+      "choices_l2": [
+        "komplikovaný",
+        "nepríde",
+        "nabudúce"
+      ]
+    },
+    {
+      "id": "qcm-nabud-ce",
+      "type": "qcm",
+      "l1": "la prochaine fois",
+      "l2": "nabudúce",
+      "choices_l1": [
+        "la scène, l'estrade",
+        "il ne viendra pas",
+        "j'avais peur (une fille)"
+      ],
+      "choices_l2": [
+        "pódium",
+        "komplikovaný",
+        "nepríde"
+      ]
+    },
+    {
+      "id": "listen-nepríde",
+      "type": "listen",
+      "l1": "Il ne viendra pas.",
+      "l2": "Nepríde.",
+      "choices_l1": [
+        "Il viendra.",
+        "Il est déjà là.",
+        "Il ne sait pas."
+      ]
+    },
+    {
+      "id": "listen-bála-som-sa-že-povieš-nie",
+      "type": "listen",
+      "l1": "J'avais peur que tu dises non.",
+      "l2": "Bála som sa, že povieš nie.",
+      "choices_l1": [
+        "J'étais sûre que tu dirais oui.",
+        "J'avais peur que tu partes.",
+        "Tu avais peur que je dise non."
+      ]
+    },
+    {
+      "id": "listen-videl-nás",
+      "type": "listen",
+      "l1": "Il nous a vus.",
+      "l2": "Videl nás.",
+      "choices_l1": [
+        "Il ne nous a pas vus.",
+        "On l'a vu.",
+        "Elle nous a vus."
+      ]
+    },
+    {
+      "id": "blank-povedal-by-som-áno",
+      "type": "fill-blank",
+      "l1": "J'aurais dit oui.",
+      "l2": "Povedal by som áno.",
+      "missing_l1": "oui",
+      "missing_l2": "áno",
+      "blank_index_l1": 2,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "non",
+        "rien",
+        "merci"
+      ],
+      "choices_l2": [
+        "nie",
+        "nič",
+        "ďakujem"
       ],
       "show_translation": true
     },
     {
-      "id": "blank-tak-v-m-budem-dr-a-palce-a-pozera-nie-o-in",
+      "id": "blank-si-komplikovaný",
       "type": "fill-blank",
-      "l1": "Alors je croiserai les doigts pour vous, et je regarderai autre chose.",
-      "l2": "Tak vám budem držať palce a pozerať niečo iné.",
-      "missing_l1": "doigts",
-      "missing_l2": "palce",
-      "blank_index_l1": 4,
-      "blank_index_l2": 4,
+      "l1": "Tu es compliqué.",
+      "l2": "Si komplikovaný.",
+      "missing_l1": "compliqué",
+      "missing_l2": "komplikovaný",
+      "blank_index_l1": 2,
+      "blank_index_l2": 1,
       "choices_l1": [
-        "yeux",
-        "mains",
-        "pieds"
+        "simple",
+        "gentil",
+        "bête"
       ],
       "choices_l2": [
-        "oči",
-        "ruky",
-        "nohy"
+        "jednoduchý",
+        "milý",
+        "hlúpy"
       ],
       "show_translation": true
     },
     {
-      "id": "order-nie-je-za-o-ak-v-s-uvid-m-v-telev-zii-budem-sa-smia-a-mo-no-aj-plaka",
+      "id": "order-mohla-si-mi-to-povedať-v-električke",
       "type": "order",
-      "l1": "Il n'y a pas de quoi. Si je vous vois à la télévision, je rirai. Et peut-être que je pleurerai aussi.",
-      "l2": "Nie je za čo. Ak vás uvidím v televízii, budem sa smiať. A možno aj plakať.",
+      "l1": "Tu aurais pu me le dire. Dans le tram.",
+      "l2": "Mohla si mi to povedať. V električke.",
       "tokens_l1": [
-        "Il",
-        "n'y",
-        "a",
-        "pas",
-        "de",
-        "quoi.",
-        "Si",
-        "je",
-        "vous",
-        "vois",
-        "à",
-        "la",
-        "télévision,",
-        "je rirai.",
-        "Et",
-        "peut-être",
-        "que",
-        "je",
-        "pleurerai",
-        "aussi."
+        "Tu",
+        "aurais",
+        "pu",
+        "me",
+        "le",
+        "dire.",
+        "Dans",
+        "le",
+        "tram.",
+        "bus"
       ],
       "tokens_l2": [
-        "Nie",
-        "je",
-        "za",
-        "čo.",
-        "Ak",
-        "vás",
-        "uvidím",
-        "v",
-        "televízii,",
-        "budem",
-        "sa",
-        "smiať.",
-        "A",
-        "možno",
-        "aj",
-        "plakať.",
-        "televízie"
+        "Mohla",
+        "si",
+        "mi",
+        "to",
+        "povedať.",
+        "V",
+        "električke.",
+        "autobus"
       ]
     },
     {
-      "id": "order-a-e-te-nie-o-cestou-cho-te-cez-bansk-tiavnicu-s-tam-star-jazer-tam-e-te-voda-je",
+      "id": "order-skončili-ste-autobus-do-štiavnice-ide-o-štyri-minúty",
       "type": "order",
-      "l1": "Et encore une chose. En chemin, passez par Banská Štiavnica. Il y a de vieux lacs. Là-bas, il y a encore de l'eau.",
-      "l2": "A ešte niečo. Cestou choďte cez Banskú Štiavnicu. Sú tam staré jazerá. Tam je ešte voda.",
+      "l1": "Vous avez fini ? Le bus pour Štiavnica part dans quatre minutes.",
+      "l2": "Skončili ste? Autobus do Štiavnice ide o štyri minúty.",
       "tokens_l1": [
-        "Et",
-        "encore",
+        "Vous",
+        "avez",
+        "fini",
+        "?",
+        "Le",
+        "bus",
+        "pour",
+        "Štiavnica",
+        "part",
+        "dans",
+        "quatre",
+        "minutes.",
+        "Dehors,",
+        "derrière",
+        "les",
+        "arbres.",
+        "Maťo",
+        "a",
         "une",
-        "chose.",
-        "En",
-        "chemin,",
-        "passez",
-        "par",
-        "Banská",
-        "Štiavnica.",
-        "Il",
-        "y",
+        "saucisse",
+        "dans",
+        "chaque",
+        "main.",
+        "Katka",
         "a",
+        "le",
+        "mot",
         "de",
-        "vieux",
-        "lacs.",
-        "Là-bas,",
-        "il",
-        "y",
-        "a",
-        "encore",
-        "de",
-        "l'eau.",
-        "la"
+        "passe",
+        "du",
+        "wifi."
       ],
       "tokens_l2": [
-        "A",
-        "ešte",
-        "niečo.",
-        "Cestou",
-        "choďte",
-        "cez",
-        "Banskú",
-        "Štiavnicu.",
-        "Sú",
-        "tam",
-        "staré",
-        "jazerá.",
-        "Tam",
-        "je",
-        "ešte",
-        "voda.",
-        "televízie"
+        "Skončili",
+        "ste?",
+        "Autobus",
+        "do",
+        "Štiavnice",
+        "ide",
+        "o",
+        "štyri",
+        "minúty.",
+        "Vonku,",
+        "za",
+        "stromami.",
+        "Maťo",
+        "má",
+        "v",
+        "každej",
+        "ruke",
+        "klobásu.",
+        "Katka",
+        "má",
+        "heslo",
+        "na",
+        "wifi."
+      ]
+    },
+    {
+      "id": "match-bal-n-vocab",
+      "type": "match",
+      "l1": [
+        "le ballon",
+        "la musique",
+        "l'entrée",
+        "le t-shirt"
+      ],
+      "l2": [
+        "balón",
+        "hudba",
+        "vchod",
+        "tričko"
       ]
     }
   ]

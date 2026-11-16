@@ -3,221 +3,266 @@
   "sync": "full",
   "exercises": [
     {
-      "id": "listen-to-ko-zvierat-na-jednom-mieste-som-e-te-nevidel",
-      "type": "listen",
-      "l1": "Je n'ai jamais vu autant d'animaux au même endroit.",
-      "l2": "Toľko zvierat na jednom mieste som ešte nevidel.",
+      "id": "qcm-ne-akujte",
+      "type": "qcm",
+      "l1": "Ne me remerciez pas.",
+      "l2": "Neďakujte.",
       "choices_l1": [
-        "Je n'ai jamais vu aussi peu d'animaux au même endroit.",
-        "J'ai déjà vu autant d'animaux au même endroit.",
-        "Je n'ai jamais vu autant d'eau au même endroit."
-      ]
-    },
-    {
-      "id": "listen-akujem-to-je-od-v-s-mil",
-      "type": "listen",
-      "l1": "Merci, c'est gentil à vous.",
-      "l2": "Ďakujem, to je od vás milé.",
-      "choices_l1": [
-        "Merci, c'est gentil à toi.",
-        "Non merci, je n'ai pas soif.",
-        "Merci, c'est très chaud."
-      ]
-    },
-    {
-      "id": "listen-po-kaj-najprv-ty",
-      "type": "listen",
-      "l1": "Attends. Toi d'abord.",
-      "l2": "Počkaj. Najprv ty.",
-      "choices_l1": [
-        "Attends. Moi d'abord.",
-        "Viens. Toi d'abord.",
-        "Attends. Toi ensuite."
-      ]
-    },
-    {
-      "id": "listen-no-som-len-unaven",
-      "type": "listen",
-      "l1": "Oui. Je suis juste fatiguée.",
-      "l2": "Áno. Som len unavená.",
-      "choices_l1": [
-        "Oui. Je suis juste contente.",
-        "Non. Je ne suis pas fatiguée.",
-        "Oui. Je suis juste mouillée."
-      ]
-    },
-    {
-      "id": "listen-to-nie-je-za-o-st-le-je-tu-miesto",
-      "type": "listen",
-      "l1": "Il n'y a pas de quoi. Il y a encore de la place ?",
-      "l2": "To nie je za čo. Stále je tu miesto?",
-      "choices_l1": [
-        "Il n'y a pas de quoi. Il y a encore de la soupe ?",
-        "Merci beaucoup. Il y a encore de la place ?",
-        "Il n'y a pas de quoi. Il n'y a plus de place ?"
-      ]
-    },
-    {
-      "id": "listen-neviem-ale-niekto-by-to-mal-poveda",
-      "type": "listen",
-      "l1": "Je ne sais pas. Mais quelqu'un devrait le dire.",
-      "l2": "Neviem. Ale niekto by to mal povedať.",
-      "choices_l1": [
-        "Je sais. Mais personne ne devrait le dire.",
-        "Je ne sais pas. Mais quelqu'un l'a dit.",
-        "Je ne sais pas. Mais quelqu'un devrait écouter."
-      ]
-    },
-    {
-      "id": "listen-ani-ja-tak-e-to-m-eme-zisti-spolu",
-      "type": "listen",
-      "l1": "Moi non plus. Donc on peut le découvrir ensemble.",
-      "l2": "Ani ja. Takže to môžeme zistiť spolu.",
-      "choices_l1": [
-        "Moi aussi. Donc on peut le découvrir ensemble.",
-        "Moi non plus. Donc on ne peut pas y aller.",
-        "Moi non plus. Donc tu peux y aller seule."
-      ]
-    },
-    {
-      "id": "match-st-pa-vocab",
-      "type": "match",
-      "l1": [
-        "monte (en ce moment)",
-        "va monter (une fois)",
-        "aider",
-        "sauver"
-      ],
-      "l2": [
-        "stúpa",
-        "stúpne",
-        "pomôcť",
-        "zachrániť"
-      ]
-    },
-    {
-      "id": "match-tra-nouns",
-      "type": "match",
-      "l1": [
-        "la voie ferrée",
-        "le pompier",
-        "le frigo",
-        "le panier"
-      ],
-      "l2": [
-        "trať",
-        "hasič",
-        "chladnička",
-        "kôš"
-      ]
-    },
-    {
-      "id": "blank-dobr-ve-er-hasi-i-mi-povedali-e-ste-pom-hali-ve-mi-v-m-akujem",
-      "type": "fill-blank",
-      "l1": "Bonsoir. Les pompiers m'ont dit que vous avez aidé. Merci beaucoup.",
-      "l2": "Dobrý večer. Hasiči mi povedali, že ste pomáhali. Veľmi vám ďakujem.",
-      "missing_l1": "pompiers",
-      "missing_l2": "Hasiči",
-      "blank_index_l1": 2,
-      "blank_index_l2": 2,
-      "choices_l1": [
-        "moutons",
-        "enfants",
-        "gens"
+        "si (on imaginait)",
+        "il filme, elle filme",
+        "cassé, en panne"
       ],
       "choices_l2": [
-        "Ovce",
-        "Deti",
-        "Ľudia"
+        "povodeň",
+        "keby",
+        "vedieť"
+      ]
+    },
+    {
+      "id": "qcm-filmuje",
+      "type": "qcm",
+      "l1": "il filme, elle filme",
+      "l2": "filmuje",
+      "choices_l1": [
+        "ils ont changé",
+        "couvert de boue",
+        "Ne me remerciez pas."
+      ],
+      "choices_l2": [
+        "pod vodou",
+        "brána",
+        "vaňa"
+      ]
+    },
+    {
+      "id": "qcm-sobota",
+      "type": "qcm",
+      "l1": "samedi",
+      "l2": "sobota",
+      "choices_l1": [
+        "en direct",
+        "le château",
+        "de l'intérieur"
+      ],
+      "choices_l2": [
+        "zvnútra",
+        "vyhrá",
+        "krajina"
+      ]
+    },
+    {
+      "id": "qcm-na-ivo",
+      "type": "qcm",
+      "l1": "en direct",
+      "l2": "naživo",
+      "choices_l1": [
+        "le château",
+        "de l'intérieur",
+        "samedi"
+      ],
+      "choices_l2": [
+        "krajina",
+        "zvnútra",
+        "vyhrá"
+      ]
+    },
+    {
+      "id": "qcm-hrad",
+      "type": "qcm",
+      "l1": "le château",
+      "l2": "hrad",
+      "choices_l1": [
+        "samedi",
+        "le pays",
+        "en direct"
+      ],
+      "choices_l2": [
+        "krajina",
+        "vyhrá",
+        "zvnútra"
+      ]
+    },
+    {
+      "id": "qcm-vyhr",
+      "type": "qcm",
+      "l1": "il gagne, elle gagne",
+      "l2": "vyhrá",
+      "choices_l1": [
+        "le pied, la jambe",
+        "l'hiver, le froid",
+        "le tram → dans le tram"
+      ],
+      "choices_l2": [
+        "zvnútra",
+        "krajina",
+        "sobota"
+      ]
+    },
+    {
+      "id": "qcm-krajina",
+      "type": "qcm",
+      "l1": "le pays",
+      "l2": "krajina",
+      "choices_l1": [
+        "le château",
+        "samedi",
+        "de l'intérieur"
+      ],
+      "choices_l2": [
+        "zvnútra",
+        "sobota",
+        "vyhrá"
+      ]
+    },
+    {
+      "id": "listen-zajtra-večer-pozerá-celá-krajina",
+      "type": "listen",
+      "l1": "Demain soir. Tout le pays regarde.",
+      "l2": "Zajtra večer. Pozerá celá krajina.",
+      "choices_l1": [
+        "Ce soir. Tout le village regarde.",
+        "Demain matin. Personne ne regarde.",
+        "Demain soir. Toute la ville regarde."
+      ]
+    },
+    {
+      "id": "listen-čo-potrebujeme",
+      "type": "listen",
+      "l1": "Il nous faut quoi ?",
+      "l2": "Čo potrebujeme?",
+      "choices_l1": [
+        "On a quoi ?",
+        "Il te faut quoi ?",
+        "On va où ?"
+      ]
+    },
+    {
+      "id": "listen-a-niekoho-zvnútra",
+      "type": "listen",
+      "l1": "Et quelqu'un de l'intérieur ?",
+      "l2": "A niekoho zvnútra?",
+      "choices_l1": [
+        "Et quelqu'un de l'extérieur ?",
+        "Et quelqu'un du village ?",
+        "Et toi, tu es à l'intérieur ?"
+      ]
+    },
+    {
+      "id": "blank-zelená-firma-roka-hádajte-kto-vyhrá",
+      "type": "fill-blank",
+      "l1": "« L'entreprise verte de l'année. » Devinez qui gagne.",
+      "l2": "„Zelená firma roka.“ Hádajte, kto vyhrá.",
+      "missing_l1": "gagne",
+      "missing_l2": "vyhrá",
+      "blank_index_l1": 8,
+      "blank_index_l2": 5,
+      "choices_l1": [
+        "perd",
+        "parle",
+        "regarde"
+      ],
+      "choices_l2": [
+        "prehrá",
+        "hovorí",
+        "pozerá"
       ],
       "show_translation": true
     },
     {
-      "id": "blank-ja-som-tam-nebola-nikdy",
+      "id": "blank-niekoho-kto-vie-čítať-čísla-a-niekoho-zvnútra",
       "type": "fill-blank",
-      "l1": "Je n'y suis jamais allée.",
-      "l2": "Ja som tam nebola nikdy.",
-      "missing_l1": "jamais",
-      "missing_l2": "nikdy",
+      "l1": "Quelqu'un qui sait lire les chiffres. Et quelqu'un de l'intérieur.",
+      "l2": "Niekoho, kto vie čítať čísla. A niekoho zvnútra.",
+      "missing_l1": "lire",
+      "missing_l2": "čítať",
       "blank_index_l1": 3,
-      "blank_index_l2": 4,
+      "blank_index_l2": 3,
       "choices_l1": [
-        "toujours",
-        "encore",
-        "souvent"
+        "écrire",
+        "changer",
+        "cacher"
       ],
       "choices_l2": [
-        "vždy",
-        "stále",
-        "zase"
+        "písať",
+        "meniť",
+        "skrývať"
       ],
       "show_translation": true
     },
     {
-      "id": "order-dva-mesiace-sucho-a-potom-toto-o-sa-to-s-t-m-svetom-deje",
+      "id": "order-poznáš-niekoho-kto-vie-čítať-čísla",
       "type": "order",
-      "l1": "Deux mois de sécheresse. Et ensuite ça. Mais qu'est-ce qui arrive à ce monde ?",
-      "l2": "Dva mesiace sucho. A potom toto. Čo sa to s tým svetom deje?",
+      "l1": "Tu connais quelqu'un qui sait lire les chiffres ?",
+      "l2": "Poznáš niekoho, kto vie čítať čísla?",
       "tokens_l1": [
-        "Deux",
-        "mois",
-        "de",
-        "sécheresse.",
-        "Et",
-        "ensuite",
-        "ça.",
-        "Mais",
-        "qu'est-ce",
+        "Tu",
+        "connais",
+        "quelqu'un",
         "qui",
-        "arrive",
-        "à",
-        "ce",
-        "monde",
+        "sait",
+        "lire",
+        "les",
+        "chiffres",
         "?",
-        "que",
-        "pompiers"
+        "Et",
+        "quelqu'un",
+        "de",
+        "l'intérieur",
+        "?"
       ],
       "tokens_l2": [
-        "Dva",
-        "mesiace",
-        "sucho.",
+        "Poznáš",
+        "niekoho,",
+        "kto",
+        "vie",
+        "čítať",
+        "čísla?",
         "A",
-        "potom",
-        "toto.",
-        "Čo",
-        "sa",
-        "to",
-        "s",
-        "tým",
-        "svetom",
-        "deje?",
-        "mi",
-        "povedali"
+        "niekoho",
+        "zvnútra?"
       ]
     },
     {
-      "id": "order-tak-m-eme-s-do-bratislavy",
+      "id": "order-andrea-sa-pozerá-dole-na-sivú-budovu",
       "type": "order",
-      "l1": "Alors on peut aller à Bratislava.",
-      "l2": "Tak môžeme ísť do Bratislavy.",
+      "l1": "Andrea regarde en bas, vers le bâtiment gris.",
+      "l2": "Andrea sa pozerá dole, na sivú budovu.",
       "tokens_l1": [
-        "Alors",
-        "on",
-        "peut",
-        "aller",
-        "à Bratislava.",
-        "dit",
-        "vous",
-        "avez"
+        "Andrea",
+        "regarde",
+        "en",
+        "bas,",
+        "vers",
+        "le",
+        "bâtiment",
+        "gris.",
+        "pays"
       ],
       "tokens_l2": [
-        "Tak",
-        "môžeme",
-        "ísť",
-        "do Bratislavy.",
-        "večer",
-        "vám",
-        "pomáhali"
+        "Andrea",
+        "sa",
+        "pozerá",
+        "dole,",
+        "na",
+        "sivú",
+        "budovu.",
+        "krajina"
+      ]
+    },
+    {
+      "id": "match-povode-vocab",
+      "type": "match",
+      "l1": [
+        "l'inondation",
+        "trop",
+        "le pompier",
+        "la famille"
+      ],
+      "l2": [
+        "povodeň",
+        "priveľa",
+        "hasič",
+        "rodina"
       ]
     }
   ]

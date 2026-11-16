@@ -1,8 +1,8 @@
-# Povodeň (extra) — V telocvični
+# Povodeň (extra) — Sobota
 
-@ img/illus_06_povoden_2.jpg | Au gymnase, la soupe et le thé : une bénévole tend une tasse chaude à Andrea, qui hésite. Source : illustration générée avec ChatGPT
+@ TODO_img/hrad-televizia.jpg | TODO : choisir une image (le château de Bratislava le soir, avec des projecteurs)
 
-{{fr:Le soir, au gymnase de l'école. Des dizaines d'animaux mouillés, une soupe qui chauffe, une chamois qui sert le thé. Andrea est bizarre avec ce thé. Et Maťo a une idée qui va tout changer.}}
+{{fr:Katka a encore une nouvelle. Une grosse. Elle concerne le bâtiment gris, la télévision, et un château.}}
 
 ---
 
@@ -10,81 +10,82 @@
 
 | Slovenčina | Français |
 |------------|----------|
-| deň | le jour |
-| tri dni | trois jours |
-| tretí deň | le troisième jour |
-| pred týždňom | il y a une semaine |
-| vôbec | du tout |
-| počasie | le temps, la météo |
-| zbláznilo sa | il est devenu fou |
-| múdra | intelligente, sage |
-| vlastne | au fait, en fait |
-| zrazu | soudain |
-| týždeň | la semaine |
-| mesiac | le mois |
-| rok | l'année, l'an |
-| trať | la voie ferrée |
-| pod vodou | sous l'eau |
-| ďalej | plus loin |
-| Nedá sa. | Ce n'est pas possible. |
-| vystúpiť | descendre (d'un train) |
-| pešo | à pied |
-| v daždi | sous la pluie |
-| nohy | les jambes, les pieds |
-| nosím | je porte (d'habitude) |
-| preto | c'est pour ça |
-| dážď | la pluie |
-| dáždnik | le parapluie |
-| mokrý | mouillé (dit d'un garçon) |
-| rieka | la rivière |
-| široké | large |
-| hnedé | marron |
-| až pri domoch | jusqu'aux maisons |
-| stúpa | monte (en ce moment) |
-| stúpne | va monter (une fois) |
-| podľa | d'après, selon |
-| pláva | flotte, nage |
-| pes | le chien |
-| dúfam, že | j'espère que |
-| hej | ouais |
-| plávať | nager |
-| meter | le mètre |
+| povodeň | l'inondation |
+| priveľa | trop |
 | hasič | le pompier |
-| odtiaľto | d'ici |
+| rodina | la famille |
+| kačka | le canard |
+| myš | la souris |
 | pomôcť | aider |
-| vám | vous, à vous |
-| ti | toi, à toi |
-| každého | tout le monde, chacun |
-| zachránia sa | ils se sauveront |
-| odnesieme | nous emporterons |
-| Buďte opatrní! | Soyez prudents ! |
-| ľahké veci | des choses légères |
-| pomoc | l'aide, au secours |
-| práca | le travail |
-| čas | le temps (qui passe) |
+| pod vodou | sous l'eau |
+| parkovisko | le parking |
+| kopec | la colline, la butte |
+| bunda | la veste |
+| žltý | jaune |
+| škola | l'école |
+| brána | le portail |
+| zatvorené | fermé |
+| príkaz | l'ordre |
+| od koho | de qui |
+| kľúč | la clé |
+| riaditeľka | la directrice |
+| káčatá | les canetons |
+| keby | si (on imaginait) |
+| pokazený | cassé, en panne |
+| Neďakujte. | Ne me remerciez pas. |
+| jazvec | le blaireau |
+| otvorené | ouvert |
+| vesta | le gilet |
+| cesta | le trajet, l'aller-retour |
 | kôš | le panier |
-| ruky | les mains |
-| neviditeľná | invisible |
-| zachrániť | sauver |
-| Neslúb! | Ne promets pas ! |
 | chladnička | le frigo |
-| jedlo | la nourriture |
-| lepšia | meilleure |
-| najdrahšie | le plus cher, le plus précieux |
-| Ja by som… | Moi, je… (+ conditionnel) |
-| konečne | enfin |
-| deka | la couverture (nouveau) |
-| polievka | la soupe (nouveau) |
-| Dobrý večer | bonsoir (nouveau) |
-| Všetko v poriadku? | Tout va bien ? (nouveau) |
-| Nie je za čo. | Il n'y a pas de quoi. (nouveau) |
-| by mal | devrait (nouveau) |
-| Ani ja. | Moi non plus. (nouveau) |
-| spolu | ensemble (nouveau) |
-| pod kontrolou | sous contrôle (nouveau) |
-| dôvod | la raison (nouveau) |
-| hovorca | le porte-parole (nouveau) |
-| zistím | je vais découvrir (nouveau) |
+| Pozor! | Attention ! |
+| polnoc | minuit |
+| šesťdesiat | soixante |
+| zviera | l'animal |
+| deka | la couverture |
+| nesiem | je porte |
+| nedôverujem | je ne fais pas confiance |
+| deň | le jour |
+| Šťastnú cestu! | Bon voyage ! |
+| nalieva | il verse |
+| rúra | le tuyau |
+| umyť si ruky | se laver les mains |
+| teplý | chaud |
+| vlažný | tiède |
+| studený | froid |
+| vaňa | la baignoire |
+| dym | la fumée |
+| para | la vapeur |
+| filmuje | il filme, elle filme |
+| poschodie | l'étage |
+| horúci | brûlant |
+| labka | la patte |
+| hlava | la tête |
+| klesá | (ça) baisse |
+| unavený | fatigué |
+| plný blata | couvert de boue |
+| na jeho mieste | à sa place |
+| štvorec | le carré |
+| betón | le béton |
+| mäkký | mou |
+| počas | pendant |
+| hýbu sa | ils bougent |
+| zmenili | ils ont changé |
+| vedieť | savoir |
+
+---
+
+## Les nouveaux mots de l'épisode
+
+| Slovenčina | Français |
+|------------|----------|
+| sobota | samedi |
+| naživo | en direct |
+| hrad | le château |
+| vyhrá | il gagne, elle gagne |
+| krajina | le pays |
+| zvnútra | de l'intérieur |
 
 ---
 
@@ -93,246 +94,86 @@
 - 💬 Le Narrateur
 - 🦊 Toi, un garçon de quinze ans, de Lyon
 - 🐰 Andrea, une hase de seize ans, ton amie
-- 🐻 Maťo, un ours de quatorze ans, le cousin d'Andrea
-- 🐹 Katka, une marmotte de treize ans, la sœur de Maťo
-- 🐐🦺 Une jeune chamois bénévole : on la vouvoie
-- 🧑 La directrice de l'école : une adulte, on la vouvoie
-- 🕴️ Le monsieur au sourire, à la télévision : on le vouvoie
+- 🐻 Maťo, un ours de quatorze ans
+- 🐹 Katka, une marmotte de treize ans
 
 ---
 
 ## La suite de l'épisode
 
-! 💬 Škola. V telocvični sú desiatky zvierat. Na zemi ležia matrace a deky. V rohu sa vo veľkom hrnci varí polievka.
-> L'école. Dans le gymnase, il y a des dizaines d'animaux. Par terre, des matelas et des couvertures. Dans un coin, une soupe cuit dans une grande marmite.
-> V telocvični = dans le gymnase
-> sú desiatky zvierat = il y a des dizaines d'animaux
-> Na zemi ležia = par terre, il y a
-> matrace a deky = des matelas et des couvertures
-> V rohu = dans un coin
-> sa vo veľkom hrnci varí polievka = une soupe cuit dans une grande marmite
-+ Mots nouveaux signalés : {{deka}} = la couverture, {{polievka}} = la soupe. Pour comprendre : {{telocvičňa}} = le gymnase.
+! 🐹 Ešte niečo. Zajtra večer, v sobotu, v televízii. Naživo z Bratislavského hradu.
+> Autre chose. Demain soir, samedi, à la télévision. En direct du château de Bratislava.
+> Ešte niečo = encore une chose
+> Zajtra večer, v sobotu = demain soir, samedi
+> v televízii = à la télévision
+> Naživo z Bratislavského hradu = en direct du château de Bratislava
++ Mots nouveaux signalés : {{sobota}} = samedi, {{naživo}} = en direct, {{hrad}} = le château.
 
-! 🐻 Toľko zvierat na jednom mieste som ešte nevidel.
-> Je n'ai jamais vu autant d'animaux au même endroit.
-> Toľko zvierat = autant d'animaux
-> na jednom mieste = au même endroit
-> som ešte nevidel = je n'ai encore jamais vu
+! 🐹 „Zelená firma roka.“ Hádajte, kto vyhrá.
+> « L'entreprise verte de l'année. » Devinez qui gagne.
+> Zelená firma roka = l'entreprise verte de l'année
+> Hádajte = devinez
+> kto vyhrá = qui gagne
 
-! 🐹 A toľko mokrých.
-> Et autant de mouillés.
-> A toľko mokrých = et autant de mouillés
+! 🦊 Nie.
+> Non.
 
-! 💬 Príde k nim mladá kamzica v zelenej veste. Nesie podnos s čajom.
-> Une jeune chamois en gilet vert s'approche d'eux. Elle porte un plateau avec du thé.
-> Príde k nim = vient vers eux
-> mladá kamzica = une jeune chamois (femelle)
-> v zelenej veste = en gilet vert
-> Nesie podnos s čajom = elle porte un plateau avec du thé
-+ Pour comprendre : {{zelená}} = verte, {{vesta}} = le gilet, {{podnos}} = le plateau.
+! 🐹 Áno.
+> Si.
 
-! 🐐🦺 Dobrý večer. Dáte si čaj? Je horúci.
-> Bonsoir. Vous voulez du thé ? Il est chaud.
-> Dobrý večer = bonsoir
-> Dáte si čaj = vous prenez du thé
-> Je horúci = il est chaud
-+ Mot nouveau signalé : {{Dobrý večer}} = bonsoir. {{Dáte si…?}} = « vous prenez… ? », pour proposer à boire ou à manger.
+! 🐰 Zajtra večer. Pozerá celá krajina.
+> Demain soir. Tout le pays regarde.
+> Zajtra večer = demain soir
+> Pozerá celá krajina = tout le pays regarde
++ Mot nouveau signalé : {{krajina}} = le pays.
 
-! 🦊 Ďakujem, to je od vás milé.
-> Merci, c'est gentil à vous.
-> Ďakujem = merci
-> to je od vás milé = c'est gentil de votre part
+! 🐻 A my?
+> Et nous ?
 
-! 💬 [USER_NAME] si berie šálku. Andrea sa nepohne.
-> [USER_NAME] prend une tasse. Andrea ne bouge pas.
-> si berie šálku = prend une tasse
-> Andrea sa nepohne = Andrea ne bouge pas
-+ Pour comprendre : {{šálka}} = la tasse.
+! 🐰 My máme fotku, screenshoty a video. To nestačí. Povedia, že sú to deti s mobilom.
+> Nous, on a une photo, des captures et une vidéo. Ça ne suffit pas. Ils diront que ce sont des enfants avec un téléphone.
+> My máme = nous avons
+> fotku, screenshoty a video = une photo, des captures et une vidéo
+> To nestačí = ça ne suffit pas
+> Povedia = ils diront
+> že sú to deti s mobilom = que ce sont des enfants avec un portable
 
-! 🦊 Andrea? Nechceš?
-> Andrea ? Tu n'en veux pas ?
-> Nechceš = tu ne veux pas
+! 🦊 Čo potrebujeme?
+> Il nous faut quoi ?
+> Čo potrebujeme = de quoi avons-nous besoin
 
-! 🐰 Počkaj. Najprv ty.
-> Attends. Toi d'abord.
-> Počkaj = attends
-> Najprv ty = toi d'abord
+! 🐰 Niekoho, kto vie čítať čísla. A niekoho zvnútra.
+> Quelqu'un qui sait lire les chiffres. Et quelqu'un de l'intérieur.
+> Niekoho, kto vie čítať čísla = quelqu'un qui sait lire les chiffres
+> A niekoho zvnútra = et quelqu'un de l'intérieur
++ Mot nouveau signalé : {{zvnútra}} = de l'intérieur. Tu connais déjà {{vnútri}}, « dedans ».
 
-! 💬 [USER_NAME] sa napije. Chvíľu počká. Potom podá šálku Andree.
-> [USER_NAME] boit. Il attend un moment. Puis il tend la tasse à Andrea.
-> sa napije = boit une gorgée
-> Chvíľu počká = il attend un moment
-> Potom podá šálku Andree = puis il tend la tasse à Andrea
+! 🦊 Poznáš niekoho, kto vie čítať čísla?
+> Tu connais quelqu'un qui sait lire les chiffres ?
+> Poznáš niekoho = tu connais quelqu'un
 
-! 🐰 Dobre. Ďakujem.
-> D'accord. Merci.
+! 🐰 Tú, ktorá ma naučila merať. Mala stanicu na potoku, pred senzormi. Poslali ju do Banskej Štiavnice.
+> Celle qui m'a appris à mesurer. Elle avait la station du ruisseau, avant les capteurs. Ils l'ont envoyée à Banská Štiavnica.
+> Tú, ktorá ma naučila merať = celle qui m'a appris à mesurer
+> Mala stanicu na potoku = elle avait la station au ruisseau
+> pred senzormi = avant les capteurs
+> Poslali ju do Banskej Štiavnice = ils l'ont envoyée à Banská Štiavnica
 
-! 💬 Maťo sa chvíľu pozerá na Andreu.
-> Maťo regarde Andrea un moment.
-> sa chvíľu pozerá = regarde un moment
-> na Andreu = Andrea
+! 🦊 A niekoho zvnútra?
+> Et quelqu'un de l'intérieur ?
 
-! 🐻 Andrea? Všetko v poriadku?
-> Andrea ? Tout va bien ?
-> Všetko v poriadku = tout est en ordre
-+ Mot nouveau signalé : {{Všetko v poriadku?}} = tout va bien ? La réponse classique : {{Áno, v poriadku.}}
+! 💬 Andrea sa pozerá dole, na sivú budovu.
+> Andrea regarde en bas, vers le bâtiment gris.
+> Andrea sa pozerá dole = Andrea regarde en bas
+> na sivú budovu = le bâtiment gris
 
-! 🐰 Áno. Som len unavená.
-> Oui. Je suis juste fatiguée.
-> Som len unavená = je suis juste fatiguée
-
-! 🐹 Hovoríš to už druhýkrát dnes.
-> C'est la deuxième fois que tu le dis aujourd'hui.
-> Hovoríš to = tu le dis
-> už druhýkrát dnes = déjà pour la deuxième fois aujourd'hui
-
-! 🐰 Lebo som unavená.
-> Parce que je suis fatiguée.
-
-! 💬 Riaditeľka školy prechádza medzi matracmi a každému poďakuje. Pri Maťovi sa zastaví.
-> La directrice de l'école passe entre les matelas et remercie chacun. Elle s'arrête devant Maťo.
-> Riaditeľka školy = la directrice de l'école
-> prechádza medzi matracmi = passe entre les matelas
-> a každému poďakuje = et remercie chacun
-> Pri Maťovi sa zastaví = elle s'arrête près de Maťo
-
-! 🧑 Dobrý večer. Hasiči mi povedali, že ste pomáhali. Veľmi vám ďakujem.
-> Bonsoir. Les pompiers m'ont dit que vous avez aidé. Merci beaucoup.
-> Hasiči mi povedali = les pompiers m'ont dit
-> že ste pomáhali = que vous avez aidé
-> Veľmi vám ďakujem = je vous remercie beaucoup
-
-! 🐻 To nie je za čo. Stále je tu miesto?
-> Il n'y a pas de quoi. Il y a encore de la place ?
-> To nie je za čo = il n'y a pas de quoi
-> Stále je tu miesto = il y a toujours de la place ici
-+ Mot nouveau signalé : {{Nie je za čo.}} = il n'y a pas de quoi. La réponse polie à {{ďakujem}}.
-
-! 🧑 Pre vás vždy. Sú tu deky aj polievka. Len spať musíte tichšie.
-> Pour vous, toujours. Il y a des couvertures et de la soupe. Seulement, il faudra dormir plus discrètement.
-> Pre vás vždy = pour vous, toujours
-> Sú tu deky aj polievka = il y a des couvertures et de la soupe
-> Len spať musíte tichšie = seulement, vous devez dormir plus silencieusement
-
-! 🐹 Ja spím vždy ticho.
-> Moi, je dors toujours discrètement.
-> Ja spím = moi, je dors
-> vždy ticho = toujours en silence
-
-! 🐻 Katka chrápe.
-> Katka ronfle.
-> chrápe = ronfle
-
-! 🐹 Nechrápem!
-> Je ne ronfle pas !
-
-! 💬 Po chvíli sedia všetci pri polievke. Vonku prší.
-> Un moment plus tard, tout le monde est assis devant la soupe. Dehors, il pleut.
-> Po chvíli = après un moment
-> sedia všetci pri polievke = tout le monde est assis devant la soupe
-> Vonku prší = dehors, il pleut
-
-! 💬 Na stene telocvične visí televízor. V správach hovorí pán v obleku. Usmieva sa.
-> Au mur du gymnase, il y a une télévision. Aux infos, un monsieur en costume parle. Il sourit.
-> Na stene telocvične = au mur du gymnase
-> visí televízor = est accrochée une télévision
-> V správach = aux infos
-> hovorí pán v obleku = un monsieur en costume parle
-> Usmieva sa = il sourit
-
-! 🕴️ Situácia je pod kontrolou. Nie je dôvod na paniku.
-> La situation est sous contrôle. Il n'y a aucune raison de paniquer.
-> Situácia je = la situation est
-> pod kontrolou = sous contrôle
-> Nie je dôvod = il n'y a pas de raison
-> na paniku = de paniquer
-+ Mot nouveau signalé : {{pod kontrolou}} = sous contrôle, {{dôvod}} = la raison. La phrase préférée de ce monsieur.
-
-! 🐰 To je on. Pán s úsmevom.
-> C'est lui. Le monsieur au sourire.
-> To je on = c'est lui
-> Pán s úsmevom = le monsieur au sourire
-
-! 🐹 Pod ním je napísané: „hovorca skupiny Zelená vlna“.
-> En dessous, c'est écrit : « porte-parole du groupe Zelená vlna ».
-> Pod ním = sous lui
-> je napísané = c'est écrit
-> hovorca = le porte-parole
-> skupiny Zelená vlna = du groupe Zelená vlna
-+ Mot nouveau signalé : {{hovorca}} = le porte-parole (de {{hovoriť}}, parler). {{Zelená vlna}} = « la vague verte ».
-
-! 🦊 Pod kontrolou? Tak prečo sme takí mokrí?
-> Sous contrôle ? Alors pourquoi on est aussi mouillés ?
-> Pod kontrolou = sous contrôle
-> Tak prečo = alors pourquoi
-> sme takí mokrí = on est aussi mouillés
-
-! 🐹 Zelená vlna. Neviem, čo to je. Ale zistím to.
-> Zelená vlna. Je ne sais pas ce que c'est. Mais je vais le découvrir.
-> Neviem, čo to je = je ne sais pas ce que c'est
-> Ale zistím to = mais je vais le découvrir
-+ Mot nouveau signalé : {{zistím}} = je vais découvrir, je vais trouver.
-
-! 🐹 Dva mesiace sucho. A potom toto. Čo sa to s tým svetom deje?
-> Deux mois de sécheresse. Et ensuite ça. Mais qu'est-ce qui arrive à ce monde ?
-> Dva mesiace sucho = deux mois de sécheresse
-> A potom toto = et ensuite ça
-> Čo sa to s tým svetom deje = qu'est-ce qui se passe avec ce monde
-
-! 🐻 Neviem. Ale niekto by to mal povedať.
-> Je ne sais pas. Mais quelqu'un devrait le dire.
-> Neviem = je ne sais pas
-> Ale niekto = mais quelqu'un
-> by to mal povedať = devrait le dire
-+ Mot nouveau signalé : {{by mal}} = devrait. Le conditionnel, encore.
-
-! 🦊 Povedať? Komu?
-> Le dire ? À qui ?
-> Povedať = dire
-> Komu = à qui
-
-! 🐻 Niekomu, kto počúva.
-> À quelqu'un qui écoute.
-> Niekomu = à quelqu'un
-> kto počúva = qui écoute
-
-! 🐹 Ľudia v dedine hovoria, že nikto nepočúva. Že všetci sedia dole a rozhodujú.
-> Les gens du village disent que personne n'écoute. Que tout le monde est assis en bas et décide.
-> Ľudia v dedine hovoria = les gens du village disent
-> že nikto nepočúva = que personne n'écoute
-> Že všetci sedia dole = que tous sont assis en bas
-> a rozhodujú = et décident
-
-! 🐰 Dole?
-> En bas ?
-
-! 🐹 Dole v Bratislave.
-> En bas, à Bratislava.
-> v Bratislave = à Bratislava
-
-! 🦊 Tak môžeme ísť do Bratislavy.
-> Alors on peut aller à Bratislava.
-> Tak = alors
-> môžeme ísť = nous pouvons aller
-> do Bratislavy = à Bratislava
-
-! 🐰 Ja som tam nebola nikdy.
-> Je n'y suis jamais allée.
-> Ja som tam nebola = je n'y suis pas allée
-> nikdy = jamais
-
-! 🦊 Ani ja. Takže to môžeme zistiť spolu.
-> Moi non plus. Donc on peut le découvrir ensemble.
-> Ani ja = moi non plus
-> Takže = donc
-> to môžeme zistiť = nous pouvons le découvrir
-> spolu = ensemble
-+ Mots nouveaux signalés : {{Ani ja.}} = moi non plus, {{spolu}} = ensemble.
+! 🐰 Uvidíme.
+> On verra.
 
 ---
 
 ## 🇸🇰 Coin slovaque
 
-{{fr:Bratislava est tout à l'ouest du pays, au bord du Danube, à la frontière de l'Autriche et de la Hongrie. Pour les gens des montagnes, la capitale, c'est « en bas » : plus basse, plus loin, et là où l'on décide.}}
+{{fr:Fais le point. Cinq pièces : le permis, le registre, la photo de la tranchée, les captures de Katka et la vidéo du tuyau. Mais cette nuit, la plaque a été coulée dans le béton, et les chiffres du site ont changé.}}
 
-{{fr:Le sixième chapitre est terminé. La bande a un but, maintenant : se faire entendre. Reste à savoir comment.}}
+{{fr:Demain soir, le bâtiment gris reçoit un prix à la télévision. Il vous manque deux choses : quelqu'un qui sait lire les chiffres, et quelqu'un de l'intérieur. Tu as une idée pour le deuxième ? Andrea aussi.}}

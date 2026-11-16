@@ -1,0 +1,277 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-dodac-list",
+      "type": "qcm",
+      "l1": "le bon de livraison",
+      "l2": "dodací list",
+      "choices_l1": [
+        "ça veut dire que",
+        "la femme, l'épouse",
+        "je garde, je range"
+      ],
+      "choices_l2": [
+        "krabica",
+        "mať pravdu",
+        "dvesto"
+      ]
+    },
+    {
+      "id": "qcm-ena",
+      "type": "qcm",
+      "l1": "la femme, l'épouse",
+      "l2": "žena",
+      "choices_l1": [
+        "je garde, je range",
+        "le bon de livraison",
+        "ça veut dire que"
+      ],
+      "choices_l2": [
+        "dodací list",
+        "odkladám",
+        "krabica"
+      ]
+    },
+    {
+      "id": "qcm-odklad-m",
+      "type": "qcm",
+      "l1": "je garde, je range",
+      "l2": "odkladám",
+      "choices_l1": [
+        "la femme, l'épouse",
+        "ça veut dire que",
+        "le bon de livraison"
+      ],
+      "choices_l2": [
+        "dvesto",
+        "sedadlo",
+        "kópia"
+      ]
+    },
+    {
+      "id": "qcm-ma-pravdu",
+      "type": "qcm",
+      "l1": "avoir raison",
+      "l2": "mať pravdu",
+      "choices_l1": [
+        "deux cents",
+        "la boîte",
+        "la copie"
+      ],
+      "choices_l2": [
+        "dvesto",
+        "dodací list",
+        "odkladám"
+      ]
+    },
+    {
+      "id": "qcm-krabica",
+      "type": "qcm",
+      "l1": "la boîte",
+      "l2": "krabica",
+      "choices_l1": [
+        "avoir raison",
+        "deux cents",
+        "par seconde"
+      ],
+      "choices_l2": [
+        "mať pravdu",
+        "žena",
+        "za sekundu"
+      ]
+    },
+    {
+      "id": "qcm-sedadlo",
+      "type": "qcm",
+      "l1": "le siège",
+      "l2": "sedadlo",
+      "choices_l1": [
+        "la boîte",
+        "par seconde",
+        "avoir raison"
+      ],
+      "choices_l2": [
+        "mať pravdu",
+        "odkladám",
+        "dodací list"
+      ]
+    },
+    {
+      "id": "listen-máte-ešte-ten-papier",
+      "type": "listen",
+      "l1": "Vous avez encore le papier ?",
+      "l2": "Máte ešte ten papier?",
+      "choices_l1": [
+        "Vous avez encore la pompe ?",
+        "Tu as encore le papier ?",
+        "Vous avez trouvé le papier ?"
+      ]
+    },
+    {
+      "id": "listen-aj-kópie-si-odkladáte",
+      "type": "listen",
+      "l1": "Vous gardez aussi les doubles ?",
+      "l2": "Aj kópie si odkladáte?",
+      "choices_l1": [
+        "Vous jetez aussi les doubles ?",
+        "Vous gardez aussi les pompes ?",
+        "Vous avez aussi un double ?"
+      ]
+    },
+    {
+      "id": "listen-žena-hovorí-že-je-to-choroba",
+      "type": "listen",
+      "l1": "Ma femme dit que c'est une maladie.",
+      "l2": "Žena hovorí, že je to choroba.",
+      "choices_l1": [
+        "Ma femme dit que c'est une bonne idée.",
+        "Ma femme dit qu'elle a raison.",
+        "Ma fille dit que c'est une maladie."
+      ]
+    },
+    {
+      "id": "blank-máš-pravdu",
+      "type": "fill-blank",
+      "l1": "Tu as raison.",
+      "l2": "Máš pravdu.",
+      "missing_l1": "raison",
+      "missing_l2": "pravdu",
+      "blank_index_l1": 2,
+      "blank_index_l2": 1,
+      "choices_l1": [
+        "tort",
+        "peur",
+        "faim"
+      ],
+      "choices_l2": [
+        "čas",
+        "strach",
+        "hlad"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-mám-kópiu-v-krabici",
+      "type": "fill-blank",
+      "l1": "J'ai une copie dans la boîte.",
+      "l2": "Mám kópiu v krabici.",
+      "missing_l1": "boîte",
+      "missing_l2": "krabici",
+      "blank_index_l1": 5,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "cabine",
+        "voiture",
+        "poche"
+      ],
+      "choices_l2": [
+        "kabíne",
+        "aute",
+        "vrecku"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-myslím-že-to-nie-je-sucho",
+      "type": "order",
+      "l1": "Je pense que ce n'est pas la sécheresse.",
+      "l2": "Myslím, že to nie je sucho.",
+      "tokens_l1": [
+        "Je",
+        "pense",
+        "que",
+        "ce",
+        "n'est",
+        "pas",
+        "la",
+        "sécheresse.",
+        "Voilà.",
+        "«",
+        "Zelená",
+        "vlna.",
+        "Quatre",
+        "pompes.",
+        "Deux",
+        "cents",
+        "litres",
+        "par",
+        "seconde.",
+        "»",
+        "Prenez-le.",
+        "J'ai",
+        "le",
+        "double."
+      ],
+      "tokens_l2": [
+        "Myslím,",
+        "že",
+        "to",
+        "nie",
+        "je",
+        "sucho.",
+        "Tu",
+        "je.",
+        "„Zelená",
+        "vlna.",
+        "Štyri",
+        "čerpadlá.",
+        "Dvesto",
+        "litrov",
+        "za",
+        "sekundu.“",
+        "Zoberte",
+        "si",
+        "ho.",
+        "Mám",
+        "kópiu."
+      ]
+    },
+    {
+      "id": "order-že-nula-litrov-nie-je-pravda",
+      "type": "order",
+      "l1": "… que « zéro litre », ce n'est pas vrai.",
+      "l2": "… že nula litrov nie je pravda.",
+      "tokens_l1": [
+        "…",
+        "que",
+        "«",
+        "zéro",
+        "litre",
+        "»,",
+        "ce",
+        "n'est",
+        "pas",
+        "vrai.",
+        "deux"
+      ],
+      "tokens_l2": [
+        "…",
+        "že",
+        "nula",
+        "litrov",
+        "nie",
+        "je",
+        "pravda.",
+        "dvesto"
+      ]
+    },
+    {
+      "id": "match-dodac-list-vocab",
+      "type": "match",
+      "l1": [
+        "le bon de livraison",
+        "la femme, l'épouse",
+        "je garde, je range",
+        "avoir raison"
+      ],
+      "l2": [
+        "dodací list",
+        "žena",
+        "odkladám",
+        "mať pravdu"
+      ]
+    }
+  ]
+}

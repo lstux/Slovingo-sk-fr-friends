@@ -1,0 +1,242 @@
+{
+ "mode": "replace",
+ "sync": "full",
+ "exercises": [
+  {
+   "id": "qcm-d-kaz",
+   "type": "qcm",
+   "l1": "la preuve",
+   "l2": "dôkaz",
+   "choices_l1": [
+    "sans elle",
+    "content, satisfait",
+    "Heureusement."
+   ],
+   "choices_l2": [
+    "videla som",
+    "tichší",
+    "bez nej"
+   ]
+  },
+  {
+   "id": "qcm-za-tyri-dni",
+   "type": "qcm",
+   "l1": "en quatre jours",
+   "l2": "za štyri dni",
+   "choices_l1": [
+    "j'ai vu (une fille)",
+    "elle a trouvé",
+    "je voulais dire (une fille)"
+   ],
+   "choices_l2": [
+    "Pozri! → Pozrite!",
+    "…lebo vyrúbali les.",
+    "voda → Počujem vodu."
+   ]
+  },
+  {
+   "id": "qcm-e-te-astie",
+   "type": "qcm",
+   "l1": "Heureusement.",
+   "l2": "Ešte šťastie.",
+   "choices_l1": [
+    "content, satisfait",
+    "le moteur",
+    "la preuve"
+   ],
+   "choices_l2": [
+    "bez nej",
+    "videla som",
+    "motor"
+   ]
+  },
+  {
+   "id": "qcm-videla-som",
+   "type": "qcm",
+   "l1": "j'ai vu (une fille)",
+   "l2": "videla som",
+   "choices_l1": [
+    "je voulais dire (un garçon)",
+    "j'ai vu (un garçon)",
+    "je voulais dire (une fille)"
+   ],
+   "choices_l2": [
+    "videl som",
+    "našiel som",
+    "našla som"
+   ]
+  },
+  {
+   "id": "qcm-na-la",
+   "type": "qcm",
+   "l1": "elle a trouvé",
+   "l2": "našla",
+   "choices_l1": [
+    "je voulais dire (une fille)",
+    "en quatre jours",
+    "j'ai vu (une fille)"
+   ],
+   "choices_l2": [
+    "Ešte šťastie.",
+    "motor",
+    "spokojný"
+   ]
+  },
+  {
+   "id": "qcm-bez-nej",
+   "type": "qcm",
+   "l1": "sans elle",
+   "l2": "bez nej",
+   "choices_l1": [
+    "Heureusement.",
+    "content, satisfait",
+    "la preuve"
+   ],
+   "choices_l2": [
+    "motor",
+    "tichší",
+    "dôkaz"
+   ]
+  },
+  {
+   "id": "listen-moju-fotku",
+   "type": "listen",
+   "l1": "Ma photo ?",
+   "l2": "Moju fotku?",
+   "choices_l1": [
+    "Ta photo ?",
+    "Mon portable ?",
+    "Une photo ?"
+   ]
+  },
+  {
+   "id": "listen-v-kabíne-nikto-nehovorí-aj-motor-je-tichší",
+   "type": "listen",
+   "l1": "Dans la cabine, plus personne ne parle. Même le moteur fait moins de bruit.",
+   "l2": "V kabíne nikto nehovorí. Aj motor je tichší.",
+   "choices_l1": [
+    "Dans la cabine, tout le monde parle. Le moteur fait du bruit.",
+    "Dans le camion, personne ne dort.",
+    "Dans la cabine, plus personne ne parle. Même Katka."
+   ]
+  },
+  {
+   "id": "listen-katka-to-je-dobré",
+   "type": "listen",
+   "l1": "Katka. C'est bon.",
+   "l2": "Katka. To je dobré.",
+   "choices_l1": [
+    "Katka. Ce n'est pas bon.",
+    "Maťo. C'est bon.",
+    "Katka. C'est vrai."
+   ]
+  },
+  {
+   "id": "blank-videla-som-tvoju-fotku",
+   "type": "fill-blank",
+   "l1": "J'ai vu ta photo.",
+   "l2": "Videla som tvoju fotku.",
+   "missing_l1": "vu",
+   "missing_l2": "Videla",
+   "blank_index_l1": 1,
+   "blank_index_l2": 0,
+   "choices_l1": [
+    "pris",
+    "trouvé",
+    "perdu"
+   ],
+   "choices_l2": [
+    "Odfotila",
+    "Našla",
+    "Stratila"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "blank-našiel-som-dôkaz",
+   "type": "fill-blank",
+   "l1": "J'ai trouvé une preuve !",
+   "l2": "Našiel som dôkaz!",
+   "missing_l1": "preuve",
+   "missing_l2": "dôkaz",
+   "blank_index_l1": 3,
+   "blank_index_l2": 2,
+   "choices_l1": [
+    "photo",
+    "pompe",
+    "copie"
+   ],
+   "choices_l2": [
+    "fotku",
+    "čerpadlo",
+    "kópiu"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "order-chcel-som-povedať-niečo-iné",
+   "type": "order",
+   "l1": "Je voulais dire autre chose.",
+   "l2": "Chcel som povedať niečo iné.",
+   "tokens_l1": [
+    "Je",
+    "voulais",
+    "dire",
+    "autre",
+    "chose.",
+    "moteur"
+   ],
+   "tokens_l2": [
+    "Chcel",
+    "som",
+    "povedať",
+    "niečo",
+    "iné.",
+    "motor"
+   ]
+  },
+  {
+   "id": "order-povedala-som-našla-chcela-som-povedať",
+   "type": "order",
+   "l1": "J'ai dit « trouvé » ? Je voulais dire…",
+   "l2": "Povedala som „našla“? Chcela som povedať…",
+   "tokens_l1": [
+    "J'ai",
+    "dit",
+    "«",
+    "trouvé",
+    "»",
+    "?",
+    "Je",
+    "voulais",
+    "dire…",
+    "preuve"
+   ],
+   "tokens_l2": [
+    "Povedala",
+    "som",
+    "„našla“?",
+    "Chcela",
+    "som",
+    "povedať…",
+    "dôkaz"
+   ]
+  },
+  {
+   "id": "match-d-kaz-vocab",
+   "type": "match",
+   "l1": [
+    "la preuve",
+    "en quatre jours",
+    "Heureusement.",
+    "j'ai vu (une fille)"
+   ],
+   "l2": [
+    "dôkaz",
+    "za štyri dni",
+    "Ešte šťastie.",
+    "videla som"
+   ]
+  }
+ ]
+}

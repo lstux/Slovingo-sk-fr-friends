@@ -1,8 +1,8 @@
-# Datacentrum (extra) — Rada od Mareka
+# Datacentrum (extra) — Za stromami
 
-@ img/illus_08_datacentrum_2.jpg | Le soir devant le centre de données : Marek offre du thé, des sandwichs et un conseil, Andrea se méfie. Source : illustration générée avec ChatGPT
+@ img/mokrad-rieka.jpg | Une prairie humide au bord de l'eau. Source : Wikimedia Commons, Moppet65535, CC BY-SA 3.0
 
-{{fr:Le soir, devant le bâtiment. Marek vous offre du thé et des sandwichs, et un conseil. Andrea, elle, se méfie des gens qui sourient trop. Surtout des renards.}}
+{{fr:Dehors, derrière les arbres. Maťo a une saucisse dans chaque main. Katka a le mot de passe du wifi. Toi, tu as la photo. Et Andrea a quelque chose à te dire.}}
 
 ---
 
@@ -10,80 +10,82 @@
 
 | Slovenčina | Français |
 |------------|----------|
-| zastane | s'arrête |
-| rovina | la plaine |
-| Tu končím. | Je m'arrête ici. |
-| iným smerom | dans une autre direction |
-| ďakujeme za | merci pour |
-| odvoz | le trajet (en voiture) |
-| zmenilo sa | ça a changé |
-| aspoň | au moins |
-| neprespali sme | nous n'avons pas dormi |
-| hotel | l'hôtel |
-| vodič | le chauffeur |
-| smer | la direction |
-| Dovidenia! | Au revoir ! |
-| budova | le bâtiment |
-| sivá | grise |
-| dlhá | longue |
-| lietadlo | l'avion |
-| para | la vapeur |
-| mokraď | la zone humide, le marais |
-| má byť | est censé être |
-| žaby | les grenouilles |
-| tam, kde | là où |
-| žiadne | aucun |
-| žaba | la grenouille |
-| strecha | le toit |
-| niečo | quelque chose |
-| brána | la grille, le portail |
-| nápis | l'enseigne, l'inscription |
-| jazvec | le blaireau |
-| Hľadáte niekoho? | Vous cherchez quelqu'un ? |
-| častá otázka | une question fréquente |
-| Volám sa… | Je m'appelle… |
-| pracujem | je travaille |
-| počítače | les ordinateurs |
+| balón | le ballon |
+| hudba | la musique |
+| vchod | l'entrée |
+| tričko | le t-shirt |
+| rozdáva | elle distribue |
+| Vitajte! | Bienvenue ! |
+| zadarmo | gratuit |
 | preto | c'est pour ça |
-| chladiť | refroidir |
-| počítač | l'ordinateur |
-| internet | Internet |
-| vesta | le gilet |
-| pochádza z | vient de |
-| podzemie | le sous-sol |
-| Kam sa podeli? | Où sont-ils passés ? |
-| odišli | ils sont partis |
-| niekam | quelque part (vers) |
-| nepáčilo sa im | ça ne leur plaisait pas |
-| vedľa | à côté de |
-| do očí | dans les yeux |
-| vedeli ste | vous saviez |
-| aj tak | quand même |
-| myslím, že | je pense que |
+| práve preto | justement |
+| Povedz mi. | Dis-moi. |
+| zelený | vert |
+| úsmev | le sourire |
+| doma | à la maison |
+| serverovňa | la salle des serveurs |
+| desaťtisíc | dix mille |
+| heslo | le mot de passe |
+| návštevník | le visiteur |
+| zasekol sa | il est resté coincé |
+| turniket | le tourniquet |
+| Netlačte! | Ne poussez pas ! |
+| vľavo | à gauche |
+| zakázané | interdit |
+| zabudol som | j'ai oublié |
+| Východ | la sortie |
+| tabuľa | le panneau |
+| vpravo | à droite |
+| schody | l'escalier |
+| hučí | ça ronfle, ça gronde |
+| posledný | le dernier |
+| točia sa | ils tournent |
+| merač | le compteur |
+| skrinka | le boîtier |
+| Čítaj! | Lis ! |
+| menia sa | ils changent |
+| stoosemdesiat | cent quatre-vingts |
+| ostrý | net (une photo) |
+| tisíc | mille |
+| tristo | trois cents |
+| silno | fort |
+| pochopil si | tu as compris (à un garçon) |
+| debna | la caisse |
+| unavene | fatigué (il a l'air) |
+| existuje | il existe |
+| dvadsaťpäť | vingt-cinq |
+| nad tým | au-dessus |
+| prehrievajú sa | ils surchauffent |
+| treba | il faut |
+| viac ako | plus que |
+| nevedeli | ils ne savaient pas |
 | server | le serveur |
-| pravda | la vérité |
-| dovnútra | à l'intérieur (on y entre) |
-| hala | la grande salle |
-| tisíce | des milliers |
-| fotka | la photo |
-| desivé | effrayant |
-| užitočné | utile |
-| dve strany | deux côtés |
-| aj keď | même si |
-| čestná | honnête |
-| je to jedno | c'est pareil, ça ne change rien |
-| jednoduché | simple |
-| pýtať sa | demander, poser une question (nouveau) |
-| usmievať sa | sourire (nouveau) |
-| rada | le conseil (nouveau) |
-| držať palce | croiser les doigts (tenir les pouces) (nouveau) |
-| skryť sa | se cacher |
-| stratila | elle a perdu |
-| chcem, aby | je veux que (nouveau) |
-| mať pravdu | avoir raison |
-| kolegovia | les collègues |
-| inžinier | l'ingénieur |
-| iný | autre |
+| teplota | la température |
+| prvý | le premier |
+| program | le programme |
+| riadok | la ligne |
+| kopíruje | il copie |
+| predchádzajúci | précédent |
+| prestane dýchať | elle arrête de respirer |
+| skúšky | les essais |
+| požiadali ma | on m'a demandé |
+| deti | les enfants |
+| pijú | ils boivent |
+| po schodoch | par l'escalier |
+| nevidieť | ne pas voir |
+
+---
+
+## Les nouveaux mots de l'épisode
+
+| Slovenčina | Français |
+|------------|----------|
+| nepríde | il ne viendra pas |
+| čakala som | j'ai attendu (une fille) |
+| bála som sa | j'avais peur (une fille) |
+| pódium | la scène, l'estrade |
+| nabudúce | la prochaine fois |
+| komplikovaný | compliqué |
 
 ---
 
@@ -92,177 +94,127 @@
 - 💬 Le Narrateur
 - 🦊 Toi, un garçon de quinze ans, de Lyon
 - 🐰 Andrea, une hase de seize ans, ton amie
-- 🐻 Maťo, un ours de quatorze ans, le cousin d'Andrea
-- 🐹 Katka, une marmotte de treize ans, la sœur de Maťo
-- 🦡 Marek, un blaireau, technicien du datacentre : on le vouvoie
+- 🐻 Maťo, un ours de quatorze ans
+- 🐹 Katka, une marmotte de treize ans
 
 ---
 
 ## La suite de l'épisode
 
-! 💬 Je večer. Marek sedí s nimi pred budovou. Ponúka im čaj a sendviče.
-> C'est le soir. Marek est assis avec eux devant le bâtiment. Il leur offre du thé et des sandwichs.
-> Je večer = c'est le soir
-> Marek sedí s nimi = Marek est assis avec eux
-> pred budovou = devant le bâtiment
-> Ponúka im čaj a sendviče = il leur offre du thé et des sandwichs
+! 💬 Vonku, za stromami. Maťo má v každej ruke klobásu. Katka má heslo na wifi.
+> Dehors, derrière les arbres. Maťo a une saucisse dans chaque main. Katka a le mot de passe du wifi.
+> Vonku, za stromami = dehors, derrière les arbres
+> Maťo má v každej ruke klobásu = Maťo a une saucisse dans chaque main
+> Katka má heslo na wifi = Katka a le mot de passe du wifi
 
-! 🦡 Viem, že sa vám nepáči, čo tu vidíte. Mne sa to nepáči tiež.
-> Je sais que ce que vous voyez ici ne vous plaît pas. À moi non plus.
-> Viem, že = je sais que
-> sa vám nepáči = ne vous plaît pas
-> čo tu vidíte = ce que vous voyez ici
-> Mne sa to nepáči tiež = à moi non plus, ça ne plaît pas
+! 🐰 Máš to?
+> Tu l'as ?
 
-! 🐰 Prečo nám to hovoríte?
-> Pourquoi nous le dites-vous ?
-> Prečo = pourquoi
-> nám to hovoríte = vous nous le dites
+! 🦊 Mám. Stoosemdesiat litrov za sekundu.
+> Je l'ai. Cent quatre-vingts litres par seconde.
 
-! 🦡 Lebo ste sa pýtali.
-> Parce que vous avez posé la question.
-> Lebo = parce que
-> ste sa pýtali = vous avez demandé
-+ Mot nouveau signalé : {{pýtať sa}} = demander, poser une question.
+! 🐰 A on?
+> Et lui ?
 
-! 💬 Marek sa pekne usmeje.
-> Marek sourit gentiment.
-> sa pekne usmeje = sourit gentiment
-+ Mot nouveau signalé : {{usmievať sa}} = sourire.
+! 🦊 Nepríde.
+> Il ne viendra pas.
+> Nepríde = il ne viendra pas
++ Mot nouveau signalé : {{nepríde}} = il ne viendra pas.
 
-! 🐰 Aj jedna líška sa raz pekne usmievala.
-> Un renard aussi a souri joliment, un jour.
-> Aj jedna líška = un renard aussi
-> sa raz pekne usmievala = a souri joliment, une fois
+! 💬 Andrea prikývne. Potom hovorí rýchlo a nepozerá sa naňho.
+> Andrea hoche la tête. Puis elle parle vite, sans le regarder.
+> Andrea prikývne = Andrea hoche la tête
+> Potom hovorí rýchlo = puis elle parle vite
+> a nepozerá sa naňho = et ne le regarde pas
 
-! 🦊 Počkaj... Ja sa tiež pekne usmievam.
-> Attends... Moi aussi, je souris joliment.
-> Počkaj = attends
-> Ja sa tiež pekne usmievam = moi aussi, je souris joliment
+! 🐰 Nie hocikoho.
+> Pas n'importe qui.
+> Nie hocikoho = pas n'importe qui
 
-! 🐰 Práve preto.
-> C'est justement pour ça.
-> Práve preto = justement pour ça
+! 🦊 Čo?
+> Quoi ?
 
-! 🐻 Andrea.
-> Andrea.
+! 🐰 V kamióne. Spýtal si sa: „Hocikoho?“ Nie. Nie hocikoho.
+> Dans le camion. Tu as demandé : « N'importe qui ? » Non. Pas n'importe qui.
+> V kamióne = dans le camion
+> Spýtal si sa = tu as demandé
+> Nie hocikoho = pas n'importe qui
 
-! 🐰 Žartovala som. Skoro.
-> Je plaisantais. Presque.
-> Žartovala som = je plaisantais
-> Skoro = presque
+! 🐰 Čakala som rok. Nikoho som sa nespýtala. A potom mi Katka ukázala tvoju fotku.
+> J'ai attendu un an. Je n'ai demandé à personne. Et puis Katka m'a montré ta photo.
+> Čakala som rok = j'ai attendu un an
+> Nikoho som sa nespýtala = je n'ai demandé à personne
+> A potom mi Katka ukázala tvoju fotku = et puis Katka m'a montré ta photo
++ Mot nouveau signalé : {{čakala som}} = j'ai attendu, dit par une fille.
 
-! 🦡 Rozumiem. Nemusíte mi veriť. Ale chcem vám dať jednu radu.
-> Je comprends. Vous n'avez pas à me croire. Mais je veux vous donner un conseil.
-> Rozumiem = je comprends
-> Nemusíte mi veriť = vous n'êtes pas obligés de me croire
-> Ale chcem vám dať = mais je veux vous donner
-> jednu radu = un conseil
-+ Mot nouveau signalé : {{rada}} = le conseil. Attention : {{rada}} veut aussi dire « contente » ! Le contexte décide.
+! 🦊 Mohla si mi to povedať. V električke.
+> Tu aurais pu me le dire. Dans le tram.
+> Mohla si mi to povedať = tu pouvais me le dire
+> V električke = dans le tram
 
-! 🐹 Počúvame.
-> On écoute.
+! 🐰 Bála som sa, že povieš nie.
+> J'avais peur que tu dises non.
+> Bála som sa = j'avais peur
+> že povieš nie = que tu dirais non
++ Mot nouveau signalé : {{bála som sa}} = j'avais peur, dit par une fille.
 
-! 🦡 Naši šéfovia pozerajú každý večer Správy o siedmej. Všetci. Ak chcete, aby vás niekto počul, choďte tam.
-> Nos chefs regardent tous les soirs le journal de dix-neuf heures. Tous. Si vous voulez que quelqu'un vous entende, allez-y.
-> Naši šéfovia = nos chefs
-> pozerajú každý večer = regardent tous les soirs
-> Správy o siedmej = le journal de sept heures
-> Všetci = tous
-> Ak chcete, aby vás niekto počul = si vous voulez que quelqu'un vous entende
-> choďte tam = allez-y
-+ {{o siedmej}} = à sept heures. Le soir, en slovaque, on dit souvent « sept heures » plutôt que « dix-neuf heures ».
+! 🦊 Povedal by som áno.
+> J'aurais dit oui.
+> Povedal by som áno = j'aurais dit oui
++ Tu reconnais {{by}} : « je dirais ».
 
-! 🐻 Kde?
-> Où ça ?
+! 🐰 Viem. Teraz.
+> Je sais. Maintenant.
 
-! 🦡 Do Bratislavy. Do televízie.
-> À Bratislava. À la télévision.
+! 💬 [USER_NAME] sa pozerá na sivú budovu. Na malom pódiu má pán s úsmevom prejav. Zdvihne hlavu. Uvidí ich. Usmeje sa.
+> Gab regarde le bâtiment gris. Sur une petite scène, le monsieur au sourire fait un discours. Il lève la tête. Il les voit. Il sourit.
+> sa pozerá na sivú budovu = regarde le bâtiment gris
+> Na malom pódiu = sur une petite scène
+> má pán s úsmevom prejav = le monsieur au sourire fait un discours
+> Zdvihne hlavu = il lève la tête
+> Uvidí ich = il les voit
+> Usmeje sa = il sourit
 
-! 🐹 To sme už vymysleli.
-> On y avait déjà pensé.
-> To sme už vymysleli = nous l'avons déjà inventé
+! 🦊 Videl nás.
+> Il nous a vus.
+> Videl nás = il nous a vus
 
-! 🦡 Naozaj? Vy ste múdri.
-> Vraiment ? Vous êtes malins.
-> Vy ste múdri = vous êtes intelligents
+! 🐰 Áno.
+> Oui.
 
-! 🐹 Hej. Hovorí mi to každý.
-> Ouais. Tout le monde me le dit.
-> Hovorí mi to každý = chacun me le dit
+! 🦊 Marek povedal jednu vec. Požiadali ho a on nevedel povedať nie.
+> Marek a dit une chose. On lui a demandé, et il n'a pas su dire non.
+> Marek povedal jednu vec = Marek a dit une chose
+> Požiadali ho = on lui a demandé
+> a on nevedel povedať nie = et il n'a pas su dire non
 
-! 🐰 Marek... Ďakujeme.
-> Marek... Merci.
+! 🐰 A čo?
+> Et alors ?
 
-! 🦡 Nie je za čo. Ak vás uvidím v televízii, budem sa smiať. A možno aj plakať.
-> Il n'y a pas de quoi. Si je vous vois à la télévision, je rirai. Et peut-être que je pleurerai aussi.
-> Ak vás uvidím = si je vous vois
-> v televízii = à la télévision
-> budem sa smiať = je rirai
-> A možno aj plakať = et peut-être aussi pleurer
-+ Pour comprendre : {{smiať sa}} = rire, {{plakať}} = pleurer.
+! 🦊 Tak ty ma nabudúce požiadaj. Ja viem povedať nie. A aj tak poviem áno.
+> Alors toi, la prochaine fois, demande-moi. Je sais dire non. Je dirai oui quand même.
+> Tak ty ma nabudúce požiadaj = alors toi, la prochaine fois, demande-moi
+> Ja viem povedať nie = je sais dire non
+> A aj tak poviem áno = et je dirai oui quand même
++ Mot nouveau signalé : {{nabudúce}} = la prochaine fois. Et {{aj tak}} = quand même.
 
-! 🦊 A ak nás neuvidíte?
-> Et si on ne nous voit pas ?
-> A ak nás neuvidíte = et si vous ne nous voyez pas
+! 🐰 Si komplikovaný.
+> Tu es compliqué.
+> Si komplikovaný = tu es compliqué
 
-! 🦡 Tak vám budem držať palce a pozerať niečo iné.
-> Alors je croiserai les doigts pour vous, et je regarderai autre chose.
-> Tak = alors
-> vám budem držať palce = je vous tiendrai les pouces
-> a pozerať niečo iné = et je regarderai autre chose
-+ Mot nouveau signalé : {{držať palce}} = mot à mot « tenir les pouces » : c'est le « croiser les doigts » slovaque.
+! 🦊 Som líška.
+> Je suis un renard.
 
-! 🦡 Počkajte. Mám pre vás niečo.
-> Attendez. J'ai quelque chose pour vous.
-> Počkajte = attendez
-> Mám pre vás niečo = j'ai quelque chose pour vous
-
-! 💬 Marek im podá papier. Sú na ňom čísla.
-> Marek leur tend un papier. Il y a des chiffres dessus.
-> Marek im podá papier = Marek leur tend un papier
-> Sú na ňom čísla = il y a des chiffres dessus
-
-! 🦡 Koľko vody berieme z rieky. Každý deň. Pre zápisník doktorky Vydrovej.
-> Combien d'eau on prend dans la rivière. Chaque jour. Pour le carnet de madame la docteure Vydrová.
-> Koľko vody berieme = combien d'eau nous prenons
-> z rieky = dans la rivière
-> Každý deň = chaque jour
-> Pre zápisník doktorky Vydrovej = pour le carnet de madame la docteure Vydrová
-
-! 🐰 Prečo nám to dávate?
-> Pourquoi vous nous donnez ça ?
-> Prečo = pourquoi
-> nám to dávate = vous nous donnez ça
-
-! 🦡 Lebo mám štyri deti. A chcem, aby raz videli žaby.
-> Parce que j'ai quatre enfants. Et je veux qu'un jour, ils voient des grenouilles.
-> Lebo mám štyri deti = parce que j'ai quatre enfants
-> A chcem, aby = et je veux que
-> raz videli žaby = un jour ils voient des grenouilles
-+ Mot nouveau signalé : {{chcem, aby}} = je veux que.
-
-! 🦡 A ešte niečo. Cestou choďte cez Banskú Štiavnicu. Sú tam staré jazerá. Tam je ešte voda.
-> Et encore une chose. En chemin, passez par Banská Štiavnica. Il y a de vieux lacs. Là-bas, il y a encore de l'eau.
-> A ešte niečo = et encore une chose
-> Cestou = en chemin
-> choďte cez Banskú Štiavnicu = passez par Banská Štiavnica
-> Sú tam staré jazerá = il y a là-bas de vieux lacs
-> Tam je ešte voda = là-bas, il y a encore de l'eau
-
-! 🐻 Ďakujeme, Marek.
-> Merci, Marek.
-
-! 💬 Večer sa ochladí. Pri rieke je opäť ticho. Ani jedna žaba.
-> Le soir, il se met à faire frais. Près de la rivière, il fait de nouveau silence. Pas une seule grenouille.
-> Večer sa ochladí = le soir, il fait plus frais
-> Pri rieke je opäť ticho = près de la rivière, c'est de nouveau le silence
-> Ani jedna žaba = pas une seule grenouille
+! 🐹 Skončili ste? Autobus do Štiavnice ide o štyri minúty.
+> Vous avez fini ? Le bus pour Štiavnica part dans quatre minutes.
+> Skončili ste = vous avez fini
+> Autobus do Štiavnice = le bus pour Štiavnica
+> ide o štyri minúty = part dans quatre minutes
 
 ---
 
 ## 🇸🇰 Coin slovaque
 
-{{fr:Pour souhaiter bonne chance, les Slovaques ne croisent pas les doigts : ils serrent les pouces dans le poing. On dit}} {{Držím ti palce!}}{{fr:, « je te tiens les pouces ».}}
+{{fr:Fais le point. Sept pièces : le permis, le registre, la photo de la tranchée, les captures, la vidéo du tuyau, le bon de livraison et la photo du compteur. Tu sais aussi qui a écrit le programme. Mais Marek ne viendra pas.}}
 
-{{fr:Le huitième chapitre est terminé. Demain, Banská Štiavnica : une vieille ville de mines, des lacs, et peut-être de l'eau.}}
+{{fr:Direction Banská Štiavnica, pour trouver la seule personne qui sait lire trente ans de chiffres. Et demain soir, le château.}}

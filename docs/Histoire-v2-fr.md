@@ -894,7 +894,7 @@
 
 🐹 Attendez. Lundi, quarante-deux. Mardi, quarante et un. Mercredi, quarante-trois. Et la semaine d'avant… quarante-deux, quarante et un, quarante-trois.
 
-🐰 Et la semaine d'avant ?
+🐰 Et la semaine encore avant ?
 
 🐹 Pareil. Et encore avant. C'est la même semaine. Depuis un an.
 
@@ -961,6 +961,8 @@
 💬 Un pompier en veste jaune leur fait signe.
 
 🧑 Vous quatre ! J'ai besoin de bras. Il y a des familles dans les maisons du bas. Des canards, des souris, des lapins.
+
+🐰 On vous aide.
 
 🐻 J'ai des bras.
 
@@ -1122,7 +1124,7 @@
 
 💬 Vendredi, midi. La route de la vallée est sous l'eau. Il reste le chantier de la nouvelle route, dans la forêt.
 
-🐻 C'est peut-être eux ! Ils ont coupé la forêt. Pas de forêt, pas d'eau.
+🐻 À mon avis, c'est eux ! Ils ont coupé la forêt. Pas de forêt, pas d'eau.
 
 🐹 Maťo. Hier, c'était le maire, ton ami.
 
@@ -1175,6 +1177,10 @@
 🐹 Vous gardez aussi les doubles ?
 
 🧑 Ma femme dit que c'est une maladie.
+
+🐰 Deux cents litres par seconde. Ça veut dire que…
+
+🦊 … que « zéro litre », ce n'est pas vrai.
 
 ## Scène 3 — La gaffe
 

@@ -1,0 +1,253 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-tvrtok",
+      "type": "qcm",
+      "l1": "jeudi",
+      "l2": "štvrtok",
+      "choices_l1": [
+        "le toit",
+        "la boue",
+        "le pont"
+      ],
+      "choices_l2": [
+        "mláka",
+        "blato",
+        "zem"
+      ]
+    },
+    {
+      "id": "qcm-ml-ka",
+      "type": "qcm",
+      "l1": "la flaque",
+      "l2": "mláka",
+      "choices_l1": [
+        "la main",
+        "jeudi",
+        "le toit"
+      ],
+      "choices_l2": [
+        "štvrtok",
+        "most",
+        "ani"
+      ]
+    },
+    {
+      "id": "qcm-blato",
+      "type": "qcm",
+      "l1": "la boue",
+      "l2": "blato",
+      "choices_l1": [
+        "jeudi",
+        "le pont",
+        "la main"
+      ],
+      "choices_l2": [
+        "mláka",
+        "most",
+        "štvrtok"
+      ]
+    },
+    {
+      "id": "qcm-strecha",
+      "type": "qcm",
+      "l1": "le toit",
+      "l2": "strecha",
+      "choices_l1": [
+        "la main",
+        "le pont",
+        "jeudi"
+      ],
+      "choices_l2": [
+        "mláka",
+        "most",
+        "pršalo"
+      ]
+    },
+    {
+      "id": "qcm-most",
+      "type": "qcm",
+      "l1": "le pont",
+      "l2": "most",
+      "choices_l1": [
+        "même pas",
+        "la main",
+        "jeudi"
+      ],
+      "choices_l2": [
+        "zem",
+        "štvrtok",
+        "mláka"
+      ]
+    },
+    {
+      "id": "qcm-cel-noc",
+      "type": "qcm",
+      "l1": "toute la nuit",
+      "l2": "celú noc",
+      "choices_l1": [
+        "Tu es tombé. (à un garçon)",
+        "un peu d'eau",
+        "trente et un"
+      ],
+      "choices_l2": [
+        "zem",
+        "blato",
+        "most"
+      ]
+    },
+    {
+      "id": "listen-celú-noc-pršalo",
+      "type": "listen",
+      "l1": "Il a plu toute la nuit.",
+      "l2": "Celú noc pršalo.",
+      "choices_l1": [
+        "Il a plu toute la journée.",
+        "Il pleut depuis ce matin.",
+        "Il n'a pas plu cette nuit."
+      ]
+    },
+    {
+      "id": "listen-je-to-suché",
+      "type": "listen",
+      "l1": "C'est sec.",
+      "l2": "Je to suché.",
+      "choices_l1": [
+        "C'est mouillé.",
+        "C'est ici.",
+        "C'est froid."
+      ]
+    },
+    {
+      "id": "listen-tu-si-spadol-trikrát",
+      "type": "listen",
+      "l1": "Tu es tombé là. Trois fois.",
+      "l2": "Tu si spadol. Trikrát.",
+      "choices_l1": [
+        "Je suis tombé là. Deux fois.",
+        "Tu es tombé là. Une fois.",
+        "Tu es venu ici. Trois fois."
+      ]
+    },
+    {
+      "id": "blank-včera-celú-noc-pršalo",
+      "type": "fill-blank",
+      "l1": "Hier, il a plu toute la nuit.",
+      "l2": "Včera celú noc pršalo.",
+      "missing_l1": "nuit",
+      "missing_l2": "noc",
+      "blank_index_l1": 6,
+      "blank_index_l2": 2,
+      "choices_l1": [
+        "journée",
+        "semaine",
+        "matinée"
+      ],
+      "choices_l2": [
+        "deň",
+        "týždeň",
+        "ráno"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-spadla-som-do-mláky",
+      "type": "fill-blank",
+      "l1": "Je suis tombée dans une flaque.",
+      "l2": "Spadla som do mláky.",
+      "missing_l1": "flaque",
+      "missing_l2": "mláky",
+      "blank_index_l1": 5,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "rivière",
+        "boue",
+        "herbe"
+      ],
+      "choices_l2": [
+        "rieky",
+        "blata",
+        "trávy"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-v-lete-bolo-veľmi-sucho",
+      "type": "order",
+      "l1": "En été, il a fait très sec.",
+      "l2": "V lete bolo veľmi sucho.",
+      "tokens_l1": [
+        "En",
+        "été,",
+        "il",
+        "a",
+        "fait",
+        "très",
+        "sec.",
+        "Je",
+        "suis",
+        "tombée",
+        "dans",
+        "une",
+        "flaque."
+      ],
+      "tokens_l2": [
+        "V",
+        "lete",
+        "bolo",
+        "veľmi",
+        "sucho.",
+        "Spadla",
+        "som",
+        "do",
+        "mláky."
+      ]
+    },
+    {
+      "id": "order-dnes-si-nemôžem-ani-namočiť-nohy",
+      "type": "order",
+      "l1": "Aujourd'hui, je ne peux même pas me mouiller les pieds.",
+      "l2": "Dnes si nemôžem ani namočiť nohy.",
+      "tokens_l1": [
+        "Aujourd'hui,",
+        "je",
+        "ne",
+        "peux",
+        "même",
+        "pas",
+        "me",
+        "mouiller",
+        "les",
+        "pieds.",
+        "pont"
+      ],
+      "tokens_l2": [
+        "Dnes",
+        "si",
+        "nemôžem",
+        "ani",
+        "namočiť",
+        "nohy.",
+        "most"
+      ]
+    },
+    {
+      "id": "match-tvrtok-vocab",
+      "type": "match",
+      "l1": [
+        "jeudi",
+        "la flaque",
+        "la boue",
+        "le toit"
+      ],
+      "l2": [
+        "štvrtok",
+        "mláka",
+        "blato",
+        "strecha"
+      ]
+    }
+  ]
+}

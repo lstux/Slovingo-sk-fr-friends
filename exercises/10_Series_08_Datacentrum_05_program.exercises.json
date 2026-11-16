@@ -1,0 +1,260 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-program",
+      "type": "qcm",
+      "l1": "le programme",
+      "l2": "program",
+      "choices_l1": [
+        "précédent",
+        "les enfants",
+        "à droite"
+      ],
+      "choices_l2": [
+        "skúšky",
+        "vpravo",
+        "nevidieť"
+      ]
+    },
+    {
+      "id": "qcm-riadok",
+      "type": "qcm",
+      "l1": "la ligne",
+      "l2": "riadok",
+      "choices_l1": [
+        "à droite",
+        "par l'escalier",
+        "ils boivent"
+      ],
+      "choices_l2": [
+        "predchádzajúci",
+        "skúšky",
+        "vpravo"
+      ]
+    },
+    {
+      "id": "qcm-kop-ruje",
+      "type": "qcm",
+      "l1": "il copie",
+      "l2": "kopíruje",
+      "choices_l1": [
+        "à droite",
+        "la ligne",
+        "les enfants"
+      ],
+      "choices_l2": [
+        "predchádzajúci",
+        "vpravo",
+        "prestane dýchať"
+      ]
+    },
+    {
+      "id": "qcm-predch-dzaj-ci",
+      "type": "qcm",
+      "l1": "précédent",
+      "l2": "predchádzajúci",
+      "choices_l1": [
+        "à droite",
+        "la ligne",
+        "par l'escalier"
+      ],
+      "choices_l2": [
+        "požiadali ma",
+        "kopíruje",
+        "deti"
+      ]
+    },
+    {
+      "id": "qcm-prestane-d-cha",
+      "type": "qcm",
+      "l1": "elle arrête de respirer",
+      "l2": "prestane dýchať",
+      "choices_l1": [
+        "Viens ! → Venez !",
+        "plus rapide qu'un train",
+        "Interdit de fumer."
+      ],
+      "choices_l2": [
+        "deti",
+        "kopíruje",
+        "požiadali ma"
+      ]
+    },
+    {
+      "id": "qcm-sk-ky",
+      "type": "qcm",
+      "l1": "les essais",
+      "l2": "skúšky",
+      "choices_l1": [
+        "le programme",
+        "précédent",
+        "ils boivent"
+      ],
+      "choices_l2": [
+        "prestane dýchať",
+        "kopíruje",
+        "po schodoch"
+      ]
+    },
+    {
+      "id": "listen-kto-ho-napísal",
+      "type": "listen",
+      "l1": "Qui l'a écrit ?",
+      "l2": "Kto ho napísal?",
+      "choices_l1": [
+        "Qui l'a lu ?",
+        "Qui l'a vu ?",
+        "Tu l'as écrit ?"
+      ]
+    },
+    {
+      "id": "listen-mám-štyri-deti",
+      "type": "listen",
+      "l1": "J'ai quatre enfants.",
+      "l2": "Mám štyri deti.",
+      "choices_l1": [
+        "J'ai trois enfants.",
+        "J'ai quatre ans.",
+        "Vous avez quatre enfants ?"
+      ]
+    },
+    {
+      "id": "listen-pijú-vaše-deti-vodu",
+      "type": "listen",
+      "l1": "Ils boivent de l'eau, vos enfants ?",
+      "l2": "Pijú vaše deti vodu?",
+      "choices_l1": [
+        "Ils boivent du thé, vos enfants ?",
+        "Ils ont soif, vos enfants ?",
+        "Vous buvez de l'eau ?"
+      ]
+    },
+    {
+      "id": "blank-je-to-malý-program-dvanásť-riadkov-kopíruje-predchádzajúci-rok",
+      "type": "fill-blank",
+      "l1": "C'est un petit programme. Douze lignes. Il recopie l'année d'avant.",
+      "l2": "Je to malý program. Dvanásť riadkov. Kopíruje predchádzajúci rok.",
+      "missing_l1": "lignes",
+      "missing_l2": "riadkov",
+      "blank_index_l1": 5,
+      "blank_index_l2": 5,
+      "choices_l1": [
+        "pages",
+        "minutes",
+        "litres"
+      ],
+      "choices_l2": [
+        "strán",
+        "minút",
+        "litrov"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-poďte-to-povedať-zajtra-do-bratislavy",
+      "type": "fill-blank",
+      "l1": "Venez le dire. Demain. À Bratislava.",
+      "l2": "Poďte to povedať. Zajtra. Do Bratislavy.",
+      "missing_l1": "Demain",
+      "missing_l2": "Zajtra",
+      "blank_index_l1": 3,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "Aujourd'hui",
+        "Hier",
+        "Jamais"
+      ],
+      "choices_l2": [
+        "Dnes",
+        "Včera",
+        "Nikdy"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-marek-neodpovie-vstane-a-otvorí-dvere",
+      "type": "order",
+      "l1": "Marek ne répond pas. Il se lève et ouvre la porte.",
+      "l2": "Marek neodpovie. Vstane a otvorí dvere.",
+      "tokens_l1": [
+        "Marek",
+        "ne",
+        "répond",
+        "pas.",
+        "Il",
+        "se",
+        "lève",
+        "et",
+        "ouvre",
+        "la",
+        "porte.",
+        "Ils",
+        "boivent",
+        "de",
+        "l'eau,",
+        "vos",
+        "enfants",
+        "?"
+      ],
+      "tokens_l2": [
+        "Marek",
+        "neodpovie.",
+        "Vstane",
+        "a",
+        "otvorí",
+        "dvere.",
+        "Pijú",
+        "vaše",
+        "deti",
+        "vodu?"
+      ]
+    },
+    {
+      "id": "order-a-čísla-z-potoka-tých-štyridsaťdva-centimetrov",
+      "type": "order",
+      "l1": "Et les chiffres du ruisseau ? Les quarante-deux centimètres ?",
+      "l2": "A čísla z potoka? Tých štyridsaťdva centimetrov?",
+      "tokens_l1": [
+        "Et",
+        "les",
+        "chiffres",
+        "du",
+        "ruisseau",
+        "?",
+        "Les",
+        "quarante-deux",
+        "centimètres",
+        "?",
+        "programme"
+      ],
+      "tokens_l2": [
+        "A",
+        "čísla",
+        "z",
+        "potoka?",
+        "Tých",
+        "štyridsaťdva",
+        "centimetrov?",
+        "program"
+      ]
+    },
+    {
+      "id": "match-program-vocab",
+      "type": "match",
+      "l1": [
+        "le programme",
+        "la ligne",
+        "il copie",
+        "précédent"
+      ],
+      "l2": [
+        "program",
+        "riadok",
+        "kopíruje",
+        "predchádzajúci"
+      ]
+    }
+  ]
+}

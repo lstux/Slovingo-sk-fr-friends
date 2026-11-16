@@ -1,0 +1,261 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-serverov-a",
+      "type": "qcm",
+      "l1": "la salle des serveurs",
+      "l2": "serverovňa",
+      "choices_l1": [
+        "il est resté coincé",
+        "le mot de passe",
+        "Ne poussez pas !"
+      ],
+      "choices_l2": [
+        "vľavo",
+        "desaťtisíc",
+        "zakázané"
+      ]
+    },
+    {
+      "id": "qcm-desa-tis-c",
+      "type": "qcm",
+      "l1": "dix mille",
+      "l2": "desaťtisíc",
+      "choices_l1": [
+        "le tourniquet",
+        "interdit",
+        "j'ai oublié"
+      ],
+      "choices_l2": [
+        "zasekol sa",
+        "serverovňa",
+        "turniket"
+      ]
+    },
+    {
+      "id": "qcm-heslo",
+      "type": "qcm",
+      "l1": "le mot de passe",
+      "l2": "heslo",
+      "choices_l1": [
+        "la salle des serveurs",
+        "il est resté coincé",
+        "Ne poussez pas !"
+      ],
+      "choices_l2": [
+        "zabudol som",
+        "desaťtisíc",
+        "zakázané"
+      ]
+    },
+    {
+      "id": "qcm-n-v-tevn-k",
+      "type": "qcm",
+      "l1": "le visiteur",
+      "l2": "návštevník",
+      "choices_l1": [
+        "interdit",
+        "à gauche",
+        "dix mille"
+      ],
+      "choices_l2": [
+        "serverovňa",
+        "Netlačte!",
+        "turniket"
+      ]
+    },
+    {
+      "id": "qcm-zasekol-sa",
+      "type": "qcm",
+      "l1": "il est resté coincé",
+      "l2": "zasekol sa",
+      "choices_l1": [
+        "la salle des serveurs",
+        "Ne poussez pas !",
+        "le mot de passe"
+      ],
+      "choices_l2": [
+        "zakázané",
+        "heslo",
+        "vľavo"
+      ]
+    },
+    {
+      "id": "qcm-turniket",
+      "type": "qcm",
+      "l1": "le tourniquet",
+      "l2": "turniket",
+      "choices_l1": [
+        "interdit",
+        "le visiteur",
+        "à gauche"
+      ],
+      "choices_l2": [
+        "zakázané",
+        "zasekol sa",
+        "heslo"
+      ]
+    },
+    {
+      "id": "listen-ehm-jedna-otázka-naraz",
+      "type": "listen",
+      "l1": "Euh… une question à la fois.",
+      "l2": "Ehm… jedna otázka naraz.",
+      "choices_l1": [
+        "Euh… deux questions à la fois.",
+        "Bonne question.",
+        "Euh… pas de questions."
+      ]
+    },
+    {
+      "id": "listen-prepáčte-je-mi-to-ľúto-neprejdem",
+      "type": "listen",
+      "l1": "Pardon. Je suis désolé. Je ne passe pas.",
+      "l2": "Prepáčte. Je mi to ľúto. Neprejdem.",
+      "choices_l1": [
+        "Pardon. Je passe.",
+        "Merci. Je suis content. Je passe.",
+        "Pardon. Je suis coincé. Aidez-moi."
+      ]
+    },
+    {
+      "id": "listen-pravda-zabudol-som",
+      "type": "listen",
+      "l1": "C'est vrai. J'avais oublié.",
+      "l2": "Pravda. Zabudol som.",
+      "choices_l1": [
+        "Ce n'est pas vrai. Je n'ai pas oublié.",
+        "C'est vrai. Je savais.",
+        "Pardon. J'avais oublié."
+      ]
+    },
+    {
+      "id": "blank-východ-je-vpravo",
+      "type": "fill-blank",
+      "l1": "La sortie est à droite.",
+      "l2": "Východ je vpravo.",
+      "missing_l1": "droite",
+      "missing_l2": "vpravo",
+      "blank_index_l1": 4,
+      "blank_index_l2": 2,
+      "choices_l1": [
+        "gauche",
+        "haut",
+        "bas"
+      ],
+      "choices_l2": [
+        "vľavo",
+        "hore",
+        "dole"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-teraz-sivé-dvere-vľavo",
+      "type": "fill-blank",
+      "l1": "Maintenant. La porte grise, à gauche.",
+      "l2": "Teraz. Sivé dvere, vľavo.",
+      "missing_l1": "gauche",
+      "missing_l2": "vľavo",
+      "blank_index_l1": 5,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "droite",
+        "haut",
+        "bas"
+      ],
+      "choices_l2": [
+        "vpravo",
+        "hore",
+        "dole"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-aké-je-heslo-na-wifi",
+      "type": "order",
+      "l1": "C'est quoi le mot de passe du wifi ?",
+      "l2": "Aké je heslo na wifi?",
+      "tokens_l1": [
+        "C'est",
+        "quoi",
+        "le",
+        "mot",
+        "de",
+        "passe",
+        "du",
+        "wifi",
+        "?",
+        "Maintenant.",
+        "La",
+        "porte",
+        "grise,",
+        "à",
+        "gauche."
+      ],
+      "tokens_l2": [
+        "Aké",
+        "je",
+        "heslo",
+        "na",
+        "wifi?",
+        "Teraz.",
+        "Sivé",
+        "dvere,",
+        "vľavo."
+      ]
+    },
+    {
+      "id": "order-ty-nerozumieš-po-slovensky",
+      "type": "order",
+      "l1": "Tu ne comprends pas le slovaque.",
+      "l2": "Ty nerozumieš po slovensky.",
+      "tokens_l1": [
+        "Tu",
+        "ne",
+        "comprends",
+        "pas",
+        "le",
+        "slovaque.",
+        "C'est",
+        "quoi",
+        "le",
+        "mot",
+        "de",
+        "passe",
+        "du",
+        "wifi",
+        "?"
+      ],
+      "tokens_l2": [
+        "Ty",
+        "nerozumieš",
+        "po",
+        "slovensky.",
+        "Aké",
+        "je",
+        "heslo",
+        "na",
+        "wifi?"
+      ]
+    },
+    {
+      "id": "match-serverov-a-vocab",
+      "type": "match",
+      "l1": [
+        "la salle des serveurs",
+        "dix mille",
+        "le mot de passe",
+        "le visiteur"
+      ],
+      "l2": [
+        "serverovňa",
+        "desaťtisíc",
+        "heslo",
+        "návštevník"
+      ]
+    }
+  ]
+}

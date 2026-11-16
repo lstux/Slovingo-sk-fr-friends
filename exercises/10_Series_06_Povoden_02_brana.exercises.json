@@ -1,0 +1,264 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-br-na",
+      "type": "qcm",
+      "l1": "le portail",
+      "l2": "brána",
+      "choices_l1": [
+        "fermé",
+        "les canetons",
+        "la directrice"
+      ],
+      "choices_l2": [
+        "riaditeľka",
+        "pokazený",
+        "od koho"
+      ]
+    },
+    {
+      "id": "qcm-zatvoren",
+      "type": "qcm",
+      "l1": "fermé",
+      "l2": "zatvorené",
+      "choices_l1": [
+        "la directrice",
+        "de qui",
+        "la clé"
+      ],
+      "choices_l2": [
+        "Neďakujte.",
+        "keby",
+        "kľúč"
+      ]
+    },
+    {
+      "id": "qcm-pr-kaz",
+      "type": "qcm",
+      "l1": "l'ordre",
+      "l2": "príkaz",
+      "choices_l1": [
+        "la clé",
+        "de qui",
+        "le portail"
+      ],
+      "choices_l2": [
+        "káčatá",
+        "pokazený",
+        "brána"
+      ]
+    },
+    {
+      "id": "qcm-od-koho",
+      "type": "qcm",
+      "l1": "de qui",
+      "l2": "od koho",
+      "choices_l1": [
+        "les canetons",
+        "le portail",
+        "fermé"
+      ],
+      "choices_l2": [
+        "zatvorené",
+        "keby",
+        "príkaz"
+      ]
+    },
+    {
+      "id": "qcm-k",
+      "type": "qcm",
+      "l1": "la clé",
+      "l2": "kľúč",
+      "choices_l1": [
+        "la directrice",
+        "de qui",
+        "fermé"
+      ],
+      "choices_l2": [
+        "od koho",
+        "keby",
+        "Neďakujte."
+      ]
+    },
+    {
+      "id": "qcm-riadite-ka",
+      "type": "qcm",
+      "l1": "la directrice",
+      "l2": "riaditeľka",
+      "choices_l1": [
+        "de qui",
+        "les canetons",
+        "l'ordre"
+      ],
+      "choices_l2": [
+        "Neďakujte.",
+        "zatvorené",
+        "pokazený"
+      ]
+    },
+    {
+      "id": "listen-je-zatvorené",
+      "type": "listen",
+      "l1": "C'est fermé.",
+      "l2": "Je zatvorené.",
+      "choices_l1": [
+        "C'est ouvert.",
+        "C'est cassé.",
+        "C'est interdit."
+      ]
+    },
+    {
+      "id": "listen-od-niekoho-kto-je-v-suchu",
+      "type": "listen",
+      "l1": "De quelqu'un qui est au sec.",
+      "l2": "Od niekoho, kto je v suchu.",
+      "choices_l1": [
+        "De quelqu'un qui est sous l'eau.",
+        "À quelqu'un qui a soif.",
+        "De personne. C'est fermé."
+      ]
+    },
+    {
+      "id": "listen-otvor-keby-sa-niekto-pýtal-brána-bola-pokazená",
+      "type": "listen",
+      "l1": "Ouvre. Si on te demande, le portail était cassé.",
+      "l2": "Otvor. Keby sa niekto pýtal, brána bola pokazená.",
+      "choices_l1": [
+        "Ferme. Si on te demande, le portail était ouvert.",
+        "Ouvre. Le portail est cassé.",
+        "Ouvre. Si on te demande, dis que c'est moi."
+      ]
+    },
+    {
+      "id": "blank-keby-som-mal-kľúč-otvoril-by-som",
+      "type": "fill-blank",
+      "l1": "Si j'avais la clé, j'ouvrirais.",
+      "l2": "Keby som mal kľúč, otvoril by som.",
+      "missing_l1": "clé",
+      "missing_l2": "kľúč",
+      "blank_index_l1": 3,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "voiture",
+        "porte",
+        "main"
+      ],
+      "choices_l2": [
+        "auto",
+        "dvere",
+        "ruku"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-od-koho-máš-ten-kľúč",
+      "type": "fill-blank",
+      "l1": "De qui tu as cette clé ?",
+      "l2": "Od koho máš ten kľúč?",
+      "missing_l1": "qui",
+      "missing_l2": "koho",
+      "blank_index_l1": 1,
+      "blank_index_l2": 1,
+      "choices_l1": [
+        "où",
+        "quoi",
+        "quand"
+      ],
+      "choices_l2": [
+        "kiaľ",
+        "čoho",
+        "kedy"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-brána-je-zatvorená",
+      "type": "order",
+      "l1": "Le portail est fermé.",
+      "l2": "Brána je zatvorená.",
+      "tokens_l1": [
+        "Le",
+        "portail",
+        "est",
+        "fermé.",
+        "Un",
+        "blaireau",
+        "en",
+        "gilet",
+        "bleu",
+        "arrive",
+        "en",
+        "courant,",
+        "de",
+        "l'autre",
+        "côté.",
+        "Il",
+        "a",
+        "une",
+        "clé."
+      ],
+      "tokens_l2": [
+        "Brána",
+        "je",
+        "zatvorená.",
+        "Z",
+        "druhej",
+        "strany",
+        "pribehne",
+        "jazvec",
+        "v",
+        "modrej",
+        "veste.",
+        "Má",
+        "kľúč."
+      ]
+    },
+    {
+      "id": "order-videl-som-aj-tak-je-zatvorené-mám-príkazy",
+      "type": "order",
+      "l1": "J'ai vu. C'est fermé quand même. J'ai des ordres.",
+      "l2": "Videl som. Aj tak je zatvorené. Mám príkazy.",
+      "tokens_l1": [
+        "J'ai",
+        "vu.",
+        "C'est",
+        "fermé",
+        "quand",
+        "même.",
+        "J'ai",
+        "des",
+        "ordres.",
+        "clé"
+      ],
+      "tokens_l2": [
+        "Videl",
+        "som.",
+        "Aj",
+        "tak",
+        "je",
+        "zatvorené.",
+        "Mám",
+        "príkazy.",
+        "kľúč"
+      ]
+    },
+    {
+      "id": "match-br-na-vocab",
+      "type": "match",
+      "l1": [
+        "le portail",
+        "fermé",
+        "l'ordre",
+        "de qui"
+      ],
+      "l2": [
+        "brána",
+        "zatvorené",
+        "príkaz",
+        "od koho"
+      ]
+    }
+  ]
+}
