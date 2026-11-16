@@ -1,6 +1,6 @@
 # Série Sucho (5/5) — Nula litrov
 
-@ TODO_img/spis-nula-litrov.jpg | TODO : choisir une image (un gros dossier ouvert sur un comptoir)
+@ img/illus_02_spis.jpg | Quatre cents pages, dix minutes, et midi qui approche. Source : illustration générée avec ChatGPT
 
 {{fr:La dame pose un énorme dossier devant toi. Quatre cents pages, dix minutes. Quelque part là-dedans, il y a une ligne sur l'eau.}}
 
