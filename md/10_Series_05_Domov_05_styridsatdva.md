@@ -1,6 +1,6 @@
 # Série Domov (5/5) — Štyridsaťdva
 
-@ TODO_img/potok-suchy-kamene.jpg | TODO : choisir une image (un lit de ruisseau à sec, plein de pierres)
+@ img/illus_05_potok.jpg | Un ruisseau presque à sec, des captures d’écran, et un bâtiment gris sur la colline. Source : illustration générée avec ChatGPT
 
 {{fr:Katka a trouvé le site du bâtiment gris. Il mesure le ruisseau toutes les heures. Ce serait une bonne nouvelle, si les chiffres n'étaient pas aussi bizarres.}}
 
