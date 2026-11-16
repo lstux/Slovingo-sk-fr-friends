@@ -145,5 +145,61 @@ def main():
     save(recolor_green(c[7].crop(bbox(c[7]))), 'amb_mol', 160)
 
 
+def photos(path, names):
+    """Les photos du telephone : des rectangles a bord blanc sur fond vert, cote a cote. On coupe sur les colonnes vertes."""
+    im = Image.open(path).convert('RGB')
+    a = np.asarray(im).astype(int)
+    green = (a[..., 1] > 200) & (a[..., 0] < 80) & (a[..., 2] < 80)
+    col = (~green).sum(0) > a.shape[0] * 0.3
+    runs, x = [], 0
+    while x < len(col):
+        if col[x]:
+            x0 = x
+            while x < len(col) and col[x]:
+                x += 1
+            if x - x0 > 50:
+                runs.append((x0, x))
+        x += 1
+    assert len(runs) == len(names), runs
+    for (x0, x1), n in zip(runs, names):
+        rows = np.nonzero((~green[:, x0:x1]).sum(1) > (x1 - x0) * 0.3)[0]
+        crop = im.crop((x0, rows[0], x1, rows[-1] + 1))
+        crop.save(os.path.join(ART, n + '.jpg'), quality=88)
+        print(f'{n}.jpg {crop.size}')
+
+
+def chapter2():
+    c = cells(os.path.join(SRC, 'figurants_ch2_src.png'), 4, 2)
+    pair(c[0], c[1], 'bobor_a', 'bobor_b')
+    pair(c[2], c[3], 'veverica_a', 'veverica_b')
+    pair(c[6], c[7], 'bocian_a', 'bocian_b')
+    c = cells(os.path.join(SRC, 'figurants_ch2_diviak_src.png'), 2, 1)
+    pair(c[0], c[1], 'diviak_a', 'diviak_b')
+    c = cells(os.path.join(SRC, 'objets_ch2_src.png'), 4, 2)
+    for i, name, mh in [(0, 'item_cislo', 160), (1, 'obj_dosier', 260), (3, 'obj_pero_retiazka', 220), (4, 'obj_vedro', 220),
+                        (5, 'obj_kohutik', 220), (6, 'obj_hodiny', 260), (7, 'item_listok_0l', 160)]:
+        single(c[i], name, mh)
+    c = cells(os.path.join(SRC, 'objets_ch2_dossier_src.png'), 1, 1)
+    single(c[0], 'obj_dosier_otvoreny', 700)
+    photos(os.path.join(SRC, 'fotky_src.png'), ['fotka_1', 'fotka_2', 'fotka_3', 'fotka_4', 'fotka_5'])
+    # cette planche ne respecte pas la grille : on decoupe par cadres mesures (meme taille pour les images d'une meme animation)
+    am = key(Image.open(os.path.join(SRC, 'ambiance_ch2_src.png')))
+    def frames(boxes, names, maxh):
+        w = max(x1 - x0 for x0, y0, x1, y1 in boxes) + 12
+        h = max(y1 - y0 for x0, y0, x1, y1 in boxes) + 12
+        for (x0, y0, x1, y1), n in zip(boxes, names):
+            cx, by = (x0 + x1) // 2, y1 + 6   # centre en x, cale en bas
+            save(am.crop((cx - w // 2, by - h, cx - w // 2 + w, by)), n, maxh)
+    frames([(32, 50, 421, 296), (468, 50, 876, 312), (911, 50, 1311, 314)], ['amb_ventilator_1', 'amb_ventilator_2', 'amb_ventilator_3'], 300)
+    frames([(1367, 60, 1707, 319), (1797, 135, 2089, 322)], ['amb_postrekovac_a', 'amb_postrekovac_b'], 200)
+    frames([(273, 409, 517, 634), (738, 490, 973, 635)], ['amb_osa_a', 'amb_osa_b'], 120)
+    save(am.crop((1160, 422, 1466, 658)), 'obj_jablko', 140)
+
+
 if __name__ == '__main__':
-    main()
+    import sys
+    if 'ch2' in sys.argv:
+        chapter2()
+    else:
+        main()
+        chapter2()
