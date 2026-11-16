@@ -1,6 +1,6 @@
 # Domov (extra) — Starosta
 
-@ TODO_img/nove-auto-dedina.jpg | TODO : choisir une image (une voiture neuve dans un chemin de village)
+@ img/illus_05_starosta.jpg | Le maire, sa voiture neuve, et Maťo qui parle très fort en montrant la plaque. Source : illustration générée avec ChatGPT
 
 {{fr:Une belle voiture neuve s'arrête devant la bergerie. C'est quelqu'un d'important. Maťo, lui, a une idée. Une idée honnête.}}
 
