@@ -566,6 +566,16 @@
             s.altAt = this.t + a + Math.random() * (b - a);
           }
         }
+        if (s.patrol) {
+          const P = s.patrol;
+          if (P.state === undefined) { P.state = 'wait'; P.at = this.t + (P.first !== undefined ? P.first : P.every); s.hidden = true; }
+          if (P.state === 'wait' && this.t >= P.at) { P.state = 'go1'; s.hidden = false; s.pose = null; s.x = P.from[0]; s.y = P.from[1]; s.tx = P.stop ? P.stop.x : P.to[0]; s.ty = P.from[1]; }
+          else if (P.state === 'go1' && s.tx === null) {
+            if (P.stop) { P.state = 'stop'; s.pose = P.stop.pose; P.at = this.t + (P.stop.dur || 1.5); }
+            else { P.state = 'wait'; s.hidden = true; P.at = this.t + P.every; }
+          } else if (P.state === 'stop' && this.t >= P.at) { P.state = 'go2'; s.pose = null; s.tx = P.to[0]; s.ty = P.to[1]; }
+          else if (P.state === 'go2' && s.tx === null) { P.state = 'wait'; s.hidden = true; P.at = this.t + P.every; }
+        }
         if (s.tx === null) { s.wt = 0; continue; }
         const dx = s.tx - s.x, dy = s.ty - s.y, d = Math.hypot(dx, dy), step = (s.speed || 300) * dt * (s.scaleSpeed ? this.scaleAt(s.y) : 1);   // scaleSpeed : les pieds ne glissent pas, loin ou pres
         if (d <= step) {
@@ -920,7 +930,11 @@
         // cycle de marche : une bande d'images de meme taille, pieds en bas
         const n = ws.frames, fw = wim.naturalWidth / n, k = this.kOf(s), h = (ws.h || s.h) * k, w = (fw / wim.naturalHeight) * h;
         const f = Math.floor(s.wt * (ws.fps || 10)) % n;
-        c.drawImage(wim, f * fw, 0, fw, wim.naturalHeight, -w / 2, -h, w, h);
+        if (n === 1) {   // une seule image de marche : faux pas (petit rebond a chaque pas, corps qui bascule un peu)
+          const ph = s.wt * (ws.step || 9), bob = Math.abs(Math.sin(ph)) * h * 0.025;
+          c.rotate(Math.sin(ph) * 0.03);
+          c.drawImage(wim, 0, 0, fw, wim.naturalHeight, -w / 2, -h - bob, w, h);
+        } else c.drawImage(wim, f * fw, 0, fw, wim.naturalHeight, -w / 2, -h, w, h);
       } else {
         let r = this.spriteRect(s), pim = im;
         const pose = !moving && s.pose && s.poses && s.poses[s.pose], pi = pose && this.img(pose.img);

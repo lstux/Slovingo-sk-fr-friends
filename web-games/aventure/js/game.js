@@ -533,7 +533,12 @@
           gab(470, 645),
           // figurants (2 poses qui alternent) : la vendeuse dans le kiosque, la brebis endormie, les pigeons
           { id: 'predavacka', img: 'art/predavacka_a.png', x: 742, y: 535, h: 148, abs: true, still: true, face: 1, poses: { b: { img: 'art/predavacka_b.png', h: 148 } }, alt: { pose: 'b', min: 4, max: 8, hold: [1.2, 2] } },
-          { id: 'ovca', img: 'art/ovca_a.png', x: 1000, y: 560, h: 195, abs: true, face: 1, poses: { b: { img: 'art/ovca_b.png', h: 195 } }, alt: { pose: 'b', min: 6, max: 12, hold: [1, 1.8] } },
+          // la brebis dort sur le banc ; elle n'ouvre un oeil que si on lui parle
+          { id: 'ovca', img: 'art/ovca_a.png', x: 1000, y: 590, h: 200, abs: true, face: 1, poses: { b: { img: 'art/ovca_b.png', h: 200 } } },
+          // le voyageur presse : il traverse le hall de temps en temps, devant les figurants (derriere Gab), s'arrete pour regarder sa montre
+          { id: 'jelen', img: 'art/jelen_b.png', x: 2300, y: 618, h: 285, abs: true, hidden: true, face: -1, speed: 260,
+            walkSheet: { img: 'art/jelen_a.png', frames: 1, h: 285, step: 7 }, poses: { b: { img: 'art/jelen_b.png', h: 285 } },
+            patrol: { from: [2300, 618], to: [-200, 618], every: 22, first: 6, stop: { x: 1180, pose: 'b', dur: 1.6 } } },
           { id: 'holuby', img: 'art/holuby_a.png', x: 1290, y: 700, h: 80, abs: true, still: true, face: -1, poses: { b: { img: 'art/holuby_b.png', h: 58 } }, alt: { pose: 'b', min: 5, max: 10, hold: [0.5, 0.9] } },
         ],
         props: [
@@ -542,7 +547,6 @@
         ],
         ambient: [
           { img: 'art/amb_para.png', x: 120, y: 330, w: 50, alpha: 0.7, puff: { w1: 170, life: 4, every: 1.4, rise: 110, drift: 40 } },   // la vapeur de la loco, derriere la vitre
-          { imgs: ['art/jelen_a.png'], x: 0, y: 612, w: 220, cross: { from: [2300, 612], to: [-160, 612], dur: 10, every: 24 } },     // un voyageur presse traverse le hall
           { sweep: { area: [1220, 120, 2160, 560], period: 11, a: 0.12 } },
         ],
         hotspots: [
