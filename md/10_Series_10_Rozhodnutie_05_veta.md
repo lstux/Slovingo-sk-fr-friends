@@ -1,6 +1,6 @@
 # Série Rozhodnutie (5/5) — Veta
 
-@ TODO_img/mato-ceruzka.jpg | TODO : choisir une image (une main qui écrit en grosses lettres au dos d'une feuille)
+@ img/illus_10_veta.jpg | Maťo écrit sa phrase, lentement, en grosses lettres, au dos d’une feuille. Source : illustration générée avec ChatGPT
 
 {{fr:Babka veut les deux. Le monsieur propose un puits et une bourse. Il faut décider. Ensemble.}}
 
