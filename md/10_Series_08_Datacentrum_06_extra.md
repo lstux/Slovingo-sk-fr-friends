@@ -167,7 +167,7 @@
 > Je sais. Maintenant.
 
 ! 💬 [USER_NAME] sa pozerá na sivú budovu. Na malom pódiu má pán s úsmevom prejav. Zdvihne hlavu. Uvidí ich. Usmeje sa.
-> Gab regarde le bâtiment gris. Sur une petite scène, le monsieur au sourire fait un discours. Il lève la tête. Il les voit. Il sourit.
+> [USER_NAME] regarde le bâtiment gris. Sur une petite scène, le monsieur au sourire fait un discours. Il lève la tête. Il les voit. Il sourit.
 > sa pozerá na sivú budovu = regarde le bâtiment gris
 > Na malom pódiu = sur une petite scène
 > má pán s úsmevom prejav = le monsieur au sourire fait un discours

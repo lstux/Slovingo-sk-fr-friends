@@ -19,10 +19,10 @@
       ]
     },
     {
-      "id": "qcm-filmuje",
+      "id": "qcm-natáča",
       "type": "qcm",
       "l1": "il filme, elle filme",
-      "l2": "filmuje",
+      "l2": "natáča",
       "choices_l1": [
         "ils ont changé",
         "couvert de boue",

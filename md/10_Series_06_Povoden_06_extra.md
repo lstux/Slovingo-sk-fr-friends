@@ -57,7 +57,7 @@
 | vaňa | la baignoire |
 | dym | la fumée |
 | para | la vapeur |
-| filmuje | il filme, elle filme |
+| natáča | il filme, elle filme |
 | poschodie | l'étage |
 | horúci | brûlant |
 | labka | la patte |

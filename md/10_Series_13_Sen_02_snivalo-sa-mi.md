@@ -1,6 +1,6 @@
 # Série Sen (2/5) — Snívalo sa mi
 
-@ img/illus_13_sen.jpg | Au petit matin, sous le pommier : Gab raconte son « rêve » et Andrea l'écoute, de moins en moins amusée. Source : illustration générée avec ChatGPT, d'après une photo de Maksym Kozlenko (Wikimedia Commons, CC BY-SA 4.0)
+@ img/illus_13_sen.jpg | Au petit matin, sous le pommier : le renard raconte son « rêve » et Andrea l'écoute, de moins en moins amusée. Source : illustration générée avec ChatGPT, d'après une photo de Maksym Kozlenko (Wikimedia Commons, CC BY-SA 4.0)
 
 {{fr:Mardi ? Tu es arrivé hier ? Alors tout ça, c'était… Il faut que tu racontes à Andrea.}}
 
@@ -80,7 +80,7 @@
 
 {{fr:Pour souhaiter de beaux rêves, on dit}} {{Sladké sny!}}{{fr:, « des rêves sucrés ». Et un mauvais rêve, c'est une}} {{nočná mora}}{{fr:, un cauchemar.}}
 
-{{fr:Le rêve de Gab n'était pas un cauchemar. Mais était-ce vraiment un rêve ?}}
+{{fr:Le rêve de [USER_NAME] n'était pas un cauchemar. Mais était-ce vraiment un rêve ?}}
 
 ---
 

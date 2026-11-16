@@ -59,7 +59,7 @@
 > Vonia klobása = ça sent la saucisse
 
 ! 💬 Andrea zostala za stromami, s Maťovým mobilom. [USER_NAME] má pri uchu Katkin mobil.
-> Andrea est restée derrière les arbres, avec le téléphone de Maťo. Gab a celui de Katka contre l'oreille.
+> Andrea est restée derrière les arbres, avec le téléphone de Maťo. [USER_NAME] a celui de Katka contre l'oreille.
 > Andrea zostala za stromami = Andrea est restée derrière les arbres
 > s Maťovým mobilom = avec le portable de Maťo
 > má pri uchu Katkin mobil = a le portable de Katka à l'oreille
@@ -101,7 +101,7 @@
 ! 🦊 Práve preto.
 > Justement.
 > Práve preto = justement, c'est pour ça
-+ Gab se souvient de la limonade d'Andrea. Une limonade gratuite, au bâtiment gris : non merci.
++ [USER_NAME] se souvient de la limonade d'Andrea. Une limonade gratuite, au bâtiment gris : non merci.
 
 ! 🐰 Dobrá odpoveď.
 > Bien répondu.

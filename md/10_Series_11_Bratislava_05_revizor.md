@@ -91,7 +91,7 @@
 > Pokutu zaplatíte pri okienku = vous paierez l'amende au guichet
 
 ! 💬 Na ďalšej zastávke vystúpia dvaja. Cez okno sa [USER_NAME] pozerá na pána na chodníku.
-> Au prochain arrêt, deux personnes descendent. Par la vitre, Gab regarde le monsieur sur le trottoir.
+> Au prochain arrêt, deux personnes descendent. Par la vitre, [USER_NAME] regarde le monsieur sur le trottoir.
 > vystúpia dvaja = deux personnes descendent
 > Cez okno = par la vitre
 > na pána na chodníku = le monsieur sur le trottoir

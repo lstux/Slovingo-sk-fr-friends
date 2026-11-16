@@ -66,7 +66,7 @@
 > Je Francúz = il est français
 
 ! 🦅 Francúzska líška. V tomto parku vidím všetko.
-> Un renard français. On voit tout, dans ce parc.
+> Un renard français. Je vois tout, dans ce parc.
 > Francúzska líška = un renard français
 > V tomto parku = dans ce parc
 > vidím všetko = je vois tout
@@ -76,7 +76,7 @@
 > Bonjour, monsieur. Vous écrivez tout depuis trente ans ?
 > Vy všetko zapisujete = vous notez tout
 > už tridsať rokov = depuis trente ans
-+ Gab vouvoie l'aigle : {{zapisujete}}, avec {{-te}}.
++ [USER_NAME] vouvoie l'aigle : {{zapisujete}}, avec {{-te}}.
 
 ! 🦅 Tridsaťjeden. Dážď, sneh, potoky, pramene. Každý deň.
 > Trente et un. La pluie, la neige, les ruisseaux, les sources. Tous les jours.

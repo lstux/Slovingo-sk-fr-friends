@@ -85,7 +85,7 @@
 
 {{fr:Entre Košice et Bratislava, le train met environ cinq heures. Il traverse presque tout le pays : les Tatras, le Liptov, puis la vallée du Váh jusqu'à l'ouest.}}
 
-{{fr:Dans le train, on vouvoie les inconnus. Le monsieur, lui, tutoie Andrea et Gab : il les appelle « les enfants ». Ce n'est pas tout à fait de la gentillesse.}}
+{{fr:Dans le train, on vouvoie les inconnus. Le monsieur, lui, tutoie Andrea et [USER_NAME] : il les appelle « les enfants ». Ce n'est pas tout à fait de la gentillesse.}}
 
 ---
 

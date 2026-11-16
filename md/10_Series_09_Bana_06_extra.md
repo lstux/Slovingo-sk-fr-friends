@@ -127,7 +127,7 @@
 > Môžeme ich odfotiť = nous pouvons les photographier
 
 ! 🦦 Môžete ma zobrať so sebou. Vlak do Bratislavy ide na obed.
-> Vous pouvez m'emmener avec. Le train pour Bratislava part à midi.
+> Vous pouvez m'emmener avec vous. Le train pour Bratislava part à midi.
 > Môžete ma zobrať so sebou = vous pouvez m'emmener avec vous
 > Vlak do Bratislavy = le train pour Bratislava
 > ide na obed = part à midi

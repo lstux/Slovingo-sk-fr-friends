@@ -122,7 +122,7 @@
 > všetci = tous
 > veľmi hovoria = parlent très
 > o vode = de l'eau
-+ Oups. Gab a dit « très » au lieu de « beaucoup ». Andrea va corriger.
++ Oups. [USER_NAME] a dit « très » au lieu de « beaucoup ». Andrea va corriger.
 
 ! 🐰 Veľa.
 > Beaucoup.

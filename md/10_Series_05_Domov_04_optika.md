@@ -103,7 +103,7 @@
 ! 🦊 Počúvajte.
 > Écoutez.
 > Počúvajte = écoutez
-+ Gab parle à trois personnes : {{počúvajte}}, avec {{-te}}.
++ [USER_NAME] parle à trois personnes : {{počúvajte}}, avec {{-te}}.
 
 ! 💬 Počúvajú všetci štyria, s uchom na železe. Dole niečo tečie. Rýchlo.
 > Ils écoutent tous les quatre, l'oreille sur le fer. Dessous, quelque chose coule. Vite.

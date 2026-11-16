@@ -174,4 +174,4 @@
 
 {{fr:Fais le point. Tu as maintenant deux pièces : le permis du bâtiment, « zéro litre », et le registre de pán Orol, où la source n'a jamais séché pendant trente ans, sauf l'été après l'arrivée du bâtiment gris.}}
 
-{{fr:Et tu as une piste : des machines, la nuit, il y a deux étés, près d'un refuge. Demain, direction les Tatras.}}
+{{fr:Et tu as une piste : des machines, la nuit, il y a deux ans, près d'un refuge. Demain, direction les Tatras.}}

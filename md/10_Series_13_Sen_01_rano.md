@@ -53,10 +53,10 @@
 > Debout. Il est sept heures.
 > Vstávaj = debout
 > Je sedem hodín = il est sept heures
-+ Tu te souviens ? C'est exactement ce qu'Andrea a dit le deuxième matin.
++ Tu te souviens ? C'est exactement ce qu'Andrea a dit le premier matin.
 
 ! 💬 [USER_NAME] otvorí oči. Listy. Zelené jablká. Andrea s pohárom vody, plným do polovice.
-> Gab ouvre les yeux. Des feuilles. Des pommes vertes. Andrea, avec un verre d'eau à moitié plein.
+> [USER_NAME] ouvre les yeux. Des feuilles. Des pommes vertes. Andrea, avec un verre d'eau à moitié plein.
 > otvorí oči = ouvre les yeux
 > Listy. Zelené jablká = des feuilles, des pommes vertes
 > s pohárom vody = avec un verre d'eau

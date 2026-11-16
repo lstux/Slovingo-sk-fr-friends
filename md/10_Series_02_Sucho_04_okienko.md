@@ -52,7 +52,7 @@
 ## Le dialogue
 
 ! 💬 Úrad. Dlhá chodba, jedno otvorené okienko. Za ním pani.
-> Le bureau. Un long couloir, une seule fenêtre ouverte. Derrière, une dame.
+> Le bureau. Un long couloir, un seul guichet ouvert. Derrière, une dame.
 > Úrad = le bureau
 > Dlhá chodba = un long couloir
 > jedno otvorené okienko = un guichet ouvert

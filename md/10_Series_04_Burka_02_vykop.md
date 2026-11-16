@@ -65,7 +65,7 @@
 + Encore {{veľa}} : les castors aussi, ça parle beaucoup.
 
 ! 🦊 A pred dvoma rokmi?
-> Et il y a deux étés ?
+> Et il y a deux ans ?
 > A pred dvoma rokmi = et il y a deux ans
 
 ! 💬 Chatár zvesí jednu fotku. Na hore je dlhá hnedá čiara. Ide dole do údolia.

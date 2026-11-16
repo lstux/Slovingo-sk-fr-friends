@@ -80,11 +80,11 @@
 > Et en échange ?
 > A za to = et pour ça
 
-! 🕴️ Nič. Mali by ste ísť domov. Dnes večer sa pozerajte na televíziu, ako všetci. A nechajte nás to vyriešiť pomaly. Medzi dospelými.
+! 🕴️ Nič. Mali by ste ísť domov. Dnes večer si pozrite televíziu, ako všetci. A nechajte nás to vyriešiť pomaly. Medzi dospelými.
 > Rien. Vous devriez rentrer chez vous. Regardez la télévision ce soir, comme tout le monde. Et laissez-nous régler ça doucement. Entre adultes.
 > Mali by ste ísť domov = vous devriez rentrer
 > Dnes večer = ce soir
-> sa pozerajte na televíziu = regardez la télévision
+> si pozrite televíziu = regardez la télévision
 > nechajte nás to vyriešiť = laissez-nous régler ça
 > Medzi dospelými = entre adultes
 

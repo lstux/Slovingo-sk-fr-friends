@@ -103,4 +103,4 @@
 
 {{fr:Le préfixe}} {{hoci-}} {{fr:veut dire « n'importe » :}} {{hocikto}} {{fr:(n'importe qui),}} {{hocičo}} {{fr:(n'importe quoi),}} {{hocikde}} {{fr:(n'importe où),}} {{hocikedy}} {{fr:(n'importe quand).}}
 
-{{fr:Gab ne veut pas être}} {{hocikto}}{{fr:. Personne ne veut l'être. Andrea a la réponse, mais elle ne la trouve pas. Pas tout de suite.}}
+{{fr:[USER_NAME] ne veut pas être}} {{hocikto}}{{fr:. Personne ne veut l'être. Andrea a la réponse, mais elle ne la trouve pas. Pas tout de suite.}}

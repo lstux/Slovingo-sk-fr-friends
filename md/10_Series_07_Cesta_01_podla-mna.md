@@ -55,7 +55,7 @@
 > v lese = dans la forêt
 
 ! 🐻 Podľa mňa sú to oni! Vyrúbali les. Bez lesa nie je voda.
-> C'est peut-être eux ! Ils ont coupé la forêt. Pas de forêt, pas d'eau.
+> À mon avis, c'est eux ! Ils ont coupé la forêt. Pas de forêt, pas d'eau.
 > Podľa mňa sú to oni = à mon avis, c'est eux
 > Vyrúbali les = ils ont coupé la forêt
 > Bez lesa nie je voda = sans forêt, il n'y a pas d'eau

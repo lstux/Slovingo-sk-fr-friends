@@ -125,7 +125,7 @@
 > Le téléphone sonne encore.
 
 ! 🐑 Katka! Videla som vás! Maťo, čítal si veľmi pekne. Andrea, bola si krásna. [USER_NAME], si chudý. Jedz!
-> Katka ! Je vous ai vus ! Maťo, tu as très bien lu. Andrea, tu étais belle. Gab, tu es maigre. Mange !
+> Katka ! Je vous ai vus ! Maťo, tu as très bien lu. Andrea, tu étais belle. [USER_NAME], tu es maigre. Mange !
 > Videla som vás = je vous ai vus
 > čítal si veľmi pekne = tu as très bien lu
 > bola si krásna = tu étais belle

@@ -64,7 +64,7 @@
 ! 🦊 Vodu!
 > De l'eau !
 > Vodu = de l'eau
-+ {{voda}} devient {{vodu}} : Gab veut dire « j'entends de l'eau ».
++ {{voda}} devient {{vodu}} : [USER_NAME] veut dire « j'entends de l'eau ».
 
 ! 💬 Pod stromami tečie medzi kameňmi malý potok.
 > Sous les arbres, un petit ruisseau coule entre les pierres.

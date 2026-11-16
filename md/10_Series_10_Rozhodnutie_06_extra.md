@@ -127,7 +127,7 @@
 > aby som sa ťa spýtala = de te demander
 
 ! 💬 [USER_NAME] čaká. Nepomôže jej.
-> Gab attend. Il ne l'aide pas.
+> [USER_NAME] attend. Il ne l'aide pas.
 > čaká = attend
 > Nepomôže jej = il ne l'aide pas
 

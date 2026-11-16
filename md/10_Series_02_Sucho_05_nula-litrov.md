@@ -87,7 +87,7 @@
 > To slovo = ce mot
 > som sa naučil = j'ai appris
 > včera = hier
-+ Gab ment un peu. Mais c'est pour la bonne cause.
++ [USER_NAME] ment un peu. Mais c'est pour la bonne cause.
 
 ! 💬 Nemá papier. Vytiahne lístok z električky a napíše naň: „0 litrov?“
 > Il n'a pas de papier. Il sort son ticket de tram et écrit au dos : « 0 litre ? »

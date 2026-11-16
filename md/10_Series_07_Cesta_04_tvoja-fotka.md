@@ -48,9 +48,9 @@
 > k screenshotom = avec les captures
 > Je veľmi spokojná = elle est très contente
 
-! 🐹 Štyri dôkazy za štyri dni! Ešte šťastie, že som videla tvoju fotku, [USER_NAME].
-> Quatre preuves en quatre jours ! Heureusement que j'ai vu ta photo, [USER_NAME].
-> Štyri dôkazy = quatre preuves
+! 🐹 Šesť dôkazov za štyri dni! Ešte šťastie, že som videla tvoju fotku, [USER_NAME].
+> Six preuves en quatre jours ! Heureusement que j'ai vu ta photo, [USER_NAME].
+> Šesť dôkazov = six preuves
 > za štyri dni = en quatre jours
 > Ešte šťastie = heureusement
 > že som videla tvoju fotku = que j'ai vu ta photo
@@ -80,9 +80,9 @@
 > Povedala som = j'ai dit
 > Chcela som povedať = je voulais dire
 
-! 🐰 Katka. To je dobré.
+! 🐰 Katka. Nechaj tak.
 > Katka. C'est bon.
-> To je dobré = c'est bon, ça va
+> Nechaj tak = laisse, c'est bon
 
 ---
 

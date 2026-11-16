@@ -66,7 +66,7 @@
 + C'était la phrase d'Andrea, le premier jour.
 
 ! 💬 Andrea sa pozrie na líšku.
-> Andrea regarde Gab.
+> Andrea regarde [USER_NAME].
 > sa pozrie na líšku = regarde le renard
 
 ! 🐰 Vidíš, aké to je.

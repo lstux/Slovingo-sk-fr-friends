@@ -105,7 +105,7 @@
 ! 🦊 Koľko je tu „doprava“?
 > Il y a combien de « à droite », ici ?
 > Koľko je tu = combien il y a ici
-+ Gab, les yeux fermés, ne sait plus où est la droite.
++ [USER_NAME], les yeux fermés, ne sait plus où est la droite.
 
 ! 🐰 S tebou? Veľa.
 > Avec toi ? Beaucoup.

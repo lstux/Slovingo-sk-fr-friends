@@ -110,7 +110,7 @@
 > C'est vrai. J'avais oublié.
 > Pravda = c'est vrai
 > Zabudol som = j'ai oublié
-+ Le super-pouvoir de Gab, encore une fois.
++ Le super-pouvoir de [USER_NAME], encore une fois.
 
 ---
 

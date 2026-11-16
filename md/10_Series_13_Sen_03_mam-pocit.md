@@ -76,7 +76,7 @@
 
 {{fr:Le verbe}} {{zdať sa}} {{fr:veut dire « sembler ». Et en slovaque, pour raconter un rêve, on peut dire}} {{zdal sa mi sen}}{{fr: : « un rêve m'a semblé ». Un rêve, c'est quelque chose qui semble vrai.}}
 
-{{fr:Andrea n'a jamais dit à Gab qu'elle l'attendait dans le tram. Alors comment le sait-il ?}}
+{{fr:Andrea n'a jamais dit à [USER_NAME] qu'elle l'attendait dans le tram. Alors comment le sait-il ?}}
 
 ---
 

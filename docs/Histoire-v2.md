@@ -222,8 +222,6 @@
 
 💬 Zaspí.
 
----
-
 # Kapitola 2 — Nula litrov
 
 ## Scéna Sucho — Dobré ráno
@@ -278,7 +276,7 @@
 
 🐰 Merala som ho. Každý týždeň, dva roky. Pre školu.
 
-🐰 V lete trochu klesol. Nikdy veľa.
+🐰 V lete trochu klesal. Nikdy veľa.
 
 🦊 A potom?
 
@@ -399,8 +397,6 @@
 🦊 Kam?
 
 🐰 Domov. Ale najprv navštívime niekoho, kto už tridsať rokov všetko zapisuje.
-
----
 
 # Kapitola 3 — Register
 
@@ -578,8 +574,6 @@
 
 🐰 Spi.
 
----
-
 # Kapitola 4 — Búrka
 
 ## Scéna Burka — Čím vyššie
@@ -724,7 +718,7 @@
 
 🐰 Na zemi v kuchyni?
 
-🦊 S tebou by som čakal aj koniec sveta. Tak búrku…
+🦊 S tebou by som počkal aj na koniec sveta. Tak na búrku…
 
 🐰 Si hlúpy.
 
@@ -757,8 +751,6 @@
 🦊 A ak to nebolo sucho?
 
 🐰 Uvidíme. Na obed sme tam.
-
----
 
 # Kapitola 5 — Štyridsaťdva centimetrov
 
@@ -936,8 +928,6 @@
 
 🐰 Uvidíme.
 
----
-
 # Kapitola 6 — Brána
 
 ## Scéna Povoden — Hasič
@@ -950,7 +940,7 @@
 
 🐹 Počasie bolo vždy bláznivé. Teraz má internet.
 
-💬 Hasič v žltej bunde na nich máva.
+💬 Hasič v žltej bunde im máva.
 
 🧑 Vy štyria! Potrebujem ruky. V domoch dole sú rodiny. Kačky, myši, zajace.
 
@@ -1046,7 +1036,7 @@
 
 🦊 Nula litrov.
 
-💬 Katka filmuje. Rúru, jeho labku pod ňou, paru, stenu so zelenou vlnou.
+💬 Katka to natáča. Rúru, jeho labku pod ňou, paru, stenu so zelenou vlnou.
 
 💬 Z okna na prvom poschodí sa na nich pozerá Marek. Nič nepovie. Zhasne svetlo.
 
@@ -1109,8 +1099,6 @@
 💬 Andrea sa pozerá dole, na sivú budovu.
 
 🐰 Uvidíme.
-
----
 
 # Kapitola 7 — Štyri čerpadlá
 
@@ -1182,7 +1170,7 @@
 
 💬 Katka uloží dodací list k screenshotom. Je veľmi spokojná.
 
-🐹 Štyri dôkazy za štyri dni! Ešte šťastie, že som videla tvoju fotku, Gab.
+🐹 Šesť dôkazov za štyri dni! Ešte šťastie, že som videla tvoju fotku, Gab.
 
 🦊 Moju fotku?
 
@@ -1194,7 +1182,7 @@
 
 🐹 Povedala som „našla“? Chcela som povedať…
 
-🐰 Katka. To je dobré.
+🐰 Katka. Nechaj tak.
 
 ## Scéna Cesta — Hocikto
 
@@ -1225,6 +1213,8 @@
 🐹 Maťo. Teraz nie.
 
 ## Scéna Cesta — Späť
+
+💬 Cesta robí veľký oblúk a vracia sa do údolia. Dole je zase vidieť sivú budovu.
 
 🧑 Je to zvláštne. Dnes tam majú oslavu.
 
@@ -1263,8 +1253,6 @@
 🐰 Uvidíme.
 
 🦊 A nie. Tentoraz to poviem ja.
-
----
 
 # Kapitola 8 — Deň otvorených dverí
 
@@ -1630,7 +1618,7 @@
 
 🐹 A za to?
 
-🕴️ Nič. Mali by ste ísť domov. Dnes večer sa pozerajte na televíziu, ako všetci. A nechajte nás to vyriešiť pomaly. Medzi dospelými.
+🕴️ Nič. Mali by ste ísť domov. Dnes večer si pozrite televíziu, ako všetci. A nechajte nás to vyriešiť pomaly. Medzi dospelými.
 
 🦊 Inak?
 
@@ -1676,11 +1664,11 @@
 
 💬 Povie to hneď. Bez klamstva.
 
-🐰 Chcem ho, odkedy mám dvanásť. Ale nie jeho.
+🐰 Chcem ho, odkedy mám dvanásť. Ale nie od neho.
 
 🦊 Prečo?
 
-🐰 Lebo potom, vždy keď budem merať potok, sa budem pýtať, pre koho ho meriam.
+🐰 Lebo potom sa vždy, keď budem merať potok, budem pýtať, pre koho ho meriam.
 
 💬 Otočí papier. Maťo zoberie ceruzku.
 
@@ -1822,7 +1810,7 @@
 
 💬 Naskočia dnu. Dvere sa zatvárajú. Skoro. Ruka v obleku ich znova otvorí.
 
-🕴️ No vidíte. Sediačky sa lepšie rozpráva, nie?
+🕴️ No vidíte. Posediačky sa lepšie rozpráva, nie?
 
 💬 Usmieva sa. Je zadýchaný. Električka sa pohne.
 
@@ -1962,7 +1950,7 @@
 
 🦊 V utorok som v Košiciach čítal vaše povolenie. Odpísal som jeden riadok. „Spotreba vody: nula litrov.“
 
-🐰 V stredu. Register z parku. Za tridsaťjeden rokov náš prameň nikdy nevyschol. Ani v najsuchších letách. Vyschol leto po vašom príchode.
+🐰 V utorok poobede. Register z parku. Za tridsaťjeden rokov náš prameň nikdy nevyschol. Ani v najsuchších letách. Vyschol v lete po vašom príchode.
 
 🐰 V stredu večer. Fotka. Výkop, od mokrade až po vašu budovu. „Na optiku.“
 

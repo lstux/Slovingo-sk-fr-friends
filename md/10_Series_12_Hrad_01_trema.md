@@ -68,7 +68,7 @@
 > Zatvorte oči = fermez les yeux
 
 ! 💬 [USER_NAME] je v kúte. Je celý biely, ako hore na rebríkoch.
-> Gab est dans un coin. Il est tout blanc, comme en haut des échelles.
+> [USER_NAME] est dans un coin. Il est tout blanc, comme en haut des échelles.
 > je v kúte = est dans un coin
 > Je celý biely = il est tout blanc
 > ako hore na rebríkoch = comme en haut des échelles

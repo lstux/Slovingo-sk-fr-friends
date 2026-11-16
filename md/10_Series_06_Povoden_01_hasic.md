@@ -65,11 +65,11 @@
 > Počasie bolo vždy bláznivé = le temps a toujours été fou
 > Teraz má internet = maintenant il a internet
 
-! 💬 Hasič v žltej bunde na nich máva.
+! 💬 Hasič v žltej bunde im máva.
 > Un pompier en veste jaune leur fait signe.
 > Hasič = un pompier
 > v žltej bunde = en veste jaune
-> na nich máva = leur fait signe
+> im máva = leur fait signe
 
 ! 🧑 Vy štyria! Potrebujem ruky. V domoch dole sú rodiny. Kačky, myši, zajace.
 > Vous quatre ! J'ai besoin de bras. Il y a des familles dans les maisons du bas. Des canards, des souris, des lapins.

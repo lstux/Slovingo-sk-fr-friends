@@ -2,7 +2,7 @@
 
 @ img/nova-cesta-asfalt.jpg | Une route qui traverse la forêt. Source : Wikimedia Commons, David Howard, CC BY-SA 2.0
 
-{{fr:Vingt kilomètres de silence. Puis le chauffeur reparle. Il a une information. Et Gab va prendre une décision.}}
+{{fr:Vingt kilomètres de silence. Puis le chauffeur reparle. Il a une information. Et [USER_NAME] va prendre une décision.}}
 
 ---
 
@@ -103,6 +103,12 @@
 
 ## La suite de l'épisode
 
+! 💬 Cesta robí veľký oblúk a vracia sa do údolia. Dole je zase vidieť sivú budovu.
+> La route fait une grande boucle et redescend dans la vallée. En bas, on revoit le bâtiment gris.
+> Cesta robí veľký oblúk = la route fait une grande boucle
+> vracia sa do údolia = elle revient dans la vallée
+> Dole je zase vidieť sivú budovu = en bas, on revoit le bâtiment gris
+
 ! 🧑 Je to zvláštne. Dnes tam majú oslavu.
 > C'est drôle, quand même. Aujourd'hui, ils font la fête, là-bas.
 > Je to zvláštne = c'est bizarre
@@ -132,7 +138,7 @@
 > myslím = je pense
 
 ! 💬 Andrea sa pozerá na líšku. Líška sa stále pozerá von oknom.
-> Andrea regarde Gab. Gab regarde toujours par la fenêtre.
+> Andrea regarde [USER_NAME]. [USER_NAME] regarde toujours par la fenêtre.
 > Andrea sa pozerá na líšku = Andrea regarde le renard
 > Líška sa stále pozerá von oknom = le renard regarde toujours par la fenêtre
 
@@ -187,7 +193,7 @@
 > Ah non. Cette fois, c'est moi qui le dis.
 > A nie = ah non
 > Tentoraz to poviem ja = cette fois, c'est moi qui le dis
-+ Mot nouveau signalé : {{tentoraz}} = cette fois. Gab lui a volé sa phrase.
++ Mot nouveau signalé : {{tentoraz}} = cette fois. [USER_NAME] lui a volé sa phrase.
 
 ---
 

@@ -64,10 +64,10 @@
 > Skoro = presque
 > Ruka v obleku ich znova otvorí = une main en costume les rouvre
 
-! 🕴️ No vidíte. Sediačky sa lepšie rozpráva, nie?
+! 🕴️ No vidíte. Posediačky sa lepšie rozpráva, nie?
 > Voilà. On est mieux assis pour parler, non ?
 > No vidíte = voilà, vous voyez
-> Sediačky sa lepšie rozpráva = on parle mieux assis
+> Posediačky sa lepšie rozpráva = on parle mieux assis
 > nie = non
 
 ! 💬 Usmieva sa. Je zadýchaný. Električka sa pohne.

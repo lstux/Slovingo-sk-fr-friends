@@ -18,7 +18,7 @@
 | vaňa | la baignoire |
 | dym | la fumée |
 | para | la vapeur |
-| filmuje | il filme, elle filme |
+| natáča | il filme, elle filme |
 | poschodie | l'étage |
 
 ---
@@ -96,9 +96,9 @@
 ! 🦊 Nula litrov.
 > Zéro litre.
 
-! 💬 Katka filmuje. Rúru, jeho labku pod ňou, paru, stenu so zelenou vlnou.
-> Katka filme. Le tuyau, la patte de Gab dessous, la vapeur, le mur avec la vague verte.
-> Katka filmuje = Katka filme
+! 💬 Katka to natáča. Rúru, jeho labku pod ňou, paru, stenu so zelenou vlnou.
+> Katka filme. Le tuyau, la patte de [USER_NAME] dessous, la vapeur, le mur avec la vague verte.
+> Katka to natáča = Katka filme
 > Rúru = le tuyau
 > jeho labku pod ňou = sa patte dessous
 > paru = la vapeur

@@ -339,7 +339,7 @@
 
 ## Scène 4 — Le guichet
 
-💬 Le bureau de l'environnement. Un long couloir, une seule fenêtre ouverte. Derrière, une dame.
+💬 Le bureau de l'environnement. Un long couloir, un seul guichet ouvert. Derrière, une dame.
 
 🦊 Bonjour, madame.
 
@@ -413,7 +413,7 @@
 
 # Chapitre 3 — Le registre
 
-*Résumé : mardi soir et mercredi, au Paradis slovaque. Ici, les ruisseaux coulent encore : la sécheresse ne suffit pas à tuer une source. Pán Orol, le garde du parc, note tout depuis trente ans. Pièce n° 2 : la source du village n'a jamais séché, même les pires étés. Fausse piste : les castors, que tout le village accuse. Ils les disculpent et gagnent une nouvelle piste : des machines, la nuit, il y a deux étés. Jeu : les échelles (directions), le vouvoiement.*
+*Résumé : mardi après-midi et mardi soir, au Paradis slovaque. Ici, les ruisseaux coulent encore : la sécheresse ne suffit pas à tuer une source. Pán Orol, le garde du parc, note tout depuis trente ans. Pièce n° 2 : la source du village n'a jamais séché, même les pires étés. Fausse piste : les castors, que tout le village accuse. Ils les disculpent et gagnent une nouvelle piste : des machines, la nuit, il y a deux étés. Jeu : les échelles (directions), le vouvoiement.*
 
 ## Scène 1 — La forêt
 
@@ -479,7 +479,7 @@
 
 🐰 Bonjour, monsieur Orol. Voici Gab. Il est français.
 
-🦅 Un renard français. On voit tout, dans ce parc.
+🦅 Un renard français. Je vois tout, dans ce parc.
 
 🦊 Bonjour, monsieur. Vous écrivez tout depuis trente ans ?
 
@@ -545,7 +545,7 @@
 
 🐰 Alors c'est qui ?
 
-🦫 Je ne sais pas. Mais il y a deux étés, il y avait des machines là-haut. La nuit. Un castor ne travaille pas la nuit avec des machines.
+🦫 Je ne sais pas. Mais il y a deux ans, il y avait des machines là-haut. La nuit. Un castor ne travaille pas la nuit avec des machines.
 
 🦊 Là-haut, où ?
 
@@ -615,7 +615,7 @@
 
 🧑 Le castor parle trop. Mais c'est vrai. Une photo par été, du même rocher. Depuis vingt ans.
 
-🦊 Et il y a deux étés ?
+🦊 Et il y a deux ans ?
 
 💬 Le gardien décroche une photo. Sur la montagne, une longue ligne brune descend vers la vallée.
 
@@ -1186,7 +1186,7 @@
 
 💬 Katka range le bon avec les captures d'écran. Elle est très contente.
 
-🐹 Quatre preuves en quatre jours ! Heureusement que j'ai vu ta photo, Gab.
+🐹 Six preuves en quatre jours ! Heureusement que j'ai vu ta photo, Gab.
 
 🦊 Ma photo ?
 
@@ -1227,6 +1227,8 @@
 🐹 Maťo. Pas maintenant.
 
 ## Scène 4 — Demi-tour
+
+💬 La route fait une grande boucle et redescend dans la vallée. En bas, on revoit le bâtiment gris.
 
 🧑 C'est drôle, quand même. Aujourd'hui, ils font la fête, là-bas.
 
@@ -1550,7 +1552,7 @@
 
 🐹 On peut les prendre en photo ?
 
-🦦 Vous pouvez m'emmener avec. Le train pour Bratislava part à midi.
+🦦 Vous pouvez m'emmener avec vous. Le train pour Bratislava part à midi.
 
 🐰 Vous venez ?
 
@@ -1962,7 +1964,7 @@
 
 🦊 Mardi, à Košice, j'ai lu votre permis. J'ai copié une ligne. « Consommation d'eau : zéro litre. »
 
-🐰 Mercredi. Le registre du parc. En trente et un ans, notre source n'a jamais séché. Même les étés les plus secs. Elle a séché l'été après votre arrivée.
+🐰 Mardi après-midi. Le registre du parc. En trente et un ans, notre source n'a jamais séché. Même les étés les plus secs. Elle a séché l'été après votre arrivée.
 
 🐰 Mercredi soir. Une photo. Une tranchée, de la zone humide jusqu'à votre bâtiment. « Pour la fibre. »
 

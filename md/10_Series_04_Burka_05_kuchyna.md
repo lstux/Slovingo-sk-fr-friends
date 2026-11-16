@@ -152,13 +152,13 @@
 > Na zemi = par terre
 > v kuchyni = dans la cuisine
 
-! 🦊 S tebou by som čakal aj koniec sveta. Tak búrku…
+! 🦊 S tebou by som počkal aj na koniec sveta. Tak na búrku…
 > Je veux bien attendre la fin du monde avec toi. Alors un orage…
 > S tebou = avec toi
-> by som čakal = j'attendrais
-> aj koniec sveta = même la fin du monde
-> Tak búrku = alors un orage
-+ À écouter : {{by som čakal}} = j'attendrais. Le conditionnel arrive plus tard.
+> by som počkal = j'attendrais
+> aj na koniec sveta = même la fin du monde
+> Tak na búrku = alors un orage
++ À écouter : {{by som počkal}} = j'attendrais. Le conditionnel arrive plus tard.
 
 ! 🐰 Si hlúpy.
 > Tu es bête.
@@ -168,7 +168,7 @@
 > Très bête. Pas beaucoup bête.
 > Veľmi hlúpy = très bête
 > Nie veľa hlúpy = pas « beaucoup » bête
-+ Gab a retenu la leçon du deuxième matin : {{veľmi}} pour « très ».
++ [USER_NAME] a retenu la leçon du premier matin : {{veľmi}} pour « très ».
 
 ! 🐰 Učíš sa.
 > Tu apprends.
@@ -178,6 +178,6 @@
 
 ## 🇸🇰 Coin slovaque
 
-{{fr:La}} {{deň otvorených dverí}}{{fr:, la journée portes ouvertes, existe partout en Slovaquie : dans les écoles, les usines, les casernes de pompiers, les observatoires. On visite, on pose des questions, on repart souvent avec un petit cadeau.}}
+{{fr:Le}} {{deň otvorených dverí}}{{fr:, la journée portes ouvertes, existe partout en Slovaquie : dans les écoles, les usines, les casernes de pompiers, les observatoires. On visite, on pose des questions, on repart souvent avec un petit cadeau.}}
 
 {{fr:Parfois avec une limonade. Parfois sans son carnet.}}

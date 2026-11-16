@@ -84,12 +84,12 @@
 > Pre školu = pour l'école
 + À écouter : {{merala som}} = j'ai mesuré, dit par une fille. Un garçon dirait {{meral som}}.
 
-! 🐰 V lete trochu klesol. Nikdy veľa.
+! 🐰 V lete trochu klesal. Nikdy veľa.
 > Il baissait un peu l'été. Jamais beaucoup.
 > V lete = en été
-> trochu klesol = il a un peu baissé
+> trochu klesal = il baissait un peu
 > Nikdy veľa = jamais beaucoup
-+ Pour comprendre : {{klesol}} = il a baissé, {{nikdy}} = jamais.
++ Pour comprendre : {{klesal}} = il baissait, {{nikdy}} = jamais.
 
 ! 🦊 A potom?
 > Et après ?

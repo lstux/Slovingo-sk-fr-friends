@@ -32,7 +32,7 @@
 ## Le dialogue
 
 ! 🐰 [USER_NAME]. V tej električke som nebola náhodou.
-> Gab. Je n'étais pas dans ce tram par hasard.
+> [USER_NAME]. Je n'étais pas dans ce tram par hasard.
 > V tej električke = dans ce tram
 > som nebola náhodou = je n'étais pas par hasard
 + Mot nouveau signalé : {{náhodou}} = par hasard.
@@ -89,6 +89,6 @@
 
 ## 🇸🇰 Coin slovaque
 
-{{fr:Dans le rêve, Andrea mettait une semaine à poser sa question. Ce matin, elle la pose tout de suite. Parce que Gab le lui a demandé. Parce qu'il savait déjà.}}
+{{fr:Dans le rêve, Andrea mettait une semaine à poser sa question. Ce matin, elle la pose tout de suite. Parce que [USER_NAME] le lui a demandé. Parce qu'il savait déjà.}}
 
 {{fr:Rêve, ou répétition générale ? À toi de décider.}}

@@ -113,10 +113,10 @@
 > Comment tu sais ça ? Je ne te l'ai pas encore appris.
 > Ako to vieš = comment le sais-tu
 > To som ťa ešte nenaučila = je ne te l'ai pas encore appris
-+ Le deuxième matin, sous le pommier : {{veľa}} et {{veľmi}}. Le deuxième matin, c'est demain.
++ Le premier matin, sous le pommier : {{veľa}} et {{veľmi}}. Et le premier matin, c'est maintenant.
 
 ! 💬 [USER_NAME] otvorí ústa. Zatvorí ich.
-> Gab ouvre la bouche. Il la referme.
+> [USER_NAME] ouvre la bouche. Il la referme.
 > otvorí ústa = ouvre la bouche
 > Zatvorí ich = il la referme
 
@@ -141,4 +141,4 @@
 
 {{fr:Bravo. Tu as suivi toute l'histoire, du tram de Košice à la terrasse du château, et retour sous le pommier. Treize séries, des centaines de mots, et la grammaire de base du slovaque.}}
 
-{{fr:Le dernier mot est pour Andrea, ou pour Gab, ça dépend des jours :}} {{Uvidíme}}{{fr:. On verra. Et si tu vas un jour en Slovaquie, pense à valider ton ticket.}}
+{{fr:Le dernier mot est pour Andrea, ou pour [USER_NAME], ça dépend des jours :}} {{Uvidíme}}{{fr:. On verra. Et si tu vas un jour en Slovaquie, pense à valider ton ticket.}}

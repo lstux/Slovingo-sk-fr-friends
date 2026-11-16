@@ -41,7 +41,7 @@
 ## Le dialogue
 
 ! 💬 [USER_NAME] dá ruku do vrecka. Vytiahne lístok z električky, ten včerajší.
-> Gab met la main dans sa poche. Il en sort son ticket de tram, celui d'hier.
+> [USER_NAME] met la main dans sa poche. Il en sort son ticket de tram, celui d'hier.
 > dá ruku do vrecka = met la main dans la poche
 > Vytiahne lístok z električky = sort le ticket de tram
 > ten včerajší = celui d'hier
@@ -84,7 +84,7 @@
 
 ## 🇸🇰 Coin slovaque
 
-{{fr:Tu te souviens d'où vient ce ticket ? Mardi, dans le rêve, au guichet de Košice, Gab n'avait pas de papier. Il a écrit}} {{0 litrov?}} {{fr:au dos de son ticket de tram.}}
+{{fr:Tu te souviens d'où vient ce ticket ? Mardi, dans le rêve, au guichet de Košice, [USER_NAME] n'avait pas de papier. Il a écrit}} {{0 litrov?}} {{fr:au dos de son ticket de tram.}}
 
 {{fr:Sauf que mardi, c'est aujourd'hui. Et le guichet, il n'y est pas encore allé.}}
 

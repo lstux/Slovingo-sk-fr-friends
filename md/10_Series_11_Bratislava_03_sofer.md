@@ -71,7 +71,7 @@
 > To vybavím ja = je m'en occupe, moi
 
 ! 💬 [USER_NAME] vytiahne plán mesta. Rozloží ho celý. Drží ho naopak.
-> Gab sort le plan de la ville. Il le déplie en entier. Il le tient à l'envers.
+> [USER_NAME] sort le plan de la ville. Il le déplie en entier. Il le tient à l'envers.
 > vytiahne plán mesta = sort le plan de la ville
 > Rozloží ho celý = il le déplie entièrement
 > Drží ho naopak = il le tient à l'envers
@@ -125,7 +125,7 @@
 > Preto = c'est pour ça
 > Celý týždeň sa všade strácam = toute la semaine je me perds partout
 > Ďakujem veľmi pekne = merci beaucoup
-+ Le dernier piège : en slovaque, « merci beaucoup » se dit {{ďakujem veľmi pekne}}, avec {{veľmi}}. Gab a mis une semaine, mais il l'a.
++ Le dernier piège : en slovaque, « merci beaucoup » se dit {{ďakujem veľmi pekne}}, avec {{veľmi}}. [USER_NAME] a mis une semaine, mais il l'a.
 
 ! 🧑 … Nemáte za čo.
 > … De rien.

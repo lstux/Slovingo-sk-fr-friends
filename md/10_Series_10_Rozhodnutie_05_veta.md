@@ -68,19 +68,19 @@
 > Povie to hneď = elle le dit tout de suite
 > Bez klamstva = sans mensonge
 
-! 🐰 Chcem ho, odkedy mám dvanásť. Ale nie jeho.
+! 🐰 Chcem ho, odkedy mám dvanásť. Ale nie od neho.
 > Je la veux depuis que j'ai douze ans. Mais pas la sienne.
 > Chcem ho = je le veux
 > odkedy mám dvanásť = depuis que j'ai douze ans
-> Ale nie jeho = mais pas la sienne
+> Ale nie od neho = mais pas venant de lui
 
 ! 🦊 Prečo?
 > Pourquoi ?
 
-! 🐰 Lebo potom, vždy keď budem merať potok, sa budem pýtať, pre koho ho meriam.
+! 🐰 Lebo potom sa vždy, keď budem merať potok, budem pýtať, pre koho ho meriam.
 > Parce qu'après, chaque fois que je mesurerai un ruisseau, je me demanderai pour qui je le mesure.
-> vždy keď budem merať potok = chaque fois que je mesurerai un ruisseau
-> sa budem pýtať = je me demanderai
+> keď budem merať potok = chaque fois que je mesurerai un ruisseau
+> budem pýtať = (je me) demanderai
 > pre koho ho meriam = pour qui je le mesure
 
 ! 💬 Otočí papier. Maťo zoberie ceruzku.

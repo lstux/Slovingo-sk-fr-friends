@@ -187,7 +187,7 @@
   {
    "id": "blank-môžete-ma-zobrať-so-sebou-vlak",
    "type": "fill-blank",
-   "l1": "Vous pouvez m'emmener avec. Le train pour Bratislava part à midi.",
+   "l1": "Vous pouvez m'emmener avec vous. Le train pour Bratislava part à midi.",
    "l2": "Môžete ma zobrať so sebou. Vlak do Bratislavy ide na obed.",
    "missing_l1": "train",
    "missing_l2": "Vlak",

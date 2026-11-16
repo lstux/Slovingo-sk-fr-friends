@@ -97,7 +97,7 @@
 > Je ne comprends pas. Je suis français.
 > Nerozumiem = je ne comprends pas
 > Som Francúz = je suis français
-+ Le super-pouvoir de Gab. Il comprend tout, bien sûr.
++ Le super-pouvoir de [USER_NAME]. Il comprend tout, bien sûr.
 
 ! 🕴️ Á! Francúz! Bonjour! Baguette!
 > Ah ! Français ! Bonjour ! Baguette !
@@ -118,7 +118,7 @@
 > Od rána = depuis le matin
 > mi na všetko hovorí = il me dit à tout
 > Aj na búrku = même à l'orage
-+ Le gardien couvre Gab. Il a compris, lui aussi.
++ Le gardien couvre [USER_NAME]. Il a compris, lui aussi.
 
 ! 🦊 Merci.
 > Merci.

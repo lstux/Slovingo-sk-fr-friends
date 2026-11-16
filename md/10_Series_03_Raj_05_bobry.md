@@ -80,7 +80,7 @@
 ! 🦊 Ja som nič nepovedal!
 > Je n'ai rien dit !
 > Ja som nič nepovedal = je n'ai rien dit
-+ Deux négations : {{nič}} et {{ne-}}. La règle d'hier.
++ Deux négations : {{nič}} et {{ne-}}. La règle de tout à l'heure.
 
 ! 🦫 Poviete: „To ste vy, kvôli prameňu?“ Nie. Nie sme to my. Dovidenia.
 > Vous allez dire : « C'est vous, pour la source ? » Non. Ce n'est pas nous. Au revoir.
@@ -113,7 +113,7 @@
 > Naša hrádza vodu drží = notre barrage retient l'eau
 > Bez nej = sans lui
 > by jej bolo ešte menej = il y en aurait encore moins
-+ {{veľa vody}}, puis {{veľmi dobre}} : les deux mots du chapitre précédent, l'un après l'autre. Gab a bien répondu.
++ {{veľa vody}}, puis {{veľmi dobre}} : les deux mots du chapitre précédent, l'un après l'autre. [USER_NAME] a bien répondu.
 
 ! 🦫 Ale obviniť bobra je jednoduchšie.
 > Mais c'est plus facile d'accuser un castor.
@@ -126,7 +126,7 @@
 > Tak kto je to = alors qui est-ce
 
 ! 🦫 Neviem. Ale pred dvoma rokmi tam hore boli stroje. V noci.
-> Je ne sais pas. Mais il y a deux étés, il y avait des machines là-haut. La nuit.
+> Je ne sais pas. Mais il y a deux ans, il y avait des machines là-haut. La nuit.
 > Neviem = je ne sais pas
 > pred dvoma rokmi = il y a deux ans
 > tam hore = là-haut

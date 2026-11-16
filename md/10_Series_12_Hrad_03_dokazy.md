@@ -44,7 +44,7 @@
 ## Le dialogue
 
 ! 🦊 Dobrý večer. Volám sa [USER_NAME]. Som Francúz.
-> Bonsoir. Je m'appelle Gab. Je suis français.
+> Bonsoir. Je m'appelle [USER_NAME]. Je suis français.
 > Volám sa = je m'appelle
 > Som Francúz = je suis français
 
@@ -71,13 +71,13 @@
 > čítal vaše povolenie = j'ai lu votre permis
 > Odpísal som jeden riadok = j'ai recopié une ligne
 
-! 🐰 V stredu. Register z parku. Za tridsaťjeden rokov náš prameň nikdy nevyschol. Ani v najsuchších letách. Vyschol leto po vašom príchode.
-> Mercredi. Le registre du parc. En trente et un ans, notre source n'a jamais séché. Même les étés les plus secs. Elle a séché l'été après votre arrivée.
-> V stredu = mercredi
+! 🐰 V utorok poobede. Register z parku. Za tridsaťjeden rokov náš prameň nikdy nevyschol. Ani v najsuchších letách. Vyschol v lete po vašom príchode.
+> Mardi après-midi. Le registre du parc. En trente et un ans, notre source n'a jamais séché. Même les étés les plus secs. Elle a séché l'été après votre arrivée.
+> V utorok poobede = mardi après-midi
 > Za tridsaťjeden rokov = en trente et un ans
 > nikdy nevyschol = n'a jamais séché
 > Ani v najsuchších letách = même pas pendant les étés les plus secs
-> Vyschol leto po vašom príchode = elle a séché l'été après votre arrivée
+> Vyschol v lete po vašom príchode = elle a séché l'été après votre arrivée
 
 ! 🐰 V stredu večer. Fotka. Výkop, od mokrade až po vašu budovu. „Na optiku.“
 > Mercredi soir. Une photo. Une tranchée, de la zone humide jusqu'à votre bâtiment. « Pour la fibre. »
@@ -144,7 +144,7 @@
 
 ## 🇸🇰 Coin slovaque
 
-{{fr:Toute la semaine en une page :}} {{v utorok}} {{fr:le permis,}} {{v stredu}} {{fr:le registre et la tranchée,}} {{vo štvrtok}} {{fr:les captures et la vidéo,}} {{v piatok}} {{fr:le bon et le compteur,}} {{v sobotu}} {{fr:la roue, la doktorka et le carnet.}}
+{{fr:Toute la semaine en une page :}} {{v utorok}} {{fr:le permis et le registre,}} {{v stredu}} {{fr:la tranchée,}} {{vo štvrtok}} {{fr:les captures et la vidéo,}} {{v piatok}} {{fr:le bon et le compteur,}} {{v sobotu}} {{fr:la roue, la doktorka et le carnet.}}
 
 {{fr:Si tu as suivi toute la série, tu as compris chacune de ces phrases en slovaque. Pas mal pour un « touriste ».}}
 
