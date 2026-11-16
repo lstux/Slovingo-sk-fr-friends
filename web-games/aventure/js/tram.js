@@ -96,8 +96,16 @@ async function inspect(g, P = REV_POS) {
       { sk: 'Dobrú noc.', fr: 'Bonne nuit.' },
       { sk: 'Tu je môj lístok.', fr: 'Voici mon ticket.' },
       { sk: 'Ďakujem, dovidenia.', fr: 'Merci, au revoir.' },
+      { sk: 'Nerozumiem, som Francúz.', fr: 'Je ne comprends pas, je suis français.' },
     ]);
     if (i === 1) break;
+    if (i === 3) {   // faire l'etranger : ca ne marche pas avec un controleur
+      g.pose('revizor', 'point');
+      await g.say('revizor', 'Francúz? Lístok. Ticket. Billet. Áno?', 'Français ? « Lístok ». Ticket. Billet. Oui ?');
+      await g.say('andrea', 'S revízorom to nefunguje, Gab.', 'Avec un contrôleur, ça ne marche pas, Gab.');
+      g.pose('revizor', 'ask');
+      continue;
+    }
     g.pose('revizor', 'arms');
     await g.say('revizor', 'Prosím? Lístok, prosím.', 'Pardon ? Le ticket, s\'il vous plaît.');
     g.pose('revizor', 'ask');

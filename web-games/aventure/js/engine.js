@@ -8,7 +8,8 @@
   const SAVE_KEY = 'zajka-aventure-v1', FR_KEY = 'zajka-aventure-fr', VOICE_KEY = 'zajka-aventure-voice';
   // une seule voix slovaque (celle de l'appareil) : on distingue les personnages par la hauteur et le debit
   const VOICE_PROFILES = { fox: { pitch: 1.0, rate: 0.95 }, andrea: { pitch: 1.3, rate: 1.0 }, narrator: { pitch: 0.8, rate: 0.92 }, katka: { pitch: 1.2, rate: 1.05 }, mato: { pitch: 0.7, rate: 0.9 },
-    zahradnik: { pitch: 0.7, rate: 0.85 }, pan: { pitch: 0.85, rate: 0.9 }, revizor: { pitch: 0.8, rate: 0.9 }, pokladnicka: { pitch: 1.1, rate: 0.95 }, orol: { pitch: 0.75, rate: 0.88 }, kacka: { pitch: 1.6, rate: 1.0 }, teta: { pitch: 1.15, rate: 0.95 } };
+    zahradnik: { pitch: 0.7, rate: 0.85 }, pan: { pitch: 0.85, rate: 0.9 }, revizor: { pitch: 0.8, rate: 0.9 }, pokladnicka: { pitch: 1.1, rate: 0.95 }, orol: { pitch: 0.75, rate: 0.88 }, kacka: { pitch: 1.6, rate: 1.0 }, teta: { pitch: 1.15, rate: 0.95 },
+    predavacka: { pitch: 1.15, rate: 1.0 }, ovca: { pitch: 1.1, rate: 0.82 }, babka: { pitch: 1.05, rate: 0.85 }, jez: { pitch: 0.75, rate: 0.85 } };
   const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
   const smooth = (k) => k * k * (3 - 2 * k);   // courbe douce (depart et arrivee lents)
 
@@ -50,6 +51,8 @@
       // jeu complet : carnet de la loutre, aide (Andrea puis le telephone de Katka), voyage entre les chapitres
       this.pages = []; this.clues = []; this.helper = null; this.hintLevel = {}; this.chapter = null; this.visited = [];
       this.mapState = null;
+      // tableau d'enquete (data.board) : pieces trouvees, questions resolues, panneau qui glisse sur le decor
+      this.cards = []; this.solved = []; this.boardT = 0; this.boardSel = []; this.boardQ = null; this.toast = null;
       this.cam = 0;   // camera : decalage horizontal du decor (scenes plus larges que l'ecran : scene.worldW)
       // cinematiques (scene.cine) : images avec leur propre cadrage (pics), animations, attentes, carton de texte, fondu au noir
       this.serial = 0; this.pics = []; this.anims = []; this.waits = []; this.caption = null; this.fadeA = 0;
@@ -77,9 +80,11 @@
         for (const q of s.pics || []) srcs.add(q.img);
         for (const q of s.props || []) srcs.add(q.img);
         for (const l of s.layers || []) { srcs.add(l.img); for (const q of l.imgs || []) srcs.add(q); }
+        for (const a of s.ambient || []) { srcs.add(a.img); for (const q of a.imgs || []) srcs.add(q); }
         for (const sp of (s.sprites || []).concat(Object.values(s.extraSprites || {}))) { srcs.add(sp.img); if (sp.walkSheet) srcs.add(sp.walkSheet.img); for (const q of Object.values(sp.climbSheets || {})) srcs.add(q.img); for (const q of Object.values(sp.poses || {})) srcs.add(q.img); }
       }
       for (const it of Object.values(this.data.items)) srcs.add(it.icon);
+      for (const cd of Object.values((this.data.board || {}).cards || {})) srcs.add(cd.img);
       return Promise.all([...srcs].filter(Boolean).map((s) => new Promise((res) => {
         const im = this.img(s);
         if (im.complete) res(); else { im.onload = res; im.onerror = res; }
@@ -92,6 +97,7 @@
         root.localStorage.setItem(this.saveKey(), JSON.stringify({
           scene: this.scene && this.scene.id, flags: this.flags, items: this.items, words: this.words,
           pages: this.pages, clues: this.clues, helper: this.helper, hintLevel: this.hintLevel, chapter: this.chapter, visited: this.visited,
+          cards: this.cards, solved: this.solved,
         }));
       } catch (e) { /* ignore */ }
     }
@@ -102,6 +108,7 @@
           this.flags = s.flags || {}; this.items = s.items || []; this.words = s.words || {};
           this.pages = s.pages || []; this.clues = s.clues || []; this.helper = s.helper || null; this.hintLevel = s.hintLevel || {};
           this.chapter = s.chapter || null; this.visited = s.visited || [];
+          this.cards = s.cards || []; this.solved = s.solved || [];
           return s.scene;
         }
       } catch (e) { /* ignore */ }
@@ -112,6 +119,7 @@
       try { root.localStorage.removeItem(this.saveKey()); } catch (e) { /* ignore */ }
       this.flags = {}; this.items = []; this.words = {}; this.selected = null; this.endCard = null;
       this.pages = []; this.clues = []; this.helper = null; this.hintLevel = {}; this.chapter = null; this.visited = []; this.mapState = null; this.panel = null;
+      this.cards = []; this.solved = []; this.boardQ = null; this.boardSel = []; this.boardT = 0;
       this.enter(this.data.start);
     }
     // ------------------------------------------------------------ voix (synthese vocale du navigateur, slovaque)
@@ -255,6 +263,12 @@
         chargeHelper: (tokens) => { if (g.helper) { g.helper.tokens = tokens === undefined ? g.helper.max : tokens; g.helper.dead = false; g.save(); } },
         noHelper: () => { g.helper = null; g.save(); },
         showMap: (to, opts) => g.showMap(to, opts),
+        // --- tableau d'enquete
+        addCard: (id) => { if (!g.cards.includes(id)) { g.cards.push(id); g.save(); const cd = ((g.data.board || {}).cards || {})[id]; g.toast = { sk: '📌 Nová stopa: ' + (cd ? cd.sk : id), fr: 'Nouvel indice au tableau', t0: g.t }; } },
+        hasCard: (id) => g.cards.includes(id),
+        solved: (q) => g.solved.includes(q),
+        askBoard: (q) => g.askBoard(q),
+        toast: (sk, fr) => { g.toast = { sk, fr, t0: g.t }; },
       };
     }
     async run(fn) {
@@ -317,8 +331,9 @@
       if (sc.clamp) t = Math.max(0, Math.min(1, t));   // echelles : on monte sans rapetisser
       return sc.s0 + t * (sc.s1 - sc.s0);
     }
+    kOf(s) { return s.abs ? 1 : this.scaleAt(s.y); }
     spriteRect(s) {
-      const im = this.img(s.img), k = this.scaleAt(s.y), h = s.h * k;
+      const im = this.img(s.img), k = this.kOf(s), h = s.h * k;
       const w = im && im.naturalHeight ? (im.naturalWidth / im.naturalHeight) * h : h * 0.5;
       if (!s.img && s.emoji) return { x: s.x - h * 0.35, y: s.y - h * 0.85, w: h * 0.7, h: h * 0.85 };
       return { x: s.x - w / 2, y: s.y - h, w, h };
@@ -327,6 +342,7 @@
     async click(p) {
       if (this.endCard) return;
       if (this.panel === 'map') { this.clickMap(); return; }
+      if (this.panel === 'board') { if (this.dialog) this.advance(); else if (!this.choices) this.clickBoard(p); return; }
       if (this.panel === 'words') {   // un mot : on l'ecoute ; ailleurs : on ferme
         const ws = Object.entries(this.words);
         for (let i = 0; i < ws.length; i++) {
@@ -366,7 +382,9 @@
           return;
         }
         const it = this.selected;
+        this.cancelAct = false;
         if (fox && h.walk) await this.walk(fox.id, h.walk[0], h.walk[1]);
+        if (this.cancelAct) { this.cancelAct = false; this.selected = null; return; }   // un declencheur a arrete la marche (gravier, cabas…)
         if (fox && h.faceDir !== undefined) fox.face = h.faceDir;
         else if (fox) { const poly = h.sprite ? this.spritePoly(h.sprite) : h.poly; if (poly) { const cx = poly.reduce((a, q) => a + q[0], 0) / poly.length; if (Math.abs(cx - fox.x) > 20) fox.face = cx > fox.x ? 1 : -1; } }
         // un petit geste avant l'action (planche d'animation) : un objet sur une zone -> « utiliser », sinon la pose de la zone
@@ -425,6 +443,7 @@
       }
       add('words', '📖', { title: 'Slovník' });
       if (this.items.includes('zapisnik') || this.pages.length) add('notebook', '📓', { title: 'Zápisník' });
+      if (this.data.board && this.cards.length) add('board', '📌', { title: 'Tabuľa', badge: this.boardQ ? '?' : undefined });
       if (this.data.chapters) add('map', '🗺️', { title: 'Mapa' });
       return out;
     }
@@ -433,6 +452,7 @@
       if (b.id === 'hint') this.useHint();
       else if (b.id === 'words') this.panel = 'words';
       else if (b.id === 'notebook') this.panel = 'notebook';
+      else if (b.id === 'board') { this.panel = 'board'; this.boardSel = []; }
       else if (b.id === 'map') { this.mapState = { from: this.chapter, to: null, t: 1, resolve: null, browse: true }; this.panel = 'map'; }
     }
     // carte de Slovaquie : le voyage d'un chapitre au suivant (to = chapitre d'arrivee)
@@ -491,7 +511,7 @@
       cv.addEventListener('pointerdown', (ev) => { ev.preventDefault(); this.mouse = pos(ev); this.click(this.mouse); });
       root.addEventListener('keydown', (ev) => {
         if (ev.key === ' ' || ev.key === 'Enter') { ev.preventDefault(); if (this.dialog) this.advance(); else if (this.scene && this.scene.cine) this.cineNext(); else this.flashZones(); }
-        else if (ev.key === 'Escape') { if (this.panel === 'map') this.clickMap(); else this.panel = null; }
+        else if (ev.key === 'Escape') { if (this.panel === 'map') this.clickMap(); else if (!(this.panel === 'board' && this.boardQ)) this.panel = null; }
       });
     }
 
@@ -519,18 +539,33 @@
         this.anims = keep.concat(this.anims);
       }
       // declencheurs : le joueur entre dans une bande du decor (scene.triggers : { x: [x0, x1], when(g), run(g) }), seulement au repos
-      if (this.scene && this.scene.triggers && !this.busy && !this.dialog && !this.choices && !this.panel) {
+      if (this.scene && this.scene.triggers && !this.dialog && !this.choices && !this.panel) {
         const pl = this.sprites.find((q) => q.id === this.scene.player);
-        if (pl && pl.tx == null) {
-          const api = this.api();
-          const t = this.scene.triggers.find((q) => pl.x >= q.x[0] && pl.x <= q.x[1] && (!q.when || q.when(api)));
-          if (t) this.run(() => t.run(this.api()));
+        if (pl) {
+          const api = this.api(), still = pl.tx == null;
+          // move: aussi pendant la marche (le gravier qui crisse) : le joueur s'arrete net
+          const t = this.scene.triggers.find((q) => (q.move ? !this.trigLock : still && !this.busy) && pl.x >= q.x[0] && pl.x <= q.x[1] && (!q.y || (pl.y >= q.y[0] && pl.y <= q.y[1])) && (!q.when || q.when(api)));
+          if (t) {
+            if (t.move) { this.trigLock = true; this.cancelAct = true; pl.tx = pl.ty = null; const a = pl.arrive; pl.arrive = null; if (a) a(); }
+            this.run(async () => { try { await t.run(this.api()); } finally { this.trigLock = false; } });
+          }
         }
       }
       if (this.waits.length) { const due = this.waits.filter((w) => w.at <= this.t); if (due.length) { this.waits = this.waits.filter((w) => w.at > this.t); for (const w of due) w.resolve(); } }
+      this.boardT = this.panel === 'board' ? Math.min(1, this.boardT + dt * 4) : Math.max(0, this.boardT - dt * 5);
+      if (this.toast && this.t - this.toast.t0 > 3) this.toast = null;
       if (this.panel === 'map' && this.mapState && this.mapState.t < 1) this.mapState.t = Math.min(1, this.mapState.t + dt / 2.6);
       if (this.dialog && this.dialog.shown < this.dialog.sk.length) this.dialog.shown = Math.min(this.dialog.sk.length, this.dialog.shown + dt * 55);
       for (const s of this.sprites) {
+        if (s.alt && !s.hidden && s.tx === null && (s.pose === null || s.pose === undefined || s.pose === s.alt.pose)) {
+          if (s.altAt === undefined) s.altAt = this.t + s.alt.min + Math.random() * (s.alt.max - s.alt.min);
+          if (this.t >= s.altAt) {
+            const on = s.pose === s.alt.pose;
+            s.pose = on ? null : s.alt.pose;
+            const [a, b] = on ? [s.alt.min, s.alt.max] : (s.alt.hold || [1.2, 2.6]);
+            s.altAt = this.t + a + Math.random() * (b - a);
+          }
+        }
         if (s.tx === null) { s.wt = 0; continue; }
         const dx = s.tx - s.x, dy = s.ty - s.y, d = Math.hypot(dx, dy), step = (s.speed || 300) * dt * (s.scaleSpeed ? this.scaleAt(s.y) : 1);   // scaleSpeed : les pieds ne glissent pas, loin ou pres
         if (d <= step) {
@@ -573,12 +608,16 @@
       else if (!sc.bg && !sc.pics) this.drawPlaceholder(sc);
       for (const l of sc.layers || []) this.drawLayer(l);
       if (sc.props) this.drawProps(sc);
+      if (sc.ambient) this.drawAmbient(sc, false);
       const order = this.sprites.filter((s) => !s.hidden).sort((a, b) => a.y - b.y);
       for (const s of order) this.drawSprite(s);
+      if (sc.ambient) this.drawAmbient(sc, true);
       c.restore();
       if (sc.dim) { const a = sc.dim(this.api()); if (a > 0) { c.fillStyle = `rgba(8,10,40,${a})`; c.fillRect(0, 0, W, H); } }
       if (this.fadeA > 0) { c.fillStyle = `rgba(0,0,0,${Math.min(1, this.fadeA)})`; c.fillRect(0, 0, W, H); }
       if (sc.cine) this.drawCineHud(); else this.drawHud();
+      if (this.boardT > 0) this.drawBoard();
+      if (this.toast) this.drawToast();
       if (this.dialog) this.drawDialog();
       if (this.choices) this.drawChoices();
       if (this.panel === 'words') this.drawWords();
@@ -606,9 +645,163 @@
         }
         const im = this.img(q.img);
         if (!im || !im.naturalWidth) continue;
-        const h = q.w * im.naturalHeight / im.naturalWidth;
+        const h = q.h || q.w * im.naturalHeight / im.naturalWidth;   // h : hauteur imposee (un sol vu de biais, aplati)
+        if (q.alpha !== undefined) { this.ctx.save(); this.ctx.globalAlpha = q.alpha; }
         this.ctx.drawImage(im, q.x - q.w / 2, q.y - h, q.w, h);
+        if (q.alpha !== undefined) this.ctx.restore();
       }
+    }
+    // ------------------------------------------------------------ ambiance (scene.ambient) : le decor qui vit un peu
+    // { imgs: [...], fps } boucle d'images ; { rand: [min, max] } duree au hasard de chaque image ; x, y (bas au milieu), w
+    // sway: { amp, speed } balancement accroche en haut ; bob: { amp, speed } flottement vertical ;
+    // cross: { from: [x, y], to: [x, y], dur, every } traversee qui revient ; puff: { w1, life, every, rise } bouffees qui grossissent et s'effacent ;
+    // flies: { n, area: [x0, y0, x1, y1], color } lucioles ; sweep: { area, speed } bande de lumiere qui passe ; front: au-dessus des personnages
+    drawAmbient(sc, front) {
+      const c = this.ctx, api = this.api(), t = this.t;
+      for (let ai = 0; ai < sc.ambient.length; ai++) {
+        const a = sc.ambient[ai];
+        if (!!a.front !== front || (a.when && !a.when(api))) continue;
+        const ph = (a.phase || 0) + ai * 1.7;
+        if (a.flies) {
+          const [x0, y0, x1, y1] = a.flies.area;
+          for (let i = 0; i < a.flies.n; i++) {
+            const sx = Math.sin(i * 12.9898) * 43758.5453, sy = Math.sin(i * 78.233) * 12345.678;
+            const fx = sx - Math.floor(sx), fy = sy - Math.floor(sy);
+            const x = x0 + (x1 - x0) * (fx + 0.04 * Math.sin(t * 0.7 + i)), y = y0 + (y1 - y0) * (fy + 0.05 * Math.cos(t * 0.9 + i * 2));
+            const al = Math.max(0, Math.sin(t * 1.3 + i * 2.1));
+            const gr = c.createRadialGradient(x, y, 0, x, y, 14);
+            gr.addColorStop(0, `rgba(255,250,160,${0.9 * al})`); gr.addColorStop(1, 'rgba(255,250,160,0)');
+            c.save(); c.globalCompositeOperation = 'lighter'; c.fillStyle = gr; c.fillRect(x - 14, y - 14, 28, 28); c.restore();
+          }
+          continue;
+        }
+        if (a.sweep) {
+          const [x0, y0, x1, y1] = a.sweep.area, span = x1 - x0, per = a.sweep.period || 9;
+          const k = ((t + ph) % per) / per, bx = x0 - 300 + (span + 600) * k;
+          c.save(); c.beginPath(); c.rect(x0, y0, span, y1 - y0); c.clip();
+          const gr = c.createLinearGradient(bx - 160, 0, bx + 160, 0);
+          gr.addColorStop(0, 'rgba(255,240,200,0)'); gr.addColorStop(0.5, `rgba(255,240,200,${a.sweep.a || 0.22})`); gr.addColorStop(1, 'rgba(255,240,200,0)');
+          c.globalCompositeOperation = 'lighter'; c.fillStyle = gr; c.fillRect(x0, y0, span, y1 - y0); c.restore();
+          continue;
+        }
+        const list = a.imgs || [a.img];
+        let fi = 0;
+        if (list.length > 1) {
+          if (a.rand) {   // chaque image tient une duree au hasard (le merle sautille de temps en temps)
+            if (!a._at || t >= a._at) { a._f = a._f === undefined ? 0 : (a._f + 1) % list.length; const [m0, m1] = a._f === 0 ? a.rand : (a.randAlt || [0.25, 0.4]); a._at = t + m0 + Math.random() * (m1 - m0); }
+            fi = a._f;
+          } else fi = Math.floor((t + ph) * (a.fps || 2)) % list.length;
+        }
+        const im = this.img(list[fi]);
+        if (!im || !im.naturalWidth) continue;
+        if (a.puff) {
+          const P = a.puff, n = Math.max(1, Math.ceil(P.life / P.every));
+          for (let i = 0; i < n; i++) {
+            const age = (t + ph + i * P.every) % (n * P.every);
+            if (age > P.life) continue;
+            const k = age / P.life, w = a.w + (P.w1 - a.w) * k, h = w * im.naturalHeight / im.naturalWidth;
+            c.save(); c.globalAlpha = (a.alpha || 0.85) * Math.min(1, k * 6) * (1 - k);
+            c.drawImage(im, a.x - w / 2 + (P.drift || 0) * k, a.y - h - (P.rise || 80) * k, w, h); c.restore();
+          }
+          continue;
+        }
+        let x = a.x, y = a.y, rot = 0, flip = 1;
+        if (a.cross) {
+          const C = a.cross, per = C.dur + (C.every || 0), k = ((t + ph) % per) / C.dur;
+          if (k > 1) continue;
+          x = C.from[0] + (C.to[0] - C.from[0]) * k; y = C.from[1] + (C.to[1] - C.from[1]) * k + (C.arc ? -Math.sin(k * Math.PI) * C.arc : 0);
+          flip = C.to[0] < C.from[0] ? -1 : 1;
+        }
+        if (a.bob) y += Math.sin((t + ph) * (a.bob.speed || 2)) * a.bob.amp;
+        if (a.sway) rot = Math.sin((t + ph) * (a.sway.speed || 1.5)) * a.sway.amp;
+        const w = a.w, h = w * im.naturalHeight / im.naturalWidth;
+        c.save();
+        if (a.alpha !== undefined) c.globalAlpha = a.alpha;
+        if (a.sway) { c.translate(x, y - h); c.rotate(rot); c.scale(flip * (a.flip ? -1 : 1), 1); c.drawImage(im, -w / 2, 0, w, h); }
+        else { c.translate(x, y); c.scale(flip * (a.flip ? -1 : 1), 1); c.drawImage(im, -w / 2, -h, w, h); }
+        c.restore();
+      }
+    }
+    // ------------------------------------------------------------ tableau d'enquete (data.board) : panneau qui glisse depuis la droite
+    // askBoard(q) : le panneau s'ouvre sur la question q ; on relie deux pieces ; la promesse se resout quand c'est juste
+    askBoard(qid) {
+      return new Promise((resolve) => { this.boardQ = { id: qid, resolve }; this.boardSel = []; this.panel = 'board'; });
+    }
+    boardRect() { const w = 820, x = W - w * smooth(Math.min(1, this.boardT)); return { x, y: 0, w, h: H }; }
+    boardCardRects() {
+      const r = this.boardRect(), cols = 2, cw = 360, ch = 96, gx = 24, gy = 16, x0 = r.x + 40, y0 = this.boardQ ? 200 : 130;
+      return this.cards.map((id, i) => ({ id, x: x0 + (i % cols) * (cw + gx), y: y0 + ((i / cols) | 0) * (ch + gy), w: cw, h: ch }));
+    }
+    clickBoard(p) {
+      const r = this.boardRect();
+      if (!this.boardQ) { this.panel = null; return; }   // sans question : un clic referme
+      if (p[0] < r.x) return;
+      const hit = this.boardCardRects().find((q) => p[0] >= q.x && p[0] <= q.x + q.w && p[1] >= q.y && p[1] <= q.y + q.h);
+      if (!hit) return;
+      const i = this.boardSel.indexOf(hit.id);
+      if (i >= 0) { this.boardSel.splice(i, 1); return; }
+      this.boardSel.push(hit.id);
+      if (this.boardSel.length < 2) return;
+      const Q = ((this.data.board || {}).questions || {})[this.boardQ.id] || {}, sel = this.boardSel.slice();
+      const ok = (Q.pairs || []).some(([a, b]) => (sel[0] === a && sel[1] === b) || (sel[0] === b && sel[1] === a));
+      this.run(async () => {
+        if (ok) {
+          if (Q.ok) for (const l of Q.ok) await this.say(l.who || 'fox', l.sk, l.fr, l.words);
+          this.solved.push(this.boardQ.id); this.save();
+          const res = this.boardQ.resolve; this.boardQ = null; this.boardSel = []; this.panel = null;
+          res();
+        } else {
+          const ko = (Q.ko || [{ who: 'fox', sk: 'Hmm… To spolu nesúvisí.', fr: 'Hmm… ça n\'a rien à voir.' }]);
+          const l = ko[(this.koN = (this.koN || 0) + 1) % ko.length];
+          await this.say(l.who || 'fox', l.sk, l.fr, l.words);
+          this.boardSel = [];
+        }
+      });
+    }
+    drawBoard() {
+      const c = this.ctx, r = this.boardRect(), B = this.data.board || {}, Q = this.boardQ && (B.questions || {})[this.boardQ.id];
+      c.fillStyle = `rgba(0,0,0,${0.35 * this.boardT})`; c.fillRect(0, 0, W, H);
+      c.fillStyle = '#b98a56'; c.fillRect(r.x, r.y, r.w, r.h);   // liege
+      c.fillStyle = 'rgba(80,50,20,.18)'; for (let i = 0; i < 160; i++) { const sx = Math.sin(i * 91.7) * 999, sy = Math.sin(i * 47.3) * 999; c.fillRect(r.x + (sx - Math.floor(sx)) * r.w, (sy - Math.floor(sy)) * H, 3, 3); }
+      c.fillStyle = '#5a3a18'; c.fillRect(r.x, 0, 10, H);
+      c.textBaseline = 'top'; c.fillStyle = '#2a1a08'; c.font = '700 40px system-ui, sans-serif';
+      c.fillText('Tabuľa', r.x + 40, 30);
+      if (this.showFr) { c.font = 'italic 24px system-ui, sans-serif'; c.fillStyle = '#4a3010'; c.fillText('Le tableau d\'enquête', r.x + 40, 78); }
+      if (Q) {
+        c.fillStyle = 'rgba(255,248,220,.95)'; this.roundRect(r.x + 30, 112, r.w - 60, 74, 10); c.fill();
+        c.fillStyle = '#7a1a10'; c.font = '700 28px system-ui, sans-serif'; c.fillText('❓ ' + Q.sk, r.x + 46, 120, r.w - 90);
+        if (this.showFr) { c.font = 'italic 21px system-ui, sans-serif'; c.fillStyle = '#5a3a20'; c.fillText(Q.fr + ' — relie deux indices', r.x + 46, 154, r.w - 90); }
+      }
+      const rects = this.boardCardRects(), cards = B.cards || {};
+      for (const q of rects) {
+        const cd = cards[q.id] || { sk: q.id, fr: '' }, sel = this.boardSel.includes(q.id);
+        c.save(); c.translate(q.x + q.w / 2, q.y + q.h / 2); c.rotate(((q.id.length * 37) % 7 - 3) * 0.006);
+        c.fillStyle = sel ? '#ffe08a' : '#fffaf0'; this.roundRect(-q.w / 2, -q.h / 2, q.w, q.h, 6); c.fill();
+        c.strokeStyle = sel ? '#c0392b' : 'rgba(0,0,0,.25)'; c.lineWidth = sel ? 5 : 2; c.stroke();
+        c.fillStyle = '#c0392b'; c.beginPath(); c.arc(0, -q.h / 2 + 6, 7, 0, 7); c.fill();   // punaise
+        let tx = -q.w / 2 + 16;
+        if (cd.icon) { c.font = '42px system-ui, sans-serif'; c.textBaseline = 'middle'; c.fillText(cd.icon, tx, 2); tx += 58; }
+        c.textBaseline = 'top'; c.fillStyle = '#1a1208'; c.font = '700 22px system-ui, sans-serif';
+        this.wrap(cd.sk, q.w / 2 - tx - 10).slice(0, 2).forEach((ln, i) => c.fillText(ln, tx, -q.h / 2 + 14 + i * 26));
+        if (this.showFr) { c.font = 'italic 17px system-ui, sans-serif'; c.fillStyle = '#5a4a30'; c.fillText(cd.fr, tx, -q.h / 2 + 68, q.w / 2 - tx - 10); }
+        c.restore();
+      }
+      if (rects.length >= 2 && this.boardSel.length === 2) {   // le fil rouge entre les deux pieces choisies
+        const [a, b] = this.boardSel.map((id) => rects.find((q) => q.id === id));
+        if (a && b) { c.strokeStyle = '#c0392b'; c.lineWidth = 4; c.beginPath(); c.moveTo(a.x + a.w / 2, a.y + 6); c.lineTo(b.x + b.w / 2, b.y + 6); c.stroke(); }
+      }
+      c.font = '22px system-ui'; c.fillStyle = '#3a2410'; c.textBaseline = 'top';
+      c.fillText(Q ? 'Touche deux indices qui vont ensemble.' : 'Touche pour fermer', r.x + 40, H - 50);
+    }
+    drawToast() {
+      const c = this.ctx, k = this.t - this.toast.t0, a = Math.min(1, k * 4, (3 - k) * 3);
+      if (a <= 0) return;
+      c.save(); c.globalAlpha = a; c.font = '700 26px system-ui, sans-serif';
+      const w = Math.max(c.measureText(this.toast.sk).width, 200) + 48, x = (W - w) / 2, y = H - 120;
+      c.fillStyle = 'rgba(30,20,10,.88)'; this.roundRect(x, y, w, this.showFr ? 78 : 50, 12); c.fill();
+      c.fillStyle = '#ffe08a'; c.textBaseline = 'top'; c.fillText(this.toast.sk, x + 24, y + 10);
+      if (this.showFr) { c.font = 'italic 20px system-ui, sans-serif'; c.fillStyle = '#d9cfb8'; c.fillText(this.toast.fr, x + 24, y + 46); }
+      c.restore();
     }
     // images d'une cinematique : chacune a son cadrage (le point ax,ay de l'image est montre en sx,sy de l'ecran, agrandi zoom fois)
     drawPics(sc) {
@@ -725,14 +918,14 @@
       c.scale(s.face * (s.flip ? -1 : 1), 1);
       if (moving && wim && wim.naturalWidth) {
         // cycle de marche : une bande d'images de meme taille, pieds en bas
-        const n = ws.frames, fw = wim.naturalWidth / n, k = this.scaleAt(s.y), h = (ws.h || s.h) * k, w = (fw / wim.naturalHeight) * h;
+        const n = ws.frames, fw = wim.naturalWidth / n, k = this.kOf(s), h = (ws.h || s.h) * k, w = (fw / wim.naturalHeight) * h;
         const f = Math.floor(s.wt * (ws.fps || 10)) % n;
         c.drawImage(wim, f * fw, 0, fw, wim.naturalHeight, -w / 2, -h, w, h);
       } else {
         let r = this.spriteRect(s), pim = im;
         const pose = !moving && s.pose && s.poses && s.poses[s.pose], pi = pose && this.img(pose.img);
-        if (pi && pi.naturalWidth) { const h = pose.h * this.scaleAt(s.y); r = { w: (pi.naturalWidth / pi.naturalHeight) * h, h }; pim = pi; }
-        const breath = !pose || s.pose === 'talk';
+        if (pi && pi.naturalWidth) { const h = pose.h * this.kOf(s); r = { w: (pi.naturalWidth / pi.naturalHeight) * h, h }; pim = pi; }
+        const breath = !s.still && (!pose || s.pose === 'talk');
         const ph = s.wt * 9, bob = moving ? Math.abs(Math.sin(ph)) * 8 : breath ? Math.sin(this.t * 1.6 + (s.x % 7)) * 1.2 : 0;   // faux pas / respiration
         const sq = moving || !breath ? 1 : 1 + Math.sin(this.t * 1.6 + (s.x % 7)) * 0.006;
         if (moving) c.rotate(Math.sin(ph) * 0.025);

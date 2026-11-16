@@ -56,3 +56,21 @@ Le bouton « Voix » lit les dialogues, les phrases choisies et les cartons de l
 Un seul timbre existe : les personnages se distinguent par la hauteur et le débit (`VOICE_PROFILES` dans `engine.js`, surchargeables par `characters.<id>.voice`).
 Dans le Slovník, toucher un mot l'écoute. Sans voix slovaque, le bouton affiche « indisponible » et le jeu reste muet. Réglage retenu dans `localStorage`.
 Test : `node web-games/tests/voix_test.js` (fausse synthèse). La liste des sons à chercher est dans `docs/Sons-a-chercher.md`.
+
+
+## Version 2 « Circuit fermé » (16 nov. 2026)
+
+`jeu.html` joue maintenant le prologue et le chapitre 1 de la v2 (`docs/Jeu-conception-v2.md`), puis s'arrête (« Koniec ukážky »).
+Les anciennes scènes du chapitre 2 et 3 restent dans `game.js` mais ne sont plus atteignables ; sauvegarde `zajko-quest-web-v2`.
+
+Moteur, nouveautés :
+- **Ambiance** `scene.ambient` : boucles d'images (`imgs`, `fps` ou `rand`), traversées (`cross`), balancement (`sway`), flottement (`bob`),
+  bouffées de vapeur (`puff`), lucioles (`flies`), bande de lumière (`sweep`), `front` pour passer devant les personnages.
+- **Figurants** : un sprite avec `alt: { pose, min, max, hold }` alterne tout seul ses deux poses ; `abs: true` = taille fixe (pas de perspective),
+  `still: true` = pas de respiration.
+- **Tableau d'enquête** `data.board` (`cards`, `questions`) : `g.addCard(id)`, `await g.askBoard(q)` (panneau qui glisse ; on relie deux indices).
+- **Déclencheurs pendant la marche** (`trigger.move`, `trigger.y`) : le joueur s'arrête net (gravier qui crisse, cabas dans l'allée).
+- Objets posés : `h` (hauteur imposée, un sol vu de biais) et `alpha`.
+
+Images : planches `art/sources/*_src.png` (prompts `art/PROMPTS_v2.md`), découpées par `python3 tools/cut_v2.py`.
+Test : `node web-games/tests/jeu_v2_test.js` (joue tout le chapitre 1, `SHOTS=dossier` pour les captures).

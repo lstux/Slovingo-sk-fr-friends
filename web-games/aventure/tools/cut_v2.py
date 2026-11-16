@@ -86,15 +86,17 @@ def recolor_green(im, rgb=(120, 90, 60)):
     return Image.fromarray(a, 'RGBA')
 
 
-def feather_x(im, frac=0.18):
-    """Bords gauche et droit fondus (le gravier ne fait plus « tapis rectangulaire »)."""
+def feather_x(im, frac=0.18, fy=0.3):
+    """Bords fondus (le gravier ne fait plus « tapis rectangulaire ») : gauche, droite, et haut/bas."""
     a = np.asarray(im).copy()
-    w = a.shape[1]
-    n = max(1, int(w * frac))
-    ramp = np.ones(w)
-    ramp[:n] = np.linspace(0, 1, n)
-    ramp[-n:] = np.linspace(1, 0, n)
-    a[..., 3] = (a[..., 3] * ramp[None, :]).astype(np.uint8)
+    h, w = a.shape[:2]
+    def ramp(n_all, f):
+        n = max(1, int(n_all * f))
+        r = np.ones(n_all)
+        r[:n] = np.linspace(0, 1, n)
+        r[-n:] = np.linspace(1, 0, n)
+        return r
+    a[..., 3] = (a[..., 3] * ramp(w, frac)[None, :] * ramp(h, fy)[:, None]).astype(np.uint8)
     return Image.fromarray(a, 'RGBA')
 
 
@@ -114,6 +116,12 @@ def main():
     # 3. figurants du chapitre 1 : babicka, herisson (lynx et chat : planche refaite)
     c = cells(os.path.join(SRC, 'figurants_ch1_src.png'), 4, 2)
     pair(c[0], c[1], 'babka_a', 'babka_b')
+    # la babicka sans son cabas : le cabas devient un objet a part (il bloque l'allee du tram)
+    for n in ('babka_a', 'babka_b'):
+        im = Image.open(os.path.join(ART, n + '.png'))
+        a = np.asarray(im).copy()
+        a[205:, 196:, 3] = 0
+        Image.fromarray(a, 'RGBA').crop((0, 0, 214, im.height)).save(os.path.join(ART, n + '_bez.png'), optimize=True)
     pair(c[6], c[7], 'jez_a', 'jez_b')
     c = cells(os.path.join(SRC, 'figurants_ch1_lynx_chat_src.png'), 4, 1)
     pair(c[0], c[1], 'rys_a', 'rys_b')

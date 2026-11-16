@@ -93,23 +93,28 @@
     },
   };
 
-  // ------------------------------------------------------------------ le tram v2 (decor 3:1, la camera suit Gab)
-  // On monte par l'avant ; le wagon a l'air vide. Andrea est assise au fond (hors de l'ecran au depart) : on la decouvre en avancant.
-  // Le controleur passe quand on a valide le ticket ET retrouve Andrea ; s'il n'est pas valide 50 s apres la rencontre : amende.
+  // ------------------------------------------------------------------ le tram (v2 « Circuit fermé ») : docs/Jeu-conception-v2.md, section 5
+  // Le composteur de l'avant est en panne ; celui du fond est derriere le cabas de la babicka, qui ne bouge pas tant qu'elle n'a pas
+  // retrouve SON ticket (il est par terre, a l'avant). Andrea est assise au fond, livre a l'envers : on la decouvre en avancant.
   const TW = 2160;
   const SEAT = [1838, 578];   // la banquette du fond, ou Andrea lit
   const TRAM_SCALE = { y0: 590, s0: 0.66, y1: 712, s1: 0.76 };
-  // le controleur entre par l'arriere et s'arrete un peu devant Gab
+  const BAG_X = 1480;         // le cabas dans l'allee : on ne passe pas au-dela tant qu'il y est
   const revPos = (g) => { const f = g.sprite('fox'); const x = Math.min(2040, Math.max(700, (f ? f.x : 1200) + 190)); return { from: [2140, 650], to: [x, 650] }; };
   async function meetAndrea(g) {
     g.setFlag('met');
     g.face('fox', 1);
     await say(g, 'narrator', 'Vzadu sedí zajačica a číta knihu.', 'Au fond, une hase est assise et lit un livre.', [['zajačica', 'la hase'], ['kniha', 'le livre'], ['vzadu', 'au fond']]);
+    await say(g, 'fox', 'Prepáč… máš knihu hore nohami.', 'Excuse-moi… ton livre est à l\'envers.', [['hore nohami', 'à l\'envers']]);
+    await say(g, 'andrea', 'Ja viem.', 'Je sais.');
+    await say(g, 'fox', 'Ty takto čítaš?', 'Tu lis comme ça ?');
+    await say(g, 'andrea', 'Dnes áno.', 'Aujourd\'hui, oui.');
+    g.addCard('kniha');
+    g.pose('andrea', 'look');                    // elle baisse le livre
+    await g.sleep(900);
     g.pose('fox', 'surprised');
     await say(g, 'fox', 'Počkaj… Andrea? To si ty?', 'Attends… Andrea ? C\'est toi ?');
     g.pose('fox', null);
-    g.pose('andrea', 'look');                    // elle leve les yeux de son livre
-    await g.sleep(900);
     g.pose('andrea', null);                      // elle se leve et fait un pas vers Gab
     await g.walk('andrea', SEAT[0] - 70, 650);
     g.face('andrea', -1);
@@ -121,74 +126,163 @@
       await say(g, 'andrea', 'Kamarátke sa predsa hovorí „ahoj“.', 'À une amie, on dit « ahoj », voyons.', [['kamarátka', 'l\'amie']]);
       g.pose('andrea', null);
     }
-    g.pose('andrea', 'surprised');
-    await say(g, 'andrea', 'Gab? Naozaj ty? Päť rokov!', 'Gab ? C\'est vraiment toi ? Cinq ans !', [['päť rokov', 'cinq ans']]);
-    g.pose('andrea', 'laugh'); g.pose('fox', 'laugh'); await g.sleep(900); g.pose('andrea', null); g.pose('fox', null);
+    await say(g, 'andrea', 'Ahoj, Gab.', 'Salut, Gab.');
+    await say(g, 'fox', 'Päť rokov! A ty nie si prekvapená?', 'Cinq ans ! Et tu n\'es pas surprise ?', [['päť rokov', 'cinq ans'], ['prekvapená', 'surprise']]);
+    g.pose('andrea', 'shy');
+    await say(g, 'andrea', 'Som. Vo vnútri.', 'Si. À l\'intérieur.', [['vo vnútri', 'à l\'intérieur']]);
+    g.pose('andrea', null);
     g.setHelper('andrea', 3);
-    if (g.flag('stamped')) {
-      await say(g, 'andrea', 'Lístok máš označený? Výborne. Revízor tu býva často.', 'Ton ticket est validé ? Parfait. Le contrôleur passe souvent.', [['revízor', 'le contrôleur']]);
-      await inspect(g, revPos(g));
-    } else {
-      await say(g, 'andrea', 'Nezabudni označiť lístok. Revízor tu býva často.', 'N\'oublie pas de valider ton ticket. Le contrôleur passe souvent.',
+    if (!g.flag('stamped')) {
+      await say(g, 'andrea', 'Máš označený lístok? Revízor tu býva často.', 'Ton ticket est validé ? Le contrôleur passe souvent.',
         [['označiť lístok', 'valider un ticket'], ['revízor', 'le contrôleur']]);
-      g.after(50000, async (g2) => { if (!g2.flag('stamped')) await fine(g2, revPos(g2)); });
-    }
+      g.after(90000, async (g2) => { if (!g2.flag('stamped')) await fine(g2, revPos(g2)); });
+    } else await inspect(g, revPos(g));
   }
+  // la babicka : elle cherche son ticket ; tant qu'elle ne l'a pas, son cabas reste dans l'allee
+  const BABKA = ['knit', 'glare'];
   const tram = {
     chapter: 'ch1', title: { sk: 'V električke', fr: 'Dans le tram' },
     bg: 'art/tram_wide.webp', worldW: TW,
     player: 'fox', floor: [[0, 590], [TW, 590], [TW, 712], [0, 712]], scale: TRAM_SCALE,
-    // Andrea est assise sur la banquette du fond (y 578 : au niveau des sieges), elle lit ; elle se leve a la rencontre
-    sprites: [gab(360, 650), Object.assign(andrea(SEAT[0], -1, SEAT[1]), { pose: 'read' })],
+    sprites: [
+      gab(360, 650),
+      Object.assign(andrea(SEAT[0], -1, SEAT[1]), { pose: 'read' }),
+      // figurants (2 poses qui alternent)
+      { id: 'rys', img: 'art/rys_a.png', x: 1108, y: 600, h: 300, abs: true, face: 1, poses: { b: { img: 'art/rys_b.png', h: 300 } }, alt: { pose: 'b', min: 3, max: 7, hold: [2, 4] } },
+      { id: 'babka', img: 'art/babka_a_bez.png', x: 1560, y: 578, h: 225, abs: true, face: -1, poses: { b: { img: 'art/babka_b_bez.png', h: 225 } }, alt: { pose: 'b', min: 2, max: 5, hold: [1.2, 2.2] } },
+    ],
     extraSprites: { revizor: revizor(2140, 650) },
+    props: [
+      { img: 'art/obj_oznacovac2.png', x: 1945, y: 392, w: 46 },                                          // le composteur du fond
+      { img: 'art/obj_taska.png', x: BAG_X + 30, y: 668, w: 112, when: (g) => !g.flag('babka_ok') },      // le cabas, dans l'allee
+      { img: 'art/obj_taska.png', x: 1655, y: 540, w: 86, when: (g) => g.flag('babka_ok') },              // ... puis sur le siege d'a cote
+      { img: 'art/item_listok.png', x: 760, y: 676, w: 40, when: (g) => !g.flag('babka_listok') },       // le ticket de la babicka, par terre
+    ],
+    ambient: [
+      { sweep: { area: [480, 170, 2050, 400], period: 7, a: 0.2 } },   // le soleil qui passe entre les immeubles
+    ],
     triggers: [
-      // Andrea entre dans l'ecran quand Gab depasse le composteur : la rencontre
       { x: [1150, TW], when: (g) => !g.flag('met'), run: meetAndrea },
+      // le cabas : on s'arrete devant
+      { x: [BAG_X - 10, TW], move: true, when: (g) => !g.flag('babka_ok'), async run(g) {
+        await g.walk('fox', BAG_X - 40, 650);
+        await say(g, 'fox', 'Veľká taška v uličke. Neprejdem.', 'Un gros cabas dans l\'allée. Je ne peux pas passer.', [['taška', 'le cabas'], ['ulička', 'l\'allée']]);
+      } },
     ],
     hotspots: [
       { id: 'door', name: { sk: 'dvere', fr: 'les portes' }, poly: box(245, 170, 465, 555), walk: [355, 650], pose: 'use',
         async onUse(g) {
           if (!g.flag('checked')) { await say(g, 'fox', 'Ešte nie. Električka ide.', 'Pas encore. Le tram roule.', [['dvere', 'les portes']]); return; }
-          await say(g, 'fox', 'Vystupujeme!', 'On descend !');
+          g.spawn('andrea', 520, 650); g.face('andrea', -1);
+          await say(g, 'andrea', 'Ty vystupuješ tu.', 'Toi, tu descends ici.', [['vystupovať', 'descendre (du tram)']]);
+          g.pose('fox', 'surprised');
+          await say(g, 'fox', 'Ja? Ako to vieš?', 'Moi ? Comment tu le sais ?');
+          g.pose('fox', null);
+          await say(g, 'andrea', 'Máš veľký batoh. Si turista. Turisti majú hostel tu vedľa.', 'Tu as un gros sac. Tu es un touriste. Les touristes ont une auberge juste à côté.', [['batoh', 'le sac à dos'], ['vedľa', 'à côté']]);
+          await say(g, 'fox', 'Si veľmi múdra.', 'Tu es très forte.');
+          await say(g, 'andrea', 'Ja viem.', 'Je sais.');
+          g.addCard('zastavka');
           g.goScene('rue');
         } },
       { id: 'door2', name: { sk: 'dvere', fr: 'les portes' }, poly: box(1175, 170, 1395, 555), walk: [1285, 650],
         look: { sk: 'Ďalšie dvere. Vystupuje sa vpredu.', fr: 'D\'autres portes. On descend à l\'avant.', words: [['ďalší', 'autre, suivant']] } },
+      // le composteur de l'avant : en panne
       { id: 'validator', name: { sk: 'označovač', fr: 'le composteur' }, poly: box(1052, 282, 1108, 372), walk: [990, 650],
-        look: { sk: 'Označovač lístkov. Tu označím lístok.', fr: 'Le composteur de tickets. C\'est ici que je valide mon ticket.', words: [['označovač', 'le composteur'], ['označiť', 'valider']] },
+        look: { sk: 'Označovač. Svieti na ňom: MIMO PREVÁDZKY.', fr: 'Le composteur. Il affiche : MIMO PREVÁDZKY.', words: [['označovač', 'le composteur']] },
+        onItem: {
+          async listok(g) {
+            await say(g, 'narrator', 'Nič. Na displeji: MIMO PREVÁDZKY.', 'Rien. Sur l\'écran : MIMO PREVÁDZKY.');
+            if (!g.knows('mimo prevádzky')) { g.pose('fox', 'think'); await say(g, 'fox', 'Mimo prevádzky… nefunguje. Je tu iný označovač?', '« Mimo prevádzky »… il ne marche pas. Il y a un autre composteur ?'); g.pose('fox', null); g.learn('mimo prevádzky', 'hors service'); }
+          },
+          async listok_babka(g) { await say(g, 'fox', 'To nie je môj lístok. A označovač aj tak nefunguje.', 'Ce n\'est pas mon ticket. Et le composteur ne marche pas, de toute façon.'); },
+        } },
+      // le composteur du fond : celui qui marche
+      { id: 'validator2', name: { sk: 'označovač', fr: 'le composteur' }, poly: box(1920, 285, 1972, 380), walk: [1880, 650],
+        look: { sk: 'Ďalší označovač. Svieti na zeleno.', fr: 'Un autre composteur. Son voyant est vert.', words: [['zelený', 'vert']] },
         onItem: {
           async listok(g) {
             g.take('listok'); g.give('listok_ok'); g.setFlag('stamped');
             await say(g, 'narrator', 'Cink! Lístok je označený.', 'Clac ! Le ticket est validé.', [['označený', 'validé']]);
             if (g.flag('met')) await inspect(g, revPos(g));
-            else await say(g, 'fox', 'Hotovo. A teraz si sadnem… vzadu je miesto.', 'Voilà. Et maintenant, je m\'assois… il y a de la place au fond.', [['miesto', 'la place']]);
           },
+          async listok_babka(g) { await say(g, 'fox', 'Babkin lístok? To by bola krádež.', 'Le ticket de la mamie ? Ce serait du vol.'); },
         } },
       { id: 'cabin', name: { sk: 'kabína', fr: 'la cabine' }, poly: box(0, 70, 170, 590), walk: [200, 650],
         look: { who: 'narrator', sk: 'Kabína vodiča. Vodič nás vezie cez mesto.', fr: 'La cabine du conducteur. Il nous conduit à travers la ville.', words: [['vodič', 'le conducteur']] } },
       { id: 'win_cathedral', name: { sk: 'okno', fr: 'la fenêtre' }, poly: box(770, 170, 1018, 398), walk: [900, 650],
-        look: { sk: 'Pozri, katedrála! Svätá Alžbeta.', fr: 'Regarde, la cathédrale ! Sainte-Élisabeth.', words: [['katedrála', 'la cathédrale']] } },
+        async onUse(g) {
+          await say(g, 'fox', 'Pozri, katedrála! A fontána pred ňou… je prázdna.', 'Regarde, la cathédrale ! Et la fontaine devant… elle est vide.', [['katedrála', 'la cathédrale'], ['fontána', 'la fontaine'], ['prázdny', 'vide']]);
+          if (g.flag('met')) await say(g, 'andrea', 'Dva mesiace nepršalo.', 'Il n\'a pas plu depuis deux mois.', [['pršať', 'pleuvoir']]);
+          g.addCard('fontana');
+        } },
       { id: 'win_left', name: { sk: 'okno', fr: 'la fenêtre' }, poly: box(505, 170, 752, 398), walk: [630, 650],
         look: { sk: 'Košice! Konečne.', fr: 'Košice ! Enfin.', words: [['okno', 'la fenêtre'], ['konečne', 'enfin']] } },
-      { id: 'win_right', name: { sk: 'okno', fr: 'la fenêtre' }, poly: box(1425, 170, 2020, 398), walk: [1700, 650],
+      { id: 'win_right', name: { sk: 'okno', fr: 'la fenêtre' }, poly: box(1425, 170, 2020, 280), walk: [1450, 650],
         look: { sk: 'Pozri, mesto ide okolo!', fr: 'Regarde, la ville défile !' } },
-      { id: 'andrea', sprite: 'andrea', name: { sk: 'Andrea', fr: 'Andrea' }, walk: [1660, 650],
+      // le ticket de la babicka, par terre a l'avant
+      { id: 'listok_babka', name: { sk: 'papierik', fr: 'un petit papier' }, poly: box(735, 650, 785, 690), walk: [760, 660], pose: 'pick',
+        when: (g) => !g.flag('babka_listok'),
+        async onUse(g) {
+          g.setFlag('babka_listok'); g.give('listok_babka');
+          await say(g, 'narrator', 'Lístok na električku. Nie je tvoj: ten tvoj máš vo vrecku.', 'Un ticket de tram. Ce n\'est pas le tien : le tien est dans ta poche.', [['vrecko', 'la poche']]);
+        } },
+      // figurants
+      { id: 'rys', sprite: 'rys', name: { sk: 'chalan so slúchadlami', fr: 'un garçon avec un casque' }, walk: [1040, 650],
+        async onUse(g) {
+          await say(g, 'fox', 'Ahoj! … Haló?', 'Salut ! … Allô ?');
+          await say(g, 'narrator', 'Nepočuje ťa. Má slúchadlá.', 'Il ne t\'entend pas. Il a un casque.', [['slúchadlá', 'le casque (audio)'], ['počuť', 'entendre']]);
+        } },
+      { id: 'taska', name: { sk: 'taška', fr: 'le cabas' }, poly: box(BAG_X - 28, 560, BAG_X + 88, 672), walk: [BAG_X - 60, 650],
+        when: (g) => !g.flag('babka_ok'),
+        async onUse(g) {
+          g.pose('babka', 'b');
+          await say(g, 'babka', 'Ruky preč od mojej tašky!', 'Bas les pattes, c\'est mon cabas !', [['ruky preč', 'bas les pattes']]);
+          g.pose('babka', null);
+        } },
+      { id: 'babka', sprite: 'babka', name: { sk: 'babka', fr: 'la mamie' }, walk: [BAG_X - 60, 650],
+        async onUse(g) {
+          if (g.flag('babka_ok')) { await say(g, 'babka', 'Ďakujem ti ešte raz, zlatko.', 'Merci encore, mon chou.', [['zlatko', 'mon chou (affectueux)']]); return; }
+          g.pose('babka', 'b');
+          await say(g, 'babka', 'Kde je môj lístok? Bol tu! Bez lístka sa nehnem.', 'Où est mon ticket ? Il était là ! Sans ticket, je ne bouge pas.', [['nehnem sa', 'je ne bouge pas']]);
+          g.pose('babka', null);
+          const i = await g.choice([
+            { sk: 'Prepáčte, môžem prejsť?', fr: 'Excusez-moi, je peux passer ?' },
+            { sk: 'Nerozumiem, som Francúz.', fr: 'Je ne comprends pas, je suis français.' },
+            { sk: 'Pekné pletenie!', fr: 'Joli tricot !' },
+          ]);
+          if (i === 0) await say(g, 'babka', 'Najprv môj lístok, potom ulička.', 'D\'abord mon ticket, ensuite l\'allée.');
+          else if (i === 1) await say(g, 'babka', 'Francúz? Tak hľadaj po francúzsky. Lístok, mladý!', 'Français ? Alors cherche en français. Mon ticket, jeune homme !', [['hľadať', 'chercher']]);
+          else await say(g, 'babka', 'Sveter pre vnuka. Ale najprv lístok!', 'Un pull pour mon petit-fils. Mais d\'abord, mon ticket !', [['sveter', 'le pull']]);
+        },
+        onItem: {
+          async listok_babka(g) {
+            g.take('listok_babka'); g.setFlag('babka_ok');
+            g.pose('babka', null);
+            await say(g, 'babka', 'Môj lístok! Ďakujem, zlatko. Nech sa páči, prejdi.', 'Mon ticket ! Merci, mon chou. Je t\'en prie, passe.', [['nech sa páči', 'je t\'en prie']]);
+            await say(g, 'narrator', 'Babka si dá tašku na sedadlo vedľa seba.', 'La mamie pose son cabas sur le siège d\'à côté.', [['sedadlo', 'le siège']]);
+          },
+          async listok(g) { await say(g, 'babka', 'To nie je môj. Môj bol pokrčený.', 'Ce n\'est pas le mien. Le mien était tout froissé.'); },
+        } },
+      { id: 'andrea', sprite: 'andrea', name: { sk: 'Andrea', fr: 'Andrea' }, walk: [1440, 650],
         async onUse(g) {
           if (!g.flag('met')) { await meetAndrea(g); return; }
-          if (!g.flag('stamped')) { g.pose('andrea', 'point'); await say(g, 'andrea', 'Označ si lístok! Označovač je pri dverách.', 'Valide ton ticket ! Le composteur est près des portes.', [['pri dverách', 'près des portes']]); g.pose('andrea', null); }
-          else if (g.flag('checked')) await say(g, 'andrea', 'Vystupujeme na ďalšej zastávke. Poď dopredu.', 'On descend au prochain arrêt. Viens à l\'avant.', [['dopredu', 'vers l\'avant']]);
+          if (!g.flag('stamped')) {
+            g.pose('andrea', 'point');
+            await say(g, 'andrea', 'Predný označovač nefunguje. Je tu ešte jeden, vzadu pri mne.', 'Le composteur de devant ne marche pas. Il y en a un autre, au fond, près de moi.', [['predný', 'de devant'], ['vzadu', 'au fond']]);
+            g.pose('andrea', null);
+          } else if (g.flag('checked')) await say(g, 'andrea', 'Vystupujeme na ďalšej zastávke. Poď dopredu.', 'On descend au prochain arrêt. Viens à l\'avant.', [['dopredu', 'vers l\'avant']]);
           else await say(g, 'andrea', 'Dobre, lístok je v poriadku.', 'Bien, le ticket est en ordre.');
         } },
     ],
     hints: [
+      { id: 'tram_bag', when: (g) => g.flag('met') && !g.flag('babka_ok'), levels: [
+        { sk: 'Babka sa nehne bez svojho lístka. Kde by mohol byť?', fr: 'La mamie ne bougera pas sans son ticket. Où pourrait-il être ?' },
+        { sk: 'Pozri sa na zem, vpredu v električke.', fr: 'Regarde par terre, à l\'avant du tram.', words: [['zem', 'le sol']] },
+        { sk: 'Zdvihni papierik pri okne s katedrálou a daj ho babke.', fr: 'Ramasse le petit papier près de la fenêtre de la cathédrale et donne-le à la mamie.' } ] },
       { id: 'tram_ticket', when: (g) => !g.flag('stamped'), levels: [
         { sk: 'Máš lístok? Nezabudni ho označiť.', fr: 'Tu as ton ticket ? N\'oublie pas de le valider.' },
-        { sk: 'Označovač je žltá skrinka pri dverách, v strede električky.', fr: 'Le composteur est le boîtier jaune près des portes, au milieu du tram.', words: [['pri dverách', 'près des portes']] },
-        { sk: 'Vyber lístok a klikni na označovač.', fr: 'Prends ton ticket et clique sur le composteur.' } ] },
-      { id: 'tram_check', when: (g) => !g.flag('checked'), levels: [
-        { sk: 'Revízor sa pýta na lístok. Odpovedz slušne.', fr: 'Le contrôleur demande ton ticket. Réponds poliment.' },
-        { sk: 'Povedz: „Tu je môj lístok.“', fr: 'Dis : « Voici mon ticket. »' },
-        { sk: 'Klikni na druhú vetu.', fr: 'Clique sur la deuxième phrase.' } ] },
+        { sk: 'Predný označovač je mimo prevádzky. Druhý je vzadu.', fr: 'Le composteur de devant est hors service. L\'autre est au fond.' },
+        { sk: 'Vyber lístok a klikni na zadný označovač.', fr: 'Prends ton ticket et clique sur le composteur du fond.' } ] },
       { id: 'tram_out', levels: [
         { sk: 'Vystupujeme. Choď k dverám vpredu.', fr: 'On descend. Va vers les portes à l\'avant.' },
         { sk: 'Klikni na prvé dvere, vľavo.', fr: 'Clique sur les premières portes, à gauche.' } ] },
@@ -196,12 +290,11 @@
     async onEnter(g) {
       if (!g.flag('tram_in')) {
         g.setFlag('tram_in');
-        await say(g, 'narrator', 'Električka ide cez Košice. Je popoludnie.', 'Le tram traverse Košice. C\'est l\'après-midi.', [['električka', 'le tram']]);
-        await say(g, 'fox', 'Prázdna električka… Lístok mám. Treba ho označiť.', 'Un tram vide… J\'ai mon ticket. Il faut le valider.', [['označiť', 'valider']]);
+        await say(g, 'narrator', 'Košice, v júli. Je veľmi horúco.', 'Košice, en juillet. Il fait très chaud.', [['horúco', 'il fait chaud']]);
+        await say(g, 'fox', 'Lístok mám. Treba ho označiť.', 'J\'ai mon ticket. Il faut le valider.', [['označiť', 'valider']]);
       }
-      // apres une amende (le decor recommence) : Andrea est deja debout, et le delai repart
       if (g.flag('met')) { g.pose('andrea', null); g.spawn('andrea', SEAT[0] - 70, 650); g.face('andrea', -1); }
-      if (g.flag('met') && !g.flag('stamped')) g.after(50000, async (g2) => { if (!g2.flag('stamped')) await fine(g2, revPos(g2)); });
+      if (g.flag('met') && !g.flag('stamped')) g.after(90000, async (g2) => { if (!g2.flag('stamped')) await fine(g2, revPos(g2)); });
     },
   };
 
@@ -228,6 +321,17 @@
   async function automat(g) {
     if (g.has('listok') || g.has('listok_ok')) { await say(g, 'fox', 'Už mám lístok.', 'J\'ai déjà mon ticket.'); return; }
     if (!g.flag('clue_automat')) await clue(g, 'automat');
+    if (g.flag('need_coins') && g.knows('lístok')) {   // on revient avec (ou sans) la monnaie : pas besoin de rejouer le choix
+      if (!g.has('drobne')) { await say(g, 'automat', 'Len mince, prosím.', 'Pièces uniquement, s\'il vous plaît.'); return; }
+      g.take('drobne');
+      await say(g, 'narrator', 'Cink, cink, cink.', 'Cling, cling, cling.');
+      await say(g, 'automat', 'Ďakujem. Dobrú cestu!', 'Merci. Bon voyage !', [['ďakujem', 'merci']]);
+      g.give('listok'); g.setFlag('ticket');
+      g.pose('fox', 'pick');
+      await say(g, 'narrator', 'Lístok vypadol z automatu.', 'Le ticket sort du distributeur.');
+      g.pose('fox', 'laugh'); await g.sleep(700); g.pose('fox', null);
+      return;
+    }
     if (!g.knows('lístok')) {
       await say(g, 'automat', 'Dobrý deň. Čo si želáte?', 'Bonjour. Que désirez-vous ?', [['želáte', 'vous désirez']]);
       const n = g.flag('auto2') ? 3 : g.flag('auto1') ? 2 : 1;
@@ -249,11 +353,53 @@
       await say(g, 'automat', 'Pííp! Chyba.', 'Bip ! Erreur.');
       await say(g, 'fox', i === 0 ? 'Jedna… nie. Na plagáte bolo inak.' : 'Jedno… nie. Na plagáte bolo inak.', i === 0 ? '« Jedna »… non. Sur l\'affiche, c\'était autrement.' : '« Jedno »… non. Sur l\'affiche, c\'était autrement.');
     }
+    await say(g, 'automat', 'Jeden lístok: 1,20 €. Vložte mince, prosím.', 'Un ticket : 1,20 €. Insérez des pièces, s\'il vous plaît.', [['mince', 'les pièces (de monnaie)'], ['vložiť', 'insérer']]);
+    if (!g.has('drobne')) {
+      g.setFlag('need_coins');
+      g.pose('fox', 'think');
+      await say(g, 'fox', 'Mince… Mám len bankovku, dvadsať eur.', 'Des pièces… Je n\'ai qu\'un billet de vingt euros.', [['bankovka', 'le billet (de banque)'], ['dvadsať', 'vingt']]);
+      await say(g, 'narrator', 'Na automate je malý nápis: Len mince. Nevydávame.', 'Sur le distributeur, une petite étiquette : « Len mince. Nevydávame. »');
+      await say(g, 'fox', 'Len mince… Potrebujem drobné.', 'Que des pièces… Il me faut de la monnaie.', [['drobné', 'la monnaie']]);
+      g.pose('fox', null);
+      return;
+    }
+    g.take('drobne');
+    await say(g, 'narrator', 'Cink, cink, cink.', 'Cling, cling, cling.');
     await say(g, 'automat', 'Ďakujem. Dobrú cestu!', 'Merci. Bon voyage !', [['ďakujem', 'merci']]);
     g.give('listok'); g.setFlag('ticket');
     g.pose('fox', 'pick');
     await say(g, 'narrator', 'Cink! Lístok vypadol z automatu. „Lístok“ je mužský rod: jeden lístok.', 'Clac ! Le ticket sort du distributeur. « Lístok » est masculin : jeden lístok.', [['prosím', 's\'il vous plaît']]);
     g.pose('fox', 'laugh'); await g.sleep(700); g.pose('fox', null);
+  }
+
+  // le kiosque : la vendeuse ne fait pas la monnaie ; il faut acheter quelque chose (de l'eau : elle servira au chat)
+  async function kiosk(g, withNote) {
+    if (g.has('flasa') || g.flag('flasa_used')) { await say(g, 'predavacka', 'Ešte niečo? Nie? Pekný deň!', 'Autre chose ? Non ? Bonne journée !'); return; }
+    if (withNote || g.flag('need_coins')) {
+      g.pose('fox', 'talk');
+      await say(g, 'fox', 'Dobrý deň. Môžete mi rozmeniť bankovku?', 'Bonjour. Vous pouvez me faire la monnaie sur un billet ?', [['rozmeniť', 'faire la monnaie']]);
+      g.pose('fox', null);
+      await say(g, 'predavacka', 'Rozmieňať nemôžem. Ale keď si niečo kúpiš, vydám ti.', 'Je ne peux pas faire la monnaie. Mais si tu achètes quelque chose, je te rends la monnaie.', [['kúpiť', 'acheter'], ['vydať', 'rendre (la monnaie)']]);
+    } else await say(g, 'predavacka', 'Dobrý deň! Čo si dáš?', 'Bonjour ! Qu\'est-ce que tu prends ?');
+    for (;;) {
+      const i = await g.choice([
+        { sk: 'Prosím si noviny.', fr: 'Je voudrais un journal, s\'il vous plaît.' },
+        { sk: 'Prosím si čokoládu.', fr: 'Je voudrais du chocolat, s\'il vous plaît.' },
+        { sk: 'Prosím si vodu.', fr: 'Je voudrais de l\'eau, s\'il vous plaît.' },
+        { sk: 'Nič, ďakujem.', fr: 'Rien, merci.' },
+      ]);
+      if (i === 3) return;
+      if (i === 0) { await say(g, 'fox', 'Hmm, noviny po slovensky? Ešte nie.', 'Hmm, un journal en slovaque ? Pas encore.'); continue; }
+      if (i === 1) { await say(g, 'predavacka', 'V tejto horúčave? Roztopí sa ti vo vrecku!', 'Par cette chaleur ? Il va fondre dans ta poche !', [['horúčava', 'la chaleur'], ['roztopiť sa', 'fondre']]); continue; }
+      break;
+    }
+    if (!g.has('bankovka')) { await say(g, 'predavacka', 'Najprv peniaze, zlatko.', 'L\'argent d\'abord, mon chou.'); return; }
+    g.pose('predavacka', 'b');
+    await say(g, 'predavacka', 'Voda, nech sa páči. Jedno euro. Z dvadsiatich ti vydám devätnásť.', 'De l\'eau, voilà. Un euro. Sur vingt, je te rends dix-neuf.', [['voda', 'l\'eau'], ['euro', 'l\'euro']]);
+    g.take('bankovka'); g.give('flasa'); g.give('drobne');
+    g.pose('predavacka', null);
+    await say(g, 'narrator', 'Máš fľašu vody a drobné.', 'Tu as une bouteille d\'eau et de la monnaie.', [['fľaša', 'la bouteille'], ['drobné', 'la monnaie']]);
+    await say(g, 'predavacka', 'A nevypi ju celú naraz. Je sucho.', 'Et ne la bois pas d\'un coup. C\'est la sécheresse.', [['sucho', 'la sécheresse']]);
   }
 
   // ------------------------------------------------------------------ l'ouverture (cinematique) : docs/Jeu-conception.md, « Nouvelle ouverture »
@@ -305,10 +451,34 @@
   // ------------------------------------------------------------------ le jeu
   globalThis.ZG_DATA = {
     title: 'Zajko Quest',
-    saveKey: 'zajko-quest-web-v1',
+    saveKey: 'zajko-quest-web-v2',   // v2 « Circuit fermé » : les anciennes sauvegardes ne se chargent plus
     start: 'uvod',
     chapters,
     notebook,
+    // tableau d'enquete (docs/Jeu-conception-v2.md) : les indices, et la question de chaque chapitre (relier deux indices)
+    board: {
+      cards: {
+        kniha: { icon: '📖', sk: 'Kniha hore nohami', fr: 'Le livre à l\'envers' },
+        fontana: { icon: '⛲', sk: 'Fontána je prázdna', fr: 'La fontaine est vide' },
+        zastavka: { icon: '🚏', sk: '„Ty vystupuješ tu.“ Vedela to.', fr: '« Tu descends ici. » Elle le savait.' },
+        telefon: { icon: '📞', sk: '„Áno. Je tu.“', fr: '« Oui. Il est là. »' },
+      },
+      questions: {
+        q_nahoda: {
+          sk: 'Je Andrea v električke náhodou?', fr: 'Andrea est-elle dans le tram par hasard ?',
+          pairs: [['zastavka', 'telefon'], ['kniha', 'telefon']],
+          ok: [
+            { who: 'fox', sk: 'Vedela, kde vystupujem. A do telefónu povedala: „Je tu.“', fr: 'Elle savait où je descendais. Et au téléphone, elle a dit : « Il est là. »' },
+            { who: 'fox', sk: 'Nie. Nebola tam náhodou. Čakala ma.', fr: 'Non. Elle n\'était pas là par hasard. Elle m\'attendait.', words: [['náhoda', 'le hasard'], ['čakať', 'attendre']] },
+          ],
+          ko: [
+            { who: 'fox', sk: 'Hmm… To spolu nesúvisí.', fr: 'Hmm… ça n\'a rien à voir.' },
+            { who: 'fox', sk: 'Fontána? To je iný problém. Sucho.', fr: 'La fontaine ? C\'est un autre problème. La sécheresse.' },
+            { who: 'fox', sk: 'Nie… Čo presne povedala do telefónu?', fr: 'Non… Qu\'est-ce qu\'elle a dit exactement au téléphone ?' },
+          ],
+        },
+      },
+    },
     helpers: {
       andrea: { who: 'andrea', icon: '🐰', title: 'Andrea', empty: { sk: 'Teraz si musíš poradiť sám, Gab.', fr: 'Là, il faut te débrouiller tout seul, Gab.' } },
       katka: { who: 'katka', icon: '📱', title: 'Katka', empty: { sk: 'Batéria je na nule…', fr: 'La batterie est à zéro…' }, dead: { sk: 'Telefón je vybitý.', fr: 'Le téléphone est déchargé.' } },
@@ -321,12 +491,20 @@
       pan: { name: 'Pán v obleku', icon: '🕴️', color: '#555a66' },
       pokladnicka: { name: 'Pokladníčka', icon: '🧑‍💼', color: '#b06ab0' },
       orol: { name: 'Pán Orol', icon: '🦅', color: '#8a5a2a' },
+      predavacka: { name: 'Predavačka', icon: '🦝', color: '#c0602a' },
+      ovca: { name: 'Pani na lavičke', icon: '🐑', color: '#8a7aa8' },
+      babka: { name: 'Babka', icon: '🐐', color: '#a0522d' },
+      jez: { name: 'Sused', icon: '🦔', color: '#7a6a3a' },
     }),
     items: Object.assign({}, ZA_DATA.items, {
       kluc: { sk: 'kľúč', fr: 'clé', icon: 'art/item_kluc.png' },
       cent: { sk: 'cent', fr: 'un centime', icon: 'art/item_cent.png' },
       deka: { sk: 'deka', fr: 'couverture', icon: 'art/item_deka.png' },
-      flasa: { sk: 'fľaša', fr: 'gourde', emoji: '💧' },
+      flasa: { sk: 'fľaša vody', fr: 'bouteille d\'eau', icon: 'art/item_flasa.png' },
+      flasa_prazdna: { sk: 'prázdna fľaša', fr: 'bouteille vide', icon: 'art/item_flasa_prazdna.png' },
+      bankovka: { sk: 'bankovka 20 €', fr: 'billet de 20 €', icon: 'art/item_bankovka.png' },
+      drobne: { sk: 'drobné', fr: 'la monnaie', icon: 'art/item_drobne.png' },
+      listok_babka: { sk: 'babkin lístok', fr: 'le ticket de la mamie', icon: 'art/item_listok.png' },
       rebrik: { sk: 'rebrík', fr: 'échelle', icon: 'art/obj_rebrik.png' },
       zapisnik: { sk: 'zápisník', fr: 'carnet', icon: 'art/item_zapisnik.png' },
       pero: { sk: 'pero', fr: 'stylo', emoji: '🖊️' },
@@ -351,15 +529,59 @@
         chapter: 'ch0', title: { sk: 'Stanica', fr: 'La gare' }, tint: ['#2f3d5a', '#9aa8bf'],
         bg: 'art/gare_wide.webp', worldW: 2160,
         player: 'fox', floor: [[0, 600], [2160, 600], [2160, 712], [0, 712]], scale: { y0: 600, s0: 0.55, y1: 712, s1: 0.64 },
-        sprites: [gab(330, 645)],
+        sprites: [
+          gab(470, 645),
+          // figurants (2 poses qui alternent) : la vendeuse dans le kiosque, la brebis endormie, les pigeons
+          { id: 'predavacka', img: 'art/predavacka_a.png', x: 742, y: 535, h: 148, abs: true, still: true, face: 1, poses: { b: { img: 'art/predavacka_b.png', h: 148 } }, alt: { pose: 'b', min: 4, max: 8, hold: [1.2, 2] } },
+          { id: 'ovca', img: 'art/ovca_a.png', x: 1000, y: 560, h: 195, abs: true, face: 1, poses: { b: { img: 'art/ovca_b.png', h: 195 } }, alt: { pose: 'b', min: 6, max: 12, hold: [1, 1.8] } },
+          { id: 'holuby', img: 'art/holuby_a.png', x: 1290, y: 700, h: 80, abs: true, still: true, face: -1, poses: { b: { img: 'art/holuby_b.png', h: 58 } }, alt: { pose: 'b', min: 5, max: 10, hold: [0.5, 0.9] } },
+        ],
+        props: [
+          { img: 'art/obj_fotoautomat.png', x: 235, y: 598, w: 250 },
+          { img: 'art/obj_kiosk.png', x: 680, y: 598, w: 430 },
+        ],
+        ambient: [
+          { img: 'art/amb_para.png', x: 120, y: 330, w: 50, alpha: 0.7, puff: { w1: 170, life: 4, every: 1.4, rise: 110, drift: 40 } },   // la vapeur de la loco, derriere la vitre
+          { imgs: ['art/jelen_a.png'], x: 0, y: 612, w: 220, cross: { from: [2300, 612], to: [-160, 612], dur: 10, every: 24 } },     // un voyageur presse traverse le hall
+          { sweep: { area: [1220, 120, 2160, 560], period: 11, a: 0.12 } },
+        ],
         hotspots: [
-          { id: 'nastupiste', name: { sk: 'nástupištia', fr: 'les quais' }, poly: box(100, 290, 438, 578), walk: [300, 650],
+          { id: 'nastupiste', name: { sk: 'nástupištia', fr: 'les quais' }, poly: box(0, 160, 438, 330), walk: [420, 650],
             look: { sk: 'Nástupištia. Môj vlak tam ešte stojí.', fr: 'Les quais. Mon train y est encore.', words: [['nástupište', 'le quai'], ['vlak', 'le train']] },
             async onUse(g) { await say(g, 'fox', 'Späť do vlaku? Nie, nie!', 'Retourner dans le train ? Non, non !'); } },
           { id: 'tabula', name: { sk: 'tabuľa', fr: 'le tableau' }, poly: box(524, 157, 940, 310), walk: [730, 650],
             look: { who: 'narrator', sk: 'Príchody. Môj vlak prišiel načas.', fr: 'Les arrivées. Mon train est arrivé à l\'heure.', words: [['príchody', 'les arrivées'], ['načas', 'à l\'heure']] } },
-          { id: 'lavicka', name: { sk: 'lavička', fr: 'le banc' }, poly: box(534, 467, 1107, 592), walk: [820, 650],
-            look: { sk: 'Lavička. Teraz nie, som príliš zvedavý!', fr: 'Un banc. Pas maintenant, je suis trop curieux !', words: [['lavička', 'le banc']] } },
+          { id: 'lavicka', name: { sk: 'lavička', fr: 'le banc' }, poly: box(900, 467, 1107, 592), walk: [1080, 650],
+            look: { sk: 'Lavička. Je obsadená.', fr: 'Un banc. Il est occupé.', words: [['lavička', 'le banc'], ['obsadený', 'occupé']] } },
+          // le photomaton : une fausse piste (il ne rend pas la monnaie)
+          { id: 'fotoautomat', name: { sk: 'fotoautomat', fr: 'le photomaton' }, poly: box(112, 330, 360, 598), walk: [380, 650], pose: 'use',
+            async onUse(g) {
+              await say(g, 'narrator', 'Fotoautomat. Štyri fotky: 5 €.', 'Un photomaton. Quatre photos : 5 €.', [['fotka', 'la photo']]);
+              await say(g, 'fox', 'Pekný som, ale lístok to nie je.', 'Je suis beau, mais ça ne fait pas un ticket.');
+            },
+            onItem: {
+              async bankovka(g) { await say(g, 'narrator', 'Fotoautomat berie len mince. A nevydáva.', 'Le photomaton ne prend que les pièces. Et il ne rend pas la monnaie.', [['mince', 'les pièces']]); },
+              async drobne(g) { await say(g, 'fox', 'Fotky? Nie, tie mince sú na lístok!', 'Des photos ? Non, ces pièces, c\'est pour le ticket !'); },
+            } },
+          // le kiosque et la vendeuse
+          { id: 'kiosk', name: { sk: 'kiosk', fr: 'le kiosque' }, poly: box(470, 295, 890, 598), walk: [700, 650],
+            async onUse(g) { await kiosk(g, false); },
+            onItem: { async bankovka(g) { await kiosk(g, true); } } },
+          { id: 'predavacka', sprite: 'predavacka', name: { sk: 'predavačka', fr: 'la vendeuse' }, walk: [720, 650],
+            async onUse(g) { await kiosk(g, false); },
+            onItem: { async bankovka(g) { await kiosk(g, true); }, async drobne(g) { await say(g, 'predavacka', 'Už máš drobné. Choď na automat!', 'Tu as déjà de la monnaie. Va au distributeur !'); } } },
+          { id: 'ovca', sprite: 'ovca', name: { sk: 'pani na lavičke', fr: 'la dame sur le banc' }, walk: [1060, 650],
+            async onUse(g) {
+              g.pose('ovca', 'b');
+              await say(g, 'ovca', 'Pst! Spím.', 'Chut ! Je dors.', [['pst', 'chut'], ['spať', 'dormir']]);
+              await g.sleep(600); g.pose('ovca', null);
+            } },
+          { id: 'holuby', sprite: 'holuby', name: { sk: 'holuby', fr: 'les pigeons' }, walk: [1200, 650],
+            async onUse(g) {
+              g.pose('holuby', 'b');
+              await say(g, 'fox', 'Holuby! Aj vy ste smädné?', 'Des pigeons ! Vous avez soif, vous aussi ?', [['holub', 'le pigeon'], ['smädný', 'assoiffé']]);
+              await g.sleep(500); g.pose('holuby', null);
+            } },
           { id: 'hodiny', name: { sk: 'hodiny', fr: 'l\'horloge' }, poly: box(1178, 112, 1286, 219), walk: [1230, 650],
             look: { who: 'narrator', sk: 'Hodiny. Je popoludnie.', fr: 'L\'horloge. C\'est l\'après-midi.', words: [['hodiny', 'l\'horloge'], ['popoludnie', 'l\'après-midi']] } },
           // indice 1 : l'affiche (le francais decrit sans traduire « lístok »)
@@ -384,6 +606,7 @@
         async onEnter(g) {
           if (g.flag('intro0')) return;
           g.setFlag('intro0'); g.noHelper();
+          g.give('bankovka');
           await say(g, 'narrator', 'Železničná stanica v Košiciach.', 'La gare de Košice.', [['stanica', 'la gare']]);
           await say(g, 'narrator', 'Klikni na zem a Gab pôjde. Klikni na veci okolo.', 'Clique sur le sol pour marcher. Clique sur les choses autour de toi.');
         },
@@ -435,7 +658,14 @@
         chapter: 'ch1', title: { sk: 'Pred domom', fr: 'Devant la maison' }, tint: ['#b7a07a', '#d9c9a2'],
         bg: 'art/rue_wide.webp', worldW: 2160,
         player: 'fox', floor: [[0, 590], [2160, 590], [2160, 705], [0, 705]], scale: { y0: 590, s0: 0.33, y1: 705, s1: 0.41 },
-        sprites: [gab(150, 640), andrea(260, -1, 630)],
+        sprites: [
+          gab(150, 640), andrea(260, -1, 630),
+          // le chat dort sur le pot bleu (2 poses), puis il va boire
+          { id: 'macka', img: 'art/macka_a.png', x: 1326, y: 452, h: 50, abs: true, face: 1, speed: 120,
+            walkSheet: { img: 'art/macka_ide.png', frames: 1, fps: 1, h: 56 },
+            poses: { b: { img: 'art/macka_b.png', h: 50 }, pije: { img: 'art/macka_pije.png', h: 50 } }, alt: { pose: 'b', min: 4, max: 9, hold: [1, 2] } },
+          { id: 'jez', img: 'art/jez_a.png', x: 770, y: 590, h: 138, abs: true, face: 1, poses: { b: { img: 'art/jez_b.png', h: 138 } }, alt: { pose: 'b', min: 3, max: 6, hold: [1.5, 2.5] } },
+        ],
         // objets poses dans le decor (art/PROMPTS_decors.md n° 6)
         props: [
           { img: 'art/obj_noviny.png', x: 162, y: 482, w: 78 },
@@ -444,6 +674,11 @@
           { img: 'art/obj_slimak.png', x: 1102, y: 492, w: 30, when: (g) => g.flag('pot_cerveny') },
           { img: 'art/obj_schranka.png', x: 1577, y: 482, w: 42 },
           { img: 'art/obj_trpaslik.png', x: 1808, y: 552, w: 34 },
+          { img: 'art/obj_miska.png', x: 1520, y: 598, w: 46, when: (g) => !g.flag('miska') },
+          { img: 'art/obj_miska_plna.png', x: 1520, y: 598, w: 46, when: (g) => g.flag('miska') && !g.flag('macka_pije') },
+        ],
+        ambient: [
+          { imgs: ['art/amb_kos_a.png', 'art/amb_kos_b.png'], x: 620, y: 604, w: 34, rand: [1.5, 4] },   // un merle qui sautille
         ],
         hotspots: [
           // --- fausses pistes et petits mots, de gauche a droite
@@ -514,10 +749,60 @@
           { id: 'modry', name: { sk: 'kvetináč', fr: 'un pot de fleurs' }, poly: box(1288, 395, 1362, 490), walk: [1325, 625], pose: 'pick',
             async onUse(g) {
               if (g.has('kluc') || g.flag('gate')) { await say(g, 'fox', 'Tu už nič nie je.', 'Il n\'y a plus rien ici.'); return; }
+              if (!g.flag('macka_pije')) {   // le chat dort dessus
+                g.pose('macka', 'b');
+                await say(g, 'narrator', 'Na kvetináči spí veľký ryšavý kocúr. Zasyčí.', 'Sur le pot dort un gros chat roux. Il crache.', [['kocúr', 'le (gros) chat'], ['ryšavý', 'roux']]);
+                await say(g, 'fox', 'Dobre, dobre! Nechám ťa spať.', 'D\'accord, d\'accord ! Je te laisse dormir.');
+                g.pose('macka', null);
+                g.setFlag('saw_cat');
+                return;
+              }
               g.give('kluc'); g.setFlag('keyfound');
               await say(g, 'narrator', 'Modrý kvetináč… a pod ním kľúč!', 'Le pot bleu… et dessous, la clé !', [['modrý', 'bleu']]);
               g.pose('fox', 'laugh'); await g.sleep(700); g.pose('fox', null);
             } },
+          // le chat (sur le pot), la gamelle, le voisin herisson
+          { id: 'macka', sprite: 'macka', name: { sk: 'kocúr', fr: 'le chat' }, walk: [1325, 625],
+            async onUse(g) {
+              if (g.flag('macka_pije')) { await say(g, 'fox', 'Pije. Nechaj ho.', 'Il boit. Laisse-le.'); return; }
+              g.setFlag('saw_cat');
+              const i = await g.choice([{ sk: 'Mňau?', fr: 'Miaou ?' }, { sk: 'Zlez dole, prosím.', fr: 'Descends, s\'il te plaît.' }, { sk: '(Postrčiť ho.)', fr: '(Le pousser.)' }]);
+              g.pose('macka', 'b');
+              if (i === 0) await say(g, 'narrator', 'Kocúr otvorí jedno oko. A zase ho zavrie.', 'Le chat ouvre un œil. Et le referme.', [['oko', 'l\'œil']]);
+              else if (i === 1) await say(g, 'andrea', 'Kocúr nerozumie po slovensky. Ani po francúzsky.', 'Le chat ne comprend pas le slovaque. Ni le français.');
+              else await say(g, 'narrator', 'Ššš! Kocúr zasyčí. Nehne sa.', 'Fffff ! Le chat crache. Il ne bouge pas.');
+              g.pose('macka', null);
+            },
+            onItem: { async flasa(g) { await say(g, 'fox', 'Poliať kocúra? To by som už nemal ruky.', 'Arroser le chat ? Je n\'aurais plus de mains.'); } } },
+          { id: 'miska', name: { sk: 'miska', fr: 'la gamelle' }, poly: box(1490, 570, 1552, 604), walk: [1420, 630], pose: 'pick',
+            async onUse(g) {
+              if (g.flag('miska')) { await say(g, 'fox', 'Plná. Teraz počkáme.', 'Pleine. Maintenant, on attend.'); return; }
+              await say(g, 'narrator', 'Miska pre mačku. Prázdna a suchá.', 'Une gamelle pour chat. Vide et sèche.', [['miska', 'la gamelle'], ['prázdny', 'vide'], ['suchý', 'sec']]);
+              g.setFlag('saw_miska');
+            },
+            onItem: {
+              async flasa(g) {
+                if (g.flag('miska')) return;
+                g.take('flasa'); g.give('flasa_prazdna'); g.setFlag('miska'); g.setFlag('flasa_used');
+                await say(g, 'narrator', 'Gab naleje vodu do misky. Glg, glg.', 'Gab verse l\'eau dans la gamelle. Glou, glou.', [['naliať', 'verser']]);
+                await g.sleep(500);
+                g.pose('macka', 'b');
+                await say(g, 'narrator', 'Kocúr zdvihne hlavu. Voda!', 'Le chat lève la tête. De l\'eau !');
+                const c = g.sprite('macka');
+                if (c) { c.alt = null; c.pose = null; c.y = 600; c.x = 1370; }   // il saute du muret
+                await g.walk('macka', 1560, 600);
+                g.face('macka', -1); g.pose('macka', 'pije'); g.setFlag('macka_pije');
+                await say(g, 'andrea', 'Aj on je smädný. Všetci sú smädní.', 'Lui aussi a soif. Tout le monde a soif.', [['smädný', 'assoiffé']]);
+              },
+            } },
+          { id: 'jez', sprite: 'jez', name: { sk: 'sused', fr: 'le voisin' }, walk: [700, 625],
+            async onUse(g) {
+              g.pose('jez', 'b');
+              await say(g, 'jez', 'Krhla je prázdna. Voda tečie len ráno, dve hodiny.', 'L\'arrosoir est vide. L\'eau ne coule que le matin, deux heures.', [['krhla', 'l\'arrosoir'], ['tiecť', 'couler']]);
+              await say(g, 'jez', 'Také sucho som ešte nezažil.', 'Une sécheresse pareille, je n\'ai jamais vu ça.', [['sucho', 'la sécheresse']]);
+              g.pose('jez', null);
+            },
+            onItem: { async flasa(g) { await say(g, 'jez', 'Ďakujem, mladý. Ale nechaj si ju. Niekto je smädnejší ako moje kvety.', 'Merci, jeune homme. Mais garde-la. Quelqu\'un a plus soif que mes fleurs.'); } } },
           { id: 'jablone', name: { sk: 'jabloň', fr: 'le pommier' }, poly: [[1440, 160], [1620, 80], [1880, 170], [1900, 330], [1700, 400], [1460, 360]], walk: [1640, 625],
             look: { sk: 'Jablká! Ale sú príliš vysoko. A ešte zelené.', fr: 'Des pommes ! Mais elles sont trop haut. Et encore vertes.', words: [['jablko', 'la pomme'], ['zelený', 'vert']] } },
           { id: 'schranka', name: { sk: 'schránka', fr: 'la boîte aux lettres' }, poly: box(1554, 436, 1600, 484), walk: [1560, 625],
@@ -556,6 +841,10 @@
             { sk: 'Kľúč je pod modrým kvetináčom. Ale čo je „modrý“?', fr: 'La clé est sous le pot « modrý ». Mais c\'est quoi, « modrý » ?' },
             { sk: 'Opýtaj sa ma: „Čo je modrý?“', fr: 'Demande-moi : « C\'est quoi, modrý ? »' },
             { sk: 'Klikni na mňa a vyber otázku o farbe.', fr: 'Clique sur moi et choisis la question sur la couleur.' } ] },
+          { id: 'rue_cat', when: (g) => g.knows('modrý') && !g.flag('macka_pije'), levels: [
+            { sk: 'Kocúr spí na modrom kvetináči. Čo by ho prilákalo?', fr: 'Le chat dort sur le pot bleu. Qu\'est-ce qui l\'attirerait ?' },
+            { sk: 'Je horúco. Aj kocúr je smädný. Pozri sa na miske.', fr: 'Il fait chaud. Le chat aussi a soif. Regarde la gamelle.' },
+            { sk: 'Nalej vodu z fľaše do misky.', fr: 'Verse l\'eau de ta bouteille dans la gamelle.' } ] },
           { id: 'rue_key', when: (g) => !g.has('kluc') && !g.flag('gate'), levels: [
             { sk: 'Modrý je ako obloha. Ktorý kvetináč je modrý?', fr: '« Modrý », c\'est comme le ciel. Quel pot est de cette couleur ?' },
             { sk: 'Tretí kvetináč, vpravo.', fr: 'Le troisième pot, à droite.' } ] },
@@ -564,6 +853,7 @@
             { sk: 'Klikni na bránku.', fr: 'Clique sur le portillon.' } ] },
         ],
         async onEnter(g) {
+          if (g.flag('macka_pije')) { const c = g.sprite('macka'); if (c) { c.alt = null; c.x = 1560; c.y = 600; c.face = -1; c.pose = 'pije'; } }
           if (g.flag('quiz')) return;
           g.setFlag('quiz');
           await g.walk('andrea', 420, 625); g.face('andrea', -1);
@@ -608,6 +898,29 @@
           { shade: 150, a: 0.8, x: 1602, y: 200, when: (g) => g.flag('lampoff') },
           { shade: 260, a: 0.55, sy: 0.4, x: 1640, y: 610, when: (g) => g.flag('lampoff') },
           { img: 'art/obj_deka.png', x: 820, y: 476, w: 150, when: (g) => !g.flag('deka') },
+          // l'allee de gravier pres de la maison (elle crisse !) et les pierres plates posees dedans
+          { img: 'art/obj_strk.png', x: 1600, y: 690, w: 320, h: 92, alpha: 0.95 },
+          { img: 'art/obj_strk.png', x: 1860, y: 690, w: 320, h: 92, alpha: 0.95 },
+          { img: 'art/obj_kamene.png', x: 1740, y: 676, w: 300, h: 70 },
+          // la fenetre de la tante se rallume pour le coup de telephone (scene 6)
+          { glow: 170, x: 1855, y: 165, color: 'rgba(255,220,140,.55)', when: (g) => g.flag('phone') },
+        ],
+        ambient: [
+          { flies: { n: 12, area: [180, 420, 1480, 610] } },                                                              // lucioles
+          { img: 'art/amb_mol.png', x: 1600, y: 200, w: 24, cross: { from: [1555, 205], to: [1650, 185], dur: 1.6, every: 0, arc: 18 }, when: (g) => !g.flag('lampoff') },
+          { img: 'art/amb_mol.png', x: 1600, y: 200, w: 20, phase: 0.8, cross: { from: [1645, 175], to: [1560, 195], dur: 1.9, every: 0, arc: -14 }, when: (g) => !g.flag('lampoff') },
+        ],
+        triggers: [
+          // le gravier : si on marche dessus (hors des pierres), il crisse, la tante se reveille
+          { x: [1478, 2000], move: true, when: (g) => !g.flag('on_stones') && !g.flag('lampoff'), async run(g) {
+            await say(g, 'narrator', 'Krch, krch, krch! Štrk škrípe pod nohami.', 'Crouch, crouch, crouch ! Le gravier crisse sous les pattes.', [['štrk', 'le gravier'], ['škrípať', 'crisser']]);
+            g.pose('fox', 'surprised');
+            await say(g, 'teta', 'Kto je to tam vonku?!', 'Qui est là, dehors ?!');
+            await say(g, 'andrea', '(z okna) Nikto, teta! Mačka!', '(de la fenêtre) Personne, tata ! Le chat !');
+            g.pose('fox', null);
+            await say(g, 'fox', 'Uf. Potichu… Kade sa dá ísť bez hluku?', 'Ouf. Doucement… Par où on peut passer sans bruit ?', [['hluk', 'le bruit']]);
+            await g.walk('fox', 1420, 640);
+          } },
         ],
         hotspots: [
           { id: 'branka', name: { sk: 'bránka', fr: 'le portillon' }, poly: box(55, 380, 170, 575), walk: [120, 630],
@@ -642,9 +955,27 @@
                 if (i === 0) break;
                 await say(g, 'andrea', 'Ráno? Veď je noc!', 'Le matin ? Mais c\'est la nuit !');
               }
-              await say(g, 'narrator', 'Gab leží pod jabloňou a pozerá na hviezdy. Čoskoro zaspí.', 'Gab est allongé sous le pommier et regarde les étoiles. Il va bientôt s\'endormir.', [['jabloň', 'le pommier'], ['hviezdy', 'les étoiles']]);
+              await say(g, 'narrator', 'Gab leží pod jabloňou a pozerá na hviezdy.', 'Gab est allongé sous le pommier et regarde les étoiles.', [['jabloň', 'le pommier'], ['hviezdy', 'les étoiles']]);
+              await say(g, 'fox', 'Odchádzam v nedeľu. O týždeň.', 'Je repars dimanche. Dans une semaine.', [['nedeľa', 'le dimanche'], ['týždeň', 'la semaine']]);
+              await say(g, 'andrea', 'Ja viem. Turisti vždy odchádzajú v nedeľu. Dobrú noc, Gab.', 'Je sais. Les touristes repartent toujours le dimanche. Bonne nuit, Gab.');
+              // scene 6 : la fenetre
+              await g.sleep(1200);
+              g.setFlag('phone');
+              await say(g, 'narrator', 'V dome sa rozsvieti okno. Andrea telefonuje, potichu.', 'Dans la maison, une fenêtre s\'allume. Andrea téléphone, tout bas.', [['telefonovať', 'téléphoner']]);
+              await say(g, 'andrea', 'Áno. Je tu.', 'Oui. Il est là.', [['je tu', 'il est là']]);
+              await say(g, 'andrea', 'Nie. Nič som mu nepovedala.', 'Non. Je ne lui ai rien dit.', [['nič', 'rien']]);
+              await say(g, 'andrea', 'Zajtra.', 'Demain.', [['zajtra', 'demain']]);
+              g.setFlag('phone', false);
+              await say(g, 'narrator', 'Okno zhasne.', 'La fenêtre s\'éteint.');
+              g.pose('fox', 'think');
+              await say(g, 'fox', '„Je tu“? Kto? Ja?', '« Il est là » ? Qui ? Moi ?');
+              g.addCard('telefon');
+              await say(g, 'fox', 'Niečo tu nesedí. Pozriem sa na tabuľu.', 'Quelque chose cloche. Je regarde le tableau.', [['tabuľa', 'le tableau']]);
+              await g.askBoard('q_nahoda');
+              g.pose('fox', 'sit');
+              await say(g, 'narrator', 'Gab chce na to myslieť. Ale dva dni vo vlaku… Zaspí.', 'Gab veut y réfléchir. Mais deux jours de train… Il s\'endort.', [['zaspať', 's\'endormir']]);
               await g.showMap('ch2');
-              g.goScene('rano');
+              g.end('Koniec ukážky · kapitola 2 čoskoro', 'Fin de l\'aperçu · le chapitre 2 arrive bientôt');
             } },
           { id: 'buda', name: { sk: 'búda', fr: 'la niche' }, poly: box(1125, 420, 1310, 565), walk: [1215, 630],
             look: { sk: 'Psia búda… bez psa. Uf.', fr: 'Une niche… sans chien. Ouf.', words: [['búda', 'la niche'], ['pes', 'le chien']] } },
@@ -665,6 +996,17 @@
               if (g.flag('lampoff')) { await say(g, 'fox', 'Už je tma.', 'Il fait déjà noir.'); return; }
               g.setFlag('lampoff');
               await say(g, 'narrator', 'Cvak! Lampa zhasla.', 'Clac ! La lampe s\'éteint.', [['vypínač', 'l\'interrupteur'], ['zhasnúť', 'éteindre']]);
+              if (g.flag('on_stones')) {   // retour par les pierres
+                for (const [x, y] of [[1830, 640], [1730, 652], [1630, 664], [1440, 640]]) await g.walk('fox', x, y);
+                g.setFlag('on_stones', false);
+              }
+            } },
+          // les pierres plates dans le gravier : le chemin silencieux
+          { id: 'kamene', name: { sk: 'kamene', fr: 'les pierres plates' }, poly: box(1585, 610, 1895, 680), walk: [1440, 645],
+            async onUse(g) {
+              if (!g.flag('kamene_seen')) { g.setFlag('kamene_seen'); await say(g, 'fox', 'Ploché kamene v štrku. Po nich sa ide potichu.', 'Des pierres plates dans le gravier. Dessus, on marche sans bruit.', [['kameň', 'la pierre'], ['potichu', 'sans bruit']]); }
+              g.setFlag('on_stones');
+              for (const [x, y] of [[1630, 664], [1730, 652], [1830, 640], [1930, 630]]) await g.walk('fox', x, y);
             } },
           { id: 'dvere', name: { sk: 'dvere', fr: 'la porte' }, poly: box(1970, 250, 2080, 535), walk: [2000, 630], pose: 'use',
             async onUse(g) { await say(g, 'fox', 'Zamknuté. Andrea je už dnu.', 'Fermé à clé. Andrea est déjà à l\'intérieur.', [['zamknuté', 'fermé à clé']]); } },
@@ -675,7 +1017,8 @@
           { id: 'g_lamp', when: (g) => !g.flag('lampoff'), levels: [
             { sk: 'Lampa svieti veľmi silno. Teta nás môže vidieť.', fr: 'La lampe brille fort. Ma tante peut nous voir.' },
             { sk: 'Nájdi vypínač.', fr: 'Cherche l\'interrupteur.', words: [['vypínač', 'l\'interrupteur']] },
-            { sk: 'Vypínač je pri zadných dverách.', fr: 'L\'interrupteur est à côté de la porte de derrière.' } ] },
+            { sk: 'Vypínač je pri zadných dverách. Ale pozor na štrk: škrípe!', fr: 'L\'interrupteur est à côté de la porte de derrière. Mais attention au gravier : il crisse !' },
+            { sk: 'Choď po plochých kameňoch.', fr: 'Passe par les pierres plates.' } ] },
           { id: 'g_blanket', when: (g) => !g.flag('deka'), levels: [
             { sk: 'Bude noc. Potrebuješ niečo na zakrytie.', fr: 'La nuit va être fraîche. Il te faut de quoi te couvrir.' },
             { sk: 'Pozri sa na šnúru.', fr: 'Regarde la corde à linge.' } ] },
