@@ -185,4 +185,4 @@ Dans `img/`, mais utilisées par aucune fiche pour l'instant (remplacées par un
 
 | Fichier | Source | Auteur | Licence |
 |---------|--------|--------|---------|
-| `map_background.jpg` | *Généré avec Google Gemini* | Google Gemini | Libre d'usage — généré pour ce projet (2026) |
+| `map_background.jpg` | *Généré avec ChatGPT (composition) puis Google Gemini (style)* | ChatGPT + Google Gemini | Libre d'usage — généré pour ce projet (2026) |
