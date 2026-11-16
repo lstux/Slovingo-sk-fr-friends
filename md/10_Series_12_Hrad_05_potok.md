@@ -1,6 +1,6 @@
 # Série Hrad (5/5) — Potok
 
-@ img/illus_12_hrad_2.jpg | Sur la terrasse du château, la nuit : le Danube, les lumières, et une question difficile. Source : illustration générée avec ChatGPT
+@ TODO_img/mato-kamera.jpg | TODO : choisir une image (Maťo, très grand, lit un petit papier devant la caméra)
 
 {{fr:La directrice a encore le trophée dans la main. Il reste une question de la présentatrice. Et une phrase que Maťo a écrite dans le train.}}
 
