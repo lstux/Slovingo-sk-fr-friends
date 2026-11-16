@@ -56,7 +56,8 @@ Trois demandes d'Eric après la première version :
 
 - **Énigme de langue** (reprend le retour de test du 10 nov.) : savoir dire « un ticket ». Il faut croiser l'affiche *Jeden lístok · 1,20 €* et l'écriteau du distributeur *Lístok na električku*, puis choisir entre *Jeden / Jedna / Jedno lístok*.
 - **Énigme d'objets (nouvelle)** : le distributeur ne prend que les pièces, et Gab n'a qu'un billet de 20 €.
-  - Le guichet est fermé (*Zatvorené*, fausse piste).
+  - Le guichet est fermé (*Zatvorené*, fausse piste), et la vendeuse du kiosque a vendu tous ses tickets.
+  - Le distributeur ne parle pas : son écran a trois touches, *Jedna / Jeden / Jedno lístok*, sans traduction.
   - Le photomaton ne rend pas la monnaie (fausse piste drôle).
   - La solution : le kiosque. Gab achète une bouteille d'eau (*Prosím si vodu*) et récupère la monnaie… et la bouteille, qui servira au chapitre 1.
 - **Figurants** :
@@ -77,10 +78,10 @@ Trois demandes d'Eric après la première version :
 - **Langue** : valider le ticket.
   - Le composteur de l'avant affiche *Mimo prevádzky* (hors service), il faut trouver l'autre.
   - Au contrôle, choix de réplique : on peut tenter *Nerozumiem, som Francúz*, mais le contrôleur répond en montrant le composteur… s'il n'est pas validé, c'est l'amende, et le tram recommence.
-- **Objets** : une babička avec un énorme cabas bloque l'allée vers le composteur arrière.
+- **Objets** : une babička avec un énorme cabas bloque l'allée vers le composteur arrière. Elle ne bouge pas sans son ticket, qu'elle a perdu.
   - Pousser le cabas : non (« on ne touche pas au cabas d'une babička »).
-  - Lui céder sa place : elle s'assoit, le cabas suit, le passage est libre.
-  - La phrase de politesse vient en bonus : *Nech sa páči*.
+  - Le ticket est coincé sous la chaussure du garçon au casque (un lynx), qui bat la mesure. Il n'entend rien : il faut lui taper sur l'épaule, puis lui dire *Zdvihni nohu* (choix sans traduction).
+  - On rend le ticket : *Nech sa páči*, le cabas monte sur le siège, le passage est libre.
 - **Rencontre** : Andrea au fond, livre à l'envers (zone cliquable : **indice n° 1** sur le tableau, « Bizarre… »).
 - **Fausse piste** : l'affiche Zelená vlna. Elle entre au tableau, mais rien ne s'y passe encore.
 - **Fin du décor** : par la vitre, la fontaine à sec. Andrea dit « Tu descends ici » (**indice n° 2**).
@@ -89,7 +90,7 @@ Trois demandes d'Eric après la première version :
 
 ### Décor 2 : la rue, devant chez la tante (3:1)
 
-**Objectif** : entrer dans le jardin. Andrea : *Kľúč je pod modrým kvetináčom* (la clé est sous le pot bleu). Elle ne traduit pas *modrý* (le travail de langue de la v1 est gardé).
+**Objectif** : entrer dans le jardin (Andrea : « Ton auberge est chère. Et ma tante a un jardin. »). Andrea : *Kľúč je pod modrým kvetináčom* (la clé est sous le pot bleu). Elle ne traduit pas *modrý*, et Gab refuse de soulever les pots au hasard (ils sont lourds, la tante regarde la télé juste derrière la fenêtre) : il faut d'abord comprendre le mot.
 
 L'énigme d'objets qui suit :
 - Sur le pot bleu, **un gros chat dort au soleil**. Le pousser : il crache. L'appeler (*Mňau?*) : il ouvre un œil, rien de plus.
@@ -105,10 +106,13 @@ Les fausses pistes de la v1 restent : pot rouge (escargot), pot jaune (fourmis),
 
 **Objectif** : arriver sous le pommier sans réveiller la tante (sa fenêtre est éclairée).
 
-- **Objets et observation** : l'allée de gravier crisse (son, la lumière de la tante bouge). Il faut passer par les pierres plates dans l'herbe : on les voit si on regarde le décor, et Andrea ne le dit pas.
-- La lampe du jardin a un **détecteur de mouvement** : la couverture du séchoir, posée dessus, l'empêche de s'allumer (combinaison objet + zone).
+- **Objets et observation** : la lampe du jardin n'a pas d'interrupteur, elle a un **détecteur de mouvement**, trop haut pour Gab. L'interrupteur près de la porte est celui de la cuisine (fausse piste).
+  - Il faut le couvrir : la tante a oublié une serviette sur le hamac, sous sa fenêtre.
+  - L'allée de gravier crisse (la tante crie, Gab recule). Il faut passer par les pierres plates : on les voit si on regarde le décor, et Andrea ne le dit pas.
+  - Pour atteindre le détecteur, monter sur la brouette, juste à côté du lampadaire.
+  - La couverture du fil à linge sert à dormir.
 - **Cinématique** (scène 6) : la fenêtre, le téléphone, *Áno. Je tu. … Nie. Nič som mu nepovedal. … Zajtra.*
-- **Déduction, question du tableau** : « Qui est "là" ? ». Gab relie le livre à l'envers, « tu descends ici » et le téléphone. Réponse attendue : « moi ». Elle n'est pas là par hasard.
+- **Déduction, question du tableau** : « Qu'est-ce qu'Andrea sait ? ». Gab relie « tu descends ici » (ou le livre à l'envers) et le téléphone. Il conclut seulement qu'elle sait quelque chose, et que quelqu'un d'autre aussi : la question reste ouverte jusqu'au chapitre 7 (la gaffe de Katka).
 - **Animations** : lucioles, papillons de nuit autour de la lampe, feuilles du pommier, étoiles qui scintillent.
 
 ## 6. Chapitre 2 : Zéro litre
@@ -117,11 +121,11 @@ Les fausses pistes de la v1 restent : pot rouge (escargot), pot jaune (fourmis),
 
 ### Décor 1 : le jardin, le matin
 
-- **Langue (gag de la série)** : Gab dit *Všetci tu hovoria veľmi o vode* (« tout le monde parle très de l'eau ») et Andrea le reprend. Juste après, un choix de répliques demande de placer *veľa* ou *veľmi* correctement.
+- **Langue (gag de la série)** : Gab dit *Všetci tu hovoria veľmi o vode* (« tout le monde parle très de l'eau ») et Andrea le reprend. Juste après, un choix de répliques **sans traduction** demande de placer *veľa* ou *veľmi* correctement.
 - **Logique (nouvelle)** : les photos d'Andrea.
   - Sur son téléphone, quatre photos du ruisseau et une du chantier, avec leur date en slovaque (*marec, jún, september…*). Il faut les remettre dans l'ordre.
   - Le moment clé apparaît : chantier, puis trois mois, puis ruisseau à sec. Il entre au tableau.
-- **Objets** : l'eau ne coule que deux heures par jour. Le robinet du jardin crachote ; pour remplir la gourde avant de partir, il faut le seau sous la gouttière (sec lui aussi : gag) ou le robinet de la cuisine, ouvert pile à l'heure (horloge du décor).
+- **Objets** : l'eau ne coule que deux heures par jour. Le robinet du jardin n'a pas de poignée ; la tante l'a cachée « à cause des voisins » et a laissé une devinette : « La poignée est là où il devrait y avoir de l'eau, mais où il n'y en a pas. » Le seau sous la gouttière (sec : fausse piste), puis l'arrosoir (vide, mais il tinte).
 - **Figurants** : la tante, vue de dos à sa fenêtre (arrose / disparaît), le chat du chapitre 1 (il est revenu).
 - **Animations** : arroseur qui crachote, guêpes autour des pommes tombées.
 
@@ -130,14 +134,15 @@ Les fausses pistes de la v1 restent : pot rouge (escargot), pot jaune (fourmis),
 **Objectif** : lire le dossier sans que la dame comprenne qu'il vient avec Andrea.
 
 1. **Langue et objets** : la file d'attente. Il faut un ticket de numéro (*poradové číslo*) à la borne. Le tableau lumineux appelle des numéros en slovaque (TTS) : il faut reconnaître le sien, et pas celui du voisin.
-2. **Dialogue** : la dame demande « Vous êtes avec la hase ? ».
+2. **Dialogue, dans l'ordre** : d'abord se présenter avec la phrase d'Andrea (*Som Francúz. Robím referát o vode.*). Demander le dossier tout de suite la rend méfiante. Ensuite seulement, demander *Spis Zelenej vlny*. Les choix n'ont pas de traduction. Puis la dame demande « Vous êtes avec la hase ? ».
    - *Nerozumiem, som Francúz* : elle se méfie moins (ça marche).
    - Si on répond *Áno* : elle ferme le guichet, et on recommence la file (gag).
-3. **Logique et chrono** : le dossier fait 400 pages, avec dix minutes de jeu (l'horloge murale tourne).
-   - Pas de page de garde : il faut trouver le sommaire (*Obsah*), puis le chapitre *Voda*, puis la ligne *Spotreba vody: 0 l/deň*.
+3. **Logique et chrono** : le dossier fait 400 pages, et il est 11 h 56. Chaque geste (tourner 1, 10 ou 100 pages) prend 20 secondes : 12 gestes avant midi.
+   - Pas de bouton « sommaire » : il faut penser à regarder les premières pages (*Obsah*, page 3), puis aller au chapitre *Voda*, puis toucher la ligne *Spotreba vody: 0 l/deň*. Le chemin le plus court fait 7 gestes.
    - Les onglets de couleur sont des fausses pistes (*Hluk* le bruit, *Elektrina* l'électricité, *Cesty* les routes).
 4. **Objets** : noter le chiffre. Gab a son ticket, mais pas de stylo.
-   - Le stylo du guichet est attaché par une chaînette (fausse piste).
+   - Photographier la page : « Photos interdites », et la dame regarde.
+   - Le stylo du guichet, attaché par une chaînette, n'écrit plus : l'encre a séché (fausse piste).
    - Le monsieur qui fait des mots croisés en prête un si on l'aide à trouver un mot de 4 lettres (*voda* !).
    - Ticket + stylo = « 0 litre ? » au dos du ticket : **pièce n° 1**.
 - **Figurants** :
@@ -150,7 +155,7 @@ Les fausses pistes de la v1 restent : pot rouge (escargot), pot jaune (fourmis),
 ### Décor 3 : devant le bureau, la fontaine vide
 
 - **Cinématique** : la voiture noire, le monsieur au sourire.
-- **Objets et timing** : se cacher derrière la fontaine. Le monsieur regarde autour de lui, et il faut bouger quand il se tourne vers la porte. Si on est vu, il sourit, et on recommence.
+- **Objets et timing** : se cacher derrière la fontaine. Le monsieur regarde autour de lui, et il faut bouger quand il se tourne vers la porte. Si on est vu, il dit bonjour, Gab se contente de sourire (il ne dit pas un mot : le monsieur ne doit pas savoir qu'il est français avant le chapitre 4), et on recommence. Gab refuse d'aller lui parler.
 - **Déduction, question du tableau** : « Zéro litre : vrai ou faux ? ». On ne peut pas encore répondre, c'est fait exprès. Gab note « à vérifier » : c'est la première question ouverte du tableau, refermée au chapitre 8.
 - **Figurants** : un pigeon qui boit dans la seule flaque, un livreur qui décharge des cartons.
 - **Animations** : drapeau sur la façade, mirage de chaleur, reflets sur la voiture noire.

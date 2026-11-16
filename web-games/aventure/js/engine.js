@@ -226,7 +226,7 @@
         pic: (id, props) => { if (live()) g.pic(id, props); },
         fade: (a) => { if (live()) g.fadeA = a; },
         say: (who, sk, fr, words) => g.say(who, sk, fr, words),
-        choice: (opts) => g.choose(opts),
+        choice: (opts, o) => g.choose(opts, o),   // o.noFr : on cache la traduction des reponses (vraie question de langue)
         walk: (id, x, y) => g.walk(id, x, y),
         sprite: (id) => g.sprites.find((s) => s.id === id),
         spawn: (id, x, y) => {
@@ -294,8 +294,8 @@
         this.dialog = { who, sk, fr, shown: 0, done: false, resolve: () => { if (sp && sp.pose === 'talk') sp.pose = null; resolve(); } };
       });
     }
-    choose(opts) {
-      return new Promise((resolve) => { this.choices = { opts, resolve }; });
+    choose(opts, o) {
+      return new Promise((resolve) => { this.choices = { opts, resolve, noFr: !!(o && o.noFr) }; });
     }
     walk(id, x, y) {
       const s = this.sprites.find((q) => q.id === id);
@@ -1076,8 +1076,9 @@
         c.fillStyle = over ? 'rgba(240,168,48,.95)' : 'rgba(18,16,30,.92)'; this.roundRect(r.x, r.y, r.w, r.h, 14); c.fill();
         c.strokeStyle = '#8a86a8'; c.lineWidth = 3; c.stroke();
         c.textBaseline = 'middle'; c.font = '600 30px system-ui, sans-serif'; c.fillStyle = over ? '#1b1608' : '#fff';
-        c.fillText(o.sk, r.x + 22, r.y + (this.showFr ? 22 : 30));
-        if (this.showFr) { c.font = 'italic 21px system-ui, sans-serif'; c.fillStyle = over ? '#4a3a10' : '#b9b4cf'; c.fillText(o.fr, r.x + 22, r.y + 45); }
+        const fr = this.showFr && !ch.noFr;
+        c.fillText(o.sk, r.x + 22, r.y + (fr ? 22 : 30));
+        if (fr) { c.font = 'italic 21px system-ui, sans-serif'; c.fillStyle = over ? '#4a3a10' : '#b9b4cf'; c.fillText(o.fr, r.x + 22, r.y + 45); }
       });
     }
     drawWords() {

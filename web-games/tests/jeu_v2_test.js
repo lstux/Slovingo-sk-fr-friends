@@ -55,7 +55,7 @@ const srv = http.createServer((q, r) => {
   if (!s.flags.need_coins) await fail('le distributeur n\'a pas demande de pieces');
   await itemW('bankovka', 230, 450, 'photomaton (fausse piste)', 400);
   if (await has('drobne')) await fail('le photomaton a rendu la monnaie ?!');
-  picks = [1, 2];                                     // chocolat (refuse : il fond), puis l'eau
+  picks = [3, 1, 2];                                  // un ticket (plus de tickets au kiosque), le chocolat (refuse : il fond), puis l'eau
   await useW(700, 440, 'kiosque');
   s = await st(); if (!s.items.includes('flasa') || !s.items.includes('drobne') || s.items.includes('bankovka')) await fail('achat de l\'eau rate ' + s.items);
   await useW(1457, 450, 'automat avec monnaie'); if (!(await has('listok'))) await fail('pas de ticket');
@@ -76,8 +76,11 @@ const srv = http.createServer((q, r) => {
   const fx = await pg.evaluate(() => __zajka.sprites.find((q) => q.id === 'fox').x);
   if (fx > 1480) await fail('Gab est passe a travers le cabas : x=' + fx);
   picks = [1]; await useW(1560, 470, 'babka (sans ticket)', 1420);
-  await useW(760, 668, 'ticket de la babka', 760);
-  if (!(await has('listok_babka'))) await fail('ticket de la babka non ramasse');
+  await useW(1085, 607, 'papier sous la chaussure', 1040);
+  if (await has('listok_babka')) await fail('ticket ramasse sous la chaussure sans rien demander');
+  picks = [1, 2, 1];                                  // lui taper sur l'epaule, « Kde je električka? », puis « Zdvihni nohu »
+  await useW(1120, 470, 'le garcon au casque', 1040);
+  if (!(await has('listok_babka'))) await fail('ticket de la babka non obtenu');
   await itemW('listok_babka', 1560, 470, 'donner le ticket a la babka', 1420);
   if (!(await st()).flags.babka_ok) await fail('la babka ne bouge pas');
   picks = [3, 1];                                     // controle : « Nerozumiem, som Francúz » (ne marche pas), puis « Tu je môj lístok »
@@ -90,6 +93,8 @@ const srv = http.createServer((q, r) => {
 
   // ---------------------------------------------------------------- la rue : le chat sur le pot bleu
   await idle('quiz');
+  await useW(1140, 450, 'pot rouge avant de savoir modrý');
+  if ((await st()).flags.pot_cerveny) await fail('pot souleve au hasard');
   picks = [0, 3];
   await pg.evaluate(async () => { const a = __zajka.sprites.find((q) => q.id === 'andrea'); await __zajka.walk('fox', a.x - 90, 640); __zajka.cam = __zajka.camTarget(); });
   await pg.evaluate(() => { const a = __zajka.sprites.find((q) => q.id === 'andrea'); __zajka.click([a.x - __zajka.cam, a.y - 60]); });
@@ -106,13 +111,18 @@ const srv = http.createServer((q, r) => {
   // ---------------------------------------------------------------- le jardin : gravier, pierres plates, fenetre, tableau
   await idle('jardin');
   await useW(820, 410, 'couverture');
-  // le gravier crisse si on va droit a l'interrupteur
-  await useW(1935, 430, 'interrupteur par le gravier', 1400);
-  if ((await st()).flags.lampoff) await fail('lampe eteinte en passant par le gravier');
+  await useW(1600, 400, 'la lampe (detecteur)', 1440);
+  if (!(await st()).flags.senzor_seen) await fail('detecteur non vu');
+  // le gravier crisse si on va droit au hamac
+  await useW(1760, 420, 'hamac par le gravier', 1400);
+  if (await has('uterak')) await fail('serviette prise en passant par le gravier');
   await pg.evaluate(() => { __zajka.cam = 880; }); await pg.waitForTimeout(300); await shot('04_jardin');
   await useW(1740, 650, 'pierres plates', 1440);
-  await useW(1935, 430, 'interrupteur', 1930);
+  await useW(1760, 420, 'hamac', 1830);
+  if (!(await has('uterak'))) await fail('pas de serviette');
+  await useW(1480, 510, 'la brouette', 1440);
   if (!(await st()).flags.lampoff) await fail('lampe toujours allumee');
+  await pg.evaluate(() => { __zajka.cam = 880; }); await pg.waitForTimeout(300); await shot('04b_jardin_lampe');
   picks = [0];
   await idle('avant pommier'); { const cam = await near(1040); await click(1040 - cam, 300); }
   await until((q) => q.panel === 'board' && q.q && !q.dlg, 'question du tableau');
@@ -163,8 +173,8 @@ const srv = http.createServer((q, r) => {
   await idle('avant guichet a mon tour'); { const cam = await near(1300); await click(1300 - cam, 400); }
   await until((q) => q.panel === 'custom' && !q.dlg, 'dossier ouvert');
   await pg.waitForTimeout(200); await shot('10_dossier');
-  const btnD = (i) => pg.evaluate((i) => __zajka.click([148 + i * 142 + 60, 630]), i);
-  for (const i of [3, 6, 6, 6, 5, 2]) { await btnD(i); await pg.waitForTimeout(40); }   // sommaire (3), +100 x3, +10, -1 : page 312
+  const btnD = (i) => pg.evaluate((i) => __zajka.click([190 + i * 160 + 70, 630]), i);
+  for (const i of [3, 3, 5, 5, 5, 4, 2]) { await btnD(i); await pg.waitForTimeout(40); }   // +1 +1 (sommaire, p. 3), +100 x3, +10, -1 : page 312 en 7 gestes
   if ((await pg.evaluate(() => __zajka.custom && __zajka.custom.st.page)) !== 312) await fail('pas a la page 312');
   await shot('11_page312');
   await pg.evaluate(() => __zajka.click([300, 250 + (__zajka.showFr ? 50 : 38) + 10]));
