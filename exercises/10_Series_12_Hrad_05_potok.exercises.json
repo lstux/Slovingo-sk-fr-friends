@@ -1,0 +1,253 @@
+{
+ "mode": "replace",
+ "sync": "full",
+ "exercises": [
+  {
+   "id": "qcm-overova",
+   "type": "qcm",
+   "l1": "vérifier",
+   "l2": "overovať",
+   "choices_l1": [
+    "éteint",
+    "il coulera",
+    "plié"
+   ],
+   "choices_l2": [
+    "preložený",
+    "budúce leto",
+    "vypína"
+   ]
+  },
+  {
+   "id": "qcm-prelo-en",
+   "type": "qcm",
+   "l1": "plié",
+   "l2": "preložený",
+   "choices_l1": [
+    "il restera",
+    "il applaudit",
+    "éteint"
+   ],
+   "choices_l2": [
+    "budúce leto",
+    "zostane",
+    "hlas"
+   ]
+  },
+  {
+   "id": "qcm-hlas",
+   "type": "qcm",
+   "l1": "la voix",
+   "l2": "hlas",
+   "choices_l1": [
+    "il applaudit",
+    "éteint",
+    "vérifier"
+   ],
+   "choices_l2": [
+    "zatlieska",
+    "potečie",
+    "overovať"
+   ]
+  },
+  {
+   "id": "qcm-zatlieska",
+   "type": "qcm",
+   "l1": "il applaudit",
+   "l2": "zatlieska",
+   "choices_l1": [
+    "éteint",
+    "vérifier",
+    "plié"
+   ],
+   "choices_l2": [
+    "overovať",
+    "vypnutý",
+    "hlas"
+   ]
+  },
+  {
+   "id": "qcm-vypnut",
+   "type": "qcm",
+   "l1": "éteint",
+   "l2": "vypnutý",
+   "choices_l1": [
+    "il coulera",
+    "la voix",
+    "plié"
+   ],
+   "choices_l2": [
+    "budúce leto",
+    "odpisovať",
+    "potečie"
+   ]
+  },
+  {
+   "id": "qcm-vyp-na",
+   "type": "qcm",
+   "l1": "il arrête",
+   "l2": "vypína",
+   "choices_l1": [
+    "éteint",
+    "vérifier",
+    "il coulera"
+   ],
+   "choices_l2": [
+    "zatlieska",
+    "pochybnosť",
+    "vypnutý"
+   ]
+  },
+  {
+   "id": "listen-budeme-to-overovať",
+   "type": "listen",
+   "l1": "Nous allons… vérifier.",
+   "l2": "Budeme… to overovať.",
+   "choices_l1": [
+    "Nous allons… fermer.",
+    "Nous avons… vérifié.",
+    "Vous allez… vérifier."
+   ]
+  },
+  {
+   "id": "listen-neodpisujem",
+   "type": "listen",
+   "l1": "Je ne réponds pas.",
+   "l2": "Neodpisujem.",
+   "choices_l1": [
+    "Je réponds.",
+    "Je ne sais pas.",
+    "Il ne répond pas."
+   ]
+  },
+  {
+   "id": "listen-áno-babka",
+   "type": "listen",
+   "l1": "Oui, Babka.",
+   "l2": "Áno, babka.",
+   "choices_l1": [
+    "Non, Babka.",
+    "Merci, Babka.",
+    "Oui, maman."
+   ]
+  },
+  {
+   "id": "blank-nie-nechceme-zatvoriť-budovu-chceme-znova",
+   "type": "fill-blank",
+   "l1": "Non. On ne veut pas fermer le bâtiment. On veut rouvrir le ruisseau.",
+   "l2": "Nie. Nechceme zatvoriť budovu. Chceme znova otvoriť potok.",
+   "missing_l1": "ruisseau",
+   "missing_l2": "potok",
+   "blank_index_l1": 12,
+   "blank_index_l2": 7,
+   "choices_l1": [
+    "lac",
+    "château",
+    "village"
+   ],
+   "choices_l2": [
+    "jazero",
+    "hrad",
+    "mesto"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "blank-a-potok-zajtra-potečie",
+   "type": "fill-blank",
+   "l1": "Et le ruisseau ? Il coule demain ?",
+   "l2": "A potok? Zajtra potečie?",
+   "missing_l1": "demain",
+   "missing_l2": "Zajtra",
+   "blank_index_l1": 6,
+   "blank_index_l2": 2,
+   "choices_l1": [
+    "aujourd'hui",
+    "lundi",
+    "samedi"
+   ],
+   "choices_l2": [
+    "Dnes",
+    "Večer",
+    "Teraz"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "order-niekto-zatlieska-potom-všetci",
+   "type": "order",
+   "l1": "Quelqu'un applaudit. Puis tout le monde.",
+   "l2": "Niekto zatlieska. Potom všetci.",
+   "tokens_l1": [
+    "Quelqu'un",
+    "applaudit.",
+    "Puis",
+    "tout",
+    "le",
+    "monde.",
+    "Et",
+    "le",
+    "bâtiment",
+    "?",
+    "Il",
+    "reste",
+    "?"
+   ],
+   "tokens_l2": [
+    "Niekto",
+    "zatlieska.",
+    "Potom",
+    "všetci.",
+    "A",
+    "budova?",
+    "Zostane?"
+   ]
+  },
+  {
+   "id": "order-a-budova-zostane",
+   "type": "order",
+   "l1": "Et le bâtiment ? Il reste ?",
+   "l2": "A budova? Zostane?",
+   "tokens_l1": [
+    "Et",
+    "le",
+    "bâtiment",
+    "?",
+    "Il",
+    "reste",
+    "?",
+    "Quelqu'un",
+    "applaudit.",
+    "Puis",
+    "tout",
+    "le",
+    "monde."
+   ],
+   "tokens_l2": [
+    "A",
+    "budova?",
+    "Zostane?",
+    "Niekto",
+    "zatlieska.",
+    "Potom",
+    "všetci."
+   ]
+  },
+  {
+   "id": "match-overovať-vocab",
+   "type": "match",
+   "l1": [
+    "vérifier",
+    "plié",
+    "la voix",
+    "il applaudit"
+   ],
+   "l2": [
+    "overovať",
+    "preložený",
+    "hlas",
+    "zatlieska"
+   ]
+  }
+ ]
+}

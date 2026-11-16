@@ -1,0 +1,282 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-n-hodou",
+      "type": "qcm",
+      "l1": "par hasard",
+      "l2": "náhodou",
+      "choices_l1": [
+        "aucune",
+        "demande-moi",
+        "tu m'aideras"
+      ],
+      "choices_l2": [
+        "pomôžeš mi",
+        "obrazovka",
+        "žiadna"
+      ]
+    },
+    {
+      "id": "qcm-mus-m-ti-uk-za",
+      "type": "qcm",
+      "l1": "je dois te montrer",
+      "l2": "musím ti ukázať",
+      "choices_l1": [
+        "pour le bâtiment",
+        "je n'habite pas",
+        "seul (un garçon)"
+      ],
+      "choices_l2": [
+        "Keby sa niekto pýtal…",
+        "Budeme v kuchyni.",
+        "v tvojom sne"
+      ]
+    },
+    {
+      "id": "qcm-obrazovka",
+      "type": "qcm",
+      "l1": "l'écran",
+      "l2": "obrazovka",
+      "choices_l1": [
+        "tu m'aideras",
+        "par hasard",
+        "demande-moi"
+      ],
+      "choices_l2": [
+        "náhodou",
+        "nerozumie",
+        "pomôžeš mi"
+      ]
+    },
+    {
+      "id": "qcm-iadna",
+      "type": "qcm",
+      "l1": "aucune",
+      "l2": "žiadna",
+      "choices_l1": [
+        "par hasard",
+        "l'écran",
+        "demande-moi"
+      ],
+      "choices_l2": [
+        "obrazovka",
+        "nerozumie",
+        "pomôžeš mi"
+      ]
+    },
+    {
+      "id": "qcm-b-la-si-sa",
+      "type": "qcm",
+      "l1": "tu avais peur (à une fille)",
+      "l2": "bála si sa",
+      "choices_l1": [
+        "Je m'en occupe.",
+        "Je suis français. (un garçon)",
+        "je ne fais pas confiance"
+      ],
+      "choices_l2": [
+        "máš → máte",
+        "Koľko máš rokov?",
+        "Môžete mi to ukázať?"
+      ]
+    },
+    {
+      "id": "qcm-sp-taj-sa-ma",
+      "type": "qcm",
+      "l1": "demande-moi",
+      "l2": "spýtaj sa ma",
+      "choices_l1": [
+        "l'écran",
+        "tu m'aideras",
+        "aucune"
+      ],
+      "choices_l2": [
+        "Snívalo sa mi o tebe.",
+        "potok → Vidím potok.",
+        "Máte pozvánku? – Nemáme."
+      ]
+    },
+    {
+      "id": "listen-musím-ti-niečo-ukázať",
+      "type": "listen",
+      "l1": "Il faut que je te montre quelque chose.",
+      "l2": "Musím ti niečo ukázať.",
+      "choices_l1": [
+        "Il faut que tu me montres quelque chose.",
+        "Je dois te dire quelque chose.",
+        "Je n'ai rien à te montrer."
+      ]
+    },
+    {
+      "id": "listen-počkaj",
+      "type": "listen",
+      "l1": "Attends.",
+      "l2": "Počkaj.",
+      "choices_l1": [
+        "Regarde.",
+        "Écoute.",
+        "Viens."
+      ]
+    },
+    {
+      "id": "listen-pomôžeš-mi",
+      "type": "listen",
+      "l1": "Tu veux bien m'aider ?",
+      "l2": "Pomôžeš mi?",
+      "choices_l1": [
+        "Tu m'attends ?",
+        "Tu viens avec moi ?",
+        "Je peux t'aider ?"
+      ]
+    },
+    {
+      "id": "blank-andrea-sa-naňho-pozerá-nerozumie-potom",
+      "type": "fill-blank",
+      "l1": "Andrea le regarde. Elle ne comprend pas. Puis elle comprend un peu.",
+      "l2": "Andrea sa naňho pozerá. Nerozumie. Potom trochu rozumie.",
+      "missing_l1": "peu",
+      "missing_l2": "trochu",
+      "blank_index_l1": 11,
+      "blank_index_l2": 6,
+      "choices_l1": [
+        "mieux",
+        "tout",
+        "bien"
+      ],
+      "choices_l2": [
+        "veľa",
+        "všetko",
+        "dobre"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-robím-si-srandu-áno",
+      "type": "fill-blank",
+      "l1": "Je plaisante. Oui.",
+      "l2": "Robím si srandu. Áno.",
+      "missing_l1": "Oui",
+      "missing_l2": "Áno",
+      "blank_index_l1": 2,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "Non",
+        "Peut-être",
+        "Merci"
+      ],
+      "choices_l2": [
+        "Nie",
+        "Možno",
+        "Ďakujem"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-v-mojom-sne-si-sa-bála",
+      "type": "order",
+      "l1": "Dans mon rêve, tu avais peur que je dise non. Alors demande-moi.",
+      "l2": "V mojom sne si sa bála, že poviem nie. Tak sa ma spýtaj.",
+      "tokens_l1": [
+        "Dans",
+        "mon",
+        "rêve,",
+        "tu",
+        "avais",
+        "peur",
+        "que",
+        "je",
+        "dise",
+        "non.",
+        "Alors",
+        "demande-moi.",
+        "Il",
+        "faut",
+        "que",
+        "je",
+        "te",
+        "montre",
+        "quelque",
+        "chose."
+      ],
+      "tokens_l2": [
+        "V",
+        "mojom",
+        "sne",
+        "si",
+        "sa",
+        "bála,",
+        "že",
+        "poviem",
+        "nie.",
+        "Tak",
+        "sa",
+        "ma",
+        "spýtaj.",
+        "Musím",
+        "ti",
+        "niečo",
+        "ukázať."
+      ]
+    },
+    {
+      "id": "order-pomôžeš-mi",
+      "type": "order",
+      "l1": "Tu veux bien m'aider ?",
+      "l2": "Pomôžeš mi?",
+      "tokens_l1": [
+        "Tu",
+        "veux",
+        "bien",
+        "m'aider",
+        "?",
+        "Dans",
+        "mon",
+        "rêve,",
+        "tu",
+        "avais",
+        "peur",
+        "que",
+        "je",
+        "dise",
+        "non.",
+        "Alors",
+        "demande-moi."
+      ],
+      "tokens_l2": [
+        "Pomôžeš",
+        "mi?",
+        "V",
+        "mojom",
+        "sne",
+        "si",
+        "sa",
+        "bála,",
+        "že",
+        "poviem",
+        "nie.",
+        "Tak",
+        "sa",
+        "ma",
+        "spýtaj."
+      ]
+    },
+    {
+      "id": "match-náhodou-vocab",
+      "type": "match",
+      "l1": [
+        "par hasard",
+        "je dois te montrer",
+        "l'écran",
+        "aucune"
+      ],
+      "l2": [
+        "náhodou",
+        "musím ti ukázať",
+        "obrazovka",
+        "žiadna"
+      ]
+    }
+  ]
+}

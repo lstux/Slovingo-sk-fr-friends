@@ -1,8 +1,8 @@
-# Rozhodnutie (extra) — My sme tam boli
+# Rozhodnutie (extra) — Otázka
 
-@ img/illus_10_rozhodnutie_2.jpg | Le matin, au petit-déjeuner : le carnet est étalé sur la couverture, et le renard a un coup de fil à passer. Source : illustration générée avec ChatGPT
+@ TODO_img/vlak-noc-most.jpg | TODO : choisir une image (un train de nuit sur un pont)
 
-{{fr:Le matin, au petit-déjeuner. Il faut décider quoi dire à la télévision. Tout le monde a un avis. Et toi, tu as un coup de fil à passer.}}
+{{fr:Les autres dorment. Le train passe sur un pont. Andrea ne regarde plus par la fenêtre. Elle a une question. Et cette fois, elle va la poser.}}
 
 ---
 
@@ -10,77 +10,81 @@
 
 | Slovenčina | Français |
 |------------|----------|
-| oheň | le feu |
-| vyhaslý | éteint |
-| unavení | fatigués |
-| špinaví | sales |
-| zase | encore, de nouveau |
-| aspoň | au moins |
-| sucho | sec |
-| v kolene | dans le genou |
-| opakuješ | tu répètes |
-| učila som sa | j'ai appris |
-| drevo | le bois |
-| unavený | fatigué (dit d'un garçon) |
-| učiť sa | apprendre |
-| zapípa | bipe |
-| nahlas | à voix haute |
-| po francúzsky | en français |
-| Prelož! | Traduis ! |
-| píše | elle écrit, il écrit |
-| nezdvíhaš | tu ne décroches pas |
-| Zavolaj! | Appelle ! |
-| v nedeľu | dimanche |
-| ľúbi | aime (d'amour, en famille) |
-| zabúdaš | tu oublies |
-| letenka | le billet d'avion |
+| správa | le message |
 | lietadlo | l'avion |
-| Ľúbim ťa. | Je t'aime. |
-| nedeľa | dimanche |
-| štyri dni | quatre jours |
-| mal by som | je devrais |
-| mal by si | tu devrais |
-| nechcem | je ne veux pas |
-| rozdiel | la différence |
-| Nechajte ho! | Laissez-le ! |
-| čaká | attend |
-| bojí sa o mňa | elle s'inquiète pour moi |
-| neviem, čo mám povedať | je ne sais pas quoi dire |
-| pondelok | lundi |
-| sobota | samedi |
-| týždeň | la semaine |
-| zbierajú | ils ramassent |
-| sami | seuls (à plusieurs) |
-| listy | les lettres |
-| nedostal som | je n'ai pas reçu |
-| neposlala som | je n'ai pas envoyé (une fille) |
-| iná | différente |
-| rovnaký | pareil, le même |
-| pochvala | le compliment |
-| pozorovanie | l'observation |
-| list | la lettre, la feuille |
-| pošta | la poste |
-| poslať | envoyer |
-| plamene | les flammes |
-| pozvať na večeru | inviter à dîner |
-| lišiak | le renard (le mâle) |
+| z Viedne | de Vienne |
+| o desiatej | à dix heures |
+| píše | elle écrit |
+| či | si (dans une question) |
+| ľúbi ma | elle m'aime |
+| odpovedám | je réponds |
+| rýchlejšie | plus vite |
+| každý | chaque |
+| letisko | l'aéroport |
+| Viedeň | Vienne |
+| let | le vol |
+| nastúpi | il monte (dans le train) |
+| sadne si | il s'assoit |
+| oproti | en face |
+| nakoniec | finalement |
+| Nebojte sa. | N'ayez pas peur. |
+| nepriateľ | l'ennemi |
+| váš | votre |
+| naši | nos |
+| inžinier | l'ingénieur |
+| urobený | fait |
 | priateľ | l'ami |
-| jahody | les fraises |
-| ražeň | la broche |
-| hosť | l'invité |
-| hlavné jedlo | le plat principal |
-| bobule | les baies |
-| lovec | le chasseur |
-| šťastie | la chance |
-| raňajky | le petit-déjeuner (nouveau) |
-| zapamätať si | retenir (nouveau) |
-| ostatní | les autres (nouveau) |
-| neskôr | plus tard (nouveau) |
-| dobrodružstvo | l'aventure (nouveau) |
-| špongia | l'éponge (nouveau) |
-| držia | ils retiennent (nouveau) |
-| za to môže | c'est de sa faute |
-| celkom | tout à fait |
+| vagón | le wagon |
+| kupé | le compartiment |
+| studňa | le puits |
+| hlboký | profond |
+| štipendium | la bourse |
+| štúdium | les études |
+| mali by ste | vous devriez |
+| vyriešiť | régler, résoudre |
+| dospelý | l'adulte |
+| inak | sinon |
+| práca | le travail |
+| Premýšľajte. | Réfléchissez. |
+| ponuka | l'offre |
+| výmenou za | en échange de |
+| hydrológia | l'hydrologie |
+| zazvoní | ça sonne |
+| televízia | la télévision |
+| Počúvaj ma. | Écoute-moi. |
+| sadla som si | je me suis assise |
+| Povedzte! | Dites ! |
+| Nezatvárajte! | Ne fermez pas ! |
+| fabrika | l'usine |
+| oboje | les deux |
+| Najedzte sa! | Mangez ! |
+| budete vedieť | vous saurez |
+| babička | mamie |
+| vnúčatá | les petits-enfants |
+| telefonovať | téléphoner |
+| inde | ailleurs |
+| klamstvo | le mensonge |
+| odkedy | depuis que |
+| ceruzka | le crayon |
+| písmeno | la lettre (de l'alphabet) |
+| zadná strana | le dos (d'une feuille) |
+| znova | de nouveau |
+| otvoriť | ouvrir |
+| kamera | la caméra |
+| bude ťa vidieť | on te verra |
+
+---
+
+## Les nouveaux mots de l'épisode
+
+| Slovenčina | Français |
+|------------|----------|
+| ostatní | les autres |
+| priblížiť sa | s'approcher |
+| cudzí | d'un autre, étranger |
+| krádež | le vol |
+| vrátenie | la restitution |
+| robím si srandu | je plaisante |
 
 ---
 
@@ -89,214 +93,83 @@
 - 💬 Le Narrateur
 - 🦊 Toi, un garçon de quinze ans, de Lyon
 - 🐰 Andrea, une hase de seize ans, ton amie
-- 🐻 Maťo, un ours de quatorze ans, le cousin d'Andrea
-- 🐹 Katka, une marmotte de treize ans, la sœur de Maťo
 
 ---
 
 ## La suite de l'épisode
 
-! 💬 Ráno. Všetci sedia pri raňajkách. [USER_NAME] drží telefón v ruke.
-> Le matin. Tout le monde est assis devant le petit-déjeuner. [USER_NAME] tient son téléphone à la main.
-> Všetci sedia pri raňajkách = tout le monde est assis au petit-déjeuner
-> drží telefón v ruke = tient le téléphone à la main
-+ Mot nouveau signalé : {{raňajky}} = le petit-déjeuner (un mot pluriel).
-
-! 💬 Na deke ležia všetky strany zo zápisníka. Katka ich ukladá vedľa seba.
-> Sur la couverture, il y a toutes les pages du carnet. Katka les pose les unes à côté des autres.
-> Na deke ležia = sur la couverture sont posées
-> všetky strany zo zápisníka = toutes les pages du carnet
-> Katka ich ukladá = Katka les pose
-> vedľa seba = les unes à côté des autres
-
-! 🐹 Košice: fontána, prázdna. Raj: potok, menej ako vlani. Tatry: búrka. Dedina: potok, každý rok menší. Liptov: povodeň. Datacentrum: voda z rieky. Štiavnica: tajchy.
-> Košice : la fontaine, vide. Le Paradis : le ruisseau, moins que l'an dernier. Les Tatras : l'orage. Le village : le ruisseau, chaque année plus petit. Le Liptov : l'inondation. Le datacentre : l'eau de la rivière. Štiavnica : les tajchy.
-> fontána, prázdna = la fontaine, vide
-> potok, menej ako vlani = le ruisseau, moins que l'an dernier
-> búrka = l'orage
-> potok, každý rok menší = le ruisseau, chaque année plus petit
-> povodeň = l'inondation
-> voda z rieky = l'eau de la rivière
-+ Tout le voyage en une réplique. Tu reconnais chaque mot ?
-
-! 🐻 A čo z toho?
-> Et alors ?
-> A čo z toho = et qu'est-ce qu'on en tire ?
-
-! 🐹 Vzadu je jedna veta. Prečítam: „Les a mokrade držia vodu ako špongia. Keď ich nie je, voda nezostane. Najprv príde sucho, potom povodeň.“
-> Au dos, il y a une phrase. Je lis : « Les forêts et les zones humides retiennent l'eau comme une éponge. Quand elles ne sont plus là, l'eau ne reste pas. D'abord vient la sécheresse, puis l'inondation. »
-> Vzadu je jedna veta = au dos, il y a une phrase
-> Prečítam = je lis
-> Les a mokrade = la forêt et les zones humides
-> držia vodu ako špongia = retiennent l'eau comme une éponge
-> Keď ich nie je = quand il n'y en a pas
-> voda nezostane = l'eau ne reste pas
-> Najprv príde sucho, potom povodeň = d'abord vient la sécheresse, puis l'inondation
-+ Mot nouveau signalé : {{špongia}} = l'éponge, {{držia}} = ils retiennent.
-
-! 🦊 To je to „prečo“. To, čo nehovorili v rádiu.
-> C'est ça, le « pourquoi ». Ce qu'ils ne disaient pas à la radio.
-> To je to prečo = c'est ça, le pourquoi
-> To, čo nehovorili = ce qu'ils ne disaient pas
-> v rádiu = à la radio
-
-! 🐰 Nikto nie je zlý. Len každý zoberie kúsok špongie.
-> Personne n'est méchant. Chacun prend juste un morceau de l'éponge.
-> Nikto nie je zlý = personne n'est méchant
-> Len každý zoberie = chacun prend seulement
-> kúsok špongie = un morceau d'éponge
-+ Pour comprendre : {{kúsok}} = un petit morceau.
-
-! 🐻 A potom už nie je špongia.
-> Et après, il n'y a plus d'éponge.
-> A potom = et après
-> už nie je špongia = il n'y a plus d'éponge
-
-! 🐹 Takže kto za to môže?
-> Alors, à qui la faute ?
-> Takže = alors
-> kto = qui
-> za to môže = est responsable de ça (c'est sa faute)
-+ Mot nouveau signalé : {{za to môže}} = c'est de sa faute. {{Kto za to môže?}} = À qui la faute ?
-
-! 🐰 Každý trochu. Preto nikto celkom.
-> À chacun un peu. Donc à personne tout à fait.
-> Každý trochu = chacun un peu
-> Preto = c'est pour ça, donc
-> nikto celkom = personne tout à fait
-+ Mot nouveau signalé : {{celkom}} = tout à fait, entièrement. À écouter : la réponse est courte et un peu glaçante.
-
-! 🐻 Čo im povieme v televízii?
-> Qu'est-ce qu'on leur dira à la télévision ?
-> Čo im povieme = que leur dirons-nous
-> v televízii = à la télévision
-
-! 🐹 Pravdu.
-> La vérité.
-> Pravdu = la vérité
-
-! 🐰 Akú pravdu? Je ich veľa. Máme hovoriť o suchu, povodni, ceste, datacentre aj bani? To je príliš veľa.
-> Quelle vérité ? Il y en a plusieurs. On parle de la sécheresse, de l'inondation, de la route, du datacentre et de la mine ? C'est trop.
-> Akú pravdu = quelle vérité
-> Je ich veľa = il y en a beaucoup
-> Máme hovoriť o = on doit parler de
-> suchu, povodni, ceste, datacentre aj bani = la sécheresse, l'inondation, la route, le datacentre et la mine
-> To je príliš veľa = c'est trop
-
-! 🐹 Ak povieme len jednu vec, povedia, že nám ide len o jednu vec.
-> Si on ne dit qu'une seule chose, ils diront qu'on ne parle que de ça.
-> Ak povieme len jednu vec = si nous ne disons qu'une chose
-> povedia, že = ils diront que
-> nám ide len o jednu vec = nous ne nous intéressons qu'à une chose
-
-! 🐻 Ak povieme päť vecí, nikto si nič nezapamätá.
-> Si on en dit cinq, personne n'en retiendra aucune.
-> Ak povieme päť vecí = si nous disons cinq choses
-> nikto si nič nezapamätá = personne ne retiendra rien
-+ Mot nouveau signalé : {{zapamätať si}} = retenir, se souvenir de.
-
-! 🦊 Povedzme to, čo sme videli.
-> Disons ce qu'on a vu.
-> Povedzme = disons
-> to, čo sme videli = ce que nous avons vu
-
-! 🐹 To je to isté.
-> C'est la même chose.
-
-! 🦊 Nie. Povieme to, čo sme videli my. Nie to, čo si myslia ostatní. Povieme: bola voda, a potom nebola. Bola mokraď, a teraz je budova. Bol les, a teraz je cesta. A my sme tam boli.
-> Non. On dira ce qu'on a vu, nous. Pas ce que pensent les autres. On dira : il y avait de l'eau, et puis il n'y en avait plus. Il y avait une zone humide, et maintenant il y a un bâtiment. Il y avait une forêt, et maintenant il y a une route. Et nous, on était là.
-> Povieme to, čo sme videli my = nous dirons ce que nous avons vu, nous
-> Nie to, čo si myslia ostatní = pas ce que pensent les autres
-> bola voda, a potom nebola = il y avait de l'eau, et puis plus
-> Bola mokraď, a teraz je budova = il y avait une zone humide, et maintenant un bâtiment
-> Bol les, a teraz je cesta = il y avait une forêt, et maintenant une route
-> A my sme tam boli = et nous, nous y étions
+! 💬 Ostatní spia. Vlak ide cez most. Andrea sa už nepozerá von oknom.
+> Les autres dorment. Le train passe sur un pont. Andrea ne regarde plus par la fenêtre.
+> Ostatní spia = les autres dorment
+> Vlak ide cez most = le train passe sur un pont
+> sa už nepozerá von oknom = ne regarde plus par la fenêtre
 + Mot nouveau signalé : {{ostatní}} = les autres.
 
-! 🐻 To je dobré.
-> C'est bien.
+! 🐰 [USER_NAME].
+> [USER_NAME].
 
-! 🐰 Ja by som to povedala jednoduchšie: „My sme tam boli.“
-> Moi, je le dirais plus simplement : « Nous, on était là. »
-> Ja by som to povedala = moi, je le dirais
-> jednoduchšie = plus simplement
-> My sme tam boli = nous y étions
+! 🦊 Áno?
+> Oui ?
 
-! 🐹 Dobre. To si zapíšem.
-> D'accord. Je le note.
-> To si zapíšem = je le note
+! 🐰 Môj zápisník je v jeho aute. Jeho auto bude pred televíziou. Nemôžem sa priblížiť, pozná ma.
+> Mon carnet est dans sa voiture. Sa voiture sera devant la télévision. Je ne peux pas m'approcher, il me connaît.
+> Môj zápisník je v jeho aute = mon carnet est dans sa voiture
+> bude pred televíziou = sera devant la télévision
+> Nemôžem sa priblížiť = je ne peux pas m'approcher
+> pozná ma = il me connaît
 
-! 🐰 A zápisník?
-> Et le carnet ?
-> A zápisník = et le carnet
+! 🦊 A?
+> Et ?
 
-! 🐹 Ten nie je náš. Musíme nájsť doktorku Vydrovú.
-> Il n'est pas à nous. Il faut qu'on trouve madame la docteure Vydrová.
-> Ten nie je náš = celui-là n'est pas à nous
-> Musíme nájsť = nous devons trouver
-> doktorku Vydrovú = madame la docteure Vydrová
+! 🐰 A povedal si mi, aby som sa ťa spýtala.
+> Et tu m'as dit de demander.
+> povedal si mi = tu m'as dit
+> aby som sa ťa spýtala = de te demander
 
-! 🦊 Mám ešte jednu vec.
-> J'ai encore une chose.
+! 💬 [USER_NAME] čaká. Nepomôže jej.
+> Gab attend. Il ne l'aide pas.
+> čaká = attend
+> Nepomôže jej = il ne l'aide pas
 
-! 💬 [USER_NAME] zavolá domov. Hovorí po francúzsky, rýchlo a dlho. Ostatní nerozumejú nič. Andrea rozumie len jedno slovo: „maman“.
-> [USER_NAME] appelle chez lui. Il parle en français, vite et longtemps. Les autres ne comprennent rien. Andrea ne comprend qu'un mot : « maman ».
-> zavolá domov = appelle à la maison
-> Hovorí po francúzsky = il parle en français
-> rýchlo a dlho = vite et longtemps
-> Ostatní nerozumejú nič = les autres ne comprennent rien
-> Andrea rozumie len jedno slovo = Andrea ne comprend qu'un mot
+! 🐰 Vezmeš mi z toho auta môj zápisník?
+> Tu veux bien aller reprendre mon carnet ?
+> Vezmeš mi = tu me prendras
+> z toho auta = de cette voiture
+> môj zápisník = mon carnet
 
-! 🐹 Čo hovorí?
-> Qu'est-ce qu'il dit ?
+! 🦊 Z cudzieho auta? To je krádež.
+> Dans la voiture de quelqu'un ? C'est du vol.
+> Z cudzieho auta = de la voiture de quelqu'un d'autre
+> To je krádež = c'est un vol
++ Mots nouveaux signalés : {{cudzí}} = d'un autre, {{krádež}} = le vol.
 
-! 🐰 Neviem. Ale znie to ako „prosím“.
-> Je ne sais pas. Mais ça ressemble à « s'il te plaît ».
-> Ale znie to ako prosím = mais ça sonne comme « s'il te plaît »
+! 🐰 Nie. To je vrátenie.
+> Non. C'est une restitution.
+> To je vrátenie = c'est une restitution
 
-! 💬 [USER_NAME] položí telefón.
-> [USER_NAME] raccroche.
-> položí telefón = pose le téléphone
+! 🦊 Tak nie.
+> Alors non.
 
-! 🦊 Prídem o deň neskôr. Mama povedala, že dobre. A že mi zmení lístok na pondelok.
-> J'arriverai un jour plus tard. Maman a dit d'accord. Et qu'elle changerait mon ticket pour lundi.
-> Prídem o deň neskôr = j'arriverai un jour plus tard
-> Mama povedala, že dobre = maman a dit d'accord
-> A že mi zmení lístok = et qu'elle me changera le ticket
-> na pondelok = pour lundi
-+ Mot nouveau signalé : {{neskôr}} = plus tard.
+! 🐰 Nie?
+> Non ?
 
-! 🐰 Letenku. Lístok je na vlak.
-> Ton billet d'avion. Un ticket, c'est pour le train.
-> Letenku = un billet d'avion
-> Lístok je na vlak = un ticket, c'est pour le train
-+ {{letenka}} pour l'avion, {{lístok}} pour le train, le tram ou le bus. Andrea attendait ce moment.
+! 🦊 Robím si srandu. Áno.
+> Je plaisante. Oui.
+> Robím si srandu = je plaisante
++ Mot nouveau signalé : {{robím si srandu}} = je plaisante. Très familier, entre amis.
 
-! 🦊 Letenku. Ďakujem, trénerka.
-> Mon billet d'avion. Merci, coach.
+! 🐰 Si hlúpy.
+> Tu es bête.
 
-! 🐰 A mama povedala dobre? Len tak?
-> Et ta mère a dit d'accord ? Comme ça ?
-> Len tak = comme ça, juste comme ça
-
-! 🦊 Povedala, že aj ona mala rada dobrodružstvá, keď bola mladá.
-> Elle a dit qu'elle aussi, elle aimait l'aventure quand elle était jeune.
-> Povedala, že = elle a dit que
-> aj ona mala rada = elle aussi aimait
-> dobrodružstvá = les aventures
-> keď bola mladá = quand elle était jeune
-+ Mot nouveau signalé : {{dobrodružstvo}} = l'aventure.
-
-! 🐻 To je dobrá mama.
-> C'est une bonne maman.
-
-! 🐰 To je veľmi dobrá mama.
-> C'est une très bonne maman.
+! 🦊 Vidíš. Nebolo to také ťažké.
+> Tu vois. Ce n'était pas si difficile.
+> Vidíš = tu vois
+> Nebolo to také ťažké = ce n'était pas si difficile
 
 ---
 
 ## 🇸🇰 Coin slovaque
 
-{{fr:Le mot}} {{dobrodružstvo}} {{fr:est long, mais on y entend deux mots connus :}} {{dobrý}} {{fr:(bon) et}} {{druh}} {{fr:(le compagnon). Une aventure, c'est mieux avec de bons compagnons. Ça tombe bien.}}
+{{fr:Fais le point. Huit pièces, la doktorka et ses trente ans de mesures. Il manque le carnet d'Andrea, dans la voiture noire. Et quelqu'un de l'intérieur : Marek a dit non.}}
 
-{{fr:Le dixième chapitre est terminé. La décision est prise : vous allez à Bratislava, et tu rentreras lundi. Il reste quelques jours pour se faire entendre.}}
+{{fr:Et maintenant, tu as une mission. Andrea te l'a demandée. Elle a appris quelque chose cette semaine : demander n'est pas un aveu de faiblesse.}}

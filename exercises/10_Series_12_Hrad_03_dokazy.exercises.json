@@ -1,0 +1,275 @@
+{
+ "mode": "replace",
+ "sync": "full",
+ "exercises": [
+  {
+   "id": "qcm-vol-m-sa",
+   "type": "qcm",
+   "l1": "je m'appelle",
+   "l2": "volám sa",
+   "choices_l1": [
+    "vérifier",
+    "j'ai porté",
+    "j'ai recopié"
+   ],
+   "choices_l2": [
+    "príchod",
+    "niesol som",
+    "reč"
+   ]
+  },
+  {
+   "id": "qcm-re",
+   "type": "qcm",
+   "l1": "la langue (qu'on parle)",
+   "l2": "reč",
+   "choices_l1": [
+    "qui a soif (un garçon)",
+    "Je suis française. (une fille)",
+    "il dort, elle dort"
+   ],
+   "choices_l2": [
+    "overiť",
+    "požičala som",
+    "niesol som"
+   ]
+  },
+  {
+   "id": "qcm-vrecko",
+   "type": "qcm",
+   "l1": "la poche",
+   "l2": "vrecko",
+   "choices_l1": [
+    "j'ai porté",
+    "l'arrivée",
+    "je m'appelle"
+   ],
+   "choices_l2": [
+    "overiť",
+    "niesol som",
+    "volám sa"
+   ]
+  },
+  {
+   "id": "qcm-odp-sal-som",
+   "type": "qcm",
+   "l1": "j'ai recopié",
+   "l2": "odpísal som",
+   "choices_l1": [
+    "j'ai porté",
+    "l'arrivée",
+    "l'an dernier"
+   ],
+   "choices_l2": [
+    "reč",
+    "požičala som",
+    "najsuchší"
+   ]
+  },
+  {
+   "id": "qcm-pr-chod",
+   "type": "qcm",
+   "l1": "l'arrivée",
+   "l2": "príchod",
+   "choices_l1": [
+    "vérifier",
+    "j'ai porté",
+    "je m'appelle"
+   ],
+   "choices_l2": [
+    "požičala som",
+    "reč",
+    "odpísal som"
+   ]
+  },
+  {
+   "id": "qcm-najsuch",
+   "type": "qcm",
+   "l1": "le plus sec",
+   "l2": "najsuchší",
+   "choices_l1": [
+    "Excusez-moi, je cherche le château.",
+    "un livre sur les Tatras",
+    "Il faut de l'eau."
+   ],
+   "choices_l2": [
+    "overiť",
+    "volám sa",
+    "požičala som"
+   ]
+  },
+  {
+   "id": "listen-rozumiem-a-veľa-hovorím-ale-dnes",
+   "type": "listen",
+   "l1": "Je comprends. Et je parle beaucoup. Mais ce soir, je parle lentement.",
+   "l2": "Rozumiem. A veľa hovorím. Ale dnes večer hovorím pomaly.",
+   "choices_l1": [
+    "Je ne comprends pas. Et je ne parle pas.",
+    "Je comprends. Et je parle vite.",
+    "Je comprends. Mais ce soir, je ne parle pas."
+   ]
+  },
+  {
+   "id": "listen-vo-štvrtok-som-bol-v-dedine",
+   "type": "listen",
+   "l1": "Jeudi, j'étais au village.",
+   "l2": "Vo štvrtok som bol v dedine.",
+   "choices_l1": [
+    "Mardi, j'étais au village.",
+    "Jeudi, j'étais au château.",
+    "Jeudi, je suis au village."
+   ]
+  },
+  {
+   "id": "listen-v-sobotu-ideme-do-bratislavy",
+   "type": "listen",
+   "l1": "Samedi, on va à Bratislava.",
+   "l2": "V sobotu ideme do Bratislavy.",
+   "choices_l1": [
+    "Dimanche, on va à Bratislava.",
+    "Samedi, on va à Košice.",
+    "Samedi, on rentre à la maison."
+   ]
+  },
+  {
+   "id": "blank-v-piatok-poobede-mám-čas",
+   "type": "fill-blank",
+   "l1": "Vendredi après-midi, j'ai le temps.",
+   "l2": "V piatok poobede mám čas.",
+   "missing_l1": "Vendredi",
+   "missing_l2": "piatok",
+   "blank_index_l1": 0,
+   "blank_index_l2": 1,
+   "choices_l1": [
+    "Lundi",
+    "Mercredi",
+    "Dimanche"
+   ],
+   "choices_l2": [
+    "pondelok",
+    "stredu",
+    "nedeľu"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "blank-vytiahne-z-vrecka-lístok-z-električky",
+   "type": "fill-blank",
+   "l1": "Il sort de sa poche un ticket de tram.",
+   "l2": "Vytiahne z vrecka lístok z električky.",
+   "missing_l1": "poche",
+   "missing_l2": "vrecka",
+   "blank_index_l1": 4,
+   "blank_index_l2": 2,
+   "choices_l1": [
+    "voiture",
+    "boîte",
+    "main"
+   ],
+   "choices_l2": [
+    "auta",
+    "krabice",
+    "ruky"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "order-andrea-vystúpi-posledná-položí-zelený-zápisník",
+   "type": "order",
+   "l1": "Andrea monte la dernière. Elle pose le carnet vert à côté du trophée.",
+   "l2": "Andrea vystúpi posledná. Položí zelený zápisník vedľa trofeje.",
+   "tokens_l1": [
+    "Andrea",
+    "monte",
+    "la",
+    "dernière.",
+    "Elle",
+    "pose",
+    "le",
+    "carnet",
+    "vert",
+    "à",
+    "côté",
+    "du",
+    "trophée.",
+    "Samedi,",
+    "on",
+    "va",
+    "à",
+    "Bratislava."
+   ],
+   "tokens_l2": [
+    "Andrea",
+    "vystúpi",
+    "posledná.",
+    "Položí",
+    "zelený",
+    "zápisník",
+    "vedľa",
+    "trofeje.",
+    "V",
+    "sobotu",
+    "ideme",
+    "do",
+    "Bratislavy."
+   ]
+  },
+  {
+   "id": "order-v-sobotu-ideme-do-bratislavy",
+   "type": "order",
+   "l1": "Samedi, on va à Bratislava.",
+   "l2": "V sobotu ideme do Bratislavy.",
+   "tokens_l1": [
+    "Samedi,",
+    "on",
+    "va",
+    "à",
+    "Bratislava.",
+    "Andrea",
+    "monte",
+    "la",
+    "dernière.",
+    "Elle",
+    "pose",
+    "le",
+    "carnet",
+    "vert",
+    "à",
+    "côté",
+    "du",
+    "trophée."
+   ],
+   "tokens_l2": [
+    "V",
+    "sobotu",
+    "ideme",
+    "do",
+    "Bratislavy.",
+    "Andrea",
+    "vystúpi",
+    "posledná.",
+    "Položí",
+    "zelený",
+    "zápisník",
+    "vedľa",
+    "trofeje."
+   ]
+  },
+  {
+   "id": "match-volám-sa-vocab",
+   "type": "match",
+   "l1": [
+    "je m'appelle",
+    "la langue (qu'on parle)",
+    "la poche",
+    "j'ai recopié"
+   ],
+   "l2": [
+    "volám sa",
+    "reč",
+    "vrecko",
+    "odpísal som"
+   ]
+  }
+ ]
+}

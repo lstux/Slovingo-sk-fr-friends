@@ -1,0 +1,261 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-sen",
+      "type": "qcm",
+      "l1": "le rêve",
+      "l2": "sen",
+      "choices_l1": [
+        "de quoi",
+        "j'ai rêvé",
+        "de toi"
+      ],
+      "choices_l2": [
+        "zvláštny",
+        "nočná mora",
+        "o potoku"
+      ]
+    },
+    {
+      "id": "qcm-sn-va-sa-mi",
+      "type": "qcm",
+      "l1": "je rêve",
+      "l2": "sníva sa mi",
+      "choices_l1": [
+        "bizarre",
+        "du ruisseau",
+        "de toi"
+      ],
+      "choices_l2": [
+        "Vedela si, že…?",
+        "stena → na stene",
+        "Keď prší, potok tečie."
+      ]
+    },
+    {
+      "id": "qcm-sn-valo-sa-mi",
+      "type": "qcm",
+      "l1": "j'ai rêvé",
+      "l2": "snívalo sa mi",
+      "choices_l1": [
+        "le rêve",
+        "de toi",
+        "je rêve"
+      ],
+      "choices_l2": [
+        "…lebo vyrúbali les.",
+        "Čím vyššie, tým chladnejšie.",
+        "Sú dve hodiny."
+      ]
+    },
+    {
+      "id": "qcm-o-om",
+      "type": "qcm",
+      "l1": "de quoi",
+      "l2": "o čom",
+      "choices_l1": [
+        "je rêve",
+        "bizarre",
+        "j'ai rêvé"
+      ],
+      "choices_l2": [
+        "o tebe",
+        "nočná mora",
+        "zvláštny"
+      ]
+    },
+    {
+      "id": "qcm-o-tebe",
+      "type": "qcm",
+      "l1": "de toi",
+      "l2": "o tebe",
+      "choices_l1": [
+        "le cauchemar",
+        "je rêve",
+        "de quoi"
+      ],
+      "choices_l2": [
+        "o čom",
+        "zvláštny",
+        "o potoku"
+      ]
+    },
+    {
+      "id": "qcm-o-potoku",
+      "type": "qcm",
+      "l1": "du ruisseau",
+      "l2": "o potoku",
+      "choices_l1": [
+        "le rêve",
+        "le cauchemar",
+        "de quoi"
+      ],
+      "choices_l2": [
+        "nehýbe sa",
+        "zvláštny",
+        "nočná mora"
+      ]
+    },
+    {
+      "id": "listen-za-jednu-noc",
+      "type": "listen",
+      "l1": "En une nuit ?",
+      "l2": "Za jednu noc?",
+      "choices_l1": [
+        "En une semaine ?",
+        "Toute la nuit ?",
+        "En un jour ?"
+      ]
+    },
+    {
+      "id": "listen-a-o-čom",
+      "type": "listen",
+      "l1": "Et de quoi ?",
+      "l2": "A o čom?",
+      "choices_l1": [
+        "Et pourquoi ?",
+        "Et quand ?",
+        "Et avec qui ?"
+      ]
+    },
+    {
+      "id": "listen-andrea-sa-nehýbe",
+      "type": "listen",
+      "l1": "Andrea ne bouge plus.",
+      "l2": "Andrea sa nehýbe.",
+      "choices_l1": [
+        "Andrea bouge.",
+        "Andrea ne parle plus.",
+        "Gab ne bouge plus."
+      ]
+    },
+    {
+      "id": "blank-snívalo-sa-mi-o-tebe",
+      "type": "fill-blank",
+      "l1": "J'ai rêvé de toi.",
+      "l2": "Snívalo sa mi o tebe.",
+      "missing_l1": "toi",
+      "missing_l2": "tebe",
+      "blank_index_l1": 3,
+      "blank_index_l2": 4,
+      "choices_l1": [
+        "moi",
+        "lui",
+        "nous"
+      ],
+      "choices_l2": [
+        "mne",
+        "ňom",
+        "nás"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-o-čom-sa-ti-snívalo",
+      "type": "fill-blank",
+      "l1": "De quoi tu as rêvé ?",
+      "l2": "O čom sa ti snívalo?",
+      "missing_l1": "rêvé",
+      "missing_l2": "snívalo",
+      "blank_index_l1": 4,
+      "blank_index_l2": 4,
+      "choices_l1": [
+        "parlé",
+        "pensé",
+        "écrit"
+      ],
+      "choices_l2": [
+        "hovorilo",
+        "páčilo",
+        "zdalo"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-snívalo-sa-mi-niečo-veľmi-dlhé",
+      "type": "order",
+      "l1": "J'ai fait un rêve. Très long. Une semaine entière.",
+      "l2": "Snívalo sa mi niečo. Veľmi dlhé. Celý týždeň.",
+      "tokens_l1": [
+        "J'ai",
+        "fait",
+        "un",
+        "rêve.",
+        "Très",
+        "long.",
+        "Une",
+        "semaine",
+        "entière.",
+        "Et",
+        "de",
+        "quoi",
+        "?"
+      ],
+      "tokens_l2": [
+        "Snívalo",
+        "sa",
+        "mi",
+        "niečo.",
+        "Veľmi",
+        "dlhé.",
+        "Celý",
+        "týždeň.",
+        "A",
+        "o",
+        "čom?"
+      ]
+    },
+    {
+      "id": "order-sladké-sny",
+      "type": "order",
+      "l1": "Fais de beaux rêves !",
+      "l2": "Sladké sny!",
+      "tokens_l1": [
+        "Fais",
+        "de",
+        "beaux",
+        "rêves",
+        "!",
+        "J'ai",
+        "fait",
+        "un",
+        "rêve.",
+        "Très",
+        "long.",
+        "Une",
+        "semaine",
+        "entière."
+      ],
+      "tokens_l2": [
+        "Sladké",
+        "sny!",
+        "Snívalo",
+        "sa",
+        "mi",
+        "niečo.",
+        "Veľmi",
+        "dlhé.",
+        "Celý",
+        "týždeň."
+      ]
+    },
+    {
+      "id": "match-sen-vocab",
+      "type": "match",
+      "l1": [
+        "le rêve",
+        "je rêve",
+        "j'ai rêvé",
+        "de quoi"
+      ],
+      "l2": [
+        "sen",
+        "sníva sa mi",
+        "snívalo sa mi",
+        "o čom"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+ "mode": "replace",
+ "sync": "full",
+ "exercises": [
+  {
+   "id": "qcm-doj-mav",
+   "type": "qcm",
+   "l1": "touchant",
+   "l2": "dojímavý",
+   "choices_l1": [
+    "travailler",
+    "la chemise",
+    "le technicien"
+   ],
+   "choices_l2": [
+    "kresba",
+    "chcem, aby",
+    "ocko"
+   ]
+  },
+  {
+   "id": "qcm-kresba",
+   "type": "qcm",
+   "l1": "le dessin",
+   "l2": "kresba",
+   "choices_l1": [
+    "papa",
+    "il grince",
+    "la chemise"
+   ],
+   "choices_l2": [
+    "zavŕzga",
+    "ocko",
+    "dojímavý"
+   ]
+  },
+  {
+   "id": "qcm-pracova",
+   "type": "qcm",
+   "l1": "travailler",
+   "l2": "pracovať",
+   "choices_l1": [
+    "par cœur",
+    "la chemise",
+    "le rang"
+   ],
+   "choices_l2": [
+    "ocko",
+    "dojímavý",
+    "chcem, aby"
+   ]
+  },
+  {
+   "id": "qcm-chcem-aby",
+   "type": "qcm",
+   "l1": "je veux que",
+   "l2": "chcem, aby",
+   "choices_l1": [
+    "la forêt → Je vois la forêt.",
+    "la salle des serveurs",
+    "Il va pleuvoir."
+   ],
+   "choices_l2": [
+    "rad",
+    "ocko",
+    "kresba"
+   ]
+  },
+  {
+   "id": "qcm-rad",
+   "type": "qcm",
+   "l1": "le rang",
+   "l2": "rad",
+   "choices_l1": [
+    "touchant",
+    "le technicien",
+    "par cœur"
+   ],
+   "choices_l2": [
+    "zavŕzga",
+    "pracovať",
+    "chcem, aby"
+   ]
+  },
+  {
+   "id": "qcm-zav-zga",
+   "type": "qcm",
+   "l1": "il grince",
+   "l2": "zavŕzga",
+   "choices_l1": [
+    "par cœur",
+    "travailler",
+    "touchant"
+   ],
+   "choices_l2": [
+    "technik",
+    "ocko",
+    "košeľa"
+   ]
+  },
+  {
+   "id": "listen-ja",
+   "type": "listen",
+   "l1": "Moi.",
+   "l2": "Ja.",
+   "choices_l1": [
+    "Toi.",
+    "Lui.",
+    "Nous."
+   ]
+  },
+  {
+   "id": "listen-riaditeľka-sa-už-neusmieva",
+   "type": "listen",
+   "l1": "La directrice ne sourit plus.",
+   "l2": "Riaditeľka sa už neusmieva.",
+   "choices_l1": [
+    "La directrice sourit encore.",
+    "La présentatrice ne sourit plus.",
+    "La directrice ne parle plus."
+   ]
+  },
+  {
+   "id": "listen-áno-ocko-skončil",
+   "type": "listen",
+   "l1": "Oui. Papa a fini.",
+   "l2": "Áno. Ocko skončil.",
+   "choices_l1": [
+    "Non. Papa n'a pas fini.",
+    "Oui. Maman a fini.",
+    "Oui. Papa a commencé."
+   ]
+  },
+  {
+   "id": "blank-chcem-aby-si-prišiel",
+   "type": "fill-blank",
+   "l1": "Je veux que tu viennes.",
+   "l2": "Chcem, aby si prišiel.",
+   "missing_l1": "viennes",
+   "missing_l2": "prišiel",
+   "blank_index_l1": 4,
+   "blank_index_l2": 3,
+   "choices_l1": [
+    "manges",
+    "partes",
+    "dormes"
+   ],
+   "choices_l2": [
+    "jedol",
+    "odišiel",
+    "spal"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "blank-viem-to-naspamäť",
+   "type": "fill-blank",
+   "l1": "Je le connais par cœur.",
+   "l2": "Viem to naspamäť.",
+   "missing_l1": "cœur",
+   "missing_l2": "naspamäť",
+   "blank_index_l1": 4,
+   "blank_index_l2": 2,
+   "choices_l1": [
+    "tête",
+    "main",
+    "nom"
+   ],
+   "choices_l2": [
+    "dobre",
+    "presne",
+    "všetko"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "order-mama-chce-aby-som-jedol",
+   "type": "order",
+   "l1": "Maman veut que je mange.",
+   "l2": "Mama chce, aby som jedol.",
+   "tokens_l1": [
+    "Maman",
+    "veut",
+    "que",
+    "je",
+    "mange.",
+    "Sur",
+    "la",
+    "terrasse,",
+    "on",
+    "entend",
+    "le",
+    "Danube."
+   ],
+   "tokens_l2": [
+    "Mama",
+    "chce,",
+    "aby",
+    "som",
+    "jedol.",
+    "Na",
+    "terase",
+    "počuť",
+    "Dunaj."
+   ]
+  },
+  {
+   "id": "order-na-terase-počuť-dunaj",
+   "type": "order",
+   "l1": "Sur la terrasse, on entend le Danube.",
+   "l2": "Na terase počuť Dunaj.",
+   "tokens_l1": [
+    "Sur",
+    "la",
+    "terrasse,",
+    "on",
+    "entend",
+    "le",
+    "Danube.",
+    "Maman",
+    "veut",
+    "que",
+    "je",
+    "mange."
+   ],
+   "tokens_l2": [
+    "Na",
+    "terase",
+    "počuť",
+    "Dunaj.",
+    "Mama",
+    "chce,",
+    "aby",
+    "som",
+    "jedol."
+   ]
+  },
+  {
+   "id": "match-dojímavý-vocab",
+   "type": "match",
+   "l1": [
+    "touchant",
+    "le dessin",
+    "travailler",
+    "je veux que"
+   ],
+   "l2": [
+    "dojímavý",
+    "kresba",
+    "pracovať",
+    "chcem, aby"
+   ]
+  }
+ ]
+}

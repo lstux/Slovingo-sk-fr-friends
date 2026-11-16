@@ -2122,9 +2122,13 @@
 
 🐰 En une nuit ?
 
-🦊 Notre ruisseau était à sec. Tu avais un carnet vert. Il y avait un monsieur qui souriait tout le temps, un aigle avec un registre, un castor en colère, un blaireau avec quatre enfants. Et une loutre en bottes.
+🐰 Et de quoi ?
+
+🦊 Du ruisseau. Notre ruisseau était à sec. Tu avais un carnet vert. Il y avait un monsieur qui souriait tout le temps, un aigle avec un registre, un castor en colère, un blaireau avec quatre enfants. Et une loutre en bottes.
 
 💬 Andrea ne bouge plus.
+
+🦊 J'ai l'impression d'être parti toute une semaine.
 
 🦊 On est passés à la télévision. Maťo a lu une phrase. Tout le monde a applaudi.
 

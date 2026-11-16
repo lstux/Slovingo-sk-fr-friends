@@ -1,0 +1,251 @@
+{
+ "mode": "replace",
+ "sync": "full",
+ "exercises": [
+  {
+   "id": "qcm-terasa",
+   "type": "qcm",
+   "l1": "la terrasse",
+   "l2": "terasa",
+   "choices_l1": [
+    "rayonner",
+    "le ventre",
+    "le papillon"
+   ],
+   "choices_l2": [
+    "brucho",
+    "stolička",
+    "zlatý"
+   ]
+  },
+  {
+   "id": "qcm-reflektor",
+   "type": "qcm",
+   "l1": "le projecteur",
+   "l2": "reflektor",
+   "choices_l1": [
+    "le trac",
+    "le ventre",
+    "la chaise"
+   ],
+   "choices_l2": [
+    "terasa",
+    "stolička",
+    "tréma"
+   ]
+  },
+  {
+   "id": "qcm-stoli-ka",
+   "type": "qcm",
+   "l1": "la chaise",
+   "l2": "stolička",
+   "choices_l1": [
+    "le projecteur",
+    "le trac",
+    "doré"
+   ],
+   "choices_l2": [
+    "terasa",
+    "motýľ",
+    "Nehýbte sa!"
+   ]
+  },
+  {
+   "id": "qcm-zlat",
+   "type": "qcm",
+   "l1": "doré",
+   "l2": "zlatý",
+   "choices_l1": [
+    "le trac",
+    "la chaise",
+    "le papillon"
+   ],
+   "choices_l2": [
+    "žiariť",
+    "tréma",
+    "brucho"
+   ]
+  },
+  {
+   "id": "qcm-neh-bte-sa",
+   "type": "qcm",
+   "l1": "Ne bougez pas !",
+   "l2": "Nehýbte sa!",
+   "choices_l1": [
+    "le gardien de refuge",
+    "Ils parlent de l'eau.",
+    "la prochaine fois"
+   ],
+   "choices_l2": [
+    "tréma",
+    "brucho",
+    "terasa"
+   ]
+  },
+  {
+   "id": "qcm-leskn-sa",
+   "type": "qcm",
+   "l1": "briller",
+   "l2": "lesknúť sa",
+   "choices_l1": [
+    "le papillon",
+    "la chaise",
+    "rayonner"
+   ],
+   "choices_l2": [
+    "zlatý",
+    "tréma",
+    "brucho"
+   ]
+  },
+  {
+   "id": "listen-nehýbte-sa-lesknete-sa",
+   "type": "listen",
+   "l1": "Ne bougez pas. Vous brillez.",
+   "l2": "Nehýbte sa. Lesknete sa.",
+   "choices_l1": [
+    "Ne parlez pas. Vous brillez.",
+    "Bougez. Vous brillez.",
+    "Ne bougez pas. Vous êtes beau."
+   ]
+  },
+  {
+   "id": "listen-mám-motýle-v-bruchu",
+   "type": "listen",
+   "l1": "J'ai des papillons dans le ventre.",
+   "l2": "Mám motýle v bruchu.",
+   "choices_l1": [
+    "J'ai faim, j'ai mal au ventre.",
+    "J'ai des papillons dans la tête.",
+    "Tu as des papillons dans le ventre."
+   ]
+  },
+  {
+   "id": "listen-a-ty-nemáš-trému",
+   "type": "listen",
+   "l1": "Et toi ? Tu n'as pas le trac ?",
+   "l2": "A ty? Nemáš trému?",
+   "choices_l1": [
+    "Et toi ? Tu as faim ?",
+    "Et toi ? Tu n'as pas peur ?",
+    "Et moi ? J'ai le trac ?"
+   ]
+  },
+  {
+   "id": "blank-mám-hlad",
+   "type": "fill-blank",
+   "l1": "J'ai faim.",
+   "l2": "Mám hlad.",
+   "missing_l1": "faim",
+   "missing_l2": "hlad",
+   "blank_index_l1": 1,
+   "blank_index_l2": 1,
+   "choices_l1": [
+    "peur",
+    "froid",
+    "raison"
+   ],
+   "choices_l2": [
+    "strach",
+    "čas",
+    "pravdu"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "blank-máš-šťastie",
+   "type": "fill-blank",
+   "l1": "Tu as de la chance !",
+   "l2": "Máš šťastie!",
+   "missing_l1": "chance",
+   "missing_l2": "šťastie",
+   "blank_index_l1": 4,
+   "blank_index_l2": 1,
+   "choices_l1": [
+    "raison",
+    "temps",
+    "faim"
+   ],
+   "choices_l2": [
+    "pravdu",
+    "čas",
+    "hlad"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "order-mám-trému-vnútri",
+   "type": "order",
+   "l1": "J'ai le trac à l'intérieur.",
+   "l2": "Mám trému vnútri.",
+   "tokens_l1": [
+    "J'ai",
+    "le",
+    "trac",
+    "à",
+    "l'intérieur.",
+    "Je",
+    "ne",
+    "brille",
+    "pas.",
+    "Je",
+    "rayonne."
+   ],
+   "tokens_l2": [
+    "Mám",
+    "trému",
+    "vnútri.",
+    "Ja",
+    "sa",
+    "nelesknem.",
+    "Ja",
+    "žiarim."
+   ]
+  },
+  {
+   "id": "order-ja-sa-nelesknem-ja-žiarim",
+   "type": "order",
+   "l1": "Je ne brille pas. Je rayonne.",
+   "l2": "Ja sa nelesknem. Ja žiarim.",
+   "tokens_l1": [
+    "Je",
+    "ne",
+    "brille",
+    "pas.",
+    "Je",
+    "rayonne.",
+    "J'ai",
+    "le",
+    "trac",
+    "à",
+    "l'intérieur."
+   ],
+   "tokens_l2": [
+    "Ja",
+    "sa",
+    "nelesknem.",
+    "Ja",
+    "žiarim.",
+    "Mám",
+    "trému",
+    "vnútri."
+   ]
+  },
+  {
+   "id": "match-terasa-vocab",
+   "type": "match",
+   "l1": [
+    "la terrasse",
+    "le projecteur",
+    "la chaise",
+    "doré"
+   ],
+   "l2": [
+    "terasa",
+    "reflektor",
+    "stolička",
+    "zlatý"
+   ]
+  }
+ ]
+}

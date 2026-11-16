@@ -1443,3 +1443,763 @@
 🦊 Som líška.
 
 🐹 Skončili ste? Autobus do Štiavnice ide o štyri minúty.
+
+# Kapitola 9 — Horné jazero
+
+## Scéna Bana — Schody
+
+💬 Sobota ráno. Banská Štiavnica je mesto na schodoch. Kostol je hore. Pekáreň tiež.
+
+🐻 Nikdy som nevidel toľko schodov.
+
+🦊 Hľadáme vydru. Vydra žije dole. Pri vode. Prečo ideme hore?
+
+🐰 Lebo tu je voda hore.
+
+🦊 Táto krajina je naopak.
+
+🐹 Najvyšší kostol, najvyššia pekáreň. Aj wifi je tu hore najlepšia.
+
+## Scéna Bana — Ján
+
+💬 Zo strechy pred nich skočí veverica.
+
+🐿️ Ahoj! Hľadáte niekoho? Ste stratení? Ste turisti? Ja som Ján, som študent, študujem vodu, teda jazerá, teda staré jazerá, chcete orechy?
+
+🦊 Dýchaj.
+
+💬 Andrea sa pozrie na líšku.
+
+🐰 Vidíš, aké to je.
+
+🦊 Ja taký nie som.
+
+🐰 Nie. Ty nemáš orechy.
+
+🐹 Hľadáme doktorku Vydrovú.
+
+🐿️ Moja profesorka! Je pri jazerách. Vždy je pri jazerách. Hovorí, že jazerá aspoň neklamú. Poďte!
+
+## Scéna Bana — Vydra
+
+💬 Nad mestom, v lese, je malé, veľmi pokojné jazero. Vydra v gumených čižmách zapichne do vody pravítko.
+
+🐰 Dobrý deň, pani doktorka.
+
+💬 Vydra sa otočí. Pravítko jej spadne.
+
+🦦 Andrea. Vyrástla si. Ešte meriaš?
+
+🐰 Zobrali mi zápisník.
+
+🦦 A mne stanicu. Sme dve.
+
+🦊 Prečo vám ju zobrali?
+
+🦦 Povedali mi: „Pani doktorka, vaše prístroje sú staré. Ich senzory sú moderné.“
+
+🦦 A poslali ma sem merať jazerá, ktoré majú tristo rokov. Je tu veľký pokoj. Nikto sa ma nič nepýta.
+
+🐰 My sa vás chceme niečo opýtať.
+
+## Scéna Bana — Sedem vecí
+
+💬 Všetko položia na lavicu. Číslo z povolenia. Register. Výkop. Screenshoty. Video. Dodací list. Merač.
+
+💬 Vydra sa dlho pozerá. Nič nehovorí.
+
+🦊 Tak čo?
+
+🦦 Tak máte sedem vecí, ktoré idú rovnakým smerom. To je veľa. Nie je to dôkaz.
+
+🐹 Sedem!
+
+🦦 V televízii vám povedia: „Rúra hore nemôže vysušiť potok dole.“ Čo by ste odpovedali?
+
+💬 Nikto neodpovie.
+
+🦦 Poďte. Tieto jazerá postavili práve na to.
+
+## Scéna Bana — Koleso
+
+💬 Vedie ich vyššie. Dve jazerá, jedno nad druhým. Medzi nimi tečie v tráve malý prameň. Vedľa je staré železné koleso.
+
+🦦 Horné jazero napája prameň. Pán medveď, otočte koleso. Pomaly.
+
+💬 Maťo otáča. Niekde pod zemou sa rozbehne voda. Horné jazero pomaly klesá.
+
+🐻 A teraz?
+
+🦦 Teraz sa pozrite na prameň.
+
+💬 V tráve je pramienok čoraz tenší. Potom sú to už len kvapky. Potom nič.
+
+🦊 Horné jazero, to je mokraď.
+
+🐰 A koleso, to sú ich čerpadlá.
+
+🦦 Presne. Teraz už viete odpovedať. Zatvorte to, prosím. Ten prameň má tristo rokov, rada by som si ho nechala.
+
+## Scéna Bana — Krabice
+
+💬 V jej malej kancelárii pod strechou. Kartónové krabice až po strop.
+
+🦦 Tridsať rokov meraní vášho potoka. Každý týždeň, ručne. Zobrali stanicu. Na krabice zabudli.
+
+🐹 Môžeme ich odfotiť?
+
+🦦 Môžete ma zobrať so sebou. Vlak do Bratislavy ide na obed.
+
+🐰 Idete s nami?
+
+🦦 Povedali mi, aby som mlčala na pokojnom mieste. Mlčala som dva roky. To stačí.
+
+💬 Zatvorí krabicu. Potom sa zastaví.
+
+🦦 Ale je tu diera. Moje čísla končia pred dvoma rokmi. Odvtedy sú tu len ich čísla.
+
+🦊 A Andrein zápisník.
+
+🦦 A Andrein zápisník. To sú jediné pravé čísla za posledné dva roky. Kde je?
+
+🐰 V čiernom aute.
+
+🦦 Tak potrebujete zápisník, alebo niekoho zvnútra. Inak povedia: „Stará nahnevaná vydra a štyri deti.“
+
+🐿️ A veverica!
+
+🦦 Ján, v pondelok máš skúšku.
+
+🐿️ A žiadna veverica.
+
+# Kapitola 10 — Ponuka
+
+## Scéna Rozhodnutie — Správa
+
+💬 Sobota, jedna hodina. Vlak ide do Bratislavy. Vydra spí medzi dvoma krabicami.
+
+💬 Zazvoní mu mobil.
+
+🐹 Je to po francúzsky. Čo píše?
+
+🦊 To je mama. Píše, že lietadlo mi letí zajtra o desiatej z Viedne. Že nikdy neodpovedám. Či jem. A že ma ľúbi.
+
+🐻 Píše, že ťa ľúbi?
+
+🦊 V každej správe.
+
+🐹 A ty čo odpovedáš?
+
+🦊 „Áno.“
+
+🐹 „Áno“ na čo?
+
+🦊 Na všetko. Je to rýchlejšie.
+
+🐰 Zajtra o desiatej.
+
+🦊 Zajtra o desiatej.
+
+💬 Obaja sa pozerajú von oknom. Každý iným.
+
+## Scéna Rozhodnutie — Pán v obleku
+
+💬 Na ďalšej stanici niekto nastúpi. Oblek, úsmev. Sadne si oproti nim, ako kamarát.
+
+🕴️ Dobrý deň, deti. Dobrý deň, Andrea. A dobrý deň, pán Baguette. Nakoniec rozumieš veľmi dobre.
+
+🦊 Rýchlo sa učím.
+
+🕴️ To vidím. Nebojte sa. Nie som váš nepriateľ.
+
+🐰 Máte môj zápisník.
+
+🕴️ Mám tvoj zápisník. Je veľmi pekne urobený. Naši inžinieri to povedali tiež.
+
+## Scéna Rozhodnutie — Ponuka
+
+💬 Položí na stolík dva papiere.
+
+🕴️ Prvý papier. Studňa pre dedinu. Hlboká, nová, voda pre všetkých. Začíname v pondelok.
+
+🐻 Studňa…
+
+🕴️ Druhý papier. Štipendium. Päť rokov štúdia v Bratislave. Hydrológia, Andrea. To chceš robiť, nie?
+
+💬 Andrea sa pozerá na papier. Príliš dlho.
+
+🐹 A za to?
+
+🕴️ Nič. Mali by ste ísť domov. Dnes večer sa pozerajte na televíziu, ako všetci. A nechajte nás to vyriešiť pomaly. Medzi dospelými.
+
+🦊 Inak?
+
+🕴️ Inak bude v pondelok dvesto ľudí bez práce. Chceš vysvetliť ich deťom, prečo sa otec vracia do Rakúska? Ja nie.
+
+💬 Vstane. Papiere nechá na stolíku.
+
+🕴️ Som vo vedľajšom vagóne. Premýšľajte. Ste inteligentné deti.
+
+## Scéna Rozhodnutie — Babka volá
+
+💬 Dlho nikto nehovorí. Potom zazvoní Katke mobil.
+
+🐑 Katka? To je babka. Starosta hovorí, že idete do televízie.
+
+🐹 Starosta hovorí veľa vecí.
+
+🐑 Počúvaj ma. Dnes ráno som bola pri potoku. Chodím tam šesťdesiat rokov. Sadla som si na kamene. Povedzte pravdu.
+
+🐻 A tvoj sused, babka?
+
+🐑 Povedzte pravdu. Ale nezatvárajte nám tú fabriku na počítače. Viete urobiť oboje?
+
+🐹 Nevieme.
+
+🐑 Tak sa najedzte, a potom budete vedieť.
+
+## Scéna Rozhodnutie — Veta
+
+🐻 Studňa je dobrá vec.
+
+🐹 Studňa, to je voda, ktorú zoberieš inde. Inej dedine.
+
+🐻 Aha. Áno.
+
+🦊 Andrea. Štipendium.
+
+🐰 Čo?
+
+🦊 Chceš ho.
+
+🐰 Áno.
+
+💬 Povie to hneď. Bez klamstva.
+
+🐰 Chcem ho, odkedy mám dvanásť. Ale nie jeho.
+
+🦊 Prečo?
+
+🐰 Lebo potom, vždy keď budem merať potok, sa budem pýtať, pre koho ho meriam.
+
+💬 Otočí papier. Maťo zoberie ceruzku.
+
+🐻 Babka chce oboje. Pravdu aj budovu. Tak to treba povedať takto.
+
+🐹 Ako?
+
+💬 Maťo píše pomaly, veľkými písmenami, na zadnú stranu ponuky.
+
+🐻 „Nechceme zatvoriť budovu. Chceme znova otvoriť potok.“
+
+🦊 To je dobré.
+
+🐹 To je veľmi dobré. Dnes večer to čítaš ty.
+
+🐻 Ja? Pred kamerami?
+
+🐹 Si veľký. Bude ťa dobre vidieť.
+
+## Scéna Rozhodnutie — Otázka
+
+💬 Ostatní spia. Vlak ide cez most. Andrea sa už nepozerá von oknom.
+
+🐰 Gab.
+
+🦊 Áno?
+
+🐰 Môj zápisník je v jeho aute. Jeho auto bude pred televíziou. Nemôžem sa priblížiť, pozná ma.
+
+🦊 A?
+
+🐰 A povedal si mi, aby som sa ťa spýtala.
+
+💬 Gab čaká. Nepomôže jej.
+
+🐰 Vezmeš mi z toho auta môj zápisník?
+
+🦊 Z cudzieho auta? To je krádež.
+
+🐰 Nie. To je vrátenie.
+
+🦊 Tak nie.
+
+🐰 Nie?
+
+🦊 Robím si srandu. Áno.
+
+🐰 Si hlúpy.
+
+🦊 Vidíš. Nebolo to také ťažké.
+
+# Kapitola 11 — Čierne auto
+
+## Scéna Bratislava — Vrátnik
+
+💬 Bratislava, päť hodín. Veľká sivá budova, zase jedna. Ale na tejto je napísané: Televízia.
+
+🧑 Máte dohodnuté stretnutie?
+
+🦊 Nie.
+
+🧑 Pozvánku?
+
+🐹 Nie.
+
+🧑 Tak nie.
+
+🦦 Mladý muž. Som doktorka Vydrová. Tridsať rokov som merala vodu v tejto krajine.
+
+🦦 Mám dve veľmi ťažké krabice a ďalej ich nenesiem. Zavolajte niekoho.
+
+## Scéna Bratislava — Redaktorka
+
+💬 Vrátnik niekomu zavolá. Príde mladá žena s počítačom pod pazuchou.
+
+📝 Máte tri minúty. Pripravujem dnešnú reláciu.
+
+🐰 Vieme. Preto sme tu.
+
+💬 O tri minúty sa ešte stále nepozrela na hodinky. Pozerá Katkino video už tretíkrát.
+
+📝 Je to dobré. Je to dokonca veľmi dobré. Nestačí to.
+
+🐻 Nestačí?
+
+📝 Fotky, screenshoty, video: povedia, že je to falošné. S pani doktorkou vám dám na konci dve minúty.
+
+📝 Ale potrebujem originál. Niečo, čo človek drží v ruke. Alebo niekoho, kto povie: „Bol som tam. To som ja.“
+
+🐰 A keď budeme mať originál?
+
+📝 Tak máte päť minút. O hodinu idem na hrad.
+
+## Scéna Bratislava — Šofér
+
+💬 Pred budovou stojí čierne auto. Zadné okno je otvorené na desať centimetrov, kvôli teplu. Na sedadle leží zelený zápisník.
+
+🐰 To je on.
+
+🐻 Ja tam ruku nestrčím. Ani prst.
+
+🐹 Ja áno. Ale je tam šofér.
+
+💬 Šofér sa opiera o dvere. Pozerá do mobilu.
+
+🦊 To vybavím ja.
+
+💬 Gab vytiahne plán mesta. Rozloží ho celý. Drží ho naopak.
+
+🦊 Dobrý deň, pane! Prepáčte! Som Francúz. Hľadám hrad.
+
+🧑 Hrad? Je tam hore. Odtiaľto ho vidno.
+
+🦊 Hore vpravo?
+
+🧑 Vľavo.
+
+🦊 Toto vľavo?
+
+🧑 Je len jedno vľavo.
+
+🦊 So mnou ich je viac. Môžete mi to ukázať na pláne? Nie, poďte, tu je príliš veľa slnka. Tadiaľto. Ešte kúsok.
+
+💬 Šofér s ním urobí desať krokov. Za nimi vojde oknom malá Katkina labka.
+
+🧑 Ten plán máte naopak.
+
+🦊 Á! Preto. Celý týždeň sa všade strácam. Ďakujem, pane. Ďakujem veľa… nie. Veľmi. Ďakujem veľmi pekne.
+
+🧑 … Nemáte za čo.
+
+## Scéna Bratislava — Električka
+
+💬 Bežia. Za nimi buchnú dvere.
+
+🕴️ Andrea! Počkaj! Môžeme sa porozprávať!
+
+🐹 Električka! Deviatka! Ide pod hrad!
+
+💬 Naskočia dnu. Dvere sa zatvárajú. Skoro. Ruka v obleku ich znova otvorí.
+
+🕴️ No vidíte. Sediačky sa lepšie rozpráva, nie?
+
+💬 Usmieva sa. Je zadýchaný. Električka sa pohne.
+
+🐹 Kúpila som štyri lístky v mobile. Kým sme bežali.
+
+🐻 Počas behu?
+
+🐹 Mám optiku v krvi.
+
+## Scéna Bratislava — Revízor
+
+💬 Vzadu v električke vstane muž v uniforme.
+
+🧑 Kontrola cestovných lístkov, prosím.
+
+💬 Katka ukáže mobil. Štyri lístky. Revízor prikývne a otočí sa k obleku.
+
+🧑 Pane?
+
+🕴️ Som hovorca skupiny Zelená vlna.
+
+🧑 Teší ma. Ja som revízor na deviatke. Váš lístok.
+
+🕴️ Nestihol som. Nastúpil som v behu. Je to súrne.
+
+🧑 Treba mať lístok a treba si ho označiť. Žltý označovač.
+
+🦊 Tam je. Aj mne to vysvetlili.
+
+🧑 Na ďalšej zastávke vystúpite so mnou, pane. Pokutu zaplatíte pri okienku.
+
+💬 Na ďalšej zastávke vystúpia dvaja. Cez okno sa Gab pozerá na pána na chodníku.
+
+🦊 Andrea. Pozri.
+
+🐰 Čo?
+
+🦊 Už sa neusmieva.
+
+## Scéna Bratislava — Zápisník
+
+💬 Električka ide pod hrad. Andrea drží na kolenách zelený zápisník. Neotvára ho.
+
+🦊 Otvor.
+
+🐰 A čo ak vytrhli strany?
+
+🦊 Otvor.
+
+💬 Otvorí. Všetko tam je. Dva roky čísel, modrým atramentom, jeden riadok za týždeň.
+
+🐰 Všetko tam je.
+
+🐹 Je tam nalepený papierik. To nie je tvoje písmo.
+
+💬 Na prvej strane je malý žltý papierik. Tri riadky, napísané na stroji.
+
+🐰 „Technický útvar. Merania overené. Čísla správne. Nezverejňovať.“
+
+💬 V električke je ticho.
+
+🐻 Vedeli to.
+
+🐰 Už rok. Overili to. Mala som pravdu, a oni to napísali.
+
+🦊 Na žltý papierik.
+
+🦦 Dieťa moje, to je najkrajší kompliment, aký môže inžinier urobiť. Nechaj si ho.
+
+💬 Hore na kopci sa ukáže hrad. Biely, so štyrmi vežami.
+
+🦊 Päť minút, povedala.
+
+🐰 Uvidíme.
+
+# Kapitola 12 — Päť minút
+
+## Scéna Hrad — Tréma
+
+💬 Terasa hradu. Reflektory, káble, zlaté stoličky. Dole Dunaj.
+
+🧑 Nehýbte sa. Lesknete sa.
+
+🐹 Ja sa nelesknem. Ja žiarim.
+
+🧑 Žiarite príliš. Zatvorte oči.
+
+💬 Gab je v kúte. Je celý biely, ako hore na rebríkoch.
+
+🦊 Mám motýle v bruchu.
+
+🐰 Dýchaj.
+
+🦊 To si mi už povedala. V električke.
+
+🐰 A pomohlo to?
+
+🦊 Nie.
+
+🐰 Tak dýchaj lepšie.
+
+🦊 A ty? Nemáš trému?
+
+🐰 Mám. Veľkú.
+
+🦊 Nevidno to.
+
+🐰 Mám trému vnútri.
+
+## Scéna Hrad — Cena
+
+💬 Sedem hodín. Rozsvietia sa svetlá. Moderátorka sa usmeje do kamery.
+
+🎙️ Dobrý večer. Naživo z Bratislavského hradu: zelená firma roka. A cenu získava skupina Zelená vlna.
+
+💬 Potlesk. Na pódium vystúpi elegantná pani. Zoberie trofej: sklenenú kvapku vody.
+
+👩‍💼 Ďakujem. Naše tajomstvo je jednoduché. Nič sme nevymysleli. Iba sme počúvali prírodu.
+
+👩‍💼 Naše servery chladí vzduch z Tatier. Uzavretý okruh. Nula litrov vody.
+
+🎙️ Nula litrov. To je pozoruhodné. Skôr ako sa rozlúčime, máme dnes večer trochu zvláštnych hostí.
+
+🎙️ Prišli z dediny tesne nad vašou budovou. Majú päť minút.
+
+💬 Riaditeľka sa stále usmieva. Ale očami niekoho hľadá v publiku. Jedna stolička je prázdna.
+
+## Scéna Hrad — Dôkazy
+
+🦊 Dobrý večer. Volám sa Gab. Som Francúz.
+
+👩‍💼 Tento mladý muž je turista. Našej reči dobre nerozumie.
+
+🦊 Rozumiem. A veľa hovorím. Ale dnes večer hovorím pomaly.
+
+💬 Vytiahne z vrecka lístok z električky.
+
+🦊 V utorok som v Košiciach čítal vaše povolenie. Odpísal som jeden riadok. „Spotreba vody: nula litrov.“
+
+🐰 V stredu. Register z parku. Za tridsaťjeden rokov náš prameň nikdy nevyschol. Ani v najsuchších letách. Vyschol leto po vašom príchode.
+
+🐰 V stredu večer. Fotka. Výkop, od mokrade až po vašu budovu. „Na optiku.“
+
+🐹 Vo štvrtok. Váš web. Štyridsaťdva centimetrov vody v našom potoku. Sedela som v ňom. Bola som suchá.
+
+🐹 A je to ten istý týždeň čísel, kopírovaný celý rok. V piatok ste všetko zmenili. Mám screenshoty zo štvrtka.
+
+🐹 Vo štvrtok večer. Video. Vlažná voda, ktorá tečie z vašej steny, a para na vašej streche.
+
+🐻 V piatok. Dodací list. Štyri čerpadlá. Dvesto litrov za sekundu. Niesol som ho sám. Ten list, nie čerpadlá.
+
+🦊 V piatok poobede. Váš merač. Stoosemdesiat litrov za sekundu. Nula sa takto nepíše.
+
+🦦 A toto. Tridsať rokov meraní tohto potoka, z môjho úradu. Pred vašimi senzormi. Všetko si môžete overiť, je to písané rukou.
+
+💬 Andrea vystúpi posledná. Položí zelený zápisník vedľa trofeje.
+
+🐰 A môj zápisník. Dva roky meraní. Minulý rok som ho požičala vašej firme. Dnes je v ňom papierik. Mám ho prečítať? „Technický útvar. Čísla správne. Nezverejňovať.“
+
+## Scéna Hrad — Ja
+
+💬 Na terase počuť Dunaj.
+
+🎙️ Pani riaditeľka?
+
+👩‍💼 To je veľmi dojímavé. Detské kresby. Školský zápisník. Pani, ktorá už u nás nepracuje.
+
+🦦 Nikdy som u vás nepracovala, pani. Pracovala som pre potok.
+
+👩‍💼 Chcem, aby ste mi odpovedali na jednu otázku. Kto v mojej firme hovorí niečo také? Kto? Nikto.
+
+💬 V treťom rade zavŕzga stolička. Vstane jazvec v modrej veste. Vedľa neho štyri malé jazvece v bielych košeliach.
+
+🦡 Ja.
+
+💬 Riaditeľka sa už neusmieva.
+
+🦡 Volám sa Marek. Som technik v Zelenej vlne od prvého dňa. Uzavretý okruh funguje do dvadsaťpäť stupňov. Nad tým pumpujeme. Už dva roky.
+
+🎙️ A čísla na webe?
+
+🦡 To je program. Dvanásť riadkov. Napísal som ho ja. Môžem ich ukázať. Viem ich naspamäť. Každý večer si ich čítam.
+
+💬 Najmenší zo štyroch jazvecov ho potiahne za rukáv.
+
+🦡 Áno. Ocko skončil.
+
+## Scéna Hrad — Potok
+
+🎙️ Pani riaditeľka. Odpoveď?
+
+💬 Riaditeľka sa pozerá na sklenenú kvapku v ruke. Položí ju.
+
+👩‍💼 Budeme… to overovať.
+
+🎙️ Posledná otázka pre našich hostí. Chcete, aby sme túto budovu zatvorili?
+
+💬 Katka strčí do Maťa. Maťo vytiahne papier preložený na štyri. Pred kamerou je veľmi veľký. Jeho hlas je celkom malý.
+
+🐻 Nie. Nechceme zatvoriť budovu. Chceme znova otvoriť potok.
+
+💬 Niekto zatlieska. Potom všetci.
+
+💬 Deväť hodín. Kamery sú vypnuté. Katke neprestáva zvoniť mobil.
+
+🐹 Počúvajte. „Zelená vlna dnes večer vypína čerpadlá. Kontrola začína v pondelok.“ A písal aj starosta. Vraj vždy mal pochybnosti.
+
+🐻 Starosta.
+
+🐹 Neodpisujem.
+
+🦊 A potok? Zajtra potečie?
+
+🦦 Nie. Prameň sa vracia pomaly. Mesiace. Možno budúce leto.
+
+🦡 A ja možno v pondelok nebudem mať prácu.
+
+🦦 Viete čítať merač a písať programy. A teraz celá krajina vie, že hovoríte pravdu. Ja musím znova otvoriť stanicu. Potrebujem niekoho.
+
+💬 Mobil zazvoní znova.
+
+🐑 Katka! Videla som vás! Maťo, čítal si veľmi pekne. Andrea, bola si krásna. Gab, si chudý. Jedz!
+
+🦊 Áno, babka.
+
+🐑 A budova? Zostane?
+
+🐹 Zostane.
+
+🐑 Dobre. Tak to idem povedať susedovi. Od štvrtka nespal.
+
+## Scéna Hrad — Terasa
+
+💬 Neskôr. Terasa je prázdna. Dole svieti mesto a Dunaj tečie, pomalý a čierny.
+
+🦊 Zajtra o desiatej.
+
+🐰 Viem.
+
+🦊 Budúce leto bude potok tiecť.
+
+🐰 Možno.
+
+🦊 Chcem doň znova spadnúť. Štvrtýkrát.
+
+🐰 Budem počítať.
+
+🦊 Vrátim sa. Sľubujem.
+
+🐰 Nesľubuj. Nevieš to.
+
+🦊 Tak čo?
+
+🐰 Teraz si tu.
+
+🦊 A potom?
+
+💬 Otvorí ústa. On je rýchlejší.
+
+🦊 Uvidíme.
+
+🐰 To je moja veta.
+
+🦊 Viem. Vrátim ti ju budúce leto.
+
+# Epilóg — Jabloň
+
+## Scéna Sen — Ráno
+
+💬 Košice. Ráno. Pod jabloňou je už teplo.
+
+🦊 Marek! Zápisník! Päť minút!
+
+🐰 Vstávaj. Je sedem hodín.
+
+💬 Gab otvorí oči. Listy. Zelené jablká. Andrea s pohárom vody, plným do polovice.
+
+🦊 Kde sme?
+
+🐰 V záhrade mojej tety.
+
+🦊 A hrad?
+
+🐰 Aký hrad?
+
+🦊 Aký je dnes deň?
+
+🐰 Utorok. Prišiel si včera. Kto je Marek?
+
+## Scéna Sen — Snívalo sa mi
+
+🦊 Snívalo sa mi niečo. Veľmi dlhé. Celý týždeň.
+
+🐰 Za jednu noc?
+
+🐰 A o čom?
+
+🦊 O potoku. Náš potok bol suchý. Mala si zelený zápisník.
+
+🦊 Bol tam pán, ktorý sa stále usmieval, orol s registrom, nahnevaný bobor, jazvec so štyrmi deťmi. A vydra v čižmách.
+
+💬 Andrea sa nehýbe.
+
+## Scéna Sen — Mám pocit
+
+🦊 Mám pocit, že som bol preč celý týždeň.
+
+🦊 Boli sme v televízii. Maťo prečítal jednu vetu. Všetci tlieskali.
+
+🐰 A v tvojom sne… prečo som bola v električke?
+
+🦊 Čakala si na mňa. Knihu si mala naopak.
+
+💬 Neodpovie. Dlho sa pozerá na jabloň.
+
+🦊 Andrea? Bol to len sen.
+
+## Scéna Sen — Lístok
+
+💬 Gab dá ruku do vrecka. Vytiahne lístok z električky, ten včerajší.
+
+🦊 Na. Niečo som napísal na zadnú stranu.
+
+🐰 Čo?
+
+🦊 „0 litrov?“
+
+🐰 Prečo si to napísal?
+
+🦊 Ja som to nenapísal.
+
+🐰 Je to tvoje písmo.
+
+🦊 Viem, že je to moje písmo.
+
+💬 Pozerajú sa na lístok obaja.
+
+## Scéna Sen — Otázka
+
+🐰 Gab. V tej električke som nebola náhodou.
+
+🦊 …
+
+🐰 Musím ti niečo ukázať.
+
+💬 Vytiahne mobil. Na obrazovke biele kamene, starý most a žiadna voda.
+
+🦊 Počkaj.
+
+🐰 Čo?
+
+🦊 V mojom sne si sa bála, že poviem nie. Tak sa ma spýtaj.
+
+💬 Andrea sa naňho pozerá. Nerozumie. Potom trochu rozumie.
+
+🐰 Pomôžeš mi?
+
+🦊 Nie.
+
+🐰 …
+
+🦊 Robím si srandu. Áno.
+
+## Scéna Sen — Uvidíme
+
+🐰 Si hlúpy.
+
+🦊 Veľmi hlúpy. Nie veľa hlúpy.
+
+💬 Andrea zvraští čelo.
+
+🐰 Ako to vieš? To som ťa ešte nenaučila.
+
+💬 Gab otvorí ústa. Zatvorí ich.
+
+🦊 Uvidíme.
+
+💬 Pod jabloňou je ticho. Niekde ďaleko, za horami, čaká malý potok.
+
+💬 Koniec. Alebo začiatok?

@@ -1,0 +1,261 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-povolenie",
+      "type": "qcm",
+      "l1": "le permis",
+      "l2": "povolenie",
+      "choices_l1": [
+        "la direction",
+        "assécher",
+        "pour ça"
+      ],
+      "choices_l2": [
+        "vysušiť",
+        "keby",
+        "smer"
+      ]
+    },
+    {
+      "id": "qcm-rovnak",
+      "type": "qcm",
+      "l1": "le même",
+      "l2": "rovnaký",
+      "choices_l1": [
+        "la direction",
+        "assécher",
+        "pour ça"
+      ],
+      "choices_l2": [
+        "vysušiť",
+        "keby",
+        "položia"
+      ]
+    },
+    {
+      "id": "qcm-smer",
+      "type": "qcm",
+      "l1": "la direction",
+      "l2": "smer",
+      "choices_l1": [
+        "le permis",
+        "vous répondriez",
+        "assécher"
+      ],
+      "choices_l2": [
+        "položia",
+        "rovnaký",
+        "nemôže"
+      ]
+    },
+    {
+      "id": "qcm-polo-ia",
+      "type": "qcm",
+      "l1": "ils posent",
+      "l2": "položia",
+      "choices_l1": [
+        "assécher",
+        "le permis",
+        "le même"
+      ],
+      "choices_l2": [
+        "keby",
+        "povolenie",
+        "rovnaký"
+      ]
+    },
+    {
+      "id": "qcm-nem-e",
+      "type": "qcm",
+      "l1": "il ne peut pas",
+      "l2": "nemôže",
+      "choices_l1": [
+        "Qu'est-ce que c'est ?",
+        "Ne regarde pas !",
+        "Je pense que c'est la sécheresse."
+      ],
+      "choices_l2": [
+        "povolenie",
+        "na to",
+        "by"
+      ]
+    },
+    {
+      "id": "qcm-vysu-i",
+      "type": "qcm",
+      "l1": "assécher",
+      "l2": "vysušiť",
+      "choices_l1": [
+        "le même",
+        "ils posent",
+        "vous répondriez"
+      ],
+      "choices_l2": [
+        "na to",
+        "by",
+        "povolenie"
+      ]
+    },
+    {
+      "id": "listen-to-nie-je-dôkaz",
+      "type": "listen",
+      "l1": "Ce n'est pas une preuve.",
+      "l2": "To nie je dôkaz.",
+      "choices_l1": [
+        "C'est une preuve.",
+        "Ce n'est pas un problème.",
+        "Ce n'est pas un lac."
+      ]
+    },
+    {
+      "id": "listen-sedem",
+      "type": "listen",
+      "l1": "Sept !",
+      "l2": "Sedem!",
+      "choices_l1": [
+        "Six !",
+        "Huit !",
+        "Deux !"
+      ]
+    },
+    {
+      "id": "listen-tak-čo",
+      "type": "listen",
+      "l1": "Alors ?",
+      "l2": "Tak čo?",
+      "choices_l1": [
+        "Pourquoi ?",
+        "Et alors, non ?",
+        "Où ?"
+      ]
+    },
+    {
+      "id": "blank-čo-by-si-robil",
+      "type": "fill-blank",
+      "l1": "Qu'est-ce que tu ferais ?",
+      "l2": "Čo by si robil?",
+      "missing_l1": "ferais",
+      "missing_l2": "robil",
+      "blank_index_l1": 3,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "dirais",
+        "mangerais",
+        "voudrais"
+      ],
+      "choices_l2": [
+        "povedal",
+        "jedol",
+        "chcel"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-keby-som-vedel-povedal-by-som",
+      "type": "fill-blank",
+      "l1": "Si je savais, je te le dirais.",
+      "l2": "Keby som vedel, povedal by som ti to.",
+      "missing_l1": "savais",
+      "missing_l2": "vedel",
+      "blank_index_l1": 2,
+      "blank_index_l2": 2,
+      "choices_l1": [
+        "voulais",
+        "pouvais",
+        "mangeais"
+      ],
+      "choices_l2": [
+        "chcel",
+        "mohol",
+        "jedol"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-vydra-sa-dlho-pozerá-nič-nehovorí",
+      "type": "order",
+      "l1": "La loutre regarde longtemps. Elle ne dit rien.",
+      "l2": "Vydra sa dlho pozerá. Nič nehovorí.",
+      "tokens_l1": [
+        "La",
+        "loutre",
+        "regarde",
+        "longtemps.",
+        "Elle",
+        "ne",
+        "dit",
+        "rien.",
+        "Venez.",
+        "Ces",
+        "lacs",
+        "ont",
+        "été",
+        "construits",
+        "pour",
+        "ça."
+      ],
+      "tokens_l2": [
+        "Vydra",
+        "sa",
+        "dlho",
+        "pozerá.",
+        "Nič",
+        "nehovorí.",
+        "Poďte.",
+        "Tieto",
+        "jazerá",
+        "postavili",
+        "práve",
+        "na",
+        "to."
+      ]
+    },
+    {
+      "id": "order-nikto-neodpovie",
+      "type": "order",
+      "l1": "Personne ne répond.",
+      "l2": "Nikto neodpovie.",
+      "tokens_l1": [
+        "Personne",
+        "ne",
+        "répond.",
+        "La",
+        "loutre",
+        "regarde",
+        "longtemps.",
+        "Elle",
+        "ne",
+        "dit",
+        "rien."
+      ],
+      "tokens_l2": [
+        "Nikto",
+        "neodpovie.",
+        "Vydra",
+        "sa",
+        "dlho",
+        "pozerá.",
+        "Nič",
+        "nehovorí."
+      ]
+    },
+    {
+      "id": "match-povolenie-vocab",
+      "type": "match",
+      "l1": [
+        "le permis",
+        "le même",
+        "la direction",
+        "ils posent"
+      ],
+      "l2": [
+        "povolenie",
+        "rovnaký",
+        "smer",
+        "položia"
+      ]
+    }
+  ]
+}

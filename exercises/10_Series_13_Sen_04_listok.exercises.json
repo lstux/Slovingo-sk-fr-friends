@@ -1,0 +1,243 @@
+{
+ "mode": "replace",
+ "sync": "full",
+ "exercises": [
+  {
+   "id": "qcm-na",
+   "type": "qcm",
+   "l1": "Tiens !",
+   "l2": "Na!",
+   "choices_l1": [
+    "bizarre",
+    "d'hier",
+    "j'ai écrit"
+   ],
+   "choices_l2": [
+    "číslica",
+    "včerajší",
+    "divné"
+   ]
+  },
+  {
+   "id": "qcm-v-eraj",
+   "type": "qcm",
+   "l1": "d'hier",
+   "l2": "včerajší",
+   "choices_l1": [
+    "le chiffre",
+    "j'ai écrit",
+    "bizarre"
+   ],
+   "choices_l2": [
+    "nenapísal som",
+    "Na!",
+    "divné"
+   ]
+  },
+  {
+   "id": "qcm-nap-sal-som",
+   "type": "qcm",
+   "l1": "j'ai écrit",
+   "l2": "napísal som",
+   "choices_l1": [
+    "bizarre",
+    "Tiens !",
+    "d'hier"
+   ],
+   "choices_l2": [
+    "divné",
+    "otáznik",
+    "nenapísal som"
+   ]
+  },
+  {
+   "id": "qcm-nenap-sal-som",
+   "type": "qcm",
+   "l1": "je n'ai pas écrit",
+   "l2": "nenapísal som",
+   "choices_l1": [
+    "le point d'interrogation",
+    "tous les deux",
+    "je n'étais pas (une fille)"
+   ],
+   "choices_l2": [
+    "Na!",
+    "včerajší",
+    "divné"
+   ]
+  },
+  {
+   "id": "qcm-nespal-som",
+   "type": "qcm",
+   "l1": "je n'ai pas dormi",
+   "l2": "nespal som",
+   "choices_l1": [
+    "je n'ai pas écrit",
+    "tous les deux",
+    "je n'étais pas (une fille)"
+   ],
+   "choices_l2": [
+    "otáznik",
+    "včerajší",
+    "Na!"
+   ]
+  },
+  {
+   "id": "qcm-nebola-som",
+   "type": "qcm",
+   "l1": "je n'étais pas (une fille)",
+   "l2": "nebola som",
+   "choices_l1": [
+    "je n'ai pas dormi",
+    "tous les deux",
+    "je n'ai pas écrit"
+   ],
+   "choices_l2": [
+    "obaja",
+    "včerajší",
+    "divné"
+   ]
+  },
+  {
+   "id": "listen-prečo-si-to-napísal",
+   "type": "listen",
+   "l1": "Pourquoi tu as écrit ça ?",
+   "l2": "Prečo si to napísal?",
+   "choices_l1": [
+    "Quand tu as écrit ça ?",
+    "Pourquoi tu as dit ça ?",
+    "Pourquoi tu n'as rien écrit ?"
+   ]
+  },
+  {
+   "id": "listen-ja-som-to-nenapísal",
+   "type": "listen",
+   "l1": "Je n'ai pas écrit ça.",
+   "l2": "Ja som to nenapísal.",
+   "choices_l1": [
+    "J'ai écrit ça.",
+    "Tu n'as pas écrit ça.",
+    "Je n'ai pas lu ça."
+   ]
+  },
+  {
+   "id": "listen-je-to-tvoje-písmo",
+   "type": "listen",
+   "l1": "C'est ton écriture.",
+   "l2": "Je to tvoje písmo.",
+   "choices_l1": [
+    "C'est mon écriture.",
+    "C'est ton ticket.",
+    "Ce n'est pas ton écriture."
+   ]
+  },
+  {
+   "id": "blank-nespal-som-celú-noc",
+   "type": "fill-blank",
+   "l1": "Je n'ai pas dormi de la nuit.",
+   "l2": "Nespal som celú noc.",
+   "missing_l1": "nuit",
+   "missing_l2": "noc",
+   "blank_index_l1": 6,
+   "blank_index_l2": 3,
+   "choices_l1": [
+    "semaine",
+    "journée",
+    "matinée"
+   ],
+   "choices_l2": [
+    "týždeň",
+    "deň",
+    "sobotu"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "blank-viem-že-je-to-moje-písmo",
+   "type": "fill-blank",
+   "l1": "Je sais que c'est mon écriture.",
+   "l2": "Viem, že je to moje písmo.",
+   "missing_l1": "écriture",
+   "missing_l2": "písmo",
+   "blank_index_l1": 5,
+   "blank_index_l2": 5,
+   "choices_l1": [
+    "ticket",
+    "carnet",
+    "nom"
+   ],
+   "choices_l2": [
+    "meno",
+    "číslo",
+    "auto"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "order-nenapísal-som-to",
+   "type": "order",
+   "l1": "Je ne l'ai pas écrit.",
+   "l2": "Nenapísal som to.",
+   "tokens_l1": [
+    "Je",
+    "ne",
+    "l'ai",
+    "pas",
+    "écrit.",
+    "Je",
+    "n'y",
+    "étais",
+    "pas."
+   ],
+   "tokens_l2": [
+    "Nenapísal",
+    "som",
+    "to.",
+    "Nebola",
+    "som",
+    "tam."
+   ]
+  },
+  {
+   "id": "order-nebola-som-tam",
+   "type": "order",
+   "l1": "Je n'y étais pas.",
+   "l2": "Nebola som tam.",
+   "tokens_l1": [
+    "Je",
+    "n'y",
+    "étais",
+    "pas.",
+    "Je",
+    "ne",
+    "l'ai",
+    "pas",
+    "écrit."
+   ],
+   "tokens_l2": [
+    "Nebola",
+    "som",
+    "tam.",
+    "Nenapísal",
+    "som",
+    "to."
+   ]
+  },
+  {
+   "id": "match-na-vocab",
+   "type": "match",
+   "l1": [
+    "Tiens !",
+    "d'hier",
+    "j'ai écrit",
+    "je n'ai pas écrit"
+   ],
+   "l2": [
+    "Na!",
+    "včerajší",
+    "napísal som",
+    "nenapísal som"
+   ]
+  }
+ ]
+}

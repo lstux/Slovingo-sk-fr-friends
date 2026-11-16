@@ -1,0 +1,257 @@
+{
+ "mode": "replace",
+ "sync": "full",
+ "exercises": [
+  {
+   "id": "qcm-kostol",
+   "type": "qcm",
+   "l1": "l'église",
+   "l2": "kostol",
+   "choices_l1": [
+    "la marche",
+    "autant de",
+    "la loutre"
+   ],
+   "choices_l2": [
+    "pekáreň",
+    "toľko",
+    "ideme hore"
+   ]
+  },
+  {
+   "id": "qcm-pek-re",
+   "type": "qcm",
+   "l1": "la boulangerie",
+   "l2": "pekáreň",
+   "choices_l1": [
+    "on monte",
+    "l'église",
+    "la marche"
+   ],
+   "choices_l2": [
+    "kostol",
+    "vydra",
+    "najvyšší"
+   ]
+  },
+  {
+   "id": "qcm-to-ko",
+   "type": "qcm",
+   "l1": "autant de",
+   "l2": "toľko",
+   "choices_l1": [
+    "l'église",
+    "la loutre",
+    "on monte"
+   ],
+   "choices_l2": [
+    "pekáreň",
+    "vydra",
+    "kostol"
+   ]
+  },
+  {
+   "id": "qcm-schod",
+   "type": "qcm",
+   "l1": "la marche",
+   "l2": "schod",
+   "choices_l1": [
+    "on monte",
+    "la loutre",
+    "l'église"
+   ],
+   "choices_l2": [
+    "pekáreň",
+    "vydra",
+    "pri vode"
+   ]
+  },
+  {
+   "id": "qcm-vydra",
+   "type": "qcm",
+   "l1": "la loutre",
+   "l2": "vydra",
+   "choices_l1": [
+    "le plus",
+    "on monte",
+    "l'église"
+   ],
+   "choices_l2": [
+    "ideme hore",
+    "kostol",
+    "pekáreň"
+   ]
+  },
+  {
+   "id": "qcm-ije",
+   "type": "qcm",
+   "l1": "il vit, elle vit",
+   "l2": "žije",
+   "choices_l1": [
+    "ils ont, elles ont",
+    "Andrea → Je vois Andrea.",
+    "sans fromage de brebis"
+   ],
+   "choices_l2": [
+    "ideme hore",
+    "toľko",
+    "vydra"
+   ]
+  },
+  {
+   "id": "listen-nikdy-som-nevidel-toľko-schodov",
+   "type": "listen",
+   "l1": "Je n'ai jamais vu autant de marches.",
+   "l2": "Nikdy som nevidel toľko schodov.",
+   "choices_l1": [
+    "J'ai déjà vu beaucoup de marches.",
+    "Je n'ai jamais vu autant de lacs.",
+    "Je n'ai jamais monté autant de marches."
+   ]
+  },
+  {
+   "id": "listen-lebo-tu-je-voda-hore",
+   "type": "listen",
+   "l1": "Parce qu'ici, l'eau est en haut.",
+   "l2": "Lebo tu je voda hore.",
+   "choices_l1": [
+    "Parce qu'ici, l'eau est en bas.",
+    "Parce qu'ici, il n'y a pas d'eau.",
+    "Parce que l'église est en haut."
+   ]
+  },
+  {
+   "id": "listen-táto-krajina-je-naopak",
+   "type": "listen",
+   "l1": "Ce pays est à l'envers.",
+   "l2": "Táto krajina je naopak.",
+   "choices_l1": [
+    "Ce pays est très beau.",
+    "Cette ville est à l'envers.",
+    "Ce livre est à l'envers."
+   ]
+  },
+  {
+   "id": "blank-bývam-hore-pri-kostole",
+   "type": "fill-blank",
+   "l1": "J'habite en haut, près de l'église.",
+   "l2": "Bývam hore, pri kostole.",
+   "missing_l1": "haut",
+   "missing_l2": "hore",
+   "blank_index_l1": 2,
+   "blank_index_l2": 1,
+   "choices_l1": [
+    "bas",
+    "face",
+    "ville"
+   ],
+   "choices_l2": [
+    "dole",
+    "vonku",
+    "doma"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "blank-kde-je-pekáreň",
+   "type": "fill-blank",
+   "l1": "Où est la boulangerie ?",
+   "l2": "Kde je pekáreň?",
+   "missing_l1": "boulangerie",
+   "missing_l2": "pekáreň",
+   "blank_index_l1": 3,
+   "blank_index_l2": 2,
+   "choices_l1": [
+    "église",
+    "gare",
+    "rivière"
+   ],
+   "choices_l2": [
+    "kostol",
+    "stanica",
+    "rieka"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "order-toto-je-najvyšší-kostol-v-meste",
+   "type": "order",
+   "l1": "C'est l'église la plus haute de la ville.",
+   "l2": "Toto je najvyšší kostol v meste.",
+   "tokens_l1": [
+    "C'est",
+    "l'église",
+    "la",
+    "plus",
+    "haute",
+    "de",
+    "la",
+    "ville.",
+    "Où",
+    "est",
+    "la",
+    "boulangerie",
+    "?"
+   ],
+   "tokens_l2": [
+    "Toto",
+    "je",
+    "najvyšší",
+    "kostol",
+    "v",
+    "meste.",
+    "Kde",
+    "je",
+    "pekáreň?"
+   ]
+  },
+  {
+   "id": "order-kde-je-pekáreň",
+   "type": "order",
+   "l1": "Où est la boulangerie ?",
+   "l2": "Kde je pekáreň?",
+   "tokens_l1": [
+    "Où",
+    "est",
+    "la",
+    "boulangerie",
+    "?",
+    "C'est",
+    "l'église",
+    "la",
+    "plus",
+    "haute",
+    "de",
+    "la",
+    "ville."
+   ],
+   "tokens_l2": [
+    "Kde",
+    "je",
+    "pekáreň?",
+    "Toto",
+    "je",
+    "najvyšší",
+    "kostol",
+    "v",
+    "meste."
+   ]
+  },
+  {
+   "id": "match-kostol-vocab",
+   "type": "match",
+   "l1": [
+    "l'église",
+    "la boulangerie",
+    "autant de",
+    "la marche"
+   ],
+   "l2": [
+    "kostol",
+    "pekáreň",
+    "toľko",
+    "schod"
+   ]
+  }
+ ]
+}

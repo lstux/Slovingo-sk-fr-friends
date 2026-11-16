@@ -1,0 +1,269 @@
+{
+ "mode": "replace",
+ "sync": "full",
+ "exercises": [
+  {
+   "id": "qcm-rev-zor",
+   "type": "qcm",
+   "l1": "le contrôleur",
+   "l2": "revízor",
+   "choices_l1": [
+    "Enchanté.",
+    "le trottoir",
+    "l'amende"
+   ],
+   "choices_l2": [
+    "kontrola",
+    "skupina",
+    "cestovný lístok"
+   ]
+  },
+  {
+   "id": "qcm-kontrola",
+   "type": "qcm",
+   "l1": "le contrôle",
+   "l2": "kontrola",
+   "choices_l1": [
+    "le porte-parole",
+    "le groupe",
+    "urgent"
+   ],
+   "choices_l2": [
+    "nestihol som",
+    "cestovný lístok",
+    "chodník"
+   ]
+  },
+  {
+   "id": "qcm-cestovn-l-stok",
+   "type": "qcm",
+   "l1": "le titre de transport",
+   "l2": "cestovný lístok",
+   "choices_l1": [
+    "j'aimerais (une femme)",
+    "Il n'y a pas d'eau.",
+    "à la maison"
+   ],
+   "choices_l2": [
+    "súrne",
+    "revízor",
+    "nestihol som"
+   ]
+  },
+  {
+   "id": "qcm-hovorca",
+   "type": "qcm",
+   "l1": "le porte-parole",
+   "l2": "hovorca",
+   "choices_l1": [
+    "le contrôle",
+    "Enchanté.",
+    "le contrôleur"
+   ],
+   "choices_l2": [
+    "cestovný lístok",
+    "Teší ma.",
+    "súrne"
+   ]
+  },
+  {
+   "id": "qcm-skupina",
+   "type": "qcm",
+   "l1": "le groupe",
+   "l2": "skupina",
+   "choices_l1": [
+    "urgent",
+    "l'amende",
+    "le porte-parole"
+   ],
+   "choices_l2": [
+    "kontrola",
+    "hovorca",
+    "súrne"
+   ]
+  },
+  {
+   "id": "qcm-te-ma",
+   "type": "qcm",
+   "l1": "Enchanté.",
+   "l2": "Teší ma.",
+   "choices_l1": [
+    "l'amende",
+    "urgent",
+    "le contrôleur"
+   ],
+   "choices_l2": [
+    "hovorca",
+    "nestihol som",
+    "pokuta"
+   ]
+  },
+  {
+   "id": "listen-kontrola-cestovných-lístkov-prosím",
+   "type": "listen",
+   "l1": "Contrôle des tickets, s'il vous plaît.",
+   "l2": "Kontrola cestovných lístkov, prosím.",
+   "choices_l1": [
+    "Vos papiers, s'il vous plaît.",
+    "Descendez, s'il vous plaît.",
+    "Tickets en vente, s'il vous plaît."
+   ]
+  },
+  {
+   "id": "listen-pane",
+   "type": "listen",
+   "l1": "Monsieur ?",
+   "l2": "Pane?",
+   "choices_l1": [
+    "Madame ?",
+    "Oui ?",
+    "Pardon ?"
+   ]
+  },
+  {
+   "id": "listen-už-sa-neusmieva",
+   "type": "listen",
+   "l1": "Il ne sourit plus.",
+   "l2": "Už sa neusmieva.",
+   "choices_l1": [
+    "Il sourit encore.",
+    "Elle ne sourit plus.",
+    "Il ne parle plus."
+   ]
+  },
+  {
+   "id": "blank-nestihol-som-nastúpil-som-v-behu",
+   "type": "fill-blank",
+   "l1": "Je n'ai pas eu le temps. Je suis monté en courant. C'est une urgence.",
+   "l2": "Nestihol som. Nastúpil som v behu. Je to súrne.",
+   "missing_l1": "urgence",
+   "missing_l2": "súrne",
+   "blank_index_l1": 13,
+   "blank_index_l2": 8,
+   "choices_l1": [
+    "blague",
+    "erreur",
+    "surprise"
+   ],
+   "choices_l2": [
+    "dôležité",
+    "ťažké",
+    "jednoduché"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "blank-andrea-pozri",
+   "type": "fill-blank",
+   "l1": "Andrea. Regarde.",
+   "l2": "Andrea. Pozri.",
+   "missing_l1": "Regarde",
+   "missing_l2": "Pozri",
+   "blank_index_l1": 1,
+   "blank_index_l2": 1,
+   "choices_l1": [
+    "Écoute",
+    "Attends",
+    "Viens"
+   ],
+   "choices_l2": [
+    "Počúvaj",
+    "Počkaj",
+    "Poď"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "order-tam-je-aj-mne-to-vysvetlili",
+   "type": "order",
+   "l1": "Elle est là. Moi aussi, on me l'a expliqué.",
+   "l2": "Tam je. Aj mne to vysvetlili.",
+   "tokens_l1": [
+    "Elle",
+    "est",
+    "là.",
+    "Moi",
+    "aussi,",
+    "on",
+    "me",
+    "l'a",
+    "expliqué.",
+    "Je",
+    "suis",
+    "le",
+    "porte-parole",
+    "du",
+    "groupe",
+    "Zelená",
+    "vlna."
+   ],
+   "tokens_l2": [
+    "Tam",
+    "je.",
+    "Aj",
+    "mne",
+    "to",
+    "vysvetlili.",
+    "Som",
+    "hovorca",
+    "skupiny",
+    "Zelená",
+    "vlna."
+   ]
+  },
+  {
+   "id": "order-som-hovorca-skupiny-zelená-vlna",
+   "type": "order",
+   "l1": "Je suis le porte-parole du groupe Zelená vlna.",
+   "l2": "Som hovorca skupiny Zelená vlna.",
+   "tokens_l1": [
+    "Je",
+    "suis",
+    "le",
+    "porte-parole",
+    "du",
+    "groupe",
+    "Zelená",
+    "vlna.",
+    "Elle",
+    "est",
+    "là.",
+    "Moi",
+    "aussi,",
+    "on",
+    "me",
+    "l'a",
+    "expliqué."
+   ],
+   "tokens_l2": [
+    "Som",
+    "hovorca",
+    "skupiny",
+    "Zelená",
+    "vlna.",
+    "Tam",
+    "je.",
+    "Aj",
+    "mne",
+    "to",
+    "vysvetlili."
+   ]
+  },
+  {
+   "id": "match-revízor-vocab",
+   "type": "match",
+   "l1": [
+    "le contrôleur",
+    "le contrôle",
+    "le titre de transport",
+    "le porte-parole"
+   ],
+   "l2": [
+    "revízor",
+    "kontrola",
+    "cestovný lístok",
+    "hovorca"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,251 @@
+{
+ "mode": "replace",
+ "sync": "full",
+ "exercises": [
+  {
+   "id": "qcm-stud-a",
+   "type": "qcm",
+   "l1": "le puits",
+   "l2": "studňa",
+   "choices_l1": [
+    "l'adulte",
+    "profond",
+    "sinon"
+   ],
+   "choices_l2": [
+    "Premýšľajte.",
+    "štúdium",
+    "vyriešiť"
+   ]
+  },
+  {
+   "id": "qcm-hlbok",
+   "type": "qcm",
+   "l1": "profond",
+   "l2": "hlboký",
+   "choices_l1": [
+    "régler, résoudre",
+    "le travail",
+    "le puits"
+   ],
+   "choices_l2": [
+    "vyriešiť",
+    "inak",
+    "Premýšľajte."
+   ]
+  },
+  {
+   "id": "qcm-tipendium",
+   "type": "qcm",
+   "l1": "la bourse",
+   "l2": "štipendium",
+   "choices_l1": [
+    "vous devriez",
+    "sinon",
+    "les études"
+   ],
+   "choices_l2": [
+    "práca",
+    "inak",
+    "vyriešiť"
+   ]
+  },
+  {
+   "id": "qcm-t-dium",
+   "type": "qcm",
+   "l1": "les études",
+   "l2": "štúdium",
+   "choices_l1": [
+    "le puits",
+    "vous devriez",
+    "Réfléchissez."
+   ],
+   "choices_l2": [
+    "štipendium",
+    "hlboký",
+    "Premýšľajte."
+   ]
+  },
+  {
+   "id": "qcm-mali-by-ste",
+   "type": "qcm",
+   "l1": "vous devriez",
+   "l2": "mali by ste",
+   "choices_l1": [
+    "sinon",
+    "la bourse",
+    "le puits"
+   ],
+   "choices_l2": [
+    "Počúvaj! → Počúvajte!",
+    "Som doma, lebo prší.",
+    "znamená to, že"
+   ]
+  },
+  {
+   "id": "qcm-vyrie-i",
+   "type": "qcm",
+   "l1": "régler, résoudre",
+   "l2": "vyriešiť",
+   "choices_l1": [
+    "profond",
+    "l'adulte",
+    "vous devriez"
+   ],
+   "choices_l2": [
+    "práca",
+    "štipendium",
+    "štúdium"
+   ]
+  },
+  {
+   "id": "listen-studňa",
+   "type": "listen",
+   "l1": "Un puits…",
+   "l2": "Studňa…",
+   "choices_l1": [
+    "Une source…",
+    "Un lac…",
+    "Une bourse…"
+   ]
+  },
+  {
+   "id": "listen-a-za-to",
+   "type": "listen",
+   "l1": "Et en échange ?",
+   "l2": "A za to?",
+   "choices_l1": [
+    "Et pourquoi ?",
+    "Et après ?",
+    "Et quand ?"
+   ]
+  },
+  {
+   "id": "listen-inak",
+   "type": "listen",
+   "l1": "Sinon ?",
+   "l2": "Inak?",
+   "choices_l1": [
+    "Alors ?",
+    "Pourquoi ?",
+    "Comment ?"
+   ]
+  },
+  {
+   "id": "blank-mal-by-si-ísť-domov",
+   "type": "fill-blank",
+   "l1": "Tu devrais rentrer.",
+   "l2": "Mal by si ísť domov.",
+   "missing_l1": "rentrer",
+   "missing_l2": "domov",
+   "blank_index_l1": 2,
+   "blank_index_l2": 4,
+   "choices_l1": [
+    "manger",
+    "dormir",
+    "partir"
+   ],
+   "choices_l2": [
+    "von",
+    "spať",
+    "preč"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "blank-studňa-je-veľmi-hlboká",
+   "type": "fill-blank",
+   "l1": "Le puits est très profond.",
+   "l2": "Studňa je veľmi hlboká.",
+   "missing_l1": "profond",
+   "missing_l2": "hlboká",
+   "blank_index_l1": 4,
+   "blank_index_l2": 3,
+   "choices_l1": [
+    "vieux",
+    "petit",
+    "sec"
+   ],
+   "choices_l2": [
+    "stará",
+    "malá",
+    "suchá"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "order-vstane-papiere-nechá-na-stolíku",
+   "type": "order",
+   "l1": "Il se lève. Il laisse les papiers.",
+   "l2": "Vstane. Papiere nechá na stolíku.",
+   "tokens_l1": [
+    "Il",
+    "se",
+    "lève.",
+    "Il",
+    "laisse",
+    "les",
+    "papiers.",
+    "Vous",
+    "devriez",
+    "réfléchir."
+   ],
+   "tokens_l2": [
+    "Vstane.",
+    "Papiere",
+    "nechá",
+    "na",
+    "stolíku.",
+    "Mali",
+    "by",
+    "ste",
+    "premýšľať."
+   ]
+  },
+  {
+   "id": "order-mali-by-ste-premýšľať",
+   "type": "order",
+   "l1": "Vous devriez réfléchir.",
+   "l2": "Mali by ste premýšľať.",
+   "tokens_l1": [
+    "Vous",
+    "devriez",
+    "réfléchir.",
+    "Il",
+    "se",
+    "lève.",
+    "Il",
+    "laisse",
+    "les",
+    "papiers."
+   ],
+   "tokens_l2": [
+    "Mali",
+    "by",
+    "ste",
+    "premýšľať.",
+    "Vstane.",
+    "Papiere",
+    "nechá",
+    "na",
+    "stolíku."
+   ]
+  },
+  {
+   "id": "match-studňa-vocab",
+   "type": "match",
+   "l1": [
+    "le puits",
+    "profond",
+    "la bourse",
+    "les études"
+   ],
+   "l2": [
+    "studňa",
+    "hlboký",
+    "štipendium",
+    "štúdium"
+   ]
+  }
+ ]
+}

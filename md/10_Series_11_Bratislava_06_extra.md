@@ -1,8 +1,8 @@
-# Bratislava (extra) — Pred hradom
+# Bratislava (extra) — Zápisník
 
-@ img/illus_11_bratislava_2.jpg | Sur la terrasse du château, en fin d'après-midi : le téléphone de Katka est vide, et Maťo sort un papier de sa poche. Source : illustration générée avec ChatGPT
+@ img/bratislavsky-hrad.jpg | Le château de Bratislava, blanc avec ses quatre tours : il accueille vraiment des événements officiels. Source : Wikimedia Commons, Jakub Hałun, CC BY-SA 4.0
 
-{{fr:Fin d'après-midi, devant la porte du château. La vue sur le Danube est magnifique. Le téléphone de Katka est vide. Et Maťo sort un papier de sa poche.}}
+{{fr:Le tram monte vers le château. Andrea tient le carnet vert sur ses genoux. Elle ne l'ouvre pas. Elle a peur de ce qu'elle va trouver.}}
 
 ---
 
@@ -10,74 +10,83 @@
 
 | Slovenčina | Français |
 |------------|----------|
-| hlavná stanica | la gare centrale |
-| budovy | les immeubles, les bâtiments |
-| autá | les voitures |
-| ľudia | les gens |
-| Nezačínaj! | Ne commence pas ! |
-| opravujem | je corrige |
-| dva | deux (masculin) |
-| dve | deux (féminin et neutre) |
-| trénerka | l'entraîneuse, la coach |
-| raz | une fois |
-| nástupište | le quai |
-| okno | la fenêtre |
-| hlavné mesto | la capitale |
-| vystúpia | ils descendent |
-| uprostred | au milieu de |
-| pozdravuje vás | vous salue |
-| pozdraviť | saluer |
-| pozdravila som | j'ai salué |
-| odpovedala | elle a répondu |
-| Ešte nie. | Pas encore. |
-| veľké | grande (dit d'une ville) |
-| potrebuje čas | elle a besoin de temps |
-| Pozdravuj! | Salue-le, salue-la de ma part ! |
-| Dunaj | le Danube |
-| rieka | la rivière, le fleuve |
-| ukazuje cestu | montre le chemin |
-| Choďte! | Allez ! (on vous dit) |
-| električkou | en tram |
-| autobusom | en bus |
-| šedá | grise |
-| hrad | le château |
-| veže | les tours |
-| prevrátený | renversé |
-| stôl | la table |
-| hore nohami | à l'envers |
-| veža | la tour |
-| biela | blanche |
-| parlament | le parlement |
-| búdka | la guérite, la cabine |
-| vrátnik | le portier |
-| unavene | fatigué (l'air) |
-| dohodnutý termín | un rendez-vous |
+| televízia | la télévision |
+| stretnutie | le rendez-vous |
+| dohodnuté | convenu |
 | pozvánka | l'invitation |
-| akreditácia | l'accréditation |
-| ani jedno | ni l'un ni l'autre |
-| informácie | les informations |
-| len tak | comme ça |
-| náhoda | le hasard |
-| vchod | l'entrée |
-| východ | la sortie (et l'est) |
-| Teší ma! | Enchanté ! |
-| sklenené dvere | la porte vitrée |
-| vypočuje | écoutera |
-| redaktorka | la journaliste, la rédactrice |
-| Čo máte na srdci? | Qu'avez-vous sur le cœur ? |
-| krajina | le pays |
-| experti | les experts |
-| čísla | les chiffres |
-| záruka | la garantie |
-| vysielame | nous diffusons |
-| štúdio | le studio |
-| dohodnúť sa | se mettre d'accord |
-| terasa | la terrasse (nouveau) |
-| výhľad | la vue (nouveau) |
-| nádherný | magnifique (nouveau) |
-| krátke | court (nouveau) |
-| zaseknúť sa | se bloquer (nouveau) |
-| vtipné | drôle (nouveau) |
+| vrátnik | le portier |
+| mladý muž | jeune homme |
+| ďalej | plus loin |
+| nenesiem | je ne porte pas |
+| Zavolajte! | Appelez ! |
+| dve | deux (féminin) |
+| rozhlas | la radio |
+| vrátnica | la loge du portier |
+| relácia | l'émission |
+| redaktorka | la rédactrice |
+| pripravujem | je prépare |
+| hodinky | la montre |
+| dokonca | même |
+| falošný | faux |
+| na konci | à la fin |
+| originál | l'original |
+| drží | il tient |
+| o hodinu | dans une heure |
+| tretíkrát | pour la troisième fois |
+| novinárka | la journaliste |
+| človek | l'être humain, on |
+| pazucha | l'aisselle (sous le bras) |
+| šofér | le chauffeur |
+| zadné okno | la vitre arrière |
+| prst | le doigt |
+| opiera sa | il s'appuie |
+| To vybavím. | Je m'en occupe. |
+| plán mesta | le plan de la ville |
+| vidno | on voit |
+| tadiaľto | par ici |
+| krok | le pas |
+| Ako sa dostanem…? | Comment je vais à… ? |
+| slnko | le soleil |
+| strácam sa | je me perds |
+| Nemáte za čo. | De rien. |
+| bežia | ils courent |
+| buchnú | ils claquent |
+| porozprávať sa | discuter |
+| naskočia | ils sautent dedans |
+| zadýchaný | essoufflé |
+| pohne sa | il démarre |
+| kúpila som | j'ai acheté (une fille) |
+| v mobile | sur le portable |
+| kým | pendant que |
+| krv | le sang |
+| autobus | le bus |
+| trolejbus | le trolleybus |
+| deviatka | la ligne 9 |
+| revízor | le contrôleur |
+| kontrola | le contrôle |
+| cestovný lístok | le titre de transport |
+| hovorca | le porte-parole |
+| skupina | le groupe |
+| Teší ma. | Enchanté. |
+| nestihol som | je n'ai pas eu le temps |
+| súrne | urgent |
+| pokuta | l'amende |
+| chodník | le trottoir |
+
+---
+
+## Les nouveaux mots de l'épisode
+
+| Slovenčina | Français |
+|------------|----------|
+| vytrhli | ils ont arraché |
+| atrament | l'encre |
+| nalepený | collé |
+| písmo | l'écriture |
+| overený | vérifié |
+| nezverejňovať | ne pas diffuser |
+| kompliment | le compliment |
+| veža | la tour |
 
 ---
 
@@ -86,101 +95,101 @@
 - 💬 Le Narrateur
 - 🦊 Toi, un garçon de quinze ans, de Lyon
 - 🐰 Andrea, une hase de seize ans, ton amie
-- 🐻 Maťo, un ours de quatorze ans, le cousin d'Andrea
-- 🐹 Katka, une marmotte de treize ans, la sœur de Maťo
+- 🐻 Maťo, un ours de quatorze ans
+- 🐹 Katka, une marmotte de treize ans
+- 🦦 Doktorka Vydrová, une loutre hydrologue : une adulte, on la vouvoie
 
 ---
 
 ## La suite de l'épisode
 
-! 💬 Je podvečer. Štyri zvieratá stoja pred bránou hradu. Hore sú schody a široká terasa.
-> C'est la fin d'après-midi. Quatre animaux sont devant la porte du château. En haut, il y a des escaliers et une large terrasse.
-> Je podvečer = c'est la fin d'après-midi
-> Štyri zvieratá stoja = quatre animaux sont là
-> pred bránou hradu = devant la porte du château
-> Hore sú schody = en haut, il y a des escaliers
-> a široká terasa = et une large terrasse
-+ Mot nouveau signalé : {{terasa}} = la terrasse. Pour comprendre : {{podvečer}} = la fin d'après-midi, « avant le soir ».
+! 💬 Električka ide pod hrad. Andrea drží na kolenách zelený zápisník. Neotvára ho.
+> Le tram monte vers le château. Andrea tient le carnet vert sur ses genoux. Elle ne l'ouvre pas.
+> Električka ide pod hrad = le tram va sous le château
+> drží na kolenách = tient sur ses genoux
+> Neotvára ho = elle ne l'ouvre pas
 
-! 🦊 Je tu nádherný výhľad.
-> La vue est magnifique.
-> Je tu = il y a ici
-> nádherný výhľad = une vue magnifique
-+ Mots nouveaux signalés : {{výhľad}} = la vue, {{nádherný}} = magnifique.
+! 🦊 Otvor.
+> Ouvre.
 
-! 🐻 Na Dunaj.
-> Sur le Danube.
-
-! 🐹 A na celé mesto. Škoda, že mám vybitý telefón. Nafotila by som to.
-> Et sur toute la ville. Dommage que mon téléphone soit vide. Je l'aurais pris en photo.
-> A na celé mesto = et sur toute la ville
-> Škoda, že = dommage que
-> mám vybitý telefón = j'ai un téléphone déchargé
-> Nafotila by som to = je l'aurais photographié
-+ Pour comprendre : {{vybitý}} = déchargé.
-
-! 🐰 Pozri sa očami.
-> Regarde avec tes yeux.
-> Pozri sa očami = regarde avec les yeux
-
-! 🐹 Očami sa fotiť nedá.
-> On ne peut pas prendre de photo avec les yeux.
-> Očami = avec les yeux
-> sa fotiť nedá = on ne peut pas photographier
-
-! 💬 Z vrecka vytiahne Maťo zmačkaný papier.
-> Maťo sort de sa poche un papier froissé.
-> Z vrecka = de la poche
-> vytiahne Maťo = Maťo sort
-> zmačkaný papier = un papier froissé
-+ Pour comprendre : {{vrecko}} = la poche, {{zmačkaný}} = froissé.
-
-! 🐻 Zapísal som si to. Je to krátke. Podľa mňa to stačí.
-> Je l'ai noté. C'est court. Pour moi, ça suffit.
-> Zapísal som si to = je l'ai noté
-> Je to krátke = c'est court
-> Podľa mňa to stačí = d'après moi, ça suffit
-+ Mot nouveau signalé : {{krátke}} = court.
-
-! 🐹 Čítaj.
-> Lis.
-
-! 🐻 „Bola voda. Potom nebola. Potom jej bolo príliš veľa. A my sme tam boli.“
-> « Il y avait de l'eau. Puis il n'y en avait plus. Puis il y en a eu trop. Et nous, nous étions là. »
-> Bola voda = il y avait de l'eau
-> Potom nebola = puis il n'y en avait plus
-> Potom jej bolo príliš veľa = puis il y en a eu trop
-> A my sme tam boli = et nous, nous y étions
-
-! 🐰 Mne sa to páči.
-> Ça me plaît.
-> Mne sa to páči = ça me plaît, à moi
-
-! 🦊 Mne tiež. A čo ak sa zasekneme?
-> À moi aussi. Et si on se bloque ?
-> Mne tiež = à moi aussi
+! 🐰 A čo ak vytrhli strany?
+> Et s'ils ont arraché les pages ?
 > A čo ak = et si
-> sa zasekneme = nous nous bloquons
-+ Mot nouveau signalé : {{zaseknúť sa}} = se bloquer, rester coincé.
+> vytrhli strany = ils ont arraché les pages
++ Mot nouveau signalé : {{vytrhnúť}} = arracher.
 
-! 🐹 Potom povieš niečo vtipné. To robíš najlepšie.
-> Alors tu diras quelque chose de drôle. C'est ce que tu fais le mieux.
-> Potom povieš = alors tu diras
-> niečo vtipné = quelque chose de drôle
-> To robíš najlepšie = c'est ce que tu fais le mieux
-+ Mot nouveau signalé : {{vtipné}} = drôle.
+! 🦊 Otvor.
+> Ouvre.
 
-! 🦊 Ďakujem. To je najkrajší kompliment dnešného dňa.
-> Merci. C'est le plus beau compliment d'aujourd'hui.
-> To je najkrajší kompliment = c'est le plus beau compliment
-> dnešného dňa = de la journée
+! 💬 Otvorí. Všetko tam je. Dva roky čísel, modrým atramentom, jeden riadok za týždeň.
+> Elle ouvre. Tout est là. Deux ans de chiffres, à l'encre bleue, une ligne par semaine.
+> Otvorí = elle ouvre
+> Všetko tam je = tout est là
+> Dva roky čísel = deux ans de chiffres
+> modrým atramentom = à l'encre bleue
+> jeden riadok za týždeň = une ligne par semaine
+
+! 🐰 Všetko tam je.
+> Tout est là.
+
+! 🐹 Je tam nalepený papierik. To nie je tvoje písmo.
+> Il y a un papier collé. Ce n'est pas ton écriture.
+> Je tam nalepený papierik = il y a un petit papier collé
+> To nie je tvoje písmo = ce n'est pas ton écriture
+
+! 💬 Na prvej strane je malý žltý papierik. Tri riadky, napísané na stroji.
+> Sur la première page, un petit papier jaune. Trois lignes, écrites à la machine.
+> Na prvej strane = sur la première page
+> malý žltý papierik = un petit papier jaune
+> napísané na stroji = écrites à la machine
+
+! 🐰 „Technický útvar. Merania overené. Čísla správne. Nezverejňovať.“
+> « Service technique. Mesures vérifiées. Chiffres corrects. Ne pas diffuser. »
+> Technický útvar = service technique
+> Merania overené = mesures vérifiées
+> Čísla správne = chiffres corrects
+> Nezverejňovať = ne pas diffuser
+
+! 💬 V električke je ticho.
+> Dans le tram, il n'y a plus de bruit.
+
+! 🐻 Vedeli to.
+> Ils savaient.
+> Vedeli to = ils le savaient
+
+! 🐰 Už rok. Overili to. Mala som pravdu, a oni to napísali.
+> Depuis un an. Ils ont vérifié. J'avais raison, et ils l'ont écrit.
+> Už rok = depuis un an
+> Overili to = ils l'ont vérifié
+> Mala som pravdu = j'avais raison
+> a oni to napísali = et ils l'ont écrit
+
+! 🦊 Na žltý papierik.
+> Sur un papier jaune.
+
+! 🦦 Dieťa moje, to je najkrajší kompliment, aký môže inžinier urobiť. Nechaj si ho.
+> Mon enfant, c'est le plus beau compliment qu'un ingénieur puisse faire. Garde-le.
+> Dieťa moje = mon enfant
+> najkrajší kompliment = le plus beau compliment
+> aký môže inžinier urobiť = qu'un ingénieur puisse faire
+> Nechaj si ho = garde-le
+
+! 💬 Hore na kopci sa ukáže hrad. Biely, so štyrmi vežami.
+> En haut de la colline, le château apparaît. Blanc, avec ses quatre tours.
+> Hore na kopci = en haut de la colline
+> sa ukáže hrad = le château apparaît
+> so štyrmi vežami = avec quatre tours
+
+! 🦊 Päť minút, povedala.
+> Cinq minutes, elle a dit.
+
+! 🐰 Uvidíme.
+> On verra.
 
 ---
 
 ## 🇸🇰 Coin slovaque
 
-@ img/bratislava-vyhlad-hrad-dunaj.jpg | Bratislava vue du Nový most (Most SNP), avec le château et le Danube. Source : Wikimedia Commons, Jakub Hałun, CC BY-SA 4.0
+{{fr:Fais le point. Neuf pièces : le permis, le registre, la photo de la tranchée, les captures, la vidéo du tuyau, le bon de livraison, la photo du compteur, la démonstration de la roue, et maintenant le carnet d'Andrea, avec un papier jaune qui prouve que l'entreprise savait.}}
 
-{{fr:Depuis la terrasse du château, on voit le Danube, le pont}} {{Most SNP}} {{fr:avec son restaurant en forme de soucoupe volante, l'}}{{UFO}}{{fr:, et au loin, l'Autriche.}}
-
-{{fr:Le onzième chapitre est terminé. Ce soir, à sept heures, vous passez à la télévision. En direct.}}
+{{fr:Et un témoin : la doktorka. Il manque toujours quelqu'un de l'intérieur. Rendez-vous au château, à sept heures.}}

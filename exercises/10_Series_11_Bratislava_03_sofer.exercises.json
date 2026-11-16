@@ -1,0 +1,253 @@
+{
+ "mode": "replace",
+ "sync": "full",
+ "exercises": [
+  {
+   "id": "qcm-of-r",
+   "type": "qcm",
+   "l1": "le chauffeur",
+   "l2": "šofér",
+   "choices_l1": [
+    "on voit",
+    "il s'appuie",
+    "le pas"
+   ],
+   "choices_l2": [
+    "vidno",
+    "tadiaľto",
+    "opiera sa"
+   ]
+  },
+  {
+   "id": "qcm-zadn-okno",
+   "type": "qcm",
+   "l1": "la vitre arrière",
+   "l2": "zadné okno",
+   "choices_l1": [
+    "Je m'en occupe.",
+    "Comment je vais à… ?",
+    "le plan de la ville"
+   ],
+   "choices_l2": [
+    "prst",
+    "plán mesta",
+    "krok"
+   ]
+  },
+  {
+   "id": "qcm-prst",
+   "type": "qcm",
+   "l1": "le doigt",
+   "l2": "prst",
+   "choices_l1": [
+    "le chauffeur",
+    "le pas",
+    "il s'appuie"
+   ],
+   "choices_l2": [
+    "tadiaľto",
+    "vidno",
+    "opiera sa"
+   ]
+  },
+  {
+   "id": "qcm-opiera-sa",
+   "type": "qcm",
+   "l1": "il s'appuie",
+   "l2": "opiera sa",
+   "choices_l1": [
+    "on voit",
+    "le chauffeur",
+    "le pas"
+   ],
+   "choices_l2": [
+    "zadné okno",
+    "To vybavím.",
+    "krok"
+   ]
+  },
+  {
+   "id": "qcm-to-vybav-m",
+   "type": "qcm",
+   "l1": "Je m'en occupe.",
+   "l2": "To vybavím.",
+   "choices_l1": [
+    "la vitre arrière",
+    "Comment je vais à… ?",
+    "le plan de la ville"
+   ],
+   "choices_l2": [
+    "tadiaľto",
+    "plán mesta",
+    "vidno"
+   ]
+  },
+  {
+   "id": "qcm-pl-n-mesta",
+   "type": "qcm",
+   "l1": "le plan de la ville",
+   "l2": "plán mesta",
+   "choices_l1": [
+    "Comment je vais à… ?",
+    "la vitre arrière",
+    "Je m'en occupe."
+   ],
+   "choices_l2": [
+    "opiera sa",
+    "prst",
+    "šofér"
+   ]
+  },
+  {
+   "id": "listen-to-je-on",
+   "type": "listen",
+   "l1": "C'est lui.",
+   "l2": "To je on.",
+   "choices_l1": [
+    "C'est elle.",
+    "Ce n'est pas lui.",
+    "C'est ici."
+   ]
+  },
+  {
+   "id": "listen-to-vybavím-ja",
+   "type": "listen",
+   "l1": "Je m'en occupe.",
+   "l2": "To vybavím ja.",
+   "choices_l1": [
+    "Je ne m'en occupe pas.",
+    "Tu t'en occupes.",
+    "Je m'en vais."
+   ]
+  },
+  {
+   "id": "listen-vľavo",
+   "type": "listen",
+   "l1": "À gauche.",
+   "l2": "Vľavo.",
+   "choices_l1": [
+    "À droite.",
+    "En haut.",
+    "Tout droit."
+   ]
+  },
+  {
+   "id": "blank-hrad-je-hore-vľavo",
+   "type": "fill-blank",
+   "l1": "Le château est en haut à gauche.",
+   "l2": "Hrad je hore vľavo.",
+   "missing_l1": "gauche",
+   "missing_l2": "vľavo",
+   "blank_index_l1": 6,
+   "blank_index_l2": 3,
+   "choices_l1": [
+    "droite",
+    "bas",
+    "face"
+   ],
+   "choices_l2": [
+    "vpravo",
+    "dole",
+    "rovno"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "blank-môžete-mi-pomôcť-prosím",
+   "type": "fill-blank",
+   "l1": "Vous pouvez m'aider, s'il vous plaît ?",
+   "l2": "Môžete mi pomôcť, prosím?",
+   "missing_l1": "pouvez",
+   "missing_l2": "Môžete",
+   "blank_index_l1": 1,
+   "blank_index_l2": 0,
+   "choices_l1": [
+    "voulez",
+    "devez",
+    "savez"
+   ],
+   "choices_l2": [
+    "Chcete",
+    "Musíte",
+    "Viete"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "order-ako-sa-dostanem-na-hrad",
+   "type": "order",
+   "l1": "Comment je vais au château ?",
+   "l2": "Ako sa dostanem na hrad?",
+   "tokens_l1": [
+    "Comment",
+    "je",
+    "vais",
+    "au",
+    "château",
+    "?",
+    "Votre",
+    "plan",
+    "est",
+    "à",
+    "l'envers."
+   ],
+   "tokens_l2": [
+    "Ako",
+    "sa",
+    "dostanem",
+    "na",
+    "hrad?",
+    "Ten",
+    "plán",
+    "máte",
+    "naopak."
+   ]
+  },
+  {
+   "id": "order-ten-plán-máte-naopak",
+   "type": "order",
+   "l1": "Votre plan est à l'envers.",
+   "l2": "Ten plán máte naopak.",
+   "tokens_l1": [
+    "Votre",
+    "plan",
+    "est",
+    "à",
+    "l'envers.",
+    "Comment",
+    "je",
+    "vais",
+    "au",
+    "château",
+    "?"
+   ],
+   "tokens_l2": [
+    "Ten",
+    "plán",
+    "máte",
+    "naopak.",
+    "Ako",
+    "sa",
+    "dostanem",
+    "na",
+    "hrad?"
+   ]
+  },
+  {
+   "id": "match-šofér-vocab",
+   "type": "match",
+   "l1": [
+    "le chauffeur",
+    "la vitre arrière",
+    "le doigt",
+    "il s'appuie"
+   ],
+   "l2": [
+    "šofér",
+    "zadné okno",
+    "prst",
+    "opiera sa"
+   ]
+  }
+ ]
+}

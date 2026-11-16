@@ -1,0 +1,281 @@
+{
+ "mode": "replace",
+ "sync": "full",
+ "exercises": [
+  {
+   "id": "qcm-m-m-pocit-e",
+   "type": "qcm",
+   "l1": "j'ai l'impression que",
+   "l2": "mám pocit, že",
+   "choices_l1": [
+    "dans ton rêve",
+    "le sentiment, l'impression",
+    "il a lu"
+   ],
+   "choices_l2": [
+    "…pretože nemáme čas.",
+    "Žena hovorí, že všetko odkladám.",
+    "referát o vode"
+   ]
+  },
+  {
+   "id": "qcm-pocit",
+   "type": "qcm",
+   "l1": "le sentiment, l'impression",
+   "l2": "pocit",
+   "choices_l1": [
+    "dans ton rêve",
+    "j'ai l'impression que",
+    "il a lu"
+   ],
+   "choices_l2": [
+    "čakať na",
+    "len",
+    "prečítal"
+   ]
+  },
+  {
+   "id": "qcm-tlieskali",
+   "type": "qcm",
+   "l1": "ils applaudissaient",
+   "l2": "tlieskali",
+   "choices_l1": [
+    "parti, absent",
+    "tu m'attendais",
+    "longtemps"
+   ],
+   "choices_l2": [
+    "prečítal",
+    "dlho",
+    "čakať na"
+   ]
+  },
+  {
+   "id": "qcm-pre-tal",
+   "type": "qcm",
+   "l1": "il a lu",
+   "l2": "prečítal",
+   "choices_l1": [
+    "dans ton rêve",
+    "j'ai l'impression que",
+    "le sentiment, l'impression"
+   ],
+   "choices_l2": [
+    "len",
+    "čakať na",
+    "dlho"
+   ]
+  },
+  {
+   "id": "qcm-aka-na",
+   "type": "qcm",
+   "l1": "attendre",
+   "l2": "čakať na",
+   "choices_l1": [
+    "parti, absent",
+    "ils applaudissaient",
+    "tu m'attendais"
+   ],
+   "choices_l2": [
+    "len",
+    "tlieskali",
+    "dlho"
+   ]
+  },
+  {
+   "id": "qcm-akala-si-na-m-a",
+   "type": "qcm",
+   "l1": "tu m'attendais",
+   "l2": "čakala si na mňa",
+   "choices_l1": [
+    "parti, absent",
+    "longtemps",
+    "attendre"
+   ],
+   "choices_l2": [
+    "Snívalo sa mi o tebe.",
+    "môj zápisník / moja kniha",
+    "To si ty."
+   ]
+  },
+  {
+   "id": "listen-čakala-si-na-mňa-knihu-si",
+   "type": "listen",
+   "l1": "Tu m'attendais. Ton livre était à l'envers.",
+   "l2": "Čakala si na mňa. Knihu si mala naopak.",
+   "choices_l1": [
+    "Je t'attendais. Mon livre était à l'envers.",
+    "Tu m'attendais. Ton livre était ouvert.",
+    "Tu dormais. Ton livre était à l'envers."
+   ]
+  },
+  {
+   "id": "listen-andrea-bol-to-len-sen",
+   "type": "listen",
+   "l1": "Andrea ? C'était juste un rêve.",
+   "l2": "Andrea? Bol to len sen.",
+   "choices_l1": [
+    "Andrea ? C'était vrai.",
+    "Andrea ? C'était un cauchemar.",
+    "Andrea ? Ce n'était pas un rêve."
+   ]
+  },
+  {
+   "id": "listen-zdá-sa-mi-že-prší",
+   "type": "listen",
+   "l1": "Il me semble qu'il pleut.",
+   "l2": "Zdá sa mi, že prší.",
+   "choices_l1": [
+    "Il me semble qu'il fait beau.",
+    "Je sais qu'il pleut.",
+    "Il pleut beaucoup."
+   ]
+  },
+  {
+   "id": "blank-mám-pocit-že-ťa-poznám",
+   "type": "fill-blank",
+   "l1": "J'ai l'impression de te connaître.",
+   "l2": "Mám pocit, že ťa poznám.",
+   "missing_l1": "connaître",
+   "missing_l2": "poznám",
+   "blank_index_l1": 4,
+   "blank_index_l2": 4,
+   "choices_l1": [
+    "voir",
+    "comprendre",
+    "attendre"
+   ],
+   "choices_l2": [
+    "vidím",
+    "počúvam",
+    "čakám"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "blank-mám-pocit-že-som-bol-preč",
+   "type": "fill-blank",
+   "l1": "J'ai l'impression d'être parti toute une semaine.",
+   "l2": "Mám pocit, že som bol preč celý týždeň.",
+   "missing_l1": "semaine",
+   "missing_l2": "týždeň",
+   "blank_index_l1": 6,
+   "blank_index_l2": 7,
+   "choices_l1": [
+    "nuit",
+    "année",
+    "journée"
+   ],
+   "choices_l2": [
+    "rok",
+    "mesiac",
+    "deň"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "order-boli-sme-v-televízii-maťo-prečítal",
+   "type": "order",
+   "l1": "On est passés à la télévision. Maťo a lu une phrase. Tout le monde a applaudi.",
+   "l2": "Boli sme v televízii. Maťo prečítal jednu vetu. Všetci tlieskali.",
+   "tokens_l1": [
+    "On",
+    "est",
+    "passés",
+    "à",
+    "la",
+    "télévision.",
+    "Maťo",
+    "a",
+    "lu",
+    "une",
+    "phrase.",
+    "Tout",
+    "le",
+    "monde",
+    "a",
+    "applaudi.",
+    "C'était",
+    "juste",
+    "un",
+    "rêve."
+   ],
+   "tokens_l2": [
+    "Boli",
+    "sme",
+    "v",
+    "televízii.",
+    "Maťo",
+    "prečítal",
+    "jednu",
+    "vetu.",
+    "Všetci",
+    "tlieskali.",
+    "Bol",
+    "to",
+    "len",
+    "sen."
+   ]
+  },
+  {
+   "id": "order-bol-to-len-sen",
+   "type": "order",
+   "l1": "C'était juste un rêve.",
+   "l2": "Bol to len sen.",
+   "tokens_l1": [
+    "C'était",
+    "juste",
+    "un",
+    "rêve.",
+    "On",
+    "est",
+    "passés",
+    "à",
+    "la",
+    "télévision.",
+    "Maťo",
+    "a",
+    "lu",
+    "une",
+    "phrase.",
+    "Tout",
+    "le",
+    "monde",
+    "a",
+    "applaudi."
+   ],
+   "tokens_l2": [
+    "Bol",
+    "to",
+    "len",
+    "sen.",
+    "Boli",
+    "sme",
+    "v",
+    "televízii.",
+    "Maťo",
+    "prečítal",
+    "jednu",
+    "vetu.",
+    "Všetci",
+    "tlieskali."
+   ]
+  },
+  {
+   "id": "match-mám-pocit-že-vocab",
+   "type": "match",
+   "l1": [
+    "j'ai l'impression que",
+    "le sentiment, l'impression",
+    "ils applaudissaient",
+    "il a lu"
+   ],
+   "l2": [
+    "mám pocit, že",
+    "pocit",
+    "tlieskali",
+    "prečítal"
+   ]
+  }
+ ]
+}

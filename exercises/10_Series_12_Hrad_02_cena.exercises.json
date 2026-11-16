@@ -1,0 +1,275 @@
+{
+ "mode": "replace",
+ "sync": "full",
+ "exercises": [
+  {
+   "id": "qcm-rozsvietia-sa",
+   "type": "qcm",
+   "l1": "elles s'allument",
+   "l2": "rozsvietia sa",
+   "choices_l1": [
+    "le trophée",
+    "la présentatrice",
+    "il remporte"
+   ],
+   "choices_l2": [
+    "príroda",
+    "potlesk",
+    "získava"
+   ]
+  },
+  {
+   "id": "qcm-moder-torka",
+   "type": "qcm",
+   "l1": "la présentatrice",
+   "l2": "moderátorka",
+   "choices_l1": [
+    "les applaudissements",
+    "le secret",
+    "elles s'allument"
+   ],
+   "choices_l2": [
+    "potlesk",
+    "rozsvietia sa",
+    "príroda"
+   ]
+  },
+  {
+   "id": "qcm-cena",
+   "type": "qcm",
+   "l1": "le prix",
+   "l2": "cena",
+   "choices_l1": [
+    "en verre",
+    "la présentatrice",
+    "les applaudissements"
+   ],
+   "choices_l2": [
+    "príroda",
+    "rozsvietia sa",
+    "moderátorka"
+   ]
+  },
+  {
+   "id": "qcm-z-skava",
+   "type": "qcm",
+   "l1": "il remporte",
+   "l2": "získava",
+   "choices_l1": [
+    "les applaudissements",
+    "en verre",
+    "elles s'allument"
+   ],
+   "choices_l2": [
+    "sklenený",
+    "tajomstvo",
+    "potlesk"
+   ]
+  },
+  {
+   "id": "qcm-potlesk",
+   "type": "qcm",
+   "l1": "les applaudissements",
+   "l2": "potlesk",
+   "choices_l1": [
+    "l'invité",
+    "le secret",
+    "la présentatrice"
+   ],
+   "choices_l2": [
+    "trofej",
+    "tajomstvo",
+    "rozsvietia sa"
+   ]
+  },
+  {
+   "id": "qcm-trofej",
+   "type": "qcm",
+   "l1": "le trophée",
+   "l2": "trofej",
+   "choices_l1": [
+    "l'invité",
+    "la nature",
+    "en verre"
+   ],
+   "choices_l2": [
+    "tajomstvo",
+    "príroda",
+    "cena"
+   ]
+  },
+  {
+   "id": "listen-ďakujem-naše-tajomstvo-je-jednoduché-nič",
+   "type": "listen",
+   "l1": "Merci. Notre secret est simple. Nous n'avons rien inventé. Nous avons seulement écouté la nature.",
+   "l2": "Ďakujem. Naše tajomstvo je jednoduché. Nič sme nevymysleli. Iba sme počúvali prírodu.",
+   "choices_l1": [
+    "Merci. Notre secret est compliqué.",
+    "Merci. Nous avons tout inventé.",
+    "Bonsoir. Nous avons écouté la radio."
+   ]
+  },
+  {
+   "id": "listen-koľko-je-hodín",
+   "type": "listen",
+   "l1": "Quelle heure est-il ?",
+   "l2": "Koľko je hodín?",
+   "choices_l1": [
+    "Quel jour sommes-nous ?",
+    "Combien ça coûte ?",
+    "Tu as quel âge ?"
+   ]
+  },
+  {
+   "id": "listen-je-sedem-hodín",
+   "type": "listen",
+   "l1": "Il est sept heures.",
+   "l2": "Je sedem hodín.",
+   "choices_l1": [
+    "Il est six heures.",
+    "Il est dix heures.",
+    "Il est une heure."
+   ]
+  },
+  {
+   "id": "blank-správy-sú-o-siedmej",
+   "type": "fill-blank",
+   "l1": "Le journal est à sept heures.",
+   "l2": "Správy sú o siedmej.",
+   "missing_l1": "sept",
+   "missing_l2": "siedmej",
+   "blank_index_l1": 4,
+   "blank_index_l2": 3,
+   "choices_l1": [
+    "six",
+    "dix",
+    "deux"
+   ],
+   "choices_l2": [
+    "šiestej",
+    "desiatej",
+    "druhej"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "blank-riaditeľka-sa-stále-usmieva-ale-očami",
+   "type": "fill-blank",
+   "l1": "La directrice sourit toujours. Mais elle cherche quelqu'un des yeux, dans le public. Une chaise est vide.",
+   "l2": "Riaditeľka sa stále usmieva. Ale očami niekoho hľadá v publiku. Jedna stolička je prázdna.",
+   "missing_l1": "chaise",
+   "missing_l2": "stolička",
+   "blank_index_l1": 14,
+   "blank_index_l2": 11,
+   "choices_l1": [
+    "table",
+    "boîte",
+    "porte"
+   ],
+   "choices_l2": [
+    "krabica",
+    "taška",
+    "fľaša"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "order-naše-servery-chladí-vzduch-z-tatier",
+   "type": "order",
+   "l1": "Nos serveurs sont refroidis par l'air des Tatras. Circuit fermé. Zéro litre d'eau.",
+   "l2": "Naše servery chladí vzduch z Tatier. Uzavretý okruh. Nula litrov vody.",
+   "tokens_l1": [
+    "Nos",
+    "serveurs",
+    "sont",
+    "refroidis",
+    "par",
+    "l'air",
+    "des",
+    "Tatras.",
+    "Circuit",
+    "fermé.",
+    "Zéro",
+    "litre",
+    "d'eau.",
+    "Il",
+    "est",
+    "sept",
+    "heures."
+   ],
+   "tokens_l2": [
+    "Naše",
+    "servery",
+    "chladí",
+    "vzduch",
+    "z",
+    "Tatier.",
+    "Uzavretý",
+    "okruh.",
+    "Nula",
+    "litrov",
+    "vody.",
+    "Je",
+    "sedem",
+    "hodín."
+   ]
+  },
+  {
+   "id": "order-je-sedem-hodín",
+   "type": "order",
+   "l1": "Il est sept heures.",
+   "l2": "Je sedem hodín.",
+   "tokens_l1": [
+    "Il",
+    "est",
+    "sept",
+    "heures.",
+    "Nos",
+    "serveurs",
+    "sont",
+    "refroidis",
+    "par",
+    "l'air",
+    "des",
+    "Tatras.",
+    "Circuit",
+    "fermé.",
+    "Zéro",
+    "litre",
+    "d'eau."
+   ],
+   "tokens_l2": [
+    "Je",
+    "sedem",
+    "hodín.",
+    "Naše",
+    "servery",
+    "chladí",
+    "vzduch",
+    "z",
+    "Tatier.",
+    "Uzavretý",
+    "okruh.",
+    "Nula",
+    "litrov",
+    "vody."
+   ]
+  },
+  {
+   "id": "match-rozsvietia-sa-vocab",
+   "type": "match",
+   "l1": [
+    "elles s'allument",
+    "la présentatrice",
+    "le prix",
+    "il remporte"
+   ],
+   "l2": [
+    "rozsvietia sa",
+    "moderátorka",
+    "cena",
+    "získava"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,255 @@
+{
+ "mode": "replace",
+ "sync": "full",
+ "exercises": [
+  {
+   "id": "qcm-koleso",
+   "type": "qcm",
+   "l1": "la roue",
+   "l2": "koleso",
+   "choices_l1": [
+    "exactement",
+    "du haut",
+    "fermez"
+   ],
+   "choices_l2": [
+    "presne",
+    "čoraz tenší",
+    "rozbehne sa"
+   ]
+  },
+  {
+   "id": "qcm-horn",
+   "type": "qcm",
+   "l1": "du haut",
+   "l2": "horný",
+   "choices_l1": [
+    "il alimente",
+    "garder",
+    "la roue"
+   ],
+   "choices_l2": [
+    "koleso",
+    "otočte",
+    "čoraz tenší"
+   ]
+  },
+  {
+   "id": "qcm-nap-ja",
+   "type": "qcm",
+   "l1": "il alimente",
+   "l2": "napája",
+   "choices_l1": [
+    "exactement",
+    "la roue",
+    "tournez"
+   ],
+   "choices_l2": [
+    "nechať si",
+    "otočte",
+    "horný"
+   ]
+  },
+  {
+   "id": "qcm-oto-te",
+   "type": "qcm",
+   "l1": "tournez",
+   "l2": "otočte",
+   "choices_l1": [
+    "il alimente",
+    "garder",
+    "du haut"
+   ],
+   "choices_l2": [
+    "nechať si",
+    "napája",
+    "koleso"
+   ]
+  },
+  {
+   "id": "qcm-rozbehne-sa",
+   "type": "qcm",
+   "l1": "se met à courir",
+   "l2": "rozbehne sa",
+   "choices_l1": [
+    "le filet d'eau",
+    "de plus en plus fin",
+    "j'aimerais (une femme)"
+   ],
+   "choices_l2": [
+    "otočte",
+    "pramienok",
+    "horný"
+   ]
+  },
+  {
+   "id": "qcm-pramienok",
+   "type": "qcm",
+   "l1": "le filet d'eau",
+   "l2": "pramienok",
+   "choices_l1": [
+    "se met à courir",
+    "de plus en plus fin",
+    "j'aimerais (une femme)"
+   ],
+   "choices_l2": [
+    "koleso",
+    "presne",
+    "nechať si"
+   ]
+  },
+  {
+   "id": "listen-a-teraz",
+   "type": "listen",
+   "l1": "Et maintenant ?",
+   "l2": "A teraz?",
+   "choices_l1": [
+    "Et après ?",
+    "Et demain ?",
+    "Et toi ?"
+   ]
+  },
+  {
+   "id": "listen-teraz-sa-pozrite-na-prameň",
+   "type": "listen",
+   "l1": "Maintenant, regardez la source.",
+   "l2": "Teraz sa pozrite na prameň.",
+   "choices_l1": [
+    "Maintenant, regardez le lac.",
+    "Maintenant, tournez la roue.",
+    "Demain, regardez la source."
+   ]
+  },
+  {
+   "id": "listen-a-koleso-to-sú-ich-čerpadlá",
+   "type": "listen",
+   "l1": "Et la roue, c'est leurs pompes.",
+   "l2": "A koleso, to sú ich čerpadlá.",
+   "choices_l1": [
+    "Et le lac, c'est leurs pompes.",
+    "Et la roue, c'est notre ruisseau.",
+    "Et la source, c'est leur tuyau."
+   ]
+  },
+  {
+   "id": "blank-horné-jazero-to-je-mokraď",
+   "type": "fill-blank",
+   "l1": "Le lac du haut, c'est la zone humide.",
+   "l2": "Horné jazero, to je mokraď.",
+   "missing_l1": "haut",
+   "missing_l2": "Horné",
+   "blank_index_l1": 3,
+   "blank_index_l2": 0,
+   "choices_l1": [
+    "bas",
+    "village",
+    "parc"
+   ],
+   "choices_l2": [
+    "Dolné",
+    "Malé",
+    "Staré"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "blank-horné-jazero-napája-prameň-pán-medveď",
+   "type": "fill-blank",
+   "l1": "Le lac du haut nourrit la source. Monsieur l'ours, tournez la roue. Doucement.",
+   "l2": "Horné jazero napája prameň. Pán medveď, otočte koleso. Pomaly.",
+   "missing_l1": "roue",
+   "missing_l2": "koleso",
+   "blank_index_l1": 11,
+   "blank_index_l2": 7,
+   "choices_l1": [
+    "tête",
+    "page",
+    "clé"
+   ],
+   "choices_l2": [
+    "hlavu",
+    "stranu",
+    "kľúč"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "order-a-koleso-to-sú-ich-čerpadlá",
+   "type": "order",
+   "l1": "Et la roue, c'est leurs pompes.",
+   "l2": "A koleso, to sú ich čerpadlá.",
+   "tokens_l1": [
+    "Et",
+    "la",
+    "roue,",
+    "c'est",
+    "leurs",
+    "pompes.",
+    "Maintenant,",
+    "regardez",
+    "la",
+    "source."
+   ],
+   "tokens_l2": [
+    "A",
+    "koleso,",
+    "to",
+    "sú",
+    "ich",
+    "čerpadlá.",
+    "Teraz",
+    "sa",
+    "pozrite",
+    "na",
+    "prameň."
+   ]
+  },
+  {
+   "id": "order-teraz-sa-pozrite-na-prameň",
+   "type": "order",
+   "l1": "Maintenant, regardez la source.",
+   "l2": "Teraz sa pozrite na prameň.",
+   "tokens_l1": [
+    "Maintenant,",
+    "regardez",
+    "la",
+    "source.",
+    "Et",
+    "la",
+    "roue,",
+    "c'est",
+    "leurs",
+    "pompes."
+   ],
+   "tokens_l2": [
+    "Teraz",
+    "sa",
+    "pozrite",
+    "na",
+    "prameň.",
+    "A",
+    "koleso,",
+    "to",
+    "sú",
+    "ich",
+    "čerpadlá."
+   ]
+  },
+  {
+   "id": "match-koleso-vocab",
+   "type": "match",
+   "l1": [
+    "la roue",
+    "du haut",
+    "il alimente",
+    "tournez"
+   ],
+   "l2": [
+    "koleso",
+    "horný",
+    "napája",
+    "otočte"
+   ]
+  }
+ ]
+}

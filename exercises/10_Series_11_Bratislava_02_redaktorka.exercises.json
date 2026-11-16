@@ -1,0 +1,248 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-redaktorka",
+      "type": "qcm",
+      "l1": "la rédactrice",
+      "l2": "redaktorka",
+      "choices_l1": [
+        "il tient",
+        "faux",
+        "même"
+      ],
+      "choices_l2": [
+        "dokonca",
+        "drží",
+        "na konci"
+      ]
+    },
+    {
+      "id": "qcm-pripravujem",
+      "type": "qcm",
+      "l1": "je prépare",
+      "l2": "pripravujem",
+      "choices_l1": [
+        "même",
+        "la rédactrice",
+        "il tient"
+      ],
+      "choices_l2": [
+        "falošný",
+        "tretíkrát",
+        "dokonca"
+      ]
+    },
+    {
+      "id": "qcm-hodinky",
+      "type": "qcm",
+      "l1": "la montre",
+      "l2": "hodinky",
+      "choices_l1": [
+        "la rédactrice",
+        "même",
+        "il tient"
+      ],
+      "choices_l2": [
+        "originál",
+        "redaktorka",
+        "tretíkrát"
+      ]
+    },
+    {
+      "id": "qcm-dokonca",
+      "type": "qcm",
+      "l1": "même",
+      "l2": "dokonca",
+      "choices_l1": [
+        "l'original",
+        "la rédactrice",
+        "il tient"
+      ],
+      "choices_l2": [
+        "originál",
+        "falošný",
+        "redaktorka"
+      ]
+    },
+    {
+      "id": "qcm-falo-n",
+      "type": "qcm",
+      "l1": "faux",
+      "l2": "falošný",
+      "choices_l1": [
+        "même",
+        "je prépare",
+        "il tient"
+      ],
+      "choices_l2": [
+        "na konci",
+        "redaktorka",
+        "dokonca"
+      ]
+    },
+    {
+      "id": "qcm-na-konci",
+      "type": "qcm",
+      "l1": "à la fin",
+      "l2": "na konci",
+      "choices_l1": [
+        "mon carnet / mon livre",
+        "(forme du conditionnel)",
+        "notre ruisseau / notre village"
+      ],
+      "choices_l2": [
+        "redaktorka",
+        "tretíkrát",
+        "falošný"
+      ]
+    },
+    {
+      "id": "listen-vieme-preto-sme-tu",
+      "type": "listen",
+      "l1": "On sait. C'est pour ça.",
+      "l2": "Vieme. Preto sme tu.",
+      "choices_l1": [
+        "On ne sait pas. C'est pour ça.",
+        "On sait. On part.",
+        "Je sais. C'est pour ça."
+      ]
+    },
+    {
+      "id": "listen-nestačí",
+      "type": "listen",
+      "l1": "Pas assez ?",
+      "l2": "Nestačí?",
+      "choices_l1": [
+        "Trop ?",
+        "C'est assez ?",
+        "Pas maintenant ?"
+      ]
+    },
+    {
+      "id": "listen-a-keď-budeme-mať-originál",
+      "type": "listen",
+      "l1": "Et si on a l'original ?",
+      "l2": "A keď budeme mať originál?",
+      "choices_l1": [
+        "Et si on n'a pas l'original ?",
+        "Et si on a la vidéo ?",
+        "Et quand on aura le temps ?"
+      ]
+    },
+    {
+      "id": "blank-dám-vám-dve-minúty",
+      "type": "fill-blank",
+      "l1": "Je vous donne deux minutes.",
+      "l2": "Dám vám dve minúty.",
+      "missing_l1": "deux",
+      "missing_l2": "dve",
+      "blank_index_l1": 3,
+      "blank_index_l2": 2,
+      "choices_l1": [
+        "trois",
+        "cinq",
+        "dix"
+      ],
+      "choices_l2": [
+        "tri",
+        "štyri",
+        "desať"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-počúvam-vás",
+      "type": "fill-blank",
+      "l1": "Je vous écoute.",
+      "l2": "Počúvam vás.",
+      "missing_l1": "écoute",
+      "missing_l2": "Počúvam",
+      "blank_index_l1": 2,
+      "blank_index_l2": 0,
+      "choices_l1": [
+        "vois",
+        "appelle",
+        "attends"
+      ],
+      "choices_l2": [
+        "Vidím",
+        "Volám",
+        "Čakám"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-vidím-ťa",
+      "type": "order",
+      "l1": "Je te vois !",
+      "l2": "Vidím ťa!",
+      "tokens_l1": [
+        "Je",
+        "te",
+        "vois",
+        "!",
+        "Je",
+        "vous",
+        "donne",
+        "deux",
+        "minutes."
+      ],
+      "tokens_l2": [
+        "Vidím",
+        "ťa!",
+        "Dám",
+        "vám",
+        "dve",
+        "minúty."
+      ]
+    },
+    {
+      "id": "order-dám-vám-dve-minúty",
+      "type": "order",
+      "l1": "Je vous donne deux minutes.",
+      "l2": "Dám vám dve minúty.",
+      "tokens_l1": [
+        "Je",
+        "vous",
+        "donne",
+        "deux",
+        "minutes.",
+        "Et",
+        "si",
+        "on",
+        "a",
+        "l'original",
+        "?"
+      ],
+      "tokens_l2": [
+        "Dám",
+        "vám",
+        "dve",
+        "minúty.",
+        "A",
+        "keď",
+        "budeme",
+        "mať",
+        "originál?"
+      ]
+    },
+    {
+      "id": "match-redaktorka-vocab",
+      "type": "match",
+      "l1": [
+        "la rédactrice",
+        "je prépare",
+        "la montre",
+        "même"
+      ],
+      "l2": [
+        "redaktorka",
+        "pripravujem",
+        "hodinky",
+        "dokonca"
+      ]
+    }
+  ]
+}

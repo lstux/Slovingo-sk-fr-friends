@@ -1,261 +1,299 @@
 {
-  "mode": "replace",
-  "sync": "full",
-  "exercises": [
-    {
-      "id": "listen-kto-ti-to-povedal",
-      "type": "listen",
-      "l1": "Qui te l'a dit ?",
-      "l2": "Kto ti to povedal?",
-      "choices_l1": [
-        "Qui me l'a dit ?",
-        "Quand te l'a-t-on dit ?",
-        "Qui te l'a donné ?"
-      ]
-    },
-    {
-      "id": "listen-nikto-povedala-si-to-sama-pri-ohni",
-      "type": "listen",
-      "l1": "Personne. C'est toi qui me l'as dit. Près du feu.",
-      "l2": "Nikto. Povedala si to sama. Pri ohni.",
-      "choices_l1": [
-        "Personne. C'est moi qui te l'ai dit. Près du feu.",
-        "Ta tante. Près du feu.",
-        "Personne. C'est toi qui me l'as dit. Dans le train."
-      ]
-    },
-    {
-      "id": "listen-po-na-ra-ajky-teta-sp-do-desiatej-mo-no-e-te-sp",
-      "type": "listen",
-      "l1": "Viens prendre le petit-déjeuner. Ma tante dort jusqu'à dix heures. Peut-être qu'elle dort encore.",
-      "l2": "Poď na raňajky. Teta spí do desiatej. Možno ešte spí.",
-      "choices_l1": [
-        "Viens dîner. Ma tante dort jusqu'à dix heures. Peut-être qu'elle dort encore.",
-        "Viens prendre le petit-déjeuner. Ma tante se lève à six heures.",
-        "Viens prendre le petit-déjeuner. Ma tante dort jusqu'à midi."
-      ]
-    },
-    {
-      "id": "listen-po-niektor-sny-s-len-sny-a-niektor-nie-s-len-sny",
-      "type": "listen",
-      "l1": "Viens. Certains rêves ne sont que des rêves. Et d'autres ne sont pas que des rêves.",
-      "l2": "Poď. Niektoré sny sú len sny. A niektoré nie sú len sny.",
-      "choices_l1": [
-        "Viens. Tous les rêves ne sont que des rêves.",
-        "Viens. Certains rêves sont vrais. Et d'autres sont faux.",
-        "Viens. Aucun rêve n'est vrai."
-      ]
-    },
-    {
-      "id": "listen-s-jablo-ou-teta",
-      "type": "listen",
-      "l1": "Avec le pommier, ma tante !",
-      "l2": "S jabloňou, teta!",
-      "choices_l1": [
-        "Avec le jardin, ma tante !",
-        "Avec mamie, ma tante !",
-        "Avec le pommier, maman !"
-      ]
-    },
-    {
-      "id": "listen-e-je-rada-e-je-leto",
-      "type": "listen",
-      "l1": "Qu'il est content que ce soit l'été.",
-      "l2": "Že je rada, že je leto.",
-      "choices_l1": [
-        "Qu'il est triste que ce soit l'été.",
-        "Qu'il est content que ce soit l'hiver.",
-        "Qu'il a soif."
-      ]
-    },
-    {
-      "id": "listen-na-konci-leta-mus-m-s-domov",
-      "type": "listen",
-      "l1": "À la fin de l'été, je dois rentrer chez moi.",
-      "l2": "Na konci leta musím ísť domov.",
-      "choices_l1": [
-        "Au début de l'été, je dois rentrer chez moi.",
-        "À la fin de l'été, je reste ici.",
-        "À la fin de la semaine, je dois rentrer chez moi."
-      ]
-    },
-    {
-      "id": "listen-teraz-si-tu",
-      "type": "listen",
-      "l1": "Maintenant, tu es là.",
-      "l2": "Teraz si tu.",
-      "choices_l1": [
-        "Maintenant, je suis là.",
-        "Demain, tu seras là.",
-        "Maintenant, tu pars."
-      ]
-    },
-    {
-      "id": "match-jablo-vocab",
-      "type": "match",
-      "l1": [
-        "le pommier",
-        "les chaussettes",
-        "la rosée",
-        "la bouteille"
-      ],
-      "l2": [
-        "jabloň",
-        "ponožky",
-        "rosa",
-        "fľaša"
-      ]
-    },
-    {
-      "id": "match-jazvec-words",
-      "type": "match",
-      "l1": [
-        "le blaireau",
-        "l'écureuil",
-        "le jardin",
-        "le rêve"
-      ],
-      "l2": [
-        "jazvec",
-        "veverička",
-        "záhrada",
-        "sen"
-      ]
-    },
-    {
-      "id": "blank-a-ty-si-tu-dlho",
-      "type": "fill-blank",
-      "l1": "Et toi ? Tu es là pour longtemps ?",
-      "l2": "A ty? Si tu dlho?",
-      "missing_l1": "longtemps",
-      "missing_l2": "dlho",
-      "blank_index_l1": 7,
-      "blank_index_l2": 4,
-      "choices_l1": [
-        "seul",
-        "content",
-        "encore"
-      ],
-      "choices_l2": [
-        "sám",
-        "rád",
-        "znova"
-      ],
-      "show_translation": true
-    },
-    {
-      "id": "blank-akujem-andrea",
-      "type": "fill-blank",
-      "l1": "Merci, Andrea.",
-      "l2": "Ďakujem, Andrea.",
-      "missing_l1": "Merci",
-      "missing_l2": "Ďakujem",
-      "blank_index_l1": 0,
-      "blank_index_l2": 0,
-      "choices_l1": [
-        "Pardon",
-        "Salut",
-        "Bonjour"
-      ],
-      "choices_l2": [
-        "Prepáč",
-        "Ahoj",
-        "Prosím"
-      ],
-      "show_translation": true
-    },
-    {
-      "id": "order-vo-sne-si-mi-povedala-e-si-raz-uverila-jedn-mu-li-iakovi-e-a-pozval-na-ve-eru-a-e-si-videla-ra-e",
-      "type": "order",
-      "l1": "Dans le rêve, tu m'as dit qu'un jour, tu avais fait confiance à un renard. Qu'il t'avait invitée à dîner. Et que tu avais vu la broche.",
-      "l2": "Vo sne si mi povedala, že si raz uverila jednému lišiakovi. Že ťa pozval na večeru. A že si videla ražeň.",
-      "tokens_l1": [
-        "Dans",
-        "le",
-        "rêve,",
-        "tu",
-        "m'as",
-        "dit",
-        "qu'un",
-        "jour,",
-        "tu",
-        "avais",
-        "fait",
-        "confiance",
-        "à",
-        "un",
-        "renard.",
-        "Qu'il",
-        "t'avait",
-        "invitée",
-        "à",
-        "dîner.",
-        "Et",
-        "que",
-        "tu",
-        "avais",
-        "vu",
-        "la",
-        "broche.",
-        "te",
-        "l'a"
-      ],
-      "tokens_l2": [
-        "Vo",
-        "sne",
-        "si",
-        "mi",
-        "povedala,",
-        "že",
-        "si",
-        "raz",
-        "uverila",
-        "jednému",
-        "lišiakovi.",
-        "Že",
-        "ťa",
-        "pozval",
-        "na",
-        "večeru.",
-        "A",
-        "že",
-        "si",
-        "videla",
-        "ražeň.",
-        "povedal",
-        "ti",
-        "to"
-      ]
-    },
-    {
-      "id": "order-andrea-ml-chv-u-sa-pozer-na-jablo",
-      "type": "order",
-      "l1": "Andrea se tait. Pendant un moment, elle regarde le pommier.",
-      "l2": "Andrea mlčí. Chvíľu sa pozerá na jabloň.",
-      "tokens_l1": [
-        "Andrea",
-        "se",
-        "tait.",
-        "Pendant",
-        "un",
-        "moment,",
-        "elle",
-        "regarde",
-        "le",
-        "pommier.",
-        "es",
-        "longtemps"
-      ],
-      "tokens_l2": [
-        "Andrea",
-        "mlčí.",
-        "Chvíľu",
-        "sa",
-        "pozerá",
-        "na jabloň.",
-        "ty",
-        "tu"
-      ]
-    }
-  ]
+ "mode": "replace",
+ "sync": "full",
+ "exercises": [
+  {
+   "id": "qcm-zvra-t-elo",
+   "type": "qcm",
+   "l1": "elle fronce les sourcils",
+   "l2": "zvraští čelo",
+   "choices_l1": [
+    "ça sent (bon)",
+    "Interdit de fumer.",
+    "la plaque, le couvercle"
+   ],
+   "choices_l2": [
+    "naučila som",
+    "začiatok",
+    "zatvorí"
+   ]
+  },
+  {
+   "id": "qcm-nau-ila-som",
+   "type": "qcm",
+   "l1": "j'ai appris (à quelqu'un, une fille)",
+   "l2": "naučila som",
+   "choices_l1": [
+    "N'ayez pas peur.",
+    "Personne ne parle.",
+    "pour le ruisseau"
+   ],
+   "choices_l2": [
+    "zatvorí",
+    "za horami",
+    "zvraští čelo"
+   ]
+  },
+  {
+   "id": "qcm-zatvor",
+   "type": "qcm",
+   "l1": "il ferme",
+   "l2": "zatvorí",
+   "choices_l1": [
+    "deux cents",
+    "l'an dernier",
+    "tournez"
+   ],
+   "choices_l2": [
+    "koniec",
+    "za horami",
+    "začiatok"
+   ]
+  },
+  {
+   "id": "qcm-za-horami",
+   "type": "qcm",
+   "l1": "derrière les montagnes",
+   "l2": "za horami",
+   "choices_l1": [
+    "sur le portable",
+    "beaucoup → plus → le plus",
+    "Tu parles beaucoup."
+   ],
+   "choices_l2": [
+    "zvraští čelo",
+    "začiatok",
+    "koniec"
+   ]
+  },
+  {
+   "id": "qcm-koniec",
+   "type": "qcm",
+   "l1": "la fin",
+   "l2": "koniec",
+   "choices_l1": [
+    "mille",
+    "de qui",
+    "tu mesures"
+   ],
+   "choices_l2": [
+    "naučila som",
+    "začiatok",
+    "za horami"
+   ]
+  },
+  {
+   "id": "qcm-za-iatok",
+   "type": "qcm",
+   "l1": "le début",
+   "l2": "začiatok",
+   "choices_l1": [
+    "j'adore",
+    "à pied",
+    "plus vieux"
+   ],
+   "choices_l2": [
+    "zvraští čelo",
+    "za horami",
+    "zatvorí"
+   ]
+  },
+  {
+   "id": "qcm-len",
+   "type": "qcm",
+   "l1": "seulement",
+   "l2": "len",
+   "choices_l1": [
+    "tu m'attendais",
+    "l'écran",
+    "Tiens !"
+   ],
+   "choices_l2": [
+    "nehýbe sa",
+    "skutočnosť",
+    "žiadna"
+   ]
+  },
+  {
+   "id": "qcm-obrazovka",
+   "type": "qcm",
+   "l1": "l'écran",
+   "l2": "obrazovka",
+   "choices_l1": [
+    "aucune",
+    "ils applaudissaient",
+    "l'écriture"
+   ],
+   "choices_l2": [
+    "hruška",
+    "zvláštny",
+    "číslica"
+   ]
+  },
+  {
+   "id": "listen-si-hlúpy",
+   "type": "listen",
+   "l1": "Tu es bête.",
+   "l2": "Si hlúpy.",
+   "choices_l1": [
+    "Tu es beau.",
+    "Tu es grand.",
+    "Je suis bête."
+   ]
+  },
+  {
+   "id": "listen-veľmi-hlúpy-nie-veľa-hlúpy",
+   "type": "listen",
+   "l1": "Très bête. Pas « beaucoup bête ».",
+   "l2": "Veľmi hlúpy. Nie veľa hlúpy.",
+   "choices_l1": [
+    "Très beau. Pas « beaucoup beau ».",
+    "Un peu bête. Pas très bête.",
+    "Beaucoup bête. Pas très bête."
+   ]
+  },
+  {
+   "id": "listen-uvidíme",
+   "type": "listen",
+   "l1": "On verra.",
+   "l2": "Uvidíme.",
+   "choices_l1": [
+    "On sait.",
+    "On y va.",
+    "On a vu."
+   ]
+  },
+  {
+   "id": "blank-ako-to-vieš-to-som-ťa",
+   "type": "fill-blank",
+   "l1": "Comment tu sais ça ? Je ne te l'ai pas encore appris.",
+   "l2": "Ako to vieš? To som ťa ešte nenaučila.",
+   "missing_l1": "appris",
+   "missing_l2": "nenaučila",
+   "blank_index_l1": 11,
+   "blank_index_l2": 7,
+   "choices_l1": [
+    "dit",
+    "montré",
+    "donné"
+   ],
+   "choices_l2": [
+    "nepovedala",
+    "neukázala",
+    "nedala"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "blank-andrea-zvraští-čelo",
+   "type": "fill-blank",
+   "l1": "Andrea fronce les sourcils.",
+   "l2": "Andrea zvraští čelo.",
+   "missing_l1": "sourcils",
+   "missing_l2": "čelo",
+   "blank_index_l1": 3,
+   "blank_index_l2": 2,
+   "choices_l1": [
+    "yeux",
+    "mains",
+    "pieds"
+   ],
+   "choices_l2": [
+    "oči",
+    "ruky",
+    "nohy"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "order-koniec-alebo-začiatok",
+   "type": "order",
+   "l1": "Fin. Ou début ?",
+   "l2": "Koniec. Alebo začiatok?",
+   "tokens_l1": [
+    "Fin.",
+    "Ou",
+    "début",
+    "?",
+    "Comment",
+    "tu",
+    "sais",
+    "ça",
+    "?",
+    "Je",
+    "ne",
+    "te",
+    "l'ai",
+    "pas",
+    "encore",
+    "appris."
+   ],
+   "tokens_l2": [
+    "Koniec.",
+    "Alebo",
+    "začiatok?",
+    "Ako",
+    "to",
+    "vieš?",
+    "To",
+    "som",
+    "ťa",
+    "ešte",
+    "nenaučila."
+   ]
+  },
+  {
+   "id": "order-ako-to-vieš-to-som-ťa",
+   "type": "order",
+   "l1": "Comment tu sais ça ? Je ne te l'ai pas encore appris.",
+   "l2": "Ako to vieš? To som ťa ešte nenaučila.",
+   "tokens_l1": [
+    "Comment",
+    "tu",
+    "sais",
+    "ça",
+    "?",
+    "Je",
+    "ne",
+    "te",
+    "l'ai",
+    "pas",
+    "encore",
+    "appris.",
+    "Fin.",
+    "Ou",
+    "début",
+    "?"
+   ],
+   "tokens_l2": [
+    "Ako",
+    "to",
+    "vieš?",
+    "To",
+    "som",
+    "ťa",
+    "ešte",
+    "nenaučila.",
+    "Koniec.",
+    "Alebo",
+    "začiatok?"
+   ]
+  },
+  {
+   "id": "match-zvraští-čelo-vocab",
+   "type": "match",
+   "l1": [
+    "elle fronce les sourcils",
+    "j'ai appris (à quelqu'un, une fille)",
+    "il ferme",
+    "derrière les montagnes"
+   ],
+   "l2": [
+    "zvraští čelo",
+    "naučila som",
+    "zatvorí",
+    "za horami"
+   ]
+  }
+ ]
 }

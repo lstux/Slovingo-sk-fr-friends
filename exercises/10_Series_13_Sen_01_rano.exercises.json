@@ -1,253 +1,247 @@
 {
-  "mode": "replace",
-  "sync": "full",
-  "exercises": [
-    {
-      "id": "qcm-jablo",
-      "type": "qcm",
-      "l1": "le pommier",
-      "l2": "jabloň",
-      "choices_l1": [
-        "les pommes",
-        "les branches",
-        "le jardin"
-      ],
-      "choices_l2": [
-        "jablká",
-        "konáre",
-        "záhrada"
-      ]
-    },
-    {
-      "id": "qcm-jablk",
-      "type": "qcm",
-      "l1": "les pommes",
-      "l2": "jablká",
-      "choices_l1": [
-        "le pommier",
-        "les branches",
-        "mûres"
-      ],
-      "choices_l2": [
-        "jabloň",
-        "konáre",
-        "zrelé"
-      ]
-    },
-    {
-      "id": "qcm-kon-re",
-      "type": "qcm",
-      "l1": "les branches",
-      "l2": "konáre",
-      "choices_l1": [
-        "les pommes",
-        "le jardin",
-        "ils pendent"
-      ],
-      "choices_l2": [
-        "jablká",
-        "záhrada",
-        "visia"
-      ]
-    },
-    {
-      "id": "qcm-zrel",
-      "type": "qcm",
-      "l1": "mûres",
-      "l2": "zrelé",
-      "choices_l1": [
-        "ils pendent",
-        "comme toujours",
-        "tu as dormi"
-      ],
-      "choices_l2": [
-        "visia",
-        "ako vždy",
-        "spal si"
-      ]
-    },
-    {
-      "id": "qcm-z-hrada",
-      "type": "qcm",
-      "l1": "le jardin",
-      "l2": "záhrada",
-      "choices_l1": [
-        "le pommier",
-        "l'arbre",
-        "les branches"
-      ],
-      "choices_l2": [
-        "jabloň",
-        "strom",
-        "konáre"
-      ]
-    },
-    {
-      "id": "listen-o-kde-som",
-      "type": "listen",
-      "l1": "Quoi... Où je suis ?",
-      "l2": "Čo... Kde som?",
-      "choices_l1": [
-        "Quoi... Qui es-tu ?",
-        "Quoi... Quelle heure est-il ?",
-        "Quoi... Où es-tu ?"
-      ]
-    },
-    {
-      "id": "listen-nad-n-m-visia-jablk-e-te-nie-s-zrel",
-      "type": "listen",
-      "l1": "Au-dessus de lui pendent des pommes. Elles ne sont pas encore mûres.",
-      "l2": "Nad ním visia jablká. Ešte nie sú zrelé.",
-      "choices_l1": [
-        "Au-dessus de lui pendent des pommes. Elles sont déjà mûres.",
-        "Sous lui, il y a des pommes. Elles ne sont pas encore mûres.",
-        "Au-dessus de lui pendent des poires. Elles ne sont pas encore mûres."
-      ]
-    },
-    {
-      "id": "listen-aha-v-z-hrade",
-      "type": "listen",
-      "l1": "Ah. Dans le jardin.",
-      "l2": "Aha. V záhrade.",
-      "choices_l1": [
-        "Ah. Dans la maison.",
-        "Ah. Dans la forêt.",
-        "Ah. Dans le train."
-      ]
-    },
-    {
-      "id": "listen-ja-ako-v-dy",
-      "type": "listen",
-      "l1": "Moi. Comme toujours.",
-      "l2": "Ja. Ako vždy.",
-      "choices_l1": [
-        "Toi. Comme toujours.",
-        "Moi. Pour la première fois.",
-        "Moi. Comme hier."
-      ]
-    },
-    {
-      "id": "listen-zobudil-som-sa-v-z-hrade",
-      "type": "listen",
-      "l1": "Je me suis réveillé dans le jardin.",
-      "l2": "Zobudil som sa v záhrade.",
-      "choices_l1": [
-        "Je me suis endormi dans le jardin.",
-        "Je me suis réveillé dans la forêt.",
-        "Tu t'es réveillé dans le jardin."
-      ]
-    },
-    {
-      "id": "match-jablo-vocab",
-      "type": "match",
-      "l1": [
-        "le pommier",
-        "les pommes",
-        "le jardin",
-        "l'arbre"
-      ],
-      "l2": [
-        "jabloň",
-        "jablká",
-        "záhrada",
-        "strom"
-      ]
-    },
-    {
-      "id": "blank-na-strome-s-jablk",
-      "type": "fill-blank",
-      "l1": "Il y a des pommes sur l'arbre.",
-      "l2": "Na strome sú jablká.",
-      "missing_l1": "pommes",
-      "missing_l2": "jablká",
-      "blank_index_l1": 4,
-      "blank_index_l2": 3,
-      "choices_l1": [
-        "poires",
-        "prunes",
-        "oiseaux"
-      ],
-      "choices_l2": [
-        "hrušky",
-        "slivky",
-        "vtáky"
-      ],
-      "show_translation": true
-    },
-    {
-      "id": "blank-zobudil-som-sa-v-z-hrade",
-      "type": "fill-blank",
-      "l1": "Je me suis réveillé dans le jardin.",
-      "l2": "Zobudil som sa v záhrade.",
-      "missing_l1": "jardin",
-      "missing_l2": "záhrade",
-      "blank_index_l1": 6,
-      "blank_index_l2": 4,
-      "choices_l1": [
-        "forêt",
-        "train",
-        "ville"
-      ],
-      "choices_l2": [
-        "lese",
-        "vlaku",
-        "meste"
-      ],
-      "show_translation": true
-    },
-    {
-      "id": "order-nad-n-m-visia-jablk-e-te-nie-s-zrel",
-      "type": "order",
-      "l1": "Au-dessus de lui pendent des pommes. Elles ne sont pas encore mûres.",
-      "l2": "Nad ním visia jablká. Ešte nie sú zrelé.",
-      "tokens_l1": [
-        "Au-dessus",
-        "de",
-        "lui",
-        "pendent",
-        "des",
-        "pommes.",
-        "Elles",
-        "ne",
-        "sont",
-        "pas",
-        "encore",
-        "mûres.",
-        "jardin"
-      ],
-      "tokens_l2": [
-        "Nad",
-        "ním",
-        "visia",
-        "jablká.",
-        "Ešte",
-        "nie",
-        "sú",
-        "zrelé.",
-        "záhrade"
-      ]
-    },
-    {
-      "id": "order-na-strome-s-jablk",
-      "type": "order",
-      "l1": "Il y a des pommes sur l'arbre.",
-      "l2": "Na strome sú jablká.",
-      "tokens_l1": [
-        "Il",
-        "y",
-        "a",
-        "des",
-        "pommes",
-        "sur",
-        "l'arbre.",
-        "jardin"
-      ],
-      "tokens_l2": [
-        "Na strome",
-        "sú",
-        "jablká.",
-        "záhrade"
-      ]
-    }
-  ]
+ "mode": "replace",
+ "sync": "full",
+ "exercises": [
+  {
+   "id": "qcm-listy",
+   "type": "qcm",
+   "l1": "les feuilles",
+   "l2": "listy",
+   "choices_l1": [
+    "à moitié",
+    "quel",
+    "ce matin"
+   ],
+   "choices_l2": [
+    "dnes ráno",
+    "predvčerom",
+    "jablká"
+   ]
+  },
+  {
+   "id": "qcm-jablk",
+   "type": "qcm",
+   "l1": "les pommes",
+   "l2": "jablká",
+   "choices_l1": [
+    "ce matin",
+    "à moitié",
+    "après-demain"
+   ],
+   "choices_l2": [
+    "prišiel si",
+    "listy",
+    "aký"
+   ]
+  },
+  {
+   "id": "qcm-ak-je-dnes-de",
+   "type": "qcm",
+   "l1": "On est quel jour ?",
+   "l2": "Aký je dnes deň?",
+   "choices_l1": [
+    "on m'a envoyée",
+    "…parce qu'ils ont coupé la forêt.",
+    "couvert de boue"
+   ],
+   "choices_l2": [
+    "tvoj zápisník / tvoja fotka",
+    "leto → v lete",
+    "To nie je dym. To je para."
+   ]
+  },
+  {
+   "id": "qcm-pri-iel-si",
+   "type": "qcm",
+   "l1": "tu es arrivé",
+   "l2": "prišiel si",
+   "choices_l1": [
+    "à six heures",
+    "le gardien de refuge",
+    "on m'a pris"
+   ],
+   "choices_l2": [
+    "do polovice",
+    "Kde sme?",
+    "aký"
+   ]
+  },
+  {
+   "id": "qcm-do-polovice",
+   "type": "qcm",
+   "l1": "à moitié",
+   "l2": "do polovice",
+   "choices_l1": [
+    "quel",
+    "ce matin",
+    "après-demain"
+   ],
+   "choices_l2": [
+    "Kde sme?",
+    "dnes ráno",
+    "aký"
+   ]
+  },
+  {
+   "id": "qcm-kde-sme",
+   "type": "qcm",
+   "l1": "Où sommes-nous ?",
+   "l2": "Kde sme?",
+   "choices_l1": [
+    "Tu es toujours petit.",
+    "Tu as raison.",
+    "Regarde ! → Regardez !"
+   ],
+   "choices_l2": [
+    "do polovice",
+    "jablká",
+    "pozajtra"
+   ]
+  },
+  {
+   "id": "listen-kde-sme",
+   "type": "listen",
+   "l1": "On est où ?",
+   "l2": "Kde sme?",
+   "choices_l1": [
+    "On est quand ?",
+    "Tu es où ?",
+    "On va où ?"
+   ]
+  },
+  {
+   "id": "listen-v-záhrade-mojej-tety",
+   "type": "listen",
+   "l1": "Dans le jardin de ma tante.",
+   "l2": "V záhrade mojej tety.",
+   "choices_l1": [
+    "Dans la maison de ma tante.",
+    "Dans le jardin de ma grand-mère.",
+    "Dans le parc de la ville."
+   ]
+  },
+  {
+   "id": "listen-aký-je-dnes-deň",
+   "type": "listen",
+   "l1": "On est quel jour ?",
+   "l2": "Aký je dnes deň?",
+   "choices_l1": [
+    "Quelle heure est-il ?",
+    "On est où ?",
+    "Il fait quel temps ?"
+   ]
+  },
+  {
+   "id": "blank-prišla-som-predvčerom",
+   "type": "fill-blank",
+   "l1": "Je suis arrivée avant-hier.",
+   "l2": "Prišla som predvčerom.",
+   "missing_l1": "avant-hier",
+   "missing_l2": "predvčerom",
+   "blank_index_l1": 3,
+   "blank_index_l2": 2,
+   "choices_l1": [
+    "hier",
+    "demain",
+    "aujourd'hui"
+   ],
+   "choices_l2": [
+    "včera",
+    "zajtra",
+    "dnes"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "blank-pozajtra-ideme-domov",
+   "type": "fill-blank",
+   "l1": "Après-demain, on rentre.",
+   "l2": "Pozajtra ideme domov.",
+   "missing_l1": "Après-demain",
+   "missing_l2": "Pozajtra",
+   "blank_index_l1": 0,
+   "blank_index_l2": 0,
+   "choices_l1": [
+    "Demain",
+    "Hier",
+    "Aujourd'hui"
+   ],
+   "choices_l2": [
+    "Zajtra",
+    "Včera",
+    "Dnes"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "order-vstávaj-je-sedem-hodín",
+   "type": "order",
+   "l1": "Debout. Il est sept heures.",
+   "l2": "Vstávaj. Je sedem hodín.",
+   "tokens_l1": [
+    "Debout.",
+    "Il",
+    "est",
+    "sept",
+    "heures.",
+    "Ce",
+    "matin,",
+    "il",
+    "a",
+    "plu."
+   ],
+   "tokens_l2": [
+    "Vstávaj.",
+    "Je",
+    "sedem",
+    "hodín.",
+    "Dnes",
+    "ráno",
+    "pršalo."
+   ]
+  },
+  {
+   "id": "order-dnes-ráno-pršalo",
+   "type": "order",
+   "l1": "Ce matin, il a plu.",
+   "l2": "Dnes ráno pršalo.",
+   "tokens_l1": [
+    "Ce",
+    "matin,",
+    "il",
+    "a",
+    "plu.",
+    "Debout.",
+    "Il",
+    "est",
+    "sept",
+    "heures."
+   ],
+   "tokens_l2": [
+    "Dnes",
+    "ráno",
+    "pršalo.",
+    "Vstávaj.",
+    "Je",
+    "sedem",
+    "hodín."
+   ]
+  },
+  {
+   "id": "match-listy-vocab",
+   "type": "match",
+   "l1": [
+    "les feuilles",
+    "les pommes",
+    "On est quel jour ?",
+    "tu es arrivé"
+   ],
+   "l2": [
+    "listy",
+    "jablká",
+    "Aký je dnes deň?",
+    "prišiel si"
+   ]
+  }
+ ]
 }

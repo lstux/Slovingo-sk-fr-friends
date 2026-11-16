@@ -1,0 +1,247 @@
+{
+ "mode": "replace",
+ "sync": "full",
+ "exercises": [
+  {
+   "id": "qcm-telev-zia",
+   "type": "qcm",
+   "l1": "la télévision",
+   "l2": "televízia",
+   "choices_l1": [
+    "le portier",
+    "le rendez-vous",
+    "l'invitation"
+   ],
+   "choices_l2": [
+    "nenesiem",
+    "Zavolajte!",
+    "mladý muž"
+   ]
+  },
+  {
+   "id": "qcm-stretnutie",
+   "type": "qcm",
+   "l1": "le rendez-vous",
+   "l2": "stretnutie",
+   "choices_l1": [
+    "la télévision",
+    "l'invitation",
+    "Appelez !"
+   ],
+   "choices_l2": [
+    "dohodnuté",
+    "mladý muž",
+    "dve"
+   ]
+  },
+  {
+   "id": "qcm-dohodnut",
+   "type": "qcm",
+   "l1": "convenu",
+   "l2": "dohodnuté",
+   "choices_l1": [
+    "deux (féminin)",
+    "le portier",
+    "plus loin"
+   ],
+   "choices_l2": [
+    "dve",
+    "vrátnik",
+    "televízia"
+   ]
+  },
+  {
+   "id": "qcm-pozv-nka",
+   "type": "qcm",
+   "l1": "l'invitation",
+   "l2": "pozvánka",
+   "choices_l1": [
+    "le portier",
+    "plus loin",
+    "Appelez !"
+   ],
+   "choices_l2": [
+    "televízia",
+    "nenesiem",
+    "Zavolajte!"
+   ]
+  },
+  {
+   "id": "qcm-vr-tnik",
+   "type": "qcm",
+   "l1": "le portier",
+   "l2": "vrátnik",
+   "choices_l1": [
+    "convenu",
+    "l'invitation",
+    "deux (féminin)"
+   ],
+   "choices_l2": [
+    "ďalej",
+    "dohodnuté",
+    "Zavolajte!"
+   ]
+  },
+  {
+   "id": "qcm-mlad-mu",
+   "type": "qcm",
+   "l1": "jeune homme",
+   "l2": "mladý muž",
+   "choices_l1": [
+    "convenu",
+    "le rendez-vous",
+    "deux (féminin)"
+   ],
+   "choices_l2": [
+    "nenesiem",
+    "vrátnik",
+    "pozvánka"
+   ]
+  },
+  {
+   "id": "listen-máte-dohodnuté-stretnutie",
+   "type": "listen",
+   "l1": "Vous avez un rendez-vous ?",
+   "l2": "Máte dohodnuté stretnutie?",
+   "choices_l1": [
+    "Vous avez une invitation ?",
+    "Vous avez un ticket ?",
+    "Tu as un rendez-vous ?"
+   ]
+  },
+  {
+   "id": "listen-pozvánku",
+   "type": "listen",
+   "l1": "Une invitation ?",
+   "l2": "Pozvánku?",
+   "choices_l1": [
+    "Un ticket ?",
+    "Un rendez-vous ?",
+    "Une carte ?"
+   ]
+  },
+  {
+   "id": "listen-tak-nie",
+   "type": "listen",
+   "l1": "Alors c'est non.",
+   "l2": "Tak nie.",
+   "choices_l1": [
+    "Alors c'est oui.",
+    "Pourquoi non ?",
+    "Alors entrez."
+   ]
+  },
+  {
+   "id": "blank-mám-dve-krabice",
+   "type": "fill-blank",
+   "l1": "J'ai deux boîtes.",
+   "l2": "Mám dve krabice.",
+   "missing_l1": "boîtes",
+   "missing_l2": "krabice",
+   "blank_index_l1": 2,
+   "blank_index_l2": 2,
+   "choices_l1": [
+    "minutes",
+    "pommes",
+    "lettres"
+   ],
+   "choices_l2": [
+    "minúty",
+    "jablká",
+    "listy"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "blank-zavolajte-prosím-pani-redaktorku",
+   "type": "fill-blank",
+   "l1": "Appelez la rédactrice, s'il vous plaît.",
+   "l2": "Zavolajte, prosím, pani redaktorku.",
+   "missing_l1": "Appelez",
+   "missing_l2": "Zavolajte",
+   "blank_index_l1": 0,
+   "blank_index_l2": 0,
+   "choices_l1": [
+    "Écoutez",
+    "Regardez",
+    "Aidez"
+   ],
+   "choices_l2": [
+    "Počúvajte",
+    "Pozrite",
+    "Pomôžte"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "order-máte-pozvánku-nemáme",
+   "type": "order",
+   "l1": "Vous avez une invitation ? – Non.",
+   "l2": "Máte pozvánku? – Nemáme.",
+   "tokens_l1": [
+    "Vous",
+    "avez",
+    "une",
+    "invitation",
+    "?",
+    "–",
+    "Non.",
+    "J'ai",
+    "deux",
+    "boîtes."
+   ],
+   "tokens_l2": [
+    "Máte",
+    "pozvánku?",
+    "–",
+    "Nemáme.",
+    "Mám",
+    "dve",
+    "krabice."
+   ]
+  },
+  {
+   "id": "order-mám-dve-krabice",
+   "type": "order",
+   "l1": "J'ai deux boîtes.",
+   "l2": "Mám dve krabice.",
+   "tokens_l1": [
+    "J'ai",
+    "deux",
+    "boîtes.",
+    "Vous",
+    "avez",
+    "une",
+    "invitation",
+    "?",
+    "–",
+    "Non."
+   ],
+   "tokens_l2": [
+    "Mám",
+    "dve",
+    "krabice.",
+    "Máte",
+    "pozvánku?",
+    "–",
+    "Nemáme."
+   ]
+  },
+  {
+   "id": "match-televízia-vocab",
+   "type": "match",
+   "l1": [
+    "la télévision",
+    "le rendez-vous",
+    "convenu",
+    "l'invitation"
+   ],
+   "l2": [
+    "televízia",
+    "stretnutie",
+    "dohodnuté",
+    "pozvánka"
+   ]
+  }
+ ]
+}

@@ -2,10 +2,7 @@
 
 @ img/jablon-rano.jpg | Un pommier au soleil du matin, avec des pommes vertes. Source : Wikimedia Commons, Maksym Kozlenko, CC BY-SA 4.0
 
-%: Košice
-% 48.7164, 21.2611 | {{Košice}} | z12
-
-{{fr:Le matin, à Košice. Tu ouvres les yeux sous un pommier. Les pommes ne sont pas encore mûres. Et Andrea est là, comme toujours. On révise le passé : « tu as dormi ».}}
+{{fr:Le matin. Le soleil passe entre les feuilles d'un pommier. Tu te réveilles en criant. Mais où es-tu ?}}
 
 ---
 
@@ -13,79 +10,90 @@
 
 | Slovenčina | Français |
 |------------|----------|
-| ráno | le matin (rappel) |
-| konáre | les branches |
-| jabloň | le pommier |
-| otvorí oči | il ouvre les yeux |
-| visia | ils pendent |
+| listy | les feuilles |
 | jablká | les pommes |
-| zrelé | mûres |
-| záhrada | le jardin |
-| spal si | tu as dormi |
-| ako vždy | comme toujours |
+| Aký je dnes deň? | On est quel jour ? |
+| prišiel si | tu es arrivé |
+| do polovice | à moitié |
+| Kde sme? | Où sommes-nous ? |
+| aký | quel |
+| predvčerom | avant-hier |
+| pozajtra | après-demain |
+| dnes ráno | ce matin |
 
 ---
 
 ## Aujourd'hui on apprend…
 
-### Le passé, on révise
-
-{{fr:Le passé, c'est la forme en}} {{-l}} {{fr:,}} {{-la}} {{fr:,}} {{-li}} {{fr:, plus}} {{som}} {{fr:,}} {{si}} {{fr:,}} {{sme}}{{fr:… sauf à « il » et « elle », où on ne met rien.}}
+### Hier, aujourd'hui, demain
 
 | Slovenčina | Français |
 |------------|----------|
-| Spal som. | J'ai dormi. (un garçon) |
-| Spala som. | J'ai dormi. (une fille) |
-| Spal si dlho. | Tu as dormi longtemps. |
-| Spal. | Il a dormi. |
-| Spali sme. | Nous avons dormi. |
-| Spali ste? | Vous avez dormi ? |
+| predvčerom | avant-hier |
+| včera | hier |
+| dnes | aujourd'hui |
+| zajtra | demain |
+| pozajtra | après-demain |
+
+{{fr:Et le passé, en révision :}} {{Prišiel si včera.}} {{fr:(Tu es arrivé hier.)}} {{Prišla som predvčerom.}} {{fr:(Je suis arrivée avant-hier.)}}
 
 ---
 
 ## Le dialogue
 
-! 💬 Ráno v Košiciach. Slnko svieti cez konáre jablone. [USER_NAME] otvorí oči.
-> Le matin à Košice. Le soleil brille à travers les branches du pommier. [USER_NAME] ouvre les yeux.
-> Ráno v Košiciach = le matin à Košice
-> Slnko svieti = le soleil brille
-> cez konáre jablone = à travers les branches du pommier
+! 💬 Košice. Ráno. Pod jabloňou je už teplo.
+> Košice. Le matin. Sous le pommier, il fait déjà chaud.
+> Pod jabloňou = sous le pommier
+> je už teplo = il fait déjà chaud
+
+! 🦊 Marek! Zápisník! Päť minút!
+> Marek ! Le carnet ! Cinq minutes !
+
+! 🐰 Vstávaj. Je sedem hodín.
+> Debout. Il est sept heures.
+> Vstávaj = debout
+> Je sedem hodín = il est sept heures
++ Tu te souviens ? C'est exactement ce qu'Andrea a dit le deuxième matin.
+
+! 💬 [USER_NAME] otvorí oči. Listy. Zelené jablká. Andrea s pohárom vody, plným do polovice.
+> Gab ouvre les yeux. Des feuilles. Des pommes vertes. Andrea, avec un verre d'eau à moitié plein.
 > otvorí oči = ouvre les yeux
+> Listy. Zelené jablká = des feuilles, des pommes vertes
+> s pohárom vody = avec un verre d'eau
+> plným do polovice = plein à moitié
 
-! 🦊 Čo... Kde som?
-> Quoi... Où je suis ?
-> Kde som = où suis-je
+! 🦊 Kde sme?
+> On est où ?
+> Kde sme = où sommes-nous
 
-! 💬 Nad ním visia jablká. Ešte nie sú zrelé.
-> Au-dessus de lui pendent des pommes. Elles ne sont pas encore mûres.
-> Nad ním = au-dessus de lui
-> visia jablká = pendent des pommes
-> Ešte nie sú zrelé = elles ne sont pas encore mûres
+! 🐰 V záhrade mojej tety.
+> Dans le jardin de ma tante.
+> V záhrade mojej tety = dans le jardin de ma tante
 
-! 🦊 Aha. V záhrade.
-> Ah. Dans le jardin.
-> V záhrade = dans le jardin
+! 🦊 A hrad?
+> Et le château ?
 
-! 🐰 Dobré ráno, [USER_NAME]. Spal si dlho.
-> Bonjour, [USER_NAME]. Tu as dormi longtemps.
-> Dobré ráno = bonjour (le matin)
-> Spal si dlho = tu as dormi longtemps
+! 🐰 Aký hrad?
+> Quel château ?
+> Aký hrad = quel château
 
-! 🦊 Andrea?
-> Andrea ?
+! 🦊 Aký je dnes deň?
+> On est quel jour ?
+> Aký je dnes deň = quel jour sommes-nous
 
-! 🐰 Ja. Ako vždy.
-> Moi. Comme toujours.
-> Ja = moi
-> Ako vždy = comme toujours
+! 🐰 Utorok. Prišiel si včera. Kto je Marek?
+> Mardi. Tu es arrivé hier. Qui est Marek ?
+> Utorok = mardi
+> Prišiel si včera = tu es arrivé hier
+> Kto je Marek = qui est Marek
 
 ---
 
 ## 🇸🇰 Coin slovaque
 
-{{fr:Le matin, on dit}} {{Dobré ráno!}}{{fr:, puis}} {{Dobrý deň!}} {{fr:dans la journée et}} {{Dobrý večer!}} {{fr:le soir. Trois bonjours pour une seule journée.}}
+{{fr:Le mot}} {{list}} {{fr:a deux sens en slovaque : la feuille d'un arbre, et la lettre qu'on envoie. Tu l'as rencontré deux fois : la lettre de pán Orol, et la lettre de l'avocat. Ce matin, ce sont les feuilles du pommier.}}
 
-{{fr:Le pommier,}} {{jabloň}}{{fr:, vient de}} {{jablko}}{{fr:, la pomme. Dans beaucoup de jardins slovaques, il y a un vieux pommier. Les pommes servent pour la}} {{štrúdľa}} {{fr:ou pour la compote.}}
+{{fr:Et}} {{jabloň}}{{fr:, le pommier, tu le connais depuis le premier soir.}}
 
 ---
 
@@ -93,20 +101,25 @@
 
 | Slovenčina | Français |
 |------------|----------|
-| jablko | la pomme |
-| strom | l'arbre |
-| zobudiť sa | se réveiller |
+| hruška | la poire |
+| slivka | la prune |
+| ovocie | les fruits |
 
 ---
 
 ## Encore quelques répliques
 
-! Zobudil som sa v záhrade.
-> Je me suis réveillé dans le jardin.
-> Zobudil som sa = je me suis réveillé
-> v záhrade = dans le jardin
+! Prišla som predvčerom.
+> Je suis arrivée avant-hier.
+> Prišla som = je suis arrivée
+> predvčerom = avant-hier
 
-! Na strome sú jablká.
-> Il y a des pommes sur l'arbre.
-> Na strome = sur l'arbre
-> sú jablká = il y a des pommes
+! Pozajtra ideme domov.
+> Après-demain, on rentre.
+> Pozajtra = après-demain
+> ideme domov = nous rentrons
+
+! Dnes ráno pršalo.
+> Ce matin, il a plu.
+> Dnes ráno = ce matin
+> pršalo = il a plu

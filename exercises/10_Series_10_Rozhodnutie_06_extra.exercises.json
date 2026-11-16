@@ -1,339 +1,289 @@
 {
-  "mode": "replace",
-  "sync": "full",
-  "exercises": [
-    {
-      "id": "listen-o-im-povieme-v-telev-zii",
-      "type": "listen",
-      "l1": "Qu'est-ce qu'on leur dira à la télévision ?",
-      "l2": "Čo im povieme v televízii?",
-      "choices_l1": [
-        "Qu'est-ce qu'on leur dira à la radio ?",
-        "Qu'est-ce qu'ils nous diront à la télévision ?",
-        "Quand est-ce qu'on ira à la télévision ?"
-      ]
-    },
-    {
-      "id": "listen-ak-povieme-p-vec-nikto-si-nezapam-t-ni",
-      "type": "listen",
-      "l1": "Si on en dit cinq, personne n'en retiendra aucune.",
-      "l2": "Ak povieme päť vecí, nikto si nič nezapamätá.",
-      "choices_l1": [
-        "Si on en dit une, personne n'en retiendra aucune.",
-        "Si on en dit cinq, tout le monde les retiendra.",
-        "Si on en dit cinq, personne ne nous écoutera."
-      ]
-    },
-    {
-      "id": "listen-povedzme-to-o-sme-videli",
-      "type": "listen",
-      "l1": "Disons ce qu'on a vu.",
-      "l2": "Povedzme to, čo sme videli.",
-      "choices_l1": [
-        "Disons ce qu'on pense.",
-        "Montrons ce qu'on a vu.",
-        "Disons ce qu'ils ont vu."
-      ]
-    },
-    {
-      "id": "listen-dobre-to-si-zap-em",
-      "type": "listen",
-      "l1": "D'accord. Je le note.",
-      "l2": "Dobre. To si zapíšem.",
-      "choices_l1": [
-        "D'accord. Je l'oublie.",
-        "Non. Je ne le note pas.",
-        "D'accord. Je le dis."
-      ]
-    },
-    {
-      "id": "listen-neviem-ale-znie-to-ako-pros-m",
-      "type": "listen",
-      "l1": "Je ne sais pas. Mais ça ressemble à « s'il te plaît ».",
-      "l2": "Neviem. Ale znie to ako „prosím“.",
-      "choices_l1": [
-        "Je ne sais pas. Mais ça ressemble à « merci ».",
-        "Je sais. Il dit « s'il te plaît ».",
-        "Je ne sais pas. Mais ça ressemble à « au revoir »."
-      ]
-    },
-    {
-      "id": "listen-letenku-l-stok-je-na-vlak",
-      "type": "listen",
-      "l1": "Ton billet d'avion. Un ticket, c'est pour le train.",
-      "l2": "Letenku. Lístok je na vlak.",
-      "choices_l1": [
-        "Ton billet de train. Un ticket, c'est pour le tram.",
-        "Ton ticket. Un billet d'avion, c'est pour le train.",
-        "Ton billet d'avion. Un ticket, c'est pour le bus."
-      ]
-    },
-    {
-      "id": "listen-to-je-ve-mi-dobr-mama",
-      "type": "listen",
-      "l1": "C'est une très bonne maman.",
-      "l2": "To je veľmi dobrá mama.",
-      "choices_l1": [
-        "C'est une très bonne idée.",
-        "C'est une très bonne mamie.",
-        "C'est une maman très sévère."
-      ]
-    },
-    {
-      "id": "match-mal-by-som-vocab",
-      "type": "match",
-      "l1": [
-        "je devrais",
-        "dimanche",
-        "les lettres",
-        "la broche"
-      ],
-      "l2": [
-        "mal by som",
-        "nedeľa",
-        "listy",
-        "ražeň"
-      ]
-    },
-    {
-      "id": "match-prelo-words",
-      "type": "match",
-      "l1": [
-        "Traduis !",
-        "Appelle !",
-        "à voix haute",
-        "la différence"
-      ],
-      "l2": [
-        "Prelož!",
-        "Zavolaj!",
-        "nahlas",
-        "rozdiel"
-      ]
-    },
-    {
-      "id": "blank-ja-by-som-to-povedala-jednoduch-ie-my-sme-tam-boli",
-      "type": "fill-blank",
-      "l1": "Moi, je le dirais plus simplement : « Nous, on était là. »",
-      "l2": "Ja by som to povedala jednoduchšie: „My sme tam boli.“",
-      "missing_l1": "simplement",
-      "missing_l2": "jednoduchšie",
-      "blank_index_l1": 5,
-      "blank_index_l2": 5,
-      "choices_l1": [
-        "vite",
-        "fort",
-        "doucement"
-      ],
-      "choices_l2": [
-        "rýchlejšie",
-        "teplejšie",
-        "vyššie"
-      ],
-      "show_translation": true
-    },
-    {
-      "id": "blank-pr-dem-o-de-nesk-r-mama-povedala-e-dobre-a-e-mi-zmen-l-stok-na-pondelok",
-      "type": "fill-blank",
-      "l1": "J'arriverai un jour plus tard. Maman a dit d'accord. Et qu'elle changerait mon ticket pour lundi.",
-      "l2": "Prídem o deň neskôr. Mama povedala, že dobre. A že mi zmení lístok na pondelok.",
-      "missing_l1": "lundi",
-      "missing_l2": "pondelok",
-      "blank_index_l1": 15,
-      "blank_index_l2": 14,
-      "choices_l1": [
-        "dimanche",
-        "samedi",
-        "demain"
-      ],
-      "choices_l2": [
-        "nedeľu",
-        "sobotu",
-        "zajtra"
-      ],
-      "show_translation": true
-    },
-    {
-      "id": "order-ak-povieme-len-jednu-vec-povedia-e-n-m-ide-len-o-jednu-vec",
-      "type": "order",
-      "l1": "Si on ne dit qu'une seule chose, ils diront qu'on ne parle que de ça.",
-      "l2": "Ak povieme len jednu vec, povedia, že nám ide len o jednu vec.",
-      "tokens_l1": [
-        "Si",
-        "on",
-        "ne",
-        "dit",
-        "qu'une",
-        "seule",
-        "chose,",
-        "ils",
-        "diront",
-        "qu'on",
-        "ne",
-        "parle",
-        "que",
-        "de",
-        "ça.",
-        "le",
-        "note"
-      ],
-      "tokens_l2": [
-        "Ak",
-        "povieme",
-        "len",
-        "jednu",
-        "vec,",
-        "povedia,",
-        "že",
-        "nám",
-        "ide",
-        "len",
-        "o",
-        "jednu",
-        "vec.",
-        "zapíšem",
-        "si"
-      ]
-    },
-    {
-      "id": "order-povedala-e-aj-ona-mala-rada-dobrodru-stv-ke-bola-mlad",
-      "type": "order",
-      "l1": "Elle a dit qu'elle aussi, elle aimait l'aventure quand elle était jeune.",
-      "l2": "Povedala, že aj ona mala rada dobrodružstvá, keď bola mladá.",
-      "tokens_l1": [
-        "Elle",
-        "a",
-        "dit",
-        "qu'elle",
-        "aussi,",
-        "elle",
-        "aimait",
-        "l'aventure",
-        "quand",
-        "elle",
-        "était",
-        "jeune.",
-        "en",
-        "retiendra"
-      ],
-      "tokens_l2": [
-        "Povedala,",
-        "že",
-        "aj",
-        "ona",
-        "mala",
-        "rada",
-        "dobrodružstvá,",
-        "keď",
-        "bola",
-        "mladá.",
-        "vecí",
-        "nezapamätá"
-      ]
-    },
-    {
-      "id": "listen-takie-kto-za-to-m-e",
-      "type": "listen",
-      "l1": "Alors, à qui la faute ?",
-      "l2": "Takže kto za to môže?",
-      "choices_l1": [
-        "Alors, qui a fait ça ?",
-        "Alors, à qui est-ce ?",
-        "Alors, qui veut y aller ?"
-      ]
-    },
-    {
-      "id": "blank-ka-d-trochu-preto-nikto-celkom",
-      "type": "fill-blank",
-      "l1": "À chacun un peu. Donc à personne tout à fait.",
-      "l2": "Každý trochu. Preto nikto celkom.",
-      "missing_l1": "Donc",
-      "missing_l2": "Preto",
-      "blank_index_l1": 4,
-      "blank_index_l2": 2,
-      "choices_l1": [
-        "Avant",
-        "Jamais",
-        "Déjà"
-      ],
-      "choices_l2": [
-        "Predtým",
-        "Nikdy",
-        "Už"
-      ],
-      "show_translation": true
-    },
-    {
-      "id": "qcm-celkom",
-      "type": "qcm",
-      "l1": "tout à fait",
-      "l2": "celkom",
-      "choices_l1": [
-        "fatigués",
-        "sales",
-        "le feu"
-      ],
-      "choices_l2": [
-        "unavení",
-        "špinaví",
-        "oheň"
-      ]
-    },
-    {
-      "id": "qcm-za-to-m-e",
-      "type": "qcm",
-      "l1": "c'est de sa faute",
-      "l2": "za to môže",
-      "choices_l1": [
-        "je devrais",
-        "dimanche",
-        "les lettres"
-      ],
-      "choices_l2": [
-        "mal by som",
-        "nedeľa",
-        "listy"
-      ]
-    },
-    {
-      "id": "order-ka-d-trochu-preto-nikto-celkom",
-      "type": "order",
-      "l1": "À chacun un peu. Donc à personne tout à fait.",
-      "l2": "Každý trochu. Preto nikto celkom.",
-      "tokens_l1": [
-        "À",
-        "chacun",
-        "un",
-        "peu.",
-        "Donc",
-        "à",
-        "personne",
-        "tout",
-        "à",
-        "fait.",
-        "seule",
-        "diront"
-      ],
-      "tokens_l2": [
-        "Každý",
-        "trochu.",
-        "Preto",
-        "nikto",
-        "celkom.",
-        "ide",
-        "jednu"
-      ]
-    },
-    {
-      "id": "listen-ka-d-trochu-preto-nikto-celkom",
-      "type": "listen",
-      "l1": "À chacun un peu. Donc à personne tout à fait.",
-      "l2": "Každý trochu. Preto nikto celkom.",
-      "choices_l1": [
-        "À chacun un peu. Donc à tout le monde pareil.",
-        "Personne un peu. Donc chacun tout à fait.",
-        "À chacun un peu. Donc à quelqu'un tout à fait."
-      ]
-    }
-  ]
+ "mode": "replace",
+ "sync": "full",
+ "exercises": [
+  {
+   "id": "qcm-ostatn",
+   "type": "qcm",
+   "l1": "les autres",
+   "l2": "ostatní",
+   "choices_l1": [
+    "s'approcher",
+    "le vol",
+    "je plaisante"
+   ],
+   "choices_l2": [
+    "cudzí",
+    "krádež",
+    "priblížiť sa"
+   ]
+  },
+  {
+   "id": "qcm-pribl-i-sa",
+   "type": "qcm",
+   "l1": "s'approcher",
+   "l2": "priblížiť sa",
+   "choices_l1": [
+    "la restitution",
+    "le vol",
+    "je plaisante"
+   ],
+   "choices_l2": [
+    "ostatní",
+    "cudzí",
+    "vrátenie"
+   ]
+  },
+  {
+   "id": "qcm-cudz",
+   "type": "qcm",
+   "l1": "d'un autre, étranger",
+   "l2": "cudzí",
+   "choices_l1": [
+    "il fera beau",
+    "Je sais que…",
+    "une fois par mois"
+   ],
+   "choices_l2": [
+    "krádež",
+    "vrátenie",
+    "ostatní"
+   ]
+  },
+  {
+   "id": "qcm-kr-de",
+   "type": "qcm",
+   "l1": "le vol",
+   "l2": "krádež",
+   "choices_l1": [
+    "s'approcher",
+    "les autres",
+    "je plaisante"
+   ],
+   "choices_l2": [
+    "cudzí",
+    "ostatní",
+    "priblížiť sa"
+   ]
+  },
+  {
+   "id": "qcm-vr-tenie",
+   "type": "qcm",
+   "l1": "la restitution",
+   "l2": "vrátenie",
+   "choices_l1": [
+    "les autres",
+    "le vol",
+    "je plaisante"
+   ],
+   "choices_l2": [
+    "ostatní",
+    "priblížiť sa",
+    "krádež"
+   ]
+  },
+  {
+   "id": "qcm-rob-m-si-srandu",
+   "type": "qcm",
+   "l1": "je plaisante",
+   "l2": "robím si srandu",
+   "choices_l1": [
+    "s'approcher",
+    "le vol",
+    "la restitution"
+   ],
+   "choices_l2": [
+    "Máš veľký batoh.",
+    "veľa → viac",
+    "na druhej strane"
+   ]
+  },
+  {
+   "id": "qcm-prem-ajte",
+   "type": "qcm",
+   "l1": "Réfléchissez.",
+   "l2": "Premýšľajte.",
+   "choices_l1": [
+    "je réponds",
+    "le wagon",
+    "la bourse"
+   ],
+   "choices_l2": [
+    "nakoniec",
+    "fabrika",
+    "zadná strana"
+   ]
+  },
+  {
+   "id": "qcm-odkedy",
+   "type": "qcm",
+   "l1": "depuis que",
+   "l2": "odkedy",
+   "choices_l1": [
+    "l'adulte",
+    "les petits-enfants",
+    "régler, résoudre"
+   ],
+   "choices_l2": [
+    "každý",
+    "znova",
+    "o desiatej"
+   ]
+  },
+  {
+   "id": "listen-a-povedal-si-mi-aby-som",
+   "type": "listen",
+   "l1": "Et tu m'as dit de demander.",
+   "l2": "A povedal si mi, aby som sa ťa spýtala.",
+   "choices_l1": [
+    "Et tu m'as dit de partir.",
+    "Et je t'ai dit de demander.",
+    "Et tu ne m'as rien dit."
+   ]
+  },
+  {
+   "id": "listen-nie-to-je-vrátenie",
+   "type": "listen",
+   "l1": "Non. C'est une restitution.",
+   "l2": "Nie. To je vrátenie.",
+   "choices_l1": [
+    "Oui. C'est du vol.",
+    "Non. C'est un cadeau.",
+    "Non. C'est une blague."
+   ]
+  },
+  {
+   "id": "listen-vidíš-nebolo-to-také-ťažké",
+   "type": "listen",
+   "l1": "Tu vois. Ce n'était pas si difficile.",
+   "l2": "Vidíš. Nebolo to také ťažké.",
+   "choices_l1": [
+    "Tu vois. C'était très difficile.",
+    "Tu vois. Ce n'était pas si loin.",
+    "Écoute. Ce n'est pas facile."
+   ]
+  },
+  {
+   "id": "blank-z-cudzieho-auta-to-je-krádež",
+   "type": "fill-blank",
+   "l1": "Dans la voiture de quelqu'un ? C'est du vol.",
+   "l2": "Z cudzieho auta? To je krádež.",
+   "missing_l1": "vol",
+   "missing_l2": "krádež",
+   "blank_index_l1": 8,
+   "blank_index_l2": 5,
+   "choices_l1": [
+    "jeu",
+    "travail",
+    "cadeau"
+   ],
+   "choices_l2": [
+    "hra",
+    "práca",
+    "darček"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "blank-si-hlúpy",
+   "type": "fill-blank",
+   "l1": "Tu es bête.",
+   "l2": "Si hlúpy.",
+   "missing_l1": "bête",
+   "missing_l2": "hlúpy",
+   "blank_index_l1": 2,
+   "blank_index_l2": 1,
+   "choices_l1": [
+    "grand",
+    "beau",
+    "gentil"
+   ],
+   "choices_l2": [
+    "veľký",
+    "pekný",
+    "milý"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "order-robím-si-srandu-áno",
+   "type": "order",
+   "l1": "Je plaisante. Oui.",
+   "l2": "Robím si srandu. Áno.",
+   "tokens_l1": [
+    "Je",
+    "plaisante.",
+    "Oui.",
+    "Tu",
+    "veux",
+    "bien",
+    "aller",
+    "reprendre",
+    "mon",
+    "carnet",
+    "?"
+   ],
+   "tokens_l2": [
+    "Robím",
+    "si",
+    "srandu.",
+    "Áno.",
+    "Vezmeš",
+    "mi",
+    "z",
+    "toho",
+    "auta",
+    "môj",
+    "zápisník?"
+   ]
+  },
+  {
+   "id": "order-vezmeš-mi-z-toho-auta-môj",
+   "type": "order",
+   "l1": "Tu veux bien aller reprendre mon carnet ?",
+   "l2": "Vezmeš mi z toho auta môj zápisník?",
+   "tokens_l1": [
+    "Tu",
+    "veux",
+    "bien",
+    "aller",
+    "reprendre",
+    "mon",
+    "carnet",
+    "?",
+    "Je",
+    "plaisante.",
+    "Oui."
+   ],
+   "tokens_l2": [
+    "Vezmeš",
+    "mi",
+    "z",
+    "toho",
+    "auta",
+    "môj",
+    "zápisník?",
+    "Robím",
+    "si",
+    "srandu.",
+    "Áno."
+   ]
+  },
+  {
+   "id": "match-ostatní-vocab",
+   "type": "match",
+   "l1": [
+    "les autres",
+    "s'approcher",
+    "d'un autre, étranger",
+    "le vol"
+   ],
+   "l2": [
+    "ostatní",
+    "priblížiť sa",
+    "cudzí",
+    "krádež"
+   ]
+  }
+ ]
 }

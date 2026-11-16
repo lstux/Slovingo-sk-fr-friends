@@ -1,0 +1,251 @@
+{
+ "mode": "replace",
+ "sync": "full",
+ "exercises": [
+  {
+   "id": "qcm-spr-va",
+   "type": "qcm",
+   "l1": "le message",
+   "l2": "správa",
+   "choices_l1": [
+    "elle m'aime",
+    "plus vite",
+    "de Vienne"
+   ],
+   "choices_l2": [
+    "či",
+    "lietadlo",
+    "odpovedám"
+   ]
+  },
+  {
+   "id": "qcm-lietadlo",
+   "type": "qcm",
+   "l1": "l'avion",
+   "l2": "lietadlo",
+   "choices_l1": [
+    "elle m'aime",
+    "chaque",
+    "je réponds"
+   ],
+   "choices_l2": [
+    "z Viedne",
+    "ľúbi ma",
+    "odpovedám"
+   ]
+  },
+  {
+   "id": "qcm-z-viedne",
+   "type": "qcm",
+   "l1": "de Vienne",
+   "l2": "z Viedne",
+   "choices_l1": [
+    "le message",
+    "l'avion",
+    "elle m'aime"
+   ],
+   "choices_l2": [
+    "každý",
+    "či",
+    "odpovedám"
+   ]
+  },
+  {
+   "id": "qcm-o-desiatej",
+   "type": "qcm",
+   "l1": "à dix heures",
+   "l2": "o desiatej",
+   "choices_l1": [
+    "vieux → plus vieux → le plus vieux",
+    "On vous aide.",
+    "net (une photo)"
+   ],
+   "choices_l2": [
+    "každý",
+    "píše",
+    "lietadlo"
+   ]
+  },
+  {
+   "id": "qcm-p-e",
+   "type": "qcm",
+   "l1": "elle écrit",
+   "l2": "píše",
+   "choices_l1": [
+    "l'avion",
+    "chaque",
+    "le message"
+   ],
+   "choices_l2": [
+    "z Viedne",
+    "či",
+    "každý"
+   ]
+  },
+  {
+   "id": "qcm-i",
+   "type": "qcm",
+   "l1": "si (dans une question)",
+   "l2": "či",
+   "choices_l1": [
+    "se met à courir",
+    "couvert de boue",
+    "le chauffeur de camion"
+   ],
+   "choices_l2": [
+    "každý",
+    "z Viedne",
+    "lietadlo"
+   ]
+  },
+  {
+   "id": "listen-zazvoní-mu-mobil",
+   "type": "listen",
+   "l1": "Son téléphone sonne.",
+   "l2": "Zazvoní mu mobil.",
+   "choices_l1": [
+    "Son téléphone ne sonne pas.",
+    "Mon téléphone sonne.",
+    "Son réveil sonne."
+   ]
+  },
+  {
+   "id": "listen-v-každej-správe",
+   "type": "listen",
+   "l1": "À chaque message.",
+   "l2": "V každej správe.",
+   "choices_l1": [
+    "À chaque fois.",
+    "Dans chaque lettre.",
+    "Jamais."
+   ]
+  },
+  {
+   "id": "listen-na-všetko-je-to-rýchlejšie",
+   "type": "listen",
+   "l1": "À tout. Ça va plus vite.",
+   "l2": "Na všetko. Je to rýchlejšie.",
+   "choices_l1": [
+    "À rien. C'est plus lent.",
+    "À tout. C'est plus simple.",
+    "Oui. Ça va très vite."
+   ]
+  },
+  {
+   "id": "blank-mama-píše-že-ma-ľúbi",
+   "type": "fill-blank",
+   "l1": "Maman écrit qu'elle m'aime.",
+   "l2": "Mama píše, že ma ľúbi.",
+   "missing_l1": "Maman",
+   "missing_l2": "Mama",
+   "blank_index_l1": 0,
+   "blank_index_l2": 0,
+   "choices_l1": [
+    "Papa",
+    "Babka",
+    "Katka"
+   ],
+   "choices_l2": [
+    "Otec",
+    "Babka",
+    "Katka"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "blank-lietadlo-letí-o-desiatej",
+   "type": "fill-blank",
+   "l1": "L'avion part à dix heures.",
+   "l2": "Lietadlo letí o desiatej.",
+   "missing_l1": "dix",
+   "missing_l2": "desiatej",
+   "blank_index_l1": 3,
+   "blank_index_l2": 3,
+   "choices_l1": [
+    "sept",
+    "six",
+    "deux"
+   ],
+   "choices_l2": [
+    "siedmej",
+    "šiestej",
+    "druhej"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "order-pýta-sa-či-ješ",
+   "type": "order",
+   "l1": "Elle demande si tu manges.",
+   "l2": "Pýta sa, či ješ.",
+   "tokens_l1": [
+    "Elle",
+    "demande",
+    "si",
+    "tu",
+    "manges.",
+    "Et",
+    "toi,",
+    "tu",
+    "réponds",
+    "quoi",
+    "?"
+   ],
+   "tokens_l2": [
+    "Pýta",
+    "sa,",
+    "či",
+    "ješ.",
+    "A",
+    "ty",
+    "čo",
+    "odpovedáš?"
+   ]
+  },
+  {
+   "id": "order-a-ty-čo-odpovedáš",
+   "type": "order",
+   "l1": "Et toi, tu réponds quoi ?",
+   "l2": "A ty čo odpovedáš?",
+   "tokens_l1": [
+    "Et",
+    "toi,",
+    "tu",
+    "réponds",
+    "quoi",
+    "?",
+    "Elle",
+    "demande",
+    "si",
+    "tu",
+    "manges."
+   ],
+   "tokens_l2": [
+    "A",
+    "ty",
+    "čo",
+    "odpovedáš?",
+    "Pýta",
+    "sa,",
+    "či",
+    "ješ."
+   ]
+  },
+  {
+   "id": "match-správa-vocab",
+   "type": "match",
+   "l1": [
+    "le message",
+    "l'avion",
+    "de Vienne",
+    "à dix heures"
+   ],
+   "l2": [
+    "správa",
+    "lietadlo",
+    "z Viedne",
+    "o desiatej"
+   ]
+  }
+ ]
+}

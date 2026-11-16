@@ -1,0 +1,263 @@
+{
+ "mode": "replace",
+ "sync": "full",
+ "exercises": [
+  {
+   "id": "qcm-be-ia",
+   "type": "qcm",
+   "l1": "ils courent",
+   "l2": "bežia",
+   "choices_l1": [
+    "essoufflé",
+    "le sang",
+    "ils claquent"
+   ],
+   "choices_l2": [
+    "porozprávať sa",
+    "pohne sa",
+    "krv"
+   ]
+  },
+  {
+   "id": "qcm-buchn",
+   "type": "qcm",
+   "l1": "ils claquent",
+   "l2": "buchnú",
+   "choices_l1": [
+    "essoufflé",
+    "ils courent",
+    "pendant que"
+   ],
+   "choices_l2": [
+    "bežia",
+    "pohne sa",
+    "porozprávať sa"
+   ]
+  },
+  {
+   "id": "qcm-porozpr-va-sa",
+   "type": "qcm",
+   "l1": "discuter",
+   "l2": "porozprávať sa",
+   "choices_l1": [
+    "le sang",
+    "essoufflé",
+    "pendant que"
+   ],
+   "choices_l2": [
+    "krv",
+    "kým",
+    "buchnú"
+   ]
+  },
+  {
+   "id": "qcm-nasko-ia",
+   "type": "qcm",
+   "l1": "ils sautent dedans",
+   "l2": "naskočia",
+   "choices_l1": [
+    "que (pour comparer)",
+    "des enfants intelligents",
+    "Qu'est-ce que tu ferais ? (à un garçon)"
+   ],
+   "choices_l2": [
+    "bežia",
+    "porozprávať sa",
+    "v mobile"
+   ]
+  },
+  {
+   "id": "qcm-zad-chan",
+   "type": "qcm",
+   "l1": "essoufflé",
+   "l2": "zadýchaný",
+   "choices_l1": [
+    "le sang",
+    "il démarre",
+    "pendant que"
+   ],
+   "choices_l2": [
+    "pohne sa",
+    "bežia",
+    "buchnú"
+   ]
+  },
+  {
+   "id": "qcm-pohne-sa",
+   "type": "qcm",
+   "l1": "il démarre",
+   "l2": "pohne sa",
+   "choices_l1": [
+    "discuter",
+    "ils courent",
+    "essoufflé"
+   ],
+   "choices_l2": [
+    "buchnú",
+    "krv",
+    "zadýchaný"
+   ]
+  },
+  {
+   "id": "listen-počas-behu",
+   "type": "listen",
+   "l1": "En courant ?",
+   "l2": "Počas behu?",
+   "choices_l1": [
+    "En dormant ?",
+    "En marchant ?",
+    "En tram ?"
+   ]
+  },
+  {
+   "id": "listen-mám-optiku-v-krvi",
+   "type": "listen",
+   "l1": "J'ai la fibre dans le sang.",
+   "l2": "Mám optiku v krvi.",
+   "choices_l1": [
+    "J'ai la fibre dans le téléphone.",
+    "J'ai le tram dans le sang.",
+    "J'ai la fibre à la maison."
+   ]
+  },
+  {
+   "id": "listen-bežia-za-nimi-buchnú-dvere",
+   "type": "listen",
+   "l1": "Ils courent. Derrière eux, une porte claque.",
+   "l2": "Bežia. Za nimi buchnú dvere.",
+   "choices_l1": [
+    "Ils marchent. Derrière eux, une porte s'ouvre.",
+    "Ils courent. Devant eux, une porte claque.",
+    "Ils dorment. Derrière eux, une porte claque."
+   ]
+  },
+  {
+   "id": "blank-idem-električkou",
+   "type": "fill-blank",
+   "l1": "J'y vais en tram.",
+   "l2": "Idem električkou.",
+   "missing_l1": "tram",
+   "missing_l2": "električkou",
+   "blank_index_l1": 3,
+   "blank_index_l2": 1,
+   "choices_l1": [
+    "bus",
+    "train",
+    "voiture"
+   ],
+   "choices_l2": [
+    "autobusom",
+    "vlakom",
+    "autom"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "blank-prišli-sme-vlakom",
+   "type": "fill-blank",
+   "l1": "Nous sommes venus en train.",
+   "l2": "Prišli sme vlakom.",
+   "missing_l1": "train",
+   "missing_l2": "vlakom",
+   "blank_index_l1": 4,
+   "blank_index_l2": 2,
+   "choices_l1": [
+    "bus",
+    "tram",
+    "voiture"
+   ],
+   "choices_l2": [
+    "autobusom",
+    "električkou",
+    "autom"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "order-usmieva-sa-je-zadýchaný-električka-sa",
+   "type": "order",
+   "l1": "Il sourit. Il est essoufflé. Le tram démarre.",
+   "l2": "Usmieva sa. Je zadýchaný. Električka sa pohne.",
+   "tokens_l1": [
+    "Il",
+    "sourit.",
+    "Il",
+    "est",
+    "essoufflé.",
+    "Le",
+    "tram",
+    "démarre.",
+    "Je",
+    "vais",
+    "à",
+    "l'école",
+    "en",
+    "bus."
+   ],
+   "tokens_l2": [
+    "Usmieva",
+    "sa.",
+    "Je",
+    "zadýchaný.",
+    "Električka",
+    "sa",
+    "pohne.",
+    "Do",
+    "školy",
+    "chodím",
+    "autobusom."
+   ]
+  },
+  {
+   "id": "order-do-školy-chodím-autobusom",
+   "type": "order",
+   "l1": "Je vais à l'école en bus.",
+   "l2": "Do školy chodím autobusom.",
+   "tokens_l1": [
+    "Je",
+    "vais",
+    "à",
+    "l'école",
+    "en",
+    "bus.",
+    "Il",
+    "sourit.",
+    "Il",
+    "est",
+    "essoufflé.",
+    "Le",
+    "tram",
+    "démarre."
+   ],
+   "tokens_l2": [
+    "Do",
+    "školy",
+    "chodím",
+    "autobusom.",
+    "Usmieva",
+    "sa.",
+    "Je",
+    "zadýchaný.",
+    "Električka",
+    "sa",
+    "pohne."
+   ]
+  },
+  {
+   "id": "match-bežia-vocab",
+   "type": "match",
+   "l1": [
+    "ils courent",
+    "ils claquent",
+    "discuter",
+    "ils sautent dedans"
+   ],
+   "l2": [
+    "bežia",
+    "buchnú",
+    "porozprávať sa",
+    "naskočia"
+   ]
+  }
+ ]
+}

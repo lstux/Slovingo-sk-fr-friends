@@ -1,0 +1,274 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-zazvon",
+      "type": "qcm",
+      "l1": "ça sonne",
+      "l2": "zazvoní",
+      "choices_l1": [
+        "l'usine",
+        "la télévision",
+        "Écoute-moi."
+      ],
+      "choices_l2": [
+        "Povedzte!",
+        "Nezatvárajte!",
+        "budete vedieť"
+      ]
+    },
+    {
+      "id": "qcm-telev-zia",
+      "type": "qcm",
+      "l1": "la télévision",
+      "l2": "televízia",
+      "choices_l1": [
+        "ça sonne",
+        "l'usine",
+        "les deux"
+      ],
+      "choices_l2": [
+        "oboje",
+        "fabrika",
+        "Počúvaj ma."
+      ]
+    },
+    {
+      "id": "qcm-po-vaj-ma",
+      "type": "qcm",
+      "l1": "Écoute-moi.",
+      "l2": "Počúvaj ma.",
+      "choices_l1": [
+        "l'usine",
+        "ça sonne",
+        "les deux"
+      ],
+      "choices_l2": [
+        "oboje",
+        "fabrika",
+        "Nezatvárajte!"
+      ]
+    },
+    {
+      "id": "qcm-sadla-som-si",
+      "type": "qcm",
+      "l1": "je me suis assise",
+      "l2": "sadla som si",
+      "choices_l1": [
+        "je voulais dire (une fille)",
+        "les bottes en caoutchouc",
+        "Personne ne parle."
+      ],
+      "choices_l2": [
+        "Ďakujem za limonádu.",
+        "leto → v lete",
+        "Je veľmi teplo."
+      ]
+    },
+    {
+      "id": "qcm-povedzte",
+      "type": "qcm",
+      "l1": "Dites !",
+      "l2": "Povedzte!",
+      "choices_l1": [
+        "Mangez !",
+        "vous saurez",
+        "Écoute-moi."
+      ],
+      "choices_l2": [
+        "fabrika",
+        "budete vedieť",
+        "Najedzte sa!"
+      ]
+    },
+    {
+      "id": "qcm-nezatv-rajte",
+      "type": "qcm",
+      "l1": "Ne fermez pas !",
+      "l2": "Nezatvárajte!",
+      "choices_l1": [
+        "Il a raison, elle a raison.",
+        "ils ont coupé (les arbres)",
+        "tu as compris (à un garçon)"
+      ],
+      "choices_l2": [
+        "Počúvaj ma.",
+        "budete vedieť",
+        "Najedzte sa!"
+      ]
+    },
+    {
+      "id": "listen-starosta-hovorí-veľa-vecí",
+      "type": "listen",
+      "l1": "Le maire dit beaucoup de choses.",
+      "l2": "Starosta hovorí veľa vecí.",
+      "choices_l1": [
+        "Le maire ne dit rien.",
+        "Babka dit beaucoup de choses.",
+        "Le maire dit la vérité."
+      ]
+    },
+    {
+      "id": "listen-a-tvoj-sused-babka",
+      "type": "listen",
+      "l1": "Et ton voisin, Babka ?",
+      "l2": "A tvoj sused, babka?",
+      "choices_l1": [
+        "Et ton chien, Babka ?",
+        "Et ta maison, Babka ?",
+        "Et toi, Babka ?"
+      ]
+    },
+    {
+      "id": "listen-nevieme",
+      "type": "listen",
+      "l1": "On ne sait pas.",
+      "l2": "Nevieme.",
+      "choices_l1": [
+        "On sait.",
+        "Je ne sais pas.",
+        "On ne veut pas."
+      ]
+    },
+    {
+      "id": "blank-povedzte-mi-pravdu",
+      "type": "fill-blank",
+      "l1": "Dites-moi la vérité.",
+      "l2": "Povedzte mi pravdu.",
+      "missing_l1": "vérité",
+      "missing_l2": "pravdu",
+      "blank_index_l1": 2,
+      "blank_index_l2": 2,
+      "choices_l1": [
+        "route",
+        "heure",
+        "réponse"
+      ],
+      "choices_l2": [
+        "cestu",
+        "čas",
+        "odpoveď"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-jedzte-deti",
+      "type": "fill-blank",
+      "l1": "Mangez, les enfants !",
+      "l2": "Jedzte, deti!",
+      "missing_l1": "Mangez",
+      "missing_l2": "Jedzte",
+      "blank_index_l1": 0,
+      "blank_index_l2": 0,
+      "choices_l1": [
+        "Dormez",
+        "Partez",
+        "Venez"
+      ],
+      "choices_l2": [
+        "Spite",
+        "Choďte",
+        "Poďte"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-nezatvárajte-dvere",
+      "type": "order",
+      "l1": "Ne fermez pas la porte !",
+      "l2": "Nezatvárajte dvere!",
+      "tokens_l1": [
+        "Ne",
+        "fermez",
+        "pas",
+        "la",
+        "porte",
+        "!",
+        "Alors",
+        "mangez",
+        "quelque",
+        "chose,",
+        "et",
+        "après",
+        "vous",
+        "saurez."
+      ],
+      "tokens_l2": [
+        "Nezatvárajte",
+        "dvere!",
+        "Tak",
+        "sa",
+        "najedzte,",
+        "a",
+        "potom",
+        "budete",
+        "vedieť."
+      ]
+    },
+    {
+      "id": "order-tak-sa-najedzte-a-potom-budete",
+      "type": "order",
+      "l1": "Alors mangez quelque chose, et après vous saurez.",
+      "l2": "Tak sa najedzte, a potom budete vedieť.",
+      "tokens_l1": [
+        "Alors",
+        "mangez",
+        "quelque",
+        "chose,",
+        "et",
+        "après",
+        "vous",
+        "saurez.",
+        "Katka",
+        "?",
+        "C'est",
+        "Babka.",
+        "Le",
+        "maire",
+        "dit",
+        "que",
+        "vous",
+        "allez",
+        "à",
+        "la",
+        "télévision."
+      ],
+      "tokens_l2": [
+        "Tak",
+        "sa",
+        "najedzte,",
+        "a",
+        "potom",
+        "budete",
+        "vedieť.",
+        "Katka?",
+        "To",
+        "je",
+        "babka.",
+        "Starosta",
+        "hovorí,",
+        "že",
+        "idete",
+        "do",
+        "televízie."
+      ]
+    },
+    {
+      "id": "match-zazvoní-vocab",
+      "type": "match",
+      "l1": [
+        "ça sonne",
+        "la télévision",
+        "Écoute-moi.",
+        "je me suis assise"
+      ],
+      "l2": [
+        "zazvoní",
+        "televízia",
+        "Počúvaj ma.",
+        "sadla som si"
+      ]
+    }
+  ]
+}

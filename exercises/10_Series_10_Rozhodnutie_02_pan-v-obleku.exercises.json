@@ -1,0 +1,267 @@
+{
+ "mode": "replace",
+ "sync": "full",
+ "exercises": [
+  {
+   "id": "qcm-nast-pi",
+   "type": "qcm",
+   "l1": "il monte (dans le train)",
+   "l2": "nastúpi",
+   "choices_l1": [
+    "plus rapide qu'un train",
+    "Si je savais, je le dirais. (une fille)",
+    "il dort, elle dort"
+   ],
+   "choices_l2": [
+    "váš",
+    "nakoniec",
+    "urobený"
+   ]
+  },
+  {
+   "id": "qcm-sadne-si",
+   "type": "qcm",
+   "l1": "il s'assoit",
+   "l2": "sadne si",
+   "choices_l1": [
+    "l'ennemi",
+    "finalement",
+    "votre"
+   ],
+   "choices_l2": [
+    "nastúpi",
+    "váš",
+    "urobený"
+   ]
+  },
+  {
+   "id": "qcm-oproti",
+   "type": "qcm",
+   "l1": "en face",
+   "l2": "oproti",
+   "choices_l1": [
+    "nos",
+    "finalement",
+    "il s'assoit"
+   ],
+   "choices_l2": [
+    "váš",
+    "naši",
+    "sadne si"
+   ]
+  },
+  {
+   "id": "qcm-nakoniec",
+   "type": "qcm",
+   "l1": "finalement",
+   "l2": "nakoniec",
+   "choices_l1": [
+    "nos",
+    "l'ingénieur",
+    "il s'assoit"
+   ],
+   "choices_l2": [
+    "Nebojte sa.",
+    "oproti",
+    "urobený"
+   ]
+  },
+  {
+   "id": "qcm-nebojte-sa",
+   "type": "qcm",
+   "l1": "N'ayez pas peur.",
+   "l2": "Nebojte sa.",
+   "choices_l1": [
+    "plus lourd qu'un ours",
+    "Il pleut, c'est pour ça que je suis à la maison.",
+    "Tu as un gros sac à dos."
+   ],
+   "choices_l2": [
+    "nastúpi",
+    "urobený",
+    "naši"
+   ]
+  },
+  {
+   "id": "qcm-nepriate",
+   "type": "qcm",
+   "l1": "l'ennemi",
+   "l2": "nepriateľ",
+   "choices_l1": [
+    "l'ingénieur",
+    "nos",
+    "finalement"
+   ],
+   "choices_l2": [
+    "Nebojte sa.",
+    "nastúpi",
+    "urobený"
+   ]
+  },
+  {
+   "id": "listen-rýchlo-sa-učím",
+   "type": "listen",
+   "l1": "J'apprends vite.",
+   "l2": "Rýchlo sa učím.",
+   "choices_l1": [
+    "J'apprends lentement.",
+    "Je comprends vite.",
+    "Tu apprends vite."
+   ]
+  },
+  {
+   "id": "listen-máte-môj-zápisník",
+   "type": "listen",
+   "l1": "Vous avez mon carnet.",
+   "l2": "Máte môj zápisník.",
+   "choices_l1": [
+    "Vous avez mon téléphone.",
+    "J'ai votre carnet.",
+    "Vous avez ton carnet."
+   ]
+  },
+  {
+   "id": "listen-nie-som-tvoj-nepriateľ",
+   "type": "listen",
+   "l1": "Je ne suis pas ton ennemi.",
+   "l2": "Nie som tvoj nepriateľ.",
+   "choices_l1": [
+    "Je suis ton ennemi.",
+    "Je ne suis pas ton ami.",
+    "Tu n'es pas mon ennemi."
+   ]
+  },
+  {
+   "id": "blank-to-je-náš-vlak",
+   "type": "fill-blank",
+   "l1": "C'est notre train.",
+   "l2": "To je náš vlak.",
+   "missing_l1": "train",
+   "missing_l2": "vlak",
+   "blank_index_l1": 2,
+   "blank_index_l2": 3,
+   "choices_l1": [
+    "bus",
+    "village",
+    "sac"
+   ],
+   "choices_l2": [
+    "autobus",
+    "dom",
+    "batoh"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "blank-vaša-taška-je-tu",
+   "type": "fill-blank",
+   "l1": "Votre sac est ici.",
+   "l2": "Vaša taška je tu.",
+   "missing_l1": "sac",
+   "missing_l2": "taška",
+   "blank_index_l1": 1,
+   "blank_index_l2": 1,
+   "choices_l1": [
+    "carnet",
+    "train",
+    "ticket"
+   ],
+   "choices_l2": [
+    "kniha",
+    "karta",
+    "fľaša"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "order-to-vidím-nebojte-sa-nie-som",
+   "type": "order",
+   "l1": "Je vois ça. N'ayez pas peur. Je ne suis pas votre ennemi.",
+   "l2": "To vidím. Nebojte sa. Nie som váš nepriateľ.",
+   "tokens_l1": [
+    "Je",
+    "vois",
+    "ça.",
+    "N'ayez",
+    "pas",
+    "peur.",
+    "Je",
+    "ne",
+    "suis",
+    "pas",
+    "votre",
+    "ennemi.",
+    "Vous",
+    "avez",
+    "mon",
+    "carnet."
+   ],
+   "tokens_l2": [
+    "To",
+    "vidím.",
+    "Nebojte",
+    "sa.",
+    "Nie",
+    "som",
+    "váš",
+    "nepriateľ.",
+    "Máte",
+    "môj",
+    "zápisník."
+   ]
+  },
+  {
+   "id": "order-máte-môj-zápisník",
+   "type": "order",
+   "l1": "Vous avez mon carnet.",
+   "l2": "Máte môj zápisník.",
+   "tokens_l1": [
+    "Vous",
+    "avez",
+    "mon",
+    "carnet.",
+    "Je",
+    "vois",
+    "ça.",
+    "N'ayez",
+    "pas",
+    "peur.",
+    "Je",
+    "ne",
+    "suis",
+    "pas",
+    "votre",
+    "ennemi."
+   ],
+   "tokens_l2": [
+    "Máte",
+    "môj",
+    "zápisník.",
+    "To",
+    "vidím.",
+    "Nebojte",
+    "sa.",
+    "Nie",
+    "som",
+    "váš",
+    "nepriateľ."
+   ]
+  },
+  {
+   "id": "match-nastúpi-vocab",
+   "type": "match",
+   "l1": [
+    "il monte (dans le train)",
+    "il s'assoit",
+    "en face",
+    "finalement"
+   ],
+   "l2": [
+    "nastúpi",
+    "sadne si",
+    "oproti",
+    "nakoniec"
+   ]
+  }
+ ]
+}

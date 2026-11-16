@@ -1,0 +1,255 @@
+{
+ "mode": "replace",
+ "sync": "full",
+ "exercises": [
+  {
+   "id": "qcm-gumen-i-my",
+   "type": "qcm",
+   "l1": "les bottes en caoutchouc",
+   "l2": "gumené čižmy",
+   "choices_l1": [
+    "on m'a envoyée",
+    "il se retourne, elle se retourne",
+    "on m'a pris"
+   ],
+   "choices_l2": [
+    "pravítko",
+    "pýtať sa",
+    "otočí sa"
+   ]
+  },
+  {
+   "id": "qcm-prav-tko",
+   "type": "qcm",
+   "l1": "la règle",
+   "l2": "pravítko",
+   "choices_l1": [
+    "moderne",
+    "tu mesures",
+    "l'appareil"
+   ],
+   "choices_l2": [
+    "pokoj",
+    "gumené čižmy",
+    "moderný"
+   ]
+  },
+  {
+   "id": "qcm-oto-sa",
+   "type": "qcm",
+   "l1": "il se retourne, elle se retourne",
+   "l2": "otočí sa",
+   "choices_l1": [
+    "les bottes en caoutchouc",
+    "on m'a envoyée",
+    "on m'a pris"
+   ],
+   "choices_l2": [
+    "prístroj",
+    "gumené čižmy",
+    "zobrali mi"
+   ]
+  },
+  {
+   "id": "qcm-meria",
+   "type": "qcm",
+   "l1": "tu mesures",
+   "l2": "meriaš",
+   "choices_l1": [
+    "la règle",
+    "demander",
+    "moderne"
+   ],
+   "choices_l2": [
+    "pýtať sa",
+    "pravítko",
+    "moderný"
+   ]
+  },
+  {
+   "id": "qcm-zobrali-mi",
+   "type": "qcm",
+   "l1": "on m'a pris",
+   "l2": "zobrali mi",
+   "choices_l1": [
+    "on m'a envoyée",
+    "il se retourne, elle se retourne",
+    "les bottes en caoutchouc"
+   ],
+   "choices_l2": [
+    "pravítko",
+    "prístroj",
+    "pýtať sa"
+   ]
+  },
+  {
+   "id": "qcm-pr-stroj",
+   "type": "qcm",
+   "l1": "l'appareil",
+   "l2": "prístroj",
+   "choices_l1": [
+    "tu mesures",
+    "demander",
+    "moderne"
+   ],
+   "choices_l2": [
+    "pokoj",
+    "pýtať sa",
+    "poslali ma"
+   ]
+  },
+  {
+   "id": "listen-zobrali-mi-zápisník",
+   "type": "listen",
+   "l1": "On m'a pris mon carnet.",
+   "l2": "Zobrali mi zápisník.",
+   "choices_l1": [
+    "On m'a pris mon portable.",
+    "On m'a donné un carnet.",
+    "J'ai perdu mon carnet."
+   ]
+  },
+  {
+   "id": "listen-a-mne-stanicu-sme-dve",
+   "type": "listen",
+   "l1": "Et à moi, ma station. Nous sommes deux.",
+   "l2": "A mne stanicu. Sme dve.",
+   "choices_l1": [
+    "Et à moi, mon carnet. Nous sommes trois.",
+    "Et à moi, rien. Je suis seule.",
+    "Et à moi, ma maison. Nous sommes deux."
+   ]
+  },
+  {
+   "id": "listen-prečo-vám-ju-zobrali",
+   "type": "listen",
+   "l1": "Pourquoi on vous l'a prise ?",
+   "l2": "Prečo vám ju zobrali?",
+   "choices_l1": [
+    "Pourquoi vous l'avez prise ?",
+    "Quand on vous l'a prise ?",
+    "Qui vous l'a prise ?"
+   ]
+  },
+  {
+   "id": "blank-povedz-mi-pravdu",
+   "type": "fill-blank",
+   "l1": "Dis-moi la vérité.",
+   "l2": "Povedz mi pravdu.",
+   "missing_l1": "vérité",
+   "missing_l2": "pravdu",
+   "blank_index_l1": 2,
+   "blank_index_l2": 2,
+   "choices_l1": [
+    "route",
+    "réponse",
+    "date"
+   ],
+   "choices_l2": [
+    "cestu",
+    "odpoveď",
+    "dátum"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "blank-pani-doktorka-máte-čas",
+   "type": "fill-blank",
+   "l1": "Madame, vous avez le temps ?",
+   "l2": "Pani doktorka, máte čas?",
+   "missing_l1": "temps",
+   "missing_l2": "čas",
+   "blank_index_l1": 4,
+   "blank_index_l2": 3,
+   "choices_l1": [
+    "carnet",
+    "téléphone",
+    "bus"
+   ],
+   "choices_l2": [
+    "zápisník",
+    "mobil",
+    "autobus"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "order-zobrali-mi-mobil",
+   "type": "order",
+   "l1": "On m'a pris mon portable !",
+   "l2": "Zobrali mi mobil!",
+   "tokens_l1": [
+    "On",
+    "m'a",
+    "pris",
+    "mon",
+    "portable",
+    "!",
+    "Nous,",
+    "on",
+    "vous",
+    "demande",
+    "quelque",
+    "chose."
+   ],
+   "tokens_l2": [
+    "Zobrali",
+    "mi",
+    "mobil!",
+    "My",
+    "sa",
+    "vás",
+    "chceme",
+    "niečo",
+    "opýtať."
+   ]
+  },
+  {
+   "id": "order-my-sa-vás-chceme-niečo-opýtať",
+   "type": "order",
+   "l1": "Nous, on vous demande quelque chose.",
+   "l2": "My sa vás chceme niečo opýtať.",
+   "tokens_l1": [
+    "Nous,",
+    "on",
+    "vous",
+    "demande",
+    "quelque",
+    "chose.",
+    "On",
+    "m'a",
+    "pris",
+    "mon",
+    "portable",
+    "!"
+   ],
+   "tokens_l2": [
+    "My",
+    "sa",
+    "vás",
+    "chceme",
+    "niečo",
+    "opýtať.",
+    "Zobrali",
+    "mi",
+    "mobil!"
+   ]
+  },
+  {
+   "id": "match-gumené-čižmy-vocab",
+   "type": "match",
+   "l1": [
+    "les bottes en caoutchouc",
+    "la règle",
+    "il se retourne, elle se retourne",
+    "tu mesures"
+   ],
+   "l2": [
+    "gumené čižmy",
+    "pravítko",
+    "otočí sa",
+    "meriaš"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,305 @@
+{
+ "mode": "replace",
+ "sync": "full",
+ "exercises": [
+  {
+   "id": "qcm-inde",
+   "type": "qcm",
+   "l1": "ailleurs",
+   "l2": "inde",
+   "choices_l1": [
+    "le mensonge",
+    "depuis que",
+    "le crayon"
+   ],
+   "choices_l2": [
+    "znova",
+    "otvoriť",
+    "kamera"
+   ]
+  },
+  {
+   "id": "qcm-klamstvo",
+   "type": "qcm",
+   "l1": "le mensonge",
+   "l2": "klamstvo",
+   "choices_l1": [
+    "ailleurs",
+    "de nouveau",
+    "ouvrir"
+   ],
+   "choices_l2": [
+    "znova",
+    "odkedy",
+    "inde"
+   ]
+  },
+  {
+   "id": "qcm-odkedy",
+   "type": "qcm",
+   "l1": "depuis que",
+   "l2": "odkedy",
+   "choices_l1": [
+    "de nouveau",
+    "ailleurs",
+    "ouvrir"
+   ],
+   "choices_l2": [
+    "znova",
+    "otvoriť",
+    "písmeno"
+   ]
+  },
+  {
+   "id": "qcm-ceruzka",
+   "type": "qcm",
+   "l1": "le crayon",
+   "l2": "ceruzka",
+   "choices_l1": [
+    "ouvrir",
+    "de nouveau",
+    "depuis que"
+   ],
+   "choices_l2": [
+    "kamera",
+    "otvoriť",
+    "inde"
+   ]
+  },
+  {
+   "id": "qcm-p-smeno",
+   "type": "qcm",
+   "l1": "la lettre (de l'alphabet)",
+   "l2": "písmeno",
+   "choices_l1": [
+    "qui a soif (un garçon)",
+    "je vais appeler",
+    "Si je savais, je le dirais. (une fille)"
+   ],
+   "choices_l2": [
+    "znova",
+    "inde",
+    "ceruzka"
+   ]
+  },
+  {
+   "id": "qcm-zadn-strana",
+   "type": "qcm",
+   "l1": "le dos (d'une feuille)",
+   "l2": "zadná strana",
+   "choices_l1": [
+    "Dis ! → Dites !",
+    "J'ai besoin de bras.",
+    "Personne ne parle."
+   ],
+   "choices_l2": [
+    "klamstvo",
+    "inde",
+    "kamera"
+   ]
+  },
+  {
+   "id": "listen-studňa-je-dobrá-vec",
+   "type": "listen",
+   "l1": "Un puits, c'est bien.",
+   "l2": "Studňa je dobrá vec.",
+   "choices_l1": [
+    "Un puits, c'est mal.",
+    "Une bourse, c'est bien.",
+    "Un lac, c'est bien."
+   ]
+  },
+  {
+   "id": "listen-chceš-ho",
+   "type": "listen",
+   "l1": "Tu la veux.",
+   "l2": "Chceš ho.",
+   "choices_l1": [
+    "Tu ne la veux pas.",
+    "Je la veux.",
+    "Tu la lis."
+   ]
+  },
+  {
+   "id": "listen-to-je-dobré",
+   "type": "listen",
+   "l1": "C'est bien.",
+   "l2": "To je dobré.",
+   "choices_l1": [
+    "C'est mal.",
+    "C'est beau.",
+    "C'est vrai."
+   ]
+  },
+  {
+   "id": "blank-si-veľký-bude-ťa-dobre-vidieť",
+   "type": "fill-blank",
+   "l1": "Tu es grand. On te verra bien.",
+   "l2": "Si veľký. Bude ťa dobre vidieť.",
+   "missing_l1": "grand",
+   "missing_l2": "veľký",
+   "blank_index_l1": 2,
+   "blank_index_l2": 1,
+   "choices_l1": [
+    "petit",
+    "vieux",
+    "beau"
+   ],
+   "choices_l2": [
+    "malý",
+    "starý",
+    "pekný"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "blank-ja-pred-kamerami",
+   "type": "fill-blank",
+   "l1": "Moi ? Devant les caméras ?",
+   "l2": "Ja? Pred kamerami?",
+   "missing_l1": "caméras",
+   "missing_l2": "kamerami",
+   "blank_index_l1": 4,
+   "blank_index_l2": 2,
+   "choices_l1": [
+    "enfants",
+    "maisons",
+    "gens"
+   ],
+   "choices_l2": [
+    "deťmi",
+    "domami",
+    "ľuďmi"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "order-babka-chce-oboje-pravdu-aj-budovu",
+   "type": "order",
+   "l1": "Babka veut les deux. La vérité, et le bâtiment. Alors il faut le dire comme ça.",
+   "l2": "Babka chce oboje. Pravdu aj budovu. Tak to treba povedať takto.",
+   "tokens_l1": [
+    "Babka",
+    "veut",
+    "les",
+    "deux.",
+    "La",
+    "vérité,",
+    "et",
+    "le",
+    "bâtiment.",
+    "Alors",
+    "il",
+    "faut",
+    "le",
+    "dire",
+    "comme",
+    "ça.",
+    "C'est",
+    "très",
+    "bien.",
+    "C'est",
+    "toi",
+    "qui",
+    "le",
+    "lis,",
+    "ce",
+    "soir."
+   ],
+   "tokens_l2": [
+    "Babka",
+    "chce",
+    "oboje.",
+    "Pravdu",
+    "aj",
+    "budovu.",
+    "Tak",
+    "to",
+    "treba",
+    "povedať",
+    "takto.",
+    "To",
+    "je",
+    "veľmi",
+    "dobré.",
+    "Dnes",
+    "večer",
+    "to",
+    "čítaš",
+    "ty."
+   ]
+  },
+  {
+   "id": "order-to-je-veľmi-dobré-dnes-večer",
+   "type": "order",
+   "l1": "C'est très bien. C'est toi qui le lis, ce soir.",
+   "l2": "To je veľmi dobré. Dnes večer to čítaš ty.",
+   "tokens_l1": [
+    "C'est",
+    "très",
+    "bien.",
+    "C'est",
+    "toi",
+    "qui",
+    "le",
+    "lis,",
+    "ce",
+    "soir.",
+    "Babka",
+    "veut",
+    "les",
+    "deux.",
+    "La",
+    "vérité,",
+    "et",
+    "le",
+    "bâtiment.",
+    "Alors",
+    "il",
+    "faut",
+    "le",
+    "dire",
+    "comme",
+    "ça."
+   ],
+   "tokens_l2": [
+    "To",
+    "je",
+    "veľmi",
+    "dobré.",
+    "Dnes",
+    "večer",
+    "to",
+    "čítaš",
+    "ty.",
+    "Babka",
+    "chce",
+    "oboje.",
+    "Pravdu",
+    "aj",
+    "budovu.",
+    "Tak",
+    "to",
+    "treba",
+    "povedať",
+    "takto."
+   ]
+  },
+  {
+   "id": "match-inde-vocab",
+   "type": "match",
+   "l1": [
+    "ailleurs",
+    "le mensonge",
+    "depuis que",
+    "le crayon"
+   ],
+   "l2": [
+    "inde",
+    "klamstvo",
+    "odkedy",
+    "ceruzka"
+   ]
+  }
+ ]
+}

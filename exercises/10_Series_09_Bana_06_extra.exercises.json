@@ -1,227 +1,283 @@
 {
-  "mode": "replace",
-  "sync": "full",
-  "exercises": [
-    {
-      "id": "listen-zostane-tam",
-      "type": "listen",
-      "l1": "Tu vas y rester ?",
-      "l2": "Zostaneš tam?",
-      "choices_l1": [
-        "Tu vas y aller ?",
-        "Tu vas partir ?",
-        "Tu es déjà là-bas ?"
-      ]
-    },
-    {
-      "id": "listen-l-ky-aj-zost-vaj",
-      "type": "listen",
-      "l1": "Les renards restent, parfois.",
-      "l2": "Líšky aj zostávajú.",
-      "choices_l1": [
-        "Les renards partent toujours.",
-        "Les écureuils restent, parfois.",
-        "Les renards ne restent jamais."
-      ]
-    },
-    {
-      "id": "listen-ni-zabudni",
-      "type": "listen",
-      "l1": "Rien. Oublie.",
-      "l2": "Nič. Zabudni.",
-      "choices_l1": [
-        "Rien. Dors.",
-        "Tout. Écoute.",
-        "Rien. Viens."
-      ]
-    },
-    {
-      "id": "listen-ty-si-ve-mi-tajomn-zaja-ica",
-      "type": "listen",
-      "l1": "Tu es une hase très mystérieuse.",
-      "l2": "Ty si veľmi tajomná zajačica.",
-      "choices_l1": [
-        "Tu es une hase très bavarde.",
-        "Tu es un écureuil très mystérieux.",
-        "Tu es une hase très normale."
-      ]
-    },
-    {
-      "id": "listen-ja-som-plne-norm-lna",
-      "type": "listen",
-      "l1": "Je suis tout à fait normale.",
-      "l2": "Ja som úplne normálna.",
-      "choices_l1": [
-        "Je suis très mystérieuse.",
-        "Je ne suis pas normale.",
-        "Tu es tout à fait normale."
-      ]
-    },
-    {
-      "id": "listen-tak-hovorte-e-te-r-chlej-ie",
-      "type": "listen",
-      "l1": "Alors parlez encore plus vite.",
-      "l2": "Tak hovorte ešte rýchlejšie.",
-      "choices_l1": [
-        "Alors parlez plus lentement.",
-        "Alors ne dites rien.",
-        "Alors parlez encore plus fort."
-      ]
-    },
-    {
-      "id": "match-keby-vocab",
-      "type": "match",
-      "l1": [
-        "si (+ conditionnel)",
-        "à cause de",
-        "d'où",
-        "le meilleur"
-      ],
-      "l2": [
-        "keby",
-        "kvôli",
-        "odkiaľ",
-        "najlepší"
-      ]
-    },
-    {
-      "id": "match-veveri-ka-nouns",
-      "type": "match",
-      "l1": [
-        "l'écureuil",
-        "le mineur",
-        "le fonctionnaire",
-        "la famille"
-      ],
-      "l2": [
-        "veverička",
-        "baník",
-        "úradník",
-        "rodina"
-      ]
-    },
-    {
-      "id": "blank-zajtra-idem-k-sesternici-do-zvolena-m-tam-byt-je-mal-ale-m-dve-poschodia",
-      "type": "fill-blank",
-      "l1": "Demain, je vais chez ma cousine à Zvolen. Elle a un appartement. Il est petit, mais il a deux étages.",
-      "l2": "Zajtra idem k sesternici do Zvolena. Má tam byt. Je malý, ale má dve poschodia.",
-      "missing_l1": "appartement",
-      "missing_l2": "byt",
-      "blank_index_l1": 11,
-      "blank_index_l2": 8,
-      "choices_l1": [
-        "refuge",
-        "lac",
-        "village"
-      ],
-      "choices_l2": [
-        "dom",
-        "les",
-        "tajch"
-      ],
-      "show_translation": true
-    },
-    {
-      "id": "blank-v-bratislave-nehovorte-pomaly-hovorte-r-chlo-inak-v-s-nepo-uj",
-      "type": "fill-blank",
-      "l1": "À Bratislava, ne parlez pas lentement. Parlez vite. Sinon on ne vous entend pas.",
-      "l2": "V Bratislave nehovorte pomaly. Hovorte rýchlo. Inak vás nepočujú.",
-      "missing_l1": "vite",
-      "missing_l2": "rýchlo",
-      "blank_index_l1": 7,
-      "blank_index_l2": 5,
-      "choices_l1": [
-        "fort",
-        "bas",
-        "peu"
-      ],
-      "choices_l2": [
-        "pomaly",
-        "ticho",
-        "dlho"
-      ],
-      "show_translation": true
-    },
-    {
-      "id": "order-keby-som-bola-po-vala-mamu-nebola-by-som-tu",
-      "type": "order",
-      "l1": "Si j'avais écouté ma mère, je ne serais pas ici.",
-      "l2": "Keby som bola počúvala mamu, nebola by som tu.",
-      "tokens_l1": [
-        "Si j'avais",
-        "écouté",
-        "ma",
-        "mère,",
-        "je",
-        "ne",
-        "serais",
-        "pas",
-        "ici.",
-        "restent",
-        "parfois"
-      ],
-      "tokens_l2": [
-        "Keby",
-        "som",
-        "bola",
-        "počúvala",
-        "mamu,",
-        "nebola",
-        "by",
-        "som",
-        "tu.",
-        "zostávajú",
-        "aj"
-      ]
-    },
-    {
-      "id": "order-neviem-mo-no-nie-veveri-ky-s-ako-l-ky-nikdy-nezostaneme-dlho-na-jednom-mieste",
-      "type": "order",
-      "l1": "Je ne sais pas. Peut-être pas. Les écureuils sont comme les renards. On ne reste jamais longtemps au même endroit.",
-      "l2": "Neviem. Možno nie. Veveričky sú ako líšky. Nikdy nezostaneme dlho na jednom mieste.",
-      "tokens_l1": [
-        "Je",
-        "ne",
-        "sais",
-        "pas.",
-        "Peut-être",
-        "pas.",
-        "Les",
-        "écureuils",
-        "sont",
-        "comme",
-        "les",
-        "renards.",
-        "On",
-        "ne",
-        "reste",
-        "jamais",
-        "longtemps",
-        "au",
-        "même",
-        "endroit.",
-        "normale",
-        "tout",
-        "à"
-      ],
-      "tokens_l2": [
-        "Neviem.",
-        "Možno",
-        "nie.",
-        "Veveričky",
-        "sú",
-        "ako",
-        "líšky.",
-        "Nikdy",
-        "nezostaneme",
-        "dlho",
-        "na",
-        "jednom",
-        "mieste.",
-        "úplne",
-        "normálna",
-        "som"
-      ]
-    }
-  ]
+ "mode": "replace",
+ "sync": "full",
+ "exercises": [
+  {
+   "id": "qcm-kancel-ria",
+   "type": "qcm",
+   "l1": "le bureau",
+   "l2": "kancelária",
+   "choices_l1": [
+    "fâché",
+    "le plafond",
+    "depuis"
+   ],
+   "choices_l2": [
+    "jediný",
+    "diera",
+    "skúška"
+   ]
+  },
+  {
+   "id": "qcm-strop",
+   "type": "qcm",
+   "l1": "le plafond",
+   "l2": "strop",
+   "choices_l1": [
+    "le seul",
+    "le trou",
+    "fâché"
+   ],
+   "choices_l2": [
+    "nahnevaný",
+    "odvtedy",
+    "kancelária"
+   ]
+  },
+  {
+   "id": "qcm-ru-ne",
+   "type": "qcm",
+   "l1": "à la main",
+   "l2": "ručne",
+   "choices_l1": [
+    "Ce n'est pas la sécheresse.",
+    "sous le pommier",
+    "la terre, le sol"
+   ],
+   "choices_l2": [
+    "odvtedy",
+    "diera",
+    "nahnevaný"
+   ]
+  },
+  {
+   "id": "qcm-ml-ala-som",
+   "type": "qcm",
+   "l1": "je me suis tue (une femme)",
+   "l2": "mlčala som",
+   "choices_l1": [
+    "contente (dit par une fille)",
+    "J'ai quinze ans.",
+    "la vallée → dans la vallée"
+   ],
+   "choices_l2": [
+    "nahnevaný",
+    "diera",
+    "jediný"
+   ]
+  },
+  {
+   "id": "qcm-diera",
+   "type": "qcm",
+   "l1": "le trou",
+   "l2": "diera",
+   "choices_l1": [
+    "l'examen",
+    "depuis",
+    "fâché"
+   ],
+   "choices_l2": [
+    "strop",
+    "skúška",
+    "ručne"
+   ]
+  },
+  {
+   "id": "qcm-odvtedy",
+   "type": "qcm",
+   "l1": "depuis",
+   "l2": "odvtedy",
+   "choices_l1": [
+    "l'examen",
+    "le seul",
+    "le plafond"
+   ],
+   "choices_l2": [
+    "nahnevaný",
+    "mlčala som",
+    "strop"
+   ]
+  },
+  {
+   "id": "qcm-oto-sa",
+   "type": "qcm",
+   "l1": "il se retourne, elle se retourne",
+   "l2": "otočí sa",
+   "choices_l1": [
+    "ils ne mentent pas",
+    "le filet d'eau",
+    "j'aimerais (une femme)"
+   ],
+   "choices_l2": [
+    "moderný",
+    "lepší",
+    "ideme hore"
+   ]
+  },
+  {
+   "id": "qcm-oto-te",
+   "type": "qcm",
+   "l1": "tournez",
+   "l2": "otočte",
+   "choices_l1": [
+    "la prof",
+    "convaincre",
+    "exactement"
+   ],
+   "choices_l2": [
+    "pri vode",
+    "presne",
+    "gumené čižmy"
+   ]
+  },
+  {
+   "id": "listen-môžeme-ich-odfotiť",
+   "type": "listen",
+   "l1": "On peut les prendre en photo ?",
+   "l2": "Môžeme ich odfotiť?",
+   "choices_l1": [
+    "On peut les prendre avec nous ?",
+    "On peut les ouvrir ?",
+    "Vous pouvez les prendre en photo ?"
+   ]
+  },
+  {
+   "id": "listen-idete-s-nami",
+   "type": "listen",
+   "l1": "Vous venez ?",
+   "l2": "Idete s nami?",
+   "choices_l1": [
+    "Vous restez ?",
+    "On part ?",
+    "Tu viens ?"
+   ]
+  },
+  {
+   "id": "listen-v-čiernom-aute",
+   "type": "listen",
+   "l1": "Dans une voiture noire.",
+   "l2": "V čiernom aute.",
+   "choices_l1": [
+    "Dans une voiture blanche.",
+    "Dans un train noir.",
+    "Dans une boîte noire."
+   ]
+  },
+  {
+   "id": "blank-ján-v-pondelok-máš-skúšku",
+   "type": "fill-blank",
+   "l1": "Ján, tu as un examen lundi.",
+   "l2": "Ján, v pondelok máš skúšku.",
+   "missing_l1": "lundi",
+   "missing_l2": "pondelok",
+   "blank_index_l1": 5,
+   "blank_index_l2": 2,
+   "choices_l1": [
+    "mardi",
+    "demain",
+    "samedi"
+   ],
+   "choices_l2": [
+    "utorok",
+    "piatok",
+    "sobotu"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "blank-môžete-ma-zobrať-so-sebou-vlak",
+   "type": "fill-blank",
+   "l1": "Vous pouvez m'emmener avec. Le train pour Bratislava part à midi.",
+   "l2": "Môžete ma zobrať so sebou. Vlak do Bratislavy ide na obed.",
+   "missing_l1": "train",
+   "missing_l2": "Vlak",
+   "blank_index_l1": 5,
+   "blank_index_l2": 5,
+   "choices_l1": [
+    "bus",
+    "tram",
+    "avion"
+   ],
+   "choices_l2": [
+    "Autobus",
+    "Električka",
+    "Lietadlo"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "order-zatvorí-krabicu-potom-sa-zastaví",
+   "type": "order",
+   "l1": "Elle ferme une boîte. Puis elle s'arrête.",
+   "l2": "Zatvorí krabicu. Potom sa zastaví.",
+   "tokens_l1": [
+    "Elle",
+    "ferme",
+    "une",
+    "boîte.",
+    "Puis",
+    "elle",
+    "s'arrête.",
+    "Et",
+    "le",
+    "carnet",
+    "d'Andrea."
+   ],
+   "tokens_l2": [
+    "Zatvorí",
+    "krabicu.",
+    "Potom",
+    "sa",
+    "zastaví.",
+    "A",
+    "Andrein",
+    "zápisník."
+   ]
+  },
+  {
+   "id": "order-a-andrein-zápisník",
+   "type": "order",
+   "l1": "Et le carnet d'Andrea.",
+   "l2": "A Andrein zápisník.",
+   "tokens_l1": [
+    "Et",
+    "le",
+    "carnet",
+    "d'Andrea.",
+    "Elle",
+    "ferme",
+    "une",
+    "boîte.",
+    "Puis",
+    "elle",
+    "s'arrête."
+   ],
+   "tokens_l2": [
+    "A",
+    "Andrein",
+    "zápisník.",
+    "Zatvorí",
+    "krabicu.",
+    "Potom",
+    "sa",
+    "zastaví."
+   ]
+  },
+  {
+   "id": "match-kancelária-vocab",
+   "type": "match",
+   "l1": [
+    "le bureau",
+    "le plafond",
+    "à la main",
+    "je me suis tue (une femme)"
+   ],
+   "l2": [
+    "kancelária",
+    "strop",
+    "ručne",
+    "mlčala som"
+   ]
+  }
+ ]
 }

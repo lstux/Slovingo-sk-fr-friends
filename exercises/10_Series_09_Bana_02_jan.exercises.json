@@ -1,0 +1,247 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-veverica",
+      "type": "qcm",
+      "l1": "l'écureuil",
+      "l2": "veverica",
+      "choices_l1": [
+        "la prof",
+        "il saute",
+        "au moins"
+      ],
+      "choices_l2": [
+        "vždy",
+        "neklamú",
+        "študujem"
+      ]
+    },
+    {
+      "id": "qcm-sko",
+      "type": "qcm",
+      "l1": "il saute",
+      "l2": "skočí",
+      "choices_l1": [
+        "perdu",
+        "la prof",
+        "au moins"
+      ],
+      "choices_l2": [
+        "študent",
+        "aspoň",
+        "veverica"
+      ]
+    },
+    {
+      "id": "qcm-straten",
+      "type": "qcm",
+      "l1": "perdu",
+      "l2": "stratený",
+      "choices_l1": [
+        "l'étudiant",
+        "les noix",
+        "j'étudie"
+      ],
+      "choices_l2": [
+        "študent",
+        "neklamú",
+        "profesorka"
+      ]
+    },
+    {
+      "id": "qcm-tudent",
+      "type": "qcm",
+      "l1": "l'étudiant",
+      "l2": "študent",
+      "choices_l1": [
+        "la prof",
+        "il saute",
+        "les noix"
+      ],
+      "choices_l2": [
+        "aspoň",
+        "stratený",
+        "veverica"
+      ]
+    },
+    {
+      "id": "qcm-tudujem",
+      "type": "qcm",
+      "l1": "j'étudie",
+      "l2": "študujem",
+      "choices_l1": [
+        "l'écureuil",
+        "toujours",
+        "la prof"
+      ],
+      "choices_l2": [
+        "skočí",
+        "stratený",
+        "študent"
+      ]
+    },
+    {
+      "id": "qcm-orechy",
+      "type": "qcm",
+      "l1": "les noix",
+      "l2": "orechy",
+      "choices_l1": [
+        "l'étudiant",
+        "toujours",
+        "il saute"
+      ],
+      "choices_l2": [
+        "veverica",
+        "študujem",
+        "skočí"
+      ]
+    },
+    {
+      "id": "listen-dýchaj",
+      "type": "listen",
+      "l1": "Respire.",
+      "l2": "Dýchaj.",
+      "choices_l1": [
+        "Regarde.",
+        "Écoute.",
+        "Viens."
+      ]
+    },
+    {
+      "id": "listen-ja-taký-nie-som",
+      "type": "listen",
+      "l1": "Je ne suis pas comme ça.",
+      "l2": "Ja taký nie som.",
+      "choices_l1": [
+        "Je suis comme ça.",
+        "Tu n'es pas comme ça.",
+        "Je ne suis pas là."
+      ]
+    },
+    {
+      "id": "listen-nie-ty-nemáš-orechy",
+      "type": "listen",
+      "l1": "Non. Toi, tu n'as pas de noix.",
+      "l2": "Nie. Ty nemáš orechy.",
+      "choices_l1": [
+        "Oui. Toi, tu as des noix.",
+        "Non. Moi, je n'ai pas de noix.",
+        "Non. Toi, tu n'as pas de temps."
+      ]
+    },
+    {
+      "id": "blank-hľadáme-doktorku-vydrovú",
+      "type": "fill-blank",
+      "l1": "On cherche doktorka Vydrová.",
+      "l2": "Hľadáme doktorku Vydrovú.",
+      "missing_l1": "cherche",
+      "missing_l2": "Hľadáme",
+      "blank_index_l1": 1,
+      "blank_index_l2": 0,
+      "choices_l1": [
+        "mange",
+        "appelle",
+        "voit"
+      ],
+      "choices_l2": [
+        "Voláme",
+        "Vidíme",
+        "Čakáme"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-koľko-máš-orechov",
+      "type": "fill-blank",
+      "l1": "Tu as combien de noix ?",
+      "l2": "Koľko máš orechov?",
+      "missing_l1": "noix",
+      "missing_l2": "orechov",
+      "blank_index_l1": 4,
+      "blank_index_l2": 2,
+      "choices_l1": [
+        "pommes",
+        "marches",
+        "lacs"
+      ],
+      "choices_l2": [
+        "jabĺk",
+        "schodov",
+        "jazier"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-odkiaľ-si",
+      "type": "order",
+      "l1": "D'où es-tu ?",
+      "l2": "Odkiaľ si?",
+      "tokens_l1": [
+        "D'où",
+        "es-tu",
+        "?",
+        "Tu",
+        "vois",
+        "ce",
+        "que",
+        "ça",
+        "fait."
+      ],
+      "tokens_l2": [
+        "Odkiaľ",
+        "si?",
+        "Vidíš,",
+        "aké",
+        "to",
+        "je."
+      ]
+    },
+    {
+      "id": "order-vidíš-aké-to-je",
+      "type": "order",
+      "l1": "Tu vois ce que ça fait.",
+      "l2": "Vidíš, aké to je.",
+      "tokens_l1": [
+        "Tu",
+        "vois",
+        "ce",
+        "que",
+        "ça",
+        "fait.",
+        "Tu",
+        "as",
+        "combien",
+        "de",
+        "noix",
+        "?"
+      ],
+      "tokens_l2": [
+        "Vidíš,",
+        "aké",
+        "to",
+        "je.",
+        "Koľko",
+        "máš",
+        "orechov?"
+      ]
+    },
+    {
+      "id": "match-veverica-vocab",
+      "type": "match",
+      "l1": [
+        "l'écureuil",
+        "il saute",
+        "perdu",
+        "l'étudiant"
+      ],
+      "l2": [
+        "veverica",
+        "skočí",
+        "stratený",
+        "študent"
+      ]
+    }
+  ]
+}
