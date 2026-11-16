@@ -1,6 +1,6 @@
 # Rozhodnutie (extra) — Otázka
 
-@ TODO_img/vlak-noc-most.jpg | TODO : choisir une image (un train de nuit sur un pont)
+@ img/illus_10_most.jpg | La nuit, le train passe sur un pont. Les autres dorment. Andrea a une question à poser. Source : illustration générée avec ChatGPT
 
 {{fr:Les autres dorment. Le train passe sur un pont. Andrea ne regarde plus par la fenêtre. Elle a une question. Et cette fois, elle va la poser.}}
 
