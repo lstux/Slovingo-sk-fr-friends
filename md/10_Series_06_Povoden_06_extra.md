@@ -1,6 +1,6 @@
 # Povodeň (extra) — Sobota
 
-@ TODO_img/hrad-televizia.jpg | TODO : choisir une image (le château de Bratislava le soir, avec des projecteurs)
+@ img/illus_06_hrad.jpg | Samedi soir, au bord du Danube : Katka a une grosse nouvelle, et elle concerne le château. Source : illustration générée avec ChatGPT
 
 {{fr:Katka a encore une nouvelle. Une grosse. Elle concerne le bâtiment gris, la télévision, et un château.}}
 
