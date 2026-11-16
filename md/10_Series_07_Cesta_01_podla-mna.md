@@ -1,6 +1,6 @@
 # Série Cesta (1/5) — Podľa mňa
 
-@ img/vyrub-lesa-cesta.jpg | Une forêt coupée pour faire passer une route, avec des camions. Source : Wikimedia Commons, Mfloryan, CC BY 4.0
+@ img/illus_07_cesta.jpg | Sur le chantier de la nouvelle route : l'homme au casque jaune, et Maťo qui se méfie de tout le monde. Source : illustration générée avec ChatGPT
 
 %~ Vers le sud, à travers les Basses Tatras
 % 49.0746, 19.3053 | {{Ružomberok}} | z9

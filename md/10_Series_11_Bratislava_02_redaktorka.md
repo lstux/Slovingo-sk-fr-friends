@@ -1,6 +1,6 @@
 # Série Bratislava (2/5) — Redaktorka
 
-@ img/bratislava-hlavna-stanica.jpg | La gare centrale de Bratislava. Source : Wikimedia Commons, Diego Delso, CC BY-SA 4.0
+@ img/illus_11_bratislava.jpg | Devant la télévision, à Bratislava : la rédactrice arrive, le portier surveille, et le monsieur au sourire n'est jamais loin. Source : illustration générée avec ChatGPT
 
 {{fr:Le portier a appelé quelqu'un. Une jeune femme arrive, un ordinateur sous le bras. Elle a trois minutes à vous donner.}}
 

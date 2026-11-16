@@ -1,6 +1,6 @@
 # Série Sen (5/5) — Otázka
 
-@ img/illus_13_sen_2.jpg | Au petit matin, dans le jardin : le renard rit aux éclats, Andrea a retrouvé les enveloppes, et la tante guette à la fenêtre. Source : illustration générée avec ChatGPT
+@ img/illus_13_sen_2.jpg | Au matin, dans le jardin : le renard rit de sa propre blague, Andrea attend la réponse, et la tante guette à la fenêtre. Source : illustration générée avec ChatGPT
 
 {{fr:Le ticket, l'écriture, les noms que tu connais déjà. Andrea a compris quelque chose. Elle va te dire la vérité. Et toi, tu te souviens d'une leçon du rêve.}}
 

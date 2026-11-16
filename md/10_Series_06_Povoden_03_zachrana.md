@@ -1,6 +1,6 @@
 # Série Povodeň (3/5) — Záchrana
 
-@ TODO_img/parkovisko-zachrana.jpg | TODO : choisir une image (des gens portant des paniers sous la pluie, de nuit)
+@ img/illus_06_povoden.jpg | De maison en maison, dans l'eau jusqu'aux genoux : les paniers, les canetons… et un frigo. Source : illustration générée avec ChatGPT
 
 {{fr:Le sauvetage commence. Des allers-retours, des paniers, des canetons. Et une souris qui ne veut pas lâcher son frigo.}}
 

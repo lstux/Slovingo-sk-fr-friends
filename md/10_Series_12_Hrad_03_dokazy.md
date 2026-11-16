@@ -1,6 +1,6 @@
 # Série Hrad (3/5) — Dôkazy
 
-@ img/illus_12_hrad.jpg | En direct depuis le château de Bratislava : le renard raconte, la loutre montre le carnet, et le porte-parole sourit de moins en moins. Source : illustration générée avec ChatGPT, d'après une photo de Jakub Hałun (Wikimedia Commons, CC BY-SA 4.0)
+@ img/illus_12_hrad.jpg | En direct du château de Bratislava : chacun montre sa pièce, la doktorka a apporté trente ans de mesures. Source : illustration générée avec ChatGPT
 
 {{fr:Cinq minutes. Chacun a une pièce à montrer, dans l'ordre, jour après jour. C'est le moment de toute la semaine.}}
 

@@ -1,6 +1,6 @@
 # Hrad (extra) — Terasa
 
-@ img/hrad-terasa-vecer.jpg | Le Danube au crépuscule, avec le château de Bratislava au loin. Source : Wikimedia Commons, Rios, CC BY-SA 4.0
+@ img/illus_12_hrad_2.jpg | Sur la terrasse du château, la nuit : le Danube, les lumières, et demain dix heures. Source : illustration générée avec ChatGPT
 
 {{fr:Plus tard. La terrasse est vide. En bas, la ville est allumée, et le Danube passe, lent et noir. Demain, dix heures, un avion à Vienne.}}
 

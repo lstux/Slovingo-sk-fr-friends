@@ -1,6 +1,6 @@
 # Série Datacentrum (2/5) — Prehliadka
 
-@ TODO_img/serverovna.jpg | TODO : choisir une image (une salle de serveurs, de longues rangées d'armoires clignotantes)
+@ img/illus_08_datacentrum.jpg | Dans la salle des serveurs : dix mille ordinateurs, et une seule question importante (le wifi). Source : illustration générée avec ChatGPT
 
 {{fr:La visite commence. Maťo et Katka ont un plan : occuper le guide. Toi, tu dois trouver une porte. Une porte où il est écrit qu'il ne faut pas entrer.}}
 
