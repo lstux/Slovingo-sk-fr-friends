@@ -1,6 +1,6 @@
 # Série Bratislava (5/5) — Revízor
 
-@ TODO_img/revizor-elektricka.jpg | TODO : choisir une image (un contrôleur de tram en uniforme, dans un tram)
+@ img/illus_11_revizor.jpg | Contrôle des tickets, ligne neuf. Quatre tickets sur le téléphone de Katka, et un monsieur qui n’a pas eu le temps. Source : illustration générée avec ChatGPT
 
 {{fr:Le monsieur au sourire est assis en face de vous, dans le tram. Il est essoufflé, mais il sourit toujours. Au fond du tram, quelqu'un se lève.}}
 
