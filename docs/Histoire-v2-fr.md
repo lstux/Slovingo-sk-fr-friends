@@ -459,11 +459,11 @@
 
 🦊 Je ferme les yeux.
 
-🐰 Comme tu veux. En haut. Encore. À droite. Pas cette droite-là.
+🐰 Comme tu veux. En haut. Encore. À droite. Pas là. À droite !
 
-🦊 Il y a plusieurs droites ?
+🦊 Il y a combien de « à droite », ici ?
 
-🐰 Avec toi, oui.
+🐰 Avec toi ? Beaucoup.
 
 💬 En haut, Gab ouvre les yeux. Il est tout blanc.
 
@@ -593,7 +593,7 @@
 
 🦊 Hier, trente degrés. Aujourd'hui, huit.
 
-🐰 C'est la montagne.
+🐰 C'est la montagne. Plus on monte, plus il fait froid.
 
 🦊 Ce n'est pas une explication.
 
@@ -640,6 +640,10 @@
 💬 La nuit. L'orage arrive d'un coup. Le tonnerre, la pluie contre les vitres. La lumière s'éteint.
 
 🧑 Je vous l'avais dit. Mon genou.
+
+🦊 Ça va durer longtemps ?
+
+🧑 Jusqu'au matin. Après, il fera beau.
 
 💬 Le gardien allume une bougie. Et quelqu'un frappe à la porte.
 

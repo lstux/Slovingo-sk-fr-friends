@@ -1,0 +1,250 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-strana",
+      "type": "qcm",
+      "l1": "la page",
+      "l2": "strana",
+      "choices_l1": [
+        "j'ai appris",
+        "quatre cents",
+        "je ferme"
+      ],
+      "choices_l2": [
+        "o dvanástej",
+        "zatváram",
+        "minúta"
+      ]
+    },
+    {
+      "id": "qcm-tyristo",
+      "type": "qcm",
+      "l1": "quatre cents",
+      "l2": "štyristo",
+      "choices_l1": [
+        "la page",
+        "la minute",
+        "j'ai appris"
+      ],
+      "choices_l2": [
+        "liter",
+        "zatváram",
+        "minúta"
+      ]
+    },
+    {
+      "id": "qcm-min-ta",
+      "type": "qcm",
+      "l1": "la minute",
+      "l2": "minúta",
+      "choices_l1": [
+        "zéro",
+        "je ferme",
+        "le refroidissement"
+      ],
+      "choices_l2": [
+        "liter",
+        "spotreba",
+        "nula"
+      ]
+    },
+    {
+      "id": "qcm-o-dvan-stej",
+      "type": "qcm",
+      "l1": "à midi",
+      "l2": "o dvanástej",
+      "choices_l1": [
+        "la minute",
+        "le refroidissement",
+        "la page"
+      ],
+      "choices_l2": [
+        "chladenie",
+        "strana",
+        "uzavretý okruh"
+      ]
+    },
+    {
+      "id": "qcm-zatv-ram",
+      "type": "qcm",
+      "l1": "je ferme",
+      "l2": "zatváram",
+      "choices_l1": [
+        "le litre",
+        "la page",
+        "à midi"
+      ],
+      "choices_l2": [
+        "spotreba",
+        "nula",
+        "strana"
+      ]
+    },
+    {
+      "id": "qcm-chladenie",
+      "type": "qcm",
+      "l1": "le refroidissement",
+      "l2": "chladenie",
+      "choices_l1": [
+        "le litre",
+        "la minute",
+        "quatre cents"
+      ],
+      "choices_l2": [
+        "štyristo",
+        "zatváram",
+        "liter"
+      ]
+    },
+    {
+      "id": "listen-desať-minút-na-štyristo-strán",
+      "type": "listen",
+      "l1": "Dix minutes ? Pour quatre cents pages ?",
+      "l2": "Desať minút? Na štyristo strán?",
+      "choices_l1": [
+        "Dix pages ? Pour quatre cents minutes ?",
+        "Quatre minutes ? Pour dix pages ?",
+        "Dix minutes ? C'est tout ?"
+      ]
+    },
+    {
+      "id": "listen-pani-položí-na-stôl-hrubý-spis",
+      "type": "listen",
+      "l1": "La dame pose un gros dossier sur la table.",
+      "l2": "Pani položí na stôl hrubý spis.",
+      "choices_l1": [
+        "La dame prend un gros dossier sur la table.",
+        "La dame pose un petit livre sur la table.",
+        "La dame lit un gros dossier."
+      ]
+    },
+    {
+      "id": "listen-zelená-vlna-štyristo-strán-žiadne-fotky-máte-desať-minút",
+      "type": "listen",
+      "l1": "Zelená vlna. Quatre cents pages. Pas de photos. Vous avez dix minutes.",
+      "l2": "Zelená vlna. Štyristo strán. Žiadne fotky. Máte desať minút.",
+      "choices_l1": [
+        "Zelená vlna. Dix pages. Pas de photos. Vous avez quatre cents minutes.",
+        "Zelená vlna. Quatre cents pages. Des photos. Vous avez dix minutes.",
+        "Zelená vlna. Quatre cents pages. Pas de photos. Vous avez une heure."
+      ]
+    },
+    {
+      "id": "blank-o-dvanástej-zatváram-a-vy-aj-tak-ničomu-nerozumiete",
+      "type": "fill-blank",
+      "l1": "Je ferme à midi. Et vous ne comprenez rien, de toute façon.",
+      "l2": "O dvanástej zatváram. A vy aj tak ničomu nerozumiete.",
+      "missing_l1": "midi",
+      "missing_l2": "dvanástej",
+      "blank_index_l1": 3,
+      "blank_index_l2": 1,
+      "choices_l1": [
+        "minuit",
+        "l'aube",
+        "dimanche"
+      ],
+      "choices_l2": [
+        "deviatej",
+        "jednej",
+        "šiestej"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-voda-chladenie-uzavretý-okruh-spotreba-nula-litrov-denne",
+      "type": "fill-blank",
+      "l1": "« Eau. Refroidissement : circuit fermé. Consommation : zéro litre par jour. »",
+      "l2": "„Voda. Chladenie: uzavretý okruh. Spotreba: nula litrov denne.“",
+      "missing_l1": "zéro",
+      "missing_l2": "nula",
+      "blank_index_l1": 8,
+      "blank_index_l2": 5,
+      "choices_l1": [
+        "dix",
+        "quatre",
+        "cent"
+      ],
+      "choices_l2": [
+        "desať",
+        "štyri",
+        "sto"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-na-francúza-čítate-dobre",
+      "type": "order",
+      "l1": "Vous lisez bien, pour un Français.",
+      "l2": "Na Francúza čítate dobre.",
+      "tokens_l1": [
+        "Vous",
+        "lisez",
+        "bien,",
+        "pour",
+        "un",
+        "Français.",
+        "pages"
+      ],
+      "tokens_l2": [
+        "Na",
+        "Francúza",
+        "čítate",
+        "dobre.",
+        "strán"
+      ]
+    },
+    {
+      "id": "order-to-slovo-som-sa-naučil-včera-nula",
+      "type": "order",
+      "l1": "J'ai appris ce mot hier. « Zéro. »",
+      "l2": "To slovo som sa naučil včera. „Nula.“",
+      "tokens_l1": [
+        "J'ai",
+        "appris",
+        "ce",
+        "mot",
+        "hier.",
+        "«",
+        "Zéro.",
+        "»",
+        "Vous",
+        "lisez",
+        "bien,",
+        "pour",
+        "un",
+        "Français."
+      ],
+      "tokens_l2": [
+        "To",
+        "slovo",
+        "som",
+        "sa",
+        "naučil",
+        "včera.",
+        "„Nula.“",
+        "Na",
+        "Francúza",
+        "čítate",
+        "dobre."
+      ]
+    },
+    {
+      "id": "match-strana-vocab",
+      "type": "match",
+      "l1": [
+        "la page",
+        "quatre cents",
+        "la minute",
+        "à midi"
+      ],
+      "l2": [
+        "strana",
+        "štyristo",
+        "minúta",
+        "o dvanástej"
+      ]
+    }
+  ]
+}

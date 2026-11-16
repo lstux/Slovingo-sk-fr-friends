@@ -1,0 +1,246 @@
+{
+ "mode": "replace",
+ "sync": "full",
+ "exercises": [
+  {
+   "id": "qcm-hrom",
+   "type": "qcm",
+   "l1": "le tonnerre",
+   "l2": "hrom",
+   "choices_l1": [
+    "je serai",
+    "jusqu'au matin",
+    "la bougie"
+   ],
+   "choices_l2": [
+    "bude pekne",
+    "do rána",
+    "naraz"
+   ]
+  },
+  {
+   "id": "qcm-naraz",
+   "type": "qcm",
+   "l1": "d'un coup",
+   "l2": "naraz",
+   "choices_l1": [
+    "le tonnerre",
+    "je serai",
+    "la bougie"
+   ],
+   "choices_l2": [
+    "hrom",
+    "budeme",
+    "svetlo"
+   ]
+  },
+  {
+   "id": "qcm-svetlo",
+   "type": "qcm",
+   "l1": "la lumière",
+   "l2": "svetlo",
+   "choices_l1": [
+    "je serai",
+    "le tonnerre",
+    "nous serons"
+   ],
+   "choices_l2": [
+    "do rána",
+    "klope",
+    "bude pekne"
+   ]
+  },
+  {
+   "id": "qcm-svie-ka",
+   "type": "qcm",
+   "l1": "la bougie",
+   "l2": "sviečka",
+   "choices_l1": [
+    "la lumière",
+    "je serai",
+    "le tonnerre"
+   ],
+   "choices_l2": [
+    "bude pekne",
+    "budeme",
+    "do rána"
+   ]
+  },
+  {
+   "id": "qcm-klope",
+   "type": "qcm",
+   "l1": "il frappe (à la porte)",
+   "l2": "klope",
+   "choices_l1": [
+    "Il n'a jamais séché.",
+    "sous le pommier",
+    "Tu parles beaucoup."
+   ],
+   "choices_l2": [
+    "budeme",
+    "naraz",
+    "svetlo"
+   ]
+  },
+  {
+   "id": "qcm-kuchy-a",
+   "type": "qcm",
+   "l1": "la cuisine",
+   "l2": "kuchyňa",
+   "choices_l1": [
+    "la bougie",
+    "nous serons",
+    "la lumière"
+   ],
+   "choices_l2": [
+    "budeme",
+    "budem",
+    "klope"
+   ]
+  },
+  {
+   "id": "listen-bude-to-dlho",
+   "type": "listen",
+   "l1": "Ça va durer longtemps ?",
+   "l2": "Bude to dlho?",
+   "choices_l1": [
+    "C'était long ?",
+    "Ça va être beau ?",
+    "Il va pleuvoir ?"
+   ]
+  },
+  {
+   "id": "listen-do-rána-potom-bude-pekne",
+   "type": "listen",
+   "l1": "Jusqu'au matin. Après, il fera beau.",
+   "l2": "Do rána. Potom bude pekne.",
+   "choices_l1": [
+    "Jusqu'au soir. Après, il pleuvra.",
+    "Jusqu'à midi. Après, il fera froid.",
+    "Le matin. Il fera beau."
+   ]
+  },
+  {
+   "id": "listen-hovoril-som-vám-moje-koleno",
+   "type": "listen",
+   "l1": "Je vous l'avais dit. Mon genou.",
+   "l2": "Hovoril som vám. Moje koleno.",
+   "choices_l1": [
+    "Je vous l'ai dit. Mon pied.",
+    "Vous me l'aviez dit. Mon genou.",
+    "Je ne vous avais rien dit."
+   ]
+  },
+  {
+   "id": "blank-zajtra-bude-pekne",
+   "type": "fill-blank",
+   "l1": "Demain, il fera beau.",
+   "l2": "Zajtra bude pekne.",
+   "missing_l1": "beau",
+   "missing_l2": "pekne",
+   "blank_index_l1": 3,
+   "blank_index_l2": 2,
+   "choices_l1": [
+    "froid",
+    "chaud",
+    "mauvais"
+   ],
+   "choices_l2": [
+    "zima",
+    "teplo",
+    "zle"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "blank-budem-čakať-v-kuchyni",
+   "type": "fill-blank",
+   "l1": "J'attendrai dans la cuisine.",
+   "l2": "Budem čakať v kuchyni.",
+   "missing_l1": "cuisine",
+   "missing_l2": "kuchyni",
+   "blank_index_l1": 3,
+   "blank_index_l2": 3,
+   "choices_l1": [
+    "chambre",
+    "refuge",
+    "forêt"
+   ],
+   "choices_l2": [
+    "izbe",
+    "chate",
+    "lese"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "order-bude-pršať-celú-noc",
+   "type": "order",
+   "l1": "Il va pleuvoir toute la nuit.",
+   "l2": "Bude pršať celú noc.",
+   "tokens_l1": [
+    "Il",
+    "va",
+    "pleuvoir",
+    "toute",
+    "la",
+    "nuit.",
+    "tonnerre"
+   ],
+   "tokens_l2": [
+    "Bude",
+    "pršať",
+    "celú",
+    "noc.",
+    "hrom"
+   ]
+  },
+  {
+   "id": "order-chatár-zapáli-sviečku-a-niekto-klope-na-dvere",
+   "type": "order",
+   "l1": "Le gardien allume une bougie. Et quelqu'un frappe à la porte.",
+   "l2": "Chatár zapáli sviečku. A niekto klope na dvere.",
+   "tokens_l1": [
+    "Le",
+    "gardien",
+    "allume",
+    "une",
+    "bougie.",
+    "Et",
+    "quelqu'un",
+    "frappe",
+    "à",
+    "la",
+    "porte.",
+    "lumière"
+   ],
+   "tokens_l2": [
+    "Chatár",
+    "zapáli",
+    "sviečku.",
+    "A",
+    "niekto",
+    "klope",
+    "na",
+    "dvere.",
+    "svetlo"
+   ]
+  },
+  {
+   "id": "match-hrom-vocab",
+   "type": "match",
+   "l1": [
+    "le tonnerre",
+    "d'un coup",
+    "la lumière",
+    "la bougie"
+   ],
+   "l2": [
+    "hrom",
+    "naraz",
+    "svetlo",
+    "sviečka"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,240 @@
+{
+ "mode": "replace",
+ "sync": "full",
+ "exercises": [
+  {
+   "id": "qcm-m-em",
+   "type": "qcm",
+   "l1": "je peux",
+   "l2": "môžem",
+   "choices_l1": [
+    "tu peux",
+    "nous devons",
+    "je dois"
+   ],
+   "choices_l2": [
+    "môžeš",
+    "môže",
+    "musíme"
+   ]
+  },
+  {
+   "id": "qcm-m-e",
+   "type": "qcm",
+   "l1": "tu peux",
+   "l2": "môžeš",
+   "choices_l1": [
+    "je dois",
+    "je peux",
+    "nous devons"
+   ],
+   "choices_l2": [
+    "musím",
+    "môže",
+    "musíme"
+   ]
+  },
+  {
+   "id": "qcm-mus-m",
+   "type": "qcm",
+   "l1": "je dois",
+   "l2": "musím",
+   "choices_l1": [
+    "tu peux",
+    "je peux",
+    "nous devons"
+   ],
+   "choices_l2": [
+    "môže",
+    "môžeš",
+    "môžem"
+   ]
+  },
+  {
+   "id": "qcm-mus-me",
+   "type": "qcm",
+   "l1": "nous devons",
+   "l2": "musíme",
+   "choices_l1": [
+    "je dois",
+    "tu peux",
+    "je peux"
+   ],
+   "choices_l2": [
+    "môže",
+    "môžeš",
+    "musím"
+   ]
+  },
+  {
+   "id": "qcm-mokra",
+   "type": "qcm",
+   "l1": "la zone humide",
+   "l2": "mokraď",
+   "choices_l1": [
+    "ils ont répondu",
+    "Je suis de Lyon.",
+    "D'où es-tu ?"
+   ],
+   "choices_l2": [
+    "výkop",
+    "môžem",
+    "môžeš"
+   ]
+  },
+  {
+   "id": "qcm-v-kop",
+   "type": "qcm",
+   "l1": "la tranchée",
+   "l2": "výkop",
+   "choices_l1": [
+    "je dois",
+    "tu peux",
+    "le câble"
+   ],
+   "choices_l2": [
+    "kábel",
+    "mokraď",
+    "musíme"
+   ]
+  },
+  {
+   "id": "listen-bobor-hovorí-že-všetko-fotíte",
+   "type": "listen",
+   "l1": "Le castor dit que vous prenez tout en photo.",
+   "l2": "Bobor hovorí, že všetko fotíte.",
+   "choices_l1": [
+    "Le castor dit que vous parlez trop.",
+    "Le gardien dit que vous prenez tout en photo.",
+    "Le castor prend tout en photo."
+   ]
+  },
+  {
+   "id": "listen-na-čo",
+   "type": "listen",
+   "l1": "Pour quoi faire ?",
+   "l2": "Na čo?",
+   "choices_l1": [
+    "Pour qui ?",
+    "Où ça ?",
+    "Quand ?"
+   ]
+  },
+  {
+   "id": "listen-môžeš-mám-dve",
+   "type": "listen",
+   "l1": "Tu peux. J'en ai deux.",
+   "l2": "Môžeš. Mám dve.",
+   "choices_l1": [
+    "Tu dois. J'en ai deux.",
+    "Tu ne peux pas. J'en ai une.",
+    "Je peux. Tu en as deux."
+   ]
+  },
+  {
+   "id": "blank-musím-ísť-domov",
+   "type": "fill-blank",
+   "l1": "Je dois rentrer à la maison.",
+   "l2": "Musím ísť domov.",
+   "missing_l1": "dois",
+   "missing_l2": "Musím",
+   "blank_index_l1": 1,
+   "blank_index_l2": 0,
+   "choices_l1": [
+    "peux",
+    "veux",
+    "sais"
+   ],
+   "choices_l2": [
+    "Môžem",
+    "Chcem",
+    "Viem"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "blank-môžem-si-sadnúť",
+   "type": "fill-blank",
+   "l1": "Je peux m'asseoir ?",
+   "l2": "Môžem si sadnúť?",
+   "missing_l1": "peux",
+   "missing_l2": "Môžem",
+   "blank_index_l1": 1,
+   "blank_index_l2": 0,
+   "choices_l1": [
+    "dois",
+    "sais",
+    "veux"
+   ],
+   "choices_l2": [
+    "Musím",
+    "Viem",
+    "Chcem"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "order-môžeš-mi-ukázať-tú-fotku",
+   "type": "order",
+   "l1": "Tu peux me montrer cette photo ?",
+   "l2": "Môžeš mi ukázať tú fotku?",
+   "tokens_l1": [
+    "Tu",
+    "peux",
+    "me",
+    "montrer",
+    "cette",
+    "photo",
+    "?",
+    "câble"
+   ],
+   "tokens_l2": [
+    "Môžeš",
+    "mi",
+    "ukázať",
+    "tú",
+    "fotku?",
+    "kábel"
+   ]
+  },
+  {
+   "id": "order-môžem-si-ju-odfotiť",
+   "type": "order",
+   "l1": "Je peux la prendre en photo ?",
+   "l2": "Môžem si ju odfotiť?",
+   "tokens_l1": [
+    "Je",
+    "peux",
+    "la",
+    "prendre",
+    "en",
+    "photo",
+    "?",
+    "câble"
+   ],
+   "tokens_l2": [
+    "Môžem",
+    "si",
+    "ju",
+    "odfotiť?",
+    "kábel"
+   ]
+  },
+  {
+   "id": "match-m-em-vocab",
+   "type": "match",
+   "l1": [
+    "je peux",
+    "tu peux",
+    "je dois",
+    "nous devons"
+   ],
+   "l2": [
+    "môžem",
+    "môžeš",
+    "musím",
+    "musíme"
+   ]
+  }
+ ]
+}

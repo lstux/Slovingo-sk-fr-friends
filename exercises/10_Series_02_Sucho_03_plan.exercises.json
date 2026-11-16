@@ -1,0 +1,238 @@
+{
+ "mode": "replace",
+ "sync": "full",
+ "exercises": [
+  {
+   "id": "qcm-rad",
+   "type": "qcm",
+   "l1": "le bureau (l'administration)",
+   "l2": "úrad",
+   "choices_l1": [
+    "il dort, elle dort",
+    "je n'habite pas",
+    "le sac à dos"
+   ],
+   "choices_l2": [
+    "Francúzka",
+    "Francúz",
+    "každý"
+   ]
+  },
+  {
+   "id": "qcm-spis",
+   "type": "qcm",
+   "l1": "le dossier",
+   "l2": "spis",
+   "choices_l1": [
+    "sourire",
+    "un Français",
+    "sur l'eau"
+   ],
+   "choices_l2": [
+    "každý",
+    "úrad",
+    "dokonalý"
+   ]
+  },
+  {
+   "id": "qcm-ka-d",
+   "type": "qcm",
+   "l1": "chacun, tout le monde",
+   "l2": "každý",
+   "choices_l1": [
+    "Tu as quel âge ?",
+    "la tante sait",
+    "un peu d'eau"
+   ],
+   "choices_l2": [
+    "úrad",
+    "referát",
+    "spis"
+   ]
+  },
+  {
+   "id": "qcm-franc-z",
+   "type": "qcm",
+   "l1": "un Français",
+   "l2": "Francúz",
+   "choices_l1": [
+    "parfait",
+    "l'exposé",
+    "sur l'eau"
+   ],
+   "choices_l2": [
+    "spis",
+    "nerozumieš",
+    "úrad"
+   ]
+  },
+  {
+   "id": "qcm-franc-zka",
+   "type": "qcm",
+   "l1": "une Française",
+   "l2": "Francúzka",
+   "choices_l1": [
+    "l'exposé",
+    "sourire",
+    "un Français"
+   ],
+   "choices_l2": [
+    "usmievať sa",
+    "referát",
+    "spis"
+   ]
+  },
+  {
+   "id": "qcm-refer-t",
+   "type": "qcm",
+   "l1": "l'exposé",
+   "l2": "referát",
+   "choices_l1": [
+    "sourire",
+    "le dossier",
+    "parfait"
+   ],
+   "choices_l2": [
+    "nerozumieš",
+    "Francúzka",
+    "Francúz"
+   ]
+  },
+  {
+   "id": "listen-ty-si-turista-ničomu-nerozumieš-si-dokonalý",
+   "type": "listen",
+   "l1": "Toi, tu es un touriste. Tu ne comprends rien. Tu es parfait.",
+   "l2": "Ty si turista. Ničomu nerozumieš. Si dokonalý.",
+   "choices_l1": [
+    "Toi, tu es français. Tu comprends tout. Tu es parfait.",
+    "Toi, tu es un touriste. Tu ne sais rien. Tu es bête.",
+    "Moi, je suis un touriste. Je ne comprends rien."
+   ]
+  },
+  {
+   "id": "listen-usmievať-sa-viem",
+   "type": "listen",
+   "l1": "Je sais sourire.",
+   "l2": "Usmievať sa viem.",
+   "choices_l1": [
+    "Je sais lire.",
+    "Je ne sais pas sourire.",
+    "Tu sais sourire."
+   ]
+  },
+  {
+   "id": "listen-aj-to-je-dlhý-príbeh",
+   "type": "listen",
+   "l1": "Ça aussi, c'est une longue histoire.",
+   "l2": "Aj to je dlhý príbeh.",
+   "choices_l1": [
+    "Ça aussi, c'est un exposé.",
+    "C'est une histoire courte.",
+    "Ça aussi, c'est dans le dossier."
+   ]
+  },
+  {
+   "id": "blank-som-slovenka-a-ty",
+   "type": "fill-blank",
+   "l1": "Je suis slovaque. Et toi ?",
+   "l2": "Som Slovenka. A ty?",
+   "missing_l1": "slovaque",
+   "missing_l2": "Slovenka",
+   "blank_index_l1": 2,
+   "blank_index_l2": 1,
+   "choices_l1": [
+    "française",
+    "parfaite",
+    "touriste"
+   ],
+   "choices_l2": [
+    "Francúzka",
+    "dokonalá",
+    "turistka"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "blank-robím-referát-o-košiciach",
+   "type": "fill-blank",
+   "l1": "Je fais un exposé sur Košice.",
+   "l2": "Robím referát o Košiciach.",
+   "missing_l1": "exposé",
+   "missing_l2": "referát",
+   "blank_index_l1": 3,
+   "blank_index_l2": 1,
+   "choices_l1": [
+    "dossier",
+    "livre",
+    "bureau"
+   ],
+   "choices_l2": [
+    "spis",
+    "knihu",
+    "úrad"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "order-nie-som-francúz-som-slovák",
+   "type": "order",
+   "l1": "Je ne suis pas français, je suis slovaque.",
+   "l2": "Nie som Francúz, som Slovák.",
+   "tokens_l1": [
+    "Je",
+    "ne",
+    "suis",
+    "pas",
+    "français,",
+    "je",
+    "suis",
+    "slovaque.",
+    "parfait"
+   ],
+   "tokens_l2": [
+    "Nie",
+    "som",
+    "Francúz,",
+    "som",
+    "Slovák.",
+    "dokonalý"
+   ]
+  },
+  {
+   "id": "order-tak-ho-choď-prečítať",
+   "type": "order",
+   "l1": "Alors va le lire.",
+   "l2": "Tak ho choď prečítať.",
+   "tokens_l1": [
+    "Alors",
+    "va",
+    "le",
+    "lire.",
+    "sourire"
+   ],
+   "tokens_l2": [
+    "Tak",
+    "ho",
+    "choď",
+    "prečítať.",
+    "usmievať"
+   ]
+  },
+  {
+   "id": "match-rad-vocab",
+   "type": "match",
+   "l1": [
+    "le bureau (l'administration)",
+    "le dossier",
+    "chacun, tout le monde",
+    "un Français"
+   ],
+   "l2": [
+    "úrad",
+    "spis",
+    "každý",
+    "Francúz"
+   ]
+  }
+ ]
+}

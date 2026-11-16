@@ -1,0 +1,252 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-leto",
+      "type": "qcm",
+      "l1": "l'été",
+      "l2": "leto",
+      "choices_l1": [
+        "normal",
+        "l'an dernier",
+        "jamais"
+      ],
+      "choices_l2": [
+        "napísal som",
+        "normálne",
+        "vlani"
+      ]
+    },
+    {
+      "id": "qcm-such",
+      "type": "qcm",
+      "l1": "sec",
+      "l2": "suchý",
+      "choices_l1": [
+        "personne",
+        "j'ai écrit",
+        "normal"
+      ],
+      "choices_l2": [
+        "leto",
+        "list",
+        "slabý"
+      ]
+    },
+    {
+      "id": "qcm-slab",
+      "type": "qcm",
+      "l1": "faible",
+      "l2": "slabý",
+      "choices_l1": [
+        "la lettre",
+        "l'été",
+        "normal"
+      ],
+      "choices_l2": [
+        "leto",
+        "napísal som",
+        "odpovedali"
+      ]
+    },
+    {
+      "id": "qcm-vlani",
+      "type": "qcm",
+      "l1": "l'an dernier",
+      "l2": "vlani",
+      "choices_l1": [
+        "l'été",
+        "faible",
+        "sec"
+      ],
+      "choices_l2": [
+        "suchý",
+        "nikto",
+        "slabý"
+      ]
+    },
+    {
+      "id": "qcm-norm-lne",
+      "type": "qcm",
+      "l1": "normal",
+      "l2": "normálne",
+      "choices_l1": [
+        "jamais",
+        "faible",
+        "j'ai écrit"
+      ],
+      "choices_l2": [
+        "leto",
+        "nikdy",
+        "nikto"
+      ]
+    },
+    {
+      "id": "qcm-nikdy",
+      "type": "qcm",
+      "l1": "jamais",
+      "l2": "nikdy",
+      "choices_l1": [
+        "personne",
+        "faible",
+        "la lettre"
+      ],
+      "choices_l2": [
+        "leto",
+        "suchý",
+        "odpovedali"
+      ]
+    },
+    {
+      "id": "listen-a-vlani",
+      "type": "listen",
+      "l1": "Et l'an dernier ?",
+      "l2": "A vlani?",
+      "choices_l1": [
+        "Et cet été ?",
+        "Et demain ?",
+        "Et en hiver ?"
+      ]
+    },
+    {
+      "id": "listen-nikto-nehovorí",
+      "type": "listen",
+      "l1": "Personne ne parle.",
+      "l2": "Nikto nehovorí.",
+      "choices_l1": [
+        "Personne n'est là.",
+        "Tout le monde parle.",
+        "Je ne parle pas."
+      ]
+    },
+    {
+      "id": "listen-odpovedali-mi-že-to-nie-je-môj-park",
+      "type": "listen",
+      "l1": "On m'a répondu que ce n'était pas mon parc.",
+      "l2": "Odpovedali mi, že to nie je môj park.",
+      "choices_l1": [
+        "On m'a répondu que c'était mon parc.",
+        "Ils m'ont dit que c'était un autre village.",
+        "Je leur ai répondu que ce n'était pas mon parc."
+      ]
+    },
+    {
+      "id": "blank-nikdy-som-nebol-v-tatrách",
+      "type": "fill-blank",
+      "l1": "Je ne suis jamais allé dans les Tatras.",
+      "l2": "Nikdy som nebol v Tatrách.",
+      "missing_l1": "jamais",
+      "missing_l2": "Nikdy",
+      "blank_index_l1": 3,
+      "blank_index_l2": 0,
+      "choices_l1": [
+        "toujours",
+        "déjà",
+        "encore"
+      ],
+      "choices_l2": [
+        "Vždy",
+        "Už",
+        "Ešte"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-nikto-tu-nie-je",
+      "type": "fill-blank",
+      "l1": "Il n'y a personne ici.",
+      "l2": "Nikto tu nie je.",
+      "missing_l1": "personne",
+      "missing_l2": "Nikto",
+      "blank_index_l1": 3,
+      "blank_index_l2": 0,
+      "choices_l1": [
+        "rien",
+        "jamais",
+        "plus"
+      ],
+      "choices_l2": [
+        "Nič",
+        "Nikdy",
+        "Už"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-nikdy-nevyschol-nikdy",
+      "type": "order",
+      "l1": "Elle n'avait jamais séché. Jamais.",
+      "l2": "Nikdy nevyschol. Nikdy.",
+      "tokens_l1": [
+        "Elle",
+        "n'avait",
+        "jamais",
+        "séché.",
+        "Jamais.",
+        "faible"
+      ],
+      "tokens_l2": [
+        "Nikdy",
+        "nevyschol.",
+        "Nikdy.",
+        "slabý"
+      ]
+    },
+    {
+      "id": "order-vlani-bolo-veľmi-suché-leto",
+      "type": "order",
+      "l1": "L'an dernier, l'été a été très sec.",
+      "l2": "Vlani bolo veľmi suché leto.",
+      "tokens_l1": [
+        "L'an",
+        "dernier,",
+        "l'été",
+        "a",
+        "été",
+        "très",
+        "sec.",
+        "On",
+        "m'a",
+        "répondu",
+        "que",
+        "ce",
+        "n'était",
+        "pas",
+        "mon",
+        "parc."
+      ],
+      "tokens_l2": [
+        "Vlani",
+        "bolo",
+        "veľmi",
+        "suché",
+        "leto.",
+        "Odpovedali",
+        "mi,",
+        "že",
+        "to",
+        "nie",
+        "je",
+        "môj",
+        "park."
+      ]
+    },
+    {
+      "id": "match-leto-vocab",
+      "type": "match",
+      "l1": [
+        "l'été",
+        "sec",
+        "faible",
+        "l'an dernier"
+      ],
+      "l2": [
+        "leto",
+        "suchý",
+        "slabý",
+        "vlani"
+      ]
+    }
+  ]
+}

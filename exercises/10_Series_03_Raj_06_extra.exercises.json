@@ -3,198 +3,280 @@
   "sync": "full",
   "exercises": [
     {
-      "id": "listen-nikdy-som-nespal-pod-hviezdami",
-      "type": "listen",
-      "l1": "Je n'ai jamais dormi sous les étoiles.",
-      "l2": "Nikdy som nespal pod hviezdami.",
+      "id": "qcm-po-uje",
+      "type": "qcm",
+      "l1": "tu entends",
+      "l2": "počuješ",
       "choices_l1": [
-        "J'ai toujours dormi sous les étoiles.",
-        "Je n'ai jamais dormi sous un pommier.",
-        "Tu n'as jamais dormi sous les étoiles."
-      ]
-    },
-    {
-      "id": "listen-to-nie-s-hviezdy-to-s-jablk",
-      "type": "listen",
-      "l1": "Ce ne sont pas des étoiles. Ce sont des pommes.",
-      "l2": "To nie sú hviezdy. To sú jablká.",
-      "choices_l1": [
-        "Ce sont des étoiles. Ce ne sont pas des pommes.",
-        "Ce ne sont pas des pommes. Ce sont des étoiles.",
-        "Ce ne sont pas des oiseaux. Ce sont des pommes."
-      ]
-    },
-    {
-      "id": "listen-ty-nikdy-never-l-kam",
-      "type": "listen",
-      "l1": "Toi, tu ne fais jamais confiance aux renards ?",
-      "l2": "Ty nikdy neveríš líškam?",
-      "choices_l1": [
-        "Toi, tu fais toujours confiance aux renards ?",
-        "Toi, tu n'as jamais peur des renards ?",
-        "Toi, tu ne parles jamais aux renards ?"
-      ]
-    },
-    {
-      "id": "listen-nikdy-okrem-jednej",
-      "type": "listen",
-      "l1": "Jamais. Sauf à un.",
-      "l2": "Nikdy. Okrem jednej.",
-      "choices_l1": [
-        "Toujours. Sauf à un.",
-        "Jamais. Même pas à un.",
-        "Jamais. Sauf à deux."
-      ]
-    },
-    {
-      "id": "listen-ja-viem-e-som-to-ja",
-      "type": "listen",
-      "l1": "Je sais que c'est moi.",
-      "l2": "Ja viem, že som to ja.",
-      "choices_l1": [
-        "Je sais que c'est toi.",
-        "Je ne sais pas si c'est moi.",
-        "Tu sais que c'est moi."
-      ]
-    },
-    {
-      "id": "listen-ni-nevie-spi",
-      "type": "listen",
-      "l1": "Tu ne sais rien. Dors.",
-      "l2": "Nič nevieš. Spi.",
-      "choices_l1": [
-        "Tu sais tout. Dors.",
-        "Je ne sais rien. Dors.",
-        "Tu ne sais rien. Viens."
-      ]
-    },
-    {
-      "id": "match-pomaly-vocab",
-      "type": "match",
-      "l1": [
-        "lentement",
-        "vite",
-        "en haut",
-        "en bas"
-      ],
-      "l2": [
-        "pomaly",
-        "rýchlo",
-        "hore",
-        "dole"
-      ]
-    },
-    {
-      "id": "match-najprv-time",
-      "type": "match",
-      "l1": [
-        "d'abord",
-        "ensuite",
-        "l'an dernier",
-        "toujours"
-      ],
-      "l2": [
-        "najprv",
-        "potom",
-        "vlani",
-        "vždy"
-      ]
-    },
-    {
-      "id": "blank-nikdy-okrem-jednej",
-      "type": "fill-blank",
-      "l1": "Jamais. Sauf à un.",
-      "l2": "Nikdy. Okrem jednej.",
-      "missing_l1": "Jamais",
-      "missing_l2": "Nikdy",
-      "blank_index_l1": 0,
-      "blank_index_l2": 0,
-      "choices_l1": [
-        "Toujours",
-        "Ensuite",
-        "D'abord"
+        "vingt",
+        "la pierre",
+        "la nuit"
       ],
       "choices_l2": [
-        "Vždy",
-        "Potom",
-        "Najprv"
+        "orol",
+        "dážď",
+        "park"
+      ]
+    },
+    {
+      "id": "qcm-nikto",
+      "type": "qcm",
+      "l1": "personne",
+      "l2": "nikto",
+      "choices_l1": [
+        "j'ai écrit",
+        "(ça) coule",
+        "tout droit"
+      ],
+      "choices_l2": [
+        "strom",
+        "buďte slušní",
+        "vlani"
+      ]
+    },
+    {
+      "id": "qcm-hviezda",
+      "type": "qcm",
+      "l1": "l'étoile",
+      "l2": "hviezda",
+      "choices_l1": [
+        "j'ai donné",
+        "gentil",
+        "Dors."
+      ],
+      "choices_l2": [
+        "milý",
+        "dala som",
+        "Spi."
+      ]
+    },
+    {
+      "id": "qcm-mil",
+      "type": "qcm",
+      "l1": "gentil",
+      "l2": "milý",
+      "choices_l1": [
+        "j'ai donné",
+        "l'étoile",
+        "Dors."
+      ],
+      "choices_l2": [
+        "Spi.",
+        "veríš",
+        "dala som"
+      ]
+    },
+    {
+      "id": "qcm-dala-som",
+      "type": "qcm",
+      "l1": "j'ai donné",
+      "l2": "dala som",
+      "choices_l1": [
+        "gentil",
+        "l'étoile",
+        "Dors."
+      ],
+      "choices_l2": [
+        "Spi.",
+        "veríš",
+        "hviezda"
+      ]
+    },
+    {
+      "id": "qcm-ver",
+      "type": "qcm",
+      "l1": "tu fais confiance",
+      "l2": "veríš",
+      "choices_l1": [
+        "Je suis de Paris.",
+        "la dame, madame",
+        "Ne regarde pas !"
+      ],
+      "choices_l2": [
+        "hviezda",
+        "Spi.",
+        "milý"
+      ]
+    },
+    {
+      "id": "qcm-spi",
+      "type": "qcm",
+      "l1": "Dors.",
+      "l2": "Spi.",
+      "choices_l1": [
+        "l'étoile",
+        "j'ai donné",
+        "gentil"
+      ],
+      "choices_l2": [
+        "veríš",
+        "hviezda",
+        "dala som"
+      ]
+    },
+    {
+      "id": "listen-niekomu-milému",
+      "type": "listen",
+      "l1": "À quelqu'un de gentil.",
+      "l2": "Niekomu milému.",
+      "choices_l1": [
+        "À quelqu'un de méchant.",
+        "À personne.",
+        "À un ami."
+      ]
+    },
+    {
+      "id": "listen-záleží-na-tom-čo-urobí-potom",
+      "type": "listen",
+      "l1": "Ça dépend de ce qu'il fait après.",
+      "l2": "Záleží na tom, čo urobí potom.",
+      "choices_l1": [
+        "Ça dépend de ce qu'il a dit avant.",
+        "Il fait ce qu'il veut.",
+        "Ça ne dépend pas de lui."
+      ]
+    },
+    {
+      "id": "listen-tvoj-zápisník-ako-si-ho-stratila",
+      "type": "listen",
+      "l1": "Ton carnet. Tu l'as perdu comment ?",
+      "l2": "Tvoj zápisník. Ako si ho stratila?",
+      "choices_l1": [
+        "Ton carnet. Tu l'as trouvé où ?",
+        "Ton portable. Tu l'as perdu comment ?",
+        "Mon carnet. Je l'ai perdu ici."
+      ]
+    },
+    {
+      "id": "blank-nestratila-som-ho-dala-som-ho",
+      "type": "fill-blank",
+      "l1": "Je ne l'ai pas perdu. Je l'ai donné.",
+      "l2": "Nestratila som ho. Dala som ho.",
+      "missing_l1": "donné",
+      "missing_l2": "Dala",
+      "blank_index_l1": 7,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "perdu",
+        "trouvé",
+        "lu"
+      ],
+      "choices_l2": [
+        "Stratila",
+        "Našla",
+        "Čítala"
       ],
       "show_translation": true
     },
     {
-      "id": "blank-to-nie-s-hviezdy-to-s-jablk",
+      "id": "blank-večer-pri-bobrom-jazere-vo-vode-sa-odrážajú-hviezdy",
       "type": "fill-blank",
-      "l1": "Ce ne sont pas des étoiles. Ce sont des pommes.",
-      "l2": "To nie sú hviezdy. To sú jablká.",
-      "missing_l1": "pommes",
-      "missing_l2": "jablká",
-      "blank_index_l1": 9,
-      "blank_index_l2": 6,
+      "l1": "Le soir, au bord du lac des castors. Les étoiles se reflètent dans l'eau.",
+      "l2": "Večer pri bobrom jazere. Vo vode sa odrážajú hviezdy.",
+      "missing_l1": "lac",
+      "missing_l2": "jazere",
+      "blank_index_l1": 5,
+      "blank_index_l2": 3,
       "choices_l1": [
-        "questions",
-        "oiseaux",
-        "échelles"
+        "ruisseau",
+        "refuge",
+        "village"
       ],
       "choices_l2": [
-        "hviezdy",
-        "otázky",
-        "vtáky"
+        "potoku",
+        "chate",
+        "dedine"
       ],
       "show_translation": true
     },
     {
-      "id": "order-to-nie-s-hviezdy-to-s-jablk",
+      "id": "order-už-nikomu-neveríš",
       "type": "order",
-      "l1": "Ce ne sont pas des étoiles. Ce sont des pommes.",
-      "l2": "To nie sú hviezdy. To sú jablká.",
+      "l1": "Tu ne fais plus confiance à personne ?",
+      "l2": "Už nikomu neveríš?",
       "tokens_l1": [
-        "Ce",
+        "Tu",
         "ne",
-        "sont",
-        "pas",
-        "des étoiles.",
-        "Ce",
-        "sont",
-        "des",
-        "pommes.",
-        "jamais",
-        "sous",
-        "les"
+        "fais",
+        "plus",
+        "confiance",
+        "à",
+        "personne",
+        "?",
+        "Ton",
+        "carnet.",
+        "Tu",
+        "l'as",
+        "perdu",
+        "comment",
+        "?"
       ],
       "tokens_l2": [
-        "To",
-        "nie",
-        "sú",
-        "hviezdy.",
-        "To",
-        "sú",
-        "jablká.",
-        "nespal",
-        "hviezdami",
-        "som"
+        "Už",
+        "nikomu",
+        "neveríš?",
+        "Tvoj",
+        "zápisník.",
+        "Ako",
+        "si",
+        "ho",
+        "stratila?"
       ]
     },
     {
-      "id": "order-okrem-jednej-ktorej",
+      "id": "order-a-to-nie-je-dobre-niekto-milý",
       "type": "order",
-      "l1": "Sauf à un ? Lequel ?",
-      "l2": "Okrem jednej? Ktorej?",
+      "l1": "Et ce n'est pas bien, quelqu'un de gentil ?",
+      "l2": "A to nie je dobre, niekto milý?",
       "tokens_l1": [
-        "Sauf",
-        "à",
-        "un",
+        "Et",
+        "ce",
+        "n'est",
+        "pas",
+        "bien,",
+        "quelqu'un",
+        "de",
+        "gentil",
         "?",
-        "Lequel",
-        "?",
-        "sais",
-        "moi"
+        "Je",
+        "ne",
+        "l'ai",
+        "pas",
+        "perdu.",
+        "Je",
+        "l'ai",
+        "donné."
       ],
       "tokens_l2": [
-        "Okrem",
-        "jednej?",
-        "Ktorej?",
-        "že",
-        "som"
+        "A",
+        "to",
+        "nie",
+        "je",
+        "dobre,",
+        "niekto",
+        "milý?",
+        "Nestratila",
+        "som",
+        "ho.",
+        "Dala",
+        "som",
+        "ho."
+      ]
+    },
+    {
+      "id": "match-les-vocab",
+      "type": "match",
+      "l1": [
+        "la forêt",
+        "enfin",
+        "frais",
+        "tu entends"
+      ],
+      "l2": [
+        "les",
+        "konečne",
+        "chladno",
+        "počuješ"
       ]
     }
   ]

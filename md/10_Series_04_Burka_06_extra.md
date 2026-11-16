@@ -1,8 +1,8 @@
 # Búrka (extra) — Ráno po búrke
 
-@ img/illus_04_burka_2.jpg | Au lac, le lendemain de l'orage : le renard montre le plan du carnet, Andrea regarde l'eau monter. Source : illustration générée avec ChatGPT
+@ img/tatry-pleso-rano.jpg | Les Tatras au petit matin, vues du lac de Czorsztyn : ces sommets sont à la frontière entre la Slovaquie et la Pologne. Source : Wikimedia Commons, Jakub Hałun, CC BY-SA 4.0
 
-{{fr:Le matin, l'orage est parti. Il y a de l'eau partout. Tu es content. Andrea, beaucoup moins.}}
+{{fr:Le matin, le ciel est bleu. Le banc est vide. Et dehors, il y a de l'eau partout. Une bonne nouvelle ? Pas forcément.}}
 
 ---
 
@@ -10,72 +10,81 @@
 
 | Slovenčina | Français |
 |------------|----------|
-| prečo | pourquoi |
-| lebo | parce que |
 | hory | les montagnes |
-| vysoké | hautes |
-| také | si, tellement |
-| hore | en haut |
-| úplne | complètement |
-| zbytočná | inutile |
-| odpoveď | la réponse |
-| otázka | la question |
-| kopec | la colline |
-| štít | le sommet, le pic |
 | pleso | le lac de montagne |
-| búrka | l'orage |
-| bude | il y aura, il sera |
-| chata | le refuge, le chalet |
-| koleno | le genou |
-| musíme | nous devons |
-| môžeme | nous pouvons |
-| zostať | rester |
-| dolu | en bas, vers le bas |
-| plná | pleine |
-| na zemi | par terre |
-| kuchyňa | la cuisine |
-| miesto | la place |
-| rádio | la radio |
-| vonku | dehors |
-| zima | le froid, l'hiver |
-| v zime | en hiver |
-| vyššie | plus haut |
-| chladnejšie | plus frais, plus froid |
-| teplejšie | plus chaud |
-| vlhko | humide |
+| Je zima. | Il fait froid. |
+| stupeň | le degré |
+| vysvetlenie | l'explication |
+| chatár | le gardien de refuge |
 | obloha | le ciel |
-| čierne | noirs |
-| nevyzerá dobre | ça n'a pas l'air bon |
-| studený | froid (dit d'une chose) |
-| teplý | chaud (dit d'une chose) |
-| čaj | le thé |
+| koleno | le genou |
+| búrka | l'orage |
+| Poďte dnu. | Entrez. |
+| dvere | la porte |
+| rádio | la radio |
+| môžem | je peux |
+| môžeš | tu peux |
+| musím | je dois |
+| musíme | nous devons |
+| mokraď | la zone humide |
+| výkop | la tranchée |
+| kopali | ils ont creusé |
+| kábel | le câble |
+| široký | large |
+| pred dvoma rokmi | il y a deux ans |
+| čiara | la ligne |
+| hnedý | brun |
+| zblízka | de près |
 | hrom | le tonnerre |
-| hlasný | fort (pour un bruit) |
-| prší | il pleut |
-| len | seulement, juste |
-| toľko | tellement, autant |
-| sviečka | la bougie |
-| Nebojte sa! | N'ayez pas peur ! |
-| do rána | jusqu'au matin |
-| trasie sa | tremble |
-| Nemôžem za to. | Je n'y suis pour rien. |
-| blesk | l'éclair |
-| tma | le noir, l'obscurité |
+| naraz | d'un coup |
 | svetlo | la lumière |
-| Spíš? | Tu dors ? |
-| pôjdeme | nous irons |
-| dedina | le village |
-| do dediny | au village |
-| bratranci | les cousins |
-| Bojím sa jej. | J'ai peur d'elle. |
-| tiež | aussi |
-| skončí | ça va finir |
-| svieti | brille (nouveau) |
-| všade | partout (nouveau) |
-| smutná | triste (dite d'une fille) (nouveau) |
-| príliš veľa | trop (nouveau) |
-| možno | peut-être (nouveau) |
-| Ideme správne. | On va dans la bonne direction. (nouveau) |
+| sviečka | la bougie |
+| klope | il frappe (à la porte) |
+| kuchyňa | la cuisine |
+| do rána | jusqu'au matin |
+| bude pekne | il fera beau |
+| budem | je serai |
+| budeme | nous serons |
+| blesk | l'éclair |
+| oblak | le nuage |
+| dúha | l'arc-en-ciel |
+| Nerozumiem. | Je ne comprends pas. |
+| počasie | le temps (qu'il fait) |
+| izba | la chambre |
+| lavica | le banc |
+| mokrý | mouillé |
+| mladý | jeune |
+| Videli ste…? | Avez-vous vu… ? |
+| cestuješ | tu voyages |
+| sám | seul (un garçon) |
+| Výborne. | Parfait. |
+| pomalšie | plus lentement |
+| zopakovať | répéter |
+| zbožňujem | j'adore |
+| neskôr | plus tard |
+| šálka | la tasse |
+| na zemi | par terre |
+| v tme | dans le noir |
+| deň otvorených dverí | la journée portes ouvertes |
+| číslo | le chiffre, le nombre |
+| ponúkol | il a offert |
+| limonáda | la limonade |
+| zaujímavý | intéressant |
+| vrátim | je rendrai |
+| advokát | l'avocat |
+| koniec sveta | la fin du monde |
+
+---
+
+## Les nouveaux mots de l'épisode
+
+| Slovenčina | Français |
+|------------|----------|
+| prepitné | le pourboire |
+| vizitka | la carte de visite |
+| nebezpečný | dangereux |
+| všade | partout |
+| na obed | à midi, pour le déjeuner |
 
 ---
 
@@ -84,98 +93,86 @@
 - 💬 Le Narrateur
 - 🦊 Toi, un garçon de quinze ans, de Lyon
 - 🐰 Andrea, une hase de seize ans, ton amie
+- 🧑 Le gardien du refuge : un adulte, on le vouvoie
 
 ---
 
 ## La suite de l'épisode
 
-! 💬 Ráno je ticho. Búrka je preč. Slnko svieti nad jazerom.
-> Le matin est calme. L'orage est parti. Le soleil brille au-dessus du lac.
-> Ráno je ticho = le matin est calme
-> Búrka je preč = l'orage est parti
-> Slnko svieti = le soleil brille
-> nad jazerom = au-dessus du lac
-+ Mot nouveau signalé : {{svieti}} = brille.
+! 💬 Ráno. Obloha je modrá. Lavica je prázdna.
+> Le matin. Le ciel est bleu. Le banc est vide.
+> Ráno = le matin
+> Obloha je modrá = le ciel est bleu
+> Lavica je prázdna = le banc est vide
 
-! 🦊 Pozri! Voda! Je jej veľa!
-> Regarde ! De l'eau ! Il y en a beaucoup !
+! 🧑 Odišiel o šiestej. Nechal mi prepitné a vizitku.
+> Il est parti à six heures. Il m'a laissé un pourboire et une carte de visite.
+> Odišiel o šiestej = il est parti à six heures
+> Nechal mi = il m'a laissé
+> prepitné a vizitku = un pourboire et une carte de visite
++ Mots nouveaux signalés : {{prepitné}} = le pourboire, {{vizitka}} = la carte de visite.
+
+! 🦊 Povedal niečo?
+> Il a dit quelque chose ?
+> Povedal niečo = il a dit quelque chose
+
+! 🧑 Povedal: „Povedzte zajačici, že hory sú nebezpečné.“ A usmial sa.
+> Il a dit : « Dites à la hase que la montagne est dangereuse. » Et il a souri.
+> Povedzte zajačici = dites à la hase
+> že hory sú nebezpečné = que les montagnes sont dangereuses
+> A usmial sa = et il a souri
++ Mot nouveau signalé : {{nebezpečný}} = dangereux. Ce n'est pas un conseil de randonnée.
+
+! 💬 Andrea vyjde z kuchyne. Pozerá sa von oknom.
+> Andrea sort de la cuisine. Elle regarde par la fenêtre.
+> Andrea vyjde z kuchyne = Andrea sort de la cuisine
+> Pozerá sa von oknom = elle regarde dehors par la fenêtre
+
+! 💬 Všade je voda. Tečie po skalách, po chodníku, do plesa.
+> Il y a de l'eau partout. Elle coule sur les rochers, sur le chemin, dans le lac.
+> Všade je voda = il y a de l'eau partout
+> Tečie po skalách = elle coule sur les rochers
+> po chodníku = sur le sentier
+> do plesa = dans le lac
++ Mot nouveau signalé : {{všade}} = partout.
+
+! 🦊 Pozri, koľko vody! Sucho skončilo!
+> Regarde toute cette eau ! C'est fini, la sécheresse !
 > Pozri = regarde
-> Voda = de l'eau
-> Je jej veľa = il y en a beaucoup
+> koľko vody = combien d'eau
+> Sucho skončilo = la sécheresse est finie
++ Après {{koľko}}, comme après {{veľa}} : {{vody}}.
 
-! 🐰 Veľa. A všade.
-> Beaucoup. Et partout.
-> Veľa = beaucoup
-> A všade = et partout
-+ Mot nouveau signalé : {{všade}} = partout. {{všetko}} = tout, {{všade}} = partout.
+! 🐰 Áno.
+> Oui.
 
-! 🦊 Prečo si taká smutná? Veď je tu voda!
-> Pourquoi tu es si triste ? Il y a de l'eau !
-> Prečo = pourquoi
-> si taká smutná = tu es si triste
-> Veď je tu voda = puisqu'il y a de l'eau
-+ Mot nouveau signalé : {{smutná}} = triste (une fille). Un garçon : {{smutný}}.
+! 🦊 Tak náš potok v dedine zase tečie. Nie?
+> Alors le ruisseau du village coule de nouveau. Non ?
+> Tak = alors
+> náš potok v dedine = notre ruisseau au village
+> zase tečie = coule de nouveau
+> Nie = non
 
-! 🐰 Dva mesiace nebola ani kvapka. A teraz je jej príliš veľa. To nie je normálne.
-> Pendant deux mois, il n'y avait pas une goutte. Et maintenant il y en a trop. Ce n'est pas normal.
-> Dva mesiace = pendant deux mois
-> nebola ani kvapka = il n'y avait pas une goutte
-> A teraz = et maintenant
-> je jej príliš veľa = il y en a trop
-> To nie je normálne = ce n'est pas normal
-+ Mot nouveau signalé : {{príliš veľa}} = trop. {{ani kvapka}} = pas une goutte.
+! 🐰 Ak to bolo sucho, áno.
+> Si c'était la sécheresse, oui.
+> Ak to bolo sucho = si c'était la sécheresse
+> áno = oui
 
-! 🦊 Možno sa to vráti do normálu.
-> Peut-être que ça va redevenir normal.
-> Možno = peut-être
-> sa to vráti = ça va revenir
-> do normálu = à la normale
-+ Mot nouveau signalé : {{možno}} = peut-être.
+! 🦊 A ak to nebolo sucho?
+> Et si ce n'était pas la sécheresse ?
+> A ak = et si
+> to nebolo sucho = ce n'était pas la sécheresse
 
-! 🐰 Možno. Poď. Ideme do dediny.
-> Peut-être. Viens. On va au village.
-> Možno = peut-être
-> Poď = viens
-> Ideme do dediny = on va au village
-
-! 🦊 Do tej dediny?
-> À ce village-là ?
-> Do tej dediny = à ce village-là
-
-! 🐰 Áno. Tam sme sa spoznali, [USER_NAME].
-> Oui. C'est là qu'on s'est connus, [USER_NAME].
-> Áno = oui
-> Tam = là-bas
-> sme sa spoznali = on s'est connus
-+ À écouter : {{sme sa spoznali}} = on s'est connus. Comme {{dlho sme sa nevideli}}, c'est un passé avec {{sme}}.
-
-! 💬 [USER_NAME] otvorí zápisník. Na ďalšej strane je malá mapa: potok, most, obchod a lúka.
-> [USER_NAME] ouvre le carnet. Sur la page suivante, il y a une petite carte : un ruisseau, un pont, un magasin et un pré.
-> [USER_NAME] otvorí zápisník = [USER_NAME] ouvre le carnet
-> Na ďalšej strane = sur la page suivante
-> je malá mapa = il y a une petite carte
-> potok, most, obchod a lúka = un ruisseau, un pont, un magasin et un pré
-+ Pour comprendre : {{most}} = le pont, {{obchod}} = le magasin, {{lúka}} = le pré.
-
-! 🦊 Pozri. Ďalšie meranie: „Potok pod Tatrami.“
-> Regarde. Prochaine mesure : « Le ruisseau sous les Tatras. »
-> Pozri = regarde
-> Ďalšie meranie = prochaine mesure
-> Potok pod Tatrami = le ruisseau sous les Tatras
-
-! 🐰 Náš potok. Tak vidíš. Ideme správne.
-> Notre ruisseau. Tu vois ? On va dans la bonne direction.
-> Náš potok = notre ruisseau
-> Tak vidíš = tu vois
-> Ideme správne = on va dans la bonne direction
-+ Mot nouveau signalé : {{ideme správne}} = on va dans la bonne direction (mot à mot : « on va correctement »).
+! 🐰 Uvidíme. Na obed sme tam.
+> On verra. On y sera à midi.
+> Uvidíme = on verra
+> Na obed sme tam = à midi, nous y sommes
++ Mot nouveau signalé : {{na obed}} = à midi, à l'heure du déjeuner.
 
 ---
 
 ## 🇸🇰 Coin slovaque
 
-@ img/tatry-pleso-rano.jpg | Les Tatras au petit matin, vues du lac de Czorsztyn : ces sommets sont à la frontière entre la Slovaquie et la Pologne. Source : Wikimedia Commons, Jakub Hałun, CC BY-SA 4.0
+{{fr:Fais le point. Trois pièces : le permis, « zéro litre » ; le registre de pán Orol, où la source n'a jamais séché en trente ans ; et la photo de la tranchée, de la zone humide jusqu'au bâtiment gris.}}
 
-{{fr:Après des semaines de sécheresse, le sol durci boit mal l'eau. Quand un gros orage arrive, l'eau ruisselle au lieu de s'infiltrer, et les rivières montent très vite. C'est ce qui inquiète Andrea.}}
-
-{{fr:Le quatrième chapitre est terminé. En bas, il y a un village que tu connais bien, et une marmotte de treize ans qui t'attend. Courage.}}
+{{fr:Et maintenant, un test grandeur nature. Il a plu toute la nuit. Si le ruisseau du village coule à midi, c'était la sécheresse. S'il ne coule pas… {{Uvidíme}}.}}

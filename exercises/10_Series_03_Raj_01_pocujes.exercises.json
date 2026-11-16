@@ -1,0 +1,264 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-les",
+      "type": "qcm",
+      "l1": "la forêt",
+      "l2": "les",
+      "choices_l1": [
+        "l'arbre",
+        "frais",
+        "j'entends"
+      ],
+      "choices_l2": [
+        "konečne",
+        "chladno",
+        "kameň"
+      ]
+    },
+    {
+      "id": "qcm-kone-ne",
+      "type": "qcm",
+      "l1": "enfin",
+      "l2": "konečne",
+      "choices_l1": [
+        "frais",
+        "tu entends",
+        "je vois"
+      ],
+      "choices_l2": [
+        "les",
+        "počujem",
+        "ani tu"
+      ]
+    },
+    {
+      "id": "qcm-chladno",
+      "type": "qcm",
+      "l1": "frais",
+      "l2": "chladno",
+      "choices_l1": [
+        "enfin",
+        "j'entends",
+        "la pierre"
+      ],
+      "choices_l2": [
+        "konečne",
+        "počujem",
+        "les"
+      ]
+    },
+    {
+      "id": "qcm-po-uje",
+      "type": "qcm",
+      "l1": "tu entends",
+      "l2": "počuješ",
+      "choices_l1": [
+        "la pierre",
+        "la forêt",
+        "je vois"
+      ],
+      "choices_l2": [
+        "konečne",
+        "počujem",
+        "strom"
+      ]
+    },
+    {
+      "id": "qcm-po-ujem",
+      "type": "qcm",
+      "l1": "j'entends",
+      "l2": "počujem",
+      "choices_l1": [
+        "la forêt",
+        "je vois",
+        "la pierre"
+      ],
+      "choices_l2": [
+        "kameň",
+        "les",
+        "konečne"
+      ]
+    },
+    {
+      "id": "qcm-vid-m",
+      "type": "qcm",
+      "l1": "je vois",
+      "l2": "vidím",
+      "choices_l1": [
+        "la forêt",
+        "j'entends",
+        "enfin"
+      ],
+      "choices_l2": [
+        "počujem",
+        "kameň",
+        "konečne"
+      ]
+    },
+    {
+      "id": "listen-a-čo",
+      "type": "listen",
+      "l1": "Et alors ?",
+      "l2": "A čo?",
+      "choices_l1": [
+        "Et toi ?",
+        "Quoi ?",
+        "Et après ?"
+      ]
+    },
+    {
+      "id": "listen-počuješ-ma",
+      "type": "listen",
+      "l1": "Tu m'entends ?",
+      "l2": "Počuješ ma?",
+      "choices_l1": [
+        "Tu entends ?",
+        "Tu me vois ?",
+        "Tu es là ?"
+      ]
+    },
+    {
+      "id": "listen-ani-tu-nepršalo-dva-mesiace",
+      "type": "listen",
+      "l1": "Il n'a pas plu ici non plus. Depuis deux mois.",
+      "l2": "Ani tu nepršalo. Dva mesiace.",
+      "choices_l1": [
+        "Ici, il a plu. Depuis deux mois.",
+        "Il n'a pas plu ici. Depuis deux jours.",
+        "Il pleut ici aussi. Deux mois."
+      ]
+    },
+    {
+      "id": "blank-hľadám-mapu",
+      "type": "fill-blank",
+      "l1": "Je cherche la carte.",
+      "l2": "Hľadám mapu.",
+      "missing_l1": "carte",
+      "missing_l2": "mapu",
+      "blank_index_l1": 3,
+      "blank_index_l2": 1,
+      "choices_l1": [
+        "forêt",
+        "pierre",
+        "gare"
+      ],
+      "choices_l2": [
+        "les",
+        "kameň",
+        "stanicu"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-vidím-les-a-potok",
+      "type": "fill-blank",
+      "l1": "Je vois la forêt et le ruisseau.",
+      "l2": "Vidím les a potok.",
+      "missing_l1": "forêt",
+      "missing_l2": "les",
+      "blank_index_l1": 3,
+      "blank_index_l2": 1,
+      "choices_l1": [
+        "pierre",
+        "arbre",
+        "carte"
+      ],
+      "choices_l2": [
+        "kameň",
+        "strom",
+        "mapu"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-nie-ale-tečie",
+      "type": "order",
+      "l1": "Non. Mais il coule.",
+      "l2": "Nie. Ale tečie.",
+      "tokens_l1": [
+        "Non.",
+        "Mais",
+        "il",
+        "coule.",
+        "Le",
+        "Paradis",
+        "slovaque.",
+        "Une",
+        "petite",
+        "gare,",
+        "puis",
+        "la",
+        "forêt.",
+        "Il",
+        "fait",
+        "enfin",
+        "frais."
+      ],
+      "tokens_l2": [
+        "Nie.",
+        "Ale",
+        "tečie.",
+        "Slovenský",
+        "raj.",
+        "Malá",
+        "stanica,",
+        "potom",
+        "les.",
+        "Konečne",
+        "je",
+        "chladno."
+      ]
+    },
+    {
+      "id": "order-nie-je-veľký",
+      "type": "order",
+      "l1": "Il n'est pas gros.",
+      "l2": "Nie je veľký.",
+      "tokens_l1": [
+        "Il",
+        "n'est",
+        "pas",
+        "gros.",
+        "Il",
+        "n'a",
+        "pas",
+        "plu",
+        "ici",
+        "non",
+        "plus.",
+        "Depuis",
+        "deux",
+        "mois."
+      ],
+      "tokens_l2": [
+        "Nie",
+        "je",
+        "veľký.",
+        "Ani",
+        "tu",
+        "nepršalo.",
+        "Dva",
+        "mesiace."
+      ]
+    },
+    {
+      "id": "match-les-vocab",
+      "type": "match",
+      "l1": [
+        "la forêt",
+        "enfin",
+        "frais",
+        "tu entends"
+      ],
+      "l2": [
+        "les",
+        "konečne",
+        "chladno",
+        "počuješ"
+      ]
+    }
+  ]
+}

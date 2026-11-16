@@ -1,0 +1,279 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-dvadsa",
+      "type": "qcm",
+      "l1": "vingt",
+      "l2": "dvadsať",
+      "choices_l1": [
+        "la neige",
+        "le thé",
+        "la pluie"
+      ],
+      "choices_l2": [
+        "tridsať",
+        "dážď",
+        "park"
+      ]
+    },
+    {
+      "id": "qcm-tridsa",
+      "type": "qcm",
+      "l1": "trente",
+      "l2": "tridsať",
+      "choices_l1": [
+        "chaque lundi",
+        "vous notez",
+        "la pluie"
+      ],
+      "choices_l2": [
+        "sneh",
+        "park",
+        "vyrástla si"
+      ]
+    },
+    {
+      "id": "qcm-tridsa-jeden",
+      "type": "qcm",
+      "l1": "trente et un",
+      "l2": "tridsaťjeden",
+      "choices_l1": [
+        "le pied, la jambe",
+        "Il n'y a pas d'eau.",
+        "tu n'es pas"
+      ],
+      "choices_l2": [
+        "vyrástla si",
+        "dvadsať",
+        "dážď"
+      ]
+    },
+    {
+      "id": "qcm-zapisujete",
+      "type": "qcm",
+      "l1": "vous notez",
+      "l2": "zapisujete",
+      "choices_l1": [
+        "la pluie",
+        "le thé",
+        "vingt"
+      ],
+      "choices_l2": [
+        "dážď",
+        "vyrástla si",
+        "tridsaťjeden"
+      ]
+    },
+    {
+      "id": "qcm-d",
+      "type": "qcm",
+      "l1": "la pluie",
+      "l2": "dážď",
+      "choices_l1": [
+        "le thé",
+        "chaque lundi",
+        "vous notez"
+      ],
+      "choices_l2": [
+        "vyrástla si",
+        "park",
+        "zapisujete"
+      ]
+    },
+    {
+      "id": "qcm-sneh",
+      "type": "qcm",
+      "l1": "la neige",
+      "l2": "sneh",
+      "choices_l1": [
+        "le parc",
+        "vingt",
+        "chaque lundi"
+      ],
+      "choices_l2": [
+        "zapisujete",
+        "dážď",
+        "dvadsať"
+      ]
+    },
+    {
+      "id": "listen-andrea-vyrástla-si",
+      "type": "listen",
+      "l1": "Andrea. Tu as grandi.",
+      "l2": "Andrea. Vyrástla si.",
+      "choices_l1": [
+        "Andrea. Tu es belle.",
+        "Andrea. Tu as changé.",
+        "Andrea. Tu es là."
+      ]
+    },
+    {
+      "id": "listen-ten-nie-je-v-mojom-parku",
+      "type": "listen",
+      "l1": "Elle n'est pas dans mon parc.",
+      "l2": "Ten nie je v mojom parku.",
+      "choices_l1": [
+        "Elle est dans mon parc.",
+        "Il n'y a pas d'eau dans mon parc.",
+        "Ce n'est pas mon village."
+      ]
+    },
+    {
+      "id": "listen-register-z-parku-nevychádza-ale-čítať-viete",
+      "type": "listen",
+      "l1": "Un registre ne sort pas du parc. Mais vous savez lire.",
+      "l2": "Register z parku nevychádza. Ale čítať viete.",
+      "choices_l1": [
+        "Le registre est dans le parc. Vous pouvez le prendre.",
+        "Un registre ne sort pas du parc. Mais je peux le lire.",
+        "Le livre ne sort pas. Vous ne savez pas lire."
+      ]
+    },
+    {
+      "id": "blank-bývam-tu-už-dvadsať-rokov",
+      "type": "fill-blank",
+      "l1": "J'habite ici depuis vingt ans.",
+      "l2": "Bývam tu už dvadsať rokov.",
+      "missing_l1": "vingt",
+      "missing_l2": "dvadsať",
+      "blank_index_l1": 3,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "trente",
+        "deux",
+        "cinq"
+      ],
+      "choices_l2": [
+        "tridsať",
+        "dva",
+        "päť"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-pijete-čaj",
+      "type": "fill-blank",
+      "l1": "Vous buvez du thé ?",
+      "l2": "Pijete čaj?",
+      "missing_l1": "thé",
+      "missing_l2": "čaj",
+      "blank_index_l1": 3,
+      "blank_index_l2": 1,
+      "choices_l1": [
+        "eau",
+        "neige",
+        "pluie"
+      ],
+      "choices_l2": [
+        "vodu",
+        "sneh",
+        "dážď"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-v-zime-je-tu-veľa-snehu",
+      "type": "order",
+      "l1": "En hiver, il y a beaucoup de neige ici.",
+      "l2": "V zime je tu veľa snehu.",
+      "tokens_l1": [
+        "En",
+        "hiver,",
+        "il",
+        "y",
+        "a",
+        "beaucoup",
+        "de",
+        "neige",
+        "ici.",
+        "pluie"
+      ],
+      "tokens_l2": [
+        "V",
+        "zime",
+        "je",
+        "tu",
+        "veľa",
+        "snehu.",
+        "dážď"
+      ]
+    },
+    {
+      "id": "order-tridsaťjeden-dážď-sneh-potoky-pramene-každý-deň",
+      "type": "order",
+      "l1": "Trente et un. La pluie, la neige, les ruisseaux, les sources. Tous les jours.",
+      "l2": "Tridsaťjeden. Dážď, sneh, potoky, pramene. Každý deň.",
+      "tokens_l1": [
+        "Trente",
+        "et",
+        "un.",
+        "La",
+        "pluie,",
+        "la",
+        "neige,",
+        "les",
+        "ruisseaux,",
+        "les",
+        "sources.",
+        "Tous",
+        "les",
+        "jours.",
+        "L'aigle",
+        "la",
+        "regarde.",
+        "Puis",
+        "il",
+        "se",
+        "lève",
+        "et",
+        "revient",
+        "avec",
+        "un",
+        "gros",
+        "livre",
+        "vert."
+      ],
+      "tokens_l2": [
+        "Tridsaťjeden.",
+        "Dážď,",
+        "sneh,",
+        "potoky,",
+        "pramene.",
+        "Každý",
+        "deň.",
+        "Orol",
+        "sa",
+        "na",
+        "ňu",
+        "pozrie.",
+        "Potom",
+        "vstane",
+        "a",
+        "vráti",
+        "sa",
+        "s",
+        "hrubou",
+        "zelenou",
+        "knihou."
+      ]
+    },
+    {
+      "id": "match-dvadsa-vocab",
+      "type": "match",
+      "l1": [
+        "vingt",
+        "trente",
+        "trente et un",
+        "vous notez"
+      ],
+      "l2": [
+        "dvadsať",
+        "tridsať",
+        "tridsaťjeden",
+        "zapisujete"
+      ]
+    }
+  ]
+}

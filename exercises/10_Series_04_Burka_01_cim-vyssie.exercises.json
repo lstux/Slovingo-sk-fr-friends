@@ -1,0 +1,261 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-hory",
+      "type": "qcm",
+      "l1": "les montagnes",
+      "l2": "hory",
+      "choices_l1": [
+        "le degré",
+        "Entrez.",
+        "l'orage"
+      ],
+      "choices_l2": [
+        "pleso",
+        "obloha",
+        "koleno"
+      ]
+    },
+    {
+      "id": "qcm-pleso",
+      "type": "qcm",
+      "l1": "le lac de montagne",
+      "l2": "pleso",
+      "choices_l1": [
+        "tu as → vous avez",
+        "Je suis de Paris.",
+        "Tu as quel âge ?"
+      ],
+      "choices_l2": [
+        "koleno",
+        "Je zima.",
+        "obloha"
+      ]
+    },
+    {
+      "id": "qcm-je-zima",
+      "type": "qcm",
+      "l1": "Il fait froid.",
+      "l2": "Je zima.",
+      "choices_l1": [
+        "Tu es tombé. (à un garçon)",
+        "contente (dit par une fille)",
+        "la photo → sur la photo"
+      ],
+      "choices_l2": [
+        "vysvetlenie",
+        "pleso",
+        "obloha"
+      ]
+    },
+    {
+      "id": "qcm-stupe",
+      "type": "qcm",
+      "l1": "le degré",
+      "l2": "stupeň",
+      "choices_l1": [
+        "l'orage",
+        "le genou",
+        "l'explication"
+      ],
+      "choices_l2": [
+        "búrka",
+        "Je zima.",
+        "Poďte dnu."
+      ]
+    },
+    {
+      "id": "qcm-vysvetlenie",
+      "type": "qcm",
+      "l1": "l'explication",
+      "l2": "vysvetlenie",
+      "choices_l1": [
+        "le degré",
+        "Entrez.",
+        "l'orage"
+      ],
+      "choices_l2": [
+        "hory",
+        "chatár",
+        "Je zima."
+      ]
+    },
+    {
+      "id": "qcm-chat-r",
+      "type": "qcm",
+      "l1": "le gardien de refuge",
+      "l2": "chatár",
+      "choices_l1": [
+        "J'ai quinze ans.",
+        "le ruisseau → Je vois le ruisseau.",
+        "il est, elle est"
+      ],
+      "choices_l2": [
+        "hory",
+        "vysvetlenie",
+        "koleno"
+      ]
+    },
+    {
+      "id": "listen-včera-tridsať-stupňov-dnes-osem",
+      "type": "listen",
+      "l1": "Hier, trente degrés. Aujourd'hui, huit.",
+      "l2": "Včera tridsať stupňov. Dnes osem.",
+      "choices_l1": [
+        "Aujourd'hui, trente degrés. Hier, huit.",
+        "Hier, vingt degrés. Aujourd'hui, huit.",
+        "Hier, trente degrés. Demain, huit."
+      ]
+    },
+    {
+      "id": "listen-to-nie-je-vysvetlenie",
+      "type": "listen",
+      "l1": "Ce n'est pas une explication.",
+      "l2": "To nie je vysvetlenie.",
+      "choices_l1": [
+        "C'est une bonne explication.",
+        "Ce n'est pas une montagne.",
+        "Ce n'est pas la seule."
+      ]
+    },
+    {
+      "id": "listen-dobrý-večer-dnes-v-noci-bude-búrka",
+      "type": "listen",
+      "l1": "Bonsoir. Il y aura de l'orage cette nuit.",
+      "l2": "Dobrý večer. Dnes v noci bude búrka.",
+      "choices_l1": [
+        "Bonsoir. Il y a eu un orage cette nuit.",
+        "Bonjour. Il y aura de l'orage demain.",
+        "Bonsoir. Il fera beau cette nuit."
+      ]
+    },
+    {
+      "id": "blank-dnes-je-teplejšie-ako-včera",
+      "type": "fill-blank",
+      "l1": "Aujourd'hui, il fait plus chaud qu'hier.",
+      "l2": "Dnes je teplejšie ako včera.",
+      "missing_l1": "chaud",
+      "missing_l2": "teplejšie",
+      "blank_index_l1": 4,
+      "blank_index_l2": 2,
+      "choices_l1": [
+        "froid",
+        "haut",
+        "mal"
+      ],
+      "choices_l2": [
+        "chladnejšie",
+        "vyššie",
+        "horšie"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-hore-je-vždy-chladnejšie",
+      "type": "fill-blank",
+      "l1": "En haut, il fait toujours plus frais.",
+      "l2": "Hore je vždy chladnejšie.",
+      "missing_l1": "frais",
+      "missing_l2": "chladnejšie",
+      "blank_index_l1": 6,
+      "blank_index_l2": 3,
+      "choices_l1": [
+        "chaud",
+        "beau",
+        "mal"
+      ],
+      "choices_l2": [
+        "teplejšie",
+        "horšie",
+        "viac"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-to-sú-hory-čím-vyššie-tým-chladnejšie",
+      "type": "order",
+      "l1": "C'est la montagne. Plus on monte, plus il fait froid.",
+      "l2": "To sú hory. Čím vyššie, tým chladnejšie.",
+      "tokens_l1": [
+        "C'est",
+        "la",
+        "montagne.",
+        "Plus",
+        "on",
+        "monte,",
+        "plus",
+        "il",
+        "fait",
+        "froid.",
+        "genou"
+      ],
+      "tokens_l2": [
+        "To",
+        "sú",
+        "hory.",
+        "Čím",
+        "vyššie,",
+        "tým",
+        "chladnejšie.",
+        "koleno"
+      ]
+    },
+    {
+      "id": "order-je-mi-zima",
+      "type": "order",
+      "l1": "J'ai froid.",
+      "l2": "Je mi zima.",
+      "tokens_l1": [
+        "J'ai",
+        "froid.",
+        "Devant",
+        "la",
+        "porte,",
+        "le",
+        "gardien",
+        "regarde",
+        "le",
+        "ciel.",
+        "Il",
+        "se",
+        "tient",
+        "le",
+        "genou."
+      ],
+      "tokens_l2": [
+        "Je",
+        "mi",
+        "zima.",
+        "Pred",
+        "dverami",
+        "sa",
+        "chatár",
+        "pozerá",
+        "na",
+        "oblohu.",
+        "Drží",
+        "sa",
+        "za",
+        "koleno."
+      ]
+    },
+    {
+      "id": "match-hory-vocab",
+      "type": "match",
+      "l1": [
+        "les montagnes",
+        "le lac de montagne",
+        "Il fait froid.",
+        "le degré"
+      ],
+      "l2": [
+        "hory",
+        "pleso",
+        "Je zima.",
+        "stupeň"
+      ]
+    }
+  ]
+}

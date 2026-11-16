@@ -3,225 +3,284 @@
   "sync": "full",
   "exercises": [
     {
-      "id": "listen-pozri-voda-je-jej-ve-a",
-      "type": "listen",
-      "l1": "Regarde ! De l'eau ! Il y en a beaucoup !",
-      "l2": "Pozri! Voda! Je jej veľa!",
+      "id": "qcm-klope",
+      "type": "qcm",
+      "l1": "il frappe (à la porte)",
+      "l2": "klope",
       "choices_l1": [
-        "Regarde ! De l'eau ! Il y en a peu !",
-        "Écoute ! De l'eau ! Il y en a beaucoup !",
-        "Regarde ! Un lac ! Il est très grand !"
-      ]
-    },
-    {
-      "id": "listen-ve-a-a-v-ade",
-      "type": "listen",
-      "l1": "Beaucoup. Et partout.",
-      "l2": "Veľa. A všade.",
-      "choices_l1": [
-        "Peu. Et nulle part.",
-        "Beaucoup. Et ici.",
-        "Trop. Et partout."
-      ]
-    },
-    {
-      "id": "listen-pre-o-si-tak-smutn-ve-je-tu-voda",
-      "type": "listen",
-      "l1": "Pourquoi tu es si triste ? Il y a de l'eau !",
-      "l2": "Prečo si taká smutná? Veď je tu voda!",
-      "choices_l1": [
-        "Pourquoi tu es si contente ? Il y a de l'eau !",
-        "Pourquoi tu as si peur ? Il y a de l'eau !",
-        "Pourquoi tu es si triste ? Il n'y a pas d'eau !"
-      ]
-    },
-    {
-      "id": "listen-mo-no-sa-to-vr-ti-do-norm-lu",
-      "type": "listen",
-      "l1": "Peut-être que ça va redevenir normal.",
-      "l2": "Možno sa to vráti do normálu.",
-      "choices_l1": [
-        "Ce n'est pas normal.",
-        "Ça ne va jamais redevenir normal.",
-        "Peut-être qu'il va pleuvoir."
-      ]
-    },
-    {
-      "id": "listen-mo-no-po-ideme-do-dediny",
-      "type": "listen",
-      "l1": "Peut-être. Viens. On va au village.",
-      "l2": "Možno. Poď. Ideme do dediny.",
-      "choices_l1": [
-        "Peut-être. Viens. On va en ville.",
-        "Peut-être. Attends. On va au village.",
-        "Sûrement. Viens. On va au refuge."
-      ]
-    },
-    {
-      "id": "listen-do-tej-dediny",
-      "type": "listen",
-      "l1": "À ce village-là ?",
-      "l2": "Do tej dediny?",
-      "choices_l1": [
-        "Au refuge ?",
-        "En ville ?",
-        "Dans les Tatras ?"
-      ]
-    },
-    {
-      "id": "match-vy-ie-vocab",
-      "type": "match",
-      "l1": [
-        "plus haut",
-        "plus chaud",
-        "plus frais, plus froid",
-        "dehors"
+        "Il fait froid.",
+        "le temps (qu'il fait)",
+        "ils ont creusé"
       ],
-      "l2": [
-        "vyššie",
-        "teplejšie",
-        "chladnejšie",
-        "vonku"
+      "choices_l2": [
+        "zblízka",
+        "môžem",
+        "kopali"
       ]
     },
     {
-      "id": "match-mus-me-verbs",
-      "type": "match",
-      "l1": [
-        "nous devons",
-        "nous pouvons",
-        "il y aura, il sera",
-        "nous irons"
+      "id": "qcm-na-zemi",
+      "type": "qcm",
+      "l1": "par terre",
+      "l2": "na zemi",
+      "choices_l1": [
+        "la limonade",
+        "la tasse",
+        "la porte"
       ],
-      "l2": [
-        "musíme",
-        "môžeme",
-        "bude",
-        "pôjdeme"
+      "choices_l2": [
+        "vysvetlenie",
+        "neskôr",
+        "šálka"
       ]
     },
     {
-      "id": "blank-ve-a-a-v-ade",
+      "id": "qcm-prepitn",
+      "type": "qcm",
+      "l1": "le pourboire",
+      "l2": "prepitné",
+      "choices_l1": [
+        "chaque semaine",
+        "sur l'eau",
+        "brun"
+      ],
+      "choices_l2": [
+        "na obed",
+        "všade",
+        "vizitka"
+      ]
+    },
+    {
+      "id": "qcm-vizitka",
+      "type": "qcm",
+      "l1": "la carte de visite",
+      "l2": "vizitka",
+      "choices_l1": [
+        "le village → au village",
+        "le tram → dans le tram",
+        "Qu'est-ce que c'est ?"
+      ],
+      "choices_l2": [
+        "všade",
+        "prepitné",
+        "nebezpečný"
+      ]
+    },
+    {
+      "id": "qcm-nebezpe-n",
+      "type": "qcm",
+      "l1": "dangereux",
+      "l2": "nebezpečný",
+      "choices_l1": [
+        "un Slovaque",
+        "trente ans",
+        "la pierre"
+      ],
+      "choices_l2": [
+        "vizitka",
+        "prepitné",
+        "všade"
+      ]
+    },
+    {
+      "id": "qcm-v-ade",
+      "type": "qcm",
+      "l1": "partout",
+      "l2": "všade",
+      "choices_l1": [
+        "faible",
+        "vous notez",
+        "très"
+      ],
+      "choices_l2": [
+        "na obed",
+        "prepitné",
+        "vizitka"
+      ]
+    },
+    {
+      "id": "qcm-na-obed",
+      "type": "qcm",
+      "l1": "à midi, pour le déjeuner",
+      "l2": "na obed",
+      "choices_l1": [
+        "un verre d'eau",
+        "le tram → dans le tram",
+        "il a offert"
+      ],
+      "choices_l2": [
+        "vizitka",
+        "všade",
+        "prepitné"
+      ]
+    },
+    {
+      "id": "listen-povedal-niečo",
+      "type": "listen",
+      "l1": "Il a dit quelque chose ?",
+      "l2": "Povedal niečo?",
+      "choices_l1": [
+        "Il a fait quelque chose ?",
+        "Il est parti ?",
+        "Elle a dit quelque chose ?"
+      ]
+    },
+    {
+      "id": "listen-ak-to-bolo-sucho-áno",
+      "type": "listen",
+      "l1": "Si c'était la sécheresse, oui.",
+      "l2": "Ak to bolo sucho, áno.",
+      "choices_l1": [
+        "Si ce n'était pas la sécheresse, non.",
+        "C'était la sécheresse, oui.",
+        "Si c'était l'orage, oui."
+      ]
+    },
+    {
+      "id": "listen-uvidíme-na-obed-sme-tam",
+      "type": "listen",
+      "l1": "On verra. On y sera à midi.",
+      "l2": "Uvidíme. Na obed sme tam.",
+      "choices_l1": [
+        "On verra. On y sera ce soir.",
+        "On y va. On mange à midi.",
+        "On a vu. On y était à midi."
+      ]
+    },
+    {
+      "id": "blank-všade-je-voda-tečie-po-skalách-po-chodníku-do-plesa",
       "type": "fill-blank",
-      "l1": "Beaucoup. Et partout.",
-      "l2": "Veľa. A všade.",
+      "l1": "Il y a de l'eau partout. Elle coule sur les rochers, sur le chemin, dans le lac.",
+      "l2": "Všade je voda. Tečie po skalách, po chodníku, do plesa.",
       "missing_l1": "partout",
-      "missing_l2": "všade",
-      "blank_index_l1": 2,
-      "blank_index_l2": 2,
-      "choices_l1": [
-        "tout",
-        "nulle part",
-        "quelque part"
-      ],
-      "choices_l2": [
-        "všetko",
-        "nikde",
-        "niekde"
-      ],
-      "show_translation": true
-    },
-    {
-      "id": "blank-mo-no-po-ideme-do-dediny",
-      "type": "fill-blank",
-      "l1": "Peut-être. Viens. On va au village.",
-      "l2": "Možno. Poď. Ideme do dediny.",
-      "missing_l1": "village",
-      "missing_l2": "dediny",
+      "missing_l2": "Všade",
       "blank_index_l1": 5,
-      "blank_index_l2": 4,
+      "blank_index_l2": 0,
       "choices_l1": [
-        "refuge",
-        "lac",
-        "jardin"
+        "dehors",
+        "ici",
+        "là-bas"
       ],
       "choices_l2": [
-        "chaty",
-        "Tatier",
-        "kuchyni"
+        "Vonku",
+        "Tu",
+        "Tam"
       ],
       "show_translation": true
     },
     {
-      "id": "order-dva-mesiace-nebola-ani-kvapka-a-teraz-je-jej-pr-li-ve-a-to-nie-je-norm-lne",
+      "id": "blank-ráno-obloha-je-modrá-lavica-je-prázdna",
+      "type": "fill-blank",
+      "l1": "Le matin. Le ciel est bleu. Le banc est vide.",
+      "l2": "Ráno. Obloha je modrá. Lavica je prázdna.",
+      "missing_l1": "vide",
+      "missing_l2": "prázdna",
+      "blank_index_l1": 9,
+      "blank_index_l2": 6,
+      "choices_l1": [
+        "plein",
+        "mouillé",
+        "long"
+      ],
+      "choices_l2": [
+        "plná",
+        "mokrá",
+        "dlhá"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-odišiel-o-šiestej-nechal-mi-prepitné-a-vizitku",
       "type": "order",
-      "l1": "Pendant deux mois, il n'y avait pas une goutte. Et maintenant il y en a trop. Ce n'est pas normal.",
-      "l2": "Dva mesiace nebola ani kvapka. A teraz je jej príliš veľa. To nie je normálne.",
+      "l1": "Il est parti à six heures. Il m'a laissé un pourboire et une carte de visite.",
+      "l2": "Odišiel o šiestej. Nechal mi prepitné a vizitku.",
       "tokens_l1": [
-        "Pendant",
-        "deux",
-        "mois,",
-        "il",
-        "n'y",
-        "avait",
-        "pas",
+        "Il",
+        "est",
+        "parti",
+        "à",
+        "six",
+        "heures.",
+        "Il",
+        "m'a",
+        "laissé",
+        "un",
+        "pourboire",
+        "et",
         "une",
-        "goutte.",
-        "Et",
-        "maintenant",
-        "il",
-        "y",
-        "en",
-        "a",
-        "trop.",
-        "Ce",
-        "n'est",
-        "pas",
-        "normal.",
-        "village-là"
+        "carte",
+        "de",
+        "visite.",
+        "Le",
+        "matin.",
+        "Le",
+        "ciel",
+        "est",
+        "bleu.",
+        "Le",
+        "banc",
+        "est",
+        "vide."
       ],
       "tokens_l2": [
-        "Dva",
-        "mesiace",
-        "nebola",
-        "ani",
-        "kvapka.",
-        "A",
-        "teraz",
+        "Odišiel",
+        "o",
+        "šiestej.",
+        "Nechal",
+        "mi",
+        "prepitné",
+        "a",
+        "vizitku.",
+        "Ráno.",
+        "Obloha",
         "je",
-        "jej",
-        "príliš",
-        "veľa.",
-        "To",
-        "nie",
+        "modrá.",
+        "Lavica",
         "je",
-        "normálne.",
-        "dediny",
-        "tej"
+        "prázdna."
       ]
     },
     {
-      "id": "order-pre-o-si-tak-smutn-ve-je-tu-voda",
+      "id": "order-pozri-koľko-vody-sucho-skončilo",
       "type": "order",
-      "l1": "Pourquoi tu es si triste ? Il y a de l'eau !",
-      "l2": "Prečo si taká smutná? Veď je tu voda!",
+      "l1": "Regarde toute cette eau ! C'est fini, la sécheresse !",
+      "l2": "Pozri, koľko vody! Sucho skončilo!",
       "tokens_l1": [
-        "Pourquoi",
-        "tu",
-        "es",
-        "si",
-        "triste",
-        "?",
-        "Il",
-        "y",
-        "a",
-        "de",
-        "l'eau",
+        "Regarde",
+        "toute",
+        "cette",
+        "eau",
         "!",
-        "ce",
-        "village-là"
+        "C'est",
+        "fini,",
+        "la",
+        "sécheresse",
+        "!",
+        "partout"
       ],
       "tokens_l2": [
-        "Prečo",
-        "si",
-        "taká",
-        "smutná?",
-        "Veď",
-        "je",
-        "tu",
-        "voda!",
-        "dediny",
-        "tej"
+        "Pozri,",
+        "koľko",
+        "vody!",
+        "Sucho",
+        "skončilo!",
+        "všade"
+      ]
+    },
+    {
+      "id": "match-hory-vocab",
+      "type": "match",
+      "l1": [
+        "les montagnes",
+        "le lac de montagne",
+        "Il fait froid.",
+        "le degré"
+      ],
+      "l2": [
+        "hory",
+        "pleso",
+        "Je zima.",
+        "stupeň"
       ]
     }
   ]

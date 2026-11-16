@@ -1,0 +1,247 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-rebr-k",
+      "type": "qcm",
+      "l1": "l'échelle",
+      "l2": "rebrík",
+      "choices_l1": [
+        "Grimpe !",
+        "en haut",
+        "à gauche"
+      ],
+      "choices_l2": [
+        "oči",
+        "dole",
+        "doľava"
+      ]
+    },
+    {
+      "id": "qcm-lez",
+      "type": "qcm",
+      "l1": "Grimpe !",
+      "l2": "Lez!",
+      "choices_l1": [
+        "Dors !",
+        "Respire !",
+        "Attends !"
+      ],
+      "choices_l2": [
+        "Nepozeraj!",
+        "Pozri!",
+        "Dýchaj!"
+      ]
+    },
+    {
+      "id": "qcm-hore",
+      "type": "qcm",
+      "l1": "en haut",
+      "l2": "hore",
+      "choices_l1": [
+        "en bas",
+        "tout droit",
+        "à gauche"
+      ],
+      "choices_l2": [
+        "doprava",
+        "rovno",
+        "dole"
+      ]
+    },
+    {
+      "id": "qcm-dole",
+      "type": "qcm",
+      "l1": "en bas",
+      "l2": "dole",
+      "choices_l1": [
+        "à droite",
+        "en haut",
+        "tout droit"
+      ],
+      "choices_l2": [
+        "doprava",
+        "rovno",
+        "hore"
+      ]
+    },
+    {
+      "id": "qcm-doprava",
+      "type": "qcm",
+      "l1": "à droite",
+      "l2": "doprava",
+      "choices_l1": [
+        "à gauche",
+        "en bas",
+        "tout droit"
+      ],
+      "choices_l2": [
+        "dole",
+        "hore",
+        "rovno"
+      ]
+    },
+    {
+      "id": "qcm-do-ava",
+      "type": "qcm",
+      "l1": "à gauche",
+      "l2": "doľava",
+      "choices_l1": [
+        "tout droit",
+        "à droite",
+        "en bas"
+      ],
+      "choices_l2": [
+        "dole",
+        "doprava",
+        "hore"
+      ]
+    },
+    {
+      "id": "listen-nie-je-tu-iná-cesta",
+      "type": "listen",
+      "l1": "Il n'y a pas un autre chemin ?",
+      "l2": "Nie je tu iná cesta?",
+      "choices_l1": [
+        "Il y a un autre chemin.",
+        "Il n'y a pas d'échelle ?",
+        "C'est le bon chemin ?"
+      ]
+    },
+    {
+      "id": "listen-zavriem-oči",
+      "type": "listen",
+      "l1": "Je ferme les yeux.",
+      "l2": "Zavriem oči.",
+      "choices_l1": [
+        "J'ouvre les yeux.",
+        "Ferme les yeux.",
+        "Je ne regarde pas en bas."
+      ]
+    },
+    {
+      "id": "listen-nespadol-som",
+      "type": "listen",
+      "l1": "Je ne suis pas tombé.",
+      "l2": "Nespadol som.",
+      "choices_l1": [
+        "Je suis tombé.",
+        "Tu n'es pas tombé.",
+        "Je ne suis pas en haut."
+      ]
+    },
+    {
+      "id": "blank-nepozeraj-dole",
+      "type": "fill-blank",
+      "l1": "Ne regarde pas en bas !",
+      "l2": "Nepozeraj dole!",
+      "missing_l1": "bas",
+      "missing_l2": "dole",
+      "blank_index_l1": 4,
+      "blank_index_l2": 1,
+      "choices_l1": [
+        "haut",
+        "droite",
+        "gauche"
+      ],
+      "choices_l2": [
+        "hore",
+        "doprava",
+        "doľava"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-choď-doľava-potom-rovno",
+      "type": "fill-blank",
+      "l1": "Va à gauche, puis tout droit.",
+      "l2": "Choď doľava, potom rovno.",
+      "missing_l1": "gauche",
+      "missing_l2": "doľava",
+      "blank_index_l1": 2,
+      "blank_index_l2": 1,
+      "choices_l1": [
+        "droite",
+        "haut",
+        "bas"
+      ],
+      "choices_l2": [
+        "doprava",
+        "hore",
+        "dole"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-poď-hore",
+      "type": "order",
+      "l1": "Viens en haut !",
+      "l2": "Poď hore!",
+      "tokens_l1": [
+        "Viens",
+        "en",
+        "haut",
+        "!",
+        "Si.",
+        "Il",
+        "fait",
+        "six",
+        "heures."
+      ],
+      "tokens_l2": [
+        "Poď",
+        "hore!",
+        "Je.",
+        "Trvá",
+        "šesť",
+        "hodín."
+      ]
+    },
+    {
+      "id": "order-šesť-hodín-je-fajn-rád-chodím",
+      "type": "order",
+      "l1": "Six heures, c'est bien. J'aime marcher.",
+      "l2": "Šesť hodín je fajn. Rád chodím.",
+      "tokens_l1": [
+        "Six",
+        "heures,",
+        "c'est",
+        "bien.",
+        "J'aime",
+        "marcher.",
+        "Zéro",
+        "fois.",
+        "Je",
+        "compte."
+      ],
+      "tokens_l2": [
+        "Šesť",
+        "hodín",
+        "je",
+        "fajn.",
+        "Rád",
+        "chodím.",
+        "Ani",
+        "raz.",
+        "Počítam."
+      ]
+    },
+    {
+      "id": "match-rebr-k-vocab",
+      "type": "match",
+      "l1": [
+        "l'échelle",
+        "Grimpe !",
+        "en haut",
+        "en bas"
+      ],
+      "l2": [
+        "rebrík",
+        "Lez!",
+        "hore",
+        "dole"
+      ]
+    }
+  ]
+}

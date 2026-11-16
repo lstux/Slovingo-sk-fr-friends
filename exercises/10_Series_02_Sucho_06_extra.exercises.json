@@ -3,194 +3,293 @@
   "sync": "full",
   "exercises": [
     {
-      "id": "listen-po-kaj-mus-m-nap-sa-tete-l-stok",
-      "type": "listen",
-      "l1": "Attends. Je dois écrire un mot à ma tante.",
-      "l2": "Počkaj. Musím napísať tete lístok.",
+      "id": "qcm-dedina",
+      "type": "qcm",
+      "l1": "le village",
+      "l2": "dedina",
       "choices_l1": [
-        "Attends. Je dois acheter un billet pour ma tante.",
-        "Attends. Je dois écrire un mot à ma maman.",
-        "Attends. Je veux dormir chez ma tante."
-      ]
-    },
-    {
-      "id": "listen-to-nie-je-ten-l-stok-to-je-l-stok-z-elektri-ky",
-      "type": "listen",
-      "l1": "Ce n'est pas ce billet-là. Toi, tu as un ticket de tram.",
-      "l2": "To nie je ten lístok. To je lístok z električky.",
-      "choices_l1": [
-        "C'est ce billet-là. Toi, tu as un ticket de train.",
-        "Ce n'est pas ce billet-là. Toi, tu as un petit mot.",
-        "Ce n'est pas mon billet. Toi, tu as un ticket de tram."
-      ]
-    },
-    {
-      "id": "listen-dobr-de-dva-l-stky-na-vlak-pros-m",
-      "type": "listen",
-      "l1": "Bonjour. Deux billets de train, s'il vous plaît.",
-      "l2": "Dobrý deň. Dva lístky na vlak, prosím.",
-      "choices_l1": [
-        "Bonjour. Deux tickets de tram, s'il vous plaît.",
-        "Bonjour. Un billet de train, s'il vous plaît.",
-        "Bonjour. Deux billets de train, merci."
-      ]
-    },
-    {
-      "id": "listen-dobr-de-kam-idete",
-      "type": "listen",
-      "l1": "Bonjour. Vous allez où ?",
-      "l2": "Dobrý deň. Kam idete?",
-      "choices_l1": [
-        "Bonjour. Tu vas où ?",
-        "Bonjour. Vous cherchez de l'eau ?",
-        "Bonjour. Vous êtes où ?"
-      ]
-    },
-    {
-      "id": "listen-dva-l-stky-astn-cestu",
-      "type": "listen",
-      "l1": "Deux billets. Bon voyage.",
-      "l2": "Dva lístky. Šťastnú cestu.",
-      "choices_l1": [
-        "Deux billets. Bonne chance.",
-        "Un billet. Bon voyage.",
-        "Deux billets. Bonne nuit."
-      ]
-    },
-    {
-      "id": "listen-ja-m-m-l-stok-je-super",
-      "type": "listen",
-      "l1": "Moi, j'ai un billet ! Il est super !",
-      "l2": "Ja mám lístok! Je super!",
-      "choices_l1": [
-        "Moi, j'ai une carte ! Elle est super !",
-        "Toi, tu as un billet ! Il est super !",
-        "Moi, j'ai un billet ! Il est vide !"
-      ]
-    },
-    {
-      "id": "match-ve-a-vocab",
-      "type": "match",
-      "l1": [
-        "beaucoup",
-        "très",
-        "peu",
-        "un peu"
+        "un Français",
+        "dommage",
+        "long"
       ],
-      "l2": [
-        "veľa",
-        "veľmi",
+      "choices_l2": [
+        "ďaleko",
+        "dokonalý",
+        "mobil"
+      ]
+    },
+    {
+      "id": "qcm-pani",
+      "type": "qcm",
+      "l1": "la dame, madame",
+      "l2": "pani",
+      "choices_l1": [
+        "le costume",
+        "à la maison, chez soi",
+        "tu ne comprends pas"
+      ],
+      "choices_l2": [
         "málo",
-        "trochu"
+        "spis",
+        "minúta"
       ]
     },
     {
-      "id": "match-aha-sentences",
+      "id": "qcm-auto",
+      "type": "qcm",
+      "l1": "la voiture",
+      "l2": "auto",
+      "choices_l1": [
+        "à la maison, chez soi",
+        "chacun, tout le monde",
+        "le circuit fermé"
+      ],
+      "choices_l2": [
+        "pani",
+        "zápisník",
+        "čierny"
+      ]
+    },
+    {
+      "id": "qcm-ierny",
+      "type": "qcm",
+      "l1": "noir",
+      "l2": "čierny",
+      "choices_l1": [
+        "de Paris",
+        "le verre",
+        "chaque semaine"
+      ],
+      "choices_l2": [
+        "škoda",
+        "zatváram",
+        "nula"
+      ]
+    },
+    {
+      "id": "qcm-oblek",
+      "type": "qcm",
+      "l1": "le costume",
+      "l2": "oblek",
+      "choices_l1": [
+        "tu ne comprends pas",
+        "à la maison, chez soi",
+        "chacun, tout le monde"
+      ],
+      "choices_l2": [
+        "ďaleko",
+        "každý týždeň",
+        "štyristo"
+      ]
+    },
+    {
+      "id": "qcm-pravda",
+      "type": "qcm",
+      "l1": "la vérité",
+      "l2": "pravda",
+      "choices_l1": [
+        "la voiture",
+        "le circuit fermé",
+        "à la maison, chez soi"
+      ],
+      "choices_l2": [
+        "dokonalý",
+        "Odkiaľ ste?",
+        "Slovák"
+      ]
+    },
+    {
+      "id": "qcm-domov",
+      "type": "qcm",
+      "l1": "à la maison, chez soi",
+      "l2": "domov",
+      "choices_l1": [
+        "vous avez besoin",
+        "le bureau (l'administration)",
+        "D'où êtes-vous ?"
+      ],
+      "choices_l2": [
+        "Vstávaj!",
+        "sivý",
+        "pani"
+      ]
+    },
+    {
+      "id": "listen-viem-to-je-ten-problém",
+      "type": "listen",
+      "l1": "Je sais. C'est ça, le problème.",
+      "l2": "Viem. To je ten problém.",
+      "choices_l1": [
+        "Je ne sais pas. C'est ça, le problème.",
+        "Je sais. Ce n'est pas un problème.",
+        "Je sais. C'est la vérité."
+      ]
+    },
+    {
+      "id": "listen-alebo-to-nie-je-pravda",
+      "type": "listen",
+      "l1": "Ou alors ce n'est pas vrai.",
+      "l2": "Alebo to nie je pravda.",
+      "choices_l1": [
+        "Alors c'est vrai.",
+        "Ou alors ce n'est pas eux.",
+        "C'est la vérité."
+      ]
+    },
+    {
+      "id": "listen-niekto-kto-sa-veľa-usmieva",
+      "type": "listen",
+      "l1": "Quelqu'un qui sourit trop.",
+      "l2": "Niekto, kto sa veľa usmieva.",
+      "choices_l1": [
+        "Quelqu'un qui parle trop.",
+        "Personne ne sourit.",
+        "Quelqu'un de très gentil."
+      ]
+    },
+    {
+      "id": "blank-hľadá-ťa",
+      "type": "fill-blank",
+      "l1": "Il te cherche ?",
+      "l2": "Hľadá ťa?",
+      "missing_l1": "cherche",
+      "missing_l2": "Hľadá",
+      "blank_index_l1": 2,
+      "blank_index_l2": 0,
+      "choices_l1": [
+        "entend",
+        "voit",
+        "attend"
+      ],
+      "choices_l2": [
+        "Počuje",
+        "Vidí",
+        "Čaká"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-ešte-nie-poď-ideme-na-vlak",
+      "type": "fill-blank",
+      "l1": "Pas encore. Viens. On prend le train.",
+      "l2": "Ešte nie. Poď. Ideme na vlak.",
+      "missing_l1": "train",
+      "missing_l2": "vlak",
+      "blank_index_l1": 6,
+      "blank_index_l2": 5,
+      "choices_l1": [
+        "tram",
+        "bus",
+        "avion"
+      ],
+      "choices_l2": [
+        "električku",
+        "autobus",
+        "lietadlo"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-tak-to-nie-sú-oni",
+      "type": "order",
+      "l1": "Alors ce n'est pas eux.",
+      "l2": "Tak to nie sú oni.",
+      "tokens_l1": [
+        "Alors",
+        "ce",
+        "n'est",
+        "pas",
+        "eux.",
+        "Chez",
+        "nous.",
+        "Mais",
+        "d'abord,",
+        "on",
+        "va",
+        "voir",
+        "quelqu'un",
+        "qui",
+        "écrit",
+        "tout",
+        "depuis",
+        "trente",
+        "ans."
+      ],
+      "tokens_l2": [
+        "Tak",
+        "to",
+        "nie",
+        "sú",
+        "oni.",
+        "Domov.",
+        "Ale",
+        "najprv",
+        "navštívime",
+        "niekoho,",
+        "kto",
+        "už",
+        "tridsať",
+        "rokov",
+        "všetko",
+        "zapisuje."
+      ]
+    },
+    {
+      "id": "order-nula-litrov-nepoužívajú-vodu-je-to-tam-napísané",
+      "type": "order",
+      "l1": "Zéro litre. Ils n'utilisent pas d'eau. C'est écrit.",
+      "l2": "Nula litrov. Nepoužívajú vodu. Je to tam napísané.",
+      "tokens_l1": [
+        "Zéro",
+        "litre.",
+        "Ils",
+        "n'utilisent",
+        "pas",
+        "d'eau.",
+        "C'est",
+        "écrit.",
+        "Andrea",
+        "le",
+        "tire",
+        "par",
+        "le",
+        "bras,",
+        "derrière",
+        "la",
+        "fontaine."
+      ],
+      "tokens_l2": [
+        "Nula",
+        "litrov.",
+        "Nepoužívajú",
+        "vodu.",
+        "Je",
+        "to",
+        "tam",
+        "napísané.",
+        "Andrea",
+        "ho",
+        "ťahá",
+        "za",
+        "ruku",
+        "za",
+        "fontánu."
+      ]
+    },
+    {
+      "id": "match-r-no-vocab",
       "type": "match",
       "l1": [
-        "Ah.",
-        "Deux billets. Bon voyage.",
-        "Bonjour. Vous allez où ?",
-        "Moi, j'ai un billet ! Il est super !"
+        "le matin",
+        "Debout !",
+        "Plus maintenant.",
+        "le verre"
       ],
       "l2": [
-        "Aha.",
-        "Dva lístky. Šťastnú cestu.",
-        "Dobrý deň. Kam idete?",
-        "Ja mám lístok! Je super!"
-      ]
-    },
-    {
-      "id": "blank-dobr-de-dva-l-stky-na-vlak-pros-m",
-      "type": "fill-blank",
-      "l1": "Bonjour. Deux billets de train, s'il vous plaît.",
-      "l2": "Dobrý deň. Dva lístky na vlak, prosím.",
-      "missing_l1": "billets",
-      "missing_l2": "lístky",
-      "blank_index_l1": 2,
-      "blank_index_l2": 3,
-      "choices_l1": [
-        "mois",
-        "ruisseaux",
-        "cartes"
-      ],
-      "choices_l2": [
-        "lístok",
-        "mesiace",
-        "potoky"
-      ],
-      "show_translation": true
-    },
-    {
-      "id": "blank-dobr-de-kam-idete",
-      "type": "fill-blank",
-      "l1": "Bonjour. Vous allez où ?",
-      "l2": "Dobrý deň. Kam idete?",
-      "missing_l1": "où",
-      "missing_l2": "Kam",
-      "blank_index_l1": 3,
-      "blank_index_l2": 2,
-      "choices_l1": [
-        "bien",
-        "ici",
-        "loin"
-      ],
-      "choices_l2": [
-        "Kde",
-        "Čo",
-        "Ako"
-      ],
-      "show_translation": true
-    },
-    {
-      "id": "order-dobr-de-dva-l-stky-na-vlak-pros-m",
-      "type": "order",
-      "l1": "Bonjour. Deux billets de train, s'il vous plaît.",
-      "l2": "Dobrý deň. Dva lístky na vlak, prosím.",
-      "tokens_l1": [
-        "Bonjour.",
-        "Deux",
-        "billets",
-        "de train,",
-        "s'il",
-        "vous",
-        "plaît.",
-        "super",
-        "un",
-        "billet"
-      ],
-      "tokens_l2": [
-        "Dobrý",
-        "deň.",
-        "Dva",
-        "lístky",
-        "na vlak,",
-        "prosím.",
-        "mám",
-        "lístok",
-        "super"
-      ]
-    },
-    {
-      "id": "order-dva-l-stky-astn-cestu",
-      "type": "order",
-      "l1": "Deux billets. Bon voyage.",
-      "l2": "Dva lístky. Šťastnú cestu.",
-      "tokens_l1": [
-        "Deux",
-        "billets.",
-        "Bon",
-        "voyage.",
-        "où",
-        "allez"
-      ],
-      "tokens_l2": [
-        "Dva",
-        "lístky.",
-        "Šťastnú",
-        "cestu.",
-        "idete",
-        "deň"
+        "ráno",
+        "Vstávaj!",
+        "Už nie.",
+        "pohár"
       ]
     }
   ]

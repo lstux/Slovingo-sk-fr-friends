@@ -1,0 +1,243 @@
+{
+ "mode": "replace",
+ "sync": "full",
+ "exercises": [
+  {
+   "id": "qcm-nesk-r",
+   "type": "qcm",
+   "l1": "plus tard",
+   "l2": "neskôr",
+   "choices_l1": [
+    "l'avocat",
+    "par terre",
+    "la tasse"
+   ],
+   "choices_l2": [
+    "ponúkol",
+    "šálka",
+    "koniec sveta"
+   ]
+  },
+  {
+   "id": "qcm-lka",
+   "type": "qcm",
+   "l1": "la tasse",
+   "l2": "šálka",
+   "choices_l1": [
+    "l'avocat",
+    "intéressant",
+    "par terre"
+   ],
+   "choices_l2": [
+    "číslo",
+    "limonáda",
+    "koniec sveta"
+   ]
+  },
+  {
+   "id": "qcm-na-zemi",
+   "type": "qcm",
+   "l1": "par terre",
+   "l2": "na zemi",
+   "choices_l1": [
+    "la limonade",
+    "intéressant",
+    "l'avocat"
+   ],
+   "choices_l2": [
+    "ponúkol",
+    "vrátim",
+    "číslo"
+   ]
+  },
+  {
+   "id": "qcm-v-tme",
+   "type": "qcm",
+   "l1": "dans le noir",
+   "l2": "v tme",
+   "choices_l1": [
+    "le chiffre, le nombre",
+    "la fin du monde",
+    "il a offert"
+   ],
+   "choices_l2": [
+    "na zemi",
+    "ponúkol",
+    "advokát"
+   ]
+  },
+  {
+   "id": "qcm-de-otvoren-ch-dver",
+   "type": "qcm",
+   "l1": "la journée portes ouvertes",
+   "l2": "deň otvorených dverí",
+   "choices_l1": [
+    "dans le noir",
+    "le chiffre, le nombre",
+    "la fin du monde"
+   ],
+   "choices_l2": [
+    "naučil som sa",
+    "Môžete to zopakovať?",
+    "Počuli ste to?"
+   ]
+  },
+  {
+   "id": "qcm-slo",
+   "type": "qcm",
+   "l1": "le chiffre, le nombre",
+   "l2": "číslo",
+   "choices_l1": [
+    "la journée portes ouvertes",
+    "dans le noir",
+    "la fin du monde"
+   ],
+   "choices_l2": [
+    "koniec sveta",
+    "vrátim",
+    "v tme"
+   ]
+  },
+  {
+   "id": "listen-to-je-on-to-čierne-auto",
+   "type": "listen",
+   "l1": "C'est lui. La voiture noire.",
+   "l2": "To je on. To čierne auto.",
+   "choices_l1": [
+    "Ce n'est pas lui. La voiture noire.",
+    "C'est elle. La voiture verte.",
+    "C'est lui. Le monsieur du refuge."
+   ]
+  },
+  {
+   "id": "listen-bol-veľmi-milý-ponúkol-mi-limonádu",
+   "type": "listen",
+   "l1": "Il a été très gentil. Il m'a offert une limonade.",
+   "l2": "Bol veľmi milý. Ponúkol mi limonádu.",
+   "choices_l1": [
+    "Il a été très gentil. Il m'a offert un thé.",
+    "Il a été méchant. Il m'a pris une limonade.",
+    "J'ai été très gentille. Je lui ai offert une limonade."
+   ]
+  },
+  {
+   "id": "listen-si-hlúpy",
+   "type": "listen",
+   "l1": "Tu es bête.",
+   "l2": "Si hlúpy.",
+   "choices_l1": [
+    "Tu es gentil.",
+    "Je suis bête.",
+    "Tu es parfait."
+   ]
+  },
+  {
+   "id": "blank-to-som-si-povedala-aj-ja-kvôli-školskému-zápisníku-sa-advokát-neposiela-iba-ak-má-zápisník-pravdu",
+   "type": "fill-blank",
+   "l1": "C'est ce que je me suis dit. On n'envoie pas un avocat pour un carnet d'école. Sauf si le carnet a raison.",
+   "l2": "To som si povedala aj ja. Kvôli školskému zápisníku sa advokát neposiela. Iba ak má zápisník pravdu.",
+   "missing_l1": "raison",
+   "missing_l2": "pravdu",
+   "blank_index_l1": 21,
+   "blank_index_l2": 16,
+   "choices_l1": [
+    "tort",
+    "peur",
+    "faim"
+   ],
+   "choices_l2": [
+    "čas",
+    "strach",
+    "hlad"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "blank-veľmi-hlúpy-nie-veľa-hlúpy",
+   "type": "fill-blank",
+   "l1": "Très bête. Pas beaucoup bête.",
+   "l2": "Veľmi hlúpy. Nie veľa hlúpy.",
+   "missing_l1": "Très",
+   "missing_l2": "Veľmi",
+   "blank_index_l1": 0,
+   "blank_index_l2": 0,
+   "choices_l1": [
+    "Beaucoup",
+    "Peu",
+    "Trop"
+   ],
+   "choices_l2": [
+    "Veľa",
+    "Málo",
+    "Príliš"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "order-andrea-zoberie-šálku-chvíľu-čaká",
+   "type": "order",
+   "l1": "Andrea prend la tasse. Elle attend un peu.",
+   "l2": "Andrea zoberie šálku. Chvíľu čaká.",
+   "tokens_l1": [
+    "Andrea",
+    "prend",
+    "la",
+    "tasse.",
+    "Elle",
+    "attend",
+    "un",
+    "peu.",
+    "avocat"
+   ],
+   "tokens_l2": [
+    "Andrea",
+    "zoberie",
+    "šálku.",
+    "Chvíľu",
+    "čaká.",
+    "advokát"
+   ]
+  },
+  {
+   "id": "order-jemu-si-dala-zápisník",
+   "type": "order",
+   "l1": "C'est à lui que tu as donné ton carnet.",
+   "l2": "Jemu si dala zápisník.",
+   "tokens_l1": [
+    "C'est",
+    "à",
+    "lui",
+    "que",
+    "tu",
+    "as",
+    "donné",
+    "ton",
+    "carnet.",
+    "limonade"
+   ],
+   "tokens_l2": [
+    "Jemu",
+    "si",
+    "dala",
+    "zápisník.",
+    "limonádu"
+   ]
+  },
+  {
+   "id": "match-nesk-r-vocab",
+   "type": "match",
+   "l1": [
+    "plus tard",
+    "la tasse",
+    "par terre",
+    "dans le noir"
+   ],
+   "l2": [
+    "neskôr",
+    "šálka",
+    "na zemi",
+    "v tme"
+   ]
+  }
+ ]
+}

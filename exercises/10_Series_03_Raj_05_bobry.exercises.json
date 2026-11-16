@@ -1,0 +1,241 @@
+{
+ "mode": "replace",
+ "sync": "full",
+ "exercises": [
+  {
+   "id": "qcm-bobor",
+   "type": "qcm",
+   "l1": "le castor",
+   "l2": "bobor",
+   "choices_l1": [
+    "les machines",
+    "le lac",
+    "il retient"
+   ],
+   "choices_l2": [
+    "možno",
+    "jazero",
+    "bez"
+   ]
+  },
+  {
+   "id": "qcm-bobry",
+   "type": "qcm",
+   "l1": "les castors",
+   "l2": "bobry",
+   "choices_l1": [
+    "il retient",
+    "soyez polis",
+    "le lac"
+   ],
+   "choices_l2": [
+    "stroje",
+    "bez",
+    "buďte slušní"
+   ]
+  },
+  {
+   "id": "qcm-hr-dza",
+   "type": "qcm",
+   "l1": "le barrage",
+   "l2": "hrádza",
+   "choices_l1": [
+    "il répare",
+    "la nuit",
+    "le castor"
+   ],
+   "choices_l2": [
+    "buďte slušní",
+    "možno",
+    "pochopiť"
+   ]
+  },
+  {
+   "id": "qcm-mo-no",
+   "type": "qcm",
+   "l1": "peut-être",
+   "l2": "možno",
+   "choices_l1": [
+    "le barrage",
+    "le lac",
+    "il répare"
+   ],
+   "choices_l2": [
+    "pochopiť",
+    "hrádza",
+    "jazero"
+   ]
+  },
+  {
+   "id": "qcm-bu-te-slu-n",
+   "type": "qcm",
+   "l1": "soyez polis",
+   "l2": "buďte slušní",
+   "choices_l1": [
+    "les castors",
+    "sans",
+    "le castor"
+   ],
+   "choices_l2": [
+    "v noci",
+    "opravuje",
+    "drží"
+   ]
+  },
+  {
+   "id": "qcm-jazero",
+   "type": "qcm",
+   "l1": "le lac",
+   "l2": "jazero",
+   "choices_l1": [
+    "sans",
+    "la nuit",
+    "les castors"
+   ],
+   "choices_l2": [
+    "buďte slušní",
+    "bez",
+    "pochopiť"
+   ]
+  },
+  {
+   "id": "listen-tak-to-možno-sú-oni",
+   "type": "listen",
+   "l1": "Alors c'est peut-être eux !",
+   "l2": "Tak to možno sú oni!",
+   "choices_l1": [
+    "Alors ce n'est pas eux !",
+    "C'est sûrement eux !",
+    "Alors c'est peut-être nous !"
+   ]
+  },
+  {
+   "id": "listen-nehovoríme-že-ste-to-vy-chceme-to-pochopiť",
+   "type": "listen",
+   "l1": "On ne dit pas que c'est vous. On veut comprendre.",
+   "l2": "Nehovoríme, že ste to vy. Chceme to pochopiť.",
+   "choices_l1": [
+    "On dit que c'est vous. On a compris.",
+    "On ne dit rien. On veut voir.",
+    "Vous dites que c'est nous ? On veut comprendre."
+   ]
+  },
+  {
+   "id": "listen-pri-chate-spýtajte-sa-chatára-všetko-fotí",
+   "type": "listen",
+   "l1": "Près du refuge. Demandez au gardien. Il prend des photos de tout.",
+   "l2": "Pri chate. Spýtajte sa chatára. Všetko fotí.",
+   "choices_l1": [
+    "Près du lac. Demandez au castor. Il sait tout.",
+    "Dans la forêt. Demandez à l'aigle. Il voit tout.",
+    "Près du refuge. Le gardien ne prend jamais de photos."
+   ]
+  },
+  {
+   "id": "blank-veľmi-dobre-líška-naša-hrádza-vodu-drží-bez-nej-by-jej-bolo-ešte-menej",
+   "type": "fill-blank",
+   "l1": "Très bien, le renard. Notre barrage retient l'eau. Sans lui, il y en aurait encore moins.",
+   "l2": "Veľmi dobre, líška. Naša hrádza vodu drží. Bez nej by jej bolo ešte menej.",
+   "missing_l1": "barrage",
+   "missing_l2": "hrádza",
+   "blank_index_l1": 5,
+   "blank_index_l2": 4,
+   "choices_l1": [
+    "lac",
+    "refuge",
+    "village"
+   ],
+   "choices_l2": [
+    "jazero",
+    "chata",
+    "dedina"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "blank-vodu-veľa-vody",
+   "type": "fill-blank",
+   "l1": "De l'eau. Beaucoup d'eau.",
+   "l2": "Vodu. Veľa vody.",
+   "missing_l1": "Beaucoup",
+   "missing_l2": "Veľa",
+   "blank_index_l1": 2,
+   "blank_index_l2": 1,
+   "choices_l1": [
+    "Très",
+    "Peu",
+    "Plus"
+   ],
+   "choices_l2": [
+    "Veľmi",
+    "Málo",
+    "Viac"
+   ],
+   "show_translation": true
+  },
+  {
+   "id": "order-bobor-v-noci-so-strojmi-nerobí",
+   "type": "order",
+   "l1": "Un castor ne travaille pas la nuit avec des machines.",
+   "l2": "Bobor v noci so strojmi nerobí.",
+   "tokens_l1": [
+    "Un",
+    "castor",
+    "ne",
+    "travaille",
+    "pas",
+    "la",
+    "nuit",
+    "avec",
+    "des",
+    "machines.",
+    "lac"
+   ],
+   "tokens_l2": [
+    "Bobor",
+    "v",
+    "noci",
+    "so",
+    "strojmi",
+    "nerobí.",
+    "jazero"
+   ]
+  },
+  {
+   "id": "order-tak-kto-je-to",
+   "type": "order",
+   "l1": "Alors c'est qui ?",
+   "l2": "Tak kto je to?",
+   "tokens_l1": [
+    "Alors",
+    "c'est",
+    "qui",
+    "?",
+    "castor"
+   ],
+   "tokens_l2": [
+    "Tak",
+    "kto",
+    "je",
+    "to?",
+    "bobor"
+   ]
+  },
+  {
+   "id": "match-bobor-vocab",
+   "type": "match",
+   "l1": [
+    "le castor",
+    "les castors",
+    "le barrage",
+    "peut-être"
+   ],
+   "l2": [
+    "bobor",
+    "bobry",
+    "hrádza",
+    "možno"
+   ]
+  }
+ ]
+}

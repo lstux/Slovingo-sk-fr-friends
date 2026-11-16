@@ -73,9 +73,16 @@
 | o týždeň | dans une semaine |
 | v nedeľu | dimanche |
 | Dobrú noc. | Bonne nuit. |
-| noc | la nuit (nouveau) |
-| okno | la fenêtre (nouveau) |
-| zajtra | demain (nouveau) |
+
+---
+
+## Les nouveaux mots de l'épisode
+
+| Slovenčina | Français |
+|------------|----------|
+| noc | la nuit |
+| okno | la fenêtre |
+| zajtra | demain |
 
 ---
 

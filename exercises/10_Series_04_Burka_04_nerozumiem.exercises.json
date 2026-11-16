@@ -1,0 +1,257 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-nerozumiem",
+      "type": "qcm",
+      "l1": "Je ne comprends pas.",
+      "l2": "Nerozumiem.",
+      "choices_l1": [
+        "Vous parlez français ?",
+        "Plus lentement, s'il vous plaît.",
+        "Je suis français."
+      ],
+      "choices_l2": [
+        "čiara",
+        "vystupuješ",
+        "v noci"
+      ]
+    },
+    {
+      "id": "qcm-po-asie",
+      "type": "qcm",
+      "l1": "le temps (qu'il fait)",
+      "l2": "počasie",
+      "choices_l1": [
+        "seul (un garçon)",
+        "Avez-vous vu… ?",
+        "Je ne comprends pas."
+      ],
+      "choices_l2": [
+        "mokrý",
+        "sám",
+        "cestuješ"
+      ]
+    },
+    {
+      "id": "qcm-izba",
+      "type": "qcm",
+      "l1": "la chambre",
+      "l2": "izba",
+      "choices_l1": [
+        "le banc",
+        "mouillé",
+        "tu voyages"
+      ],
+      "choices_l2": [
+        "Nerozumiem.",
+        "cestuješ",
+        "počasie"
+      ]
+    },
+    {
+      "id": "qcm-lavica",
+      "type": "qcm",
+      "l1": "le banc",
+      "l2": "lavica",
+      "choices_l1": [
+        "la chambre",
+        "jeune",
+        "Parfait."
+      ],
+      "choices_l2": [
+        "Nerozumiem.",
+        "mokrý",
+        "sám"
+      ]
+    },
+    {
+      "id": "qcm-mokr",
+      "type": "qcm",
+      "l1": "mouillé",
+      "l2": "mokrý",
+      "choices_l1": [
+        "jeune",
+        "la chambre",
+        "Parfait."
+      ],
+      "choices_l2": [
+        "izba",
+        "cestuješ",
+        "Nerozumiem."
+      ]
+    },
+    {
+      "id": "qcm-mlad",
+      "type": "qcm",
+      "l1": "jeune",
+      "l2": "mladý",
+      "choices_l1": [
+        "Parfait.",
+        "le banc",
+        "mouillé"
+      ],
+      "choices_l2": [
+        "počasie",
+        "Videli ste…?",
+        "Výborne."
+      ]
+    },
+    {
+      "id": "listen-dobrý-večer-to-je-počasie-máte-izbu",
+      "type": "listen",
+      "l1": "Bonsoir ! Quel temps ! Vous avez une chambre ?",
+      "l2": "Dobrý večer! To je počasie! Máte izbu?",
+      "choices_l1": [
+        "Bonsoir ! Quel orage ! Vous avez un banc ?",
+        "Bonjour ! Il fait beau ! Vous avez une chambre ?",
+        "Bonsoir ! Quel temps ! Vous avez du thé ?"
+      ]
+    },
+    {
+      "id": "listen-dobrý-večer-mladý-pán-cestuješ-sám",
+      "type": "listen",
+      "l1": "Bonsoir, jeune homme ! Tu voyages seul ?",
+      "l2": "Dobrý večer, mladý pán! Cestuješ sám?",
+      "choices_l1": [
+        "Bonsoir, monsieur ! Vous voyagez seul ?",
+        "Bonsoir, jeune homme ! Tu es français ?",
+        "Bonjour, jeune homme ! Tu es perdu ?"
+      ]
+    },
+    {
+      "id": "listen-nerozumiem-som-francúz",
+      "type": "listen",
+      "l1": "Je ne comprends pas. Je suis français.",
+      "l2": "Nerozumiem. Som Francúz.",
+      "choices_l1": [
+        "Je comprends. Je suis slovaque.",
+        "Je ne sais pas. Je suis touriste.",
+        "Je ne comprends pas. Je suis de Lyon."
+      ]
+    },
+    {
+      "id": "blank-hovoríte-po-francúzsky",
+      "type": "fill-blank",
+      "l1": "Vous parlez français ?",
+      "l2": "Hovoríte po francúzsky?",
+      "missing_l1": "parlez",
+      "missing_l2": "Hovoríte",
+      "blank_index_l1": 1,
+      "blank_index_l2": 0,
+      "choices_l1": [
+        "écrivez",
+        "lisez",
+        "êtes"
+      ],
+      "choices_l2": [
+        "Píšete",
+        "Čítate",
+        "Ste"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-prepáčte-nerozumiem",
+      "type": "fill-blank",
+      "l1": "Excusez-moi, je ne comprends pas.",
+      "l2": "Prepáčte, nerozumiem.",
+      "missing_l1": "comprends",
+      "missing_l2": "nerozumiem",
+      "blank_index_l1": 3,
+      "blank_index_l2": 1,
+      "choices_l1": [
+        "sais",
+        "vois",
+        "entends"
+      ],
+      "choices_l2": [
+        "neviem",
+        "nevidím",
+        "nepočujem"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-môžete-to-zopakovať-prosím",
+      "type": "order",
+      "l1": "Vous pouvez répéter, s'il vous plaît ?",
+      "l2": "Môžete to zopakovať, prosím?",
+      "tokens_l1": [
+        "Vous",
+        "pouvez",
+        "répéter,",
+        "s'il",
+        "vous",
+        "plaît",
+        "?",
+        "Ah",
+        "!",
+        "Français",
+        "!",
+        "Bonjour",
+        "!",
+        "Baguette",
+        "!"
+      ],
+      "tokens_l2": [
+        "Môžete",
+        "to",
+        "zopakovať,",
+        "prosím?",
+        "Á!",
+        "Francúz!",
+        "Bonjour!",
+        "Baguette!"
+      ]
+    },
+    {
+      "id": "order-vojde-pán-v-obleku-je-celý-mokrý-usmieva-sa",
+      "type": "order",
+      "l1": "Un monsieur en costume entre. Il est trempé. Il sourit.",
+      "l2": "Vojde pán v obleku. Je celý mokrý. Usmieva sa.",
+      "tokens_l1": [
+        "Un",
+        "monsieur",
+        "en",
+        "costume",
+        "entre.",
+        "Il",
+        "est",
+        "trempé.",
+        "Il",
+        "sourit.",
+        "jeune"
+      ],
+      "tokens_l2": [
+        "Vojde",
+        "pán",
+        "v",
+        "obleku.",
+        "Je",
+        "celý",
+        "mokrý.",
+        "Usmieva",
+        "sa.",
+        "mladý"
+      ]
+    },
+    {
+      "id": "match-nerozumiem-vocab",
+      "type": "match",
+      "l1": [
+        "Je ne comprends pas.",
+        "le temps (qu'il fait)",
+        "la chambre",
+        "le banc"
+      ],
+      "l2": [
+        "Nerozumiem.",
+        "počasie",
+        "izba",
+        "lavica"
+      ]
+    }
+  ]
+}

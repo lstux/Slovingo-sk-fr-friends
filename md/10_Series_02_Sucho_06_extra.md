@@ -1,8 +1,8 @@
-# Sucho (extra) — Na stanici
+# Sucho (extra) — Čierne auto
 
-@ img/illus_02_sucho_2.jpg | À la gare de Košice, en pleine chaleur : le renard est fier de son billet, Andrea écrit son mot. Source : illustration générée avec ChatGPT
+@ img/illus_02_sucho.jpg | La fontaine chantante, devant le théâtre de Košice… qui ne chante plus. Source : illustration générée avec ChatGPT, d'après une photo d'Antimuonium (Wikimedia Commons, CC BY-SA 4.0)
 
-{{fr:Le dernier arrêt avant de quitter Košice : la gare. Andrea doit laisser un mot à sa tante, et il faut des billets. De vrais billets, cette fois.}}
+{{fr:Tu sors du bureau avec ton ticket et sa ligne au dos. Andrea t'attend derrière la fontaine vide. Et quelqu'un d'autre arrive.}}
 
 ---
 
@@ -10,81 +10,81 @@
 
 | Slovenčina | Français |
 |------------|----------|
-| Aké je počasie? | Quel temps fait-il ? |
-| dnes | aujourd'hui |
-| horúco | chaud |
-| sucho | sec |
-| slnko | le soleil |
-| vstávaj | lève-toi, debout |
-| jazierko | le petit étang |
-| v parku | dans le parc |
-| dva mesiace | deux mois |
-| každé ráno | tous les matins |
-| teplo | doux, chaud |
-| zima | froid |
-| oblak | le nuage |
-| veľa | beaucoup |
-| veľmi | très |
+| ráno | le matin |
+| Vstávaj! | Debout ! |
+| Už nie. | Plus maintenant. |
+| pohár | le verre |
 | málo | peu |
-| hovorím | je parle |
-| rozumiem | je comprends |
-| správne | correct, juste |
-| neexistuje | n'existe pas |
-| líščí | de renard |
-| chvost | la queue |
-| presne | exactement |
-| trochu | un peu |
-| viac | plus |
-| menej | moins |
-| chýba mi | il me manque |
-| chýba ti | il te manque |
-| pijem | je bois |
-| hľadám | je cherche |
+| denne | par jour |
+| hovoria | ils parlent |
+| hlúpy | bête |
+| príklad | un exemple |
+| najprv | d'abord |
+| plný | plein |
+| prázdny | vide |
 | včera | hier |
-| ešte | encore |
-| aspoň | au moins |
-| zvieratá | les animaux |
-| nikto | personne |
-| zlé | mauvais |
-| potok | le ruisseau |
-| jazero | le lac |
-| kvapka | la goutte |
-| budeme | nous allons (faire) |
-| ideme | nous allons (quelque part) |
-| uvidíme | on verra |
-| inde | ailleurs |
-| na západe | à l'ouest |
-| ďaleko | loin |
-| škola | l'école |
-| len | seulement |
-| preč | parti, loin d'ici |
-| spí | il dort, elle dort |
-| batoh | le sac à dos |
-| mapa | la carte |
-| zajtra | demain |
-| fontána | la fontaine |
-| prázdna | vide (dit d'une fontaine) |
-| záhradník | le jardinier |
-| hľadáte | vous cherchez |
-| prepáčte | excusez-moi (à un adulte) |
-| nikde | nulle part |
-| v rádiu | à la radio |
-| Veľa šťastia! | Bonne chance ! |
-| stanica | la gare (nouveau) |
-| na stanici | à la gare (nouveau) |
-| musím | je dois (nouveau) |
-| lístky | des billets (nouveau) |
-| Neboj sa! | Ne t'inquiète pas ! (nouveau) |
-| pani | la dame (nouveau) |
-| kam | où (vers où) (nouveau) |
-| na vlak | pour le train (nouveau) |
-| Šťastnú cestu! | Bon voyage ! (nouveau) |
+| mobil | le portable |
+| fotka | la photo |
+| náš | notre |
+| dedina | le village |
+| údolie | la vallée |
+| budova | le bâtiment |
+| sivý | gris |
+| každý týždeň | chaque semaine |
 | zápisník | le carnet |
-| meranie | la mesure |
-| vydra | la loutre |
+| príbeh | l'histoire |
+| rieka | la rivière |
+| prameň | la source |
+| stena | le mur |
+| úrad | le bureau (l'administration) |
+| spis | le dossier |
+| každý | chacun, tout le monde |
+| Francúz | un Français |
+| Francúzka | une Française |
+| referát | l'exposé |
+| o vode | sur l'eau |
+| usmievať sa | sourire |
+| dokonalý | parfait |
+| nerozumieš | tu ne comprends pas |
+| okienko | le guichet |
+| Slovák | un Slovaque |
+| ľudia | les gens |
+| pani | la dame, madame |
+| ste | vous êtes |
+| potrebujete | vous avez besoin |
+| Odkiaľ ste? | D'où êtes-vous ? |
+| z Lyonu | de Lyon |
+| z Paríža | de Paris |
+| blízko | près |
+| ďaleko | loin |
+| škoda | dommage |
+| chodba | le couloir |
+| otvorený | ouvert |
+| zatvorený | fermé |
+| dlhý | long |
 | strana | la page |
-| ďalšie | suivant, prochain |
-| klameš | tu mens |
+| štyristo | quatre cents |
+| minúta | la minute |
+| o dvanástej | à midi |
+| zatváram | je ferme |
+| chladenie | le refroidissement |
+| uzavretý okruh | le circuit fermé |
+| spotreba | la consommation |
+| nula | zéro |
+| liter | le litre |
+| naučil som sa | j'ai appris |
+
+---
+
+## Les nouveaux mots de l'épisode
+
+| Slovenčina | Français |
+|------------|----------|
+| auto | la voiture |
+| čierny | noir |
+| oblek | le costume |
+| pravda | la vérité |
+| domov | à la maison, chez soi |
 
 ---
 
@@ -93,97 +93,90 @@
 - 💬 Le Narrateur
 - 🦊 Toi, un garçon de quinze ans, de Lyon
 - 🐰 Andrea, une hase de seize ans, ton amie
-- 🧑 Une employée de la gare : une adulte, on la vouvoie
 
 ---
 
 ## La suite de l'épisode
 
-! 💬 [USER_NAME] a Andrea sú na stanici. Je tam veľa ľudí a veľmi málo tieňa.
-> [USER_NAME] et Andrea sont à la gare. Il y a beaucoup de monde et très peu d'ombre.
-> [USER_NAME] a Andrea sú = [USER_NAME] et Andrea sont
-> na stanici = à la gare
-> Je tam veľa ľudí = il y a beaucoup de monde
-> a veľmi málo tieňa = et très peu d'ombre
-+ Mot nouveau signalé : {{na stanici}} = à la gare ({{stanica}} = la gare). Regarde bien : {{veľa}} ľudí (combien ?), mais {{veľmi}} málo (comment ?).
+! 💬 Vonku čaká Andrea za prázdnou fontánou.
+> Dehors, Andrea attend derrière la fontaine vide.
+> Vonku = dehors
+> čaká Andrea = Andrea attend
+> za prázdnou fontánou = derrière la fontaine vide
 
-! 🐰 Počkaj. Musím napísať tete lístok.
-> Attends. Je dois écrire un mot à ma tante.
-> Počkaj = attends
-> Musím = je dois
-> napísať = écrire
-> tete = à ma tante
-> lístok = un petit mot
-+ Mot nouveau signalé : {{musím}} = je dois. Et {{lístok}} veut aussi dire « petit mot », comme un petit billet en français !
+! 🦊 Nula litrov. Nepoužívajú vodu. Je to tam napísané.
+> Zéro litre. Ils n'utilisent pas d'eau. C'est écrit.
+> Nula litrov = zéro litre
+> Nepoužívajú vodu = ils n'utilisent pas d'eau
+> Je to tam napísané = c'est écrit là-dedans
 
-! 🦊 Ja mám lístok! Je super!
-> Moi, j'ai un billet ! Il est super !
-> Ja mám = moi, j'ai
-> lístok = un billet, un ticket
-> Je super = il est super
+! 🐰 Viem. To je ten problém.
+> Je sais. C'est ça, le problème.
+> Viem = je sais
+> To je ten problém = c'est ça le problème
 
-! 🐰 To nie je ten lístok. To je lístok z električky.
-> Ce n'est pas ce billet-là. Toi, tu as un ticket de tram.
-> To nie je = ce n'est pas
-> ten lístok = ce billet-là
-> To je = c'est
-> lístok z električky = un ticket de tram
+! 🦊 Tak to nie sú oni.
+> Alors ce n'est pas eux.
+> Tak = alors
+> to nie sú oni = ce n'est pas eux
 
-! 🦊 Aha.
-> Ah.
-> Aha = ah
+! 🐰 Alebo to nie je pravda.
+> Ou alors ce n'est pas vrai.
+> Alebo = ou
+> to nie je pravda = ce n'est pas la vérité
++ Mot nouveau signalé : {{pravda}} = la vérité. {{To je pravda}} = c'est vrai.
 
-! 💬 Andrea píše: „Teta, odišla som na pár dní. Neboj sa. Andrea.“
-> Andrea écrit : « Ma tante, je suis partie pour quelques jours. Ne t'inquiète pas. Andrea. »
-> Andrea píše = Andrea écrit
-> odišla som = je suis partie
-> na pár dní = pour quelques jours
-> Neboj sa = ne t'inquiète pas
-+ {{bojím sa}} = j'ai peur ; {{Neboj sa!}} = n'aie pas peur, ne t'inquiète pas. À écouter : {{odišla som}} = je suis partie (dit par une fille).
+! 💬 Pred úradom zastane čierne auto. Vystúpi pán v obleku. Usmieva sa na slnko, na dvere, na všetkých.
+> Une voiture noire s'arrête devant le bureau. Un monsieur en costume descend. Il sourit au soleil, à la porte, à tout le monde.
+> Pred úradom = devant le bureau
+> zastane čierne auto = une voiture noire s'arrête
+> Vystúpi pán v obleku = un monsieur en costume descend
+> Usmieva sa = il sourit
+> na slnko, na dvere, na všetkých = au soleil, à la porte, à tout le monde
++ Mots nouveaux signalés : {{čierne auto}} = la voiture noire, {{oblek}} = le costume. Tu reconnais {{vystúpi}} : comme dans le tram.
 
-! 💬 Pri okienku stojí pani.
-> Devant le guichet, une dame est là.
-> Pri okienku = devant le guichet
-> stojí = se tient
-> pani = une dame
-+ Pour comprendre : {{okienko}} = la petite fenêtre, le guichet. Encore un « petit » mot en {{-ko}}, comme {{jazierko}}.
+! 💬 Andrea ho ťahá za ruku za fontánu.
+> Andrea le tire par le bras, derrière la fontaine.
+> ho ťahá = le tire
+> za ruku = par la main
+> za fontánu = derrière la fontaine
 
-! 🐰 Dobrý deň. Dva lístky na vlak, prosím.
-> Bonjour. Deux billets de train, s'il vous plaît.
-> Dobrý deň = bonjour
-> Dva lístky = deux billets
-> na vlak = pour le train
-> prosím = s'il vous plaît
-+ Mot nouveau signalé : {{lístky}} = des billets. Quand ils sont plusieurs, {{lístok}} perd son {{o}} et finit en {{-y}}.
+! 🦊 Kto je to?
+> Qui c'est ?
+> Kto je to = qui est-ce
 
-! 🧑 Dobrý deň. Kam idete?
-> Bonjour. Vous allez où ?
-> Dobrý deň = bonjour
-> Kam idete = où allez-vous
-+ {{kam}} = où (vers où). Avec un adulte inconnu, on vouvoie : {{ideš}} (tu vas) devient {{idete}} (vous allez).
+! 🐰 Niekto, kto sa veľa usmieva.
+> Quelqu'un qui sourit trop.
+> Niekto = quelqu'un
+> kto sa veľa usmieva = qui sourit beaucoup
 
-! 🐰 Do Spišskej Novej Vsi.
-> À Spišská Nová Ves.
-> Do = à, vers
-> Spišskej Novej Vsi = Spišská Nová Ves
-+ Après {{do}}, le nom de la ville change à la fin. Même les Slovaques réfléchissent deux secondes pour celui-là !
+! 🦊 Hľadá ťa?
+> Il te cherche ?
+> Hľadá ťa = il te cherche
 
-! 🧑 Dva lístky. Šťastnú cestu.
-> Deux billets. Bon voyage.
-> Dva lístky = deux billets
-> Šťastnú cestu = bon voyage
-+ Mot nouveau signalé : {{Šťastnú cestu!}} = bon voyage ! Mot à mot : « heureuse route ».
+! 🐰 Ešte nie. Poď. Ideme na vlak.
+> Pas encore. Viens. On prend le train.
+> Ešte nie = pas encore
+> Poď = viens
+> Ideme na vlak = on va au train
 
-! 💬 Vlak ide na západ.
-> Le train part vers l'ouest.
-> Vlak ide = le train va
-> na západ = vers l'ouest
-+ {{na západe}} = à l'ouest ; {{na západ}} = vers l'ouest.
+! 🦊 Kam?
+> Pour où ?
+> Kam = où (vers où)
+
+! 🐰 Domov. Ale najprv navštívime niekoho, kto už tridsať rokov všetko zapisuje.
+> Chez nous. Mais d'abord, on va voir quelqu'un qui écrit tout depuis trente ans.
+> Domov = à la maison
+> Ale najprv = mais d'abord
+> navštívime niekoho = on rendra visite à quelqu'un
+> kto už tridsať rokov = qui depuis trente ans
+> všetko zapisuje = note tout
++ Mot nouveau signalé : {{domov}} = à la maison, chez soi.
 
 ---
 
 ## 🇸🇰 Coin slovaque
 
-{{fr:Spišská Nová Ves est la porte d'entrée du Paradis slovaque : depuis Košice, on y va en train en à peu près une heure. La compagnie des trains slovaques s'appelle}} {{ZSSK}}{{fr:.}}
+{{fr:Fais le point. Tu as une pièce :}} {{nula litrov}}{{fr:, au dos de ton ticket de tram. Tu as un suspect : un bâtiment gris avec une vague verte. Et tu as un monsieur qui sourit beaucoup trop.}}
 
-{{fr:Le deuxième chapitre est derrière toi, et Košice aussi. À l'ouest, il y a des gorges, des échelles et, peut-être, de l'eau. Pour la suite, il va falloir de bonnes chaussures.}}
+{{fr:Andrea dit}} {{domov}}{{fr:, « à la maison ». Pour elle, la maison, ce n'est pas Košice. C'est le village du ruisseau.}}

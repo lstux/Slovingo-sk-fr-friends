@@ -42,7 +42,7 @@
       "choices_l1": [
         "le touriste",
         "le soir",
-        "demain (nouveau)"
+        "demain"
       ],
       "choices_l2": [
         "v nedeľu",
@@ -72,7 +72,7 @@
       "l1": "contente (dit par une fille)",
       "l2": "rada",
       "choices_l1": [
-        "la fenêtre (nouveau)",
+        "la fenêtre",
         "dans une semaine",
         "il dort, elle dort"
       ],
@@ -85,7 +85,7 @@
     {
       "id": "qcm-noc",
       "type": "qcm",
-      "l1": "la nuit (nouveau)",
+      "l1": "la nuit",
       "l2": "noc",
       "choices_l1": [
         "qui a soif (un garçon)",
@@ -101,7 +101,7 @@
     {
       "id": "qcm-okno",
       "type": "qcm",
-      "l1": "la fenêtre (nouveau)",
+      "l1": "la fenêtre",
       "l2": "okno",
       "choices_l1": [
         "la nuit",
@@ -117,7 +117,7 @@
     {
       "id": "qcm-zajtra",
       "type": "qcm",
-      "l1": "demain (nouveau)",
+      "l1": "demain",
       "l2": "zajtra",
       "choices_l1": [
         "aujourd'hui",

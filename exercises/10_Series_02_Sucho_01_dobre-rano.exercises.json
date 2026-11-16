@@ -1,0 +1,251 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-r-no",
+      "type": "qcm",
+      "l1": "le matin",
+      "l2": "ráno",
+      "choices_l1": [
+        "ils parlent",
+        "le verre",
+        "peu"
+      ],
+      "choices_l2": [
+        "Vstávaj!",
+        "Už nie.",
+        "hlúpy"
+      ]
+    },
+    {
+      "id": "qcm-vst-vaj",
+      "type": "qcm",
+      "l1": "Debout !",
+      "l2": "Vstávaj!",
+      "choices_l1": [
+        "d'abord",
+        "Plus maintenant.",
+        "le verre"
+      ],
+      "choices_l2": [
+        "ráno",
+        "málo",
+        "najprv"
+      ]
+    },
+    {
+      "id": "qcm-u-nie",
+      "type": "qcm",
+      "l1": "Plus maintenant.",
+      "l2": "Už nie.",
+      "choices_l1": [
+        "Debout !",
+        "bête",
+        "peu"
+      ],
+      "choices_l2": [
+        "Vstávaj!",
+        "málo",
+        "ráno"
+      ]
+    },
+    {
+      "id": "qcm-poh-r",
+      "type": "qcm",
+      "l1": "le verre",
+      "l2": "pohár",
+      "choices_l1": [
+        "d'abord",
+        "bête",
+        "le matin"
+      ],
+      "choices_l2": [
+        "Vstávaj!",
+        "málo",
+        "hovoria"
+      ]
+    },
+    {
+      "id": "qcm-m-lo",
+      "type": "qcm",
+      "l1": "peu",
+      "l2": "málo",
+      "choices_l1": [
+        "le matin",
+        "bête",
+        "d'abord"
+      ],
+      "choices_l2": [
+        "pohár",
+        "ráno",
+        "denne"
+      ]
+    },
+    {
+      "id": "qcm-denne",
+      "type": "qcm",
+      "l1": "par jour",
+      "l2": "denne",
+      "choices_l1": [
+        "Plus maintenant.",
+        "peu",
+        "le verre"
+      ],
+      "choices_l2": [
+        "Už nie.",
+        "Vstávaj!",
+        "málo"
+      ]
+    },
+    {
+      "id": "listen-vstávaj-je-sedem-hodín",
+      "type": "listen",
+      "l1": "Debout. Il est sept heures.",
+      "l2": "Vstávaj. Je sedem hodín.",
+      "choices_l1": [
+        "Bonjour. Il est huit heures.",
+        "Debout. Il fait très chaud.",
+        "Bois d'abord. Il est sept heures."
+      ]
+    },
+    {
+      "id": "listen-najprv-pi",
+      "type": "listen",
+      "l1": "Bois d'abord.",
+      "l2": "Najprv pi.",
+      "choices_l1": [
+        "Dors d'abord.",
+        "Bois tout.",
+        "Mange d'abord."
+      ]
+    },
+    {
+      "id": "listen-vodu-máme-dve-hodiny-denne-ráno",
+      "type": "listen",
+      "l1": "On a de l'eau deux heures par jour. Le matin.",
+      "l2": "Vodu máme dve hodiny denne. Ráno.",
+      "choices_l1": [
+        "On a de l'eau deux heures par jour. Le soir.",
+        "On n'a pas d'eau. Depuis deux mois.",
+        "On a beaucoup d'eau. Le matin."
+      ]
+    },
+    {
+      "id": "blank-hovoríš-veľmi-rýchlo",
+      "type": "fill-blank",
+      "l1": "Tu parles très vite.",
+      "l2": "Hovoríš veľmi rýchlo.",
+      "missing_l1": "très",
+      "missing_l2": "veľmi",
+      "blank_index_l1": 2,
+      "blank_index_l2": 1,
+      "choices_l1": [
+        "beaucoup",
+        "peu",
+        "déjà"
+      ],
+      "choices_l2": [
+        "veľa",
+        "málo",
+        "už"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-v-lete-je-tu-málo-vody",
+      "type": "fill-blank",
+      "l1": "En été, il y a peu d'eau ici.",
+      "l2": "V lete je tu málo vody.",
+      "missing_l1": "peu",
+      "missing_l2": "málo",
+      "blank_index_l1": 5,
+      "blank_index_l2": 4,
+      "choices_l1": [
+        "beaucoup",
+        "trop",
+        "plus"
+      ],
+      "choices_l2": [
+        "veľa",
+        "veľmi",
+        "už"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-to-je-príklad",
+      "type": "order",
+      "l1": "C'est un exemple.",
+      "l2": "To je príklad.",
+      "tokens_l1": [
+        "C'est",
+        "un",
+        "exemple.",
+        "bête",
+        "très"
+      ],
+      "tokens_l2": [
+        "To",
+        "je",
+        "príklad.",
+        "hlúpy",
+        "veľmi"
+      ]
+    },
+    {
+      "id": "order-máš-trochu-vody",
+      "type": "order",
+      "l1": "Tu as un peu d'eau ?",
+      "l2": "Máš trochu vody?",
+      "tokens_l1": [
+        "Tu",
+        "as",
+        "un",
+        "peu",
+        "d'eau",
+        "?",
+        "Andrea.",
+        "Hier",
+        "soir,",
+        "tu",
+        "as",
+        "dit",
+        ":",
+        "«",
+        "Il",
+        "est",
+        "là.",
+        "»"
+      ],
+      "tokens_l2": [
+        "Máš",
+        "trochu",
+        "vody?",
+        "Andrea.",
+        "Včera",
+        "večer",
+        "si",
+        "povedala:",
+        "„Je",
+        "tu.“"
+      ]
+    },
+    {
+      "id": "match-r-no-vocab",
+      "type": "match",
+      "l1": [
+        "le matin",
+        "Debout !",
+        "Plus maintenant.",
+        "le verre"
+      ],
+      "l2": [
+        "ráno",
+        "Vstávaj!",
+        "Už nie.",
+        "pohár"
+      ]
+    }
+  ]
+}

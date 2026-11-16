@@ -1,8 +1,8 @@
-# Raj (extra) — Pri potoku
+# Raj (extra) — Večer pri jazere
 
 @ img/illus_03_raj_2.jpg | Au bord du ruisseau, sous les étoiles : le renard s'endort, Andrea regarde l'eau. Source : illustration générée avec ChatGPT
 
-{{fr:Demain, direction les Tatras. Ce soir, on dort à la belle étoile, près du ruisseau. Et Andrea lâche une phrase qu'elle ne finit pas d'expliquer.}}
+{{fr:Le soir, au bord du lac des castors. Les étoiles se reflètent dans l'eau. Tu as encore une question. Une vraie.}}
 
 ---
 
@@ -10,73 +10,82 @@
 
 | Slovenčina | Français |
 |------------|----------|
-| Kam teraz? | On va où maintenant ? |
-| Poď za mnou! | Suis-moi ! |
-| mapa | la carte |
-| vždy | toujours |
-| otázky | des questions |
-| pomaly | lentement |
-| rýchlo | vite |
-| Ja viem. | Je sais. |
-| tak | alors |
 | les | la forêt |
-| cez | à travers |
-| tieň | l'ombre |
-| počujem | j'entends |
+| konečne | enfin |
+| chladno | frais |
 | počuješ | tu entends |
-| ticho | le silence, chut |
-| nič | rien |
-| ešte | encore |
-| vtáky | les oiseaux |
-| dobré | bon, bien |
-| niekde | quelque part |
-| blízko | près |
-| tečie | coule |
-| vták | l'oiseau |
-| spieva | chante |
-| hlasno | fort (pour un son) |
-| dosť | assez |
-| To mi stačí. | Ça me suffit. |
-| pre dvoch | pour deux |
-| najprv | d'abord |
-| potom | ensuite |
-| Napi sa! | Bois ! |
-| zase | encore, de nouveau |
-| šéf | le chef |
-| batoh | le sac à dos |
-| takže | donc |
-| smäd | la soif |
-| fľaša | la bouteille |
-| piť | boire |
-| roklina | la gorge (le ravin) |
+| počujem | j'entends |
+| vidím | je vois |
+| strom | l'arbre |
+| kameň | la pierre |
+| tečie | (ça) coule |
+| ani tu | ici non plus |
+| stanica | la gare |
+| medzi | entre |
+| malý | petit |
 | rebrík | l'échelle |
-| po rebríkoch | par les échelles |
-| nad vodou | au-dessus de l'eau |
-| dole | en bas |
-| Nemám rád výšky. | Je n'aime pas les hauteurs. |
-| oči | les yeux |
-| nápad | l'idée |
-| ak | si |
-| Chytím ťa. | Je te rattrape. |
-| most | le pont |
-| skala | la roche, le rocher |
+| Lez! | Grimpe ! |
 | hore | en haut |
-| strážca parku | le garde du parc |
-| menej ako | moins que |
+| dole | en bas |
+| doprava | à droite |
+| doľava | à gauche |
+| cesta | le chemin |
+| trvá | ça dure |
+| oči | les yeux |
+| Nepozeraj! | Ne regarde pas ! |
+| rovno | tout droit |
+| skala | le rocher |
+| noha | le pied, la jambe |
+| dvadsať | vingt |
+| tridsať | trente |
+| tridsaťjeden | trente et un |
+| zapisujete | vous notez |
+| dážď | la pluie |
+| sneh | la neige |
+| každý pondelok | chaque lundi |
+| čaj | le thé |
+| vyrástla si | tu as grandi (à une fille) |
+| park | le parc |
+| chata | la cabane, le refuge |
+| orol | l'aigle |
+| uniforma | l'uniforme |
+| leto | l'été |
+| suchý | sec |
+| slabý | faible |
 | vlani | l'an dernier |
-| Čo sa deje? | Qu'est-ce qui se passe ? |
-| vraj | il paraît que |
-| v horách | en montagne |
-| pôjdeme | nous irons |
-| opatrne | prudemment |
-| bunda | la veste |
-| v lete | en été |
-| nikdy | jamais (nouveau) |
-| hviezdy | les étoiles (nouveau) |
-| jablká | des pommes (nouveau) |
-| veriť | croire, faire confiance (nouveau) |
-| okrem | sauf (nouveau) |
-| nálezca | celui qui trouve |
+| normálne | normal |
+| nikdy | jamais |
+| nikto | personne |
+| list | la lettre |
+| napísal som | j'ai écrit |
+| odpovedali | ils ont répondu |
+| jar | le printemps |
+| jeseň | l'automne |
+| zima | l'hiver, le froid |
+| bobor | le castor |
+| bobry | les castors |
+| hrádza | le barrage |
+| možno | peut-être |
+| buďte slušní | soyez polis |
+| jazero | le lac |
+| opravuje | il répare |
+| pochopiť | comprendre |
+| drží | il retient |
+| bez | sans |
+| stroje | les machines |
+| v noci | la nuit |
+
+---
+
+## Les nouveaux mots de l'épisode
+
+| Slovenčina | Français |
+|------------|----------|
+| hviezda | l'étoile |
+| milý | gentil |
+| dala som | j'ai donné |
+| veríš | tu fais confiance |
+| Spi. | Dors. |
 
 ---
 
@@ -90,79 +99,79 @@
 
 ## La suite de l'épisode
 
-! 💬 Je večer. [USER_NAME] a Andrea sedia pri potoku.
-> C'est le soir. [USER_NAME] et Andrea sont assis près du ruisseau.
-> Je večer = c'est le soir
-> sedia = sont assis
-> pri potoku = près du ruisseau
-
-! 🦊 Nikdy som nespal pod hviezdami.
-> Je n'ai jamais dormi sous les étoiles.
-> Nikdy = jamais
-> som nespal = je n'ai pas dormi
-> pod hviezdami = sous les étoiles
-+ Mots nouveaux signalés : {{nikdy}} = jamais, {{hviezdy}} = les étoiles. Encore deux négations : {{nikdy}} et {{ne-}}.
-
-! 🐰 Spal si pod jabloňou.
-> Tu as dormi sous un pommier.
-> Spal si = tu as dormi
-> pod jabloňou = sous un pommier
-
-! 🦊 To nie sú hviezdy. To sú jablká.
-> Ce ne sont pas des étoiles. Ce sont des pommes.
-> To nie sú = ce ne sont pas
-> hviezdy = des étoiles
-> To sú = ce sont
-> jablká = des pommes
-+ Mot nouveau signalé : {{jablká}} = des pommes. {{jablko}} = une pomme, et {{jabloň}} = l'arbre qui les porte.
-
-! 🐰 Spi, [USER_NAME].
-> Dors, [USER_NAME].
-> Spi = dors
-+ {{spať}} = dormir → {{Spi!}} = dors !
+! 💬 Večer pri bobrom jazere. Vo vode sa odrážajú hviezdy.
+> Le soir, au bord du lac des castors. Les étoiles se reflètent dans l'eau.
+> Večer = le soir
+> pri bobrom jazere = au bord du lac des castors
+> Vo vode = dans l'eau
+> sa odrážajú hviezdy = les étoiles se reflètent
++ Mot nouveau signalé : {{hviezda}} = l'étoile. Tu l'as entendu le premier soir, sous le pommier : {{hviezdy}}.
 
 ! 🦊 Andrea?
 > Andrea ?
 
-! 🐰 Hm?
-> Hm ?
+! 🐰 Áno.
+> Oui.
 
-! 🦊 Ty nikdy neveríš líškam?
-> Toi, tu ne fais jamais confiance aux renards ?
-> Ty = toi
-> nikdy neveríš = tu ne crois jamais
-> líškam = aux renards
-+ Mot nouveau signalé : {{veriť}} = croire, faire confiance. {{neveríš}} = tu ne fais pas confiance.
+! 🦊 Tvoj zápisník. Ako si ho stratila?
+> Ton carnet. Tu l'as perdu comment ?
+> Tvoj zápisník = ton carnet
+> Ako si ho stratila = comment tu l'as perdu
 
-! 🐰 Nikdy. Okrem jednej.
-> Jamais. Sauf à un.
-> Nikdy = jamais
-> Okrem jednej = sauf une
-+ Mot nouveau signalé : {{okrem}} = sauf. {{jednej}} est au féminin, parce que {{líška}} est un mot féminin.
+! 🐰 Nestratila som ho. Dala som ho.
+> Je ne l'ai pas perdu. Je l'ai donné.
+> Nestratila som ho = je ne l'ai pas perdu
+> Dala som ho = je l'ai donné
++ Mot nouveau signalé : {{dala som}} = j'ai donné, dit par une fille.
 
-! 🦊 Okrem jednej? Ktorej?
-> Sauf à un ? Lequel ?
-> Okrem jednej = sauf une
-> Ktorej = laquelle
+! 🦊 Komu?
+> À qui ?
+> Komu = à qui
+
+! 🐰 Niekomu milému.
+> À quelqu'un de gentil.
+> Niekomu = à quelqu'un
+> milému = de gentil
++ Mot nouveau signalé : {{milý}} = gentil. Ici, {{milému}} : « à quelqu'un de gentil ».
+
+! 🦊 A to nie je dobre, niekto milý?
+> Et ce n'est pas bien, quelqu'un de gentil ?
+> A to nie je dobre = et ce n'est pas bien
+> niekto milý = quelqu'un de gentil
+
+! 🐰 Záleží na tom, čo urobí potom.
+> Ça dépend de ce qu'il fait après.
+> Záleží na tom = ça dépend
+> čo urobí potom = de ce qu'il fait après
+
+! 💬 [USER_NAME] čaká. Andrea už nič nepovie.
+> [USER_NAME] attend. Andrea ne dit plus rien.
+> čaká = attend
+> Andrea už nič nepovie = Andrea ne dit plus rien
++ Trois mots pour une seule négation : {{už}}, {{nič}}, {{ne-}}. « Ne… plus rien ».
+
+! 🦊 Už nikomu neveríš?
+> Tu ne fais plus confiance à personne ?
+> Už nikomu = plus à personne
+> neveríš = tu ne fais pas confiance
++ Mot nouveau signalé : {{veriť}} = faire confiance, croire. {{veríš}} = tu fais confiance.
+
+! 🐰 Jednému.
+> À un seul.
+> Jednému = à un seul
++ « À une personne », ce serait {{jednej}}. Andrea dit {{jednému}}, au masculin : « à un seul ». Un détail. Peut-être.
+
+! 🦊 Komu?
+> Qui ?
 
 ! 🐰 Spi.
 > Dors.
-> Spi = dors
-
-! 🦊 Ja viem, že som to ja.
-> Je sais que c'est moi.
-> Ja viem = je sais
-> že som to ja = que c'est moi
-
-! 🐰 Nič nevieš. Spi.
-> Tu ne sais rien. Dors.
-> Nič nevieš = tu ne sais rien
 > Spi = dors
 
 ---
 
 ## 🇸🇰 Coin slovaque
 
-{{fr:Dans les parcs nationaux slovaques, on n'a pas le droit de camper n'importe où : il faut dormir dans les refuges ou les campings. Mais toi et Andrea, vous êtes des animaux : la forêt, c'est chez vous.}}
+{{fr:Fais le point. Tu as maintenant deux pièces : le permis du bâtiment, « zéro litre », et le registre de pán Orol, où la source n'a jamais séché pendant trente ans, sauf l'été après l'arrivée du bâtiment gris.}}
 
-{{fr:Le troisième chapitre est terminé. Demain, les Tatras. Le garde avait raison : prends une veste.}}
+{{fr:Et tu as une piste : des machines, la nuit, il y a deux étés, près d'un refuge. Demain, direction les Tatras.}}

@@ -1,0 +1,264 @@
+{
+  "mode": "replace",
+  "sync": "full",
+  "exercises": [
+    {
+      "id": "qcm-mobil",
+      "type": "qcm",
+      "l1": "le portable",
+      "l2": "mobil",
+      "choices_l1": [
+        "la vallée",
+        "notre",
+        "l'histoire"
+      ],
+      "choices_l2": [
+        "zápisník",
+        "dedina",
+        "sivý"
+      ]
+    },
+    {
+      "id": "qcm-fotka",
+      "type": "qcm",
+      "l1": "la photo",
+      "l2": "fotka",
+      "choices_l1": [
+        "la vallée",
+        "le village",
+        "gris"
+      ],
+      "choices_l2": [
+        "každý týždeň",
+        "príbeh",
+        "dedina"
+      ]
+    },
+    {
+      "id": "qcm-n",
+      "type": "qcm",
+      "l1": "notre",
+      "l2": "náš",
+      "choices_l1": [
+        "chaque semaine",
+        "la vallée",
+        "le village"
+      ],
+      "choices_l2": [
+        "sivý",
+        "fotka",
+        "príbeh"
+      ]
+    },
+    {
+      "id": "qcm-dedina",
+      "type": "qcm",
+      "l1": "le village",
+      "l2": "dedina",
+      "choices_l1": [
+        "gris",
+        "le portable",
+        "notre"
+      ],
+      "choices_l2": [
+        "príbeh",
+        "zápisník",
+        "údolie"
+      ]
+    },
+    {
+      "id": "qcm-dolie",
+      "type": "qcm",
+      "l1": "la vallée",
+      "l2": "údolie",
+      "choices_l1": [
+        "le portable",
+        "chaque semaine",
+        "notre"
+      ],
+      "choices_l2": [
+        "príbeh",
+        "budova",
+        "zápisník"
+      ]
+    },
+    {
+      "id": "qcm-budova",
+      "type": "qcm",
+      "l1": "le bâtiment",
+      "l2": "budova",
+      "choices_l1": [
+        "la photo",
+        "l'histoire",
+        "chaque semaine"
+      ],
+      "choices_l2": [
+        "dedina",
+        "fotka",
+        "mobil"
+      ]
+    },
+    {
+      "id": "listen-to-je-náš-potok-ale-nie-je-tam-voda",
+      "type": "listen",
+      "l1": "C'est notre ruisseau ! Mais… il n'y a pas d'eau.",
+      "l2": "To je náš potok! Ale… nie je tam voda.",
+      "choices_l1": [
+        "C'est notre village ! Mais… il n'y a personne.",
+        "C'est notre ruisseau ! Il y a beaucoup d'eau.",
+        "C'est ta photo ! Mais… il n'y a pas d'eau."
+      ]
+    },
+    {
+      "id": "listen-mám-čas-do-nedele",
+      "type": "listen",
+      "l1": "J'ai le temps. Jusqu'à dimanche.",
+      "l2": "Mám čas. Do nedele.",
+      "choices_l1": [
+        "Je n'ai pas le temps. Jusqu'à dimanche.",
+        "J'ai le temps. Jusqu'à lundi.",
+        "On a le temps. Dimanche."
+      ]
+    },
+    {
+      "id": "listen-a-stratila-som-zápisník-to-je-dlhý-príbeh",
+      "type": "listen",
+      "l1": "Et j'ai perdu mon carnet. C'est une longue histoire.",
+      "l2": "A stratila som zápisník. To je dlhý príbeh.",
+      "choices_l1": [
+        "Et j'ai perdu mon portable. C'est une longue histoire.",
+        "Et j'ai trouvé mon carnet. C'est une histoire courte.",
+        "Et j'ai mesuré le ruisseau. C'est une longue histoire."
+      ]
+    },
+    {
+      "id": "blank-moja-babka-býva-v-dedine",
+      "type": "fill-blank",
+      "l1": "Ma grand-mère habite au village.",
+      "l2": "Moja babka býva v dedine.",
+      "missing_l1": "village",
+      "missing_l2": "dedine",
+      "blank_index_l1": 4,
+      "blank_index_l2": 4,
+      "choices_l1": [
+        "vallée",
+        "tram",
+        "mur"
+      ],
+      "choices_l2": [
+        "údolí",
+        "električke",
+        "stene"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "blank-na-fotke-je-náš-potok",
+      "type": "fill-blank",
+      "l1": "Sur la photo, il y a notre ruisseau.",
+      "l2": "Na fotke je náš potok.",
+      "missing_l1": "photo",
+      "missing_l2": "fotke",
+      "blank_index_l1": 2,
+      "blank_index_l2": 1,
+      "choices_l1": [
+        "mur",
+        "carte",
+        "fenêtre"
+      ],
+      "choices_l2": [
+        "stene",
+        "mape",
+        "okne"
+      ],
+      "show_translation": true
+    },
+    {
+      "id": "order-tak-nemáme-čas",
+      "type": "order",
+      "l1": "Alors on n'a pas le temps.",
+      "l2": "Tak nemáme čas.",
+      "tokens_l1": [
+        "Alors",
+        "on",
+        "n'a",
+        "pas",
+        "le",
+        "temps.",
+        "Je",
+        "l'ai",
+        "mesuré.",
+        "Toutes",
+        "les",
+        "semaines,",
+        "pendant",
+        "deux",
+        "ans.",
+        "Pour",
+        "le",
+        "lycée."
+      ],
+      "tokens_l2": [
+        "Tak",
+        "nemáme",
+        "čas.",
+        "Merala",
+        "som",
+        "ho.",
+        "Každý",
+        "týždeň,",
+        "dva",
+        "roky.",
+        "Pre",
+        "školu."
+      ]
+    },
+    {
+      "id": "order-potom-postavili-toto",
+      "type": "order",
+      "l1": "Après, ils ont construit ça.",
+      "l2": "Potom postavili toto.",
+      "tokens_l1": [
+        "Après,",
+        "ils",
+        "ont",
+        "construit",
+        "ça.",
+        "Et",
+        "toi",
+        "?",
+        "Tu",
+        "dis",
+        "quoi,",
+        "toi",
+        "?"
+      ],
+      "tokens_l2": [
+        "Potom",
+        "postavili",
+        "toto.",
+        "A",
+        "ty?",
+        "Čo",
+        "hovoríš",
+        "ty?"
+      ]
+    },
+    {
+      "id": "match-mobil-vocab",
+      "type": "match",
+      "l1": [
+        "le portable",
+        "la photo",
+        "notre",
+        "le village"
+      ],
+      "l2": [
+        "mobil",
+        "fotka",
+        "náš",
+        "dedina"
+      ]
+    }
+  ]
+}
