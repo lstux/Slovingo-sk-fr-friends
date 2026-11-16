@@ -1,6 +1,6 @@
 # Košice (extra) — Okno
 
-@ TODO_img/okno-v-noci.jpg | TODO : choisir une image (une fenêtre allumée la nuit, vue d'un jardin)
+@ img/illus_01_okno.jpg | Sous le pommier, la nuit. Une seule fenêtre est encore allumée. Source : illustration générée avec ChatGPT
 
 {{fr:Tu es allongé sous le pommier. Deux jours de train, ça fatigue. Mais dans la maison, une fenêtre est encore allumée.}}
 
