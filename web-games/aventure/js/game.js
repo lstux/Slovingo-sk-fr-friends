@@ -1423,8 +1423,9 @@
         player: 'fox', floor: [[0, 600], [2160, 600], [2160, 712], [0, 712]], scale: { y0: 600, s0: 0.55, y1: 712, s1: 0.64 },
         sprites: [
           gab(300, 650),
-          { id: 'pokladnicka', img: 'art/pokladnicka_idle.png', x: 1300, y: 432, h: 170, abs: true, still: true, face: -1,
-            poses: Object.fromEntries(POKL.map((k) => [k, { img: `art/pokladnicka_${k}.png`, h: 170 }])) },
+          // derriere la vitre, au fond : plus petite que Gab (perspective), coupee par le comptoir a la taille
+          { id: 'pokladnicka', img: 'art/pokladnicka_idle.png', x: 1370, y: 436, h: 118, abs: true, still: true, face: -1,
+            poses: Object.fromEntries(POKL.map((k) => [k, { img: `art/pokladnicka_${k}.png`, h: 118 }])) },
           { id: 'bobor', img: 'art/bobor_a.png', x: 640, y: 584, h: 178, abs: true, face: 1, poses: { b: { img: 'art/bobor_b.png', h: 178 } }, alt: { pose: 'b', min: 3, max: 6, hold: [1.5, 3] } },
           { id: 'diviak', img: 'art/diviak_a.png', x: 868, y: 588, h: 192, abs: true, face: -1, poses: { b: { img: 'art/diviak_b.png', h: 192 } }, alt: { pose: 'b', min: 1.6, max: 2.4, hold: [1.4, 2] } },
           { id: 'veverica', img: 'art/veverica_a.png', x: 1760, y: 620, h: 220, abs: true, face: -1, poses: { b: { img: 'art/veverica_b.png', h: 220 } }, alt: { pose: 'b', min: 4, max: 8, hold: [1.5, 2.5] } },
@@ -1469,9 +1470,9 @@
             onItem: { async flasa(g) { await say(g, 'fox', 'Nie, tú vodu potrebujem ja.', 'Non, cette eau, c\'est pour moi.'); } } },
           { id: 'chladic', name: { sk: 'automat na vodu', fr: 'la fontaine à eau' }, poly: box(2045, 290, 2140, 580), walk: [2000, 650],
             look: { sk: 'Automat na vodu. Prázdny.', fr: 'La fontaine à eau. Vide.', words: [['prázdny', 'vide']] } },
-          { id: 'pokladnicka', sprite: 'pokladnicka', name: { sk: 'pani pri okienku', fr: 'la dame du guichet' }, walk: [1300, 650],
+          { id: 'pokladnicka', sprite: 'pokladnicka', name: { sk: 'pani pri okienku', fr: 'la dame du guichet' }, walk: [1250, 650],
             async onUse(g) { await pokladnicka2(g); } },
-          { id: 'okienko', name: { sk: 'okienko', fr: 'le guichet' }, poly: box(1215, 210, 1455, 560), walk: [1300, 650],
+          { id: 'okienko', name: { sk: 'okienko', fr: 'le guichet' }, poly: box(1215, 210, 1455, 560), walk: [1250, 650],
             async onUse(g) { await pokladnicka2(g); } },
           // figurants
           { id: 'bobor', sprite: 'bobor', name: { sk: 'pán s krížovkou', fr: 'le monsieur aux mots croisés' }, walk: [700, 650],
