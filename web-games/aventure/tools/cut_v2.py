@@ -211,10 +211,56 @@ def chapter2():
     save(am.crop((1160, 422, 1466, 658)), 'obj_jablko', 140)
 
 
+def chapter3():
+    for n in ('raj_chata_wide', 'raj_jazero_wide'):
+        im = Image.open(os.path.join(SRC, n + '_src.png')).convert('RGB').resize((2160, 720), Image.LANCZOS)
+        im.save(os.path.join(ART, n + '.webp'), quality=88)
+        print(n + '.webp')
+    # le castor du barrage : chaque pose a son cadre (le jeu donne la hauteur de chaque pose, tools : BOBOR2_POSES dans game.js)
+    c = cells(os.path.join(SRC, 'bobor_hradza_sheet_src.png'), 4, 2)
+    for cell, name in zip(c, ['nie', 'talk', 'hammer', 'look', 'taste', 'nod', 'point', 'swim']):
+        bb = bbox(cell)
+        im = cell.crop(bb)
+        print('  h', name, bb[3] - bb[1])
+        save(im, 'bobor2_' + name, 460)
+    c = cells(os.path.join(SRC, 'figurants_ch3_src.png'), 4, 2)
+    pair(c[0], c[1], 'jezkovia_a', 'jezkovia_b', 420)
+    # la famille de chamois : trois personnages separes par du vide, on prend tout ce qui n'est pas transparent
+    full = lambda im: list(im.getchannel('A').point(lambda v: 255 if v > 24 else 0).getbbox())
+    bb = union(full(c[2]), full(c[3]))
+    save(c[2].crop(bb), 'kamzik_a', 440); save(c[3].crop(bb), 'kamzik_b', 440)
+    pair(c[4], c[5], 'sojka_a', 'sojka_b', 260)
+    pair(c[6], c[7], 'jazvecik_a', 'jazvecik_b', 260)
+    c = cells(os.path.join(SRC, 'figurants_ch3b_src.png'), 4, 2)
+    pair(c[0], c[1], 'volavka_a', 'volavka_b', 360)
+    pair(c[2], c[3], 'bobriky_a', 'bobriky_b', 240)
+    pair(c[4], c[5], 'orol_caj', 'orol_hrnok', 460)
+    pair(c[6], c[7], 'zaba_a', 'zaba_b', 220)
+    c = cells(os.path.join(SRC, 'objets_ch3_src.png'), 4, 2)
+    ic = c[1].crop(bbox(c[1]))
+    save(ic, 'item_palica', 160)
+    lying = ic.rotate(-52, resample=Image.BICUBIC, expand=True)
+    save(lying.crop(bbox(lying)), 'obj_palica', 200)
+    for i, name, mh in [(2, 'obj_siska', 120), (3, 'item_siska', 160), (4, 'obj_sipka', 200), (5, 'obj_muchotravka', 200),
+                        (6, 'obj_register', 300), (7, 'obj_register_otvoreny', 700)]:
+        single(c[i], name, mh)
+    c = cells(os.path.join(SRC, 'prises_ch3_src.png'), 3, 2)
+    for i, name in enumerate(['prisa_skoba', 'prisa_priecka', 'prisa_koren', 'prisa_mach', 'labky_drzia', 'labky_hladaju']):
+        single(c[i], name, 360)
+    c = cells(os.path.join(SRC, 'ambiance_ch3_src.png'), 4, 2)
+    pair(c[0], c[1], 'amb_motyl_a', 'amb_motyl_b', 90)
+    pair(c[2].transpose(Image.FLIP_LEFT_RIGHT), c[3], 'amb_vlajka_a', 'amb_vlajka_b', 200)
+    single(c[6], 'amb_list', 80)
+    single(c[7], 'amb_kruhy', 120)
+
+
 if __name__ == '__main__':
     import sys
-    if 'ch2' in sys.argv:
+    if 'ch3' in sys.argv:
+        chapter3()
+    elif 'ch2' in sys.argv:
         chapter2()
     else:
         main()
         chapter2()
+        chapter3()

@@ -198,8 +198,8 @@ const srv = http.createServer((q, r) => {
   await until((q) => q.panel === 'board' && q.q && !q.dlg, 'question du tableau (ch2)');
   await pg.waitForTimeout(300); await shot('13_tableau2');
   await pickCards('permis', 'fotky');
-  await until((q) => q.end, 'fin du chapitre 2');
-  await shot('06_fin');
+  await until((q) => q.sc === 'raj', 'fin du chapitre 2 : en route pour le chapitre 3');
+  await shot('06_fin');   // la suite : web-games/tests/jeu_ch3_test.js
   if (missing.length) await fail('images manquantes : ' + missing.join(', '));
   if (errs.length) await fail('erreurs JS : ' + errs.join(' | '));
   console.log('OK : prologue + chapitres 1 et 2 v2 joues jusqu\'au bout');

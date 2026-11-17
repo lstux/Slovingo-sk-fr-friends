@@ -216,6 +216,14 @@ Les fausses pistes de la v1 restent : pot rouge (escargot), pot jaune (fourmis),
 - **Animations** : les ronds dans l'eau, les étoiles et leur reflet, le feu de camp.
 - **Mots du chapitre** : *hore, dole, doprava, doľava, rebrík, prameň, suchý, slabý, bobor, hrádza, stroj*.
 
+#### Ce qui est fait (17 nov. 2026, `web-games/aventure/js/ch3.js`, test `web-games/tests/jeu_ch3_test.js`)
+
+Jouable de bout en bout, enchaîné après le chapitre 2. Écarts avec le plan ci-dessus :
+- **Forêt** : on ne quitte pas la forêt sans avoir bu et sans le bâton. Les hérissons ont la carte à l'envers : il faut le leur dire (*Máte mapu hore nohami*), rappel du livre d'Andrea. L'écureuil est retiré (la planche existante est une maman à poussette). La carte « bobry » arrive dès l'intro (« Na úrade mi povedali : sucho, alebo bobry »).
+- **Gorge** : 7 prises dans le noir (*hore, ešte, doprava, hore, doľava, ešte, hore*), 8 secondes chacune, la mousse mouillée glisse toujours. Après deux erreurs, Andrea ajoute un indice en slovaque (*Doprava! Ruka, ktorou píšeš!*), jamais de traduction.
+- **Cabane** : deux choix de vouvoiement (salut, puis *Môžete nám ukázať register?*), puis deux moments où Gab peut couper Andrea. Le registre va de 1995 à 2025 (fausses pistes : étés secs, pluvieux, neige, coucou). La question « Je to sucho? » se pose à la cabane.
+- **Lac** : une deuxième pomme de pin près du foyer (on n'est jamais bloqué). Le castor demande d'abord ce qu'on voit derrière le barrage (*Vodu. Veľa vody.*).
+
 ### Chapitre 4 : L'orage
 
 *Les Tatras, mercredi soir et jeudi matin. Grammaire : futur (*bude*), *musieť / môcť*, *prečo / lebo*. Pièce n° 3 : la photo de la tranchée. Question du tableau : « Un câble, ou un tuyau ? »*

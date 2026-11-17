@@ -98,7 +98,7 @@
         root.localStorage.setItem(this.saveKey(), JSON.stringify({
           scene: this.scene && this.scene.id, flags: this.flags, items: this.items, words: this.words,
           pages: this.pages, clues: this.clues, helper: this.helper, hintLevel: this.hintLevel, chapter: this.chapter, visited: this.visited,
-          cards: this.cards, solved: this.solved,
+          cards: this.cards, solved: this.solved, struck: this.struck || [],
         }));
       } catch (e) { /* ignore */ }
     }
@@ -109,7 +109,7 @@
           this.flags = s.flags || {}; this.items = s.items || []; this.words = s.words || {};
           this.pages = s.pages || []; this.clues = s.clues || []; this.helper = s.helper || null; this.hintLevel = s.hintLevel || {};
           this.chapter = s.chapter || null; this.visited = s.visited || [];
-          this.cards = s.cards || []; this.solved = s.solved || [];
+          this.cards = s.cards || []; this.solved = s.solved || []; this.struck = s.struck || [];
           return s.scene;
         }
       } catch (e) { /* ignore */ }
@@ -120,7 +120,7 @@
       try { root.localStorage.removeItem(this.saveKey()); } catch (e) { /* ignore */ }
       this.flags = {}; this.items = []; this.words = {}; this.selected = null; this.endCard = null;
       this.pages = []; this.clues = []; this.helper = null; this.hintLevel = {}; this.chapter = null; this.visited = []; this.mapState = null; this.panel = null;
-      this.cards = []; this.solved = []; this.boardQ = null; this.boardSel = []; this.boardT = 0;
+      this.cards = []; this.solved = []; this.struck = []; this.boardQ = null; this.boardSel = []; this.boardT = 0;
       this.enter(this.data.start);
     }
     // ------------------------------------------------------------ voix (synthese vocale du navigateur, slovaque)
@@ -240,6 +240,7 @@
         face: (id, dir) => { const s = g.sprites.find((q) => q.id === id); if (s) s.face = dir; },
         // pose d'un personnage (planche d'animation) : 'think', 'surprised', 'sit'... ; null = debout
         pose: (id, name) => { const s = g.sprites.find((q) => q.id === id); if (s) s.pose = name || null; },
+        time: () => g.t,   // l'horloge du jeu (secondes) : pour se caler sur une animation d'ambiance
         flag: (k) => !!g.flags[k],
         flagv: (k) => g.flags[k],   // valeur brute (compteurs, etapes)
         setFlag: (k, v = true) => { g.flags[k] = v; g.save(); },
@@ -267,6 +268,9 @@
         // --- tableau d'enquete
         addCard: (id) => { if (!g.cards.includes(id)) { g.cards.push(id); g.save(); const cd = ((g.data.board || {}).cards || {})[id]; g.toast = { sk: '📌 Nová stopa: ' + (cd ? cd.sk : id), fr: 'Nouvel indice au tableau', t0: g.t }; } },
         hasCard: (id) => g.cards.includes(id),
+        // un suspect innocente : la carte reste, rayee
+        strikeCard: (id) => { g.struck = g.struck || []; if (!g.struck.includes(id)) { g.struck.push(id); g.save(); const cd = ((g.data.board || {}).cards || {})[id]; g.toast = { sk: '❌ ' + (cd ? cd.sk : id), fr: 'Rayé du tableau', t0: g.t }; } },
+        isStruck: (id) => (g.struck || []).includes(id),
         solved: (q) => g.solved.includes(q),
         askBoard: (q) => g.askBoard(q),
         // panneau sur mesure (dossier a feuilleter, photos a remettre dans l'ordre) : def = { draw(c, st, E), click(p, st, g, E) }
@@ -570,6 +574,11 @@
         }
       }
       if (this.waits.length) { const due = this.waits.filter((w) => w.at <= this.t); if (due.length) { this.waits = this.waits.filter((w) => w.at > this.t); for (const w of due) w.resolve(); } }
+      // panneau sur mesure qui vit tout seul (chrono, escalade dans le noir) : def.tick(st, E, dt) peut le fermer
+      if (this.panel === 'custom' && this.custom && this.custom.def.tick && !this.dialog && !this.choices) {
+        const C = this.custom, r = C.def.tick(C.st, this, dt);
+        if (r && r.done !== undefined && this.custom === C) { this.custom = null; this.panel = null; C.resolve(r.done); }
+      }
       this.boardT = this.panel === 'board' ? Math.min(1, this.boardT + dt * 4) : Math.max(0, this.boardT - dt * 5);
       if (this.toast && this.t - this.toast.t0 > 3) this.toast = null;
       if (this.panel === 'map' && this.mapState && this.mapState.t < 1) this.mapState.t = Math.min(1, this.mapState.t + dt / 2.6);
@@ -760,7 +769,7 @@
     }
     boardRect() { const w = 820, x = W - w * smooth(Math.min(1, this.boardT)); return { x, y: 0, w, h: H }; }
     boardCardRects() {
-      const r = this.boardRect(), cols = 2, cw = 360, ch = 88, gx = 24, gy = 10, x0 = r.x + 40, y0 = this.boardQ ? 200 : 130;
+      const r = this.boardRect(), cols = this.cards.length > 8 ? 3 : 2, cw = cols === 3 ? 238 : 360, ch = 88, gx = cols === 3 ? 13 : 24, gy = 10, x0 = r.x + 40, y0 = this.boardQ ? 200 : 130;
       return this.cards.map((id, i) => ({ id, x: x0 + (i % cols) * (cw + gx), y: y0 + ((i / cols) | 0) * (ch + gy), w: cw, h: ch }));
     }
     clickBoard(p) {
@@ -810,11 +819,13 @@
         c.fillStyle = sel ? '#ffe08a' : '#fffaf0'; this.roundRect(-q.w / 2, -q.h / 2, q.w, q.h, 6); c.fill();
         c.strokeStyle = sel ? '#c0392b' : 'rgba(0,0,0,.25)'; c.lineWidth = sel ? 5 : 2; c.stroke();
         c.fillStyle = '#c0392b'; c.beginPath(); c.arc(0, -q.h / 2 + 6, 7, 0, 7); c.fill();   // punaise
-        let tx = -q.w / 2 + 16;
-        if (cd.icon) { c.font = '42px system-ui, sans-serif'; c.textBaseline = 'middle'; c.fillText(cd.icon, tx, 2); tx += 58; }
-        c.textBaseline = 'top'; c.fillStyle = '#1a1208'; c.font = '700 22px system-ui, sans-serif';
-        this.wrap(cd.sk, q.w / 2 - tx - 10).slice(0, 2).forEach((ln, i) => c.fillText(ln, tx, -q.h / 2 + 14 + i * 26));
-        if (this.showFr) { c.font = 'italic 17px system-ui, sans-serif'; c.fillStyle = '#5a4a30'; c.fillText(cd.fr, tx, -q.h / 2 + 64, q.w / 2 - tx - 10); }
+        const small = q.w < 300, struck = (this.struck || []).includes(q.id);
+        let tx = -q.w / 2 + (small ? 10 : 16);
+        if (cd.icon) { c.font = (small ? '30px' : '42px') + ' system-ui, sans-serif'; c.textBaseline = 'middle'; c.fillText(cd.icon, tx, 2); tx += small ? 40 : 58; }
+        c.textBaseline = 'top'; c.fillStyle = struck ? '#8a7a68' : '#1a1208'; c.font = '700 ' + (small ? 17 : 22) + 'px system-ui, sans-serif';
+        this.wrap(cd.sk, q.w / 2 - tx - 8).slice(0, small ? 3 : 2).forEach((ln, i) => c.fillText(ln, tx, -q.h / 2 + (small ? 8 : 14) + i * (small ? 20 : 26)));
+        if (this.showFr) { c.font = 'italic ' + (small ? 13 : 17) + 'px system-ui, sans-serif'; c.fillStyle = '#5a4a30'; c.fillText(cd.fr, tx, -q.h / 2 + (small ? 70 : 64), q.w / 2 - tx - 8); }
+        if (struck) { c.strokeStyle = 'rgba(192,57,43,.85)'; c.lineWidth = 5; c.beginPath(); c.moveTo(-q.w / 2 + 8, -q.h / 2 + 10); c.lineTo(q.w / 2 - 8, q.h / 2 - 10); c.moveTo(-q.w / 2 + 8, q.h / 2 - 10); c.lineTo(q.w / 2 - 8, -q.h / 2 + 10); c.stroke(); }
         c.restore();
       }
       if (rects.length >= 2 && this.boardSel.length === 2) {   // le fil rouge entre les deux pieces choisies
