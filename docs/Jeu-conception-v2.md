@@ -186,14 +186,14 @@ Les fausses pistes de la v1 restent : pot rouge (escargot), pot jaune (fourmis),
 
 #### Décor 2 : la gorge et les échelles (`raj_rokle_wide`)
 
-- **Logique (sans langue)** : trois échelles et deux passerelles. Un groupe de randonneurs descend par l'une, un barreau manque à une autre, la troisième est mouillée par la cascade. Il faut choisir le chemin et attendre le bon moment (les randonneurs passent en boucle).
+- **Logique (sans langue)** : le décor existant a trois échelles, une passerelle et une corde. L'échelle 3 mène à une corniche vide (cul-de-sac), la corde est un piège (Andrea : *Nie!*), l'échelle 2 près de la cascade est mouillée et se descend dans l'autre sens. Le bon chemin : échelle 1, passerelle, échelle 2. Mais la famille de chamois descend l'échelle 1 en boucle : il faut attendre qu'elle soit en bas.
 - **Langue, sous petit chrono** : à mi-hauteur, Gab ferme les yeux. L'écran devient presque noir, il ne reste que les mains de Gab et la voix d'Andrea : *Hore. Ešte. Doprava. Nie tam. Doprava!* Il faut cliquer la bonne prise parmi quatre. Une erreur : Gab redescend d'un cran (« *Koľko je tu „doprava“?* »), jamais de chute.
 - **Fin** : en haut, Gab est tout blanc. Andrea : « Zéro fois. Je compte. »
 - **Fausse piste** : le chemin de six heures. On peut le choisir : fondu, « six heures plus tard », Gab arrive au même endroit, épuisé, et Andrea est déjà là avec un sandwich.
 - **Figurants** : les randonneurs (une famille de chamois, très à l'aise), une grenouille sur un rocher mouillé.
 - **Animations** : la cascade, les gouttes sur les barreaux, la brume au fond de la gorge.
 
-#### Décor 3 : la cabane de pán Orol (`raj_orol_wide`)
+#### Décor 3 : la cabane de pán Orol (`raj_chata_wide`, nouveau ; l'ancienne clairière `raj_orol_wide` n'a pas de cabane)
 
 - **Langue** : le vouvoiement. Si Gab tutoie, l'aigle pose sa tasse : *Tykáme si?* (« On se tutoie ? »), et le registre reste fermé. Il faut reprendre avec *Dobrý deň, pán Orol* et *Môžete nám ukázať register?*
 - **Dialogue** : c'est Andrea qui débloque le livre (« Vous passiez tous les lundis »). Le joueur doit la laisser parler : couper la parole une fois de trop, et l'aigle se remet à boire son thé.
@@ -204,7 +204,7 @@ Les fausses pistes de la v1 restent : pot rouge (escargot), pot jaune (fourmis),
 - **Figurants** : un geai qui range des glands sur le toit (pose / cache), le chien de garde d'Orol, un vieux teckel (dort / remue la queue).
 - **Animations** : la vapeur du thé, le drapeau du parc, un nuage qui passe.
 
-#### Décor 4 : le lac des castors (`raj_bivouac`, à adapter : barrage visible)
+#### Décor 4 : le lac des castors (`raj_jazero_wide`, nouveau ; `raj_bivouac` sert d'image à la cinématique du soir)
 
 - **Dialogue** : le castor dit *Nie* avant qu'on ait parlé. *Nerozumiem, som Francúz* ne marche pas : « Vous allez le dire en français, alors. C'est non aussi. » Il faut le choix poli : « On ne dit pas que c'est vous. On veut comprendre. »
 - **Objets (fin du fil)** : il répare le barrage et il lui manque une branche. Gab lui tend son **bâton**. Le castor le regarde, le goûte, l'accepte. Alors seulement il montre l'eau derrière le barrage.
@@ -620,7 +620,7 @@ Estimation : 7 décors, environ 6 planches de figurants, 2 planches de héros, 1
 
 | Ch. | Décors | Personnages nouveaux | Figurants (2 poses) | Objets et écrans |
 |---|---|---|---|---|
-| 3 | forêt, gorge, cabane d'Orol (déjà faits, à vérifier) ; lac des castors avec barrage | pán Orol, le castor | hérissons randonneurs, chamois, geai, teckel, petits castors, héron | bâton, pomme de pin, registre (page) |
+| 3 | forêt et gorge (gardées) ; cabane d'Orol et lac des castors (nouveaux) ; bivouac = cinématique | pán Orol, le castor | hérissons randonneurs, chamois, geai, teckel, petits castors, héron | bâton, pomme de pin, registre (page) |
 | 4 | refuge dehors (soir + variante matin), salle du refuge (éclairée + noire), cuisine | gardien, monsieur au sourire trempé | saint-bernard, randonneurs aux cartes, marmotte | bougie, allumettes, boîte en fer, tasses, sac vert, carte de visite, mur de photos |
 | 5 | ruisseau à sec et pré (3:1), cuisine de Babka, arrière de la bergerie | Maťo, Katka (planches de poses), Babka, le maire et sa voiture | moutons, bouc, coq, chien sous la table, tracteur, poules | verre, feuille de chou, plaque OPTIKA, téléphone de Katka (site) |
 | 6 | rue inondée (3:1), portail et parking (nuit), arrière du bâtiment ; variante béton de la bergerie | Marek, pompier, gardien du portail | souris au frigo, canards, lapins, chat sur armoire, sinistrés | baignoire, corde, thermomètre, gaffe, couvertures, cadre vidéo |
