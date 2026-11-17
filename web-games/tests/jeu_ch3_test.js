@@ -167,7 +167,7 @@ const srv = http.createServer((q, r) => {
   await until((q) => q.sc === 'bivouac' || q.end, 'vers le bivouac');
   s = await st();
   if (!s.struck.includes('bobry') || !s.cards.includes('stroje')) await fail('castors pas rayes / carte machines ' + JSON.stringify(s));
-  await until((q) => q.end, 'fin du chapitre 3');
+  await until((q) => q.sc === 'chata_vecer', 'fin du chapitre 3 : on arrive au refuge');
   await pg.evaluate(() => { __zajka.panel = 'board'; __zajka.boardT = 1; }); await pg.waitForTimeout(300); await shot('41_tableau_fin');
   if (missing.length) await fail('fichiers manquants : ' + missing.join(', '));
   if (errs.length) await fail('erreurs JS : ' + errs.join(' | '));

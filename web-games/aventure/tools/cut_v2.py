@@ -271,7 +271,7 @@ def chapter4():
         single(cell, 'chatar_' + name, 460)
     c = cells(os.path.join(SRC, 'pan_mokry_sheet_src.png'), 4, 2)
     for cell, name in zip(c, ['door', 'talk', 'lean', 'look', 'tea', 'sleep', 'card', 'shake']):
-        single(cell, 'panm_' + name, 460)
+        single(cell.transpose(Image.FLIP_LEFT_RIGHT), 'panm_' + name, 460)   # la planche le montre tourne a gauche : on le retourne (le jeu : toujours vers la droite)
     c = cells(os.path.join(SRC, 'figurants_ch4_src.png'), 3, 2)
     pair(c[0], c[3], 'bernardin_a', 'bernardin_b', 220)
     pair(c[1], c[4], 'turisti_a', 'turisti_b', 330)

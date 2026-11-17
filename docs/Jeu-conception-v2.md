@@ -267,6 +267,19 @@ Jouable de bout en bout, enchaîné après le chapitre 2. Écarts avec le plan c
 - **Question du tableau** : « Un câble, ou un tuyau ? » (relier la photo et la largeur de la pelleteuse). Et un **pari** s'affiche : « Si c'est la sécheresse, le ruisseau coule à midi. » *Uvidíme.*
 - **Mots** : *búrka, výkop, mokraď, kábel, sviečka, zápalky, šálka, tma*.
 
+#### Ce qui est fait (17 nov. 2026, `web-games/aventure/js/ch4.js`, test `web-games/tests/jeu_ch4_test.js`)
+
+Jouable de bout en bout, enchaîné après le bivouac du chapitre 3. Quatre scènes : `chata_vecer` (devant le refuge, le soir), `izba` (la salle, éclairée puis dans le noir), `kuchyna` (cinématique) et `chata_rano` (le matin). Écarts avec le plan ci-dessus :
+- **Le pull de Gab** devient les **chaussettes en laine** sur la corde au-dessus du poêle (gag : « pour les mains ? — aux pieds ! »). Gab garde son sweat.
+- **Le mur de photos** : un panneau avec vingt cadres (2006-2025). 2024 montre la tranchée, 2025 la cicatrice verte. Ensuite le panneau « de près » : on clique sur la pelleteuse, la loupe montre qu'elle est aussi large que la tranchée (la photo a été retouchée par `tools/make_fotky.py` : bande élargie, pelleteuse à la même échelle). Cartes : *mokrad*, *bager_sirka*, *fotka_vykop* (pièce n° 3).
+- **Le noir** : nouveau crochet du moteur `scene.night(api, E)` → `{ a, lights: [[x, y, rayon, force]], flash }` (obscurité avec halos, éclairs qui illuminent tout). Halo autour de Gab, plus grand avec la bougie, plus le poêle allumé. Étiquettes des tiroirs écrites par le jeu.
+- **Fil du thé** (simplifié, sans le monsieur qui dort ni les planches qui grincent) : bougie (tiroir *Sviečky*) + allumettes sèches (boîte en fer de l'étagère) → bougie allumée ; allumettes sur le poêle ; bouilloire sur le poêle ; tasse → **deux tasses de thé** (la deuxième est la trace d'Andrea). Fausses pistes : allumettes mouillées du rebord, fusibles (*To nie je poistka. To je búrka.*).
+- **Les coups à la porte** : Andrea file dans la cuisine ; trois traces à cacher en 48 secondes (sac jaune → coffre, tasse en trop, baskets mouillées). Sinon le monsieur les voit (*Dve šálky?*) et on recommence. Ensuite : « Nerozumiem, som Francúz » (dernier usage avant le chapitre 6, drapeau `nerozumiem_pan`), puis *Horí ti chvost!* : trois secondes sans bouger (un clic = raté), puis *Bageta!* — *… Bageta.*
+- **Cuisine** (cinématique, `tatry_kuchyna`) : le carnet, la lettre d'avocat (« On n'envoie pas un avocat pour un carnet d'école. Sauf si le carnet a raison. »), puis le gag *Veľmi hlúpy. Nie veľa hlúpy.* — *Učíš sa.*
+- **Matin** : la carte de visite sur le banc (sans nom, numéro non affiché : il servira au chapitre 11) ; question du tableau *Kábel, alebo rúra ?* (photo + largeur de la pelleteuse) ; le pari « si c'est la sécheresse, le ruisseau coule à midi » ; carte du voyage vers le chapitre 5, puis « fin de l'aperçu ».
+- Pas faits (à reprendre si on veut) : les chamois au loin, le chien qui lève l'oreille *au tonnerre* (il le fait au hasard), les planches qui grincent, le monsieur qui dort *sur son banc* avant la cuisine.
+- Les décors et planches du chapitre 4 : `art/PROMPTS_v2.md` (19 → 29), découpe : `python3 tools/cut_v2.py ch4`.
+
 ### Chapitre 5 : Quarante-deux centimètres
 
 *Le village, jeudi midi. Maťo et Katka arrivent. Grammaire : le passé, *vtedy / teraz*, les jours de la semaine. Pièce n° 4 : les captures d'écran. Suspect à rayer : la sécheresse. Question du tableau : « Les chiffres du site sont-ils vrais ? »*

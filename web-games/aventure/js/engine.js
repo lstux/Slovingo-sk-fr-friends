@@ -653,6 +653,7 @@
       if (sc.ambient) this.drawAmbient(sc, true);
       c.restore();
       if (sc.dim) { const a = sc.dim(this.api()); if (a > 0) { c.fillStyle = `rgba(8,10,40,${a})`; c.fillRect(0, 0, W, H); } }
+      if (sc.night) this.drawNight(sc.night(this.api(), this));   // la nuit : { a, lights: [[x, y, rayon, force]], flash } (le noir de l'orage, avec un halo)
       if (this.fadeA > 0) { c.fillStyle = `rgba(0,0,0,${Math.min(1, this.fadeA)})`; c.fillRect(0, 0, W, H); }
       if (sc.cine) this.drawCineHud(); else this.drawHud();
       if (this.boardT > 0) this.drawBoard();
@@ -664,6 +665,32 @@
       if (this.panel === 'notebook') this.drawNotebook();
       if (this.panel === 'map') this.drawMap();
       if (this.endCard) this.drawEnd();
+    }
+    drawNight(n) {
+      if (!n) return;
+      const c = this.ctx;
+      if (n.a > 0) {
+        const nc = this._nc || (this._nc = document.createElement('canvas'));
+        if (nc.width !== W) { nc.width = W; nc.height = H; }
+        const x = nc.getContext('2d');
+        x.globalCompositeOperation = 'source-over'; x.clearRect(0, 0, W, H);
+        x.fillStyle = `rgba(3,5,14,${n.a})`; x.fillRect(0, 0, W, H);
+        x.globalCompositeOperation = 'destination-out';
+        for (const [lx, ly, r, k] of n.lights || []) {
+          const sx = lx - this.cam, gr = x.createRadialGradient(sx, ly, r * 0.08, sx, ly, r);
+          gr.addColorStop(0, `rgba(0,0,0,${k === undefined ? 1 : k})`); gr.addColorStop(0.55, `rgba(0,0,0,${(k === undefined ? 1 : k) * 0.55})`); gr.addColorStop(1, 'rgba(0,0,0,0)');
+          x.fillStyle = gr; x.fillRect(sx - r, ly - r, 2 * r, 2 * r);
+        }
+        c.drawImage(nc, 0, 0);
+        c.save(); c.globalCompositeOperation = 'lighter';
+        for (const [lx, ly, r] of n.lights || []) {
+          const sx = lx - this.cam, gr = c.createRadialGradient(sx, ly, 0, sx, ly, r * 0.8);
+          gr.addColorStop(0, 'rgba(255,170,70,.16)'); gr.addColorStop(1, 'rgba(255,170,70,0)');
+          c.fillStyle = gr; c.fillRect(sx - r, ly - r, 2 * r, 2 * r);
+        }
+        c.restore();
+      }
+      if (n.flash > 0) { c.fillStyle = `rgba(215,228,255,${n.flash})`; c.fillRect(0, 0, W, H); }
     }
     // objets poses dans le decor (scene.props : { img, x, y, w, when(g) }) : taille fixe, ancre en bas au milieu, sous les personnages
     drawProps(sc) {

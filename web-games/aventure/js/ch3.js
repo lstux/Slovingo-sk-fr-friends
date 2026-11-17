@@ -820,7 +820,7 @@
       await g.animate(1800, (k) => g.fade(k));
       g.setFlag('bivouac_done');
       await g.showMap('ch4');
-      g.end('Koniec ukážky · kapitola 4 čoskoro', 'Fin de l\'aperçu · le chapitre 4 arrive bientôt');
+      g.goScene('chata_vecer');
     },
   };
 })();
