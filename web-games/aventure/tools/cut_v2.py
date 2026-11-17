@@ -254,9 +254,89 @@ def chapter3():
     single(c[7], 'amb_kruhy', 120)
 
 
+def chapter4():
+    for n, size in (('tatry_chata_vecer', (2160, 720)), ('tatry_chata_rano', (2160, 720)), ('tatry_izba', (2160, 720))):
+        im = Image.open(os.path.join(SRC, n + '_src.png')).convert('RGB').resize(size, Image.LANCZOS)
+        im.save(os.path.join(ART, n + '.webp'), quality=88)
+        print(n + '.webp')
+    k = Image.open(os.path.join(SRC, 'tatry_kuchyna_src.png')).convert('RGB').resize((1920, 1080), Image.LANCZOS)
+    k.save(os.path.join(ART, 'tatry_kuchyna.webp'), quality=88)
+    # les trois photos du mur : trois carres separes par du vert
+    ph = Image.open(os.path.join(SRC, 'fotky_chata_src.png')).convert('RGB')
+    for x0, n in zip((21, 740, 1459), ('foto_a', 'foto_b', 'foto_c')):
+        ph.crop((x0, 22, x0 + 690, 702)).save(os.path.join(ART, n + '.webp'), quality=90)
+        print(n + '.webp')
+    c = cells(os.path.join(SRC, 'chatar_sheet_src.png'), 4, 2)
+    for cell, name in zip(c, ['worry', 'talk', 'laugh', 'frame', 'candle', 'walk', 'cross', 'wink']):
+        single(cell, 'chatar_' + name, 460)
+    c = cells(os.path.join(SRC, 'pan_mokry_sheet_src.png'), 4, 2)
+    for cell, name in zip(c, ['door', 'talk', 'lean', 'look', 'tea', 'sleep', 'card', 'shake']):
+        single(cell, 'panm_' + name, 460)
+    c = cells(os.path.join(SRC, 'figurants_ch4_src.png'), 3, 2)
+    pair(c[0], c[3], 'bernardin_a', 'bernardin_b', 220)
+    pair(c[1], c[4], 'turisti_a', 'turisti_b', 330)
+    pair(c[2], c[5], 'svist_a', 'svist_b', 300)
+    c = cells(os.path.join(SRC, 'objets_ch4_src.png'), 4, 2)
+    for i, name, mh in [(0, 'obj_sviecka', 220), (1, 'obj_zapalky_mokre', 120), (2, 'obj_plechovka', 130), (3, 'item_zapalky', 130),
+                        (4, 'obj_kanvica', 200), (5, 'item_salka', 130), (6, 'obj_salky', 220), (7, 'item_poistka', 120)]:
+        single(c[i], name, mh)
+    c = cells(os.path.join(SRC, 'objets_ch4b_src.png'), 4, 2)
+    for i, name, mh in [(0, 'obj_taska', 160), (1, 'obj_tenisky', 160), (2, 'obj_vizitka', 90), (3, 'obj_ponozky', 200),
+                        (4, 'item_lupa', 180), (5, 'obj_bager', 160), (6, 'item_mapa', 180), (7, 'obj_ram', 200)]:
+        single(c[i], name, mh)
+    c = cells(os.path.join(SRC, 'ambiance_ch4_src.png'), 4, 2)
+    pair(c[0], c[1], 'amb_blesk_a', 'amb_blesk_b', 620)
+    pair(c[2], c[3], 'amb_dazd_a', 'amb_dazd_b', 360)
+    pair(c[4], c[5], 'amb_plamen_a', 'amb_plamen_b', 120)
+    pair(c[6], c[7], 'amb_piecka_a', 'amb_piecka_b', 260)
+    fix_ch4()
+
+
+def _load(name):
+    return np.asarray(Image.open(os.path.join(ART, name + '.png')).convert('RGBA')).astype(np.float32)
+
+
+def _store(name, arr):
+    Image.fromarray(np.clip(arr, 0, 255).astype(np.uint8), 'RGBA').save(os.path.join(ART, name + '.png'), optimize=True)
+
+
+def fix_ch4():
+    """Les halos et la vapeur dessines sur fond vert restent verts apres detourage : on les nettoie."""
+    # lueur verte autour d'une flamme : on la fait disparaitre
+    for n in ('obj_sviecka', 'chatar_candle', 'amb_plamen_a', 'amb_plamen_b'):
+        a = _load(n); r, g, b = a[..., 0], a[..., 1], a[..., 2]
+        gr = g - np.maximum(r, b)
+        a[..., 3] *= np.clip(1 - (gr - 6) / 30, 0, 1)
+        a[..., 1] = np.minimum(g, np.maximum(r, b) + 6)
+        _store(n, a)
+    # eclair : blanc chaud, transparence selon le bleu (le fond vert n'en a pas, le coeur blanc en a beaucoup)
+    for n in ('amb_blesk_a', 'amb_blesk_b'):
+        a = _load(n); b = a[..., 2]
+        al = np.clip((b - 40) / 170, 0, 1) ** 0.8
+        a[..., 0], a[..., 1], a[..., 2] = 255, 252, 235
+        a[..., 3] = al * 255
+        _store(n, a)
+    # pluie sur la vitre : bleu-blanc, meme principe
+    for n in ('amb_dazd_a', 'amb_dazd_b'):
+        a = _load(n); b = a[..., 2]
+        al = np.clip((b - 60) / 160, 0, 1)
+        a[..., 0], a[..., 1], a[..., 2] = 205, 228, 255
+        a[..., 3] = al * 235
+        _store(n, a)
+    # vapeur des tasses : verte -> blanche
+    a = _load('obj_salky'); r, g, b = a[..., 0], a[..., 1], a[..., 2]
+    m = (g - np.maximum(r, b)) > 14
+    for i, v in enumerate((236, 240, 240)):
+        a[..., i] = np.where(m, v, a[..., i])
+    a[..., 3] = np.where(m, a[..., 3] * 0.55, a[..., 3])
+    _store('obj_salky', a)
+
+
 if __name__ == '__main__':
     import sys
-    if 'ch3' in sys.argv:
+    if 'ch4' in sys.argv:
+        chapter4()
+    elif 'ch3' in sys.argv:
         chapter3()
     elif 'ch2' in sys.argv:
         chapter2()
