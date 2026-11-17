@@ -244,7 +244,7 @@ Jouable de bout en bout, enchaîné après le chapitre 2. Écarts avec le plan c
    - Les allumettes du rebord de la fenêtre sont mouillées. Les sèches sont dans une boîte en fer, sur l'étagère du poêle.
    - Le tableau des fusibles est une fausse piste : on peut changer le fusible, rien ne se passe. Le gardien : *To nie je poistka. To je búrka.*
 5. **On frappe. Chrono** (le gardien va ouvrir lentement, à cause du genou). Andrea a disparu dans la cuisine, mais elle a laissé **trois traces** :
-   - son sac vert sur le banc (à glisser dans le coffre à bois) ;
+   - son sac jaune sur le banc (à glisser dans le coffre à bois) ;
    - une deuxième tasse sur la table (à ranger) ;
    - ses chaussures mouillées près de la porte (à pousser sous le banc).
    Si le monsieur en voit une : *Dve šálky?* Il sourit, et on recommence à partir des coups à la porte.

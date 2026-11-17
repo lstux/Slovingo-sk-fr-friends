@@ -335,3 +335,159 @@ Cell 8: a set of concentric ripples on water, seen in perspective, white and lig
 8 générations. Dépose-les dans `web-games/aventure/art/sources/` sous les noms indiqués ; je découpe, je détoure et je place. Les
 décors 11 et 12 sont les plus importants : si l'un d'eux rate (cabane sans véranda, barrage où l'eau ne passe pas), on le refait
 avant les planches.
+
+---
+
+# Chapitre 4 « L'orage » (17 nov. 2026)
+
+Tout est nouveau : aucun décor de la v1 ne sert. **Nouvelle conversation ChatGPT**, tout à la suite, dans l'ordre 19 → 28.
+
+Choix faits pour limiter les images :
+- **La salle dans le noir** n'est pas une deuxième image : le jeu assombrit la salle éclairée et garde un halo autour de Gab.
+- **Les étiquettes des tiroirs** (*Soľ, Sponky, Špagát, Sviečky*) et le numéro de la carte de visite sont écrits par le jeu : les images
+  ont des étiquettes **vides**.
+- **Le mur de photos** : le décor montre de petits cadres ; en gros plan, le jeu affiche les trois photos de la planche 27 (vallée
+  normale, avec la tranchée, avec la cicatrice verte) et fait les 20 étés en variant la lumière et la neige.
+- **Le pull de Gab** : Gab porte déjà un sweat. Le gag du froid devient « les chaussettes en laine » (il en prend une paire sur la corde
+  à linge), sans changer ses planches.
+- **Le sac d'Andrea** est son sac jaune (celui de sa planche), pas un sac vert.
+- **La cuisine** est une image de cinématique, avec Gab et Andrea dessinés dedans (comme le bivouac).
+
+## 19. Devant le refuge, le soir : `sources/tatry_chata_vecer_src.png` (décor 3:1)
+
+**À joindre** : `sources/raj_chata_wide_src.png` (pour le style des décors).
+
+Disposition, de gauche à droite : le sentier qui arrive, un grand rocher plat (la marmotte), le petit lac vert, le refuge en pierre
+(porte, banc devant, cheminée qui fume, fenêtres éclairées), un tas de bois, les Tatras ; à droite, de gros nuages noirs qui arrivent.
+
+```
+Use the attached image (a background of the same game) as the reference for the drawing style, the colours and the level of detail.
+
+Scene: a small old mountain hut made of grey stone with a dark wooden roof, beside a small green mountain lake, high in the High Tatras, Slovakia, drawn as the long scrolling background of a point-and-click adventure game, as a very wide panoramic image in 3:1 format (3072x1024 pixels), seen from the front, early evening at the end of a hot summer day. From left to right: on the far left, a stony hiking path arriving between dwarf pines; a large flat grey boulder; the small still lake, deep green, reflecting the peaks; in the middle-right, the stone hut with a heavy wooden door, two small windows with warm yellow light inside, a long wooden bench against the wall beside the door, a stone chimney with a thin line of smoke, a stack of firewood under the roof edge, a few wet hiking boots drying on a stone; behind, the jagged grey peaks of the High Tatras with small patches of old snow. The sky is blue and golden on the left, but on the RIGHT side huge dark storm clouds are arriving over the peaks, heavy and black-blue, the light under them a strange yellow-green. The scene is EMPTY (no people, no animals). The lower third of the picture, along the whole width, stays clear and uncluttered (path, stones, short grass), because characters will walk there. No text, no letters, no numbers, no signs with writing, no logos.
+
+Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading, simplified shapes, gentle gradients, no photographic textures or reflections. Landscape 3:1 format. No text, no letters, no numbers, no logos, no watermark.
+```
+
+À vérifier : le banc devant la porte (le monsieur y laisse sa carte), les nuages noirs à droite, le bas dégagé.
+
+## 20. Le même endroit, le matin après l'orage : `sources/tatry_chata_rano_src.png` (décor 3:1)
+
+**À la suite.** Il faut que tout soit à la même place que sur l'image 19 (le jeu passe de l'une à l'autre).
+
+```
+Now draw EXACTLY the same scene with exactly the same composition, the same hut, lake, boulder, path and peaks at the same places, but the next morning after a violent night storm: clean washed sky, soft fresh morning light, everything wet and shining, many puddles on the path, small new white waterfalls running down the rocks and the slopes behind the hut, the lake higher and a bit muddy at the edge, broken small branches on the ground, the bench by the door wet and EMPTY, a thin mist rising from the lake. No people, no animals, no text.
+```
+
+À vérifier : le refuge, le banc et le lac aux mêmes endroits que sur l'image 19 (sinon je recale par le code, si l'écart est petit).
+
+## 21. La salle du refuge : `sources/tatry_izba_src.png` (décor 3:1)
+
+**À la suite.**
+
+Disposition, de gauche à droite : la porte d'entrée (avec un coffre à bois et un banc à côté), le tableau des fusibles, le mur de
+photos (une vingtaine de petits cadres identiques), la fenêtre (rebord avec une boîte d'allumettes), la grande table et ses bancs, le
+poêle avec une étagère au-dessus, le buffet à 4 tiroirs à étiquettes vides, la porte de la cuisine avec un passe-plat.
+
+```
+Now, in the same drawing style, draw the next scrolling background of the game: the warm main room inside the same old stone mountain hut, evening, as a very wide panoramic image in 3:1 format (3072x1024 pixels), seen from the front, warm yellow lamplight from a hanging lamp, wooden walls and a wooden floor. From left to right: the heavy wooden front door (closed), with a big wooden wood chest with a lid beside it and a low wooden bench along the wall; a small grey electric fuse box on the wall with a little door; a whole wall section covered with about twenty small identical wooden picture frames in neat rows, each showing the same small green mountain valley landscape (tiny, no details readable); a small window with a deep wooden sill, outside the dark stormy sky, a small matchbox lying on the sill in a little puddle of water; in the middle, a long heavy wooden table with two benches, a pot of tea and one mug on it; a black cast-iron wood stove with a glowing little window, a stovepipe going up, and above it a wooden shelf with a round metal tin box and a kettle; a line of woollen socks drying on a string above the stove; on the right, an old painted wooden dresser with FOUR small drawers in a row, each with a small EMPTY white label card (no writing), and plates on top; on the far right, a wooden door to the kitchen with a small square serving hatch next to it (closed little shutter). The room is EMPTY (no people, no animals). The lower third along the whole width is open floor (characters walk there). No text, no letters, no numbers on anything, no logos.
+```
+
+À vérifier : les 4 étiquettes vides et bien visibles, la boîte en fer sur l'étagère, la boîte d'allumettes sur le rebord, le passe-plat.
+
+## 22. Le gardien du refuge : `sources/chatar_sheet_src.png` (planche de poses)
+
+**À la suite. À joindre** : `sources/pan_sheet_src.png` (les humains de ce jeu).
+
+```
+Use the attached image (a sprite sheet of a man in a suit) as the reference for how humans are drawn in this game: very simple cartoon shapes, flat colours, small simple eyes, few lines on the face. Create a character pose sheet in the same style: 3:1 format (3072x1024 pixels), 4 columns x 2 rows of equal cells, the SAME character in every cell, full body, same scale, feet on the same baseline near the bottom of each cell, nothing touching the cell borders, no cell borders drawn, pure green #00FF00 background, no text.
+The character: the keeper of a mountain hut, an old man around seventy, big and broad, grey beard, bushy grey eyebrows, red cheeks, a thick cream cable-knit wool sweater, brown corduroy trousers, heavy mountain boots, a good-natured face. He has a bad knee.
+Poses, all facing RIGHT: 1 standing, one hand on his knee, looking up at the sky, worried; 2 talking, one hand raised, finger up ("my knee knows"); 3 laughing out loud, head back, belly shaking; 4 holding a small picture frame and showing it; 5 holding a lit candle at chest height (the face lit from below); 6 walking slowly, limping, one hand on the knee; 7 serious, arms crossed, deadpan face; 8 giving a wink, holding two mugs of tea.
+```
+
+## 23. Le monsieur au sourire, trempé : `sources/pan_mokry_sheet_src.png` (planche de poses)
+
+**À la suite.** Si la conversation est neuve, rejoindre `sources/pan_sheet_src.png`.
+
+```
+Same style, same layout (3:1, 4 columns x 2 rows, same scale, same baseline, pure green #00FF00 background, no text). The character: EXACTLY the smiling man in a dark charcoal suit of the attached sheet (same face, same thin wide smile that never changes, same hair, red tie), but soaked by a storm: wet hair stuck on his forehead, the suit dark with water, water dripping from his sleeves and his nose, little puddles at his feet.
+Poses, all facing LEFT: 1 standing at a door, dripping, smiling politely; 2 talking, one palm open, smiling; 3 leaning forward towards someone small, smiling very sweetly, as if testing them; 4 looking around the room with suspicion, still smiling; 5 sitting on an invisible bench, holding a mug of tea in both hands; 6 asleep sitting on an invisible bench, head on his rolled-up jacket, STILL smiling in his sleep (now in shirt and red tie, the jacket rolled under his head); 7 holding out a small white business card between two fingers; 8 shaking water from one hand, annoyed, but smiling.
+```
+
+## 24. Figurants du chapitre 4 : `sources/figurants_ch4_src.png`
+
+**À la suite.** Ici, 3 colonnes : **chaque colonne est un figurant**, pose 1 en haut, pose 2 en bas.
+
+```
+Same style. A 3:1 sheet (3072x1024 pixels) of 3 columns x 2 rows of equal cells, pure green #00FF00 background, no text, nothing touching the cell borders. Each COLUMN is one character: pose 1 in the top cell, pose 2 in the bottom cell, at exactly the same size and position.
+Column 1: a big old Saint Bernard dog (a real dog on four legs, not dressed), lying on the floor: (top) asleep, (bottom) the same, one ear raised and one eye open, listening to the thunder.
+Column 2: two soaked hikers (an anthropomorphic badger and an anthropomorphic goat in wet rain jackets) sitting side by side on an invisible bench, behind an invisible table, cards in their hands: (top) playing cards, concentrated, (bottom) both turned towards the left, looking at a window, frightened by the thunder.
+Column 3: a marmot (an anthropomorphic but undressed animal, standing on its hind legs) on a small grey rock (rock included, same in both cells): (top) standing still, watching, (bottom) whistling loudly, mouth open, little sound lines.
+```
+
+## 25. Objets du chapitre 4 (1) : le noir et le thé : `sources/objets_ch4_src.png`
+
+**À la suite.**
+
+```
+Same style, same rules (3:1, 4 columns x 2 rows, ONE object per cell, centred, pure green #00FF00 background, nothing touching the cell borders, no text, no numbers, no brand names):
+1 a white candle in a simple metal candle holder, lit, a small warm flame;
+2 a small cardboard matchbox, soaked with water, soft and dark, a few water drops;
+3 a round old metal tin box with a lid, closed;
+4 a small dry matchbox, closed, as an inventory icon;
+5 an old enamel kettle;
+6 a single empty enamel mug, as an inventory icon;
+7 two steaming enamel mugs of tea side by side on a small piece of wooden table;
+8 an old ceramic electric fuse (a small white cylinder with a metal cap).
+```
+
+## 26. Objets du chapitre 4 (2) : les traces d'Andrea et la carte : `sources/objets_ch4b_src.png`
+
+**À la suite. À joindre** : `sources/andrea_sheet_src.png` (le sac et les baskets d'Andrea).
+
+```
+Same style, same rules (3:1, 4 columns x 2 rows, ONE object per cell, centred, pure green #00FF00 background, no text, no numbers, no logos):
+1 the yellow shoulder bag of the hare girl in the attached sheet, lying flat on a bench (the bench not drawn);
+2 her red sneakers, soaking wet, standing side by side, a small puddle around them;
+3 a plain white business card, slightly bent, EMPTY (no writing, no logo);
+4 a pair of thick woollen hiking socks, red and cream, hanging on a short piece of string;
+5 a magnifying glass with a wooden handle;
+6 a small yellow excavator, seen from the side, drawn very small and simple, like a toy (it will be placed on a photo);
+7 a big folded paper map of the Tatras mountains with no writing at all, closed;
+8 a small wooden picture frame, empty inside (just the frame).
+```
+
+## 27. Les photos du mur : `sources/fotky_chata_src.png`
+
+**À la suite.**
+
+```
+Same style. A 3:1 sheet (3072x1024 pixels) of 3 columns x 1 row of equal cells, pure green #00FF00 between the pictures, no text. Each cell contains ONE square landscape picture, the same view three times, exactly the same framing: a wide green mountain valley in summer, seen from above, from a high rock (the edge of a grey rock in the bottom-left corner), meadows and spruce forest on the slopes going down towards a distant plain, the High Tatras peaks on the horizon, small white clouds; far down in the plain, a big grey square industrial building, tiny.
+(1) the normal valley.
+(2) the same valley, but with ONE long straight brown line of freshly dug earth (a trench) coming down the slope from a wet green marshy area near the top to the grey building in the plain, straight like a ruler, cutting through forest and meadows; next to the trench, near the top, a small yellow excavator gives the scale: the trench is AS WIDE as the excavator.
+(3) the same valley one year later: the line is still visible, but green now, like a straight scar of younger, lighter grass.
+```
+
+## 28. Animations du chapitre 4 : `sources/ambiance_ch4_src.png`
+
+**À la suite.**
+
+```
+Same style, same rules (3:1, 4 columns x 2 rows, pure green #00FF00 background, no text). Small animation frames, each element at the same size and position in its successive frames:
+Cells 1-2: a white-yellow lightning bolt, two different zigzag shapes.
+Cells 3-4: diagonal rain streaks on a window pane (only the light blue-white streaks and drops, no window frame), two different frames.
+Cells 5-6: a small candle flame (only the flame, warm yellow-orange), two shapes.
+Cells 7-8: the glowing orange window of a wood stove (only the small fire window with flames), two frames.
+```
+
+## 29. La cuisine dans le noir (cinématique) : `sources/tatry_kuchyna_src.png` (16:9)
+
+**À la suite. À joindre** : `sources/gab_sheet_src.png` et `sources/andrea_sheet_src.png`.
+
+```
+Using the two attached character sheets (the fox boy and the hare girl), draw a single illustration in 16:9 format (1920x1080 pixels), same drawing style: a small dark kitchen of the mountain hut at night during a storm. The hare girl sits on the wooden floor, her back against a kitchen cupboard, knees up under her chin, holding a steaming enamel mug in both hands, sad and thoughtful. The fox boy sits beside her, holding his own mug, looking at her. The only light: a candle on the floor between them, warm and small, and a cold blue flash of lightning through a small window above them, rain on the glass. Pots and pans hanging on the wall, a shelf with jars. Quiet, intimate mood. No text, no letters, no logos.
+```
+
+## Après la génération (chapitre 4)
+
+11 générations (19 → 29). Les décors 19, 20 et 21 sont les plus importants : si le matin (20) ne garde pas la même composition que le
+soir, on le refait tout de suite.
