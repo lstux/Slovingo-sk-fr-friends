@@ -547,3 +547,37 @@ Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, f
 ```
 
 À vérifier : la plaque de fer **sans aucune lettre** et bien visible au centre, le chemin du tracteur au fond, le linge, le bas dégagé.
+
+## 33. Maťo : `sources/mato_sheet_src.png` (planche de poses)
+
+**Nouvelle conversation ou à la suite.** **À joindre** : `sources/gab_sheet_src.png` (le style des animaux de ce jeu) et `sources/ref_mato_katka.png` (Maťo à gauche : c'est lui, à reproduire).
+
+```
+Use the first attached image (a sprite sheet of the fox boy) as the reference for the drawing style: clean ink outlines, flat colours with soft cel shading, same proportions of a young anthropomorphic animal. Use the second attached image: the character on the LEFT (the bear) is Maťo, to be reproduced exactly. Create a character pose sheet: 3:1 format (3072x1024 pixels), 4 columns x 2 rows of equal cells, the SAME character in every cell, full body, same scale, feet on the same baseline near the bottom of each cell, nothing touching the cell borders, no cell borders drawn, pure green #00FF00 background, no text.
+The character: Maťo, a big, friendly young brown bear of about sixteen, exactly as in the attached image: orange-brown fur, a green-and-orange checked shirt open over a grey T-shirt, olive cargo shorts, dark sneakers, a dark backpack on his back, a warm clumsy face.
+Poses, all facing RIGHT: 1 standing, counting on his fingers, lips moving, frowning with effort; 2 scratching his head, lost his count, puzzled; 3 bending forward, both hands gripping an invisible handle at ground level, pulling with all his might, face red, teeth gritted; 4 crouching, the side of his head pressed against the ground, listening; 5 index finger on his lips, eyes wide, saying "shh"; 6 holding a deep plate and a spoon, cheeks full, delighted; 7 both arms up and waving, mouth wide open, very excited, a huge smile; 8 sitting on an invisible chair, patting his round belly with both hands, eyes half closed, "I cannot eat any more".
+```
+
+À vérifier : le même ours que sur l'image de référence (chemise à carreaux, sac à dos), même taille et mêmes pieds dans toutes les cases.
+
+## 34. Katka : `sources/katka_sheet_src.png` (planche de poses)
+
+**À la suite. À joindre** : `sources/mato_sheet_src.png` (une fois validée) et `sources/ref_mato_katka.png` (Katka à droite).
+
+```
+Same style, same layout (3:1, 4 columns x 2 rows, same scale, same baseline, pure green #00FF00 background, no text). The character: Katka, a young brown marmot girl of about fifteen, exactly as the character on the RIGHT of the second attached image: brown fur, a purple hoodie with white headphones around her neck, grey trousers with turned-up cuffs, lilac sneakers, a bushy tail, a smartphone with a dark case. IMPORTANT: her mouth is SMALL and CLOSED or only slightly open, NO big buck teeth, no beaver teeth visible. Smaller than Maťo.
+Poses, all facing RIGHT: 1 standing, looking down at her phone held in both hands, thumbs typing; 2 holding the phone up in front of her, filming, one eye squinting; 3 the phone against her ear, listening carefully; 4 proudly pointing forward with one finger, chin up, a small confident smile; 5 one finger on her lips, the other hand holding the phone with a dark screen (silent mode); 6 holding out the phone with the screen turned towards the viewer, serious; 7 crouching, holding a phone with a charging cable in one hand and reaching forward with the other hand to plug it in; 8 stunned, the phone hanging at her side, wide eyes, small mouth slightly open.
+```
+
+À vérifier : **pas de grandes dents** (elles reviennent par défaut), le même sweat violet, le téléphone bien visible.
+
+## 35. Babka (la grand-mère de Maťo et Katka) : `sources/babka_dedina_sheet_src.png` (planche de poses)
+
+**À la suite. À joindre** : `sources/mato_sheet_src.png` (pour le style).
+
+```
+Same style, same layout (3:1, 4 columns x 2 rows, same scale, same baseline, pure green #00FF00 background, no text). The character: Babka, the grandmother of Maťo and Katka, a short, round, sturdy old marmot lady of about eighty, grey-brown fur with white hair under a blue flowered headscarf, small round glasses, a faded floral dress with a big white apron, thick woollen socks and slippers, strong forearms, a small kind mouth (no big teeth). Clearly a different character from the goat grandmother of the tram.
+Poses, all facing RIGHT: 1 stirring a big pot with a long wooden spoon, humming, eyes closed; 2 pointing her wooden spoon at someone, stern but loving, eyebrows up, saying "eat!"; 3 ladling food into a deep white plate that she holds in the other hand; 4 seen from BEHIND (back to the viewer), stirring a pot, apron strings tied in a bow; 5 laughing, one hand on her belly, the other on her apron; 6 holding up a tall drinking glass and looking at it against the light; 7 arms crossed, one eyebrow raised, suspicious, listening; 8 waving goodbye with a dish towel, smiling.
+```
+
+À vérifier : bien une **marmotte** (pas la chèvre du tram), le fichu bleu, le tablier, la pose 4 de dos.
