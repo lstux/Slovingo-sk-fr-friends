@@ -1055,22 +1055,22 @@
           // les trois pots : on ne connait pas encore les couleurs (le nom au survol ne les trahit pas)
           { id: 'cerveny', name: { sk: 'kvetináč', fr: 'un pot de fleurs' }, poly: box(1105, 395, 1172, 490), walk: [1140, 625], pose: 'pick',
             async onUse(g) {
-              if (!g.knows('modrý')) { await say(g, 'fox', 'Ťažký kvetináč. A teta je hneď za oknom. Nebudem dvíhať všetky… Ktorý je ten modrý?', 'Un pot lourd. Et la tante est juste derrière la fenêtre. Je ne vais pas tous les soulever… Lequel est le « modrý » ?', [['ťažký', 'lourd']]); return; }
+              if (!g.knows('modrý')) { await say(g, 'fox', 'Ťažký kvetináč. A teta je hneď za oknom. Nebudem dvíhať všetky… Ktorý je ten modrý? Opýtam sa Andrey.', 'Un pot lourd. Et la tante est juste derrière la fenêtre. Je ne vais pas tous les soulever… Lequel est le « modrý » ? Je vais demander à Andrea.', [['ťažký', 'lourd']]); return; }
               await say(g, 'narrator', 'Červený kvetináč. Pod ním je… slimák!', 'Le pot « červený ». Dessous, il y a… un escargot !', [['slimák', 'l\'escargot']]);
               g.pose('fox', 'surprised'); await say(g, 'fox', 'Fuj! Prepáč, slimák.', 'Beurk ! Pardon, l\'escargot.', [['prepáč', 'pardon']]); g.pose('fox', null);
               g.setFlag('pot_cerveny');
             } },
           { id: 'zlty', name: { sk: 'kvetináč', fr: 'un pot de fleurs' }, poly: box(1195, 395, 1265, 490), walk: [1230, 625], pose: 'pick',
             async onUse(g) {
-              if (!g.knows('modrý')) { await say(g, 'fox', 'Ťažký kvetináč. A teta je hneď za oknom. Nebudem dvíhať všetky… Ktorý je ten modrý?', 'Un pot lourd. Et la tante est juste derrière la fenêtre. Je ne vais pas tous les soulever… Lequel est le « modrý » ?', [['ťažký', 'lourd']]); return; }
+              if (!g.knows('modrý')) { await say(g, 'fox', 'Ťažký kvetináč. A teta je hneď za oknom. Nebudem dvíhať všetky… Ktorý je ten modrý? Opýtam sa Andrey.', 'Un pot lourd. Et la tante est juste derrière la fenêtre. Je ne vais pas tous les soulever… Lequel est le « modrý » ? Je vais demander à Andrea.', [['ťažký', 'lourd']]); return; }
               await say(g, 'narrator', 'Žltý kvetináč. Pod ním sú len mravce.', 'Le pot « žltý ». Dessous, il n\'y a que des fourmis.', [['mravce', 'les fourmis']]);
               g.setFlag('pot_zlty');
             } },
           { id: 'modry', name: { sk: 'kvetináč', fr: 'un pot de fleurs' }, poly: box(1288, 395, 1362, 490), walk: [1325, 625], pose: 'pick',
             async onUse(g) {
               if (g.has('kluc') || g.flag('gate')) { await say(g, 'fox', 'Tu už nič nie je.', 'Il n\'y a plus rien ici.'); return; }
-              if (!g.knows('modrý') && g.flag('macka_pije')) { await say(g, 'fox', 'Kocúr je preč. Ale pod ktorým kvetináčom je kľúč? Ktorý je ten modrý?', 'Le chat est parti. Mais sous quel pot est la clé ? Lequel est le « modrý » ?'); return; }
-              if (!g.knows('modrý')) { await say(g, 'fox', 'Na tomto spí kocúr. A teta je hneď za oknom. Nebudem dvíhať všetky… Ktorý je ten modrý?', 'Sur celui-là, il y a un chat. Et la tante est juste derrière la fenêtre. Je ne vais pas tous les soulever… Lequel est le « modrý » ?', [['ťažký', 'lourd']]); return; }
+              if (!g.knows('modrý') && g.flag('macka_pije')) { await say(g, 'fox', 'Kocúr je preč. Ale pod ktorým kvetináčom je kľúč? Ktorý je ten modrý? Opýtam sa Andrey.', 'Le chat est parti. Mais sous quel pot est la clé ? Lequel est le « modrý » ? Je vais demander à Andrea.'); return; }
+              if (!g.knows('modrý')) { await say(g, 'fox', 'Na tomto spí kocúr. A teta je hneď za oknom. Nebudem dvíhať všetky… Ktorý je ten modrý? Opýtam sa Andrey.', 'Sur celui-là, il y a un chat. Et la tante est juste derrière la fenêtre. Je ne vais pas tous les soulever… Lequel est le « modrý » ? Je vais demander à Andrea.', [['ťažký', 'lourd']]); return; }
               if (!g.flag('macka_pije')) {   // le chat dort dessus
                 g.pose('macka', 'b');
                 await say(g, 'narrator', 'Na kvetináči spí veľký ryšavý kocúr. Zasyčí.', 'Sur le pot dort un gros chat roux. Il crache.', [['kocúr', 'le (gros) chat'], ['ryšavý', 'roux']]);
