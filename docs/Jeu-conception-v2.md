@@ -663,3 +663,8 @@ Estimation : 27 décors nouveaux (dont 5 en 3:1 et 4 variantes d'éclairage), un
 4. **Tableau d'enquête** : un panneau qui glisse par-dessus le décor, pas un écran à part.
 
 **Images** : les décors 3:1 du 11 nov. (gare, tram, rue, jardin soir et matin) et les planches de Gab, Andrea et du contrôleur sont gardés. Les nouveautés (objets, figurants, ambiance) se font en planches séparées, posées par-dessus : `web-games/aventure/art/PROMPTS_v2.md`.
+
+## 11. À regarder à la fin (idées en attente)
+
+- **Le final du cours (🏰) en « court-métrage »** (idée d'Eric, 18 nov. 2026) : réutiliser le moteur du jeu sans énigmes, comme un petit film. Décors fixes, sprites, dialogues lus par la synthèse vocale avec des sous-titres. À évaluer une fois le point-and-click fini. Si c'est trop lourd, on met les jeux dans le 🏰 au lieu de les laisser en annexe.
+- **La flèche de la cathédrale** à remettre en arrière-plan des 4 images du jardin (fiches 01-05, 01-06, 13-02, 13-05), en option.
