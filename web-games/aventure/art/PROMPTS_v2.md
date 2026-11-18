@@ -571,13 +571,13 @@ Poses, all facing RIGHT: 1 standing, looking down at her phone held in both hand
 
 À vérifier : **pas de grandes dents** (elles reviennent par défaut), le même sweat violet, le téléphone bien visible.
 
-## 35. Babka (la grand-mère de Maťo et Katka) : `sources/babka_dedina_sheet_src.png` (planche de poses)
+## 35. Babka Zuzana (la grand-mère de Maťo et Katka) : `sources/babka_dedina_sheet_src.png` (planche de poses)
 
-**À la suite. À joindre** : `sources/mato_sheet_src.png` (pour le style).
+**À la suite. À joindre** : `sources/mato_sheet_src.png` (une fois validée, pour le style) et `sources/ref_zuzana.png` (Babka Zuzana : c'est elle, à reproduire).
 
 ```
-Same style, same layout (3:1, 4 columns x 2 rows, same scale, same baseline, pure green #00FF00 background, no text). The character: Babka, the grandmother of Maťo and Katka, a short, round, sturdy old marmot lady of about eighty, grey-brown fur with white hair under a blue flowered headscarf, small round glasses, a faded floral dress with a big white apron, thick woollen socks and slippers, strong forearms, a small kind mouth (no big teeth). Clearly a different character from the goat grandmother of the tram.
+Same style, same layout (3:1, 4 columns x 2 rows, same scale, same baseline, pure green #00FF00 background, no text). Use the second attached image: it is Babka Zuzana, to be reproduced exactly. The character: Babka Zuzana, the grandmother of Maťo and Katka, an old SHEEP lady of about eighty, cream-coloured face with floppy ears, a little grey wool under a red flowered headscarf knotted under her chin, small round glasses, a white embroidered blouse with red folk patterns, a dark embroidered vest, a long red skirt and a white apron with red embroidery at the hem, dark shoes. A kind, firm, smiling face. Same costume in every pose.
 Poses, all facing RIGHT: 1 stirring a big pot with a long wooden spoon, humming, eyes closed; 2 pointing her wooden spoon at someone, stern but loving, eyebrows up, saying "eat!"; 3 ladling food into a deep white plate that she holds in the other hand; 4 seen from BEHIND (back to the viewer), stirring a pot, apron strings tied in a bow; 5 laughing, one hand on her belly, the other on her apron; 6 holding up a tall drinking glass and looking at it against the light; 7 arms crossed, one eyebrow raised, suspicious, listening; 8 waving goodbye with a dish towel, smiling.
 ```
 
-À vérifier : bien une **marmotte** (pas la chèvre du tram), le fichu bleu, le tablier, la pose 4 de dos.
+À vérifier : bien **la brebis de l'image de référence** (fichu rouge, gilet brodé, tablier), pas la chèvre du tram, et la pose 4 de dos.
