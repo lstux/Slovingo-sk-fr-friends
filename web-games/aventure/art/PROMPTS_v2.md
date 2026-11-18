@@ -581,3 +581,47 @@ Poses, all facing RIGHT: 1 stirring a big pot with a long wooden spoon, humming,
 ```
 
 À vérifier : bien **la brebis de l'image de référence** (fichu rouge, gilet brodé, tablier), pas la chèvre du tram, et la pose 4 de dos.
+
+## 36. Figurants du chapitre 5 (1) : les moutons : `sources/figurants_ch5_src.png`
+
+**À la suite.** 3 colonnes : **chaque colonne est un figurant**, pose 1 en haut, pose 2 en bas (même taille, mêmes pieds).
+
+```
+Same style. A 3:1 sheet (3072x1024 pixels) of 3 columns x 2 rows of equal cells, pure green #00FF00 background, no text, nothing touching the cell borders. Each COLUMN is one animal: pose 1 in the top cell, pose 2 in the bottom cell, at exactly the same size and position, seen from the side, facing RIGHT. They are REAL sheep on four legs (not dressed, not standing on two legs), cream-coloured wool, small dark faces.
+Column 1: a sheep wearing a brass bell on a leather strap round her neck: (top) head down, grazing; (bottom) head up, chewing, looking towards the viewer.
+Column 2: an ordinary sheep with a dark brown face and dark legs, no bell: (top) head down, grazing; (bottom) head up, one ear flicking.
+Column 3: a big ewe in trouble: (top) legs braced, bleating miserably, a tuft of wool of her back pulled backwards as if caught on something behind her, sad eyes; (bottom) the same sheep, free, delighted, chewing a big green-white cabbage leaf. IMPORTANT: no green on the sheep (the cabbage leaf is pale yellow-white).
+```
+
+## 37. Figurants du chapitre 5 (2) : le coq, le bouc, les poules : `sources/figurants_ch5b_src.png`
+
+**À la suite.**
+
+```
+Same style, same layout (3:1, 3 columns x 2 rows, each COLUMN one character with 2 poses at the same size and position, pure green #00FF00 background, no text, nothing touching the cell borders), all facing RIGHT.
+Column 1: a proud rooster (a real bird on two legs, not dressed), red comb, copper and black feathers, standing: (top) head back, crowing; (bottom) head tilted, looking sideways, beak closed, suspicious.
+Column 2: a very old billy goat (an anthropomorphic goat, dressed), grey beard, a flat cap, a brown waistcoat, a walking stick, SITTING on an invisible bench, legs hanging: (top) both hands on the walking stick, looking far away, dreamy; (bottom) the same, one hand raised, talking, eyes half closed, remembering the old days.
+Column 3: a group of three hens (real birds, brown and white): (top) all three pecking the ground; (bottom) all three heads up, one of them flapping her wings.
+IMPORTANT: no green on the characters.
+```
+
+## 38. Figurants du chapitre 5 (3) : le chien et le tracteur : `sources/figurants_ch5c_src.png`
+
+**À la suite.**
+
+```
+Same style, same layout (3:1, 3 columns x 2 rows, each COLUMN one subject with 2 poses at the same size and position, pure green #00FF00 background, no text, nothing touching the cell borders), all facing RIGHT.
+Column 1: a small shaggy grey dog (a real dog on four legs, not dressed), LYING on the floor: (top) head on his paws, huge begging eyes, looking up; (bottom) chewing happily, eyes closed, cheeks full.
+Columns 2 and 3 together (one subject spread on two cells of width): an old small red tractor with big rear wheels, rusty mudguards, a tall thin exhaust pipe, driven by an old anthropomorphic badger in a flat cap and blue overalls, seen from the side: (top row) driving along, the badger looking straight ahead; (bottom row) exactly the same tractor, with a little puff of grey smoke from the exhaust and the badger lifting one hand in greeting. Same position and size in the two rows.
+IMPORTANT: no green on the tractor.
+```
+
+## 39. Le maire : `sources/starosta_sheet_src.png` (planche de poses)
+
+**À la suite. À joindre** : `sources/pan_sheet_src.png` (les humains de ce jeu).
+
+```
+Use the attached image (a sprite sheet of a man in a suit) as the reference for how humans are drawn in this game: very simple cartoon shapes, flat colours, small simple eyes, few lines on the face. Create a character pose sheet in the same style: 3:1 format (3072x1024 pixels), 4 columns x 2 rows of equal cells, the SAME character in every cell, full body, same scale, feet on the same baseline near the bottom of each cell, nothing touching the cell borders, no cell borders drawn, pure green #00FF00 background, no text.
+The character: the mayor of a small village, a round, cheerful man around fifty-five, a pink shiny face, thinning hair combed over, a rumpled light grey suit with the jacket open, a white shirt without tie, a small village pin on the lapel, brown shoes. A warm, always-busy, slightly self-satisfied air. He is NOT a villain: he believes he is helping the village.
+Poses, all facing LEFT: 1 standing, arms wide open, a big welcoming smile; 2 the phone against his ear, one finger raised ("one moment, I am going to phone"); 3 pointing proudly behind him with his thumb; 4 patting an invisible shoulder, bending slightly, friendly; 5 walking briskly, briefcase in hand; 6 wiping his forehead with a handkerchief, relieved; 7 shaking an invisible hand with both of his; 8 getting into an invisible car: bending down, one foot lifted.
+```
