@@ -986,7 +986,7 @@
         ],
         // objets poses dans le decor (art/PROMPTS_decors.md n° 6)
         props: [
-          { img: 'art/obj_noviny.png', x: 162, y: 482, w: 78 },
+          { img: 'art/obj_noviny.png', x: 192, y: 518, w: 68 },
           { img: 'art/obj_cent.png', x: 710, y: 620, w: 22, when: (g) => !g.flag('cent') },
           { img: 'art/obj_rohozka.png', x: 1032, y: 584, w: 110 },
           { img: 'art/obj_slimak.png', x: 1102, y: 492, w: 30, when: (g) => g.flag('pot_cerveny') },
@@ -1002,7 +1002,7 @@
           // --- fausses pistes et petits mots, de gauche a droite
           { id: 'lavicka', name: { sk: 'lavička', fr: 'le banc' }, poly: box(95, 470, 295, 545), walk: [200, 625],
             look: { sk: 'Lavička na zastávke. Niekto tu zabudol noviny.', fr: 'Un banc à l\'arrêt. Quelqu\'un a oublié son journal.', words: [['zastávka', 'l\'arrêt'], ['noviny', 'le journal']] } },
-          { id: 'noviny', name: { sk: 'noviny', fr: 'le journal' }, poly: box(122, 452, 202, 484), walk: [175, 625],
+          { id: 'noviny', name: { sk: 'noviny', fr: 'le journal' }, poly: box(156, 478, 230, 520), walk: [195, 625],
             async onUse(g) {
               g.pose('fox', 'pick');
               await say(g, 'narrator', 'Noviny. „Počasie: zajtra slnko a modrá obloha.“', 'Le journal. « Météo : demain, du soleil et un ciel… « modrá ». »', [['počasie', 'la météo'], ['slnko', 'le soleil'], ['obloha', 'le ciel']]);
@@ -1069,6 +1069,7 @@
           { id: 'modry', name: { sk: 'kvetináč', fr: 'un pot de fleurs' }, poly: box(1288, 395, 1362, 490), walk: [1325, 625], pose: 'pick',
             async onUse(g) {
               if (g.has('kluc') || g.flag('gate')) { await say(g, 'fox', 'Tu už nič nie je.', 'Il n\'y a plus rien ici.'); return; }
+              if (!g.knows('modrý') && g.flag('macka_pije')) { await say(g, 'fox', 'Kocúr je preč. Ale pod ktorým kvetináčom je kľúč? Ktorý je ten modrý?', 'Le chat est parti. Mais sous quel pot est la clé ? Lequel est le « modrý » ?'); return; }
               if (!g.knows('modrý')) { await say(g, 'fox', 'Na tomto spí kocúr. A teta je hneď za oknom. Nebudem dvíhať všetky… Ktorý je ten modrý?', 'Sur celui-là, il y a un chat. Et la tante est juste derrière la fenêtre. Je ne vais pas tous les soulever… Lequel est le « modrý » ?', [['ťažký', 'lourd']]); return; }
               if (!g.flag('macka_pije')) {   // le chat dort dessus
                 g.pose('macka', 'b');

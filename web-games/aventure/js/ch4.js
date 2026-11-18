@@ -19,7 +19,7 @@
     vizitka: { sk: 'vizitka', fr: 'la carte de visite', icon: 'art/obj_vizitka.png' },
   });
   D.preload = (D.preload || []).concat(['art/foto_a.webp', 'art/foto_b.webp', 'art/foto_c.webp', 'art/amb_dazd_a.png', 'art/amb_dazd_b.png',
-    'art/amb_blesk_a.png', 'art/amb_blesk_b.png', 'art/obj_salky.png', 'art/item_salka.png', 'art/obj_tenisky.png', 'art/obj_taska.png', 'art/obj_vizitka.png',
+    'art/amb_blesk_a.png', 'art/amb_blesk_b.png', 'art/obj_salky.png', 'art/item_salka.png', 'art/obj_tenisky.png', 'art/obj_taska_andrea.png', 'art/obj_vizitka.png',
     'art/amb_plamen_a.png', 'art/amb_plamen_b.png', 'art/tatry_kuchyna.webp', 'art/tatry_chata_rano.webp']);
   Object.assign(D.board.cards, {
     fotka_vykop: { icon: '📷', sk: 'Fotka: dlhý výkop od mokrade až k továrni', fr: 'Photo : une longue tranchée du marais jusqu\'à l\'usine' },
@@ -370,7 +370,7 @@
     sprites: [gab(230, 665), andrea(350, 1, 662), keeper(1330, 664, -1, 'worry'), twoPose('bernardin', 'bernardin_a', 'bernardin_b', 860, 700, 120, { min: 6, max: 10, hold: [2.2, 3.4] }),
       twoPose('turisti', 'turisti_a', 'turisti_b', 1010, 402, 170, { min: 4, max: 8, hold: [2, 3.4] }), pan(90, 662, true)],
     props: [
-      { img: 'art/obj_taska.png', x: 615, y: 452, w: 120, when: (g) => g.flag('knocked') && !g.flag('tr_bag') && !g.flag('man_sleeps') },
+      { img: 'art/obj_taska_andrea.png', x: 615, y: 452, w: 120, when: (g) => g.flag('knocked') && !g.flag('tr_bag') && !g.flag('man_sleeps') },
       { img: 'art/obj_tenisky.png', x: 255, y: 640, w: 100, when: (g) => g.flag('knocked') && !g.flag('tr_shoes') && !g.flag('man_sleeps') },
       { img: 'art/obj_salky.png', x: 1300, y: 420, w: 150, when: (g) => g.flag('tea_made') && !g.flag('tr_mug') && !g.flag('man_sleeps') },
       { img: 'art/item_salka.png', x: 1300, y: 420, w: 54, when: (g) => g.flag('tea_made') && g.flag('tr_mug') },

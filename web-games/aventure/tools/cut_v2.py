@@ -281,7 +281,7 @@ def chapter4():
                         (4, 'obj_kanvica', 200), (5, 'item_salka', 130), (6, 'obj_salky', 220), (7, 'item_poistka', 120)]:
         single(c[i], name, mh)
     c = cells(os.path.join(SRC, 'objets_ch4b_src.png'), 4, 2)
-    for i, name, mh in [(0, 'obj_taska', 160), (1, 'obj_tenisky', 160), (2, 'obj_vizitka', 90), (3, 'obj_ponozky', 200),
+    for i, name, mh in [(0, 'obj_taska_andrea', 160), (1, 'obj_tenisky', 160), (2, 'obj_vizitka', 90), (3, 'obj_ponozky', 200),
                         (4, 'item_lupa', 180), (5, 'obj_bager', 160), (6, 'item_mapa', 180), (7, 'obj_ram', 200)]:
         single(c[i], name, mh)
     c = cells(os.path.join(SRC, 'ambiance_ch4_src.png'), 4, 2)
