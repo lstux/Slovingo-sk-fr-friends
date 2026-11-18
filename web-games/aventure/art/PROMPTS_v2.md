@@ -629,3 +629,53 @@ Poses, all facing LEFT: 1 standing, arms wide open, a big welcoming smile; 2 the
 À vérifier : le même homme que dans l'illustration du cours (moustache, veste beige, front dégarni), dans le style simple de la planche du monsieur au sourire.
 
 **La voiture du maire** : dans le cours, c'est une **petite voiture bleu foncé** (vue sur la même illustration). Je m'en servirai pour la cinématique.
+
+## 40. Objets du chapitre 5 : `sources/objets_ch5_src.png`
+
+**À la suite.**
+
+```
+Same style. Create an object sheet for a 2D point-and-click adventure game: a very wide image in 3:1 format (3072x1024 pixels), a grid of 4 columns and 2 rows of equal cells, ONE object per cell, centred, nothing touching the cell borders, no cell borders drawn, pure green #00FF00 background, no shadows, no text. Seen from the side and slightly from the front, same clean ink outlines, flat colours and soft cel shading.
+1 a big outer cabbage leaf, PALE YELLOW-WHITE with cream veins (no green at all), wavy edges, as an inventory icon;
+2 a tall, thin, empty drinking glass, clear glass with a light GREY-BLUE tint and white highlights (no green tint at all), standing;
+3 a deep white plate with a blue rim full of Slovak potato dumplings (halušky) with cabbage and a little bacon, a heap, a spoon in it;
+4 the same plate, half empty;
+5 the same plate, completely empty and clean, the spoon lying in it;
+6 a small checked cloth napkin tied in a bundle, a little yellow dumpling peeking out, as an inventory icon;
+7 a white phone charger: a short plug, a thin white cable coiled in a loose loop, as an inventory icon;
+8 a very small plain white plastic box, the size of a matchbox lid, seen from the front, with two small round sockets and one tiny ORANGE light, one thin cable going out of its side (a home fibre box), as a close-up icon.
+IMPORTANT: no green on any object.
+```
+
+## 41. La voiture du maire : `sources/auto_starosta_src.png`
+
+**À la suite. À joindre** : `sources/ref_starosta.jpg` (la petite voiture bleue à droite de l'illustration).
+
+```
+Same style. A sheet of 3:1 format (3072x1024 pixels), 1 column x 2 rows of equal cells, pure green #00FF00 background, no shadows, no text, nothing touching the cell borders. The small dark blue hatchback car of the attached illustration (same car: dark blue paint, round headlights, a small antenna), seen exactly from the side, facing LEFT, wheels on the same baseline in both cells, same size and position: (top) doors closed, parked; (bottom) exactly the same car with the driver door wide open. No driver, no passengers, no number plate text.
+```
+
+## 42. Le site du bâtiment gris : `sources/site_gris_src.png` (16:9)
+
+**À la suite.**
+
+```
+Same style, simplified. A single illustration in 16:9 format (1920x1080 pixels): the screen of a smartphone held upright is NOT drawn; instead draw only a clean, flat, modern WEB PAGE filling the whole image, for a grey industrial company: a dull grey header band with a simple abstract logo (a grey square building with a small chimney, no letters), a thin blue gauge icon in the top right, under it a wide EMPTY table with 8 columns and 3 rows of empty cells (thin grey lines, light grey header row, NO numbers and NO text anywhere), under the table a flat blue line chart frame with a straight horizontal line in the middle and no labels, and a grey footer band. Colours: greys, white and one soft blue. No text, no letters, no numbers, no logos, no watermark.
+```
+
+## 43. Animations du chapitre 5 : `sources/ambiance_ch5_src.png`
+
+**À la suite.**
+
+```
+Same style. An animation sheet: a very wide image in 3:1 format (3072x1024 pixels), 4 columns x 2 rows of equal cells, ONE element per cell, centred, nothing touching the cell borders, no cell borders drawn, pure green #00FF00 background, no text. Elements that will be placed on top of a game background:
+1 a soft curl of white-grey steam rising from a cooking pot, shape A (thin, 3 wisps);
+2 the same steam, shape B (the wisps shifted to the right and curling differently);
+3 a small carved wooden cuckoo bird sticking out of a tiny open wooden door, beak closed, seen from the front;
+4 the same cuckoo, beak wide open, with two small sound lines on each side;
+5 a bright yellow butterfly with black-edged wings, wings wide open, seen from the front;
+6 the same butterfly, wings half closed;
+7 a single clear blue raindrop falling, stretched, with a highlight;
+8 three thin blue-grey concentric ripples on water, seen in perspective (flat ellipses).
+IMPORTANT: no green anywhere on the elements.
+```
