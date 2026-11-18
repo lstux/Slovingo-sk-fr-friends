@@ -618,10 +618,14 @@ IMPORTANT: no green on the tractor.
 
 ## 39. Le maire : `sources/starosta_sheet_src.png` (planche de poses)
 
-**À la suite. À joindre** : `sources/pan_sheet_src.png` (les humains de ce jeu).
+**À la suite. À joindre** : `sources/pan_sheet_src.png` (le style des humains de ce jeu) et `sources/ref_starosta.jpg` (l'illustration du cours : le maire est l'homme au centre, à reproduire).
 
 ```
-Use the attached image (a sprite sheet of a man in a suit) as the reference for how humans are drawn in this game: very simple cartoon shapes, flat colours, small simple eyes, few lines on the face. Create a character pose sheet in the same style: 3:1 format (3072x1024 pixels), 4 columns x 2 rows of equal cells, the SAME character in every cell, full body, same scale, feet on the same baseline near the bottom of each cell, nothing touching the cell borders, no cell borders drawn, pure green #00FF00 background, no text.
-The character: the mayor of a small village, a round, cheerful man around fifty-five, a pink shiny face, thinning hair combed over, a rumpled light grey suit with the jacket open, a white shirt without tie, a small village pin on the lapel, brown shoes. A warm, always-busy, slightly self-satisfied air. He is NOT a villain: he believes he is helping the village.
+Use the first attached image (a sprite sheet of a man in a suit) as the reference for how humans are drawn in this game: very simple cartoon shapes, flat colours, small simple eyes, few lines on the face. Use the second attached image: the man in the CENTRE (the one scratching his head, beside the blue car) is the mayor, to be reproduced exactly, but drawn in the simple style of the first image. Create a character pose sheet: 3:1 format (3072x1024 pixels), 4 columns x 2 rows of equal cells, the SAME character in every cell, full body, same scale, feet on the same baseline near the bottom of each cell, nothing touching the cell borders, no cell borders drawn, pure green #00FF00 background, no text.
+The character: the mayor of a small village, a middle-aged man of about fifty-five, balding with a few grey hairs, a grey moustache, a beige jacket over a cream open-collar shirt, a brown belt, dark brown trousers, brown leather shoes. A warm, always-busy, slightly self-satisfied air. He is NOT a villain: he believes he is helping the village.
 Poses, all facing LEFT: 1 standing, arms wide open, a big welcoming smile; 2 the phone against his ear, one finger raised ("one moment, I am going to phone"); 3 pointing proudly behind him with his thumb; 4 patting an invisible shoulder, bending slightly, friendly; 5 walking briskly, briefcase in hand; 6 wiping his forehead with a handkerchief, relieved; 7 shaking an invisible hand with both of his; 8 getting into an invisible car: bending down, one foot lifted.
 ```
+
+À vérifier : le même homme que dans l'illustration du cours (moustache, veste beige, front dégarni), dans le style simple de la planche du monsieur au sourire.
+
+**La voiture du maire** : dans le cours, c'est une **petite voiture bleu foncé** (vue sur la même illustration). Je m'en servirai pour la cinématique.
