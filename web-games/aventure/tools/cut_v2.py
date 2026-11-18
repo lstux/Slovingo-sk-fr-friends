@@ -332,9 +332,55 @@ def fix_ch4():
     _store('obj_salky', a)
 
 
+def chapter5():
+    for n in ('dedina_potok', 'dedina_kuchyna', 'dedina_zadok'):
+        im = Image.open(os.path.join(SRC, n + '_wide_src.png')).convert('RGB').resize((2160, 720), Image.LANCZOS)
+        im.save(os.path.join(ART, n + '.webp'), quality=88)
+        print(n + '.webp')
+    def sheet(src, names, h, flip=False):
+        c = cells(os.path.join(SRC, src), 4, 2)
+        for cell, name in zip(c, names):
+            single(cell.transpose(Image.FLIP_LEFT_RIGHT) if flip else cell, name, h)
+    sheet('mato_sheet_src.png', ['mato_count', 'mato_scratch', 'mato_pull', 'mato_listen', 'mato_shh', 'mato_eat', 'mato_cheer', 'mato_belly'], 520)
+    sheet('katka_sheet_src.png', ['katka_type', 'katka_film', 'katka_call', 'katka_point', 'katka_silent', 'katka_show', 'katka_charge', 'katka_stunned'], 420)
+    sheet('babka_dedina_sheet_src.png', ['zuz_stir', 'zuz_spoon', 'zuz_ladle', 'zuz_back', 'zuz_laugh', 'zuz_glass', 'zuz_arms', 'zuz_wave'], 460)
+    sheet('starosta_sheet_src.png', ['starosta_open', 'starosta_phone', 'starosta_thumb', 'starosta_pat', 'starosta_walk', 'starosta_wipe', 'starosta_shake', 'starosta_car'], 460, flip=True)   # tourne a gauche sur la planche : le jeu veut toujours vers la droite
+    c = cells(os.path.join(SRC, 'figurants_ch5_src.png'), 3, 2)
+    pair(c[0], c[3], 'ovca_zvonec_a', 'ovca_zvonec_b', 200)
+    pair(c[1], c[4], 'ovca_hneda_a', 'ovca_hneda_b', 200)
+    pair(c[2], c[5], 'ovca_uviaznuta', 'ovca_volna', 200)
+    c = cells(os.path.join(SRC, 'figurants_ch5b_src.png'), 3, 2)
+    pair(c[0], c[3], 'kohut_a', 'kohut_b', 200)
+    pair(c[1], c[4], 'kozol_a', 'kozol_b', 300)
+    pair(c[2], c[5], 'sliepky_a', 'sliepky_b', 160)
+    im = key(Image.open(os.path.join(SRC, 'figurants_ch5c_src.png')))
+    W, H = im.size
+    cw, ch = W / 3, H / 2
+    cl = [im.crop((0, r * round(ch), round(cw), (r + 1) * round(ch))) for r in range(2)]
+    pair(cl[0], cl[1], 'pes_a', 'pes_b', 130)
+    tr = [recolor_green(im.crop((round(cw), r * round(ch), W, (r + 1) * round(ch)))) for r in range(2)]
+    pair(tr[0], tr[1], 'traktor_a', 'traktor_b', 360)
+    c = cells(os.path.join(SRC, 'objets_ch5_src.png'), 4, 2)
+    for i, name, mh in [(0, 'item_list', 150), (1, 'item_pohar', 170), (2, 'obj_halusky_a', 150), (3, 'obj_halusky_b', 150),
+                        (4, 'obj_halusky_c', 150), (5, 'item_uzlik', 120), (6, 'item_nabijacka', 140), (7, 'obj_optika', 90)]:
+        single(c[i], name, mh)
+    fix_ch5()
+
+
+def fix_ch5():
+    """Le verre et le boitier sont proches du fond : on verifie qu'il ne reste pas de halo vert."""
+    for n in ('item_list', 'item_pohar', 'obj_halusky_a', 'obj_halusky_b', 'obj_halusky_c', 'item_uzlik', 'obj_optika', 'zuz_glass'):
+        a = _load(n); r, g, b = a[..., 0], a[..., 1], a[..., 2]
+        m = (g - np.maximum(r, b)) > 12
+        a[..., 1] = np.where(m, np.maximum(r, b) + 4, g)
+        _store(n, a)
+
+
 if __name__ == '__main__':
     import sys
-    if 'ch4' in sys.argv:
+    if 'ch5' in sys.argv:
+        chapter5()
+    elif 'ch4' in sys.argv:
         chapter4()
     elif 'ch3' in sys.argv:
         chapter3()
