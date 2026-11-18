@@ -4,6 +4,12 @@ Liste de travail, **complétée à chaque nouveau chapitre** (section « Chapitr
 bibliothèques sont anglophones), le nom de fichier visé et si c'est une boucle (*loop*) ou un son isolé (*one-shot*).
 Tu déposes les fichiers choisis dans `web-games/aventure/audio/` (ou tu me les envoies) : je règle le volume, les boucles et le mixage, et je note la licence dans `img/credits.md`.
 
+## État
+
+- **Faits** (fichiers dans `web-games/aventure/audio/`, crédits dans `img/credits.md`) : sons communs, prologue, chapitres 1, 2 et 3.
+- **Candidats à écouter** : chapitres 4 à 13 et musique, dans `web-games/aventure/audio/_candidats/index.html` (non versionné ; `serve.sh` pour l'ouvrir depuis un téléphone).
+- Le moteur ne joue pas encore les sons.
+
 ## Où chercher (gratuit, utilisable dans un jeu)
 
 | Source | Licence | Pour quoi | Recherche |

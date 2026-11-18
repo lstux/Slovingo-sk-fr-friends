@@ -34,3 +34,6 @@ json/
 !web-games/**/*.html
 !web-games/**/*.js
 !web-games/**/*.css
+
+# Sons candidats (téléchargés pour écoute, non retenus)
+web-games/aventure/audio/_candidats/
