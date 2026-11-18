@@ -491,3 +491,59 @@ Using the two attached character sheets (the fox boy and the hare girl), draw a 
 
 11 générations (19 → 29). Les décors 19, 20 et 21 sont les plus importants : si le matin (20) ne garde pas la même composition que le
 soir, on le refait tout de suite.
+
+---
+
+# Chapitre 5 « Quarante-deux centimètres » (18 nov. 2026)
+
+Le village de Maťo et Katka, jeudi midi. **Nouvelle conversation ChatGPT**, dans l'ordre 30 → 3x. On commence par les trois décors.
+
+Choix faits pour limiter les images :
+- **La plaque OPTIKA** : l'image montre une plaque en fer **sans aucune lettre** ; le jeu écrit le mot dessus.
+- **Le boîtier de la fibre** (chez Babka) : un tout petit boîtier blanc en plastique au mur de l'entrée, bien visible mais discret.
+- **Les figurants** (moutons, brebis coincée, coq, bouc, chien, poules, blaireau au tracteur, Babka, Maťo, Katka) viennent en planches séparées sur fond vert, après les décors.
+- **Le bâtiment gris** n'apparaît qu'au loin dans le décor 30 (on le voit sans savoir encore).
+
+## 30. Le ruisseau à sec et le pré : `sources/dedina_potok_wide_src.png` (décor 3:1)
+
+**À joindre** : `sources/rue_wide_src.png` (pour le style et les couleurs d'un décor de village).
+
+Disposition, de gauche à droite : deux maisons de village (une cheminée qui fume), le vieux puits en pierre avec son seau, un banc de bois contre un mur, le lit du ruisseau **à sec** (cailloux, galets, vase craquelée), le vieux pont de pierre bas qui l'enjambe (assez bas pour qu'une brebis puisse s'y coincer dessous), le pré, la bergerie à droite, au loin un grand bâtiment gris.
+
+```
+Use the attached image (a background of the same game) as the reference for the drawing style, the colours and the level of detail.
+
+Scene: a small village in the Slovak countryside at noon in the height of a very dry summer, drawn as the long scrolling background of a point-and-click adventure game, as a very wide panoramic image in 3:1 format (3072x1024 pixels), seen from the front, bright hard midday sunlight, a pale blue sky with no cloud. From left to right: two small whitewashed village houses with red tile roofs and a stone chimney with a thin line of smoke on the second one, wooden shutters, a few pots of geraniums; an old round stone well with a small wooden roof and a bucket hanging on a rope; a wooden bench against a house wall; then a DRY stream bed running across the picture from the foreground to the background: only pale round stones, pebbles, cracked grey mud and a few dead reeds, absolutely no water; across it a low old stone bridge with a single small arch (low and narrow, just big enough for a sheep to crawl under), with a worn dirt road over it; on the right, a green-yellow meadow with tall dry grass and a few daisies, a wooden fence, and a small wooden sheep barn with a corrugated roof and an open side; on the horizon, soft hills, and far away on the right a large, low, windowless GREY concrete building, tiny and distant, with a small grey chimney. The scene is EMPTY (no people, no animals). The lower third of the picture, along the whole width, stays clear and uncluttered (dirt road, dry stream bed stones, short grass), because characters will walk there. No text, no letters, no numbers, no signs with writing, no logos.
+
+Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading, simplified shapes, gentle gradients, no photographic textures or reflections. Landscape 3:1 format. No text, no letters, no numbers, no logos, no watermark.
+```
+
+À vérifier : le lit du ruisseau **vraiment sec** (aucune goutte), le pont bas avec un petit passage dessous, le puits et son seau, le bâtiment gris tout petit au loin, le bas dégagé.
+
+## 31. La cuisine de Babka : `sources/dedina_kuchyna_wide_src.png` (décor 3:1)
+
+**À la suite. À joindre** : `sources/urad_wide_src.png` (pour le style d'un décor d'intérieur).
+
+Disposition, de gauche à droite : l'entrée (patère avec des manteaux, **le petit boîtier blanc de la fibre au mur** et **une prise électrique** juste en dessous), la porte ouverte de la cuisine, la grande table avec nappe à carreaux (une assiette creuse, une cuillère, un pichet) et ses chaises, la fenêtre avec un rideau, une horloge à coucou au mur, le fourneau avec une grosse casserole, le buffet avec des verres et des tasses, une tête de chou sur le plan de travail.
+
+```
+Now, in the same drawing style, draw the next scrolling background of the game: the warm kitchen of a Slovak grandmother's old village house, noon, as a very wide panoramic image in 3:1 format (3072x1024 pixels), seen from the front, soft warm light coming from a window, wooden floor with a woven rug, whitewashed walls with a painted folk-art border. From left to right: a small entrance hall with a wooden coat rack holding two coats and a flat cap, a very small plain WHITE PLASTIC box about the size of a matchbox lid fixed on the wall with a tiny green light and one thin cable going into the wall (a home fibre-optic box, not decorated, easy to overlook), and just below it a white wall electric socket; a wide open doorway into the kitchen; a big wooden table with a red-and-white checked tablecloth, a deep plate, a spoon and a jug on it, and four wooden chairs; a window with a lace curtain, flowerpots on the sill; a wooden cuckoo clock on the wall with two pine-cone weights (no numbers on the dial, no text); a cast-iron cooking stove with a big black pot and a wooden spoon beside it; a wooden cupboard with glass doors showing glasses, mugs and plates, one tall drinking glass standing alone on the shelf edge; a head of green cabbage with big outer leaves on the work surface; a dog's blanket on the floor under the table. The room is EMPTY (no people, no animals). The lower third along the whole width is open floor (characters walk there). No text, no letters, no numbers on anything, no logos.
+
+Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading, simplified shapes, gentle gradients. Landscape 3:1 format. No text, no letters, no numbers, no logos, no watermark.
+```
+
+À vérifier : le petit boîtier blanc de la fibre **très petit mais visible**, la prise juste dessous, le grand verre seul dans le buffet, le chou, la couverture du chien sous la table.
+
+## 32. Derrière la bergerie : `sources/dedina_zadok_wide_src.png` (décor 3:1)
+
+**À la suite. À joindre** : `sources/dedina_potok_wide_src.png` (l'image 30 : même village, même lumière).
+
+Disposition, de gauche à droite : le mur arrière de la bergerie en planches (avec du linge sur une corde), une botte de paille, **la plaque de fer vissée dans le sol, bien au milieu**, des herbes hautes, une clôture, un chemin de terre qui traverse le fond (par où passe le tracteur), les collines, et le toit du village au loin.
+
+```
+Now, in the same drawing style, draw the next scrolling background of the game: the quiet back side of the same wooden sheep barn of the village, noon, bright sunlight, as a very wide panoramic image in 3:1 format (3072x1024 pixels), seen from the front. From left to right: the weathered grey wooden plank back wall of the sheep barn with a small closed hatch, a clothesline stretched in front of it with a few old shirts and towels hanging; a round hay bale and a rusty metal bucket; in the CENTRE of the foreground, on a patch of trampled earth, a rectangular RUSTY IRON PLATE flush with the ground, about the size of a door mat, held down by four big round bolts, its surface completely EMPTY and smooth (no letters, no numbers, no markings at all), with a little worn path leading to it; tall yellow-green grass, a few wildflowers and thistles around it; further right a low wooden fence and a dirt farm track crossing the middle distance from side to side, wide enough for a tractor; behind, rolling hills, a few red roofs of the village far away, and in the very far distance a small low grey building. The scene is EMPTY (no people, no animals, no vehicles). The lower third of the picture, along the whole width, stays clear and uncluttered (earth, short grass, the iron plate in the middle), because characters will walk there. No text, no letters, no numbers, no logos.
+
+Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading, simplified shapes, gentle gradients, no photographic textures or reflections. Landscape 3:1 format. No text, no letters, no numbers, no logos, no watermark.
+```
+
+À vérifier : la plaque de fer **sans aucune lettre** et bien visible au centre, le chemin du tracteur au fond, le linge, le bas dégagé.
