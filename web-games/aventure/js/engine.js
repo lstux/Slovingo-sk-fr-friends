@@ -59,6 +59,7 @@
       try { this.showFr = root.localStorage.getItem(FR_KEY) !== '0'; } catch (e) { /* ignore */ }
       this.voiceOn = true; this.voice = null;
       try { this.voiceOn = root.localStorage.getItem(VOICE_KEY) !== '0'; } catch (e) { /* ignore */ }
+      this.sound = root.ZajkaSound ? new root.ZajkaSound() : null;   // js/sound.js (absent : le jeu reste muet)
       this._initVoice();
       this._bind();
     }
@@ -123,6 +124,10 @@
       this.cards = []; this.solved = []; this.struck = []; this.boardQ = null; this.boardSel = []; this.boardT = 0;
       this.enter(this.data.start);
     }
+    // ------------------------------------------------------------ son (js/sound.js)
+    sfx(name, o) { if (this.sound) this.sound.play(name, o); }
+    soundOn() { return !!(this.sound && this.sound.on); }
+    setSound(v) { if (this.sound) this.sound.setOn(v); }
     // ------------------------------------------------------------ voix (synthese vocale du navigateur, slovaque)
     _initVoice() {
       const ss = root.speechSynthesis;
@@ -180,6 +185,7 @@
       this.cam = this.camTarget();
       if (def.chapter) { this.chapter = def.chapter; if (!this.visited.includes(def.chapter)) this.visited.push(def.chapter); }
       this.save();
+      if (this.sound) this.sound.scene(id, def);
       if (def.onEnter) this.run(() => def.onEnter(this.api()));
     }
     // ------------------------------------------------------------ cinematiques
@@ -245,19 +251,19 @@
         flagv: (k) => g.flags[k],   // valeur brute (compteurs, etapes)
         setFlag: (k, v = true) => { g.flags[k] = v; g.save(); },
         has: (it) => g.items.includes(it),
-        give: (it) => { if (!g.items.includes(it)) g.items.push(it); g.save(); },
+        give: (it) => { if (!g.items.includes(it)) { g.items.push(it); g.sfx('prise'); } g.save(); },
         take: (it) => { g.items = g.items.filter((q) => q !== it); if (g.selected === it) g.selected = null; g.save(); },
-        learn: (sk, fr) => { g.words[sk] = fr; g.save(); },
+        learn: (sk, fr) => { if (!g.words[sk]) g.sfx('mot'); g.words[sk] = fr; g.save(); },
         camTo: (x) => { g.camFocus = x == null ? null : x; },   // la camera regarde x (ou revient sur le joueur avec null)
         after: (ms, fn) => g.timers.push({ at: g.sceneTime + ms / 1000, fn }),
         sleep, goScene: (id) => { if (live()) g.enter(id); }, restart: () => g.enter(g.scene.id),
-        end: (sk, fr) => { g.endCard = { sk, fr }; g.save(); },
+        end: (sk, fr) => { g.endCard = { sk, fr }; g.save(); g.sfx('fin_chapitre', { gap: 6000 }); },
         // --- jeu complet
         knows: (w) => !!g.words[w],
         talk: (h) => g.talk(h, g.api()),
-        addPage: (id) => { if (!g.pages.includes(id)) { g.pages.push(id); g.save(); } },
+        addPage: (id) => { if (!g.pages.includes(id)) { g.pages.push(id); g.save(); g.sfx('page'); } },
         hasPage: (id) => g.pages.includes(id),
-        addClue: (id) => { if (!g.clues.includes(id)) { g.clues.push(id); g.save(); } },
+        addClue: (id) => { if (!g.clues.includes(id)) { g.clues.push(id); g.save(); g.sfx('indice'); } },
         hasClue: (id) => g.clues.includes(id),
         // aide : who = personnage qui souffle les indices, tokens = nombre d'indices (ou de % de batterie) pour le chapitre
         setHelper: (who, tokens) => { g.helper = { who, tokens, max: tokens, dead: false }; g.save(); },
@@ -266,10 +272,10 @@
         noHelper: () => { g.helper = null; g.save(); },
         showMap: (to, opts) => g.showMap(to, opts),
         // --- tableau d'enquete
-        addCard: (id) => { if (!g.cards.includes(id)) { g.cards.push(id); g.save(); const cd = ((g.data.board || {}).cards || {})[id]; g.toast = { sk: '📌 Nová stopa: ' + (cd ? cd.sk : id), fr: 'Nouvel indice au tableau', t0: g.t }; } },
+        addCard: (id) => { if (!g.cards.includes(id)) { g.cards.push(id); g.save(); g.sfx('indice'); const cd = ((g.data.board || {}).cards || {})[id]; g.toast = { sk: '📌 Nová stopa: ' + (cd ? cd.sk : id), fr: 'Nouvel indice au tableau', t0: g.t }; } },
         hasCard: (id) => g.cards.includes(id),
         // un suspect innocente : la carte reste, rayee
-        strikeCard: (id) => { g.struck = g.struck || []; if (!g.struck.includes(id)) { g.struck.push(id); g.save(); const cd = ((g.data.board || {}).cards || {})[id]; g.toast = { sk: '❌ ' + (cd ? cd.sk : id), fr: 'Rayé du tableau', t0: g.t }; } },
+        strikeCard: (id) => { g.struck = g.struck || []; if (!g.struck.includes(id)) { g.struck.push(id); g.save(); g.sfx('oui'); const cd = ((g.data.board || {}).cards || {})[id]; g.toast = { sk: '❌ ' + (cd ? cd.sk : id), fr: 'Rayé du tableau', t0: g.t }; } },
         isStruck: (id) => (g.struck || []).includes(id),
         solved: (q) => g.solved.includes(q),
         askBoard: (q) => g.askBoard(q),
@@ -277,6 +283,9 @@
         // click renvoie { done: valeur } pour fermer le panneau ; la promesse se resout avec cette valeur
         openPanel: (def, st) => new Promise((resolve) => { g.custom = { def, st: st || {}, resolve }; g.panel = 'custom'; }),
         toast: (sk, fr) => { g.toast = { sk, fr, t0: g.t }; },
+        // --- son : un bruitage (g.sfx('porte')), ou une autre ambiance pour la suite du decor (g.amb('nuit_foret', 0.5) ; g.amb(null) = silence)
+        sfx: (name, o) => { if (live()) g.sfx(name, o); },
+        amb: (name, vol) => { if (live() && g.sound) g.sound.ambience(name, vol); },
       };
     }
     async run(fn) {
@@ -289,7 +298,7 @@
 
     // ------------------------------------------------------------ actions
     say(who, sk, fr, words) {
-      if (words) for (const [a, b] of words) this.words[a] = b;
+      if (words) { let fresh = false; for (const [a, b] of words) { if (!this.words[a]) fresh = true; this.words[a] = b; } if (fresh) this.sfx('mot'); }
       // le personnage qui parle prend sa pose « parle » (s'il en a une et qu'il n'a pas deja une autre pose)
       const sp = this.sprites.find((q) => q.id === who && q.poses && q.poses.talk && !q.pose);
       if (sp) sp.pose = 'talk';
@@ -379,7 +388,7 @@
       if (this.scene && this.scene.cine) { const r = this.skipRect(); if (p[0] >= r.x && p[0] <= r.x + r.w && p[1] >= r.y && p[1] <= r.y + r.h) this.skipCine(); else this.cineNext(); return; }
       if (this.busy) return;
       const hb = this.hudButtonAt(p);
-      if (hb) { this.pressHud(hb); return; }
+      if (hb) { this.sfx('clic'); this.pressHud(hb); return; }
       // inventaire : un objet, ou deux objets a combiner
       const slot = this.slotAt(p);
       if (slot >= 0) {
@@ -393,7 +402,7 @@
           });
           return;
         }
-        this.selected = this.selected === it ? null : it;
+        this.selected = this.selected === it ? null : it; this.sfx('clic');
         return;
       }
       const wp = [p[0] + this.cam, p[1]];   // point dans le repere du decor (la camera peut l'avoir decale)
@@ -412,6 +421,7 @@
         // un petit geste avant l'action (planche d'animation) : un objet sur une zone -> « utiliser », sinon la pose de la zone
         const gesture = fox && fox.poses && (it ? h.pose || 'use' : h.onUse && h.pose);
         if (gesture && fox.poses[gesture]) { fox.pose = gesture; await sleep(450); if (fox.pose === gesture) fox.pose = null; }
+        if (h.sfx) this.sfx(h.sfx);   // bruitage de la zone (porte, boite aux lettres...) : au moment ou on agit dessus
         if (it) {
           this.selected = null;
           if (h.onItem && h.onItem[it]) await h.onItem[it](api);
@@ -481,7 +491,7 @@
     showMap(to, opts) {
       return new Promise((resolve) => {
         this.mapState = { from: (opts && opts.from) || this.chapter, to, t: 0, resolve, browse: false, note: opts && opts.note };
-        this.panel = 'map';
+        this.panel = 'map'; this.sfx('fin_chapitre', { gap: 6000 });
       });
     }
     clickMap() {
@@ -504,7 +514,7 @@
       for (let i = 0; i < c.opts.length; i++) {
         const r = this.choiceRect(i, c.opts.length);
         if (p[0] >= r.x && p[0] <= r.x + r.w && p[1] >= r.y && p[1] <= r.y + r.h) {
-          this.choices = null;
+          this.choices = null; this.sfx('clic');
           this.speak(c.opts[i].sk, 'fox');
           c.resolve(i);
           return;
@@ -623,6 +633,10 @@
           this.timers = this.timers.filter((q) => q.at > this.sceneTime);
           this.run(async () => { for (const q of due) await q.fn(this.api()); });
         }
+      }
+      if (this.sound) {
+        const pl = this.sprites.find((q) => q.id === this.scene.player);
+        this.sound.tick(!!(pl && !pl.hidden && pl.tx != null), !!(pl && pl.climb), !!(this.scene.cine || this.dialog));
       }
       const ct = this.camTarget();
       this.cam += (ct - this.cam) * Math.min(1, dt * 5);
@@ -812,6 +826,7 @@
       const Q = ((this.data.board || {}).questions || {})[this.boardQ.id] || {}, sel = this.boardSel.slice();
       const ok = (Q.pairs || []).some(([a, b]) => (sel[0] === a && sel[1] === b) || (sel[0] === b && sel[1] === a));
       this.run(async () => {
+        this.sfx(ok ? 'oui' : 'non');
         if (ok) {
           if (Q.ok) for (const l of Q.ok) await this.say(l.who || 'fox', l.sk, l.fr, l.words);
           this.solved.push(this.boardQ.id); this.save();

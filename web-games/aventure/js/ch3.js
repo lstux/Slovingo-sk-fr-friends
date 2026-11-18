@@ -410,7 +410,7 @@
         look: { sk: 'Starý buk. Je tu tieň. Konečne.', fr: 'Un vieux hêtre. Il y a de l\'ombre. Enfin.', words: [['buk', 'le hêtre'], ['tieň', 'l\'ombre']] } },
       { id: 'palica', name: { sk: 'palica', fr: 'le bâton' }, poly: box(610, 615, 770, 665), walk: [700, 668], pose: 'pick',
         async onUse(g) {
-          g.setFlag('palica_taken'); g.give('palica');
+          g.sfx('baton'); g.setFlag('palica_taken'); g.give('palica');
           await say(g, 'fox', 'Pekná palica. Dlhá a rovná. Beriem ju. Na chodenie.', 'Un beau bâton. Long et droit. Je le prends. Pour marcher.', [['palica', 'le bâton'], ['rovný', 'droit']]);
           await say(g, 'andrea', 'Na chodenie. Jasné.', 'Pour marcher. Bien sûr.');
         } },
@@ -724,6 +724,7 @@
     async onEnter(g) {
       if (g.flag('ch0')) return;
       g.setFlag('ch0');
+      g.sfx('aigle');
       await say(g, 'narrator', 'Hore je drevená chata. Na verande sedí orol v zelenej uniforme a pije čaj.', 'En haut, il y a une cabane en bois. Sur la véranda, un aigle en uniforme vert boit son thé.', [['veranda', 'la véranda'], ['čaj', 'le thé']]);
       await say(g, 'andrea', 'To je on. Je to starší pán. A má rád poriadok.', 'C\'est lui. C\'est un monsieur âgé. Et il aime l\'ordre.', [['poriadok', 'l\'ordre']]);
     },

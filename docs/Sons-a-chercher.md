@@ -8,7 +8,14 @@ Tu déposes les fichiers choisis dans `web-games/aventure/audio/` (ou tu me les 
 
 - **Faits** (fichiers dans `web-games/aventure/audio/`, crédits dans `img/credits.md`) : sons communs, prologue, chapitres 1, 2 et 3.
 - **Candidats à écouter** : chapitres 4 à 13 et musique, dans `web-games/aventure/audio/_candidats/index.html` (non versionné ; `serve.sh` pour l'ouvrir depuis un téléphone).
-- Le moteur ne joue pas encore les sons.
+- **Branchés dans le jeu** (18 nov. 2026, `web-games/aventure/js/sound.js`) : les 13 ambiances et 39 bruitages de `audio/`. Bouton « Son : oui/non » dans l'en-tête (mémorisé).
+  - **Ambiance** de chaque décor : tableau `AMB` en haut de `sound.js` (fichier, volume, et petits bruitages au hasard : goutte sur la place, geai en forêt, cailloux dans la gorge).
+  - **Pas** de Gab : `pas_dur` (rue, gare, tram, bureau, place, gorge), `pas_herbe` (jardin, parc, forêt, lac, bivouac), `echelle_metal` pendant les escalades.
+  - **Génériques** : objet ramassé (`prise`), mot appris (`mot`), page du carnet (`page`), indice (`indice`), bonne ou mauvaise paire au tableau (`oui`, `non`), clic de menu (`clic`), carte du voyage (`fin_chapitre`).
+  - **Histoire** : composteur, distributeur, ticket, portes et cloche du tram, sonnette, clé, portillon, boîte aux lettres, interrupteur, gourde, canard, carnet, échelle, voiture (arrivée, portière, départ), tampon, train qui part, bâton, aigle.
+  - **Pas encore utilisés** : `bip` (bulle de dialogue, trop bavard avec la voix), `ticket` et `clavier` au bureau (le guichet du bureau n'a pas de moment dédié), `musique/` (aucune musique reçue).
+  - Les sons du chapitre 4 (refuge, orage…) n'existent pas encore : le chapitre est muet, pas de bruit de pas non plus.
+- Pour ajouter un son plus tard : déposer le fichier dans `audio/amb/` ou `audio/sfx/`, puis `g.sfx('nom')` dans l'histoire, ou une ligne dans `AMB` pour une ambiance. Un fichier absent est ignoré sans erreur.
 
 ## Où chercher (gratuit, utilisable dans un jeu)
 
