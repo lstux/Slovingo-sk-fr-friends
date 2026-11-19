@@ -764,6 +764,8 @@ All facing RIGHT. IMPORTANT: no green on the characters (the yellow jacket stays
 
 À vérifier : la veste **jaune** (pas verte), la gaffe du pompier en pose 3 et 4, le gardien sous son poncho.
 
+*Planche validée le 19 nov. sauf la case 8 (le gardien n'a plus sa moustache) : on ne s'en sert pas, le jeu prend la pose 7 quand le portail s'ouvre.*
+
 ## 49. Figurants du chapitre 6 (1) : la souris, les lapins, le chat : `sources/figurants_ch6_src.png`
 
 **À la suite. À joindre** : `img/illus_06_povoden.jpg` (la souris au frigo et la cane du cours).
