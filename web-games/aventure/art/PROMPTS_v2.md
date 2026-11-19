@@ -849,7 +849,7 @@ IMPORTANT: no green anywhere on the elements; steam and foam are WHITE with grey
 Same style, same layout (3:1, 4 columns x 2 rows, one element per cell, pure green #00FF00 background, no text).
 1 one small rectangular first-floor window of the attached building, LIT from inside with a warm yellow light, empty;
 2 the same lit window with the dark silhouette of the badger Marek standing behind it, looking down;
-3 a small grey security camera on a bracket, a tiny GREEN-free white light on;
+3 a small grey security camera on a bracket, a tiny WHITE light on;
 4 the same camera with a tiny RED light on;
 5 a small wisp of white steam rising from a wet blanket (light grey outline), shape A;
 6 the same wisp, shape B;
