@@ -679,3 +679,185 @@ Same style. An animation sheet: a very wide image in 3:1 format (3072x1024 pixel
 8 three thin blue-grey concentric ripples on water, seen in perspective (flat ellipses).
 IMPORTANT: no green anywhere on the elements.
 ```
+
+# Chapitre 6 « Le portail » (19 nov. 2026)
+
+La vallée sous le village, jeudi soir (inondation, portail, tuyau) et vendredi matin (retour derrière la bergerie). **Nouvelle conversation ChatGPT**, dans l'ordre 44 → 54. On commence par les trois décors.
+
+Choix faits pour limiter les images :
+- **La pluie n'est pas dessinée** dans les décors : le jeu l'ajoute (comme dans la salle du refuge), ainsi que le gyrophare et les objets qui dérivent.
+- **L'eau de la rue** est une nappe brune unie en bas du décor ; le jeu ajoute devant les personnages une bande d'eau qui monte d'un cran toutes les 30 secondes (on les voit « dans l'eau jusqu'aux genoux »).
+- **Le portail** : le décor montre l'ouverture vide entre les deux piliers ; la grille coulissante est un objet à part (planche 52), le jeu la fait glisser.
+- **La fenêtre de Marek** : sombre dans le décor ; la fenêtre allumée avec sa silhouette vient dans les animations.
+- **Vendredi matin** : pas de nouveau décor, on réutilise `dedina_zadok` ; la plaque recouverte de béton frais est un objet posé par-dessus (planche 52).
+- **La voiture de Marek** (le thé, l'allume-cigare) est dans le décor 45, coffre ouvert.
+- **Le logo de Zelená vlna** : trois vagues vertes sur le mur gris, comme dans l'illustration `img/illus_06_rura.jpg` du cours.
+- Tout le monde **regarde à droite** sur les planches (le jeu retourne lui-même).
+
+## 44. La rue du bas, inondée : `sources/povoden_ulica_wide_src.png` (décor 3:1)
+
+**À joindre** : `sources/dedina_potok_wide_src.png` (style et couleurs d'un décor de ce village) et `img/illus_06_povoden.jpg` (l'illustration du cours : l'ambiance et les maisons).
+
+Disposition, de gauche à droite : la route qui monte, encore au sec, avec la camionnette des pompiers ; puis la rue qui descend dans l'eau : maison 1 (eau au seuil), maison 2 (eau à mi-fenêtre), maison 3 (seul le toit dépasse) ; une cour avec une baignoire en zinc, deux poteaux et une corde à linge ; tout au fond à gauche, sur la butte, le bâtiment gris et son parking éclairé.
+
+```
+Use the first attached image (a background of the same game) as the reference for the drawing style, the colours and the level of detail. Use the second attached image (an illustration of the same story) for the place and the mood only (do not draw its characters).
+
+Scene: the lower street of a small Slovak village at dusk during a big flood, drawn as the long scrolling background of a point-and-click adventure game, as a very wide panoramic image in 3:1 format (3072x1024 pixels), seen from the front, a heavy dark grey-blue sky, wet colours, soft evening light. From left to right: a road climbing to the left, still dry and shining wet, with a small red fire-brigade van parked on it (no lights on, no text, no numbers); then the street goes down into calm, opaque, MUDDY BROWN flood water. Three small village houses with red tile roofs, at three different water levels: house 1, the water just reaches the doorstep; house 2, a little lower down the street, the water reaches halfway up the ground-floor window; house 3, the lowest, almost drowned, only the tiled roof and the chimney stick out of the water. Between house 1 and house 2, a small yard with a fence half under water, two wooden posts with a sagging clothesline between them (above the water), and an empty old ZINC BATHTUB floating in the yard. Far away in the upper left, on top of a green hill above the flood, a large, low, windowless GREY concrete building with a big empty car park lit by tall lamps, dry. The scene is EMPTY (no people, no animals). The lower third of the picture, along the whole width, is a flat sheet of brown water (few ripples, no objects), because characters will stand there. Do NOT draw rain. No text, no letters, no numbers, no signs with writing, no logos.
+
+Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading, simplified shapes, gentle gradients, no photographic textures or reflections. Landscape 3:1 format. No text, no letters, no numbers, no logos, no watermark.
+```
+
+À vérifier : les **trois niveaux d'eau** bien lisibles (seuil, fenêtre, toit), la baignoire et la corde à linge, le bâtiment gris **au sec** sur la butte, pas de pluie dessinée, le bas dégagé.
+
+## 45. Le portail et le parking, la nuit : `sources/brana_parkovisko_wide_src.png` (décor 3:1)
+
+**À la suite. À joindre** : `img/illus_06_rura.jpg` (le bâtiment gris et son logo dans le cours).
+
+Disposition, de gauche à droite : la route mouillée qui arrive de la vallée ; la clôture haute ; **l'ouverture du portail vide** entre deux piliers en béton (la grille vient à part) ; la guérite du gardien, un interphone sur un poteau et **une caméra au-dessus** ; le grand parking sec sous les projecteurs ; une vieille voiture break **coffre ouvert** ; le mur gris du bâtiment avec le logo des trois vagues vertes éclairé par un spot.
+
+```
+Now, in the same drawing style, draw the next scrolling background of the game: the entrance of the big grey building of the attached illustration, at NIGHT, as a very wide panoramic image in 3:1 format (3072x1024 pixels), seen from the front, dark blue night, wet ground shining under tall cold-white floodlights. From left to right: a wet road arriving from the left; a tall dark metal mesh fence; a wide gate OPENING left completely EMPTY between two square concrete pillars (no gate drawn in it, just the metal rail on the ground); just right of it a small grey guard hut with a lit window, and on a short metal post an intercom box with a round button, and a small grey security camera on top of the post pointing towards the gate; then a large, flat, dry asphalt car park with white painted parking lines (no numbers), lit by tall lamps, empty; on it an old grey-blue estate car parked sideways, its rear boot door wide open, a few folded blankets and a thermos inside; on the right, the high windowless grey concrete wall of the building, with a big logo of THREE parallel green wavy stripes (exactly like the attached illustration, no letters) lit from below by a spotlight. The scene is EMPTY (no people, no animals). The lower third along the whole width is open wet asphalt (characters walk there). Do NOT draw rain. No text, no letters, no numbers, no logos other than the three green waves.
+
+Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading, simplified shapes, gentle gradients. Landscape 3:1 format. No text, no letters, no numbers, no watermark.
+```
+
+À vérifier : l'ouverture du portail **vide**, la caméra sur l'interphone, la voiture coffre ouvert, les trois vagues vertes **sans lettres**, la nuit éclairée, le bas dégagé.
+
+## 46. Derrière le bâtiment : `sources/za_budovou_wide_src.png` (décor 3:1)
+
+**À la suite. À joindre** : `img/illus_06_rura.jpg` (c'est cette scène, vue en large).
+
+Disposition, de gauche à droite : l'herbe mouillée le long du mur ; le mur arrière gris, **une fenêtre sombre au premier étage**, le logo des trois vagues ; sur le toit, des bouches d'aération d'où monte de la vapeur ; **le gros tuyau** qui sort du mur au ras du sol et déverse son eau sur des pierres ; le ruisseau, puis la rivière gonflée à droite.
+
+```
+Now, in the same drawing style, draw the next scrolling background of the game: the BACK of the same big grey building, at night, after the rain, as a very wide panoramic image in 3:1 format (3072x1024 pixels), seen from the front, dark blue night lit by one cold lamp on the wall. From left to right: wet grass and a gravel strip along the building; the high grey concrete back wall, with a row of small DARK windows on the first floor (all unlit), the same logo of three green wavy stripes on the wall (no letters); on the flat roof, a row of grey ventilation units with white steam rising from them into the night; low on the wall, a big round metal PIPE coming out horizontally, about as wide as a manhole, pouring a thick stream of water onto wet stones, the water running in a small channel to the right; then a grassy bank and, on the far right, a swollen brown river flowing fast, with a few stones and reeds. The scene is EMPTY (no people, no animals). The lower third along the whole width stays clear (grass, gravel, stones, the channel), because characters will walk there. Do NOT draw rain. No text, no letters, no numbers, no logos other than the three green waves.
+
+Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, flat colours with soft cel shading, simplified shapes, gentle gradients. Landscape 3:1 format. No text, no letters, no numbers, no watermark.
+```
+
+À vérifier : le gros tuyau **bien visible au ras du sol**, la vapeur sur le toit, les fenêtres du premier étage **toutes éteintes**, la rivière à droite, le bas dégagé.
+
+## 47. Marek : `sources/marek_sheet_src.png` (planche de poses)
+
+**Nouvelle conversation ou à la suite. À joindre** : `sources/mato_sheet_src.png` (le style des animaux de ce jeu) et `img/illus_08_marek.jpg` (Marek dans le cours : le blaireau assis, à reproduire).
+
+```
+Use the first attached image (a sprite sheet of a bear) as the reference for the drawing style: clean ink outlines, flat colours with soft cel shading, same proportions of an anthropomorphic animal. Use the second attached image: the BADGER is Marek, to be reproduced exactly. Create a character pose sheet: 3:1 format (3072x1024 pixels), 4 columns x 2 rows of equal cells, the SAME character in every cell, full body, same scale, feet on the same baseline near the bottom of each cell, nothing touching the cell borders, no cell borders drawn, pure green #00FF00 background, no text.
+The character: Marek, an adult badger technician of about forty-five, exactly as in the attached image: black-and-white striped face, grey-brown fur, a navy blue work vest with pockets and a small badge clipped on it, a cream shirt with rolled-up sleeves, brown trousers, dark work shoes. A tired, kind face; he sleeps badly.
+Poses, all facing RIGHT: 1 running, holding up a big key in one hand, worried; 2 standing, turning a key in an invisible lock, looking over his shoulder; 3 pointing firmly to one side, stern ("the car park, not the building"); 4 pouring tea from a dented thermos into a paper cup; 5 holding out a folded blanket with both hands, a small sad smile; 6 shrugging with both hands open, innocent face ("the gate was broken"); 7 rubbing his eyes with one hand, exhausted; 8 standing very still, hands in his vest pockets, looking down, guilty.
+IMPORTANT: no green on the character.
+```
+
+À vérifier : le même blaireau que l'illustration (gilet bleu marine, badge, chemise crème), même taille dans toutes les cases.
+
+## 48. Le pompier et le gardien : `sources/hasic_strazca_sheet_src.png` (planche de poses)
+
+**À la suite. À joindre** : `sources/pan_sheet_src.png` (le style des humains de ce jeu) et `sources/starosta_sheet_src.png` (un autre humain déjà validé).
+
+```
+Use the attached images as the reference for how humans are drawn in this game: very simple cartoon shapes, flat colours, small simple eyes, few lines on the face. Create a character pose sheet: 3:1 format (3072x1024 pixels), 4 columns x 2 rows of equal cells, full body, same scale, feet on the same baseline near the bottom of each cell, nothing touching the cell borders, no cell borders drawn, pure green #00FF00 background, no text.
+TOP ROW, 4 poses of the same man: a firefighter of about thirty-five, a bright YELLOW firefighter jacket with silver reflective stripes, dark trousers, black rubber boots, a red helmet, a short beard, energetic: 1 waving one arm high to call someone ("you four!"); 2 pointing up and to the side, towards a hill; 3 holding a long wooden boat hook (a pole with a metal hook at the end) upright beside him; 4 handing the boat hook forward with one hand, a tired smile.
+BOTTOM ROW, 4 poses of the same man: a security guard of about fifty, a grey uniform with a dark cap, a long dark rain poncho over it, a torch on his belt, a heavy, stubborn face: 5 arms crossed, shaking his head ("closed"); 6 one hand raised flat, palm out ("stop"); 7 shrugging, embarrassed, looking away; 8 pressing a button on an invisible box, the gate opening behind him (not drawn).
+All facing RIGHT. IMPORTANT: no green on the characters (the yellow jacket stays yellow).
+```
+
+À vérifier : la veste **jaune** (pas verte), la gaffe du pompier en pose 3 et 4, le gardien sous son poncho.
+
+## 49. Figurants du chapitre 6 (1) : la souris, les lapins, le chat : `sources/figurants_ch6_src.png`
+
+**À la suite. À joindre** : `img/illus_06_povoden.jpg` (la souris au frigo et la cane du cours).
+
+```
+Same style. A 3:1 sheet (3072x1024 pixels) of 3 columns x 2 rows of equal cells, pure green #00FF00 background, no text, nothing touching the cell borders. Each COLUMN is one figurant: pose 1 in the top cell, pose 2 in the bottom cell, at exactly the same size and position, all facing RIGHT. Anthropomorphic animals, dressed, soaking wet.
+Column 1: an old grey mouse lady, small, round glasses, a flowered dress and a cardigan, a headscarf: (top) both hands on her cheeks, panicking ("careful with my fridge!"); (bottom) smiling, holding out a small fridge thermometer with both hands.
+Column 2: a family of three brown rabbits (father, mother, a small child) SITTING close together on an invisible roof ridge: (top) all waving their arms for help; (bottom) relieved, hugging each other.
+Column 3: a grumpy ginger cat standing on top of a floating wooden wardrobe (the wardrobe is lying on its back, half drawn, as if on water): (top) back arched, fur on end, hissing; (bottom) sitting curled up, sulking, ears flat.
+IMPORTANT: no green on the figurants.
+```
+
+## 50. Figurants du chapitre 6 (2) : les canards et les sinistrés : `sources/figurants_ch6b_src.png`
+
+**À la suite.**
+
+```
+Same style, same layout (3:1, 3 columns x 2 rows, each COLUMN one figurant or group with 2 poses at the same size and position, pure green #00FF00 background, no text, nothing touching the cell borders), all facing RIGHT.
+Column 1: a mother duck (anthropomorphic, a red headscarf and an apron, as in the attached illustration), standing in shallow water up to her ankles: (top) flapping her wings, quacking for help; (bottom) calm, counting on her wing tips.
+Column 2: a small group of three wet anthropomorphic animals standing close together (a roe deer, a hedgehog, an old wild boar), ordinary clothes, soaked: (top) shivering, arms around themselves; (bottom) the same three wrapped in blankets, holding paper cups of tea with a thin white steam.
+Column 3: another group: a hedgehog mother with two small hedgehog children, soaked: (top) huddled together, sad; (bottom) under one big blanket, the children asleep.
+IMPORTANT: no green on the figurants; blankets in red, blue and brown.
+```
+
+## 51. Objets du chapitre 6 (1) : le sauvetage et la mesure : `sources/objets_ch6_src.png`
+
+**À la suite.**
+
+```
+Same style. Create an object sheet for a 2D point-and-click adventure game: a very wide image in 3:1 format (3072x1024 pixels), a grid of 4 columns and 2 rows of equal cells, ONE object per cell, centred, nothing touching the cell borders, no cell borders drawn, pure green #00FF00 background, no shadows, no text, no numbers. Seen from the side and slightly from the front, same clean ink outlines, flat colours and soft cel shading.
+1 an old small white fridge with a rounded top and a chrome handle (an old 1960s model), standing;
+2 an old grey ZINC bathtub with a rolled rim, empty, seen from the side, floating (a flat line of brown water at its bottom);
+3 the same zinc bathtub floating, with the small white fridge lying inside it and a rope tied to the bathtub handle;
+4 a small fridge thermometer: a narrow white plastic case with a glass tube and a red line, a little hook at the top, as an inventory icon (no numbers);
+5 a coiled white clothesline rope, as an inventory icon;
+6 a long wooden firefighter's boat hook (a pole with a metal hook and point at one end), drawn diagonally across the cell;
+7 the same boat hook with the small fridge thermometer tied to its end with the white rope (a measuring pole), drawn diagonally;
+8 a wicker basket with four fluffy YELLOW ducklings inside, beaks open, peeping.
+IMPORTANT: no green on any object.
+```
+
+## 52. Objets du chapitre 6 (2) : le parking et le béton : `sources/objets_ch6b_src.png`
+
+**À la suite. À joindre** : `sources/dedina_zadok_wide_src.png` (la plaque de fer, pour la perspective du béton).
+
+```
+Same style, same layout (3:1, 4 columns x 2 rows, one object per cell, pure green #00FF00 background, no shadows, no text, no numbers).
+1 a dented metal thermos flask, dark red;
+2 a white paper cup full of tea, a thin curl of WHITE steam with a light grey outline;
+3 a big folded blanket, red and white checks;
+4 a medium folded blanket, plain blue;
+5 a small folded blanket, plain yellow;
+6 a tall sliding gate panel made of vertical dark grey steel bars with a horizontal bar at the top and at the bottom, seen from the front, filling the whole cell width (it will be moved on the game);
+7 a rectangular patch of fresh wet GREY CONCRETE flush with the ground, seen in the same perspective as the iron plate of the attached image (a flat shape lying on the ground), smooth, a little shiny, with a few trowel marks, nothing written;
+8 exactly the same concrete patch, with one small clear fox paw print pressed into it near a corner.
+IMPORTANT: no green on any object.
+```
+
+À vérifier : le béton **dans la même perspective que la plaque** (il va la recouvrir), la grille assez large.
+
+## 53. Animations du chapitre 6 (1) : l'inondation : `sources/ambiance_ch6_src.png`
+
+**À la suite.**
+
+```
+Same style. An animation sheet: a very wide image in 3:1 format (3072x1024 pixels), 4 columns x 2 rows of equal cells, ONE element per cell, centred, nothing touching the cell borders, no cell borders drawn, pure green #00FF00 background, no text. Elements that will be placed on top of a game background:
+1 a blue rotating emergency light of a fire van, bright, with blue light rays;
+2 the same light, the rays turned the other way and dimmer;
+3 a red plastic bucket floating, tilted, a flat line of brown water at its base;
+4 a wooden kitchen chair floating on its side, a flat line of brown water;
+5 a red-white-blue beach ball floating, a flat line of brown water;
+6 a big plume of WHITE steam rising (thick, with a light GREY ink outline), shape A;
+7 the same steam plume, shape B (curling the other way);
+8 a white water splash where a stream of water hits stones, foamy, with a light grey outline.
+IMPORTANT: no green anywhere on the elements; steam and foam are WHITE with grey outlines.
+```
+
+## 54. Animations du chapitre 6 (2) : la fenêtre et la caméra : `sources/ambiance_ch6b_src.png`
+
+**À la suite. À joindre** : `sources/za_budovou_wide_src.png` (pour la taille et la forme de la fenêtre) et `sources/marek_sheet_src.png`.
+
+```
+Same style, same layout (3:1, 4 columns x 2 rows, one element per cell, pure green #00FF00 background, no text).
+1 one small rectangular first-floor window of the attached building, LIT from inside with a warm yellow light, empty;
+2 the same lit window with the dark silhouette of the badger Marek standing behind it, looking down;
+3 a small grey security camera on a bracket, a tiny GREEN-free white light on;
+4 the same camera with a tiny RED light on;
+5 a small wisp of white steam rising from a wet blanket (light grey outline), shape A;
+6 the same wisp, shape B;
+7 a streak of falling water from a big pipe, seen from the side, white and light blue, shape A;
+8 the same streak, shape B (the foam shifted).
+IMPORTANT: no green anywhere on the elements.
+```
+
+## Après la génération (chapitre 6)
+
+Me renvoyer les images ; je les découpe (`python3 tools/cut_v2.py ch6`) et je les range dans `art/`. Les fichiers de référence `img/…` sont les illustrations du cours, à la racine du repo.
