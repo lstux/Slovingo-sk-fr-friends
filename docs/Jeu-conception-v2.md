@@ -326,6 +326,20 @@ Jouable de bout en bout, enchaîné après le bivouac du chapitre 3. Quatre scè
 - **Animations** : l'herbe haute, un papillon sur la plaque, le linge de la bergerie.
 - **Mots** : *potok, sucho, poklop, pohár, ticho, tečie, pondelok… nedeľa, centimeter, starosta*.
 
+#### Ce qui est fait (19 nov. 2026, `web-games/aventure/js/ch5.js`, test `web-games/tests/jeu_ch5_test.js`)
+
+Jouable de bout en bout, enchaîné après la carte du chapitre 4. Trois scènes : `dedina` (le ruisseau et le pré), `kuchyna5` (la cuisine de Babka), `zadok` (derrière la bergerie). Dialogues repris de `Histoire-v2.md` (kapitola 5). Écarts avec le plan ci-dessus :
+- **Batterie de Katka** : le moteur sait maintenant compter des barres (`helpers.katka.costs = [1, 2, 3]` : coup de pouce, direction, solution ; `g.drain(n)` pour filmer). À zéro, le téléphone est « vybitý ». Katka donne son **chargeur** à Gab en rejoignant la bande ; on le branche sur la prise de la cuisine.
+- **La brebis sous le pont** : la pousser, l'appeler, rien. La feuille de chou de Babka la fait sortir ; Gab garde le reste de la feuille. Maťo rejoint alors la bande (la bergerie s'ouvre quand Maťo et Katka sont là).
+- **Le repas** : trois assiettes (Babka ressert quand c'est presque vide). Deux sorties : *Ďakujem, bolo to výborné, už nevládzem* (choix sans traduction ; *Už nemôžem* et *Nechcem* ne marchent pas), ou le chien sous la table pendant que Babka regarde la casserole. Gag *Nie s bryndzou? — Ja som ovca.* au début.
+- **Le verre** se demande en vouvoyant : *Babka, požičiate mi pohár?* (*Požičaj mi…* : « Babke sa vyká, chlapče »). La feuille de chou se demande aussi à Babka.
+- **Le silence** derrière la bergerie : *Pst!* à Maťo, mode silencieux pour Katka, le reste du chou lancé à la brebis à la cloche, attendre que le tracteur (blaireau âgé) soit passé. Puis le verre sur la plaque, et trois sons à nommer (*Fúka vietor / Ticho / Tečie voda*). Le mot OPTIKA est écrit par le jeu sur la plaque.
+- **Le site** (`web_fond`) : la mesure du jour (42 cm), puis on pose « la semaine dernière » sur « cette semaine » (identiques), puis « Aj včera? Počas búrky? » : il faut cliquer sur **st** (aujourd'hui, c'est jeudi). Ensuite la capture coûte 1 barre ; si le téléphone est à plat, il faut retourner recharger chez Babka.
+- **Le maire** : il arrive dans sa petite voiture bleue ; trois façons de retenir Maťo, aucune ne marche. Carte « Zavolám správnym ľuďom ». Question du tableau *Sú čísla na webe pravdivé?* (« 42 cm sur le site » + « la main dans le ruisseau sec »), puis la carte vers le chapitre 6 et « fin de l'aperçu ».
+- Cartes du tableau : `sucho` (rayée), `ruka`, `krabicka`, `sused`, `poklop`, `web42`, `web_kopia` (pièce n° 4), `starosta`.
+- Pas faits : la boîte aux lettres de la mairie (fausse piste), le rideau qui ondule, le linge de la bergerie qui bouge. Le coucou sort toutes les 16 s, la fumée de la cheminée et la vapeur de la casserole sont des bouffées.
+- Sons : `docs/Sons-a-chercher.md`, section « Chapitre 5 ». Découpe des images : `python3 tools/cut_v2.py ch5` et `ch5b`.
+
 ### Chapitre 6 : Le portail
 
 *La vallée, jeudi soir et vendredi matin. Grammaire : *pomôcť*, l'aspect (*stúpa / stúpne*). Pièce n° 5 : la vidéo. Question du tableau : « Qui a prévenu le bâtiment gris ? »*
@@ -611,15 +625,15 @@ Jouable de bout en bout, enchaîné après le bivouac du chapitre 3. Quatre scè
 
 **Pour les chapitres 3 à 12** (les points 1 à 4 sont faits) :
 
-6. **Batterie du téléphone de Katka** (indices à partir du ch. 5) et points de recharge.
+6. **Batterie du téléphone de Katka** (indices à partir du ch. 5) et points de recharge. *Fait (ch. 5).*
 7. **Écran noir avec halo** (ch. 3, les yeux fermés ; ch. 4, la panne) : `scene.overlay` suffit.
 8. **Panneau « ordre »** réutilisable : sauvetage (ch. 6), pièces sur le banc (ch. 9), le direct (ch. 12).
 9. **Panneau « cadrage »** : un cadre à déplacer et zoomer sur le décor (ch. 6 et 8).
-10. **Panneau « comparaison »** : deux listes à faire glisser l'une sur l'autre (ch. 5, ch. 6 matin, ch. 11).
+10. **Panneau « comparaison »** : deux listes à faire glisser l'une sur l'autre (ch. 5, ch. 6 matin, ch. 11). *Version ch. 5 : `webPanel` dans `ch5.js`.*
 11. **Consignes aux complices** : cliquer sur Katka ou Maťo ouvre un choix d'ordres (ch. 8, 9, 11).
 12. **Deux jauges en dialogue** (patience du chauffeur, bras de Katka, ch. 11) et **choix « ne rien faire »** à durée limitée (ch. 4).
 13. **Étiquettes à assembler** pour construire une phrase (ch. 10).
-14. **Écoute** : trois sons à nommer (ch. 5). Sons à ajouter dans `Sons-a-chercher.md`.
+14. **Écoute** : trois sons à nommer (ch. 5). *Fait (un choix, plus `sfx/eau_poklop`).*
 15. **Tableau** : suspects à rayer, cases « témoin », questions qui se rouvrent (ch. 7) et restent ouvertes plusieurs chapitres.
 
 ## 9. Images pour le prologue et les chapitres 1 et 2

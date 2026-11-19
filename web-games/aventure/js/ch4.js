@@ -722,6 +722,6 @@
     g.setFlag('ch4_done');
     await g.animate(1500, (k) => g.fade(k));
     await g.showMap('ch5');
-    g.end('Koniec ukážky · kapitola 5 čoskoro', 'Fin de l\'aperçu · le chapitre 5 arrive bientôt');
+    g.goScene('dedina');
   }
 })();

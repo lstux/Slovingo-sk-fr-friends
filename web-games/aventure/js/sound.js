@@ -25,9 +25,12 @@
     chata: { f: 'foret', v: 0.4, rand: [{ f: 'geai', every: [25, 45], v: 0.3 }] },
     jazero: { f: 'ruisseau', v: 0.5 },
     bivouac: { f: 'nuit_foret', v: 0.55 },
+    dedina: { f: 'village', v: 0.5, rand: [{ f: 'coq', every: [30, 60], v: 0.3 }, { f: 'cloche_mouton', every: [12, 25], v: 0.25 }] },
+    kuchyna5: { f: 'cuisine', v: 0.45 },
+    zadok: { f: 'village', v: 0.4, rand: [{ f: 'cloche_mouton', every: [10, 20], v: 0.25 }] },
   };
   // sol sous les pieds : par defaut dur (carrelage, pave) ; herbe pour les jardins, le parc et la foret ; rien = pas de bruit de pas
-  const GRASS = ['zahrada', 'rano', 'jazierko', 'raj', 'chata', 'jazero', 'bivouac'];
+  const GRASS = ['zahrada', 'rano', 'jazierko', 'raj', 'chata', 'jazero', 'bivouac', 'dedina', 'zadok'];
   const NO_STEPS = ['chata_vecer', 'izba', 'kuchyna', 'chata_rano'];   // refuge : les sons du chapitre 4 ne sont pas encore la
   // volume de chaque bruitage (1 par defaut)
   // duree maximale (s) des bruitages trop longs : fondu puis arret

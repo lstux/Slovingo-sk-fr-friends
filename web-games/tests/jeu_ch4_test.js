@@ -16,7 +16,7 @@ const srv = http.createServer((q, r) => {
   const fail = async (m) => { console.error('ECHEC :', m); await shot('zz_echec'); process.exit(1); };
   const errs = [];
   pg.on('pageerror', (e) => errs.push(e.message)); pg.on('console', (m) => { if (m.type() === 'error' && !/404/.test(m.text())) errs.push(m.text()); });
-  const missing = []; pg.on('response', (r) => { if (r.status() === 404) missing.push(r.url()); });
+  const missing = []; pg.on('response', (r) => { if (r.status() === 404 && !/\/audio\//.test(r.url())) missing.push(r.url()); });   // les sons pas encore trouves sont ignores
   await pg.goto(`http://localhost:${port}/aventure/jeu.html`);
   await pg.waitForFunction(() => window.__zajka && window.__zajka.scene);
   await pg.evaluate(() => localStorage.clear());
@@ -135,7 +135,7 @@ const srv = http.createServer((q, r) => {
   await pickCards('fotka_vykop', 'mokrad');   // faux : mokrad + fotka ne vont pas ensemble
   await until((q) => q.q && q.sel === 0 && !q.dlg, 'mauvaise reponse', 800);
   await pickCards('fotka_vykop', 'bager_sirka');
-  await until((q) => q.end, 'fin de l\'apercu', 3000);
+  await until((q) => q.sc === 'dedina', 'vers le chapitre 5', 3000);
   await shot('4e_fin');
   s = await st(); if (!s.flags.ch4_done) await fail('ch4_done');
   if (errs.length) { console.error('ERREURS JS :', errs.slice(0, 5)); process.exit(1); }

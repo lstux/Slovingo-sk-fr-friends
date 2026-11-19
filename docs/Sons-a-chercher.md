@@ -123,6 +123,20 @@ son avec une marque ou une voix reconnaissable.
 | **Matin** (après l'orage) | gouttes, oiseaux de montagne, ruisseau qui coule | `mountain morning after rain`, `dripping birds` | `amb/matin_tatry.ogg` | mountain morning after rain : [P](https://pixabay.com/sound-effects/search/mountain%20morning%20after%20rain/) [F](https://freesound.org/search/?q=mountain+morning+after+rain&f=license%3A%22Creative+Commons+0%22)<br>dripping birds : [P](https://pixabay.com/sound-effects/search/dripping%20birds/) [F](https://freesound.org/search/?q=dripping+birds&f=license%3A%22Creative+Commons+0%22) |
 | Musique du monsieur | même thème « léger mais inquiétant » (voir Musique) |  | `musique/pan.ogg` |  |
 
+## Chapitre 5 : 42 centimètres (le village)
+
+Déjà branchés dans `js/sound.js` et `js/ch5.js` : tant que le fichier manque, le jeu se tait (sans erreur). La voiture du maire réutilise `voiture_arrive`, `portiere`, `voiture_part`.
+
+| Scène / action | Ce qu'on entend | Mots-clés | Fichiers visés | Liens |
+|---|---|---|---|---|
+| **Le village** (dehors) | village calme à midi : oiseaux, poules au loin, vent léger | `village ambience countryside`, `farm ambience day` | `amb/village.ogg` | village ambience countryside : [P](https://pixabay.com/sound-effects/search/village%20ambience%20countryside/) [F](https://freesound.org/search/?q=village+ambience+countryside&f=license%3A%22Creative+Commons+0%22)<br>farm ambience day : [P](https://pixabay.com/sound-effects/search/farm%20ambience%20day/) [F](https://freesound.org/search/?q=farm+ambience+day&f=license%3A%22Creative+Commons+0%22) |
+| Coq, brebis à la cloche | un cocorico ; une cloche de mouton qui tinte, un bêlement | `rooster crow`, `sheep bell`, `sheep bleat` | `sfx/coq.ogg`, `sfx/cloche_mouton.ogg` | rooster crow : [P](https://pixabay.com/sound-effects/search/rooster%20crow/) [F](https://freesound.org/search/?q=rooster+crow&f=license%3A%22Creative+Commons+0%22)<br>sheep bell : [P](https://pixabay.com/sound-effects/search/sheep%20bell/) [F](https://freesound.org/search/?q=sheep+bell&f=license%3A%22Creative+Commons+0%22)<br>sheep bleat : [P](https://pixabay.com/sound-effects/search/sheep%20bleat/) [F](https://freesound.org/search/?q=sheep+bleat&f=license%3A%22Creative+Commons+0%22) |
+| **Cuisine de Babka** | casserole qui mijote, cuillère, horloge (tic-tac) | `kitchen cooking simmer`, `clock ticking` | `amb/cuisine.ogg` (aussi pour la cuisine du ch. 4) | kitchen cooking simmer : [P](https://pixabay.com/sound-effects/search/kitchen%20cooking%20simmer/) [F](https://freesound.org/search/?q=kitchen+cooking+simmer&f=license%3A%22Creative+Commons+0%22)<br>clock ticking : [P](https://pixabay.com/sound-effects/search/clock%20ticking/) [F](https://freesound.org/search/?q=clock+ticking&f=license%3A%22Creative+Commons+0%22) |
+| Coucou | « coucou » de l'horloge, toutes les 16 s | `cuckoo clock` | `sfx/coucou.ogg` | cuckoo clock : [P](https://pixabay.com/sound-effects/search/cuckoo%20clock/) [F](https://freesound.org/search/?q=cuckoo+clock&f=license%3A%22Creative+Commons+0%22) |
+| **Sous la plaque OPTIKA** | de l'eau qui coule vite dans un tuyau, étouffée (entendue à travers un verre) | `water flowing pipe underground`, `water pipe rushing muffled` | `sfx/eau_poklop.ogg` | water flowing pipe underground : [P](https://pixabay.com/sound-effects/search/water%20flowing%20pipe%20underground/) [F](https://freesound.org/search/?q=water+flowing+pipe+underground&f=license%3A%22Creative+Commons+0%22)<br>water pipe rushing muffled : [P](https://pixabay.com/sound-effects/search/water%20pipe%20rushing%20muffled/) [F](https://freesound.org/search/?q=water+pipe+rushing+muffled&f=license%3A%22Creative+Commons+0%22) |
+| Tracteur | vieux tracteur qui passe au loin | `old tractor passing`, `tractor engine distant` | `sfx/tracteur.ogg` | old tractor passing : [P](https://pixabay.com/sound-effects/search/old%20tractor%20passing/) [F](https://freesound.org/search/?q=old+tractor+passing&f=license%3A%22Creative+Commons+0%22)<br>tractor engine distant : [P](https://pixabay.com/sound-effects/search/tractor%20engine%20distant/) [F](https://freesound.org/search/?q=tractor+engine+distant&f=license%3A%22Creative+Commons+0%22) |
+| Captures d'écran | déclic d'appareil photo de téléphone | `phone camera shutter` | `sfx/photo.ogg` | phone camera shutter : [P](https://pixabay.com/sound-effects/search/phone%20camera%20shutter/) [F](https://freesound.org/search/?q=phone+camera+shutter&f=license%3A%22Creative+Commons+0%22) |
+
 ## Où chercher quoi (conseil)
 
 Les bons sites ne sont pas les mêmes selon le type de son.
@@ -143,7 +157,7 @@ Astuce : Freesound a un filtre de licence ; avec le lien ci-dessous (colonne « 
 |---|---|---|---|
 | 3. Raj | voir la section « Chapitre 3 » ci-dessus | | fait |
 | 4. Orage | voir la section « Chapitre 4 » ci-dessus | | fait |
-| 5. Domov (le village d'enfance) | village sous les Tatras | cloches, poules, moutons, ruisseau qui rétrécit, ambiance de cuisine (Babka) | à chercher |
+| 5. 42 centimètres (le village) | voir la section « Chapitre 5 » ci-dessus | | à chercher |
 | 6. Inondation (Liptov) | pluie, rivière qui déborde, gymnase | pluie continue, eau qui monte, sirène de pompiers, foule feutrée dans un gymnase, télé en fond | à chercher |
 | 7. La route | route, forêt coupée | tronçonneuse, engin de chantier lointain, asphalte et pas | à chercher |
 | 8. Centre de données | hall de serveurs | bourdonnement grave de ventilateurs, clics de relais, porte à badge | à chercher |

@@ -270,6 +270,9 @@
         helperDead: (v = true) => { if (g.helper) { g.helper.dead = v; g.save(); } },
         chargeHelper: (tokens) => { if (g.helper) { g.helper.tokens = tokens === undefined ? g.helper.max : tokens; g.helper.dead = false; g.save(); } },
         noHelper: () => { g.helper = null; g.save(); },
+        // depenser des barres de batterie (filmer, appeler) : false si le telephone n'en a pas assez
+        drain: (n) => { const H = g.helper; if (!H || H.dead || H.tokens < n) return false; H.tokens -= n; if (H.tokens <= 0) H.dead = true; g.save(); return true; },
+        helperLeft: () => (g.helper && !g.helper.dead ? g.helper.tokens : 0),
         showMap: (to, opts) => g.showMap(to, opts),
         // --- tableau d'enquete
         addCard: (id) => { if (!g.cards.includes(id)) { g.cards.push(id); g.save(); g.sfx('indice'); const cd = ((g.data.board || {}).cards || {})[id]; g.toast = { sk: '📌 Nová stopa: ' + (cd ? cd.sk : id), fr: 'Nouvel indice au tableau', t0: g.t }; } },
@@ -461,7 +464,10 @@
         if (!h) { await this.say(cfg.who || H.who, 'Pozri sa dobre okolo seba.', 'Regarde bien autour de toi.'); return; }
         const lv = Math.min(this.hintLevel[h.id] || 0, h.levels.length - 1);
         this.hintLevel[h.id] = (this.hintLevel[h.id] || 0) + 1;
-        H.tokens -= 1; this.save();
+        // le telephone de Katka : un coup de pouce coute 1 barre, une direction 2, la solution 3 (cfg.costs) ; a zero, il est vide
+        const cost = Math.min(H.tokens, (cfg.costs || [])[lv] || 1);
+        H.tokens -= cost; if (cfg.costs && H.tokens <= 0) H.dead = true;
+        this.save();
         await this.say(cfg.who || H.who, h.levels[lv].sk, h.levels[lv].fr, h.levels[lv].words);
       });
     }

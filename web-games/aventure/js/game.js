@@ -64,7 +64,7 @@
     { id: 'ch2', num: 2, title: { sk: 'Nula litrov', fr: 'Zéro litre' }, lon: 21.26, lat: 48.72, label: false },
     { id: 'ch3', num: 3, title: { sk: 'Raj', fr: 'Le Paradis' }, place: { sk: 'Slovenský raj', fr: 'Paradis slovaque' }, lon: 20.35, lat: 48.93 },
     { id: 'ch4', num: 4, title: { sk: 'Búrka', fr: 'L\'orage' }, place: { sk: 'Vysoké Tatry', fr: 'Hautes Tatras' }, lon: 20.15, lat: 49.16, dy: -14 },
-    { id: 'ch5', num: 5, title: { sk: 'Domov', fr: 'Chez soi' }, lon: 19.75, lat: 49.1, dy: 18 },
+    { id: 'ch5', num: 5, title: { sk: '42 centimetrov', fr: '42 centimètres' }, lon: 19.75, lat: 49.1, dy: 18 },
     { id: 'ch6', num: 6, title: { sk: 'Povodeň', fr: 'L\'inondation' }, place: { sk: 'Liptov', fr: 'Liptov' }, lon: 19.4, lat: 49.05, dy: -16 },
     { id: 'ch7', num: 7, title: { sk: 'Cesta', fr: 'La route' }, lon: 19.15, lat: 48.8, dy: 20 },
     { id: 'ch8', num: 8, title: { sk: 'Dátové centrum', fr: 'Le centre de données' }, lon: 18.95, lat: 48.62, dy: 20 },
@@ -778,7 +778,7 @@
     },
     helpers: {
       andrea: { who: 'andrea', icon: '🐰', title: 'Andrea', empty: { sk: 'Teraz si musíš poradiť sám, Gab.', fr: 'Là, il faut te débrouiller tout seul, Gab.' } },
-      katka: { who: 'katka', icon: '📱', title: 'Katka', empty: { sk: 'Batéria je na nule…', fr: 'La batterie est à zéro…' }, dead: { sk: 'Telefón je vybitý.', fr: 'Le téléphone est déchargé.' } },
+      katka: { who: 'katka', icon: '📱', title: 'Katka', costs: [1, 2, 3], empty: { sk: 'Batéria je na nule…', fr: 'La batterie est à zéro…' }, dead: { sk: 'Vybitý. Babka má zásuvku… a Gab nabíjačku.', fr: 'À plat. Babka a une prise… et Gab le chargeur.' } },
     },
     characters: Object.assign({}, ZA_DATA.characters, {
       automat: { name: 'Obrazovka', icon: '🖥️', color: '#4a6ac0' },   // l'ecran du distributeur (il ne parle pas : il affiche)
