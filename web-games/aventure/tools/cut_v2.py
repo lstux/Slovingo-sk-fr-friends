@@ -391,9 +391,72 @@ def chapter5b():
     single(c[7], 'kruhy', 60)
 
 
+def chapter6():
+    """Chapitre 6 « Le portail » : 3 decors, Marek, pompier et gardien, figurants, objets, animations."""
+    # la rue inondee : on efface la baignoire du decor (le jeu affiche la sienne) en recopiant la palissade et l'eau d'a cote
+    im = Image.open(os.path.join(SRC, 'povoden_ulica_wide_src.png')).convert('RGB')
+    blk = im.crop((990, 470, 1061, 562))
+    for x in range(1061, 1206, 71):
+        im.paste(blk, (x, 470))
+    im.resize((2160, 720), Image.LANCZOS).save(os.path.join(ART, 'povoden_ulica.webp'), quality=88)
+    for n in ('brana_parkovisko', 'za_budovou'):
+        Image.open(os.path.join(SRC, n + '_wide_src.png')).convert('RGB').resize((2160, 720), Image.LANCZOS).save(os.path.join(ART, n + '.webp'), quality=88)
+    print('decors ch6')
+    c = cells(os.path.join(SRC, 'marek_sheet_src.png'), 4, 2)
+    for cell, n in zip(c, ['run', 'key', 'point', 'tea', 'blanket', 'shrug', 'tired', 'guilty']):
+        single(cell, 'marek_' + n, 520)
+    c = cells(os.path.join(SRC, 'hasic_strazca_sheet_src.png'), 4, 2)
+    for cell, n in zip(c[:7], ['hasic_wave', 'hasic_point', 'hasic_hook', 'hasic_give', 'strazca_cross', 'strazca_stop', 'strazca_shrug']):
+        single(cell, n, 520)
+    c = cells(os.path.join(SRC, 'figurants_ch6_src.png'), 3, 2)
+    pair(c[0], c[3], 'mys6_a', 'mys6_b', 300)
+    pair(c[1], c[4], 'zajace6_a', 'zajace6_b', 300)
+    pair(c[2], c[5], 'macka6_a', 'macka6_b', 300)
+    c = cells(os.path.join(SRC, 'figurants_ch6b_src.png'), 3, 2)
+    pair(c[0], c[3], 'kacica6_a', 'kacica6_b', 300)
+    pair(c[1], c[4], 'skupina6_a', 'skupina6_b', 340)
+    pair(c[2], c[5], 'jezkovia6_a', 'jezkovia6_b', 300)
+    c = cells(os.path.join(SRC, 'objets_ch6_src.png'), 4, 2)
+    for i, n, h in [(0, 'obj_chladnicka', 220), (1, 'obj_vana', 200), (2, 'obj_vana_chl', 240), (3, 'item_teplomer', 160),
+                    (4, 'item_lano', 140), (5, 'item_hak', 200), (6, 'item_meradlo', 200), (7, 'item_kosik', 160)]:
+        single(c[i], n, h)
+    c = cells(os.path.join(SRC, 'objets_ch6b_src.png'), 4, 2)
+    for i, n, h in [(0, 'obj_termoska', 160), (1, 'item_caj', 160), (2, 'item_deka_l', 150), (3, 'item_deka_m', 130),
+                    (4, 'item_deka_s', 110), (5, 'obj_brana', 400), (6, 'obj_beton', 260), (7, 'obj_beton_labka', 260)]:
+        single(c[i], n, h)
+    c = cells(os.path.join(SRC, 'ambiance_ch6_src.png'), 4, 2)
+    for i, n, h in [(0, 'majak_a', 160), (1, 'majak_b', 160), (2, 'plav_vedro', 120), (3, 'plav_stolicka', 140),
+                    (4, 'plav_lopta', 110), (5, 'para6_a', 300), (6, 'para6_b', 300), (7, 'voda_spl', 220)]:
+        single(c[i], n, h)
+    c = cells(os.path.join(SRC, 'ambiance_ch6b_src.png'), 4, 2)
+    for i, n, h in [(2, 'kamera_a', 140), (3, 'kamera_b', 140), (4, 'deka_para_a', 160), (5, 'deka_para_b', 160)]:
+        single(c[i], n, h)
+    # la fenetre : seulement l'interieur (les deux carreaux), redresse en rectangle ; le jet : seulement l'eau, sous le tuyau
+    for i, n in [(0, 'okno_svetlo'), (1, 'okno_marek')]:
+        cell = c[i]; bb = bbox(cell)
+        save(cell.crop((bb[0] + 30, bb[1] + 48, bb[2] - 40, bb[3] - 34)).convert('RGB').convert('RGBA'), n, 200)
+    for i, n in [(6, 'rura_voda_a'), (7, 'rura_voda_b')]:
+        cell = c[i]; bb = bbox(cell)
+        save(cell.crop((bb[0] + 125, bb[1] + 112, bb[2], bb[3])), n, 260)
+    fix_ch6()
+
+
+def fix_ch6():
+    """Les vapeurs vert menthe deviennent blanches ; on enleve les restes de vert."""
+    for n in ('item_caj', 'deka_para_a', 'deka_para_b', 'para6_a', 'para6_b', 'majak_a', 'majak_b', 'voda_spl', 'rura_voda_a', 'rura_voda_b'):
+        a = _load(n); r, g, b = a[..., 0], a[..., 1], a[..., 2]
+        m = (g > r + 6) & (g > b + 6) & (a[..., 3] > 0)
+        light = (r + g + b) / 3 > 150
+        a[..., 0] = np.where(m & light, 236, r); a[..., 1] = np.where(m & light, 240, g); a[..., 2] = np.where(m & light, 244, b)
+        a[..., 1] = np.where(m & ~light, np.maximum(r, b) + 4, a[..., 1])
+        _store(n, a)
+
+
 if __name__ == '__main__':
     import sys
-    if 'ch5b' in sys.argv:
+    if 'ch6' in sys.argv:
+        chapter6()
+    elif 'ch5b' in sys.argv:
         chapter5b()
     elif 'ch5' in sys.argv:
         chapter5()

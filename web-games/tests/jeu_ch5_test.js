@@ -159,7 +159,7 @@ const srv = http.createServer((q, r) => {
   await pickCards('web42', 'sused');
   await until((q) => q.q && q.sel === 0 && !q.dlg, 'mauvaise reponse', 800);
   await pickCards('web42', 'ruka');
-  await until((q) => q.end, 'fin de l\'apercu', 3000);
+  await until((q) => q.sc === 'povoden', 'vers le chapitre 6', 3000);
   await shot('5b_fin');
   s = await st(); if (!s.flags.ch5_done) await fail('ch5_done');
   if (errs.length) { console.error('ERREURS JS :', errs.slice(0, 5)); process.exit(1); }

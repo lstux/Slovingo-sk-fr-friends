@@ -27,6 +27,10 @@
     bivouac: { f: 'nuit_foret', v: 0.55 },
     dedina: { f: 'village', v: 0.5, rand: [{ f: 'coq', every: [30, 60], v: 0.3 }, { f: 'cloche_mouton', every: [12, 25], v: 0.25 }] },
     kuchyna5: { f: 'cuisine', v: 0.45 },
+    povoden: { f: 'inondation', v: 0.55 },
+    brana: { f: 'pluie_nuit', v: 0.5 },
+    rura: { f: 'pluie_nuit', v: 0.4, rand: [{ f: 'eau_tuyau', every: [6, 9], v: 0.35 }] },
+    zadok_rano: { f: 'village', v: 0.4 },
     zadok: { f: 'village', v: 0.4, rand: [{ f: 'cloche_mouton', every: [10, 20], v: 0.25 }] },
   };
   // sol sous les pieds : par defaut dur (carrelage, pave) ; herbe pour les jardins, le parc et la foret ; rien = pas de bruit de pas

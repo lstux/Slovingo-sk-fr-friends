@@ -671,6 +671,7 @@
       const order = this.sprites.filter((s) => !s.hidden).sort((a, b) => a.y - b.y);
       for (const s of order) this.drawSprite(s);
       if (sc.ambient) this.drawAmbient(sc, true);
+      if (sc.front) sc.front(c, this.api(), this);   // dessin libre DEVANT les personnages (l'eau de la rue inondee, la pluie)
       c.restore();
       if (sc.dim) { const a = sc.dim(this.api()); if (a > 0) { c.fillStyle = `rgba(8,10,40,${a})`; c.fillRect(0, 0, W, H); } }
       if (sc.night) this.drawNight(sc.night(this.api(), this));   // la nuit : { a, lights: [[x, y, rayon, force]], flash } (le noir de l'orage, avec un halo)

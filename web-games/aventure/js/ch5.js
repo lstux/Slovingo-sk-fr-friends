@@ -61,6 +61,7 @@
   const zuzana = (x, y, face) => mk('zuzana', 'zuz_', ZUZ, 355, 450, x, y, face, 'stir', { alt: { pose: 'back', min: 4, max: 7, hold: [2.4, 3.4] } });
   const starosta = (x, y) => mk('starosta', 'starosta_', STAR, 350, 470, x, y, -1, 'open', { hidden: true });
   const twoPose = (id, a, b, x, y, h, alt, extra) => Object.assign({ id, img: `art/${a}.png`, x, y, h, abs: true, face: 1, poses: { b: { img: `art/${b}.png`, h } }, alt: Object.assign({ pose: 'b', min: 3, max: 6, hold: [1.5, 3] }, alt || {}) }, extra || {});
+  Object.assign(L, { mato5: mato, katka5: katka, twoPose5: twoPose, mk5: mk });   // pour les chapitres suivants
   const FLOOR_OUT = [[0, 520], [2160, 520], [2160, 712], [0, 712]], SCALE_OUT = { y0: 520, s0: 0.46, y1: 712, s1: 0.62 };
   const rank = (h) => (h.sprite ? 0 : h.top ? 2 : 1);
   const joined = (g) => g.flag('mato_in') && g.flag('katka_in');
@@ -789,6 +790,6 @@
     g.setFlag('ch5_done');
     await g.animate(1500, (k) => g.fade(k));
     await g.showMap('ch6');
-    g.end('Koniec ukážky · kapitola 6 čoskoro', 'Fin de l\'aperçu · le chapitre 6 arrive bientôt');
+    g.goScene('povoden');
   }
 })();

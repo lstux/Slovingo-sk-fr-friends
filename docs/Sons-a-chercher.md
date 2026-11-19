@@ -137,6 +137,18 @@ Déjà branchés dans `js/sound.js` et `js/ch5.js` : tant que le fichier manque,
 | Tracteur | vieux tracteur qui passe au loin | `old tractor passing`, `tractor engine distant` | `sfx/tracteur.ogg` | old tractor passing : [P](https://pixabay.com/sound-effects/search/old%20tractor%20passing/) [F](https://freesound.org/search/?q=old+tractor+passing&f=license%3A%22Creative+Commons+0%22)<br>tractor engine distant : [P](https://pixabay.com/sound-effects/search/tractor%20engine%20distant/) [F](https://freesound.org/search/?q=tractor+engine+distant&f=license%3A%22Creative+Commons+0%22) |
 | Captures d'écran | déclic d'appareil photo de téléphone | `phone camera shutter` | `sfx/photo.ogg` | phone camera shutter : [P](https://pixabay.com/sound-effects/search/phone%20camera%20shutter/) [F](https://freesound.org/search/?q=phone+camera+shutter&f=license%3A%22Creative+Commons+0%22) |
 
+## Chapitre 6 : Brána (l'inondation, le portail)
+
+Déjà branchés dans `js/sound.js` et `js/ch6.js`. Le portail réutilise `portillon`, l'interphone `bip`, la vidéo `photo` (chapitre 5).
+
+| Scène / action | Ce qu'on entend | Mots-clés | Fichiers visés | Liens |
+|---|---|---|---|---|
+| **La rue inondée** | pluie forte sur de l'eau, courant, sirène lointaine | `flood rain water ambience`, `rain on water river` | `amb/inondation.ogg` | flood rain water ambience : [P](https://pixabay.com/sound-effects/search/flood%20rain%20water%20ambience/) [F](https://freesound.org/search/?q=flood+rain+water+ambience&f=license%3A%22Creative+Commons+0%22)<br>rain on water river : [P](https://pixabay.com/sound-effects/search/rain%20on%20water%20river/) [F](https://freesound.org/search/?q=rain+on+water+river&f=license%3A%22Creative+Commons+0%22) |
+| **Portail, parking, derrière le bâtiment** | pluie de nuit sur l'asphalte, bourdonnement de machines au loin | `rain night asphalt`, `rain ambience night` | `amb/pluie_nuit.ogg` | rain night asphalt : [P](https://pixabay.com/sound-effects/search/rain%20night%20asphalt/) [F](https://freesound.org/search/?q=rain+night+asphalt&f=license%3A%22Creative+Commons+0%22)<br>rain ambience night : [P](https://pixabay.com/sound-effects/search/rain%20ambience%20night/) [F](https://freesound.org/search/?q=rain+ambience+night&f=license%3A%22Creative+Commons+0%22) |
+| Eau du tuyau | un gros jet d'eau qui tombe sur des pierres | `water pipe outflow`, `water pouring stones` | `sfx/eau_tuyau.ogg` | water pipe outflow : [P](https://pixabay.com/sound-effects/search/water%20pipe%20outflow/) [F](https://freesound.org/search/?q=water+pipe+outflow&f=license%3A%22Creative+Commons+0%22)<br>water pouring stones : [P](https://pixabay.com/sound-effects/search/water%20pouring%20stones/) [F](https://freesound.org/search/?q=water+pouring+stones&f=license%3A%22Creative+Commons+0%22) |
+| Canetons | piaillements de canetons | `ducklings peeping`, `baby ducks` | `sfx/kacatka.ogg` | ducklings peeping : [P](https://pixabay.com/sound-effects/search/ducklings%20peeping/) [F](https://freesound.org/search/?q=ducklings+peeping&f=license%3A%22Creative+Commons+0%22)<br>baby ducks : [P](https://pixabay.com/sound-effects/search/baby%20ducks/) [F](https://freesound.org/search/?q=baby+ducks&f=license%3A%22Creative+Commons+0%22) |
+| Pas dans l'eau, l'eau qui monte | pas qui pataugent ; un glouglou | `wading water footsteps`, `water rising gurgle` | `sfx/eau_pas.ogg`, `sfx/eau_monte.ogg` | wading water footsteps : [P](https://pixabay.com/sound-effects/search/wading%20water%20footsteps/) [F](https://freesound.org/search/?q=wading+water+footsteps&f=license%3A%22Creative+Commons+0%22)<br>water rising gurgle : [P](https://pixabay.com/sound-effects/search/water%20rising%20gurgle/) [F](https://freesound.org/search/?q=water+rising+gurgle&f=license%3A%22Creative+Commons+0%22) |
+
 ## Où chercher quoi (conseil)
 
 Les bons sites ne sont pas les mêmes selon le type de son.
@@ -158,7 +170,7 @@ Astuce : Freesound a un filtre de licence ; avec le lien ci-dessous (colonne « 
 | 3. Raj | voir la section « Chapitre 3 » ci-dessus | | fait |
 | 4. Orage | voir la section « Chapitre 4 » ci-dessus | | fait |
 | 5. 42 centimètres (le village) | voir la section « Chapitre 5 » ci-dessus | | à chercher |
-| 6. Inondation (Liptov) | pluie, rivière qui déborde, gymnase | pluie continue, eau qui monte, sirène de pompiers, foule feutrée dans un gymnase, télé en fond | à chercher |
+| 6. Brána (l'inondation) | voir la section « Chapitre 6 » ci-dessus | | à chercher |
 | 7. La route | route, forêt coupée | tronçonneuse, engin de chantier lointain, asphalte et pas | à chercher |
 | 8. Centre de données | hall de serveurs | bourdonnement grave de ventilateurs, clics de relais, porte à badge | à chercher |
 | 9. Mine (Banská Štiavnica) | grille, galerie | grille qui grince, goutte dans un tunnel, écho | à chercher |

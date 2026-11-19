@@ -384,6 +384,21 @@ Jouable de bout en bout, enchaîné après la carte du chapitre 4. Trois scènes
 - **Rendre le thermomètre** à la souris avant de partir (sinon elle le réclame par SMS à Katka pendant tout le chapitre 7).
 - **Mots** : *povodeň, pomoc, strecha, brána, teplá, para, rúra, betón, teplomer*.
 
+#### Ce qui est fait (19 nov. 2026, `web-games/aventure/js/ch6.js`, test `web-games/tests/jeu_ch6_test.js`)
+
+Jouable de bout en bout, enchaîné après la carte du chapitre 5. Quatre scènes : `povoden` (la rue inondée), `brana` (le portail et le parking), `rura` (derrière le bâtiment), `zadok_rano` (derrière la bergerie, vendredi matin : même décor que le ch. 5, le béton est posé par-dessus). Dialogues repris de `Histoire-v2.md` (kapitola 6). Écarts avec le plan ci-dessus :
+- **L'ordre des voyages** : pas de minuteur de 30 s. L'eau monte d'un cran **après chaque voyage** de Maťo (bande d'eau dessinée devant les personnages, hook `front` ajouté au moteur). Toit (1 cran), fenêtre (2), genoux (3) : si quelqu'un est noyé, les pompiers le sortent en bateau et on recommence (« d'abord ceux qui ont l'eau le plus haut »). Les canetons ne comptent pas pour un demi-panier.
+- **La baignoire** flotte trop loin : il faut la **gaffe du pompier**, qu'on demande en vouvoyant (*Požičiate mi hák?* ; *Požičaj* : « Hasičovi sa vyká »), puis la corde à linge. La souris prête son thermomètre une fois sauvée.
+- **Le portail** : *Nerozumiem, som Francúz* échoue (« Zatvorené. Closed. Fermé. Geschlossen. »). Le panier de canetons devant la caméra fait venir Marek. La grille coulisse (objet à part). Le gardien prend la pose 7 (haussement d'épaules) : sa pose 8 n'est pas utilisée.
+- **Les couvertures** : grande pour les trois lapins, moyenne pour les hérissons, petite pour la souris (*veľká / stredná / malá*). Le thé reste dans les dialogues (pas de distribution). L'allume-cigare de la voiture de Marek recharge le téléphone.
+- **La mesure** : thermomètre + gaffe + corde (combinaison d'inventaire) = la perche. Rivière 9 °C, tuyau 31 °C, puis un choix *studenšia / rovnaká / teplejšia*.
+- **La vidéo** : un panneau de cadrage (cliquer pour placer le cadre, − / + pour zoomer, « Natočiť »). Il faut le tuyau, le thermomètre, la vapeur et la vague verte ; Katka dit ce qui manque. Coût : 1 barre. Ensuite la fenêtre de Marek s'allume ; cliquer : il éteint (carte « Marek nás videl »).
+- **Rendre le thermomètre** à la souris sur le parking avant de partir ; sinon Katka reçoit un SMS (pour l'instant à la fin du ch. 6, pas pendant le ch. 7).
+- **Vendredi matin** : le béton (on y laisse l'empreinte de patte), le site « avant / après » (cliquer *št* sur le nouveau site : 12, puis sur la capture : 42), la question *Kto varoval sivú budovu?* (le maire + le béton), puis l'annonce du prix et les deux cases « Treba » au tableau.
+- Cartes du tableau : `marek`, `para`, `teplota`, `video` (pièce n° 5), `marek_videl`, `beton`, `web_zmena`, `starosta_kecal`, `treba_cisla`, `treba_vnutri`.
+- Pas faits : les animations de pluie dans les projecteurs, la « vague verte éclairée » animée, la fumée des couvertures n'apparaît qu'à deux endroits. Le chat sur l'armoire et la famille de canards sont des figurants.
+- Sons : `docs/Sons-a-chercher.md`, section « Chapitre 6 ». Découpe des images : `python3 tools/cut_v2.py ch6`.
+
 ### Chapitre 7 : Quatre pompes
 
 *La route, vendredi midi. Grammaire : *podľa mňa*, *znamená to, že…*. Pièce n° 6 : le bon de livraison. Suspect à rayer : le chantier. Question du tableau : celle du chapitre 1, qui revient.*

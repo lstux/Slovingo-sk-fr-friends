@@ -65,7 +65,7 @@
     { id: 'ch3', num: 3, title: { sk: 'Raj', fr: 'Le Paradis' }, place: { sk: 'Slovenský raj', fr: 'Paradis slovaque' }, lon: 20.35, lat: 48.93 },
     { id: 'ch4', num: 4, title: { sk: 'Búrka', fr: 'L\'orage' }, place: { sk: 'Vysoké Tatry', fr: 'Hautes Tatras' }, lon: 20.15, lat: 49.16, dy: -14 },
     { id: 'ch5', num: 5, title: { sk: '42 centimetrov', fr: '42 centimètres' }, lon: 19.75, lat: 49.1, dy: 18 },
-    { id: 'ch6', num: 6, title: { sk: 'Povodeň', fr: 'L\'inondation' }, place: { sk: 'Liptov', fr: 'Liptov' }, lon: 19.4, lat: 49.05, dy: -16 },
+    { id: 'ch6', num: 6, title: { sk: 'Brána', fr: 'Le portail' }, place: { sk: 'Liptov', fr: 'Liptov' }, lon: 19.4, lat: 49.05, dy: -16 },
     { id: 'ch7', num: 7, title: { sk: 'Cesta', fr: 'La route' }, lon: 19.15, lat: 48.8, dy: 20 },
     { id: 'ch8', num: 8, title: { sk: 'Dátové centrum', fr: 'Le centre de données' }, lon: 18.95, lat: 48.62, dy: 20 },
     { id: 'ch9', num: 9, title: { sk: 'Baňa', fr: 'La mine' }, place: { sk: 'Banská Štiavnica', fr: 'Banská Štiavnica' }, lon: 18.9, lat: 48.45, dy: 20 },
