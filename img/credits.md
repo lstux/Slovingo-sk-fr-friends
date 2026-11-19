@@ -186,3 +186,60 @@ Dans `img/`, mais utilisées par aucune fiche pour l'instant (remplacées par un
 | Fichier | Source | Auteur | Licence |
 |---------|--------|--------|---------|
 | `map_background.jpg` | *Généré avec ChatGPT (composition) puis Google Gemini (style)* | ChatGPT + Google Gemini | Libre d'usage — généré pour ce projet (2026) |
+
+## Sons du jeu d'aventure (`web-games/aventure/audio/`)
+
+Tous viennent de [Freesound](https://freesound.org) sous licence **CC0** (domaine public : aucun crédit obligatoire, on les cite quand même). Fichiers retouchés pour le jeu : coupés, mis en mono (bruitages), bouclés par fondu enchaîné (ambiances), volume normalisé. `amb/gare.ogg` mélange deux enregistrements (l'annonce est étouffée).
+
+| Fichier | Source | Auteur | Licence |
+|---------|--------|--------|---------|
+| `sfx/pas_dur.ogg` | [Footsteps - Stone, Rock, Concrete, Cement](https://freesound.org/people/SecureSubset/sounds/813622/) | SecureSubset | CC0 |
+| `sfx/pas_herbe.ogg` | [Footsteps_6_Dirt_shoe.wav](https://freesound.org/people/monte32/sounds/353799/) | monte32 | CC0 |
+| `sfx/prise.ogg` | [Item or Material Pickup Pop 1 of 3](https://freesound.org/people/el_boss/sounds/665183/) | el_boss | CC0 |
+| `sfx/mot.ogg` | [cartoon_wink_magic_sparkle.wav](https://freesound.org/people/MLaudio/sounds/511485/) | MLaudio | CC0 |
+| `sfx/page.ogg` | [Page Turn 01](https://freesound.org/people/LilMati/sounds/397548/) | LilMati | CC0 |
+| `sfx/indice.ogg` | [Secret Found](https://freesound.org/people/Qvantor/sounds/878622/) | Qvantor | CC0 |
+| `sfx/non.ogg` | [Bounce](https://freesound.org/people/Jofae/sounds/383240/) | Jofae | CC0 |
+| `sfx/oui.ogg` | [Powerup/success.wav](https://freesound.org/people/GabrielAraujo/sounds/242501/) | GabrielAraujo | CC0 |
+| `sfx/clic.ogg` | [Videogame Menu BUTTON CLICK](https://freesound.org/people/Christopherderp/sounds/342200/) | Christopherderp | CC0 |
+| `sfx/fin_chapitre.ogg` | [Magic mallet.wav](https://freesound.org/people/Hotlavaman/sounds/349201/) | Hotlavaman | CC0 |
+| `sfx/bip.ogg` | [text_click.wav](https://freesound.org/people/metalfortress/sounds/611807/) | metalfortress | CC0 |
+| `amb/train.ogg` | [Ambient Noise - Travel by Train - Around Interlaken, Switzerland](https://freesound.org/people/Erbsland-Music/sounds/628663/) | Erbsland-Music | CC0 |
+| `amb/gare.ogg` | [Railway station](https://freesound.org/people/molkko/sounds/697054/) + [train station announcement.WAV](https://freesound.org/people/hudehel/sounds/565103/) | molkko, hudehel | CC0 |
+| `sfx/distributeur.ogg` | [bus_ticket machine.wav](https://freesound.org/people/13FPanska_Sychra_Petr/sounds/379380/) | 13FPanska_Sychra_Petr | CC0 |
+| `sfx/ticket.ogg` | [Ticket machine printing a ticket](https://freesound.org/people/Licorne_En_Fer/sounds/772976/) | Licorne_En_Fer | CC0 |
+| `amb/tram.ogg` | [Tram Berlin](https://freesound.org/people/SKrafft/sounds/626922/) | SKrafft | CC0 |
+| `sfx/tram_portes.ogg` | [INT-zaviranidveri.wav](https://freesound.org/people/13GPanska_Pechac_Stanislav/sounds/379366/) | 13GPanska_Pechac_Stanislav | CC0 |
+| `sfx/tram_cloche.ogg` | [11-3 Tram bell](https://freesound.org/people/16HPanskaWillheimova_Sara/sounds/497561/) | 16HPanskaWillheimova_Sara | CC0 |
+| `sfx/composteur.ogg` | [Ticket validator.wav](https://freesound.org/people/micadoe/sounds/178713/) | micadoe | CC0 |
+| `amb/rue.ogg` | [summer meadow with wind](https://freesound.org/people/Garuda1982/sounds/639459/) | Garuda1982 | CC0 |
+| `sfx/sonnette.ogg` | [DoorBell Shortened](https://freesound.org/people/jwheeler91/sounds/442280/) | jwheeler91 | CC0 |
+| `sfx/boite.ogg` | [mailbox metal open close](https://freesound.org/people/miacx/sounds/611284/) | miacx | CC0 |
+| `sfx/cle.ogg` | [keys jingle.wav](https://freesound.org/people/jrssandoval/sounds/68139/) | jrssandoval | CC0 |
+| `sfx/portillon.ogg` | [metalDoorSqueak.wav](https://freesound.org/people/TampaJoey/sounds/588510/) | TampaJoey | CC0 |
+| `amb/jardin_soir.ogg` | [Crickets At Night - Raw sound](https://freesound.org/people/Defelozedd94/sounds/522299/) | Defelozedd94 | CC0 |
+| `sfx/interrupteur.ogg` | [Flicking a Switch](https://freesound.org/people/njjjjjjjjjjjjjjjjjjjjjjjj/sounds/566176/) | njjjjjjjjjjjjjjjjjjjjjjjj | CC0 |
+| `amb/jardin_matin.ogg` | [Spring Birds Loop with Low-Cut (New Jersey)](https://freesound.org/people/hargissssound/sounds/345852/) | hargissssound | CC0 |
+| `amb/parc.ogg` | [Park ambience - mostly birds](https://freesound.org/people/Mafon2/sounds/274175/) | Mafon2 | CC0 |
+| `sfx/canard.ogg` | [single quack from a duck](https://freesound.org/people/Mikes-MultiMedia/sounds/418509/) | Mikes-MultiMedia | CC0 |
+| `sfx/gourde.ogg` | [Open cap](https://freesound.org/people/dmnvz/sounds/238823/) | dmnvz | CC0 |
+| `amb/place.ogg` | [Summer atmosphere in a small village in Romania (close to Bacau)](https://freesound.org/people/felix.blume/sounds/234628/) | felix.blume | CC0 |
+| `sfx/goutte.ogg` | [water drop](https://freesound.org/people/florianreichelt/sounds/683102/) | florianreichelt | CC0 |
+| `sfx/echelle.ogg` | [Wood Fall 2.wav](https://freesound.org/people/Manim8/sounds/577455/) | Manim8 | CC0 |
+| `sfx/carnet.ogg` | [dropping notebook.wav](https://freesound.org/people/an_na_ba_na_na/sounds/486377/) | an_na_ba_na_na | CC0 |
+| `sfx/voiture_arrive.ogg` | [Diesel car approaching and stopping briefly before continuing.mp3](https://freesound.org/people/evsecrets/sounds/332642/) | evsecrets | CC0 |
+| `sfx/portiere.ogg` | [car_door_closed.aif](https://freesound.org/people/Heigh-hoo/sounds/9876/) | Heigh-hoo | CC0 |
+| `sfx/voiture_part.ogg` | [Car_StartDriveAway.aif](https://freesound.org/people/kbnevel/sounds/119829/) | kbnevel | CC0 |
+| `amb/guichets.ogg` | [Railway station ticket hall Helsinki.wav](https://freesound.org/people/susipekka/sounds/545157/) | susipekka | CC0 |
+| `sfx/clavier.ogg` | [keyboard_writing](https://freesound.org/people/deleted_user_2902138/sounds/192069/) | deleted_user_2902138 | CC0 |
+| `sfx/tampon.ogg` | [traditional stamp.wav](https://freesound.org/people/I.fekry/sounds/470710/) | I.fekry | CC0 |
+| `sfx/train_part.ogg` | [Train horn, Departs](https://freesound.org/people/OroborosNZ/sounds/141273/) | OroborosNZ | CC0 |
+| `amb/foret.ogg` | [Quiet Spring Woodland Ambience.wav](https://freesound.org/people/ecfike/sounds/160893/) | ecfike | CC0 |
+| `amb/ruisseau.ogg` | [Stream River Water Up Close](https://freesound.org/people/jackthemurray/sounds/433589/) | jackthemurray | CC0 |
+| `amb/gorge.ogg` | [Maronne's river gorge.wav](https://freesound.org/people/bruno.auzet/sounds/701131/) | bruno.auzet | CC0 |
+| `sfx/echelle_metal.ogg` | [Footsteps Metallic Muffled Louder.wav](https://freesound.org/people/RutgerMuller/sounds/50724/) | RutgerMuller | CC0 |
+| `sfx/aigle.ogg` | [Eagle Cry.wav](https://freesound.org/people/kaydinhamby/sounds/381200/) | kaydinhamby | CC0 |
+| `sfx/geai.ogg` | [fugler natt vaar.mp3](https://freesound.org/people/1ratatosk1/sounds/392181/) | 1ratatosk1 | CC0 |
+| `sfx/cailloux.ogg` | [Slow Pebble Tumble.wav](https://freesound.org/people/bbrocer/sounds/398698/) | bbrocer | CC0 |
+| `sfx/baton.ogg` | [wood drop](https://freesound.org/people/CosmoX45/sounds/723568/) | CosmoX45 | CC0 |
+| `amb/nuit_foret.ogg` | [night_forest_owl.WAV](https://freesound.org/people/thom_cookes/sounds/475376/) | thom_cookes | CC0 |

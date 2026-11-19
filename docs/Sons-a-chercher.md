@@ -7,7 +7,7 @@ Tu déposes les fichiers choisis dans `web-games/aventure/audio/` (ou tu me les 
 ## État
 
 - **Faits** (fichiers dans `web-games/aventure/audio/`, crédits dans `img/credits.md`) : sons communs, prologue, chapitres 1, 2 et 3.
-- **Candidats à écouter** : chapitres 4 à 13 et musique, dans `web-games/aventure/audio/_candidats/index.html` (non versionné ; `serve.sh` pour l'ouvrir depuis un téléphone). Faits le 18 nov. d'après l'ancien plan des chapitres.
+- **Candidats à écouter** : chapitres 4 à 13 et musique, dans `web-games/aventure/audio/_candidats/index.html` (non versionné ; `serve.sh` pour l'ouvrir depuis un téléphone). Chapitres 4, 5 et 6 refaits le 19 nov. d'après le plan actuel (tableaux ci-dessous) ; chapitres 7 à 13 et musique : faits le 18 nov. d'après l'ancien plan. Les 50 choix déjà livrés sont présélectionnés sur la page (modifiables).
 - **Pour la session Claude Code locale** : `docs/Sons-session-locale.md` dit quels sons chercher, sous quel nom, et comment les livrer. Tenu à jour à chaque chapitre.
 - **Branchés dans le jeu** (18 nov. 2026, `web-games/aventure/js/sound.js`) : les 13 ambiances et 39 bruitages de `audio/`. Bouton « Son : oui/non » dans l'en-tête (mémorisé).
   - **Ambiance** de chaque décor : tableau `AMB` en haut de `sound.js` (fichier, volume, et petits bruitages au hasard : goutte sur la place, geai en forêt, cailloux dans la gorge).

@@ -19,25 +19,27 @@ Les sons marqués « **branché** » sont déjà appelés par le jeu : dès que 
 
 Mis à jour le 19 nov. 2026 (après le chapitre 6). Les mots-clés et la description sont dans `docs/Sons-a-chercher.md`, section du chapitre.
 
+**19 nov. (session locale)** : candidats prêts pour les chapitres 4 à 6 (3 à 8 par son, tous CC0 Freesound), en attente du choix d'Eric. Rangement réel : `_candidats/amb/<nom>/` et `_candidats/sfx/<nom>/` (un dossier par fichier visé, pas par chapitre), liste dans `_candidats/candidats.tsv`. La page présélectionne les choix déjà livrés (`_candidats/choix.txt`) et « Copier » ne sort que les choix nouveaux ou changés. Les outils (recherche, téléchargement, page, conversion) sont dans `_candidats/outils/` (voir `LISEZMOI.txt`).
+
 ### Chapitre 4 : Búrka (le refuge sous l'orage) — pas branché
 
 Les candidats faits le 18 nov. pour l'ancien plan « Orage » peuvent servir : les renommer selon ce tableau.
 
 | Fichier visé | Type | Statut |
 |---|---|---|
-| `amb/orage_dehors.ogg` | ambiance | à chercher |
-| `amb/orage_dedans.ogg`, `amb/poele.ogg` | ambiances | à chercher |
-| `sfx/tonnerre_proche.ogg`, `sfx/tonnerre_loin.ogg` | bruitages | à chercher |
-| `sfx/panne.ogg` | bruitage | à chercher |
-| `sfx/allumette.ogg`, `sfx/allumette_rate.ogg` | bruitages | à chercher |
-| `sfx/tiroir.ogg`, `sfx/boite_fer.ogg` | bruitages | à chercher |
-| `sfx/bouilloire.ogg`, `sfx/the.ogg` | bruitages | à chercher |
-| `sfx/sac.ogg`, `sfx/coffre.ogg`, `sfx/baskets.ogg` | bruitages | à chercher |
-| `sfx/coups_porte.ogg`, `sfx/porte.ogg`, `sfx/pas_mouille.ogg` | bruitages | à chercher |
-| `sfx/pan_secoue.ogg`, `sfx/chien.ogg` | bruitages | à chercher |
-| `sfx/plancher.ogg`, `sfx/ronfle.ogg`, `sfx/fusible.ogg` | bruitages | à chercher |
+| `amb/orage_dehors.ogg` | ambiance | candidats prêts |
+| `amb/orage_dedans.ogg`, `amb/poele.ogg` | ambiances | candidats prêts |
+| `sfx/tonnerre_proche.ogg`, `sfx/tonnerre_loin.ogg` | bruitages | candidats prêts |
+| `sfx/panne.ogg` | bruitage | candidats prêts |
+| `sfx/allumette.ogg`, `sfx/allumette_rate.ogg` | bruitages | candidats prêts |
+| `sfx/tiroir.ogg`, `sfx/boite_fer.ogg` | bruitages | candidats prêts |
+| `sfx/bouilloire.ogg`, `sfx/the.ogg` | bruitages | candidats prêts |
+| `sfx/sac.ogg`, `sfx/coffre.ogg`, `sfx/baskets.ogg` | bruitages | candidats prêts |
+| `sfx/coups_porte.ogg`, `sfx/porte.ogg`, `sfx/pas_mouille.ogg` | bruitages | candidats prêts |
+| `sfx/pan_secoue.ogg`, `sfx/chien.ogg` | bruitages | candidats prêts |
+| `sfx/plancher.ogg`, `sfx/ronfle.ogg`, `sfx/fusible.ogg` | bruitages | candidats prêts |
 | `amb/cuisine.ogg` | ambiance | voir chapitre 5 (le même fichier) |
-| `amb/matin_tatry.ogg` | ambiance | à chercher |
+| `amb/matin_tatry.ogg` | ambiance | candidats prêts |
 
 ### Chapitre 5 : 42 centimètres (le village) — branché
 
@@ -45,14 +47,14 @@ Les candidats faits le 18 nov. pour l'ancien plan « Domov » (cloches, poules, 
 
 | Fichier visé | Type | Ce qu'on entend | Statut |
 |---|---|---|---|
-| `amb/village.ogg` | ambiance | village calme à midi : oiseaux, poules au loin, vent léger (sert aussi derrière la bergerie) | à chercher |
-| `amb/cuisine.ogg` | ambiance | casserole qui mijote, cuillère, horloge (tic-tac) | à chercher |
-| `sfx/coq.ogg` | bruitage | un cocorico | à chercher |
-| `sfx/cloche_mouton.ogg` | bruitage | cloche de mouton qui tinte (avec ou sans bêlement) | à chercher |
-| `sfx/coucou.ogg` | bruitage | « coucou » d'une horloge (toutes les 16 s dans la cuisine : pas trop fort) | à chercher |
-| `sfx/eau_poklop.ogg` | bruitage (2 à 4 s) | eau qui coule vite dans un tuyau, étouffée, entendue à travers un verre | à chercher |
-| `sfx/tracteur.ogg` | bruitage (3 à 6 s) | vieux tracteur qui passe au loin (quand on clique dessus) | à chercher |
-| `sfx/photo.ogg` | bruitage | déclic d'appareil photo de téléphone | à chercher |
+| `amb/village.ogg` | ambiance | village calme à midi : oiseaux, poules au loin, vent léger (sert aussi derrière la bergerie) | candidats prêts |
+| `amb/cuisine.ogg` | ambiance | casserole qui mijote, cuillère, horloge (tic-tac) | candidats prêts |
+| `sfx/coq.ogg` | bruitage | un cocorico | candidats prêts |
+| `sfx/cloche_mouton.ogg` | bruitage | cloche de mouton qui tinte (avec ou sans bêlement) | candidats prêts |
+| `sfx/coucou.ogg` | bruitage | « coucou » d'une horloge (toutes les 16 s dans la cuisine : pas trop fort) | candidats prêts |
+| `sfx/eau_poklop.ogg` | bruitage (2 à 4 s) | eau qui coule vite dans un tuyau, étouffée, entendue à travers un verre | candidats prêts |
+| `sfx/tracteur.ogg` | bruitage (3 à 6 s) | vieux tracteur qui passe au loin (quand on clique dessus) | candidats prêts |
+| `sfx/photo.ogg` | bruitage | déclic d'appareil photo de téléphone | candidats prêts |
 
 ### Chapitre 6 : Brána (l'inondation, le portail) — branché
 
@@ -60,12 +62,12 @@ Les candidats faits le 18 nov. pour l'ancien plan « Inondation » (pluie, eau q
 
 | Fichier visé | Type | Ce qu'on entend | Statut |
 |---|---|---|---|
-| `amb/inondation.ogg` | ambiance | pluie forte sur de l'eau, courant, sirène très lointaine | à chercher |
-| `amb/pluie_nuit.ogg` | ambiance | pluie de nuit sur l'asphalte, bourdonnement de machines au loin | à chercher |
-| `sfx/eau_tuyau.ogg` | bruitage (2 à 4 s) | gros jet d'eau qui tombe sur des pierres | à chercher |
-| `sfx/kacatka.ogg` | bruitage | piaillements de canetons | à chercher |
-| `sfx/eau_pas.ogg` | bruitage | pas qui pataugent dans l'eau | à chercher |
-| `sfx/eau_monte.ogg` | bruitage | glouglou de l'eau qui monte | à chercher |
+| `amb/inondation.ogg` | ambiance | pluie forte sur de l'eau, courant, sirène très lointaine | candidats prêts |
+| `amb/pluie_nuit.ogg` | ambiance | pluie de nuit sur l'asphalte, bourdonnement de machines au loin | candidats prêts |
+| `sfx/eau_tuyau.ogg` | bruitage (2 à 4 s) | gros jet d'eau qui tombe sur des pierres | candidats prêts |
+| `sfx/kacatka.ogg` | bruitage | piaillements de canetons | candidats prêts |
+| `sfx/eau_pas.ogg` | bruitage | pas qui pataugent dans l'eau | candidats prêts |
+| `sfx/eau_monte.ogg` | bruitage | glouglou de l'eau qui monte | candidats prêts |
 
 ## Déjà livrés (pour mémoire)
 
