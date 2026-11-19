@@ -376,9 +376,26 @@ def fix_ch5():
         _store(n, a)
 
 
+def chapter5b():
+    """Voiture du maire (flip : regarde a gauche sur la planche), fond du site, petites animations."""
+    c = cells(os.path.join(SRC, 'auto_starosta_src.png'), 1, 2)
+    flip = [x.transpose(Image.FLIP_LEFT_RIGHT) for x in c]
+    pair(flip[0], flip[1], 'auto_starosta_a', 'auto_starosta_b', 260)
+    im = Image.open(os.path.join(SRC, 'web_fond_src.png')).convert('RGB')
+    im.save(os.path.join(ART, 'web_fond.webp'), quality=90)
+    c = cells(os.path.join(SRC, 'anim_ch5_src.png'), 4, 2)
+    pair(c[0], c[1], 'fum_a', 'fum_b', 200)
+    pair(c[2], c[3], 'budka_a', 'budka_b', 220)
+    pair(c[4], c[5], 'motyl5_a', 'motyl5_b', 120)
+    single(c[6], 'kvapka', 70)
+    single(c[7], 'kruhy', 60)
+
+
 if __name__ == '__main__':
     import sys
-    if 'ch5' in sys.argv:
+    if 'ch5b' in sys.argv:
+        chapter5b()
+    elif 'ch5' in sys.argv:
         chapter5()
     elif 'ch4' in sys.argv:
         chapter4()
