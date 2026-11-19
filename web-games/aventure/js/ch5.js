@@ -341,7 +341,8 @@
     ],
     ambient: [smoke(1495, 318), { sweep: { area: [770, 150, 1110, 600], period: 11, a: 0.12 } }],
     overlay(c, g, E) {   // le coucou : toutes les 16 secondes, l'oiseau sort et chante
-      const p = (E.t + 6) % 16, show = p < 1.8;
+      const p = (E.t + 6) % 16, show = p < 1.8, n = Math.floor((E.t + 6) / 16);
+      if (show && S.kuchyna5._kuku !== n) { S.kuchyna5._kuku = n; if (S.kuchyna5._kuku0 !== undefined) g.sfx('coucou'); S.kuchyna5._kuku0 = n; }
       if (show) { const im = E.img(p % 0.6 < 0.3 ? 'art/budka_b.png' : 'art/budka_a.png'); if (im && im.naturalWidth) c.drawImage(im, 1212, 58, 76, 72); }
     },
     hotspots: [
@@ -610,7 +611,7 @@
           await say(g, 'fox', 'Cingi-lingi. Celý čas. Mám ešte kúsok kapusty…', 'Ding-ding. Tout le temps. J\'ai encore un bout de chou…');
         } },
       { id: 'traktor', sprite: 'traktor', name: { sk: 'traktor', fr: 'le tracteur' },
-        async onUse(g) { await say(g, 'fox', 'Starý jazvec na traktore. Vrrrm. Pomaly. Veľmi pomaly.', 'Un vieux blaireau sur son tracteur. Vrrrm. Lentement. Très lentement.', [['traktor', 'le tracteur'], ['pomaly', 'lentement']]); } },
+        async onUse(g) { g.sfx('tracteur'); await say(g, 'fox', 'Starý jazvec na traktore. Vrrrm. Pomaly. Veľmi pomaly.', 'Un vieux blaireau sur son tracteur. Vrrrm. Lentement. Très lentement.', [['traktor', 'le tracteur'], ['pomaly', 'lentement']]); } },
       { id: 'sliepky', sprite: 'sliepky', name: { sk: 'sliepky', fr: 'les poules' },
         async onUse(g) { await say(g, 'fox', 'Sliepky. Ticho nepoznajú, ale sú ďaleko.', 'Des poules. Elles ne connaissent pas le silence, mais elles sont loin.'); } },
       { id: 'pradlo', name: { sk: 'bielizeň', fr: 'le linge' }, poly: box(150, 170, 630, 390),

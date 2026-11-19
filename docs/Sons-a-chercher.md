@@ -7,7 +7,8 @@ Tu déposes les fichiers choisis dans `web-games/aventure/audio/` (ou tu me les 
 ## État
 
 - **Faits** (fichiers dans `web-games/aventure/audio/`, crédits dans `img/credits.md`) : sons communs, prologue, chapitres 1, 2 et 3.
-- **Candidats à écouter** : chapitres 4 à 13 et musique, dans `web-games/aventure/audio/_candidats/index.html` (non versionné ; `serve.sh` pour l'ouvrir depuis un téléphone).
+- **Candidats à écouter** : chapitres 4 à 13 et musique, dans `web-games/aventure/audio/_candidats/index.html` (non versionné ; `serve.sh` pour l'ouvrir depuis un téléphone). Faits le 18 nov. d'après l'ancien plan des chapitres.
+- **Pour la session Claude Code locale** : `docs/Sons-session-locale.md` dit quels sons chercher, sous quel nom, et comment les livrer. Tenu à jour à chaque chapitre.
 - **Branchés dans le jeu** (18 nov. 2026, `web-games/aventure/js/sound.js`) : les 13 ambiances et 39 bruitages de `audio/`. Bouton « Son : oui/non » dans l'en-tête (mémorisé).
   - **Ambiance** de chaque décor : tableau `AMB` en haut de `sound.js` (fichier, volume, et petits bruitages au hasard : goutte sur la place, geai en forêt, cailloux dans la gorge).
   - **Pas** de Gab : `pas_dur` (rue, gare, tram, bureau, place, gorge), `pas_herbe` (jardin, parc, forêt, lac, bivouac), `echelle_metal` pendant les escalades.
