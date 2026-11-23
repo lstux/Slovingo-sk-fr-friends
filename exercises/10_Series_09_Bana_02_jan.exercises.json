@@ -180,8 +180,7 @@
       "l2": "Odkiaľ si?",
       "tokens_l1": [
         "D'où",
-        "es-tu",
-        "?",
+        "es-tu ?",
         "Tu",
         "vois",
         "ce",
@@ -214,8 +213,7 @@
         "as",
         "combien",
         "de",
-        "noix",
-        "?"
+        "noix ?"
       ],
       "tokens_l2": [
         "Vidíš,",

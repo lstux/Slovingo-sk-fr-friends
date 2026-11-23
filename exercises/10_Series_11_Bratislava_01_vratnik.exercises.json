@@ -182,9 +182,7 @@
     "Vous",
     "avez",
     "une",
-    "invitation",
-    "?",
-    "–",
+    "invitation ? –",
     "Non.",
     "J'ai",
     "deux",
@@ -192,8 +190,7 @@
    ],
    "tokens_l2": [
     "Máte",
-    "pozvánku?",
-    "–",
+    "pozvánku? –",
     "Nemáme.",
     "Mám",
     "dve",
@@ -212,9 +209,7 @@
     "Vous",
     "avez",
     "une",
-    "invitation",
-    "?",
-    "–",
+    "invitation ? –",
     "Non."
    ],
    "tokens_l2": [
@@ -222,8 +217,7 @@
     "dve",
     "krabice.",
     "Máte",
-    "pozvánku?",
-    "–",
+    "pozvánku? –",
     "Nemáme."
    ]
   },

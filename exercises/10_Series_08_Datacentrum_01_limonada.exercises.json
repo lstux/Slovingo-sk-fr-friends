@@ -181,8 +181,7 @@
       "tokens_l1": [
         "Bienvenue",
         "à",
-        "Košice",
-        "!",
+        "Košice !",
         "Il",
         "pleut,",
         "c'est",
@@ -219,11 +218,9 @@
         "Bienvenue",
         "chez",
         "Zelená",
-        "vlna",
-        "!",
+        "vlna !",
         "Une",
-        "limonade",
-        "?"
+        "limonade ?"
       ],
       "tokens_l2": [
         "S",

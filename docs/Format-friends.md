@@ -251,7 +251,7 @@ Comme dans Kids, les exercices sont **écrits à la main** dans `exercises/<nom 
 - **Une seule bonne réponse** ; même forme (un mot contre des mots, une phrase contre des phrases de longueur proche).
 - **Distracteurs utiles** : ils ciblent les vraies confusions d'un francophone (*rád* / *rada*, *veľa* / *veľmi*, *pätnásť* / *päť*).
 - **Textes à trous** (`fill-blank`) : `"show_translation": true`, ponctuation autour du trou.
-- **Remettre en ordre** : au moins 3 étiquettes de chaque côté.
+- **Remettre en ordre** : au moins 3 étiquettes de chaque côté, la ponctuation collée à son mot, et quelques mots parasites à la fin, jamais aucun (mots isolés de la fiche, sinon de la série ou du cours). `python3 src/order_tokens.py --lang-dir ../Slovingo-sk-fr-friends --parasites 2-3 --apply` (repo Slovingo) les ajoute là où il en manque.
 - **Prénom** : `[USER_NAME]` n'est jamais un trou ni une réponse.
 - **Les 5 types** quand la fiche s'y prête (qcm, fill-blank, listen, order, match) ; l'écoute 🔊 est le plus utilisé.
 - Chaque exercice reprend **mot pour mot** une paire de la fiche (mots du tableau ou répliques), jamais un mot de décor « Pour comprendre ».
