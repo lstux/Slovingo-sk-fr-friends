@@ -123,12 +123,14 @@
       "tokens_l1": [
         "Bratislava",
         "est",
-        "à l'ouest."
+        "à l'ouest.",
+        "l'est"
       ],
       "tokens_l2": [
         "Bratislava",
         "je",
-        "na západe."
+        "na západe.",
+        "východe"
       ]
     }
   ]

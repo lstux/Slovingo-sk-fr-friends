@@ -15,7 +15,7 @@
     {"id": "match-zaklady", "type": "match", "l1": ["oui", "non", "merci", "pardon"], "l2": ["áno", "nie", "ďakujem", "prepáč"]},
     {"id": "match-cisla", "type": "match", "l1": ["deux", "cinq", "sept", "dix"], "l2": ["dva", "päť", "sedem", "desať"]},
     {"id": "blank-to-je-moj-kamarat", "type": "fill-blank", "l1": "C'est mon copain.", "l2": "To je môj kamarát.", "missing_l1": "mon", "missing_l2": "môj", "blank_index_l1": 1, "blank_index_l2": 2, "choices_l1": ["ma", "ton", "ta"], "choices_l2": ["moja", "tvoj", "tvoja"], "show_translation": true},
-    {"id": "order-to-je-moj-kamarat", "type": "order", "l1": "C'est mon copain.", "l2": "To je môj kamarát.", "tokens_l1": ["C'est", "mon", "copain."], "tokens_l2": ["To", "je", "môj", "kamarát."]},
-    {"id": "order-mam-desat-rokov", "type": "order", "l1": "J'ai dix ans.", "l2": "Mám desať rokov.", "tokens_l1": ["J'ai", "dix", "ans."], "tokens_l2": ["Mám", "desať", "rokov."]}
+    {"id": "order-to-je-moj-kamarat", "type": "order", "l1": "C'est mon copain.", "l2": "To je môj kamarát.", "tokens_l1": ["C'est", "mon", "copain.", "ça"], "tokens_l2": ["To", "je", "môj", "kamarát.", "sa"]},
+    {"id": "order-mam-desat-rokov", "type": "order", "l1": "J'ai dix ans.", "l2": "Mám desať rokov.", "tokens_l1": ["J'ai", "dix", "ans.", "va", "ça"], "tokens_l2": ["Mám", "desať", "rokov.", "sa", "máš"]}
   ]
 }
