@@ -866,7 +866,7 @@ Me renvoyer les images ; je les découpe (`python3 tools/cut_v2.py ch6`) et je l
 
 # Chapitre 7 « Štyri čerpadlá » (19 nov. 2026)
 
-La route, vendredi midi : le chantier de la nouvelle route, puis la cabine du camion de Ferko. **Nouvelle conversation ChatGPT**, dans l'ordre 55 → 62.
+La route, vendredi midi : le chantier de la nouvelle route, puis la cabine du camion de Ferko. **Une seule conversation ChatGPT pour tout le chapitre**, dans l'ordre 55 → 62 : les images de référence restent disponibles d'un prompt à l'autre. Quand un prompt a des références, c'est **une seule image** à joindre (`sources/refs/NN.jpg`, références numérotées), avec un lien direct pour l'enregistrer depuis le téléphone.
 
 Choix faits pour limiter les images :
 - **La cabine n'est pas un décor où l'on marche** : c'est une image fixe 16:9 (comme les illustrations du cours), avec toute la bande **déjà assise** dedans. On clique sur les objets, pas de déplacement. Deux versions de la même image : normale, et « le silence » (après la gaffe de Katka).
@@ -877,12 +877,12 @@ Choix faits pour limiter les images :
 
 ## 55. Le chantier de la nouvelle route : `sources/stavba_wide_src.png` (décor 3:1)
 
-**À joindre** : `sources/dedina_zadok_wide_src.png` (style d'un décor de ce jeu) et `img/illus_07_cesta.jpg` (le lieu, dans le cours).
+**À joindre (une seule image)** : `sources/refs/55.jpg` ([lien direct](https://raw.githubusercontent.com/lstux/slovingo-sk-fr-friends/main/web-games/aventure/art/sources/refs/55.jpg)) : 1 = un décor du jeu (le style), 2 = l'illustration du cours (le lieu).
 
 Disposition, de gauche à droite : la route neuve qui arrive (asphalte noir tout frais, bas-côtés de gravier) ; la forêt coupée sur la pente (souches) ; un préfabriqué de chantier blanc avec **une grande horloge ronde** au mur et une table à tréteaux devant ; une palette de sacs de ciment ; au fond une pelleteuse jaune à l'arrêt ; à droite, **le camion de Ferko** garé, cabine vers la droite, prêt à partir.
 
 ```
-Use the first attached image (a background of the same game) as the reference for the drawing style, the colours and the level of detail. Use the second attached image (an illustration of the same story) for the place only (do not draw its characters).
+The attached reference sheet contains numbered images. Use image 1 (a background of the same game) as the reference for the drawing style, the colours and the level of detail. Use image 2 (an illustration of the same story) for the place only (do not draw its characters). Do not copy the numbers or the dark bands of the sheet.
 
 Scene: a road construction site in a Slovak forest at noon, drawn as the long scrolling background of a point-and-click adventure game, as a very wide panoramic image in 3:1 format (3072x1024 pixels), seen from the front, bright midday light after a storm, a few clouds, wet ground. From left to right: a brand-new road arriving from the left, fresh black asphalt with gravel shoulders; on the slope behind it, a cut forest with many tree stumps and a few logs, the green forest still standing higher up; a small white prefab site office (container) with a door and a window, a big round wall clock on its front wall (simple hands, no numbers, only tick marks), a wooden trestle table in front of it; a wooden pallet stacked with paper cement bags (plain, no writing); further back, a yellow excavator standing still, its arm lowered; on the right, a big truck parked on the road, cab on the right side, a closed box trailer, the driver's door closed, ready to leave (no logo, no writing, no number plate text). The scene is EMPTY (no people, no animals). The lower third along the whole width is open ground (asphalt, gravel, packed earth), because characters will walk there. No text, no letters, no numbers, no signs with writing, no logos.
 
@@ -893,12 +893,12 @@ Style: Classic 2D hand-drawn animated-film style (not 3D): clean ink outlines, f
 
 ## 56. La cabine du camion : `sources/kabina_src.png` (image fixe 16:9)
 
-**À la suite. À joindre** : `img/illus_07_kabina.jpg` (la composition et le chauffeur), `sources/gab_sheet_src.png`, `sources/andrea_sheet_src.png`, `sources/katka_sheet_src.png`, `sources/mato_sheet_src.png` (les personnages tels qu'ils sont dans le jeu).
+**À la suite. À joindre (une seule image)** : `sources/refs/56.jpg` ([lien direct](https://raw.githubusercontent.com/lstux/slovingo-sk-fr-friends/main/web-games/aventure/art/sources/refs/56.jpg)) : 1 = l'illustration du cours (composition, chauffeur), 2 à 5 = Gab, Andrea, Katka, Maťo dans le jeu.
 
 ```
-Draw the inside of the truck cab, in the composition of the first attached image (camera on the dashboard, looking back at the people sitting in the cab), but with the characters drawn EXACTLY as in the other attached sprite sheets of the game: the fox Gab (blue hoodie), the hare Andrea (green T-shirt, bag strap), the small marmot-like girl Katka (purple hoodie, headphones around her neck, NO big front teeth), the big bear Maťo (green and brown checked shirt). The driver on the right is the bearded man in a cap of the first image (red checked shirt, brown vest), both hands on the steering wheel, looking at the road.
+The attached reference sheet contains numbered images. Draw the inside of the truck cab, in the composition of image 1 (camera on the dashboard, looking back at the people sitting in the cab), but with the characters drawn EXACTLY as in the sprite sheets 2 to 5 of the game (do not copy the numbers, the dark bands or the green backgrounds): the fox Gab (blue hoodie), the hare Andrea (green T-shirt, bag strap), the small marmot-like girl Katka (purple hoodie, headphones around her neck, NO big front teeth), the big bear Maťo (green and brown checked shirt). The driver on the right is the bearded man in a cap of image 1 (red checked shirt, brown vest), both hands on the steering wheel, looking at the road.
 Landscape 16:9 (1672x941 pixels). From left to right: a side window with a green summer landscape and a road; Andrea, Gab, Katka sitting close together on the bench seat, Maťo squeezed behind them (too big for the cab, head almost touching the roof); the driver at the wheel on the right; a windscreen on the far right showing the road. In the foreground, the dashboard across the whole width: a small EMPTY digital display (no digits), a cigarette-lighter socket, a cup holder with a thermos, and an empty flat spot on the left of the dashboard (something will be placed there). Under the bench, the edge of an old cardboard box is visible. NO air freshener and NO figurine (they will be added separately). Warm, cosy light. Everyone looks happy and chatty.
-Style: same clean 2D hand-drawn animated-film style as the attached images. No text, no letters, no numbers, no logos, no watermark.
+Style: same clean 2D hand-drawn animated-film style as the reference images. No text, no letters, no numbers, no logos, no watermark.
 ```
 
 À vérifier : **Katka sans grandes dents** (comme dans le jeu), Maťo trop grand pour la cabine, la place vide sur le tableau de bord, l'écran vide, la boîte sous la banquette.
@@ -915,12 +915,12 @@ Keep this image exactly the same (same framing, same cab, same light, same posit
 
 ## 58. Le chef de chantier et Ferko : `sources/stavbyveduci_ferko_sheet_src.png` (planche de poses)
 
-**Nouvelle conversation ou à la suite. À joindre** : `sources/pan_sheet_src.png` (le style des humains de ce jeu), `img/illus_07_cesta.jpg` (le chef au casque jaune) et `img/illus_07_kabina.jpg` (Ferko).
+**À la suite. À joindre (une seule image)** : `sources/refs/58.jpg` ([lien direct](https://raw.githubusercontent.com/lstux/slovingo-sk-fr-friends/main/web-games/aventure/art/sources/refs/58.jpg)) : 1 = les humains du jeu (le style), 2 = le chef au casque jaune, 3 = Ferko.
 
 ```
-Use the first attached image as the reference for how humans are drawn in this game: very simple cartoon shapes, flat colours, small simple eyes, few lines on the face. Create a character pose sheet: 3:1 format (3072x1024 pixels), 4 columns x 2 rows of equal cells, full body, same scale, feet on the same baseline near the bottom of each cell, nothing touching the cell borders, no cell borders drawn, pure green #00FF00 background, no text.
-TOP ROW, 4 poses of the same man: the site manager of the second attached image, about fifty, a yellow hard hat, an orange safety vest over a grey shirt, work trousers, boots, a calm and patient face: 1 unfolding a big paper plan with both arms (the plan is plain, no drawing on it); 2 pointing at the plan held in one hand; 3 arms crossed, smiling, a little ironic; 4 waving goodbye.
-BOTTOM ROW, 4 poses of the same man: Ferko, the truck driver of the third attached image, about forty, a cap, a short beard, a red checked shirt, a brown vest, jeans, a big friendly face: 5 eating a big sandwich; 6 laughing, reading something in front of him; 7 pointing down at someone's shoes, frowning; 8 beckoning with one hand ("come on, get in").
+The attached reference sheet contains numbered images. Use image 1 as the reference for how humans are drawn in this game: very simple cartoon shapes, flat colours, small simple eyes, few lines on the face. Create a character pose sheet: 3:1 format (3072x1024 pixels), 4 columns x 2 rows of equal cells, full body, same scale, feet on the same baseline near the bottom of each cell, nothing touching the cell borders, no cell borders drawn, pure green #00FF00 background, no text.
+TOP ROW, 4 poses of the same man: the site manager of image 2 (the man in the yellow hard hat), about fifty, a yellow hard hat, an orange safety vest over a grey shirt, work trousers, boots, a calm and patient face: 1 unfolding a big paper plan with both arms (the plan is plain, no drawing on it); 2 pointing at the plan held in one hand; 3 arms crossed, smiling, a little ironic; 4 waving goodbye.
+BOTTOM ROW, 4 poses of the same man: Ferko, the truck driver of image 3 (the man at the wheel), about forty, a cap, a short beard, a red checked shirt, a brown vest, jeans, a big friendly face: 5 eating a big sandwich; 6 laughing, reading something in front of him; 7 pointing down at someone's shoes, frowning; 8 beckoning with one hand ("come on, get in").
 All facing RIGHT. IMPORTANT: no green on the characters.
 ```
 
